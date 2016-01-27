@@ -1,0 +1,557 @@
+title=Paris Sightseeing Tour FOXITY
+url=http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour.php
+html=ï»¿
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+ 
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+ 
+<head>
+
+	<title>Paris Sightseeing Tour FOXITY</title>
+    <meta name="description" content="Visit Paris with the Sightseeing City Tour Foxity - Guided tour of Paris by double-decker bus" />
+	<meta name="keywords" content="Foxity, Visit Paris, Touristic bus Paris, Paris City Tour, Paris Tour, Paris sightseeing tour, double-decker bus" />
+    <meta name="robots" content="index,follow"/>  
+	
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<link rel="icon" href="" type="image/gif" alt="icone" />
+	<link href="../foxity.css" rel="stylesheet" type="text/css" />
+	
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js"></script>
+
+</head>
+
+<body>
+
+
+<div id="bandeau" style="width:100%;">
+	<a href="http://www.foxity.com/mobile/index.php?lg=en">
+		<div id="bandeau_sup_mobile">
+			<p>You are currently on a standard version of our website. You can adapt it with the mobile and tablet version clicking <span>HERE</span></p>
+		</div>
+	</a>
+	
+	<!--<a href="http://www.foxity.com/">
+		<img src="http://www.foxity.com/images/logo.png" style="float:left;border:none;" alt="Foxity home Page" title="Foxity home page" />
+	</a>-->
+		
+	<!--<div id="titre_site">
+		<h1>FOXITY PARIS CITY SIGHTSEEING TOUR - <small>Paris double decker panoramic bus, air conditionned, heated in winter, covered in case of rain</small></h1>
+		<h2>
+		Visit Paris by double-decker bus - 1 day Pass City Tour "hop on hop off" - Paris Illuminations Tour - Bus and Seine cruise tours - Double decker bus rental in Paris<br />
+		</h2>
+	</div>-->
+	
+	<div id="titre_site" style=" background-color:#6E61B0;color:#FFF;width:100%;margin:0;padding:0;">
+		<h1>FOXITY PARIS CITY SIGHTSEEING TOUR - <small>Paris double decker panoramic bus, air conditionned, heated in winter, covered in case of rain</small></h1>
+		<h2>Visit Paris by double-decker bus - 1 day Pass City Tour "hop on hop off" - Paris Illuminations Tour - Bus and Seine cruise tours - Double decker bus rental in Paris</h2>
+	</div>
+	<center>	
+	<img src="http://www.foxity.com/images/bandeau_haut_2014.jpg" alt="Bus turistico Paris City Tour Foxity" title="Bus turistico Paris City Tour Foxity" />
+	</center>	
+</div>
+	
+<div id="langues">
+	
+	<div style="float:left;width:150px;">
+		<p style="padding:3px 0;margin:0;">
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour.php"><img src="http://www.foxity.com/images/en.png" style="width:24px;height:15px;border:1px solid #FFF;" /></a>&nbsp;&nbsp;
+			<a href="http://www.foxity.com/"><img src="http://www.foxity.com/images/fr.png" style="border:1px solid #FFF;width:24px;height:15px;" /></a>&nbsp;&nbsp;
+			<a href="http://www.foxity.com/visita-paris-en-bus-turistico/paris-city-tour.php"><img src="http://www.foxity.com/images/es.png" style="border:1px solid #FFF;width:24px;height:15px;" /></a>
+		</p>
+		
+	</div>
+	
+	<!--ZONE AFFICHAGE CONNEXION COMPTE PRO-->
+		<div id="partenaire_haut" style="float:left;">
+			<script type="text/javascript" src="http://www.beenbiz.com/fct75/partner-alerte-connection-js.php?lg=EN"></script>
+		</div>
+	<!--/-->
+	
+	<div style="float:right;width:450px;height:20px;">
+		<p style="padding:5px;margin:0;" align="right">
+			<big>
+				[ <a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/faq.php">F.A.Q.</a> ]&nbsp;
+				<!--[ <a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/contact.php">Contact</a> ]&nbsp;-->
+				[ <a href="mailto:info@foxity.com">Contact</a> ]&nbsp;
+				[ <a href="http://www.foxity.com/panier.php?lg=en">Your cart</a> ]&nbsp;
+				[ <a href="http://www.foxity.com/client.php?lg=en">Client account</a> ]
+			</big>
+		</p>
+	</div>
+		
+</div>
+
+<script type="text/javascript" src="http://www.foxity.com/js/detectmobilebrowser.js"></script>
+
+<script type="text/javascript">
+$( document ).ready(function() {
+	function getCookie(cname) {
+		var name = cname + "=";
+		var ca = document.cookie.split(';');
+		for(var i=0; i<ca.length; i++) {
+			var c = ca[i];
+			while (c.charAt(0)==' ') c = c.substring(1);
+			if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+		}
+		return 'null';
+	}
+	
+	//function isTouchDevice() { return 'ontouchstart' in window || !!(navigator.msMaxTouchPoints);}
+	
+	var is_mobile = false;
+	if(detect_mobile()) {
+		is_mobile = true;
+	}
+	
+	var cookie_redirect = getCookie('redirect');
+	var racine = "http://www.foxity.com/";
+	var lg = "en";
+	
+	if(cookie_redirect == 'null'){
+		cookie_redirect = true;
+	}
+	
+	if(is_mobile && cookie_redirect == true){
+		window.location.href = racine+'session_mobile.php?redirect=true&lg='+lg;
+	}
+	else if(is_mobile && cookie_redirect != true){
+		$('#bandeau_sup_mobile').css('display', 'block');
+	}
+});
+</script>	
+
+	<div style="clear:both;"></div>
+	
+	
+	<div id="menu">
+		
+		<ul>
+
+			<div style="width:40px;margin:0;padding:0;float:left;"><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour.php"><img src="http://www.foxity.com/images/menu/home.png" style="border:none;margin-top:3px;"></a></div>
+			<li style="border-left:1px solid #FFF;"><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-city-tour-concept.php" title="Low cost Concept Foxity">Foxity Concept</a></li>
+			<!--<li><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/advantages-city-tour-foxity.php" title="Advantages of the Foxity Paris City Tour" >Foxity Advantages</a></li>-->
+			<li><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-paris-tour.php" title="Itinerary of the Foxity Paris City Tour">Paris City Tour</a></li>
+			<li><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-departure-points.php" title="Foxity departure points">Departure Points</a></li>
+			<li><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-timetable.php" title="Foxity Paris City Tour timetable">Timetable</a></li>
+			<li><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php" title="Book the Foxity Paris City Tour">Book online</a></li>
+			<li><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/double-decker-bus-rental.php" title="Double decker bus rental in Paris">Rent our buses</a></li>
+			<li><a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-agency.php" title="Paris Foxity Agency">Foxity Agency</a></li>			
+		</ul>
+		
+	</div>
+	
+		
+	
+	
+	<div id="conteneur_global" style="margin-top:0;padding:0;">
+	
+		<!--INSERTION CAROUSSEL D'IMAGES-->
+		<!--<iframe src="http://www.foxity.com/slides/caroussel/index_fr.php" height="230" width="960" frameborder="0"></iframe>-->
+		<img src="http://www.foxity.com/images/bandeau_images.jpg">
+		<!--<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php">
+			<img src="http://www.foxity.com/slides/caroussel/img/slide_reveillon_en.jpg" style="margin-top:4px;">
+		</a>-->
+
+
+		
+		
+<!--****ZONE GAUCHE************************************-->
+		<div id="gauche_commun" style="margin-top:0;padding-top:0;">
+		
+	<!--****ZONE PRODUITS********************************************-->					
+				<div class="titre_para" style="margin:0;">
+						<h2>VISIT PARIS WITH THE FOXITY DOUBLE DECKER BUS</h2>
+				</div>
+				
+				<div id="blocs_produits">
+					<div class="cadre_produit" >
+						<img src="http://www.foxity.com/images/produits/foxity_tour.jpg" alt="Paris City Tour Foxity" title="Paris City Tour Foxity" />
+						<div class="texte_prod">
+							<h3 style="line-height:18px;">2H00 PARIS CITY TOUR ................&nbsp;&nbsp;<span class="violet"><big>17â¬</big></span></h3>
+							<h4>Tour of 40 essentiels monuments and sites</h4>
+							<p>Daytime Paris sightseeing tour in new double-decker, open top buses. Two hours Essentials Tour with commentary available in 9 languages ...</p>
+						</div>
+						<p class="right">
+							<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT">
+								<input type="button" class="bouton_orange" value="Book on line" onclick="window.location.href('http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT')" alt="Visit Paris by double-decker bus" title="Visit Paris by double-decker bus">
+							</a>
+						</p>
+						<div style="clear:both"></div>
+					</div>
+					
+					<div class="cadre_produit" >
+						<img src="http://www.foxity.com/images/produits/pass_city_tour_en.jpg" alt="Pass City Tour 1 day Foxity" title="Pass City Tour 1 day Foxity" />
+						<div class="texte_prod">
+							<h3 style="line-height:18px;">PASS CITY TOUR 1 DAY ................&nbsp;&nbsp;<span class="violet"><big>20â¬</big></span></h3>
+							<h4>"Hop on Hop off" Tour</h4>
+							<p>Move around in Paris in our convertible double-deckers. Hop on and hop off at your wish during 1 day. Eight different stops inside Paris ...</p>
+						</div>
+						<p class="right">
+							<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PASS">
+								<input type="button" class="bouton_orange" value="Book on line" onclick="window.location.href('http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PASS')" alt="Pass City Tour Hop on Hop off to visit Paris" title="Pass City Tour Hop on Hop off to visit Paris">
+							</a>
+						</p>
+						<div style="clear:both"></div>
+					</div>
+					
+					<div class="cadre_produit" >
+						<img src="http://www.foxity.com/images/produits/paris_by_night_tour_en.jpg" alt="Paris Illuminations - Paris Night Tour visit" title="Paris Illuminations - Paris Night Tour visit" />
+						<div class="texte_prod">
+							<h3 style="line-height:18px;">PARIS BY NIGHT TOUR ................&nbsp;&nbsp;<span class="violet"><big>22â¬</big></span></h3>
+							<h4>Paris illuminations at 19h30 or 21h30</h4>
+							<p>Discover the magic of Paris, the city of lights, by night ! Year-round comfort guaranteed !</p>
+						</div>
+						<p class="right">
+							<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#ILLU">
+								<input type="button" class="bouton_orange" value="Book on line" onclick="window.location.href('http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#ILLU')" alt="Paris Night illuminations Tour" title="Paris Night illuminations Tour">
+							</a>
+						</p>	
+						<div style="clear:both"></div>						
+					</div>
+					
+					<!--<div class="cadre_produit" style="margin-left:0;">
+						<h3 style="line-height:18px;">BUS & BOAT ........................&nbsp;&nbsp;<span class="violet"><sup style="text-decoration:line-through;"> 30&euro; </sup>&nbsp;<big>26â¬</big></span></h3>
+						<h4>2H00 Foxity tour + 1h Seine Cruise</h4>
+						<p>
+						<img src="http://www.foxity.com/images/produits/city_tour_and_boat.jpg" alt="Paris City Tour and Seine cruise" title="Paris City Tour and Seine cruise" />
+						Wild savings when you combine a Seine River cruise, boarding at the Eiffel Tower, with a 2 hours Paris City Tour in an open-air Foxity bus...<br />
+						</p>
+						<p class="right">
+							<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT_CRO">
+								<input type="button" class="bouton_orange" value="Book on line" onclick="window.location.href('http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT_CRO')" alt="Paris sightseeing Tour and Seine cruise" title="Paris sightseeing Tour and Seine cruise">
+							</a>
+						</p>					
+					</div>-->
+					
+					
+					<div class="cadre_produit">
+						<img src="http://www.foxity.com/images/produits/pass_croisiere.jpg" alt="Pass City Tour and cruise" title="Pass City Tour and cruise" />
+						<div class="texte_prod">
+							<h3 style="line-height:18px;">PASS 1 DAY &  CRUISE ..............&nbsp;&nbsp;<span class="violet"><sup style="text-decoration:line-through;"> 34&euro; </sup>&nbsp;<big>30â¬</big></span></h3>
+							<h4>1 day Pass City Tour + 1h Seine cruise</h4>
+							<p>Hungry to visit Paris ? With this package deal, save time and money ! enjoy Paris by bus during 1 day + a 1h cruise by the Seine boarding at the Eiffel Tower !</p>
+						</div>
+						<p class="right">
+							<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT_SN">
+								<input type="button" class="bouton_orange" value="Book on line" onclick="window.location.href('http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT_SN')" alt="Paris Tour by bus and snacking cruise" title="Paris Tour by bus and snacking cruise">
+							</a>
+						</p>
+						<div style="clear:both"></div>
+					</div>
+					
+					
+					<div class="cadre_produit" >
+						<img src="http://www.foxity.com/images/produits/excursions.jpg" alt="Tours in France" title="Tours in France" />
+						<div class="texte_prod">
+							<h3 style="line-height:18px;">TOURS IN FRANCE FROM PARIS</h3>
+							<h4><small>VERSAILLES - CHATEAUX DE LA LOIRE - MONT ST MICHEL - ...</small></h4>
+							<p>Foxity propose you to discover France from Paris avec France Tourisme. Half or Full day tours...</p>
+						</div>
+						<p class="right">
+							<a href="http://www.francetourisme.fr/tour-day-trip-france.html?aff=foxity" target="_blank">
+								<input type="button" class="bouton_orange" value="Discover our tours" onclick="window.location.href('http://www.francetourisme.fr/tour-day-trip-france.html?aff=foxity')" alt="Tours in France" title="Tours in France">
+							</a>
+						</p>	
+						<div style="clear:both"></div>
+					</div>
+					
+					<!--<div class="cadre_produit">
+						<h3>CITY TOUR & SNACKING CRUISE</h3>
+						<h4>Snack by the Seine + 1h30 Foxity Tour</h4>
+						<p>
+						<img src="http://www.foxity.com/images/produits/city_tour_croisiere_snacking.jpg" alt="Paris City Tour and Snacking cruise" title="Paris City Tour and Snacking cruise" />
+						Hungry to visit Paris ? With this package deal, save time and money ! enjoy Paris by bus + cruise with a snack!
+						</p>
+						<p class="right">
+							<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT_SN">
+								<input type="button" class="bouton_orange" value="Book on line" onclick="window.location.href('http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php#PCT_SN')" alt="Paris Tour by bus and snacking cruise" title="Paris Tour by bus and snacking cruise">
+							</a>
+						</p>
+					</div>-->
+					
+					<!--<div class="cadre_produit" style="padding:1px 5px;border:none;">
+						<a href="http://www.francetourisme.fr/index_en.html?prov=foxity" target="_blank">
+						<img src="http://www.foxity.com/images/produits/banniere_FT_en.jpg" style="width:100%;height:100%;border:none;margin:0;" alt="Tours in france departure from Paris" />
+						</a>
+					</div>-->
+				</div>
+				
+				<!--<div style="float:left;text-align:center;width:300px;margin-top:10px;">
+					<h3 style="background:none;">City Tour Foxity Informations</h3>
+					<br />
+					<img src="http://www.foxity.com/images/logo_phone_foxity.jpg" alt="contact Foxity" />	
+				</div>-->
+				
+				
+				<div style="clear:both;height:10px;"></div>
+				
+				<!--<a href="http://www.francetourisme.fr/new-years-eve-paris.html?prov=foxity" target="_blank">
+				<img src="http://www.foxity.com/images/produits/banniere_reveillon_en.jpg" alt="New Year's Eve in Paris Offers" style="margin:0 0 0 5px;border:1px solid #000;" />
+				</a>-->
+
+	<!--****ZONE AVANTAGES***************************************************************-->
+				
+				<div class="titre_para">
+						<h2>ADVANTAGES OF A PARIS CITY SIGHTSEEING TOUR WITH FOXITY</h2>
+				</div>
+				
+				<p class="pplus">A unique "Low Cost" concept for unique advantages! Visit Paris in brand new open top double-decker buses... 
+				with a transparent roofâ¦retractable windows and top deck heating !<br />
+				2 hours of pure pleasure whatever the weather, FOXITY , the smartest way to visit Paris !
+				</p>
+				
+				<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_gratuit_enfants.png" style="width:50px;height:50px;" />
+						<strong>Special price for every child from 4 to 11 years old included per paying adult. Free for -4 years old.</strong>
+						</p>	
+					</div>
+				</div>
+				
+				<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_low_cost.png" style="width:50px;height:50px;" />
+						<br />
+						<strong>The Best of Paris at "low cost" prices</strong>
+						</p>	
+					</div>
+				</div>
+				
+				<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_photo.png" style="width:50px;height:50px;" />
+						<br />
+						<strong>40 monuments to see and photograph in 2 hours</strong>
+						</p>	
+					</div>
+				</div>
+				
+				<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_croisiere.png" style="width:50px;height:50px;" />
+						<br />
+						<strong>Unbeatable prices > FOXITY + cruise on the Seine</strong>
+						</p>	
+					</div>
+				</div>
+				
+				<!--<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_prix_speciaux.png" style="width:50px;height:50px;" />
+						<br />
+						<strong>Special prices for under 25s and over 65s</strong>
+						</p>	
+					</div>
+				</div>-->
+				
+				<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_meteo.png" style="width:50px;height:50px;" />
+						<br />
+						<strong>New, environmentally friendly buses (Euro 5 standards)</strong>
+						</p>	
+					</div>
+				</div>
+				
+				<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_handicap.png" style="width:50px;height:50px;" />
+						<br />
+						<strong>A place suitable for People with Reduced Mobility on the lower deck</strong>
+						</p>	
+					</div>
+				</div>
+				
+				<div id="avantages">
+					<div class="cadre_produit">
+						<p>
+						<img src="http://www.foxity.com/images/avantages/picto_depart.png" style="width:50px;height:50px;" />
+						<br />
+						<strong>Different departure points in the center of Paris</strong>
+						</p>	
+					</div>
+				</div>
+				
+		<div style="clear:both;"></div>
+		
+	<!--****ZONE ESSENTIELS***************************************************************-->
+				
+				<div class="titre_para">
+						<h2>DISCOVER 40 PARIS MONUMENTS - THE ESSENTIAL TOUR</h2>
+				</div>
+				
+				<p class="pplus">
+					An ideal tour length for children, approximately 2h00, an optimised excursion for adults, with no time 
+					wasted and with the guarantee of seeing the best of Paris > the 40 most beautiful monuments.
+					<br />
+					<strong>Foxity Tour, the maximum at the best price !</strong><br />
+					<img src="http://www.foxity.com/images/essentiel.png" />
+				</p>
+				
+				
+		</div>
+		
+<!--****ZONE DROITE***************************************************************-->
+		
+		<div id="droite_commun_en" style="margin-top:0;">
+			
+			<div id="calendrier">
+			
+<!--SCRIPT INSERTION CALENDRIER DE RESERVATION-->	
+			
+			ï»¿
+
+				<h3 style="margin-bottom:15px;">EXPRESS BOOKING</h3>
+					
+					<script type="text/javascript">
+					function montreFrame(n){
+						var url_panier = "http://www.foxity.com/panier.php?lg=en";
+						var url = "http://www.beenbiz.com/francetourisme/prd.php?&lg=en&urlpanier="+url_panier+"&id="+n+"&css=catalogue-foxity";
+						document.getElementById("monFrame").src = url;
+					}
+					</script>
+					
+					<p class="pplus" style="color:#FFF;">1- Select your Tour</p>
+					<p>
+					<select onchange="montreFrame(this.value)" style="background-color:#FFCC99;color:#000;font-size:12px;border:1px solid #FFF;">
+						
+<option value="1617" selected>&bull; Pass City Tour 1 day</option>
+<option value="1585">&bull; Complete City Tour of 2h00</option>
+<option value="1580">&bull; Paris Night Tour at 7:30pm</option>
+<option value="1582">&bull; Paris Night Tour at 9:30pm</option>
+<option value="926">&bull; Pass City Tour + Seine cruise</option>					</select>
+					</p>
+					
+					<p class="pplus" style="color:#FFF;margin:15px 0 0 0;">2 - Select the date</p>
+					<div style="margin:0;padding:0;"><iframe id="monFrame" src="http://www.beenbiz.com/francetourisme/prd.php?&lg=en&urlpanier=http://www.foxity.com/panier.php?lg=en&id=1617&css=catalogue-foxity" style="width:280px;height:315px;" allowtransparency="true" frameborder="0"></iframe></div>					
+<!--FIN D'INSERTION DE CALENDRIER-->
+		
+			
+			</div>
+			
+					
+		<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-agency.php" style="text-decoration:none;">
+			<div id="vignette_agence">
+				<div class="titre_para" style="background:none;">
+						<h2>THE FOXITY OPERA AGENCY</h2>
+				</div>
+				<p style="margin:0;padding:0;">Welcomes you every day from 9am Ã  5pm</p>
+				
+				<p style="margin:0;padding:0;margin-top:162px;">
+					3, rue de la ChaussÃ©e d'Antin 75009 Paris<br />
+					MÃ©tro : OpÃ©ra / RER A : Auber
+				</p>
+				<p class="right"><strong>Discover our agency&nbsp;&nbsp;&nbsp;</strong></p>
+			</div>
+			</a>			
+			<!--<p class="center">
+			<img src="http://www.foxity.com/images/depart_opera.jpg" alt="Paris City Tour Foxity Access map" >
+			</p>
+			<p class="center" style="font-size:12px;font-weight:bold;">
+			<a style="color:#FF6600;text-decoration:underline;" href="javascript:void(0);" onclick="window.open('http://maps.google.fr/maps?q=3+rue+de+la+chaussee+antin+75009+paris&amp;ie=UTF8&amp;hq=&amp;hnear=3+Rue+de+la+Chauss%C3%A9e+Antin,+75009+Paris,+%C3%8Ele-de-France&amp;t=m&amp;z=14&amp;ll=48.871386,2.3338&amp;output=embed','plan','width=800,height=600,top=0,left=0, toolbar=yes, menubar=yes');">
+			See the situation map in Paris
+			</a>
+			</p>
+			-->
+			<div style="float:left;text-align:center;width:300px;margin-top:20px;">
+					<img src="http://www.foxity.com/images/logo_phone_foxity.jpg" alt="contact Foxity" />	
+					<img src="http://www.foxity.com/images/paiement_cic.jpg" alt="secure payment" />
+			</div>
+			
+		</div>
+	
+		
+	<div style="clear:both;">
+	
+	ï»¿
+<table align="center" border="0" cellpadding="6" style="width:100%;background-color:#FBE1D0;">
+
+	<tr>
+		<td align="center" colspan="7" height="30" style="background-color:#FFF;">
+			<p>
+				&bull;&nbsp;&nbsp;<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/legal-notice.php">Legal notice</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+				<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/terms-conditions-sale.php">Terms and Conditions of Sale</a>&nbsp;&nbsp;&bull;&nbsp;&nbsp;
+				
+				<a href="http://www.francetourisme.fr/index_en.html" target="_blank">Tourism in Paris</a>&nbsp;&nbsp;&bull;				<!--<a href="http://www.foxity.com/connexion_compte_pro.php?lg=en">Profesional Account Access</a>&nbsp;&nbsp;&bull;-->
+			</p>
+		</td>
+	<tr>
+		<td valign="top" style="text-align:justify;border-right:1px solid #CCC;border-left:1px solid #CCC;width:15%;">
+			<strong>The Foxity Concept</strong><br /><br />
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-city-tour-concept.php">A "low cost" tour of Paris. An excursion on an open top double-decker bus to see Paris in the very best conditions: transparent sliding roof, retractable windows and heating on the top deck. </a>
+		</td>
+		<td valign="top" style="text-align:justify;border-right:1px solid #CCC;width:15%;">
+			<strong>The advantages</strong><br /><br />
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/advantages-city-tour-foxity.php">A tour of Paris with Foxity is truly unique. Make the most of a number of advantages such as maximum comfort with protection against the rain and cold, 53 seats on the top deck with panoramic views across the whole of Paris.</a>
+		</td>
+		<td valign="top" style="text-align:justify;border-right:1px solid #CCC;width:14%;">
+			<strong>Foxity Tour</strong><br /><br />
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-paris-tour.php">The Foxity route takes in all the main sights of Paris, with 40 major monuments. The meeting and departure point for the tours is in the heart of Paris, near the Opera.</a>
+		</td>
+		<td valign="top" style="text-align:justify;border-right:1px solid #CCC;width:14%;">
+			<strong>Departure points</strong><br /><br />
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-departure-points.php">Access to the meeting and departure point for Foxity tours is extremely easy. A number of bus routes and metro lines stop just a stoneâs throw away.</a>
+		</td>
+		<td valign="top" style="text-align:justify;border-right:1px solid #CCC;width:14%;">
+			<strong>Times</strong><br /><br />
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/foxity-timetable.php">Foxity offers a wide timetable with numerous possibilities for discovering Paris by day or night.</a>
+		</td>
+		<td valign="top" style="text-align:justify;border-right:1px solid #CCC;width:15%;">
+			<strong>Prices</strong><br /><br />
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php">Exceptional and unbeatable. Foxity enables the whole family to visit Paris at reduced prices. A low cost tourist offer which guarantees maximum service and satisfaction.</a>
+		</td>
+		<td valign="top" style="text-align:justify;border-right:1px solid #CCC;idth:13%;">
+			<strong>Online purchase</strong><br /><br />
+			<a href="http://www.foxity.com/paris-sightseeing-tour-by-bus/paris-city-tour-online-booking.php">Purchase the most of the "low cost" Foxity offer and special offers on the Web. Visit Paris with the family at fantastic prices and make big savings.</a>
+		</td>
+	</tr>
+
+</table>
+<br />
+<!--ANALYTICS-->
+ï»¿<!--ANALYTICS SUR FOXITY -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-17430905-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+<!--ANALYTICS SUR FT -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1006780-9']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script><!--FIN ANALYTICS-->	
+	
+	</div>
+
+</body>
+
+
+</html>

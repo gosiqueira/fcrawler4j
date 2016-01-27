@@ -1,0 +1,146 @@
+title=Angelita Niedziejko / Fotografia
+url=http://angelitaniedziejko.com/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Angelita Niedziejko / Fotografia</title>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="js/responsiveslides.min.js"></script>
+
+<!-- Metas ////////////////////// -->
+<!-- Adaptado para Ipad -->
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+
+<!-- Metas do Google -->
+<meta name="description" content="Descricao" xml:lang="pt-BR" lang="pt-BR" />
+<meta name="keywords" content="Palavraa chaves " xml:lang="pt-BR" lang="pt-BR" />
+<meta name="expires" content="never" />
+
+
+<!-- Metas ////////////////////// -->
+<!-- CSS -->
+<link href="font/font.css" rel="stylesheet" type="text/css" />
+<link href="css/geral.css" rel="stylesheet" type="text/css" />
+
+
+
+
+<!-- Facebook -->
+
+
+
+
+
+
+
+
+<!-- Google Analytics -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-48340358-1', 'angelitaniedziejko.com');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+
+
+
+
+<body>
+
+
+<!-- TOPO ////////////////////// -->
+<div class="topo_grande"> <!--GRANDE-->
+<div class="topo_meio"><!--MEIO-->
+
+<div class="t_menu_a"><a href="index.php"><img src="img/marca_2.png" alt="Home" width="243"  border="0" /></a></div>
+
+
+
+
+
+<div class="t_menu_b">
+
+
+
+<li>Portifolio.<!--Portifolio ////////////////////////////////////////////////////-->
+	<ul>
+    	<li><div class="sub_menu"><a href="portifolio.php?id=23">Crianças</a></div></li><li><div class="sub_menu"><a href="portifolio.php?id=29">Lugares</a></div></li><li><div class="sub_menu"><a href="portifolio.php?id=32">Momentos</a></div></li><li><div class="sub_menu"><a href="portifolio.php?id=30">Retratos</a></div></li><li><div class="sub_menu"><a href="portifolio.php?id=27">Revele-se</a></div></li>	</ul>
+</li>
+
+
+
+<li><a href="sobre.php">Sobre.</a></li><!--Portifolio ///////////////////////////////////////////////-->
+
+<li id="t_menu_negrito"><a href="blog.php">Blog.</a></li><!--Blog ////////////////////////////////////////////////////////////////-->
+</div>
+
+
+
+
+
+
+
+
+
+<div class="t_menu_c">
+	<li><a href="https://instagram.com/angelitaniedziejko/" title="flicker" target="_blank"><img src="img/insta.jpg" alt="instagram" width="74" border="0" /></a></li>
+
+	<li><a href="http://www.vogue.it/photovogue/Profilo/f484b0f3-02ea-4d40-9d87-4e3a84960855/User" title="flicker" target="_blank"><img src="img/vogue.jpg" alt="Vogue" width="55" border="0" /></a></li>
+
+<li><a href="http://www.flickr.com/people/angenied/" title="flicker" target="_blank"><img src="img/flicker.jpg" alt="Flicker" width="44" border="0" /></a></li>
+
+<li><a href="http://www.gettyimages.com/search/2/image?artist=angelita%20niedziejko&excludenudity=false&page=1&sort=best" title="Getty Images" target="_blank"><img src="img/getty.jpg" alt="Gettyimages" width="87" border="0" /></a></li>
+</div>
+
+
+</div><!--FIM / MEIO-->
+</div><!--FIM / GRANDE-->
+
+
+<!-- Conteudo ////////////////////// -->
+<script>
+  $(function() {
+    $(".rslides").responsiveSlides();
+  });
+  
+  $(".rslides").responsiveSlides({
+  auto: true,             // ​​Boolean : Animar automaticamente , verdadeiro ou falso
+  speed: 500,            // Integer : velocidade da transição , em milissegundos
+  timeout: 200,          // nteger : O tempo entre transições de slides , em milissegundos
+  pager: false,           // Boolean : Mostrar pager, verdadeiro ou falso
+  nav: false,             // booleano: Mostrar navegação , verdadeiro ou falso
+  random: false,          // Boolean: aleatória a ordem dos slides, verdadeiro ou falso
+  pause: false,           // ​​booleano: Pause em foco , verdadeiro ou falso
+  pauseControls: true,    // Boolean: Pause quando pairando controles , verdadeiro ou falso
+  prevText: "Previous",   // String: Texto para o botão "Anterior"
+  nextText: "Next",       // String:  Texto para o botão "next"
+  maxwidth: "",           // Integer: Max- largura do slideshow , em pixels
+  navContainer: "",       // Selector: Sempre que os controlos devem ser anexados , o padrão é após o ' ul '
+  manualControls: "",     // Selector: Declare costume pager navegação
+  namespace: "rslides",   // String: Altere o namespace padrão utilizado
+  before: function(){},   // Função: Antes de callback
+  after: function(){}     // Função: Depois de callback
+});
+</script>
+
+
+
+
+
+<ul class="rslides">
+<li><img src="home/30112015153813_MG_7798-Editar.jpg"  /></li><li><img src="home/2905201518365408012015-_MG_0149-2.jpg"  /></li><li><img src="home/30112015153935_MG_8660-Edi-c.jpg"  /></li><li><img src="home/1507201514033326072014-_MG_5353-Editar pb.jpg"  /></li><li><img src="home/1507201513453308012015-_MG_0276.jpg"  /></li><li><img src="home/1507201514174818012015-_MG_0347-Editar c.jpg"  /></li><li><img src="home/2905201519055308012015-_MG_9891-Editar-pb.jpg"  /></li></ul>
+
+
+    
+</body>
+</html>

@@ -1,0 +1,2898 @@
+title=Horários Resultado :: CP Passageiros
+url=https://www.cp.pt/sites/passageiros/pt/consultar-horarios/horarios-resultado
+html=<!DOCTYPE html>
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Comboios de Portugal" >
+		<meta name="theme-color" content="#74B751">
+		<!--[if lt IE 9]>
+	<script type="text/javascript">
+	window.location = "/passageiros/pt/paginas/unsupported-browser";
+	</script>
+	<![endif]-->
+<title>Horários Resultado :: CP Passageiros</title>
+<meta property="og:title" content="CP.PT | Comboios de Portugal" />
+ <meta property="og:type" content="website" />
+ <meta property="og:url" content="http://www.cp.pt/" />
+ <meta property="og:site_name" content="CP.PT | Comboios de Portugal" />
+<link rel="canonical" href="https://www.cp.pt/passageiros/pt/consultar-horarios/horarios-resultado" /><link rel="icon" sizes="192x192" href="/StaticFiles/CP/resources/images/logo_cp/cp_192.png">
+<link rel="icon" sizes="128x128" href="/StaticFiles/CP/resources/images/logo_cp/cp_128.png">
+<link rel="apple-touch-icon" href="/StaticFiles/CP/resources/images/logo_cp/cp_76.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/StaticFiles/CP/resources/images/logo_cp/cp_76.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/StaticFiles/CP/resources/images/logo_cp/cp_120.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/StaticFiles/CP/resources/images/logo_cp/cp_152.png">
+
+
+<link href="/StaticFiles/CP/resources/css/bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/StaticFiles/CP/resources/css/default-date.css" rel="stylesheet" type="text/css" />
+<link href="/StaticFiles/CP/resources/css/classic.css" rel="stylesheet" type="text/css" />
+<link href="/StaticFiles/CP/resources/css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+<link href="/StaticFiles/CP/resources/css/dataTables.bootstrap.css" rel="stylesheet" type="text/css" />
+<link href="/StaticFiles/CP/resources/css/owl.carousel.css" rel="stylesheet" type="text/css" />
+<link href="/StaticFiles/CP/resources/css/bootstrap-select.css" rel="stylesheet" type="text/css" />
+<link href="/StaticFiles/CP/resources/base.css" rel="stylesheet" type="text/css" />
+<script src="/StaticFiles/CP/resources/js/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/bootstrap-select.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/base.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/jquery.mobile.custom.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/owl.carousel.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/picker.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/picker.date.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/bootstrap3-typeahead.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/bloodhound.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/jquery.placeholder.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/bootstrap-filestyle.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/jquery.mixitup.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/jquery.cookie.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/jquery.dataTables.min.js" type="text/javascript"></script>
+<script src="/StaticFiles/CP/resources/js/dataTables.bootstrap.js" type="text/javascript"></script>
+<script type="text/javascript">var switchTo5x=true;</script>
+		<script type="text/javascript" src="//ws.sharethis.com/button/buttons.js"></script>
+		<script type="text/javascript">stLight.options({publisher: "860fee9b-4f32-4132-ab8e-dac1a0c0395b", doNotHash: false, doNotCopy: false, hashAddressBar: false});</script>
+	</head>
+	<body>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div class="wrapper">
+		<!-- Start of pre-header -->
+			<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="header">
+	<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="cookies">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="alert fade in" role="alert">
+					<button type="button" class="close" data-dismiss="alert">
+						<span aria-hidden="true">
+                                         ×
+                                     </span>
+						<span class="sr-only">
+                                        Fechar
+                                     </span>
+					</button>
+					<p>
+						Este site armazena cookies no seu equipamento. Pode saber mais sobre os cookies que utilizamos na Pol&iacute;tica de Privacidade.
+					</p>
+					 <a class="btn btn-sm btn-primary btn-green" href="javascript:void(0)" onclick="javascript:disableCookieBar();">
+						N&atilde;o voltar a mostrar
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+<script>
+function disableCookieBar() {
+	$(".cookies").fadeOut();
+	$.cookie('cookiesOK', 'cookiesOK', { expires: 365,  path: '/' });
+}
+if ($.cookie('cookiesOK')!=undefined){
+	$(".cookies").hide();
+}
+</script></div>
+	<div class="navbar navbar-default nav-main-options" role="navigation">
+		<div class="container">
+			<a href="#" class="open-menu"><img src="/StaticFiles/CP/resources/images/burguer.png"></a>
+<a href="/passageiros/pt"><img src="/StaticFiles/CP/resources/images/logo-cp-white-graph.png" class="cp-responsive pull-left"></a>
+<div class="user-log-mobile">
+	<ul class="pull-right">
+		<li><a href="/passageiros/pt/mycp/login">myCP</a></li>
+		</ul>
+</div>
+	
+
+			<div class="navbar-header">
+				<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="pages pull-left">
+    
+    	<li class="active"><a href="/passageiros/pt/">Passageiros</a></li>
+    
+    
+	    <li ><a href="/institucional/pt/">Institucional</a></li>
+    
+    <li class="hidden-xs"><a target="_blank" href="https://cpkids.cp.pt/">Kids</a></li>
+   
+</ul>
+ <a class="link-acessibilidade" title="Acessibilidade" href="/passageiros/pt/informacao-cliente/cne" accesskey="0">
+   	 	<img alt="Página de Acessibilidade" src="/StaticFiles/CP/resources/images/accessibility.png">
+	</a></div>
+			</div>
+			<nav class="navbar-collapse bs-navbar-collapse collapse " role="navigation">
+				<div class="nav navbar-nav navbar-right">
+					<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<ul class="user-nav">
+	
+		<li><a href="/passageiros/pt/mycp/login">myCP <span class="glyphicon glyphicon-lock"></span></a></li>
+	
+	<li class="separator"><a class="active" href="/passageiros/pt/consultar-horarios/horarios-resultado">PT</a></li>
+	<li ><a  href="/passageiros/en/train-times/Train-time-results">EN</a></li>
+</ul>
+
+</div>
+				</div>
+			</nav>
+		</div>
+	</div>
+</div>
+<div class="navbar navbar-default navbar-logo" role="navigation">
+    <div class="container">
+	<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="navbar-header">
+	
+		
+		
+		<a href="/passageiros/pt/" class="navbar-brand">
+	        <img src="/StaticFiles/CP/resources/images/cp_logo.png" alt="logo CP"/>
+	    </a>
+	
+</div>
+
+</div>
+    	<div class="navbar-collapse collapse">
+    		<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="nav navbar-nav navbar-right">
+    <form class="navbar-form" role="search" action="/passageiros/pt/resultados-pesquisa">
+        <div class="input-group search">
+            <input name="q"  type="text" class="form-control" placeholder="Pesquisa" >
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+    </form>
+</div>
+</div>
+    	</div>
+    </div>
+</div>
+</div>
+		<!-- End of pre-header -->
+		<div class="wrapper-content">
+			<!-- Begin of Menu -->
+			<div>
+
+<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+				
+	
+	
+
+
+
+<div class="sidebar-menu">
+	<form role="search" action="/passageiros/pt/resultados-pesquisa">
+		<div class="input-group">
+			<input name="q" type="text" class="form-control input-sm" placeholder="" accesskey="1">
+			<div class="input-group-btn">
+				<button class="btn btn-default btn-sm" type="submit"><img src="/StaticFiles/CP/resources/images/lupa-small.png" alt="Pesquisar"></button>
+			</div>
+		</div>
+    </form>
+    
+	<ul class="languages-menu">
+		<li class="active"><a href="/passageiros/pt/consultar-horarios/horarios-resultado">PT</a></li>
+		<li ><a href="/passageiros/en/train-times/Train-time-results">EN</a></li>
+	</ul>
+	<ul class="titles-menu">
+		
+			
+			<li>
+			    <a href="/passageiros/pt/consultar-horarios">
+			    	
+			        	<img src="/StaticFiles/CP/resources/images/timer-sm.png" alt="Consultar horários">
+			        
+		        	
+		        		
+				            <span class="pre-menu">
+					            Consultar 
+				            </span>
+			                 horários
+		        		
+		        		
+		        	
+			    </a>
+			</li>
+		
+			
+			<li>
+			    <a href="/passageiros/pt/comprar-bilhetes">
+			    	
+			        	<img src="/StaticFiles/CP/resources/images/tickets-sm.png" alt="Comprar bilhetes">
+			        
+		        	
+		        		
+				            <span class="pre-menu">
+					            Comprar 
+				            </span>
+			                 bilhetes
+		        		
+		        		
+		        	
+			    </a>
+			</li>
+		
+			
+			<li>
+			    <a href="/passageiros/pt/como-viajar">
+			    	
+			        	<img src="/StaticFiles/CP/resources/images/travel-sm.png" alt="Como viajar">
+			        
+		        	
+		        		
+				            <span class="pre-menu">
+					            Como 
+				            </span>
+			                 viajar
+		        		
+		        		
+		        	
+			    </a>
+			</li>
+		
+			
+			<li>
+			    <a href="/passageiros/pt/descontos-vantagens">
+			    	
+			        	<img src="/StaticFiles/CP/resources/images/advantages-sm.png" alt="Descontos e Vantagens">
+			        
+		        	
+		        		
+				            <span class="pre-menu">
+					            Descontos e 
+				            </span>
+			                 Vantagens
+		        		
+		        		
+		        	
+			    </a>
+			</li>
+		
+			
+			<li>
+			    <a href="/passageiros/pt/informacao-cliente">
+			    	
+			        	<img src="/StaticFiles/CP/resources/images/client-sm.png" alt="Informação ao Cliente">
+			        
+		        	
+		        		
+				            <span class="pre-menu">
+					            Informação ao 
+				            </span>
+			                 Cliente
+		        		
+		        		
+		        	
+			    </a>
+			</li>
+		
+	</ul>
+	<ul class="sites-menu">
+		<li class="title-area"><span>Ir Para</span></li>
+		
+	    	<li class="active"><a href="/passageiros/pt/">Passageiros</a></li>
+	    
+	    
+		    <li ><a href="/institucional/pt/">Institucional</a></li>
+	    
+	</ul>
+</div>
+
+<div class="menu-main">
+	<div class="container">
+	    <div class="row">
+	        <div class="col-md-12">
+	            <div class="btn-group btn-group-justified first-menu">
+				
+					
+					<div class="btn-group">
+					    <a  class="btn btn-nav" href="/passageiros/pt/consultar-horarios">
+					    	
+					        	<img src="/StaticFiles/CP/resources/images/timer.png" alt="Consultar horários">
+					        
+					        <span class="desc-menu">
+					        	
+					        		
+							            Consultar 
+							            <span class="title-menu">
+							                 horários
+							            </span>
+					        		
+					        		
+					        	
+					        </span>
+					    </a>
+					</div>
+				
+					
+					<div class="btn-group">
+					    <a  class="btn btn-nav" href="/passageiros/pt/comprar-bilhetes">
+					    	
+					        	<img src="/StaticFiles/CP/resources/images/tickets.png" alt="Comprar bilhetes">
+					        
+					        <span class="desc-menu">
+					        	
+					        		
+							            Comprar 
+							            <span class="title-menu">
+							                 bilhetes
+							            </span>
+					        		
+					        		
+					        	
+					        </span>
+					    </a>
+					</div>
+				
+					
+					<div class="btn-group">
+					    <a  class="btn btn-nav" href="/passageiros/pt/como-viajar">
+					    	
+					        	<img src="/StaticFiles/CP/resources/images/travel.png" alt="Como viajar">
+					        
+					        <span class="desc-menu">
+					        	
+					        		
+							            Como 
+							            <span class="title-menu">
+							                 viajar
+							            </span>
+					        		
+					        		
+					        	
+					        </span>
+					    </a>
+					</div>
+				
+					
+					<div class="btn-group">
+					    <a  class="btn btn-nav" href="/passageiros/pt/descontos-vantagens">
+					    	
+					        	<img src="/StaticFiles/CP/resources/images/advantages.png" alt="Descontos e Vantagens">
+					        
+					        <span class="desc-menu">
+					        	
+					        		
+							            Descontos e 
+							            <span class="title-menu">
+							                 Vantagens
+							            </span>
+					        		
+					        		
+					        	
+					        </span>
+					    </a>
+					</div>
+				
+					
+					<div class="btn-group">
+					    <a  class="btn btn-nav" href="/passageiros/pt/informacao-cliente">
+					    	
+					        	<img src="/StaticFiles/CP/resources/images/client.png" alt="Informação ao Cliente">
+					        
+					        <span class="desc-menu">
+					        	
+					        		
+							            Informação ao 
+							            <span class="title-menu">
+							                 Cliente
+							            </span>
+					        		
+					        		
+					        	
+					        </span>
+					    </a>
+					</div>
+				
+				</div>
+			</div>
+		</div>
+		
+			<div class="clear"></div>
+			
+			
+			  	
+			
+			  	
+			
+			  	
+			
+			
+				
+					<div class="row">
+					    <div class="col-md-12">
+					        <ul class="nav nav-pills third-menu pull-right">
+						        
+									
+						            <li ><a href="/passageiros/pt/consultar-horarios/precos">Preços</a>
+						        
+									
+						            <li ><a href="/passageiros/pt/consultar-horarios/estacoes">Estações</a>
+						        
+									
+						            <li ><a href="/passageiros/pt/consultar-horarios/avisos">Avisos</a>
+						        
+					        </ul>
+					    </div>
+					</div>
+				
+				<div class="row">
+				    <div class="col-md-12">
+				        <ul class="nav nav-pills second-menu">     
+							
+								
+					            
+		     		            	
+					            	<li><a href="/passageiros/pt/consultar-horarios">Consultar horários</a></li>
+					            
+							
+								
+					            
+		     		            	<li class="active"><a href="/passageiros/pt/consultar-horarios/horarios-resultado">Horários Resultado</a></li>
+					            	
+					            
+							
+				        </ul>
+				    </div>
+				</div>
+			
+			<div class="clear"></div>
+		
+	</div>
+</div></div>
+</div>
+			<!-- End of Menu -->
+			<!-- Begin of Container -->
+			<div class="container">
+				<div>
+
+<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+<script type="text/javascript">
+	$.extend($.fn.pickadate.defaults, {
+	    monthsFull: ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 
+	 	            'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'],
+	    weekdaysShort: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'S&aacute;b'],
+	    
+	    today: 'Hoje',
+	    clear: 'Limpar',
+	    close: 'Fechar',
+
+	    labelMonthNext: 'M&ecirc;s seguinte',
+	    labelMonthPrev: 'M&ecirc;s anterior',
+	    labelMonthSelect: 'Seleccione um m&ecirc;s',
+	    labelYearSelect: 'Seleccione um ano'
+	});
+</script>
+
+
+
+
+
+<div class="row">
+<div class="col-md-12">
+<!-- Begin of Carousel Main-->
+<div id="search-area" class="content-area" ng-app="TimetablesFormModule">
+	<div class="carousel-inner">
+		<div class="active item">
+			<img src="/StaticFiles/CP/resources/images/background_pesquisa.jpg" alt="Hor&aacute;rios e Pre&ccedil;os">
+			<div class="carousel-caption clearfix">
+				<div class="col-md-12">
+					<h1>Hor&aacute;rios e Pre&ccedil;os</h1>
+				</div>
+				<!-- Begin of Travel Search-->
+				<form class="form" role="form" action="/sites/passageiros/pt/consultar-horarios/horarios-resultado" method="post" name="searchTimetable">
+					<div class="col-md-12" ng-controller="generalController" ng-post-render >
+						<div class="col-md-10">
+							<div class="col-md-5">
+								<div class="input-group" ng-class="{'has-error': showDepartError && searchTimetable.depart.$dirty && searchTimetable.depart.$invalid, 'has-success': searchTimetable.depart.$valid}">
+									<span class="input-group-addon"><img src="/StaticFiles/CP/resources/images/icons/partida.png" alt="Place">
+</span>
+									<input class="typeahead form-control" type="text" id="depart" title="Origem" placeholder="Origem" name="depart" data-provide="typeahead" accesskey="2" autocomplete="off"
+										required ng-model="depart" ng-change="onDepartChange()" ng-keypress="showDepartError=false" ng-blur="showDepartError=searchTimetable.depart.$invalid" ng-init="showDepartError=false">
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="input-group" ng-class="{'has-error': showArrivalError && searchTimetable.arrival.$dirty && searchTimetable.arrival.$invalid, 'has-success': searchTimetable.arrival.$valid}">
+									<span class="input-group-addon"><img src="/StaticFiles/CP/resources/images/icons/destino.png" alt="Place">
+</span>
+									<input class="typeahead form-control" type="text" id="arrival" title="Destino" placeholder="Destino" name="arrival" data-provide="typeahead" accesskey="3" autocomplete="off" 
+										required ng-model="arrival" ng-change="onArrivalChange()" ng-keypress="showArrivalError=false" ng-blur="showArrivalError=searchTimetable.arrival.$invalid" ng-init="showArrivalError=false">
+								</div>
+							</div>
+						</div>
+						<div class="col-md-10">
+							<div class="col-md-5">
+								<div class="input-group date" ng-class="{'has-error': showDepartDateError && searchTimetable.Date.$invalid, 'has-success': searchTimetable.Date.$valid}">
+									<span class="input-group-addon "><img src="/StaticFiles/CP/resources/images/icons/icone_calendario.png" alt="Calendar">
+</span>
+									<div class="fieldset__wrapper">
+										<input  data-value="2016-01-26" type="text" class="form-control" id="datepicker-first" placeholder="Data" title="Data" name="Date" accesskey="4" required ng-model="departDate"
+											ng-change="updateFirstDate()" ng-keypress="showDepartDateError=false" ng-blur="showDepartDateError=searchTimetable.Date.$invalid" ng-init="showDepartDateError=false" >
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="row">
+	      							<div class="col-xs-12 col-md-6 col-lg-6">
+										<select id="partida" class="form-control selectpicker" accesskey="5" name="timeType">
+											<option value="1" >Partida &agrave;s</option>
+											<option value="2" >Chegada &agrave;s</option>
+										</select>
+									</div>
+									<div class="col-xs-12 col-md-6 col-lg-6">
+										<div ng-class="{'has-error':searchTimetable.time.$dirty && searchTimetable.time.$invalid, 'has-success': searchTimetable.time.$valid}" >
+											<select id="hourGo" class="form-control selectpicker" accesskey="6" name="time" ng-model="hourGo" ng-change="checkTime()" title="hh:mm">
+												<option value="" selected="selected">hh:mm</option>
+												
+							                        <option >00:00</option>					                        
+						                    	
+							                        <option >01:00</option>					                        
+						                    	
+							                        <option >02:00</option>					                        
+						                    	
+							                        <option >03:00</option>					                        
+						                    	
+							                        <option >04:00</option>					                        
+						                    	
+							                        <option >05:00</option>					                        
+						                    	
+							                        <option >06:00</option>					                        
+						                    	
+							                        <option >07:00</option>					                        
+						                    	
+							                        <option >08:00</option>					                        
+						                    	
+							                        <option >09:00</option>					                        
+						                    	
+							                        <option >10:00</option>					                        
+						                    	
+							                        <option >11:00</option>					                        
+						                    	
+							                        <option >12:00</option>					                        
+						                    	
+							                        <option >13:00</option>					                        
+						                    	
+							                        <option >14:00</option>					                        
+						                    	
+							                        <option >15:00</option>					                        
+						                    	
+							                        <option >16:00</option>					                        
+						                    	
+							                        <option >17:00</option>					                        
+						                    	
+							                        <option >18:00</option>					                        
+						                    	
+							                        <option >19:00</option>					                        
+						                    	
+							                        <option >20:00</option>					                        
+						                    	
+							                        <option >21:00</option>					                        
+						                    	
+							                        <option >22:00</option>					                        
+						                    	
+							                        <option >23:00</option>					                        
+						                    	
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-10">
+							<div class="col-md-5">
+								<div class="input-group date" ng-class="{'has-error': showReturnDateError && searchTimetable.turnDate.$invalid}">
+									<span class="input-group-addon "><img src="/StaticFiles/CP/resources/images/icons/icone_calendario.png" alt="Calendar">
+</span>
+									<div class="fieldset__wrapper">
+										<input type="text" class="form-control" id="datepicker-second" title="Data de volta" placeholder="Data de volta" name="turnDate" ng-model="returnDate" accesskey="7"
+										ng-change="updateSecondDate()" ng-keypress="showReturnDateError=false" ng-blur="showReturnDateError=searchTimetable.turnDate.$invalid" ng-init="showReturnDateError=false">
+									</div>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<div class="row">
+	      							<div class="col-xs-12 col-md-6 col-lg-6">
+										<select id="chegada" class="form-control selectpicker" accesskey="8" name="returnTimeType" title="hh:mm">
+											<option value="1">Partida &agrave;s</option>
+											<option value="2">Chegada &agrave;s</option>
+										</select>
+									</div>
+									<div class="col-xs-12 col-md-6 col-lg-6">
+										<div ng-class="{'has-error':searchTimetable.returnTime.$dirty && searchTimetable.returnTime.$invalid, 'has-success': searchTimetable.returnTime.$valid}" >
+											<select id="hourBack" class="form-control selectpicker" accesskey="9" name="returnTime"  ng-model="hourBack" ng-change="checkTime()" title="hh:mm">
+												<option value="" selected="selected">hh:mm</option>
+												
+							                        <option>00:00</option>
+						                    	
+							                        <option>01:00</option>
+						                    	
+							                        <option>02:00</option>
+						                    	
+							                        <option>03:00</option>
+						                    	
+							                        <option>04:00</option>
+						                    	
+							                        <option>05:00</option>
+						                    	
+							                        <option>06:00</option>
+						                    	
+							                        <option>07:00</option>
+						                    	
+							                        <option>08:00</option>
+						                    	
+							                        <option>09:00</option>
+						                    	
+							                        <option>10:00</option>
+						                    	
+							                        <option>11:00</option>
+						                    	
+							                        <option>12:00</option>
+						                    	
+							                        <option>13:00</option>
+						                    	
+							                        <option>14:00</option>
+						                    	
+							                        <option>15:00</option>
+						                    	
+							                        <option>16:00</option>
+						                    	
+							                        <option>17:00</option>
+						                    	
+							                        <option>18:00</option>
+						                    	
+							                        <option>19:00</option>
+						                    	
+							                        <option>20:00</option>
+						                    	
+							                        <option>21:00</option>
+						                    	
+							                        <option>22:00</option>
+						                    	
+							                        <option>23:00</option>
+						                    	
+											</select>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+		
+						<div class="col-md-10">
+							<div class="col-md-10 col-lg-8 checkbox-group">
+								<label class="checkbox-inline" for="Alfa Pendular">
+									<input type="checkbox" id="inlineCheckbox1" name="alfa" value="true" accesskey="12" checked="checked"> Alfa Pendular
+								</label>
+								<label class="checkbox-inline" for="Intercidades">
+									<input type="checkbox" id="inlineCheckbox2" name="intercities" value="true" accesskey="13" checked="checked"> Intercidades
+								</label>
+								<label class="checkbox-inline" for="Internacional">
+									<input type="checkbox" id="inlineCheckbox3" name="international" value="true" accesskey="14" checked="checked"> Internacional
+								</label>
+								<label class="checkbox-inline" for="Regional">
+									<input type="checkbox" id="inlineCheckbox4" name="regionals" value="true" accesskey="15" checked="checked"> Regional
+								</label>
+								<label class="checkbox-inline" for="Urbanos">
+									<input type="checkbox" id="inlineCheckbox5" name="urbans" value="true" accesskey="16" checked="checked"> Urbanos
+								</label>
+							</div>	
+							<div class="col-md-10 col-lg-10 mtop">
+					            <p><input type="submit" value="Pesquisar &raquo;" accesskey="17" class="btn btn-primary btn-green pull-right" role="button" ng-disabled="searchTimetable.$invalid"/></p>
+							</div>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+</div>
+</div>
+<script src="/StaticFiles/CP/resources/js/angular.min.js"></script>
+
+<script>
+if( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+	$('.selectpicker').selectpicker('mobile');
+} else {
+	$('.selectpicker').selectpicker();
+}
+</script>
+
+<script type="text/javascript">
+	var firstDate = $("#datepicker-first").pickadate({
+		formatSubmit: 'yyyy-mm-dd',
+	    editable: true,
+	    hiddenPrefix: 'depart',
+	    hiddenSuffix: '',
+		min: true,
+		max: 59
+	});
+	var secondDate = $("#datepicker-second").pickadate({
+		formatSubmit: 'yyyy-mm-dd',
+	    editable: true,
+	    hiddenPrefix: 're',
+	    hiddenSuffix: '',
+		min: true,
+		max: 59
+	});
+	
+	var app = angular.module('TimetablesFormModule',[]);
+	
+	var stations = {};
+	
+		stations["Abrantes".toLowerCase()] = "94;52001";
+	
+		stations["Abrunhosa".toLowerCase()] = "94;48124";
+	
+		stations["Ademia".toLowerCase()] = "94;36046";
+	
+		stations["Afife".toLowerCase()] = "94;18119";
+	
+		stations["Agualva-Cacem".toLowerCase()] = "94;61002";
+	
+		stations["Aguas Santas - Palmilheira".toLowerCase()] = "94;3046";
+	
+		stations["Aguda".toLowerCase()] = "94;39057";
+	
+		stations["Agueda".toLowerCase()] = "94;42218";
+	
+		stations["Aguieira".toLowerCase()] = "94;42267";
+	
+		stations["Aguim".toLowerCase()] = "94;37093";
+	
+		stations["Albergaria dos Doze".toLowerCase()] = "94;34439";
+	
+		stations["Albufeira - Ferreiras".toLowerCase()] = "94;78063";
+	
+		stations["Alcacovas".toLowerCase()] = "94;74120";
+	
+		stations["Alcaide".toLowerCase()] = "94;53504";
+	
+		stations["Alcains".toLowerCase()] = "94;53140";
+	
+		stations["Alcantara-Mar".toLowerCase()] = "94;69039";
+	
+		stations["Alcantara-Terra".toLowerCase()] = "94;67025";
+	
+		stations["Alcantarilha".toLowerCase()] = "94;90092";
+	
+		stations["Alcaria".toLowerCase()] = "94;53629";
+	
+		stations["Aldeia".toLowerCase()] = "94;49411";
+	
+		stations["Alegria".toLowerCase()] = "94;11064";
+	
+		stations["Alfarelos".toLowerCase()] = "94;35006";
+	
+		stations["Alferrarede".toLowerCase()] = "94;52068";
+	
+		stations["Alges".toLowerCase()] = "94;69088";
+	
+		stations["Algoz".toLowerCase()] = "94;90050";
+	
+		stations["Algueirao-Mem Martins".toLowerCase()] = "94;61069";
+	
+		stations["Alhandra".toLowerCase()] = "94;31237";
+	
+		stations["Alhos Vedros".toLowerCase()] = "94;95075";
+	
+		stations["Almancil".toLowerCase()] = "94;78253";
+	
+		stations["Almourol".toLowerCase()] = "94;51102";
+	
+		stations["Alpedrinha".toLowerCase()] = "94;53355";
+	
+		stations["Alvaraes".toLowerCase()] = "94;6338";
+	
+		stations["Alvega-Ortiga".toLowerCase()] = "94;52209";
+	
+		stations["Alverca".toLowerCase()] = "94;31187";
+	
+		stations["Alvito".toLowerCase()] = "94;74351";
+	
+		stations["Amadora".toLowerCase()] = "94;60087";
+	
+		stations["Amial".toLowerCase()] = "94;35097";
+	
+		stations["Ancora Praia".toLowerCase()] = "94;18150";
+	
+		stations["Areeiro".toLowerCase()] = "94;66035";
+	
+		stations["Aregos".toLowerCase()] = "94;9191";
+	
+		stations["Areia-Darque".toLowerCase()] = "94;6395";
+	
+		stations["Arentim".toLowerCase()] = "94;29066";
+	
+		stations["Areosa".toLowerCase()] = "94;18044";
+	
+		stations["Arrifana".toLowerCase()] = "94;44248";
+	
+		stations["Avanca".toLowerCase()] = "94;38216";
+	
+		stations["Aveiro".toLowerCase()] = "94;38000";
+	
+		stations["Aveleda".toLowerCase()] = "94;29108";
+	
+		stations["Avila".toLowerCase()] = "71;10400";
+	
+		stations["Azambuja".toLowerCase()] = "94;33001";
+	
+		stations["Azurva".toLowerCase()] = "94;42051";
+	
+		stations["Baixa da Banheira".toLowerCase()] = "94;95059";
+	
+		stations["Baracal".toLowerCase()] = "94;48454";
+	
+		stations["Barca da Amieira-Envendos".toLowerCase()] = "94;52415";
+	
+		stations["Barcelos".toLowerCase()] = "94;6122";
+	
+		stations["Barqueiros".toLowerCase()] = "94;9324";
+	
+		stations["Barquinha".toLowerCase()] = "94;51045";
+	
+		stations["Barragem de Belver".toLowerCase()] = "94;52241";
+	
+		stations["Barreiro".toLowerCase()] = "94;95000";
+	
+		stations["Barreiro-A".toLowerCase()] = "94;95026";
+	
+		stations["Barreiro-Barcos".toLowerCase()] = "0;0";
+	
+		stations["Barrimau".toLowerCase()] = "94;5058";
+	
+		stations["Barroselas".toLowerCase()] = "94;6304";
+	
+		stations["Beja".toLowerCase()] = "94;75002";
+	
+		stations["Belem".toLowerCase()] = "94;69054";
+	
+		stations["Belver".toLowerCase()] = "94;52282";
+	
+		stations["Bencanta".toLowerCase()] = "94;35170";
+	
+		stations["Benfica".toLowerCase()] = "94;60046";
+	
+		stations["Benquerencas".toLowerCase()] = "94;52878";
+	
+		stations["Bifurcacao de Lares".toLowerCase()] = "94;64022";
+	
+		stations["Bobadela".toLowerCase()] = "94;31070";
+	
+		stations["Boliqueime".toLowerCase()] = "94;78147";
+	
+		stations["Bom Joao".toLowerCase()] = "94;73031";
+	
+		stations["Bombarral".toLowerCase()] = "94;62703";
+	
+		stations["Braco de Prata".toLowerCase()] = "94;31005";
+	
+		stations["Braga".toLowerCase()] = "94;29157";
+	
+		stations["Burgos Rosa de Lima".toLowerCase()] = "71;11014";
+	
+		stations["Bustelo".toLowerCase()] = "94;8334";
+	
+		stations["Cabanoes".toLowerCase()] = "94;42150";
+	
+		stations["Cabeda".toLowerCase()] = "94;8029";
+	
+		stations["Cacela".toLowerCase()] = "94;73452";
+	
+		stations["Cachao".toLowerCase()] = "94;15420";
+	
+		stations["Cacia".toLowerCase()] = "94;38075";
+	
+		stations["Caide".toLowerCase()] = "94;8383";
+	
+		stations["Caldas da Rainha".toLowerCase()] = "94;63008";
+	
+		stations["Caldas de Moledo".toLowerCase()] = "94;9399";
+	
+		stations["Caminha".toLowerCase()] = "94;18242";
+	
+		stations["Campolide".toLowerCase()] = "94;60004";
+	
+		stations["Canas-Felgueira".toLowerCase()] = "94;46599";
+	
+		stations["Canelas".toLowerCase()] = "94;38117";
+	
+		stations["Canicos".toLowerCase()] = "94;28100";
+	
+		stations["Carapecos".toLowerCase()] = "94;6197";
+	
+		stations["Carcavelos".toLowerCase()] = "94;69187";
+	
+		stations["Carrascal-Delongo".toLowerCase()] = "94;40030";
+	
+		stations["Carreco".toLowerCase()] = "94;18085";
+	
+		stations["Carregado".toLowerCase()] = "94;31336";
+	
+		stations["Carregal do Sal".toLowerCase()] = "94;46482";
+	
+		stations["Carreira".toLowerCase()] = "94;6056";
+	
+		stations["Carvalha".toLowerCase()] = "94;18416";
+	
+		stations["Carvalhal Portela".toLowerCase()] = "94;42309";
+	
+		stations["Carvalheira-Maceda".toLowerCase()] = "94;38356";
+	
+		stations["Carvalhos de Figueiredo".toLowerCase()] = "94;40113";
+	
+		stations["Casa Branca".toLowerCase()] = "94;74005";
+	
+		stations["Casais".toLowerCase()] = "94;35147";
+	
+		stations["Casal Alvaro".toLowerCase()] = "94;42168";
+	
+		stations["Cascais".toLowerCase()] = "94;69260";
+	
+		stations["Castanheira do Ribatejo".toLowerCase()] = "94;31310";
+	
+		stations["Castelejo".toLowerCase()] = "94;46409";
+	
+		stations["Castelo Branco".toLowerCase()] = "94;53009";
+	
+		stations["Castelo Mendo".toLowerCase()] = "94;49312";
+	
+		stations["Castelo Novo".toLowerCase()] = "94;53314";
+	
+		stations["Castro Marim".toLowerCase()] = "94;73502";
+	
+		stations["Cavaco".toLowerCase()] = "94;44172";
+	
+		stations["Caxarias".toLowerCase()] = "94;34330";
+	
+		stations["Caxias".toLowerCase()] = "94;69120";
+	
+		stations["Celorico da Beira".toLowerCase()] = "94;48405";
+	
+		stations["Cerdeira".toLowerCase()] = "94;49205";
+	
+		stations["Cete".toLowerCase()] = "94;8227";
+	
+		stations["Chanca".toLowerCase()] = "94;56101";
+	
+		stations["Ciudad Rodrigo".toLowerCase()] = "71;33013";
+	
+		stations["Coimbra".toLowerCase()] = "94;41020";
+	
+		stations["Coimbra-B".toLowerCase()] = "94;36004";
+	
+		stations["Coimbroes".toLowerCase()] = "94;39149";
+	
+		stations["Conceicao".toLowerCase()] = "94;73379";
+	
+		stations["Contencas".toLowerCase()] = "94;48066";
+	
+		stations["Contumil".toLowerCase()] = "94;3004";
+	
+		stations["Cortegaca".toLowerCase()] = "94;38372";
+	
+		stations["Couto de Cambeses".toLowerCase()] = "94;29033";
+	
+		stations["Couto de Cucujaes".toLowerCase()] = "94;44297";
+	
+		stations["Covas".toLowerCase()] = "94;28290";
+	
+		stations["Covelinhas".toLowerCase()] = "94;10090";
+	
+		stations["Covilha".toLowerCase()] = "94;54007";
+	
+		stations["Crato".toLowerCase()] = "94;56267";
+	
+		stations["Cruz Quebrada".toLowerCase()] = "94;69104";
+	
+		stations["Cuba".toLowerCase()] = "94;74476";
+	
+		stations["Cuca".toLowerCase()] = "94;28209";
+	
+		stations["Curia".toLowerCase()] = "94;37119";
+	
+		stations["Curvaceiras".toLowerCase()] = "94;40063";
+	
+		stations["Dagorda-Peniche".toLowerCase()] = "94;62802";
+	
+		stations["Darque".toLowerCase()] = "94;6387";
+	
+		stations["Devesas".toLowerCase()] = "94;39164";
+	
+		stations["Dois Portos".toLowerCase()] = "94;62380";
+	
+		stations["Donas".toLowerCase()] = "94;53520";
+	
+		stations["Durraes".toLowerCase()] = "94;6262";
+	
+		stations["Eirol".toLowerCase()] = "94;42119";
+	
+		stations["Eixo".toLowerCase()] = "94;42077";
+	
+		stations["Entrecampos".toLowerCase()] = "94;66050";
+	
+		stations["Entroncamento".toLowerCase()] = "94;34009";
+	
+		stations["Ermesinde".toLowerCase()] = "94;4002";
+	
+		stations["Ermida".toLowerCase()] = "94;9258";
+	
+		stations["Ermidas-Sado".toLowerCase()] = "94;93005";
+	
+		stations["Escapaes".toLowerCase()] = "94;44222";
+	
+		stations["Esgueira".toLowerCase()] = "94;42028";
+	
+		stations["Esmeriz".toLowerCase()] = "94;5033";
+	
+		stations["Esmoriz".toLowerCase()] = "94;38406";
+	
+		stations["Espadanal da Azambuja".toLowerCase()] = "94;31401";
+	
+		stations["Espadaneira".toLowerCase()] = "94;35162";
+	
+		stations["Espinho".toLowerCase()] = "94;39008";
+	
+		stations["Espinho-Vouga".toLowerCase()] = "94;44016";
+	
+		stations["Esqueiro".toLowerCase()] = "94;18291";
+	
+		stations["Estarreja".toLowerCase()] = "94;38158";
+	
+		stations["Estombar-Lagoa".toLowerCase()] = "94;90241";
+	
+		stations["Estoril".toLowerCase()] = "94;69245";
+	
+		stations["Evora".toLowerCase()] = "94;83006";
+	
+		stations["Famalicao".toLowerCase()] = "94;5074";
+	
+		stations["Famalicao da Nazare".toLowerCase()] = "94;63180";
+	
+		stations["Faria".toLowerCase()] = "94;44271";
+	
+		stations["Faro".toLowerCase()] = "94;73007";
+	
+		stations["Fatela-Penamacor".toLowerCase()] = "94;53462";
+	
+		stations["Fatima".toLowerCase()] = "94;34249";
+	
+		stations["Feliteira".toLowerCase()] = "94;62364";
+	
+		stations["Fernando Po".toLowerCase()] = "94;71050";
+	
+		stations["Ferradosa".toLowerCase()] = "94;11114";
+	
+		stations["Ferragudo".toLowerCase()] = "94;90274";
+	
+		stations["Ferrao".toLowerCase()] = "94;10165";
+	
+		stations["Ferreiros".toLowerCase()] = "94;29132";
+	
+		stations["Figueira da Foz".toLowerCase()] = "94;64113";
+	
+		stations["Fontela".toLowerCase()] = "94;64089";
+	
+		stations["Fontela-A".toLowerCase()] = "94;64097";
+	
+		stations["Formoselha".toLowerCase()] = "94;35030";
+	
+		stations["Fornos de Algodres".toLowerCase()] = "94;48249";
+	
+		stations["Francelos".toLowerCase()] = "94;39081";
+	
+		stations["Fratel".toLowerCase()] = "94;52571";
+	
+		stations["Frechas".toLowerCase()] = "94;15453";
+	
+		stations["Freineda".toLowerCase()] = "94;49387";
+	
+		stations["Freixo de Numao-Mos do Douro".toLowerCase()] = "94;11247";
+	
+		stations["Fuentes de Onoro".toLowerCase()] = "71;33016";
+	
+		stations["Funcheira".toLowerCase()] = "94;77008";
+	
+		stations["Fundao".toLowerCase()] = "94;53546";
+	
+		stations["Fungalvaz".toLowerCase()] = "94;34199";
+	
+		stations["Fuseta".toLowerCase()] = "94;73205";
+	
+		stations["Fuseta-A".toLowerCase()] = "94;73197";
+	
+		stations["Gaia".toLowerCase()] = "94;39164";
+	
+		stations["Gata".toLowerCase()] = "94;49049";
+	
+		stations["General Torres".toLowerCase()] = "94;39172";
+	
+		stations["Giesteira".toLowerCase()] = "94;28159";
+	
+		stations["Godim".toLowerCase()] = "94;9423";
+	
+		stations["Gondarem".toLowerCase()] = "94;18325";
+	
+		stations["Gouveia".toLowerCase()] = "94;48165";
+	
+		stations["Grandola".toLowerCase()] = "94;92577";
+	
+		stations["Granja".toLowerCase()] = "94;39040";
+	
+		stations["Guarda".toLowerCase()] = "94;49007";
+	
+		stations["Guia".toLowerCase()] = "94;63800";
+	
+		stations["Guimaraes".toLowerCase()] = "94;24000";
+	
+		stations["Hendaye".toLowerCase()] = "87;67700";
+	
+		stations["Irivo".toLowerCase()] = "94;8243";
+	
+		stations["Irun".toLowerCase()] = "71;11600";
+	
+		stations["Jerumelo".toLowerCase()] = "94;62257";
+	
+		stations["Juncal".toLowerCase()] = "94;9050";
+	
+		stations["Lagos".toLowerCase()] = "94;90464";
+	
+		stations["Lamarosa".toLowerCase()] = "94;34090";
+	
+		stations["Lapa".toLowerCase()] = "94;44057";
+	
+		stations["Lapa do Lobo".toLowerCase()] = "94;46581";
+	
+		stations["Lardosa".toLowerCase()] = "94;53215";
+	
+		stations["Lares".toLowerCase()] = "94;64055";
+	
+		stations["Latadas".toLowerCase()] = "94;15495";
+	
+		stations["Lavradio".toLowerCase()] = "94;95042";
+	
+		stations["Leandro".toLowerCase()] = "94;4036";
+	
+		stations["Leiria".toLowerCase()] = "94;63560";
+	
+		stations["Lisboa - Cais do Sodre".toLowerCase()] = "94;69005";
+	
+		stations["Lisboa - Entrecampos".toLowerCase()] = "94;66050";
+	
+		stations["Lisboa - Oriente".toLowerCase()] = "94;31039";
+	
+		stations["Lisboa - Rossio".toLowerCase()] = "94;59006";
+	
+		stations["Lisboa - Santa Apolonia".toLowerCase()] = "94;30007";
+	
+		stations["Lisboa - Sete Rios".toLowerCase()] = "94;66076";
+	
+		stations["Litem".toLowerCase()] = "94;34504";
+	
+		stations["Livracao".toLowerCase()] = "94;8474";
+	
+		stations["Livramento".toLowerCase()] = "94;73239";
+	
+		stations["Lordelo".toLowerCase()] = "94;28191";
+	
+		stations["Loule".toLowerCase()] = "94;78238";
+	
+		stations["Lourical".toLowerCase()] = "94;63875";
+	
+		stations["Louro".toLowerCase()] = "94;5116";
+	
+		stations["Lousado".toLowerCase()] = "94;5009";
+	
+		stations["Luso-Bucaco".toLowerCase()] = "94;46094";
+	
+		stations["Luz".toLowerCase()] = "94;73262";
+	
+		stations["Macal do Chao".toLowerCase()] = "94;48488";
+	
+		stations["Macinhata".toLowerCase()] = "94;42325";
+	
+		stations["Madalena".toLowerCase()] = "94;39123";
+	
+		stations["Madrid".toLowerCase()] = "71;17000";
+	
+		stations["Mafra".toLowerCase()] = "94;62166";
+	
+		stations["Malveira".toLowerCase()] = "94;62224";
+	
+		stations["Mangualde".toLowerCase()] = "94;48009";
+	
+		stations["Marco de Canaveses".toLowerCase()] = "94;9001";
+	
+		stations["Marinha Grande".toLowerCase()] = "94;63461";
+	
+		stations["Martinganca-Maceira".toLowerCase()] = "94;63404";
+	
+		stations["Marujal".toLowerCase()] = "94;65052";
+	
+		stations["Marvila".toLowerCase()] = "94;66019";
+	
+		stations["Massama-Barcarena".toLowerCase()] = "94;60137";
+	
+		stations["Mato de Miranda".toLowerCase()] = "94;32383";
+	
+		stations["Mazagao".toLowerCase()] = "94;29116";
+	
+		stations["Mealhada".toLowerCase()] = "94;37051";
+	
+		stations["Medina del Campo".toLowerCase()] = "71;10500";
+	
+		stations["Meia Praia".toLowerCase()] = "94;90431";
+	
+		stations["Meinedo".toLowerCase()] = "94;8359";
+	
+		stations["Merces".toLowerCase()] = "94;61051";
+	
+		stations["Messines-Alte".toLowerCase()] = "94;77735";
+	
+		stations["Mexilhoeira Grande".toLowerCase()] = "94;90381";
+	
+		stations["Midoes".toLowerCase()] = "94;6080";
+	
+		stations["Mira Sintra-Melecas".toLowerCase()] = "94;62042";
+	
+		stations["Miramar".toLowerCase()] = "94;39073";
+	
+		stations["Miranda de Ebro".toLowerCase()] = "71;11200";
+	
+		stations["Mirandela".toLowerCase()] = "94;16006";
+	
+		stations["Mirao".toLowerCase()] = "94;9225";
+	
+		stations["Miuzela".toLowerCase()] = "94;49239";
+	
+		stations["Mogofores".toLowerCase()] = "94;37143";
+	
+		stations["Moimenta-Alcafache".toLowerCase()] = "94;46763";
+	
+		stations["Moita".toLowerCase()] = "94;95109";
+	
+		stations["Moledo do Minho".toLowerCase()] = "94;18200";
+	
+		stations["Monte Abraao".toLowerCase()] = "94;60111";
+	
+		stations["Monte de Lobos".toLowerCase()] = "94;46219";
+	
+		stations["Monte de Paramos".toLowerCase()] = "94;44040";
+	
+		stations["Monte Estoril".toLowerCase()] = "94;69252";
+	
+		stations["Monte Gordo".toLowerCase()] = "94;73544";
+	
+		stations["Monte Real".toLowerCase()] = "94;63685";
+	
+		stations["Monte Redondo".toLowerCase()] = "94;63735";
+	
+		stations["Montemor".toLowerCase()] = "94;65029";
+	
+		stations["Mortagua".toLowerCase()] = "94;46243";
+	
+		stations["Moscavide".toLowerCase()] = "94;31047";
+	
+		stations["Mosteiro".toLowerCase()] = "94;9134";
+	
+		stations["Mouquim".toLowerCase()] = "94;5108";
+	
+		stations["Mourisca Vouga".toLowerCase()] = "94;42259";
+	
+		stations["Mouriscas-A".toLowerCase()] = "94;52167";
+	
+		stations["Nelas".toLowerCase()] = "94;46672";
+	
+		stations["Nespereira".toLowerCase()] = "94;28266";
+	
+		stations["Nine".toLowerCase()] = "94;6007";
+	
+		stations["Obidos".toLowerCase()] = "94;62836";
+	
+		stations["Oeiras".toLowerCase()] = "94;69179";
+	
+		stations["Oia".toLowerCase()] = "94;37275";
+	
+		stations["Oleiros".toLowerCase()] = "94;8250";
+	
+		stations["Olhao".toLowerCase()] = "94;73106";
+	
+		stations["Oliveira".toLowerCase()] = "94;8409";
+	
+		stations["Oliveira de Azemeis".toLowerCase()] = "94;44339";
+	
+		stations["Oliveira do Bairro".toLowerCase()] = "94;37218";
+	
+		stations["Oliveirinha-Cabanas".toLowerCase()] = "94;46524";
+	
+		stations["Oronhe".toLowerCase()] = "94;42176";
+	
+		stations["Outeiro".toLowerCase()] = "94;62612";
+	
+		stations["Ovar".toLowerCase()] = "94;38299";
+	
+		stations["Paco de Arcos".toLowerCase()] = "94;69146";
+	
+		stations["Pacos de Brandao".toLowerCase()] = "94;44107";
+	
+		stations["Paialvo".toLowerCase()] = "94;34157";
+	
+		stations["Pala".toLowerCase()] = "94;9100";
+	
+		stations["Palmela".toLowerCase()] = "94;68080";
+	
+		stations["Pampilhosa".toLowerCase()] = "94;37002";
+	
+		stations["Papizios".toLowerCase()] = "94;46441";
+	
+		stations["Parada".toLowerCase()] = "94;8201";
+	
+		stations["Paraimo-Sangalhos".toLowerCase()] = "94;37184";
+	
+		stations["Paramos".toLowerCase()] = "94;38414";
+	
+		stations["Parede".toLowerCase()] = "94;69203";
+	
+		stations["Paredes".toLowerCase()] = "94;8276";
+	
+		stations["Parque das Cidades".toLowerCase()] = "94;78295";
+	
+		stations["Pataias".toLowerCase()] = "94;63354";
+	
+		stations["Paul".toLowerCase()] = "94;62745";
+	
+		stations["Pedra Furada".toLowerCase()] = "94;62133";
+	
+		stations["Pego".toLowerCase()] = "94;46060";
+	
+		stations["Pegoes".toLowerCase()] = "94;71126";
+	
+		stations["Pelariga".toLowerCase()] = "94;34702";
+	
+		stations["Penafiel".toLowerCase()] = "94;8318";
+	
+		stations["Penteado".toLowerCase()] = "94;95125";
+	
+		stations["Pereira".toLowerCase()] = "94;35055";
+	
+		stations["Pereirinhas".toLowerCase()] = "94;28217";
+	
+		stations["Pero Negro".toLowerCase()] = "94;62315";
+	
+		stations["Pinhal Novo".toLowerCase()] = "94;68007";
+	
+		stations["Pinhao".toLowerCase()] = "94;10249";
+	
+		stations["Poceirao".toLowerCase()] = "94;71001";
+	
+		stations["Pocinho".toLowerCase()] = "94;12005";
+	
+		stations["Poco Barreto".toLowerCase()] = "94;90134";
+	
+		stations["Pombal".toLowerCase()] = "94;34645";
+	
+		stations["Ponte de Sor".toLowerCase()] = "94;55293";
+	
+		stations["Porta Nova".toLowerCase()] = "94;73338";
+	
+		stations["Portalegre".toLowerCase()] = "94;57000";
+	
+		stations["Portela".toLowerCase()] = "94;4101";
+	
+		stations["Portela de Sintra".toLowerCase()] = "94;61093";
+	
+		stations["Portimao".toLowerCase()] = "94;90290";
+	
+		stations["Porto - Campanha".toLowerCase()] = "94;2006";
+	
+		stations["Porto - Sao Bento".toLowerCase()] = "94;1008";
+	
+		stations["Porto de Rei".toLowerCase()] = "94;9282";
+	
+		stations["Povoa".toLowerCase()] = "94;31146";
+	
+		stations["Praca do Quebedo".toLowerCase()] = "94;68130";
+	
+		stations["Pragal".toLowerCase()] = "94;17087";
+	
+		stations["Praia do Ribatejo".toLowerCase()] = "94;51128";
+	
+		stations["Praias Sado-A".toLowerCase()] = "94;91058";
+	
+		stations["Queluz-Belas".toLowerCase()] = "94;60103";
+	
+		stations["Quintans".toLowerCase()] = "94;37358";
+	
+		stations["Ramalhal".toLowerCase()] = "94;62547";
+	
+		stations["Reboleira".toLowerCase()] = "94;60095";
+	
+		stations["Recarei-Sobreira".toLowerCase()] = "94;8177";
+	
+		stations["Recesinhos".toLowerCase()] = "94;8441";
+	
+		stations["Rede".toLowerCase()] = "94;9357";
+	
+		stations["Regua".toLowerCase()] = "94;10009";
+	
+		stations["Reguengo-V.Pedra-Pontevel".toLowerCase()] = "94;33084";
+	
+		stations["Retaxo".toLowerCase()] = "94;52845";
+	
+		stations["Reveles".toLowerCase()] = "94;65128";
+	
+		stations["Riachos-T.Novas-Golega".toLowerCase()] = "94;32466";
+	
+		stations["Rio de Mouro".toLowerCase()] = "94;61044";
+	
+		stations["Rio Meao".toLowerCase()] = "94;44115";
+	
+		stations["Rio Tinto".toLowerCase()] = "94;3038";
+	
+		stations["Rochoso".toLowerCase()] = "94;49163";
+	
+		stations["Roma".toLowerCase()] = "94;66035";
+	
+		stations["Roma - Areeiro".toLowerCase()] = "94;66035";
+	
+		stations["Ruilhe".toLowerCase()] = "94;29074";
+	
+		stations["Runa".toLowerCase()] = "94;62422";
+	
+		stations["Sabugo".toLowerCase()] = "94;62091";
+	
+		stations["Sacavem".toLowerCase()] = "94;31062";
+	
+		stations["Salamanca".toLowerCase()] = "71;30100";
+	
+		stations["Salir do Porto".toLowerCase()] = "94;63107";
+	
+		stations["Salreu".toLowerCase()] = "94;38125";
+	
+		stations["Sampaio-Oleiros".toLowerCase()] = "94;44073";
+	
+		stations["San Sebastian".toLowerCase()] = "71;11511";
+	
+		stations["Sanfins".toLowerCase()] = "94;44198";
+	
+		stations["Santa Cita".toLowerCase()] = "94;40105";
+	
+		stations["Santa Clara-Saboia".toLowerCase()] = "94;77388";
+	
+		stations["Santa Comba Dao".toLowerCase()] = "94;46367";
+	
+		stations["Santa Iria".toLowerCase()] = "94;31112";
+	
+		stations["Santa Margarida".toLowerCase()] = "94;51185";
+	
+		stations["Santana-Cartaxo".toLowerCase()] = "94;32045";
+	
+		stations["Santarem".toLowerCase()] = "94;32185";
+	
+		stations["Santiago de Riba-Ul".toLowerCase()] = "94;44313";
+	
+		stations["Santo Amaro".toLowerCase()] = "94;69161";
+	
+		stations["Santo Tirso".toLowerCase()] = "94;28068";
+	
+		stations["Santos".toLowerCase()] = "94;69013";
+	
+		stations["Sao Frutuoso".toLowerCase()] = "94;4051";
+	
+		stations["Sao Joao da Madeira".toLowerCase()] = "94;44255";
+	
+		stations["Sao Joao das Craveiras".toLowerCase()] = "94;71159";
+	
+		stations["Sao Joao de Ver".toLowerCase()] = "94;44156";
+	
+		stations["Sao Joao do Estoril".toLowerCase()] = "94;69237";
+	
+		stations["Sao Joao Loure".toLowerCase()] = "94;42093";
+	
+		stations["Sao Mamede".toLowerCase()] = "94;62786";
+	
+		stations["Sao Martinho do Campo".toLowerCase()] = "94;8102";
+	
+		stations["Sao Martinho do Porto".toLowerCase()] = "94;63131";
+	
+		stations["Sao Pedro da Torre".toLowerCase()] = "94;18440";
+	
+		stations["Sao Pedro do Estoril".toLowerCase()] = "94;69229";
+	
+		stations["Sao Romao".toLowerCase()] = "94;4077";
+	
+		stations["Sapataria".toLowerCase()] = "94;62299";
+	
+		stations["Sarnadas".toLowerCase()] = "94;52803";
+	
+		stations["Seica-Ourem".toLowerCase()] = "94;34264";
+	
+		stations["Seixas".toLowerCase()] = "94;18275";
+	
+		stations["Senhora da Agonia".toLowerCase()] = "94;18234";
+	
+		stations["Senhora das Neves".toLowerCase()] = "94;6312";
+	
+		stations["Sernada do Vouga".toLowerCase()] = "94;43000";
+	
+		stations["Setil".toLowerCase()] = "94;32003";
+	
+		stations["Setubal".toLowerCase()] = "94;68122";
+	
+		stations["Silva".toLowerCase()] = "94;6155";
+	
+		stations["Silvalde".toLowerCase()] = "94;38422";
+	
+		stations["Silvalde-Vouga".toLowerCase()] = "94;44032";
+	
+		stations["Silves".toLowerCase()] = "94;90183";
+	
+		stations["Simoes".toLowerCase()] = "94;34744";
+	
+		stations["Sintra".toLowerCase()] = "94;61101";
+	
+		stations["Soalheira".toLowerCase()] = "94;53264";
+	
+		stations["Sobral".toLowerCase()] = "94;48728";
+	
+		stations["Soito".toLowerCase()] = "94;46185";
+	
+		stations["Soudos-Vila Nova".toLowerCase()] = "94;40014";
+	
+		stations["Soure".toLowerCase()] = "94;34801";
+	
+		stations["Souselas".toLowerCase()] = "94;36087";
+	
+		stations["Sta Cruz - Damaia".toLowerCase()] = "94;60038";
+	
+		stations["Suzao".toLowerCase()] = "94;8060";
+	
+		stations["Tadim".toLowerCase()] = "94;29090";
+	
+		stations["Taipa-Requeixo".toLowerCase()] = "94;42127";
+	
+		stations["Tamel".toLowerCase()] = "94;6213";
+	
+		stations["Tancos".toLowerCase()] = "94;51086";
+	
+		stations["Taveiro".toLowerCase()] = "94;35139";
+	
+		stations["Tavira".toLowerCase()] = "94;73320";
+	
+		stations["Telhal".toLowerCase()] = "94;62067";
+	
+		stations["Terronhas".toLowerCase()] = "94;8136";
+	
+		stations["Tojeirinha".toLowerCase()] = "94;52738";
+	
+		stations["Tomar".toLowerCase()] = "94;40154";
+	
+		stations["Torre das Vargens".toLowerCase()] = "94;56002";
+	
+		stations["Torres Vedras".toLowerCase()] = "94;62471";
+	
+		stations["Tortosendo".toLowerCase()] = "94;53678";
+	
+		stations["Tramagal".toLowerCase()] = "94;51243";
+	
+		stations["Trancoso".toLowerCase()] = "94;8151";
+	
+		stations["Travagem".toLowerCase()] = "94;4010";
+	
+		stations["Travasso".toLowerCase()] = "94;42135";
+	
+		stations["Trezoi".toLowerCase()] = "94;46136";
+	
+		stations["Trofa".toLowerCase()] = "94;4630";
+	
+		stations["Tua".toLowerCase()] = "94;11007";
+	
+		stations["Tunes".toLowerCase()] = "94;78006";
+	
+		stations["Vacarica".toLowerCase()] = "94;46045";
+	
+		stations["Valadares".toLowerCase()] = "94;39115";
+	
+		stations["Valado".toLowerCase()] = "94;63263";
+	
+		stations["Vale de Figueira".toLowerCase()] = "94;32284";
+	
+		stations["Vale de Prazeres".toLowerCase()] = "94;53397";
+	
+		stations["Vale de Santarem".toLowerCase()] = "94;32102";
+	
+		stations["Valega".toLowerCase()] = "94;38240";
+	
+		stations["Valenca".toLowerCase()] = "94;7005";
+	
+		stations["Valladolid-Campo Grande".toLowerCase()] = "71;10600";
+	
+		stations["Valongo".toLowerCase()] = "94;8086";
+	
+		stations["Valongo Vouga".toLowerCase()] = "94;42291";
+	
+		stations["Vargelas".toLowerCase()] = "94;11148";
+	
+		stations["Venda do Alcaide".toLowerCase()] = "94;68049";
+	
+		stations["Vendas Novas".toLowerCase()] = "94;72009";
+	
+		stations["Vermoil".toLowerCase()] = "94;34553";
+	
+		stations["Verride".toLowerCase()] = "94;65086";
+	
+		stations["Vesuvio".toLowerCase()] = "94;11197";
+	
+		stations["Viana do Castelo".toLowerCase()] = "94;18002";
+	
+		stations["Vigo-Guixar".toLowerCase()] = "71;22308";
+	
+		stations["Vila da Feira".toLowerCase()] = "94;44206";
+	
+		stations["Vila das Aves".toLowerCase()] = "94;28134";
+	
+		stations["Vila Fernando".toLowerCase()] = "94;49114";
+	
+		stations["Vila Franca das Naves".toLowerCase()] = "94;48546";
+	
+		stations["Vila Franca de Xira".toLowerCase()] = "94;31278";
+	
+		stations["Vila Garcia".toLowerCase()] = "94;49072";
+	
+		stations["Vila Mea".toLowerCase()] = "94;8433";
+	
+		stations["Vila Nova da Baronia".toLowerCase()] = "94;74278";
+	
+		stations["Vila Nova da Rainha".toLowerCase()] = "94;31377";
+	
+		stations["Vila Nova de Ancos".toLowerCase()] = "94;34868";
+	
+		stations["Vila Nova de Cerveira".toLowerCase()] = "94;18341";
+	
+		stations["Vila Nova de Gaia".toLowerCase()] = "94;39164";
+	
+		stations["Vila Pouca do Campo".toLowerCase()] = "94;35105";
+	
+		stations["Vila Real de Santo Antonio".toLowerCase()] = "94;73569";
+	
+		stations["Vila Velha de Rodao".toLowerCase()] = "94;52647";
+	
+		stations["Vilar Formoso".toLowerCase()] = "94;49460";
+	
+		stations["Vilela-Fornos".toLowerCase()] = "94;36053";
+	
+		stations["Virtudes".toLowerCase()] = "94;33043";
+	
+		stations["Vitoria".toLowerCase()] = "71;11208";
+	
+		stations["Vizela".toLowerCase()] = "94;28233";
+	
+		stations["Zibreira".toLowerCase()] = "94;62331";
+	
+
+	app.directive('ngPostRender',function($timeout){
+		  return{
+		    restrict:'A',
+		    link:function(scope,elem,attrs){
+		       $timeout(function(){
+		    	   preset(scope);
+		       },0)
+		  }
+		  } 
+		});
+	
+	function preset($scope)
+	{
+		// experimentar fazendo codigo JSTL para escrever numa variavel para cada campo, para n haver problemas
+		if(false) {
+			var departEscapeXml = '';
+			$scope.depart = departEscapeXml;
+			$scope.onDepartChange();
+		}
+		
+		if(false) {
+			var arrivalEscapeXml = '';
+			$scope.arrival = arrivalEscapeXml;
+			$scope.onArrivalChange();
+		}
+		
+		if(false) {
+			var departDateEscapeXml = '';
+			firstDate.pickadate('picker').set('select', departDateEscapeXml, { format: 'yyyy-mm-dd' });
+			$scope.updateFirstDate();
+		}
+		
+		if(false) {
+			var returnDateEscapeXml = '';
+			secondDate.pickadate('picker').set('select', returnDateEscapeXml, { format: 'yyyy-mm-dd' });
+			$scope.updateSecondDate();
+		}
+
+		if(false) {
+			var timeEscapeXml = '';
+			$("#hourGo").selectpicker('val', timeEscapeXml);
+			$scope.hourGo = "";
+			$scope.checkTime();
+		}
+		
+		if(false) {
+			var timeTypeEscapeXml = '';
+			$("#partida").selectpicker('val', timeTypeEscapeXml);
+		}
+		
+		if(false) {
+			var returnTimeEscapeXml = '';
+			$("#hourBack").selectpicker('val', returnTimeEscapeXml);
+			$scope.hourBack = returnTimeEscapeXml;
+			$scope.checkTime();
+		}
+		
+		if(false) {
+			var returnTimeTypeEscapeXml = '';
+			$("#chegada").selectpicker('val', returnTimeTypeEscapeXml);
+		}
+		
+	}
+
+	app.controller('generalController', ['$scope', function($scope) {
+		$scope.departDate = "26 Janeiro, 2016";
+	
+		$scope.updateFirstDate = function() {
+
+			if($scope.departDate === "" || $scope.departDate === undefined ) {
+				$scope.searchTimetable.Date.$setValidity('parse', true);
+				$scope.searchTimetable.Date.$setValidity('calendar', true);
+				firstDate.pickadate('picker').set('clear');
+				firstDate.pickadate('picker').set('highlight', new Date());
+				return;
+			}
+
+			var chosenDate = extractDate($scope.departDate);
+			if(chosenDate == "") {
+				$scope.searchTimetable.Date.$setValidity('parse', false);
+			}
+			else {
+				$scope.searchTimetable.Date.$setValidity('parse', true);
+				var dateText = verifyDate(chosenDate);
+				if(dateText == "") {
+					$scope.searchTimetable.Date.$setValidity('calendar', false);
+				}
+				else {
+					$scope.searchTimetable.Date.$setValidity('calendar', true);
+					firstDate.pickadate('picker').set('select', dateText, { format: 'yyyy-mm-dd' });
+				}
+				$scope.checkDate('1');
+			}
+		}
+
+		$scope.updateSecondDate = function() {
+			if($scope.returnDate === "" || $scope.returnDate === undefined) {
+				$scope.searchTimetable.turnDate.$setValidity('parse', true);
+				$scope.searchTimetable.turnDate.$setValidity('calendar', true);
+				secondDate.pickadate('picker').set('clear');
+				secondDate.pickadate('picker').set('highlight', new Date());
+				return;
+			}
+			
+			var chosenDate = extractDate($scope.returnDate);
+			if(chosenDate == "") {
+				$scope.searchTimetable.turnDate.$setValidity('parse', false);
+			}
+			else {
+				$scope.searchTimetable.turnDate.$setValidity('parse', true);
+				var dateText = verifyDate(chosenDate);
+				if(dateText == "") {
+					$scope.searchTimetable.turnDate.$setValidity('calendar', false);
+				}
+				else {
+					$scope.searchTimetable.turnDate.$setValidity('calendar', true);
+					secondDate.pickadate('picker').set('select', dateText, { format: 'yyyy-mm-dd' });
+				}
+				$scope.checkDate('2');
+			}
+		}
+
+		$scope.checkDate = function(e) {
+			
+			var pick1 = 0;
+			if(firstDate.pickadate('picker').get('select'))
+				pick1 = firstDate.pickadate('picker').get('select').pick;
+			var pick2 = 0;
+			if(secondDate.pickadate('picker').get('select'))
+				pick2 = secondDate.pickadate('picker').get('select').pick;
+			
+			if(pick1 > pick2) {
+				if (e === "1") {
+				$scope.returnDate = (pick2 !== 0 && pick1 !== 0) ? $scope.departDate : $scope.returnDate;
+				var $datepicker = $("#datepicker-first").pickadate();
+				var $datepicker2 = $("#datepicker-second").pickadate();
+				if ($datepicker != null && $datepicker2 != null && $scope.returnDate !== undefined && $scope.returnDate !== "") {
+					$datepicker.pickadate('picker').set('select', $scope.returnDate);
+					$datepicker2.pickadate('picker').set('select', $scope.returnDate);
+				}
+				$scope.checkTime();
+				} else {
+					$scope.departDate = (pick1 !== 0 && pick2 !== 0) ? $scope.returnDate : $scope.departDate;
+					var $datepicker = $("#datepicker-first").pickadate();
+					var $datepicker2 = $("#datepicker-second").pickadate();
+					if ($datepicker != null && $datepicker2 != null && $scope.departDate !== undefined) {
+						$datepicker.pickadate('picker').set('select', $scope.departDate);
+						$datepicker2.pickadate('picker').set('select', $scope.departDate);
+					}
+					$scope.checkTime();
+				}
+			}
+			else {
+				$scope.searchTimetable.Date.$setValidity('date', true);
+				$scope.checkTime();
+			}
+		}
+		
+		$scope.checkTime = function() {
+			var empty = "hh:mm";
+			if ($scope.departDate === $scope.returnDate && ($scope.hourGo !== empty && $scope.hourBack !== empty)) {
+				
+				if ($scope.hourGo >= $scope.hourBack) {
+					$scope.searchTimetable.time.$setValidity('hourGo', false);
+					$scope.searchTimetable.returnTime.$setValidity('hourBack', false);
+				} else {
+					$scope.searchTimetable.returnTime.$setValidity('hourBack', true);
+					$scope.searchTimetable.time.$setValidity('hourGo', true);
+				}
+			} else {
+				$scope.searchTimetable.returnTime.$setValidity('hourBack', true);
+				$scope.searchTimetable.time.$setValidity('hourGo', true);
+			}
+		}
+	
+		$scope.departCode = "";
+		$scope.arrivalCode = "";
+		
+		$scope.onDepartChange = function() {
+			var lowerName = ($scope.depart === undefined ? undefined : $scope.depart.toLowerCase());
+			var code = stations[lowerName];
+			$scope.departCode = code;
+			if(code == undefined) {
+				$scope.searchTimetable.depart.$setValidity('code', false);
+			}
+			else {
+				$scope.searchTimetable.depart.$setValidity('code', true);
+			}
+			$scope.checkDestination();
+		}
+		
+		$scope.onArrivalChange = function() {
+			var lowerName = ($scope.arrival === undefined ? undefined : $scope.arrival.toLowerCase());
+			var code = stations[lowerName];
+			$scope.arrivalCode = code;
+			if(code == undefined) {
+				$scope.searchTimetable.arrival.$setValidity('code', false);
+			}
+			else {
+				$scope.searchTimetable.arrival.$setValidity('code', true);
+			}
+			$scope.checkDestination();
+		}
+		
+		$scope.checkDestination = function() {
+			
+			if($scope.departCode == $scope.arrivalCode) {
+				$scope.searchTimetable.arrival.$setValidity('unique', false);
+			}
+			else {
+				$scope.searchTimetable.arrival.$setValidity('unique', true);
+			}
+		}
+	}]);
+	
+	function extractDate(dateStr) {
+		var splitStr = dateStr.split(" ");
+		if(splitStr.length != 3) {
+			return "";
+		}
+		
+		var day = parseInt(splitStr[0]);
+		if(day == NaN) {
+			return "";
+		}
+		
+		var year = parseInt(splitStr[2]);
+		if(year == NaN) {
+			return "";
+		}
+
+		var monthText = splitStr[1].replace(/\,/g, "");
+		var month = -1;
+		var monthArray = $("#datepicker-first").pickadate('picker').component.settings.monthsFull;
+		
+		if(monthText == "Março") { // special case due to the 'ç' character
+			month = 2;
+		}
+		else {
+			for(var i = 0; i < 12; i++) {
+				if(monthText == monthArray[i]) {
+					month = i;
+					break;
+				}
+			}
+		}
+		
+		if(month == -1) {
+			return "";
+		}
+		
+		var d = new Date(year, month, day);
+		return d;
+	}
+	
+	function verifyDate(date) {
+		var minDate = new Date();
+		minDate.setHours(0);
+		minDate.setMinutes(0);
+		minDate.setSeconds(0);
+		minDate.setMilliseconds(0);
+		
+		var maxDate = new Date(minDate.getTime());
+		maxDate.setDate(maxDate.getDate() + 59);
+		
+		if((date < minDate) || (date > maxDate)) {
+			return "";
+		}
+		
+        var year = date.getFullYear().toString();
+        var month = (date.getMonth() + 1).toString();
+        var day = date.getDate().toString();
+        
+		var textDate = year + "-" + (month[1] ? month : "0" + month) + "-" + (day[1] ? day : "0" + day);
+		return textDate;
+	}	
+</script></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div >
+		<h2></h2><div class="panel-group contacts-accordion" id="accordion">
+			<div class="panel panel-default">
+					<div class="panel-heading" data-toggle="collapse" data-parent="#accordion" href="#collapsef4b9b17769958410VgnVCM100000ab04a8c0RCRD0">
+						<p class="panel-title">
+							<a href="#">
+								<img src="/StaticFiles/CP/resources/images/icones_avisos/icone_relevante.jpg" >
+								Informação da pesquisa de horários</a>
+						</p>
+					</div>
+					<div id="collapsef4b9b17769958410VgnVCM100000ab04a8c0RCRD0" class="panel-collapse collapse ">
+						<div class="panel-body">
+						    <div class="imageresponsive">
+								<p>Os horários estão disponíveis, no máximo, com 60 dias de antecedência.</p>
+<p>A pesquisa de horários apresenta sempre o trajeto menor e as ligações mais rápidas para o percurso pretendido, conforme a opção de serviço selecionada.</p>
+<p>As ligações entre comboios só são asseguradas em condições normais de circulação, não sendo apresentados nesta pesquisa os comboios com ligações inferiores a 5 minutos (exceção dos comboios urbanos de Lisboa, de 3 minutos, e situações pontuais do serviço Regional e InterRegional).</p>
+<p>Consulte sempre o detalhe da viagem.<br />Os preços não dispensam a sua confirmação nos postos de venda da CP.</p>
+<p>Sempre que utilizar os comboios Regional ou InterRegional em complemento aos comboios Alfa Pendular e Intercidades usufrui de um desconto de 65% sobre o preço das viagens realizadas nos serviços Regional ou InterRegional. Este desconto é aplicado apenas quando a viagem Regional ou InterRegional for adquirida conjuntamente e no mesmo título da viagem Alfa Pendular ou Intercidades e tem como limite máximo 25% do valor total da viagem. Caso opte por outro desconto aplicável também ao serviço Regional ou InterRegional, este substitui o desconto de 65%. O desconto nos serviços Regional ou InterRegional não acumula com qualquer outro, exceto o de ida e volta. </p>
+<p>Os horários das estações, em percurso espanhol, são apresentados na hora local desse país.</p></div>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+</div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" >
+
+$.getScript('/StaticFiles/CP/resources/js/jQuery.print.js');
+
+$(document).ready(
+		function() { 
+			initResults();
+		});
+		
+function initResults() {
+
+	$(".price").click(function(){
+		 var span = $(this);
+		  $.post("/sites/spring/get-timetable-price",
+		  {
+			  selectedIndex: span.attr("index"),
+			  goTrip:span.attr("outward")
+		  },
+		  function(data,status){
+		    span.html(data);
+		  });
+		});	
+	
+	$(".detail").click(function(){
+			var span = $(this);
+			$( "#tts-wrap" ).load( "/sites/spring/get-timetable-detail",
+			{
+				selectedIndex: span.attr("index"),
+		 	 	goTrip:span.attr("outward")
+			}, 
+			function() {
+				initDetails();
+			});
+	});
+
+	var offset = $("#tts-wrap").offset().top;
+	$('html,body').animate({scrollTop: offset}, 1200);
+}
+
+function initDetails() {
+	var offset = $("#tts-wrap").offset().top;
+	$('html,body').animate({scrollTop: offset}, 1200);
+}
+
+function goBack() {
+	$( "#tts-wrap" ).load( "/sites/spring/search-timetables",
+			 function() {
+				initResults();
+		});
+}
+
+function goTop(){
+	$('html,body').animate({scrollTop: 0}, 1100);
+}
+
+function print() {
+	$("#tts-wrap").print({
+	    addGlobalStyles : true,
+	    stylesheet : null,
+	    rejectWindow : true,
+	    noPrintSelector : ".no-print",
+	    iframe : true,
+	    append : null,
+	    prepend : null
+	});
+}
+
+
+
+</script>
+
+<div id="tts-wrap">
+
+
+
+
+
+
+		
+
+
+<form action="http://venda.cp.pt/ticketing/buyJourney.do" method="post" id="tickets">
+
+
+<input name="language" type="hidden" value="pt"/>
+<input name="sessionId" type="hidden" value="11E66A5DB2EC682505954A0ACD7E07F3.app2"/>	
+
+
+
+<div class="row">
+	<div class="col-md-12">
+		<h3><a class="no-print hidden-xs visible-sm visible-md visible-lg" onclick="print();"> <span class="glyphicon glyphicon-print"></span> Imprimir  resultados </a> </h3>
+		
+	
+		
+
+			
+
+
+
+
+		
+
+
+
+
+
+
+	</div>
+</div>
+		
+</form>	
+
+
+
+
+
+<div class="row no-print">
+	<div class="col-md-12">
+		<div class="call-to-action pull-right">
+			<a href="/sites/passageiros/pt/consultar-horarios" class="btn btn-primary btn-green-action pull-left" role="button" data-original-title="" title="">Nova pesquisa</a>
+			
+			
+				<a href="/sites/passageiros/pt/comprar-bilhetes/pontos-venda" class="btn btn-primary btn-green-action pull-left" role="button" data-original-title="" title="">Onde comprar </a>
+			
+		</div>
+	</div>
+</div>
+
+
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="table-caption">
+			<h3>Legenda</h3>
+			<div class="col-md-6">
+
+				<ul>
+				
+					<li>ND -Pre&ccedil;o n&atilde;o dispon&iacute;vel no momento.</li>
+				</ul>
+			</div>
+			<div class="row col-md-12">
+				&nbsp;
+			</div>
+		</div>
+	</div>
+</div>
+
+
+</div></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Content List: Tue Jan 26 01:55:31 WET 2016 -->
+
+
+
+<div class="row">
+	<div class="col-md-12">
+		<div class="carousel-swipe owl-carousel">
+        	
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/trainsharing"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/compra_anticipada/trainsharing_p.jpg"
+												alt="Viaje com 3 ou 4 passageiros e beneficie de um desconto até 50% nos serviços Alfa Pendular ou Intercidades.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/trainsharing" >TrainSharing  até 50% desconto</a></h3>
+							<div class="desc">
+									<p>Viaje com 3 ou 4 passageiros e beneficie de um desconto até 50% nos serviços Alfa Pendular ou Intercidades.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/jovem"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/jovens_p.jpg"
+												alt="Se tens até 25 anos, aproveita este desconto nas viagens em Alfa Pendular, Intercidades e Regional.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/jovem" >Jovem - 25% de desconto</a></h3>
+							<div class="desc">
+									<p>Se tens até 25 anos, aproveita este desconto nas viagens em Alfa Pendular, Intercidades e Regional.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/compra-antecipada"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/compra_antecipada/antecipada_p.jpg"
+												alt="Viaje com desconto em Alfa Pendular e Intercidades, para todos os destinos.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/compra-antecipada" >Compra antecipada - 40% desconto</a></h3>
+							<div class="desc">
+									<p>Viaje com desconto em Alfa Pendular e Intercidades, para todos os destinos.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/cartao-jovem"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/etarios/cartao_jovem_p.jpg"
+												alt="Até aos 29 anos usa o teu Cartão Jovem. Se tens até 25 anos informa-te dos 25% desconto para jovens.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/cartao-jovem" >Cartão Jovem - 20% desconto</a></h3>
+							<div class="desc">
+									<p>Até aos 29 anos usa o teu Cartão Jovem. Se tens até 25 anos informa-te dos 25% desconto para jovens.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/familia-pt"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/grupos/familia_pt_p.jpg"
+												alt="Aproveite os 25% de desconto, ao fim de semana, nas linhas dos comboios urbanos do Porto.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/familia-pt" >Família & Amigos Porto</a></h3>
+							<div class="desc">
+									<p>Aproveite os 25% de desconto, ao fim de semana, nas linhas dos comboios urbanos do Porto.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/familia-lc"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/grupos/familia_lc_p.jpg"
+												alt="Ao fim de semana, saia da rotina e viaje no Alfa Pendular ou Intercidades com 50% de desconto.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/familia-lc" >Família & Amigos AP e IC</a></h3>
+							<div class="desc">
+									<p>Ao fim de semana, saia da rotina e viaje no Alfa Pendular ou Intercidades com 50% de desconto.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/familia-lx"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/grupos/familia_lx_p.jpg"
+												alt="Aproveite esta oportunidade e, ao fim de semana e feriados nacionais, viaje nos comboios urbanos de Lisboa com 50% de desconto.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/familia-lx" >Família & Amigos Lisboa</a></h3>
+							<div class="desc">
+									<p>Aproveite esta oportunidade e, ao fim de semana e feriados nacionais, viaje nos comboios urbanos de Lisboa com 50% de desconto.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+	        	
+	        		<div class="item">
+				<div class="thumbnail">
+								<a href="/passageiros/pt/descontos-vantagens/descontos/ida-e-volta"> <img class="owl-lazy"
+												data-src="/StaticFiles/Passageiros/4_vantagens/descontos/compra_antecipada/ida_volta_p.jpg"
+												alt="Antecipe a compra da sua volta e usufrua de 10% de desconto nas suas viagens de longo curso.">
+										<div class="overlay">
+											<img alt="Ver detalhe"
+												src="/StaticFiles/CP/resources/images/plus.png">
+										</div>
+									</a>
+							</div>
+						<div class="caption">
+							<h3><a href="/passageiros/pt/descontos-vantagens/descontos/ida-e-volta" >Ida e volta - 10% desconto</a></h3>
+							<div class="desc">
+									<p>Antecipe a compra da sua volta e usufrua de 10% de desconto nas suas viagens de longo curso.</p>
+	</div>
+							</div>
+					</div>
+		
+	            
+            
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+$('.owl-carousel').owlCarousel({
+    margin:15,
+    responsiveClass:true,
+	loop:false,
+    nav:false,
+    lazyLoad:true,
+    mouseDrag: false,
+    responsive:{
+    	0:{
+            items:1,
+        },
+    	768:{
+            items:2,
+        },
+        992:{
+            items:3,
+        },
+        1200:{
+            items:4
+        }
+    }
+ }
+);
+</script></div>
+</div>
+				
+				<p>
+					<a href="#" class="btn pull-right link-to-top" role="button" data-original-title="" title="" style="display: none;">
+						<span class="glyphicon glyphicon-chevron-up">
+	                        </span>
+					</a>
+				</p>
+			</div>
+			<!-- End of container -->
+			<div class="container">
+			<div class="row">
+				<div class="col-md-12 share-this">
+					<div class="pull-right">
+						<span class='st_facebook_large' title='Facebook'></span>
+						<span class='st_twitter_large' title='Tweet'></span>
+						<span class='st_sharethis_large' title='ShareThis'></span>
+						<span class='st_email_large' title='Email'></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	
+		    <!-- Begin of Footer-->
+		    <div class="footer">
+				<div>
+
+<div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="footer-contacts-newsletter">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                   <ul class="short-contacts">
+                       <li>
+                           <img src="/StaticFiles/CP/resources/images/icones_rodape/contact.png" alt="Linha CP">
+                           <a href="/passageiros/pt/informacao-cliente/contactos"><p>Linha CP</p><p class="note-italic">707 210 220</p></a>
+                       </li>
+                       <li>
+                           <img alt="Chat CP" onclick="window.open('http://80.251.164.52/Chat/','_blank','width=537,height=575')" src="/StaticFiles/CP/resources/images/icones_rodape/chat.png">
+                           <a onclick="window.open('http://80.251.164.52/Chat/','_blank','width=537,height=575')" href="#"><p>Chat CP</p><p class="note-italic">Online Consigo</p></a> 
+                       </li>
+                       <li>
+						<a target="_blank" href="https://www.facebook.com/CP" data-original-title="" title="">
+							<img src="/StaticFiles/CP/resources/images/icones_rodape/facebook.png"  alt="CP - Comboios de Portugal - Facebook">
+						</a>
+						<a target="_blank" href="https://www.facebook.com/CP" data-original-title="" title="" >
+							<p>CP - Comboios de Portugal</p><p class="note-italic">Facebook</p>
+						</a>
+					</li>
+                     <li>
+						<a target="_blank" href="https://www.facebook.com/cooltraincp" data-original-title="" title="" >
+							<img src="/StaticFiles/CP/resources/images/icones_rodape/facebook.png" alt="Cool Train CP - Facebook">
+						</a>
+						<a target="_blank" href="https://www.facebook.com/cooltraincp" data-original-title="" title="" >
+							<p>Cool Train CP</p><p class="note-italic">Facebook</p>
+						</a>
+					</li>
+					<li>
+						<a target="_blank" href="https://www.instagram.com/cp_comboiosdeportugal/" data-original-title="" title="" >
+							<img src="/StaticFiles/CP/resources/images/icones_rodape/instagram.png" alt="cp_comboiosdeportugal - Instagram">
+						</a>
+						<a target="_blank" href="https://www.instagram.com/cp_comboiosdeportugal/" data-original-title="" title="" >
+							<p>cp_comboiosdeportugal</p><p class="note-italic">Instagram</p>
+						</a>
+					</li>
+                   </ul>
+            </div>
+        </div>
+    </div>
+</div></div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+<div class="container">
+    <div class="footer-category-links">
+        <div class="row">
+            <div class="col-md-12">
+				
+					
+					<div class="col-xs-2 col-xs-offset-1">
+			             <ul class="general-links">
+			                 <li class="links-headline"><a href="/passageiros/pt/consultar-horarios">Consultar horários</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/consultar-horarios/precos">Preços</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/consultar-horarios/estacoes">Estações</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/consultar-horarios/avisos">Avisos</a></li>
+			                 
+			             </ul>
+			         </div>		
+				
+					
+					<div class="col-xs-2 ">
+			             <ul class="general-links">
+			                 <li class="links-headline"><a href="/passageiros/pt/comprar-bilhetes">Comprar bilhetes</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/comprar-bilhetes/pontos-venda">Pontos de venda</a></li>
+			                 
+			             </ul>
+			         </div>		
+				
+					
+					<div class="col-xs-2 ">
+			             <ul class="general-links">
+			                 <li class="links-headline"><a href="/passageiros/pt/como-viajar">Como viajar</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/como-viajar/Viagem-virtual">Viagem virtual</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/como-viajar/em-lazer">Em lazer</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/como-viajar/em-trabalho">Em trabalho</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/como-viajar/em-grupo">Em grupo</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/como-viajar/todos-dias">Todos os dias</a></li>
+			                 
+			             </ul>
+			         </div>		
+				
+					
+					<div class="col-xs-2 ">
+			             <ul class="general-links">
+			                 <li class="links-headline"><a href="/passageiros/pt/descontos-vantagens">Descontos e Vantagens</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/descontos-vantagens/vantagens-parcerias">Vantagens e parcerias</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/descontos-vantagens/descontos">Descontos</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/descontos-vantagens/em-destaque">Em destaque</a></li>
+			                 
+			             </ul>
+			         </div>		
+				
+					
+					<div class="col-xs-2 ">
+			             <ul class="general-links">
+			                 <li class="links-headline"><a href="/passageiros/pt/informacao-cliente">Informação ao Cliente</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/informacao-cliente/informacao-util">Informação Útil</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/informacao-cliente/cne">Clientes com Necessidades Especiais</a></li>
+			                 
+			               		
+				                 <li><a href="/passageiros/pt/informacao-cliente/contactos">Contactos</a></li>
+			                 
+			             </ul>
+			         </div>		
+				
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div><div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-md-12 copyrights-footer">
+    <div class="container">
+    	<div class="row">
+    		<div class="col-md-3">
+		    	<p class="copyrights">CP, todos os direitos reservados</p>
+    		</div>
+    		<div class="col-md-6">
+		        <ul class="access-links">
+			        
+						
+						<li><a href="/passageiros/pt/politica-de-privacidade">Política de privacidade</a></li>
+						&#124;
+					
+						
+						<li><a href="/passageiros/pt/avisos-legais">Avisos legais</a></li>
+						&#124;
+					
+						
+						<li><a href="/passageiros/pt/acessibilidade">Acessibilidade</a></li>
+						
+					
+		        </ul>
+	        </div>
+	        <div class="col-md-3">
+	        	<img src="/StaticFiles/CP/resources/images/logo-cp-footer.png" alt="logo CP">
+    		</div>
+    	</div>
+    </div>
+</div>
+</div>
+</div>
+			</div>
+			<!-- End of footer -->
+		</div>
+	</div>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-42733656-3', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>

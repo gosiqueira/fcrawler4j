@@ -1,0 +1,846 @@
+title=Ingressos, Reserve o Seu!  | Promoção | CVC Viagens
+url=http://www.cvc.com.br/promocao/ingressos.aspx?filtro=cidade&item=Porto
+html=
+    <!doctype html public "-//w3c//dtd html 4.01//en" "http://www.w3.org/tr/html4/strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" xmlns:og="http://ogp.me/ns#" id="ng-app">
+    <head>
+        <title>
+            Ingressos, Reserve o Seu!  | Promoção | CVC Viagens
+        </title>
+
+        <meta name="google-site-verification" content="n72WDYk5P2qbrc3f9r0KmQfuvmOWmixNbvxmh72mGDU" />
+
+        
+
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+        <meta name="description" content="Conheça os lugares mais incríveis do mundo com a CVC: São Diversos Parques, Museus e Pontos Turísticos à sua espera! Reserve agora seu ingresso com a CVC!"/>
+<!-- DC.Dublin Core -->	
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+<meta name="DC.identifier" content="www.cvc.com.br/promocao/ingressos.aspx"/><meta name="DC.description" content="Conheça os lugares mais incríveis do mundo com a CVC: São Diversos Parques, Museus e Pontos Turísticos à sua espera! Reserve agora seu ingresso com a CVC!"/><meta name="DC.title" content="Ingressos, Reserve o Seu!  | Promoção | CVC Viagens"/>
+<!-- OG Protocol -->
+<meta property="og:title" content="Ingressos, Reserve o Seu!  | Promoção | CVC Viagens"/><meta property="og:url" content="www.cvc.com.br/promocao/ingressos.aspx"/><meta property="og:site_name" content="CVC Viagens"/><meta property="og:type" content="website"/><meta property="og:description" content="Conheça os lugares mais incríveis do mundo com a CVC: São Diversos Parques, Museus e Pontos Turísticos à sua espera! Reserve agora seu ingresso com a CVC!"/>
+<!--Twitter Card-->
+<meta name="twitter:card" content="summary"><meta name="twitter:url" content="www.cvc.com.br/promocao/ingressos.aspx"/><meta name="twitter:title" content="Ingressos, Reserve o Seu!  | Promoção | CVC Viagens"><meta name="twitter:description" content="Conheça os lugares mais incríveis do mundo com a CVC: São Diversos Parques, Museus e Pontos Turísticos à sua espera! Reserve agora seu ingresso com a CVC!"><meta name="twitter:image" content="http://www.cvc.com.br/media/3128419/logo-header-checkout.png">
+<!---Google---->
+<meta itemprop="name" content="Ingressos, Reserve o Seu!  | Promoção | CVC Viagens"><meta itemprop="description" content="Conheça os lugares mais incríveis do mundo com a CVC: São Diversos Parques, Museus e Pontos Turísticos à sua espera! Reserve agora seu ingresso com a CVC!"><link rel="canonical" href="www.cvc.com.br/promocao/ingressos.aspx"/><meta property="fb:admins" content="100005886151264" />
+
+        <link href="/travel/Styles_B2C/style.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/helper.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/style_crm.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href='/travel/Styles_B2C/jquery-ui.css?v=v=20160123' rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/ngDialog.css" rel="stylesheet">
+        <link href="/travel/Styles_B2C/ngDialog-theme-default.css" rel="stylesheet">
+        <link href="/travel/Styles_B2C/DrpBox.css?v=v=20160123" rel="stylesheet" />
+        <link href="/css/footer.css?v=v=20160123" rel="stylesheet" />
+        <link href="/css/social-login.css?v=v=20160123" rel="stylesheet" />
+        <link href="/travel/Styles_B2C/services.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+        <link href="/travel/Styles_B2C/login-timeout.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+
+        
+
+        <link href="/travel/Styles_B2C/header_site.css" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/login-timeout.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+
+        
+  
+	<link type="text/css" href="/css/ingressos2.css" rel="stylesheet" />
+	<script type="text/javascript" src="/scripts/cufon/cufon-yui.js"></script>
+	<script type="text/javascript" src="/scripts/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.cycle.all.js"></script>	
+	<script type="text/javascript" src="/scripts/ingressos2.js"></script>
+	<script type='text/javascript' src="/scripts/ingressos-lightBox.js"></script>
+	<link type="text/css" href="/css/estilo-ingressos-lightbox.css" rel="stylesheet" />
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js" type="text/javascript"></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/i18n/angular-locale_pt-br.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-animate.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-resource.min.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui-date.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui-mask.js'></script>
+             <script type="text/javascript" src="/travel/Scripts/angular/angular-cookies.min.js"></script>
+             <script src="/scripts/autocomplete.js" type="text/javascript"></script>
+
+         <script type="text/javascript">
+            angular.module('siteCVC', []);
+         </script>
+
+        <!-- JS Libraries -->
+        <script type="text/javascript" src="/travel/scripts/underscore/underscore-min.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery-ui.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery-ui-pt-BR.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Jquery.cycle.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.maskedinput-1.3.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Util.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Prototypes.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Event.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Formatters.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/ServiceCaller.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/json2.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/CustomElements.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Modernizr/modernizr.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/scripts/modernizrPolyfills.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/DatePickerOption.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/ClosureTemplate/soyutils.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/jquery.DropBox.custom.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/EnumHelper.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/jquery.scrollTo-1.4.2-min.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Masks.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.flip.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Views/Loader.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Handlers/CultureResource.ashx?culture=pt-BR'></script>
+        <script type="text/javascript" src="/travel/scripts/jStorage.js"></script>
+        <!-- JS MVC -->
+        <script type="text/javascript" src='/WebCommon/Scripts/Models/NewsLetterModel.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Models/LocationsModel.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Models/TemplateModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/PackageDetailModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/PackageModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/ServiceModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/CruiseModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/Adapter.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/LocationsFinder.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/MessagesExhibitor.js?v=20160123"></script>
+        <script type="text/javascript" src="/scripts/cookie.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Views/NewsLetterContact.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/NewsLetterController.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/LocationsController.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/MessagesController.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Controllers/TemplateController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/PackageDetailController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/PackageController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/ServiceController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/CruiseController.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.easing-1.3.pack.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery-easing-compatibility.1.2.pack.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/coda-slider.1.1.1.pack.js?v=20160123"></script>
+        
+        <script type="text/javascript" src="/travel/Templates/B2C/Shared/Shared_pt-BR.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/SharedFunctions.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/FormState.js?v=20160123"></script>
+        <script src="/scripts/NavigationEvents.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.namespace.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.window.utils.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.controls.utils.js?v=20160123" type="text/javascript"></script>
+
+        <script type="text/javascript" src="/Travel/Scripts/app/directives/modal/modalLightbox.js?v=20160123"></script>
+        <!--JS CRM-->
+
+        
+
+
+
+      <script type="text/javascript">
+          if (!Global) var Global = {};
+          if (!Global.LocationsCache) Global.LocationsCache = [];
+          Global.Culture = "pt-br";
+          Global.ImageRoot = "http://www.cvc.com.br/travel/Styles_B2C/";
+          Global.PathWebService = "/travel/ServiceUI.svc/";
+          Global.PathWebServiceOther = "http://www.cvc.com.br/umbraco/api/Destination/";
+          Global.PathServiceApi = "http://www.cvc.com.br/api/";
+          Global.PathB2BWebService = "";
+          Global.PathSystur = "http://systur.cvc.com.br/pls/systur/";
+          Global.CheckOutProtocol = "https://";
+          Global.CheckOutDomain = window.location.host;
+          Global.SearchType = "3";
+          Global.SearchTypes.Full = "3";
+          Global.InterfaceEnvelope = {};
+          Global.QueryString = "";
+          Global.SelectedCurrency = "BRL";
+          Global.MessagesController = new MessagesController();
+          Global.URLSite = "http://www.cvc.com.br/";
+          Global.ImagesPath = "//www.cvc.com.br/WebCommon/" + "Images/";
+          Global.Login = {};
+          Global.Login.Login = Util.getCookie("Signature");
+          Global.Login.AgencyId = "1";
+          transformLinkInSubmit();
+
+          function CreateCookie(strCookie, strValor, lngDias) {
+              if (ReadCookie("Loyalt") != "false") {
+                  if (ReadCookie("Loyalt") == null || lngDias == -1) {
+                      var dtmData = new Date();
+                      dtmData.setTime(dtmData.getTime() + (lngDias * 60 * 60 * 1000));
+                      var strExpires = "; expires=" + dtmData.toGMTString();
+                      document.cookie = strCookie + "=" + strValor + strExpires + "; path=/";
+                  }
+                  else {
+                      CreateCookie("Loyalt", '', -1);
+                      CreateCookie("Loyalt", strValor, 1);
+                  }
+              }
+          }
+
+          function ReadCookie(strCookie) {
+              var strNomeIgual = strCookie + "=";
+              var arrCookies = document.cookie.split(';');
+
+              for (var i = 0; i < arrCookies.length; i++) {
+                  var strValorCookie = arrCookies[i];
+                  while (strValorCookie.charAt(0) == ' ') {
+                      strValorCookie = strValorCookie.substring(1, strValorCookie.length);
+                  }
+                  if (strValorCookie.indexOf(strNomeIgual) == 0) {
+                      return strValorCookie.substring(strNomeIgual.length,
+                      strValorCookie.length);
+                  }
+              }
+              return null;
+          }
+
+          if (Util.getCookie("Loyalt") == null) {
+              var ValidLoyalt = "False";
+              if (ValidLoyalt.toLowerCase() == "false") {
+                  CreateCookie("Loyalt", false, 1);
+              }
+          }
+
+          
+
+        </script>
+
+        <script type="text/javascript">
+            $SA = { s: 81070, asynch: 1 };
+            (function () {
+                var sa = document.createElement("script");
+                sa.type = "text/javascript";
+                sa.async = true;
+                sa.src = ("https:" == document.location.protocol ? "https://" + $SA.s + ".sa" : "http://" + $SA.s + ".a") + ".siteapps.com/" + $SA.s + ".js";
+                var t = document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(sa, t);
+            })();
+            (function () {
+                var link = document.createElement("style");
+                link.id = "_sa_hide_style";
+                link.innerHTML = "body{opacity:0 !important; filter:alpha(opacity=0) !important; background:none !important;}";
+                document.getElementsByTagName('head')[0].appendChild(link);
+            })();
+            setTimeout(function () {
+                var _hideStyle = document.getElementById('_sa_hide_style');
+                if (_hideStyle) {
+                    _hideStyle.parentNode.removeChild(_hideStyle);
+                }
+            }, 3000);
+		</script>
+
+		
+  
+	
+
+  
+    
+ 
+    
+
+    </head>
+    <body ng-app="siteCVC" id="ng-app">
+    <input type="hidden" value="1" id="agencyId"/>
+    <input type="hidden" value="3" id="searchTypeFull"/>
+
+        <div id="overlay" class="trace-manager-overlay"></div>
+        <div id="modal-opacity" class="ui-widget-overlay hide"></div>
+
+        <form id="continueForm" method="post" action="../MasterPricer">
+            <div class="siteContent">
+            <input id="InterfaceEnvelope" type="hidden" name="InterfaceEnvelope" />
+            <input id="Culture" type="hidden" name="Culture" />
+            <input id="SearchType" type="hidden" name="SearchType" />
+            <input id="Currency" type="hidden" name="Currency" />
+            <input id="ExchangeRate" type="hidden" name="ExchangeRate" />
+            <input id="SelectedCurrency" type="hidden" name="SelectedCurrency" />
+            <input id="QueryString" type="hidden" name="QueryString" />
+
+            
+
+    
+
+    <!--Maxymiser INTUITIVE script start --> 
+        <script type="text/javascript" src= "/scripts/intuitive/mmcore.js" ></script>
+    <!--Maxymiser INTUITIVE script end -->
+
+    <!-- JS Analytics -->
+    <script type="text/javascript" src="/scripts/analytics/pmkt.js"></script>
+    <script type="text/javascript" src="/scripts/analytics/multitouch.js"></script>
+    <script type="text/javascript" src="/scripts/redirects.js"></script>
+    <script type="text/javascript">
+              // TAG PADRAO
+              var _gaq = _gaq || [];
+              var UA = 'UA-1814594-1';
+
+              if(document.location.hostname == 'vendasti.cvc.com.br')
+              UA = 'UA-1814594-34';
+              else if(Util.getCookie('userType') == 'Vendor'){
+              UA = 'UA-1814594-35';
+              _gaq.push(['_trackEvent', 'Filial', 'SetCode', 'Código da filial', parseInt(Util.getCookie('BranchCode'), 10)]);
+              }
+              else if(Util.getCookie('userType') == 'Agent'){
+              UA = 'UA-1814594-36';
+              _gaq.push(['_trackEvent', 'Filial', 'SetCode', 'Código da filial', parseInt(Util.getCookie('BranchCode'), 10)]);
+              }
+
+              _gaq.push(['_setAccount', UA]);
+				//_gaq.push(['_addIgnoredOrganic', 'ignore']);
+				//_gaq.push(['_addIgnoredRef', 'cvc.com.br']);
+              _gaq.push(['_setDomainName', 'cvc.com.br']);
+              _gaq.push(['_trackPageview']);
+
+              (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+
+            </script><script>
+            // SCRIPT NOVO
+            
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-1814594-39', 'auto');
+
+          </script>
+        
+    <!-- JS de execução/chamadas de script -->
+    <script type="text/javascript" src="/WebCommon/Scripts/Models/NewsLetterModel.js?v=20160123"></script>
+    <script type="text/javascript" src="/WebCommon/Scripts/Views/NewsLetterContact.js?v=20160123"></script>
+    <script type="text/javascript" src="/WebCommon/Scripts/Controllers/NewsLetterController.js?v=20160123"></script>
+    <script type="text/javascript" src="/scripts/GridList.js?v=20160123"></script>
+    <script type="text/javascript" src="/scripts/ImageError.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/Loyalt/Loyalt_pt-BR.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/Loyalt/LoyaltTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/ModalToolTipTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Scripts/ModalToolTip.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Scripts/ModalHotelMap.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/HotelMap/HotelMapTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/HotelMap/HotelMap_pt-BR.js?v=20160123"></script>
+    <script src="/scripts/cookie.js?v=20160123" type="text/javascript"></script>
+    <script src="/scripts/scriptsHeader.js?v=20160123" type="text/javascript"></script>
+    <script src="/scripts/NavigationEvents.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.namespace.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.window.utils.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.controls.utils.js?v=20160123" type="text/javascript"></script>
+   
+
+    <script type="text/javascript" src="/scripts/pl_socialnetworks.js?v=20160123"></script>
+      
+
+    
+<script type="text/javascript">
+                    var hTMLCollection = HTMLCollection.prototype.item;
+                    var hTMLSelectElement = HTMLSelectElement.prototype.item;
+
+                    HTMLCollection.prototype.item = function () { return hTMLCollection.bind(this)(arguments[0] || 0); }
+
+                    HTMLSelectElement.prototype.item = function () { return hTMLSelectElement.bind(this)(arguments[0] || 0); }
+</script>
+
+
+
+<script src="/Travel/Scripts/angular/ngStorage.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/modules/general/generalModule.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/services/general/loginTimeoutService.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/directives/general/dirHeaderLoginTimeout.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/controllers/general/loginTimeoutController.js?v=20160123" type="text/javascript"></script>
+
+<input type="hidden" value="1" id="agencyId" />
+<input type="hidden" value="3" id="searchTypeFull" />
+
+<div id="modal-packageSystur" class="ui-widget-overlay hide"></div>
+
+<div ng-app="general" class="boxModel" header-login-timeout>
+    <div class="headerTop">
+        <h1 class="logo">
+            <a href="/index.aspx" title="CVC - Viagens" target="_self">CVC - Viagens</a>
+        </h1>
+        <div class="userBox" id="userBox">
+            <ul class="userMenu">
+                <li class="commonItem"><a href="/lista-de-casamento/index.aspx">Lista de casamento</a></li>
+                <li class="commonItem"><a href="/ri">Investidores</a></li>
+                <li class="commonItem"><a href="/lps/franquias/index.aspx" target="_blank">Seja um franqueado</a></li>
+                <li class="commonItem"><a href="http://lojas.cvc.com.br" target="_blank">Lojas</a></li>
+                <li class="commonItem"><a href="/atendimento/central-de-atendimento.aspx">Atendimento</a></li>
+                
+            </ul>
+            <div id="linkLogin">
+                <p>
+                    <a href="/travel/minhaconta/myorders?menu=2">Minhas viagens</a> / <a href="/travel/minhaconta">Login</a>
+                </p>
+            </div>
+        </div>
+        <div ng-if="showLoginArea()">
+
+            <div class="loginArea" style="display: block;">
+                <div sell-probability></div>
+                <div style="margin-top:-10px; margin-bottom: 9px; float: right;">
+                    <p style="margin-left: 5px;">Bem-vindo a CVC,</p>
+                    <p id="loggerUser">
+                        <a href="/travel/minhaconta"><strong class="userLog"></strong></a>
+                        (<a class="submit" href="/travel/Logout">sair</a>)
+                    </p>
+                </div>
+                <div id="unloggedHeader"></div>
+            </div>
+        </div>
+
+        <div class="menuTelevendas">
+            <ul class="userMenuTelevendas">
+                <li class="topItem">
+                    <span class="titulo">Televendas: </span><a class="withMenuTelevendas" href="javascript:void(0);">(11) 3003-9282</a>
+
+                    <ul class="userSubMenuTelevendas">
+                        <li>
+                            <p>Capitais e Regiões Metropolitanas</p>
+                            <span>3003-9282</span>
+                        </li>
+                        <li>
+                            <p>Demais localidades</p>
+                            <span>(11) 3003-9282</span>
+                        </li>
+                        <li class="atendimento">
+                            <p>Horário de atendimento</p>
+                            <span>Seg a Sex: 8h às 22h<br />
+                            Sab: 9h às 21h<br />
+                            Dom: 10h às 21h<br />
+                            Feriados: 10h às 21h</span>                            
+                        </li>
+                        <li class="outras-localidades">
+                            <p class="bt-outras-localidades">Veja informações sobre o custo das ligações</p>
+                        </li>
+                        <li class="atendimento">
+                            <p>Ligações feitas de telefone fixo</p>
+                            <span>Custo de ligação local + impostos locais conforme o estado de origem.</span>                            
+                        <li class="atendimento">
+                            <p>Chamadas feitas de celular</p>
+                            <span>Custo da ligação + impostos para celulares, conforme a operadora.</span>
+                        </li>
+                        <li class="atendimento">
+                            <span>Para verificar se a cidade de onde você está falando permite ligações sem código da operadora, tente discar diretamente o número <strong class="menor">3003-9282</strong>.</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="subMenuFolder" id="subMenuCanais" style="display: none"></div>
+<umbraco:macro id="Macro1" alias="[RAZOR]MainMenu" runat="server"></umbraco:macro>
+
+    
+            <script lang="javascript">
+              $(window).resize(function() {
+                var WindowWidth = $(window).width();
+                if (WindowWidth < 1007) {
+                    $('body').css("overflow-x", "visible");
+                }
+                else
+                    $('body').css("overflow-x", "hidden");
+              });
+            </script>
+            <div class="menuTopo">
+                <div>
+                    <ul class="boxModel" id="mainMenu">
+                            <li>
+                                                                    <a href="/pacotes/index.aspx" title="Pacotes" target="_self">Pacotes</a>
+                            </li>
+                            <li>
+                                                                    <a href="/passagens-aereas/index.aspx" title="Passagens A&#233;reas" target="_self">Passagens A&#233;reas</a>
+                            </li>
+                            <li>
+                                                                    <a href="/hoteis/index.aspx" title="Hot&#233;is" target="_self">Hot&#233;is</a>
+                            </li>
+                            <li>
+                                                                    <a href="/resorts/index.aspx" title="Resorts" target="_self">Resorts</a>
+                            </li>
+                            <li>
+                                                                    <a href="/cruzeiros" title="Cruzeiros" target="_self">Cruzeiros</a>
+                            </li>
+                            <li>
+                                                                    <a href="/promocao/circuitos.aspx" title="Circuitos" target="_self">Circuitos</a>
+                            </li>
+                            <li>
+                                                                    <a href="/intercambios.aspx" title="Interc&#226;mbios" target="_self">Interc&#226;mbios</a>
+                            </li>
+                            <li>
+                                                                    <a href="/promocao/ingressos.aspx" title="Ingressos" target="_self">Ingressos</a>
+                            </li>
+                            <li>
+                                                                    <a href="/vale-viagem.aspx" title="Vale Viagem" target="_self">Vale Viagem</a>
+                            </li>
+                            <li>
+                                                                    <a href="/destinos/index.aspx" title="Destinos" target="_self">Destinos</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container">
+                
+  
+	<div id="loading"></div>
+	<div id="resort3">
+		<ul class="breadcrumbs" itemprop="breadcrumb"><li><a href="/index.aspx" title="HOME" target="_self">CVC VIAGENS</a></li><li><a href="/promocao?campaign=lps" title="promoção" target="_self">promoção</a></li><li class="active"><a href="#" title="Ingressos" target="_self">Ingressos</a></li></ul><script>
+                if ( !$('ul.breadcrumbs li:last-child').hasClass('active') ){
+                $('ul.breadcrumbs li:last-child').addClass('active');
+                }
+            </script>
+		<div id="topo-resort">
+			<h1>INGRESSOS <span>CVC</span></h1>
+			<div id="slider">
+				<div id="transicao">
+					<img src="/media/8893573/seaworld-ingressos.jpg" alt="Ingressos Disney"/>
+					<!--<span class="topo-legenda">Intercâmbio | <small>Ver detalhes</small></span>-->
+					
+				</div>
+				<div id="naveg"></div>        
+				<a href="javascript:void(0);" class="anterior">&nbsp;</a>
+				<a href="javascript:void(0);" class="proximo">&nbsp;</a>
+			</div>    
+			
+			
+			<div id="legendas" style="background:url('http://www.cvc.com.br/media/3127839/bg-transparente-70.png'); 
+position:absolute; bottom:0; right:0; padding: 5px 10px;
+font-size:12px;
+color:#fff;
+z-index:999;
+display:none;">
+				<span id="legenda0">Legenda 0</span>
+				<span id="legenda1">Legenda 1</span>
+				<span id="legenda2">Legenda 2</span>
+				<span id="legenda3">Legenda 3</span>
+				<span id="legenda4">Legenda 4</span>
+			</div>
+		</div><!-- topo -->
+		
+		<!--<span class="cabecalho_azul">FILTRAR POR:</span>-->
+		<div id="filtro-container">
+			<div id="coluna-filtro">
+				<div class="filtro opcoes"><span class="cabecalho">Buscar por:</span><ul class="categoria pais"><li class="nome">País</li></ul><ul class="subcategorias pais"><li><a href="ingressos.aspx?filtro=pais&amp;item=todos-os-paises" class="todos-os-paises">Todos os países</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Alemanha" class="alemanha">Alemanha</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Bélgica" class="belgica">Bélgica</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Brasil" class="brasil">Brasil</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Escócia" class="escocia">Escócia</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Espanha" class="espanha">Espanha</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Estados-Unidos" class="estados-unidos">Estados Unidos</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=França" class="frança">França</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Grécia" class="grecia">Grécia</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Holanda" class="holanda">Holanda</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Inglaterra" class="inglaterra">Inglaterra</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Irlanda" class="irlanda">Irlanda</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=México" class="mexico">México</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=Portugal" class="portugal">Portugal</a></li><li class="pais"><a href="ingressos.aspx?filtro=pais&amp;item=República-Dominicana" class="republica-dominicana">República Dominicana</a></li></ul><ul class="categoria cidade"><li class="nome">Destino</li></ul><ul class="subcategorias cidade"><li><a href="ingressos.aspx?filtro=cidade&amp;item=todos-destinos" class="todos-destinos">Todos destinos</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Berlim" class="berlim">Berlim</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Bruxelas" class="bruxelas">Bruxelas</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Balneário-Camboriú" class="balneario-camboriu">Balneário Camboriú</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Barretos" class="barretos">Barretos</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Caldas-Novas" class="caldas-novas">Caldas Novas</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Gramado" class="gramado">Gramado</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Penha" class="penha">Penha</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Rio-de-Janeiro" class="rio-de-janeiro">Rio de Janeiro</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Santo-Antônio-do-Pinhal" class="santo-antonio-do-pinhal">Santo Antônio do Pinhal</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Glasgow" class="glasgow">Glasgow</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Edimburgo" class="edimburgo">Edimburgo</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Barcelona" class="barcelona">Barcelona</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Sevilha" class="sevilha">Sevilha</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Atlanta" class="atlanta">Atlanta</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Boston" class="boston">Boston</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Chicago" class="chicago">Chicago</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Dallas" class="dallas">Dallas</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Filadélfia" class="filadelfia">Filadélfia</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Las-Vegas" class="las-vegas">Las Vegas</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Los-Angeles" class="los-angeles">Los Angeles</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Nova-York" class="nova-york">Nova York</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Orlando" class="orlando">Orlando</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=San-Diego" class="san-diego">San Diego</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=São-Francisco" class="sao-francisco">São Francisco</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Paris" class="paris">Paris</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Atenas" class="atenas">Atenas</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Pireus" class="pireus">Pireus</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Amsterdã" class="amsterda">Amsterdã</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Londres" class="londres">Londres</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Dublin" class="dublin">Dublin</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Cancún" class="cancun">Cancún</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Funchal" class="funchal">Funchal</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Lisboa" class="lisboa">Lisboa</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Porto" class="porto">Porto</a></li><li class="Ingressos-Cidade"><a href="ingressos.aspx?filtro=cidade&amp;item=Punta-Cana" class="punta-cana">Punta Cana</a></li></ul><ul class="categoria tipo"><li class="nome">Tipo de Ingresso</li></ul><ul class="subcategorias tipo"><li><a href="ingressos.aspx?filtro=tipo&amp;item=todos-os-tipos" class="todos-os-tipos">Todos os tipos</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Atração" id="atraçao" class="atraçao">Atração</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Jogo-de-basquete" id="jogo-de-basquete" class="jogo-de-basquete">Jogo de basquete</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Jogo-de-basquete" id="jogo-de-basquete" class="jogo-de-basquete">Jogo de basquete</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Jogo-de-futebol" id="jogo-de-futebol" class="jogo-de-futebol">Jogo de futebol</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Museu" id="museu" class="museu">Museu</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Ônibus-turístico" id="ônibus-turistico" class="ônibus-turistico">Ônibus turístico</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Parque" id="parque" class="parque">Parque</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Passeio-de-barco" id="passeio-de-barco" class="passeio-de-barco">Passeio de barco</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Passeio-de-barco" id="passeio-de-barco" class="passeio-de-barco">Passeio de barco</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Passeio-de-barco" id="passeio-de-barco" class="passeio-de-barco">Passeio de barco</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Restaurante" id="restaurante" class="restaurante">Restaurante</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Show" id="show" class="show">Show</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Show" id="show" class="show">Show</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Show" id="show" class="show">Show</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Show" id="show" class="show">Show</a></li><li class="tipoIngressos"><a href="ingressos.aspx?filtro=tipo&amp;item=Show" id="show" class="show">Show</a></li></ul></div>				
+			</div><!-- coluna-filtro -->
+			<!--<iframe class="intercambio-video" width="265"src="https://www.youtube.com/embed/KSY9itZfUC8" frameborder="0" allowfullscreen></iframe>-->
+			<!--<a href="javascript:;" onclick="abreVideo('https://www.youtube.com/embed/KSY9itZfUC8')" class="intercambio-video"><img src="/media/6858732/intercambios_video.jpg"/></a>-->
+			<!--<p class="ponto" style="display:block; background:red; clear:both;">botao</p>-->
+			
+		</div>
+		
+		<div id="conteudo">
+			<p style="color:red;"></p><h2>Portugal</h2><div class="box-resort"><table><tr><td class="coluna1"><small>Thinkstock</small><a href="javascript:void(0)" target="_blank" class="foto" style="background-image:url(/media/8155688/porto-portugal-ponte-credito-thinkstock-153543434.jpg);"> </a></td><td class="coluna2"><div class="box-content-top"><h3>2 dias de passeio em ônibus Hop On / Hop Off</h3><h4>Portugal / Porto</h4></div><h5>Tipo de ingresso:</h5><ul class="ico-servicos"><ul><li class="museu"><p>Ônibus turístico</p></li></ul></ul><a href="javascript:void(0)" target="_self" class="btMais buyBtn">Ver Detalhes</a></td></tr></table></div><div class="lightbox-detalhes"><div class="lb-fechar">X</div><h1>2 dias de passeio em ônibus Hop On / Hop Off</h1><div class="bx-conteudo"><div class="lb-item"><h3>Sobre a atração</h3><p>O ônibus panorâmico Hop On / Hop Off possibilita que você passeie pelos principais pontos turísticos de Porto, como o Centro Histórico, a Casa da Música e a Fundação de Serralves. Além do visual incrível da cidade, você pode descer em uma das paradas e subir no próximo ônibus para continuar o passeio.</p>
+<p> </p>
+<p><strong>Serviços inclusos</strong></p>
+<p><strong><strong>✓</strong> </strong>2 dias de ônibus com áudio-guia em diversos idiomas.</p></div></div><ul class="lb-telefones telefoneBox"><li><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></li></ul></div><div class="descricao"><h6>Aproveite os preços imbatíveis dos ingressos e divirta-se muito!</h6>
+Conheça <strong>parques temáticos</strong> e pontos turísticos de cidades incríveis adquirindo <strong>ingressos</strong> com a CVC! Aproveite os preços arrasadores de ingressos e viaje para <strong>Disney</strong> Orlando, Disney Floridae todos os outros Parques da Disney! Se você quer ficar no Brasil e deseja muita adrenalina e diversão, compre seu ingresso do <strong>Beto Carrero</strong>. Para quem se interessa pela vida marinha, conheça o <strong>SeaWorld</strong> e se emocione com shows de baleias e golfinhos! Os amantes do cinemavão adorar visitar a <strong>Universal Studios</strong>, onde a magia dos filmes  acontece! Além dos parques temáticos, muitos <strong>pontos turísticos</strong> te esperam nestes destinos. Confira as atrações em Orlando, cidade ideal para compras! Já as atrações em Fortaleza são, em sua maioria, ao ar livre, como praias incríveis. Se você procura por atrações em Goiás, não deixe de conhecer os <strong>parques aquáticos</strong> de Caldas Novas e Rio Quente, duas cidades turísticas cheias de animação para toda família. Entre as atrações em Caldas Novas ainda estão o Parque Estadual da Serra, Jardim Japonês e o Casarão dos Gonzaga. 
+		
+	</div>	
+		</div><!-- conteudo -->
+		<!-- Lightbox vídeo -->
+		
+		<div class="lb-video"></div>
+		<div class="btVoltarTopo"><a href="javascript:void(0);">VOLTAR <br/>AO TOPO</a></div>	
+	</div><!-- resort3 -->
+	<div class="telefoneBox" id="telefone"><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></div>
+	
+	<style>
+		.telefoneBox {
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+	</style>
+	
+
+
+                </div>
+
+                <div class="container">
+                <a href="javascript:void(0)" class='facebook_link_right' style="height: 230px; position: absolute; right: -149px; top: 141px; width: 140px;"></a>
+                
+                
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            var ToolTipPriceRegion = $('#newcompany').html();
+            var pag = window.location.pathname.toLocaleLowerCase();
+            $('#tooltip_region').html(ToolTipPriceRegion);
+
+            if (ToolTipPriceRegion != "" && ToolTipPriceRegion != undefined)
+                $('.container .header .modal.lookpriceRegion').css('visibility', 'visible').delay(5000).slideUp(200);
+
+            if (Util.getCookie("UserName") != "" && Util.getCookie("UserName") != null)
+                $('.container .header .modal.lookpriceRegion').addClass('moveslookpriceRegion');
+
+            else
+                $('.container .header .modal.lookpriceRegion').removeClass('moveslookpriceRegion');
+
+            var pag = window.location.pathname;
+            if (pag.search('/travel/resultado-de-carros') < 0 && pag.search('/travel/resultado-de-cruzeiros') < 0 && pag.search('/travel/resultado-de-circuitos') < 0 && pag.search('/travel/minhaconta/index') < 0 && pag.search('/travel/minhaconta/changepassword') < 0 && pag.search('/travel/minhaconta/personalinfo') < 0 && pag.search('/travel/minhaconta/myorders') < 0 && pag.search('/detalhes/hotel') < 0) {
+                $('div.newsletter').newsLetterContact({
+                    controllers: {
+                        newsLetterController: Global.NewsLetterController
+                    }
+                });
+            }
+
+        });
+    </script>
+    <script type="text/javascript" src="/scripts/footer.js"></script>
+
+	
+	<!-- NEO ASSIST -->
+				
+					
+					<div id="NeoassistCentral"></div>
+					<script type="text/javascript">
+					    (function () {
+					        window.NeoAssistTag = {};
+					        NeoAssistTag.querystring = true;
+					        NeoAssistTag.pageid = '';
+					        NeoAssistTag.clientdomain = 'cvc.neoassist.com';
+					        var na = document.createElement('script'); na.type = 'text/javascript'; na.async = true; na.src = '//cdn.atendimen.to/n.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(na, s);
+					    })();
+					</script>
+					
+					
+	<!-- END NEO ASSIST -->
+	
+ 	
+		<div class="container footer menu">
+	        <!-- BANNER DFP -->
+                            
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        var pag = window.location.pathname.toLocaleLowerCase();
+                        if (pag == '/travel/resultado-pacotes.aspx' || pag == '/travel/resultado-passagens.aspx' || pag == '/travel/resultado-hoteis.aspx') {
+                            Global.SearchController.searchCompleted.attach(function () {
+                                mostraBannerDFP();
+                            });
+                        }
+                        else if (pag.search('/hoteis/index.aspx') == -1 && pag.search('/passagens-aereas/index.aspx') == -1 && pag.search('/pacotes/index.aspx') == -1 && pag.search('/destinos/index.aspx') == -1 && pag.search('/destinos/cadernos-virtuais.aspx') == -1) {
+                            if (pag.search('/passagens-aereas/') >= 0 || pag.search('/hoteis/') >= 0 || pag.search('/pacotes/') >= 0 || pag.search('/promocao/') >= 0 || pag == '/todos-pacotes-cvc.aspx' || pag == '/detalhes/pacote.aspx' || pag == '/detalhes/hotel.aspx' || pag.search('/destinos/') >= 0) {
+                                window.onload = initPage;
+                                function initPage() {
+                                    //alert('carregou');
+                                    mostraBannerDFP();
+                                }
+
+                            }
+                        }
+
+                        function mostraBannerDFP() {
+                            switch (pag) {
+                                case '/travel/resultado-pacotes.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    if ($('#resultsAirHotel').css('display') == 'none') {
+                                        $('.bannerDFP-vertical').css('display', 'inline-block');
+                                        $('.section.main_results').after($('.bannerDFP-vertical'));
+                                    }
+                                    else {
+                                        //$('#airFilter').after($('.bannerDFP-vertical'));
+                                        $('#hotelFilters').after($('.bannerDFP-vertical'));
+                                        $('.bannerDFP-vertical').css('display', 'block');
+                                        $('.bannerDFP-vertical').css('clear', 'both');
+                                        $('.bannerDFP-vertical').css('float', 'left');
+                                    }
+                                    break;
+                                case '/todos-pacotes-cvc.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('#especial_packages').eq(0).after($('.bannerDFP-vertical').eq(0));
+                                    break;
+                                case '/travel/resultado-passagens.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('.filters:eq(0)').after($('.bannerDFP-vertical'));
+                                    break;
+                                case '/travel/resultado-hoteis.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('.filters:eq(0)').after($('.bannerDFP-vertical'));
+                                    break;
+                            }
+
+                            $('.bannerDFP').css('display', 'inline-block');
+                            $('.bannerDFP div').css('margin', 'auto');
+                        }
+
+                        $('.bannerAdsTemp').hide();
+
+                    });
+                </script>
+                <div class="bannerDFP-vertical">
+                    <p>Publicidade</p>
+                    <script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+                        googletag.pubads().definePassback('/38958695/ROS_160X600', [160, 600]).display();
+                    </script>
+                </div> 
+                <div class='bannerDFP'>
+                    <p>Publicidade</p>
+                    <script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+                        googletag.pubads().definePassback('/38958695/ROS97090', [[728, 90], [970, 90]]).display();
+                    </script>
+                </div>
+                       
+	    
+		<!-- FIM BANNER DFP -->
+
+        
+            
+				
+				
+            
+
+            
+            <div class="lead-social modulo-principal box-cinza">
+                <ul>
+                    <li class="newsletterBox newsletter">
+                        <div id="nlcComponentForm_2" class="newsletterBox newsletter"><h3>Receba nossas ofertas por e-mail</h3><h3 class="secondaryHeader"></h3><div class="form"><div class="signInNewsletterEmail"><div><input class="input_name" type="text" id="nlcTxtNome" placeholder="Nome" maxlength="20" /><div id="nlcTxtNomeErrMsg" class="fieldMessageInvalid" style="display: none;">*informe o nome</div></div><div><input type="text" id="nlcTxtEmail" placeholder="E-mail" /><div id="nlcTxtEmailErrMsg" class="fieldMessageInvalid" style="display: none;">*digite um e-mail válido</div></div><ul><li class="nlcCustomCheckbox already_client" id="nlcTxtAlreadyClient">Já sou cliente de uma loja física CVC</li></ul><a href="javascript:void(0);" title="Assinar e-mail" class="blueBtn" id="nlcTxtSubscribeEmail_2" rel="nlcComponentForm_2,nlcComponentSent_2">Assinar e-mail</a></div></div><div class="newsletterMessageBox sent hide" id="nlcComponentSent_2"><h2>Seu e-mail foi registrado com sucesso!</h2><p>Agora você receberá as melhores ofertas da CVC.</p></div></div>						
+                        
+                    </li>
+                    <li class="txtRedesSociais">Faça parte das nossas redes sociais</li>
+                    <li class="icos-sociais">
+                        <a href="https://www.facebook.com/cvcviagens" target="_blank" title="Facebook" class="ico-facebook">Facebook</a> <a href="https://twitter.com/#!/cvcviagens" target="_blank" title="Twitter" class="ico-twitter">Twitter</a> <a href="https://instagram.com/cvcviagens" target="_blank" title="instagram" class="ico-instagram">Instagram</a> <a href="http://www.youtube.com/cvc" target="_blank" title="Youtube" class="ico-youtube">Youtube</a> <a rel="publisher" href="https://plus.google.com/u/0/100621743540649260620/posts#100621743540649260620/posts" target="_blank" title="Google Plus" class="ico-googleplus">Google Plus</a> <a href="http://pinterest.com/cvcviagens" target="_blank" title="Pinterest" class="ico-pinterest">Pinterest</a>
+                    </li>
+                </ul>
+            </div>
+            
+
+            
+            <div class="menu-rodape modulo-principal box-cinza">
+                
+                <div class="menu-rodape-institucional"><h4>Institucional</h4><ul><li><a href="/institucional/nossa-historia.aspx" title="Sobre a CVC" target="_blank">Sobre a CVC</a></li><li><a href="/institucional/politica-de-privacidade.aspx" title="Política de Privacidade" target="_blank">Política de Privacidade</a></li><li><a href="/institucional/termos-e-condicoes-de-uso.aspx" title="Termos e condições de uso" target="_blank">Termos e condições de uso</a></li><li><a href="/area-do-cliente/condicoes-gerais/index.aspx" title="Condições Gerais de Contratação" target="_blank">Condições Gerais de Contratação</a></li><li><a href="http://www.cvc.com.br/ri" title="Relações com investidores" target="_blank">Relações com investidores</a></li></ul><ul><li><a href="/institucional/politica-e-normas-de-seguranca.aspx" title="Política e normas de segurança" target="_self">Política e normas de segurança</a></li><li><a href="/afiliados.aspx" title="Afiliados CVC" target="_blank">Afiliados CVC</a></li><li><a href="http://www.vagas.com.br/cvcturismo" title="Trabalhe Conosco" target="_blank">Trabalhe Conosco</a></li><li><a href="http://www.parceiroscvc.com.br/pesquisa/cadastro.php" title="Pesquisa de Satisfação" target="_blank">Pesquisa de Satisfação</a></li><li><a href="/lps/responsabilidade-social/index.aspx" title="Responsabilidade Social Corporativa" target="_self">Responsabilidade Social Corporativa</a></li></ul><ul><li><a href="http://www.programaviaje.com.br" title="Programa Viaje!" target="_blank">Programa Viaje!</a></li><li><a href="http://www.cvc.com.br/cambio" title="Serviço de câmbio" target="_blank">Serviço de câmbio</a></li><li><a href="http://www.cvc.com.br/assistenciaviagem" title="Assistência Viagem" target="_blank">Assistência Viagem</a></li><li><a href="mailto:imprensa@cvc.com.br" title="Sala de Imprensa" target="_blank">Sala de Imprensa</a></li><li><a href="http://lojas.cvc.com.br" title="Encontre uma loja CVC" target="_blank">Encontre uma loja CVC</a></li></ul></div><div class="menu-rodape-ajuda"><h4>Ajuda e observações</h4><ul><li><a href="/institucional/compra-segura.aspx" title="Compra Segura" target="_self">Compra Segura</a></li><li><a href="/atendimento/faq.aspx" title="Perguntas Frequentes" target="_self">Perguntas Frequentes</a></li><li><a href="/institucional/forma-de-pagamento.aspx" title="Formas de Pagamento" target="_self">Formas de Pagamento</a></li><li><a href="/sitemap.aspx" title="Mapa do Site" target="_self">Mapa do Site</a></li><li><a href="http://www.procon.rj.gov.br/" title="Acesso ao Procon/RJ" target="_blank">Acesso ao Procon/RJ</a></li><li><a href="/media/8864080/condicoes-gerais-seguro-viagem-protegida.pdf" title="Seguro Férias Protegidas CVC" target="_blank">Seguro Férias Protegidas CVC</a></li></ul></div>
+                    
+
+                
+                <div class="pagamento">
+                    <h4>Formas de pagamento</h4>
+                    <ul>
+                        <li><img src="/travel/Styles_B2C/images/Visa.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/MasterCard.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/American-Express.png" /></li>                   
+                        <li><img src="/travel/Styles_B2C/images/Dinersc-Club.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/hipercard.png" /></li>
+                    </ul>
+                </div>
+                
+
+                
+                <div class="seguranca">
+                    <h4>Certificados</h4>
+                    <ul>
+                        <li>
+                            <script language='javascript'>
+                                function vopenw() { tbar = 'location=no,status=yes,resizable=yes,scrollbars=yes,width=560,height=535'; sw = window.open('https://www.certisign.com.br/seal/splashcerti.htm', 'CRSN_Splash', tbar); sw.focus(); }
+							    </script>
+							    <table border='0' cellpadding='0' cellspacing='0' id="Table2">
+								    <tr>
+									    <td align='left' valign='middle'>
+										    <a href='javascript:vopenw()'>
+											    <img src='http://www.cvc.com.br/travel/styles_b2c/images/span/certisign.jpg' border='0' align='center' alt='Um site validado pela Certisign indica que nossa empresa concluiu satisfatoriamente todos os procedimentos para determinar que o domínio validado é de propriedade ou se encontra registrado por uma empresa ou organização autorizada a negociar por ela ou exercer qualquer atividade lícita em seu nome.'/>
+										    </a>
+									    </td>									
+								    </tr>
+							    </table>
+                        </li>
+                        <li><script src='https://seal.verisign.com/getseal?host_name=www.cvc.com.br&amp;size=S&amp;use_flash=NO&amp;use_transparent=getsealjs_b.js&amp;lang=pt'></script></li>
+                        <li><a href="/responsabilidade-social/index.aspx" target="_blank"><img src="/travel/Styles_B2C/images/abrinq.png" /></a></li>
+                        <li><a href="http://www.ebit.com.br/viagens-cvc/selo" target="_blank" onclick="redir(this.href)" title="Avaliado pelos consumidores"><img src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo/img_5160.png" height="62" /></a></li>
+                    </ul>
+                </div>
+                
+
+            </div>
+            
+
+            
+
+            <div class="rodape-copyright modulo-principal box-cinza">
+                <center>CVC Brasil Operadora e Agência de Viagens | CNPJ: 10.760.260/0001-19 | Rua das Figueiras, 501 - Jardim – Santo André – SP | CEP: 09.080-370</center>
+                <center><img src="/media/3128416/logo-rodape.png" />© 2015 Viagens CVC - Todos os direitos reservados.</center>
+            </div>
+            
+            
+        
+
+        
+
+		
+        </div>           
+
+		
+
+		<!--Fecha footer-->            
+		<!-- Start Tagueamento -->
+		
+                                                               
+      <!-- Google Tag Manager -->
+      <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-2LZJ" height="0" width="0" style="display:none;visibility:hidden"> </iframe>
+      </noscript>
+      <script>
+          (function (w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+              var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })
+        (window, document, 'script', 'dataLayer', 'GTM-2LZJ');
+      </script>
+      <!-- End Google Tag Manager -->
+
+        <!-- End Tagueamento -->
+				
+		
+        
+
+
+            </div>
+
+                <div id="Div1"></div>
+        <div id="Div2" class="modal info">
+            <span class="tab top">&nbsp;</span>
+            <div class="content"></div>
+        </div>
+        <div id="Div3"></div>
+
+                <div id="estimateBox"></div>
+                 
+                 <div id="modal-content" class="modal info hide">
+                     <span class="tab top">&nbsp;</span>
+                     <div class="content"></div>
+                 </div>
+        </div>
+        </form>
+
+        <!--Diretiva B -->
+        
+        
+        
+        
+        
+        
+        
+
+        
+  
+
+        
+    
+
+        <div id="sm-bounce" data-scope="email" style="display:none"></div>
+
+    </body>
+
+    </html>
+

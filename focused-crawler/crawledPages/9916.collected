@@ -1,0 +1,706 @@
+title=| Curta Viajar!
+url=http://www.curtaviajar.com.br/
+html=      
+        <!--HTML PRIMEIRO TEMA-->
+        <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+        <html class="bg-html" xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="pt-br">
+        
+        <head>
+          <title> | Curta Viajar! </title>  
+          <meta http-equiv="Content-Type" content="application/xhtml+xml; charset=iso-8859-1" />
+          <meta name="title" content=" | Curta Viajar! " />
+          <meta name="DC.title" lang="pt" content=" | Curta Viajar! " />
+          <meta http-equiv="content-type" content="text/html" />
+          <meta http-equiv="Content-Style-Type" content="text/css" />
+          <meta name="keywords" content="viajar barato, mochilão, europa, barretos, ásia, estados unidos, visto americano, dicas de viagem" />
+          <meta name="description" content="" />  
+          <meta http-equiv="content-language" content="pt-br" />
+          <meta http-equiv="content-language" content="Portuguese" />
+          <meta name="rating" content="global"/>
+          <meta name="copyright" content="CLMZ Internet"/>
+          <meta http-equiv="imagetoolbar" content="no" />
+          <meta name="author" content="CLMZ Internet" />
+          <meta name="robots" content="all,follow,index,archive,imageindex,snippet,odp"/>
+          <meta name="googlebot" content="all,follow,index,archive,imageindex,snippet,odp"/>
+          <link rel="shortcut icon" type="image/x-icon" href="http://www.curtaviajar.com.br/images/favicon.ico"/>  
+          <link rel="canonical" href="http://www.curtaviajar.com.br/" />
+          
+          <!--FACEBOOK-->
+          <meta property="og:title" content=" | Curta Viajar! " />
+          <meta property="og:description" content="" />
+          <meta property="og:url" content="http://www.curtaviajar.com.br/" />
+          <meta property="og:image" content="http://www.curtaviajar.com.br/images/png/logo.png" />          <meta property="og:type" content="article" />
+          <meta property="og:site_name" content=" | Curta Viajar!  | curtaviajar.com.br" />
+
+
+          <!--CSS-->
+          <link rel="stylesheet" type="text/css" media="screen, print" href="http://www.curtaviajar.com.br/css/styles.css" />
+          <link rel="stylesheet" type="text/css" media="print" href="http://www.curtaviajar.com.br/css/print.css" /> 
+          <link rel="stylesheet" type="text/css" href="http://www.curtaviajar.com.br/css/jquery.slider.css" /> 
+          <link rel="stylesheet" type="text/css" media="screen, print" href="http://www.curtaviajar.com.br/css/carousel.css" /> 
+          <link rel="stylesheet" type="text/css" media="screen, print" href="http://www.curtaviajar.com.br/css/prettyPhoto.css" />
+          <link rel="stylesheet" type="text/css" media="screen" href="http://www.curtaviajar.com.br/css/rating.css" />
+          <!--FIM CSS-->
+          
+          <!--JS-->
+          <script type="text/javascript" src="http://www.curtaviajar.com.br/js/jquery-1.8.0.js"></script>
+          <script type="text/javascript" src="http://www.curtaviajar.com.br/js/function.js"></script>
+          <script type="text/javascript" src="http://www.curtaviajar.com.br/js/jquery.maskedinput.js"></script>
+          <script type="text/javascript" src="http://www.curtaviajar.com.br/js/jquery.validate.js"></script>
+          <script type="text/javascript" src="http://www.curtaviajar.com.br/js/jquery.prettyPhoto.js"></script>
+        <script type="text/javascript" src="http://www.curtaviajar.com.br/js/jquery.slider.js"></script>  
+        <script type="text/javascript" src="http://www.curtaviajar.com.br/js/jquery.jcarousel.js"></script>
+          <!--FIM JS-->
+          
+          <script type="text/javascript">  
+            function mycarousel_initCallback(carousel)
+            {
+            // Disable autoscrolling if the user clicks the prev or next button.
+            carousel.buttonNext.bind('click', function() {
+                carousel.startAuto(1);
+            });
+        
+            carousel.buttonPrev.bind('click', function() {
+                carousel.startAuto(1);
+            });
+        
+            // Pause autoscrolling if the user moves with the cursor over the clip.
+            carousel.clip.hover(function() {
+                carousel.stopAuto();
+            }, function() {
+                carousel.startAuto();
+            });
+            };
+        
+            jQuery(document).ready(function() {
+                jQuery('#mycarousel').jcarousel({
+                    scroll: 1,
+                    auto: 1,
+        		    wrap: 'circular',
+                    initCallback: mycarousel_initCallback
+                });
+            });
+            
+          </script>   
+          
+          <!--DEIXAR IMAGEM CENTRALIZADA NO IE 7-->
+          <!--[if lt IE 8]>
+            <style type="text/css">
+            i #img span  {
+                display: inline-block;
+                height: 100%;
+            }
+            
+            </style>
+          <![endif]-->
+          <!--FIM DEIXAR IMAGEM CENTRALIZADA NO IE 7-->
+          
+          <!--SCRIPT PARA SUMIR IMAGEM COM TEMPO-->
+          <script type="text/javascript">
+          jQuery(function($){
+            var e = $('.bannerie7'); 
+            e.fadeIn(); 
+            e.queue(function(){
+                setTimeout(function(){
+                    e.dequeue();
+                }, 5000 ); 
+            }); 
+            e.fadeOut('fast');
+          });
+          </script>
+          <!--FIM SCRIPT PARA SUMIR IMAGEM COM TEMPO PARA-->
+          
+          <!--[if IE 6]>
+            <script type="text/javascript">
+            window.location.replace('pages/ie6.php');
+            </script>
+          <![endif]-->
+          
+          <!--[if lt IE 8]>
+          <div class='alc bannerie7' style=' clear: both; left: 0; top: 0; width: 100%; text-align:center; position: absolute; margin-left: 0; z-index:9999;'>
+            <a target="_blank" href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+              <img src="http://www.clmz.com.br/images/img-ie7.png" border="0" height="42" width="820" alt="Para melhor visualização do conteúdo deste site, faça já o update de seu navegador!" />
+           </a>
+          </div>
+          <![endif]-->
+          
+          <script type="text/javascript">
+          $(document).ready(function(){
+            	$("#header #navigation li #01").addClass("active");
+                $("#header #navigation li #01").removeAttr("href");
+                
+                $("#footer #navigation li #01").addClass("active");
+                $("#footer #navigation li #01").removeAttr("href"); 
+                
+                $('.voltTop').click(function(){
+                    $('html, body').animate({scrollTop:0}, 'slow');
+                    return false;
+                });       
+          });      
+          </script>
+          
+          <script type="text/javascript">
+        	$(window).load(function() {
+        		$('#featured').orbit();
+        	});
+          </script> 
+          
+          <!--LIGHTBOX--><script type="text/javascript" charset="utf-8">  
+          $(document).ready(function(){
+            $("a[rel^='prettyPhoto']").prettyPhoto({
+                theme: 'pp_default'
+                //temas disponiveis
+                ///* pp_default / light_rounded / dark_rounded / light_square / dark_square / facebook */
+            });   
+          });   
+          </script><!--FIM LIGHTBOX--> 
+          
+        </head>
+        
+        <body class="bg-body">
+        
+                <div id="dhtml">
+            <div class="x" onclick="fechaDHTML();"></div> 
+            
+            <div class="boxinfodhtml">
+                <span class="tlt">Receba nosso email!</span>
+                <span class="txt">Quer receber novidade sobre viagem? Cadastre seu email abaixo.<br /></span>
+                
+                <div class="bannerpizza"><img src="http://www.curtaviajar.com.br/images/jpg/imgpizza.jpg" /></div>
+                
+                <div id="newsletter"><div id="envianews">
+                    
+	   <form method="post" action="javascript:void();" class="vFormsNews left contemfloat">       
+       <input type="text" name="email_news" maxlength="50" id="email_news" value="Digite seu e-mail." onfocus="if(this.value == 'Digite seu e-mail.'){this.value = ''}" onblur="if(this.value == ''){this.value = 'Digite seu e-mail.'}">
+	   <input id="formSend" type="submit" class="botao" value=" " onclick="javascript:newsletter();">
+       </form>
+       
+<script type="text/javascript">
+$(function(){
+	$("#vFormsNews").validate({
+		rules: {			
+			email_news: {required: true, email: true}
+		}
+	});	
+});
+</script>                </div></div>
+            </div>
+            
+        </div>
+                
+        <div class="bg-menu"></div>
+        
+        <!--CONTAINER--><div id="container">
+        <!--HEADER--><div id="header">
+        
+            <!--<div class="trocarFundo">
+                <p class="tlTemas">Temas disponíveis:</p>
+                <a href="http://www.curtaviajar.com.br/2"><img src="http://www.curtaviajar.com.br/images/png/bg-home2.png" height="25px" alt="" /></a>
+                <a href="http://www.curtaviajar.com.br/1"><img src="http://www.curtaviajar.com.br/images/png/bg-home1.png" height="25px" alt="" /></a>        
+            </div>-->
+            
+            <ul id="navigation">
+                <li><a href="http://www.curtaviajar.com.br/inicio" title="Home" id="inicio01"></a></li>
+                <li><a href="http://www.curtaviajar.com.br/destinos" title="Destinos" id="destinos01"></a></li>
+                <li><a href="http://www.curtaviajar.com.br/informacoes" title="Informações Úteis" id="informacoes01"></a></li>
+                <li class="logo"><a href="http://www.curtaviajar.com.br/inicio" title="Curta Viajar"></a></li>
+                <li><a href="http://www.curtaviajar.com.br/fotos" title="Fotos Pelo Mundo" id="fotos01"></a></li>
+                <li><a href="http://www.curtaviajar.com.br/anuncie" title="Anuncie" id="anuncie01"></a></li>
+                <li><a href="http://www.curtaviajar.com.br/contato" title="Contato" id="contato01"></a></li>
+            </ul>
+            
+            <div class="boxTitulos">
+                
+                    <p class="frase">
+                        Quer ser feliz? Não compre mais coisas, vá viajar!
+                        <br /><span>(Desconhecido)</span>
+                    </p>            </div>
+            
+            <!--<div class="bannerheader">
+            <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+            <ins class="adsbygoogle"
+                 style="display:inline-block;width:468px;height:60px"
+                 data-ad-client="ca-pub-3770543958960534"
+                 data-ad-slot="7017631406"></ins>
+            <script>
+            (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+            </div>-->
+                    
+        </div><!--FIM HEADER-->
+        <!--CONTENT--><div id="content" class="contemfloat">
+        
+        <div class="garrafa"></div>
+                
+        <div id="inicio-content">
+<!--CONTEÚDO-->
+    
+    <!--DIV CONTENT LATERAL ESQUERDA - suporta os conteudos e posts -->
+    <div id="content-lateral-esquerda">
+        
+        <!--PAINEL
+        <div class="Painel">
+            <span class="Img">
+                <div id="slider">
+                    <a href="http://www.curtaviajar.com.br/post/40/rodando-em-duas-rodas-pela-regiao" target="_blank"><img id="misto" src="http://www.curtaviajar.com.br/slideshow-foto/FT1412598991.jpg" alt="" border="0"/></a><a href="http://www.curtaviajar.com.br/post/41/viajar-sozinho-vale-a-pena" target="_blank"><img id="misto" src="http://www.curtaviajar.com.br/slideshow-foto/FT1412598545.jpg" alt="Viajar sozinho vale a pena?" border="0"/></a><a href="http://www.curtaviajar.com.br/post/38/dicas-para-onde-viajar" target="_blank"><img id="misto" src="http://www.curtaviajar.com.br/slideshow-foto/FT1412598676.jpg" alt="Dicas para onde viajar" border="0"/></a>                </div>
+            </span>          
+        </div>--->
+        
+        <!--POSTS-->
+            
+            <ul class="posts-box">
+                        <li>
+                            <div class="boxdate">
+                                <p class="s01">21</p>
+                                <p class="s02">JAN</p>
+                                <p class="s03">2016</p>
+                            </div>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/95/como-arrumar-uma-mala-de-viagem" title="Como arrumar uma mala de viagem"><h1>Como arrumar uma mala de viagem</h1></a>
+                            
+                            <span class="pub">Publicado por CURTA VIAJAR</span>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/95/como-arrumar-uma-mala-de-viagem" title="Como arrumar uma mala de viagem">
+                            <div class="texto"><p>Viajar &eacute; uma del&iacute;cia! Mas, arrumar as malas nem sempre &eacute; uma tarefa f&aacute;cil, especialmente para as mulheres, que, no geral, t&ecirc;m o costume de levar mais coisas do que os homens.</p>
+<p>Afinal, quando &eacute; preciso escolher o que levar, tudo parece ser indispens&aacute;vel e surgem d&uacute;vidas sobre o que &eacute; prioridade...</div>
+                            </a>
+                                                                                
+                            <a href="http://www.curtaviajar.com.br/post/95/como-arrumar-uma-mala-de-viagem" title="" class="imgPrincipal">
+                                <div id="img">
+                                    <img src="http://www.curtaviajar.com.br/posts-fotos/FT1453395435.jpg" width="592px" alt="" />
+                                </div>                       
+                            </a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/95/como-arrumar-uma-mala-de-viagem" title="Continue Lendo" class="continue-lendo"></a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/95/como-arrumar-uma-mala-de-viagem#comentarios" title="" class="coment-post">VER COMENTÁRIOS</a>
+                            
+                            <div class="votos">
+                                <p class="tltNota" >Dê sua <span>Nota</span>:</p>
+                                
+                                <form style="display:none;" title="Average Rating: 0.00" class="rating" action="http://www.curtaviajar.com.br/destinos/rate/95">
+                              		<input type="hidden" name="valor" value="95" />
+                              		<select id="r195">
+                              		    <option value="1">1</option>
+                                  		<option value="2">2</option>
+                                  		<option value="3">3</option>
+                                  		<option value="4">4</option>
+                                  		<option value="5">5</option>
+                              		</select>
+                          		</form>
+                            </div>
+                                               
+                        </li>
+                        <li>
+                            <div class="boxdate">
+                                <p class="s01">19</p>
+                                <p class="s02">JAN</p>
+                                <p class="s03">2016</p>
+                            </div>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/94/pacotes-de-viagem-valem-a-pena" title="Pacotes de viagem valem a pena?"><h1>Pacotes de viagem valem a pena?</h1></a>
+                            
+                            <span class="pub">Publicado por CURTA VIAJAR</span>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/94/pacotes-de-viagem-valem-a-pena" title="Pacotes de viagem valem a pena?">
+                            <div class="texto"><p>A economia &eacute; apenas uma das vantagens de se planejar sua viagem por conta pr&oacute;pria. A pesquisa abre um leque de novas possibilidades e te permite comparar e escolher a companhia a&eacute;rea n&atilde;o pelo pacote, mas sim pelo servi&ccedil;o ou hor&aacute;rio que ela oferece ou mesmo pelo programa de milhas. Este, ali&aacute;s, &eacute; mais um as...</div>
+                            </a>
+                                                                                
+                            <a href="http://www.curtaviajar.com.br/post/94/pacotes-de-viagem-valem-a-pena" title="" class="imgPrincipal">
+                                <div id="img">
+                                    <img src="http://www.curtaviajar.com.br/posts-fotos/FT1453232107.jpg" width="592px" alt="" />
+                                </div>                       
+                            </a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/94/pacotes-de-viagem-valem-a-pena" title="Continue Lendo" class="continue-lendo"></a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/94/pacotes-de-viagem-valem-a-pena#comentarios" title="" class="coment-post">VER COMENTÁRIOS</a>
+                            
+                            <div class="votos">
+                                <p class="tltNota" >Dê sua <span>Nota</span>:</p>
+                                
+                                <form style="display:none;" title="Average Rating: 0.00" class="rating" action="http://www.curtaviajar.com.br/destinos/rate/94">
+                              		<input type="hidden" name="valor" value="94" />
+                              		<select id="r194">
+                              		    <option value="1">1</option>
+                                  		<option value="2">2</option>
+                                  		<option value="3">3</option>
+                                  		<option value="4">4</option>
+                                  		<option value="5">5</option>
+                              		</select>
+                          		</form>
+                            </div>
+                                               
+                        </li>
+                        <li>
+                            <div class="boxdate">
+                                <p class="s01">13</p>
+                                <p class="s02">JAN</p>
+                                <p class="s03">2016</p>
+                            </div>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/93/oque-voce-precisa-saber-para-fazer-sua-primeira-viagem-aerea" title="oque você precisa saber para fazer sua primeira viagem aérea"><h1>oque você precisa saber para fazer sua primeira viagem aérea</h1></a>
+                            
+                            <span class="pub">Publicado por CURTA VIAJAR</span>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/93/oque-voce-precisa-saber-para-fazer-sua-primeira-viagem-aerea" title="oque você precisa saber para fazer sua primeira viagem aérea">
+                            <div class="texto"><p>PREPARANDO-SE PARA A VIAGEM</p>
+<p>Arrumando as malas</p>
+<p>Os viajantes podem levar dois tipos de bagagens no voo. A bagagem de m&atilde;o deve ter no m&aacute;ximo 5 quilos e ser&aacute; carregada por voc&ecirc; no avi&atilde;o. Nela, devem ser colocados objetos de valor, como carteira, celular, documentos, computador e aparelho de MP3. Por medidas de segu...</div>
+                            </a>
+                                                                                
+                            <a href="http://www.curtaviajar.com.br/post/93/oque-voce-precisa-saber-para-fazer-sua-primeira-viagem-aerea" title="" class="imgPrincipal">
+                                <div id="img">
+                                    <img src="http://www.curtaviajar.com.br/posts-fotos/FT1452713018.jpg" width="592px" alt="" />
+                                </div>                       
+                            </a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/93/oque-voce-precisa-saber-para-fazer-sua-primeira-viagem-aerea" title="Continue Lendo" class="continue-lendo"></a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/93/oque-voce-precisa-saber-para-fazer-sua-primeira-viagem-aerea#comentarios" title="" class="coment-post">VER COMENTÁRIOS</a>
+                            
+                            <div class="votos">
+                                <p class="tltNota" >Dê sua <span>Nota</span>:</p>
+                                
+                                <form style="display:none;" title="Average Rating: 0.00" class="rating" action="http://www.curtaviajar.com.br/destinos/rate/93">
+                              		<input type="hidden" name="valor" value="93" />
+                              		<select id="r193">
+                              		    <option value="1">1</option>
+                                  		<option value="2">2</option>
+                                  		<option value="3">3</option>
+                                  		<option value="4">4</option>
+                                  		<option value="5">5</option>
+                              		</select>
+                          		</form>
+                            </div>
+                                               
+                        </li>
+                        <li>
+                            <div class="boxdate">
+                                <p class="s01">11</p>
+                                <p class="s02">JAN</p>
+                                <p class="s03">2016</p>
+                            </div>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/92/20-dicas-para-viajar-com-orcamento-curto-em-tempos-de-dolar-" title="20 dicas para viajar com orçamento curto em tempos de dólar "><h1>20 dicas para viajar com orçamento curto em tempos de dólar </h1></a>
+                            
+                            <span class="pub">Publicado por CURTA VIAJAR</span>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/92/20-dicas-para-viajar-com-orcamento-curto-em-tempos-de-dolar-" title="20 dicas para viajar com orçamento curto em tempos de dólar ">
+                            <div class="texto"><p>&Eacute; amigos, foi-se o tempo de gl&oacute;ria em que viajar era f&aacute;cil e terminava sendo bastante barato, sobretudo se t&iacute;nhamos inten&ccedil;&atilde;o de fazer compras, unindo o &uacute;til ao agrad&aacute;vel, o brasileiro viveu nos &uacute;ltimos anos uma &eacute;poca dourada.</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Bom, hoje em dia com o d&oacu...</div>
+                            </a>
+                                                                                
+                            <a href="http://www.curtaviajar.com.br/post/92/20-dicas-para-viajar-com-orcamento-curto-em-tempos-de-dolar-" title="" class="imgPrincipal">
+                                <div id="img">
+                                    <img src="http://www.curtaviajar.com.br/posts-fotos/FT1452540742.jpg" width="592px" alt="" />
+                                </div>                       
+                            </a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/92/20-dicas-para-viajar-com-orcamento-curto-em-tempos-de-dolar-" title="Continue Lendo" class="continue-lendo"></a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/92/20-dicas-para-viajar-com-orcamento-curto-em-tempos-de-dolar-#comentarios" title="" class="coment-post">VER COMENTÁRIOS</a>
+                            
+                            <div class="votos">
+                                <p class="tltNota" >Dê sua <span>Nota</span>:</p>
+                                
+                                <form style="display:none;" title="Average Rating: 0.00" class="rating" action="http://www.curtaviajar.com.br/destinos/rate/92">
+                              		<input type="hidden" name="valor" value="92" />
+                              		<select id="r192">
+                              		    <option value="1">1</option>
+                                  		<option value="2">2</option>
+                                  		<option value="3">3</option>
+                                  		<option value="4">4</option>
+                                  		<option value="5">5</option>
+                              		</select>
+                          		</form>
+                            </div>
+                                               
+                        </li>
+                        <li>
+                            <div class="boxdate">
+                                <p class="s01">08</p>
+                                <p class="s02">JAN</p>
+                                <p class="s03">2016</p>
+                            </div>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/91/os-melhores-parques-aquaticos-para-curtir-no-brasil-" title="Os melhores parques aquáticos para curtir no Brasil "><h1>Os melhores parques aquáticos para curtir no Brasil </h1></a>
+                            
+                            <span class="pub">Publicado por Curta Viajar </span>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/91/os-melhores-parques-aquaticos-para-curtir-no-brasil-" title="Os melhores parques aquáticos para curtir no Brasil ">
+                            <div class="texto"><p>Confira abaixo os melhores parques aqu&aacute;ticos para curtir o ver&atilde;o:</p>
+<p>1: Thermas dos Laranjais | Ol&iacute;mpia (SP): O parque aqu&aacute;tico no interior de S&atilde;o Paulo faz tanto sucesso com o p&uacute;blico que entrou no Top 10 de locais mais comentados no Facebook em 2015. Com mais de 260 mil m&sup2; (&aacute;rea equivalente a mais de ...</div>
+                            </a>
+                                                                                
+                            <a href="http://www.curtaviajar.com.br/post/91/os-melhores-parques-aquaticos-para-curtir-no-brasil-" title="" class="imgPrincipal">
+                                <div id="img">
+                                    <img src="http://www.curtaviajar.com.br/posts-fotos/FT1452270190.jpg" width="592px" alt="" />
+                                </div>                       
+                            </a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/91/os-melhores-parques-aquaticos-para-curtir-no-brasil-" title="Continue Lendo" class="continue-lendo"></a>
+                            
+                            <a href="http://www.curtaviajar.com.br/post/91/os-melhores-parques-aquaticos-para-curtir-no-brasil-#comentarios" title="" class="coment-post">VER COMENTÁRIOS</a>
+                            
+                            <div class="votos">
+                                <p class="tltNota" >Dê sua <span>Nota</span>:</p>
+                                
+                                <form style="display:none;" title="Average Rating: 0.00" class="rating" action="http://www.curtaviajar.com.br/destinos/rate/91">
+                              		<input type="hidden" name="valor" value="91" />
+                              		<select id="r191">
+                              		    <option value="1">1</option>
+                                  		<option value="2">2</option>
+                                  		<option value="3">3</option>
+                                  		<option value="4">4</option>
+                                  		<option value="5">5</option>
+                              		</select>
+                          		</form>
+                            </div>
+                                               
+                        </li></ul><div class="paginacao" style="width: 582px;"> <a href="http://www.curtaviajar.com.br/inicio/1" title="Página 1" class="pag_selecionada">1</a> <a href="http://www.curtaviajar.com.br/inicio/2" title="Página 2">2</a> <a href="http://www.curtaviajar.com.br/inicio/3" title="Página 3">3</a> <a href="http://www.curtaviajar.com.br/inicio/4" title="Página 4">4</a> <a href="http://www.curtaviajar.com.br/inicio/5" title="Página 5">5</a> <a href="http://www.curtaviajar.com.br/inicio/2" title="Próxima página" class="pag_proxima"></a></div>        
+    
+    </div>
+    
+    <!---DIV LATERAL DIREITA - suporta os banners, busca e redes sociais -->
+    <!---INCLUDE DA LATERAL DIREITA - para haver flexibilidade e maior desempenho -->
+    <div id="lateral-content-direita">
+
+
+<!--CONTEÚDO-->
+    
+    <div id="news">       
+        <p class="tituloNews"></p>
+        <p class="subtituloNews">Seja o primeiro a receber nossas novidades, cadastre seu email grátis!</p>
+        <div id="newsletter"><div id="envianews">
+            
+	   <form method="post" action="javascript:void();" class="vFormsNews left contemfloat">       
+       <input type="text" name="email_news" maxlength="50" id="email_news" value="Digite seu e-mail." onfocus="if(this.value == 'Digite seu e-mail.'){this.value = ''}" onblur="if(this.value == ''){this.value = 'Digite seu e-mail.'}">
+	   <input id="formSend" type="submit" class="botao" value=" " onclick="javascript:newsletter();">
+       </form>
+       
+<script type="text/javascript">
+$(function(){
+	$("#vFormsNews").validate({
+		rules: {			
+			email_news: {required: true, email: true}
+		}
+	});	
+});
+</script>        </div></div>
+    </div>
+    
+    <!--BOX DE BANNERS-->
+           
+        
+                <ul id="banners-box">
+                    
+                    <p class="title-banner">Publicidade</p>
+                        <li class="banner">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Curta viajar 26092014 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-3770543958960534"
+     data-ad-slot="9622782202"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>                     
+                        </li>
+                        <li class="banner">
+                        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Curta viajar 26092014 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-3770543958960534"
+     data-ad-slot="9622782202"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>                     
+                        </li>
+                </ul>    <!--BOX DE PESQUISA-->
+    <div class="bgPesquisa">
+        <p class="title">Busca</p>
+        
+        <form method="post" action="/1/busca" class="validatetopo">
+            <input type="text" id="q" name="q" class="pesquisa" size="30" value="Busque um destino"/>
+            <input type="hidden" id="notEqual" name="notEqual" value="Palavra-chave" class="hidden" />
+            <input type="submit" value=" " class="btn-pesquisa" title="Procurar" />
+        </form>
+    </div>
+    
+    <!--BOX FOTOS-->
+    <div id="fotos-box">
+        <p class="title">POSTS MAIS RECENTES</p>
+        
+        <ul>                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/95/como-arrumar-uma-mala-de-viagem" title="Como arrumar uma mala de viagem">                  
+                            <p class="tltNome">&raquo; Como arrumar uma mala de viagem</p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/94/pacotes-de-viagem-valem-a-pena" title="Pacotes de viagem valem a pena?">                  
+                            <p class="tltNome">&raquo; Pacotes de viagem valem a pena?</p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/93/oque-voce-precisa-saber-para-fazer-sua-primeira-viagem-aerea" title="oque você precisa saber para fazer sua primeira viagem aérea">                  
+                            <p class="tltNome">&raquo; oque você precisa saber para fazer sua primeira viagem aérea</p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/92/20-dicas-para-viajar-com-orcamento-curto-em-tempos-de-dolar-" title="20 dicas para viajar com orçamento curto em tempos de dólar ">                  
+                            <p class="tltNome">&raquo; 20 dicas para viajar com orçamento curto em tempos de dólar </p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/91/os-melhores-parques-aquaticos-para-curtir-no-brasil-" title="Os melhores parques aquáticos para curtir no Brasil ">                  
+                            <p class="tltNome">&raquo; Os melhores parques aquáticos para curtir no Brasil </p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/89/pe-na-estrada" title="Pé na estrada!">                  
+                            <p class="tltNome">&raquo; Pé na estrada!</p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/88/travesseiros-inusitados-prometem" title="Travesseiros inusitados prometem">                  
+                            <p class="tltNome">&raquo; Travesseiros inusitados prometem</p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/87/voo-com-conexoes-curtas-fuja-desta-ideia" title="Vôo com conexões curtas. Fuja desta idéia">                  
+                            <p class="tltNome">&raquo; Vôo com conexões curtas. Fuja desta idéia</p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/86/lugar-dos-contos-de-fadas-sim-eles-existem" title="Lugar dos contos de fadas? Sim, eles existem.">                  
+                            <p class="tltNome">&raquo; Lugar dos contos de fadas? Sim, eles existem.</p>
+                        </a>
+                    </li>
+                                    <li>
+                        <a href="http://www.curtaviajar.com.br/post/85/cervejaria-manush-artesanal-em-estilo-pub-irlandes" title="Cervejaria Manush, artesanal em estilo pub Irlândes">                  
+                            <p class="tltNome">&raquo; Cervejaria Manush, artesanal em estilo pub Irlândes</p>
+                        </a>
+                    </li>
+                            </ul>
+                    
+    </div>
+    
+    <!--BOX FACEBOOK-->
+    <div id="face-box">
+        <p class="title">Facebook</p>
+        
+        <div class="face-box">
+            
+            <iframe src="//www.facebook.com/plugins/likebox.php?href=https%3A%2F%2Fwww.facebook.com%2Fcurtaviajar%3Fref%3Dhl&amp;width=302&amp;height=290&amp;colorscheme=light&amp;show_faces=true&amp;header=true&amp;stream=false&amp;show_border=true" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:302px; height:290px;" allowTransparency="true"></iframe>
+                
+        </div>
+    
+    </div>
+    
+    
+
+      
+    <!--BOX INSTAGRAM-->
+    <div id="instagram-box">
+        <p class="title-insta"></p>
+        
+        <div class="insta-box">
+            <!--<iframe src="http://snapwidget.com/in/?h=Y3VydGF2aWFqYXJ8aW58Mjk1fDF8MXx8eWVzfDV8ZmFkZU91dHxvblN0YXJ0fHllcw==&v=22414" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:310px; height:310px"></iframe>
+            <iframe src="http://snapwidget.com/in/?u=Y3VydGF2aWFqYXJ8aW58ODV8M3wzfHx5ZXN8NXxub25lfG9uU3RhcnR8eWVz&v=6514" title="Instagram Widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; margin: 20px 0 0 0; width:300px; height:300px"></iframe>-->         
+            <iframe src="http://snapwidget.com/in/?u=Y3VydGF2aWFqYXJ8aW58MTAwfDN8M3xkNmQyZDZ8eWVzfDJ8bm9uZXxvblN0YXJ0fHllc3x5ZXM=&ve=090215" title="Instagram Widget" class="snapwidget-widget" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; margin: 30px 0 10px 0; width:300px; height:302px"></iframe>   
+        </div>    
+    </div>
+    
+    <!--BOX REDES-->
+    <ul id="redes-sociais-box">    
+        <p class="title">Conecte-se</p>
+        
+                                
+        <li><a href="http://www.facebook.com.br/curtaviajar" class="faceicn" target="_blank" title="Facebook"></a></li>
+        <li><a href="http://www.instagram.com/curtaviajar" class="instaicn" target="_blank" title="Instagram"></a></li>
+        <li><a href="http://www.curtaviajar.com.br/1/contato" class="contacticn" title="Entre em Contato"></a></li>
+    
+    </ul> 
+    
+    <!--BOX DE BANNERS 2-->
+           
+            
+<!--FIM-->
+</div>    
+<!--FIM-->
+</div>        
+        </div><!--FIM CONTENT-->
+        <!--FOOTER--><div id="footer">
+        
+            <div class="boxConfira">
+                <!--<a class="hospedagem" href="http://www.curtaviajar.com.br/1/hospedar" title="Hospedagem"></a>-->
+                <a class="hospedagem" href="http://www.curtaviajar.com.br/hospedar" title="Hospedagem"></a>
+                <a class="alimentacao" href="http://www.curtaviajar.com.br/alimentacao" title="Hospedagem"></a>
+            </div>
+            
+            <a class="logo" href="http://www.curtaviajar.com.br/inicio" title="Curta Viajar"></a>
+        
+            <ul id="navigation">
+                <li><a href="http://www.curtaviajar.com.br/inicio" title="Home" id="inicio01"> Home</a></li>
+                <li><a href="http://www.curtaviajar.com.br/destinos" title="Destinos" id="destinos01"> Destinos</a></li>
+                <li><a href="http://www.curtaviajar.com.br/informacoes" title="Informações Úteis" id="informacoes01"> Informações Úteis</a></li>        
+                <li><a href="http://www.curtaviajar.com.br/fotos" title="Fotos Pelo Mundo" id="fotos01"> Fotos pelo Mundo</a></li>
+                <li><a href="http://www.curtaviajar.com.br/anuncie" title="Anuncie" id="anuncie01"> Anuncie</a></li>
+                <li><a href="http://www.curtaviajar.com.br/contato" title="Contato" id="contato01"> Contato</a></li>
+            </ul>
+                
+            <div id="news">       
+                <p class="tituloNews"></p>
+                <p class="subtituloNews">Cadastre-se e receba boletins informativos </p>
+                <div id="newsletter"><div id="envianews">
+                    
+	   <form method="post" action="javascript:void();" class="vFormsNews left contemfloat">       
+       <input type="text" name="email_news" maxlength="50" id="email_news" value="Digite seu e-mail." onfocus="if(this.value == 'Digite seu e-mail.'){this.value = ''}" onblur="if(this.value == ''){this.value = 'Digite seu e-mail.'}">
+	   <input id="formSend" type="submit" class="botao" value=" " onclick="javascript:newsletter();">
+       </form>
+       
+<script type="text/javascript">
+$(function(){
+	$("#vFormsNews").validate({
+		rules: {			
+			email_news: {required: true, email: true}
+		}
+	});	
+});
+</script>                </div></div>
+            </div>
+        
+            <p class="copy">Copyright &copy; 2013 - 2016 - Todos os direitos reservados.Desenvolvido por 
+            <a href="http://www.clmz.com.br" target="_blank" title="CLMZ - Soluções de Internet"><ins>CLMZ Internet.</ins></a></p>
+            
+            <a href="javascript:;" class="voltTop"></a>
+        
+        </div><!--FIM FOOTER-->
+        </div><!--FIM CONTAINER-->
+        
+        <div class="bg-fixo"></div>
+        </body>
+        
+        </html>
+        
+    <script type="text/javascript" src="http://www.curtaviajar.com.br/js/jquery.rating.js"></script>
+<script type="text/javascript">
+    		jQuery(function(){
+    			jQuery("form.rating").rating();
+    		});
+    		</script>
+    
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-50597600-1', 'auto');
+  ga('send', 'pageview');
+
+</script>

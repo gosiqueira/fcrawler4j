@@ -1,0 +1,2565 @@
+title=Blog Vambora! - Blog de Viagem e Turismo
+url=http://www.blogvambora.com.br/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head profile="http://gmpg.org/xfn/11"><link rel="stylesheet" type="text/css" href="http://www.blogvambora.com.br/wp-content/cache/minify/000000/ZY3BDsMgDEN_qFFod9j3sEAnNEoiElr174tET-vJkv1sOzwEgt9ToQSLQ7Uzx8n9uR_mXyrfacaDa5AaVUFYWva1q5qOXm9JZ4iLeTJYuW7wxj6SW4iKpDenj4NhD3k9UmpqvF0.css" media="all" />
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<link rel="pingback" href="http://www.blogvambora.com.br/xmlrpc.php" />
+
+
+<!--[if lt IE 9]>
+<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->
+
+
+
+<!-- This site is optimized with the Yoast WordPress SEO plugin v1.5.2.7 - https://yoast.com/wordpress/plugins/seo/ -->
+<title>Blog Vambora! - Blog de Viagem e Turismo</title>
+<meta name="robots" content="noodp"/>
+<meta name="description" content="Blog de viagem e turismo com dicas, curiosidades e relatos de viagem no Brasil e no Mundo, informando e incentivando você a viajar mais e melhor. Vambora?!"/>
+<link rel="canonical" href="http://www.blogvambora.com.br/" />
+<link rel="next" href="http://www.blogvambora.com.br/page/2/" />
+<link rel="publisher" href="https://plus.google.com/u/0/b/110280533092789300703/+BlogvamboraBr/posts"/>
+<meta property="og:locale" content="pt_PT" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Blog Vambora! - Blog de Viagem e Turismo" />
+<meta property="og:description" content="Blog de viagem e turismo com dicas, curiosidades e relatos de viagem no Brasil e no Mundo, informando e incentivando você a viajar mais e melhor. Vambora?!" />
+<meta property="og:url" content="http://www.blogvambora.com.br/" />
+<meta property="og:site_name" content="Blog Vambora" />
+<meta property="article:publisher" content="https://www.facebook.com/vambora" />
+<!-- / Yoast WordPress SEO plugin. -->
+
+<link rel="alternate" type="application/rss+xml" title="Blog Vambora &raquo; Feed" href="http://www.blogvambora.com.br/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Blog Vambora &raquo; Feed de Comentários" href="http://www.blogvambora.com.br/comments/feed/" />
+
+
+<script type='text/javascript' src='http://code.jquery.com/jquery-2.0.0.js?ver=2.0.0'></script>
+<script type='text/javascript' src='http://code.jquery.com/jquery-migrate-1.1.1.js?ver=1.1.1'></script>
+<script type="text/javascript" src="http://www.blogvambora.com.br/wp-content/cache/minify/000000/fc1bEoIwDAXQDZm2MOOCYhPGQKklaRVdvfzz-D73EfynAOFbchTogx_ND4lXS0Kst7BXXitrxnRk1uLEOog9rxUi1l0CaZbsx6WxfqEJFFZ7bUfyY4LO3V3vCm4LdNK0opKnxFDxYX8.js"></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.blogvambora.com.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.blogvambora.com.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 3.5" />
+
+<!-- Alternate Stylesheet -->
+
+
+<!-- Custom Styles from Theme Setting Page -->
+<style type="text/css">
+#sitetitle,#sitetitle .title {text-align:center;}
+#topnav,#topnav ul ul a {font-size:11pt;font-weight:bold;background:#ebe9ce;}
+#topnav {border:0;}
+#topnav ul ul,#topnav ul ul a {border-color:#fff;}
+#topnav ul li.searchform {padding-right:4px;padding-left:4px;}
+#topnav ul a,#topnav ul ul a {color:#333333;}
+#topnav ul a:hover,#topnav ul ul a:hover {color:#fb7c25;}
+#catnav,#catnav ul ul a {font-size:10pt;font-weight:bold;font-family:Arial,Helvetica,sans-serif;}
+#catnav ul a,#catnav ul ul a {color:#ffffff;}
+.maincontent {font-size:11pt;}
+</style>
+
+<!-- Styles from custom.css -->
+
+
+
+	<script type="text/javascript">
+	var booking = {
+	env : {
+	b_simple_weekdays: ['2ª','3ª','4ª','5ª','6ª','Sa.','Do.'],
+	b_simple_weekdays_for_js: ['Seg.','Ter.','Qua.','Qui.','Sex.','Sab.','Dom.'],
+	b_long_weekdays: ['Segunda-feira','Terça-feira','Quarta-feira','Quinta-feira','Sexta-feira','Sábado','Domingo']
+	}
+	}
+	function addzero( value )
+	{
+	while( value.length<2 ) value = String("0") + value;
+	return value;
+	}
+	function checkDateOrder(frm, ci_day, ci_month_year, co_day, co_month_year) {
+	if (document.getElementById) {
+	var frm = document.getElementById(frm);
+	// create date object from checkin values
+	// set date to 12:00 to avoid problems with one
+	// date being wintertime and the other summertime
+	var my = frm[ci_month_year].value.split("-");
+	var ci = new Date (my[0], my[1]-1, frm[ci_day].value, 12, 0, 0, 0);
+	// create date object from checkout values
+	my = frm[co_month_year].value.split("-");
+	var co = new Date (my[0], my[1]-1, frm[co_day].value, 12, 0, 0, 0);
+	// if checkin date is at or after checkout date,
+	// add a day full of milliseconds, and set the
+	// selectbox values for checkout date to new value
+	if (ci >= co){
+	co.setTime(ci.getTime() + 1000 * 60 * 60 * 24);
+	frm[co_day].value = co.getDate();
+	var com = co.getMonth()+1;
+	frm[co_month_year].value = co.getFullYear() + "-" + com;
+	}
+	}
+	}
+	</script>
+
+
+	
+	<script type="text/javascript">
+
+	 var svm_CssExternal = "http://www.submarinoviagens.com.br/motor-afiliados/css/motor-afiliados-pas-
+
+	300x250.css";
+
+	 var svm_DivIDTarget = "resultado-busca";
+
+	 var svm_AffiliatedID = "744";
+
+	 var svm_s_cid = "blogvambora_motor_passagens";
+
+	 var svm_utm_medium = "motor";
+
+	 var svm_utm_source = "blogvambora";
+
+	 var svm_utm_campaign = "passagens";
+
+	 $.getScript("http://www.submarinoviagens.com.br/motor-afiliados/aereo.js");
+
+	</script>
+
+
+</head>
+
+<body class="home blog c-sw">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=240810459277635";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+<div id="outer-wrap">
+	<a href="http://www.blogvambora.com.br">
+	<div id="topovambora" style="background-image:url('http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/bg-header.jpg'); background-position:top center;"></div>
+    </a>
+			<!--<div id="head-content" class="clearfix">
+									<div id="sitetitle">
+						<div class="title"><a href="http://www.blogvambora.com.br">Blog Vambora</a></div> 
+						<div class="description">Blog de Viagem e Turismo</div>
+					</div>
+								
+							</div>-->
+		</div>
+
+		<div id="topnav">
+			<div class="limit clearfix">
+									<ul class="clearfix">
+						<li id="menu-item-16866" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16866"><a href="http://www.blogvambora.com.br/about/">Sobre</a></li>
+<li id="menu-item-23958" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-23958"><a href="http://www.blogvambora.com.br/politica-blog/">Política do Blog</a></li>
+<li id="menu-item-16864" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16864"><a href="http://www.blogvambora.com.br/anuncie-2/">Anuncie</a></li>
+<li id="menu-item-16865" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16865"><a href="http://www.blogvambora.com.br/contato/">Contato</a></li>
+						
+						<li class="searchform"><form id="searchform" method="get" action="http://www.blogvambora.com.br/" ><input type="text" value="procurar por..." onfocus="if (this.value == 'procurar por...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'procurar por...';}" size="18" maxlength="50" name="s" id="searchfield" /><input type="submit" value="procurar" id="submitbutton" /></form>
+</li>						
+
+						<li class="header_flags">
+																				</li>
+					</ul>
+								
+			</div>
+		</div>
+
+
+
+
+
+
+
+
+				<div id="catnav">
+			<div class="limit clearfix">
+
+					<ul class="clearfix">
+						<li id="menu-item-16717" class="menu-item menu-item-type-custom menu-item-object-custom current-menu-item current_page_item menu-item-home menu-item-16717"><a href="http://www.blogvambora.com.br/">Home</a></li>
+<li id="menu-item-16815" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16815"><a href="#">Destinos</a>
+<ul class="sub-menu">
+	<li id="menu-item-16816" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16816"><a href="http://www.blogvambora.com.br/africa-4/">África</a></li>
+	<li id="menu-item-16817" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16817"><a href="http://www.blogvambora.com.br/america-do-norte/">América do Norte</a></li>
+	<li id="menu-item-16818" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16818"><a href="http://www.blogvambora.com.br/america-central/">América Central</a></li>
+	<li id="menu-item-16819" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16819"><a href="http://www.blogvambora.com.br/america-do-sul/">América do Sul</a></li>
+	<li id="menu-item-16820" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16820"><a href="http://www.blogvambora.com.br/brasil/">Brasil</a></li>
+	<li id="menu-item-16821" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16821"><a href="http://www.blogvambora.com.br/europa/">Europa</a></li>
+	<li id="menu-item-16822" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16822"><a href="http://www.blogvambora.com.br/asia/">Ásia</a></li>
+	<li id="menu-item-16823" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16823"><a href="http://www.blogvambora.com.br/oriente-medio/">Oriente Médio</a></li>
+	<li id="menu-item-16824" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16824"><a href="http://www.blogvambora.com.br/oceania/">Oceania</a></li>
+	<li id="menu-item-16825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16825"><a href="http://www.blogvambora.com.br/antartica/">Antártica</a></li>
+</ul>
+</li>
+<li id="menu-item-16826" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16826"><a href="#">Cidades Especiais</a>
+<ul class="sub-menu">
+	<li id="menu-item-16827" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16827"><a href="http://www.blogvambora.com.br/destinos/barcelona/">Barcelona</a></li>
+	<li id="menu-item-16828" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16828"><a href="http://www.blogvambora.com.br/destinos/belo-horizonte/">Belo Horizonte</a></li>
+	<li id="menu-item-20541" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-20541"><a href="http://www.blogvambora.com.br/destinos/istambul/">Istambul</a></li>
+	<li id="menu-item-16829" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16829"><a href="http://www.blogvambora.com.br/destinos/las-vegas/">Las Vegas</a></li>
+	<li id="menu-item-16830" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16830"><a href="http://www.blogvambora.com.br/destinos/lisboa-2/">Lisboa</a></li>
+	<li id="menu-item-16831" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16831"><a href="http://www.blogvambora.com.br/destinos/londres/">Londres</a></li>
+	<li id="menu-item-16832" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16832"><a href="http://www.blogvambora.com.br/destinos/madrid/">Madrid</a></li>
+	<li id="menu-item-16870" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16870"><a href="http://www.blogvambora.com.br/destinos/miami/">Miami</a></li>
+	<li id="menu-item-16833" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16833"><a href="http://www.blogvambora.com.br/destinos/montevideu/">Montevidéu</a></li>
+	<li id="menu-item-16834" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16834"><a href="http://www.blogvambora.com.br/destinos/nova-york/">Nova York</a></li>
+	<li id="menu-item-16835" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16835"><a href="http://www.blogvambora.com.br/destinos/paris/">Paris</a></li>
+	<li id="menu-item-16836" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16836"><a href="http://www.blogvambora.com.br/destinos/rio-de-janeiro/">Rio de Janeiro</a></li>
+	<li id="menu-item-16837" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16837"><a href="http://www.blogvambora.com.br/destinos/roma/">Roma</a></li>
+	<li id="menu-item-16838" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16838"><a href="http://www.blogvambora.com.br/destinos/salvador/">Salvador</a></li>
+	<li id="menu-item-16839" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16839"><a href="http://www.blogvambora.com.br/destinos/sao-francisco/">São Francisco</a></li>
+	<li id="menu-item-16840" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16840"><a href="http://www.blogvambora.com.br/destinos/sao-paulo/">São Paulo</a></li>
+	<li id="menu-item-16841" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16841"><a href="http://www.blogvambora.com.br/destinos/valencia/">Valência</a></li>
+</ul>
+</li>
+<li id="menu-item-16842" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16842"><a href="#">Categorias de Viagem</a>
+<ul class="sub-menu">
+	<li id="menu-item-16964" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16964"><a title="Descanso merecido" href="http://blogvambora.com.br/?s=descanso+merecido">Descanso merecido</a></li>
+	<li id="menu-item-16965" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16965"><a href="http://blogvambora.com.br/?s=lugares+improvaveis">Lugares improváveis</a></li>
+	<li id="menu-item-16966" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16966"><a href="http://blogvambora.com.br/?s=proxima+viagem">Próxima viagem</a></li>
+	<li id="menu-item-16967" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16967"><a href="http://blogvambora.com.br/?s=Relatos+de+viagem">Relatos de viagem</a></li>
+	<li id="menu-item-16968" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16968"><a href="http://blogvambora.com.br/?s=Roteiro+Cultural">Roteiro Cultural</a></li>
+	<li id="menu-item-16969" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16969"><a href="http://blogvambora.com.br/?s=Viajante+Gourmet">Viajante Gourmet</a></li>
+	<li id="menu-item-16970" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16970"><a href="http://blogvambora.com.br/?s=Vivendo+e+aprendendo">Vivendo e aprendendo</a></li>
+</ul>
+</li>
+<li id="menu-item-16850" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-16850"><a href="#">Planeje sua viagem</a>
+<ul class="sub-menu">
+	<li id="menu-item-16853" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16853"><a href="http://www.blogvambora.com.br/hoteis-reservas/">Hotéis Reservas</a></li>
+	<li id="menu-item-26170" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-26170"><a href="http://www.blogvambora.com.br/passagens/">Passagens</a></li>
+	<li id="menu-item-16859" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16859"><a href="http://www.blogvambora.com.br/seguro-de-viagem/">Seguro Viagem</a></li>
+	<li id="menu-item-29832" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-29832"><a href="http://blogvambora.rgi.ticketbar.eu/pt/home/">Ingressos</a></li>
+	<li id="menu-item-16851" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16851"><a href="http://www.blogvambora.com.br/aluguel-de-carro/">Aluguel de Carro</a></li>
+	<li id="menu-item-21389" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-21389"><a href="http://www.blogvambora.com.br/intercambio/">Intercâmbio</a></li>
+	<li id="menu-item-16855" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16855"><a href="http://www.blogvambora.com.br/mapas/">Mapas</a></li>
+	<li id="menu-item-16852" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16852"><a href="http://www.blogvambora.com.br/fuso-horario/">Fuso Horário</a></li>
+	<li id="menu-item-16856" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16856"><a href="http://www.blogvambora.com.br/medidas-e-conversoes/">Medidas e Conversões</a></li>
+	<li id="menu-item-16858" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16858"><a href="http://www.blogvambora.com.br/previsao-do-tempo/">Previsão do Tempo</a></li>
+	<li id="menu-item-16854" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16854"><a href="http://www.blogvambora.com.br/sites-e-blogs/">+ Blogs e Sites de Viagem</a></li>
+</ul>
+</li>
+<li id="menu-item-16861" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-16861"><a href="http://www.blogvambora.com.br/contato/">Contato</a></li>
+					</ul>
+					
+                                	<div class="clearfix" style="margin:-27px 0 0 0; float:right;">
+			<a title="Subscribe via RSS Feed" href="http://www.blogvambora.com.br/feed/"><img class="rss-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/feed.png" alt="Subscribe via RSS Feed" align="top"  width="24"/></a>
+							<a rel="external" title="Follow Me on Twitter" href="http://www.twitter.com/vambora"><img class="twitter-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/twitter.png" alt="Follow Me on Twitter" align="top" width="24" /></a>
+										<a title="Connect on Facebook" rel="external" href="http://www.facebook.com/vambora"><img class="facebook-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/facebook.png" alt="Connect on Facebook" align="top" width="24" /></a>
+						<a rel="external" href="http://instagram.com/vambora"><img class="instagram-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/instagram.png" alt="" align="top" width="24" /></a>
+			<a rel="external" href="https://plus.google.com/u/0/+BlogvamboraBr/posts"><img class="instagram-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/google-mais.png" alt="" align="top" width="24" /></a>
+		</div>
+                    
+			</div>
+            
+		</div>
+			<div id="wrap">
+		<div id="header">
+	
+
+		
+	
+	
+	<div id="page" class="clearfix">
+
+		<div id="contentleft" class="maincontent">
+
+						<script type="text/javascript">
+//<![CDATA[
+	jQuery(window).load(function() {
+		jQuery('#featured').flexslider({
+			slideshowSpeed: 6000,
+			directionNav:false,
+			pauseOnHover:true,
+			manualControls: '.flexslide-custom-controls li a',
+			controlsContainer: '.container'
+		});
+
+	});
+//]]>
+</script>
+
+<div class="featured">
+
+	<div class="container">
+
+		<div id="featured" class="flexslider">
+
+			<ul class="slides">
+
+
+	    			<li id="narrow-feature-post-1" class="full-width">
+
+					<div class="slide-container clearfix">
+
+													<div class="feature-image"> 
+								<a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="bookmark" title="Link permanente para Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">		<img src="http://www.blogvambora.com.br/wp-content/uploads/2016/01/Destaque_BlogVambora_Tryp-Gru-Airport-521x275.jpg" alt="Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport" title="Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport" />
+	</a>
+							</div>
+						
+		    				<div class="flex-caption">
+							<div class="excerpt">
+								<h2 class="post-title"><a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="nofollow" title="Link permanente para Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport</a></h2>
+																	<div class="meta">
+
+	<span class="meta-date">
+		21 de Janeiro de 2016 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/#comments" rel="bookmark" title="Coment&aacute;rios para Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">2 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="nofollow" title="Link permanente para Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">Mais</a>
+	</span>
+
+</div>																<p>Quem já passou uma noite ou muitas horas dentro de um aeroporto esperando um voo ou conexão sabe o quão desconfortável pode ser isso. Por isso é de se comemorar a inauguração de um novo hotel no Aeroporto de Guarulhos em São Paulo, o TRYP São Paulo Guarulhos Airport, considerado o primeiro lounge VIP com <a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" title="leia mais &laquo;Descanso merecido: Novo hotel no Aeroporto de Guarulhos - TRYP São Paulo Guarulhos Airport&raquo;" class="more-link">leia mais</a></p>
+								<p class="readmore"><a class="more-link" href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="nofollow" title="Link permanente para Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">continue lendo</a></p>
+							</div>
+						</div>
+	
+					</div>
+
+				</li>
+
+
+	    			<li id="narrow-feature-post-2" class="full-width">
+
+					<div class="slide-container clearfix">
+
+													<div class="feature-image"> 
+								<a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="bookmark" title="Link permanente para Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">		<img src="http://www.blogvambora.com.br/wp-content/uploads/2016/01/Destaque_BlogVambora_Escape-60-521x275.jpg" alt="Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil" title="Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil" />
+	</a>
+							</div>
+						
+		    				<div class="flex-caption">
+							<div class="excerpt">
+								<h2 class="post-title"><a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="nofollow" title="Link permanente para Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil</a></h2>
+																	<div class="meta">
+
+	<span class="meta-date">
+		18 de Janeiro de 2016 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/#comments" rel="bookmark" title="Coment&aacute;rios para Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">Comentar</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="nofollow" title="Link permanente para Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">Mais</a>
+	</span>
+
+</div>																<p>Um novo tipo de atração está se espalhando por grandes cidades pelo mundo: nada de museu, bar, restaurante ou parque de diversão, a ideia agora é desvendar enigmas! Essa é a proposta do Escape 60, uma rede de entretenimento que chegou em 2015 no Brasil. O conceito é simples: você junto com um grupo de <a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" title="leia mais &laquo;Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil&raquo;" class="more-link">leia mais</a></p>
+								<p class="readmore"><a class="more-link" href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="nofollow" title="Link permanente para Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">continue lendo</a></p>
+							</div>
+						</div>
+	
+					</div>
+
+				</li>
+
+
+	    			<li id="narrow-feature-post-3" class="full-width">
+
+					<div class="slide-container clearfix">
+
+													<div class="feature-image"> 
+								<a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="bookmark" title="Link permanente para Próxima viagem: Aniversário de 8 anos do Vambora!">		<img src="http://www.blogvambora.com.br/wp-content/uploads/2016/01/Destaque_BlogVambora_8-anos-521x275.jpg" alt="Próxima viagem: Aniversário de 8 anos do Vambora!" title="Próxima viagem: Aniversário de 8 anos do Vambora!" />
+	</a>
+							</div>
+						
+		    				<div class="flex-caption">
+							<div class="excerpt">
+								<h2 class="post-title"><a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="nofollow" title="Link permanente para Próxima viagem: Aniversário de 8 anos do Vambora!">Próxima viagem: Aniversário de 8 anos do Vambora!</a></h2>
+																	<div class="meta">
+
+	<span class="meta-date">
+		14 de Janeiro de 2016 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/#comments" rel="bookmark" title="Coment&aacute;rios para Próxima viagem: Aniversário de 8 anos do Vambora!">12 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="nofollow" title="Link permanente para Próxima viagem: Aniversário de 8 anos do Vambora!">Mais</a>
+	</span>
+
+</div>																<p>Hoje é dia de comemorar: é aniversário de 8 anos aqui do Vambora!!! E uau, 8 anos, é muito tempo! Relendo os últimos 7 posts de comemoração de aniversário do blog, fiquei pensando aqui no quanto o blog cresceu e amadureceu nesses anos, e a melhor parte: o quanto ele pode crescer e melhorar ainda <a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" title="leia mais &laquo;Próxima viagem: Aniversário de 8 anos do Vambora!&raquo;" class="more-link">leia mais</a></p>
+								<p class="readmore"><a class="more-link" href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="nofollow" title="Link permanente para Próxima viagem: Aniversário de 8 anos do Vambora!">continue lendo</a></p>
+							</div>
+						</div>
+	
+					</div>
+
+				</li>
+
+
+	    			<li id="narrow-feature-post-4" class="full-width">
+
+					<div class="slide-container clearfix">
+
+													<div class="feature-image"> 
+								<a href="http://www.blogvambora.com.br/restaurantes-internacionais-no-brasil/" rel="bookmark" title="Link permanente para Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil">		<img src="http://www.blogvambora.com.br/wp-content/uploads/2016/01/Destaque_BlogVambora_Restaurante-Internacionais-521x275.jpg" alt="Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil" title="Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil" />
+	</a>
+							</div>
+						
+		    				<div class="flex-caption">
+							<div class="excerpt">
+								<h2 class="post-title"><a href="http://www.blogvambora.com.br/restaurantes-internacionais-no-brasil/" rel="nofollow" title="Link permanente para Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil">Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil</a></h2>
+																	<div class="meta">
+
+	<span class="meta-date">
+		11 de Janeiro de 2016 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/restaurantes-internacionais-no-brasil/#comments" rel="bookmark" title="Coment&aacute;rios para Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil">4 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/restaurantes-internacionais-no-brasil/" rel="nofollow" title="Link permanente para Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil">Mais</a>
+	</span>
+
+</div>																<p>Cada vez mais comum no Brasil, redes de restaurantes internacionais desembarcaram de vez aqui nosso país. De hambúrgueres grifados, a chefes internacionais, passando por padarias e até marcas de sorvetes, essas redes internacionais que desejamos tanto lá fora fazem hoje em dia bastante sucesso por aqui. O motivo é simples: se as vezes não dá <a href="http://www.blogvambora.com.br/restaurantes-internacionais-no-brasil/" title="leia mais &laquo;Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil&raquo;" class="more-link">leia mais</a></p>
+								<p class="readmore"><a class="more-link" href="http://www.blogvambora.com.br/restaurantes-internacionais-no-brasil/" rel="nofollow" title="Link permanente para Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil">continue lendo</a></p>
+							</div>
+						</div>
+	
+					</div>
+
+				</li>
+
+
+	    			<li id="narrow-feature-post-5" class="full-width">
+
+					<div class="slide-container clearfix">
+
+													<div class="feature-image"> 
+								<a href="http://www.blogvambora.com.br/aplicativos-curiosos-viage/" rel="bookmark" title="Link permanente para Vivendo e aprendendo: 6 aplicativos curiosos de viagem">		<img src="http://www.blogvambora.com.br/wp-content/uploads/2015/12/Destaque_BlogVambora_Aplicativos-Curiosos-521x275.jpg" alt="Vivendo e aprendendo: 6 aplicativos curiosos de viagem" title="Vivendo e aprendendo: 6 aplicativos curiosos de viagem" />
+	</a>
+							</div>
+						
+		    				<div class="flex-caption">
+							<div class="excerpt">
+								<h2 class="post-title"><a href="http://www.blogvambora.com.br/aplicativos-curiosos-viage/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: 6 aplicativos curiosos de viagem">Vivendo e aprendendo: 6 aplicativos curiosos de viagem</a></h2>
+																	<div class="meta">
+
+	<span class="meta-date">
+		28 de Dezembro de 2015 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/aplicativos-curiosos-viage/#comments" rel="bookmark" title="Coment&aacute;rios para Vivendo e aprendendo: 6 aplicativos curiosos de viagem">4 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/aplicativos-curiosos-viage/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: 6 aplicativos curiosos de viagem">Mais</a>
+	</span>
+
+</div>																<p>Ah as férias, paz, descanso, tranquilidade&#8230;mas férias do celular a gente não consegue tirar não é mesmo? E entre tantos aplicativos que a gente pode ter no celular, na hora de viajar tem alguns essenciais para os turistas (que a gente inclusive já fez esse post aqui contanto), mas tem outros aplicativos curiosos, alguns bem <a href="http://www.blogvambora.com.br/aplicativos-curiosos-viage/" title="leia mais &laquo;Vivendo e aprendendo: 6 aplicativos curiosos de viagem&raquo;" class="more-link">leia mais</a></p>
+								<p class="readmore"><a class="more-link" href="http://www.blogvambora.com.br/aplicativos-curiosos-viage/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: 6 aplicativos curiosos de viagem">continue lendo</a></p>
+							</div>
+						</div>
+	
+					</div>
+
+				</li>
+
+
+			</ul>
+
+
+		</div>
+
+		<div class="controls-container clearfix">
+
+			<ul class="flexslide-custom-controls clearfix">
+
+
+				<li><a href="#" title="Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">1</a></li>
+
+
+				<li><a href="#" title="Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">2</a></li>
+
+
+				<li><a href="#" title="Próxima viagem: Aniversário de 8 anos do Vambora!">3</a></li>
+
+
+				<li><a href="#" title="Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil">4</a></li>
+
+
+				<li><a href="#" title="Vivendo e aprendendo: 6 aplicativos curiosos de viagem">5</a></li>
+
+
+			</ul>
+
+		</div>
+
+	</div>
+
+</div>			
+			
+			
+			<div id="content" class="clearfix">
+
+				
+											<div class="cats-by-2">
+
+											
+				<div class="cat-posts-stacked">
+
+					<h2 class="feat-title"><span>Posts recentes</span></h2>
+
+					<div class="post clearfix" id="post-main-31400">
+						<div class="entry clearfix">
+							<a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="bookmark" title="Permanent Link to Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2016/01/Destaque_BlogVambora_Tryp-Gru-Airport-150x150.jpg" alt="Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport" title="Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport" />
+	</a>
+							<h2 class="post-title"><a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="bookmark" title="Permanent Link to Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport</a></h2>
+														<p>Quem já passou uma noite ou muitas horas dentro de um aeroporto esperando um voo ou conexão sabe o quão desconfortável pode ser isso. Por isso é de se comemorar a inauguração de um novo hotel no Aeroporto de Guarulhos em São Paulo, o TRYP São Paulo Guarulhos Airport, considerado o primeiro lounge VIP com <a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" title="leia mais &laquo;Descanso merecido: Novo hotel no Aeroporto de Guarulhos - TRYP São Paulo Guarulhos Airport&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+							<div class="meta">
+
+	<span class="meta-date">
+		21 de Janeiro de 2016 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/#comments" rel="bookmark" title="Coment&aacute;rios para Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">2 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="nofollow" title="Link permanente para Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">Mais</a>
+	</span>
+
+</div>						</div>
+					</div>
+					<div class="post clearfix" id="post-main-31377">
+						<div class="entry clearfix">
+							<a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="bookmark" title="Permanent Link to Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2016/01/Destaque_BlogVambora_Escape-60-150x150.jpg" alt="Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil" title="Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil" />
+	</a>
+							<h2 class="post-title"><a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="bookmark" title="Permanent Link to Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil</a></h2>
+														<p>Um novo tipo de atração está se espalhando por grandes cidades pelo mundo: nada de museu, bar, restaurante ou parque de diversão, a ideia agora é desvendar enigmas! Essa é a proposta do Escape 60, uma rede de entretenimento que chegou em 2015 no Brasil. O conceito é simples: você junto com um grupo de <a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" title="leia mais &laquo;Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+							<div class="meta">
+
+	<span class="meta-date">
+		18 de Janeiro de 2016 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/#comments" rel="bookmark" title="Coment&aacute;rios para Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">Comentar</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="nofollow" title="Link permanente para Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">Mais</a>
+	</span>
+
+</div>						</div>
+					</div>
+					<div class="post clearfix" id="post-main-31348">
+						<div class="entry clearfix">
+							<a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="bookmark" title="Permanent Link to Próxima viagem: Aniversário de 8 anos do Vambora!">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2016/01/Destaque_BlogVambora_8-anos-150x150.jpg" alt="Próxima viagem: Aniversário de 8 anos do Vambora!" title="Próxima viagem: Aniversário de 8 anos do Vambora!" />
+	</a>
+							<h2 class="post-title"><a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="bookmark" title="Permanent Link to Próxima viagem: Aniversário de 8 anos do Vambora!">Próxima viagem: Aniversário de 8 anos do Vambora!</a></h2>
+														<p>Hoje é dia de comemorar: é aniversário de 8 anos aqui do Vambora!!! E uau, 8 anos, é muito tempo! Relendo os últimos 7 posts de comemoração de aniversário do blog, fiquei pensando aqui no quanto o blog cresceu e amadureceu nesses anos, e a melhor parte: o quanto ele pode crescer e melhorar ainda <a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" title="leia mais &laquo;Próxima viagem: Aniversário de 8 anos do Vambora!&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+							<div class="meta">
+
+	<span class="meta-date">
+		14 de Janeiro de 2016 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/#comments" rel="bookmark" title="Coment&aacute;rios para Próxima viagem: Aniversário de 8 anos do Vambora!">12 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="nofollow" title="Link permanente para Próxima viagem: Aniversário de 8 anos do Vambora!">Mais</a>
+	</span>
+
+</div>						</div>
+					</div>
+<div class="navigation clearfix">
+			<a href="http://www.blogvambora.com.br/page/2/" >Página Seguinte &raquo;</a>	</div>				</div>
+							
+			
+								
+				<div class="cat-posts-left">
+
+					<h2 class="feat-title"><span><a href="http://www.blogvambora.com.br/category/brasil/bahia/ilha-de-boipeba/">Bahia</a></span></h2>
+
+					<div class="post clearfix" id="post-1-7081">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/lugares-improvaveis-curtindo-a-noite-de-boipeba/" rel="bookmark" title="Permanent Link to Lugares improváveis: Curtindo a noite na Ilha de Boipeba">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2011/04/DSC01990.jpg" alt="Lugares improváveis: Curtindo a noite na Ilha de Boipeba" title="Lugares improváveis: Curtindo a noite na Ilha de Boipeba" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/lugares-improvaveis-curtindo-a-noite-de-boipeba/" rel="bookmark" title="Permanent Link to Lugares improváveis: Curtindo a noite na Ilha de Boipeba">Lugares improváveis: Curtindo a noite na Ilha de Boipeba</a></h3>
+														<p>Sim, isso é possível! Depois de ter passado pela badalação e farta opção de lugares em Salvador e Morro (veja aqui o post), a vida diurna e principalmente noturna de Boipeba, foi uma surpresa, no melhor dos sentidos. Sabia que lá era um lugar pequeno, com poucas opções, mas no fim, achei que a ilha <a href="http://www.blogvambora.com.br/lugares-improvaveis-curtindo-a-noite-de-boipeba/" title="leia mais &laquo;Lugares improváveis: Curtindo a noite na Ilha de Boipeba&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		24 de Abril de 2011 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/lugares-improvaveis-curtindo-a-noite-de-boipeba/#comments" rel="bookmark" title="Coment&aacute;rios para Lugares improváveis: Curtindo a noite na Ilha de Boipeba">3 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/lugares-improvaveis-curtindo-a-noite-de-boipeba/" rel="nofollow" title="Link permanente para Lugares improváveis: Curtindo a noite na Ilha de Boipeba">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-1-6990">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/descanso-merecido-onde-ficar-em-boipeba/" rel="bookmark" title="Permanent Link to Descanso merecido: Onde ficar em Boipeba">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2011/04/1_vila_sereia2-1024x682.jpg" alt="Descanso merecido: Onde ficar em Boipeba" title="Descanso merecido: Onde ficar em Boipeba" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/descanso-merecido-onde-ficar-em-boipeba/" rel="bookmark" title="Permanent Link to Descanso merecido: Onde ficar em Boipeba">Descanso merecido: Onde ficar em Boipeba</a></h3>
+														<p>Ao contrário de Morro de São Paulo, que tem algumas centenas de opções de hotéis e pousadas, é um pouco mais difícil decidir onde ficar em Boipeba, já que não existem tantas opções assim de pousadas na ilha. Aliás, a maioria, são pousadas que seguem ou um estilo simples, ou rústico ou rústico chique! Nomeie como você <a href="http://www.blogvambora.com.br/descanso-merecido-onde-ficar-em-boipeba/" title="leia mais &laquo;Descanso merecido: Onde ficar em Boipeba&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		13 de Abril de 2011 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/descanso-merecido-onde-ficar-em-boipeba/#comments" rel="bookmark" title="Coment&aacute;rios para Descanso merecido: Onde ficar em Boipeba">5 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/descanso-merecido-onde-ficar-em-boipeba/" rel="nofollow" title="Link permanente para Descanso merecido: Onde ficar em Boipeba">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-1-6901">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/relato-de-viagem-boipeba-as-praias-parte-2/" rel="bookmark" title="Permanent Link to Relato de Viagem: Ilha de Boipeba, as PRAIAS &#8211; parte 2">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2011/04/050111_0086.jpg" alt="Relato de Viagem: Ilha de Boipeba, as PRAIAS &#8211; parte 2" title="Relato de Viagem: Ilha de Boipeba, as PRAIAS &#8211; parte 2" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/relato-de-viagem-boipeba-as-praias-parte-2/" rel="bookmark" title="Permanent Link to Relato de Viagem: Ilha de Boipeba, as PRAIAS &#8211; parte 2">Relato de Viagem: Ilha de Boipeba, as PRAIAS &#8211; parte 2</a></h3>
+														<p>Chegar nas praias mais bonitas e afastadas da Ilha de Boipeba não é fácil. A maneira mais rápida de ir para Moreré e Bainema é pegando uns dos “tratores” (que na verdade são jardineiras/ônibus dirigidas por tratores) que ficam no bairro de Tiririca (uns 10 minutos da praça central da ilha). A coisa chata de pegar os <a href="http://www.blogvambora.com.br/relato-de-viagem-boipeba-as-praias-parte-2/" title="leia mais &laquo;Relato de Viagem: Ilha de Boipeba, as PRAIAS - parte 2&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		6 de Abril de 2011 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/relato-de-viagem-boipeba-as-praias-parte-2/#comments" rel="bookmark" title="Coment&aacute;rios para Relato de Viagem: Ilha de Boipeba, as PRAIAS &#8211; parte 2">6 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/relato-de-viagem-boipeba-as-praias-parte-2/" rel="nofollow" title="Link permanente para Relato de Viagem: Ilha de Boipeba, as PRAIAS &#8211; parte 2">Mais</a>
+	</span>
+
+</div>					</div>
+				</div>
+				
+
+
+
+										
+				<div class="cat-posts-right">
+
+					<h2 class="feat-title"><span><a href="http://www.blogvambora.com.br/category/brasil/sp/ilhabela-sp/">Ilhabela</a></span></h2>
+
+					<div class="post clearfix" id="post-2-24237">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/o-que-fazer-em-ilhabela-dia-noite/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2014/02/PraiadoSino_BlogVambora-150x150.jpg" alt="Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite" title="Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/o-que-fazer-em-ilhabela-dia-noite/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite">Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite</a></h3>
+														<p>Pode parecer óbvio, mas as dicas de o que fazer em Ilhabela não ficam só em “ir para a praia”. Um dos grandes segredos e atrativos da ilha é exatamente a grande variedade de programas e passeios que é claro, incluem muita praia, mas também cachoeiras, clubes, festas, bares e restaurantes legais. Dessa forma, seja <a href="http://www.blogvambora.com.br/o-que-fazer-em-ilhabela-dia-noite/" title="leia mais &laquo;Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		26 de Fevereiro de 2014 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/o-que-fazer-em-ilhabela-dia-noite/#comments" rel="bookmark" title="Coment&aacute;rios para Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite">69 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/o-que-fazer-em-ilhabela-dia-noite/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-2-24195">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/como-chegar-hoteis-pousadas-em-ilhabela/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2014/02/PousadaRecantodaVilla_Ilhabela-150x150.jpg" alt="Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar" title="Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/como-chegar-hoteis-pousadas-em-ilhabela/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar">Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar</a></h3>
+														<p>Já deu para ver nesses últimos posts (veja aqui), que Ilhabela, no litoral de São Paulo, é um destino cheio de surpresas e belezas únicas, que não só paulistanos deveriam conhecer. Embora ainda sejam a maioria, há muitos estrangeiros e cada vez mais pessoas de outros estados descobrindo o destino. Seja da onde você for, <a href="http://www.blogvambora.com.br/como-chegar-hoteis-pousadas-em-ilhabela/" title="leia mais &laquo;Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		19 de Fevereiro de 2014 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/como-chegar-hoteis-pousadas-em-ilhabela/#comments" rel="bookmark" title="Coment&aacute;rios para Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar">8 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/como-chegar-hoteis-pousadas-em-ilhabela/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: Hotéis e Pousadas em Ilhabela para se hospedar e como chegar">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-2-24165">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/day-card-dpny-beach-hotel-ilhabela/" rel="bookmark" title="Permanent Link to Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2014/02/RestauranteTroiaDPNY-150x150.jpg" alt="Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela" title="Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/day-card-dpny-beach-hotel-ilhabela/" rel="bookmark" title="Permanent Link to Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela">Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela</a></h3>
+														<p>Existem hotéis e hotéis numa viagem: tem aqueles que a gente vai só para dormir no final do dia e outros que você quer passar o dia inteiro. Esse segundo exemplo, é exatamente o caso do DPNY Beach Hotel em Ilhabela. Recomendado e premiado por grandes referências do turismo mundial, como é o caso da <a href="http://www.blogvambora.com.br/day-card-dpny-beach-hotel-ilhabela/" title="leia mais &laquo;Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		16 de Fevereiro de 2014 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/day-card-dpny-beach-hotel-ilhabela/#comments" rel="bookmark" title="Coment&aacute;rios para Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela">3 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/day-card-dpny-beach-hotel-ilhabela/" rel="nofollow" title="Link permanente para Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela">Mais</a>
+	</span>
+
+</div>					</div>
+				</div>
+								<div style="clear:both;"></div>
+
+
+
+
+								
+				<div class="cat-posts-left">
+
+					<h2 class="feat-title"><span><a href="http://www.blogvambora.com.br/category/uruguai/">Uruguai</a></span></h2>
+
+					<div class="post clearfix" id="post-3-8371">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-coisas-do-uruguai-dicas-e-curiosidades-de-viagem/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2011/08/3421987432_2148db0729_Ostrosky-Photos.jpg" alt="Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem" title="Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-coisas-do-uruguai-dicas-e-curiosidades-de-viagem/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem">Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem</a></h3>
+														<p>Algumas curiosidades e dicas de viagem que você deve saber se está com vontade ou vai fazer uma viagem ao Uruguai: - No verão as cidades parecem um forno! Muito calor, sendo que pegar uma “praia” no rio da Prata é quase uma necessidade. No inverno, adivinha? Muito frio, MESMO! O vento que salva o verão no <a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-coisas-do-uruguai-dicas-e-curiosidades-de-viagem/" title="leia mais &laquo;Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		23 de Agosto de 2011 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-coisas-do-uruguai-dicas-e-curiosidades-de-viagem/#comments" rel="bookmark" title="Coment&aacute;rios para Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem">34 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-coisas-do-uruguai-dicas-e-curiosidades-de-viagem/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: Coisas do Uruguai – Dicas e curiosidades de viagem">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-3-8303">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/relato-de-viagem-bate-e-volta-a-punta-del-este/" rel="bookmark" title="Permanent Link to Relato de viagem: Bate-e-volta à Punta Del Este">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2011/08/1_praia_punta2.jpg" alt="Relato de viagem: Bate-e-volta à Punta Del Este" title="Relato de viagem: Bate-e-volta à Punta Del Este" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/relato-de-viagem-bate-e-volta-a-punta-del-este/" rel="bookmark" title="Permanent Link to Relato de viagem: Bate-e-volta à Punta Del Este">Relato de viagem: Bate-e-volta à Punta Del Este</a></h3>
+														<p>Em pleno começo de inverno o conselho era unânime: não vá para Punta Del Este&#8230;. Tudo estaria fechado e seria sem graça. Mas o sol e céu azul daquela manhã era quase um chamado para ir à praia, mesmo no inverno. Vambora então fazer um bate e volta para Punta Del Este!!! A cerca de <a href="http://www.blogvambora.com.br/relato-de-viagem-bate-e-volta-a-punta-del-este/" title="leia mais &laquo;Relato de viagem: Bate-e-volta à Punta Del Este&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		16 de Agosto de 2011 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/relato-de-viagem-bate-e-volta-a-punta-del-este/#comments" rel="bookmark" title="Coment&aacute;rios para Relato de viagem: Bate-e-volta à Punta Del Este">15 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/relato-de-viagem-bate-e-volta-a-punta-del-este/" rel="nofollow" title="Link permanente para Relato de viagem: Bate-e-volta à Punta Del Este">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-3-8203">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-dicas-de-montevideu-onde-ficar-comer-e-dicas-de-viagem/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2011/08/250611_1429.jpg" alt="Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular" title="Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-dicas-de-montevideu-onde-ficar-comer-e-dicas-de-viagem/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular">Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular</a></h3>
+														<p>Algumas coisas que você deve saber se está com vontade ou vai fazer uma viagem para Montevidéu no Uruguai: &#8211; O aeroporto de Carrasco em Montevidéu é impressionante!!! Me deixa com MUITA, mas muita vergonha dos nossos aqui no Brasil. Grande, moderno e atenção mulheres: com um freeshop incrível!!! Muita variedade é ótimos preços! Vale <a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-dicas-de-montevideu-onde-ficar-comer-e-dicas-de-viagem/" title="leia mais &laquo;Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		5 de Agosto de 2011 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-dicas-de-montevideu-onde-ficar-comer-e-dicas-de-viagem/#comments" rel="bookmark" title="Coment&aacute;rios para Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular">74 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/vivendo-e-aprendendo-dicas-de-montevideu-onde-ficar-comer-e-dicas-de-viagem/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: Montevidéu – Dicas de onde ficar, comer e como circular">Mais</a>
+	</span>
+
+</div>					</div>
+				</div>
+				
+
+
+
+								
+				<div class="cat-posts-right">
+
+					<h2 class="feat-title"><span><a href="http://www.blogvambora.com.br/category/eua/nova-york/">Nova York</a></span></h2>
+
+					<div class="post clearfix" id="post-4-29895">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/ingressos-ticketbar/" rel="bookmark" title="Permanent Link to Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2015/06/Destaque_BlogVambora_Ticketbar-150x150.jpg" alt="Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!" title="Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/ingressos-ticketbar/" rel="bookmark" title="Permanent Link to Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!">Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!</a></h3>
+														<p>Tem uma novidade bem legal aqui no Vambora!: estamos com uma nova parceria com a empresa de tickets de ingressos e passeios Ticketbar! Para quem não conhece ainda, a Ticketbar é uma empresa de origem holandesa que vende ingressos online de passeios e atrações de diversas cidades do mundo, tudo para facilitar a vida do viajante <a href="http://www.blogvambora.com.br/ingressos-ticketbar/" title="leia mais &laquo;Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		22 de Junho de 2015 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/ingressos-ticketbar/#comments" rel="bookmark" title="Coment&aacute;rios para Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!">4 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/ingressos-ticketbar/" rel="nofollow" title="Link permanente para Próxima viagem: Nova parceria com a empresa de ingressos Ticketbar!">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-4-29621">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/one-world-observatory-ny/" rel="bookmark" title="Permanent Link to Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2015/05/Destaque_One-World-Observatory-NY-150x150.jpg" alt="Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto" title="Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/one-world-observatory-ny/" rel="bookmark" title="Permanent Link to Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto">Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto</a></h3>
+														<p>Abre no dia 29 de Maio o One World Observatory, o novo lugar para se ter uma visão incrível de Nova York do alto! O mirante, localizado nos andares 100, 101 e 102 do One World Trade Center (o novo edifício construído nas proximidades do antigo World Trade Center), tem vistas panorâmicas únicas de Nova <a href="http://www.blogvambora.com.br/one-world-observatory-ny/" title="leia mais &laquo;Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		12 de Maio de 2015 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/one-world-observatory-ny/#comments" rel="bookmark" title="Coment&aacute;rios para Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto">Comentar</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/one-world-observatory-ny/" rel="nofollow" title="Link permanente para Próxima viagem: One World Observatory, o novo lugar para ver Nova York do alto">Mais</a>
+	</span>
+
+</div>					</div>
+					<div class="post clearfix" id="post-4-29353">
+						<div class="entry">
+							<a href="http://www.blogvambora.com.br/farmacia-nos-estados-unidos-nova-york/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!">		<img class="thumbnail" src="http://www.blogvambora.com.br/wp-content/uploads/2015/03/Destaque_BlogVambora_FarmaciaEua-150x150.jpg" alt="Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!" title="Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!" />
+	</a>
+							<h3 class="post-title"><a href="http://www.blogvambora.com.br/farmacia-nos-estados-unidos-nova-york/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!">Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!</a></h3>
+														<p>Ir numa farmácia nos Estados Unidos, especialmente em Nova York, é quase uma parada obrigatória para o turista que vai na cidade. Seja para comprar apenas uma água, até os últimos lançamentos de maquiagem, e de vez em quando, até mesmo um remédio, as farmácias no Estados Unidos são praticamente um mix de supermercado/drogaria/perfumaria, tudo <a href="http://www.blogvambora.com.br/farmacia-nos-estados-unidos-nova-york/" title="leia mais &laquo;Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!&raquo;" class="more-link">leia mais</a></p>
+														<div style="clear:both;"></div>
+						</div>
+						<div class="meta">
+
+	<span class="meta-date">
+		24 de Março de 2015 | 
+	</span> 
+
+	<span class="meta-author">
+		Por <a href="http://www.blogvambora.com.br/author/guta-cunha/" title="Artigos de Guta C." rel="author">Guta C.</a>	</span>
+
+		<span class="meta-comments">
+		 | <a href="http://www.blogvambora.com.br/farmacia-nos-estados-unidos-nova-york/#comments" rel="bookmark" title="Coment&aacute;rios para Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!">7 Coment&aacute;rios</a>
+	</span>
+	
+	<span class="readmore">
+		<a href="http://www.blogvambora.com.br/farmacia-nos-estados-unidos-nova-york/" rel="nofollow" title="Link permanente para Vivendo e aprendendo: Farmácia nos Estados Unidos e em Nova York – Escolha a sua!">Mais</a>
+	</span>
+
+</div>					</div>
+				</div>
+								<div style="clear:both;"></div>
+
+
+
+
+
+								
+
+
+
+												<div style="clear:both;"></div>
+
+
+
+
+			</div>
+				
+			</div>
+
+			
+		</div>
+
+
+		<div id="contentright">
+
+			<div id="sidebar" class="clearfix">
+            <div id="mapavambora"><!--<a href="http://blogvambora.hospedagemdesites.ws/?page_id=14495"><img src="http://blogvambora.hospedagemdesites.ws/anuncie/mapa.jpg" / ></a>-->
+            <div id="flashContent">
+				                <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" width="318" height="303" id="mapa" align="middle">
+				<param name="movie" value="mapa.swf" />
+				<param name="quality" value="high" />
+				<param name="bgcolor" value="#ffffff" />
+				<param name="play" value="true" />
+				<param name="loop" value="false" />
+				<param name="wmode" value="window" />
+				<param name="scale" value="showall" />
+				<param name="menu" value="false" />
+				<param name="devicefont" value="false" />
+				<param name="salign" value="" />
+				<param name="allowScriptAccess" value="sameDomain" />
+				<!--[if !IE]>-->
+				<object type="application/x-shockwave-flash" data="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/mapa.swf" width="318" height="303">
+					<param name="movie" value="mapa.swf" />
+					<param name="quality" value="high" />
+					<param name="bgcolor" value="#ffffff" />
+					<param name="play" value="true" />
+					<param name="loop" value="false" />
+					<param name="wmode" value="window" />
+					<param name="scale" value="showall" />
+					<param name="menu" value="false" />
+					<param name="devicefont" value="false" />
+					<param name="salign" value="" />
+					<param name="allowScriptAccess" value="sameDomain" />
+				<!--<![endif]-->
+					<a href="http://www.adobe.com/go/getflash">
+						<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+					</a>
+				<!--[if !IE]>-->
+				</object>
+				<!--<![endif]-->
+			</object>
+			</div>
+            <div id="formmapavambora"><form id="searchform" method="get" action="http://www.blogvambora.com.br/" ><input type="text" value="procurar por..." onfocus="if (this.value == 'procurar por...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'procurar por...';}" size="18" maxlength="50" name="s" id="searchfield" /><input type="submit" value="procurar" id="submitbutton" /></form>
+</div>
+            </div>
+            
+				<div id="banner300-widget-7" class="widget banner300"><div class="widget-wrap"><a href="https://www.travelmobile.biz/pt-BR?refcode=BLG6HT5F4H " target="_blank"><img class="aligncenter size-full wp-image-31204" alt="Travel Mobile" src="http://www.blogvambora.com.br/wp-content/uploads/2015/12/Travel-Mobile_300x250_BR.png" width="300" height="250" /></a></div></div><div id="text-3" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget">			<div id="searchboxInc">
+			<form id="frm" name="frm" action="http://www.booking.com/searchresults.html" method="get" target="_blank">
+			<fieldset>
+			<div id="destinationSearch">
+			<input type="hidden" name="aid" value="335298" />
+			<input type="hidden" name="error_url" value="http://www.booking.com/?aid=335298;" />
+			<input type="hidden" name="si" value="ai,co,ci,re,di" />
+			<input type="hidden" name="label" value="" />
+			<input type="hidden" name="lang" value="pt-br" />
+			<input type="hidden" name="ifl" value="" />
+			<p>Pesquisar Hot&eacute;is</p>
+			<label for="destination">Destino</label>
+			<input 
+			class="text" type="text" id="destination" name="ss" value="Cidade, Regi&atilde;o, Pa&iacute;s, Ponto de refer&ecirc;ncia, Hotel, Bairro" title="Cidade, Regi&atilde;o, Pa&iacute;s, Ponto de refer&ecirc;ncia, Hotel, Bairro" />
+			</div>
+			<div id="inout">
+			<div id="homein">
+			<h3>Data de check-in</h3>
+			<select id="b_checkin_day" name="checkin_monthday" onchange="checkDateOrder('frm', 'b_checkin_day', 'b_checkin_month', 'b_checkout_day', 'b_checkout_month') ; tickCheckBox('b_availcheck');">
+			<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
+			</select>
+			<select id="b_checkin_month" name="checkin_year_month" onchange="checkDateOrder('frm', 'b_checkin_day', 'b_checkin_month', 'b_checkout_day', 'b_checkout_month') ; tickCheckBox('b_availcheck');">
+			<script language="Javascript"> 
+			var monthArray=new Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+			var today = new Date();
+			var month= today.getMonth();
+			var year = today.getFullYear()%100;
+			var fullYear=today.getFullYear();
+			year=new String(year);
+			year=addzero(year);
+			var countMonth=month;
+			for(var i=0;i<12;i++,countMonth++){
+			if(countMonth%12==0 && i>0){
+			countMonth=0;
+			year++;
+			year=new String(year);
+			year=addzero(year);
+			fullYear++;
+			}
+			document.writeln("<option value=\""+fullYear+"-"+(countMonth+1)+"\">"+monthArray[countMonth]+" '"+year);
+			}
+			</script>
+			</select>
+			</div>
+			<div id="homeout">
+			<h3>Data de check-out</h3>
+			<select id="b_checkout_day" name="checkout_monthday" onchange="tickCheckBox('b_availcheck');">
+			<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option><option value="11">11</option><option value="12">12</option><option value="13">13</option><option value="14">14</option><option value="15">15</option><option value="16">16</option><option value="17">17</option><option value="18">18</option><option value="19">19</option><option value="20">20</option><option value="21">21</option><option value="22">22</option><option value="23">23</option><option value="24">24</option><option value="25">25</option><option value="26">26</option><option value="27">27</option><option value="28">28</option><option value="29">29</option><option value="30">30</option><option value="31">31</option>
+			</select>
+			<select id="b_checkout_month" name="checkout_year_month" onchange="tickCheckBox('b_availcheck');">
+			<script language="Javascript">
+			var monthArray=new Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro");
+			var today = new Date();
+			var month= today.getMonth();
+			var year = today.getFullYear()%100;
+			var fullYear=today.getFullYear();
+			year=new String(year);
+			year=addzero(year);
+			var countMonth=month;
+			for(var i=0;i<12;i++,countMonth++){
+			if(countMonth%12==0 && i>0){
+			countMonth=0;
+			year++;
+			year=new String(year);
+			year=addzero(year);
+			fullYear++;
+			}
+			document.writeln("<option value=\""+fullYear+"-"+(countMonth+1)+"\">"+monthArray[countMonth]+" '"+year);
+			}
+			</script>
+			</select>
+			</div>
+			<div class="avail">
+			<input id="availcheck" type="checkbox" name="idf" value="on" />
+			<label id="labfor" for="availcheck">
+			Ainda não sei as datas específicas da minha estadia
+			</label>
+			</div>
+			</div>
+			<div class="but">
+			<button type="submit">Pesquisar</button>
+			</div>
+			</fieldset>
+			</form>
+			<script language="Javascript">
+			var currentDate = new Date(); var currentYear = 1900 + currentDate.getYear();
+			var dailyMS = 24*60*60*1000;
+			var arrivalDate = new Date(currentDate.getTime());
+			var departureDate = new Date(currentDate.getTime() + 1*dailyMS);
+			var arrivalYear = 1900+arrivalDate.getYear();
+			var arrivalMonth = 1+arrivalDate.getMonth(); var arrivalDay = arrivalDate.getDate();
+			var departureYear = 1900+departureDate.getYear();
+			var departureMonth = 1+departureDate.getMonth(); var departureDay = departureDate.getDate();
+			var a=document.frm;
+			if ((a.checkin_monthday.selectedIndex == 0) && (a.checkout_monthday.selectedIndex == 0)){
+			a.checkin_monthday.options[arrivalDay-1].selected = true;
+			a.checkout_monthday.options[departureDay-1].selected = true;
+			}
+			var frm = document.getElementById('frm');
+			// create date object from checkin values
+			// set date to 12:00 to avoid problems with one
+			// date being wintertime and the other summertime
+			var my = frm['b_checkin_month'].value.split("-");
+			var ci = new Date (my[0], my[1]-1, frm['b_checkin_day'].value, 12, 0, 0, 0);
+			// create date object from checkout values
+			my = frm['b_checkout_month'].value.split("-");
+			var co = new Date (my[0], my[1]-1, frm['b_checkout_day'].value, 12, 0, 0, 0);
+			if (ci >= co){
+			co.setTime(ci.getTime() + 1000 * 60 * 60 * 24);
+			frm['b_checkout_day'].value = co.getDate();
+			var com = co.getMonth()+1;
+			frm['b_checkout_month'].value = co.getFullYear() + "-" + com;
+			}
+			</script>
+			</div>
+			<div id="calendar"></div>
+			<script type="text/javascript">
+			Date.MILLISECONDS_PER_DAY = Date.prototype.MILLISECONDS_PER_DAY = 86400000;
+			var browser = navigator.appName
+			var version = navigator.appVersion
+			var startstring = parseFloat(version.indexOf("MSIE"))+1
+			var browserverion = parseFloat(version.substring(startstring+4,startstring+7))
+			var isIE5 = ((browser=="Microsoft Internet Explorer") && (browserverion < 6))? true : false;
+			var isIE6 = ((browser=="Microsoft Internet Explorer") && (browserverion > 5.5) && (browserverion < 6))? true : false;
+			// Put placeholder in destination input box if empty, and remove when focused
+			var destination = document.getElementById('destination');
+			destination.onblur = function () {
+			if (!this.value) {
+			this.value = this.getAttribute('title');
+			this.className += ' blur';
+			}
+			}
+			destination.onfocus = function () {
+			if (this.value == this.getAttribute('title')) {
+			this.value = '';
+			this.className = this.className.replace(/ blur/, '');
+			}
+			}
+			destination.onblur();
+			function tickCheckBox(el) {
+			if (document.getElementById) {
+			if (document.getElementById(el)) {
+			document.getElementById(el).checked = false;
+			}
+			}
+			return true;
+			}
+			Date.prototype.getTwoDigitMonth = function () {
+			// Returns a two-digit string from '01' to '12' representing the month property of a Date object.
+			var month = (this.getMonth() + 1).toFixed().toString();
+			if (month.length == 1) {
+			month = '0' + month;
+			}
+			return month;
+			};
+			function checkDateOrder(me, ci_day, ci_month_year, co_day, co_month_year) {
+			var
+			frm = document.getElementById('frm'),
+			my,
+			ci = new Date( 0 ),
+			co = new Date( 0 ),
+			com,
+			today = new Date();
+			// create date object from checkin values
+			// set date to 12:00 to avoid problems with one
+			// date being wintertime and the other summertime
+			if ( frm[ci_day].value !== '0' )
+			{
+			ci.setDate( frm[ci_day].value );
+			}
+			if ( frm[ci_month_year].value !== '0' )
+			{
+			my = frm[ci_month_year].value.split( "-" );
+			ci.setFullYear( my[0] );
+			ci.setMonth( my[1] - 1 );
+			}
+			ci.setHours( 12 );
+			ci.setMinutes( 0 );
+			ci.setSeconds( 0 );
+			// create date object from checkout values
+			if ( frm[co_day].value !== '0' )
+			{
+			co.setDate( frm[co_day].value );
+			}
+			if ( frm[co_month_year].value !== '0' )
+			{
+			my = frm[co_month_year].value.split( "-" );
+			co.setFullYear( my[0] );
+			co.setMonth( my[1] - 1 );
+			}
+			co.setHours( 12 );
+			co.setMinutes( 0 );
+			co.setSeconds( 0 );
+			// If the new checkin date's month does not match
+			// the current value of the dropdown, then it is
+			// because the month was incremented creating an
+			// invalid date (e.g. February 31st).
+			// We'll cycle back the checkin date until we're in
+			// the correct month.
+			if ( frm[ci_month_year].value !== '0' )
+			{
+			while ( ci.getMonth() != frm[ci_month_year].value.split( "-" )[1] - 1 )
+			{
+			ci.setDate( ci.getDate() - 1 );
+			frm[ci_day].value = ci.getDate();
+			}
+			var cim = ci.getMonth() + 1;
+			frm[ci_month_year].value = ci.getFullYear() + "-" + cim;
+			}
+			// if checkin date is at or after checkout date,
+			// add a day full of milliseconds, and set the
+			// selectbox values for checkout date to new value
+			if ( ci >= co )
+			{
+			co.setTime( ci.getTime() + Date.prototype.MILLISECONDS_PER_DAY );
+			com = co.getMonth() + 1;
+			if ( frm[ci_day].value !== '0' )
+			{
+			frm[co_day].value = co.getDate();
+			}
+			if ( frm[ci_month_year].value !== '0' )
+			{
+			frm[co_month_year].value = co.getFullYear() + "-" + com;
+			}
+			}
+			}
+			function updateDaySelect( me )
+			{
+			// 1-2 testing
+			if ( !booking.env.b_simple_weekdays_for_js )
+			{
+			return;
+			}
+			var frm = document.getElementById('frm');
+			if ( frm.getAttribute( 'id' ) !== 'frm' && frm.className !== 'availForm' )
+			{
+			return;
+			}
+			// Check if we have all fields. If not, we are in the first stage
+			// of the book process and should not auto-update selects since there
+			// is only the check-in select and the amount of nights.
+			if ( !frm.checkin_monthday || !frm.checkout_monthday || !frm.checkin_year_month || !frm.checkout_year_month )
+			{
+			return;
+			}
+			if ( frm.checkin_monthday.value === '0' && frm.checkout_monthday.value === '0' && frm.checkin_year_month.value === '0' && frm.checkout_year_month.value === '0' )
+			{
+			return;
+			}
+			// If the year-month fields have nonzero values, prepend the day of the week to each monthday in the check-in and check-out monthday Selects.
+			var
+			ci_d = frm.checkin_monthday,
+			co_d = frm.checkout_monthday,
+			ci_my,
+			co_my,
+			todaysDate;
+			// If the form field has a nonzero value, use it;
+			if ( frm.checkin_year_month.value !== '0' )
+			{
+			ci_my = frm.checkin_year_month.value.split( "-" );
+			}
+			else
+			{
+			// Use the current date value.
+			todaysDate = new Date();
+			ci_my = [ todaysDate.getFullYear(), todaysDate.getTwoDigitMonth() ];
+			}
+			if ( frm.checkout_year_month.value !== '0' )
+			{
+			co_my = frm.checkout_year_month.value.split( "-" );
+			}
+			else
+			{
+			todaysDate = new Date();
+			co_my = [ todaysDate.getFullYear(), todaysDate.getTwoDigitMonth() ];
+			}
+			var
+			ci_sel = Math.max( ci_d.selectedIndex, 0 ),
+			co_sel = Math.max( co_d.selectedIndex, 0 ),
+			ci_sel_value = ci_d[ ci_sel ].value,
+			co_sel_value = co_d[ co_sel ].value,
+			monthDays = [],
+			opt,
+			i;
+			ci_d.innerHTML = '';
+			co_d.innerHTML = '';
+			var MonthdayPromptOption = function ()
+			{
+			this.option = {
+			"_this" : this,
+			"@selected" : "selected",
+			"@class" : "day prompt site_experiment_encourage_date_entry_2",
+			"@value" : 0,
+			"#text" : "dia"
+			};
+			};
+			if ( ci_sel_value === '0' )
+			{
+			buildHtmlNode( new MonthdayPromptOption(), ci_d ).selected = true;
+			}
+			if ( co_sel_value === '0' )
+			{
+			buildHtmlNode( new MonthdayPromptOption(), co_d ).selected = true;
+			}
+			function writeMonthdaysOptions( numberOfMonthdaysToShow, yearMonthSelectElement, monthDaysArray, monthDaysSelectElement, monthDaySelectValue )
+			{
+			var i, optionElementInnerHTML, optionElement;
+			for ( i = 0; i < numberOfMonthdaysToShow; i++ )
+			{
+			optionElement = document.createElement( 'option' );
+			optionElementInnerHTML = i + 1;
+			if ( yearMonthSelectElement.value !== '0' )
+			{
+			optionElementInnerHTML = monthDaysArray[i] + ' ' + optionElementInnerHTML;
+			}
+			optionElement.innerHTML = optionElementInnerHTML;
+			optionElement.value = ( i + 1 );
+			if ( i > 0 && monthDaySelectValue == i + 1 )
+			{
+			optionElement.defaultSelected = optionElement.selected = true;
+			}
+			monthDaysSelectElement.appendChild( optionElement );
+			}
+			}
+			// Check-in month
+			monthDays = buildDaysForMonth( ci_my[0], ci_my[1] );
+			var numberOfMonthdaysToShow = 31;
+			if ( frm.checkin_year_month.value !== '0' )
+			{
+			numberOfMonthdaysToShow = monthDays.length;
+			}
+			writeMonthdaysOptions( numberOfMonthdaysToShow, frm.checkin_year_month, monthDays, ci_d, ci_sel_value );
+			// Checkout month
+			monthDays = buildDaysForMonth( co_my[0], co_my[1] );
+			numberOfMonthdaysToShow = 31;
+			if ( frm.checkout_year_month.value !== '0' )
+			{
+			numberOfMonthdaysToShow = monthDays.length;
+			}
+			writeMonthdaysOptions( numberOfMonthdaysToShow, frm.checkout_year_month, monthDays, co_d, co_sel_value );
+			// IE 6 exhibits a bug whereby the value of the monthday select always jumps to zero.
+			if (isIE6) {
+			ci_d.value = ci_sel_value;
+			co_d.value = co_sel_value;
+			}
+			}
+			function buildDaysForMonth( year, month )
+			{
+			// Month index starts on 0(-11) in Date()-object
+			var monthDate = new Date( year, month - 1 );
+			var orgMonth = monthDate.getMonth();
+			var dayArray = [], weekDay;
+			while ( monthDate.getMonth() == orgMonth )
+			{
+			// Week starts on Sunday in Date()-object
+			weekDay = ( monthDate.getDay() == 0 ) ? 6 : ( monthDate.getDay() - 1 );
+			dayArray.push( booking.env.b_simple_weekdays_for_js[weekDay] );
+			monthDate.setDate( monthDate.getDate() + 1 );
+			}
+			return dayArray;
+			}
+			function buildHtmlNode (elementsObject, targetNode, refChild)
+			{
+			/*
+			Accepts an object of elements where the key specifies the tagname unless prefixed by @, in which case it specifies an attribute of the parent, or when it is #cdata, in which case it specifies a CDATA child.
+			http://xml.com/pub/a/2006/05/31/converting-between-xml-and-json.html
+			The big flaw now is the case <a><b/><c/><b/><a/>, which cannot be represented as a JS object. In that case interject an array of generic div or span elements.
+			*/
+			// If we want to validate as JSON, we must make sure what we pass in is JSON, which it presently isnot.
+			//elementsObject = booking.json.validate(elementsObject);
+			var
+			key,
+			counter,
+			found,
+			newElement,
+			newNode;
+			for (key in elementsObject)
+			{
+			if (elementsObject.hasOwnProperty(key))
+			{
+			var
+			prefix = key.substring(0, 1),
+			primaryKey = key.substring(1);
+			if (prefix != '_') // We??e on a non-DOM key, so skip.
+			{
+			if (prefix == '@') // Attribute
+			{
+			if (!targetNode.getAttribute(primaryKey))
+			{
+			// Perhaps extend this in the future to support multiple class values.
+			targetNode.setAttribute(primaryKey, elementsObject[key]);
+			}
+			}
+			else
+			{
+			if (prefix == '#') // Text or CDATA
+			{
+			if (primaryKey == 'text') // Text
+			{
+			found = false;
+			if (targetNode.childNodes && targetNode.childNodes.length > 0)
+			{
+			// Traverse text node children and append only if it isn?? already there.
+			counter = 0;
+			while (counter < targetNode.childNodes.length && !found)
+			{
+			if (targetNode.childNodes[counter].nodeType == Node.TEXT_NODE && targetNode.childNodes[counter].nodeValue == elementsObject[key])
+			{
+			found = true;
+			}
+			counter++;
+			}
+			}
+			if (!found)
+			{
+			// MGP 040209: Cope with strings split by linebreaks - need to insert <br> elements
+			if ( elementsObject[key].indexOf("\n") == -1 )
+			{
+			newNode = document.createTextNode(elementsObject[key]);
+			if (refChild)
+			{
+			targetNode.insertBefore(newNode, refChild);
+			}
+			else
+			{
+			targetNode.appendChild(newNode);
+			}
+			}
+			else
+			{
+			// Found some linebreaks - split the string into component parts
+			var newNodeParts = elementsObject[key].split("\n");
+			// Loop through the parts, adding a linebreak after each one (except the last one)
+			for ( var i = 0; i < newNodeParts.length; i++ )
+			{
+			// Check for the existence of a star rating in the text node
+			if ( newNodeParts[i].match(/\d\*$/) )
+			{
+			// Found a star rating - extract the star
+			lastSpace = newNodeParts[i].lastIndexOf(" ");
+			newNodeString = newNodeParts[i].substring( 0, lastSpace );
+			starImgSrc = 'http://q.bstatic.com/static/img/icons/stars/' + newNodeParts[i].substr( lastSpace + 1, 1 ) + 'sterren-small.png';
+			}
+			else
+			{
+			newNodeString = newNodeParts[i];
+			starImgSrc = '';
+			}
+			newNode = document.createTextNode(newNodeString);
+			if (refChild)
+			{
+			targetNode.insertBefore(newNode, refChild);
+			if ( starImgSrc )
+			{
+			newImg = document.createElement('img');
+			newImg.setAttribute('src', starImgSrc);
+			newImg.className = "stars";
+			targetNode.insertBefore(newImg, refChild);
+			}
+			}
+			else
+			{
+			targetNode.appendChild(newNode);
+			if ( starImgSrc )
+			{
+			newImg = document.createElement('img');
+			newImg.setAttribute('src', starImgSrc);
+			newImg.className = "stars";
+			targetNode.appendChild(newImg);
+			}
+			}
+			if ( i < newNodeParts.length - 1)
+			{
+			// Add a <br>
+			newBR = document.createElement("br");
+			if (refChild)
+			{
+			targetNode.insertBefore(newBR, refChild);
+			}
+			else
+			{
+			targetNode.appendChild(newBR);
+			}
+			}
+			}
+			}
+			}
+			}
+			else
+			{
+			if (primaryKey == 'cdata') // CDATA
+			{
+			targetNode.appendChild(document.createCDATASection(elementsObject[key]));
+			}
+			}
+			}
+			else // Element
+			{
+			// If targetNode was passed into this function, append the new child to it??
+			if (targetNode)
+			{
+			// If elementsObject[key] is an array, we??l create an element of type key for each array member.
+			if (elementsObject[key].length > 0)
+			{
+			for (counter = 0; counter < elementsObject[key].length; counter++)
+			{
+			if (elementsObject[key][counter])
+			{
+			if (!elementsObject[key][counter]._node)
+			{
+			newElement = document.createElement(key);
+			elementsObject[key][counter]._node = newElement;
+			var r = counter + 1;
+			while (r < elementsObject[key].length && !refChild)
+			{
+			if (elementsObject[key][r])
+			{
+			refChild = elementsObject[key][r]._node;
+			}
+			r++;
+			}
+			if (refChild)
+			{
+			newNode = targetNode.insertBefore(
+			elementsObject[key][counter]._node,
+			refChild);
+			}
+			else
+			{
+			newNode = targetNode.appendChild(
+			elementsObject[key][counter]._node);
+			}
+			arguments.callee(
+			elementsObject[key][counter],
+			newNode);
+			newElement._elementTree = elementsObject[key][counter];
+			}
+			else
+			{
+			arguments.callee(
+			elementsObject[key][counter],
+			elementsObject[key][counter]._node);
+			}
+			}
+			}
+			}
+			else
+			{
+			if (elementsObject[key].length !== 0)
+			{
+			if (!elementsObject[key]._node)
+			{
+			newElement = document.createElement(key);
+			elementsObject[key]._node = newElement;
+			if (refChild)
+			{
+			newNode = targetNode.insertBefore(
+			elementsObject[key]._node,
+			refChild);
+			}
+			else
+			{
+			newNode = targetNode.appendChild(
+			elementsObject[key]._node);
+			}
+			arguments.callee(
+			elementsObject[key],
+			newNode);
+			newElement._elementTree = elementsObject;
+			}
+			else
+			{
+			arguments.callee(
+			elementsObject[key],
+			elementsObject[key]._node);
+			}
+			}
+			}
+			}
+			// else create the new element as targetNode.
+			else
+			{
+			if (!elementsObject[key]._node)
+			{
+			arguments.callee(elementsObject[key],
+			elementsObject[key]._node = targetNode = document.createElement(key));
+			}
+			else
+			{
+			arguments.callee(elementsObject[key],
+			elementsObject[key]._node);
+			}
+			}
+			}
+			}
+			}
+			}
+			}
+			return targetNode;
+			};
+			</script></div>
+		</div></div><div id="text-11" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div class="banners-rotativos-aside">
+
+    <div class="cada cada1"><div id="resultado-busca"></div></div>
+
+    <div class="cada cada2"><iframe width="300" height="250"  scrolling="no" frameborder="0" src="http://www.rentalcars.com/associate/rc/dynamic_banners/rc/new_branded/300x250/index_br.php?affiliateCode=vambora&preflang=br">autos</iframe> </div>
+
+    <div class="cada cada3">
+
+<!--SCRIPT SRC="http://ib.adnxs.com/ttj?id=1207864&cb=[CACHEBUSTER]&pubclick=[INSERT_CLICK_TAG]" TYPE="text/javascript"></SCRIPT-->
+
+<!-- BEGIN JS TAG - Blog Vambora - 300x250 < - DO NOT MODIFY -->
+<SCRIPT SRC="http://ads.dtravelconnection.com/ttj?id=2710585" TYPE="text/javascript"></SCRIPT>
+<!-- END TAG -->
+
+</div>
+
+</div>
+
+<script>
+jQuery(document).ready(function($) {
+var contador = $('.banners-rotativos-aside .cada').length;
+var number = Math.floor(Math.random() * contador)+1;
+
+$('.banners-rotativos-aside .cada'+number+'').show();
+});
+</script>
+</div>
+		</div></div><div id="text-10" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div class="madmimi_sidebar" >
+<form action="https://madmimi.com/signups/subscribe/81064" method="post" id="mad_mimi_signup_form" target="_blank"> 
+    <fieldset> 
+       <div class="mimi_field text email required"> 
+           <h3 class="widgettitle"><span>Vambora por email!</span></h3>
+           <p>Insira seu e-mail abaixo para receber os novos artigos e novidades pela nossa Newsletter gratuita.</p>
+           <div class="relative">
+              <input id="signup_email" name="signup[email]" type="text" placeholder="Insira seu e-mail " data-invalid-message="Este campo foi preenchido incorretamente" class="required"> 
+              <div class="mimi_field action"> 
+                  <input id="webform_submit_button" value="enviar" type="submit" class="submit" data-default-text="Inscreva-se!" data-submitting-text="Sending…" data-invalid-text="↑ Você esqueceu de preencher alguns campos obrigatórios"> 
+              </div> 
+              <div class="mimi_field_feedback"></div>
+              <span class="mimi_funk"></span> 
+           </div>
+   </div> 
+   
+
+
+
+    <div style="clear:both;"><small>Privacidade garantida. Nós nunca compartilhamos sua informação.</small></div>
+  </fieldset> 
+ </form> 
+
+</div>
+
+</div>
+		</div></div><div id="banner300-widget-5" class="widget banner300"><div class="widget-wrap"><script type="text/javascript">
+	bb_bid = "1654581";
+	bb_lang = "pt-BR";
+	bb_name = "custom";
+	bb_limit = "6";
+	bb_format = "bbn";
+</script>
+<script type="text/javascript" src="http://static.boo-box.com/javascripts/embed.js"></script></div></div><div id="sidetabs-widget-3" class="widget sidetabs"><div class="widget-wrap">
+		<div id="widget-tabs">
+
+			<ul class="tabs clearfix">
+				<li><a href="#tabs-popular">Popular<span></span></a></li>
+				<li><a href="#tabs-recent">Recentes<span></span></a></li>
+				<li><a href="#tabs-comments">Coment&aacute;rios<span></span></a></li>
+				<li><a href="#tabs-archives">Arquivos<span></span></a></li>
+			</ul>
+
+			<div style="clear:both;"></div>
+
+			<div id="tabs-popular" class="cat_content clearfix">
+									<div class="popular"><!-- Wordpress Popular Posts Plugin v2.3.7 [SC] [weekly] [avg] [custom] -->
+<ul class="wpp-list">
+<li> <a href="http://www.blogvambora.com.br/trem-e-metro-de-sao-paulo/" title="Vivendo e aprendendo: Dicas para usar o trem e o metrô de São Paulo">Vivendo e aprendendo: Dicas para usar o trem e o metrô de São Paulo</a> </li>
+<li> <a href="http://www.blogvambora.com.br/viagem-miami-orlando-onibus/" title="Vivendo e aprendendo: Viagem Miami Orlando de Ônibus">Vivendo e aprendendo: Viagem Miami Orlando de Ônibus</a> </li>
+<li> <a href="http://www.blogvambora.com.br/proxima-viagem-convenio-western-union-e-banco-do-brasil/" title="Próxima viagem: Convênio Western Union e Banco do Brasil">Próxima viagem: Convênio Western Union e Banco do Brasil</a> </li>
+<li> <a href="http://www.blogvambora.com.br/proxima-viagempromocoes-de-passagens-gol-e-tam-continuam/" title="Próxima viagem: Promoções de passagens GOL e TAM continuam">Próxima viagem: Promoções de passagens GOL e TAM continuam</a> </li>
+<li> <a href="http://www.blogvambora.com.br/o-que-fazer-em-ilhabela-dia-noite/" title="Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite">Vivendo e aprendendo: O que fazer em Ilhabela, de dia e a noite</a> </li>
+</ul>
+<!-- End Wordpress Popular Posts Plugin v2.3.7 -->
+</div>
+							</div>
+
+			<div id="tabs-recent" class="cat_content clearfix">
+				<ul>
+										<li>
+						<a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/" rel="bookmark" title="Permanent Link to Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport">Descanso merecido: Novo hotel no Aeroporto de Guarulhos &#8211; TRYP São Paulo Guarulhos Airport</a>
+					</li>
+										<li>
+						<a href="http://www.blogvambora.com.br/escape-60-diversao-e-misterio/" rel="bookmark" title="Permanent Link to Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil">Roteiro cultural: Escape 60 – Atração de diversão e mistério no Mundo, agora também no Brasil</a>
+					</li>
+										<li>
+						<a href="http://www.blogvambora.com.br/aniversario-8-anos-vambora/" rel="bookmark" title="Permanent Link to Próxima viagem: Aniversário de 8 anos do Vambora!">Próxima viagem: Aniversário de 8 anos do Vambora!</a>
+					</li>
+										<li>
+						<a href="http://www.blogvambora.com.br/restaurantes-internacionais-no-brasil/" rel="bookmark" title="Permanent Link to Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil">Viajante Gourmet: 10 restaurantes internacionais para experimentar no Brasil</a>
+					</li>
+										<li>
+						<a href="http://www.blogvambora.com.br/aplicativos-curiosos-viage/" rel="bookmark" title="Permanent Link to Vivendo e aprendendo: 6 aplicativos curiosos de viagem">Vivendo e aprendendo: 6 aplicativos curiosos de viagem</a>
+					</li>
+									</ul>
+			</div>
+
+			<div id="tabs-comments" class="cat_content clearfix side-recent-comments">
+				
+<ul>
+<li><a href="http://www.blogvambora.com.br/day-card-dpny-beach-hotel-ilhabela/#comment-631192" title="on Descanso merecido: Aproveitando o dia no DPNY Beach Hotel em Ilhabela">Marjorie Sartorio: Estou com uma reserva para 5 dias de férias nesse hotel, doida pra chegar logo. As fotos são incríve</a></li>
+<li><a href="http://www.blogvambora.com.br/proxima-viagem-convenio-western-union-e-banco-do-brasil/#comment-631112" title="on Próxima viagem: Convênio Western Union e Banco do Brasil">Sarah Jane Hasmissanjhan: Eu não sou correntista,e recebo dinheiro da Arábia saudita apenas com o cod que  eles fornecem,nas l</a></li>
+<li><a href="http://www.blogvambora.com.br/descanso-merecido-hospedagem-boa-e-barata-no-rio-de-janeiro-existe/#comment-631066" title="on Descanso merecido: Hospedagem boa e barata no Rio de Janeiro, existe?">Felipe Miranda: Tem algum hostel com garagem, ou que seja seguro deixar o carro proximo?
+Estou saindo de BH e dessa</a></li>
+<li><a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/#comment-631059" title="on Descanso merecido: Novo hotel no Aeroporto de Guarulhos - TRYP São Paulo Guarulhos Airport">Guta C.: Olá Ana Claudia,
+Como as diárias podem variar de acordo com o tempo de estadia, indicamos que veja n</a></li>
+<li><a href="http://www.blogvambora.com.br/hotel-no-aeroporto-de-guarulhos-tryp/#comment-631052" title="on Descanso merecido: Novo hotel no Aeroporto de Guarulhos - TRYP São Paulo Guarulhos Airport">Ana claudia: Que maravilha, senti falta dos valores de diárias e horas.</a></li>
+</ul>			</div>
+
+			<div id="tabs-archives" class="cat_content clearfix">
+				<ul class="side-arc">
+					<li class="clearfix">
+						<p class="title">Arquivos:</p>
+						<select name="archive-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+							<option value="">Selecione o m&ecirc;s</option>
+								<option value='http://www.blogvambora.com.br/2016/01/'> Janeiro 2016 &nbsp;(4)</option>
+	<option value='http://www.blogvambora.com.br/2015/12/'> Dezembro 2015 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2015/11/'> Novembro 2015 &nbsp;(4)</option>
+	<option value='http://www.blogvambora.com.br/2015/10/'> Outubro 2015 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2015/09/'> Setembro 2015 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2015/08/'> Agosto 2015 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2015/07/'> Julho 2015 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2015/06/'> Junho 2015 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2015/05/'> Maio 2015 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2015/04/'> Abril 2015 &nbsp;(3)</option>
+	<option value='http://www.blogvambora.com.br/2015/03/'> Março 2015 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2015/02/'> Fevereiro 2015 &nbsp;(1)</option>
+	<option value='http://www.blogvambora.com.br/2015/01/'> Janeiro 2015 &nbsp;(3)</option>
+	<option value='http://www.blogvambora.com.br/2014/12/'> Dezembro 2014 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2014/11/'> Novembro 2014 &nbsp;(3)</option>
+	<option value='http://www.blogvambora.com.br/2014/10/'> Outubro 2014 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2014/09/'> Setembro 2014 &nbsp;(3)</option>
+	<option value='http://www.blogvambora.com.br/2014/08/'> Agosto 2014 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2014/07/'> Julho 2014 &nbsp;(4)</option>
+	<option value='http://www.blogvambora.com.br/2014/06/'> Junho 2014 &nbsp;(13)</option>
+	<option value='http://www.blogvambora.com.br/2014/05/'> Maio 2014 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2014/04/'> Abril 2014 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2014/03/'> Março 2014 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2014/02/'> Fevereiro 2014 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2014/01/'> Janeiro 2014 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2013/12/'> Dezembro 2013 &nbsp;(5)</option>
+	<option value='http://www.blogvambora.com.br/2013/11/'> Novembro 2013 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2013/10/'> Outubro 2013 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2013/09/'> Setembro 2013 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2013/08/'> Agosto 2013 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2013/07/'> Julho 2013 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2013/06/'> Junho 2013 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2013/05/'> Maio 2013 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2013/04/'> Abril 2013 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2013/03/'> Março 2013 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2013/02/'> Fevereiro 2013 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2013/01/'> Janeiro 2013 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2012/12/'> Dezembro 2012 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2012/11/'> Novembro 2012 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2012/10/'> Outubro 2012 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2012/09/'> Setembro 2012 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2012/08/'> Agosto 2012 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2012/07/'> Julho 2012 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2012/06/'> Junho 2012 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2012/05/'> Maio 2012 &nbsp;(11)</option>
+	<option value='http://www.blogvambora.com.br/2012/04/'> Abril 2012 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2012/03/'> Março 2012 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2012/02/'> Fevereiro 2012 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2012/01/'> Janeiro 2012 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2011/12/'> Dezembro 2011 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2011/11/'> Novembro 2011 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2011/10/'> Outubro 2011 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2011/09/'> Setembro 2011 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2011/08/'> Agosto 2011 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2011/07/'> Julho 2011 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2011/06/'> Junho 2011 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2011/05/'> Maio 2011 &nbsp;(15)</option>
+	<option value='http://www.blogvambora.com.br/2011/04/'> Abril 2011 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2011/03/'> Março 2011 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2011/02/'> Fevereiro 2011 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2011/01/'> Janeiro 2011 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2010/12/'> Dezembro 2010 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2010/11/'> Novembro 2010 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2010/10/'> Outubro 2010 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2010/09/'> Setembro 2010 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2010/08/'> Agosto 2010 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2010/07/'> Julho 2010 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2010/06/'> Junho 2010 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2010/05/'> Maio 2010 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2010/04/'> Abril 2010 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2010/03/'> Março 2010 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2010/02/'> Fevereiro 2010 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2010/01/'> Janeiro 2010 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2009/12/'> Dezembro 2009 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2009/11/'> Novembro 2009 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2009/10/'> Outubro 2009 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2009/09/'> Setembro 2009 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2009/08/'> Agosto 2009 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2009/07/'> Julho 2009 &nbsp;(11)</option>
+	<option value='http://www.blogvambora.com.br/2009/06/'> Junho 2009 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2009/05/'> Maio 2009 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2009/04/'> Abril 2009 &nbsp;(13)</option>
+	<option value='http://www.blogvambora.com.br/2009/03/'> Março 2009 &nbsp;(9)</option>
+	<option value='http://www.blogvambora.com.br/2009/02/'> Fevereiro 2009 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2009/01/'> Janeiro 2009 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2008/12/'> Dezembro 2008 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2008/11/'> Novembro 2008 &nbsp;(7)</option>
+	<option value='http://www.blogvambora.com.br/2008/10/'> Outubro 2008 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2008/09/'> Setembro 2008 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2008/08/'> Agosto 2008 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2008/07/'> Julho 2008 &nbsp;(8)</option>
+	<option value='http://www.blogvambora.com.br/2008/06/'> Junho 2008 &nbsp;(12)</option>
+	<option value='http://www.blogvambora.com.br/2008/05/'> Maio 2008 &nbsp;(15)</option>
+	<option value='http://www.blogvambora.com.br/2008/04/'> Abril 2008 &nbsp;(10)</option>
+	<option value='http://www.blogvambora.com.br/2008/03/'> Março 2008 &nbsp;(6)</option>
+	<option value='http://www.blogvambora.com.br/2008/02/'> Fevereiro 2008 &nbsp;(11)</option>
+	<option value='http://www.blogvambora.com.br/2008/01/'> Janeiro 2008 &nbsp;(7)</option>
+						</select>
+						<noscript><input type="submit" value="Go" /></noscript>
+					</li>
+					<li class="clearfix">
+						<p class="title">Categorias:</p>
+						<form action="http://www.blogvambora.com.br/" method="get">
+							<select name='cat' id='cat' class='postform'  onchange='return this.form.submit()'>
+	<option value='-1'>Selecione a categoria</option>
+	<option class="level-0" value="29">África do Sul&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="1953">&nbsp;&nbsp;&nbsp;Cidade do Cabo&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="226">Alemanha&nbsp;&nbsp;(37)</option>
+	<option class="level-1" value="227">&nbsp;&nbsp;&nbsp;Berlim&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="3657">&nbsp;&nbsp;&nbsp;Colônia&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5723">&nbsp;&nbsp;&nbsp;Dachau&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="5665">&nbsp;&nbsp;&nbsp;Dresden&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1020">&nbsp;&nbsp;&nbsp;Frankfurt&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="5678">&nbsp;&nbsp;&nbsp;Fussen&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="4237">&nbsp;&nbsp;&nbsp;Munique&nbsp;&nbsp;(12)</option>
+	<option class="level-1" value="5677">&nbsp;&nbsp;&nbsp;Schwangau&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5731">&nbsp;&nbsp;&nbsp;Zugspitze&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="3896">Antártida&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="5429">Arábia Saudita&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5430">&nbsp;&nbsp;&nbsp;Dammam&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="602">Argentina&nbsp;&nbsp;(44)</option>
+	<option class="level-1" value="2007">&nbsp;&nbsp;&nbsp;Bariloche&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="603">&nbsp;&nbsp;&nbsp;Buenos Aires&nbsp;&nbsp;(24)</option>
+	<option class="level-1" value="5696">&nbsp;&nbsp;&nbsp;Calafate&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2010">&nbsp;&nbsp;&nbsp;Córdoba&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5755">&nbsp;&nbsp;&nbsp;Mendoza&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4882">&nbsp;&nbsp;&nbsp;Patagônia&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="763">&nbsp;&nbsp;&nbsp;Quilmes&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3917">&nbsp;&nbsp;&nbsp;Ushuaia&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="30">Austrália&nbsp;&nbsp;(12)</option>
+	<option class="level-1" value="1307">&nbsp;&nbsp;&nbsp;Ilha Green&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="934">&nbsp;&nbsp;&nbsp;Ilha Halmilton&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1308">&nbsp;&nbsp;&nbsp;Ilha Lizard&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1336">&nbsp;&nbsp;&nbsp;Sidney&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="5729">Áustria&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5730">&nbsp;&nbsp;&nbsp;Salzburg&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1500">Bahamas&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="402">Bélgica&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="4826">&nbsp;&nbsp;&nbsp;Bruxelas&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="3983">Belize&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1160">Berkshire&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="3760">Bolívia&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="17">Brasil&nbsp;&nbsp;(334)</option>
+	<option class="level-1" value="1715">&nbsp;&nbsp;&nbsp;Alagoas&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1294">&nbsp;&nbsp;&nbsp;Amazonas&nbsp;&nbsp;(16)</option>
+	<option class="level-2" value="5108">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Floresta Amazônica&nbsp;&nbsp;(5)</option>
+	<option class="level-2" value="866">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Manaus&nbsp;&nbsp;(12)</option>
+	<option class="level-2" value="532">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Parintins&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="15">&nbsp;&nbsp;&nbsp;Bahia&nbsp;&nbsp;(67)</option>
+	<option class="level-2" value="13">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arraial d&#8217;Ajuda&nbsp;&nbsp;(4)</option>
+	<option class="level-2" value="2929">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Boipeba&nbsp;&nbsp;(5)</option>
+	<option class="level-2" value="274">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Costa do Sauípe&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="3126">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Feira de Santana&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="2933">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ilha de Boipeba&nbsp;&nbsp;(5)</option>
+	<option class="level-2" value="2773">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Morro de São Paulo&nbsp;&nbsp;(7)</option>
+	<option class="level-2" value="1002">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Porto Seguro&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="444">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praia do Espelho&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="976">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praia do Forte&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="96">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Salvador&nbsp;&nbsp;(48)</option>
+	<option class="level-2" value="3130">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Santo Amaro&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="448">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Trancoso&nbsp;&nbsp;(5)</option>
+	<option class="level-2" value="3956">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vila do Diogo&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="864">&nbsp;&nbsp;&nbsp;Brasília&nbsp;&nbsp;(17)</option>
+	<option class="level-1" value="1071">&nbsp;&nbsp;&nbsp;Ceará&nbsp;&nbsp;(13)</option>
+	<option class="level-2" value="5743">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aquiraz&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="510">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fortaleza&nbsp;&nbsp;(13)</option>
+	<option class="level-1" value="920">&nbsp;&nbsp;&nbsp;Espírito Santo&nbsp;&nbsp;(5)</option>
+	<option class="level-2" value="921">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Vitória&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="1536">&nbsp;&nbsp;&nbsp;Maceio&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="1722">&nbsp;&nbsp;&nbsp;Maranhão&nbsp;&nbsp;(3)</option>
+	<option class="level-2" value="3908">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lençois Maranhenses&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="484">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;São Luís&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1421">&nbsp;&nbsp;&nbsp;Mato Grosso do Sul&nbsp;&nbsp;(4)</option>
+	<option class="level-2" value="790">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bonito&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="4792">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cuiabá&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1022">&nbsp;&nbsp;&nbsp;Minas Gerais&nbsp;&nbsp;(32)</option>
+	<option class="level-2" value="1275">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Araxá&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="863">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Belo Horizonte&nbsp;&nbsp;(26)</option>
+	<option class="level-2" value="3076">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Brumadinho&nbsp;&nbsp;(3)</option>
+	<option class="level-2" value="3080">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contagem&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="5440">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gonçalves&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="3083">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Inhotim&nbsp;&nbsp;(3)</option>
+	<option class="level-2" value="432">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mariana&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="433">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ouro Preto&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="436">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;São João del Rei&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="437">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tiradentes&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="4793">&nbsp;&nbsp;&nbsp;Pará&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="878">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Belém&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="846">&nbsp;&nbsp;&nbsp;Paraíba&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="481">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campina Grande&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="843">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;João Pessoa&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="993">&nbsp;&nbsp;&nbsp;Paraná&nbsp;&nbsp;(23)</option>
+	<option class="level-2" value="1419">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cascavel&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="113">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Curitiba&nbsp;&nbsp;(16)</option>
+	<option class="level-2" value="1094">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Foz do Iguaçu&nbsp;&nbsp;(10)</option>
+	<option class="level-2" value="1420">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Maringá&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="3105">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Morretes&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="995">&nbsp;&nbsp;&nbsp;Pernambuco&nbsp;&nbsp;(28)</option>
+	<option class="level-2" value="1235">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabo de Santo Agostinho&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="1093">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Fernando de Noronha&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="93">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Olinda&nbsp;&nbsp;(6)</option>
+	<option class="level-2" value="588">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Recife&nbsp;&nbsp;(22)</option>
+	<option class="level-1" value="4794">&nbsp;&nbsp;&nbsp;Piauí&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="871">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Teresina&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1146">&nbsp;&nbsp;&nbsp;Rio Grande do Norte&nbsp;&nbsp;(8)</option>
+	<option class="level-2" value="511">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Natal&nbsp;&nbsp;(8)</option>
+	<option class="level-2" value="4885">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Praia da Pipa&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="4886">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Timbaú do Sul&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="294">&nbsp;&nbsp;&nbsp;Rio Grande do Sul&nbsp;&nbsp;(35)</option>
+	<option class="level-2" value="4473">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cambará do Sul&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="4436">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Canela&nbsp;&nbsp;(4)</option>
+	<option class="level-2" value="3114">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Garibaldi&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="431">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Gramado&nbsp;&nbsp;(17)</option>
+	<option class="level-2" value="287">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ilópolis&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="3117">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Lajeado&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="114">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Porto Alegre&nbsp;&nbsp;(16)</option>
+	<option class="level-1" value="888">&nbsp;&nbsp;&nbsp;RJ&nbsp;&nbsp;(78)</option>
+	<option class="level-2" value="5341">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Angra dos Reis&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="3057">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Arraial do Cabo&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="1531">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Buzios&nbsp;&nbsp;(6)</option>
+	<option class="level-2" value="3063">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cabo Frio&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="5342">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ilha Grande&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="5484">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Mangaratiba&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="3069">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Niterói&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="771">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paraty&nbsp;&nbsp;(3)</option>
+	<option class="level-2" value="95">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rio de Janeiro&nbsp;&nbsp;(70)</option>
+	<option class="level-1" value="697">&nbsp;&nbsp;&nbsp;Santa Catarina&nbsp;&nbsp;(9)</option>
+	<option class="level-2" value="3046">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Balneário Camboriú&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="690">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Blumenau&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="3048">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bombinhas&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="865">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Florianópolis&nbsp;&nbsp;(6)</option>
+	<option class="level-2" value="5592">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Itá&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="3051">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Joinville&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="5741">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Navegantes&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="852">&nbsp;&nbsp;&nbsp;Sergipe&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="826">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Aracajú&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="890">&nbsp;&nbsp;&nbsp;SP&nbsp;&nbsp;(150)</option>
+	<option class="level-2" value="1138">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Americana&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="4104">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Barueri&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="1690">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bauru&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="500">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Bertioga&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="992">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campinas&nbsp;&nbsp;(12)</option>
+	<option class="level-2" value="427">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Campos de Jordão&nbsp;&nbsp;(3)</option>
+	<option class="level-2" value="4106">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cotia&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="2899">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Embu&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="2901">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guarujá&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="5788">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Guarulhos&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="5384">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ilhabela&nbsp;&nbsp;(5)</option>
+	<option class="level-2" value="2360">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Itu&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="1140">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Jundiai&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="4599">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Osasco&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="5447">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Paranapiacaba&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="1141">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Piracicaba&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="4116">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ribeirão Preto&nbsp;&nbsp;(3)</option>
+	<option class="level-2" value="435">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Santana do Parnaíba&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="4604">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Santo André&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="881">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Santos&nbsp;&nbsp;(8)</option>
+	<option class="level-2" value="4605">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;São Bernardo do Campo&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="1032">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;São Luiz do Paraitinga&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="9">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;São Paulo&nbsp;&nbsp;(135)</option>
+	<option class="level-2" value="5393">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;São Sebastião&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="3040">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;São Vicente&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="1142">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sorocaba&nbsp;&nbsp;(2)</option>
+	<option class="level-2" value="1033">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Taubaté&nbsp;&nbsp;(1)</option>
+	<option class="level-2" value="1034">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ubatuba&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4807">Bulgária&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1952">Cancun&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1502">Caribe&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="5518">&nbsp;&nbsp;&nbsp;Aruba&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4655">&nbsp;&nbsp;&nbsp;Curaçao&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1511">&nbsp;&nbsp;&nbsp;St. Maarten&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="914">Chile&nbsp;&nbsp;(34)</option>
+	<option class="level-1" value="5236">&nbsp;&nbsp;&nbsp;Atacama&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="5370">&nbsp;&nbsp;&nbsp;Chiloé&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="5408">&nbsp;&nbsp;&nbsp;Frutillar&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="5421">&nbsp;&nbsp;&nbsp;Osorno&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5371">&nbsp;&nbsp;&nbsp;Patagônia Chilena&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="5434">&nbsp;&nbsp;&nbsp;Peulla&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5373">&nbsp;&nbsp;&nbsp;Puerto Montt&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="5409">&nbsp;&nbsp;&nbsp;Puerto Octay&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="5372">&nbsp;&nbsp;&nbsp;Puerto Varas&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="5235">&nbsp;&nbsp;&nbsp;San Pedro de Atacama&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="1147">&nbsp;&nbsp;&nbsp;Santiago&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="420">China&nbsp;&nbsp;(13)</option>
+	<option class="level-1" value="628">&nbsp;&nbsp;&nbsp;Hong Kong&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="630">&nbsp;&nbsp;&nbsp;Macau&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="424">&nbsp;&nbsp;&nbsp;Pequim&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="2388">&nbsp;&nbsp;&nbsp;Xangai&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1062">Cingapura&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="1503">Colômbia&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="4015">Coréia do Norte&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2044">Coréia do Sul&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="4092">&nbsp;&nbsp;&nbsp;Jeju Island&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2058">&nbsp;&nbsp;&nbsp;Seoul&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2066">Costa do Marfim&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="2062">&nbsp;&nbsp;&nbsp;Abidjan&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2074">&nbsp;&nbsp;&nbsp;Yamoussoukro&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4801">Cruzeiro&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="150">Dinamarca&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="148">&nbsp;&nbsp;&nbsp;Copenhagen&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="130">Dubai&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="393">Egito&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="392">&nbsp;&nbsp;&nbsp;Cairo&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="216">Escócia&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="4415">&nbsp;&nbsp;&nbsp;Edimburgo&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4941">Espaço&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="195">Espanha&nbsp;&nbsp;(74)</option>
+	<option class="level-1" value="194">&nbsp;&nbsp;&nbsp;Barcelona&nbsp;&nbsp;(54)</option>
+	<option class="level-1" value="3413">&nbsp;&nbsp;&nbsp;Burgos&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3414">&nbsp;&nbsp;&nbsp;Caminho de Santiago&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="3135">&nbsp;&nbsp;&nbsp;Errenteria&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3136">&nbsp;&nbsp;&nbsp;Girona&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3424">&nbsp;&nbsp;&nbsp;León&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="196">&nbsp;&nbsp;&nbsp;Madrid&nbsp;&nbsp;(23)</option>
+	<option class="level-1" value="4125">&nbsp;&nbsp;&nbsp;Monserrat&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4246">&nbsp;&nbsp;&nbsp;Montserrat&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="3141">&nbsp;&nbsp;&nbsp;País Basco&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="3429">&nbsp;&nbsp;&nbsp;Pamplona&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3432">&nbsp;&nbsp;&nbsp;Roncesvalles&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3435">&nbsp;&nbsp;&nbsp;Santiago de Compostela&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="4131">&nbsp;&nbsp;&nbsp;Valência&nbsp;&nbsp;(8)</option>
+	<option class="level-0" value="36">EUA&nbsp;&nbsp;(157)</option>
+	<option class="level-1" value="5628">&nbsp;&nbsp;&nbsp;Alasca&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5738">&nbsp;&nbsp;&nbsp;Anaheim&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2336">&nbsp;&nbsp;&nbsp;Atlanta&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="4579">&nbsp;&nbsp;&nbsp;Carmel&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1072">&nbsp;&nbsp;&nbsp;Chicago&nbsp;&nbsp;(10)</option>
+	<option class="level-1" value="3202">&nbsp;&nbsp;&nbsp;Disney&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="4570">&nbsp;&nbsp;&nbsp;Grand Canyon&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5508">&nbsp;&nbsp;&nbsp;Hawaii&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5654">&nbsp;&nbsp;&nbsp;Jackson&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5231">&nbsp;&nbsp;&nbsp;Kissimmee&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1804">&nbsp;&nbsp;&nbsp;Las Vegas&nbsp;&nbsp;(10)</option>
+	<option class="level-1" value="1021">&nbsp;&nbsp;&nbsp;Miami&nbsp;&nbsp;(18)</option>
+	<option class="level-1" value="4719">&nbsp;&nbsp;&nbsp;Miami Beach&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="4583">&nbsp;&nbsp;&nbsp;Monterey&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5659">&nbsp;&nbsp;&nbsp;New Jersey&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2854">&nbsp;&nbsp;&nbsp;Nova Orleans&nbsp;&nbsp;(8)</option>
+	<option class="level-1" value="245">&nbsp;&nbsp;&nbsp;Nova York&nbsp;&nbsp;(65)</option>
+	<option class="level-1" value="4528">&nbsp;&nbsp;&nbsp;Oakhurst&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1023">&nbsp;&nbsp;&nbsp;Orlando&nbsp;&nbsp;(19)</option>
+	<option class="level-1" value="4586">&nbsp;&nbsp;&nbsp;Route 1&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="4587">&nbsp;&nbsp;&nbsp;Salinas&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2325">&nbsp;&nbsp;&nbsp;San Diego&nbsp;&nbsp;(8)</option>
+	<option class="level-1" value="4595">&nbsp;&nbsp;&nbsp;San Luis Obispo&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1293">&nbsp;&nbsp;&nbsp;São Francisco&nbsp;&nbsp;(14)</option>
+	<option class="level-1" value="4588">&nbsp;&nbsp;&nbsp;Seaside&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="978">&nbsp;&nbsp;&nbsp;Sedona&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4849">&nbsp;&nbsp;&nbsp;Tampa&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="251">&nbsp;&nbsp;&nbsp;Washington&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="4503">&nbsp;&nbsp;&nbsp;Yosemite Park&nbsp;&nbsp;(5)</option>
+	<option class="level-0" value="4090">Filipinas&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1064">Finlândia&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1065">&nbsp;&nbsp;&nbsp;Helsinque&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="167">França&nbsp;&nbsp;(105)</option>
+	<option class="level-1" value="3895">&nbsp;&nbsp;&nbsp;Aix en Provence&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1967">&nbsp;&nbsp;&nbsp;Bordeaux&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1971">&nbsp;&nbsp;&nbsp;Marselha&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1973">&nbsp;&nbsp;&nbsp;Nice&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="246">&nbsp;&nbsp;&nbsp;Paris&nbsp;&nbsp;(95)</option>
+	<option class="level-1" value="3433">&nbsp;&nbsp;&nbsp;Saint-Jean-Pied-de-Port&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1748">&nbsp;&nbsp;&nbsp;Vale do Loire&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="666">Grécia&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="2054">&nbsp;&nbsp;&nbsp;Santorini&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5185">Groenlândia&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4887">Guatemala&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1634">Haiti&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="1932">Holanda&nbsp;&nbsp;(10)</option>
+	<option class="level-1" value="1927">&nbsp;&nbsp;&nbsp;Amsterdam&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="5668">&nbsp;&nbsp;&nbsp;Lisse&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2090">Honduras&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="972">Ilhas Cook&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="169">Índia&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="396">&nbsp;&nbsp;&nbsp;Mumbai&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="1334">&nbsp;&nbsp;&nbsp;Nova Délhi&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4018">Indonésia&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="4014">&nbsp;&nbsp;&nbsp;Bali&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4094">&nbsp;&nbsp;&nbsp;Komodo&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="39">Inglaterra&nbsp;&nbsp;(88)</option>
+	<option class="level-1" value="119">&nbsp;&nbsp;&nbsp;Bath&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="485">&nbsp;&nbsp;&nbsp;Bicester&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="487">&nbsp;&nbsp;&nbsp;Birmingham&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="120">&nbsp;&nbsp;&nbsp;Bournemouth&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="122">&nbsp;&nbsp;&nbsp;Brighton&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3020">&nbsp;&nbsp;&nbsp;Chester&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3024">&nbsp;&nbsp;&nbsp;Liverpool&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="123">&nbsp;&nbsp;&nbsp;Londres&nbsp;&nbsp;(74)</option>
+	<option class="level-1" value="3025">&nbsp;&nbsp;&nbsp;Manchester&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="124">&nbsp;&nbsp;&nbsp;Oxford&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="3028">&nbsp;&nbsp;&nbsp;País de Gales&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="126">&nbsp;&nbsp;&nbsp;Stonehenge&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1353">&nbsp;&nbsp;&nbsp;Windsor&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="49">Irlanda&nbsp;&nbsp;(8)</option>
+	<option class="level-1" value="1075">&nbsp;&nbsp;&nbsp;Dublin&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="1885">Islândia&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="170">Itália&nbsp;&nbsp;(40)</option>
+	<option class="level-1" value="4311">&nbsp;&nbsp;&nbsp;Bolonha&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1989">&nbsp;&nbsp;&nbsp;Cinque Terre&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="231">&nbsp;&nbsp;&nbsp;Florença&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="1186">&nbsp;&nbsp;&nbsp;Maranello&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="156">&nbsp;&nbsp;&nbsp;Milão&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="3139">&nbsp;&nbsp;&nbsp;Modena&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4314">&nbsp;&nbsp;&nbsp;Nápoles&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4315">&nbsp;&nbsp;&nbsp;Pádua&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4316">&nbsp;&nbsp;&nbsp;Palerno&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="249">&nbsp;&nbsp;&nbsp;Roma&nbsp;&nbsp;(17)</option>
+	<option class="level-1" value="4322">&nbsp;&nbsp;&nbsp;Turim&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1430">&nbsp;&nbsp;&nbsp;Veneza&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="973">Jamaica&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="171">Japão&nbsp;&nbsp;(14)</option>
+	<option class="level-1" value="4827">&nbsp;&nbsp;&nbsp;Osaka&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="162">&nbsp;&nbsp;&nbsp;Tokyo&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="4806">Líbano&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="395">Los Angeles&nbsp;&nbsp;(13)</option>
+	<option class="level-0" value="524">Lua&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="2643">Mali&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2644">Malta&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4468">Marrocos&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="5480">Marte&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="184">México&nbsp;&nbsp;(13)</option>
+	<option class="level-1" value="3741">&nbsp;&nbsp;&nbsp;Cancun&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="374">&nbsp;&nbsp;&nbsp;Cidade do México&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1959">&nbsp;&nbsp;&nbsp;Guadalajara&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3745">&nbsp;&nbsp;&nbsp;Playa del Carmen&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5489">Moldávia&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5426">Nauru&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4019">Nepal&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="5733">&nbsp;&nbsp;&nbsp;Kathmandu&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2017">Nigéria&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="2013">&nbsp;&nbsp;&nbsp;Kano&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2014">&nbsp;&nbsp;&nbsp;Lagos&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2611">Noruega&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="51">Nova Zelândia&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="2165">Outros500&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="221">País de Gales&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5661">Panamá&nbsp;&nbsp;(4)</option>
+	<option class="level-0" value="2286">Paraguai&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="2279">&nbsp;&nbsp;&nbsp;Cidade del Este&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="819">Peru&nbsp;&nbsp;(7)</option>
+	<option class="level-1" value="818">&nbsp;&nbsp;&nbsp;Lima&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="4021">Polinésia Francesa&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1220">Polonia&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1217">&nbsp;&nbsp;&nbsp;Gdansk&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="585">&nbsp;&nbsp;&nbsp;Varsovia&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1429">Portugal&nbsp;&nbsp;(35)</option>
+	<option class="level-1" value="4013">&nbsp;&nbsp;&nbsp;Açores&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="2667">&nbsp;&nbsp;&nbsp;Algarve&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1731">&nbsp;&nbsp;&nbsp;Cascais&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="1428">&nbsp;&nbsp;&nbsp;Lisboa&nbsp;&nbsp;(26)</option>
+	<option class="level-1" value="1868">&nbsp;&nbsp;&nbsp;Porto&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="1664">&nbsp;&nbsp;&nbsp;Sintra&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="5184">Quênia&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4883">República Dominicana&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="4884">&nbsp;&nbsp;&nbsp;Punta Cana&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="977">República Tcheca&nbsp;&nbsp;(16)</option>
+	<option class="level-1" value="3091">&nbsp;&nbsp;&nbsp;Brno&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5666">&nbsp;&nbsp;&nbsp;Cesky Krumlov&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="975">&nbsp;&nbsp;&nbsp;Praga&nbsp;&nbsp;(10)</option>
+	<option class="level-0" value="398">Ruanda&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="394">&nbsp;&nbsp;&nbsp;Kigali&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="584">Russia&nbsp;&nbsp;(8)</option>
+	<option class="level-1" value="581">&nbsp;&nbsp;&nbsp;Moscou&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="2742">&nbsp;&nbsp;&nbsp;São Petersburgo&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="3096">&nbsp;&nbsp;&nbsp;Yekaterinburg&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5645">Senegal&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4781">Serviços&nbsp;&nbsp;(94)</option>
+	<option class="level-1" value="5357">&nbsp;&nbsp;&nbsp;Acessórios de viagem&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="5407">&nbsp;&nbsp;&nbsp;Aluguel de Carro&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="5009">&nbsp;&nbsp;&nbsp;Aplicativos de viagem&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="5117">&nbsp;&nbsp;&nbsp;Cartões&nbsp;&nbsp;(5)</option>
+	<option class="level-1" value="5417">&nbsp;&nbsp;&nbsp;Companhias aéreas&nbsp;&nbsp;(48)</option>
+	<option class="level-1" value="5362">&nbsp;&nbsp;&nbsp;Feriados&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="5013">&nbsp;&nbsp;&nbsp;Guia de Viagem&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5278">&nbsp;&nbsp;&nbsp;Guias de viagem&nbsp;&nbsp;(2)</option>
+	<option class="level-1" value="5014">&nbsp;&nbsp;&nbsp;Mailing&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5313">&nbsp;&nbsp;&nbsp;Milhas&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="5143">&nbsp;&nbsp;&nbsp;Passagens Aéreas&nbsp;&nbsp;(45)</option>
+	<option class="level-1" value="4780">&nbsp;&nbsp;&nbsp;Seguro Viagem&nbsp;&nbsp;(16)</option>
+	<option class="level-1" value="5691">&nbsp;&nbsp;&nbsp;Tickets Atrações&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="5356">&nbsp;&nbsp;&nbsp;Vambora Store&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5646">Siria&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4000">Sudoeste Asiático&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="161">Suécia&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="151">&nbsp;&nbsp;&nbsp;Estocolmo&nbsp;&nbsp;(3)</option>
+	<option class="level-0" value="2086">Suiça&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="2088">&nbsp;&nbsp;&nbsp;Zurique&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4001">Tailândia&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="5644">Taiwan&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="1120">Tanzânia&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1119">&nbsp;&nbsp;&nbsp;Mtwara&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="4103">Togo&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="4101">&nbsp;&nbsp;&nbsp;Sodoké&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="2538">Turquia&nbsp;&nbsp;(19)</option>
+	<option class="level-1" value="2527">&nbsp;&nbsp;&nbsp;Istambul&nbsp;&nbsp;(18)</option>
+	<option class="level-0" value="5183">Uganda&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="764">Uruguai&nbsp;&nbsp;(14)</option>
+	<option class="level-1" value="1968">&nbsp;&nbsp;&nbsp;Carmelo&nbsp;&nbsp;(1)</option>
+	<option class="level-1" value="1972">&nbsp;&nbsp;&nbsp;Montevidéu&nbsp;&nbsp;(3)</option>
+	<option class="level-1" value="2677">&nbsp;&nbsp;&nbsp;Montevidéu&nbsp;&nbsp;(6)</option>
+	<option class="level-1" value="3544">&nbsp;&nbsp;&nbsp;Punta del Este&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="5355">Vambora Store&nbsp;&nbsp;(2)</option>
+	<option class="level-0" value="10">Vambora!&nbsp;&nbsp;(65)</option>
+	<option class="level-0" value="1067">Venezuela&nbsp;&nbsp;(4)</option>
+	<option class="level-1" value="1506">&nbsp;&nbsp;&nbsp;Los Roques&nbsp;&nbsp;(1)</option>
+	<option class="level-0" value="5647">Vietnã&nbsp;&nbsp;(1)</option>
+</select>
+							<noscript><input type="submit" value="Go" /></noscript>
+						</form>
+					</li>
+					<li class="clearfix">
+						<p class="title">Tags:</p>
+						<select name="tag-dropdown" onchange='document.location.href=this.options[this.selectedIndex].value;'>
+							<option value="">Selecione a Tag</option>
+														<option value='http://www.blogvambora.com.br/tag/proxima-viagem/'>próxima viagem (204)</option><option value='http://www.blogvambora.com.br/tag/vivendo-e-aprendendo/'>Vivendo e aprendendo (128)</option><option value='http://www.blogvambora.com.br/tag/roteiro-cultural/'>Roteiro Cultural (114)</option><option value='http://www.blogvambora.com.br/tag/viajante-gourmet/'>Viajante Gourmet (82)</option><option value='http://www.blogvambora.com.br/tag/promocao/'>promoção (71)</option><option value='http://www.blogvambora.com.br/tag/relato-de-viagem/'>relato de viagem (65)</option><option value='http://www.blogvambora.com.br/tag/restaurantes/'>restaurantes (63)</option><option value='http://www.blogvambora.com.br/tag/full-image/'>full-image (58)</option><option value='http://www.blogvambora.com.br/tag/featured/'>featured (58)</option><option value='http://www.blogvambora.com.br/tag/o-que-fazer-em/'>o que fazer em (55)</option><option value='http://www.blogvambora.com.br/tag/descanso-merecido/'>descanso merecido (54)</option><option value='http://www.blogvambora.com.br/tag/lugares-improvaveis/'>Lugares Improváveis (54)</option><option value='http://www.blogvambora.com.br/tag/publieditorial/'>publieditorial (53)</option><option value='http://www.blogvambora.com.br/tag/onde-se-hospedar/'>onde se hospedar (47)</option><option value='http://www.blogvambora.com.br/tag/hotel/'>hotel (44)</option><option value='http://www.blogvambora.com.br/tag/compras/'>compras (36)</option><option value='http://www.blogvambora.com.br/tag/gol/'>Gol (30)</option><option value='http://www.blogvambora.com.br/tag/comida-tipica/'>comida tipica (25)</option><option value='http://www.blogvambora.com.br/tag/tour/'>tour (24)</option><option value='http://www.blogvambora.com.br/tag/europa/'>Europa (23)</option><option value='http://www.blogvambora.com.br/tag/roteiro-de-viagem/'>roteiro de viagem (23)</option><option value='http://www.blogvambora.com.br/tag/o-que-fazer/'>o que fazer (22)</option><option value='http://www.blogvambora.com.br/tag/onde-comer/'>onde comer (22)</option><option value='http://www.blogvambora.com.br/tag/museu/'>museu (21)</option><option value='http://www.blogvambora.com.br/tag/azul/'>azul (19)</option><option value='http://www.blogvambora.com.br/tag/blog-de-viagem/'>blog de viagem (19)</option><option value='http://www.blogvambora.com.br/tag/copa-do-mundo/'>copa do mundo (18)</option><option value='http://www.blogvambora.com.br/tag/restaurant-week/'>restaurant week (18)</option><option value='http://www.blogvambora.com.br/tag/california/'>california (17)</option><option value='http://www.blogvambora.com.br/tag/tam/'>TAM (17)</option><option value='http://www.blogvambora.com.br/tag/ingressos/'>ingressos (16)</option><option value='http://www.blogvambora.com.br/tag/hoteis/'>hotéis (16)</option><option value='http://www.blogvambora.com.br/tag/reveillon/'>reveillon (16)</option><option value='http://www.blogvambora.com.br/tag/blog-vambora/'>blog vambora (16)</option><option value='http://www.blogvambora.com.br/tag/como-circular/'>como circular (15)</option><option value='http://www.blogvambora.com.br/tag/desconto/'>desconto (15)</option><option value='http://www.blogvambora.com.br/tag/mondial-assistance/'>mondial assistance (14)</option><option value='http://www.blogvambora.com.br/tag/bares/'>bares (14)</option><option value='http://www.blogvambora.com.br/tag/por-do-sol/'>pôr do sol (14)</option><option value='http://www.blogvambora.com.br/tag/curiosidades/'>curiosidades (14)</option><option value='http://www.blogvambora.com.br/tag/mapa/'>mapa (14)</option><option value='http://www.blogvambora.com.br/tag/arquitetura/'>arquitetura (14)</option><option value='http://www.blogvambora.com.br/tag/museus/'>museus (14)</option><option value='http://www.blogvambora.com.br/tag/bate-e-volta/'>bate e volta (13)</option><option value='http://www.blogvambora.com.br/tag/shows/'>shows (13)</option><option value='http://www.blogvambora.com.br/tag/viagem-de-carro/'>viagem de carro (13)</option><option value='http://www.blogvambora.com.br/tag/inverno/'>inverno (13)</option><option value='http://www.blogvambora.com.br/tag/como-chegar/'>como chegar (13)</option><option value='http://www.blogvambora.com.br/tag/copa-de-2014/'>copa de 2014 (13)</option><option value='http://www.blogvambora.com.br/tag/cruzeiro-2/'>cruzeiro (12)</option><option value='http://www.blogvambora.com.br/tag/quando-ir/'>quando ir (12)</option><option value='http://www.blogvambora.com.br/tag/cupom-de-desconto/'>cupom de desconto (12)</option><option value='http://www.blogvambora.com.br/tag/carnaval/'>carnaval (12)</option><option value='http://www.blogvambora.com.br/tag/trem/'>trem (11)</option><option value='http://www.blogvambora.com.br/tag/futebol/'>futebol (11)</option><option value='http://www.blogvambora.com.br/tag/copa-do-mundo-de-2010/'>copa do mundo de 2010 (10)</option><option value='http://www.blogvambora.com.br/tag/midia/'>midia (10)</option><option value='http://www.blogvambora.com.br/tag/arte/'>arte (10)</option><option value='http://www.blogvambora.com.br/tag/vambora/'>Vambora! (10)</option><option value='http://www.blogvambora.com.br/tag/accor/'>Accor (9)</option><option value='http://www.blogvambora.com.br/tag/lojas/'>lojas (9)</option><option value='http://www.blogvambora.com.br/tag/final-do-ano/'>final do ano (9)</option><option value='http://www.blogvambora.com.br/tag/metro/'>Metrô (9)</option><option value='http://www.blogvambora.com.br/tag/onibus/'>ônibus (9)</option><option value='http://www.blogvambora.com.br/tag/city-tour/'>city tour (9)</option><option value='http://www.blogvambora.com.br/tag/onde-ficar/'>onde ficar (9)</option><option value='http://www.blogvambora.com.br/tag/praia/'>praia (9)</option><option value='http://www.blogvambora.com.br/tag/gratuito/'>gratuito (8)</option><option value='http://www.blogvambora.com.br/tag/ano-novo/'>ano novo (8)</option><option value='http://www.blogvambora.com.br/tag/noite/'>Noite (8)</option><option value='http://www.blogvambora.com.br/tag/pousada/'>pousada (8)</option><option value='http://www.blogvambora.com.br/tag/aniversario/'>aniversário (8)</option><option value='http://www.blogvambora.com.br/tag/ferias/'>férias (8)</option><option value='http://www.blogvambora.com.br/tag/aniversario-vambora/'>aniversário Vambora (8)</option><option value='http://www.blogvambora.com.br/tag/novidade/'>novidade (8)</option><option value='http://www.blogvambora.com.br/tag/webjet/'>Webjet (8)</option><option value='http://www.blogvambora.com.br/tag/feriado/'>feriado (8)</option><option value='http://www.blogvambora.com.br/tag/restaurant-week-sao-paulo/'>restaurant week São Paulo (8)</option><option value='http://www.blogvambora.com.br/tag/avenida-paulista/'>avenida paulista (8)</option><option value='http://www.blogvambora.com.br/tag/sul-da-bahia/'>sul da Bahia (8)</option><option value='http://www.blogvambora.com.br/tag/roteiro-de-carro/'>roteiro de carro (7)</option><option value='http://www.blogvambora.com.br/tag/outlet/'>outlet (7)</option><option value='http://www.blogvambora.com.br/tag/app/'>app (7)</option><option value='http://www.blogvambora.com.br/tag/praias/'>praias (7)</option><option value='http://www.blogvambora.com.br/tag/cvc/'>CVC (7)</option><option value='http://www.blogvambora.com.br/tag/bicicleta/'>bicicleta (7)</option><option value='http://www.blogvambora.com.br/tag/volta-ao-mundo/'>volta ao mundo (7)</option><option value='http://www.blogvambora.com.br/tag/promocao-de-passagens-aereas/'>promoção de passagens aéreas (7)</option><option value='http://www.blogvambora.com.br/tag/virada-cultural/'>Virada Cultural (7)</option><option value='http://www.blogvambora.com.br/tag/azul-linhas-aereas/'>azul linhas aéreas (7)</option><option value='http://www.blogvambora.com.br/tag/cerveja/'>cerveja (7)</option><option value='http://www.blogvambora.com.br/tag/feriados/'>feriados (7)</option><option value='http://www.blogvambora.com.br/tag/curiosidade/'>curiosidade (7)</option><option value='http://www.blogvambora.com.br/tag/adagio/'>Adagio (6)</option><option value='http://www.blogvambora.com.br/tag/lagos-andinos/'>Lagos andinos (6)</option><option value='http://www.blogvambora.com.br/tag/restaurantes-em-sao-paulo/'>restaurantes em são paulo (6)</option><option value='http://www.blogvambora.com.br/tag/copa-das-confederacoes/'>copa das confederações (6)</option><option value='http://www.blogvambora.com.br/tag/halloween/'>halloween (6)</option><option value='http://www.blogvambora.com.br/tag/ingresso/'>ingresso (6)</option><option value='http://www.blogvambora.com.br/tag/pousadas/'>pousadas (6)</option><option value='http://www.blogvambora.com.br/tag/design/'>design (6)</option><option value='http://www.blogvambora.com.br/tag/compras-em-nova-york/'>Compras em Nova York (6)</option><option value='http://www.blogvambora.com.br/tag/montanha-russa/'>montanha russa (6)</option><option value='http://www.blogvambora.com.br/tag/blogs-de-viagem/'>blogs de viagem (6)</option><option value='http://www.blogvambora.com.br/tag/metro-de-sao-paulo/'>metrô de São Paulo (6)</option><option value='http://www.blogvambora.com.br/tag/natal/'>Natal (6)</option><option value='http://www.blogvambora.com.br/tag/atracoes/'>atrações (6)</option><option value='http://www.blogvambora.com.br/tag/cassino/'>cassino (6)</option><option value='http://www.blogvambora.com.br/tag/estadio/'>estádio (6)</option><option value='http://www.blogvambora.com.br/tag/galeries-lafayette/'>Galeries Lafayette (6)</option><option value='http://www.blogvambora.com.br/tag/festival-de-parintins/'>festival de parintins (6)</option><option value='http://www.blogvambora.com.br/tag/noite-dos-museus/'>noite dos museus (6)</option><option value='http://www.blogvambora.com.br/tag/museu-do-louvre/'>Museu do Louvre (6)</option><option value='http://www.blogvambora.com.br/tag/lonely-planet/'>Lonely Planet (6)</option><option value='http://www.blogvambora.com.br/tag/bloco-de-carnaval/'>bloco de carnaval (6)</option><option value='http://www.blogvambora.com.br/tag/o-que-fazer-em-sao-paulo/'>o que fazer em são paulo (6)</option><option value='http://www.blogvambora.com.br/tag/vinhos/'>vinhos (5)</option><option value='http://www.blogvambora.com.br/tag/vulcao/'>vulcão (5)</option><option value='http://www.blogvambora.com.br/tag/calendario/'>calendário (5)</option><option value='http://www.blogvambora.com.br/tag/splendour-of-the-seas/'>Splendour of the Seas (5)</option><option value='http://www.blogvambora.com.br/tag/olimpiadas-de-londres/'>Olimpiadas de Londres (5)</option><option value='http://www.blogvambora.com.br/tag/eataly/'>Eataly (5)</option><option value='http://www.blogvambora.com.br/tag/o-que-ver-em-barcelona/'>o que ver em barcelona (5)</option><option value='http://www.blogvambora.com.br/tag/pesquisa/'>pesquisa (5)</option><option value='http://www.blogvambora.com.br/tag/liquidacao/'>liquidação (5)</option><option value='http://www.blogvambora.com.br/tag/app-de-viagem/'>app de viagem (5)</option><option value='http://www.blogvambora.com.br/tag/cambio/'>câmbio (5)</option><option value='http://www.blogvambora.com.br/tag/firestone/'>firestone (5)</option><option value='http://www.blogvambora.com.br/tag/jogos-olimpicos/'>jogos olimpicos (5)</option><option value='http://www.blogvambora.com.br/tag/restaurante/'>restaurante (5)</option><option value='http://www.blogvambora.com.br/tag/hofbrauhaus/'>Hofbrauhaus (5)</option><option value='http://www.blogvambora.com.br/tag/viagem-california/'>viagem califórnia (5)</option><option value='http://www.blogvambora.com.br/tag/retrospectiva/'>retrospectiva (5)</option><option value='http://www.blogvambora.com.br/tag/royal-caribbean/'>Royal Caribbean (5)</option><option value='http://www.blogvambora.com.br/tag/boi-garantido/'>boi garantido (5)</option><option value='http://www.blogvambora.com.br/tag/boi-caprichoso/'>boi caprichoso (5)</option><option value='http://www.blogvambora.com.br/tag/pacote-de-viagem/'>pacote de viagem (5)</option><option value='http://www.blogvambora.com.br/tag/deserto-do-atacama/'>deserto do atacama (5)</option><option value='http://www.blogvambora.com.br/tag/tripadvisor/'>tripadvisor (5)</option><option value='http://www.blogvambora.com.br/tag/cruzeiros/'>cruzeiros (5)</option><option value='http://www.blogvambora.com.br/tag/ricardo-freire/'>ricardo freire (5)</option><option value='http://www.blogvambora.com.br/tag/star-alliance/'>star alliance (5)</option><option value='http://www.blogvambora.com.br/tag/oktoberfest/'>oktoberfest (5)</option><option value='http://www.blogvambora.com.br/tag/central-park/'>central park (5)</option><option value='http://www.blogvambora.com.br/tag/corpus-christi/'>Corpus Christi (5)</option><option value='http://www.blogvambora.com.br/tag/versailles/'>versailles (5)</option><option value='http://www.blogvambora.com.br/tag/passagem-por-r-1/'>passagem por R$ 1 (5)</option><option value='http://www.blogvambora.com.br/tag/atracoes-virada-cultural/'>atrações virada cultural (5)</option><option value='http://www.blogvambora.com.br/tag/varig/'>Varig (5)</option><option value='http://www.blogvambora.com.br/tag/viagem-sao-paulo/'>viagem são paulo (5)</option><option value='http://www.blogvambora.com.br/tag/bavaria/'>Bavaria (4)</option><option value='http://www.blogvambora.com.br/tag/trump-hotel/'>Trump Hotel (4)</option><option value='http://www.blogvambora.com.br/tag/trump-ocean-club-international-tower/'>Trump Ocean Club International &amp; Tower (4)</option><option value='http://www.blogvambora.com.br/tag/infografico/'>infografico (4)</option><option value='http://www.blogvambora.com.br/tag/exposicao/'>exposição (4)</option><option value='http://www.blogvambora.com.br/tag/aeroporto/'>aeroporto (4)</option><option value='http://www.blogvambora.com.br/tag/submarino-viagens/'>Submarino Viagens (4)</option><option value='http://www.blogvambora.com.br/tag/dpny-beach-hotel/'>DPNY Beach Hotel (4)</option><option value='http://www.blogvambora.com.br/tag/cachoeiras/'>cachoeiras (4)</option><option value='http://www.blogvambora.com.br/tag/mercado/'>mercado (4)</option><option value='http://www.blogvambora.com.br/tag/macys/'>Macy's (4)</option><option value='http://www.blogvambora.com.br/tag/2012/'>2012 (4)</option><option value='http://www.blogvambora.com.br/tag/times-square/'>times square (4)</option><option value='http://www.blogvambora.com.br/tag/parque-de-diversao/'>parque de diversão (4)</option><option value='http://www.blogvambora.com.br/tag/premio-de-jornalismo/'>prêmio de jornalismo (4)</option><option value='http://www.blogvambora.com.br/tag/atracoes-de-barcelona/'>atrações de barcelona (4)</option><option value='http://www.blogvambora.com.br/tag/calendario-de-feriados/'>Calendário de Feriados (4)</option><option value='http://www.blogvambora.com.br/tag/parque-de-diversoes/'>parque de diversões (4)</option><option value='http://www.blogvambora.com.br/tag/restaurantes-de-sao-paulo/'>restaurantes de São Paulo (4)</option><option value='http://www.blogvambora.com.br/tag/ilustracoes/'>ilustrações (4)</option><option value='http://www.blogvambora.com.br/tag/resort/'>resort (4)</option><option value='http://www.blogvambora.com.br/tag/wi-fi/'>wi-fi (4)</option><option value='http://www.blogvambora.com.br/tag/cartao-sem-parar/'>cartão sem parar (4)</option><option value='http://www.blogvambora.com.br/tag/via-facil/'>via facil (4)</option><option value='http://www.blogvambora.com.br/tag/sem-parar/'>sem parar (4)</option><option value='http://www.blogvambora.com.br/tag/boca-da-barra/'>boca da barra (4)</option><option value='http://www.blogvambora.com.br/tag/mardi-gras/'>Mardi Gras (4)</option><option value='http://www.blogvambora.com.br/tag/compras-na-europa/'>compras na Europa (4)</option><option value='http://www.blogvambora.com.br/tag/asia/'>asia (4)</option><option value='http://www.blogvambora.com.br/tag/torre-eiffel/'>torre eiffel (4)</option><option value='http://www.blogvambora.com.br/tag/disney/'>disney (4)</option><option value='http://www.blogvambora.com.br/tag/souvenirs/'>souvenirs (4)</option><option value='http://www.blogvambora.com.br/tag/rock-in-rio/'>rock in rio (4)</option><option value='http://www.blogvambora.com.br/tag/tap/'>TAP (4)</option><option value='http://www.blogvambora.com.br/tag/o-que-ver/'>o que ver (4)</option><option value='http://www.blogvambora.com.br/tag/chocolate/'>chocolate (4)</option><option value='http://www.blogvambora.com.br/tag/ferias-de-julho/'>férias de Julho (4)</option><option value='http://www.blogvambora.com.br/tag/ano-da-franca-no-brasil/'>ano da frança no Brasil (4)</option><option value='http://www.blogvambora.com.br/tag/rua-augusta/'>rua augusta (4)</option><option value='http://www.blogvambora.com.br/tag/google-maps/'>google maps (4)</option><option value='http://www.blogvambora.com.br/tag/guia-de-viagem/'>guia de viagem (4)</option><option value='http://www.blogvambora.com.br/tag/tapas/'>tapas (4)</option><option value='http://www.blogvambora.com.br/tag/cardapio-restaurant-week/'>cardapio restaurant week (4)</option><option value='http://www.blogvambora.com.br/tag/festa-do-boi-bumba/'>festa do boi bumbá (4)</option><option value='http://www.blogvambora.com.br/tag/compras-em-londres/'>compras em Londres (4)</option><option value='http://www.blogvambora.com.br/tag/oscar-niemeyer/'>oscar niemeyer (4)</option><option value='http://www.blogvambora.com.br/tag/viagem-europa/'>viagem europa (4)</option><option value='http://www.blogvambora.com.br/tag/promocao-de-passagens/'>promoção de passagens (4)</option><option value='http://www.blogvambora.com.br/tag/shopping/'>shopping (4)</option><option value='http://www.blogvambora.com.br/tag/passagens-aereas/'>passagens aéreas (4)</option>						</select>
+						<noscript><input type="submit" value="Go" /></noscript>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+
+		</div></div><div id="banner300-widget-4" class="widget banner300"><div class="widget-wrap"><a href="http://bitly.com/SeguroViagemMondialAssistance" target="_blank"><img class="aligncenter size-full wp-image-28688" alt="300x250 (3)" src="http://www.blogvambora.com.br/wp-content/uploads/2014/12/300x250-3.jpg" width="300" height="250" /></a></div></div><div id="banner300-widget-6" class="widget banner300"><div class="widget-wrap"><script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Banner novo layout -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:300px;height:250px"
+     data-ad-client="ca-pub-9886732183159071"
+     data-ad-slot="6752537320"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script></div></div>			</div>
+
+			<div id="sidebar-bottom" class="clearfix">
+
+				<div id="sidebar-bottom-left">
+														</div>
+
+				<div id="sidebar-bottom-right">
+														</div>
+
+			</div>
+
+		</div>
+
+
+	</div>
+
+	
+</div>
+	<!-- inicio segundo rodape-->
+    <div id="segundorodapevambora">
+
+    <div id="textorodapevambora">
+        <div><a title="Subscribe via RSS Feed" href="http://www.blogvambora.com.br/feed/"><img class="rss-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/feed.png" alt="Subscribe via RSS Feed" align="top"  width="40"/></a>
+							<a rel="external" title="Follow Me on Twitter" href="http://www.twitter.com/vambora"><img class="twitter-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/twitter.png" alt="Follow Me on Twitter" align="top" width="40" /></a>
+										<a title="Connect on Facebook" rel="external" href="http://www.facebook.com/vambora"><img class="facebook-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/facebook.png" alt="Connect on Facebook" align="top" width="40" /></a>
+						<a rel="external" href="http://instagram.com/vambora"><img class="instagram-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/instagram.png" alt="" align="top" width="40" /></a>
+      <a rel="external" href="https://plus.google.com/u/0/+BlogvamboraBr/posts"><img class="instagram-sub" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/google-mais.png" alt="" align="top" width="40" /></a>
+    </div>
+      <p><br />Todo conteúdo do blogvambora.com.br está protegido pela Lei do Direito Autoral 9.610 de 19/02/1998. A reprodução total ou parcial do conteúdo deste site em qualquer outro meio de comunicação, com ou sem fins lucrativos, sem a prévia autorização por escrito da autora é PROIBIDA. Caso queira reproduzir ou adquirir qualquer material entre em <a 
+   href="http://fabrix.com.br/blogvambora.com.br/contato/">contato.</a></p>
+   </div>
+    <div id="associacoesvambora">
+    <h3>Associações, Redes e Prêmios</h3>
+    <p>
+      <ul id="listaassociacoesvambora">
+       <li> <a href="http://abbv.net.br/" target="_blank"><img src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/Selo-ABBV.png" style="max-height: 150px;" alt="Selo ABBV - Blog Associado"></a></li>
+    
+       <li><a href="http://www.rbbv.com.br/" target="_blank"><img src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/selo-abbv-2.jpg" style="max-width: 150px;max-height: 150px;" alt="RBBV-Blog Associado!"></a></li>
+
+       <li><a href="http://www.outros500.tv/site/" target="_blank"><img src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/seloOutros500.png" style="max-width: 180px;" alt="seloOutros500_Multishow"></a></li>        
+
+       <li><a href="http://www.fabrix.com.br/blogvambora.com.br/novidade-vambora-ganha-premio-de-jornalismo-da-comissao-europeia-de-turismo/"><img src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/selo-23-jornalismo.jpg" style="max-height: 150px;" alt="23 concurso jornalismo Europa"></a></li>
+
+      </ul>
+	</p>
+	</div>
+    </div><!-- fim segundo rodape-->
+
+
+<div id="footer">
+	<div class="limit clearfix">
+
+	    <div id="copyright">
+	    	<div class="logo_footer"><a href="http://www.fabrix.com.br/blogvambora.com.br" target="_blank"><img border="0" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/vambora-logofooter.png"></a></div>
+	    	<div class="txt_copy">&copy;  2016 Blog Vambora. Todos os direitos reservados </div>
+	    </div>
+
+		<div id="toast"><a href="http://www.zaw.com.br" target="_blank"><img border="0" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/zaw-logo.png"></a></div>
+		<!--div id="toast"><a href="http://www.toast.com.br" target="_blank"><img border="0" src="http://www.blogvambora.com.br/wp-content/themes/wp-davinci-20/images/toast-logo.jpg"></a></div-->
+	
+
+		
+		
+        
+
+	</div>
+</div>
+
+</div>
+
+<script type="text/javascript" src="http://www.blogvambora.com.br/wp-content/cache/minify/000000/M9RPzs8rSUwu0U3LL8rVNdfPzEvOKU1JLdbPAqLC0tSiSj2QjF5uZh4A.js"></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.blogvambora.com.br\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","sending":"Enviando...","cached":"1"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="http://www.blogvambora.com.br/wp-content/cache/minify/000000/M9RPzs8rSUwu0U3LL8rVNdfPzEvOKU1JLdbPKtYvTi7KLCgpBgA.js"></script>
+<script type="text/javascript">
+
+    var svm_CssExternal = "http://www.submarinoviagens.com.br/motor-afiliados/css/motor-afiliados-pas-300x250.css";
+    var svm_DivIDTarget = "resultado-busca";
+    var svm_AffiliatedID = "744";
+    var svm_s_cid = "blogvambora_motor_passagens";
+    var svm_utm_medium = "motor";
+    var svm_utm_source = "blogvambora";
+    var svm_utm_campaign = "passagens";
+
+    $.getScript("http://www.submarinoviagens.com.br/motor-afiliados/aereo.js");
+
+</script>
+
+<script type="text/javascript">
+  /*	
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-18377055-1']);
+  _gaq.push(['_addDevId', 'i9k95']);
+  _gaq.push(['_trackPageview']);
+
+  _gaq.push(['_setAccount', 'UA-4663695-5']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  */
+</script>
+
+
+<script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-18377055-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; 
+
+ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+
+
+<!-- **** SCript MadMimi **** -->
+<script type="text/javascript">
+(function() {
+  var form = document.getElementById("mad_mimi_signup_form"),
+      submit = document.getElementById("webform_submit_button"),
+      email = /.+@.+\..+/;
+      
+  form.onsubmit = function(event) {
+    var isValid = validate();
+    if(!isValid) {
+      for(var i = 0; i < form.elements.length; ++i) {
+        var input = form.elements[i];
+        if(input.className.indexOf("required") >= 0) {
+          input.onchange = validate;
+        }
+      }
+      return false;
+    }
+    if(form.getAttribute("target") != "_blank") {
+      form.className = "mimi_submitting";
+      submit.value = submit.getAttribute("data-submitting-text");    
+  		submit.disabled = true;
+  		submit.className = "disabled";
+    }
+
+    setTimeout(function() {
+      for(var i = 0; i < form.getElementsByTagName("input").length; ++i) {
+        var input = form.getElementsByTagName("input")[i];
+        if(input.getAttribute("type") == "text") {
+          input.value = "";
+        }
+        if(input.id == "signup_email") {
+          input.placeholder = "Insira seu e-mail";
+        } else {
+          input.placeholder = "";
+        }
+      }
+    }, 3000);
+  };
+  
+  function validate() {
+    var isValid = true;
+    
+    for(var i = 0; i < form.elements.length; ++i) {
+      var input = form.elements[i],
+          allDivs = input.parentNode.getElementsByTagName("div");
+
+      if(input.className.indexOf("required") >= 0) {
+        if(input.id == "signup_email") {
+          if(!email.test(input.value)) {
+            emailErrorMessage(input, allDivs);
+            isValid = false;
+          } else {
+            removeErrorMessage(input, allDivs);
+          }
+        } else {
+          if((input.type == "checkbox" && !input.checked) || input.value == "" || input.value == "-1") {
+            fieldErrorMessage(input, allDivs);
+            isValid = false;
+          } else {
+            removeErrorMessage(input, allDivs);
+          }
+        }
+      }
+    }
+    
+    form.className = isValid ? "" : "mimi_invalid";
+    submit.value = isValid ? submit.getAttribute("data-default-text") : submit.getAttribute("data-invalid-text");
+		submit.disabled = !isValid;
+		submit.className = isValid ? "submit" : "disabled";
+    
+    return isValid;
+  }
+
+  function emailErrorMessage(input, allDivs) {
+    if(input.getAttribute("data-webform-type") == "iframe") {
+      input.className = "required invalid";
+      input.placeholder = input.getAttribute("data-required-message") || "This field is required";
+    } else {
+      allDivs[0].innerHTML = input.getAttribute("data-invalid-message") || "This field is invalid";
+    }
+  }
+
+  function fieldErrorMessage(input, allDivs) {
+    if(input.getAttribute("data-webform-type") == "iframe") {
+      input.className = "required invalid";
+      input.placeholder = input.getAttribute("data-required-message") || "This field is required";
+    } else {
+      for(var i = 0; i < allDivs.length; ++i) {
+        var element = allDivs[i];
+        if(element.className.indexOf("mimi_field_feedback") >= 0) {
+          return element.innerHTML = input.getAttribute("data-required-message") || "This field is required";
+        }
+      }
+    }
+  }
+
+  function removeErrorMessage(input, allDivs) {
+    if(input.getAttribute("data-webform-type") == "iframe") {
+      input.className = "required";
+    }
+
+    for(var i = 0; i < allDivs.length; ++i) {
+      var element = allDivs[i];
+      if(element.className.indexOf("mimi_field_feedback") >= 0) {
+        return element.innerHTML = "";
+      }
+    }
+  }
+})();
+</script>
+<!-- **** SCript MadMimi **** -->
+
+<script type="text/javascript">
+
+ var svm_CssExternal = "http://www.submarinoviagens.com.br/motor-afiliados/css/motor-afiliados-pas-
+
+300x250.css";
+
+ var svm_DivIDTarget = "resultado-busca";
+
+ var svm_AffiliatedID = "744";
+
+ var svm_s_cid = "blogvambora_motor_passagens";
+
+ var svm_utm_medium = "motor";
+
+ var svm_utm_source = "blogvambora";
+
+ var svm_utm_campaign = "passagens";
+
+ $.getScript("http://www.submarinoviagens.com.br/motor-afiliados/aereo.js");
+
+</script>
+
+</body>
+
+</html>
+<!-- Performance optimized by W3 Total Cache. Learn more: http://www.w3-edge.com/wordpress-plugins/
+
+Minified using apc
+Page Caching using apc
+Database Caching 8/216 queries in 0.118 seconds using apc
+Object Caching 5785/7194 objects using apc
+
+ Served from: www.blogvambora.com.br @ 2016-01-26 07:51:30 by W3 Total Cache -->

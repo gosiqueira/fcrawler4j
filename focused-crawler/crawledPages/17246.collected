@@ -1,0 +1,547 @@
+title=HyperDia | Timetable and Route Search in Japan.
+url=http://www.hyperdia.com/en/
+html=﻿<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+   "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+<head>
+<meta http-equiv="Content-Style-Type" content="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Language" content="en" />
+<meta name="keywords" content="hyper,Japan,train,railway,rail,schedule,timetable,JR,voice,iPhone">
+<meta name="description" content="HyperDia-timetable is a service which offers the route and the timetable of the railway and the aviation within Japan. The route search corresponds to not only Japanese but also English and Chinese. In addition, this service possesses the golf course search function. And, our company offers and sells the traveling expenses adjustment system using the route searach function of HyperDia-timetable.">
+<link rel="alternate" type="application/rss+xml" title="HyperDia News Reports" href="rss.xml" />
+<meta name="verify-v1" content="3FAo+CelsXcQ6SCo42/+ISaUirr0cy5gvoxvwsExqVg=" />
+<META name="y_key" content="7c5c67906e74948e">
+<title>HyperDia | Timetable and Route Search in Japan.</title>
+<link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+<link rel="icon" href="favicon.ico" type="image/vnd.microsoft.icon" />
+<style type="text/css" media="all">
+<!--
+@import "css/cookiestip.css";
+// -->
+</style>
+<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen,print">
+<link rel="stylesheet" href="css/lib/ie.css" type="text/css" media="screen">
+
+<style type="text/css" charset="Shift_JIS" media="all">
+<!--
+@import "css/tip.css";
+// -->
+.auto-style1 {
+	color: #448AC9;
+}
+</style>
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Cache-Control" content="no-cache" />
+<meta http-equiv="Content-Script-Type" content="text/javascript" />
+<script type="text/javascript" src="./js/lib/prototype.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/lib/completion.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/lib/argument_manager.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/lib/styleswitcher.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/hyp_define.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/hyp_route_search.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/hyp_view.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/hyp_main_window.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/en/hyp_define_en.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/hyp_date.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/en/tip.js"  charset="UTF-8"></script>
+<script type="text/javascript" src="./js/en/hyp_cookie_msg_en.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/cookie.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/cookiestip.js" charset="UTF-8" defer></script>
+
+<link href="./js/ja/window/themes/default.css" rel="stylesheet" type="text/css"/>
+<link href="./js/ja/window/themes/alphacube.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="./js/ja/window/window.js" charset="UTF-8" ></script>
+
+</head>
+
+<body onload="initialize();init_hyp_date();initTip();">
+
+<input type="hidden" id="lc_lang" value="en"/>
+<div class="hyp_main">
+<div class="container">
+<div class="header clearfix">
+<h1><div class="hyper_logo"><a href="./"><img src="images/logo_e.png" alt="HyperDia" width="190" height="65"></a></div></h1>
+<div class="his_logo">
+<a target="_blank" href="http://www.hitachi-systems.com/eng/index.html"><img src="images/hisys-logo_e.gif" alt="Hitachi Systems"></a>
+</div>
+<div>
+<ul class="navi"><li class="navi_on">Top</li><li><a href="hyper/hyper.html">About HyperDia</a></li>
+<li class="tabs_on"><a href="product/product.html">Product&amp;Service</a></li><li class="tabs_on"><a href="support/support.html">Contact Us</a></li></ul>
+</div><!--/navi-->
+</div><!--/header-->
+
+<div class="main clearfix" id="search_condition">
+
+  <div class="col1 clearfix">
+
+<h2 class="btm">Timetable and Route Search</h2>
+<noscript>Please use a JavaScript enabled.</noscript>
+<div>
+<ul class="tabs"><li class="tabs_on"><a href="/ja/">Japanese</a></li><li class="tabs_on">English</li>
+<li class="tabs_on"><a href="/zh/">Chinese</a></li></ul>
+</div>
+
+<div class="box">
+<h3 class="btm2">Search Condition</h3>
+<div class="form1">
+<form id="search">
+  <table>
+      <tr class="tr">
+        <td class="c1">From</td>
+        <td><input name="dep_node" style="ime-mode: disabled;" id="dep_node" type="text" value="" class="c3_l">
+        	<img src="images/touroku.gif" id="dep_node_img" width="20" height="20" alt="set the favorite" class="c3_l" onclick="showCookieInfo('dep_node');return false;"></td>
+        <td class="c3" rowspan="2"><img src="images/icon_arrow.gif" width="19" height="23" alt="replace the from to" onclick="reverseNode()"></td>
+      </tr>
+      <tr>
+        <td class="c1">To</td>
+        <td><input name="arv_node" style="ime-mode: disabled;" id="arv_node" type="text" value="" class="c3_l">
+        	<img src="images/touroku.gif" id="arv_node_img" width="20" height="20" alt="set the favorite" class="c3_l" onclick="showCookieInfo('arv_node');return false;" ></td>
+      </tr>
+      <tr>
+        <td class="c1">Date</td>
+        <td colspan="2">
+<select name="ymSel" id="ymSel" onchange="changeDayOptions(this.value);" onblur="setYearMonthElm()">
+<option value="201510">Oct/2015</option>
+<option value="201511">Nov/2015</option>
+<option value="201512">Dec/2015</option>
+<option value="201601">Jan/2016</option>
+<option value="201602">Feb/2016</option>
+<option value="201603">Mar/2016</option>
+<option value="201604">Apr/2016</option>
+<option value="201605">May/2016</option>
+<option value="201606">Jun/2016</option>
+<option value="201607">Jul/2016</option>
+<option value="201608">Aug/2016</option>
+<option value="201609">Sep/2016</option>
+</select>
+<select name="day" id="day">
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select>
+
+<input type="hidden" id="year" name="year" style="margin:0px;padding:0px;"/>
+<input type="hidden" id="month" name="month" style="margin:0px;padding:0px;"/>
+          </td>
+      </tr>
+      <tr>
+        <td class="c1">Time</td>
+<td colspan="2">
+<select name="hour" id="hour">
+<option value="00">12am</option>
+<option value="01">01am</option>
+<option value="02">02am</option>
+<option value="03">03am</option>
+<option value="04">04am</option>
+<option value="05">05am</option>
+<option value="06">06am</option>
+<option value="07">07am</option>
+<option value="08">08am</option>
+<option value="09">09am</option>
+<option value="10">10am</option>
+<option value="11">11am</option>
+<option value="12">12pm</option>
+<option value="13">01pm</option>
+<option value="14">02pm</option>
+<option value="15">03pm</option>
+<option value="16">04pm</option>
+<option value="17">05pm</option>
+<option value="18">06pm</option>
+<option value="19">07pm</option>
+<option value="20">08pm</option>
+<option value="21">09pm</option>
+<option value="22">10pm</option>
+<option value="23">11pm</option>
+</select>
+<select name="minute" id="minute">
+<option value="00">00</option>
+<option value="01">01</option>
+<option value="02">02</option>
+<option value="03">03</option>
+<option value="04">04</option>
+<option value="05">05</option>
+<option value="06">06</option>
+<option value="07">07</option>
+<option value="08">08</option>
+<option value="09">09</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+<option value="51">51</option>
+<option value="52">52</option>
+<option value="53">53</option>
+<option value="54">54</option>
+<option value="55">55</option>
+<option value="56">56</option>
+<option value="57">57</option>
+<option value="58">58</option>
+<option value="59">59</option>
+</select>
+          </td>
+      </tr>
+      <tr>
+        <td class="c1">Type</td>
+        <td colspan="2"><select name="search_type" id="search_type" style="width: 120px;" style="z-index: 1;">
+            <option value="0" selected>Departure</option>
+            <option value="1">Arrival</option>
+            <option value="2">Average</option>
+          </select>        </td>
+      </tr>
+      <tr>
+        <td class="c5" colspan="3"><a href="#" onclick="showSearch()">More options</a></td>
+       </tr>
+		</table>
+      <div id="search_detail" style="display:none;">
+	<table>
+      <tr>
+	  <td class="c1">Via 1</td>
+        <td >
+          <div><input type="text" name="via_node01" style="ime-mode: disabled;"  id="via_node01" /></div>
+        </td>
+		<td class="c3" rowspan="2"><img src="images/icon_arrow.gif" width="19" height="23" style="visibility:hidden;"></td>
+      </tr>
+	  <tr>
+	  <td class="c1">Via 2</td>
+        <td >
+          <div><input type="text" name="via_node02" style="ime-mode: disabled;"  id="via_node02" /></div>
+        </td>
+      </tr>
+	  <tr>
+	  <td class="c1">Via 3</td>
+        <td colspan="2">
+          <div><input type="text" name="via_node03" style="ime-mode: disabled;"  id="via_node03" /></div>
+       </td>
+      </tr>
+<input type="hidden" id="search_way" name="search_way" style="margin:0px;padding:0px;"/>
+	   <tr>
+        <td class="c1">Order</td>
+        <td colspan="2">
+			<select name="sort" id="sort" style="width: 120px;" style="z-index: 1;">
+              <option value="0" selected>Time</option>
+              <option value="1">Transfer</option>
+			  <option value="2">Money</option>
+          </select></td>
+      </tr>
+	  <tr>
+        <td class="c1">Max Routes</td>
+        <td colspan="2">
+			<select name="max_route" id="max_route" style="z-index: 1;">
+              <option value="1">1</option>
+			  <option value="2">2</option>
+			  <option value="3">3</option>
+			  <option value="4">4</option>
+			  <option value="5" selected>5</option>
+			  <option value="6">6</option>
+			  <option value="7">7</option>
+			  <option value="8">8</option>
+			  <option value="9">9</option>
+			  <option value="10">10</option>
+          </select></td>
+      </tr>
+      <tr>
+		<td class="c1">Fare Type</td>
+		<td colspan="2">
+			<select name="faretype" id="faretype" style="width: 60px; z-index: 1;">
+			  <option value="0" selected>Ticket</option>
+			  <option value="1">IC</option>
+		  </select></td>
+      </tr>
+	  <tr>
+		<td class="c1" style="vertical-align: top !important;">
+			Vehicle Type
+		</td>
+		<td class="td_use_boder" colspan="2">
+			<table>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="airplane" id="airplane" value="off" checked/>Airplane</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="bus" id="bus" value="off" checked/>Airport Shuttle Bus</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="sprexprs" id="sprexprs" value="off" checked/>Bullet Train (SHINKANSEN)</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="sprnozomi" id="sprnozomi" value="off" checked/>NOZOMI / MIZUHO /<br /><span style="margin-left: 1.5em;">HAYABUSA (SHINKANSEN)</span></label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="utrexprs" id="utrexprs" value="off" checked/>Limited Express</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="exprs" id="exprs" value="off" checked/>Express</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="liner" id="liner" value="off" checked/>Liner</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="walk" id="walk" value="off" checked/>Walk</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="slputr" id="slputr" value="off" checked/>Sleeper Limited Express</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="slpexprs" id="slpexprs" value="off" checked/>Sleeper Express</label></td>
+				</tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="regular" id="regular" value="off" checked/>Local Train</label></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+<input type="hidden" id="ship" name="ship" style="margin:0px;padding:0px;"/>
+	<tr>
+		<td class="c1" style="vertical-align: top !important;">
+			Corp.
+		</td>
+		<td class="td_use_boder">
+			<table>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="jr" id="jr" value="off" checked/>Japan Railway(JR)</label></tr>
+				<tr>
+					<td class="td_use_line"><label><input type="checkbox" name="privately" id="privately" value="off" checked>Private Railway</label></tr>
+			</table>
+		</td>
+	</tr>
+	</table>
+	</div>
+
+      <table>
+      <tr>
+        <td class="c4" colspan="3"><div><input class="s_btn" type="button" value="Search" id="searchButton"  onClick="closeGoogleTipOnSearch();searchRoute();"  name="Input"></div></td>
+      </tr>
+	  </table>
+
+	 </form>
+</div>
+</div>
+</div><!--/col1-->
+
+<div class="col2 clearfix">
+<div class="topimage"><img src="images/branding.jpg" width="585" height="100">
+<div style="text-align:center;margin-top:0.5em;">
+<h3 class="btm3"><a>Our Products</a></h3>
+</div>
+<table>
+<tr>
+	<td style="padding-left: 0px; padding-top: 5px; padding-bottom: 0px;">
+		<a href="http://itunes.apple.com/jp/app/id379001449?mt=8">
+		<img width="585" height="130" src="images/banner/voice_bnr_en.jpg" alt="HyperDia by VOICE for iPhone/iPad"></a>
+	</td>
+</tr>
+<tr>
+	<td style="padding-left: 0px; padding-top: 5px; padding-bottom: 0px;">
+		<a href="product/android">
+		<img src="images/banner/android_bnr_en.png" alt="HyperDia for Android"></a>
+	</td>
+</tr>
+<tr>
+	<td colspan="2" style="padding-left: 10px;">
+		<fieldset style="margin-top: 0px; margin-bottom: 0px; padding: 10px; border-color: #c0c0c0;">
+			<legend style="padding: 0px; margin: 0px; color:#06348b;">Videos</legend>
+
+<div class="cen">
+<div style="float:left; width:270px;">
+<a onclick="new Window({url:'./movie/disc_japan.html', className:'alphacube', title:'DISCOVER JAPAN', width:680, height:400, destroyOnClose:false, recenterAuto:false}).showCenter(true);return false;" href="javascript:;">
+<img src="./images/movie_disc_japan.png" width="224" height="120">
+</a>
+<div>DISCOVER JAPAN</div>
+</div>
+
+<div style="float:right; width:270px;">
+<a onclick="new Window({url:'./movie/timetableplanning.html', className:'alphacube', title:'Timetable Planning System', width:680, height:400, destroyOnClose:false, recenterAuto:false}).showCenter(true);return false;" href="javascript:;">
+<img src="./images/movie_timetableplanning.png" width="224" height="120">
+</a>
+<div>Timetable Planning System<div>
+</div>
+</div>
+		</fieldset>
+	</td>
+</tr>
+
+</table>
+</div>
+
+
+<div class="col2left clearfix">
+<h3 class="btm3"><a href="report/report.html">Information</a></h3>
+
+<!--Renewal Open add start-->
+
+
+<table>
+
+<tr>
+<td colspan="2">
+<ul class="marginB">
+<li><b>Timetable updated</b>
+<br>
+On December 18, 2015, we updated timetable on HyperDia.<br>
+</li>
+</ul>
+</td>
+</tr>
+
+<tr>
+<td colspan="2">
+<ul class="marginB">
+<li><b>Cooperation with Hotels.com</b>
+<br>
+On October 30, 2015, we began collaborating with Hotels.com - an online hotel booking service. <br>
+You can get information on nearby hotels when you click on the hotel link in your search results. Please do try it out. <br>
+</li>
+</ul>
+</td>
+</tr>
+
+<!-- 「声でハイパーダイヤ」販売国拡大 start -->
+<tr>
+	<td colspan="2" style="padding-left: 10px;">
+		<fieldset style="margin-top: 0px; margin-bottom: 10px; padding: 10px; border-color: #c0c0c0;">
+			<legend style="padding: 0px; margin: 0px; color:#FF8C00 ;">"HyperDia by VOICE", expansion into 8 countries</legend>
+			On October 14, 2015, "HyperDia by VOICE" was released on the Apple's App Store not only in Japan, the US and some of the EU, but also in Canada, Croatia, Cyprus, Iceland, Norway, South Africa, South Korea and Switzerland. <br>
+			Click on "<a href="product/voice/">About HyperDia by VOICE</a>" to find out if it is available in your country. 
+		</fieldset>
+	</td>
+</tr>
+<!-- 「声でハイパーダイヤ」販売国拡大 end -->
+<!-- 「ハイパーダイヤ for Android」販売国拡大 start -->
+<tr>
+	<td colspan="2" style="padding-left: 10px;">
+		<fieldset style="margin-top: 0px; margin-bottom: 10px; padding: 10px; border-color: #c0c0c0;">
+			<legend style="padding: 0px; margin: 0px; color:#FF8C00 ;">"HyperDia for Android", expansion into 32 countries</legend>
+			On October 14, 2015, "HyperDia for Android" was released on the Google Play Store not only in Japan and the US but also in some of the EU. <br>
+			Click on "<a href="product/android/">About HyperDia for Android</a>" to find out if it is available in your country. 
+		</fieldset>
+	</td>
+</tr>
+<!-- 「ハイパーダイヤ for Android」販売国拡大 end -->
+
+<tr>
+<td colspan="2">
+<ul class="marginB">
+<font color="#ff0000">
+<li><b>Warning: <br>Unauthorized third party software distribution. </b>
+<br>
+Hitachi Systems, Ltd. does not endorse, authorize or approve ANY third party software or application with HyperDia search function. <br>
+</li>
+</font>
+</ul>
+</td>
+</tr>
+
+</table>
+</div>
+<!--Renewal Open add end-->
+
+<div class="col2right clearfix">
+<h3 class="btm4">Other Products</h3>
+<div class="ban">
+<div class="under1">
+<a target="_blank" href="http://www.hitachi-systems.com/biz/sbgateway/index.html"><img src="images/banner/banner_sbg.jpg" alt="オープンイノベーションサービス「Smart Business Gateway」"></a>
+</div>
+<div class="under1">
+<a target="_blank" href="http://www.hitachi-systems.com/cloud/"><img src="images/banner/banner_cloud.jpg" alt="クラウドソリューション"></a>
+</div>
+<div class="under1">
+<a target="_blank" href="http://www.hitachi-systems.com/global/"><img src="images/banner/banner_gnext.jpg" alt="GNEXT"></a>
+</div>
+<div class="under1">
+<a target="_blank" href="http://www.hitachi-systems.com/ind/fs/"><img src="images/banner/banner_fs_c.jpg" alt="日立 製造・流通業向け基幹業務ソリューション 「FutureStage」"></a>
+</div>
+<div class="under1">
+<a target="_blank" href="http://www.hitachi-systems.com/ind/adworld/"><img src="images/banner/banner_adworld.jpg" alt="日立 自治体ソリューション 「ADWORLD」"></a>
+</div>
+<div class="under1">
+<a target="_blank" href="http://www.hitachi-systems.com/solution/th/ms/index.html"><img src="images/banner/banner_ms.jpg" alt="日立システムズのMicrosoft(R) ソリューション"></a>
+</div>
+<div class="under1">
+<a target="_blank" href="http://minonaruki.jp/"><img src="images/banner/minonaruki.jpg" alt="オープンクラウドマーケットプレース"></a>
+</div>
+<div class="under1">
+<a target="_blank" href="http://www.hitachi-systems.com/ind/cybozu/"><img src="images/banner/banner_cybozu-02.jpg" alt="サイボウズ"></a>
+</div>
+</div>
+
+</div><!--/col2right-->
+</div><!--/col2-->
+
+<div class="footer clearfix">
+<a href="hyper/hyper.html">About HyperDia</a> | <a href="product/product.html">Product&amp;Service</a> | <a href="support/support.html">Contact Us</a>
+ | <a href="rule/rule.html">Policies &amp; Environment</a> | <a href="individual_info/individual_info.html">Privacy Policies</a>
+ | <a href="hitachisystems/hitachisystems.html">Company Profile</a> | <a href="sitemap/sitemap.html">Sitemap</a>
+</div>
+
+</div><!--/main-->
+<!--/container-->
+<iframe src="frame/copyright.html" frameborder="no" scrolling="no" width="910" height="28"></iframe>
+</div><!--/header-->
+</div>
+</body>
+</html>

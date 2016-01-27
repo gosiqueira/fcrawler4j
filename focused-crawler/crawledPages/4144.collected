@@ -1,0 +1,142 @@
+title=Passagens Aéreas, Hotéis e Pacotes é no Submarino Viagens
+url=https://www.submarinoviagens.com.br/meus-pedidos/
+html=
+<!DOCTYPE html>
+<html itemscope itemtype="http://schema.org/LocalBusiness" ng-app="b2wviagensapp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=1007">
+
+
+<meta name="tagging"  content="meus-pedidos" ><meta itemprop="name"  content="VOU VIAJAR!!! Acabei de comprar minha hospedagem no " ><meta itemprop="description"  content="VOU VIAJAR!!! Acabei de comprar minhas passagens para " ><meta itemprop="image"  content="/content/dam/images/destinos/gerais/paCores.jpg/jcr:content/renditions/grid-5-320x320.jpg" >
+    <title>Passagens A&eacute;reas, Hot&eacute;is e Pacotes &eacute; no Submarino Viagens</title>
+
+    <link href="/purchase-flow/bundles/css/submarino?v=Mz307yE158RuCgz-71sP8uyf2-MX-8D38byFsqau9ww1" rel="stylesheet"/>
+
+
+    <link href="/etc/designs/submarino-viagens/clientlibs_base/css/alteracoes-transacional/alteracoes-transacional.css" rel="stylesheet" />
+    <script type="text/javascript" src="/purchase-flow/WebCommon/Handlers/config.ashx"></script>
+
+    <script type="text/javascript" language="javascript">
+        var b2wviagens = b2wviagens || { };
+        b2wviagens.global = b2wviagens.global || { };
+        b2wviagens.global.serverHost = "10.231.16.110";
+        b2wviagens.global.serverMachineName = "GANDIA";
+        b2wviagens.global.mockEnabled = false;
+        b2wviagens.global.culture = "pt-BR";
+        b2wviagens.global.clientIP = "187.1.61.26, 186.192.134.38, 216.246.75.192";
+        b2wviagens.global.hashTemplate = "eQrHMbqomKZkDsDM1TJcbjrjVyfa2ufsIx8tWbJx2XA1";
+    </script>
+
+    <script src="/purchase-flow/bundles/common?v=maIYJB9LEkOMw4SUPtRE6wZvg3w1JVxLfOyqol-0VQo1"></script>
+
+
+<script src="/purchase-flow/bundles/myPurchases?v=AscjKqpFue01US5RUkphyf3HrMEsaaqJz6U8iP1z0qA1"></script>
+
+    <link rel="icon" type="image/vnd.microsoft.icon" href="/content/dam/images/submarino/favicon.ico">
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/content/dam/images/submarino/favicon.ico">
+    <!--Maxymiser script start -->
+    <script type="text/javascript" src="/purchase-flow/WebCommon/Content/js/mmcore.js"></script>
+    <!--Maxymiser script end -->
+</head>
+<body ng-cloak class="flux-collapsed my-purchases" id="body" responsive lang="pt-BR">
+    <base href="/" />
+    
+<!-- Code para anular bug no safari 8 - IMPORTANTE= NÃO RETIRAR ESSE CODIGO -->
+<style>
+.criteo_header { /*Para resolver o problema com o Safari 8*/
+    display:none !important;
+}
+/*.logo-header a{
+	background-color:#000 !important;
+}
+.logo-header span {
+    border-left: 1px solid #000 !important;
+    border-right: 1px solid #000 !important;
+}
+
+.main-menu-wrapper{
+	border-bottom: 1px solid #252525 !important;
+    background-color: #252525 !important;
+}*/
+</style>
+<header class="main-header">
+<!-- MAIN MENU -->
+    <div class="main-menu-wrapper" style="height: 80px;">
+        <div class="wrapper">
+            <nav>
+                <ul class="main-menu" style="display: table;margin: 0 auto;">
+                    <li class="menu-logo">
+                        <h1 class="logo-header" style="top: -12px;height: 92px;"><a href="https://www.submarinoviagens.com.br" style="height: 92px;">Submarino Viagens<span>4003-9888</span></a></h1>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- MAIN MENU - FIM -->
+</header>
+
+    <div class="master-container" ng-view>
+
+    </div>
+    <loader show="$root.pageLoader.show()" progress="$root.pageLoader.progress" loader-title="$root.pageLoader.title" description="$root.pageLoader.description"></loader>
+    <script type="text/ng-template" id="b2wviagens-custom-messages">
+
+    <!--COMMON-->
+    <div ng-message="errorSearch"><div translate>erro_pesquisa</div></div>
+    <div ng-message="errorFilter"><div translate>erro_filtro</div></div>
+    <div ng-message="errorPagination"><div translate>erro_paginacao</div></div>
+    <div ng-message="errorSort"><div translate>erro_ordenacao</div></div>
+    <div ng-message="errorAddToCart"><div>{{'pedido_nao_processado_1' | translate}} 4003-9888 {{ 'pedido_nao_processado_2' | translate}}</div></div>
+    <div ng-message="errorGetCart"><div translate>erro_obter_dados</div></div>
+    <div ng-message="errorProcessOrder"><div>{{'erro_finalizacao' | translate }} 4003-9888</div></div>
+    <div ng-message="errorCreditCardDenied"><div translate>erro_cartao_negado</div></div>
+    <div ng-message="errorSessionExpired"><div translate>erro_sessao_expirada</div></div>
+    <div ng-message="errorValidation"><div translate>erro_validacao</div></div>
+    <div ng-message="errorNoResultsAfter"><div translate>busca_sem_resultados_after</div></div>
+
+    <!--AIR-->
+    <div ng-message="errorAirNoResults"><div translate>busca_sem_resultados</div></div>
+    <div ng-message="errorAirCalendar"><p translate>erro_calendario</p></div>
+    <div ng-message="errorAirGetInstallments"><div translate>erro_parcelamento</div></div>
+    <div ng-message="errorAirPriceChanged"><div translate>erro_aereo_preco_alterado</div></div>
+
+    <!--HOTEL-->
+    <div ng-message="errorHotelGetMap"><div translate>erro_mapa_hotel</div></div>
+    <div ng-message="errorHotelNoResults"><div translate>sugestao_hotel</div></div>
+    <div ng-message="errorHotelGetMapHotel"><div translate>erro_mapa_hotel_detalhe</div></div>
+    <div ng-message="errorHotelPriceChanged"><div translate>erro_hotel_preco_alterado</div></div>
+
+    <!--PACKAGE-->
+    <div ng-message="errorPackagePriceChanged"><div translate>erro_pacote_preco_alterado</div></div>
+    <div ng-message="errorProcessChangeFlight"><div translate>erro_pacote_alterar_voo</div></div>
+
+    <!--EXTREME SEARCH-->
+    <div ng-message="errorAirFlexibleMap"><div translate>erro_extreme_search_mapa</div></div>
+    <div ng-message="errorAirFlexibleCalendar"><div translate>erro_extreme_search_calendario</div></div>
+
+    <!--CONFIRMATION-->
+    <div ng-message="errorSeatSelectConfirmation"><div translate>erro_reserva_assento</div></div>
+
+
+    <!--MYPURCHASES-->
+    <div ng-message="errorLoginOrPassword"><div>{{'login_senha_invalido' | translate}}, para pedidos anteriores à 19/05/2015 00:00:00 clique <a href="/meuspedidos/">aqui</a> </div></div>
+    <div ng-message="errorLogin"><div translate>erro_login</div></div>
+</script>
+
+
+    <!-- Google Tag Manager -->
+        <noscript>
+            <iframe src="//www.googletagmanager.com/ns.html?id=GTM-PM2CRH" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <script>
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.onerror=function(){loadGTM(dataLayer, 'GTM-PM2CRH')};j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-PM2CRH');
+        </script>
+    <!-- End Google Tag Manager -->
+</body>
+</html>

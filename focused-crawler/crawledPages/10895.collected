@@ -1,0 +1,152 @@
+title=Parrilla Don Julio
+url=http://www.parrilladonjulio.com.ar/
+html=<!DOCTYPE html>
+
+<head>
+
+<link href='http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Noto+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="Description" content="BIENVENIDOS A PARRILLA DON JULIO, EL CLÁSICO EN EL CORAZÓN DE PALERMO, Pasión por lo nuestro">
+<meta name="keywords" content="Parrilla Don Julio, Restaurant, La mejor parrilla, Carne, Asado, Achuras, Chorizo, Riñón, Cava, Pastas, Barrio Palermo, Guatemala 4699, Pasión por lo nuestro"/> 
+
+<link rel="stylesheet" href="css/slider.css" type="text/css" media="screen" />
+
+<link rel="stylesheet" href="css/nuevo.css" type="text/css" media="screen" />
+
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+
+<script>
+$(document).ready(function(){
+	var pagina = $('#pagina').text();
+	$(pagina).addClass('selected');
+	
+});
+</script>
+
+
+    
+<title>Parrilla Don Julio</title>
+<style type="text/css">
+a:link {
+	color: #FFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFF;
+}
+a:hover {
+	text-decoration: none;
+	color: #FFF;
+}
+a:active {
+	text-decoration: none;
+	color: #FFF;
+}
+</style>
+</head>
+
+<body>
+
+<div id="navegacion"><!--empieza navegación-->
+
+<div id="contenedor_menu"><!--empieza contenedor-->
+
+<div id="logo"> <a href="nueva_web/index.html" target="_self"><img src="imgs/logo.png" width="187" height="54" alt="parrilla don julio"></a></div>
+
+<nav>
+<div id='menu'><!--empieza menu-->
+				<ul>
+   					<li><a id="especialidades" href='nueva_web/nuevo_especialidades.html'>ESPECIALIDADES</a></li>
+  					<li><a id="cava" href='nueva_web/nuevo_cava.html'>CAVA</a></li>
+   					<li><a id="promociones" href='nueva_web/nuevo_promociones.html'>BENEFICIOS</a></li>
+   					<li><a id="reservas" href='nueva_web/nuevo_reservas.html'>RESERVAS</a></li>
+   					<li><a id="gift-card" href='nueva_web/nuevo_gift-card.html'>GIFT CARD</a></li>
+   					<li><a id="ubicacion" href='nueva_web/nuevo_ubicacion.html'>UBICACION</a></li>
+   					<li><a id="trabajar-en-don-julio" href='mailto:trabajarendonjulio@parrilladonjulio.com.ar'mailto:trabajarendonjulio@parrilladonjulio.com.ar'>TRABAJAR EN DON JULIO</a></li>
+   					<li><a id="prensa" href='nueva_web/nuevo_prensa.html'>PRENSA</a></li>
+   					<li class="ultimo"><a id="contacto" href='mailto:info@parrilladonjulio.com.ar'>CONTACTO</a></li>
+				</ul>
+		</div>
+        
+<div id="pagina">#</div>
+        
+</nav>
+
+<div id="facebook_ingles"><img src="imgs/facebook_ingles.png" alt="facebook parrilla don julio" width="27" height="64" border="0" usemap="#Map">
+  <map name="Map">
+    <area shape="rect" coords="3,3,31,25" href="http://www.facebook.com">
+    <area shape="rect" coords="4,45,31,72" href="index_ingles.html" target="_self">
+  </map>
+</div>
+
+<div id="quince_anios"><img src="imgs/15anios.png" width="146" height="60" alt="quince años parrilla don julio"> </div>
+
+
+
+
+</div><!--cierra contenedor-->
+		
+        
+</div><!--cierra navegación-->
+
+<main>
+<div id="contenedor_main">
+
+
+<div id="logo_home"> <img src="imgs/logo_home.png" width="296" height="80" alt="Parrilla Don Julio"><br>
+<br><br>
+
+
+
+<h2> <a href="nueva_web/nuevo_especialidades.html">BIENVENIDOS - PASEN</a></h2><br>
+
+
+<h3> <a href="nueva_web/nuevo_especialidades_ingles.html">WELCOME - COME IN</a></h3>
+<div align="center"><br>
+  
+  
+  <img src="nueva_web/imgs/50_blanco.png" width="165" height="252"></div>
+</div>
+
+
+
+</div>
+</main>
+
+<div id="wrapper">
+
+<div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+               
+               <img src="imgs/slider_uno.jpg" data-thumb="imgs/especialidades_uno.jpg" alt="Parrilla Don Julio" />
+               <img src="imgs/slider_dos.jpg" data-thumb="imgs/especialidades_dos.jpg" alt="Parrilla Don Julio" /> 
+               <img src="imgs/slider_tres.jpg" data-thumb="imgs/especialidades_tres.jpg" alt="Parrilla Don Julio" />
+                
+                
+			</div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                 
+            </div>
+        </div><!-- slider-wrapper -->
+
+    </div><!-- wrapper -->
+    <script type="text/javascript" src="nivo-slider/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+    
+<div id="pagina">#especialidades</div>
+    
+</body>
+</html>

@@ -1,0 +1,545 @@
+title=
+url=http://www.meusubviagens.com.br/
+html=<!DOCTYPE html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]> <html class="lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]> <html class="lt-ie9" lang="en"> <![endif]-->
+<!--[if IE 9]> <html class="ie9" lang="en"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html lang='en'>
+<!--<![endif]-->
+<head><script type="text/javascript">var NREUMQ=NREUMQ||[];NREUMQ.push(["mark","firstbyte",new Date().getTime()]);</script>
+<title></title>
+<meta content='No MeuSubViagens você é o dono da sua própria agência de turismo. Entre e confira as minhas ofertas.' name='description'>
+<meta content='passagens, aéreas, viagens, submarino, meusubviagens, curtir, dinheiro, comissão, loja' name='keywords'>
+<meta content='MeuSubViagens' property='og:title'>
+<meta content='No MeuSubViagens você é o dono da sua própria agência de turismo. Entre e confira as minhas ofertas.' property='og:description'>
+<meta content='https://curtivendi-com-br.s3.amazonaws.com/curtivendi_submarino_prod/assets/1.0.18/share-default-e0ddea55346da73bff03544811a74c83.jpg' property='og:image'>
+<link href='https://curtivendi-com-br.s3.amazonaws.com/curtivendi_submarino_prod/assets/1.0.18/favicon-d12161e09a9abc52df1f5502afbb2791.ico' rel='shortcut icon' type='image/x-icon'>
+<link href='https://curtivendi-com-br.s3.amazonaws.com/curtivendi_submarino_prod/assets/1.0.18/favicon-d12161e09a9abc52df1f5502afbb2791.ico' rel='icon' type='image/x-icon'>
+<script>
+  //<![CDATA[
+    (function(d, s, id) { var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) return; js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk'));
+    window.fbAsyncInit = function () {
+      FB.init({"appId": "732188656814671", "cookie": true, "version": "v2.2", "xfbml": true})
+    }
+  //]]>
+</script>
+
+<script src="https://curtivendi-com-br.s3.amazonaws.com/curtivendi_submarino_prod/assets/1.0.18/application-f72436043928fa07c6851bfd14f023b5.js" type="text/javascript"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.7/angular.min.js" type="text/javascript"></script>
+<link href="https://curtivendi-com-br.s3.amazonaws.com/curtivendi_submarino_prod/assets/1.0.18/application-8d505dfd15930990e0d14e174c84e50f.css" media="screen" rel="stylesheet" type="text/css" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="kjzwY0egbIMVkbPxRr1+udvqe/Ys1kSzK/NbNg64UAs=" name="csrf-token" />
+<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script> <![endif]-->
+<!--[if lt IE 9]> <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script> <![endif]-->
+</head>
+<body>
+<div class='row'>
+<div class='col-lg-12'>
+
+<div class='row'>
+<div class='col-lg-10 col-lg-offset-1'>
+<section class='home-section-1'>
+<div class='navbar navbar-default white-opacity'>
+<div class='container-fluid'>
+<div class='navbar-header'>
+<button class='navbar-toggle collapsed' data-target='#nav-bar-collapse' data-toggle='collapse' type='button'>
+<span class='sr-only'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+<span class='icon-bar'></span>
+</button>
+</div>
+<div class='collapse navbar-collapse navbar-left'>
+<div class='row'>
+<a class='btn btn-blue btn-large' data-target='#registration-modal' data-toggle='modal' href='javascript:void(0);'>
+<i class='fa fa-caret-right fa-fw'></i>
+Crie sua loja, é
+<strong>GRÁTIS!</strong>
+</a>
+</div>
+<div class='row'>
+<a class='btn btn-bluesm btn-large' data-toggle='modal' href='https://www.submarinoviagens.com.br/'>
+<i class='fa fa-caret-left fa-fw'></i>
+Ir para Submarino Viagens
+</a>
+</div>
+</div>
+<div class='collapse navbar-collapse navbar-right' id='nav-bar-collapse'>
+<div class='row'>
+<form accept-charset="UTF-8" action="/cv/sign_in" class="form-horizontal" id="signin-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kjzwY0egbIMVkbPxRr1+udvqe/Ys1kSzK/NbNg64UAs=" /></div><div class='form-group'>
+<div class='col-lg-2'>
+<label>Email</label>
+</div>
+<div class='col-lg-10'>
+<input autocomplete="off" class="form-control" id="user_email" name="user[email]" size="30" type="text" />
+</div>
+</div>
+<div class='form-group'>
+<div class='col-lg-2'>
+<label>Senha</label>
+</div>
+<div class='col-lg-10'>
+<input autocomplete="off" class="form-control" id="user_password" name="user[password]" size="30" type="password" />
+</div>
+</div>
+<div class='form-group'>
+<ul class='list-unstyled unstyled list-inline'>
+<li>
+<a href="/cv/auth/facebook"><i class='fa fa-facebook-official fa-fw'></i>
+Entrar
+</a></li>
+<li>
+<a data-target='#recovery-password-modal' data-toggle='modal' href='javascript:void(0);'>
+Esqueceu sua senha?
+</a>
+</li>
+<li class='pull-right'>
+<input class="btn btn-primary" name="commit" style="margin-right:10px;" type="submit" value="Enviar" />
+</li>
+</ul>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+<!-- .col-lg-3.col-sm-12.col-xs-12 -->
+<!-- = f.submit 'Enviar', class: 'btn btn-primary pull-right' -->
+
+
+</section>
+<section class='home-section-2'>
+<div class='row'>
+<div class='col-lg-12 blue-bar'>
+<div class='row'>
+<div class='col-lg-2 col-lg-offset-3 top-circle'>
+<div class='col-lg-12'>
+<div class='circle-border'>
+<div class='white-circle'>
+<div class='img briefcase'></div>
+</div>
+</div>
+</div>
+<div class='col-lg-12 text white small right'>
+Crie a sua loja com as
+<div class='br'>melhores viagens do</div>
+<div class='br'>Submarino Viagens.</div>
+</div>
+</div>
+<div class='col-lg-2 top-circle'>
+<div class='col-lg-12'>
+<div class='circle-border'>
+<div class='white-circle'>
+<div class='img people'></div>
+</div>
+</div>
+</div>
+<div class='col-lg-12 text white small center'>
+Compartilhe as melhores
+promoções com os seus
+amigos.
+</div>
+</div>
+<div class='col-lg-2 top-circle'>
+<div class='col-lg-12'>
+<div class='circle-border'>
+<div class='white-circle'>
+<div class='img money'></div>
+</div>
+</div>
+</div>
+<div class='col-lg-12 text white small center'>
+Quanto mais a sua loja
+<div class='br'>vender, mais você</div>
+<div class='br'>ganha $$.</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class='home-section-3' id='how-it-works'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='row'>
+<div class='col-xs-7 sub-section-1'>
+<ul class='nav nav-pills' style='margin:0;'>
+<li class='active'>
+<a class='text center white' data-toggle='tab' href='#create-store'>Crie sua loja</a>
+</li>
+<li>
+<a class='text center white' data-toggle='tab' href='#tickets'>Recomende Passagens</a>
+</li>
+<li>
+<a class='text center white' data-toggle='tab' href='#profit'>Fature com isso!</a>
+</li>
+</ul>
+<div class='tab-content'>
+<div class='tab-pane fade in active' id='create-store'>
+<div class='row inner'>
+<div class='col-xs-12'>
+<div class='row'>
+<div class='col-xs-1'>
+<div class='text blue ultra bold'>1.</div>
+</div>
+<div class='col-xs-11'>
+<div class='text big left m-t-2'>
+Preencha o cadastro, escolha o nome da sua loja e você terá um
+<div class='br'>endereço exclusivo para ela.</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-1'>
+<div class='text blue ultra bold'>2.</div>
+</div>
+<div class='col-xs-11'>
+<div class='text big left m-t-2'>
+Seleciona as passagens que você prefere e as que você acha que
+<div class='br'>seus amigos irão comprar!</div>
+</div>
+</div>
+</div>
+<div class='row'>
+<div class='col-xs-12 m-t-3'>
+<div class='text average justify'>
+Você poderá acessar todas as passagens de mais de 750 companhias aéreas
+<div class='br'>pelo mundo, para que você possa ter uma loja com a sua cara e com os melhores</div>
+<div class='br'>preços em passagens! Não se preocupe, você não precisará comprar essas</div>
+<div class='br'>passagens para ter na sua loja.</div>
+</div>
+<div class='text average blue'>
+Deixe isso com a gente!
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class='tab-pane fade in' id='tickets'>
+<div class='row inner'>
+<div class='col-xs-12'></div>
+</div>
+</div>
+<div class='tab-pane fade in' id='profit'>
+<div class='row inner'>
+<div class='col-xs-12'></div>
+</div>
+</div>
+</div>
+</div>
+<div class='col-xs-5 sub-section-2'></div>
+</div>
+</div>
+</div>
+</section>
+<section class='home-section-4' id='commission'>
+<div class='col-xs-5 white-label'>
+<div class='text right big blue'>
+Comissão de Venda
+</div>
+<div class='text right average'>
+Cada vez que alguém comprar uma passagem que você
+<div class='br'>indicou, você receberá uma comissão de 3% do valor</div>
+<div class='br'>total da venda!</div>
+<div class='br'>Você também poderá comprar passagens da sua</div>
+<div class='br'>própria loja e ainda receber a mesma comissão por isso.</div>
+</div>
+</div>
+</section>
+<section class='home-section-5'>
+<div class='col-xs-5 white-label'>
+<div class='text left big blue'>
+Acompanhamento
+</div>
+<div class='text left average'>
+Cada vez que alguém comprar na seção SUAS VENDAS, você
+<div class='br'>acompanha o interesse dos seus amigos nas passagens</div>
+<div class='br'>anunciadas, como cliques e compras efetivadas.</div>
+</div>
+</div>
+</section>
+<section class='home-section-6'>
+<div class='col-xs-6 white-label'>
+<div class='text right big blue'>
+Resgate
+</div>
+<div class='text right average'>
+Já na seção RESGATE, você pode resgatar o crédito que tem no
+<div class='br'>MeuSubViagens para gastar como quiser!</div>
+<div class='br'>Lembramos apenas que o resgate só pode ser feito após o atingimento mínimo de R$ 50,00.</div>
+</div>
+</div>
+</section>
+<section class='home-section-7'>
+<div class='col-xs-5'>
+<div class='row'>
+<div class='col-xs-12'>
+<div class='text ultra white'>
+Contato
+</div>
+</div>
+</div>
+<div class='row'>
+<form accept-charset="UTF-8" action="/cv/contact/send" id="contact-form" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kjzwY0egbIMVkbPxRr1+udvqe/Ys1kSzK/NbNg64UAs=" /></div><div class='col-xs-12 form-group'>
+<input autocomplete="off" class="form-control" id="contact_name" name="contact[name]" placeholder="Nome" required="required" size="30" type="text" />
+</div>
+<div class='col-xs-12 form-group'>
+<input autocomplete="off" class="form-control" id="contact_email" name="contact[email]" placeholder="Email" required="required" size="30" type="text" />
+</div>
+<div class='col-xs-12 form-group'>
+<input autocomplete="off" class="form-control" id="contact_subject" name="contact[subject]" placeholder="Assunto" required="required" size="30" type="text" />
+</div>
+<div class='col-xs-12 form-group'>
+<textarea autocomplete="off" class="form-control" cols="40" id="contact_message" maxlength="200" name="contact[message]" placeholder="Mensagem" required="required" rows="4" style="resize:none;">
+</textarea>
+</div>
+<div class='col-xs-12'>
+<input name="commit" type="submit" value="Enviar" />
+</div>
+</form>
+
+</div>
+</div>
+</section>
+<section class='home-section-8'>
+<div class='row'>
+<div class='col-lg-9'>
+<div class='row help-list'>
+<div class='col-lg-2'>
+<a class='btn' href='javascript:void(0)' scroll target='.home-section-4'>
+<i class='fa fa-caret-right fa-fw'></i>
+Comissão
+</a>
+</div>
+<div class='col-lg-3'>
+<a href="/cv/term" class="btn"><i class='fa fa-caret-right fa-fw'></i>
+Termo de utilização
+</a></div>
+<div class='col-lg-3'>
+<a class='btn' href='javascript:void(0)' scroll target='.home-section-3'>
+<i class='fa fa-caret-right fa-fw'></i>
+Como funciona
+</a>
+</div>
+<div class='col-lg-4'>
+<a class='btn' href='javascript:void(0)' scroll target='.home-section-7'>
+<i class='fa fa-caret-right fa-fw'></i>
+Fale conosco
+</a>
+</div>
+</div>
+</div>
+<div class='col-lg-3'>
+<a class='btn btn-orange' data-target='#registration-modal' data-toggle='modal' href='javascript:void(0);'>
+<i class='fa fa-caret-right fa-fw'></i>
+Crie sua loja, é
+<strong>GRÁTIS!</strong>
+</a>
+</div>
+</div>
+</section>
+</div>
+</div>
+<div class='modal fade' id='recovery-password-modal'>
+<div class='modal-dialog modal-lg'>
+<div class='modal-content'>
+<div class='modal-header'>
+<button class='close' data-dismiss='modal' type='button'>
+<span aria-hidden>&times;</span>
+</button>
+<h4 class='modal-title'>
+Recuperar senha
+</h4>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-lg-12'>
+<form accept-charset="UTF-8" action="/cv/password" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kjzwY0egbIMVkbPxRr1+udvqe/Ys1kSzK/NbNg64UAs=" /></div><div class='row'>
+<div class='col-lg-12 form-group'>
+<label for="user_Informe seu e-mail">Informe seu e-mail</label>
+<input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="Email" required="required" size="30" type="text" value="" />
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-12'>
+<center>
+<input class="btn btn-orange" name="commit" type="submit" value="Enviar" />
+</center>
+</div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script>
+  //<![CDATA[
+    $("a[scroll]").on("click", function () {
+      var target = $(this).attr("target"), hash = this.hash
+      $("html, body").animate({
+        "scrollTop": $(target).offset().top
+      }, 300, function () {
+        window.location.hash = hash
+      })
+    })
+  //]]>
+</script>
+
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-12'>
+<div class='row' id='footer'>
+<div class='col-sm-6 hidden-xs'>
+<div class='row'>
+<div class='col-sm-3'>
+<a href="/"><img alt="Logo" class="img-responsive center-block" src="https://curtivendi-com-br.s3.amazonaws.com/curtivendi_submarino_prod/assets/1.0.18/logo-0e121b26a5ebe2283163560ac17825d6.png" style="margin-top:20px;" />
+</a></div>
+</div>
+</div>
+<div class='col-sm-6 col-xs-12'>
+<div class='row'>
+<div class='col-sm-4 col-xs-12'>
+<ul class='list-unstyled'>
+<li class='title'>
+<a href='javascript:void(0);'>Institucional</a>
+</li>
+<li>
+<a href="/cv/term">Termo de utilização</a>
+</li>
+<li>
+<a href="/#commission">Comissão</a>
+</li>
+<li>
+<a href="/#how-it-works">Como funciona</a>
+</li>
+</ul>
+</div>
+<div class='col-sm-4 col-xs-12'>
+<ul class='list-unstyled'>
+<li class='title'>
+<a href='javascript:void(0);'>Nossos sites</a>
+</li>
+<li>
+<a href="http://www.submarino.com.br/">Submarino.com.br</a>
+</li>
+<li>
+<a href="https://www.submarinoviagens.com.br/">SubmarinoViagens.com.br</a>
+</li>
+</ul>
+</div>
+<div class='col-sm-4 col-xs-12'>
+<ul class='list-unstyled'>
+<li class='title'>
+<a href='javascript:void(0);'>Parceiro</a>
+</li>
+<li>
+<a href="http://www.curtivendi.com.br/">CurtiVendi</a>
+</li>
+<li>
+<a href="http://www.curtivendi.com.br/cv/about">O que é o CurtiVendi?</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<div class='modal fade' id='registration-modal' role='dialog'>
+<div class='modal-dialog'>
+<div class='modal-content'>
+<div class='modal-header' style='border-bottom:none;'>
+<a class='close' data-dismiss='modal' type='button'>
+<i class='fa fa-times fa-fw'></i>
+Fechar
+</a>
+</div>
+<div class='modal-body'>
+<div class='row'>
+<div class='col-lg-12'>
+<img alt="Logo" class="img-responsive center-block" src="https://curtivendi-com-br.s3.amazonaws.com/curtivendi_submarino_prod/assets/1.0.18/logo-0e121b26a5ebe2283163560ac17825d6.png" />
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-12' style='margin-bottom:30px;'>
+<h2 class='text-center' style='color:#2B5A96;'>
+Cadastre-se, é rápido e GRÁTIS!
+</h2>
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-12 text-center'>
+<a href="/cv/auth/facebook" class="btn btn-dark-blue"><i class='fa fa-facebook fa-lg'></i>
+CADASTRE-SE COM O SEU FACEBOOK
+</a></div>
+</div>
+<div class='row'>
+<div class='col-lg-12'>
+<center>
+<h4>OU</h4>
+</center>
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-12'>
+<a aria='{:expanded=&gt;false, :controls=&gt;"registration-form"}' class='btn btn-default col-lg-6 col-lg-offset-3' data-toggle='collapse' href='#registration-form' role='button'>
+<i class='fa fa-edit fa-lg'></i>
+PREENCHA SEUS DADOS
+</a>
+</div>
+</div>
+<div class='row'>
+<div class='col-lg-12 collapse' id='registration-form'>
+<form accept-charset="UTF-8" action="/cv" class="new_user" id="new_user" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="kjzwY0egbIMVkbPxRr1+udvqe/Ys1kSzK/NbNg64UAs=" /></div><div class='col-lg-12 form-group'>
+<input autocomplete="off" class="form-control" id="user_name" name="user[name]" placeholder="Nome" required="required" size="30" type="text" />
+</div>
+<div class='col-lg-12 form-group'>
+<input autocomplete="off" class="form-control" id="user_email" name="user[email]" placeholder="Email" required="required" size="30" type="text" value="" />
+</div>
+<div class='col-lg-12 form-group'>
+<input autocomplete="off" class="form-control" id="user_store_name" name="user[store_name]" placeholder="Nome da sua loja" required="required" size="30" type="text" />
+</div>
+<div class='col-lg-12 form-group'>
+<input autocomplete="off" class="form-control" id="psswrd" name="user[password]" placeholder="Senha" required="required" size="30" type="password" />
+</div>
+<div class='col-lg-12 form-group'>
+<input autocomplete="off" class="form-control" id="user_password_confirmation" name="user[password_confirmation]" placeholder="Confirme sua senha" required="required" size="30" type="password" />
+</div>
+<div class='col-lg-12'>
+<div class='row'>
+<input class="btn btn-dark-blue col-lg-6 col-lg-offset-3" name="commit" type="submit" value="ENVIAR" />
+</div>
+</div>
+</form>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<script type="text/javascript">if (typeof NREUMQ !== "undefined") { if (!NREUMQ.f) { NREUMQ.f=function() {
+NREUMQ.push(["load",new Date().getTime()]);
+var e=document.createElement("script");
+e.type="text/javascript";
+e.src=(("http:"===document.location.protocol)?"http:":"https:") + "//" +
+  "js-agent.newrelic.com/nr-100.js";
+document.body.appendChild(e);
+if(NREUMQ.a)NREUMQ.a();
+};
+NREUMQ.a=window.onload;window.onload=NREUMQ.f;
+};
+NREUMQ.push(["nrfj","bam.nr-data.net","7b4a5d4ec8","12172085","cApXRBNWVVgDERtdWV4AFlkPXVxM",0,23,new Date().getTime(),"","","","",""]);}</script></body>
+</html>

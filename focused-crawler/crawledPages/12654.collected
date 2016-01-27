@@ -1,0 +1,343 @@
+title=YouTube para desenvolvedores - YouTube
+url=https://www.youtube.com/yt/dev/pt-BR/
+html=<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <script>
+    for(var a=["article","footer","nav","figure","figcaption"],b=0;b<a.length;b++);window._gaq=window._gaq||[];
+    </script>
+    <title>
+      YouTube para desenvolvedores - YouTube
+    </title>
+    <meta content="YouTube" name="author">
+    <link href=
+    "//fonts.googleapis.com/css?family=Roboto:300italic,400italic,700italic,300,400,700&amp;lang=pt-BR"
+    rel="stylesheet" title="Folha de estilo Roboto">
+    <link href="/yt/css/www-dev.css" rel="stylesheet" title="">
+  </head>
+  <body class="ltr yt-cardified" dir="ltr">
+    <div id="page">
+      <div class="yt-js-masthead" id="masthead-container">
+        <div id="masthead">
+          <div id="masthead-root">
+            <a class="yt-js-masthead-logo" href="//www.youtube.com/" id="masthead-logo" title=
+            "Página inicial do YouTube"><img alt="Página inicial do YouTube" src=
+            "/yt/img/logo_1x.png" srcset="/yt/img/logo_2x.png 2x"></a>
+            <form action="//www.youtube.com/results" autocomplete="on" class=
+            "search-form yt-js-masthead-search-form" id="masthead-search" method="get" name=
+            "masthead-search">
+              <button class=
+              "search-button yt-uix-button yt-uix-button-default yt-js-masthead-search-button" dir=
+              "ltr" id="search-btn" role="button" tabindex="2" type="submit"><span class=
+              "yt-uix-button-content">Pesquisar</span></button> <label class=
+              "yt-js-masthead-search-term-label" id="masthead-search-term"><input class=
+              "search-term yt-js-masthead-search-term" name="search_query" tabindex="1" title=
+              "Pesquisar" type="search" value=""></label>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="" id="yt-microsite">
+        <div class="" id="yt-main-nav-container">
+          <nav id="yt-main-nav"></nav>
+        </div>
+        <div class="yt-dev-landing-header-hero-wrapper">
+          <div class="yt-dev-landing-header-container">
+            <div class="yt-dev-landing-header">
+              <div class="yt-dev-landing-header-text-container">
+                <h1 class="yt-dev-header-title yt-dev-landing-header-title">
+                  YouTube para desenvolvedores
+                </h1>
+                <div class="yt-dev-header-text yt-dev-landing-header-text">
+                  Conte com o amplo conjunto de APIs do YouTube para dar vida a seus produtos, seja
+                  para criar um negócio no YouTube ou para melhorar seu aplicativo com vídeo
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="yt-js-stickytopnav" id="yt-dev-nav-container">
+          <nav id="yt-dev-nav">
+            <a class="active" href="index.html">Desenvolvedores</a> <a href=
+            "demos.html">Demonstrações</a> <a href="api-resources.html">Recursos de API</a>
+            <a href="showcase.html">Apresentação</a> <a href="dev-stories.html">Histórias de
+            desenvolvedores</a>
+          </nav>
+        </div>
+        <div id="yt-microsite-features">
+          <div class="yt-dev-home-content-container">
+            <div class="yt-card-light yt-js-card yt-dev-home-demos-card">
+              <div class="yt-card-image-relative">
+                <a href="demos.html"><img alt="Demonstrações" class="yt-card-full-bleed-image" src=
+                "/yt/dev/media/images/yt-dev-home-demos.png"></a>
+              </div>
+              <div class=
+              "yt-card-content yt-js-card-content yt-dev-home-demos-card-content-container">
+                <div class="yt-card-content-container yt-js-card-content-container">
+                  <h2 class="yt-card-title">
+                    <a href="demos.html">Demonstrações</a>
+                  </h2>
+                  <div class="yt-card-text">
+                    <p>
+                      Veja como as APIs do YouTube funcionam na prática e encontre inspiração para
+                      sua próxima grande criação.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="yt-card-light yt-js-card yt-dev-home-api-resources-card">
+              <a href="api-resources.html"><img alt="Recursos de API" class=
+              "yt-card-full-bleed-image" src=
+              "/yt/dev/media/images/yt-dev-home-api-resources.png"></a>
+              <div class=
+              "yt-card-content yt-js-card-content yt-dev-home-api-resources-card-content-container">
+              <div class="yt-card-content-container yt-js-card-content-container">
+                  <h2 class="yt-card-title">
+                    <a href="api-resources.html">Recursos de API</a>
+                  </h2>
+                  <div class="yt-card-text">
+                    <p>
+                      Aprofunde-se na documentação, no código de exemplo e nos tutoriais para
+                      conhecer melhor as APIs do YouTube.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="yt-card-light yt-js-card yt-dev-home-showcase-card">
+              <div class="yt-card-image-relative">
+                <a href="showcase.html"><img alt="Apresentação" class="yt-card-full-bleed-image"
+                src="/yt/dev/media/images/yt-dev-home-showcase.png"></a>
+              </div>
+              <div class=
+              "yt-card-content yt-js-card-content yt-dev-home-showcase-card-content-container">
+                <div class="yt-card-content-container yt-js-card-content-container">
+                  <h2 class="yt-card-title">
+                    <a href="showcase.html">Apresentação</a>
+                  </h2>
+                  <div class="yt-card-text">
+                    <p>
+                      Confira alguns aplicativos incríveis criados com as APIs do YouTube.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="yt-card-light yt-js-card yt-dev-home-dev-stories-card">
+              <a href="dev-stories.html"><img alt="Histórias de desenvolvedores" class=
+              "yt-card-full-bleed-image" src=
+              "/yt/dev/media/images/yt-dev-home-dev-stories.png"></a>
+              <div class=
+              "yt-card-content yt-js-card-content yt-dev-home-dev-stories-card-content-container">
+                <div class="yt-card-content-container yt-js-card-content-container">
+                  <h2 class="yt-card-title">
+                    <a href="dev-stories.html">Histórias de desenvolvedores</a>
+                  </h2>
+                  <div class="yt-card-text">
+                    <p>
+                      Conheça os desenvolvedores e os empresários que estão solucionando desafios
+                      do mundo real com as APIs do YouTube.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="yt-js-sidebarscroll-footer" id="yt-microsite-footer">
+          <div class="yt-dev-footer">
+            <div class="yt-dev-footer-container">
+              <h2 class="yt-dev-footer-title">
+                Receba atualizações
+              </h2>
+              <div class="yt-dev-footer-cell left">
+                <img alt="" src="/yt/dev/media/images/yt-dev-home-developerblog-2.png">
+                <h3>
+                  <a href="http://apiblog.youtube.com/">Blog do desenvolvedor</a>
+                </h3>
+                <p>
+                  Notícias e dicas para desenvolvedores
+                </p>
+              </div>
+              <div class="yt-dev-footer-cell middle">
+                <img alt="" src="/yt/dev/media/images/yt-dev-home-gplusyoutubedev-2.png">
+                <h3>
+                  <a href="//www.google.com/+YouTubeDev">+youtubedev</a>
+                </h3>
+                <p>
+                  Siga os desenvolvedores residentes do YouTube no Google+
+                </p>
+              </div>
+              <div class="yt-dev-footer-cell right alternate">
+                <img alt="" src="/yt/dev/media/images/yt-dev-home-releasenotes-2.png">
+                <h3>
+                  <a href=
+                  "http://apiblog.youtube.com/2013/02/keeping-up-with-youtube-api-updates.html">Notas
+                  da versão</a>
+                </h3>
+                <p>
+                  Inscreva-se nos logs de alterações das APIs
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div>
+        <div class="footer-main">
+          <span class="footer-logo"><a href="/"><img alt="Página inicial do YouTube" src=
+          "/yt/img/logo_1x.png" srcset="/yt/img/logo_2x.png 2x"></a></span>
+          <div class="footer-language-selector-container yt-js-form-root">
+            <label for="yt-footer-language-selector">Idioma:</label> <span class=
+            "footer-language-selector yt-form-input-select-container yt-js-form-input-select-container">
+            <span aria-hidden="true" class=
+            "yt-form-input-select-value yt-js-form-input-select-value">&nbsp;</span>
+            <span aria-hidden="true" class="yt-form-input-select-arrow">&nbsp;</span><select class=
+            "yt-js-form-input-select yt-js-language-selector yt-form-input-select-element" id=
+            "yt-footer-language-selector">
+              <option class="yt-rtl" title="Árabe" value="/yt/dev/ar/index.html">
+                العربية
+              </option>
+              <option class="yt-ltr" title="Alemão" value="/yt/dev/de/index.html">
+                Deutsch
+              </option>
+              <option class="yt-ltr" title="Grego" value="/yt/dev/el/index.html">
+                Ελληνικά
+              </option>
+              <option class="yt-ltr" title="Inglês" value="/yt/dev/index.html">
+                English
+              </option>
+              <option class="yt-ltr" title="Inglês (Reino Unido)" value="/yt/dev/en-GB/index.html">
+                English (United Kingdom)
+              </option>
+              <option class="yt-ltr" title="Espanhol" value="/yt/dev/es/index.html">
+                Español
+              </option>
+              <option class="yt-ltr" title="Espanhol (América Latina)" value=
+              "/yt/dev/es-419/index.html">
+                Español (Latinoamérica)
+              </option>
+              <option class="yt-ltr" title="Francês" value="/yt/dev/fr/index.html">
+                Français
+              </option>
+              <option class="yt-ltr" title="Indonésio" value="/yt/dev/id/index.html">
+                Bahasa Indonesia
+              </option>
+              <option class="yt-ltr" title="Italiano" value="/yt/dev/it/index.html">
+                Italiano
+              </option>
+              <option class="yt-ltr" title="Japonês" value="/yt/dev/ja/index.html">
+                日本語
+              </option>
+              <option class="yt-ltr" title="Coreano" value="/yt/dev/ko/index.html">
+                한국어
+              </option>
+              <option class="yt-ltr" title="Holandês" value="/yt/dev/nl/index.html">
+                Nederlands
+              </option>
+              <option class="yt-ltr" title="polonês" value="/yt/dev/pl/index.html">
+                polski
+              </option>
+              <option class="yt-ltr" selected title="Português (Brasil)" value=
+              "/yt/dev/pt-BR/index.html">
+                Português (Brasil)
+              </option>
+              <option class="yt-ltr" title="Português (Portugal)" value="/yt/dev/pt-PT/index.html">
+                Português (Portugal)
+              </option>
+              <option class="yt-ltr" title="Romeno" value="/yt/dev/ro/index.html">
+                Română
+              </option>
+              <option class="yt-ltr" title="Russo" value="/yt/dev/ru/index.html">
+                Русский
+              </option>
+              <option class="yt-ltr" title="Sueco" value="/yt/dev/sv/index.html">
+                Svenska
+              </option>
+              <option class="yt-ltr" title="Tailandês" value="/yt/dev/th/index.html">
+                ไทย
+              </option>
+              <option class="yt-ltr" title="Turco" value="/yt/dev/tr/index.html">
+                Türkçe
+              </option>
+              <option class="yt-ltr" title="Vietnamita" value="/yt/dev/vi/index.html">
+                Tiếng Việt
+              </option>
+              <option class="yt-ltr" title="Chinês (han tradicional)" value=
+              "/yt/dev/zh-TW/index.html">
+                中文（繁體中文）
+              </option>
+            </select></span>
+          </div><a class="yt-uix-button yt-uix-button-default footer-help-btn" href=
+          "https://support.google.com/youtube"><span class=
+          "footer-help-btn-img-container"><img alt="" aria-label="Help" src=
+          "/yt/img/yt-icon-small-help.png" srcset="/yt/img/yt-icon-small-help-2x.png 2x"></span>
+          <span class=
+          "yt-uix-button-content footer-help-btn-content yt-mobile-hidden">Ajuda</span></a>
+        </div>
+        <div class="footer-secondary">
+          <ul class="footer-primary-info">
+            <li>
+              <a href="/yt/about/pt-BR/">Sobre</a>
+            </li>
+            <li>
+              <a href="/yt/press/pt-BR/">Imprensa</a>
+            </li>
+            <li>
+              <a href="/yt/copyright/pt-BR/">Direitos autorais</a>
+            </li>
+            <li>
+              <a href="/yt/creators/pt-BR/">Criadores de conteúdo</a>
+            </li>
+            <li>
+              <a href="/yt/advertise/pt-BR/">Publicidade</a>
+            </li>
+            <li>
+              <a href="/yt/dev/pt-BR/">Desenvolvedores</a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/+youtube">+YouTube</a>
+            </li>
+          </ul>
+          <ul class="footer-secondary-info">
+            <li>
+              <a href="/t/terms">Termos</a>
+            </li>
+            <li>
+              <a href="/yt/policyandsafety/pt-BR/">Política e segurança</a>
+            </li>
+            <li>
+              <a href="//www.google.com/policies/privacy/">Privacidade</a>
+            </li>
+            <li>
+              <a href="/testtube">Tente algo novo!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="/yt/js/www-goro.min.js">
+    </script> 
+    <script src="/yt/js/www-dev.min.js">
+    </script> 
+    <script>
+    window.___gcfg = {lang: 'pt-BR'};
+
+(function() {
+  var po = document.createElement('script'); po.async = true;
+  po.src = '//apis.google.com/js/plusone.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+})();
+    var ytDevTracker = yt.goro.site.dev.config.ANALYTICS_TRACKER;
+    var ytDevSendCommand = yt.goro.site.dev.config.GA_SEND_COMMAND;
+    yt.goro.core.analytics.ga('create', 'UA-44016612-1', 'auto', {
+      'name': ytDevTracker,
+    });
+    yt.goro.core.analytics.ga(ytDevSendCommand, 'pageview');
+    </script>
+  </body>
+</html>

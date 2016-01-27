@@ -1,0 +1,951 @@
+title=Rumbo: vols, hôtels et vols pas chers
+url=http://www.rumbo.fr/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="fr-FR">
+<head>
+<title>Rumbo: vols, hôtels et vols pas chers</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="description" content="Rumbo, agence de voyages. Les meilleures offres sur les vols, hôtels et vols pas chers de dernière minute. Réservez ici au meilleur prix.">
+<meta name="keywords" content="vols, vols pars chers, hotels, agence de voyages">
+
+<!-- Tag to track merchandising spaces -->
+<script>
+  var dataLayer = dataLayer || [];
+  dataLayer.push (
+{ 'event' : 'visit' ,'lang' : 'fr'  ,'pageName' : 'MULTIPRODUCT_HOME' }
+
+);
+</script>
+<!-- Tag to track merchandising spaces -->
+
+<!-- DOJO -->
+<script type="text/javascript" src="/ui/core/dojo/dojo.js"></script>
+
+<!-- IE VENDORS -->
+<!--[if lt IE 9]>
+  <script type="text/javascript" charset="UTF-8" src="/ui/ctools/1.21.0/vendors/allvendorsie.js"></script>
+<![endif]-->
+
+<!-- ALL BROWSER VENDORS -->
+<script type="text/javascript" charset="UTF-8" src="/ui/ctools/1.21.0/vendors/allvendors.js"></script>
+
+<!-- CTOOLS LIGTH LAYER -->
+<script type-"text/javascript" charset="UTF-8" src="/ui/ctools/1.21.0/CommonToolsCore.js"></script>
+
+<script type="text/javascript">
+var testGWO='------';
+</script>
+<script type="text/javascript">
+<!--creacion test GWO -->
+function utmx_section(){}function utmx(){}
+(function(){var k=testGWO,d=document,l=d.location,c=d.cookie;function f(n){
+if(c){var i=c.indexOf(n+'=');if(i>-1){var j=c.indexOf(';',i);return escape(c.substring(i+n.
+length+1,j<0?c.length:j))}}}var x=f('__utmx'),xx=f('__utmxx'),h=l.hash;
+d.write('<sc'+'ript src="'+
+'http'+(l.protocol=='https:'?'s://ssl':'://www')+'.google-analytics.com'
++'/siteopt.js?v=1&utmxkey='+k+'&utmx='+(x?x:'')+'&utmxx='+(xx?xx:'')+'&utmxtime='
++new Date().valueOf()+(h?'&utmxhash='+escape(h.substr(1)):'')+
+'" type="text/javascript" charset="utf-8"></sc'+'ript>')})();
+<!--Fin creacion test GWO -->
+</script>
+
+<!-- conexion GWO-GA -->
+<script>
+var gwoVar = (typeof utmx === 'function') ? utmx("combination_string") : 'inactive';
+    if (!gwoVar) 
+    {        gwoVar = "inactive";}
+    function rmbui_gwo_setcvar()
+    {        _gaq.push(['_setCustomVar', 1, 'adv.clickout-test', gwoVar, 2]);    }
+<!-- Fin conexion GWO-GA -->
+</script>
+<!-- whiteLabel 1 -->
+<script src="/js/rmb/seo/namespaces/1.1/namespaces.js" type="text/javascript"></script>
+<script src="/js/rmb/seo/whiteLabelEntries/1.0/WhiteLabelEntries.js" type="text/javascript"></script>
+<script src="/js/rmb/seo/cookieAfiliados/1.6/CookieAfiliados.js" type="text/javascript"></script>
+<!-- END whiteLabel 1 -->
+
+<!-- ga-->
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-525210-1']);
+  _gaq.push(['_setDomainName', 'rumbo.fr']);
+  _gaq.push(['_addIgnoredRef', 'rumbo.fr']);
+  _gaq.push(['_trackPageview']);
+  _gaq.push(['t2._setAccount', 'UA-31394034-1']);
+  _gaq.push(['t2._setDomainName', 'rumbo.fr']);
+  _gaq.push(['t2._addIgnoredRef', 'rumbo.fr']);
+  _gaq.push(['t2._trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<!-- end ga -->
+
+<!-- empty tracker.html -->
+<link rel="canonical" href="http://www.rumbo.fr/" />
+<link href="https://plus.google.com/106006044322846378448" rel="publisher"/>
+<link href="/css/reset.css" rel="stylesheet" type="text/css">
+<link href="/css/design.css" rel="stylesheet" type="text/css">
+<link href="/css/design-home.css" rel="stylesheet" type="text/css">
+<link href="/css/search-box.css" rel="stylesheet" type="text/css">
+<!-- SITECONFIG -->
+<script type="text/javascript">
+var siteConfig={
+	migration: {
+		airAutocompleter: "vol.rumbo.fr/suggester/proxy/suggest_remote",
+		airAction: "vol.rumbo.fr/vg1/searching.do"
+	},
+	asyncScriptsLoading : true,
+	tm:'rmb',
+	lang:'fr',
+	from:'HomeHome',
+	url:'viajes',
+	searchBox: {
+		locations: {
+			comboLocations:true
+		},
+		hotel:{
+			showArrHotel:true
+		}
+	},
+	tabs:{
+		active:true,
+		el:{
+			flight:true,
+			hotel:true
+		}
+	},
+	load:'flight'
+}
+</script>
+<!-- LAYER -->
+<script type="text/javascript" charset="UTF-8" src="/ui/home/root/2.20.0/HomeMain_fr.js"></script>
+
+<script language="JavaScript" type="text/javascript" charset="utf-8" src="/js/check-util.js"></script>
+<script type="text/javascript">
+  function recordOutboundLink(link, name)
+  {
+      try 
+      {
+         _gaq.push(['_trackPageview', name]);
+          
+          var target = link.target;
+          if (!target || (target && target != '_blank')) 
+          {
+              setTimeout('document.location="' + link.href + '"', 200);
+          }
+      } 
+      catch (err) 
+      {
+      }
+  }
+</script>
+</head>
+<body>
+<div id="wrap-homes"> 
+  <div id="header" class="es"> 
+  <!-- Header Fr  -->
+  <div id="logo"> <a href="/"><img src="http://www1.staticroot.com/rmb/logo-desktop.png" width="122" height="40" alt="Rumbo" /></a> </div>
+  <div class="atencion-cliente">
+    <ul class="simple">
+
+      <li><a href="/html/home/AAC.html" target="_blank">Service client&egrave;le </a></li>
+    </ul>
+  </div>
+  
+  
+  <!-- Menu -->
+  
+  <div class="canales">
+    <ul>
+      <li><a href="/" title="Accueil" data-channel-class="default" data-channel-default="true">Accueil</a></li>
+      <li>&bull;</li>
+      <li><a title="Vols" href="/vol/" data-channel-class="vuelos">Vols</a></li>
+      <li>&bull;</li>
+      <li><a title="H&ocirc;tel" href="/hotels/" data-channel-class="hoteles">H&ocirc;tel</a></li>
+     
+      
+    </ul>
+  </div>
+</div>
+ 
+  
+
+
+
+  <!-- whiteLabels 2 -->
+<script type="text/javascript">
+	(function() {
+		var isWhiteLabel = function()
+		{
+			if ( !( (typeof rmb !== "undefined") && rmb && ("seo" in rmb) && ("CookieAfiliados" in rmb.seo) && ("getWhiteLabelData" in rmb.seo.CookieAfiliados)))
+			{
+				return false;
+			}
+			
+			var data = rmb.seo.CookieAfiliados.getWhiteLabelData();	
+						
+			var check = ("isWhiteLabel" in data) && data.isWhiteLabel ;	
+				
+			return (check == 'true' || check == true);
+		};
+	
+        if(isWhiteLabel())
+        {
+            document.write(unescape("%3Cscript src='/js/rmb/seo/channelsEntries/1.0/ChannelsEntries.js' type='text/javascript'%3E%3C/script%3E"));
+            document.write(unescape("%3Cscript src='/js/rmb/seo/marcasBlancas/1.1/MarcasBlancasHeader.js' type='text/javascript'%3E%3C/script%3E"));
+        }
+	}());
+</script>
+<!-- END whiteLabels 2 -->
+
+  <div id="body" class="home">
+    <div id="group-left"> 
+      <script language="JavaScript" type="text/javascript" charset="utf-8" src="/js/divPopup.js"></script>
+<div id="search-box" class="w358px">
+  <div id="search-header">
+    <ul>
+      <li id="sbTab-link-flight" class="sbTab-link active">Vols</li>
+      <li id="sbTab-link-hotel" class="sbTab-link">H&ocirc;tel</li>
+  	
+    </ul>
+    <div class="box-borde-sup"> <img border="0" height="25" src="/pictures/borde-sup-derc-verde.gif"> </div>
+    <div class="clearer"></div>
+  </div>
+  <!-- VUELOS -->
+  <div id="sbTab-flight" class="sbTab active">
+    <div id="search-box-flight" class="search-box">
+      <form name="flightForm-flight" id="flightForm-flight" method="post" action="http://vol.rumbo.fr/vuelos/city.do">
+        <!-- Tooltip SB mensaje de error | PRZ -->
+        <div id="error-flight" class="tooltip-warning hidden">
+            <div class="top-left-arrow"></div>
+            <div class="sb-ico"></div>
+            <p class="sb-origin"></p>
+        </div>
+        <!-- Hidden -->
+        <input type="hidden" name="bf_subsource" id="bf_subsource" value="S01HPF10S02RR01">
+        <input type="hidden" name="arrIata-flight" id="arrIata-flight">
+        <input type="hidden" name="depIata-flight" id="depIata-flight">
+        <input type="hidden" name="resultType-flight" id="resultType-flight" value="NR">
+        <input type="hidden" name="from-flight" id="from" value="" >
+        <input type="hidden" name="flowType-flight" id="flowType-flight" value="">
+        <input type="hidden" value="B" id="it_mtp" name="it_mtp">
+        <!-- Query Type -->
+        <fieldset class="query-types">
+          <div class="form-column w50">
+            <input name="queryType-flight" id="rrt-flight" align="left" type="radio" value="R" class="radio" checked="checked">
+            Aller/Retour</div>
+          <div class="form-column w50">
+            <input name="queryType-flight" id="row-flight" align="left" type="radio" value="O" class="radio" >
+            Aller simple</div>
+         </fieldset>
+        <!-- Cities -->
+        <fieldset class="locations">
+          <div id="location-dep" class="form-column w145px logoayudadestinos-home" >
+            <input type="text" value="D&eacute;part" maxlength="15" size="15" class="highlight over" id="depCity-flight" name="depCity-flight" autocomplete="off">
+            <span class="ajax-loader dep invisible"><img alt="cargando" src="/pictures/ajax-loader.gif"></span><!--<span id="depAirports" class="ayudadescon-link"><img src="/pictures/IcoAyudaDesti.gif" width="23" height="18" border="0" alt="Seleccione aeropuerto" /></span>-->
+            <div id="depCity-flight-results" class="locations-autocomplete-results" style="position: absolute; top: 64px; left: 10px; display: none;"></div>
+          </div>
+          <div id="location-arr" class="form-column w145px logoayudadestinos-home" >
+            <input type="text" value="Arriv&eacute;e" maxlength="15" size="15" class="highlight over" id="arrCity-flight" name="arrCity-flight" autocomplete="off">
+            <span class="ajax-loader dep invisible"><img alt="cargando" src="/pictures/ajax-loader.gif"></span><!--<span id="arrAirports" class="ayudadescon-link"><img src="/pictures/IcoAyudaDesti.gif" width="23" height="18" border="0" alt="Seleccione aeropuerto" /></span>-->
+            <div id="arrCity-flight-results" class="locations-autocomplete-results" style="position:absolute;top:64px;left:175px;display:none"></div>
+          </div>
+        </fieldset>
+        <!-- Dates -->
+        
+        <fieldset class="dates">
+           <div class="form-column w145px input-field">
+              <label class="title">Aller:</label>
+              <input type="text" id="depDate-flight" maxlength="10" size="11" value="dd/mm/aaaa" readonly="readonly" class=" highlight disabled" name="depDate-flight">
+              <span class="calicon-link" id="showCalDep-flight"> <img src="/pictures/icoCalendar.gif" width="18" height="17" border="0" alt="Elige una fecha de Retorno"> </span>
+           </div>
+           <div class="form-column w145px input-field">
+              <label class="title">Retour:</label>
+              <input type="text" id="retDate-flight" maxlength="10" size="11" value="dd/mm/aaaa" readonly="readonly" class="highlight disabled" name="retDate-flight">
+              <span class="calicon-link" id="showCalRet-flight"> <img src="/pictures/icoCalendar.gif" width="18" height="17" border="0" alt="Elige una fecha de Retorno"> </span> 
+          </div>
+        </fieldset>
+        <!-- Passengers -->
+        <fieldset class="pax-quantities">
+          <div class="form-column w85px select-field">
+            <label class="title">Adultes:</label>
+            <select name="paxAdt-flight" id="paxAdt-flight" class="highlight">
+              <option value="0">0</option>
+              <option value="1" selected="selected">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+          <div class="form-column w123px select-field">
+            <label class="title">Enfants <em>(2-11):</em></label>
+            <select name="paxChd-flight" id="paxChd-flight" class="highlight">
+              <option value="0">0</option>
+              <option value="1"  selected="selected">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+          <div class="form-column w75px select-field">
+            <label class="title">B&eacute;b&eacute;s:</label>
+            <select name="paxInf-flight" id="paxInf-flight" class="highlight">
+              <option value="0">0</option>
+              <option value="1" selected="selected">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+              <option value="5">5</option>
+              <option value="6">6</option>
+              <option value="7">7</option>
+              <option value="8">8</option>
+              <option value="9">9</option>
+            </select>
+          </div>
+        </fieldset>
+        <!-- Options -->
+        <div id="more-options">
+          <fieldset>
+            <div class="form-column w30">
+              <input type="checkbox" class="checkbox" value="" id="directOnly-flight" name="directOnly">
+              Sans escale</div>
+            <div class="form-column w60">
+              <input type="checkbox" class="checkbox" checked="checked" value="true" id="lowCost-flight" name="lowCost">
+             Inclure compagnie Low Cost</div>
+           
+          </fieldset>
+          <fieldset id="advanced-search">
+            <div class="form-column w185px select-field">
+              <label class="title" for="cabin">Classe:</label>
+              <select id="cabin-flight" name="cabin-flight" tabindex="8" class="highlight">
+                <option value="" selected="selected">Indiff&egrave;rent</option>
+                <option value="F">Premi&egrave;re</option>
+                <option value="C">Affaire </option>
+                <option value="Y">&Eacute;conomique</option>
+              </select>
+            </div>
+            </fieldset>
+            <!-- Superbuscador -->
+            <fieldset id="advance-search">
+            <div class="form-column w170px superbuscador hidden"><span>•</span> <a href="/vol/pages/superbuscador.do" title="Super moteur de recherche">Super moteur de recherche</a></div>
+            </fieldset>
+            <fieldset id="advance-search">
+            <div class="form-column w125px select-field hidden">
+              <label class="title" for="highlight">Recherche:</label>
+              <select class="highlight">
+                <option name="resultType" value="P" id="rt-nr" selected="selected">Prix</option>
+                <option name="resultType" value="NO" id="rt-no">Heure </option>
+              </select>
+            </div>
+          </fieldset>
+          <!-- Descuentos | PRZ -->
+                    <div id="discounts" class="sb-discount" style="display:none !important;">
+                        <div id="resident-disc" class="resident-box hidden">
+                            <input type="checkbox" class="checkbox" value="" id="chk-resident">
+                            <label for="chk-resident">
+                                Descuento de residente
+                            </label>
+                            <ul>
+                                <li>
+                                    <input type="radio" class="radio" value="BP" id="resident-BP">Baleares
+                                </li>
+                                <li>
+                                    <input type="radio" class="radio" value="RC" id="resident-RC">Canarias
+                                </li>
+                                <li>
+                                    <input type="radio" class="radio" value="RM" id="resident-RM">Ceuta o Melilla
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="clearer">
+                        </div>
+                        <div id="largeFamily-disc" class="largefamily-box hidden">
+                            <input type="checkbox" class="checkbox" value="" id="chk-largefamily">
+                            <label for="chk-largefamily">
+                                Descuento de Familia Numerosa
+                            </label>
+                            <ul>
+                                <li>
+                                    <input type="radio" class="radio" value="F1" id="largeFamily-1">3 a 4 hijos
+                                </li>
+                                <li>
+                                    <input type="radio" class="radio" value="F2" id="largeFamily-2">5 o más hijos
+                                </li>
+                            </ul>
+                        </div>
+                    </div><!-- FIN Descuentos | PRZ -->
+          <div class="clearer"></div>
+        </div>
+        <!-- Submit -->
+        <div class="btn-search">
+          <input type="button" value="Chercher" class="btn" id="search-box-submit-flight">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+  <!-- HOTELES -->
+  <div id="sbTab-hotel" class="sbTab hidden">
+    <div id="search-box-hotel" class="search-box new"> 
+      <!-- titles-->
+      <form name="HotelSearchForm" method="post" action="/alojamientos/hoteles/cityHotel.do" id="HotelSearchForm">
+        <!-- Errors -->
+        <div id="error-hotel" class="hidden group error"></div>
+        <!-- Hidden -->
+        <input id="searchRestricted" name="searchRestricted" type="hidden" value="" >
+        <input id="Nhotel" type="hidden" name="Nhotel" align="bottom" value="no" >
+        <input id="from-hotel" type="hidden" name="from" value="MAIN-HOME" >
+        <!-- Hidden Ciudades Espaolas e Internacionales, Edad de los nios -->
+       
+        
+       
+        <div id="ciudadesInternacionales" class="oculto hidden" style="left:350px; top:160px;">
+          <div class="title"> <span>Destinations internationales</span> <span class="close"><img id="close-international" class="pointer"  src="/pictures/icono-cerrar-b.gif" alt="boton" width="15" height="14" border="0"> </span></div>
+          <fieldset>
+            <div>
+              <label for="paisIN"> Pays: </label>
+              <select name="paisIN" id="paisIN" class="negro-normal">
+                <option> ----- </option>
+              </select>
+            </div>
+            <div>
+              <label for="localidadIn"> Ville: </label>
+              <select name="localidadIn" id="localidadIn" class="negro-normal">
+                <option value=""> s&eacute;lectionnez une ville </option>
+              </select>
+            </div>
+          </fieldset>
+          <div class="button-popup"><img id="accept-international" class="pointer" src="/pictures/dsg308.gif" alt="boton" border="0" ></div>
+        </div>
+        <div id="agesForm-hotel" class="oculto hidden ages" style="left:339px;top:150px;">
+          <div class="title"> <span>Entrer l'âge des enfants</span> <span class="close"><img id="closeAges-hotel" src="/pictures/icono-cerrar-b.gif" class="pointer" alt="boton" width="15" height="14" border="0"></span></div>
+          <div id="room1-hotel" class="hidden room_age">
+            <p>Chambre 1</p>
+            <div id="select-child1-hotel" class="hidden child">L'&acirc;ge du premier enfant
+              <input id="child1-hotel" name="child1" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child2-hotel" class="hidden child"> L'&acirc;ge du deuxi&egrave;me enfant
+              <input id="child2-hotel" name="child2" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child3-hotel" class="hidden child"> L'&acirc;ge du troisième enfant 
+              <input id="child3-hotel" name="child3" type="text" size="2" maxlength="2" />
+            </div>
+          </div>
+          <div id="room2-hotel" class="hidden room_age">
+            <p>Chambre 2</p>
+            <div id="select-child4-hotel" class="hidden child">L'&acirc;ge du premier enfant
+              <input id="child4-hotel" name="child4" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child5-hotel" class="hidden child"> L'&acirc;ge du deuxi&egrave;me enfant
+              <input id="child5-hotel" name="child5" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child6-hotel" class="hidden child"> L'&acirc;ge du troisième enfant 
+              <input id="child6-hotel" name="child6" type="text" size="2" maxlength="2" />
+            </div>
+          </div>
+          <div id="room3-hotel" class="hidden room_age child">
+            <p>Chambre  3</p>
+            <div id="select-child7-hotel" class="hidden child">L'&acirc;ge du premier enfant
+              <input id="child7-hotel" name="child7" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child8-hotel" class="hidden child"> L'&acirc;ge du deuxi&egrave;me enfant
+              <input id="child8-hotel" name="child8" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child9-hotel" class="hidden child"> L'&acirc;ge du troisième enfant 
+              <input id="child9-hotel" name="child9" type="text" size="2" maxlength="2" />
+            </div>
+          </div>
+          <div id="room4-hotel" class="hidden room_age">
+            <p>Chambre  4</p>
+            <div id="select-child10-hotel" class="hidden child">L'&acirc;ge du premier enfant
+              <input id="child10-hotel" name="child10" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child11-hotel" class="hidden child"> L'&acirc;ge du deuxi&egrave;me enfant
+              <input id="child11-hotel" name="child11" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child12-hotel" class="hidden child"> L'&acirc;ge du troisième enfant 
+              <input id="child12-hotel" name="child12" type="text" size="2" maxlength="2" />
+            </div>
+          </div>
+          <div id="room5-hotel" class="hidden room_age">
+            <p>Chambre  5</p>
+            <div id="select-child13-hotel" class="hidden child">L'&acirc;ge du premier enfant
+              <input id="child13-hotel" name="child13" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child14-hotel" class="hidden child"> L'&acirc;ge du deuxi&egrave;me enfant
+              <input id="child14-hotel" name="child14" type="text" size="2" maxlength="2" />
+            </div>
+            <div id="select-child15-hotel" class="hidden child"> L'&acirc;ge du troisième enfant 
+              <input id="child15-hotel" name="child15" type="text" size="2" maxlength="2" />
+            </div>
+          </div>
+          <div id="agesError-hotel" class="hidden group error"></div>
+          <div class="button-popup"><img id="setAges-hotel" class="pointer" src="/pictures/dsg308.gif" alt="boton" border="0" /> </div>
+        </div>
+        <!-- City -->
+        <fieldset class="locations">
+          <div id="location-dep" class="form-column w55">
+            <input id="arrCity-hotel" name="arrCity-hotel" type="text" class="highlight over" value="Entrer votre destination" autocomplete="off" />
+          </div>
+          <div class="form-column w40 area"> <span>
+            <input type="checkbox" name="distance" id="distance-hotel" value="si" class="checkbox" style="width:auto;">
+            Et alentours</span> </div>
+        </fieldset>
+        <fieldset class="locations">
+          <div class="form-column w50">
+            <input type="text" name="arrHotel" id="arrHotel-hotel" class="highlight over" value="S&eacute;lectionnez votre h&ocirc;tel (en option)" autocomplete="off" />
+          </div>
+          <div class="form-column"  id="destino">
+            <a class="texto-enlaces" href="javascript:;" id="comboIn">Destinations internationales</a> 
+          </div>
+        </fieldset>
+        <fieldset class="dates">
+          <div class="form-column w150px input-field dep">
+            <label class="title">Arriv&eacute;e:</label>
+            <input type="text" name="depDate-hotel" class="highlight" readonly="readonly" value="dd/mm/aaaa" size="10" maxlength="10" id="depDate-hotel">
+            <span id="showCalDep-hotel" class="calicon-link"> <img width="18" height="17" border="0" alt="Elige una fecha de Retorno" src="/pictures/icoCalendar.gif" /> </span> </div>
+          <div class="form-column w150px input-field ret">
+            <label class="title">D&eacute;part:</label>
+            <input type="text" name="retDate-hotel" class="highlight" readonly="readonly" value="dd/mm/aaaa" size="10" maxlength="10" id="retDate-hotel">
+            <span id="showCalRet-hotel" class="calicon-link"> <img width="18" height="17" border="0" alt="Elige una fecha de Retorno" src="/pictures/icoCalendar.gif" /> </span> </div>
+        </fieldset>
+        <fieldset class="nights">
+          <div class="form-column w25 select-field">
+            <label class="title">Nuits:</label>
+            <select name="dias_en_sa-hotel" id="dias_en_sa-hotel" class="highlight">
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+              <option value='4'>4</option>
+              <option value='5'>5</option>
+              <option value='6'>6</option>
+              <option value='7'>7</option>
+              <option value='8'>8</option>
+              <option value='9'>9</option>
+              <option value='10'>10</option>
+              <option value='11'>11</option>
+              <option value='12'>12</option>
+              <option value='13'>13</option>
+              <option value='14'>14</option>
+              <option value='15'>15</option>
+              <option value='16'>16</option>
+              <option value='17'>17</option>
+              <option value='18'>18</option>
+              <option value='19'>19</option>
+              <option value='20'>20</option>
+              <option value='21'>21</option>
+              <option value='22'>22</option>
+              <option value='23'>23</option>
+              <option value='24'>24</option>
+              <option value='25'>25</option>
+              <option value='26'>26</option>
+              <option value='27'>27</option>
+              <option value='28'>28</option>
+              <option value='29'>29</option>
+            </select>
+          </div>
+          <div class="form-column w50 select-field">
+            <label class="title" for="title">Nombre de chambres:</label>
+            <select name="numRooms-hotel" id="numRooms-hotel" class="highlight">
+              <option value='1'>1</option>
+              <option value='2'>2</option>
+              <option value='3'>3</option>
+              <option value='4'>4</option>
+              <option value='5'>5</option>
+            </select>
+          </div>
+        </fieldset>
+        <div id="agesResume-hotel" class="ages-resume hidden"> </div>
+        <fieldset>
+          
+          <div class="from-column w90 select-field">
+            <label class="title">Personnes/chambre:</label>
+            <select class="highlight" id="paxHab-hotel" name="paxHab-hotel">
+               <option value="1A0N">1 adulte</option>
+    <option value="2A0N" selected="selected">2 adultes</option>
+    <option value="3A0N">3 adultes</option>
+    <option value="1A1N">1 adulte + 1 enfant</option>
+    <option value="1A2N">1 adulte + 2 enfants </option>
+    <option value="1A3N">1 adulte + 3 enfants </option>
+    <option value="2A1N">2 adultes + 1 enfant </option>
+    <option value="2A2N">2 adultes + 2 enfants </option>
+    <option value="2A3N">2 adultes + 3 enfants </option>
+    <option value="3A1N">3 adultes + 1 enfant </option>
+    <option value="3A2N">3 adultes + 2 enfants </option>
+    <option value="3A3N">3 adultes + 3 enfants </option>
+    <option value="4A0N">4 adultes </option>
+    <option value="4A1N">4 adultes + 1 enfant </option>
+    <option value="4A2N">4 adultes + 2 enfants </option>
+    <option value="4A3N">4 adultes + 3 enfants </option>
+    <option value="5A0N">5 adultes </option>
+
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="form-column w70 select-field">
+            <label class="title">Cat&eacute;gorie:</label>
+            <select class="highlight" id="category-hotel" name="category-hotel">
+              <option value="0" selected="selected">--Sans pr&eacute;f&eacute;rence--</option>
+              <option value="1">1 &eacute;toile </option>
+              <option value="2">2 &eacute;toiles </option>
+              <option value="3">3 &eacute;toiles </option>
+              <option value="4">4 &eacute;toiles </option>
+              <option value="5">5 &eacute;toiles </option>
+              <option value="6">Appartements </option>
+            </select>
+          </div>
+        </fieldset>
+        <fieldset>
+          <div class="form-column w70 select-field">
+            <label class="title" for="boardType">Formule:</label>
+            <select name="boardType-hotel" id="boardType-hotel" class="highlight">
+              <option selected="selected" value="0">--Sans pr&eacute;f&eacute;rence--</option>
+              <option value="1">Logement uniquement</option>
+              <option value="2">Petit déjeuner</option>
+              <option value="3">Demi-pension</option>
+              <option value="4">Pension compl&egrave;te</option>
+              <option value="5">Tout compris</option>
+            </select>
+          </div>
+        </fieldset>
+        
+        <!-- Submit -->
+        
+        <div class="btn-search">
+          <input type="button" value="Chercher" class="btn"  id="search-box-submit-hotel">
+        </div>
+      </form>
+    </div>
+  </div>
+  
+ <div class="search-box-inf">
+    <div class="borde-izq"> <img border="0" src="/pictures/borde-inf-izq-verde.gif"> </div>
+    <div class="borde-derc"> <img border="0" src="/pictures/borde-inf-der-verde.gif"> </div>
+    <div class="clearer"> </div>
+  </div>
+</div> 
+      <script type="text/javascript">rmbui.Manager.initRmbui();</script> 
+    </div>
+    <div class="promo-destacado"><a data-brg-track-offer="merch_1" href="http://vol.rumbo.fr/vg1/pricesearchstatic.action?sl=1&departureAirports=PAR&arrivalAirports=LIS" target="_blank" title="Vol pas cher vers Lisbonne"><img src="/pictures/banner-home-v1.jpg" alt="Vol pas cher vers Lisbonne" width="630" height="110" border="0" /></a></div>
+    <div class="hm2"><a data-brg-track-offer="merch_2" href="/hotels/royaume-uni/angleterre/londres/hoteles-londres.html?gtrk=banner-home-londres" target="_blank" title="Hôtels 4* à Londres"><img src="/pictures/banner_hotel_londres_315x125.jpg" alt="Hôtels 4* à Londres" width="315" height="125" border="0" /></a></div>
+    <div id="mega">
+      <div class="hm3">
+        <div id="PubMiddle1">
+          <div id="publi-right"></div>
+        </div>
+      </div>
+    </div>
+    <div class="hm2">
+      <div class="promo"><a data-brg-track-offer="merch_3" href="/hotels/cat/4/espagne/barcelone/barcelone/hoteles-barcelone.html?gtrk=banner-home-barcelone" title="Hôtels 4* à Barcelone"><img src="/pictures/banner_hotel_barcelone_315x125.jpg" alt="Hôtels 4* à Barcelone" width="315" height="125" border="0" /></a></div>
+    </div>
+    <script type='text/javascript' src='/js/affiliates/updatePrices.js'></script>
+    <div id="group-offers" title="rmbPricesVH">
+      <div class="offers-box">
+        <div class="box-sup-offers">
+          <div class="box-titulo-offers"><a href="/viajes/paginas/superbuscador.do" class="link-white">Nos meilleures ventes de vols</a></div>
+          
+        </div>
+        <div class="box-central-offers"> 
+          <ul>
+<li><span><a class="link-black" href="/vol/PARNYC/paris-new-york/" title="Vol Paris - New York">Vol Paris - New York</a></span><span id="rmbesPARNYC" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARROM/paris-rome/" title="Vol Paris - Rome">Vol Paris - Rome</a></span>
+<span id="rmbesPARROM" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARPRG/paris-prague/" title="Vol Paris - Prague">Vol Paris - Prague</a></span>
+<span id="rmbesPARPRG" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARBCN/paris-barcelona/" title="Vol Paris - Barcelone">Vol Paris - Barcelone</a></span> <span id="rmbesPARBCN" class="price"> </span></li>
+
+<li><span><a class="link-black" href="/vol/PARVCE/paris-venice/" title="Vol Paris - Venise">Vol Paris - Venise</a></span>
+<span id="rmbesPARVCE" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARVIE/paris-vienna/" title="Vol Paris - Vienne">Vol Paris - Vienne</a></span>
+<span id="rmbesPARVIE" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARBER/paris-berlin/" title="Vol Paris - Berlin">Vol Paris - Berlin</a></span>
+<span id="rmbesPARBER" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARLIS/paris-lisbon/" title="Vol Paris - Lisbonne">Vol Paris - Lisbonne</a></span> <span id="rmbesPARLIS" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARLON/paris-london/" title="Vol Paris - London">Vol Paris - London</a></span>
+<span id="rmbesPARLON" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARMIA/paris-miami/" title="Vol Paris - Miami">Vol Paris - Miami</a></span> <span id="rmbesPARMIA" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARMAD/paris-madrid/" title="Vol Paris - Madrid">Vol Paris - Madrid</a></span>
+<span id="rmbesPARMAD" class="price"></span></li>
+
+<li class="more-links"><a href="/viajes/paginas/superbuscador.do" title="Tous nos vols pas chers">Tous nos vols pas chers</a></li>
+</ul>
+ 
+        </div>
+         
+      </div>
+      <div class="offers-box">
+        <div class="box-sup-offers">
+          <div class="box-titulo-offers"><a href="/vol/FR/FR/" class="link-white">Vols domestiques</a></div>
+          
+        </div>
+        <div class="box-central-offers"> 
+          <ul>
+<li><span><a class="link-black" href="/vol/TLSPAR/toulouse-paris/" title="Vol Toulouse - Paris">Vol Toulouse - Paris</a></span><span id="rmbesTLSPAR" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/NCEPAR/nice-paris/" title="Vol Nice - Paris">Vol Nice - Paris</a></span>
+<span id="rmbesNCEPAR" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/MRSPAR/marseille-PARIS/" title="Vol Marseille - Paris">Vol Marseille - Paris</a></span><span id="rmbesMRSPAR" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/BODPAR/bordeaux-paris/" title="Vol Bordeaux - Paris">Vol Bordeaux - Paris</a></span> <span id="rmbesBODPAR" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/MRSNTE/marseille-nantes/" title="Vol Marseille - Nantes">Vol Marseille - Nantes</a></span><span id="rmbesMRSNTE" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARNCE/paris-nice/" title="Vol Paris - Nice">Vol Paris - Nice</a></span>
+<span id="rmbesPARNCE" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/LYSBOD/lyon-bordeaux/" title="Vol Lyon - Bordeaux">Vol Lyon - Bordeaux</a></span><span id="rmbesLYSBOD" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/MPLPAR/montpellier-paris/" title="Vol Montpellier - Paris">Vol Montpellier - Paris</a></span><span id="rmbesMPLPAR" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/AJAPAR/ajaccio-paris/" title="Vol Ajaccio - Paris">Vol Ajaccio - Paris</a></span><span id="rmbesAJAPAR" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/LYSPAR/lyon-paris/" title="Vol Lyon - Paris">Vol Lyon - Paris</a></span><span id="rmbesLYSPAR" class="price"></span></li>
+
+<li><span><a class="link-black" href="/vol/PARTLS/paris-toulouse/" title="Vol Paris - Toulous">Vol Paris - Toulouse</a></span><span id="rmbesPARTLS" class="price"></span></li>
+
+<li class="more-links"><a href="/vol/FR/FR/" title="Tous nos vols pas chers">Tous nos vols pas chers</a></li>
+</ul>
+ 
+        </div>
+         
+      </div>
+      <div class="offers-box">
+        <div class="box-sup-offers">
+          <div class="box-titulo-offers"><a href="/hotels/france/hoteles-france.html" class="link-white">Hôtels en France</a></div>
+          
+        </div>
+        <div class="box-central-offers"> 
+          <ul>
+<li><span><a class="link-black" href="/hotels/france/ile-de-france/paris/hoteles-paris.html" title="H&ocirc;tel &agrave; Paris">H&ocirc;tel &agrave; Paris</a></span><span id="rmbes398" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/rhone-alpes/lyon/hoteles-lyon.html" title="H&ocirc;tel &agrave; Lyon">H&ocirc;tel &agrave; Lyon</a></span><span id="rmbes295" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/provence-alpes-cote-d-azur/nice/hoteles-nice.html" title="H&ocirc;tel &agrave; Nice">H&ocirc;tel &agrave; Nice</a></span><span id="rmbes449" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/provence-alpes-cote-d-azur/aix-en-provence/hoteles-aix-en-provence.html" title="H&ocirc;tel &agrave; Aix-en-Provence">H&ocirc;tel &agrave; Aix-en-Provence</a></span><span id="rmbes441" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/rhone-alpes/annecy/hoteles-annecy.html" title="H&ocirc;tel &agrave; Annecy">H&ocirc;tel &agrave; Annecy</a></span><span id="rmbes1294" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/provence-alpes-cote-d-azur/avignon/hoteles-avignon.html" title="H&ocirc;tel &agrave; Avignon">H&ocirc;tel &agrave; Avignon</a></span><span id="rmbes453" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/aquitaine/bordeaux/hoteles-bordeaux.html" title="H&ocirc;tel &agrave; Bordeaux">H&ocirc;tel &agrave; Bordeaux</a></span><span id="rmbes4240" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/provence-alpes-cote-d-azur/cannes/hoteles-cannes.html" title="H&ocirc;tel &agrave; Cannes">H&ocirc;tel &agrave; Cannes</a></span><span id="rmbes437" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/ile-de-france/disneyland-paris/hoteles-disneyland-paris.html" title="H&ocirc;tel &agrave; Disneyland">H&ocirc;tel &agrave; Disneyland</a></span><span id="rmbes24359" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/nord-pas-de-calais/lille/hoteles-lille.html" title="H&ocirc;tel &agrave; Lille">H&ocirc;tel &agrave; Lille</a></span><span id="rmbes1354" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/france/bretagne/brest/hoteles-brest.html" title="H&ocirc;tel &agrave; Brest">H&ocirc;tel &agrave; Brest</a></span><span id="rmbes4210" class="price"></span></li>
+
+<li class="more-links"><a href="/hotels/france/hoteles-france.html">Voir d'autres offres</a></li>
+</ul> 
+        </div>
+         
+      </div>
+      <div class="offers-box">
+        <div class="box-sup-offers">
+          <div class="box-titulo-offers"><a href="/hotels/top/" class="link-white">Hôtels dans le monde</a></div>
+          
+        </div>
+        <div class="box-central-offers"> 
+          
+
+<ul>
+<li><span><a class="link-black" href="/hotels/royaume-uni/angleterre/londres/hoteles-londres.html" title="Hôtel à Londres">Hôtel à Londres</a></span><span id="rmbes71" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/italie/rome/rome/hoteles-rome.html" title="Hôtel à Rome">Hôtel à Rome</a></span><span id="rmbes458" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/espagne/barcelone/barcelone/hoteles-barcelone.html" title="Hôtel à Barcelone">Hôtel à Barcelone</a></span><span id="rmbes4194" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/pays-bas/hollande-septentrionale/amsterdam/hoteles-amsterdam.html" title="Hôtel à Amsterdam">Hôtel à Amsterdam</a></span><span id="rmbes308" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/italie/milan/milan/hoteles-milan.html" title="Hôtel à Milan">Hôtel à Milan</a></span><span id="rmbes428" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/espagne/madrid/madrid/hoteles-madrid.html" title="Hôtel à Madrid">Hôtel à Madrid</a></span><span id="rmbes788" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/belgique/bruxelles/bruxelles/hoteles-bruxelles.html" title="Hôtel à Bruxelles">Hôtel à Bruxelles</a></span><span id="rmbes4129" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/italie/venise/venise/hoteles-venise.html" title="Hôtel à Venise">Hôtel à Venise</a></span><span id="rmbes440" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/etats-unis/new-york/new-york/hoteles-new-york.html" title="Hôtel à New York">Hôtel à New York</a></span><span id="rmbes2666" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/suede/stockholm/stockholm/hoteles-stockholm.html" title="Hôtel à Stockholm">Hôtel à Stockholm</a></span><span id="rmbes430" class="price"></span></li>
+
+<li><span><a class="link-black" href="/hotels/allemagne/berlin/berlin/hoteles-berlin.html" title="Hôtel à Berlin">Hôtel à Berlin</a></span><span id="rmbes276" class="price"></span></li>
+
+<li class="more-links"><a href="/hotels/france/hoteles-france.html">Voir d'autres offres</a></li>
+
+</ul> 
+        </div>
+         
+      </div>
+    </div>
+    <div id="group-bottom">
+      <div class="promo728x90">
+        <div id="PubBottom1">
+          <div id="publi-bottom"></div>
+        </div>
+      </div>
+      <div class="promo262x90"> <a data-brg-track-offer="merch_4" href="/vol/MIL/milan/" title="Vols pas cher vers Milan"><img src="/pictures/banner_flight_mil.jpg" width="262" height="90" border="0" alt="Vols pas cher vers Milan" /></a></div>
+      <div class="clearer"></div>
+    </div>
+    <div id="footer">
+  <div class="separacion"></div>
+  <div class="menubar">
+    <div class="menuleft">
+      <ul class="formaspago">
+        <li><img class="logoscont" src="http://www1.staticroot.com/rmb/logo_footer_american_express.gif" alt="American-Express" title="American-Express" /> <img class="logoscont" src="http://www1.staticroot.com/rmb/logo_footer_visa.gif" alt="Visa" title="Visa" /> <img class="logoscont" src="http://www1.staticroot.com/rmb/logo_footer_mastercard.gif" alt="MasterCard" title="MasterCard" /> <img class="logoscont" src="http://www1.staticroot.com/rmb/logo_footer_paypal.gif" alt="Paypal" title="Paypal" /> <img class="logoscont" src="http://www1.staticroot.com/rmb/icon_maestro.png" alt="Maestro" title="Maestro"> <img class="logoscont" src="http://www1.staticroot.com/rmb/icon_entropay.png" alt="Entropay" title="Entropay" /></li>
+      </ul>
+    </div>
+    <div class="menuright"> </div>
+    <div class="mask-transparent hidden"></div>
+    <!--<fin pop up> -->
+    <div class="seguridad">
+      <ul>
+        <li><img class="logoscont" src="http://www1.staticroot.com/rmb/logo-footer-iata.gif" alt="Iata" title="Iata" /></li>
+      </ul>
+    </div>
+    <div class="clearer"></div>
+  </div>
+  <div class="links-footer">
+    <ul class="info-foot">
+      <li><a title="Qui sommes-nous?" target="_blank" href="/html/home/quienes-somos.shtml">Qui sommes-nous?</a><span>|</span></li>
+      <li><a title="Conditions générales" rel="nofollow" target="_blank" href="/html/home/condiciones-generales-utilizacion-site.shtml">Conditions générales</a><span>|</span></li>
+      <li><a title="Protection des données" rel="nofollow" target="_blank" href="/html/home/privacy-policy.shtml">Protection des données</a><span>|</span></li>
+      <li><a title="Information sur les témoins" rel="nofollow" target="_blank" href="/html/home/info_cookies.html">Information sur les cookies</a></li>
+    </ul>
+  </div>
+  <div class="clearer"></div>
+  <div class="copyR">Le portail www.rumbo.fr appartient à Red Universal de Marketing y Bookings Online S.A.U., Calle Proción 1 - 28023 Madrid (code CICMA 1800), société appartenant à lastminute.com group. Rumbo est une marque déposée® 2000-<script type="text/javascript">var d = new Date(); document.write(d.getFullYear());</script>. Tous droits réservés©. Les services disponibles sur ce site sont proposés par les entreprises appartenant à lastminute.com group ou par d'autres entreprises partenaires.</div>
+  <div class="separacion"></div>
+  <div>
+    <div class="world-links">
+      <ul>
+        <li class="columna"><a target="_top" title="Rumbo, tus viajes al mejor precio" href="http://www.rumbo.es/"><img title="Rumbo, tus viajes al mejor precio" alt="Rumbo, tus viajes al mejor precio" src="http://www1.staticroot.com/rmb/footer_es.gif" />España</a></li>
+        <li lang="it-IT"><a hreflang="it-IT" href="http://www.rumbo.it/" title="Rumbo, i tuoi viaggi al miglior prezzo" target="_top"><img src="http://www1.staticroot.com/rmb/footer_it.gif" alt="Rumbo, i tuoi viaggi al miglior prezzo" title="Rumbo, i tuoi viaggi al miglior prezzo">Italia</a></li>
+        <li lang="pt-PT"><a target="_top" title="Rumbo, a sua viagem ao melhor preço" href="http://www.rumbo.pt/" hreflang="pt-PT"><img title="Rumbo, a sua viagem ao melhor preço" alt="Rumbo, a sua viagem ao melhor preço" src="http://www1.staticroot.com/rmb/footer_pt.gif" />Portugal</a></li>
+        <li lang="de-DE"><a target="_top" title="Rumbo, Ihre Reisen zum besten Preis" href="http://www.rumbo.de/" hreflang="de-DE"><img title="Rumbo, Ihre Reisen zum besten Preis" alt="Rumbo, Ihre Reisen zum besten Preis" src="http://www1.staticroot.com/rmb/footer_ge.gif" />Deutschland</a></li>
+        <li lang="es-CO"><a target="_top" title="Rumbo, tus viajes al mejor precio" href="http://www.rumbo.com.co/" hreflang="es-CO"><img title="Rumbo, tus viajes al mejor precio" alt="Rumbo, tus viajes al mejor precio" src="http://www1.staticroot.com/rmb/footer_co.gif" />Colombia</a></li>
+        <li lang="pt-BR" style="width:auto"><a target="_top" title="Rumbo, a sua viagem ao melhor preço" href="http://www.rumbo.com.br/" hreflang="pt-BR"><img title="Rumbo, a sua viagem ao melhor preço" alt="Rumbo, a sua viagem ao melhor preço" src="http://www1.staticroot.com/rmb/footer_br.gif" />Brasil</a></li>
+      </ul>
+      <ul>
+        <li lang="en" class="columna"><a target="_top" title="Rumbo, your trips at better prices" href="http://www.rumbo.com/viajes/vuelos/home.do" hreflang="en"><img title="Rumbo, your trips at better prices" alt="Rumbo, your trips at better prices" src="http://www1.staticroot.com/rmb/footer_wd.gif" />Worldwide (English)</a></li>
+        <li lang="fr-FR"><a target="_top" title="Rumbo, vos voyages au meilleur prix" href="http://www.rumbo.fr/" hreflang="fr-FR"><img title="Rumbo, vos voyages au meilleur prix" alt="Rumbo, vos voyages au meilleur prix" src="http://www1.staticroot.com/rmb/footer_fr.gif" />France</a></li>
+        <li lang="es-AR"><a target="_top" title="Rumbo, tus viajes al mejor precio" href="http://www.rumbo.com.ar/" hreflang="es-AR"><img title="Rumbo, tus viajes al mejor precio" alt="Rumbo, tus viajes al mejor precio" src="http://www1.staticroot.com/rmb/footer_ar.gif" />Argentina</a></li>
+        <li lang="es-VE"><a target="_top" title="Rumbo, tus viajes al mejor precio" href="http://www.rumbo.com.ve/" hreflang="es-VE"><img title="Rumbo, tus viajes al mejor precio" alt="Rumbo, tus viajes al mejor precio" src="http://www1.staticroot.com/rmb/footer_ve.gif" />Venezuela</a></li>
+      </ul>
+      <div class="clearer"></div>
+    </div>
+    <div class="links-footer">
+      <ul>
+        <li><strong>Autres offres :</strong></li>
+        <li><a href="http://www.rumbo.pt/voos/" title="Voos baratos">Voos baratos </a><span>|</span></li>
+        <li><a href="http://www.rumbo.de/flug/" title="Billigflüge">Billigflüge</a><span>|</span></li>
+        <li><a href="http://www.rumbo.fr/vol/top-destinations/" title="Top destinations">Top destinations</a><span>|</span></li>
+        <li><a href="http://www.rumbo.fr/vol/pays/" title="Vols par pays">Vols par pays</a><span>|</span></li>
+        <li><a href="http://www.rumbo.fr/vol/compagnies-aeriennes/" title="Compagnies aériennes">Compagnies aériennes</a><span>|</span></li>
+        <li><a href="http://www.rumbo.fr/hotels/top/" title="Top Hotels">Top Hotels</a><span>|</span></li>
+        <li><a href="http://www.rumbo.fr/hotels/france/hoteles-france.html" title="Hôtels en France">Hôtels en France</a><span>|</span></li>
+      </ul>
+    </div>
+    <div class="clearer"></div>
+  </div>
+  <div class="clearer"></div>
+</div> 
+  </div>
+</div>
+<!-- whiteLabels 3 -->
+<script type="text/javascript">
+	(function() {
+		var isWhiteLabel = function()
+		{
+			if ( !( (typeof rmb !== "undefined") && rmb && ("seo" in rmb) && ("CookieAfiliados" in rmb.seo) && ("getWhiteLabelData" in rmb.seo.CookieAfiliados)))
+			{
+				return false;
+			}
+			
+			var data = rmb.seo.CookieAfiliados.getWhiteLabelData();		
+					
+			var check = ("isWhiteLabel" in data) && data.isWhiteLabel ;	
+				
+			return (check == 'true' || check == true);
+		};
+	
+        if(isWhiteLabel())
+        {
+			document.write(unescape("%3Cscript src='/js/rmb/seo/marcasBlancas/1.1/MarcasBlancasFooter.js' type='text/javascript'%3E%3C/script%3E"));        
+		}
+	}());
+</script>
+<!-- END whiteLabels 3 -->
+
+<!-- trackers2 -->
+
+<!-- End trackers2 -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WJ6D"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-WJ6D');</script>
+<!-- End Google Tag Manager --> 
+<!-- gwo2 --> 
+
+<!-- section: --> 
+
+<script>utmx_section("ad-version")</script> 
+<script>var adVersionValue='portada';</script>
+</noscript>
+
+<!-- GWO Tracking Script --> 
+<script type="text/javascript">
+    if (typeof rmbui_gwo_setcvar !== 'undefined') 
+    {
+        var accountGWO = accountGWO || '';
+        var testGWO = testGWO || '';
+        // Tracking GWO
+        _gaq.push(['gwo._setAccount', accountGWO]);
+        _gaq.push(['gwo._trackPageview', '/' + testGWO + '/test']);
+    }
+</script> 
+<!-- End GWO Tracking Script --> 
+
+<!-- end gwo2 --> 
+<script type="text/javascript" src="http://dnn506yrbagrg.cloudfront.net/pages/scripts/0009/1450.js"></script>
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+var _analytics_scr = document.createElement('script');
+_analytics_scr.type = 'text/javascript'; _analytics_scr.async = true; _analytics_scr.src = '/_Incapsula_Resource?SWJIYLWA=2977d8d74f63d7f8fedbea018b7a1d05&ns=2';
+var _analytics_elem = document.getElementsByTagName('script')[0]; _analytics_elem.parentNode.insertBefore(_analytics_scr, _analytics_elem);
+})();
+// ]]>
+</script></body>
+</html>

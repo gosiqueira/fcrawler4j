@@ -1,0 +1,1863 @@
+title=Office de tourisme Paris - Site Officiel
+url=http://www.parisinfo.com/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr-FR" lang="fr-FR">
+    <head>
+        
+        
+<style type="text/css">
+.limitdisplay-user { display: none; }.limitdisplay-user-10 { display: inline; }.limitdisplay-user-block-10 { display: block; }</style>
+                            
+                								
+			    
+	
+
+<link rel="canonical" href="http://www.parisinfo.com/" />
+<meta property="og:url" content="http://www.parisinfo.com/" />
+<!-- START:cache-block-head -->
+                                            
+            
+      
+                        
+        
+
+<title>Office de tourisme Paris - Site Officiel</title>
+
+
+
+<meta property="og:title" content="Office de tourisme Paris - Site Officiel" />
+<meta property="og:site_name" content="www.parisinfo.com"/>
+
+    <meta property="og:description" content="ParisInfo : Des informations pratiques pour organiser votre voyage et votre séjour à Paris : hôtels et hébergements, monuments à Paris, restaurants, événements, shopping, sorties…"/>
+
+	<meta property="og:type" content="article"/>
+<meta name="Content-Type" content="text/html; charset=utf-8" /><meta name="Content-language" content="fr-FR" />    <meta name="author" content="Office du Tourisme et des Congrès de Paris" />
+        <meta name="copyright" content="Office du Tourisme et des Congrès de Paris" />
+        <meta name="description" content="ParisInfo : Des informations pratiques pour organiser votre voyage et votre séjour à Paris : hôtels et hébergements, monuments à Paris, restaurants, événements, shopping, sorties…" />
+        <meta name="keywords" content="paris" />
+    
+
+<!--[if lt IE 9 ]>
+<meta http-equiv="X-UA-Compatible" content="IE=8,chrome=1" /><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UwUAWFRVGwcBV1lTBgI="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:20,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(3),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(4),t(5),"addEventListener"in window&&t(1),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(2),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:5,2:8,3:3,4:7,5:6,6:21,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:22,ee:"QJf3ax",gos:"7eSDFh"}],6:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:22,ee:"QJf3ax"}],7:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:22,ee:"QJf3ax"}],8:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:5,2:22,ee:"QJf3ax"}],9:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:10,3:8,4:5,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],10:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],11:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:20,2:21,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:20,2:11,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],20:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],21:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],22:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:21,ee:"QJf3ax"}]},{},["G9z0Bl",4,9]);</script>
+<![endif]-->
+
+<meta name="MSSmartTagsPreventParsing" content="TRUE" />
+<meta name="generator" content="eZ Publish" />
+<meta name="google-site-verification" content="wQWdX_8MDu1Hv8z0PHyo2POv2s0p09Y4cE7IL97wtwc" /> 
+
+
+    
+<link rel="Home" href="/" title="Page d'accueil - Office de tourisme Paris" />
+<link rel="Index" href="/" />
+<link rel="Top"  href="/" title="Page d'accueil - Office de tourisme Paris" />
+<link rel="Search" href="/content/search" title="Recherche - Office de tourisme Paris" />
+<link rel="Shortcut icon" href="/extension/ow_otcp_designs/design/otcp_public/images/favicon.ico" type="image/x-icon" />
+<link rel="Copyright" href="/footer/full/1464" />
+<link rel="Author" href="/footer/full/1457" />
+
+<meta name="p:domain_verify" content="33123360ef42db9ba00718bc651e2d20"/>
+        
+            <link rel="stylesheet" type="text/css" href="/var/otcp/cache/public/stylesheets/8003f735ad5d5384393ba002ac74f9da_all.css" />
+
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/pros.css" />
+
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/print.css" media="print" /><!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/ie6.css" />
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/slider/jslider.ie6.css" />
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/slider/jslider.blue.ie6.css" />
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/slider/jslider.plastic.ie6.css" />
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/slider/jslider.round.ie6.css" />
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/slider/jslider.round.plastic.ie6.css" />
+<![endif]-->
+
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/ie7.css" />
+<![endif]-->
+
+<!--[if IE 8]>
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/ie8.css" />
+<![endif]-->
+
+<!--[if IE 9]>
+    <link rel="stylesheet" type="text/css" href="/extension/ow_otcp_designs/design/otcp_public/stylesheets/ie9.css" />
+<![endif]-->
+        
+<script type="text/javascript" src="/var/otcp/cache/public/javascript/8c7621c692530de81e6faf8ce11da0c7.js" charset="utf-8"></script>
+
+
+<script type="text/javascript" src="/var/otcp/cache/public/javascript/9d5ba1536c9c059f2e59527835dab425.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="/extension/ow_otcp_designs/design/otcp_public/javascript/utils_osmap_otcp.js" charset="utf-8"></script>
+
+		<script charset="utf-8" src="/extension/ow_otcp_designs/design/otcp_public/javascript/jquery.ui.datepicker-fr.js" type="text/javascript"></script>
+     
+    <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4740360-8']);
+  _gaq.push(['_setDomainName', 'www.parisinfo.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+  
+</script>
+        
+<!-- lorem -->    </head>
+    <body class="visiteurs fre-FR">
+    <div class="wrapperOtcp">
+        <div class="wrapperSite">
+            <!-- Complete page area: START -->
+            <!-- Header area: START -->
+            <div class="header">
+                 
+                                                                                                                                                                        
+
+<ul class="headerMenuHaut clearFix">
+                                                    	        
+                    <li class="headerLienVisiteurs">
+                <a href="http://www.parisinfo.com" title="visiteurs" class="headerMenuHautLienActif">
+                    Visiteurs
+                </a>
+            </li>
+                                                           	        
+                    <li class="headerLienevenement">
+                <a href="http://convention.parisinfo.com" title="evenement" >
+                    PROFESSIONNELS
+                </a>
+            </li>
+                                                           	        
+                    <li class="headerLienAdherents">
+                <a href="http://pro.parisinfo.com" title="adherents" >
+                    Adhérents
+                </a>
+            </li>
+                                                           	        
+                                                           	        
+                    <li class="headerLienPresse">
+                <a href="http://presse.parisinfo.com" title="presse" >
+                    PRESSE
+                </a>
+            </li>
+                                                           	        
+            
+	    <li class="headerLienLangues menuDeroulantCSS menuDeroulant">
+        <a href="#" title="" class="fr"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/fr.png"/></a>
+        <ul>
+                                                                                                        <li><a href="/switchlanguage/to/otcp_visiteur_FR" title="français" class="fr"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/fr.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_visiteur_EN" title="english" class="gb"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/gb.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_visiteur_ES" title="spanish" class="es"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/es.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_visiteur_DE" title="german" class="de"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/de.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_mini_IT" title="italian" class="it"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/it.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_mini_PT" title="portuguese" class="pt"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/pt.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_mini_NL" title="dutch" class="nl"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/nl.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_mini_RU" title="russian" class="ru"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/ru.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_mini_JP" title="japanese" class="jp"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/jp.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_mini_CN" title="chinese" class="cn"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/cn.png"/></a></li>
+                                                                                                                        <li><a href="/switchlanguage/to/otcp_mini_KO" title="korean" class="kr"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/kr.png"/></a></li>
+                                                                                </ul>
+    </li>
+
+            <li class="headerLienMediatheque"><a href="http://pro.photos.parisinfo.com/fr/" title="MÉDIATHÈQUE">MÉDIATHÈQUE</a></li></ul><!-- END:cache-block-head -->                <h1 class="headerLogo"><a href="/" title="Site officiel de l'Office du Tourisme et des Congrès de Paris"><img src="/extension/ow_otcp_designs/design/otcp_public//images/couleurs/headerLogo_visiteurs.png" /><span class="textlogo">Site officiel de l'Office du Tourisme et des Congrès de Paris</span></a></h1>                <ul class="headerOnglets">
+  <li class="ongletPlan">
+    <a href="https://maps.google.fr/maps/ms?msid=209309427564093612447.0004d59d9bbec9aa805c5&msa=0" target="_blank" title="Plan">
+      <span class="ongletBgGauche"></span>Plan
+    </a>
+  </li>
+  <li class="ongletOutils menuDeroulantCSS menuDeroulant">
+    <div class="ongletOutils2">
+      <a href="#" title="Outils">
+        <span class="ongletBgGauche"></span>Outils
+      </a>
+      <ul>
+        <li><a onClick="_gaq.push(['_trackEvent', 'GP-fr#PopinMeteo', 'PopinMeteo#Ouvrir', 'PopinMeteo#Ouvrir']);" href="/popin/meteo" class="fancyboxed" title="Météo">&gt; Météo</a></li>
+        <!-- <li><a href="#">&gt; Webcam</a></li>-->
+        <li><a onClick="_gaq.push(['_trackEvent', 'GP-fr#PopinConvertisseurDevise', 'PopinConvertisseurDevise#Ouvrir', 'PopinConvertisseurDevise#Ouvrir']);" href="/popin/convertisseur_devise" class="fancyboxed" title="Convertisseur de devises &euro;">&gt; Convertisseur de devises &euro;</a></li>
+        <li><a onclick="_gaq.push(['_trackEvent', 'GP-fr#PopinSurfaces', 'PopinSurfaces#Ouvrir', 'PopinSurfaces#Ouvrir']);" href="/popin/convertisseur_surface" class="fancyboxed" title="Convertisseur de surfaces">&gt; Convertisseur de surfaces</a></li>  
+        <li><a onClick="_gaq.push(['_trackEvent', 'GP-fr#PopinNewsletter', 'PopinNewsletter#Ouvrir', 'PopinNewsletter#Ouvrir']);" href="/popin/newsletter" class="fancyboxed" title="Newsletter">&gt; Newsletter</a></li>
+                
+      </ul>
+    </div>
+  </li>
+  
+  <li class="ongletPanier"> <!-- rajouter la classe ongletPanierActif au clic-->
+    
+
+<div id="widget-panier"></div>    
+  </li>  
+    
+</ul>
+
+<div class="headerSearchAndMeteo ezautocomplete">          <!-- START:cache-block-widget-meteo -->
+  <script type="text/javascript">
+$(document).ready(function() {	$.ez( 
+	    'ezjscmeteo::meteo',
+	    '',
+	    function(data) {	
+	        if ( data.error_text ) {	            console.log('Erreur : ' + data.error_text );
+	
+	        } else if ( data.content.length > 0 ) {	            obj = $.parseJSON(data.content);
+	            $('p.localmeteo span').html(obj.t + '°C / ' + obj.tf + '°F'); 
+	            $('img.localimagemeteo').attr('src', '/extension/ow_otcp_designs/design/otcp_public/images/meteo/' + obj.s + '.png'); 
+	
+	        }	    } 
+	);});	
+</script>
+<div class="headerMeteo">
+  <a onClick="_gaq.push(['_trackEvent', 'GP-fr#PopinMeteo', 'PopinMeteo#Ouvrir', 'PopinMeteo#Ouvrir']);" href="/popin/meteo" class="fancyboxed" title="Météo">
+    <img class="localimagemeteo" src="/extension/ow_otcp_designs/design/otcp_public/images/pix.png" />
+  </a>
+  <div class="detailsMeteoHeader">
+  <p class="localmeteo"><span></span></p>
+<script type="text/javascript">
+$(document).ready(function() {	$.ez( 
+	    'ezjscmeteo::time',
+	    '',
+	    function(data) {	
+	        if ( data.error_text ) {	            console.log('Erreur : ' + data.error_text );
+	
+	        } else if ( data.content.length > 0 ) {	            obj = $.parseJSON(data.content);
+	            $('p.localtime span').html(obj.time);
+	            $('p.localdate').html(obj.date);
+	
+	        }	    } 
+	);});	
+</script>  
+  <p class="localtime"><span></span> (Paris UT+2)</p>
+  <p class="localdate"></p>
+  </div>            
+</div><!-- END:cache-block-widget-meteo -->  <form action="/content/search" method="get" class="headerSearch">
+    <fieldset>
+      <label for="test">Vous recherchez</label>
+      <input type="text" name="SearchText" /> 
+      <button name="simpleSearch" id="simpleSearch" onClick="_gaq.push(['_trackEvent', 'GP-fr#MR-General', 'MR-General#Btn_Rechercher', 'Recherche MR Général']);" type="submit" class="boutonGeneriqueSmall"><span><span><img src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="" />ok</span></span></button> 
+      <div id="ezautocompletecontainer"></div>
+    </fieldset>
+  </form>
+</div>            </div>
+            <!-- Header area: END -->
+
+            <!-- Menu area: START --><!-- START:cache-block-menu-top -->
+            
+        <!-- Page_menu_top content: START -->
+<table><tr><td>
+  <ul class="menuPrincipal menuPrincipalfr">                        
+    <li><span class="firstBorder"></span><a href="/decouvrir-paris" title="Découvrir Paris" class=" ">Découvrir</a>
+    
+          <div class="sousMenuPrincipal clearFix">
+        <ul class="sousMenuPrincipalGauche">
+                                          <li><a href="/decouvrir-paris/les-grands-rendez-vous" title="Les grands rendez-vous">Les grands rendez-vous</a></li>
+                                              <li><a href="/decouvrir-paris/balades-a-paris" title="Balades à Paris">Balades à Paris</a></li>
+                                              <li><a href="/decouvrir-paris/paris-pour-la-premiere-fois" title="Paris pour la première fois">Paris pour la première fois</a></li>
+                                              <li><a href="/decouvrir-paris/organisez-votre-sejour-a-paris" title="Organisez un séjour à Paris">Organisez votre séjour avec une agence</a></li>
+                                              <li><a href="/decouvrir-paris/paris-en-images" title="Paris en images">Paris en images</a></li>
+                                              <li><a href="/decouvrir-paris/tourisme-durable" title="Tourisme Durable">Tourisme Durable</a></li>
+                                              <li><a href="/decouvrir-paris/le-paris-des-parisiens" title="Le Paris des Parisiens">Le Paris des Parisiens</a></li>
+                                              <li><a href="/decouvrir-paris/guides-thematiques" title="Guides thématiques">Guides thématiques</a></li>
+                            </ul>
+      </div>
+        </li>
+                            
+    <li><a href="/ou-dormir" title="Où dormir à Paris" class=" ">Où dormir</a>
+    
+          <div class="sousMenuPrincipal clearFix">
+        <ul class="sousMenuPrincipalGauche">
+                                          <li><a href="/ou-dormir/Hotels" title="Hôtels">Hôtels</a></li>
+                                              <li><a href="/ou-dormir/residences-apparts-hotels" title="Résidences / Apparts Hôtels">Résidences / Apparts Hôtels</a></li>
+                                              <li><a href="/ou-dormir/chambres-d-hotes" title="Réservez votre chambre d'hôtes à Paris">Chambres d'hôtes</a></li>
+                                              <li><a href="/ou-dormir/appartements-meubles" title="Appartements meublés">Appartements meublés</a></li>
+                                              <li><a href="/ou-dormir/campings" title="Campings">Campings</a></li>
+                                              <li><a href="/ou-dormir/hebergements-insolites" title="Hébergements Insolites">Hébergements Insolites</a></li>
+                                              <li><a href="/ou-dormir/pour-les-jeunes" title="Pour les jeunes">Pour les jeunes</a></li>
+                                              <li><a href="/ou-dormir/centrales-de-reservation" title="Centrales de réservation">Centrales de réservation</a></li>
+                                              <li><a href="/ou-dormir/reserver-un-hebergement" title="Réserver un hébergement à Paris">Réserver un hébergement</a></li>
+                                              <li><a href="/ou-dormir/en-famille" title="En famille">En famille</a></li>
+                            </ul>
+      </div>
+        </li>
+                            
+    <li><a href="/ou-manger-a-paris" title="Où manger à Paris ?" class=" ">Où manger</a>
+    
+          <div class="sousMenuPrincipal clearFix">
+        <ul class="sousMenuPrincipalGauche">
+                                          <li><a href="/ou-manger-a-paris/restaurants-gastronomiques" title="Restaurants gastronomiques">Restaurants gastronomiques</a></li>
+                                              <li><a href="/ou-manger-a-paris/restauration-francaise" title="Restauration française">Restauration française</a></li>
+                                              <li><a href="/ou-manger-a-paris/specialites-etrangeres" title="Spécialités étrangères">Spécialités étrangères</a></li>
+                                              <li><a href="/ou-manger-a-paris/petits-budgets" title="Petits budgets">Petits budgets</a></li>
+                                              <li><a href="/ou-manger-a-paris/repas-dans-un-cadre-original" title="Repas dans un cadre original">Repas dans un cadre original</a></li>
+                                              <li><a href="/ou-manger-a-paris/cafes-bars-pubs" title="Cafés, bars, pubs">Cafés, bars, pubs</a></li>
+                                              <li><a href="/ou-manger-a-paris/salons-de-thes-et-glaciers" title="Salons de thés et glaciers">Salons de thés et glaciers</a></li>
+                                              <li><a href="/ou-manger-a-paris/epiceries-fines-et-traiteurs" title="Épiceries fines et traiteurs">Épiceries fines et traiteurs</a></li>
+                                              <li><a href="/ou-manger-a-paris/centrales-de-reservation" title="Centrales de réservation">Centrales de réservation</a></li>
+                                              <li><a href="/ou-manger-a-paris/les-ecoles-de-cuisine" title="Les écoles de cuisine">Écoles de cuisine</a></li>
+                            </ul>
+      </div>
+        </li>
+                            
+    <li><a href="/visiter-a-paris" title="Que visiter à Paris ?" class=" ">Visiter</a>
+    
+          <div class="sousMenuPrincipal clearFix">
+        <ul class="sousMenuPrincipalGauche">
+                                          <li><a href="/visiter-a-paris/paris-pass" title="Paris Pass ">Paris Pass </a></li>
+                                              <li><a href="/visiter-a-paris/musees" title="Musées de Paris">Musées</a></li>
+                                              <li><a href="/visiter-a-paris/monuments" title="Monuments">Monuments</a></li>
+                                              <li><a href="/visiter-a-paris/visites-guidees" title="Visites guidées">Visites guidées</a></li>
+                                              <li><a href="/visiter-a-paris/parc-d-attraction-paris" title="Parcs d'attractions et de loisirs à Paris">Parcs d'attractions</a></li>
+                                              <li><a href="/visiter-a-paris/Parcs-et-jardins" title="Parcs et jardins">Parcs et jardins</a></li>
+                                              <li><a href="/visiter-a-paris/Zoos-et-aquariums" title="Zoos et aquariums">Zoos et aquariums</a></li>
+                                              <li><a href="/visiter-a-paris/lieux-de-culte" title="Lieux de culte">Lieux de culte</a></li>
+                            </ul>
+      </div>
+        </li>
+                            
+    <li><a href="/ou-sortir-a-paris" title="Où sortir à Paris ?" class=" ">Sortir </a>
+    
+          <div class="sousMenuPrincipal clearFix">
+        <ul class="sousMenuPrincipalGauche">
+                                          <li><a href="/ou-sortir-a-paris/expositions-a-paris" title="Expositions à Paris">Expositions</a></li>
+                                              <li><a href="/ou-sortir-a-paris/spectacles-a-paris" title="Spectacles à Paris">Spectacles</a></li>
+                                              <li><a href="/ou-sortir-a-paris/concerts-a-paris" title="Concerts à Paris">Concerts</a></li>
+                                              <li><a href="/ou-sortir-a-paris/fetes-et-festivals-a-paris" title="Fêtes et festivals à Paris">Fêtes et festivals</a></li>
+                                              <li><a href="/ou-sortir-a-paris/sports-et-jeux-a-paris" title="Sports et jeux à Paris">Sports et jeux</a></li>
+                                              <li><a href="/ou-sortir-a-paris/foires-et-salons-a-paris" title="Foires et salons à Paris">Foires et salons</a></li>
+                                              <li><a href="/ou-sortir-a-paris/sorties-pour-les-enfants-a-paris" title="Sorties pour les enfants à Paris">Sorties pour les enfants</a></li>
+                                              <li><a href="/ou-sortir-a-paris/excursions-et-plein-air" title="Excursions et plein air">Excursions et plein air</a></li>
+                            </ul>
+      </div>
+        </li>
+                            
+    <li><a href="/shopping" title="Shopping" class=" ">Shopping</a>
+    
+          <div class="sousMenuPrincipal clearFix">
+        <ul class="sousMenuPrincipalGauche">
+                                          <li><a href="/shopping/mode-et-accessoires" title="Mode et accessoires">Mode et accessoires</a></li>
+                                              <li><a href="/shopping/hot-spots-shopping-par-quartier" title="Hot spots, shopping par quartier">Hot spots, shopping par quartier</a></li>
+                                              <li><a href="/shopping/design-et-decoration-a-paris" title="Design et décoration">Design et décoration</a></li>
+                                              <li><a href="/shopping/beaute-et-bien-etre" title="Beauté et bien-être">Beauté et bien-être</a></li>
+                                              <li><a href="/shopping/le-luxe-a-paris" title="Le luxe">Le luxe</a></li>
+                                              <li><a href="/shopping/shopping-gastronomique" title="Shopping gastronomique">Shopping gastronomique</a></li>
+                                              <li><a href="/shopping/visites-et-shopping-a-paris" title="Visites et shopping">Visites et shopping</a></li>
+                                              <li><a href="/shopping/shopping-pour-enfants" title="Shopping pour enfants">Shopping pour enfants</a></li>
+                            </ul>
+      </div>
+        </li>
+                            
+    <li><a href="/paris-pratique" title="Paris Pratique" class=" ">Pratique</a>
+    
+          <div class="sousMenuPrincipal clearFix">
+        <ul class="sousMenuPrincipalGauche">
+                                          <li><a href="/paris-pratique/plan-de-paris" title="Se repérer à Paris: plans et cartes">Plans et cartes</a></li>
+                                              <li><a href="/paris-pratique/office-du-tourisme-et-des-congres-de-paris" title="L'Office du tourisme et de Paris">L'Office du tourisme de Paris</a></li>
+                                              <li><a href="/paris-pratique/se-rendre-a-paris" title="Se rendre à Paris">Se rendre à Paris</a></li>
+                                              <li><a href="/paris-pratique/se-deplacer-a-paris" title="Se déplacer à Paris">Se déplacer à Paris</a></li>
+                                              <li><a href="/paris-pratique/preparer-son-sejour-a-paris" title="Préparer son séjour à Paris">Préparer son séjour à Paris</a></li>
+                                              <li><a href="/paris-pratique/visiter-paris-avec-un-handicap" title="Visiter Paris avec un handicap">Visiter Paris avec un handicap</a></li>
+                                              <li><a href="/paris-pratique/paris-en-famille" title="Paris en famille">Paris en famille</a></li>
+                                              <li><a href="/paris-pratique/securite-a-paris" title="Sécurité à Paris">Sécurité à Paris</a></li>
+                                              <li><a href="/paris-pratique/informations-utiles" title="Informations utiles">Informations utiles</a></li>
+                                              <li><a href="/paris-pratique/adresses-utiles" title="Adresses utiles">Adresses utiles</a></li>
+                            </ul>
+      </div>
+        </li>
+                            
+    <li><a href=http://reservation.parisinfo.com title="Réservez !" class=" menuPrincipalOffresSpe ">Réservez</a>
+    
+            <div class="sousMenuPrincipal clearFix">
+            <ul style="display: block;" class="sousMenuPrincipalGauche">
+        
+                                              <li><a href="http://reservation.parisinfo.com/il4-offre_i147-paris-city-pass-paris-pass.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-PCP#Clickout-fr', 'http://reservation.parisinfo.com/il4-offre_i147-paris-city-pass-paris-pass.aspx']);" title="Paris Passlib'">Paris Passlib'<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Réservez votre Paris Passlib'" width="79" height="16" align="right"></a></li>
+                                              
+                                              <li><a href="http://reservation.parisinfo.com/il4-offres_p3-culture-loisirs.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-CultureLoisirs#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p3-culture-loisirs.aspx']);" title="Culture &amp; Loisirs">Culture &amp; Loisirs<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Culture &amp; Loisirs à Paris" width="79" height="16" align="right"></a></li>
+                                              
+                                              <li><a href="http://reservation.parisinfo.com/il4-offres_p4-cabarets-spectacles.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-Cabarets#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p4-cabarets-spectacles.aspx']);" title="Cabarets &amp; Spectacles">Cabarets &amp;  Spectacles<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Cabarets &amp;  Spectacles" width="79" height="16" align="right"></a></li>
+                                              
+                                              <li><a href="http://reservation.parisinfo.com/il4-offres_p7-transports.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-Transports#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p7-transports.aspx']);" title="Transports à Paris">Transports<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Transports à Paris" width="79" height="16" align="right"></a></li>
+
+                    						  <li><a href="http://reservation.parisinfo.com/il4-offres_p5-croisieres.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-Croisieres#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p5-croisieres.aspx']);" title="Croisières sur la Seine">Croisières<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Croisières sur la Seine" width="79" height="16" align="right"></a></li>
+                                              
+                                              <li><a href="http://reservation.parisinfo.com/il4-offres_p6-excursions.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-Excursions#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p6-excursions.aspx']);" title="Excursions et idées balades à Paris">Excursions<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Excursions et idées balades à Paris" width="79" height="16" align="right"></a></li>
+                                             
+                                              <li><a href="http://reservation.parisinfo.com/il4-offres_p3-culture-loisirs.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-MuseeExpositions#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p3-culture-loisirs.aspx']);" title="Musées et expositions">Musées et expositions<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Musées et expositions Paris" width="79" height="16" align="right"></a></li>
+                                              
+                                              <li><a href="http://reservation.parisinfo.com/il4-offres_p33-incontournables.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-incontournables#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p33-incontournables.aspx']);" title="Les incontournables">Les incontournables<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Les incontournables" width="79" height="16" align="right"></a></li>
+											  
+											  <li><a href="http://reservation.parisinfo.com/il4-hebergements_p8-hebergement.aspx" onclick="_gaq.push(['_trackEvent', 'GP-fr#SsMenu-Reservez', '#SsMenu-Reservez-hebergement#Clickout-fr', 'http://reservation.parisinfo.com/il4-offres_p33-incontournables.aspx']);" title="Réservez votre hébergement à Paris">Hébergement<img src="http://events.parisinfo.com/onglet-reservez-parisinfo/bouton-reservez-magenta-fr.png" alt="Réservez votre hébergement" width="79" height="16" align="right"></a></li>
+      </ul>
+        </div>
+        </li>
+      </ul>
+</td></tr></table>
+
+<!-- Page_menu_top content: END -->    <!-- END:cache-block-menu-top -->            <!-- Menu area: END -->
+
+            <!-- Path area: START -->
+                            
+<!-- Path content: START --><p class="breadcrumb">    Bienvenue sur&nbsp;<b>PARIS</b>INFO.com</p>
+<!-- Path content: END -->                        <!-- Path area: END -->
+
+            <div class="wrapperContenu clearFix">
+                <!-- Main area: START -->
+                
+                
+<div id="main-position">
+  <div id="main" class="float-break">
+    <div class="overflow-fix">
+      <!-- Main area content: START -->      
+              
+             
+    	<!-- Rubric content: START -->
+<div class="contenuPrincipalLarge">	
+        
+    <div ><!-- START:cache-block-central-col-pseudo -->
+        
+
+<div class="meaCarrousel">
+  <ul id="meaCarrouselNav" class="clearfix">                        <li><div><a href=/decouvrir-paris/les-grands-rendez-vous/paris-l-agenda-2016 title="L'agenda 2016">L'agenda 2016</a><span class="openm"></span></div></li>                        <li><div><a href=/visiter-a-paris/paris-pass/paris-passlib title="Paris Passlib'">Paris Passlib'</a><span class="openm"></span></div></li>                        <li><div><a href=/paris-pratique/office-du-tourisme-et-des-congres-de-paris/points-d-accueil title="Info accueil tourisme">Info accueil tourisme</a><span class="openm"></span></div></li>                        <li><div><a href=/ou-sortir-a-paris/infos/guides/les-expositions-au-grand-palais title="Exposition Picasso.mania">Exposition Picasso.mania</a><span class="openm"></span></div></li>  </ul>
+  <div id="meaCarrouselSlideshow" class="pics">            <div>
+    
+        
+    
+            <a class="" href=/decouvrir-paris/les-grands-rendez-vous/paris-l-agenda-2016 title="Paris, l’agenda 2016">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_233/tour-eiffel-rassemblement-|-550x278-|-©-dr/15279687-1-fre-FR/Tour-Eiffel-rassemblement-|-550x278-|-©-DR_carousel.jpg" width="530" height="268"  style=""   alt="Tour Eiffel - rassemblement © DR" title="Paris, l’agenda 2016" />
+             
+
+    
+    
+    </a>
+          <div class="slideshowContent">
+        <h3><a href=/decouvrir-paris/les-grands-rendez-vous/paris-l-agenda-2016>Les grands événements 2016</a></h3>
+            <p class="slideshowContentDesc"><a href=/decouvrir-paris/les-grands-rendez-vous/paris-l-agenda-2016>Découvrez les événements à ne pas manquer, mois après mois !</a></p>
+          </div>
+    </div>            <div>
+    
+        
+    
+            <a class="" href=/visiter-a-paris/paris-pass/paris-passlib title="Paris Passlib'">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_1977/node_143298/paris-passlib'-carrousel-|-550x278-|-©-otcp/15293853-1-fre-FR/Paris-Passlib'-carrousel-|-550x278-|-©-OTCP_carousel.jpg" width="530" height="267"  style=""   alt="Paris Passlib' © OTCP" title="Paris Passlib'" />
+             
+
+    
+    
+    </a>
+          <div class="slideshowContent">
+        <h3><a href=/visiter-a-paris/paris-pass/paris-passlib>Paris Passlib'</a></h3>
+            <p class="slideshowContentDate"><a href=/visiter-a-paris/paris-pass/paris-passlib>Transports, musées, croisière : vivez l'expérience...</a></p>
+            <p class="slideshowContentDesc"><a href=/visiter-a-paris/paris-pass/paris-passlib>Disponible en 1, 2, 3 ou 5 jours, le Paris Passlib' vous simplifie la vie et vous fait faire des économies !</a></p>
+                    
+        <div class="boutonPrix">
+  			<a class="boutonCarroussel"  target="_blank" title="Achetez votre Paris Passlib'" href="http://reservation.parisinfo.com/il4-offre_i147-paris-passlib-paris-pass.aspx?utm_source=parisinfo-fr&utm_medium=carrousel-fr&utm_content=paris-passlib-fr&utm_campaign=Paris%20Passlib%20FR" class="boutonGeneriqueMedium PrixGrandBtn"><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Achetez" />Achetez</span></a>
+		</div>
+          </div>
+    </div>            <div>
+    
+        
+    
+            <a class="" href=/paris-pratique/office-du-tourisme-et-des-congres-de-paris/points-d-accueil title="Nos points d'accueil">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_233/node_99932/façade-bureau-pyramides-|-550x278-|-©-otcp-dr/15285427-1-fre-FR/Façade-bureau-pyramides-|-550x278-|-©-OTCP-DR_carousel.jpg" width="530" height="268"  style=""   alt="Façade bureau pyramides | 550x278 | © OTCP - DR" title="Nos points d'accueil" />
+             
+
+    
+    
+    </a>
+          <div class="slideshowContent">
+        <h3><a href=/paris-pratique/office-du-tourisme-et-des-congres-de-paris/points-d-accueil>Fermeture temporaire du bureau d’accueil Pyramides</a></h3>
+            <p class="slideshowContentDate"><a href=/paris-pratique/office-du-tourisme-et-des-congres-de-paris/points-d-accueil>A partir du 18 janvier 2016 pour travaux</a></p>
+            <p class="slideshowContentDesc"><a href=/paris-pratique/office-du-tourisme-et-des-congres-de-paris/points-d-accueil>L’Office de Tourisme reste ouvert ! Rdv à la Maison de l'Aquitaine, de l’autre côté de la rue.</a></p>
+          </div>
+    </div>            <div>
+    
+        
+    
+            <a class="" href=/ou-sortir-a-paris/infos/guides/les-expositions-au-grand-palais title="Les expositions au Grand Palais">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_233/exposition-picasso.mania-|-550x278-|-©-rmn-grand-palais/15094578-1-fre-FR/Exposition-Picasso.mania-|-550x278-|-©-Rmn-Grand-Palais_carousel.jpg" width="530" height="268"  style=""   alt="Exposition Picasso.mania au Grand Palais © Rmn-Grand Palais" title="Les expositions au Grand Palais" />
+             
+
+    
+    
+    </a>
+          <div class="slideshowContent">
+        <h3><a href=/ou-sortir-a-paris/infos/guides/les-expositions-au-grand-palais>Exposition Picasso.mania</a></h3>
+            <p class="slideshowContentDate"><a href=/ou-sortir-a-paris/infos/guides/les-expositions-au-grand-palais>Grand Palais</a></p>
+            <p class="slideshowContentDesc"><a href=/ou-sortir-a-paris/infos/guides/les-expositions-au-grand-palais>Du 7 octobre 2015 au 29 février 2016</a></p>
+                    
+        <div class="boutonPrix">
+  			<a class="boutonCarroussel"  target="_blank" title="Réservez" href="http://reservation.parisinfo.com/il4-offre_i220-grand-palais-exposition-picasso-mania.aspx?utm_source=parisinfo-fr&utm_medium=carrousel-fr&utm_content=exposition-picasso-mania-fr&utm_campaign=Exposition%20Picasso%20Mania%20fr" class="boutonGeneriqueMedium PrixGrandBtn"><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Réservez" />Réservez</span></a>
+		</div>
+          </div>
+    </div>  </div>
+</div>
+
+
+<!-- no script version -->
+<div class="meaGenerique2Col clearFix" id="meaGeneriqueNoScript">            
+        
+  <div class="meaGenerique2ColBloc meaGenerique2ColBlocNoLeftPad">
+        <a href="#" title="Les grands événements 2016">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_233/tour-eiffel-rassemblement-|-550x278-|-©-dr/15279687-1-fre-FR/Tour-Eiffel-rassemblement-|-550x278-|-©-DR_block_thumbnail.jpg" width="140" height="71"  style=""   alt="Tour Eiffel - rassemblement © DR" title="Les grands événements 2016" />
+             
+
+    
+    
+    </a>
+        <div class="meaGenerique2ColBlocTexte">
+      <h3>
+        <a href="#" title="Les grands événements 2016">Les grands événements 2016</a>
+      </h3>
+      <p><a href="#" title="Les grands événements 2016">Découvrez les événements à ne pas manquer, mois après mois !</a></p>
+    </div>
+  </div>            
+        
+  <div class="meaGenerique2ColBloc meaGenerique2ColBlocNoLeftPad">
+        <a href="#" title="Paris Passlib'">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_1977/node_143298/paris-passlib'-carrousel-|-550x278-|-©-otcp/15293853-1-fre-FR/Paris-Passlib'-carrousel-|-550x278-|-©-OTCP_block_thumbnail.jpg" width="140" height="71"  style=""   alt="Paris Passlib' © OTCP" title="Paris Passlib'" />
+             
+
+    
+    
+    </a>
+        <div class="meaGenerique2ColBlocTexte">
+      <h3>
+        <a href="#" title="Paris Passlib'">Paris Passlib'</a>
+      </h3>
+      <p><a href="#" title="Paris Passlib'">Disponible en 1, 2, 3 ou 5 jours, le Paris Passlib' vous simplifie la vie et vous fait faire des économies !</a></p>
+    </div>
+  </div>            
+        
+  <div class="meaGenerique2ColBloc meaGenerique2ColBlocNoLeftPad">
+        <a href="#" title="Fermeture temporaire du bureau d’accueil Pyramides">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_233/node_99932/façade-bureau-pyramides-|-550x278-|-©-otcp-dr/15285427-1-fre-FR/Façade-bureau-pyramides-|-550x278-|-©-OTCP-DR_block_thumbnail.jpg" width="140" height="71"  style=""   alt="Façade bureau pyramides | 550x278 | © OTCP - DR" title="Fermeture temporaire du bureau d’accueil Pyramides" />
+             
+
+    
+    
+    </a>
+        <div class="meaGenerique2ColBlocTexte">
+      <h3>
+        <a href="#" title="Fermeture temporaire du bureau d’accueil Pyramides">Fermeture temporaire du bureau d’accueil Pyramides</a>
+      </h3>
+      <p><a href="#" title="Fermeture temporaire du bureau d’accueil Pyramides">L’Office de Tourisme reste ouvert ! Rdv à la Maison de l'Aquitaine, de l’autre côté de la rue.</a></p>
+    </div>
+  </div>            
+        
+  <div class="meaGenerique2ColBloc meaGenerique2ColBlocNoLeftPad">
+        <a href="#" title="Exposition Picasso.mania">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_233/exposition-picasso.mania-|-550x278-|-©-rmn-grand-palais/15094578-1-fre-FR/Exposition-Picasso.mania-|-550x278-|-©-Rmn-Grand-Palais_block_thumbnail.jpg" width="140" height="71"  style=""   alt="Exposition Picasso.mania au Grand Palais © Rmn-Grand Palais" title="Exposition Picasso.mania" />
+             
+
+    
+    
+    </a>
+        <div class="meaGenerique2ColBlocTexte">
+      <h3>
+        <a href="#" title="Exposition Picasso.mania">Exposition Picasso.mania</a>
+      </h3>
+      <p><a href="#" title="Exposition Picasso.mania">Du 7 octobre 2015 au 29 février 2016</a></p>
+    </div>
+  </div></div><!-- END:cache-block-central-col-pseudo -->    </div>
+                                        
+    <div class="block_left"><!-- START:cache-block-central-col-pseudo -->
+        
+<div class="blocIncontournables">
+  <h2 class="titreBloc">Que faire à Paris ?</h2>
+  <div class="meaGenerique1Col clearFix">	                    
+        
+                        
+        
+    
+        <div class="meaGenerique1ColBloc">
+    
+          <a href="/decouvrir-paris/les-grands-rendez-vous/paris-l-agenda-2016/paris-destination-shopping-en-janvier/paris-destination-shopping-en-janvier" title="Paris, destination shopping en janvier">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_232/soldes-|-630x405-|-©-amélie-dupont/15273345-1-fre-FR/Soldes-|-630x405-|-©-Amélie-Dupont_block_thumbnail.jpg" width="140" height="90"  style=""   alt="Soldes © Amélie Dupont" title="Paris, destination shopping en janvier" />
+             
+
+    
+    
+    </a>
+          <div class="meaGenerique1ColBlocTexte ">
+        <h3>
+          <a href="/decouvrir-paris/les-grands-rendez-vous/paris-l-agenda-2016/paris-destination-shopping-en-janvier/paris-destination-shopping-en-janvier" title="Paris, destination shopping en janvier">Paris, destination shopping en janvier</a>
+        </h3>
+	    <p><a href="/decouvrir-paris/les-grands-rendez-vous/paris-l-agenda-2016/paris-destination-shopping-en-janvier/paris-destination-shopping-en-janvier" title="Paris, destination shopping en janvier">En janvier, Paris se dévoile sous toutes les coutures pendant...</a></p>
+              </div>
+    </div>	                    
+        
+                        
+        
+    
+        <div class="meaGenerique1ColBloc">
+    
+          <a href="/ou-manger-a-paris/infos/guides/diner-croisiere-sur-les-bateaux-parisiens" title="Diner-croisière sur les Bateaux Parisiens">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/04.-restauration-630-x-405/bateaux-parisiens-630x405-c-otcp-marc-bertrand/24462-1-fre-FR/Bateaux-Parisiens-630x405-C-OTCP-Marc-Bertrand_block_thumbnail.jpg" width="140" height="90"  style=""   alt="Bateaux Parisiens, Paris © OTCP - Marc Bertrand" title="Diner-croisière sur les Bateaux Parisiens" />
+             
+
+    
+    
+    </a>
+          <div class="meaGenerique1ColBlocTexte ">
+        <h3>
+          <a href="/ou-manger-a-paris/infos/guides/diner-croisiere-sur-les-bateaux-parisiens" title="Diner-croisière sur les Bateaux Parisiens">Diner-croisière sur les Bateaux Parisiens</a>
+        </h3>
+	    <p><a href="/ou-manger-a-paris/infos/guides/diner-croisiere-sur-les-bateaux-parisiens" title="Diner-croisière sur les Bateaux Parisiens">Savourer un diner romantique en se laissant porter au fil de...</a></p>
+              </div>
+    </div>	                    
+        
+                        
+        
+    
+        <div class="meaGenerique1ColBloc">
+    
+          <a href="/ou-sortir-a-paris/infos/guides/les-comedies-musicales-parisiennes" title="Comédies musicales à Paris">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/cats-affiche-du-spectacle-|-630x405-|-©-dr-stage-entertainment/13025156-2-fre-FR/Cats-Affiche-du-spectacle-|-630x405-|-©-DR-Stage-Entertainment_block_thumbnail.jpg" width="140" height="90"  style=""   alt="Cats - Affiche du spectacle, Paris © DR Stage Entertainment" title="Comédies musicales à Paris" />
+             
+
+    
+    
+    </a>
+          <div class="meaGenerique1ColBlocTexte ">
+        <h3>
+          <a href="/ou-sortir-a-paris/infos/guides/les-comedies-musicales-parisiennes" title="Comédies musicales à Paris">Comédies musicales à Paris</a>
+        </h3>
+	    <p><a href="/ou-sortir-a-paris/infos/guides/les-comedies-musicales-parisiennes" title="Comédies musicales à Paris">Cats, La légende du roi Arthur, Résiste, Dirty Dancing, Les...</a></p>
+              </div>
+    </div>        
+  </div>
+  <a  href=/decouvrir-paris/paris-pour-la-premiere-fois title="Paris pour la première fois" class="lienFinDeBlocBlanc">+ de visites</a>
+</div>
+<!-- END:cache-block-central-col-pseudo -->    </div>
+                                        
+    <div class="block_right"><!-- START:cache-block-central-col-pseudo -->
+        
+ 
+<div class="blocVideo">
+  <h2 class="titreBloc">En ce moment à Paris...</h2>        
+              
+    
+  <div class="blocVideoContenu">
+    <a  href=/ou-sortir-a-paris/infos/guides/nouvel-an-chinois-a-paris class="" title="Nouvel an chinois à Paris">
+  
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/défilé-nouvel-an-chinois-|-630x405-|-©-fotolia2/12611670-1-fre-FR/Défilé-nouvel-an-chinois-|-630x405-|-©-Fotolia_block_mea.gif" width="295" height="190"  style=""   alt="Paris, défilé du nouvel an chinois © Fotolia" title="Nouvel an chinois à Paris" />
+             
+
+    
+    
+        </a>
+    <div class="blocVideoContenuText">
+      <h3>
+        <a  href=/ou-sortir-a-paris/infos/guides/nouvel-an-chinois-a-paris class="" title="Nouvel an chinois à Paris">Fêter le Nouvel An Chinois à Paris</a>
+      </h3>
+      <p>
+        <a  href=/ou-sortir-a-paris/infos/guides/nouvel-an-chinois-a-paris class="" title="Nouvel an chinois à Paris">Défilés, dragons, lions dansant et lanternes rythment les festivités du Nouvel An Chinois !</a>
+      </p>
+    </div>
+    
+      </div>  <a  href=/ou-sortir-a-paris/infos/guides/nouvel-an-chinois-a-paris title="Nouvel an chinois à Paris" class="lienFinDeBlocBlanc">Consulter</a>
+</div>	<!-- END:cache-block-central-col-pseudo -->    </div>
+        
+    <div class="block_right"><!-- START:cache-block-central-col-pseudo -->
+        <div class="ongletsBlocContainer">
+
+
+
+
+  <h2 class="titreBloc">Sortir à Paris</h2>
+  <ul class="ongletsBloc clearFix">
+    <li class="ongletBlocActif"><a href="#" title=""><span></span>À ne pas manquer</a></li>
+    <li><a href="#" title="Expositions"><span></span>Expositions</a></li>
+    <li><a href="#" title="Spectacles"><span></span>Spectacles</a></li>
+    <li><a href="#" title="En famille"><span></span>En famille</a></li>
+  </ul>
+  
+  <div class="ongletsBlocContenu">
+
+
+                                                                      <ul class="ongletsBlocListe clearFix ongletsBlocListeActif ul-bloc_c_actualite">
+                        	
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/140394/warhol-unlimited" title="WARHOL unlimited">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/andy-warhol-shadows-|-630x405-|-©-dr/13240362-1-fre-FR/Andy-Warhol-Shadows-|-630x405-|-©-DR_listitem_pro.jpg" width="140" height="90"  style=""   alt="Andy Warhol - Shadows © DR" title="Andy Warhol - Shadows © DR" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/140394/warhol-unlimited" title="WARHOL unlimited">WARHOL unlimited</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/140394/warhol-unlimited" title="WARHOL unlimited">Le Musée d’Art Moderne présente pour la première fois en Europe...</a></p>    </div>
+		    	    <div class="boutonPrix block_c_actualite">
+      <a title="Réservez" href="http://reservation.parisinfo.com/z6200e2x26827m466g5532_fr-exposition-warhol-unlimited.aspx" target="_blank" class="boutonGeneriqueMedium PrixGrandBtn"><span><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Réservez" />Réservez</span></span></a>
+    </div></li>
+                        
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/143609/opera-capriccio" title="Capriccio">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_232/fauteuils-rouges-|-630x405-|-©-aloha2014-fotolia.com/12739106-1-fre-FR/Fauteuils-rouges-|-630x405-|-©-aloha2014-Fotolia.com_listitem_pro.jpg" width="140" height="90"  style=""   alt="Fauteuils rouges © aloha2014 - Fotolia.com" title="Fauteuils rouges © aloha2014 - Fotolia.com" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/143609/opera-capriccio" title="Capriccio">Capriccio</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/143609/opera-capriccio" title="Capriccio">Le Palais Garnier présente &quot;Capriccio&quot;, la dernière œuvre...</a></p>    </div>
+</li>
+                        	
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/136570/osiris-mysteres-engloutis-d-egypte-exposition" title="Osiris, mystères engloutis d'Egypte">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/affiche-prolongation-osiris-mystères-engloutis-d'egypte-|-630x405-|-©-dr/15301507-1-fre-FR/Affiche-prolongation-Osiris-mystères-engloutis-d'Egypte-|-630x405-|-©-DR_listitem_pro.jpg" width="140" height="90"  style=""   alt="Affiche d'Osiris mystères engloutis d'Egypte, exposition prolongée à l'Institut du Monde arabe, Paris © DR" title="Affiche d'Osiris mystères engloutis d'Egypte, exposition prolongée à l'Institut du Monde arabe, Paris © DR" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/136570/osiris-mysteres-engloutis-d-egypte-exposition" title="Osiris, mystères engloutis d'Egypte">Osiris, mystères engloutis d'Egypte</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/136570/osiris-mysteres-engloutis-d-egypte-exposition" title="Osiris, mystères engloutis d'Egypte">Venez admirer les dernières découvertes sous-marines de Franck Goddio...</a></p>    </div>
+		    	    <div class="boutonPrix block_c_actualite">
+      <a title="Réservez" href="http://exposition-osiris.fnacspectacles.com/" target="_blank" class="boutonGeneriqueMedium PrixGrandBtn"><span><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Réservez" />Réservez</span></span></a>
+    </div></li>
+        </ul>
+
+
+
+                                                                        <ul class="ongletsBlocListe clearFix ul-bloc_c_actualite">            
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/136697/exposition-marc-chagall-le-triomphe-de-la-musique" title="Exposition Marc Chagall">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/exposition-marc-chagall,-le-triomphe-de-la-musique-tableau-|-630x405-|-©-von-der-heydt-museum,-wuppertal-©-adagp,-paris-2012,-chagall/13067874-1-fre-FR/Exposition-Marc-Chagall,-le-triomphe-de-la-musique-Tableau-|-630x405-|-©-Von-der-Heydt-Museum,-Wuppertal-©-Adagp,-Paris-2012,-Chagall_listitem_pro.jpg" width="140" height="90"  style=""   alt="Exposition Marc Chagall, le triomphe de la musique - Tableau, Philharmonie, Paris © Von der Heydt-Museum, Wuppertal © Adagp, Paris 2012, Chagall" title="Exposition Marc Chagall, le triomphe de la musique - Tableau, Philharmonie, Paris © Von der Heydt-Museum, Wuppertal © Adagp, Paris 2012, Chagall" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/136697/exposition-marc-chagall-le-triomphe-de-la-musique" title="Exposition Marc Chagall">Exposition Marc Chagall</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/136697/exposition-marc-chagall-le-triomphe-de-la-musique" title="Exposition Marc Chagall">Né en Biélorussie, Marc Chagall (1887-1985) est aujourd'hui l'un des...</a></p>    </div>
+</li>
+            	
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/137779/daum-variations-d-artistes" title="Daum, variations d'artistes">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/montre-molle-de-salvador-dali-|-630x405-|-©-daum/13128226-1-fre-FR/Montre-Molle-de-Salvador-Dali-|-630x405-|-©-Daum_listitem_pro.jpg" width="140" height="90"  style=""   alt="Montre Molle de Salvador Dali, Espace Dali, Paris © Daum" title="Montre Molle de Salvador Dali, Espace Dali, Paris © Daum" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/137779/daum-variations-d-artistes" title="Daum, variations d'artistes">Daum, variations d'artistes</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/137779/daum-variations-d-artistes" title="Daum, variations d'artistes">L’Espace Dali expose les œuvres d’artistes, dont Salvador Dalí, et...</a></p>    </div>
+		    	    <div class="boutonPrix block_c_actualite">
+      <a title="Réservez" href="http://reservation.parisinfo.com/z6200e2x26827m466g2949_fr-billet-visite-espace-dali.aspx" target="_blank" class="boutonGeneriqueMedium PrixGrandBtn"><span><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Réservez" />Réservez</span></span></a>
+    </div></li>
+            	
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/136586/picasso-mania-exposition" title="Picasso mania, exposition">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/exposition-picasso-mania-affiche-|-630x405-|-©-rmn/13061018-1-fre-FR/Exposition-Picasso-mania-Affiche-|-630x405-|-©-RMN_listitem_pro.jpg" width="140" height="90"  style=""   alt="Exposition Picasso mania, affiche, galeries nationales du Grand Palais, Paris © RMN" title="Exposition Picasso mania, affiche, galeries nationales du Grand Palais, Paris © RMN" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/136586/picasso-mania-exposition" title="Picasso mania, exposition">Picasso mania, exposition</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/136586/picasso-mania-exposition" title="Picasso mania, exposition">L'artiste espagnol Pablo Picasso (1881-1973) fut l'un des précurseurs...</a></p>    </div>
+		    	    <div class="boutonPrix block_c_actualite">
+      <a title="Réservez" href="http://reservation.parisinfo.com/z6200e2x26827m466g5531_fr-grand-palais-exposition-picasso-mania-billet-coupe-file-et-non-date.aspx" target="_blank" class="boutonGeneriqueMedium PrixGrandBtn"><span><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Réservez" />Réservez</span></span></a>
+    </div></li>
+    </ul>
+    
+
+
+                                                                        <ul class="ongletsBlocListe clearFix ul-bloc_c_actualite">            	
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/135993/olivier-giraud-how-to-become-a-parisian-in-one-hour" title="Olivier Giraud &quot;How to become a parisian in one hour&quot;">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/how-to-become-parisian-in-one-hour-|-630x405-|-©-otcp-dr/10567864-2-fre-FR/How-to-become-parisian-in-one-hour-|-630x405-|-©-OTCP-DR_listitem_pro.jpg" width="140" height="90"  style=""   alt="How to become parisian in one hour ?, Paris © OTCP - DR" title="How to become parisian in one hour ?, Paris © OTCP - DR" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/135993/olivier-giraud-how-to-become-a-parisian-in-one-hour" title="Olivier Giraud &quot;How to become a parisian in one hour&quot;">Olivier Giraud &quot;How to become a parisian in one hour&quot;</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/135993/olivier-giraud-how-to-become-a-parisian-in-one-hour" title="Olivier Giraud &quot;How to become a parisian in one hour&quot;">Olivier Giraud nous propose un spectacle en anglais sur les attitudes et...</a></p>    </div>
+		    	    <div class="boutonPrix block_c_actualite">
+      <a title="Réservez" href="http://reservation.parisinfo.com/z6800e3f33298x33298b15098_fr-How-to-become-a-parisian-in-one-hour-Paris.aspx" target="_blank" class="boutonGeneriqueMedium PrixGrandBtn"><span><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Réservez" />Réservez</span></span></a>
+    </div></li>
+            	
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/135819/cats-le-musical" title="Cats, le Musical">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/spectacle-cats-|-630x405-|-photo-brinkhoff-mögenburg-©-rug/15213105-1-fre-FR/Spectacle-Cats-|-630x405-|-Photo-Brinkhoff-Mögenburg-©-RUG_listitem_pro.jpg" width="140" height="90"  style=""   alt="Spectacle Cats - Photo : Brinkhoff / Mögenburg © RUG" title="Spectacle Cats - Photo : Brinkhoff / Mögenburg © RUG" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/135819/cats-le-musical" title="Cats, le Musical">Cats, le Musical</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/135819/cats-le-musical" title="Cats, le Musical">Cats, le spectacle de légende se joue au théâtre Mogador depuis le...</a></p>    </div>
+		    	    <div class="boutonPrix block_c_actualite">
+      <a title="Réservez" href="http://reservation.parisinfo.com/z6800e3f34664x34664b21072_fr-Cats-Paris.aspx" target="_blank" class="boutonGeneriqueMedium PrixGrandBtn"><span><span><img style="vertical-align:middle" src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="Réservez" />Réservez</span></span></a>
+    </div></li>
+            
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/135892/le-mensonge-de-florian-zeller" title="Le Mensonge, de Florian Zeller">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/le-mensonge-affiche-pièce-de-théâtre-théâtre-edouard-vii-|-630x405-|-©-dr-théâtre-edouard-vii/13028298-1-fre-FR/Le-Mensonge-Affiche-pièce-de-théâtre-Théâtre-Edouard-VII-|-630x405-|-©-DR-Théâtre-Edouard-VII_listitem_pro.jpg" width="140" height="90"  style=""   alt="Le Mensonge - Théâtre Edouard VII, Paris © DR - Théâtre Edouard VII" title="Le Mensonge - Théâtre Edouard VII, Paris © DR - Théâtre Edouard VII" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/135892/le-mensonge-de-florian-zeller" title="Le Mensonge, de Florian Zeller">Le Mensonge, de Florian Zeller</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/135892/le-mensonge-de-florian-zeller" title="Le Mensonge, de Florian Zeller">Sur la scène du théâtre Edouard VII à partir de septembre 2015 :...</a></p>    </div>
+</li>
+    </ul>
+
+
+                                                                           
+    <!-- contenu onglet 4 -->
+    <ul class="ongletsBlocListe clearFix ul-bloc_c_actualite">
+            
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/136037/grande-roue-de-la-concorde-a-paris" title="Grande roue de la Concorde à Paris">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/grande-roue-de-la-concorde-|-630x405-|-©-sophie-robichon-mairie-de-paris/13028851-1-fre-FR/Grande-roue-de-la-Concorde-|-630x405-|-©-Sophie-Robichon-Mairie-de-Paris_listitem_pro.jpg" width="140" height="90"  style=""   alt="Grande roue de la Concorde © Sophie Robichon - Mairie de Paris" title="Grande roue de la Concorde © Sophie Robichon - Mairie de Paris" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/136037/grande-roue-de-la-concorde-a-paris" title="Grande roue de la Concorde à Paris">Grande roue de la Concorde à Paris</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/136037/grande-roue-de-la-concorde-a-paris" title="Grande roue de la Concorde à Paris">Chaque année, à l'approche des fêtes de fin d'année, la place de la...</a></p>    </div>
+</li>
+    
+            
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/140297/cirque-bouglione-rire" title="Cirque Bouglione">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/affiche-spectacle-&quot;rire&quot;-cirque-bouglione-|-630x405-|-©-dr/15293544-1-fre-FR/Affiche-spectacle-&quot;Rire&quot;-cirque-Bouglione-|-630x405-|-©-DR_listitem_pro.jpg" width="140" height="90"  style=""   alt="Affiche du spectacle &quot;Rire&quot; cirque Bouglione, Paris © DR" title="Affiche du spectacle &quot;Rire&quot; cirque Bouglione, Paris © DR" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/140297/cirque-bouglione-rire" title="Cirque Bouglione">Cirque Bouglione</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/140297/cirque-bouglione-rire" title="Cirque Bouglione">Le Cirque Bouglione retrouve sa piste fétiche du Cirque d’Hiver pour...</a></p>    </div>
+</li>
+    
+            
+<li>    
+                <a href="http://www.parisinfo.com/sortie-paris/142742/autour-des-dinosaures" title="Autour des dinosaures">
+            
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_43/node_51/node_534/palais-de-la-découverte-autour-des-dinosaures-|-630x405-|-©-n.-breton/15188401-1-fre-FR/Palais-de-la-découverte-Autour-des-dinosaures-|-630x405-|-©-N.-Breton_listitem_pro.jpg" width="140" height="90"  style=""   alt="Palais de la découverte - Autour des dinosaures © N. Breton" title="Palais de la découverte - Autour des dinosaures © N. Breton" />
+             
+
+    
+    
+            </a>
+
+    
+	<div class="ongletBlocListeTexte">		<h3><a href="http://www.parisinfo.com/sortie-paris/142742/autour-des-dinosaures" title="Autour des dinosaures">Autour des dinosaures</a></h3>    
+        	<p><a href="http://www.parisinfo.com/sortie-paris/142742/autour-des-dinosaures" title="Autour des dinosaures">Une immersion dans le monde des reptiles du passé.</a></p>    </div>
+</li>
+        </ul>
+
+
+
+    
+    <form action="/ou-sortir-a-paris/infos/rechercher-une-sortie" class="ongletsBlocAgenda">
+      <input type="hidden" name="search_type" value="agenda" />
+      <input type="hidden" name="tab" value="agenda" /> 
+      <fieldset>
+        <legend>Agenda</legend>
+        <select name="filter[]">
+          <option value="ezf_df_tag_ids:15">Expositions</option>
+          <option value="ezf_df_tag_ids:20">Spectacles</option>
+          <option value="attr_category_id_t:('jeu' OR 'spo')">En famille</option>
+        </select>
+        <p class="ongletsBlocAgendaDu">
+          <label for="test">du</label>
+          <input type="text" class="datepicker" id="altBegin" />
+          <input type="text" class="datepicker begin" name="filter[]" style="display:none;" />
+          <a href="#" class="ongletsBlocAgendaDatePicker" title=""></a>
+        </p>
+        <p>
+          <label for="test">au</label>
+          <input type="text" class="datepicker" id="altEnd" />
+          <input type="text" class="datepicker end" name="filter[]" style="display:none;" />
+          <a href="#" class="ongletsBlocAgendaDatePicker" title=""></a>
+        </p>
+        <p class="ongletsBlocAgendaSubmit">
+          <button type="submit" class="boutonGeneriqueMedium"><span><span><img src="/extension/ow_otcp_designs/design/otcp_public/images/flecheBoutonsGeneriques.png" alt="" />Trouver</span></span></button>
+        </p>
+      </fieldset>
+    </form>             
+  </div>
+  <a href="/ou-sortir-a-paris/infos/rechercher-une-sortie" title="+ d'événements" class="lienFinDeBlocBlanc">+ d'événements</a>          
+</div><!-- END:cache-block-central-col-pseudo -->    </div>
+        
+    <div class="block_right"><!-- START:cache-block-central-col-pseudo -->
+        
+
+        
+
+        
+<div class="blocGalerie">
+  <h2 class="titreBloc">Paris en images</h2>
+  <div class="carrousselGalerie">
+    <div class="containerCarrousselHome containerGalerie clearFix">
+      <ul id="mycarousel" class="clipGalerie jCarrousselInstance jCarrousselHome" carnum="4">                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Le musée du Louvre#Youtube']);"  href=/popin/online_video/93111 title="Le musée du Louvre">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/louvre-pyramide-630x405-c-thinkstock/37417-1-fre-FR/Louvre-pyramide-630x405-C-Thinkstock_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Le Louvre, Paris © Thinkstock" title="Le musée du Louvre" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Le musée du Louvre#Youtube']);" class="popupVideo" href=/popin/online_video/93111 title="Le musée du Louvre">Le musée du Louvre</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Basilique du Sacré-Cœur#Youtube']);"  href=/popin/online_video/93117 title="Basilique du Sacré-Cœur">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/basilique-du-sacre-coeur-630x405-c-otcp-amelie-dupont-i-121-52/27059-1-fre-FR/Basilique-du-Sacre-Coeur-630x405-C-OTCP-Amelie-Dupont-I-121-52_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Basilique du Sacré Coeur, Paris © OTCP - Amélie Dupont" title="Basilique du Sacré-Cœur" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Basilique du Sacré-Cœur#Youtube']);" class="popupVideo" href=/popin/online_video/93117 title="Basilique du Sacré-Cœur">Basilique du Sacré-Cœur</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Le Château de Versailles#Youtube']);"  href=/popin/online_video/93119 title="Le Château de Versailles">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/chateau-de-versailles-630x405-c-thinkstock/35567-1-fre-FR/Chateau-de-Versailles-630x405-C-Thinkstock_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Le Château de Versailles © Thinkstock" title="Le Château de Versailles" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Le Château de Versailles#Youtube']);" class="popupVideo" href=/popin/online_video/93119 title="Le Château de Versailles">Le Château de Versailles</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','La Conciergerie#Youtube']);"  href=/popin/online_video/93109 title="La Conciergerie">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/80.-photos-sugar/lieux-de-loisirs-et-de-culture/conciergerie-1-630x405-c-a-frich-pour-cmn-paris/5045109-1-fre-FR/Conciergerie-1-630x405-C-A-Frich-pour-CMN-Paris_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Conciergerie - Extérieur" title="La Conciergerie" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','La Conciergerie#Youtube']);" class="popupVideo" href=/popin/online_video/93109 title="La Conciergerie">La Conciergerie</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Les Invalides#Youtube']);"  href=/popin/online_video/93110 title="Les Invalides">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/hotel-des-invalides-esplanade-630x405-c-thinkstock/35967-1-fre-FR/Hotel-des-Invalides-esplanade-630x405-C-Thinkstock_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Hôtel des Invalides, Paris © Thinkstock" title="Les Invalides" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Les Invalides#Youtube']);" class="popupVideo" href=/popin/online_video/93110 title="Les Invalides">Les Invalides</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','La Cathédrale Notre Dame#Youtube']);"  href=/popin/online_video/93112 title="La Cathédrale Notre Dame">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/notre-dame-630x405-c-otcp-david-lefranc-i-101-14/23718-1-fre-FR/Notre-Dame-630x405-C-OTCP-David-Lefranc-I-101-14_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Cathédrale Notre Dame de Paris © OTCP - David Lefranc" title="La Cathédrale Notre Dame" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','La Cathédrale Notre Dame#Youtube']);" class="popupVideo" href=/popin/online_video/93112 title="La Cathédrale Notre Dame">La Cathédrale Notre Dame</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Opéra Garnier#Youtube']);"  href=/popin/online_video/93113 title="Opéra Garnier">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/opera-garnier-facade-630x405-c-otcp-david-lefranc-i-103-11/26927-1-fre-FR/Opera-Garnier-facade-630x405-C-OTCP-David-Lefranc-I-103-11_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Opéra national de Paris © OTCP - David Lefranc" title="Opéra Garnier" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Opéra Garnier#Youtube']);" class="popupVideo" href=/popin/online_video/93113 title="Opéra Garnier">Opéra Garnier</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Le musée dOrsay#Youtube']);"  href=/popin/online_video/93114 title="Le musée d'Orsay">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/musee-d-orsay-facade-crepuscule-630x405-c-otcp-christian-boyer-i-108-01/62907-2-fre-FR/Musee-d-Orsay-facade-crepuscule-630x405-C-OTCP-Christian-Boyer-I-108-01_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Façade du Musée d'Orsay, Paris © OTCP - Christian Boyer" title="Le musée d'Orsay" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Le musée dOrsay#Youtube']);" class="popupVideo" href=/popin/online_video/93114 title="Le musée d'Orsay">Le musée d'Orsay</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Centre Pompidou#Youtube']);"  href=/popin/online_video/93115 title="Centre Pompidou">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/vue-exterieure-centre-georges-pompidou-630x405-c-otcp-amelie-dupont-renzo-piano-et-richard-rogers-i-117-30/3573-4-fre-FR/Vue-exterieure-Centre-Georges-Pompidou-630x405-C-OTCP-Amelie-Dupont-Renzo-Piano-et-Richard-Rogers-I-117-30_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Façade du Centre Georges Pompidou © OTCP - Amélie Dupont - Renzo Piano et Richard Rogers" title="Centre Pompidou" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Centre Pompidou#Youtube']);" class="popupVideo" href=/popin/online_video/93115 title="Centre Pompidou">Centre Pompidou</a>
+        </li>                                	        	       
+		 
+		
+        
+                                                
+                                                      
+        <li class="clipGalerieVignette">
+              <a class="popupVideo" onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Musée du Quai Branly#Youtube']);"  href=/popin/online_video/93116 title="Musée du Quai Branly">
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/media/1.-photos/02.-sites-culturels-630-x-405/mur-vegetal-musee-du-quai-branly-630x405-c-otcp-amelie-dupont-i-156-06/4017-3-fre-FR/Mur-vegetal-Musee-du-quai-Branly-630x405-C-OTCP-Amelie-Dupont-I-156-06_block_thumbnail_video.jpg" width="140" height="90"  style=""   alt="Mur végétal, Musée du quai Branly, Paris © OTCP - Amélie Dupont" title="Musée du Quai Branly" />
+             
+
+    
+    
+    </a>          
+                <a onClick="_gaq.push(['_trackEvent','GP-fr#PopinMultimedia','PopinMultimedia#Contenus','Musée du Quai Branly#Youtube']);" class="popupVideo" href=/popin/online_video/93116 title="Musée du Quai Branly">Musée du Quai Branly</a>
+        </li>   
+      </ul>
+    </div>
+  </div>
+</div><!-- END:cache-block-central-col-pseudo -->    </div>
+</div>
+ <div class="colDroite">
+            <!-- START:cache-block-right-col -->
+           
+<div class="block_r_widget">
+	<div style="width:300px; background-color:#e8177a"><img src="http://events.parisinfo.com/widgets/activites_300px/titre-widget-ec-fr.png" width="300" height="60" alt="Réservez votre activité" /></div>
+<div style="width:300px; background-color:#e8177a; border-bottom-color:rgba(0, 0, 0, 0.2); border-bottom-style:solid; border-bottom-width:1px; display:inline-block; text-align:center; vertical-align:bottom; text-align:center;"></div>
+<div style="display:table-cell; cursor:pointer; width:300px; background-color:#e8177a">
+        <ul style="list-style:none; font-size:0rem; padding-left:0; box-sizing:border-box; margin:0; font-size:0rem;">
+            <li style="border-bottom-color:rgba(0, 0, 0, 0.2); border-bottom-style:solid; border-bottom-width:1px; display:inline-block; text-align:center; vertical-align:bottom; width:50%; text-align:center;">
+                <a href="http://reservation.parisinfo.com/il4-offre_i147-paris-city-pass-paris-pass.aspx" title="Paris City Pass" style="display:block; padding:0px; text-decoration:none; color:#FFF; background-color:transparent;"><img src="http://events.parisinfo.com/widgets/activites_300px/icon-pcp-fr.png" alt="Paris City Pass" width="149" height="112" hspace="0" vspace="0" border="0" /></span></a>
+          </li>
+            <li style="border-bottom-color:rgba(0, 0, 0, 0.2); border-bottom-style:solid; border-bottom-width:1px; display:inline-block; text-align:center; vertical-align:bottom; width:50%; text-align:center;">
+                <a href="http://reservation.parisinfo.com/il4-offres_p3-culture-loisirs.aspx" title="Culture et Loisirs"><img src="http://events.parisinfo.com/widgets/activites_300px/icon-culture-fr.png" alt="Culture et Loisirs" width="149" height="112" hspace="0" vspace="0" border="0" style="display:block; padding:0px; text-decoration:none; color:#FFF; background-color:transparent;"/></a>
+            </li>
+            <li style="border-bottom-color:rgba(0, 0, 0, 0.2); border-bottom-style:solid; border-bottom-width:1px; display:inline-block; font-size:0.7rem; text-align:center; vertical-align:bottom; width:50%; list-style:none;">
+                <a href="http://reservation.parisinfo.com/il4-offres_p4-cabarets-spectacles.aspx" title="Cabarets &amp; Spectacles"><img src="http://events.parisinfo.com/widgets/activites_300px/icon-cabaret-fr.png" alt="Cabarets &amp; Spectacles" width="149" height="112" hspace="0" vspace="0" border="0" /></a>
+            </li>
+            <li style="border-bottom-color:rgba(0, 0, 0, 0.2); border-bottom-style:solid; border-bottom-width:1px; display:inline-block; font-size:0.7rem; text-align:center; vertical-align:bottom; width:50%; list-style:none;">
+                <a href="http://reservation.parisinfo.com/il4-offres_p7-transports.aspx" title="Transports"><img src="http://events.parisinfo.com/widgets/activites_300px/icon-transport-fr.png" alt="Transports" width="149" height="112" hspace="0" vspace="0" border="0" /></a>
+            </li>
+            <li style="border-bottom-color:rgba(0, 0, 0, 0.2); border-bottom-style:solid; border-bottom-width:1px; display:inline-block; font-size:0.7rem; text-align:center; vertical-align:bottom; width:50%; list-style:none;">
+                <a href="http://reservation.parisinfo.com/il4-offres_p5-croisieres.aspx" title="Croisières"><img src="http://events.parisinfo.com/widgets/activites_300px/icon-croisiere-fr.png" alt="Croisières" width="149" height="112" hspace="0" vspace="0" border="0" /></a>
+            </li>
+            <li style="border-bottom-color:rgba(0, 0, 0, 0.2); border-bottom-style:solid; border-bottom-width:1px; display:inline-block; font-size:0.7rem; text-align:center; vertical-align:bottom; width:50%; list-style:none;">
+                <a href="http://reservation.parisinfo.com/il4-offres_p6-excursions.aspx" title="Excursions"><img src="http://events.parisinfo.com/widgets/activites_300px/icon-excursion-fr.png" alt="Excursions" width="149" height="112" hspace="0" vspace="0" border="0" /></a>
+            </li>
+        </ul>
+
+<span style="padding: 10px;  display:block; padding:10px; vertical-align:middle; text-align:right">
+        <a href="http://reservation.parisinfo.com/il4-offres_p53-toutes-les-offres.aspx" title="Voir toutes les offres de la boutique PARISINFO.com" style="font-family:Arial, Helvetica, sans-serif; color:#FFF; font-weight:regular; font-size: small; text-align:right;">
+            Voir toute l'offre <img src="http://events.parisinfo.com/widgets/activites_300px/chevron.png" alt="" width="8" height="13" hspace="30" vspace="0" border="0" align="baseline" />
+  </a> </span>
+  </div>
+</div><!-- END:cache-block-right-col -->                    <!-- START:cache-block-right-col -->
+           
+<div class="block_r_widget">
+	<a class="twitter-timeline"  href="https://twitter.com/ParisJeTaime" data-widget-id="666260180443783169">Tweets de @ParisJeTaime</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- END:cache-block-right-col -->                                			    		
+		    		
+		    		
+	<div class="maeAutoPromo maeAutoPromo-133378">
+		    <div class="maeAutoPromoVisuel">
+					        <a href="http://www.we-own-paris.com/?utm_source=parisinfo&utm_medium=banniere&utm_campaign=paris_info_septembre" title="+ d'infos" target="_blank" onclick="_gaq.push(['_trackEvent', 'GP-fr#Autopromo', '#Autopromo-Col-Droite#Clickout-fr', 'http://www.we-own-paris.com/?utm_source=parisinfo&utm_medium=banniere&utm_campaign=paris_info_septembre']);">
+		            
+
+    
+        
+        
+    
+        
+     
+
+    
+    
+    		        </a>
+		    	     
+	    </div>
+	</div>
+	<div class="clearFix"></div>                    <!-- START:cache-block-right-col -->
+           
+<div class="prepVotreSejour ">
+  <h4 class="titreBloc">PRÉPAREZ VOTRE SEJOUR</h4>
+  <div class="prepVotreSejour2">
+    <div class="prepVotreSejour3 clearFix">		
+		<table style="margin-top:15px" width="100%">                                                
+                    
+                                                        
+                                    
+    			<tr>
+            
+				<td ><a onClick="_gaq.push(['_trackEvent', 'GP-fr#PopinNewsletter', 'PopinNewsletter#Ouvrir', 'PopinNewsletter#Ouvrir']);" href="http://www.parisinfo.com//popin/newsletter" class="sejNewsletter fancyboxed" title="Newsletter" >Newsletter</a></td>
+                                                                                                    
+                    
+                                                        
+                                    
+            
+				<td  class="td-right"><a  href="http://www.parisinfo.com/paris-pratique/office-du-tourisme-et-des-congres-de-paris/points-d-accueil" class="sejPtAccueil" title="Points d'accueil" target="_blank">Points d'accueil</a></td>
+                                                                                                                                                                                                                                                                
+                    
+                                                        
+                                    
+        			</tr>
+			<tr><td colspan="2"><span></span></td></tr>
+			<tr>
+        
+				<td ><a  href="https://www.facebook.com/p.infos" class="sejFacebook" title="Facebook" target="_blank">Facebook</a></td>
+                                                                                                                                                                                                                                                                                        
+                    
+                                                        
+                                    
+            
+				<td  class="td-right"><a  href="http://www.tripadvisor.fr/Attraction_Review-g187147-d310851-Reviews-Office_du_Tourisme_et_des_Congres_de_Paris-Paris_Ile_de_France.html" class="sejTripAdvisor" title="TripAdvisor" target="_blank">TripAdvisor</a></td>
+                                                                                                                                                                                                                                                                                                    
+                    
+                            
+                                    
+        			</tr>
+			<tr><td colspan="2"><span></span></td></tr>
+			<tr>
+        
+				<td ><a  href="https://www.youtube.com/c/Parisjetaime75" class="sejYoutube" title="Youtube" target="_blank">Youtube</a></td>
+                                                                                                                                                                                                                                                                                                                
+                    
+                            
+                                    
+            
+				<td  class="td-right"><a  href="https://instagram.com/parisjetaime/" class="sejInstagram" title="Instagram" target="_blank">Instagram</a></td>
+    			</tr>
+		</table>
+    </div>
+  </div>
+</div><!-- END:cache-block-right-col -->                                			    		
+		    		
+		    		
+	<div class="maeAutoPromo maeAutoPromo-118914">
+		    <div class="maeAutoPromoVisuel">
+					        <a href="http://reservation.parisinfo.com/" title="Tous les billets sont sur PARISINFO" target="_blank" onclick="_gaq.push(['_trackEvent', 'GP-fr#Autopromo', '#Autopromo-Col-Droite#Clickout-fr', 'http://reservation.parisinfo.com/']);">
+		            
+
+    
+        
+        
+    
+        
+                                                                                    
+                
+                        <img src="/var/otcp/sites/images/node_43/node_239/node_107055/tous-les-billets-sont-sur-parisinfo-300x200/156078-48-fre-FR/Tous-les-billets-sont-sur-PARISINFO-300x200_block_autopromo_nobanner.jpg" width="300" height="200"  style=""   alt="Tous les billets sont sur PARISINFO" title="Tous les billets sont sur PARISINFO" />
+             
+
+    
+    
+    		        </a>
+		    	     
+	    </div>
+	</div>
+	<div class="clearFix"></div>            </div><!-- Rubric content: END --> 
+
+      <!-- Main area content: END -->
+    </div>
+  </div>
+</div>
+                <!-- Main area: END -->
+
+                                                                    
+                <!-- Extra area: START -->
+                                        <div id="extrainfo-position">
+      <div id="extrainfo">
+                    
+<!-- ZONE CONTENT: START -->
+
+<!-- ZONE CONTENT: END -->              </div>
+    </div>                                <!-- Extra area: END -->
+            </div>
+        <!-- Columns area: END -->
+        <!-- Footer area: START -->
+        
+<!-- *******************************FOOTER***************************************** -->
+<div class="wrapperFooter">
+    <div class="footer clearFix">
+        
+		    	
+<div class="footerPub">
+  <p>Publicité</p>                    
+
+    
+        
+        
+                
+        
+                                                                                                        
+                                    
+                <a  onClick="_gaq.push(['_trackEvent','GP-fr#Pub','#Pub-Footer#Clickout-fr','http://quefaire.paris.fr/']);"   href=http://quefaire.paris.fr/ target="_blank"  title="Paris est une fête | 728x90 | © Mairie de Paris">        <img src="/var/otcp/sites/images/node_43/node_236/node_238/paris-est-une-fête-|-728x90-|-©-mairie-de-paris/15270415-8-fre-FR/Paris-est-une-fête-|-728x90-|-©-Mairie-de-Paris_block_pub_bottom.jpg" width="728" height="90"  style=""   alt="Paris est une fête | 728x90 | © Mairie de Paris" title="Paris est une fête | 728x90 | © Mairie de Paris" />
+        </a>     
+
+    
+    
+      
+
+</div>
+<div class="footerPartage">
+  <h4><strong>Suivez les actus de PARIS</strong>info</h4>
+  <div class="footerPartageLiensGauche">
+    <a onClick="_gaq.push(['_trackEvent', 'GP-fr#PopinNewsletter', 'PopinNewsletter#Ouvrir', 'PopinNewsletter#Ouvrir']);" href="/popin/newsletter" class="footerPartageNewsletter fancyboxed" title="Newsletter">Newsletter</a>
+    
+  </div>
+  <div class="footerPartageLiensDroite">
+    <a onClick="_gaq.push(['_trackEvent', 'GP-fr#Footer', 'FacebookParisinfo#Clickout-fr', 'www.facebook.com/p.infos']);" href="http://www.facebook.com/p.infos" class="footerPartageFb" title="Suivez-nous sur Facebook" target="_blank">
+      <span class="noDisplay">Suivez-nous sur Facebook</span>
+    </a>
+    <a onClick="_gaq.push(['_trackEvent', 'GP-fr#Footer', 'TwitterParisinfo#Clickout-fr', 'twitter.com/ParisJeTaime']);" href="https://twitter.com/ParisJeTaime" class="footerPartageTwitter" title="Suivez-nous sur Twitter" target="_blank">
+      <span class="noDisplay">Suivez-nous sur Twitter</span>
+    </a>
+  </div>
+</div><!-- START:cache-block-footer -->
+        
+
+<!-- Page_menu_sitemap content: START -->    <ul class="footerSitemapLigne1 clearFix footerAccordeon">
+         
+    
+                  <li>
+    <a  href="#" title="Découvrir Paris">Découvrir</a>
+        <ul class="footerContent">
+	                              <li><a href="/decouvrir-paris/les-grands-rendez-vous" title="Les grands rendez-vous">&gt; Les grands rendez-vous</a></li>
+                          <li><a href="/decouvrir-paris/balades-a-paris" title="Balades à Paris">&gt; Balades à Paris</a></li>
+                          <li><a href="/decouvrir-paris/paris-pour-la-premiere-fois" title="Paris pour la première fois">&gt; Paris pour la première fois</a></li>
+                          <li><a href="/decouvrir-paris/organisez-votre-sejour-a-paris" title="Organisez un séjour à Paris">&gt; Organisez votre séjour avec une agence</a></li>
+                          <li><a href="/decouvrir-paris/paris-en-images" title="Paris en images">&gt; Paris en images</a></li>
+                          <li><a href="/decouvrir-paris/tourisme-durable" title="Tourisme Durable">&gt; Tourisme Durable</a></li>
+                          <li><a href="/decouvrir-paris/le-paris-des-parisiens" title="Le Paris des Parisiens">&gt; Le Paris des Parisiens</a></li>
+                          <li><a href="/decouvrir-paris/guides-thematiques" title="Guides thématiques">&gt; Guides thématiques</a></li>
+                     
+    </ul>
+      </li>
+         
+    
+                  <li>
+    <a  href="#" title="Où dormir à Paris">Où dormir</a>
+        <ul class="footerContent">
+	                              <li><a href="/ou-dormir/Hotels" title="Hôtels">&gt; Hôtels</a></li>
+                          <li><a href="/ou-dormir/residences-apparts-hotels" title="Résidences / Apparts Hôtels">&gt; Résidences / Apparts Hôtels</a></li>
+                          <li><a href="/ou-dormir/chambres-d-hotes" title="Réservez votre chambre d'hôtes à Paris">&gt; Chambres d'hôtes</a></li>
+                          <li><a href="/ou-dormir/appartements-meubles" title="Appartements meublés">&gt; Appartements meublés</a></li>
+                          <li><a href="/ou-dormir/campings" title="Campings">&gt; Campings</a></li>
+                          <li><a href="/ou-dormir/hebergements-insolites" title="Hébergements Insolites">&gt; Hébergements Insolites</a></li>
+                          <li><a href="/ou-dormir/pour-les-jeunes" title="Pour les jeunes">&gt; Pour les jeunes</a></li>
+                          <li><a href="/ou-dormir/centrales-de-reservation" title="Centrales de réservation">&gt; Centrales de réservation</a></li>
+                          <li><a href="/ou-dormir/reserver-un-hebergement" title="Réserver un hébergement à Paris">&gt; Réserver un hébergement</a></li>
+                          <li><a href="/ou-dormir/en-famille" title="En famille">&gt; En famille</a></li>
+                     
+    </ul>
+      </li>
+         
+    
+                  <li>
+    <a  href="#" title="Où manger à Paris ?">Où manger</a>
+        <ul class="footerContent">
+	                              <li><a href="/ou-manger-a-paris/restaurants-gastronomiques" title="Restaurants gastronomiques">&gt; Restaurants gastronomiques</a></li>
+                          <li><a href="/ou-manger-a-paris/restauration-francaise" title="Restauration française">&gt; Restauration française</a></li>
+                          <li><a href="/ou-manger-a-paris/specialites-etrangeres" title="Spécialités étrangères">&gt; Spécialités étrangères</a></li>
+                          <li><a href="/ou-manger-a-paris/petits-budgets" title="Petits budgets">&gt; Petits budgets</a></li>
+                          <li><a href="/ou-manger-a-paris/repas-dans-un-cadre-original" title="Repas dans un cadre original">&gt; Repas dans un cadre original</a></li>
+                          <li><a href="/ou-manger-a-paris/cafes-bars-pubs" title="Cafés, bars, pubs">&gt; Cafés, bars, pubs</a></li>
+                          <li><a href="/ou-manger-a-paris/salons-de-thes-et-glaciers" title="Salons de thés et glaciers">&gt; Salons de thés et glaciers</a></li>
+                          <li><a href="/ou-manger-a-paris/epiceries-fines-et-traiteurs" title="Épiceries fines et traiteurs">&gt; Épiceries fines et traiteurs</a></li>
+                          <li><a href="/ou-manger-a-paris/centrales-de-reservation" title="Centrales de réservation">&gt; Centrales de réservation</a></li>
+                          <li><a href="/ou-manger-a-paris/les-ecoles-de-cuisine" title="Les écoles de cuisine">&gt; Écoles de cuisine</a></li>
+                     
+    </ul>
+      </li>
+         
+    
+                  <li>
+    <a  href="#" title="Que visiter à Paris ?">Visiter</a>
+        <ul class="footerContent">
+	                              <li><a href="/visiter-a-paris/paris-pass" title="Paris Pass ">&gt; Paris Pass </a></li>
+                          <li><a href="/visiter-a-paris/musees" title="Musées de Paris">&gt; Musées</a></li>
+                          <li><a href="/visiter-a-paris/monuments" title="Monuments">&gt; Monuments</a></li>
+                          <li><a href="/visiter-a-paris/visites-guidees" title="Visites guidées">&gt; Visites guidées</a></li>
+                          <li><a href="/visiter-a-paris/parc-d-attraction-paris" title="Parcs d'attractions et de loisirs à Paris">&gt; Parcs d'attractions</a></li>
+                          <li><a href="/visiter-a-paris/Parcs-et-jardins" title="Parcs et jardins">&gt; Parcs et jardins</a></li>
+                          <li><a href="/visiter-a-paris/Zoos-et-aquariums" title="Zoos et aquariums">&gt; Zoos et aquariums</a></li>
+                          <li><a href="/visiter-a-paris/lieux-de-culte" title="Lieux de culte">&gt; Lieux de culte</a></li>
+                     
+    </ul>
+      </li>
+    </ul>
+        <ul class="footerSitemapLigne2 clearFix footerAccordeon">
+         
+    
+                  <li>
+    <a  href="#" title="Où sortir à Paris ?">Sortir </a>
+        <ul class="footerContent">
+	                              <li><a href="/ou-sortir-a-paris/expositions-a-paris" title="Expositions à Paris">&gt; Expositions</a></li>
+                          <li><a href="/ou-sortir-a-paris/spectacles-a-paris" title="Spectacles à Paris">&gt; Spectacles</a></li>
+                          <li><a href="/ou-sortir-a-paris/concerts-a-paris" title="Concerts à Paris">&gt; Concerts</a></li>
+                          <li><a href="/ou-sortir-a-paris/fetes-et-festivals-a-paris" title="Fêtes et festivals à Paris">&gt; Fêtes et festivals</a></li>
+                          <li><a href="/ou-sortir-a-paris/sports-et-jeux-a-paris" title="Sports et jeux à Paris">&gt; Sports et jeux</a></li>
+                          <li><a href="/ou-sortir-a-paris/foires-et-salons-a-paris" title="Foires et salons à Paris">&gt; Foires et salons</a></li>
+                          <li><a href="/ou-sortir-a-paris/sorties-pour-les-enfants-a-paris" title="Sorties pour les enfants à Paris">&gt; Sorties pour les enfants</a></li>
+                          <li><a href="/ou-sortir-a-paris/excursions-et-plein-air" title="Excursions et plein air">&gt; Excursions et plein air</a></li>
+                     
+    </ul>
+      </li>
+         
+    
+                  <li>
+    <a  href="#" title="Shopping">Shopping</a>
+        <ul class="footerContent">
+	                              <li><a href="/shopping/mode-et-accessoires" title="Mode et accessoires">&gt; Mode et accessoires</a></li>
+                          <li><a href="/shopping/hot-spots-shopping-par-quartier" title="Hot spots, shopping par quartier">&gt; Hot spots, shopping par quartier</a></li>
+                          <li><a href="/shopping/design-et-decoration-a-paris" title="Design et décoration">&gt; Design et décoration</a></li>
+                          <li><a href="/shopping/beaute-et-bien-etre" title="Beauté et bien-être">&gt; Beauté et bien-être</a></li>
+                          <li><a href="/shopping/le-luxe-a-paris" title="Le luxe">&gt; Le luxe</a></li>
+                          <li><a href="/shopping/shopping-gastronomique" title="Shopping gastronomique">&gt; Shopping gastronomique</a></li>
+                          <li><a href="/shopping/visites-et-shopping-a-paris" title="Visites et shopping">&gt; Visites et shopping</a></li>
+                          <li><a href="/shopping/shopping-pour-enfants" title="Shopping pour enfants">&gt; Shopping pour enfants</a></li>
+                     
+    </ul>
+      </li>
+         
+    
+                  <li>
+    <a  href="#" title="Paris Pratique">Pratique</a>
+        <ul class="footerContent">
+	                              <li><a href="/paris-pratique/plan-de-paris" title="Se repérer à Paris: plans et cartes">&gt; Plans et cartes</a></li>
+                          <li><a href="/paris-pratique/office-du-tourisme-et-des-congres-de-paris" title="L'Office du tourisme et de Paris">&gt; L'Office du tourisme de Paris</a></li>
+                          <li><a href="/paris-pratique/se-rendre-a-paris" title="Se rendre à Paris">&gt; Se rendre à Paris</a></li>
+                          <li><a href="/paris-pratique/se-deplacer-a-paris" title="Se déplacer à Paris">&gt; Se déplacer à Paris</a></li>
+                          <li><a href="/paris-pratique/preparer-son-sejour-a-paris" title="Préparer son séjour à Paris">&gt; Préparer son séjour à Paris</a></li>
+                          <li><a href="/paris-pratique/visiter-paris-avec-un-handicap" title="Visiter Paris avec un handicap">&gt; Visiter Paris avec un handicap</a></li>
+                          <li><a href="/paris-pratique/paris-en-famille" title="Paris en famille">&gt; Paris en famille</a></li>
+                          <li><a href="/paris-pratique/securite-a-paris" title="Sécurité à Paris">&gt; Sécurité à Paris</a></li>
+                          <li><a href="/paris-pratique/informations-utiles" title="Informations utiles">&gt; Informations utiles</a></li>
+                          <li><a href="/paris-pratique/adresses-utiles" title="Adresses utiles">&gt; Adresses utiles</a></li>
+                     
+    </ul>
+      </li>
+         
+    
+                  <li>
+    <a class="not_accordeon" href=http://reservation.parisinfo.com title="Réservez !">Réservez</a>
+      </li>
+    </ul>
+            
+<div class="footerInfos ">
+  <dl>
+    <dt>paris<span>info.com</span></dt>            <dd><a href="http://www.parisinfo.com/footer/full/1457" title="Nous connaître">Nous connaître</a></dd>
+                <dd><a href="http://www.parisinfo.com/footer/full/1463" title="CGV">CGV</a></dd>
+                <dd><a href="http://www.parisinfo.com/footer/full/1464" title="Informations légales">Informations légales</a></dd>
+                <dd><a href="/contact/form/139004" title="Contactez-nous">Contactez-nous</a></dd>
+                <dd><a href="http://www.parisinfo.com/footer/full/119886" title="Réseaux sociaux">Réseaux sociaux</a></dd>
+           
+  </dl>  <dl>
+    <dt>Mes outils</dt>    <dd><a href="/footer/full/7696" title="Emploi et carrières">Emploi et carrières</a></dd>           
+  </dl>             
+</div><div class="footerBoutique">
+  <dl>
+    <dt>La boutique <strong>paris</strong>info c'est</dt>            <dd><a href="http://reservation.parisinfo.com/il4-hebergements_p8-hebergement.aspx" target="_blank" title="Réservez votre hébergement">Réservez votre hébergement</a></dd>
+                <dd><a href="http://reservation.parisinfo.com/" target="_blank" title="Billetterie en ligne">Billetterie en ligne</a></dd>
+                <dd><a href="http://reservation.parisinfo.com/il4-offre_i147-paris-passlib.aspx" target="_blank" title="Paris Passlib'">Paris Passlib'</a></dd>
+                <dd><a href="http://reservation.parisinfo.com/il4-offres_p4-cabarets-spectacles.aspx" target="_blank" title="Réservez votre soirée au cabaret">Réservez votre soirée au cabaret</a></dd>
+      </dl>
+</div>        
+                                                                                                                                                                                                                                                                                                <dl class="nosEspacesWeb clearFix">
+  <dt>Nos espaces web</dt>
+    </ul>            	        	        	                  <dd><a href="http://www.parisinfo.com" title="visiteurs" class="nosEspacesWebFirst">Visiteurs</a></dd>
+                	        	        	                  <dd><a href="http://convention.parisinfo.com" title="evenement">PROFESSIONNELS</a></dd>
+                	        	        	                  <dd><a href="http://pro.parisinfo.com" title="adherents">Adhérents</a></dd>
+                    	        	        	                  <dd><a href="http://presse.parisinfo.com" title="presse">PRESSE</a></dd>
+        </dl>        <div class="footerLangues clearFix">
+  <h5 style="height: auto;">Paris worldwide</h5>
+  <ul class="footerLanguesLigne1 clearFix">                            
+                      
+            
+      <li><a href="http://www.parisinfo.com" title="français"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/fr.png" alt="" />Français</a></li>
+                                    
+                      
+            
+      <li><a href="http://en.parisinfo.com" title="english"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/gb.png" alt="" />English</a></li>
+                                    
+                      
+            
+      <li><a href="http://es.parisinfo.com" title="spanish"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/es.png" alt="" />Español</a></li>
+                                    
+                      
+            
+      <li><a href="http://de.parisinfo.com" title="german"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/de.png" alt="" />Deutsch</a></li>
+                                    
+                      
+            
+      <li><a href="http://it.parisinfo.com" title="italian"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/it.png" alt="" />Italiano</a></li>
+                                    
+                      
+            
+      <li><a href="http://pt.parisinfo.com" title="portuguese"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/pt.png" alt="" />Português</a></li>
+                                    
+                      
+            
+      <li><a href="http://nl.parisinfo.com" title="dutch"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/nl.png" alt="" />Nederlands</a></li>
+                                    
+                      
+            
+      <li><a href="http://ru.parisinfo.com" title="russian"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/ru.png" alt="" />Русский</a></li>
+                                    
+                      
+            
+      <li><a href="http://ja.parisinfo.com" title="japanese"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/jp.png" alt="" />日本語</a></li>
+                                    
+                      
+            
+      <li><a href="http://zh.parisinfo.com" title="chinese"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/cn.png" alt="" />中文</a></li>
+                                    
+                      
+            
+      <li><a href="http://ko.parisinfo.com" title="korean"><img src="/extension/ow_otcp_designs/design/otcp_public/images/flags/footer/kr.png" alt="" />한국어</a></li>
+                          </ul>             
+</div>
+        
+
+<dl class="footerPartenaires">
+  <dt>Nos partenaires</dt><!-- le &nbsp; est important pour assurer le centrage vertical des logos !! -->  <dd><a href="http://www.paris.fr" title="Logo Mairie de Paris">
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/elements-communs/footer/partenaires/logo-mairie-de-paris/9943661-2-fre-FR/Logo-Mairie-de-Paris_partner_inline.jpg" width="120" height="14"  style=""   alt="Mairie de Paris" title="Mairie de Paris" />
+             
+
+    
+    
+    &nbsp;</a></dd>  <dd><a href="http://www.ccip.fr" title="Logo CCIP">
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/elements-communs/footer/partenaires/logo-ccip/9910501-6-fre-FR/Logo-CCIP_partner_inline.jpg" width="115" height="36"  style=""   alt="CCIP" title="CCIP" />
+             
+
+    
+    
+    &nbsp;</a></dd>  <dd><a href="http://www.atout-france.fr/" title="Logo Atout France">
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/elements-communs/footer/partenaires/logo-atout-france/9943658-4-fre-FR/Logo-Atout-France_partner_inline.jpg" width="115" height="33"  style=""   alt="Atout France" title="Atout France" />
+             
+
+    
+    
+    &nbsp;</a></dd>  <dd><a href="http://www.visitparisregion.com?utm_campaign=generique&utm_source=parisinfo&utm_medium=logo&utm_content=home" title="Logo CRT">
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_93/node_112/node_94/logo-crt/9943664-4-fre-FR/Logo-CRT_partner_inline.jpg" width="85" height="34"  style=""   alt="CRT Ile-de-France" title="CRT Ile-de-France" />
+             
+
+    
+    
+    &nbsp;</a></dd>  <dd><a href="http://reservation.parisinfo.com/" title="Paiement sécurisé">
+
+    
+        
+        
+    
+        
+                                                                                                        
+                
+                        <img src="/var/otcp/sites/images/node_93/node_112/node_94/paiement-sécurisé/10059063-8-fre-FR/Paiement-sécurisé_partner_inline.gif" width="131" height="37"  style=""   alt="Paiement sécurisé" title="Paiement sécurisé" />
+             
+
+    
+    
+    &nbsp;</a></dd></dl>
+        <p class="footerCopyright">© 2010 Office du Tourisme et des Congrès de Paris&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>Tous droits réservés</span></p>
+<!-- END:cache-block-footer -->    </div>
+</div>
+
+<div id="overlayGeneral" class="overlayGenerique overlayPanier" ></div>        <!-- Footer area: END -->
+    </div>
+    <!-- Complete page area: END -->
+
+    <!-- Footer script area: START -->
+    <script type="text/javascript" src="/var/otcp/cache/public/javascript/9e67a3e2e7d4aaf25a9639d53a7e7d71.js" charset="utf-8"></script>
+	
+
+<script type="text/javascript" src="http://gadget.open-system.fr/widgets-libs/rel/noyau-1.0.min.js"></script>
+<script type="text/javascript">
+    ( function() {        var panier = AllianceReseaux.Widget.Instance( "Panier", { idPanier:"cHVwcHA", idIntegration:615, langue:"fr" } );
+        panier.Initialise();
+    })();        
+</script> 
+
+<script type="text/javascript">
+    $(function() {        cookieChoices.showCookieConsentBar(
+            "En utilisant ce site, vous acceptez l’utilisation des cookies à des fins d’analyse, de publicités et de contenus personnalisés.",
+            "En savoir plus",
+            "/footer/full/1464"
+        );
+    });
+</script>    <!-- Footer script area: END -->
+
+
+    
+    
+    
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"f95b082787","applicationID":"4138113","transactionName":"Z1BVNkdUDRAHAUMKXF4aYhBcGgoNAgdPTUNYRQ==","queueTime":0,"applicationTime":499,"atts":"SxdWQA9OHh4=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

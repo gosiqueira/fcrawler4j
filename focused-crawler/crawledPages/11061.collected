@@ -1,0 +1,497 @@
+title=Que hacemos reparto
+url=http://www.tiendaleon.com/staff/quehacemosreparto/
+html=
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head id="ctl00_Head1"><link href="/Handlers/ScriptCombinerHandler.ashx?minify=true&amp;v=5&amp;s=/Style/Global1-0--92848363-635475914151459922.css" type="text/css" rel="stylesheet" media="screen" /><meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>
+	Que hacemos reparto
+</title>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+
+        _gaq.push(['_setAccount', 'UA-44421986-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();        
+    </script>
+    <script type="text/javascript" src="/Handlers/ScriptCombinerHandler.ashx?s=/App_Scripts/jquery-1.7.min.js,/App_Scripts/swfobject.js,/App_Scripts/jquery.jqzoom-core.js,/App_Scripts/Modal.js,/App_Scripts/jquery.jqzoom-core-pack.js&minify=true&v=4"></script>
+    <script type="text/javascript" src="/App_Scripts/jquery.nivo.slider.pack.js"></script>
+    <script type="text/javascript" src="/App_Scripts/Pagina.js"></script>
+    <script type="text/javascript">
+        //MAXLENGTH TEXTAREA
+        //agregado para que no se permita pegar texto que sobrepase el maxlength
+        $("document").ready(function () {
+            $(document).on("keyup change", "textarea[maxlength]", function (evt) {
+
+                var str = $(this).val()
+                var mx = parseInt($(this).attr('maxlength'))
+                if (str.length > mx) {
+                    $(this).val(str.substr(0, mx))
+                    return false;
+                }
+            });
+        });
+    </script>
+    
+<script src="/App_Scripts/jquery.easing.1.3.js" type="text/javascript"></script>
+<script src="/App_Scripts/jquery.kinetic.js" type="text/javascript"></script>
+<script src="/App_Scripts/jquery.tmpl.min.js" type="text/javascript"></script>
+<meta name="description" content="Que hacemos reparto" /><meta name="keywords" content="Que hacemos reparto" /><link href="/WebResource.axd?d=pTT2FLp0CQiBCmNhJbzdAFHwS2duYD8APloEaguMZAhlFTVsdDWk2OVvDMiyuj2RaWGiSkKtAJIFOQRmU4JKGWVhbGqe9UwUQGCjxA5YCsZB_ADXmyfRbfB68Q59SeaxuEk6HudtXvqbE7eiywCnJA74OW01&amp;t=634927221927023861" type="text/css" rel="stylesheet" /><meta name="google-site-verification" /></head>
+<body>
+    <form name="aspnetForm" method="post" action="http://www.tiendaleon.com/staff/quehacemosreparto/" id="aspnetForm">
+<input type="hidden" name="ctl00_ScriptManager1_HiddenField" id="ctl00_ScriptManager1_HiddenField" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKMTI3MTg2ODc3OQ9kFgJmD2QWBAIBD2QWAgIEDxYCHgRUZXh0BQ1VQS00NDQyMTk4Ni0xZAIDDxYCHgZhY3Rpb24FMmh0dHA6Ly93d3cudGllbmRhbGVvbi5jb20vc3RhZmYvcXVlaGFjZW1vc3JlcGFydG8vFgoCAQ8PFgQeJU5vQm90X1Jlc3BvbnNlVGltZUtleV9jdGwwMCRQYWdlTm9Cb3QGCkKa2fUl00geI05vQm90X1Nlc3Npb25LZXlLZXlfY3RsMDAkUGFnZU5vQm90BTNOb0JvdF9TZXNzaW9uS2V5X2N0bDAwJFBhZ2VOb0JvdF82MzU4OTM3MTAyMzczNTI0NThkFgICAQ8WAh4PQ2hhbGxlbmdlU2NyaXB0BQEwZAILDw8WAh4HVmlzaWJsZWdkFgICAQ9kFgJmD2QWAgIDDxYCHwVoFgQCAQ8WAh8AZWQCBQ8PFgIfBWdkZAIMD2QWAmYPZBYCAgEPZBYCZg9kFgYCAQ8PFgIfBWdkZAIDDw8WBB8ABQcwIGl0ZW1zHwVnZGQCBQ8PFgIeCEltYWdlVXJsBSp+L0FwcF9UaGVtZXMvVGllbmRhTGVvbi9JbWFnZXMvY2Fycml0by5wbmdkZAIPDw9kFgIeCW9ua2V5ZG93bgWuAWlmKGV2ZW50LndoaWNoIHx8IGV2ZW50LmtleUNvZGUpe2lmICgoZXZlbnQud2hpY2ggPT0gMTMpIHx8IChldmVudC5rZXlDb2RlID09IDEzKSkge2V2YWwoZG9jdW1lbnQuZ2V0RWxlbWVudEJ5SWQoJ2N0bDAwX2xua0J1c2NhcicpLmhyZWYpO3JldHVybiBmYWxzZTt9fSBlbHNlIHtyZXR1cm4gdHJ1ZX07IGQCHQ8PFgIfBWhkZBgCBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUQY3RsMDAkY2Fycml0b0ltZwUXY3RsMDAkY2FwdGNoYU5ld3NsZXR0ZXIPBSRkOTAyODJiMi04MjZiLTQyOGQtOGM4OC01YmIxYTMxNjY2YTBkTy10nznjx6mDAYvBtU/fwkoX/kI=" />
+
+
+<script type="text/javascript">
+//<![CDATA[
+$(document).ready( function() { $('#dynamicControl2_updatePanel li a[href$="/staff/quehacemosreparto/"]').attr('class', 'selected') } );$(document).ready( function() { $('#dynamicControl0_updatePanel li a[href$="/staff/quehacemosreparto/"]').attr('class', 'selected') } );$(document).ready( function() { $('#dynamicControl3_updatePanel li a[href$="/staff/quehacemosreparto/"]').attr('class', 'selected') } );var __cultureInfo = '{"name":"es-AR","numberFormat":{"CurrencyDecimalDigits":2,"CurrencyDecimalSeparator":",","IsReadOnly":true,"CurrencyGroupSizes":[3],"NumberGroupSizes":[3],"PercentGroupSizes":[3],"CurrencyGroupSeparator":".","CurrencySymbol":"$","NaNSymbol":"NeuN","CurrencyNegativePattern":2,"NumberNegativePattern":1,"PercentPositivePattern":0,"PercentNegativePattern":0,"NegativeInfinitySymbol":"-Infinito","NegativeSign":"-","NumberDecimalDigits":2,"NumberDecimalSeparator":",","NumberGroupSeparator":".","CurrencyPositivePattern":2,"PositiveInfinitySymbol":"Infinito","PositiveSign":"+","PercentDecimalDigits":2,"PercentDecimalSeparator":",","PercentGroupSeparator":".","PercentSymbol":"%","PerMilleSymbol":"‰","NativeDigits":["0","1","2","3","4","5","6","7","8","9"],"DigitSubstitution":1},"dateTimeFormat":{"AMDesignator":"a.m.","Calendar":{"MinSupportedDateTime":"\/Date(-62135586000000)\/","MaxSupportedDateTime":"\/Date(253402300799999)\/","AlgorithmType":1,"CalendarType":1,"Eras":[1],"TwoDigitYearMax":2029,"IsReadOnly":true},"DateSeparator":"/","FirstDayOfWeek":0,"CalendarWeekRule":0,"FullDateTimePattern":"dddd, dd\u0027 de \u0027MMMM\u0027 de \u0027yyyy hh:mm:ss tt","LongDatePattern":"dddd, dd\u0027 de \u0027MMMM\u0027 de \u0027yyyy","LongTimePattern":"hh:mm:ss tt","MonthDayPattern":"dd MMMM","PMDesignator":"p.m.","RFC1123Pattern":"ddd, dd MMM yyyy HH\u0027:\u0027mm\u0027:\u0027ss \u0027GMT\u0027","ShortDatePattern":"dd/MM/yyyy","ShortTimePattern":"hh:mm tt","SortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd\u0027T\u0027HH\u0027:\u0027mm\u0027:\u0027ss","TimeSeparator":":","UniversalSortableDateTimePattern":"yyyy\u0027-\u0027MM\u0027-\u0027dd HH\u0027:\u0027mm\u0027:\u0027ss\u0027Z\u0027","YearMonthPattern":"MMMM\u0027 de \u0027yyyy","AbbreviatedDayNames":["dom","lun","mar","mié","jue","vie","sáb"],"ShortestDayNames":["do","lu","ma","mi","ju","vi","sá"],"DayNames":["domingo","lunes","martes","miércoles","jueves","viernes","sábado"],"AbbreviatedMonthNames":["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic",""],"MonthNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""],"IsReadOnly":true,"NativeCalendarName":"calendario gregoriano","AbbreviatedMonthGenitiveNames":["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic",""],"MonthGenitiveNames":["enero","febrero","marzo","abril","mayo","junio","julio","agosto","septiembre","octubre","noviembre","diciembre",""]}}';//]]>
+</script>
+
+<script src="/ScriptResource.axd?d=l9Vg0_p6tejR-5R1DzxTGHNvQ4b1J-ihH0u8Z1mtNnDYEDhfju3s3RqUKfPae7lVJ16jnxMzQS2w4bDK_NWatUeKl5r7QCEittMxdbpAposJ_j_20&amp;t=60b7ac5d" type="text/javascript"></script>
+<script src="/Plantillas/Staff.aspx?_TSM_HiddenField_=ctl00_ScriptManager1_HiddenField&amp;_TSM_CombinedScripts_=%3b%3bAjaxControlToolkit%2c+Version%3d3.5.60919.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d28f01b0e84b6d53e%3aen-US%3a311bfa99-1d92-41d7-aace-73bb01d14bf6%3aeffe2a26%3ae00da949" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+Type.registerNamespace('Site.Services');
+Site.Services.PromocionValidation=function() {
+Site.Services.PromocionValidation.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+Site.Services.PromocionValidation.prototype={
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return Site.Services.PromocionValidation._staticInstance.get_path();},
+ValidarCodigoPromocion:function(codigoPromocion,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'ValidarCodigoPromocion',false,{codigoPromocion:codigoPromocion},succeededCallback,failedCallback,userContext); }}
+Site.Services.PromocionValidation.registerClass('Site.Services.PromocionValidation',Sys.Net.WebServiceProxy);
+Site.Services.PromocionValidation._staticInstance = new Site.Services.PromocionValidation();
+Site.Services.PromocionValidation.set_path = function(value) { Site.Services.PromocionValidation._staticInstance.set_path(value); }
+Site.Services.PromocionValidation.get_path = function() { return Site.Services.PromocionValidation._staticInstance.get_path(); }
+Site.Services.PromocionValidation.set_timeout = function(value) { Site.Services.PromocionValidation._staticInstance.set_timeout(value); }
+Site.Services.PromocionValidation.get_timeout = function() { return Site.Services.PromocionValidation._staticInstance.get_timeout(); }
+Site.Services.PromocionValidation.set_defaultUserContext = function(value) { Site.Services.PromocionValidation._staticInstance.set_defaultUserContext(value); }
+Site.Services.PromocionValidation.get_defaultUserContext = function() { return Site.Services.PromocionValidation._staticInstance.get_defaultUserContext(); }
+Site.Services.PromocionValidation.set_defaultSucceededCallback = function(value) { Site.Services.PromocionValidation._staticInstance.set_defaultSucceededCallback(value); }
+Site.Services.PromocionValidation.get_defaultSucceededCallback = function() { return Site.Services.PromocionValidation._staticInstance.get_defaultSucceededCallback(); }
+Site.Services.PromocionValidation.set_defaultFailedCallback = function(value) { Site.Services.PromocionValidation._staticInstance.set_defaultFailedCallback(value); }
+Site.Services.PromocionValidation.get_defaultFailedCallback = function() { return Site.Services.PromocionValidation._staticInstance.get_defaultFailedCallback(); }
+Site.Services.PromocionValidation.set_path("/Services/PromocionValidation.asmx");
+Site.Services.PromocionValidation.ValidarCodigoPromocion= function(codigoPromocion,onSuccess,onFailed,userContext) {Site.Services.PromocionValidation._staticInstance.ValidarCodigoPromocion(codigoPromocion,onSuccess,onFailed,userContext); }
+var gtc = Sys.Net.WebServiceProxy._generateTypedConstructor;
+if (typeof(Site.Services.ValidationResult) === 'undefined') {
+Site.Services.ValidationResult=gtc("Site.Services.ValidationResult");
+Site.Services.ValidationResult.registerClass('Site.Services.ValidationResult');
+}
+Type.registerNamespace('Site.Services');
+Site.Services.ResultadosStateService=function() {
+Site.Services.ResultadosStateService.initializeBase(this);
+this._timeout = 0;
+this._userContext = null;
+this._succeeded = null;
+this._failed = null;
+}
+Site.Services.ResultadosStateService.prototype={
+_get_path:function() {
+ var p = this.get_path();
+ if (p) return p;
+ else return Site.Services.ResultadosStateService._staticInstance.get_path();},
+UpdatePaginaBusquedaCurrentPage:function(currentPage,PrecioMaximo_selected,PrecioMinimo_selected,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'UpdatePaginaBusquedaCurrentPage',false,{currentPage:currentPage,PrecioMaximo_selected:PrecioMaximo_selected,PrecioMinimo_selected:PrecioMinimo_selected},succeededCallback,failedCallback,userContext); },
+UpdateCurrentPage:function(currentPage,succeededCallback, failedCallback, userContext) {
+return this._invoke(this._get_path(), 'UpdateCurrentPage',false,{currentPage:currentPage},succeededCallback,failedCallback,userContext); }}
+Site.Services.ResultadosStateService.registerClass('Site.Services.ResultadosStateService',Sys.Net.WebServiceProxy);
+Site.Services.ResultadosStateService._staticInstance = new Site.Services.ResultadosStateService();
+Site.Services.ResultadosStateService.set_path = function(value) { Site.Services.ResultadosStateService._staticInstance.set_path(value); }
+Site.Services.ResultadosStateService.get_path = function() { return Site.Services.ResultadosStateService._staticInstance.get_path(); }
+Site.Services.ResultadosStateService.set_timeout = function(value) { Site.Services.ResultadosStateService._staticInstance.set_timeout(value); }
+Site.Services.ResultadosStateService.get_timeout = function() { return Site.Services.ResultadosStateService._staticInstance.get_timeout(); }
+Site.Services.ResultadosStateService.set_defaultUserContext = function(value) { Site.Services.ResultadosStateService._staticInstance.set_defaultUserContext(value); }
+Site.Services.ResultadosStateService.get_defaultUserContext = function() { return Site.Services.ResultadosStateService._staticInstance.get_defaultUserContext(); }
+Site.Services.ResultadosStateService.set_defaultSucceededCallback = function(value) { Site.Services.ResultadosStateService._staticInstance.set_defaultSucceededCallback(value); }
+Site.Services.ResultadosStateService.get_defaultSucceededCallback = function() { return Site.Services.ResultadosStateService._staticInstance.get_defaultSucceededCallback(); }
+Site.Services.ResultadosStateService.set_defaultFailedCallback = function(value) { Site.Services.ResultadosStateService._staticInstance.set_defaultFailedCallback(value); }
+Site.Services.ResultadosStateService.get_defaultFailedCallback = function() { return Site.Services.ResultadosStateService._staticInstance.get_defaultFailedCallback(); }
+Site.Services.ResultadosStateService.set_path("/Services/ResultadosStateService.asmx");
+Site.Services.ResultadosStateService.UpdatePaginaBusquedaCurrentPage= function(currentPage,PrecioMaximo_selected,PrecioMinimo_selected,onSuccess,onFailed,userContext) {Site.Services.ResultadosStateService._staticInstance.UpdatePaginaBusquedaCurrentPage(currentPage,PrecioMaximo_selected,PrecioMinimo_selected,onSuccess,onFailed,userContext); }
+Site.Services.ResultadosStateService.UpdateCurrentPage= function(currentPage,onSuccess,onFailed,userContext) {Site.Services.ResultadosStateService._staticInstance.UpdateCurrentPage(currentPage,onSuccess,onFailed,userContext); }
+//]]>
+</script>
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D8606EE1" />
+<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWBALXuueQAwKPo96dCgK+jcHzAgKdyKfUA6mE/4aVwZFBiOiYEGYiVJgCuwEz" />
+        
+        <div id="ctl00_PageNoBot">
+	<span id="ctl00_PageNoBot_PageNoBot_NoBotLabel"></span><input type="hidden" name="ctl00$PageNoBot$PageNoBot_NoBotExtender_ClientState" id="ctl00_PageNoBot_PageNoBot_NoBotExtender_ClientState" /><div id="ctl00_PageNoBot_NoBotPanel" style="visibility:hidden;position:absolute;">
+
+	</div>
+</div>
+        <span id="ctl00_lblDebug" class="nroItems"></span>
+        <div class="page_margins">
+            <div class="page">
+                <div id="header" role="banner">
+                    <div id="topnav" role="contentinfo">
+                    </div>
+                    <div id="logo">
+                        <a id="ctl00_dynamicControl1_linkBanner" href="http://www.tiendaleon.com/destacadocentral/home/"><img id="ctl00_dynamicControl1_imgBanner" src="http://ingematicamediamanager.prod.ingecloud.com/Handlers/BaseStreamer.ashx?id=i211655" border="0" /></a>
+
+                    </div>
+                    <div id="carrito">
+                        <!--<div id="carrito_up">
+		            </div> -->
+                        <div id="header_redes">
+                            <div class="ico_redes">
+                                
+                            </div>
+                            <div class="ico_redes">
+                                
+                            </div>
+                            <div class="ico_redes">
+                                
+                            </div>
+                            <div class="ico_redes">
+                                
+                            </div>
+                            <div class="ico_redes">
+                                
+                            </div>
+                            <div class="ico_redes">
+                                
+                            </div>
+                            <div class="ico_redes">
+                                
+                            </div>
+                        </div>
+                        <div id="carrito_down" style="text-align: right; margin-top: 2px;">
+                            <div id="ctl00_pnLinkLogin">
+	
+                                <div id="ctl00_upLinkLogin">
+		
+                                        <!-- Login -->
+                                        <div id="ctl00_divlogin" class="login">
+                                            <a id="ctl00_lbLogin" class="nroItems" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$lbLogin&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, true))" style="margin-right: 5px;">Login</a>
+                                            &nbsp;|&nbsp;<a id="ctl00_HyperLink1" title="Registro" class="nroItems" href="/registracion/" style="margin-left: 5px;">Registrarme</a>
+                                        </div>
+                                        
+                                        
+                                    
+	</div>
+                            
+</div>
+                            <div id="ctl00_updatePanel1">
+	
+                                    <div id="ctl00_updateCarrito">
+		
+                                            <span class="carritoLeon" style="float: right;">
+                                                <span id="ctl00_lblItems" class="nroItems">Carrito de compras: </span>
+                                                <span id="ctl00_lblCarrito" class="nroItems">0 items</span>
+                                                <input type="image" name="ctl00$carritoImg" id="ctl00_carritoImg" src="../App_Themes/TiendaLeon/Images/carrito.png" onclick="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$carritoImg&quot;, &quot;&quot;, true, &quot;&quot;, &quot;&quot;, false, false))" border="0" style="text-align: right; vertical-align: middle;" />
+                                            </span>
+                                        
+	</div>
+                                
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="line1">
+                </div>
+                <!-- begin: main navigation #nav -->
+                <div id="nav" role="navigation">
+                    <div id="mainnav">
+                        <div id="dynamicControl0_updatePanel">
+	
+        <ul id="dynamicControl0_listaOpciones" style="list-style-type: none;">
+         
+                <li>
+                    <a id="dynamicControl0_rptOpciones_ctl00_linkOpcion" onclick="UpdateCurrentPage(1);" href="/resultados/busqueda/remis/">remis</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl0_rptOpciones_ctl01_linkOpcion" onclick="UpdateCurrentPage(1);" href="/resultados/busqueda/bus/">bus</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl0_rptOpciones_ctl02_linkOpcion" onclick="UpdateCurrentPage(1);" href="/resultados/busqueda/partner/">partner</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl0_rptOpciones_ctl03_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/transportedepersonal/">empresas</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl0_rptOpciones_ctl04_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/nuestrahistoria/">Nuestra Historia</a>
+                    <span></span>
+                </li>
+            
+        </ul>
+    
+</div>
+                    </div>
+                </div>
+                <div id="line2">
+                    <div class="line2_busqueda">
+                        <div style="display: inline; padding-right: 5px;">
+                            
+                        </div>
+                        
+                        
+                        
+                    </div>
+                </div>
+                <script type="text/javascript">
+                    function ValidarExpresionBusqueda(source, arguments) {
+                        isValid = true;
+                        text = $.trim(arguments.Value).split(/\b/)[0]; //elimino espacios y tomo la primer palabra
+                        text = text.replace(/[^a-z0-9]/gi, '');        //elimino caracteres no alfanumericos
+                        $('#ctl00_exprBusqueda').val(text);
+					arguments.IsValid = (text.length >= 3);
+                }
+                </script>
+                
+	<div class="contenido">
+
+		<div class="contenidoCentro" style="height:auto">
+			<div id="ctl00_ContentPlaceHolder1_dynamicControl0_updatePanel">
+	
+        <div id="ctl00_ContentPlaceHolder1_dynamicControl0_divTexto" class="botonSeccionstaff" style="margin: 0; padding: 0;"><br />
+<h1><span style="font-size: 24pt;">Que Hacemos</span></h1><br /></div>
+    
+</div>
+		</div>
+		<div class="contenidoIzquierda" style="border: 0">
+			<div class="fotoGrande">
+				<div id="ctl00_ContentPlaceHolder1_dynamicControl1_updatePanel">
+	
+        <div id="ctl00_ContentPlaceHolder1_dynamicControl1_divTexto" class="botonSeccionstaff" style="margin: 0; padding: 0;"><strong>Servicio de reparto y búsqueda:</strong> este servicio le brinda la posibilidad de trasladarse desde nuestra terminal céntrica, ubicada en Av. E. Madero 1299, esquina San Martín, hasta su hotel o domicilio dentro del radio céntrico predeterminado, luego de haber desembarcado de nuestro bus. Del mismo modo usted podrá solicitar ser retirado de su hotel o domicilio ubicado en dicho radio para trasladarse a nuestra terminal céntrica de Av. E. Madero 1299, esquina San Martín, y posteriormente abordar nuestro bus tanto hacia el Aeropuerto Internacional Ministro Pistarini en Ezeiza como al Aeroparque Jorge Newbery.<br />
+<br />
+<b>Servicio de guarda equipaje:</b> si usted es pasajero de Manuel Tienda León y desea guardar su equipaje hasta tanto se libere la habitación de su hotel o se aproxime el horario de salida de su vuelo, podrá hacerlo en nuestra Terminal céntrica de Av. E. Madero 1299, esquina San Martín. Allí contamos con el servicio de lockers automáticos UNIBLOC® equipados con cerraduras extractable de accionamiento a fichas con llave de usuario codificada con él numero de locker a utilizar. Podrá adquirir las ficha/s por el tiempo que sea necesario en el sector Ventas de nuestra Terminal.</div>
+    
+</div>
+			</div>
+			<div class="textoSeccion">
+				
+			</div>
+		</div>
+    <div class="contenidoDerecha" style="border: 0">
+		<div class="menuDerecha">
+			<div id="dynamicControl2_updatePanel">
+	
+        <ul id="dynamicControl2_listaOpciones" style="list-style-type: none;">
+         
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl00_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/quehacemosbus/">servicio de bus</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl01_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/quehacemosremis/">servicios de remis y minivans</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl02_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/quehacemosreparto/">servicios de reparto y guarda de equipaje</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl03_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/quehacemosespeciales/">servicios especiales</a>
+                    <span></span>
+                </li>
+            
+        </ul>
+    
+</div>
+		</div>
+		<div class="menuDerecha">
+			
+		</div>
+		<div class="botonSeccion">
+			
+		</div>
+		<div class="botonSeccion">
+			
+		</div>
+		<div class="botonSeccion">
+			
+		</div>
+	</div>
+    
+    </div>
+
+            </div>
+        </div>
+        <div id="footer" role="contentinfo">
+            <div id="footer_columns">
+                <div id="footer_col1">
+                    <div style="width: 100%; height: 20%">
+                        
+                    </div>
+                    <div style="width: 100%; height: 80%">
+                        <div id="dynamicControl2_updatePanel">
+	
+        <ul id="dynamicControl2_listaOpciones" style="list-style-type: none;">
+         
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl00_linkOpcion" onclick="UpdateCurrentPage(1);" href="/resultados/busqueda/remis/">Remis</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl01_linkOpcion" onclick="UpdateCurrentPage(1);" href="/resultados/busqueda/bus/">Bus</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl02_linkOpcion" onclick="UpdateCurrentPage(1);" href="/resultados/busqueda/partner/">Partner</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl2_rptOpciones_ctl03_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/transportedepersonal/">Empresas</a>
+                    <span></span>
+                </li>
+            
+        </ul>
+    
+</div>
+                    </div>
+                </div>
+                <div id="footer_col2">
+                    <div style="width: 100%; height: 20%">
+                        
+                    </div>
+                    <div style="width: 100%; height: 80%">
+                        <div id="dynamicControl3_updatePanel">
+	
+        <ul id="dynamicControl3_listaOpciones" style="list-style-type: none;">
+         
+                <li>
+                    <a id="dynamicControl3_rptOpciones_ctl00_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/contacto/">Contacto</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl3_rptOpciones_ctl01_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/quehacemosbus/">Que Hacemos</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl3_rptOpciones_ctl02_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/nuestrahistoria/">Nuestra Historia</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl3_rptOpciones_ctl03_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/nuestraflota/">Nuestra Flota</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl3_rptOpciones_ctl04_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/staff/faq/">Faq</a>
+                    <span></span>
+                </li>
+            
+                <li>
+                    <a id="dynamicControl3_rptOpciones_ctl05_linkOpcion" onclick="UpdateCurrentPage(1);" href="http://www.tiendaleon.com/contacto/contactotransportepersonal/">Transporte Personal</a>
+                    <span></span>
+                </li>
+            
+        </ul>
+    
+</div>
+                    </div>
+                </div>
+                <div id="footer_col3">
+                    <div style="width: 100%; height: 20%">
+                        
+                    </div>
+                    <div style="width: 100%; height: 80%">
+                        <div id="ctl00_dynamicControl4_updatePanel">
+	
+        <div id="ctl00_dynamicControl4_divTexto" class="botonSeccionstaff" style="margin: 0; padding: 0;"><span style="font-size: 12px;">
+<p style="margin-top: 7px;"><span style="color: #666666;">Terminal Madero:</span></p>
+<p style="margin-top: 7px;"><span style="color: #333333;">Av. Madero 1299</span></p></span></div>
+    
+</div>
+                    </div>
+                </div>
+                <div id="footer_col4">
+                    <div style="width: 100%; height: 20%">
+                        
+                    </div>
+                    <div style="width: 100%; height: 80%">
+                        <div id="red1" class="ico_redes">
+                            
+                        </div>
+                        <div id="red2" class="ico_redes">
+                            
+                        </div>
+                        <div id="red3" class="ico_redes">
+                            <div id="ctl00_dynamicControl5_updatePanel">
+	
+        <div id="ctl00_dynamicControl5_divTexto" class="botonSeccionstaff" style="margin: 0; padding: 0;"><a id="ctl00_dynamicControl4_linkBanner" href="https://servicios1.afip.gov.ar/clavefiscal/qr/response.aspx?qr=06y4QEfuH7efQjEJRCmDig,," target="_blank" style="float: left;     margin-left: -44px;"><img id="ctl00_dynamicControl4_imgBanner" src="http://ingematicamediamanager.test.ingecloud.com/Handlers/BaseStreamer.ashx?id=i212021" style="border-width:0px;" /></a><img src="http://ingematicamediamanager.test.ingecloud.com/Handlers/BaseStreamer.ashx?id=i262751" style="float: left;" /></div>
+    
+</div>
+                        </div>
+                    </div>
+                </div>
+                <div id="footer_col5">
+                    
+                    
+                </div>
+            </div>
+            <div id="copyright">
+                <span>
+                    
+                    &nbsp;
+                </span>
+            </div>
+        </div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+(function() {var fn = function() {$get("ctl00_ScriptManager1_HiddenField").value = '';Sys.Application.remove_init(fn);};Sys.Application.add_init(fn);})();Sys.Application.initialize();
+Sys.Application.add_init(function() {
+    $create(Sys.Extended.UI.NoBotBehavior, {"ChallengeScript":"0","ClientStateFieldID":"ctl00_PageNoBot_PageNoBot_NoBotExtender_ClientState","id":"ctl00_PageNoBot_PageNoBot_NoBotExtender"}, null, null, $get("ctl00_PageNoBot_PageNoBot_NoBotLabel"));
+});
+//]]>
+</script>
+</form>
+    <script src="/App_Themes/yaml/core/js/yaml-focusfix.js" type="text/javascript"></script>
+    <!-- fix de los forms por URL rewrites -->
+    <script type="text/javascript">
+        Sys.Application.add_load(function () {
+            var form = Sys.WebForms.PageRequestManager.getInstance()._form;
+            form._initialAction = form.action = window.location.href;
+
+            // Get all textareas that have a "maxlength" property. Now, and when later adding HTML using jQuery-scripting:
+            $('textarea[maxlength]').live('keyup blur', function () {
+                // Store the maxlength and value of the field.
+                var maxlength = $(this).attr('maxlength');
+                var val = $(this).val();
+
+                // Trim the field if it has content over the maxlength.
+                if (val.length > maxlength) {
+                    $(this).val(val.slice(0, maxlength));
+                }
+            });
+        });
+
+        Sys.Application.add_load(function () {
+            ie10Patch();
+        });
+    </script>
+</body>
+</html>

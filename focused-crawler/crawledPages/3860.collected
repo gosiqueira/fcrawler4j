@@ -1,0 +1,1440 @@
+title=
+url=http://www.logitravel.de/uber-uns/home.aspx
+html=
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de">
+<head>
+    
+<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<title>&#220;ber uns. Gesch&#228;ftsf&#252;hrung LOGITRAVEL</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+<meta name="title" content="&#220;ber uns. Gesch&#228;ftsf&#252;hrung LOGITRAVEL" />
+<!--<meta property="og:image" content="http://www.logitravel.com/logitravel/images/logo_logifb.jpg" />-->
+<meta property="fb:admins" content="100002031649350" />
+
+
+    <meta property="fb:app_id" content="185777208187450" />
+
+
+<meta http-equiv="title" content="&#220;ber uns. Gesch&#228;ftsf&#252;hrung LOGITRAVEL" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Expires" content="never" />
+
+<meta name="robots" content="index,follow" />
+
+<link href="http://cdn.logitravel.de/logitravelde/css2012/navegacion.css?030420141027" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/logitravelde/css2012/default.css?170220121225" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/logitravelde/css/jquery.fancybox-1.3.4.css?200220121253" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/logitravelde/css2012/spriteIconos.css?250320130924" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/comun/css/jquery.autocomplete.css?050420131813" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/logitravelde/css2012/autocomplete.css?301020130401" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/comun/css/thickbox.css?030220091252" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/logitravelde/css2012/cabecera_new.css?220720141709" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Maven+Pro:500,700" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/comun/include/prx.js?260920130401" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/comun/include/jquery.js?090820111725" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/comun/include/jquery.autocomplete.js?230920111607" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/comun/include/thickbox.js?100320111236" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/comun/include/jquery.diseno.js?061120141700" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/comun/include/onerror.js?090720121145" crossorigin="anonymous"></script>
+
+
+
+<link rel="icon" type="image/gif" href="http://cdn.logitravel.de/logitravelde/images/icon.gif"><!-- Major Browsers -->
+<!--[if IE]><link rel="SHORTCUT ICON" href="http://cdn.logitravel.de/logitravelde/images/favicon.ico"/><![endif]--><!-- Internet Explorer-->
+
+
+
+
+
+<script type="text/javascript" language="javascript">
+var _glPr = 1;
+</script>
+
+<script>
+    
+    $(document).ready(function () {
+         
+    });
+
+    // GEOLOCALIZACIÓN //
+    function getPos() {
+        if (navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(obtPosition, noPosition);
+        } else {
+            
+            _gaq.push(['_trackEvent', 'geoloc', 'NavegadorNoCompatible', navigator.userAgent]);
+            
+            // Navegador no puede
+            //alert("El navegador es incompatible para facilitar la búsqueda.");
+        }
+    }
+
+    function obtPosition(position) {
+        
+        _gaq.push(['_trackEvent', 'geoloc', 'Ubicame','FRA']);
+        
+        //SetCookie("geoloc", "False", 60);
+        var lat = position.coords.latitude;
+        var lon = position.coords.longitude;
+        var app = "logitravelde";
+        // Obtener Código Aeropuerto más Cercano
+        $.ajax({
+            url: "/Comun/geolocalizacion.ashx",
+            type: "POST",
+            data: {
+                lat: lat,
+                lon: lon,
+                app: app
+            },
+            cache: false,
+            success: function (response) {
+                if (response != "FRA") {
+                    var direccion = 'aero=' + response + '&amp;app=' + "logitravelde";
+                    tb_show('', '/Comun/confirmacionGeo.aspx?' + direccion + '&amp;KeepThis=true&amp;TB_iframe=true&amp;height=170&amp;width=350');
+                }
+            }
+        });
+    }
+
+    function noPosition(err) {
+        track(err);
+        SetCookie("geoloc", "False", 60);
+    }
+
+    function track(error) {
+        var message = "";   
+        switch (error.code) {
+            case error.PERMISSION_DENIED:
+                message = "PERMISSION_DENIED";
+                break;
+            case error.POSITION_UNAVAILABLE:
+                message = "POSITION_UNAVAILABLE";
+                break;
+            case error.PERMISSION_DENIED_TIMEOUT:
+                message = "PERMISSION_DENIED_TIMEOUT";            
+                break;
+        }
+
+        if (message == "")
+        {
+            var strErrorCode = error.code.toString();
+            message = strErrorCode;
+        }
+        
+        _gaq.push(['_trackEvent', 'geoloc', 'NoGeolocalizar',message]);
+        
+    }
+
+    function SetCookie(cookieName, cookieValue, nDays) {
+        var today = new Date();
+        var expire = new Date();
+        if (nDays == null || nDays == 0) nDays = 1;
+        expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+        document.cookie = cookieName + "=" + cookieValue + ";expires=" + expire.toGMTString() + ";path=/";
+    }
+    function showCondicionesGeneral() {
+        tb_show('', 'http://cdn.logitravel.com/logitravelde/images/home/thickboxCondicionesGen.png');
+    } 
+    var newAccount = '1'
+</script>
+    <title></title>
+    <link href="http://cdn.logitravel.de/logitravelde/css/prensa/generico.css" rel="stylesheet" type="text/css" />
+    <link href="http://cdn.logitravel.de/logitravelde/css/prensa/lateral.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    
+<script type="text/javascript">
+    var paramsAnuncio = "";
+    var entradaMedioOk = "";
+    var urlCompletaAnu = "http://www.logitravel.de";
+    function setAnuncio() {
+        if ((typeof paramsAnuncio !== 'undefined') && paramsAnuncio != '') {
+            $.ajax({
+                url: urlCompletaAnu + '/comun/entradaMedioAjax.ashx?' + paramsAnuncio,
+                type: 'GET',
+                success: function (response) {
+                    entradaMedioOk = response;
+                },
+                error: function (response) {
+                    entradaMedioOk = response;
+                }
+            });
+        }
+    }
+    $(document).ready(function () {
+        setAnuncio();
+    });
+</script>
+
+
+<!-- Terra -->
+
+
+<!-- Msn -->
+
+
+<!-- SunChannel -->
+
+
+<header>
+
+    <!-- 
+    <div id="showOrigenes" class="txt12blanco">
+        <form id="fOrigenes" method="post" name="fOrigenes" action="">
+            <input type="hidden" name="accionOrigen" id="accionOrigen" value="" />
+            <input type="hidden" name="codOrigenCab" id="codOrigenCab" value="FRA" />
+        </form>
+        
+    </div>
+    -->
+
+    
+    
+    <div id="showOrigenes" class="txt12blanco">
+        <form id="Form1" method="post" name="fOrigenes" action="">
+            <input type="hidden" name="accionOrigen" id="accionOrigen" value="" />
+            <input type="hidden" name="codOrigenCab" id="codOrigenCab" value="FRA" />
+        </form>
+        
+    </div>
+    <div id="contCabecera">
+        <div id="cabeceraSuperior" class="clearfix">
+            <div id="logoCabecera">
+                <a href="http://www.logitravel.de/" title="Logitravel.de">
+                    <img src="http://cdn.logitravel.de/logitravelde/images/permanentes/logo_positivo.png" alt="Reisen" />
+                </a>
+                <h1 class="visible">Nachrichtenredaktion</h1>
+            </div>
+            
+            <div id="contIra" class="boton-cabecera">
+
+                <script src="http://borg.v5tech.es/static/js/borg_jquery.js"></script>
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        Autocomplete({
+                            autocompleteField: "#textoIrA",
+                            language: "DE",
+                            types: "IRA0",
+                            results: 10,
+                            selectFirst: false,
+                            selectOnBlur: false,
+                            url: "//borg.v5tech.es"
+                        }).onSelect(function (type, value) {
+                            if (value != "") document.location = value;
+                        });
+                    });
+                </script>
+                <input type="text" aria-autocomplete="list" role="textbox" onblur="if(this.value=='') {this.value='Zielland, Stadt, Hotel,...';$('buscar').hide();}" onfocus="if(this.value=='Zielland, Stadt, Hotel,...') this.value=''" value="Zielland, Stadt, Hotel,..." name="textoIrA" id="textoIrA" class="textoIrACab ui-autocomplete-input ac_input">
+                <div id="lupaBuscar" class="azul">
+                    <span class="icoFlechaIra"></span>
+                </div>
+
+            </div>
+            
+
+            
+
+<script type="text/javascript">
+    var cookie = "tokenlogitravelde" ;
+    
+    function forzarRefrescoSearchesData() {
+        vaciarCacheBusquedas();
+        loadSearchesData();
+    }
+    //function hacerBindBusquedas(){$("#enlaceBusquedas").unbind();$("#enlaceBusquedas").bind("click",{cFlotante: 'cFlotanteBusquedas'}, abrirCapa)}
+
+    function hacerBindSesion(){$("#enlaceIniSesion").unbind();$("#enlaceIniSesion").bind("click",{cFlotante: 'cFlotantePerfil'}, abrirCapa)}
+    function hacerBindMensajes(){$("#enlaceMensajes").unbind();$("#enlaceMensajes").bind("click",{cFlotante: 'cFlotanteMensajes'}, abrirCapa)}
+
+    function abrirCapa(event) {
+            
+        switch(event.target.id)
+        {
+            case "enlaceIniSesion":
+                $("#cFlotanteBusquedas").hide();
+                $("#cFlotanteMensajes").hide();           
+                break;
+            case "usuario":
+                $("#cFlotanteBusquedas").hide();
+                $("#cFlotanteMensajes").hide();           
+                break;
+
+            case "enlaceMensajes":
+                $("#cFlotantePerfil").hide();
+                $("#cFlotanteBusquedas").hide();                    
+                break;
+            case "enlaceBusquedas":
+                $("#cFlotantePerfil").hide();
+                $("#cFlotanteMensajes").hide();
+                break;
+        }
+
+        var boton = event.target.id;
+        if(boton=="usuario"){boton="enlaceIniSesion";}
+
+        $("#"+event.data.cFlotante).toggle();
+        if ($('#'+event.data.cFlotante).is(':visible')){$("#"+boton).unbind("click");}
+        $('#'+event.data.cFlotante).focus();            
+                
+    }
+    function loadSearchesData() {
+        var busquedas;
+        var topBusquedas = 5;
+        var fecha = new Date();
+        var timestamp = fecha.getTime();
+            
+        if ((!localStorage.userBusquedas) || (localStorage.userBusquedas == '') ||
+                (!localStorage.userBusquedasLastUpdate) || (new Date().setTime(fecha.getTime() - 300000) > localStorage.userBusquedasLastUpdate)) {
+
+            $.ajax({
+                url: "https://api.logitravel.com/account/api/Searches/getSearches",
+                    data: {
+                        idioma: "de",
+                        USW_codigo: "32557934196",
+                        top: topBusquedas
+                    },
+                    cache: false,
+                    dataType: "jsonp",
+                    contentType: "charset=iso-8859-1",
+                    beforeSend: function (){
+                        $("#listaBusquedas").empty();
+                        $("#cargaBusquedas").show();
+                    },
+                    success: function (response) {                    
+                        busquedas = JSON.stringify(response);
+                        vaciarCacheBusquedas();
+                        localStorage.userBusquedas = busquedas;
+                        localStorage.userBusquedasLastUpdate = timestamp;
+                        pintarUltimasBusquedasCabecera(JSON.parse(busquedas));                    
+                    },
+                    complete: function () {
+                        $("#cargaBusquedas").hide();
+                    }              
+                });
+            
+            _gaq.push(['_trackEvent', 'AccountHeader', "BusquedasClick", "LoadSearchesData",0,true]);
+            
+        }else{                
+            pintarUltimasBusquedasCabecera(JSON.parse(localStorage.userBusquedas));
+        }
+    }
+    function showUserMenu() {
+    
+        if(document.getElementById("cFlotanteUser").style.display == 'block'){
+            document.getElementById("cFlotanteUser").style.display ='none';
+        }else{
+            document.getElementById("cFlotanteUser").style.display = 'block';
+            getUserMessages();
+            
+        } 
+    }
+    function getUserMessages(){
+        $.ajax({
+            url: "https://api.logitravel.com/account/api/Message/GetUnreadMessagesCount?token=&sessionCode=c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c",
+            dataType: "jsonp",
+            contentType: "charset=iso-8859-1",
+            success: function (response) {
+                $('#numMsg').html(response);
+            }
+        });
+    }
+    function getUserData(){
+        $.ajax({
+            url: "https://api.logitravel.com/account/api/Customer/",
+            dataType: "jsonp",
+            contentType: "charset=iso-8859-1",
+            success: function (response) {
+                $('#usuario').html(response.Name);
+                $('#UserName').html(response.Name);
+            }
+        });
+    }
+    $(document).ready(function () {
+        if(newAccount=="1"){
+            if (isLogged()){
+                $('#userCabecera').bind('click', function(e){ 
+                    e.stopPropagation();
+                    getUserMessages();
+                    $('#cFlotanteUser').show()
+                    $('html').click(function (evt) {
+                        if (evt.target.id != 'cFlotanteUser') {
+                            $('#cFlotanteUser').hide()
+                            $('html').unbind()
+                        }
+                    })
+                });
+            }
+        }else{
+            loadSearchesData();
+
+            $("#refrescarBusquedas").unbind();
+            $("#refrescarBusquedas").bind("click",function(){
+                forzarRefrescoSearchesData();
+            });
+
+            $("#enlaceBusquedas").unbind();
+            $("#enlaceBusquedas").bind("click",{cFlotante: 'cFlotanteBusquedas'}, abrirCapa);
+        
+            if (isLogged()) {
+                $("#enlaceIniSesion").unbind();
+                $("#enlaceIniSesion").bind("click",{cFlotante: 'cFlotantePerfil'}, abrirCapa);
+                $("#enlaceMensajes").unbind();
+                $("#enlaceMensajes").bind("click",{cFlotante: 'cFlotanteMensajes'}, abrirCapa);       
+            }
+
+        
+            $("#cFlotanteBusquedas").bind("blur", function(event) {
+                var parent="body";
+            
+                if(typeof event.originalEvent.explicitOriginalTarget!="undefined")
+                {
+                    if(typeof event.originalEvent.explicitOriginalTarget.parentElement.offsetParent.id!="undefined")
+                    {
+                        parent = event.originalEvent.explicitOriginalTarget.parentElement.offsetParent.id;
+                    }
+                }else{
+                    if(document.activeElement.offsetParent!=null){
+                        parent=document.activeElement.offsetParent.id;
+                    }
+                }
+
+                if(parent.indexOf("cFlotanteBusquedas")==-1){
+                    $("#cFlotanteBusquedas").hide();                        
+                    setTimeout(hacerBindBusquedas, 500); 
+                }else{
+                    $("#cFlotanteBusquedas").focus();                                 
+                }
+            });
+
+
+            $("#cFlotantePerfil").bind("blur", function(event) {
+                var parent="body";
+                if(typeof event.originalEvent.explicitOriginalTarget!="undefined")
+                {
+                    if(typeof event.originalEvent.explicitOriginalTarget.parentElement.offsetParent.id!="undefined")
+                    {
+                        parent = event.originalEvent.explicitOriginalTarget.parentElement.offsetParent.id;
+                    }
+                }else{
+                    if(document.activeElement.offsetParent!=null){
+                        parent=document.activeElement.offsetParent.id;
+                    }
+                }
+
+                if(parent.indexOf("cFlotantePerfil")==-1){
+                    $("#cFlotantePerfil").hide();                        
+                    setTimeout(hacerBindSesion, 500); 
+                }else{
+                    $("#cFlotantePerfil").focus();
+                }
+            });
+            $("#cFlotanteMensajes").bind("blur", function(event) {
+                var parent="body";
+                if(typeof event.originalEvent.explicitOriginalTarget!="undefined")
+                {
+                    if(typeof event.originalEvent.explicitOriginalTarget.parentElement.offsetParent.id!="undefined")
+                    {
+                        parent = event.originalEvent.explicitOriginalTarget.parentElement.offsetParent.id;
+                    }
+                }else{
+                    if(document.activeElement.offsetParent!=null){
+                        parent=document.activeElement.offsetParent.id;
+                    }
+                }
+                if(parent.indexOf("cFlotanteMensajes")==-1){
+                    $("#cFlotanteMensajes").hide();                        
+                    setTimeout(hacerBindMensajes, 500); 
+                }else{
+                    $("#cFlotanteMensajes").focus();
+                }
+            });
+
+        
+
+
+            $.LoadAccountData = function () {
+                if(newAccount=="1"){
+                    $.ajax({               
+                        url:  "https://api.logitravel.com/account/api/Customer//Messages?sessionCode=c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c",
+                        dataType: "jsonp",
+                        contentType: "charset=iso-8859-1",
+                        success: function (response) {
+                            var ResNew = { 'Messages': response };
+                            mensajes = JSON.stringify(ResNew);
+                            vaciarCacheMensajes();
+                            localStorage.userMessages = mensajes;
+                            localStorage.userMessagesLastUpdate = timestamp;
+                            pintarMensajesCabecera(JSON.parse(mensajes));
+                        }
+                    });
+                } else {
+                    var mensajes;
+                    var fecha = new Date();
+                    var timestamp = fecha.getTime();
+                    if ((!localStorage.userMessages) || (localStorage.userMessages == '') ||
+                        (!localStorage.userMessagesLastUpdate) || (new Date().setTime(fecha.getTime() - 60000) > localStorage.userMessagesLastUpdate)) {
+                    $.ajax({
+                        url: "https://api.logitravel.com/account/api/user/messages",
+                        data: {
+                            sessionCode: "c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c",
+                            token: "",
+                            top: 10,
+                            usw_codigo: 32557934196
+                                },
+                        dataType: "jsonp",
+                        contentType: "charset=iso-8859-1",
+                        success: function (response) {
+                            mensajes = JSON.stringify(response);
+                            vaciarCacheMensajes();
+                            localStorage.userMessages = mensajes;
+                            localStorage.userMessagesLastUpdate = timestamp;
+                            pintarMensajesCabecera(JSON.parse(mensajes));
+                        }
+                    });
+                        
+                    _gaq.push(['_trackEvent', 'AccountHeader', "Cabecera", "LoadAccountData",0,true]);
+                        
+                } else {
+                    pintarMensajesCabecera(JSON.parse(localStorage.userMessages));
+                }
+            }
+        }
+
+        $.LoadAccountData();
+
+
+        setInterval(function () { $.LoadAccountData() }, 30000);
+
+        setInterval(function () { 
+            $("#listaBusquedas").empty();loadSearchesData() }, 300000);
+        
+
+        $.ReloadAccountData = function () {
+            vaciarCacheMensajes();
+            $.LoadAccountData();
+        }     
+
+    }
+    });
+
+$(window).load(function () {
+             
+    if (!isLogged()) {
+        /* Enlaces Iniciar Sesión */
+            
+                $("#userCabecera").click(function () {
+                    tb_show("", "/operativalogi/ResponsiveWeb/Account/Login.aspx?KeepThis=true&amp;TB_iframe=true&amp;height=540&amp;width=490");
+                });
+                $("#enlaceIniSesion").click(function () {
+                    tb_show("", "/operativalogi/ResponsiveWeb/Account/Login.aspx?KeepThis=true&amp;TB_iframe=true&amp;height=540&amp;width=490");
+                });
+                $(".enlaceIniSesion").click(function () {
+                    tb_show("", "/operativalogi/ResponsiveWeb/Account/Login.aspx?KeepThis=true&amp;TB_iframe=true&amp;height=540&amp;width=580");
+                });
+                $("#enlacePerfil").click(function () {
+                    tb_show("", "/operativalogi/ResponsiveWeb/Account/Login.aspx?KeepThis=true&amp;TB_iframe=true&amp;height=540&amp;width=490");
+                });
+                $("#enlaceMisReservas").click(function () {
+                    tb_show("", "/operativalogi/ResponsiveWeb/Account/Login.aspx?KeepThis=true&amp;TB_iframe=true&amp;height=540&amp;width=490");
+                });
+            
+            }
+
+        if (typeof String.prototype.startsWith != 'function') {
+            String.prototype.startsWith = function (str){
+                return this.slice(0, str.length) == str;
+            };
+        }
+
+    });    
+
+  
+    function isLogged(){
+        if ("" != '') {
+            return true
+        }else{
+            return false
+        }
+    }
+
+    /* Función que pinta los últimos Mensajes */
+    function pintarMensajesCabecera(mensajes) {
+
+
+        /* Update de Nombre de Usuario */        
+        if (isLogged()){
+            if(newAccount=="0"){
+                username = "user"
+                if (mensajes['Name'] != ""){
+                    username = mensajes['Name']
+                }
+                $("#usuario").html(username);
+                $("#enlaceMensajes").unbind();
+                $("#enlaceMensajes").bind("click",{cFlotante: 'cFlotanteMensajes'}, abrirCapa);  
+            }else{
+                $('#enlanceMensajes').attr('href', 'https://ssl.logitravel.de/operativalogi/ResponsiveWeb/Operational/clientsData.aspx?sesion=' + sesion + '&accion=paginar&operaciones=4');
+            }
+
+            $("#enlaceIniSesion").unbind();
+            $("#enlaceIniSesion").bind("click",{cFlotante: 'cFlotantePerfil'}, abrirCapa);
+        }
+
+
+
+        /* DIV: XX mensajes sin leer */
+        var divTagQuedan = document.getElementById("sinLeer");
+     
+        var numMens= 0; 
+        if (mensajes['Messages'] != undefined || mensajes['Messages'] != null){
+            numMens =Object.keys(mensajes['Messages']).length;
+        }
+        
+        if (numMens== 0){
+            divTagQuedan.innerHTML = "Sie haben keine Nachricht";
+            $("#listaMensajes").hide();
+            $("#verTodos").hide();
+            return;
+        }
+        $("#listaMensajes").show();
+        $("#verTodos").show();
+
+        var noLeidos = mensajes['UnreadMessages'];
+        
+        var aHref = "https://ssl.logitravel.de/operativalogi/ResponsiveWeb/operational/clientsData.aspx?sesion=c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c&accion=paginar&operaciones=4";
+        
+
+        /* Caja de los mensajes */
+        var caja = document.getElementById("cFlotanteMensajes");
+
+        
+        if (noLeidos > 0) {
+            divTagQuedan.innerHTML = noLeidos + " Nachrichten <span class='txt12negro'>(ungelesen)</span>";
+        } else {
+            divTagQuedan.innerHTML = "Nachricht  1 bis " + numMens;
+        }
+        
+        var count = Object.keys(mensajes['Messages']).length;
+        /* DIV: los mensajes */
+        $("#listaMensajes").html("")
+        var messages = document.getElementById("listaMensajes");
+        if (count > 0) {
+            if (count > 5){
+                messages.style.height = "250px";
+            }
+            /* Cada uno de ellos */
+
+            for (var i = 0; i < count; i++) {
+                var code = mensajes['Messages'][i]['Code'];
+                var divTag = document.createElement("div");
+
+                var from    = mensajes['Messages'][i]['From'];
+                var subject = mensajes['Messages'][i]['Subject'];
+                var sentDate = mensajes['Messages'][i]['SentDate'];
+                var icoPendientes = mensajes['Messages'][i]['Status'] == 0?"<span class='icoMensajeSinLeer'></span>":"";
+
+                $("#listaMensajes").append("<div id='mensaje" + i + "' rel='" + code + "'class='mensaje Bdashedgris clearfix'><div class='estadoMensaje'>" + icoPendientes + "</div><div class='cuerpoMensaje'><div class='remitente txt12gris'>" + from + "</div><div class='subject txt12azulbold'>" + subject + "</div><div class='txt12gris'>" + sentDate + "</div></div></div>");
+
+                $("#mensaje" + i).click(function () {
+                    $("#cFlotanteMensajes").unbind();
+                    $("#cFlotanteMensajes").hide();
+                    tb_show("", "https://ssl.logitravel.de/operativalogi/getMessage.aspx?sesion=c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c&mensaje=" + $(this).attr("rel") + "&amp;KeepThis=true&amp;TB_iframe=true&amp;height=600&amp;width=820");
+                    hacerBindMensajes();
+                    
+                    _gaq.push(['_trackEvent', 'AccountHeader', "Cabecera", "OpenMessage"]);
+                    
+                    setTimeout(function () { $.ReloadAccountData() }, 5000)
+                });
+
+            }
+        } else {
+            var divTag = document.createElement("div");
+            divTag.id = "mensaje";
+            divTag.innerHTML = "<span>Sie haben keine Nachricht</span>";
+            messages.appendChild(divTag);
+        }
+
+        /* DIV: ver todos */
+        var divTagTodos = document.getElementById("verTodos");
+        divTagTodos.innerHTML = "<a href=\"" + aHref + "\"><span class=\"contenido10 grisflojo txt12negrobold\">Alle Nachrichten ansehen</span></a>";
+
+        /* Update de Cantidad Mensajes por leer */
+        if (noLeidos > 0) {
+            $("#numMensajes").html(noLeidos).addClass("numMensajes br5 txt11blanco")
+        } else {
+            $("#numMensajes").html("")
+        }
+    }
+
+
+    function pintarUltimasBusquedasCabecera(busquedas) {
+        
+        var count = Object.keys(busquedas).length;
+        var textoHtml="";
+        var textoTB ="";
+             
+        if (count > 0) {
+         
+            for (var i = 0; i < count; i++) {
+                
+                if(i==count-1)
+                {
+                    textoHtml=   "<div id='busqueda" + i + "' class='busqueda clearfix'><a id='busquedaLink"+i+"' href=\"" + busquedas[i]['Link'] + "\">";
+                }else{
+                    textoHtml=   "<div id='busqueda" + i + "' class='busqueda Bdashedgris clearfix'><a id='busquedaLink"+i+"' href=\"" + busquedas[i]['Link'] + "\">";
+                }
+
+                if(busquedas[i]['Image']!=null){
+                    textoHtml += "<div class='imgBusqueda'><span class='"+busquedas[i]['Image']+"'></span></div>";
+                    textoTB = "<div id='busquedaOculta" + i + "'><div  class='busqueda clearfix'><div class='imgBusqueda'><span class='"+busquedas[i]['Image']+"'></span></div>";
+                }
+
+                if(busquedas[i]['icoEspera']!=null){
+                    textoTB = "<div id='busquedaOculta" + i + "'><div  class='busqueda clearfix'><div class='icoEsperaBusqueda'><img src='"+busquedas[i]['icoEspera']+"' /></div>";
+                }
+                
+                textoHtml += "<div class='txtBusquedas'><span class='txt12azulbold'>" + busquedas[i]['Head'] +"</span>";
+                textoTB += "<div class='txtBusquedas'><span class='txt12azulbold'>" + "Suche läuft " + " " + busquedas[i]['Head'] +"</span>";
+                
+                if(busquedas[i]['Line1']!=null){
+                    textoHtml += "<span class='txt11negro'>"+ busquedas[i]['Line1'] +"</span>";
+                    textoTB += "<span class='txt11negro'>"+ busquedas[i]['Line1'] +"</span>";
+                    if(busquedas[i]['Line2']!=null){
+                        textoHtml += "<span class='txt11negro'>"+ busquedas[i]['Line2'] +"</span>";
+                        textoTB += "<span class='txt11negro'>"+ busquedas[i]['Line2'] +"</span>";
+                    }
+                }
+                textoHtml += "</div><div class='clear'></div></a></div>";
+                textoTB += "</div><div class='clear'></div></div></div>";
+                
+                $("#listaBusquedasOculto").append(textoTB);
+                $("#listaBusquedas").append(textoHtml);
+
+                $("#busqueda" + i).unbind();
+                $("#busqueda" + i).bind("click",{id: i},function (event) {
+                    $("#cFlotanteBusquedas").unbind();
+                    $("#cFlotanteBusquedas").hide();
+                    hacerBindBusquedas();
+                    tb_show("", "#TB_inline?height=120&amp;width=440&amp;inlineId=busquedaOculta"+event.data.id+"&amp;modal=true");
+                });
+
+            }
+
+            $("#listaBusquedas a").click(function(){
+              
+                _gaq.push(['_trackEvent', 'AccountHeader', "BusquedasClick", $(this).attr("href")]);
+              
+            });
+
+      } else {
+          var textoHtml = "<div class='busqueda'><span class='txt11negro'>Sie haben noch keine Suche durchgeführt</span></div>";
+          $("#listaBusquedas").append(textoHtml);
+      }
+        
+  }
+
+
+  function logout() {
+        
+        _gaq.push(['_trackEvent', 'AccountHeader', "Cabecera", "Logout"]);
+        
+
+        //deleteCookie();
+        vaciarCacheMensajes();
+        var i = 0;
+        $("#esperaImgCabecera").show();
+        //NOSL
+        $.ajax({
+            url: "http://www.logitravel.de/operativaLogi/Controles/Account/AccountData.ashx",
+            crossDomain: true,
+            data: { sesion: "c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c", action: "logout" },
+                dataType: "jsonp"
+        }).complete(function () {
+            i++;
+            if (i == 2) {
+                window.parent.location.reload(true);
+            }
+        });
+        //SSL
+            $.ajax({
+                url: "https://ssl.logitravel.de/operativalogi/Controles/Account/AccountData.ashx",
+                crossDomain: true,
+                data: { sesion: "c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c", action: "logout" },
+                dataType: "jsonp"
+            }).complete(function () {
+                i++;
+                if (i == 2) {
+                    window.parent.location.reload(true);
+                }
+            });
+        //Timout
+            setTimeout(function () {
+                window.parent.location.reload(true);
+            }, 10000)
+        }
+
+        function showBookings() {
+        
+        _gaq.push(['_trackEvent', 'AccountHeader', "Cabecera", "Mis reservas"]);
+        
+        document.location.href = "https://ssl.logitravel.de/operativalogi/ResponsiveWeb/operational/clientsData.aspx?sesion=c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c&accion=paginar&operaciones=0";
+        
+    }
+
+    /* Función que vacía el localStorage */
+    function vaciarCacheMensajes() {
+        localStorage.removeItem("userMessages");
+        localStorage.removeItem("userMessagesLastUpdate");
+    }
+
+    function vaciarCacheBusquedas() {
+        localStorage.removeItem("userBusquedas");
+        localStorage.removeItem("userBusquedasLastUpdate");
+    }
+
+    /* Función que devuelve el valor de una cookie. Sacado de w3schools.com  */
+    function getCookie(c_name) {
+        var c_value = document.cookie;
+        var c_start = c_value.indexOf(" " + c_name + "=");
+        if (c_start == -1) {
+            c_start = c_value.indexOf(c_name + "=");
+        }
+        if (c_start == -1) {
+            c_value = null;
+        }
+        else {
+            c_start = c_value.indexOf("=", c_start) + 1;
+            var c_end = c_value.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = c_value.length;
+            }
+            c_value = unescape(c_value.substring(c_start, c_end));
+        }
+        return c_value;
+    }
+
+    /* Función que elimina una cookie dada */
+    function deleteCookie(name) {
+        var date = new Date();
+        if (name == null) {
+            document.cookie = 'tokenlogitravelde=;expires=' + date.toGMTString + ';';
+                document.cookie = 'USR_Code=;expires=' + date.toGMTString + ';';
+            } else {
+                document.cookie = name + '=;expires=' + date.toGMTString + ';';
+            }
+        }
+
+        //Añadimos la función object.Keys para navegadores sin compatibilidad.
+        Object.keys = Object.keys || (function () {
+            var hasOwnProperty = Object.prototype.hasOwnProperty,
+                hasDontEnumBug = !{toString:null}.propertyIsEnumerable("toString"),
+                DontEnums = [
+                    'toString',
+                    'toLocaleString',
+                    'valueOf',
+                    'hasOwnProperty',
+                    'isPrototypeOf',
+                    'propertyIsEnumerable',
+                    'constructor'
+                ],
+                DontEnumsLength = DontEnums.length;
+  
+            return function (o) {
+                if (typeof o != "object" && typeof o != "function" || o === null)
+                    throw new TypeError("Object.keys called on a non-object");
+     
+                var result = [];
+                for (var name in o) {
+                    if (hasOwnProperty.call(o, name))
+                        result.push(name);
+                }
+     
+                if (hasDontEnumBug) {
+                    for (var i = 0; i < DontEnumsLength; i++) {
+                        if (hasOwnProperty.call(o, DontEnums[i]))
+                            result.push(DontEnums[i]);
+                    }   
+                }
+     
+                return result;
+            };
+        })();
+
+</script>
+
+
+<div id="userCabecera" class="boton-cabecera">
+    <span class="icoPerfilGris icoCabecera"></span>
+    <p id="usuario" class="usuario txt12azul">Login</p>
+</div>
+<div id="certificadosCabeceraDE" class="certificadosCabecera clearfix">
+<div class="TUV">
+<a title="Logitravel.de ist TÜV-geprüft auf Sicherheit, Qualität und Transparenz" href="http://www.safer-shopping.de/zertifikat/Logitravel-de.html" target="_blank">
+    <img src="http://cdn.logitravel.de/logitravelde/images2012/tuv_cabecera.png" style="" /></a>
+</div>
+<div class="trustedShop">
+<a title="Logitravel.de ist Trusted Shopsgeprüft" href="https://www.trustedshops.com/shop/certificate.php?shop_id=X54D980C730471F3A2B989D12E4B9F5FC" target="_blank">
+<img alt="Trusted Shop" src="http://cdn.logitravel.de/logitravelde/images2012/trustedShop_cabecera.png">
+</a>
+</div>
+</div>
+
+
+<div id="cFlotanteUser" style="display: none">
+    <div id="flechaUser" class="flechaBlancaGrisArriba"></div>
+    <div id="sesionIniciada" class="TBLRgris blanco sombra">
+        <div id="divPerfil" class="Bdashedgris clearfix">
+            <a href="" id="usuario">
+                <div class="iconoPerfil azulpalido">
+                    <span class="icoPerfilAdulto"></span>
+                </div>
+                <div class="infoUser">
+                    <span id="UserName" class="remitente txt14azulbold">Login</span>
+                    <span class="txt12azul">Profil sehen</span>
+                </div>
+            </a>
+        </div>
+        <div id="infoPerfil" class="Bdashedgris">
+            <ul class="clearfix txt12gris">
+                <li>
+                    <a href="javascript:void(0)" id="enlaceMensajes">
+                        <span class="icoMensajesGris"></span>Nachrichten
+                        <span id="numMsg" class="numMensajes br5"></span>
+                    </a>
+                </li>
+                <li><a href="javascript:void(0)" id="enlaceMisReservas"><span class="icoReservasGris"></span>Meine Reservierungen</a></li>
+                <li><a href="http://www.logitravel.de/Kontaktieren-Sie-uns/" target="_blank"><span class="icoContactoGris"></span>Kontakt</a></li>
+            </ul>
+        </div>
+        <div id="divCerrarSesion">
+            <a href="javascript:logout();" id="enlaceCerrarSesion"><span class="icoLogoutGris"></span><span class="remitente txt12gris">Sitzung schliessen</span></a>
+            <span id="esperaImgCabecera">
+                <img src="http://cdn.logitravel.de/comun/images/esperas/circleBall.gif" alt="" />
+            </span>
+        </div>
+    </div>
+</div>
+
+            
+        </div>
+
+    </div>
+
+    
+</header>
+
+    <script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/comun/js/i_navegacion.js?210220141358" crossorigin="anonymous"></script>
+
+
+<nav>
+<div id="gePest">
+	<div id="divPestMenu">
+		<div id="divPestMenuCentral">
+			
+				
+				    <ul id="menuNavegacion">
+                        <li class="masterTab">
+   <a class="txtMasterTab br5500" title="Alle  Reisen" href="#">
+Alle <strong>Reisen</strong>
+<span class="icomTodosViajes"></span>
+   </a>
+    <ul class="masterMenu br0055 blanco">
+<li class="dropdown-submenu">
+<a title="Flug+Hotel" href="http://www.logitravel.de/reisen/" onclick="gtrackpagina('/internos/pestanyas/n2/paquetes');" ><span class="icoMenu ico-maleta"></span>Pauschalreisen<span class="icomFlechaIzqGris"></span></a>
+	<ul class="dropdown-menu masterSubmenu">
+<li class="tituloMenu txt18azulbold"><span class="icoSubMenu ico-maleta"></span>Pauschalreisen</li>
+<li>
+	<a title="Flug + Hotel Mixen" href="http://www.logitravel.de/reisen/" onclick="gtrackpagina('/internos/pestanyas/n2/vuelo_hotel');" >
+        Flug + Hotel Mixen
+    </a>
+</li>
+<li>
+	<a title="All Inclusive" href="http://www.logitravel.de/reisen/all-inclusive-urlaub-16061563.html" onclick="gtrackpagina('/internos/pestanyas/n2/todo_incluido');" >
+        All Inclusive
+    </a>
+</li>
+<li>
+	<a title="Frühbucher Angebote" href="http://www.logitravel.de/reisen/fruhbucher-angebote-16179472.html" onclick="gtrackpagina('/internos/pestanyas/n2/venta_anticipada');" >
+        Frühbucher Angebote
+    </a>
+</li>
+<li>
+	<a title="Last Minute" href="http://www.logitravel.de/reisen/last-minute-16036202.html" onclick="gtrackpagina('/internos/pestanyas/n2/last_minute');" >
+        Last Minute
+    </a>
+</li>
+<li>
+	<a title="Wochenende" href="http://www.logitravel.de/wochenende/" onclick="gtrackpagina('/internos/pestanyas/n2/fines_de_semana');" >
+        Wochenendreisen 
+    </a>
+</li>
+<li>
+	<a title="Bahn + Hotel" href="http://www.logitravel.de/bahn/" onclick="gtrackpagina('/internos/pestanyas/n2/tren_hotel');" >
+        Bahn + Hotel
+    </a>
+</li>
+	</ul>
+
+</li>
+<li class="dropdown-submenu">
+<a title="Urlaubsreisen" href="http://www.logitravel.de/reisen/besondere-gelegenheiten-10555530.html" onclick="gtrackpagina('/internos/pestanyas/n2/paquetes');" ><span class="icoMenu ico-circuito"></span>Urlaubsreisen<span class="icomFlechaIzqGris"></span></a>
+	<ul class="dropdown-menu masterSubmenu">
+<li class="tituloMenu txt18azulbold"><span class="icoSubMenu ico-circuito"></span>Urlaubsreisen</li>
+<li>
+	<a title="Sommerurlaub 2015" href="http://www.logitravel.de/reisen/sommerurlaub-11482417.html" onclick="gtrackpagina('/internos/pestanyas/n2/sommerurlaub');" >
+        Sommerurlaub 2015
+    </a>
+</li>
+<li>
+	<a title="Herbstferien 2015" href="http://www.logitravel.de/reisen/herbstferien-16179065.html" onclick="gtrackpagina('/internos/pestanyas/n2/herbstferien');" >
+        Herbstferien 2015
+    </a>
+</li>
+<li>
+	<a title="Weihnachtsurlaub 2015" href="http://www.logitravel.de/bruckentage/weihnachten-und-silvester-10862436.html" onclick="gtrackpagina('/internos/pestanyas/n2/weihnachtsurlaub');" >
+        Weihnachtsurlaub 2015
+    </a>
+</li>
+<li>
+	<a title="Silvesterreisen 2015" href="http://www.logitravel.de/reisen/silvester-16176533.html" onclick="gtrackpagina('/internos/pestanyas/n2/silvester');" >
+        Silvesterreisen 2015
+    </a>
+</li>
+<li>
+	<a title="Wochenende" href="http://www.logitravel.de/wochenende/" onclick="gtrackpagina('/internos/pestanyas/n2/fines_de_semana');" >
+        Wochenendreisen 
+    </a>
+</li>
+	</ul>
+
+</li>
+<li class="dropdown-submenu">
+<a title="Urlaubsziele " href="http://www.logitravel.de/reisen/" onclick="gtrackpagina('/internos/pestanyas/n2/paquete');" ><span class="icoMenu ico-playas"></span>Urlaubsziele <span class="icomFlechaIzqGris"></span></a>
+	<ul class="dropdown-menu masterSubmenu">
+<li class="tituloMenu txt18azulbold"><span class="icoSubMenu ico-playas"></span>Urlaubsziele </li>
+<li>
+	<a title="Balearen" href="http://www.logitravel.de/reisen-balearen/" onclick="gtrackpagina('/internos/pestanyas/n2/baleares');" >
+        Balearen
+    </a>
+</li>
+<li>
+	<a title="Kanaren" href="http://www.logitravel.de/reisen/kanaren-und-madeira-15991797.html" onclick="gtrackpagina('/internos/pestanyas/n2/canarias');" >
+        Kanaren
+    </a>
+</li>
+<li>
+	<a title="Türkei " href="http://www.logitravel.de/reisen/turkei-kuste-16064398.html" onclick="gtrackpagina('/internos/pestanyas/n2/turquia');" >
+        Türkei 
+    </a>
+</li>
+<li>
+	<a title="Griechische Inseln " href="http://www.logitravel.de/reisen-griechischeinseln/" onclick="gtrackpagina('/internos/pestanyas/n2/islas griegas');" >
+        Griechische Inseln 
+    </a>
+</li>
+<li>
+	<a title="Flug+Hotel" href="http://www.logitravel.de/reisen-stadtereisen/" onclick="gtrackpagina('/internos/pestanyas/n2/capitales');" >
+        Städtereisen
+    </a>
+</li>
+	</ul>
+
+</li>
+<li class="dropdown-submenu">
+<a title="Stadthotels" href="http://www.logitravel.de/hotel/" onclick="gtrackpagina('/internos/pestanyas/n2/hoteles');" ><span class="icoMenu ico-hotel"></span>Hotel<span class="icomFlechaIzqGris"></span></a>
+	<ul class="dropdown-menu masterSubmenu">
+<li class="tituloMenu txt18azulbold"><span class="icoSubMenu ico-hotel"></span>Hotel</li>
+<li>
+	<a title="Nur Hotel" href="http://www.logitravel.de/hotel/" onclick="gtrackpagina('/internos/pestanyas/n2/hoteles');" >
+        Nur Hotel
+    </a>
+</li>
+<li>
+	<a title="Flug + Hotel" href="http://www.logitravel.de/reisen/" onclick="gtrackpagina('/internos/pestanyas/n2/vuelo_hotel');" >
+        Flug + Hotel
+    </a>
+</li>
+<li>
+	<a title="Bahn + Hotel" href="http://www.logitravel.de/bahn/" onclick="gtrackpagina('/internos/pestanyas/n2/tren_hotel');" >
+        Bahn + Hotel
+    </a>
+</li>
+	</ul>
+
+</li>
+<li class="dropdown-submenu">
+<a title="Flüge" href="http://www.logitravel.de/fluge/" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos');" ><span class="icoMenu ico-vuelo"></span>Flüge<span class="icomFlechaIzqGris"></span></a>
+	<ul class="dropdown-menu masterSubmenu">
+<li class="tituloMenu txt18azulbold"><span class="icoSubMenu ico-vuelo"></span>Flüge</li>
+<li>
+	<a title="Linien-, Billig und Charterflüge" href="http://www.logitravel.de/fluge/" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos');" >
+        Linien-, Billig und Charterflüge
+    </a>
+</li>
+<li>
+	<a title="Flug + Hotel" href="http://www.logitravel.de/reisen/" onclick="gtrackpagina('/internos/pestanyas/n2/vuelo_hotel');" >
+        Flug + Hotel
+    </a>
+</li>
+<li>
+	<a title="Flüge Berlin" href="http://www.logitravel.de/fluge/fluege-berlin-1608046.html" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos_berlin');" >
+        Berlin
+    </a>
+</li>
+<li>
+	<a title="Flüge Frankfurt" href="http://www.logitravel.de/fluge/fluege-frankfurt-1608182.html" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos_frankfurt');" >
+        Frankfurt
+    </a>
+</li>
+<li>
+	<a title="Flüge München" href="http://www.logitravel.de/fluge/fluege-munchen-1608382.html" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos_munich');" >
+        München
+    </a>
+</li>
+<li>
+	<a title="Flüge Hamburg" href="http://www.logitravel.de/fluge/fluege-hamburg-1608212.html" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos_hamburgo');" >
+        Hamburg
+    </a>
+</li>
+<li>
+	<a title="Flüge London" href="http://www.logitravel.de/fluge/fluege-london-1608309.html" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos_londres');" >
+        London
+    </a>
+</li>
+<li>
+	<a title="Flüge Madrid" href="http://www.logitravel.de/fluge/fluege-madrid-1666975.html" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos_madrid');" >
+        Madrid
+    </a>
+</li>
+<li>
+	<a title="Flüge Paris" href="http://www.logitravel.de/fluge/fluege-paris-1608431.html" onclick="gtrackpagina('/internos/pestanyas/n2/vuelos_paris');" >
+        Paris
+    </a>
+</li>
+	</ul>
+
+</li>
+<li class="dropdown-submenu">
+<a title="Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros');" ><span class="icoMenu ico-crucero"></span>Kreuzfahrten<span class="icomFlechaIzqGris"></span></a>
+	<ul class="dropdown-menu masterSubmenu">
+<li class="tituloMenu txt18azulbold"><span class="icoSubMenu ico-crucero"></span>Kreuzfahrten</li>
+<li>
+	<a title="Alle Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_todos');" >
+        Alle Kreuzfahrten
+    </a>
+</li>
+<li>
+	<a title="Mittelmeer Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/mittelmeer-kreuzfahrten-2364708.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_mediterraneo');" >
+        Mittelmeer Kreuzfahrten
+    </a>
+</li>
+<li>
+	<a title="Kreuzfahrten Nordeuropa" href="http://www.logitravel.de/kreuzfahrten/nordeuropa-2363323.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_norteeuropa');" >
+        Kreuzfahrten Nordeuropa
+    </a>
+</li>
+<li>
+	<a title="Kreuzfahrten ab Deutschland" href="http://www.logitravel.de/kreuzfahrten/kreuzfahrten-ab-deutschland-11494417.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_desdealemania');" >
+        Kreuzfahrten ab Deutschland
+    </a>
+</li>
+<li>
+	<a title="Kreuzfahrten Kanaren" href="http://www.logitravel.de/kreuzfahrten/kanaren-2363319.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_canarias');" >
+        Kreuzfahrten Kanaren
+    </a>
+</li>
+<li>
+	<a title="Orient" href="http://www.logitravel.de/kreuzfahrten/mittlerer-osten-9484833.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_oriente');" >
+        Orient
+    </a>
+</li>
+<li>
+	<a title="Kreuzfahrten Karibik" href="http://www.logitravel.de/kreuzfahrten/karibik-2363326.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_caribe');" >
+        Kreuzfahrten Karibik
+    </a>
+</li>
+<li>
+	<a title="Oster Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/oster-kreuzfahrten-11501976.html " onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_lujo');" >
+        Oster Kreuzfahrten
+    </a>
+</li>
+<li>
+	<a title="Kreuzfahrten im Winter" href="http://www.logitravel.de/kreuzfahrten/a-rosa-flukreuzfahrten-11005916.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_otoño');" >
+        Kreuzfahrten im Winter
+    </a>
+</li>
+<li>
+	<a title="Mini-Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/mini-kreuzfahrten-2364695.html" onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_mini');" >
+        Mini-Kreuzfahrten
+    </a>
+</li>
+<li>
+	<a title="Luxus Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/luxus-kreuzfahrten-2364694.html " onclick="gtrackpagina('/internos/pestanyas/n2/cruceros_lujo');" >
+        Luxus Kreuzfahrten
+    </a>
+</li>
+	</ul>
+
+</li>
+<li><a href="http://www.logitravel.de/bahn/" onclick="gtrackpagina('/internos/pestanyas/n2/trenes');" ><span class="icoMenu ico-tren"></span>Bahn-Flug</a></li>
+<li><a href="http://www.logitravel.de/autos/" onclick="gtrackpagina('/internos/pestanyas/n2/coches');" ><span class="icoMenu ico-coche"></span>Mietwagen</a></li>
+<li class="dropdown-submenu">
+<a title="TOP-Angebote" href="http://www.logitravel.de/reisen-schnappchen/" onclick="gtrackpagina('/internos/pestanyas/n2/chollos');" ><span class="icoMenu ico-chollos"></span>Specials<span class="icomFlechaIzqGris"></span></a>
+	<ul class="dropdown-menu masterSubmenu">
+<li class="tituloMenu txt18azulbold"><span class="icoSubMenu ico-chollos"></span>Specials</li>
+<li>
+	<a title="Logi Super Deal" href="http://www.logitravel.de/reisen-schnappchen/" onclick="gtrackpagina('/internos/pestanyas/n2/chollos');" >
+        Logi Super Deal
+    </a>
+</li>
+<li>
+	<a title="Brücken- und Feiertage" href="http://www.logitravel.de/reisen/besondere-gelegenheiten-10555530.html" onclick="gtrackpagina('/internos/pestanyas/n2/puentes');" >
+        Brücken- und Feiertage
+    </a>
+</li>
+<li>
+	<a title="Wochenende" href="http://www.logitravel.de/wochenende/" onclick="gtrackpagina('/internos/pestanyas/n2/fines_de_semana');" >
+        Wochenendreisen 
+    </a>
+</li>
+<li>
+	<a title="Sommerurlaub 2015" href="http://www.logitravel.de/reisen/sommerurlaub-11482417.html" onclick="gtrackpagina('/internos/pestanyas/n2/verano');" >
+        Sommerurlaub 2015
+    </a>
+</li>
+<li>
+	<a title="Urlaub in Deutschland" href="http://www.logitravel.de/reisen-stadtereisen/deutschland-2128462.html" onclick="gtrackpagina('/internos/pestanyas/n2/viajes_alemania');" >
+        Urlaub in Deutschland
+    </a>
+</li>
+	</ul>
+
+</li>
+<li><a href="http://www.logitravel.de/reiseversicherungen/" onclick="gtrackpagina('/internos/pestanyas/n2/Seguros');" ><span class="icoMenu ico-seguros"></span>Versicherungen</a></li>
+
+      </ul>
+</li>
+<li class="niv1 first"><a title="Flug+Hotel" onclick="gtrackpagina('/internos/pestanyas/n1/paquetes');"  class="peSel" href="http://www.logitravel.de/reisen/">Urlaubsreisen</a></li>
+<li class="niv1"><a title="Stadthotels" onclick="gtrackpagina('/internos/pestanyas/n1/hoteles');"  class="peSel" href="http://www.logitravel.de/hotel/">Hotel</a></li>
+<li class="niv1"><a title="Flüge" onclick="gtrackpagina('/internos/pestanyas/n1/vuelos');"  class="peSel" href="http://www.logitravel.de/fluege/">Flüge</a></li>
+<li class="niv1"><a title="Flug+Hotel" onclick="gtrackpagina('/internos/pestanyas/n1/paquetes');"  class="peSel" href="http://www.logitravel.de/reisen-stadtereisen/">Städtereisen</a></li>
+<li class="niv1"><a title="Kreuzfahrten" onclick="gtrackpagina('/internos/pestanyas/n1/cruceros');"  class="peSel" href="http://www.logitravel.de/kreuzfahrten/">Kreuzfahrten</a></li>
+<li class="niv1"><a title="Bahn" onclick="gtrackpagina('/internos/pestanyas/n1/trenes');"  class="peSel" href="http://www.logitravel.de/bahn/">Bahn+Hotel</a></li>
+<li class="niv1"><a title="Autovermietung" onclick="gtrackpagina('/internos/pestanyas/n1/coches');"  class="peSel" href="http://www.logitravel.de/autos/">Mietwagen</a></li>
+<li class="niv1 last"><a title="Super Deal" id="withtip" onclick="gtrackpagina('/internos/pestanyas/n1/chollos');"  class="peSel" href="http://www.logitravel.de/reisen-schnappchen/"><img class="tip" src="http://cdn.logitravel.de/logitravel/images/permanentes/ico_especial.png" alt=""/>Super Deal</a></li>
+
+                
+				
+				</ul>
+				
+			
+		</div>
+        <div id="divPestMenuSocial"><a title="Logitravel auf Facebook " href="http://www.facebook.com/pages/Logitravel-Deutschland/133732540023843" target="_blank"><span class="icoFacebookb"></span></a><a title="Logitravel auf Twitter " href="http://twitter.com/Logitravelde" target="_blank"><span class="icoTwitterb"></span></a><a title="Logitravel auf Google+ " href="https://plus.google.com/u/0/b/103798724108254266018/103798724108254266018/posts" target="_blank"><span class="icoGooglePlusb"></span></a></div>
+        
+	</div>
+</div>
+</nav>
+
+    <div id="geContainer">
+         
+        <div id="contMigaPan" class="clearfix migasPan">
+            <ul>
+                <li class="nivel1">
+                    <a href="#" itemprop="url">
+                        Nachrichtenredaktion
+                    </a>
+                </li>
+                <li class="nivel2 current">
+                    <span class="txt14azulbold link">Presse-Dossier</span>
+                </li>
+            </ul>
+        </div>
+        
+        <div id="spdivbody">
+            <div id="spCabecera">
+                <div id="spTitulo">
+                    <span>
+                        Über uns</span>
+                </div>
+                <img alt="<imagen sala de prensa logitravel paisaje>" src="http://cdn.logitravel.de/logitravelde/images/salaPrensa_new/cabecera.jpg" />
+            </div>
+            <div id="spContenido">
+                
+
+<div id="spLateral">
+    <ul>
+        
+        <li onclick="window.location.href='/uber-uns/home.html'">
+            <img src="http://cdn.logitravel.de/logitravel/images/salaPrensa_new/ico_lateral/ico_dossier.gif" alt="img" />
+            <a href="/uber-uns/home.html">Pressemappe</a>
+        </li>
+        
+        <li onclick="window.location.href='/uber-uns/unser-logo.html'">
+            <img style="vertical-align: middle; text-align: left;" src="http://cdn.logitravel.de/logitravel/images/salaPrensa_new/ico_lateral/ico_logi.gif" alt="img" />
+            <a href="/uber-uns/unser-logo.html">Unser Logo: Logi</a>
+        </li>
+        
+        <li onclick="window.location.href='/uber-uns/geschaftsfuhrung.html'">
+            <img style="vertical-align: middle; text-align: left;" src="http://cdn.logitravel.de/logitravel/images/salaPrensa_new/ico_lateral/ico_portavoces.gif" alt="img" />
+            <a href="/uber-uns/geschaftsfuhrung.html">Geschäftsführung</a>
+        </li>
+        
+
+    </ul>
+</div>
+
+                <div id="spInterior">
+                    <div id="spTitular">
+                        Logitravel: Das alternative Online-Reisebüro</div>
+                    <div id="spDescripcion">
+                        <br />
+                        <br />
+                        <p>
+                            Logitravel ist ein Online-Reisebüro spezialisiert auf den Verkauf von Kreuzfahrten, Urlaubsreisen und Strandhotels.</p>
+                        <p>
+                            Logitravel wurde mit dem klaren Ziel gegründet eine Marktlücke zu füllen. Eine aggressive Preispolitik in Kombination mit einer weiten Produktpalette und ein ausgezeichneter Kundenservice sind eine grundlegende Unternehmensphilosophie. Im Jahr 2010 hat Logitravel ihren Markt mit Deutschland erweitert und ist mittlerweile auch in Portugal, Frankreich, Italien, Finnland, England und Brasilien präsent.</p>
+                        <p>
+                            Logitravel hat 2013 einen Umsatz von 419 Millionen Euro erreicht, 42 Millionen Benutzer haben sich auf unserer Online-Plattform registriert und über 2 Millionen Kunden haben Ihren Urlaub mit Logitravel gebucht. Zur Zeit arbeiten mehr als 300 professionelle Mitarbeiter für das Online-Reisebüro.</p>
+                        <p>
+                            In nur 9 Jahren hat sich Logitravel zu einem der marktführenden Online-Reisebüros entwickelt und kann Jahr für Jahr ein konstantes Wachstum aufweisen.</p>
+                        <br />
+                        <br />
+                        <br />
+                        <br />
+                        <a href="" onclick="window.open('http://cdn.logitravel.de/logitravelde/PDF/dossierprensa.pdf');" class="boton boton-azul boton-medio">Laden Sie unser Presse-Dossier</a>
+                    </div>
+                    <br />
+                    <div id="Div1">
+                        <img src="http://cdn.logitravel.de/logitravel/images/salaPrensa_new/logi_dossier.gif" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    
+
+<!-- SunChannel -->
+    
+        
+
+          <div id="contPie">
+        
+            
+                <div id="divPie">
+                    <div id="divInfoPie" class="clearfix">
+                        <div id="contPieInfo" class="clearfix"><div id="tituloLinks">Infos und Hilfe:</div><ul id="linksInfo"><li><a href="http://www.logitravel.de/faq/" target="_blank">FAQ</a></li><li class="txt11blanco">·</li><li><a href="http://cdn.logitravel.de/logitravelde/htm/de/AGB.htm" target="_blank">AGB</a></li><li class="txt11blanco">·</li><li><a href="http://cdn.logitravel.de/logitravelde/htm/de/agbextern.htm" target="_blank">AGB'S Extern</a></li><li class="txt11blanco">·</li><li><a href="http://cdn.logitravel.de/logitravelde/htm/de/impressum.htm" target="_blank">Impressum</a></li><li class="txt11blanco">·</li><li><a href="http://cdn.logitravel.de/logitravelde/htm/de/Datenschutz.htm" target="_blank">Datenschutz</a></li><li class="txt11blanco">·</li><li><a href="http://cdn.logitravel.de/logitravelde/htm/de/Verfahrensverzeichnis.htm" target="_blank">Verfahrensverzeichnis</a></li><li class="txt11blanco">·</li><li><a href="http://www.logitravel.de/Kontaktieren-Sie-uns/" target="_blank">Kontakt</a></li><li class="txt11blanco">·</li><li><a href="http://www.logitravel.de/apps/" target="_blank">Handy App</a></li></ul></div><div id="contPieComunidad" class="clearfix"><div id="tituloLinks">Reisen und Urlaub:</div><ul id="linksComunidad"><li><a href="http://www.logitravel.de/reiseberichte/">Reiseführer</a></li><li class="txt11blanco">·</li><li><a href="http://www.logitravel.de/hotel/pension-2774557.html">Pensionen</a></li><li class="txt11blanco">·</li><li><a href="http://www.logitravel.de/hotel/unterkunft-2761478.html">Unterkunft</a></li><li class="txt11blanco">·</li><li><a href="http://www.logitravel.de/fluge/billigfluege-1612508.html">Billigflüge</a></li><li class="txt11blanco">·</li><li><a href="http://www.logitravel.de/hotel/hotelketten-5000167.html">Hotelketten</a></li><li class="txt11blanco">·</li><li><a href="http://www.logitravel.de/reiseversicherungen/">Reiseversicherungen</a></li></ul></div><div id="contPieInternacional" class="clearfix"><div id="tituloLinks">International:</div><ul id="linksInternacional"><li><span class="flagES"></span><a href="http://www.logitravel.es">Spanien</a></li><li class="txt11blanco">·</li><li><span class="flagIT"></span><a href="http://www.logitravel.it">Italien</a></li><li class="txt11blanco">·</li><li><span class="flagPT"></span><a href="http://www.logitravel.pt">Portugal</a></li><li class="txt11blanco">·</li><li><span class="flagBR"></span><a href="http://www.logitravel.com.br">Brasilien</a></li><li class="txt11blanco">·</li><li><span class="flagFR"></span><a href="http://www.logitravel.fr">Frankreich</a></li><li class="txt11blanco">·</li><li><span class="flagUK"></span><a href="http://www.logitravel.co.uk">Grossbritannien</a></li><li class="txt11blanco">·</li><li><span class="flagFI"></span><a href="http://www.logitravel.fi">Finnland</a></li></ul></div><div id="divCopyR" class="txt11blanco"><b>Logitravel GmbH</b>- Handelsregister: Amtsgericht Stuttgart, HRB 737384  USt-IDNr: DE 277849632</div>
+                    </div>
+            
+        <div id="contPieDerecha">
+            
+                <div id="contRedesBlogRegistro">
+                    <div id="redesSociales">
+                        <span class="icoFacebook"><a title="Logitravel auf Facebook " href="http://www.facebook.com/pages/Logitravel-Deutschland/133732540023843" target="_blank"></a></span><span class="icoTwitter"><a title="Logitravel auf Twitter " href="http://twitter.com/Logitravelde" target="_blank"></a></span><span class="icoGoogleplus"><a title="Logitravel auf Google+ " href="https://plus.google.com/u/0/b/103798724108254266018/103798724108254266018/posts" target="_blank"></a></span>
+                    </div>
+                    <div id="foroBlog">
+                        
+                    </div>
+                </div>
+                
+            
+        </div>
+    
+</div> <!--End divPie o divPieHome o divPie2 -->
+                    <div id="certificadosDE" class="Tdasehdgris clearfix">
+<ul id="listaCertificados" class="clearfix">
+<li id="TUV">
+    <a href="http://www.safer-shopping.de/zertifikat/Logitravel-de.html" target="_blank">
+    <img src="http://cdn.logitravel.de/logitravelde/images2012/tuv_pie.png" alt="TÜV Zertifikat" />
+       <p class="txt11grisflojo">Logitravel.de ist TÜV-geprüft auf Sicherheit, Qualität und Transparenz</p>
+   </a>
+</li>
+<li id="DRV">
+    <a href="http://www.drv.de/drv/der-verband.html" target="_blank">
+   <img alt="Deutschen Reiseverband" src="http://cdn.logitravel.de/logitravelde/images2012/drv_pie.png">
+   <p class="txt11grisflojo">Logitravel.de ist Mitglied im Deutschen Reiseverband</p>
+   </a>
+</li>
+<li id="IATA">
+    <a href="http://www.iata.org/pressroom/facts_figures/fact_sheets/Pages/agency.aspx" target="_blank">
+   <img alt="International Air Transport Association" src="http://cdn.logitravel.de/logitravelde/images2012/iata_pie.png">
+   <p class="txt11grisflojo">Logitravel.de ist Mitglied der International Air Transport Association</p>
+   </a>
+</li>
+<li id="trustedShop">
+<a target="_blank" href="https://www.trustedshops.com/shop/certificate.php?shop_id=X54D980C730471F3A2B989D12E4B9F5FC">
+<img alt="Trusted Shop" src="http://cdn.logitravel.de/logitravelde/images2012/trustedShop_pie.png">
+<p class="txt11grisflojo">Logitravel.de ist Trusted Shopsgeprüft</p>
+</a
+</li>
+</ul>
+</div>
+
+<div id="divPieVerif">
+<!--POP-UP VERIFICACION VERISIGN -->
+
+<img src="http://cdn.logitravel.de/logitravelde/images2012/pieIconos.png"
+alt="Footer" usemap="#Map_verisign" />
+<map name="Map_verisign" id="Map_verisign">
+<area style="border: 1px solid red" shape="rect" coords="5,1,67,24" href="https://sealinfo.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=ssl.logitravel.de&lang=de"
+target="_blank" alt="Thawte" />
+</map>
+</div>
+
+</div> <!-- End div contPie o contPie2-->
+
+    
+<script type="text/javascript">
+dataLayer=[{
+		product_id: "HOME", //ID del producto. Formato estandarizado: linea de negocio + codigo de producto
+		productName: "", //Nombre del producto
+		productURL: "", //Url del producto
+		productImgURL: "", //Imagen del producto
+		productDesc: "", //Descripcion del producto
+		productTypeName: "home", //Tipo de producto. Formato estandarizado por linea de negocio
+		categoryItem1: "#categoryItem1#", //Primer item para categorizar
+		categoryItem2: "#categoryItem2#", //Segundo item para categorizar
+		categoryItem3: "#categoryItem3#", //Tercer item para categorizar
+		categoryItem4: "#categoryItem4#", //Cuarto item para categorizar
+		categoryItem5: "#categoryItem5#", //Quinto item para categorizar
+		categoryName: "home", //Linea de negocio estandarizada
+		pageTypeName: "home", //Nombre de la pagina en el flujo de venta (estandarizado)
+		pageName: "/de/prensa/dossierprensa", //Nombre semantico de la pagina Formato Google Analytics
+		webCode: "logitravelde", //Codigo de aplicacion web
+		anuncio: "2458491", // Codigo de anuncio (interno)
+		userCode: "32557934196", //Codigo de usuario (interno)
+		customerID: "", //Codigo de cliente (interno)
+		localizador: "", //Localizador de la reserva (interno)
+		totalAmount: "0.00", //Precio con decimales y punto
+		currency: "EUR", //Moneda de venta
+		revenue: "0.00", //Beneficio de la reserva con decimales y punto
+		numPeople: "0", //Suma del total de pasajeros
+		numAdults: "0", //No adultos
+		numKids: "0", //No ninos (no bebes)
+		numInfants: "0", //No bebes
+		numRooms: "0", //No habitaciones
+		productCity: "", //Ciudad del producto
+		productZone: "", //Zona del producto
+		productCountry: "", //Pais del producto
+		codDeparture: "", //Codigo de origen (aeropuerto/tren/puerto)
+		codArrival: "", //Codigo de destino (aeropuerto/tren/puerto)
+		checkInDMY: "01/01/0001", //Fecha inicio formato DD/MM/YYYY
+		checkOutDMY: "01/01/0001", //Fecha fin formato DD/MM/YYYY
+		numNights: "0", //No de noches
+		tduid: "", //Identificador partner Treadedoubler
+		tduid2: "", //Identificador partner Tradedoubler2
+		partnerID: "", //Identificador partner Zanox
+		externalID: "-1", //Identificador externaldID
+		ReviewStr: "", //Sring de verificacion
+		checksum: "v04492f948808daf55a3f9e7ddd3694f546", //String para validacion TradeDoubler
+		deviceType: "#deviceType#",
+		MD5Email: "#MD5Email#"
+	}];
+</script>
+
+        
+
+</body>
+</html>

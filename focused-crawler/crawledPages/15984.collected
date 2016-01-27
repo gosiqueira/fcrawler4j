@@ -1,0 +1,388 @@
+title=Theatro da Paz
+url=http://www.theatrodapaz.com.br/
+html=<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="pt-BR">
+<!-- InstanceBegin template="/Templates/padrao.dwt.php" codeOutsideHTMLIsLocked="false" -->
+<!--<![endif]-->
+<head>
+<!-- InstanceBeginEditable name="code" -->
+<!-- InstanceEndEditable -->
+<!-- InstanceBeginEditable name="doctitle" -->
+<title>Theatro da Paz</title>
+<!-- InstanceEndEditable -->
+<!-- InstanceParam name="hasTitulo" type="boolean" value="false" -->
+<!-- Meta -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<!-- Favicon -->
+<link rel="shortcut icon" href="favicon.ico">
+
+<!-- Web Fonts -->
+<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
+
+<!-- CSS Global Compulsory -->
+<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+
+<!-- CSS Header and Footer -->
+<link rel="stylesheet" href="assets/css/headers/header-default.css">
+<link rel="stylesheet" href="assets/css/footers/footer-v2.css">
+
+<!-- CSS Implementing Plugins -->
+<link rel="stylesheet" href="assets/plugins/animate.css">
+<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
+<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
+<link rel="stylesheet" href="assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+<link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css" type="text/css" media="screen">
+<!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
+
+<!-- CSS Customization -->
+<link rel="stylesheet" href="assets/css/theme-colors/brown.css" id="style_color">
+<link rel="stylesheet" href="assets/css/custom.css">
+<!-- InstanceBeginEditable name="head" -->
+<!-- InstanceEndEditable -->
+</head>
+
+<body>
+<div class="wrapper"> 
+  <!--=== Header ===-->
+  <div class="header">
+    <div class="container"> 
+      <!-- Logo --> 
+      <a class="logo" href="index.php"> <img src="assets/img/logo_tp_top.png" alt="Logo"> </a> 
+      <!-- End Logo --> 
+      <!-- Toggle get grouped for better mobile display -->
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse"> <span class="sr-only">Toggle navigation</span> <span class="fa fa-bars"></span> </button>
+      <!-- End Toggle --> 
+    </div>
+    <!--/end container--> 
+    
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse mega-menu navbar-responsive-collapse">
+      <div class="container">
+        ﻿<ul class="nav navbar-nav">
+  <li class="active"><a href="/index.php"> Home </a></li>
+  <li class="dropdown"> <a href="javascript:void(0);">Institucional</a>
+    <ul class="dropdown-menu">
+      <li class="dropdown-submenu"><a href="javascript:void(0);">Como Locar o Theatro</a>
+        <ul class="dropdown-menu">
+          <li ><a href="informacoesGerais.php">Informações Gerais</a></li>
+          <li ><a href="normasDeCessao.php">Normas de Cessão</a></li>
+        </ul>
+      </li>
+      <li > <a href="dadosGerais.php">Dados Gerais</a></li>
+      <li > <a href="equipamentos.php">Equipamentos</a></li>
+      <li><a href="croqui.php">Croquis e Plantas</a></li>
+    </ul>
+  </li>
+  <li class="dropdown"> <a href="javascript:void(0);">O Teatro</a>
+    <ul class="dropdown-menu">
+      <li ><a href="oTheatro.php">O Teatro</a></li>
+      <li ><a href="depoimentos.php">Depoimentos</a></li>
+      <li ><a href="visitacao.php">Visitação</a></li>
+    </ul>
+  </li>
+  <li ><a href="agenda.php">Agenda</a></li>
+  <li ><a href="bilheteria.php">Bilheteria</a></li>
+  <li ><a href="ostp.php">Orquestra</a></li>
+  <li ><a href="contato.php">Contato</a></li>
+</ul>
+      </div>
+      <!--/end container--> 
+    </div>
+    <!--/navbar-collapse--> 
+  </div>
+  <!--=== End Header ===--> 
+  
+  <!--=== Content Part ===--> 
+  <!-- InstanceBeginEditable name="conteudo" --> 
+  
+  <!--=== Slider ===-->
+  <div class="tp-banner-container">
+    <div class="tp-banner">
+      <ul>
+        <!-- SLIDE -->
+        <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 1"> 
+          <!-- MAIN IMAGE --> 
+          <img src="assets/img/sliders/1.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+          <div class="tp-caption revolution-ch1 sft start"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="100"
+                        data-speed="1500"
+                        data-start="500"
+                        data-easing="Back.easeInOut"
+                        data-endeasing="Power1.easeIn"
+                        data-endspeed="300"> O Theatro da Paz é um "amigo" </div>
+          
+          <!-- LAYER -->
+          <div class="tp-caption revolution-ch2 sft"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="190"
+                        data-speed="1400"
+                        data-start="2000"
+                        data-easing="Power4.easeOut"
+                        data-endspeed="300"
+                        data-endeasing="Power1.easeIn"
+                        data-captionhidden="off"
+                        style="z-index: 6"> não só dos artistas mas sobretudo dos homens comuns de Belém. <br/>
+            Essa é uma característica que o diferencia da maioria dos teatros brasileiros. </div>
+          
+          <!-- LAYER -->
+          <div class="tp-caption sft"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="310"
+                        data-speed="1600"
+                        data-start="2800"
+                        data-easing="Power4.easeOut"
+                        data-endspeed="300"
+                        data-endeasing="Power1.easeIn"
+                        data-captionhidden="off"
+                        style="z-index: 6"> </div>
+        </li>
+        <!-- END SLIDE --> 
+        
+        <!-- SLIDE -->
+        <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2"> 
+          <!-- MAIN IMAGE --> 
+          <img src="assets/img/sliders/2.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+          <div class="tp-caption revolution-ch1 sft start"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="100"
+                        data-speed="1500"
+                        data-start="500"
+                        data-easing="Back.easeInOut"
+                        data-endeasing="Power1.easeIn"
+                        data-endspeed="300"> localizado em outra maravilha que é Belém </div>
+          
+          <!-- LAYER -->
+          <div class="tp-caption revolution-ch2 sft"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="190"
+                        data-speed="1400"
+                        data-start="2000"
+                        data-easing="Power4.easeOut"
+                        data-endspeed="300"
+                        data-endeasing="Power1.easeIn"
+                        data-captionhidden="off"
+                        style="z-index: 6"> É um centro cultural importantíssimo <br/>
+            e tem um público dos mais calorosos, muito sensível. </div>
+          
+          <!-- LAYER -->
+          <div class="tp-caption sft"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="310"
+                        data-speed="1600"
+                        data-start="2800"
+                        data-easing="Power4.easeOut"
+                        data-endspeed="300"
+                        data-endeasing="Power1.easeIn"
+                        data-captionhidden="off"
+                        style="z-index: 6"> </div>
+        </li>
+        <!-- END SLIDE --> 
+        
+        <!-- SLIDE -->
+        <li class="revolution-mch-1" data-transition="fade" data-slotamount="5" data-masterspeed="1000" data-title="Slide 3"> 
+          <!-- MAIN IMAGE --> 
+          <img src="assets/img/sliders/3.jpg"  alt="darkblurbg"  data-bgfit="cover" data-bgposition="left top" data-bgrepeat="no-repeat">
+          <div class="tp-caption revolution-ch1 sft start"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="100"
+                        data-speed="1500"
+                        data-start="500"
+                        data-easing="Back.easeInOut"
+                        data-endeasing="Power1.easeIn"
+                        data-endspeed="300"> Eu tenho essa casa como a "minha casa" </div>
+          
+          <!-- LAYER -->
+          <div class="tp-caption revolution-ch2 sft"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="190"
+                        data-speed="1400"
+                        data-start="2000"
+                        data-easing="Power4.easeOut"
+                        data-endspeed="300"
+                        data-endeasing="Power1.easeIn"
+                        data-captionhidden="off"
+                        style="z-index: 6"> Não tem um luxo ostensivo, exagerado. <br/>
+            Tem classe! </div>
+          
+          <!-- LAYER -->
+          <div class="tp-caption sft"
+                        data-x="center"
+                        data-hoffset="0"
+                        data-y="310"
+                        data-speed="1600"
+                        data-start="2800"
+                        data-easing="Power4.easeOut"
+                        data-endspeed="300"
+                        data-endeasing="Power1.easeIn"
+                        data-captionhidden="off"
+                        style="z-index: 6"> </div>
+        </li>
+        <!-- END SLIDE -->
+      </ul>
+      <div class="tp-bannertimer tp-bottom"></div>
+    </div>
+  </div>
+  <!--=== End Slider ===--> 
+  
+  <!--=== Content Part ===-->
+  <div class="container content">
+    <div class="clearfix margin-bottom-30"></div>
+    <div class="shadow-wrapper">
+      <div class="tag-box tag-box-v1 box-shadow shadow-effect-2">
+        <h2>O &quot;da Paz!&quot;</h2>
+        <p>O Theatro da Paz foi fundado em 15 de fevereiro de 1878, durante o per&iacute;odo &aacute;ureo do Ciclo da Borracha, quando ocorreu um grande crescimento econ&ocirc;mico na regi&atilde;o amaz&ocirc;nica. &nbsp;Bel&eacute;m foi considerada &ldquo;A Capital da Borracha&rdquo;. Mas, apesar desse progresso a cidade ainda n&atilde;o possu&iacute;a um teatro de grande porte, capaz de receber espet&aacute;culos do g&ecirc;nero l&iacute;rico. Buscando satisfazer o anseio da sociedade da &eacute;poca, o governo da prov&iacute;ncia contrata o engenheiro militar Jos&eacute; Tiburcio de Magalh&atilde;es que d&aacute; inicio ao projeto arquitet&ocirc;nico inspirado no Teatro Scalla de Mil&atilde;o (It&aacute;lia). </p>
+      </div>
+    </div>
+    <div class="clearfix margin-bottom-40"></div>
+    
+    <!-- Service Blocks -->
+    <div class="margin-bottom-20"></div>
+    <div class="row margin-bottom-40">
+      <div class="col-md-3 col-sm-6">
+        <div class="service-block service-block-default">
+          <h2 class="heading-md"><a href="agenda.php"><img src="assets/img/icon_agenda.png" width="60" height="60"></a></h2>
+          <h2 class="heading-md">Agenda</h2>
+          <p><a href="agenda.php">Fique por dentro das atrações do teatro no mês de novembro, mantenha-se atualizado</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service-block service-block-default">
+          <h2 class="heading-md"><a href="#"><img src="assets/img/icon_opera.png" width="60" height="60"></a></h2>
+          <h2 class="heading-md">Festival de Ópera</h2>
+          <p><a href="#">A cada ano, o <strong>Festival de Ópera do Theatro da Paz</strong> vem ganhando cada vez mais a simpatia de críticos nacionais</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service-block service-block-default">
+          <h2 class="heading-md"><a href="amazoniaJazzBand.php"><img src="assets/img/icon_ajb.png" width="60" height="60"></a></h2>
+          <h2 class="heading-md">Amazonia Jazz Band</h2>
+          <p><a href="amazoniaJazzBand.php">A Amaz&ocirc;nia Jazz Band (AJB) foi formada com elementos remanescentes da extinta Big Band, grupo art&iacute;stico da Funda&ccedil;&atilde;o Carlos Gomes.</a></p>
+        </div>
+      </div>
+      <div class="col-md-3 col-sm-6">
+        <div class="service-block service-block-default">
+          <h2 class="heading-md"><a href="bilheteria.php"><img src="assets/img/icon_bilheteria.png" width="60" height="60"></a></h2>
+          <h2 class="heading-md">Bilheteria</h2>
+          <p><a href="bilheteria.php">Horário de funcionamento da bilheteria, venda antecipada de ingressos e  informações gerais sobre espetáculos</a></p>
+        </div>
+      </div>
+    </div>
+    <!-- End Service Blokcs --> 
+    
+    <div class="row">      
+      <!-- Posts -->
+      <div class="col-md-12 posts">
+        <div class="headline">
+          <h3>Depoimentos</h3>
+        </div>
+        <dl class="dl-horizontal">
+          <dt><a href="#"><img alt="" src="assets/img/icon_male.png"></a></dt>
+          <dd>
+            <p><a href="depoimentos.php">&quot;O Theatro da Paz &eacute; um &quot;amigo&quot;, n&atilde;o s&oacute; dos artistas mas sobretudo dos homens comuns de Bel&eacute;m... </a></p>
+          </dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt><a href="#"><img alt="" src="assets/img/icon_male.png"></a></dt>
+          <dd>
+            <p><a href="depoimentos.php">Eu tenho uma rela&ccedil;&atilde;o estreita com o Theatro da Paz. &Eacute; um teatro lind&iacute;ssimo... </a></p>
+          </dd>
+        </dl>
+        <dl class="dl-horizontal">
+          <dt><a href="#"><img alt="" src="assets/img/icon_female.png"></a></dt>
+          <dd>
+            <p><a href="depoimentos.php">No in&iacute;cio dos anos 60 eu fiz a minha primeira audi&ccedil;&atilde;o neste que eu considero o &quot;meu teatro&quot;.</a>..</p>
+          </dd>
+        </dl>
+      </div>
+    </div>
+    <!-- End Info Blokcs --> 
+    
+  </div>
+  <!-- InstanceEndEditable --> 
+  <!--/container--> 
+  <!-- End Content Part --> 
+  
+  <!--=== Footer  ===-->
+  ﻿<div id="footer-v2" class="footer-v2">
+  <div class="footer">
+    <div class="container">
+      <div class="row"> 
+        <!-- About -->
+        <div class="col-sm-2 md-margin-bottom-40"> <a href="index.php"><img id="logo-footer" class="footer-logo" src="assets/img/logoTpRodape.png" alt=""></a></div>
+        <div class="col-sm-6 md-margin-bottom-40">
+          <div class="headline">
+            <h2 class="heading-sm">Fale Conosco</h2>
+          </div>
+          <address class="md-margin-bottom-40">
+          <i class="fa fa-home"></i>Rua da Paz S/N - Centro - Belém-PA - Amazônia - Brasil - CEP: 66.017-210 <br />
+          <i class="fa fa-globe"></i>Website: <a href="http://www.theatrodapaz.com.br">www.theatrodapaz.com.br</a> <br />
+          <i class="fa fa-envelope"></i>Email: <a href="mailto:producao@tdapaz.com.br">producao@tdapaz.com.br</a><a href="mailto:info@anybiz.com"></a>
+          </address>
+        </div>
+        <!-- End Address --> 
+      </div>
+    </div>
+  </div>
+  <!--/footer-->
+  
+  <div class="copyright">
+    <div class="container">
+      <p class="text-center">2015 &copy; Todos os Direitos Reservados. Desenvolvido por <a target="_blank" href="http://www.belemvirtual.com">Belém Virtual</a></p>
+    </div>
+  </div>
+  <!--/copyright--> 
+</div>
+  <!--=== End Footer ===--> 
+</div>
+<!--/wrapper--> 
+
+<!-- JS Global Compulsory --> 
+<script type="text/javascript" src="assets/plugins/jquery/jquery.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/jquery/jquery-migrate.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/bootstrap/js/bootstrap.min.js"></script> 
+<!-- JS Implementing Plugins --> 
+<script type="text/javascript" src="assets/plugins/back-to-top.js"></script> 
+<script type="text/javascript" src="assets/plugins/smoothScroll.js"></script> 
+<!-- InstanceBeginEditable name="scripts" --> 
+<script type="text/javascript" src="assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script> 
+<script type="text/javascript" src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.tools.min.js"></script> 
+<script type="text/javascript" src="assets/plugins/revolution-slider/rs-plugin/js/jquery.themepunch.revolution.min.js"></script> 
+<!-- JS Customization --> 
+<script type="text/javascript" src="assets/js/custom.js"></script> 
+<!-- JS Page Level --> 
+<script type="text/javascript" src="assets/js/app.js"></script> 
+<script type="text/javascript" src="assets/js/plugins/owl-carousel.js"></script> 
+<script type="text/javascript" src="assets/js/plugins/revolution-slider.js"></script> 
+
+<!--[if lt IE 9]>
+    <script src="assets/plugins/respond.js"></script>
+    <script src="assets/plugins/html5shiv.js"></script>
+    <script src="assets/plugins/placeholder-IE-fixes.js"></script>
+<![endif]--> 
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        App.init();
+        OwlCarousel.initOwlCarousel();
+        RevolutionSlider.initRSfullWidth();
+    });
+</script><!-- InstanceEndEditable -->
+</body>
+<!-- InstanceEnd -->
+</html>

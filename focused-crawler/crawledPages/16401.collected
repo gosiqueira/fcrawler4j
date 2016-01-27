@@ -1,0 +1,1641 @@
+title=Italotreno.it - Acquista il tuo biglietto
+url=http://www.italotreno.it/
+html=
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--<meta name="viewport" content="width=1024, initial-scale=1, maximum-scale=1.0, user-scalable=no">-->
+    
+    
+
+    <title>Italotreno.it - Acquista il tuo biglietto</title>
+    <meta content="ll treno ad Alta Velocità di NTV per viaggiare in Italia nel comfort e  sicurezza, nella massima flessibilità e al miglior prezzo. Viaggia con Italo." name="description" />
+    
+    <meta content="" name="keywords" />
+
+
+    <link rel="icon" href="/Content/Italotreno/images/favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="/Content/Italotreno/images/favicon.ico" type="image/x-icon" />
+
+    <!-- TODO change Add to homescreen for Chrome on Android -->
+    
+
+    <!-- TODO change Add to homescreen for Safari on iOS -->
+    
+    <script src='https://nuovo-trasporto-viaggiatori-s-p.dynatracesaas.com/dtagent_bootstrap.js?app=Prod+ITALOTRENO'></script>
+
+
+    <link href="/bundles/Italotreno/plugins?v=HfvpyMasE7OmxV44TABNpy8k2sKCr_Z-wA11OyiGb9Y1" rel="stylesheet"/>
+
+    <link href="/bundles/Italotreno/main?v=g7LZdAkT0QnguHgt6D-9zUmBcYig_r4azGhe9awCOgo1" rel="stylesheet"/>
+
+    <link href="/bundles/Italotreno/main2?v=xseJggX71ca7GqSOua1Ef_cPr-440T67iOCPujt3fEo1" rel="stylesheet"/>
+
+
+    <script src="/bundles/Italotreno/js?v=-3iNO8CWLvf8lzbpj_Cnq3KQ-HsE7nTA7566L5TmC1Q1"></script>
+
+
+
+    
+    <script>
+ (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+ (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+ })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ ga('create', 'UA-27288974-3', 'auto');
+ ga('send', 'pageview');
+</script>  
+
+    <script>
+(function () {
+var tagjs = document.createElement('script');
+var s = document.getElementsByTagName('script')[0];
+tagjs.async = true;
+tagjs.src = '//s.btstatic.com/tag.js#site=CFoIdVn';
+s.parentNode.insertBefore(tagjs, s);
+}());
+</script>
+<noscript>
+<iframe src='/iframe?c=CFoIdVn' width='1' height='1' frameborder='0' scrolling='no' marginheight='0' marginwidth='0'></iframe>
+</noscript>
+
+    
+<meta name="VIcurrentDateTime" content="635893846640739089" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+
+    <!--Stringa di controllo ItaloTreno-->
+</head>
+
+<body>
+
+
+
+    <div class="main-body">
+        <header class="italo_header">
+    <style>
+        div#divRedirectBeta {
+            margin-bottom: 5px;
+            width: 150px;
+        }
+
+        a.redirect-home-beta {
+            font-size: 14px;
+        }
+    </style>
+
+
+<script>
+    function AcceptCookie()
+    {
+        $.post("/Cookie");
+        $('.cookies').hide();
+       
+    }
+    function RejectCookie()
+    {
+        $.post("/Cookie/Reject");
+        $('.cookies').hide();
+       
+    }
+   
+</script>
+
+
+        <div class="cookies">
+            <div class="layout">
+                <div class="layout__item 1/1">
+                    <div><p style="line-height: 10px; text-align: left;">Questo sito utilizza i cookie di profilazione, propri o di altri siti per inviarti pubblicità in linea con le tue preferenze. <br/>Se vuoi saperne di più o negare il consenso a tutti o solo ad alcuni cookie <a href="http://www.italotreno.it/it/privacy-policy" style="text-decoration: underline;">clicca qui</a>.
+Se accedi a un qualunque elemento sottostante questo banner acconsenti all’uso dei cookie.</p></div>
+                    
+                    <div>
+                        
+                    </div>
+                    <div class="pull-right close_cookie_div">
+                        
+                        <a id="close_cookie" class="close-cookie" onclick="AcceptCookie()"></a>
+                    </div>
+                </div>
+                
+                    
+                        
+                        
+                            
+                        
+                    
+                
+            </div>
+        </div>
+
+
+    <div class="top-bar">
+            <div class="pull-left">
+                <div>
+<a class="italo-logo" href="http://www.italotreno.it/it"><img src="http://www.italotreno.it/~/media/Images/logo.png?h=36&la=it&w=139&hash=EF16B657EF58B868533BA8F4FAC417EB9AC1B3D8&hash=EF16B657EF58B868533BA8F4FAC417EB9AC1B3D8" alt="logo" width="139" height="36" /></a>
+                </div>
+                <div id="divRedirectBeta">
+                </div>
+            </div>
+
+
+        <div class="pull-right">
+            
+        <ul class="service-menu">
+                        <li>
+                            <div class="dropdown">
+                                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                                    <span class="buttonIcon">
+                                        <img src="http://www.italotreno.it/~/media/Images/icon/carte.png?h=20&la=it&mh=21&w=22&hash=AA313563C055B7E13B3455CC9743E5DA3CB32BB2" alt="" width="22" height="20" mv="21" />
+                                    </span>
+                                    <span class="spanTitle ">Carnet</span>
+                                    <span class="s-arrow" role="presentation"><b role="presentation"></b></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                            <li>
+                                                <a href="https://biglietti.italotreno.it/Carnet_Acquisto_Catalogo.aspx">Acquista Carnet</a>
+                                            </li>
+                                            <li>
+                                                <a href="https://biglietti.italotreno.it/Customer_Account_CercaCarnet.aspx">Prenota con Carnet</a>
+                                            </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li>
+                            <a href="http://www.italotreno.it/it/offerte-treno/open-ticket" style="background-image: url('http://www.italotreno.it/~/media/Images/icon/icon_openticket.png')" class="supporto">Open Ticket</a>
+                        </li>
+                        <li>
+                            <a class="miglior-prezzo" href="https://biglietti.italotreno.it/Booking_Acquisto_Calendar.aspx?Culture=it-IT">Miglior Prezzo</a>
+                        </li>
+                        <li>
+                            <a class="italo-in-viaggio" href="http://www.italotreno.it/it/italo-in-viaggio">Italo In Viaggio</a>
+                        </li>
+                        <li>
+                            <a class="supporto" href="http://www.italotreno.it/it/contatti-supporto">Assistenza e Contatti</a>
+                        </li>
+        </ul>
+
+
+            <!-- Selettore Lingua -->
+            <script type="text/javascript">
+                var redirectLanguageUrl = (typeof redirectLanguageUrl === 'undefined') ? "https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx" : redirectLanguageUrl;
+            </script>
+
+            <select class="lang_select white" data-color="white">
+                            <option b2ccookie="it-IT" value="it" selected='selected'>IT - Italiano</option>
+                            <option b2ccookie="en-US" value="en" >EN - English</option>
+                            <option class="redirect" b2ccookie="fr-FR" value="fr" >FR - Francais</option>
+                            <option class="redirect" b2ccookie="de-DE" value="de" >DE - Deutsch</option>
+                            <option class="redirect" b2ccookie="es-ES" value="es" >ES - Espanol</option>
+
+            </select>
+
+<div class="loginSection">
+    <a class="italo_button_red fancybox" href="#popup_login">Accedi</a>
+
+    
+</div>
+
+<div id="popup_login" class="popup_login">
+    <div class="login_form">
+
+<form action="https://biglietti.italotreno.it/SSOLogin.aspx" id="loginCustomer" method="post">            <h3>Accedi</h3>
+            <fieldset>
+                <input Id="TextBoxUserID" Name="SSOCustomerAccountLoginView$TextBoxUserID" Placeholder="Username" Value="" class="text-box single-line" id="UserName" name="UserName" type="text" value="" />
+            </fieldset>
+            <fieldset>
+                <input Name="SSOCustomerAccountLoginView$PasswordFieldPassword" Placeholder="Password" class="text-box single-line password" id="Password" name="Password" type="password" value="" />
+            </fieldset>
+            <fieldset class="centered">
+                <p style="cursor: pointer;" onclick="location.href='https://biglietti.italotreno.it/Customer_Account_RecuperoPassword.aspx'">Hai dimenticato la password?</p>
+            </fieldset>
+            <fieldset class="centered">
+                    <input type="checkbox" class="checkbox-black" name="ricorda_dati" id="ricorda_dati" />
+                <label class="label-checkbox-black" for="ricorda_dati">Ricorda i dati</label>
+            </fieldset>
+            <div class="button-holder">
+                <input type="submit" style="text-transform:capitalize" onclick="rememberMe();" value="Accedi" />
+            </div>
+            <p class="centered">Non sei ancora Registrato?</p>
+            <a href="https://biglietti.italotreno.it/Customer_Account_Registrazione.aspx" style="text-transform:capitalize">Registrati</a>
+            <div>
+                <input name="__EVENTTARGET" type="hidden" value="SSOCustomerAccountLoginView$ButtonLogIn" />
+                <input name="__EVENTARGUMENT" type="hidden" value="" />
+
+                <input id="ReturnUrl" name="ReturnUrl" type="hidden" value="http://www.italotreno.it/" />
+                <input id="ReturnErrorUrl_generic" name="ReturnErrorUrl_generic" type="hidden" value="https://biglietti.italotreno.it/ErrorMessage.aspx?mode=GenericError" />
+                <input id="ReturnErrorUrl_sessionExpired" name="ReturnErrorUrl_sessionExpired" type="hidden" value="https://biglietti.italotreno.it/ErrorMessage.aspx?mode=SessionExpired" />
+                <input id="ReturnErrorUrl_validationError" name="ReturnErrorUrl_validationError" type="hidden" value="http://www.italotreno.it/?ErrorType={0}" />
+
+            </div>
+</form>    </div>
+    <div class="login_center">
+        <p>Oppure</p>
+    </div>
+
+            <div class="login_social">
+            <h3>Social Login</h3>
+<a href="#" onclick="javascript:LoginSocial('https://biglietti.italotreno.it/Customer_Account_Login.aspx','facebook');return false;" class="facebook">                 <span class="fa fa-facebook"></span>
+Facebook</a><a class="twitter" href="javascript:LoginSocial(&#39;https://biglietti.italotreno.it/Customer_Account_Login.aspx&#39;,&#39;twitter&#39;)">                 <span class="fa fa-twitter"></span>
+Twitter</a>                
+        </div>
+
+
+
+
+</div>
+
+
+<script type="text/javascript" language="javascript">
+
+    $(document).ready(function () {
+        var form = $('#loginCustomer');
+
+        form.validate({
+            ignore: [],
+            onkeyup: false,
+            onfocusout: false,
+            focusCleanup: false,
+            rules: {
+                SSOCustomerAccountLoginView$TextBoxUserID : "required",
+                SSOCustomerAccountLoginView$PasswordFieldPassword: "required"
+            },
+            messages: {
+                SSOCustomerAccountLoginView$TextBoxUserID: "Inserisci il tuo Username (E-mail di registrazione)",
+                SSOCustomerAccountLoginView$PasswordFieldPassword : "Inserisci la tua password",
+
+            },
+            errorPlacement: function (error, element) {
+                if (!element.hasClass('valid')){
+                    // qTip call
+                    $(element).parent().addClass('error-qtip-field-sitecore').qtip({
+                        show: {
+                            ready: true
+                        },
+                        content: eval(error),
+                        position: {
+                            my: 'bottom center',
+                            at: 'top center'
+                        },
+                        style: {
+                            classes: 'qtip-error'
+                        }
+                    });
+                }
+            },
+            showErrors: function () {
+                this.defaultShowErrors();
+                removeErrorValidElement();
+                //setTimeout(function () { removeErrorValidElement(); }, 1);
+                setTimeout(function () { removeErrorAllElement(); }, 4000);
+            },
+            success: function (error) {
+                // Hide tooltips on valid elements
+                //setTimeout(function () {
+                //    //form.find('.valid').parent().removeClass('error-qtip-field-sitecore').qtip('destroy');
+                //    removeErrorValidElement();
+                //}, 1);
+            },
+            submitHandler: function (form) {
+                openPleaseWaitBox();
+                form.submit();
+            }
+        });
+    });
+
+</script>
+
+
+
+<div id="pleaseWait" class="fancybox-pleaseWait">
+    <div><img src="/Content/Italotreno/images/icon/bar_circle.gif"></div>
+    <br />
+    <h1>Attendere Prego...</h1>
+</div>        </div>
+
+    </div>
+
+
+
+    
+            <div class="avviso" id="disruptionMessageDiv" style="display:none;">
+                <p>
+                    <span>Avviso -</span>
+                    <span id="disruptionMessageSpan"> </span>
+                    <a class="avviso-leggi" href="http://www.italotreno.it/it/italo-in-viaggio/italo-informa">Leggi Tutto</a>
+                </p>
+            </div>
+            <script type="text/javascript">
+                $(document).ready(function () {
+                    $.get("/ExternalSystem/GetDisruptionMessage").done(function (data, tm, hr) {
+                        if (hr.status == 200) {
+                            $('#disruptionMessageSpan').text(data);
+                            $('#disruptionMessageDiv').show();
+                        }
+                    })
+                });
+            </script>
+
+
+
+    <div class="main-bar">
+        <div class="header-tabs pull-left">
+                <button type="button" class="active js-header-tab-button" id="js-buy-ticket-button">ACQUISTA BIGLIETTO</button>
+                <button type="button" class="js-header-tab-button" id="js-manage-train-button">Cambia Prenotazione</button>
+
+            
+        <div class="menu-bar">
+            <ul id="js-menu-links" class="active">
+                        <li>
+                            <div class="link_menu">
+                                <a href="http://www.italotreno.it/it/offerte-treno/italo-special">Offerte</a>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a href="http://www.italotreno.it/it/destinazioni-orari">Destinazioni e Orari</a>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a href="http://www.italotreno.it/it/servizi/sconti-convenzioni">Servizi</a>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a href="http://www.italotreno.it/it/programma-fedelta-italo-piu">Programma Fedeltà</a>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a href="http://www.italotreno.it/it/il-treno">Viaggiare con Italo</a>
+
+
+                            </div>
+                        </li>
+                        <li>
+                            <div class="link_menu">
+                                <a target="_blank" href="http://www.italoimpresa.it/">Italo Impresa</a>
+
+
+                            </div>
+                        </li>
+            </ul>
+            <button type="button" class="hamburger js-hamburger"><i class="fa fa-bars"></i></button>
+
+        </div>
+
+
+
+
+
+
+            <!-- Panel Ricerca Treno Start -->
+                <div class="tab active js-header-tab" id="js-buy-ticket-tab">
+                    <div class="buy-ticket-tab js-buy-ticket-tab-content">
+                        <a class="close-tab js-close-buy-ticket-tab" id=""></a>
+
+                        
+
+
+
+<script type="text/javascript">
+    var stationList = [{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":[{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Verona P.Nuova","value":"VPN","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Verona P.Nuova","value":"VPN","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Verona P.Nuova","value":"VPN","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Verona P.Nuova","value":"VPN","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Verona P.Nuova","value":"VPN","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Verona P.Nuova","value":"VPN","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Torino (Tutte)","value":"TO0","stationClass":"","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null}]},{"label":"Torino P.Nuova","value":"TOP","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null}]},{"label":"Torino P.Susa","value":"OUE","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Carpi","value":"CRP","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Cremona","value":"CRN","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Mantova","value":"MAV","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Milano (Tutte)","value":"MI0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Milano Centrale","value":"MC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Milano Rog.","value":"RG_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Modena","value":"Q__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Parma","value":"Y__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Piacenza","value":"P__","stationClass":"B","isPriority":true,"marketHash":null},{"label":"Reggio Emilia AV","value":"AAV","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Sassuolo","value":"SXX","stationClass":"B","isPriority":true,"marketHash":null}]},{"label":"Venezia (Tutte)","value":"VE0","stationClass":"","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Venezia Mestre","value":"VEM","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Venezia S.Lucia","value":"VSL","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Padova","value":"PD_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Salerno","value":"SAL","stationClass":"T","isPriority":true,"marketHash":null}]},{"label":"Verona P.Nuova","value":"VPN","stationClass":"T","isPriority":true,"marketHash":[{"label":"Bologna","value":"BC_","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Firenze SMN","value":"SMN","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Napoli C.le","value":"NAC","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma (Tutte)","value":"RM0","stationClass":"","isPriority":true,"marketHash":null},{"label":"Roma Termini","value":"RMT","stationClass":"T","isPriority":true,"marketHash":null},{"label":"Roma Tib.","value":"RTB","stationClass":"T","isPriority":true,"marketHash":null}]}];
+
+    var bookingAcquistoRicercaRadioButton =  $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$RadioButtonMarketStructure']" );
+    var bookingAcquistoRicercaOrigin = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$TextBoxMarketOrigin1']" );
+    var bookingAcquistoRicercaDestination = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$TextBoxMarketDestination1']" );
+    var bookingAcquistoRicercaDay1 =  $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketDay1']" );
+    var bookingAcquistoRicercaMonth1 = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketMonth1']" );
+    var bookingAcquistoRicercaTimeHoursBegin_1 = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_1']" );
+    var bookingAcquistoRicercaTimeHoursEnd_1 = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_1']" );
+    var bookingAcquistoRicercaDay2 = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketDay2']" );
+    var bookingAcquistoRicercaMonth2 = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketMonth2']" );
+    var bookingAcquistoRicercaTimeHoursBegin_2 = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_2']" );
+    var bookingAcquistoRicercaTimeHoursEnd_2 = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_2']" );
+    var bookingAcquistoRicercaADT = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListPassengerType_ADT']" );
+    var bookingAcquistoRicercaSNR = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListPassengerType_SNR']" );
+    var bookingAcquistoRicercaCHD = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListPassengerType_CHD']" );
+    var bookingAcquistoRicercaINFT = $("input[name='BookingRicercaRestylingBookingAcquistoRicercaView$InfantTextBox']" );
+    var bookingAcquistoRicercaPromocode = $("input[name='promocode']" );
+</script>
+
+<div class="wrapper-940">
+    <div class="layout gutter-5">
+        <div class="layout__item 1/4">
+            <p class="dove-andare">
+                Dove vuoi andare?
+            </p>
+        </div>
+        <div class="layout__item 1/2">
+<form action="/api/sitecore" data-action="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx" id="searchTrainInputPanel_header" method="post" novalidate="novalidate"><input data-name="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListSearchBy" id="SearchByheader" name="SearchBy" type="hidden" value="columnView" /><input data-name="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListFareTypes" id="FareTypesheader" name="FareTypes" type="hidden" value="ST" /><input data-name="__EVENTTARGET" id="ev_targetheader" name="ev_target" type="hidden" value="BookingRicercaRestylingBookingAcquistoRicercaView$ButtonSubmit" /><input name="__EVENTARGUMENT" type="hidden" value="" />                <div class="searchTrainInputPanel">
+                    <div class="layout gutter-5">
+                        <div class="layout__item 1/2">
+                            <div class="form-input-station" dep-id="">
+                                <label for="departure-input-header_">Da</label>
+                                <input id="departure-input-header_" name="departure_autocomplete_header" value="" autocomplete="off" class="js-input-stations" type="text" />
+                                <input id="departure-input-header_-station-code" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$TextBoxMarketOrigin1" value="" autocomplete="off" class="js-input-stations-code" type="text" style="display: none" />
+                                <div class="input-stations-list">
+                                    <div class="stations-header">
+                                        <span class="train-header">
+                                            Parti da:
+                                        </span>
+                                        <span class="bus-header">
+                                            Prevede italo Bus
+                                        </span>
+                                    </div>
+                                    <div class="stations-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="form-input-station" dep-id="departure-input-header_-station-code">
+                                <label for="arrival-input-header_">A</label>
+                                <input id="arrival-input-header_" name="arrival_autocomplete_header" value="" autocomplete="off" class="js-input-stations" type="text" />
+                                <input id="arrival-input-header_-station-code" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$TextBoxMarketDestination1" value="" autocomplete="off" class="js-input-stations-code" type="text" style="display: none" />
+                                <div class="input-stations-list">
+                                    <div class="stations-header">
+                                        <span class="train-header">
+                                            Arriva a:
+                                        </span>
+                                        <span class="bus-header">
+                                            Prevede italo Bus
+                                        </span>
+                                    </div>
+                                    <div class="stations-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="layout expanded-only gutter-5">
+                        <div class="layout__item 1/2">
+                            <div class="andata-ritorno-radio pull-right">
+                                <input type="radio" name="andata_ritorno_header" id="ritorno-radio-header" checked="checked" class="js-andata-ritorno-radio radio-white" value="RoundTrip" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$RadioButtonMarketStructure" />
+                                <label class="label-radio-white" for="ritorno-radio-header">
+                                    Andata &amp; Ritorno
+                                </label>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="andata-ritorno-radio pull-left">
+                                <input type="radio" name="andata_ritorno_header" id="andata-radio-header" class="js-andata-ritorno-radio radio-white" value="OneWay" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$RadioButtonMarketStructure" />
+                                <label class="label-radio-white" for="andata-radio-header">
+                                    Solo Andata
+                                </label>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="js-departure-date">
+                                <div class="form-input date ">
+                                    <label for="departure-date-header">
+                                        Data di Partenza
+                                    </label>
+                                    <input data-picker="departure-datepicker" id="departure-date-header" type="text" readonly="readonly" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="js-return-date ">
+                                <div class="form-input date ">
+                                    <label for="return-date-header">
+                                        Data di Ritorno
+                                    </label>
+                                    <input data-picker="return-datepicker" id="return-date-header" type="text" readonly="readonly" />
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item departure-datepicker travel-date">
+                            <div class="travel-date-picker ">
+                                <div class="js-calendar-arrow-departure calendar-arrow departure active">
+                                </div>
+                                <div class="js-calendar-arrow-return calendar-arrow return">
+                                </div>
+                                <div class="layout gutter-5">
+                                    <div class="layout__item 1/2">
+                                        <div id="js-datepicker-header-departure" class="js-datepicker" data-name-day="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketDay1" data-name-month="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketMonth1"></div>
+                                    </div>
+                                    <div class="layout__item 1/2">
+                                        <div class="layout gutter-5">
+                                            <div class="layout__item">
+                                                <p>
+                                                    Preferenza fascia oraria
+                                                </p>
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="0-24" checked="checked" name="orario-header-departure" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_1" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_1" id="indiff-header-departure" />
+                                                <label for="indiff-header-departure">
+                                                    Indifferente
+                                                </label>
+
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="5-14" name="orario-header-departure" id="mattino-header-departure" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_1" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_1" />
+                                                <label for="mattino-header-departure">
+                                                    5:00 - 14:00
+                                                </label>
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="14-18" name="orario-header-departure" id="pomeriggio-header-departure" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_1" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_1" />
+                                                <label for="pomeriggio-header-departure">
+                                                    14:00 - 18:00
+                                                </label>
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="18-22" name="orario-header-departure" id="sera-header-departure" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_1" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_1" />
+                                                <label for="sera-header-departure">
+                                                    18:00 - 22:00
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item return-datepicker travel-date">
+                            <div class="travel-date-picker ">
+                                <div class="js-calendar-arrow-departure calendar-arrow departure active">
+                                </div>
+                                <div class="js-calendar-arrow-return calendar-arrow return">
+                                </div>
+                                <div class="layout gutter-5">
+                                    <div class="layout__item 1/2">
+                                        <div class="layout gutter-5">
+                                            <div class="layout__item">
+                                                <p>Preferenza fascia oraria</p>
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="0-24" checked="checked" name="orario-header-return" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_2" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_2" id="indiff-header-return" />
+                                                <label for="indiff-header-return">
+                                                    Indifferente
+                                                </label>
+
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="5-14" name="orario-header-return" id="mattino-header-return" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_2" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_2" />
+                                                <label for="mattino-header-return">
+                                                    5:00 - 14:00
+                                                </label>
+
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="14-18" name="orario-header-return" id="pomeriggio-header-return" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_2" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_2" />
+                                                <label for="pomeriggio-header-return">
+                                                    14:00 - 18:00
+                                                </label>
+
+                                            </div>
+                                            <div class="layout__item 1/2">
+                                                <input type="radio" value="18-22" name="orario-header-return" id="sera-header-return" data-name-begin="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursBegin_2" data-name-end="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownDepartureTimeHoursEnd_2" />
+                                                <label for="sera-header-return">
+                                                    18:00 - 22:00
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="layout__item 1/2">
+                                        <div id="js-datepicker-header-return" class="js-datepicker" data-name-day="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketDay2" data-name-month="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListMarketMonth2"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/4">
+                            <p class="label-passeggeri">
+                                Passeggeri: (15-59)
+                            </p>
+                        </div>
+                        <div class="layout__item 1/4">
+                            <p class="label-info-tipo-passeggeri">
+                                0-3 anni senza posto
+                            </p>
+                        </div>
+                        <div class="layout__item 1/4">
+                            <p class="label-info-tipo-passeggeri">
+                                0-14 anni con posto
+                            </p>
+                        </div>
+                        <div class="layout__item 1/4">
+                            <p class="label-info-tipo-passeggeri">
+                                Over 60
+                            </p>
+                        </div>
+                        <div id="paxContent">
+                            <div class="layout__item 1/4">
+                                <div>
+                                    <select class="form-select passeggeri " id="DropDown_ADT_header" name="DropDown_ADT_header" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListPassengerType_ADT" label_pax="Adulto" label_paxes="Adulti">
+                                        <option value="0">
+                                            <text>0 </text>Adulti
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layout__item 1/4">
+                                <div>
+                                    <select class="form-select passeggeri " id="DropDown_INFT_header" name="DropDown_INFT_header" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$InfantTextBox" label_pax="Bambino" label_paxes="Bambini">
+                                        <option value="0">
+                                            <text>0 </text>Bambini
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layout__item 1/4">
+                                <div>
+                                    <select class="form-select passeggeri " id="DropDown_CHD_header" name="DropDown_CHD_header" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListPassengerType_CHD" label_pax="Ragazzo" label_paxes="Ragazzi">
+                                        <option value="0">
+                                            <text>0 </text>Ragazzi
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="layout__item 1/4">
+                                <div>
+                                    <select class="form-select passeggeri " id="DropDown_SNR_header" name="DropDown_SNR_header" data-name="BookingRicercaRestylingBookingAcquistoRicercaView$DropDownListPassengerType_SNR" label_pax="Senior" label_paxes="Senior">
+                                        <option value="0">
+                                            <text>0 </text>Senior
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/1">
+                            <div class="viaggi_di_gruppo">
+                                <a href="http://www.italotreno.it/it/offerte-treno/viaggi-di-gruppo">20+ passeggeri</a>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <p class="js-promo-text promo-text">Hai un codice promo?</p>
+                            <div class="js-promo-input promo-input ">
+                                <div class="form-input text ">
+                                    <label for="promo-input-header">
+                                        Codice Promo
+                                    </label>
+                                    <input id="promo-input-header" type="text" value="" data-name="promocode" maxlength="8" />
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <input type="button" value="Cerca" onclick="AvailableTrainPanel.Class.submitForm('header');" />
+                        </div>
+                    </div>
+                </div>
+</form>        </div>
+
+        <div class="layout__item prosegui-div-header js-prosegui-div">
+            <p class="dove-andare prosegui-txt js-prosegui">
+                cerca
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+<script type="text/javascript">
+    var form_header;
+
+    function initializeValidation_header() {
+        form_header.validate({
+            ignore: [],
+            onkeyup: false,
+            onfocusout: false,
+            focusCleanup: false,
+            errorPlacement: function(error, element) {
+                if (!element.hasClass('valid')) {
+                    $(element).parent().addClass('error-qtip-field-sitecore').qtip({
+                        show: {
+                            ready: true
+                        },
+                        content: eval(error),
+                        position: {
+                            my: 'bottom center',
+                            at: 'top center'
+                        },
+                        style: {
+                            classes: 'qtip-error'
+                        }
+                    });
+                }
+            },
+            showErrors: function() {
+                this.defaultShowErrors();
+                removeErrorValidElement();
+                setTimeout(function() { removeErrorAllElement(); }, 4000);
+            }
+        });
+
+        $('#departure-input-header_').rules('add', {
+            required: true,
+            validStationName: true,
+            messages: {
+                required: "Inserisci la stazione di partenza",
+                validStationName: "Inserisci la stazione di partenza"
+            }
+        });
+
+        $('#arrival-input-header_').rules('add', {
+            required: true,
+            validStationName: true,
+            messages: {
+                required: "Inserisci la stazione di arrivo",
+                validStationName: "Inserisci la stazione di arrivo"
+            }
+        });
+
+        $('#DropDown_ADT_header').rules('add', 'paxcheck');
+
+        $.validator.addMethod('paxcheck', function(value) {
+            return !($('#DropDown_ADT_header').val() == 0 && $('#DropDown_CHD_header').val() == 0 && $('#DropDown_SNR_header').val() == 0);
+        }, "Inserire almeno un passeggero");
+
+        $.validator.addMethod("validStationName", function(value, element) {
+            return $('#' + $(element).attr('id') + '-station-code').val() != "";
+        }, 'Station code not  valid');
+    }
+
+    $(document).ready(function() {
+        form_header = $('#searchTrainInputPanel_header');
+
+        AvailableTrainPanel.Passengers_header = new AvailableTrainPanel.Class.Passengers();
+        AvailableTrainPanel.Passengers_header.initPassengersDropDowns('DropDown_ADT_header', 'DropDown_CHD_header', 'DropDown_INFT_header', 'DropDown_SNR_header');
+    });
+
+</script>
+
+
+
+<div id="noAdult_header" class="fancybox-noAdult">
+    <h1>Informazioni per te</h1>
+    <p>
+        Si sta prenotando un viaggio con soli passeggeri minorenni. Ricordiamo che i viaggiatori minorenni dovranno essere accompagnati da un passeggero maggiorenne come da Condizioni Generali di Trasporto.
+    </p>
+
+    <div style="text-align: center">
+        <input type="button" class="italo_button_red" style="text-transform:capitalize" onclick="AvailableTrainPanel.Class.fillInputField('header');" value="OK" />
+    </div>
+</div>
+
+                    </div>
+                </div>
+            <!-- Panel Ricerca Treno End -->
+            <!-- Panel Ricerca Ticket Start -->
+
+
+    <div class="tab js-header-tab" id="js-manage-train-ticket-tab">
+        <div class="manage-ticket-tab js-manage-ticket-tab">
+                <a class="close-tab js-close-buy-ticket-tab"></a>
+                <div class="wrapper-940">
+                    <div class="layout gutter-5">
+                        <div class="layout__item 1/4">
+                            <p class="dettaglio-viaggio">Visualizza o Modifica</p>
+                        </div>
+                        <div class="layout__item 3/4">
+<form action="https://biglietti.italotreno.it/Booking_Modifica_ricercaBiglietto.aspx" id="ticketSearchForm" method="post" novalidate="novalidate"><input name="__EVENTTARGET" type="hidden" value="" /><input name="__EVENTARGUMENT" type="hidden" value="" />                                <div class="layout gutter-5">
+                                    <div class="layout__item 1/3">
+                                        <div class="js-ticket-firstname ticket-firstname">
+                                            <div class="form-input text ">
+                                                <label for="PAXFIRSTNAME1Label">
+                                                    Nome
+                                                </label>
+                                                <input id="PAXFIRSTNAME1Label" name="BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$PAXFIRSTNAME1" type="text" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="layout__item 1/3">
+                                        <div class="js-ticket-lastname ticket-lastname">
+                                            <div class="form-input text ">
+                                                <label for="PAXLASTNAME1">
+                                                    Cognome
+                                                </label>
+                                                <input id="PAXLASTNAME1" name="BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$PAXLASTNAME1" type="text" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="layout gutter-5">
+                                    <div class="layout__item 1/3">
+                                        <div class="ticket-code">
+                                            <div class="form-input text ">
+                                                <label for="CONFIRMATIONNUMBER1">
+                                                    Codice Biglietto
+                                                </label>
+                                                <input id="CONFIRMATIONNUMBER1" name="BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$CONFIRMATIONNUMBER1" type="text" />
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="layout__item 1/3">
+                                        <input id="btnSubmit" type="submit" name="BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$ButtonRetrieve" value="Cerca" />
+                                    </div>
+                                </div>
+                                <div class="where-find">
+                                    <a>
+                                        <div class="js-tooltip js-tooltip-creditoItalo">Dove posso trovare il Credito Italo?</div>
+                                        <div class="tooltip tooltip-creditoItalo">Il Credito Italo &#232; il codice di sei caratteri che identifica il tuo credito</div>
+                                    </a>
+                                    <a>
+                                        <div class="js-tooltip js-tooltip-codiceBiglietto">Dove posso trovare il Codice Biglietto?</div>
+                                        <div class="tooltip tooltip-codiceBiglietto">Il Codice Biglietto &#232; il codice di sei caratteri che identifica il tuo biglietto</div>
+                                    </a>
+                                </div>
+
+
+
+
+<h3>CON IL CODICE BIGLIETTO PUOI...</h3>
+    <ul class="layout gutter-20">
+            <li class="layout__item 3/10">
+                <div class="with-code edit-ticket ">
+                    <p>Visualizzare o modificare il tuo viaggio</p>
+                        <p class="italic-style"></p>
+                </div>
+            </li>
+            <li class="layout__item 3/10">
+                <div class="with-code find-credit ">
+                    <p>Cercare un Credito Italo</p>
+                        <p class="italic-style"></p>
+                </div>
+            </li>
+            <li class="layout__item 3/10">
+                <div class="with-code italo-code ">
+                    <p>Associare un codice Italo Piu</p>
+                        <p class="italic-style">Fino a tre minuti prima della partenza</p>
+                </div>
+            </li>
+    </ul>
+</form>                        </div>
+
+                    </div>
+                </div>
+            </div>
+    </div>
+
+
+
+<script type="text/javascript" language="javascript">
+
+    $(document).ready(function () {
+        initTooltipGestioneViaggio();
+
+        var form = $('#ticketSearchForm');
+
+
+        form.validate({
+            ignore: [],
+            onkeyup: false,
+            onfocusout: false,
+            focusCleanup: false,
+            rules: {
+                BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$PAXFIRSTNAME1: "required",
+                BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$PAXLASTNAME1 : "required",
+                BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$CONFIRMATIONNUMBER1 : "required"
+            },
+            messages: {
+
+                BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$PAXFIRSTNAME1: "Inserisci il Nome di un passeggero",
+                BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$PAXLASTNAME1 : "Inserisci il Cognome di un passeggero",
+                BookingRicercaBigliettoBookingRetrieveInputRestylingOverrideBookingModificaRicercaBigliettoView$CONFIRMATIONNUMBER1 : "Inserisci il Codice Biglietto"
+
+            },
+            errorPlacement: function (error, element) {
+                if (!element.hasClass('valid')){
+                    // qTip call
+                    $(element).parent().addClass('error-qtip-field-sitecore').qtip({
+                        show: {
+                            ready: true
+                        },
+                        content: eval(error),
+                        position: {
+                            my: 'bottom center',
+                            at: 'top center'
+                        },
+                        style: {
+                            classes: 'qtip-error'
+                        }
+                    });
+                }
+            },
+            showErrors: function () {
+                this.defaultShowErrors();
+                removeErrorValidElement();
+                setTimeout(function () { removeErrorAllElement(); }, 4000);
+            },
+            success: function (error) {
+                // Hide tooltips on valid elements
+                //setTimeout(function () {
+                //    //form.find('.valid').parent().removeClass('error-qtip-field-sitecore').qtip('destroy');
+                //    removeErrorClass();
+                //}, 1);
+            },
+            submitHandler: function (form) {
+                form.submit();
+            }
+        });
+    });
+
+</script>
+            <!-- Panel Ricerca Ticket End -->
+        </div>
+    </div>
+</header>
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#divRedirectBeta').append($('.redirect-home-beta'));
+    });
+</script>
+
+        <div id="pageContainer" class="page">
+            <a class='section-navigation' id='js-section-navigation'></a>
+
+            <div>
+                
+<div class="homepage page">
+    
+
+
+<div class="wrapper-max-1360 slideshow-container">
+    <div id="js-slideshow" class="slideshow-home">
+        <div id="js-cycle-slideshow">
+                        <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?Culture=it-IT">
+                            <div>
+                                <img src="http://www.italotreno.it/~/media/Images/gallery/gennaio/hero_xlarge_30.jpg?as=1&h=478&iar=1&la=it&w=1360&hash=F98A4D4B117FD0F5142CDCE390921C4F5AA1551A" alt="" width="1360" height="478" />
+
+                                <div class="testo-gallery">
+                                    <h1><br></h1>
+                                    <h2><p><br />
+</p></h2>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?Culture=it-IT">
+                            <div>
+                                <img src="http://www.italotreno.it/~/media/Images/gallery/gennaio/hero_sanvalentino4.jpg?as=1&h=478&iar=1&la=it&w=1360&hash=591B42A397B1FF466A03CABEB5B5487D382B731D" alt="" width="1360" height="478" />
+
+                                <div class="testo-gallery">
+                                    <h1><br></h1>
+                                    <h2><p><br />
+</p></h2>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?Culture=it-IT">
+                            <div>
+                                <img src="http://www.italotreno.it/~/media/Images/gallery/gennaio/hero_andata_ritorno50_2.jpg?as=1&h=478&iar=1&la=it&w=1360&hash=5892C13A2E5DE46D25FDD4C18595C34468BE8157" alt="" width="1360" height="478" />
+
+                                <div class="testo-gallery">
+                                    <h1><br></h1>
+                                    <h2><p><br />
+</p></h2>
+                                </div>
+                            </div>
+                        </a>
+                        <a href="https://www.italoimpresa.it/Corporate_Account_Registrazione_Impresa.aspx">
+                            <div>
+                                <img src="http://www.italotreno.it/~/media/Images/gallery/italoimpresa_4.jpg?as=1&h=478&iar=1&la=it&w=1360&hash=D613186263CEE944012D1C3C4617A05806451175" alt="" width="1360" height="478" />
+
+                                <div class="testo-gallery">
+                                    <h1><br></h1>
+                                    <h2><p><br />
+</p></h2>
+                                </div>
+                            </div>
+                        </a>
+
+        </div>
+        <div class="js-slideshow-content-pager cycle-slideshow-pager"></div>
+        <div class="white-text-bg"></div>
+    </div>
+</div>
+
+        <script>
+            $(document).ready(function () {
+                $('#js-cycle-slideshow').slick('slickSetOption', 'autoplaySpeed', 8000);
+            });
+        </script>
+
+
+
+<div class="main-section vert-margin-bottom-20 is-first-section-home">
+    <div class="wrapper-1140">
+            <h1><span>Le migliori</span> Offerte</h1>
+
+
+    </div>
+    <div class="wrapper-960">
+        <div class="offerte_container">
+            <div class="layout">
+                        <div class="layout__item 1/2">
+                            <div class="offerta_singola">
+                                <div class="left_side">
+                                    <p>Milano  - Roma </p>
+                                    <label>A PARTIRE DA</label>
+                                </div>
+                                <div class="right_side">
+                                    <label>26 € </label>
+                                    <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?__EVENTTARGET=BookingRicercaRestylingBookingAcquistoRicercaView%24ButtonSubmit&amp;__EVENTARGUMENT=&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketOrigin1=MI0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketDestination1=RM0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFareTypes=ST&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_ADT=1&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_CHD=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24InfantTextBox=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListSearchBy=calendarView&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24CalendarReferentialPrice=26&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFarePreference=S&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24RadioButtonMarketStructure=OneWay&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketDay1=04&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketMonth1=2016-04"><button type='button'>Acquista</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="offerta_singola">
+                                <div class="left_side">
+                                    <p>Bologna  - Roma </p>
+                                    <label>A PARTIRE DA</label>
+                                </div>
+                                <div class="right_side">
+                                    <label>19 € </label>
+                                    <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?__EVENTTARGET=BookingRicercaRestylingBookingAcquistoRicercaView%24ButtonSubmit&amp;__EVENTARGUMENT=&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketOrigin1=BC_&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketDestination1=RTB&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFareTypes=ST&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_ADT=1&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_CHD=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24InfantTextBox=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListSearchBy=calendarView&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24CalendarReferentialPrice=19&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFarePreference=S&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24RadioButtonMarketStructure=OneWay&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketDay1=04&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketMonth1=2016-04"><button type='button'>Acquista</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="offerta_singola">
+                                <div class="left_side">
+                                    <p>Firenze  - Venezia </p>
+                                    <label>A PARTIRE DA</label>
+                                </div>
+                                <div class="right_side">
+                                    <label>19 € </label>
+                                    <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?__EVENTTARGET=BookingRicercaRestylingBookingAcquistoRicercaView%24ButtonSubmit&amp;__EVENTARGUMENT=&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketOrigin1=SMN&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketDestination1=VSL&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFareTypes=ST&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_ADT=1&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_CHD=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24InfantTextBox=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListSearchBy=calendarView&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24CalendarReferentialPrice=19&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFarePreference=S&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24RadioButtonMarketStructure=OneWay&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketDay1=04&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketMonth1=2016-04"><button type='button'>Acquista</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="offerta_singola">
+                                <div class="left_side">
+                                    <p>Venezia  - Roma </p>
+                                    <label>A PARTIRE DA</label>
+                                </div>
+                                <div class="right_side">
+                                    <label>29 € </label>
+                                    <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?__EVENTTARGET=BookingRicercaRestylingBookingAcquistoRicercaView%24ButtonSubmit&amp;__EVENTARGUMENT=&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketOrigin1=VSL&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketDestination1=RM0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFareTypes=ST&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_ADT=1&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_CHD=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24InfantTextBox=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListSearchBy=calendarView&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24CalendarReferentialPrice=29&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFarePreference=S&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24RadioButtonMarketStructure=OneWay&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketDay1=04&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketMonth1=2016-04"><button type='button'>Acquista</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="offerta_singola">
+                                <div class="left_side">
+                                    <p>Milano  - Napoli </p>
+                                    <label>A PARTIRE DA</label>
+                                </div>
+                                <div class="right_side">
+                                    <label>26 € </label>
+                                    <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?__EVENTTARGET=BookingRicercaRestylingBookingAcquistoRicercaView%24ButtonSubmit&amp;__EVENTARGUMENT=&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketOrigin1=MI0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketDestination1=NAC&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFareTypes=ST&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_ADT=1&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_CHD=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24InfantTextBox=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListSearchBy=calendarView&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24CalendarReferentialPrice=36&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFarePreference=S&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24RadioButtonMarketStructure=OneWay&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketDay1=04&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketMonth1=2016-04"><button type='button'>Acquista</button></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layout__item 1/2">
+                            <div class="offerta_singola">
+                                <div class="left_side">
+                                    <p>Firenze  - Napoli </p>
+                                    <label>A PARTIRE DA</label>
+                                </div>
+                                <div class="right_side">
+                                    <label>26 € </label>
+                                    <a href="https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx?__EVENTTARGET=BookingRicercaRestylingBookingAcquistoRicercaView%24ButtonSubmit&amp;__EVENTARGUMENT=&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketOrigin1=SMN&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24TextBoxMarketDestination1=NAC&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFareTypes=ST&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_ADT=1&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListPassengerType_CHD=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24InfantTextBox=0&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListSearchBy=calendarView&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24CalendarReferentialPrice=26&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListFarePreference=S&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24RadioButtonMarketStructure=OneWay&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketDay1=04&amp;BookingRicercaRestylingBookingAcquistoRicercaView%24DropDownListMarketMonth1=2016-04"><button type='button'>Acquista</button></a>
+                                </div>
+                            </div>
+                        </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="main-section">
+    <div class="wrapper-1140">
+            <h1><span>Le nostre</span> Offerte</h1>
+
+    </div>
+    <div class="wrapper-960">
+        <div class="layout">
+            <div class="layout__item 4/12">
+                <div class="offerta_image first_column">
+                <!-- Richiama View Nostre Offerte Item-->
+                    
+
+
+    <div class="offerta_text">
+        <h3><a href="http://www.italotreno.it/it/offerte-treno/abbonamento-carnet#carnet">Nuovi Carnet 10x5<br>Limited Edition</a></h3>
+        <h4>10 viaggi in entrambe le direzioni scontati del 50%!</h4>
+    </div>
+    <div class="offerta_image">
+<a href="http://www.italotreno.it/it/offerte-treno/abbonamento-carnet#carnet"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/carnet_189x189.jpg?h=189&la=it&w=189&hash=CDE966CC46CA86AF206DD8071C9426A9C981777E&hash=CDE966CC46CA86AF206DD8071C9426A9C981777E" alt="" width="189" height="189" /></a>
+    </div>
+            <div class="link_arrow">
+                <a href="http://www.italotreno.it/it/offerte-treno/abbonamento-carnet#carnet">ACQUISTA ORA
+                <div></div>
+                </a>
+            </div>
+
+                </div>
+            </div>
+            <div class="layout__item 3/12">
+                <div class="offerta_image second_column">
+                    <!-- Richiama View Nostre Offerte Item-->
+                    
+
+
+    <div class="offerta_text">
+        <h3><a href="http://www.italotreno.it/it/offerte-treno/italo-famiglia#italo-senior">Italo Senior -40%</a></h3>
+        <h4>Eccezionale sconto del 40% per gli over 60!</h4>
+    </div>
+    <div class="offerta_image">
+<a href="http://www.italotreno.it/it/offerte-treno/italo-famiglia#italo-senior"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/senior_220x223.jpg?h=223&la=it&w=220&hash=6E916C72193505EE4D6F13840359229F279827A5&hash=6E916C72193505EE4D6F13840359229F279827A5" alt="" width="220" height="223" /></a>
+    </div>
+            <div class="link_arrow">
+                <a href="http://www.italotreno.it/it/offerte-treno/italo-famiglia#italo-senior">ACQUISTA ORA
+                <div></div>
+                </a>
+            </div>
+
+                </div>
+            </div>
+            <div class="layout__item 5/12">
+                <div class="offerta_image third_column">
+                    <!-- Richiama View Nostre Offerte Item-->
+                    
+
+
+    <div class="offerta_text">
+        <h3><a href="http://www.italotreno.it/it/offerte-treno/italo-famiglia">Italo Famiglia</a></h3>
+        <h4>I ragazzi viaggiano gratis.&nbsp;<br />
+Sempre</h4>
+    </div>
+    <div class="offerta_image">
+<a href="http://www.italotreno.it/it/offerte-treno/italo-famiglia"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/treno_desideri_380x312.jpg?h=312&la=it&w=380&hash=12494817CCC0A58A1E20F98E3B6BEA5D64B7D55C&hash=12494817CCC0A58A1E20F98E3B6BEA5D64B7D55C" alt="" width="380" height="312" /></a>
+    </div>
+            <div class="link_arrow">
+                <a href="http://www.italotreno.it/it/offerte-treno/italo-famiglia">ACQUISTA ORA
+                <div></div>
+                </a>
+            </div>
+
+                </div>
+            </div>
+
+          </div>
+    </div>
+</div>
+
+
+
+<div class="main-section">
+    <div class="wrapper-960">
+        <div class="layout">
+            <div class="layout__item 8/12">
+<a href="http://www2.italotreno.it/it/programma-fedelta-italo-piu"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/italo_piu_home.jpg?h=359&la=it&w=584&hash=DEA0989F8152E5B9F93184708603BC1660393536&hash=DEA0989F8152E5B9F93184708603BC1660393536" alt="34" width="584" height="359" /></a>
+            </div>
+            <!--
+            -->
+            <div class="layout__item 4/12">
+                <div class="iscriviti_italo_piu">
+                    <p><a href="http://www.italotreno.it/it/programma-fedelta-italo-piu">Iscriviti subito al Programma Italo Più e viaggia gratis!</a></p>
+                    <h2><a href="http://www.italotreno.it/it/programma-fedelta-italo-piu">Ti basta accumulare pochi punti per avere i tuoi biglietti gratuiti.</a></h2>
+                    <a href="https://biglietti.italotreno.it/Customer_Account_Registrazione.aspx"><button type='button'>Iscriviti</button></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+<div class="main-section grey">
+    <div class="wrapper-960">
+        <div class="layout">
+            <div class="italo_piu_vantaggi">
+                <div class="layout__item 4/12">
+                    <h1>Italo Più</h1>
+                    <p>
+                        Iscrivendoti a Italo Pi&ugrave; beneficerai da subito e gratuitamente di tutti i vantaggi esclusivi del programma e accumulerai punti a ogni tuo viaggio con Italo!
+                    </p>
+                  
+                            <div class="link_arrow">
+                                <a href="http://www.italotreno.it/it/programma-fedelta-italo-piu">Scopri di più
+                                <div></div>
+                                </a>
+                            </div>
+<img src="http://www.italotreno.it/~/media/Images/content/Home Page/italo_treno_line.png?h=140&la=it&w=276&hash=BC64576436EC9345DC22AE3B94D60CB2187DBC14" alt="italo" width="276" height="140" />        
+                    
+                    </div>
+                <!--
+                -->
+                <div class="layout__item 8/12">
+                    <div class="layout">
+                            <div class="layout__item 4/12">
+                                <div class="punto_vantaggio">
+                                    <h2># 1</h2>
+                                    <h3>
+                                        Biglietti premio
+                                    </h3>
+                                    <p>e viaggi in cabina
+con la raccolta punti</p>
+                                </div>
+                            </div>
+                            <div class="layout__item 4/12">
+                                <div class="punto_vantaggio">
+                                    <h2># 2</h2>
+                                    <h3>
+                                        Riconoscimento immediato
+                                    </h3>
+                                    <p>attraverso un profilo personale</p>
+                                </div>
+                            </div>
+                            <div class="layout__item 4/12">
+                                <div class="punto_vantaggio">
+                                    <h2># 3</h2>
+                                    <h3>
+                                        Acquisti veloci e sicuri
+                                    </h3>
+                                    <p>con la carta di credito registrata</p>
+                                </div>
+                            </div>
+                            <div class="layout__item 4/12">
+                                <div class="punto_vantaggio">
+                                    <h2># 4</h2>
+                                    <h3>
+                                        Borsellino Italo
+                                    </h3>
+                                    <p>per rimborsi e acquisti</p>
+                                </div>
+                            </div>
+                            <div class="layout__item 4/12">
+                                <div class="punto_vantaggio">
+                                    <h2># 5</h2>
+                                    <h3>
+                                        Accesso al Wi-Fi
+                                    </h3>
+                                    <p>rapido e gratuito</p>
+                                </div>
+                            </div>
+                            <div class="layout__item 4/12">
+                                <div class="punto_vantaggio">
+                                    <h2># 6</h2>
+                                    <h3>
+                                        Promozioni speciali
+                                    </h3>
+                                    <p>riservate agli iscritti Italo Pi&ugrave;</p>
+                                </div>
+                            </div>
+                      
+                      
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+
+
+
+
+<div class="main-section">
+    <div class="wrapper-1140">
+        <h1><span>Soluzioni</span><br> Su misura</h1>
+    </div>
+    <div class="wrapper-960">
+        <div class="layout">
+            <div class="layout__item 4/12">
+                
+
+
+    <div class="soluzioni_image">
+
+<a href="http://www.italotreno.it/it/destinazioni-orari/biglietti-treno-giubileo"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/giubileo_221x263.jpg?h=263&la=it&w=221&hash=7C9A75D670185C451D6AF832C8BE478855F7D77A&hash=7C9A75D670185C451D6AF832C8BE478855F7D77A" alt="" width="221" height="263" /></a>
+
+        <div class="soluzioni_text">
+            <h3><a href="http://www.italotreno.it/it/destinazioni-orari/biglietti-treno-giubileo">Con Italo al Giubileo</a></h3>
+            <p>Scopri le miglior offerte che Italo ha riservato per il Giubileo a partire da 19€! </p>
+        </div>
+
+                <div class="link_arrow">
+                    <a href="http://www.italotreno.it/it/destinazioni-orari/biglietti-treno-giubileo">Voglio saperne di più
+                    <div></div>
+                    </a>
+                </div>
+    </div>
+    <br />
+
+
+
+
+    <div class="soluzioni_image">
+
+<a href="http://www.italotreno.it/it/servizi/autonoleggio"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/158646_Italo-images_v2_02.jpg?h=263&la=it&w=240&hash=025EE368DAB565CC77D6A5DDF28EDC1562BCAED0&hash=025EE368DAB565CC77D6A5DDF28EDC1562BCAED0" alt="" width="240" height="263" /></a>
+
+        <div class="soluzioni_text">
+            <h3><a href="http://www.italotreno.it/it/servizi/autonoleggio">In treno con Italo,<br> in auto con Hertz!</a></h3>
+            <p><p>Fino al 25% di sconto sul tuo noleggio!
+</p> </p>
+        </div>
+
+                <div class="link_arrow">
+                    <a href="http://www.italotreno.it/it/servizi/autonoleggio">Voglio saperne di più
+                    <div></div>
+                    </a>
+                </div>
+    </div>
+    <br />
+
+
+            </div>
+            <!--
+            -->
+            <div class="layout__item 1/12">
+            </div>
+            <!--
+            -->
+            <div class="layout__item 6/12">
+                
+
+
+    <div class="soluzioni_image">
+
+<a href="http://www.italotreno.it/it/servizi/Hotel"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/booking_widget.jpg?h=263&la=it&w=459&hash=27DD0B78CB1811EFC508D3FFAF29893C20C08026&hash=27DD0B78CB1811EFC508D3FFAF29893C20C08026" alt="" width="459" height="263" /></a>
+
+        <div class="soluzioni_text">
+            <h3><a href="http://www.italotreno.it/it/servizi/Hotel">Sconti del 50% su tutti gli hotel!</a></h3>
+            <p>Prenota il tuo soggiorno con Booking.com: in esclusiva per te numerosi vantaggi! </p>
+        </div>
+
+                <div class="link_arrow">
+                    <a href="http://www.italotreno.it/it/servizi/Hotel">Voglio saperne di più
+                    <div></div>
+                    </a>
+                </div>
+    </div>
+    <br />
+
+
+
+
+    <div class="soluzioni_image">
+
+<a href="http://www2.italotreno.it/it/programma-fedelta-italo-piu/carta-italo-american-express"><img src="http://www.italotreno.it/~/media/Images/content/Home Page/amex_459x263.jpg?h=263&la=it&w=459&hash=447AE3C135DC8B41884EDC9B6CB2C6C4CEC50914&hash=447AE3C135DC8B41884EDC9B6CB2C6C4CEC50914" alt="" width="459" height="263" /></a>
+
+        <div class="soluzioni_text">
+            <h3><a href="http://www.italotreno.it/it/programma-fedelta-italo-piu/carta-italo-american-express">Carta Italo American Express</a></h3>
+            <p>Carta Italo è la nuova Carta di Pagamento di American Express che ti riserva vantaggi esclusivi in viaggio e non solo. </p>
+        </div>
+
+                <div class="link_arrow">
+                    <a href="http://www.italotreno.it/it/programma-fedelta-italo-piu/carta-italo-american-express">Voglio saperne di più
+                    <div></div>
+                    </a>
+                </div>
+    </div>
+    <br />
+
+
+            </div>
+            <!--
+            -->
+            <div class="layout__item 1/12">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+</div>
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+        
+<footer class="italo_footer">
+
+    
+
+
+<div class="social_bar">
+    <div>
+        <ul>
+                    <li>
+                        <a class="fa fa-facebook" target="_blank" href="https://www.facebook.com/ItaloTreno"> </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-twitter" target="_blank" href="https://twitter.com/italotreno"> </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-youtube" target="_blank" href="https://www.youtube.com/user/NTVspa"> </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-google-plus" target="_blank" href="https://plus.google.com/u/0/115132578759526965962/posts"> </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/company/ntv---nuovo-trasporto-viaggiatori"> </a>
+                    </li>
+                    <li>
+                        <a class="fa fa-instagram" target="_blank" href="https://instagram.com/italotreno/"> </a>
+                    </li>
+        </ul>
+    </div>
+</div>
+
+
+    <div class="newsletter_bar">
+        <div class="wrapper-960">
+            
+            
+            <div class="footerBox 1/3">
+                <div class="italoAssistance">
+                    <div class="italoAssistanceType">
+                        <span class="image">
+                            <span class="imgProntoItalo"></span>
+                        </span>
+                        <span class="title">PRONTO ITALO</span>
+                    </div>
+                    <div class="italoAssistanceContact">
+                        <div class="sitecore-c1">PER ACQUISTO BIGLIETTI</div>
+                        <div class="sitecore-c2">
+                            <span class="phone">060708</span>
+                            <span class="js-tooltip-assistance tooltip-assistance" data-qtip-class="qtip-dark qtip-tooltip-assistance">
+                                <span class="imageInfoTooltip"></span>
+                            </span>
+                            <div class="tooltip-assistance" style="display: none;">
+                                Al costo previsto dal tuo operatore per una chiamata su rete fissa.
+                            </div>
+                        </div>
+                        <div class="sitecore-c3">attivo tutti i giorni dalle 7 alle 22</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerBox 1/3">
+                <div class="italoAssistance">
+                    <div class="italoAssistanceType">
+                        <span class="image">
+                            <span class="imgItaloAssistenza"></span>
+                        </span>
+                        <span class="title">ITALO ASSISTENZA</span>
+                    </div>
+                    <div class="italoAssistanceContact">
+                        <div class="sitecore-c1">PER INFORMAZIONI</div>
+                        <div class="sitecore-c2">
+                            <span class="phone">892020</span>
+                            <span class="js-tooltip-assistance tooltip-assistance" data-qtip-class="qtip-dark qtip-tooltip-assistance">
+                                <span class="imageInfoTooltip"></span>
+                            </span>
+                            <div class="tooltip-assistance" style="display: none;">
+                                Da rete fissa il costo dello scatto alla risposta (IVA inclusa) &#232; di 30,5 cent. di euro e di 54,9 cent. di euro al minuto. Da rete mobile i costi variano in funzione del gestore.
+                            </div>
+                        </div>
+                        <div class="sitecore-c3">attivo tutti i giorni dalle 6 alle 23</div>
+                    </div>
+                </div>
+            </div>
+                <div class="footerBox 1/3">
+                    <div class="loginButton">
+                        <a class="link_access" href="http://www.italotreno.it/it/agenzie-di-viaggio">
+                            <div class="js-link-access" style="text-transform: uppercase">Accesso Agenzie</div>
+                        </a>
+                    </div>
+                    <div class="loginButton">
+                        <a class="link_access" href="http://www.italotreno.it/it/aziende">
+                            <div class="js-link-access" style="text-transform: uppercase">Accesso Aziende</div>
+                        </a>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <div class="links_bar">
+        <div class="wrapper-960">
+
+            <div class="morieroFooter">
+                
+
+<div class="link_italo">
+    <ul>
+                <li>
+                    <a href="http://www.italotreno.it/it/privacy-policy">Privacy</a>
+                </li>
+                <li>
+                    <a href="http://www.italotreno.it/it/copyright-note-legali">Note legali</a>
+                </li>
+                <li>
+                    <a href="http://www.italotreno.it/it/termini-condizioni">Termini e condizioni di trasporto</a>
+                </li>
+                <li>
+                    <a href="http://www.italotreno.it/~/media/IDEA/SiteCollectionDocuments/condizioniofferteimprese.pdf" target="_blank">Condizioni Italo Impresa</a>
+                </li>
+                <li>
+                    <a href="http://www.italotreno.it/it/MappaSito">Mappa sito</a>
+                </li>
+    </ul>
+
+    <p>.ITALO &#232; un marchio di NTV S.p.A. &#169;2016 - P.IVA: 09247981005</p>
+</div>
+
+                <div class="lang-switch">
+                    <script type="text/javascript">
+                        var redirectLanguageUrl = (typeof redirectLanguageUrl === 'undefined') ? "https://biglietti.italotreno.it/Booking_Acquisto_Ricerca.aspx" : redirectLanguageUrl
+                    </script>
+
+                    <select class="lang_select red" data-color="red">
+                                    <option b2ccookie="it-IT" value="it" selected='selected'>IT - Italiano</option>
+                                    <option b2ccookie="en-US" value="en" >EN - English</option>
+                                    <option class="redirect" b2ccookie="fr-FR" value="fr" >FR - Francais</option>
+                                    <option class="redirect" b2ccookie="de-DE" value="de" >DE - Deutsch</option>
+                                    <option class="redirect" b2ccookie="es-ES" value="es" >ES - Espanol</option>
+
+                    </select>
+
+                </div>
+            </div>
+
+
+            
+
+
+        <div class="link_ntv">
+          <figure>
+              
+
+          </figure>
+               
+            <ul>
+                        <li>
+                            <a href="http://www.ntvspa.it" target="_blank">ITALO SITO CORPORATE</a>
+                        </li>
+            </ul>
+        </div>
+
+
+
+
+        </div>
+    </div>
+
+</footer>
+
+    </div>
+
+    
+        <div class="side-menu js-side-menu">
+            <button type="button" class="close-button"><i class="fa fa-close"></i></button>
+            <ul>
+                        <li>
+                            <a href="http://www.italotreno.it/it/offerte-treno/italo-special">Offerte</a>
+                        </li>
+                        <li>
+                            <a href="http://www.italotreno.it/it/destinazioni-orari">Destinazioni e Orari</a>
+                        </li>
+                        <li>
+                            <a href="http://www.italotreno.it/it/servizi/sconti-convenzioni">Servizi</a>
+                        </li>
+                        <li>
+                            <a href="http://www.italotreno.it/it/programma-fedelta-italo-piu">Programma Fedeltà</a>
+                        </li>
+                        <li>
+                            <a href="http://www.italotreno.it/it/il-treno">Viaggiare con Italo</a>
+                        </li>
+                        <li>
+                            <a href="http://www.italoimpresa.it/" target="_blank">Italo Impresa</a>
+                        </li>
+            </ul>
+        </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

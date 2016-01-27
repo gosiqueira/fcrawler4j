@@ -1,0 +1,1212 @@
+title=Viciada em viajar | Um blog para quem adora viajar e planejar viagens
+url=http://www.viciadaemviajar.com/
+html=<!DOCTYPE html>
+<html>
+<head>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+	<title>Viciada em viajar | Um blog para quem adora viajar e planejar viagens</title>
+	<meta name="description" content="Um blog para quem adora viajar e planejar viagens" />
+	
+	  
+	<meta property="og:type" content="blog"> 
+	<meta property="og:url" content="http://viciadaemviajar.com"> 
+	<meta property="og:image" content="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/img/viciada-viajar.png" />
+	<meta property="og:title" content="Viciada em viajar" />  
+	<meta property="og:description" content="Um blog para quem adora viajar e planejar viagens" />  
+			
+	<!--link rel="stylesheet" href="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/css/geral.css" type="text/css" media="screen" charset="utf-8" /-->
+	<link rel="stylesheet" href="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/style.css?v=1" type="text/css" media="screen" charset="utf-8" />
+	<link href="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/css/jquery.mmenu.all.css" type="text/css" rel="stylesheet" />
+
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css' />
+	<link href='http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+	
+	<script src="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/js/jquery-1.8.1.min.js" type="text/javascript"></script>
+	
+    <!-- Arquivos utilizados pelo jQuery lightBox plugin -->
+    <script type="text/javascript" src="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/js/jquery.lightbox-0.5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/css/jquery.lightbox-0.5.css" media="screen" />
+    <script src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- / fim dos arquivos utilizados pelo jQuery lightBox plugin -->
+	
+	<script type="text/javascript">
+	_ano_ini = '2011';
+	_ano_fim = '2016';
+	_mes_atual = '1';
+	_ano_atual = '2016';
+	_arr_meses = ['','Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+	_arr_posts = [];_arr_posts = {'2011':{'1':[{'post':'Brasil - Litoral...','link':'http://www.viciadaemviajar.com/?p=3919', 'dia':'03'},{'post':'Brasil - Outras cidades...','link':'http://www.viciadaemviajar.com/?p=3921', 'dia':'03'}],'3':[{'post':'O primeiro post do blog...','link':'http://viciadaemviajar.com/?p=226', 'dia':'08'},{'post':'Aruba - Considerações iniciais e ...','link':'http://viciadaemviajar.com/?p=225', 'dia':'08'},{'post':'Aruba - Palm Beach, Arashi e passei...','link':'http://viciadaemviajar.com/?p=224', 'dia':'08'},{'post':'Fazendo snorkel em Arashi...','link':'http://viciadaemviajar.com/?p=223', 'dia':'09'},{'post':'Aruba - City tour e Baby Beach...','link':'http://viciadaemviajar.com/?p=222', 'dia':'09'},{'post':'Aruba - observações finais...','link':'http://viciadaemviajar.com/?p=221', 'dia':'09'},{'post':'Maceió no Reveillon...','link':'http://viciadaemviajar.com/?p=220', 'dia':'10'},{'post':'Litoral Paulista - São Sebastião...','link':'http://viciadaemviajar.com/?p=219', 'dia':'11'},{'post':'Argentina - Buenos Aires e Bariloch...','link':'http://viciadaemviajar.com/?p=218', 'dia':'12'},{'post':'Bariloche - Esqui e passeio de barc...','link':'http://viciadaemviajar.com/?p=217', 'dia':'12'},{'post':'Caminhando na neve fofa em Bariloch...','link':'http://viciadaemviajar.com/?p=216', 'dia':'12'},{'post':'Buenos Aires - Tango e saúde...','link':'http://viciadaemviajar.com/?p=215', 'dia':'12'},{'post':'Passeios em Buenos Aires - 2006...','link':'http://viciadaemviajar.com/?p=214', 'dia':'13'},{'post':'Dicas de restaurantes e comidinhas ...','link':'http://viciadaemviajar.com/?p=213', 'dia':'13'},{'post':'Fernando de Noronha e Natal - Dicas...','link':'http://viciadaemviajar.com/?p=211', 'dia':'13'},{'post':'Ilha Tour em Noronha...','link':'http://viciadaemviajar.com/?p=210', 'dia':'13'},{'post':'Outros passeios em Noronha...','link':'http://viciadaemviajar.com/?p=209', 'dia':'13'},{'post':'Palestras, pizza e forró em Fernan...','link':'http://viciadaemviajar.com/?p=208', 'dia':'13'},{'post':'Dois dias passeando em Natal (RN)...','link':'http://viciadaemviajar.com/?p=207', 'dia':'15'},{'post':'Lua-de-mel em Porto Seguro, Arraial...','link':'http://viciadaemviajar.com/?p=206', 'dia':'21'},{'post':'48 horas em Curitiba...','link':'http://viciadaemviajar.com/?p=205', 'dia':'22'},{'post':'Boas agências de viagem que indico...','link':'http://viciadaemviajar.com/?p=204', 'dia':'24'},{'post':'Primeira viagem à Europa - dicas d...','link':'http://viciadaemviajar.com/?p=203', 'dia':'25'},{'post':'Europa em 2007 - Dia 1 - Berlim...','link':'http://viciadaemviajar.com/?p=202', 'dia':'25'},{'post':'Europa em 2007 - Dias 2, 3 e 4 - Be...','link':'http://viciadaemviajar.com/?p=201', 'dia':'26'},{'post':'Europa em 2007 - Dias 5, 6 e 7 - Lo...','link':'http://viciadaemviajar.com/?p=200', 'dia':'26'},{'post':'Europa em 2007 - Dias 8, 9, 10 e 11...','link':'http://viciadaemviajar.com/?p=199', 'dia':'27'},{'post':'Europa em 2007 - Dias 12 e 13 - Rom...','link':'http://viciadaemviajar.com/?p=198', 'dia':'27'},{'post':'Europa em 2007 - Dia 14 - Roma...','link':'http://viciadaemviajar.com/?p=197', 'dia':'28'},{'post':'Europa em 2007 - Dia 15 - Paris...','link':'http://viciadaemviajar.com/?p=196', 'dia':'29'},{'post':'Europa - Dia 16 - Paris...','link':'http://viciadaemviajar.com/?p=195', 'dia':'31'},{'post':'Europa - Dias 17 e 18 - Paris...','link':'http://viciadaemviajar.com/?p=194', 'dia':'31'},{'post':'Europa em 2007 - Dia 19 - Paris...','link':'http://viciadaemviajar.com/?p=193', 'dia':'31'}],'4':[{'post':'Vai chover ou fazer sol?...','link':'http://viciadaemviajar.com/?p=192', 'dia':'07'},{'post':'Dilemas para fazer a mala...','link':'http://viciadaemviajar.com/?p=191', 'dia':'07'},{'post':'Roteiro de viagem na Bahia, Holanda...','link':'http://viciadaemviajar.com/?p=190', 'dia':'07'},{'post':'Organizando uma viagem à Europa - ...','link':'http://viciadaemviajar.com/?p=189', 'dia':'07'},{'post':'Como achar passagens aéreas barata...','link':'http://viciadaemviajar.com/?p=188', 'dia':'11'},{'post':'Como descobrir o fuso horário do s...','link':'http://viciadaemviajar.com/?p=187', 'dia':'13'},{'post':'Morro de São Paulo (BA), meu lugar...','link':'http://viciadaemviajar.com/?p=186', 'dia':'20'},{'post':'Morro de São Paulo - mais dicas...','link':'http://viciadaemviajar.com/?p=185', 'dia':'20'},{'post':'Itacaré (BA) - Blogando ao vivo...','link':'http://viciadaemviajar.com/?p=184', 'dia':'22'},{'post':'Itacaré (BA) - segundo dia...','link':'http://viciadaemviajar.com/?p=183', 'dia':'22'},{'post':'Amsterdam - cidade maravilhosa...','link':'http://viciadaemviajar.com/?p=182', 'dia':'29'}],'5':[{'post':'Bruges e Bruxelas...','link':'http://viciadaemviajar.com/?p=181', 'dia':'02'},{'post':'Duas sugestões de day-trip perto d...','link':'http://viciadaemviajar.com/?p=180', 'dia':'03'},{'post':'Itália bela!!!...','link':'http://viciadaemviajar.com/?p=179', 'dia':'10'},{'post':'Itacaré - aventura em Jeribucaçu...','link':'http://viciadaemviajar.com/?p=177', 'dia':'19'},{'post':'Sul da Itália - Pompéia e Nápole...','link':'http://viciadaemviajar.com/?p=175', 'dia':'19'},{'post':'Costa Amalfitana - Itália...','link':'http://viciadaemviajar.com/?p=174', 'dia':'21'},{'post':'Passeio em Capri - Itália...','link':'http://viciadaemviajar.com/?p=173', 'dia':'22'},{'post':'Veneza em menos de dois dias...','link':'http://viciadaemviajar.com/?p=172', 'dia':'27'},{'post':'Toscana em cinco dias - Florença...','link':'http://viciadaemviajar.com/?p=171', 'dia':'29'}],'6':[{'post':'Pisa e San Gimignano num dia...','link':'http://viciadaemviajar.com/?p=170', 'dia':'05'},{'post':'Itália - Um dia em Assis...','link':'http://viciadaemviajar.com/?p=169', 'dia':'06'},{'post':'Siena: cidade imperdível na Itáli...','link':'http://viciadaemviajar.com/?p=168', 'dia':'07'},{'post':'Passaporte azulzinho difícil...','link':'http://viciadaemviajar.com/?p=167', 'dia':'14'},{'post':'Londres em 24 horas - 2011...','link':'http://viciadaemviajar.com/?p=166', 'dia':'15'},{'post':'Como comprar passagens de trem para...','link':'http://viciadaemviajar.com/?p=165', 'dia':'19'},{'post':'As próximas viagens - agosto que m...','link':'http://viciadaemviajar.com/?p=164', 'dia':'29'}],'7':[{'post':'Onda de violência contra mulheres ...','link':'http://viciadaemviajar.com/?p=163', 'dia':'07'},{'post':'Passeio pelo Centro de São Paulo -...','link':'http://viciadaemviajar.com/?p=162', 'dia':'10'},{'post':'Como achar um hotel barato...','link':'http://viciadaemviajar.com/?p=161', 'dia':'10'},{'post':'Passeios guiados gratuitos em São ...','link':'http://viciadaemviajar.com/?p=160', 'dia':'12'},{'post':'As melhores atrações da Avenida P...','link':'http://viciadaemviajar.com/?p=159', 'dia':'12'},{'post':'Pinacoteca e Museu da Língua Portu...','link':'http://viciadaemviajar.com/?p=158', 'dia':'14'},{'post':'Passeio na Feirinha da Liberdade, e...','link':'http://viciadaemviajar.com/?p=157', 'dia':'18'},{'post':'Cidades para voltar ...','link':'http://viciadaemviajar.com/?p=156', 'dia':'20'},{'post':'O melhor museu de São Paulo...','link':'http://viciadaemviajar.com/?p=155', 'dia':'22'},{'post':'Museu do Ipiranga, em SP = museu le...','link':'http://viciadaemviajar.com/?p=154', 'dia':'24'},{'post':'Parque de diversões em São Paulo ...','link':'http://viciadaemviajar.com/?p=153', 'dia':'27'},{'post':'Parque do Ibirapuera, a praia do pa...','link':'http://viciadaemviajar.com/?p=152', 'dia':'30'},{'post':'Neblina e comida gostosa na Serra G...','link':'http://viciadaemviajar.com/?p=151', 'dia':'31'}],'8':[{'post':'Templo budista, miniaturas, churras...','link':'http://viciadaemviajar.com/?p=150', 'dia':'01'},{'post':'Dia de queimar calorias em Canela e...','link':'http://viciadaemviajar.com/?p=149', 'dia':'03'},{'post':'Na despedida, fábrica de chocolate...','link':'http://viciadaemviajar.com/?p=148', 'dia':'03'},{'post':'Dia de grutas e água azul incríve...','link':'http://viciadaemviajar.com/?p=147', 'dia':'06'},{'post':'Cachoeira, pinturas rupestres e vis...','link':'http://viciadaemviajar.com/?p=146', 'dia':'09'},{'post':'Quatro banhos de piscina natural e ...','link':'http://viciadaemviajar.com/?p=145', 'dia':'09'},{'post':'Chapada Diamantina - Poço Azul, Po...','link':'http://viciadaemviajar.com/?p=144', 'dia':'15'},{'post':'Ahá, uhú, o Buracão é nosso!!...','link':'http://viciadaemviajar.com/?p=143', 'dia':'16'},{'post':'Organizando uma viagem à Chapada D...','link':'http://viciadaemviajar.com/?p=142', 'dia':'17'},{'post':'Onde se hospedar na Chapada Diamant...','link':'http://viciadaemviajar.com/?p=141', 'dia':'18'},{'post':'Onde comer em Lençóis, na Chapada...','link':'http://viciadaemviajar.com/?p=140', 'dia':'19'},{'post':'O que levar para a Chapada Diamanti...','link':'http://viciadaemviajar.com/?p=139', 'dia':'20'},{'post':'Tudo que você precisa saber sobre ...','link':'http://viciadaemviajar.com/?p=138', 'dia':'21'},{'post':'Abismo Anhumas - O lugar mais incr�...','link':'http://viciadaemviajar.com/?p=137', 'dia':'24'},{'post':'Flutuando com peixinhos no Rio Sucu...','link':'http://viciadaemviajar.com/?p=136', 'dia':'26'},{'post':'&quot;Bóia cross&quot;: passeio di...','link':'http://viciadaemviajar.com/?p=134', 'dia':'27'},{'post':'Balneários em Bonito (MS): para qu...','link':'http://viciadaemviajar.com/?p=133', 'dia':'27'},{'post':'Não sou macaca, mas pulei de árvo...','link':'http://viciadaemviajar.com/?p=132', 'dia':'28'},{'post':'Emoção na medida: descendo as cor...','link':'http://viciadaemviajar.com/?p=131', 'dia':'29'},{'post':'As dicas de Bariloche do meu irmão...','link':'http://viciadaemviajar.com/?p=130', 'dia':'31'}],'9':[{'post':'Gruta do Lago Azul: um dos passeios...','link':'http://viciadaemviajar.com/?p=129', 'dia':'02'},{'post':'Cachoeira Boca da Onça, em Bonito ...','link':'http://viciadaemviajar.com/?p=128', 'dia':'04'},{'post':'Cinzas de vulcão ainda deixam Bari...','link':'http://viciadaemviajar.com/?p=127', 'dia':'06'},{'post':'Argentina - as dicas de baladas e d...','link':'http://viciadaemviajar.com/?p=126', 'dia':'08'},{'post':'Dicas gerais de Bonito (MS) - onde ...','link':'http://viciadaemviajar.com/?p=125', 'dia':'08'},{'post':'Leeds Castle: ótima sugestão de d...','link':'http://viciadaemviajar.com/?p=124', 'dia':'11'},{'post':'Bares de São Paulo - Onde beber e ...','link':'http://viciadaemviajar.com/?p=123', 'dia':'15'},{'post':'São Paulo - lista de links com dic...','link':'http://viciadaemviajar.com/?p=121', 'dia':'15'},{'post':'País de Gales: vale dar uma estica...','link':'http://viciadaemviajar.com/?p=120', 'dia':'17'},{'post':'Mamma mia - Dicas de restaurantes i...','link':'http://viciadaemviajar.com/?p=119', 'dia':'21'},{'post':'Como eu escolho a próxima viagem...','link':'http://viciadaemviajar.com/?p=118', 'dia':'22'},{'post':'Onde comer pizzas divinas em São P...','link':'http://viciadaemviajar.com/?p=117', 'dia':'24'}],'10':[{'post':'Os melhores hamburgueres de São Pa...','link':'http://viciadaemviajar.com/?p=116', 'dia':'01'},{'post':'Feira da Praça Benedito Calixto, e...','link':'http://viciadaemviajar.com/?p=115', 'dia':'04'},{'post':'Aeroporto de Guarulhos (SP) - Todas...','link':'http://viciadaemviajar.com/?p=114', 'dia':'12'},{'post':'Veja se o seu voo está no horário...','link':'http://viciadaemviajar.com/?p=112', 'dia':'16'},{'post':'Cálculos de gastos com táxi...','link':'http://viciadaemviajar.com/?p=111', 'dia':'20'},{'post':'Folclore brasileiro e dos hermanos ...','link':'http://viciadaemviajar.com/?p=110', 'dia':'30'}],'11':[{'post':'Jardim Botânico de São Paulo: dic...','link':'http://viciadaemviajar.com/?p=109', 'dia':'05'},{'post':'Onde comer uma ótima carne argenti...','link':'http://viciadaemviajar.com/?p=108', 'dia':'17'}],'12':[{'post':'Mexicano, espanhol, árabe, chinês...','link':'http://viciadaemviajar.com/?p=107', 'dia':'06'},{'post':'Feijoada com chorinho: programão n...','link':'http://viciadaemviajar.com/?p=106', 'dia':'14'},{'post':'Um mês turistando na China (com es...','link':'http://viciadaemviajar.com/?p=105', 'dia':'18'},{'post':'China e Istambul por Gustavo Calil ...','link':'http://viciadaemviajar.com/?p=104', 'dia':'18'}]},'2012':{'1':[{'post':'Istambul em 48h - As dicas do meu c...','link':'http://viciadaemviajar.com/?p=103', 'dia':'02'},{'post':'Hong Kong: as dicas de moeda, trans...','link':'http://viciadaemviajar.com/?p=102', 'dia':'04'},{'post':'Planejamento: Quantos dias em cada ...','link':'http://viciadaemviajar.com/?p=101', 'dia':'08'},{'post':'2012 está animado: as próximas vi...','link':'http://viciadaemviajar.com/?p=100', 'dia':'26'},{'post':'Passeios em Hong Kong: Buda gigante...','link':'http://viciadaemviajar.com/?p=99', 'dia':'26'},{'post':'Templos budistas para todos os gost...','link':'http://viciadaemviajar.com/?p=98', 'dia':'31'}],'2':[{'post':'Devorando as delícias do mundo - P...','link':'http://viciadaemviajar.com/?p=97', 'dia':'14'},{'post':'Top 10 de Buenos Aires: Visita guia...','link':'http://viciadaemviajar.com/?p=96', 'dia':'15'},{'post':'O melhor do Centro de Buenos Aires ...','link':'http://viciadaemviajar.com/?p=95', 'dia':'17'},{'post':'Para fanáticos por futebol na Arge...','link':'http://viciadaemviajar.com/?p=94', 'dia':'23'},{'post':'Roupas e produtos de couro baratos ...','link':'http://viciadaemviajar.com/?p=93', 'dia':'27'}],'3':[{'post':'Devorando as delícias do mundo - P...','link':'http://viciadaemviajar.com/?p=92', 'dia':'05'},{'post':'Bosques de Palermo: para quem quer ...','link':'http://viciadaemviajar.com/?p=91', 'dia':'12'},{'post':'Passeios na Recoleta: livraria, fei...','link':'http://viciadaemviajar.com/?p=90', 'dia':'17'},{'post':'Top 10 de Buenos Aires: Arte modern...','link':'http://viciadaemviajar.com/?p=89', 'dia':'18'},{'post':'Domingo em Buenos Aires? Dia de fei...','link':'http://viciadaemviajar.com/?p=88', 'dia':'29'}],'4':[{'post':'Buenos Aires: o nosso roteiro de qu...','link':'http://viciadaemviajar.com/?p=87', 'dia':'02'},{'post':'Tango em Buenos Aires: os shows bar...','link':'http://viciadaemviajar.com/?p=86', 'dia':'06'},{'post':'Argentina - todos os posts reunidos...','link':'http://viciadaemviajar.com/?p=85', 'dia':'27'},{'post':'Buenos Aires: dicas gerais...','link':'http://viciadaemviajar.com/?p=84', 'dia':'28'}],'5':[{'post':'Cachoeirinha do Pai Inácio: a úni...','link':'http://viciadaemviajar.com/?p=83', 'dia':'01'},{'post':'Chapada Diamantina de carro própri...','link':'http://viciadaemviajar.com/?p=82', 'dia':'05'},{'post':'Onde comer bem (e onde não comer) ...','link':'http://viciadaemviajar.com/?p=81', 'dia':'07'},{'post':'Roteiro de viagem na Turquia, Gréc...','link':'http://viciadaemviajar.com/?p=80', 'dia':'20'},{'post':'Boas surpresas em Istambul: menos d...','link':'http://viciadaemviajar.com/?p=79', 'dia':'24'}],'6':[{'post':'Mesquitas, cisterna e compras no pr...','link':'http://viciadaemviajar.com/?p=78', 'dia':'29'}],'7':[{'post':'Istambul - O ritual místico dos de...','link':'http://viciadaemviajar.com/?p=76', 'dia':'02'},{'post':'Palácio Dolmabahçe, passeio no B�...','link':'http://viciadaemviajar.com/?p=75', 'dia':'08'},{'post':'Banho turco: eu gostei!...','link':'http://viciadaemviajar.com/?p=74', 'dia':'10'},{'post':'Palácio Topkapi e Mesquita Suleyma...','link':'http://viciadaemviajar.com/?p=73', 'dia':'15'},{'post':'Transporte público em Istambul...','link':'http://viciadaemviajar.com/?p=72', 'dia':'17'},{'post':'Como ir do aeroporto de Istambul at...','link':'http://viciadaemviajar.com/?p=71', 'dia':'19'},{'post':'Comer bem (e barato) em Istambul é...','link':'http://viciadaemviajar.com/?p=70', 'dia':'21'},{'post':'Turquia: as dicas gerais que você ...','link':'http://viciadaemviajar.com/?p=69', 'dia':'23'},{'post':'Dicas gerais sobre a Capadócia...','link':'http://viciadaemviajar.com/?p=68', 'dia':'25'},{'post':'Macau: das pedrinhas portuguesas ao...','link':'http://viciadaemviajar.com/?p=67', 'dia':'28'},{'post':'Museu de Goreme, grutas e vale de r...','link':'http://viciadaemviajar.com/?p=66', 'dia':'29'}],'8':[{'post':'Voar de balão na Capadócia é sen...','link':'http://viciadaemviajar.com/?p=65', 'dia':'01'},{'post':'Passear pelas profundezas de uma ci...','link':'http://viciadaemviajar.com/?p=64', 'dia':'03'},{'post':'Dois dias em Atenas - Parte 1...','link':'http://viciadaemviajar.com/?p=63', 'dia':'12'},{'post':'Dois dias em Atenas - Parte 2...','link':'http://viciadaemviajar.com/?p=61', 'dia':'13'},{'post':'Usando o transporte público em Ate...','link':'http://viciadaemviajar.com/?p=60', 'dia':'15'},{'post':'As delícias da gastronomia grega e...','link':'http://viciadaemviajar.com/?p=59', 'dia':'17'},{'post':'Como escolher ilhas gregas...','link':'http://viciadaemviajar.com/?p=58', 'dia':'20'},{'post':'Como comprar passagens de barco par...','link':'http://viciadaemviajar.com/?p=57', 'dia':'21'},{'post':'Milos = ilha da Grécia com praias ...','link':'http://viciadaemviajar.com/?p=56', 'dia':'22'},{'post':'Milos (Grécia): as praias de Tsigr...','link':'http://viciadaemviajar.com/?p=55', 'dia':'26'},{'post':'Passear de barco em Milos é progra...','link':'http://viciadaemviajar.com/?p=54', 'dia':'27'},{'post':'Dicas de restaurantes na ilha de Mi...','link':'http://viciadaemviajar.com/?p=53', 'dia':'29'},{'post':'Mykonos: praia de Platys Gialos e d...','link':'http://viciadaemviajar.com/?p=52', 'dia':'31'}],'9':[{'post':'Praia deserta, praia com gente e co...','link':'http://viciadaemviajar.com/?p=51', 'dia':'02'},{'post':'Mykonos Town: o lugar perfeito para...','link':'http://viciadaemviajar.com/?p=50', 'dia':'06'},{'post':'Mykonos: as praias de Psarou, Ornos...','link':'http://viciadaemviajar.com/?p=49', 'dia':'18'},{'post':'Mykonos também tem praia de nudism...','link':'http://viciadaemviajar.com/?p=48', 'dia':'19'},{'post':'Dicas de restaurantes em Mykonos, n...','link':'http://viciadaemviajar.com/?p=47', 'dia':'19'},{'post':'Santorini: entenda onde é melhor s...','link':'http://viciadaemviajar.com/?p=46', 'dia':'21'},{'post':'Santorini - aluguel de carro e as p...','link':'http://viciadaemviajar.com/?p=45', 'dia':'25'},{'post':'Santorini - O pôr-do-sol mais famo...','link':'http://viciadaemviajar.com/?p=44', 'dia':'25'},{'post':'Santorini - Praia de Perissa e desp...','link':'http://viciadaemviajar.com/?p=43', 'dia':'26'},{'post':'Dicas de restaurantes na ilha de Sa...','link':'http://viciadaemviajar.com/?p=42', 'dia':'27'}],'10':[{'post':'Áustria: como montar seu roteiro d...','link':'http://viciadaemviajar.com/?p=41', 'dia':'02'},{'post':'Hotéis baratos em Viena...','link':'http://viciadaemviajar.com/?p=39', 'dia':'10'},{'post':'Um passeio pelo centro de Viena...','link':'http://viciadaemviajar.com/?p=38', 'dia':'13'},{'post':'Desconto em atrações em Viena e d...','link':'http://viciadaemviajar.com/?p=37', 'dia':'14'},{'post':'Manhã de palácio e jardins, tarde...','link':'http://viciadaemviajar.com/?p=36', 'dia':'15'},{'post':'Viena: passeio no Palácio Belveder...','link':'http://viciadaemviajar.com/?p=35', 'dia':'17'},{'post':'Conheça um pouco da gastronomia au...','link':'http://viciadaemviajar.com/?p=34', 'dia':'19'},{'post':'Um passeio pelas cidades à beira d...','link':'http://viciadaemviajar.com/?p=33', 'dia':'21'},{'post':'Tudo que você precisa saber para v...','link':'http://viciadaemviajar.com/?p=32', 'dia':'24'}],'11':[{'post':'Roteiro para conhecer Salzburg em 2...','link':'http://viciadaemviajar.com/?p=31', 'dia':'05'},{'post':'Hospedagem, transporte e descontos ...','link':'http://viciadaemviajar.com/?p=30', 'dia':'06'},{'post':'Como comprar passagens de trem bara...','link':'http://viciadaemviajar.com/?p=29', 'dia':'08'},{'post':'Onde dormir dentro (dentro!!) do ae...','link':'http://viciadaemviajar.com/?p=28', 'dia':'10'},{'post':'Introdução à Colômbia - o povo ...','link':'http://viciadaemviajar.com/?p=27', 'dia':'12'},{'post':'Um passeio pelo centro de Medellín...','link':'http://viciadaemviajar.com/?p=25', 'dia':'20'},{'post':'Conhecendo os parques de Medellín...','link':'http://viciadaemviajar.com/?p=24', 'dia':'21'}],'12':[{'post':'Medellín - Onde se hospedar...','link':'http://viciadaemviajar.com/?p=23', 'dia':'02'},{'post':'Conheça um pouco da gastronomia co...','link':'http://viciadaemviajar.com/?p=22', 'dia':'03'},{'post':'O visual de Bogotá e de montanhas ...','link':'http://viciadaemviajar.com/?p=21', 'dia':'06'},{'post':'Um museu cheio de ouro em Bogotá...','link':'http://viciadaemviajar.com/?p=20', 'dia':'07'},{'post':'Roteiro a pé pelo centro colonial ...','link':'http://viciadaemviajar.com/?p=19', 'dia':'14'},{'post':'Dicas de restaurantes e hospedagem ...','link':'http://viciadaemviajar.com/?p=18', 'dia':'15'},{'post':'Descubra qual praia do Rio de Janei...','link':'http://viciadaemviajar.com/?p=17', 'dia':'19'}]},'2013':{'1':[{'post':'Forte de Copacabana: a combinação...','link':'http://viciadaemviajar.com/?p=15', 'dia':'03'},{'post':'Eu testei: serviço de aluguel de b...','link':'http://viciadaemviajar.com/?p=14', 'dia':'04'},{'post':'Lagoa Rodrigo de Freitas: garantia ...','link':'http://viciadaemviajar.com/?p=12', 'dia':'05'},{'post':'Entrevista na Rádio CBN...','link':'http://viciadaemviajar.com/?p=11', 'dia':'06'},{'post':'O Rio visto do Forte do Leme...','link':'http://viciadaemviajar.com/?p=10', 'dia':'07'},{'post':'Os melhores bares e botecos do Rio ...','link':'http://viciadaemviajar.com/?p=9', 'dia':'08'},{'post':'Parque da Catacumba: dica de trilha...','link':'http://viciadaemviajar.com/?p=8', 'dia':'11'},{'post':'Para fugir do óbvio no Rio de Jane...','link':'http://viciadaemviajar.com/?p=7', 'dia':'11'},{'post':'Dois parques para passear no Jardim...','link':'http://viciadaemviajar.com/?p=6', 'dia':'14'}],'3':[{'post':'As atrações mais famosas do Rio: ...','link':'http://viciadaemviajar.com/?p=517', 'dia':'27'},{'post':'Dicas de compras no Rio de Janeiro...','link':'http://viciadaemviajar.com/?p=710', 'dia':'27'},{'post':'Um passeio pelo Centro do Rio de Ja...','link':'http://viciadaemviajar.com/?p=757', 'dia':'28'},{'post':'Dicas de restaurantes, pizzarias e ...','link':'http://viciadaemviajar.com/?p=775', 'dia':'28'}],'4':[{'post':'Delícias gastronômicas da orla do...','link':'http://viciadaemviajar.com/?p=807', 'dia':'05'},{'post':'Rio: onde ficar, como usar o transp...','link':'http://viciadaemviajar.com/?p=814', 'dia':'14'},{'post':'Dica de bate-volta a partir do Rio:...','link':'http://viciadaemviajar.com/?p=826', 'dia':'15'},{'post':'Como montar seu roteiro de viagem p...','link':'http://viciadaemviajar.com/?p=1143', 'dia':'16'},{'post':'A praia mais bonita de Salvador e o...','link':'http://viciadaemviajar.com/?p=1162', 'dia':'18'},{'post':'Passeio pelo Pelourinho e centro hi...','link':'http://viciadaemviajar.com/?p=1177', 'dia':'22'},{'post':'As melhores moquecas e outras delí...','link':'http://viciadaemviajar.com/?p=1198', 'dia':'25'}],'5':[{'post':'Aluguel de carro barato no Brasil...','link':'http://viciadaemviajar.com/?p=1229', 'dia':'01'},{'post':'Florianópolis - quando ir, onde se...','link':'http://viciadaemviajar.com/?p=1220', 'dia':'02'},{'post':'Florianópolis - Jurerê, fortaleza...','link':'http://viciadaemviajar.com/?p=1250', 'dia':'04'},{'post':'Florianópolis - Passeio de barco p...','link':'http://viciadaemviajar.com/?p=1272', 'dia':'07'},{'post':'Florianópolis - Dia 3 - Praia de L...','link':'http://viciadaemviajar.com/?p=1302', 'dia':'13'},{'post':'Florianópolis - Dia 4 - Praia Mole...','link':'http://viciadaemviajar.com/?p=1311', 'dia':'16'},{'post':'Como tirar visto para os Estados Un...','link':'http://viciadaemviajar.com/?p=1329', 'dia':'21'},{'post':'Roteiro pelo Centro de Florianópol...','link':'http://viciadaemviajar.com/?p=1341', 'dia':'24'},{'post':'Dicas de restaurantes e delícias e...','link':'http://viciadaemviajar.com/?p=1364', 'dia':'31'}],'6':[{'post':'Florianópolis - Roteiro de quatro ...','link':'http://viciadaemviajar.com/?p=1377', 'dia':'01'},{'post':'Nova York - Atrações grátis na p...','link':'http://viciadaemviajar.com/?p=1395', 'dia':'05'},{'post':'Nova York - Aeroportos, empresas a�...','link':'http://viciadaemviajar.com/?p=1384', 'dia':'26'},{'post':'Roteiros em Nova York: ONU, Grand C...','link':'http://viciadaemviajar.com/?p=1411', 'dia':'27'},{'post':'Compras em NY - o outlet Jersey Gar...','link':'http://viciadaemviajar.com/?p=1447', 'dia':'29'},{'post':'Compras em Nova York - Century 21, ...','link':'http://viciadaemviajar.com/?p=1462', 'dia':'30'}],'7':[{'post':'Show de jazz em Nova York: Village ...','link':'http://viciadaemviajar.com/?p=1476', 'dia':'20'},{'post':'Roteiro em Nova York - Moma e atra�...','link':'http://viciadaemviajar.com/?p=1492', 'dia':'21'}],'8':[{'post':'Nova York: Um dia no MET e no Centr...','link':'http://viciadaemviajar.com/?p=1528', 'dia':'11'},{'post':'Manias e curiosidades do povo de No...','link':'http://viciadaemviajar.com/?p=1554', 'dia':'12'},{'post':'Roteiros em Nova York - Porta-aviõ...','link':'http://viciadaemviajar.com/?p=1558', 'dia':'25'},{'post':'Nova York - Como é um culto com m�...','link':'http://viciadaemviajar.com/?p=1602', 'dia':'26'},{'post':'Roteiro em NY - Passeio no Brooklyn...','link':'http://viciadaemviajar.com/?p=1593', 'dia':'27'},{'post':'Nova York - Passeio grátis para ve...','link':'http://viciadaemviajar.com/?p=1636', 'dia':'28'}],'9':[{'post':'Roteiro em Nova York - Passeio no F...','link':'http://viciadaemviajar.com/?p=1627', 'dia':'01'},{'post':'O melhor hambúrguer de Nova York...','link':'http://viciadaemviajar.com/?p=1677', 'dia':'15'},{'post':'Como andar de metrô em Nova York...','link':'http://viciadaemviajar.com/?p=1686', 'dia':'18'},{'post':'Como andar de ônibus em Nova York...','link':'http://viciadaemviajar.com/?p=1703', 'dia':'27'},{'post':'Restaurantes, lanchonetes e comidas...','link':'http://viciadaemviajar.com/?p=1722', 'dia':'29'}],'10':[{'post':'Avaliações de hospedagem podem re...','link':'http://viciadaemviajar.com/?p=1764', 'dia':'04'},{'post':'Passeio perto de São Paulo - Templ...','link':'http://viciadaemviajar.com/?p=1772', 'dia':'06'},{'post':'Nova York - Como comprar ingressos ...','link':'http://viciadaemviajar.com/?p=1802', 'dia':'13'},{'post':'Meu roteiro de 7 dias de viagem em ...','link':'http://viciadaemviajar.com/?p=1817', 'dia':'27'},{'post':'Nova York - Dicas de guias de viage...','link':'http://viciadaemviajar.com/?p=1829', 'dia':'29'}],'11':[{'post':'Fernando de Noronha - Um novo point...','link':'http://viciadaemviajar.com/?p=1843', 'dia':'01'},{'post':'Passeio perto de São Paulo: Embu d...','link':'http://viciadaemviajar.com/?p=1867', 'dia':'03'},{'post':'Como assistir a um jogo de baseball...','link':'http://viciadaemviajar.com/?p=1899', 'dia':'15'},{'post':'São Paulo - Aprenda sobre a ditadu...','link':'http://viciadaemviajar.com/?p=1917', 'dia':'18'},{'post':'Fernando de Noronha - Trilha e pisc...','link':'http://viciadaemviajar.com/?p=1849', 'dia':'26'}]},'2014':{'1':[{'post':'Boston - Principais atrações em m...','link':'http://viciadaemviajar.com/?p=1941', 'dia':'03'},{'post':'Boston - Onde ficar, onde comer e d...','link':'http://viciadaemviajar.com/?p=1976', 'dia':'05'},{'post':'Viagem de ônibus entre Nova York e...','link':'http://viciadaemviajar.com/?p=1984', 'dia':'09'},{'post':'Parceria com empresa de venda de in...','link':'http://viciadaemviajar.com/?p=1994', 'dia':'11'},{'post':'Passeio em São Paulo: Centro de Me...','link':'http://viciadaemviajar.com/?p=2023', 'dia':'12'}],'2':[{'post':'Como economizar na sua viagem...','link':'http://viciadaemviajar.com/?p=2104', 'dia':'01'},{'post':'Viagem perto do Rio de Janeiro: Ter...','link':'http://viciadaemviajar.com/?p=2147', 'dia':'10'}],'3':[{'post':'São Paulo: Vista bonita e cachoeir...','link':'http://viciadaemviajar.com/?p=2179', 'dia':'11'},{'post':'Como andar de ônibus e metrô em S...','link':'http://viciadaemviajar.com/?p=2200', 'dia':'13'}],'4':[{'post':'Como montar seu roteiro de 4 dias d...','link':'http://viciadaemviajar.com/?p=2219', 'dia':'10'},{'post':'Ilha Grande (RJ) - Leia antes de es...','link':'http://viciadaemviajar.com/?p=2233', 'dia':'14'},{'post':'O passeio de barco mais bonito de I...','link':'http://viciadaemviajar.com/?p=2248', 'dia':'16'}],'5':[{'post':'Em Ilha Grande, Lopes Mendes é pra...','link':'http://viciadaemviajar.com/?p=2267', 'dia':'14'},{'post':'Ilha Grande: roteiro tem praias, ru...','link':'http://viciadaemviajar.com/?p=2276', 'dia':'15'},{'post':'Ilha Grande (RJ): Trilha para a Cac...','link':'http://viciadaemviajar.com/?p=2293', 'dia':'25'},{'post':'Copa do Mundo 2014: Onde se hospeda...','link':'http://viciadaemviajar.com/?p=2314', 'dia':'25'}],'6':[{'post':'Banho em praias perto da Vila de Ab...','link':'http://viciadaemviajar.com/?p=2326', 'dia':'20'},{'post':'Onde comer em Ilha Grande (RJ)...','link':'http://viciadaemviajar.com/?p=2338', 'dia':'24'}],'7':[{'post':'Ilha Grande (RJ) - Onde ficar e com...','link':'http://viciadaemviajar.com/?p=2350', 'dia':'03'},{'post':'Cataratas do Iguaçu: Você tem que...','link':'http://viciadaemviajar.com/?p=2364', 'dia':'12'},{'post':'Cataratas do Iguaçu - o lado brasi...','link':'http://viciadaemviajar.com/?p=2376', 'dia':'27'}],'8':[{'post':'Barcelona em 6 dias: a viagem do me...','link':'http://viciadaemviajar.com/?p=2408', 'dia':'26'},{'post':'Barcelona em 6 dias: a viagem do me...','link':'http://viciadaemviajar.com/?p=2421', 'dia':'27'}],'9':[{'post':'Cataratas argentinas: Não perca o ...','link':'http://viciadaemviajar.com/?p=2460', 'dia':'18'},{'post':'Foz do Iguaçu - Parque das Aves é...','link':'http://viciadaemviajar.com/?p=2479', 'dia':'24'},{'post':'Onde comer em Foz do Iguaçu e Puer...','link':'http://viciadaemviajar.com/?p=2509', 'dia':'24'},{'post':'Pirineus: roteiro de 3 dias com cac...','link':'http://viciadaemviajar.com/?p=2446', 'dia':'26'}],'10':[{'post':'Templo budista de Foz do Iguaçu...','link':'http://viciadaemviajar.com/?p=2572', 'dia':'05'},{'post':'Compras em Foz do Iguaçu, Puerto I...','link':'http://viciadaemviajar.com/?p=2588', 'dia':'15'},{'post':'Salvador (BA): Um passeio no novo c...','link':'http://viciadaemviajar.com/?p=2503', 'dia':'17'},{'post':'Foz do Iguaçu: onde ficar...','link':'http://www.viciadaemviajar.com/?p=2619', 'dia':'19'},{'post':'Foz do Iguaçu: como economizar no ...','link':'http://www.viciadaemviajar.com/?p=2629', 'dia':'20'},{'post':'Sendero Macuco: Cachoeira alternati...','link':'http://www.viciadaemviajar.com/?p=2656', 'dia':'25'},{'post':'Trilha no Rio de Janeiro: Vistas in...','link':'http://www.viciadaemviajar.com/?p=2702', 'dia':'28'},{'post':'Foz do Iguaçu: Passeio na Usina Hi...','link':'http://www.viciadaemviajar.com/?p=2707', 'dia':'30'}],'11':[{'post':'Chile: Vinícola e boa comida em do...','link':'http://www.viciadaemviajar.com/?p=2747', 'dia':'04'},{'post':'Roteiro de 5 dias de viagem em Foz ...','link':'http://viciadaemviajar.com/?p=2499', 'dia':'06'},{'post':'Atacama (Chile): Dicas de transport...','link':'http://www.viciadaemviajar.com/?p=2772', 'dia':'11'},{'post':'Rio: Trilha, Cachoeira do Chuveiro,...','link':'http://www.viciadaemviajar.com/?p=2797', 'dia':'13'},{'post':'Roteiro de 4 dias viagem com os mel...','link':'http://www.viciadaemviajar.com/?p=2826', 'dia':'18'},{'post':'Deserto do Atacama (Chile) - O que ...','link':'http://www.viciadaemviajar.com/?p=2751', 'dia':'20'},{'post':'Onde ficar em São Pedro da Serra e...','link':'http://www.viciadaemviajar.com/?p=2888', 'dia':'25'},{'post':'Roteiro de 3 dias de cachoeiras em ...','link':'http://www.viciadaemviajar.com/?p=2904', 'dia':'27'}],'12':[{'post':'Rio: Ônibus para os aeroportos do ...','link':'http://www.viciadaemviajar.com/?p=2926', 'dia':'02'},{'post':'Bons restaurantes em Lumiar e São ...','link':'http://www.viciadaemviajar.com/?p=2954', 'dia':'04'},{'post':'Rio: Três dicas de points grátis ...','link':'http://www.viciadaemviajar.com/?p=2970', 'dia':'09'},{'post':'As 5 igrejas mais bonitas do mundo ...','link':'http://www.viciadaemviajar.com/?p=2998', 'dia':'11'},{'post':'As melhores rodas de samba do Rio d...','link':'http://www.viciadaemviajar.com/?p=3056', 'dia':'16'},{'post':'As 5 cachoeiras mais bonitas do Bra...','link':'http://www.viciadaemviajar.com/?p=3078', 'dia':'18'},{'post':'Como economizar com voos de parceir...','link':'http://www.viciadaemviajar.com/?p=3107', 'dia':'23'},{'post':'Três belos templos budistas para c...','link':'http://www.viciadaemviajar.com/?p=3131', 'dia':'25'}]},'2015':{'1':[{'post':'As viagens de 2015: Califórnia e C...','link':'http://www.viciadaemviajar.com/?p=3158', 'dia':'02'},{'post':'Rio de Janeiro: A bela vista da tri...','link':'http://www.viciadaemviajar.com/?p=3168', 'dia':'06'},{'post':'Bares do Rio de Janeiro: Os melhore...','link':'http://www.viciadaemviajar.com/?p=3193', 'dia':'08'},{'post':'As 5 praias mais bonitas do Brasil ...','link':'http://www.viciadaemviajar.com/?p=3215', 'dia':'14'},{'post':'Carnaval no Rio: Veja a programaç�...','link':'http://www.viciadaemviajar.com/?p=3259', 'dia':'18'},{'post':'Rio de Janeiro: Dicas de restaurant...','link':'http://www.viciadaemviajar.com/?p=3250', 'dia':'22'},{'post':'Passeio grátis no Rio de Janeiro: ...','link':'http://www.viciadaemviajar.com/?p=3318', 'dia':'27'}],'2':[{'post':'O que fazer no Rio de Janeiro com c...','link':'http://www.viciadaemviajar.com/?p=3335', 'dia':'03'},{'post':'Empanadas argentinas são a nova di...','link':'http://www.viciadaemviajar.com/?p=3357', 'dia':'10'},{'post':'Chapada dos Veadeiros (GO): como ch...','link':'http://www.viciadaemviajar.com/?p=3365', 'dia':'20'},{'post':'Chapada dos Veadeiros (GO): Meu rot...','link':'http://www.viciadaemviajar.com/?p=3374', 'dia':'24'},{'post':'Dólar alto: especialista diz como ...','link':'http://www.viciadaemviajar.com/?p=3422', 'dia':'26'}],'3':[{'post':'Chapada dos Veadeiros: Trilha fáci...','link':'http://www.viciadaemviajar.com/?p=3381', 'dia':'03'},{'post':'Vale da Lua: uma das atrações mai...','link':'http://www.viciadaemviajar.com/?p=3398', 'dia':'12'},{'post':'Novo site do Google ajuda a achar p...','link':'http://www.viciadaemviajar.com/?p=3439', 'dia':'19'},{'post':'Aluguel de carro nos Estados Unidos...','link':'http://www.viciadaemviajar.com/?p=3447', 'dia':'25'}],'4':[{'post':'Como andar de transporte público e...','link':'http://viciadaemviajar.com/?p=2000', 'dia':'04'},{'post':'Passeio perto de San Francisco: Vin...','link':'http://www.viciadaemviajar.com/?p=3496', 'dia':'12'},{'post':'Onde ficar (e onde não ficar) em S...','link':'http://www.viciadaemviajar.com/?p=3520', 'dia':'19'},{'post':'Ilha de Alcatraz, um dos melhores p...','link':'http://www.viciadaemviajar.com/?p=3526', 'dia':'20'},{'post':'Cachoeira do Segredo, uma das mais ...','link':'http://www.viciadaemviajar.com/?p=3575', 'dia':'24'},{'post':'Onde comer na Chapada dos Veadeiros...','link':'http://www.viciadaemviajar.com/?p=3564', 'dia':'30'}],'5':[{'post':'O que fazer no primeiro dia de viag...','link':'http://www.viciadaemviajar.com/?p=3630', 'dia':'12'},{'post':'Cachoeira do Raizama: trilha fácil...','link':'http://www.viciadaemviajar.com/?p=3669', 'dia':'14'},{'post':'San Francisco: Um tour gastronômic...','link':'http://www.viciadaemviajar.com/?p=3603', 'dia':'21'},{'post':'Trilha do Salto,  maravilha do Parq...','link':'http://www.viciadaemviajar.com/?p=3716', 'dia':'24'},{'post':'Perto de San Francisco: Árvores gi...','link':'http://www.viciadaemviajar.com/?p=3743', 'dia':'27'}],'6':[{'post':'Cataratas dos Couros: atração del...','link':'http://www.viciadaemviajar.com/?p=3930', 'dia':'09'},{'post':'Baseball em San Francisco: Visita a...','link':'http://www.viciadaemviajar.com/?p=3972', 'dia':'11'},{'post':'Onde é melhor comprar em San Franc...','link':'http://www.viciadaemviajar.com/?p=3942', 'dia':'15'},{'post':'São Francisco com crianças: Explo...','link':'http://www.viciadaemviajar.com/?p=4005', 'dia':'17'},{'post':'Passeio de bicicleta de San Francis...','link':'http://www.viciadaemviajar.com/?p=4039', 'dia':'19'},{'post':'Food Trucks: O melhor da gastronomi...','link':'http://www.viciadaemviajar.com/?p=3964', 'dia':'23'},{'post':'Onde comer (e onde não comer) em P...','link':'http://www.viciadaemviajar.com/?p=4089', 'dia':'30'}],'7':[{'post':'Inhotim e Belo Horizonte: Roteiro d...','link':'http://www.viciadaemviajar.com/?p=4135', 'dia':'04'},{'post':'Golden Gate Park: meu lugar preferi...','link':'http://www.viciadaemviajar.com/?p=4163', 'dia':'10'},{'post':'Conceição do Ibitipoca: belas cac...','link':'http://www.viciadaemviajar.com/?p=4332', 'dia':'11'},{'post':'Haight Ashbury: um passeio rápido ...','link':'http://www.viciadaemviajar.com/?p=4395', 'dia':'13'},{'post':'San Francisco: belas casas e vistas...','link':'http://www.viciadaemviajar.com/?p=4411', 'dia':'15'},{'post':'San Francisco: 3 maneiras de passea...','link':'http://www.viciadaemviajar.com/?p=4436', 'dia':'21'},{'post':'O que fazer em 1 dia de viagem a Be...','link':'http://www.viciadaemviajar.com/?p=4707', 'dia':'23'}],'8':[{'post':'Onde comer (e onde não comer) em S...','link':'http://www.viciadaemviajar.com/?p=4886', 'dia':'05'},{'post':'Mission: monte seu roteiro no bairr...','link':'http://www.viciadaemviajar.com/?p=4939', 'dia':'12'},{'post':'Como ir do aeroporto de Confins a B...','link':'http://www.viciadaemviajar.com/?p=4963', 'dia':'15'},{'post':'Viagem na Califórnia de carro - pa...','link':'http://www.viciadaemviajar.com/?p=4972', 'dia':'17'},{'post':'San Francisco: passeio no Asian Art...','link':'http://www.viciadaemviajar.com/?p=4974', 'dia':'19'},{'post':'Onde comer (e beber!) em Belo Horiz...','link':'http://www.viciadaemviajar.com/?p=5016', 'dia':'21'},{'post':'Viagem de carro na Califórnia - 2:...','link':'http://www.viciadaemviajar.com/?p=5052', 'dia':'25'},{'post':'Viagem de carro na Califórnia - pa...','link':'http://www.viciadaemviajar.com/?p=5093', 'dia':'27'}],'9':[{'post':'Holy Virgin Cathedral: igreja russa...','link':'http://www.viciadaemviajar.com/?p=5115', 'dia':'01'},{'post':'Inhotim: as melhores atrações par...','link':'http://www.viciadaemviajar.com/?p=5039', 'dia':'05'},{'post':'Yosemite: Como chegar, quando ir, q...','link':'http://www.viciadaemviajar.com/?p=5179', 'dia':'08'},{'post':'Roteiro de 2 dias de viagem a Yosem...','link':'http://www.viciadaemviajar.com/?p=5207', 'dia':'15'},{'post':'Roteiro de 2 dias de viagem a Yosem...','link':'http://www.viciadaemviajar.com/?p=5241', 'dia':'19'},{'post':'San Francisco: Roteiro por Chinatow...','link':'http://www.viciadaemviajar.com/?p=5266', 'dia':'20'},{'post':'As melhores praias de Paraty (RJ)...','link':'http://www.viciadaemviajar.com/?p=5299', 'dia':'24'},{'post':'O melhor passeio de barco de Paraty...','link':'http://www.viciadaemviajar.com/?p=5341', 'dia':'27'}],'10':[{'post':'Paraty: Onde ficar, o que fazer, qu...','link':'http://www.viciadaemviajar.com/?p=5367', 'dia':'03'},{'post':'Como economizar em San Francisco: 9...','link':'http://www.viciadaemviajar.com/?p=5392', 'dia':'15'},{'post':'Roteiro de 2 dias de viagem a Los A...','link':'http://www.viciadaemviajar.com/?p=5423', 'dia':'24'},{'post':'5 dicas práticas para economizar e...','link':'http://www.viciadaemviajar.com/?p=5419', 'dia':'25'},{'post':'Búzios (RJ) - Quando ir, como cheg...','link':'http://www.viciadaemviajar.com/?p=5476', 'dia':'26'},{'post':'Búzios (RJ) - Onde comer...','link':'http://www.viciadaemviajar.com/?p=5486', 'dia':'28'},{'post':'Roteiro de 2 dias de viagem a Los A...','link':'http://www.viciadaemviajar.com/?p=5508', 'dia':'30'}],'11':[{'post':'Como comprar ingressos para jogo de...','link':'http://www.viciadaemviajar.com/?p=5557', 'dia':'03'},{'post':'Los Angeles: Onde ficar e como circ...','link':'http://www.viciadaemviajar.com/?p=5577', 'dia':'05'},{'post':'Búzios (RJ) - 5 dicas de belas pra...','link':'http://www.viciadaemviajar.com/?p=5535', 'dia':'08'},{'post':'San Francisco: Roteiros de viagem d...','link':'http://www.viciadaemviajar.com/?p=5594', 'dia':'11'},{'post':'Serra da Bocaina: a melhor viagem p...','link':'http://www.viciadaemviajar.com/?p=5618', 'dia':'16'}],'12':[{'post':'Serra da Bocaina (SP): As melhores ...','link':'http://www.viciadaemviajar.com/?p=5673', 'dia':'06'},{'post':'11 dicas para mulheres que querem v...','link':'http://www.viciadaemviajar.com/?p=5713', 'dia':'10'},{'post':'Belém (PA): Roteiro de 3 dias de v...','link':'http://www.viciadaemviajar.com/?p=5726', 'dia':'16'},{'post':'Onde comer as delícias de Belém (...','link':'http://www.viciadaemviajar.com/?p=5751', 'dia':'30'}]},'2016':{'1':[{'post':'Belém (PA): Roteiro para visitar a...','link':'http://www.viciadaemviajar.com/?p=5807', 'dia':'11'},{'post':'Praias de Arraial do Cabo: visite o...','link':'http://www.viciadaemviajar.com/?p=5876', 'dia':'17'},{'post':'Arraial do Cabo: como é o passeio ...','link':'http://www.viciadaemviajar.com/?p=5896', 'dia':'21'}]}};	
+	</script>
+	<script src="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/js/funcoes.js" type="text/javascript"></script>
+	<script src="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/js/jquery.center.min.js" type="text/javascript"></script>
+	<style>#outter-header #box-destaque .img-01 {background: url('http://www.viciadaemviajar.com/wp-content/uploads/slider/1.jpg') top center no-repeat;}#outter-header #box-destaque .img-02 {background: url('http://www.viciadaemviajar.com/wp-content/uploads/slider/20.jpg') top center no-repeat;}#outter-header #box-destaque .img-03 {background: url('http://www.viciadaemviajar.com/wp-content/uploads/slider/7.JPG') top center no-repeat;}</style>	<script type="text/javascript">
+		
+		$(document).ready(function() {
+			$('.conteudo-post img').hide();
+			$('.wp-caption-text').css('width','500px');
+			$('.wp-caption').css('width','550px');
+		});
+		
+		
+		$(window).load(function(){
+					});
+	</script>
+	
+</head>
+<body class="home blog single-author">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.3&appId=117435225097089";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="lightbox mailmarketing">
+	<div class="lightbox-content">
+		<div class="content">
+			<a class="close"><span class="off"></span></a>
+			<p>
+				Seu e-mail foi cadastrado com sucesso. Aguarde para receber as novidades do blog.
+			</p>
+		</div>
+	</div>
+</div>
+<div class="lightbox comentario">
+	<div class="lightbox-content">
+		<div class="content">
+			<a class="close"><span class="off"></span></a>
+			<p>
+				Comentário enviado com sucesso! Ele será exibido após análise dos administradores do blog.
+			</p>
+		</div>
+	</div>
+</div>
+<div id="outter">
+	
+	<div id="outter-header" class="bg">
+		
+		<!--div class="bordas"></div>
+		<div class="bg-header"></div>
+		<div id="img-preloader"></div-->
+		<div id="box-destaque">
+			<div class="imgs img-01"></div><div class="imgs img-02"></div><div class="imgs img-03"></div>			<div class="bg-destaque"></div>
+		</div>
+		
+		<div id="header">
+			<nav class="main-nav">
+				<a href="javascript:;" id="link-destinos" class="link-destinos abrir-menu2">Destinos</a>
+				<div id="menu-destinos" class="menu-header menu-destinos-menu-container"><ul id="menu-destinos-menu" class="menu"><li id="menu-item-3857" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3857"><a href="http://www.viciadaemviajar.com/category/america-do-sul/">América do Sul</a>
+<ul class="sub-menu">
+	<li id="menu-item-3858" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3858"><a href="http://www.viciadaemviajar.com/category/america-do-sul/argentina/">Argentina</a></li>
+	<li id="menu-item-3859" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3859"><a href="http://www.viciadaemviajar.com/category/america-do-sul/chile/">Chile</a></li>
+	<li id="menu-item-3860" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3860"><a href="http://www.viciadaemviajar.com/category/america-do-sul/colombia/">Colômbia</a></li>
+</ul>
+</li>
+<li id="menu-item-3861" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3861"><a href="http://www.viciadaemviajar.com/category/asia/">Ásia</a>
+<ul class="sub-menu">
+	<li id="menu-item-3862" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3862"><a href="http://www.viciadaemviajar.com/category/asia/china/">China</a></li>
+	<li id="menu-item-3863" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3863"><a href="http://www.viciadaemviajar.com/category/asia/hong-kong/">Hong Kong</a></li>
+	<li id="menu-item-3864" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3864"><a href="http://www.viciadaemviajar.com/category/asia/macau/">Macau</a></li>
+</ul>
+</li>
+<li id="menu-item-3923" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3923"><a href="http://www.viciadaemviajar.com/brasil-litoral/">Brasil – Litoral</a></li>
+<li id="menu-item-3924" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3924"><a href="http://www.viciadaemviajar.com/brasil-outras-cidades/">Brasil – Outras cidades</a></li>
+<li id="menu-item-3929" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-3929"><a href="http://www.viciadaemviajar.com/category/caribe/">Caribe</a></li>
+<li id="menu-item-3892" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children menu-item-3892"><a href="http://www.viciadaemviajar.com/category/estados-unidos/">Estados Unidos</a>
+<ul class="sub-menu">
+	<li id="menu-item-5111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5111"><a href="http://www.viciadaemviajar.com/category/estados-unidos/big-sur/">Big Sur</a></li>
+	<li id="menu-item-3893" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3893"><a href="http://www.viciadaemviajar.com/category/estados-unidos/boston/">Boston</a></li>
+	<li id="menu-item-5112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5112"><a href="http://www.viciadaemviajar.com/category/estados-unidos/carmel-by-the-sea-estados-unidos/">Carmel-by-the-Sea</a></li>
+	<li id="menu-item-5427" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5427"><a href="http://www.viciadaemviajar.com/category/estados-unidos/los-angeles/">Los Angeles</a></li>
+	<li id="menu-item-5113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5113"><a href="http://www.viciadaemviajar.com/category/estados-unidos/monterey/">Monterey</a></li>
+	<li id="menu-item-3894" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3894"><a href="http://www.viciadaemviajar.com/category/estados-unidos/napa/">Napa</a></li>
+	<li id="menu-item-3895" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3895"><a href="http://www.viciadaemviajar.com/category/estados-unidos/nova-york/">Nova York</a></li>
+	<li id="menu-item-5114" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5114"><a href="http://www.viciadaemviajar.com/category/estados-unidos/paso-robles/">Paso Robles</a></li>
+	<li id="menu-item-3914" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3914"><a href="http://www.viciadaemviajar.com/category/estados-unidos/san-francisco/">San Francisco</a></li>
+	<li id="menu-item-4276" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-4276"><a href="http://www.viciadaemviajar.com/category/estados-unidos/sausalito/">Sausalito</a></li>
+	<li id="menu-item-3915" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3915"><a href="http://www.viciadaemviajar.com/category/estados-unidos/sonoma/">Sonoma</a></li>
+	<li id="menu-item-5555" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5555"><a href="http://www.viciadaemviajar.com/category/estados-unidos/yosemite/">Yosemite</a></li>
+</ul>
+</li>
+<li id="menu-item-3905" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3905"><a href="#">Europa (de A a L)</a>
+<ul class="sub-menu">
+	<li id="menu-item-3896" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3896"><a href="http://www.viciadaemviajar.com/category/europa/alemanha/">Alemanha</a></li>
+	<li id="menu-item-3897" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3897"><a href="http://www.viciadaemviajar.com/category/europa/austria/">Áustria</a></li>
+	<li id="menu-item-3898" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3898"><a href="http://www.viciadaemviajar.com/category/europa/belgica/">Bélgica</a></li>
+	<li id="menu-item-3899" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3899"><a href="http://www.viciadaemviajar.com/category/europa/espanha/">Espanha</a></li>
+	<li id="menu-item-3900" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3900"><a href="http://www.viciadaemviajar.com/category/europa/franca/">França</a></li>
+	<li id="menu-item-3901" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3901"><a href="http://www.viciadaemviajar.com/category/europa/grecia/">Grécia</a></li>
+	<li id="menu-item-3902" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3902"><a href="http://www.viciadaemviajar.com/category/europa/holanda/">Holanda</a></li>
+	<li id="menu-item-3903" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3903"><a href="http://www.viciadaemviajar.com/category/europa/inglaterra/">Inglaterra</a></li>
+	<li id="menu-item-3904" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3904"><a href="http://www.viciadaemviajar.com/category/europa/italia/">Itália</a></li>
+</ul>
+</li>
+<li id="menu-item-3906" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children menu-item-3906"><a href="#">Europa (de M a Z)</a>
+<ul class="sub-menu">
+	<li id="menu-item-3916" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3916"><a href="http://www.viciadaemviajar.com/category/europa/pais-de-gales/">País de Gales</a></li>
+	<li id="menu-item-3917" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-3917"><a href="http://www.viciadaemviajar.com/category/europa/turquia/">Turquia</a></li>
+</ul>
+</li>
+</ul></div>
+				<a href="javascript:;" id="link-main" class="link-menu abrir-menu">menu</a>
+				<div id="menu-main" class="menu-header menu-main-menu-container"><ul id="menu-main-menu" class="menu"><li id="menu-item-2092" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2092"><a href="http://www.viciadaemviajar.com/sobre-o-blog/">Sobre o blog</a></li>
+<li id="menu-item-2093" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2093"><a href="http://www.viciadaemviajar.com/termo-de-isencao-de-responsabilidade/">Isenção de Responsabilidade</a></li>
+<li id="menu-item-2094" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-2094"><a href="http://www.viciadaemviajar.com/sobre-a-nossa-politica-de-anuncios-e-publicacao-de-posts/">Anúncios e publicações</a></li>
+</ul></div>			</nav>
+			<div class="redes-sociais-bg">
+				<ul>
+					<li class="item-redes-socias"><a href="https://www.facebook.com/pages/Viciada-em-Viajar/133088103524530?ref=ts&fref=ts" class="facebook" target="_blank">facebook</a></li>
+					<li class="item-redes-socias"><a href="https://twitter.com/viciadaemviajar" class="twitter" target="_blank">twitter</a></li>
+					<li class="item-redes-socias"><a href="http://www.viciadaemviajar.com/feed/" class="feed" target="_blank">feed</a></li>
+				</ul>
+			</div>
+			<div class="nav-imagens">
+				
+			<ul>
+				<li><a id="step-01" rel="img-01" class="sel">steps</a></li><li><a id="step-02" rel="img-02" >steps</a></li><li><a id="step-03" rel="img-03" >steps</a></li>
+			</ul>			</div>
+			<h1><a href="http://viciadaemviajar.com/">Viciada em Viajar</a></h1>
+			
+		</div><!-- ./#header -->
+		
+	</div><!-- ./#outter-header -->
+	
+	<div id="outter-content">
+		
+		<div id="content">
+			
+			<div class="border-top"></div>
+			
+			
+	<div id="box-conteudo">
+
+								<div class="box-post">
+				<div class="box-autor">
+			<div class="box-autor-outter">
+				<a>Marcelle Ribeiro</a>
+				<div id="box-autor-descricao">
+					<h3>Marcelle Ribeiro, <span>jornalista e viajante</span></h3>
+					<p>Já acampei de mochila, barraca e saco de dormir. Já dividi banheiro com desconhecido na Europa (mas nunca o quarto!). Já fiquei em pousadinha simples na praia, mas também já fiquei em hotelão e em all-inclusive. Não posso saber que estarei de folga num feriado que já corro para os sites das companhias aéreas. Não curto muito excursão nem city tour e gosto de decidir quando e como vou fazer os passeios que quero.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="conteudo">
+						<h1>
+				<a href="http://www.viciadaemviajar.com/arraial-do-cabo-como-e-o-passeio-de-barco-por-aguas-cristalinas/" title="Link permanente para Arraial do Cabo: como é o passeio de barco por águas cristalinas" rel="bookmark">Arraial do Cabo: como é o passeio de barco por águas cristalinas</a>
+			</h1>
+						
+			<p class="data">21 de janeiro de 2016, por <a class="por-autor">Marcelle Ribeiro</a></p>
+			
+						<div class="conteudo-post">
+				<p>Uma solução para quem tem pouco tempo e quer aproveitar as melhores praias de Arraial do Cabo (RJ) é passear de barco pela região. Em apenas um dia, você consegue conhecer lugares espetaculares e por um preço bastante acessível.</p>
+<p>Antes de tudo, é preciso escolher a empresa que você vai contratar. Opções não faltam: basta caminhar pela praia dos Anjos, de onde saem os barcos, que você será abordado por funcionários das agências de turismo. É possível visitar as praias em escunas enormes, com música ao vivo, dezenas de pessoas e até pole dance, ou em barcos menores com até 20 passageiros.</p>
+<p>Para nós, o importante era ter um barco não muito grande, que coubesse poucas pessoas, e que tivesse uma boa trilha sonora. Afinal, ninguém merece ouvir músicas que você não gosta por várias horas! Além disso, com pouca gente na embarcação, perde-se menos tempo esperando a galera sair do barco nas paradas.</p>
+<div id="attachment_5903" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3302.jpg"><img class="size-large wp-image-5903" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3302-1024x768.jpg" alt="Maridão, sogrinha e sogrinho curtindo o barco. Foto:  Marcelle Ribeiro." width="625" height="469" /></a><p class="wp-caption-text">Maridão, sogrinha e sogrinho curtindo o barco. Foto: Marcelle Ribeiro.</p></div>
+<p>Depois de uma pesquisa, resolvemos fazer o passeio com a empresa <a title="http://www.cavalomarinhoarraial.com.br/" href="http://www.cavalomarinhoarraial.com.br/" target="_blank">Cavalo Marinho</a> porque tinha tudo que a gente precisava. O barco era pequeno, cabiam no máximo 25 pessoas e a área de sombra era grande o suficiente. E nos informaram que não tocava funk nem pagodão. Além disso, a pousada indicou essa empresa, que tem escritório na pracinha da praia dos Anjos, na ruazinha ao lado do restaurante Saint Tropez.</p>
+<p>Por R$ 50 em dinheiro ou R$ 60 no cartão, a Cavalo Marinho oferece um passeio de pouco mais de 4 horas e que passa por algumas das praias com acesso mais difícil de Arraial: a da ilha do Farol, as prainhas do Atalaia e a praia do Forno. Além disso, o barco passa pela Fenda de Nossa Senhora da Assunção, a Gruta Azul e o Boqueirão. A água e o refrigerante são cortesias. Ah, todos os barcos de lá visitam exatamente as mesmas praias, o que varia é a ordem de visitação delas e os horários de saída. O tempo que cada uma passa em cada praia é parecido, mas não custa perguntar.</p>
+<p>O embarque é feito no cais da Praia dos Anjos e é preciso pagar uma taxa de R$ 2 para poder entrar no local. Há gratuidade para idosos e portadores de deficiência.</p>
+<p>A primeira parada é na praia da ilha do Farol. A água é maravilhosa, como já falei neste post  <a title="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#.VqAcNporLMw" href="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#.VqAcNporLMw" target="_blank">aqui</a>. Só é possível chegar lá de barco e os visitantes podem ficar lá por no máximo 40 minutos, por determinação da Marinha. Não há nenhum estrutura para turistas (nem venda de água, nem aluguel de guarda-sol, nada nada).</p>
+<div id="attachment_5905" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3346.jpg"><img class="size-large wp-image-5905" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3346-1024x768.jpg" alt="A praia do Farol é uma atração imperdível no passeio de barco! Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">A praia do Farol é uma atração imperdível no passeio de barco. Foto: Marcelle Ribeiro</p></div>
+<p>Depois, a embarcação passa pela Gruta Azul e pelo Boqueirão, que divide o mar aberto da área de baía. É nesse momento que o balanço do mar pode deixar algumas pessoas enjoadas, mas basta olhar para o horizonte. O comandante mostra aos passageiros a imagem de uma santa no meio das pedras e faz uma parada rápida (5 min) para fotos na Gruta Azul. Eu confesso que não achei nada demais na Gruta Azul: o barco não pode entrar nela e a cor da água não tinha nada de especial.</p>
+<p>A penúltima parada é na prainha do Atalaia, sobre a qual <a title="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#.VqAcNporLMw" href="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#.VqAcNporLMw" target="_blank">já falei aqui</a>. A água é super transparente, mas mais gelada que a da praia do Farol, e a areia é branquinha. Esta praia tem alguma estrutura, como uns três vendedores com isopor vendendo água, refrigerantes e pacotes de salgadinhos. Se não me engano havia uma pessoa alugando guarda-sol também.</p>
+<div id="attachment_5907" style="width: 635px" class="wp-caption alignnone"><img class="wp-image-5907 size-large" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3369-1024x768.jpg" alt="" width="625" height="469" /><p class="wp-caption-text">A prainha do Atalaia é uma das atrações do passeio de barco. Foto: Marcelle Ribeiro.</p></div>
+<p>&nbsp;</p>
+<p>Para a última parada, os passageiros podem escolher entre a praia do Forno ou o restaurante flutuante. No nosso passeio, todos preferiram a praia porque o restaurante estava lotado e tinha até fila de barcos para estacionar! Dizem, inclusive, que o restaurante flutuante vive cheio, porque muito barcos querem parar lá e ele só comporta umas 100 pessoas (daí o atendimento é ruim).</p>
+<div id="attachment_5879" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3298.jpg"><img class="size-large wp-image-5879" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3298-1024x768.jpg" alt="Olha a cor da água na Praia do Forno! Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Praia do Forno, vista da areia. Foto: Marcelle Ribeiro</p></div>
+<p>O problema é que havia tantos barcos para visitar a praia do Forno que acabamos sem conseguir desembarcar por lá. É que os barcos têm que esperar a sua vez em uma &#8220;fila&#8221; para deixar os passageiros em um canto da praia. O nosso comandante disse que não seria possível ficar a 1h que estava programada na praia, pois só para nos deixar lá, ele teria que esperar 40 minutos (e teria que entrar na fila de novo para nos pegar). Como já havíamos ido à praia do Forno no dia anterior, pela trilha (<a title="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#.VqAcNporLMw" href="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#.VqAcNporLMw" target="_blank">eu expliquei sobre isso aqui</a>), eu nem me importei tanto quando os passageiros decidiram que era melhor mergulhamos na água a cerca de 50 metros da costa do que ficar esperando na fila.</p>
+<p>&nbsp;</p>
+<p class="yiv5277562813"><em>Reserve sua hospedagem em Arraial do Cabo pelo Booking <a title="http://www.booking.com/searchresults.html?city=-629039&amp;aid=820254" href="http://www.booking.com/searchresults.html?city=-626354&amp;aid=820254" target="_blank">clicando aqui</a> e ajude o blog a ganhar uma pequena comissão sem pagar nada a mais! (saiba como funciona essa parceria <a title="http://www.viciadaemviajar.com/como-fazer-uma-viagem-pratica-e-economica-e-ajudar-o-blog/" href="http://www.viciadaemviajar.com/como-fazer-uma-viagem-pratica-e-economica-e-ajudar-o-blog/" target="_blank">aqui</a>)</em></p>
+<p class="yiv5277562813"><strong>Leia também:</strong></p>
+<p class="yiv5277562813"><a title="http://www.viciadaemviajar.com/category/brasil/arraial-do-cabo/" href="http://www.viciadaemviajar.com/category/brasil/arraial-do-cabo/" target="_blank">Veja o índice de posts sobre Arraial do Cabo</a></p>
+<p class="yiv5277562813"><a title="http://www.viciadaemviajar.com/category/brasil/buzios-rj/" href="http://www.viciadaemviajar.com/category/brasil/buzios-rj/" target="_blank">Pertinho de Arraial, conheça a badalada Búzios</a></p>
+<p class="yiv5277562813"><a title="http://www.viciadaemviajar.com/category/brasil/rio-de-janeiro/" href="http://www.viciadaemviajar.com/category/brasil/rio-de-janeiro/" target="_blank">Leia todos os posts sobre o Rio de Janeiro</a></p>
+<script type="text/javascript">
+
+var addthis_config = {"data_track_clickback":false,"data_track_addressbar":false,"data_track_textcopy":false,"ui_atversion":"300"};
+var addthis_product = 'wpp-4.0';
+</script><script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=d5ae556100a013f13969a39d7e349782"></script>			</div><!-- .entry-content -->
+			
+		</div>
+		<div class="box-post-footer box-post-footer-close">
+			<div class="redes-sociais">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style "
+					        addthis:url="http://www.viciadaemviajar.com/?p=5896"
+					        addthis:title="Arraial do Cabo: como é o passeio de barco por águas cristalinas"
+					        addthis:description="<p>Uma solução para quem tem pouco tempo e quer aproveitar as melhores praias de Arraial do Cabo (RJ) é passear de barco pela região. Em apenas um dia, você consegue conhecer lugares espetaculares e por um preço bastante acessível. Antes de tudo, é preciso escolher a empresa que você vai contratar. Opções não faltam: basta [&hellip;]</p>
+">
+					<a class="addthis_button_preferred_1"></a>
+					<a class="addthis_button_preferred_2"></a>
+					<a class="addthis_button_preferred_3"></a>
+					<a class="addthis_button_preferred_4"></a>
+					<a class="addthis_button_compact"></a>
+					<a class="addthis_counter addthis_bubble_style"></a>
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9749a63fbb2c7"></script>
+				<!-- AddThis Button END -->
+			</div>
+			<a href="http://www.viciadaemviajar.com/arraial-do-cabo-como-e-o-passeio-de-barco-por-aguas-cristalinas/#comentarios" class="lk-comentarios">1 comentário(s)</a>				
+			<p class="data-footer">21.01.2016, por <a class="por-autor">Marcelle Ribeiro</a></p>
+
+			<div class="box-tags">
+								<ul class="ls-tags">
+										<li><span></span><a href="">arraial</a></li>
+										<li><span></span><a href="">barco</a></li>
+										<li><span></span><a href="">boqueirão</a></li>
+										<li><span></span><a href="">farol</a></li>
+										<li><span></span><a href="">forno</a></li>
+										<li><span></span><a href="">gruta azul</a></li>
+										<li><span></span><a href="">praia</a></li>
+										<li><span></span><a href="">prainha</a></li>
+									</ul>
+								
+			</div>
+			
+		</div><!-- ./.box-post-footer -->
+		<div class="box-post-footer-close-bottom"></div>
+	</div><!-- ./.box-post -->
+						<div class="box-post">
+				<div class="box-autor">
+			<div class="box-autor-outter">
+				<a>Marcelle Ribeiro</a>
+				<div id="box-autor-descricao">
+					<h3>Marcelle Ribeiro, <span>jornalista e viajante</span></h3>
+					<p>Já acampei de mochila, barraca e saco de dormir. Já dividi banheiro com desconhecido na Europa (mas nunca o quarto!). Já fiquei em pousadinha simples na praia, mas também já fiquei em hotelão e em all-inclusive. Não posso saber que estarei de folga num feriado que já corro para os sites das companhias aéreas. Não curto muito excursão nem city tour e gosto de decidir quando e como vou fazer os passeios que quero.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="conteudo">
+						<h1>
+				<a href="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/" title="Link permanente para Praias de Arraial do Cabo: visite o Caribe sem sair do Brasil" rel="bookmark">Praias de Arraial do Cabo: visite o Caribe sem sair do Brasil</a>
+			</h1>
+						
+			<p class="data">17 de janeiro de 2016, por <a class="por-autor">Marcelle Ribeiro</a></p>
+			
+						<div class="conteudo-post">
+				<p class="yiv5277562813">Ir ao Caribe sem nem sair do Brasil é possível. Basta viajar para Arraial do Cabo, cidade no litoral do Rio de Janeiro, na chamada <span id="yiv5277562813yui_3_16_0_1_1452816625159_4092" class="yiv5277562813">Região dos Lagos. Estive lá em dezembro do ano passado, por 4 dias e fiquei impressionada com a</span>s águas calmas, e com lindos tons de azul. Só vi mar parecido em Aruba, que é um paraíso no Caribe, e em Fernando de Noronha.</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4126" class="yiv5277562813">Com os 4 dias que tivemos, foi possível conhecer várias praias e vou aproveitar agora para descrever um pouco de cada uma.</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4136" class="yiv5277562813"><span id="yiv5277562813yui_3_16_0_1_1452816625159_4138" class="yiv5277562813"> </span></p>
+<h4 id="yiv5277562813yui_3_16_0_1_1452816625159_4140" class="yiv5277562813"><strong><span id="yiv5277562813yui_3_16_0_1_1452816625159_4142" class="yiv5277562813">Praia do Forno</span></strong></h4>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4146" class="yiv5277562813">É uma das praias mais bonitas que já vi no Brasil, pela cor da água e da areia e porque nela as águas não são geladas como em outras praias da cidade. Mas chegar ao paraíso não é fácil: o acesso até lá é feito ou por trilha ou por barco.</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4160" class="yiv5277562813"><span id="yiv5277562813yui_3_16_0_1_1452816625159_4162" class="yiv5277562813">A caminhada para a praia não é longa (cerca de 20 minutos), mas a subida no comecinho, feita em degraus esculpidos na terra, pode deixar algumas pessoas um pouco mais cansadas. O que tira o fôlego mesmo é a vista do mirante no alto do morro! A descida é mais tranquila, já que o trecho final não é de terra, mas sim um caminho de pedras.</span></p>
+<div id="yiv5277562813yui_3_16_0_1_1452816625159_4166" class="yiv5277562813"><span id="yiv5277562813yui_3_16_0_1_1452816625159_4168" class="yiv5277562813"> </span></div>
+<div id="yiv5277562813yui_3_16_0_1_1452816625159_4170" class="yiv5277562813">
+<div id="attachment_5877" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3271.jpg"><img class="size-large wp-image-5877" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3271-1024x768.jpg" alt="Maridão encarando a trilha para a Praia do Forno. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Maridão encarando a trilha para a Praia do Forno. Foto: Marcelle Ribeiro</p></div>
+</div>
+<div class="yiv5277562813">
+<div id="attachment_5878" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3287.jpg"><img class="size-large wp-image-5878" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3287-1024x768.jpg" alt="Essa é a vista da Praia do Forno durante a trilha. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Essa é a vista da Praia do Forno durante a trilha. Foto: Marcelle Ribeiro</p></div>
+</div>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4180" class="yiv5277562813"><span id="yiv5277562813yui_3_16_0_1_1452816625159_4182" class="yiv5277562813">Engana-se quem pensa que a trilha faz os banhistas desistirem de conhecer o lugar. A praia estava cheia, mas era possível caminhar tranquilamente e várias barracas ofereciam o aluguel de cadeiras e guarda-sóis. É importante pechinchar e é até possível conseguir usar as cadeiras pagando apenas o que consumir (foi o que fizemos).</span></p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4186" class="yiv5277562813">A água é um pouco gelada, mas nada que assuste em um dia quente. Além disso, o mar tem poucas ondas e deixa qualquer banhista tranquilo para aproveitar.</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4196" class="yiv5277562813">Quem não está a fim de encarar a trilha, pode ir e voltar de barco-táxi. Eles partem do cais da Praia dos Anjos, que é vizinha, durante todo o dia. Não há horários pré-definidos, as partidas vão acontecendo à medida que há pessoas interessadas. Eles cobram R$ 10 por pessoa por trecho, mas é preciso também pagar uma taxa de preservação ambiental de R$ 3. Nós só usamos o barco-táxi na volta e para pegá-lo, fomos para a ponta esquerda da Praia do Forno. Os barqueiros ficam perguntando aos banhistas se querem usar o serviço. O trajeto é feito em cerca de 10 minutos e é tranquilo, sem muito balanço.</p>
+<p class="yiv5277562813">O que notei é que se você quer ir de barco-táxi, talvez tenha que esperar um pouco no cais pelo embarque, pois há muitos barcos que saem do mesmo local para passeios por ilhas e outras praias.</p>
+<div class="yiv5277562813"></div>
+<div class="yiv5277562813">
+<div id="attachment_5879" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3298.jpg"><img class="size-large wp-image-5879" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3298-1024x768.jpg" alt="Olha a cor da água na Praia do Forno! Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Olha a cor da água na Praia do Forno! Foto: Marcelle Ribeiro</p></div>
+</div>
+<h4 id="yiv5277562813yui_3_16_0_1_1452816625159_4206" class="yiv5277562813"><strong>Praia do Farol</strong></h4>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4216" class="yiv5277562813">Conhecemos esta praia durante um passeio de barco (que será assunto de outro post em breve).  Aliás, ir de barco é a única opção para acessá-la. Ela fica em uma ilha que abriga apenas um farol e alguns sortudos integrantes da Marinha.</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4226" class="yiv5277562813">É uma praia muito concorrida nos passeios e a foto abaixo explica o por quê.</p>
+<div id="yiv5277562813yui_3_16_0_1_1452816625159_4236" class="yiv5277562813"><span class="yiv5277562813"><span class="yiv5277562813"> </span></span></div>
+<div id="attachment_5880" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3345.jpg"><img class="size-large wp-image-5880" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3345-1024x768.jpg" alt="A beleza da Praia do Farol e suas águas calmas. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">A beleza da Praia do Farol e suas águas calmas. Foto: Marcelle Ribeiro</p></div>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4250" class="yiv5277562813"><span id="yiv5277562813yui_3_16_0_1_1452816625159_4252" class="yiv5277562813">A água é de um azul absurdamente transparente e paradinha, quase uma piscina, porque a praia fica fora do mar aberto. Mesmo gelada, é uma delícia aproveitar.</span></p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4256" class="yiv5277562813">Há um limite no número de visitantes e, por essa razão, só é possível ficar nela por pouco mais de 30 minutos. Não há qualquer barraca disponível e eu recomendo que você leve uma canga ou uma toalha quando sair do barco. Só assim você pode sentar e curtir essa maravilha!</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4266" class="yiv5277562813"><span id="yiv5277562813yui_3_16_0_1_1452816625159_4268" class="yiv5277562813"> </span></p>
+<h4 id="yiv5277562813yui_3_16_0_1_1452816625159_4270" class="yiv5277562813"><strong><span id="yiv5277562813yui_3_16_0_1_1452816625159_4272" class="yiv5277562813">Prainha do Atalaia</span></strong></h4>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4276" class="yiv5277562813">Esta é outra praia que conhecemos no passeio de barco, mas também é possível chegar lá indo de carro e fazendo uma trilha na sequência. É preciso estacionar dentro de um condomínio, mas é ele é aberto ao público (basta dizer que vai à praia).</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4286" class="yiv5277562813">A cor da água é realmente deslumbrante e a areia estava lotada. A faixa de areia é grande e até existem alguns comerciantes alugando barracas, mas há pouca estrutura.</p>
+<div id="yiv5277562813yui_3_16_0_1_1452816625159_4300" class="yiv5277562813"></div>
+<div id="yiv5277562813yui_3_16_0_1_1452816625159_4306" class="yiv5277562813">
+<div id="attachment_5881" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3372.jpg"><img class="size-large wp-image-5881" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3372-1024x768.jpg" alt="A prainha do Atalaia também é imperdível! Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">A prainha do Atalaia também é imperdível! Foto: Marcelle Ribeiro</p></div>
+<p>&nbsp;</p>
+</div>
+<h4 id="yiv5277562813yui_3_16_0_1_1452816625159_4310" class="yiv5277562813"><strong><span id="yiv5277562813yui_3_16_0_1_1452816625159_4312" class="yiv5277562813">Prainha</span></strong></h4>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4316" class="yiv5277562813">Essa praia fica logo na entrada de Arraial do Cabo e é um tremendo cartão de boas-vindas! Aqui também os tons de azul saltam aos olhos. A Prainha tem, no entanto, vantagens e desvantagens: apesar de a água ser um pouco mais quente do que a de outras praias, a praia também é a que tem mais ondas.</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4326" class="yiv5277562813">A areia é tomada por guarda-sóis e cadeiras das barracas que estão por lá. É até difícil encontrar um lugar para colocar seu próprio guarda-sol! Só é possível fazer isso em uma das pontas da praia, onde as barracas ainda não chegaram. Perguntando, você encontra barracas que não cobram pelo aluguel de guarda-sol e cadeira e consegue um lugar em que pague apenas pela consumação.</p>
+<p id="yiv5277562813yui_3_16_0_1_1452816625159_4336" class="yiv5277562813">Apesar da água mais quente, no dia em que fomos ventava bastante, o que atrapalhou um pouco o nosso passeio.</p>
+<div id="yiv5277562813yui_3_16_0_1_1452816625159_4346" class="yiv5277562813"><span id="yiv5277562813yui_3_16_0_1_1452816625159_4348" class="yiv5277562813"> </span></div>
+<div id="yiv5277562813yui_3_16_0_1_1452816625159_4350" class="yiv5277562813">
+<div id="attachment_5882" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3400.jpg"><img class="wp-image-5882 size-large" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3400-1024x768.jpg" alt="IMG_3400" width="625" height="469" /></a><p class="wp-caption-text">A Prainha e suas barracas. Foto: Marcelle Ribeiro</p></div>
+</div>
+<p class="yiv5277562813"><em><span style="color: #000000;">Reserve sua hospedagem em Arraial do Cabo pelo Booking <a title="http://www.booking.com/searchresults.html?city=-629039&amp;aid=820254" href="http://www.booking.com/searchresults.html?city=-626354&amp;aid=820254" target="_blank">clicando aqui</a> e ajude o blog a ganhar uma pequena comissão sem pagar nada a mais! (saiba como funciona essa parceria <span style="color: #ff9900;"><a style="color: #ff9900;" title="http://www.viciadaemviajar.com/como-fazer-uma-viagem-pratica-e-economica-e-ajudar-o-blog/" href="http://www.viciadaemviajar.com/como-fazer-uma-viagem-pratica-e-economica-e-ajudar-o-blog/" target="_blank">aqui</a></span>)</span></em></p>
+<p class="yiv5277562813"><strong>Leia também:</strong></p>
+<p class="yiv5277562813"><a title="http://www.viciadaemviajar.com/category/brasil/arraial-do-cabo/" href="http://www.viciadaemviajar.com/category/brasil/arraial-do-cabo/" target="_blank">Veja o índice de posts sobre Arraial do Cabo</a></p>
+<p class="yiv5277562813"><a title="http://www.viciadaemviajar.com/category/brasil/buzios-rj/" href="http://www.viciadaemviajar.com/category/brasil/buzios-rj/" target="_blank">Pertinho de Arraial, conheça a badalada Búzios</a></p>
+<p class="yiv5277562813"><a title="http://www.viciadaemviajar.com/category/brasil/rio-de-janeiro/" href="http://www.viciadaemviajar.com/category/brasil/rio-de-janeiro/" target="_blank">Leia todos os posts sobre o Rio de Janeiro</a></p>
+			</div><!-- .entry-content -->
+			
+		</div>
+		<div class="box-post-footer box-post-footer-close">
+			<div class="redes-sociais">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style "
+					        addthis:url="http://www.viciadaemviajar.com/?p=5876"
+					        addthis:title="Praias de Arraial do Cabo: visite o Caribe sem sair do Brasil"
+					        addthis:description="<p>Ir ao Caribe sem nem sair do Brasil é possível. Basta viajar para Arraial do Cabo, cidade no litoral do Rio de Janeiro, na chamada Região dos Lagos. Estive lá em dezembro do ano passado, por 4 dias e fiquei impressionada com as águas calmas, e com lindos tons de azul. Só vi mar parecido em Aruba, [&hellip;]</p>
+">
+					<a class="addthis_button_preferred_1"></a>
+					<a class="addthis_button_preferred_2"></a>
+					<a class="addthis_button_preferred_3"></a>
+					<a class="addthis_button_preferred_4"></a>
+					<a class="addthis_button_compact"></a>
+					<a class="addthis_counter addthis_bubble_style"></a>
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9749a63fbb2c7"></script>
+				<!-- AddThis Button END -->
+			</div>
+			<a href="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#comentarios" class="lk-comentarios">3 comentário(s)</a>				
+			<p class="data-footer">17.01.2016, por <a class="por-autor">Marcelle Ribeiro</a></p>
+
+			<div class="box-tags">
+								<ul class="ls-tags">
+										<li><span></span><a href="">arraial</a></li>
+										<li><span></span><a href="">atalaia</a></li>
+										<li><span></span><a href="">farol</a></li>
+										<li><span></span><a href="">forno</a></li>
+										<li><span></span><a href="">litoral</a></li>
+										<li><span></span><a href="">praia</a></li>
+										<li><span></span><a href="">prainha</a></li>
+									</ul>
+								
+			</div>
+			
+		</div><!-- ./.box-post-footer -->
+		<div class="box-post-footer-close-bottom"></div>
+	</div><!-- ./.box-post -->
+						<div class="box-post">
+				<div class="box-autor">
+			<div class="box-autor-outter">
+				<a>Marcelle Ribeiro</a>
+				<div id="box-autor-descricao">
+					<h3>Marcelle Ribeiro, <span>jornalista e viajante</span></h3>
+					<p>Já acampei de mochila, barraca e saco de dormir. Já dividi banheiro com desconhecido na Europa (mas nunca o quarto!). Já fiquei em pousadinha simples na praia, mas também já fiquei em hotelão e em all-inclusive. Não posso saber que estarei de folga num feriado que já corro para os sites das companhias aéreas. Não curto muito excursão nem city tour e gosto de decidir quando e como vou fazer os passeios que quero.</p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="conteudo">
+						<h1>
+				<a href="http://www.viciadaemviajar.com/belem-pa-roteiro-para-visitar-atracoes-imperdiveis-no-mesmo-dia/" title="Link permanente para Belém (PA): Roteiro para visitar atrações imperdíveis no mesmo dia" rel="bookmark">Belém (PA): Roteiro para visitar atrações imperdíveis no mesmo dia</a>
+			</h1>
+						
+			<p class="data">11 de janeiro de 2016, por <a class="por-autor">Marcelle Ribeiro</a></p>
+			
+						<div class="conteudo-post">
+				<p>Em seu primeiro dia de viagem a Belém, recomendo que você visite a maior parte das atrações &#8220;obrigatórias&#8221; no mesmo dia, pois elas são muito próximas umas às outras, na região central da cidade. Foi o que eu fiz quando passei três dias por lá, em novembro de 2015 (<a title="http://www.viciadaemviajar.com/belem-pa-roteiro-de-3-dias-de-viagem/" href="http://www.viciadaemviajar.com/belem-pa-roteiro-de-3-dias-de-viagem/" target="_blank">veja o roteiro resumido da viagem aqui)</a>.</p>
+<p>Eu comecei meu dia às 10h30 no Mercado Ver-o-Peso, onde vende-se um pouco de tudo, desde a famosa castanha do estado, até artesanato, frutas comuns e típicas da região e também o famoso tucupi, caldo extraído da mandioca que é muito usado na gastronomia local, como já <a title="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" href="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" target="_blank">expliquei aqui</a>.</p>
+<div id="attachment_5833" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2694.jpg"><img class="size-large wp-image-5833" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2694-1024x768.jpg" alt="Mercado Ver-o-Peso, em Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Mercado Ver-o-Peso, em Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5835" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/mercado1.jpg"><img class="size-large wp-image-5835" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/mercado1-1024x576.jpg" alt="Mercado Ver-o-Peso, em Belém. Foto: Marcelle Ribeiro" width="625" height="352" /></a><p class="wp-caption-text">Mercado Ver-o-Peso, em Belém. Foto: Marcelle Ribeiro</p></div>
+<p>Mas, honestamente, não curti o mercado. Achei tudo muito sujo e feio. Já fui a outros mercados famosos como o <a title="http://www.viciadaemviajar.com/passeio-pelo-centro-de-sao-paulo-parte-1/#.Vo_ZNPkrKM8" href="http://www.viciadaemviajar.com/passeio-pelo-centro-de-sao-paulo-parte-1/#.Vo_ZNPkrKM8" target="_blank">Mercadão de São Paulo</a>, ou o mercadão de Barcelona e de <a title="http://www.viciadaemviajar.com/roteiro-de-2-dias-de-viagem-a-los-angeles-parte-1/" href="http://www.viciadaemviajar.com/roteiro-de-2-dias-de-viagem-a-los-angeles-parte-1/" target="_blank">Los Angeles</a>, que são limpos e organizados. O de Belém é até espaçoso, mas não tem bom aspecto. Não tive coragem de comer a tapioca famosa de lá, por exemplo. Passei uns 20 minutos apenas, olhando artesanato. Depois, dei um pulinho no Mercado de Carnes Francisco Bolonha, apenas para tirar umas fotos da estrutura metálica colorida e bonita do local.</p>
+<p>Dali, andei uns 5 minutos e cheguei a uma de minhas atrações preferidas em Belém: o <a title="http://www.secult.pa.gov.br/espaco/museu-do-cirio" href="http://www.secult.pa.gov.br/espaco/museu-do-cirio" target="_blank">Museu do Círio</a>. Mas antes de falar sobre o museu, devo ressaltar que esse trecho do mercado ao museu é bem agitado, com ambulantes e você deve ficar atento. Senti um certo clima de insegurança no ar.</p>
+<p>O Museu do Círio é sensacional apesar de ser pequeno, pois ensina ao visitante, de maneira resumida e bastante ilustrativa, sobre a principal festividade de Belém, o Círio de Nazaré. Não, o Círio não é apenas uma enorme procissão católica. Ele para a cidade por uma semana e é o maior evento para a capital, mesmo para os não-católicos. É quando milhares de pessoas vão para as ruas demonstrar a sua fé, se espremer para segurar em uma corda que protege a imagem da santa (se espremer mesmo, tem até técnica especial para não machucar os quadris), e agradecer graças alcançadas. É também quando grupos de minorias vão protestar em público pelos seus direitos, de forma criativa e irônica. É quando os moradores se orgulham de colocar uma bandeira na janela. E o museu mostra tudo isso de forma a &#8220;prender&#8221; a atenção do visitante.</p>
+<div id="attachment_5836" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2711.jpg"><img class="size-large wp-image-5836" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2711-768x1024.jpg" alt="Museu do Círio, em Belém. Foto: Marcelle Ribeiro" width="625" height="833" /></a><p class="wp-caption-text">Museu do Círio, em Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5837" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2701.jpg"><img class="size-large wp-image-5837" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2701-1024x768.jpg" alt="Museu do Círio, em Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Museu do Círio, em Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5838" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/cirio.jpg"><img class="size-large wp-image-5838" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/cirio-1024x576.jpg" alt="Museu do Círio, em Belém. Foto: Marcelle Ribeiro" width="625" height="352" /></a><p class="wp-caption-text">Museu do Círio, em Belém. Foto: Marcelle Ribeiro</p></div>
+<p>Depois de 1h no museu, atravessei a rua e fui conhecer a <a title="http://www.catedraldebelem.com/site/" href="http://www.catedraldebelem.com/site/" target="_blank">Catedral de Belém</a>, que não chama a atenção por fora, mas que é belíssima por dentro. Eu já disse aqui que adoro visitar igrejas (<a title="http://www.viciadaemviajar.com/as-5-igrejas-mais-bonitas-do-mundo-pra-mim/" href="http://www.viciadaemviajar.com/as-5-igrejas-mais-bonitas-do-mundo-pra-mim/" target="_blank">fiz até uma lista das mais belas em que estive pelo mundo</a>) porque o rococó e o dourado das paredes me magnetizam, assim como as cúpulas ornamentadas e os grandes órgãos. E a Catedral de Belém tem paredes coloridas e uma bela cúpula.</p>
+<div id="attachment_5839" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2721.jpg"><img class="size-large wp-image-5839" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2721-1024x768.jpg" alt="Catedral da Sé de Belém, Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Catedral da Sé de Belém, Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5840" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2738.jpg"><img class="size-large wp-image-5840" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2738-1024x768.jpg" alt="Catedral da Sé de Belém, Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Catedral da Sé de Belém, Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5841" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/catedral.jpg"><img class="size-large wp-image-5841" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/catedral-1024x576.jpg" alt="Catedral da Sé de Belém, Foto: Marcelle Ribeiro" width="625" height="352" /></a><p class="wp-caption-text">Catedral da Sé de Belém, Foto: Marcelle Ribeiro</p></div>
+<p>Na mesma praça onde fica a catedral, chamada de complexo Feliz Lusitânia, está localizado o <a title="http://www.secult.pa.gov.br/espaco/museu-do-forte-do-presepio" href="http://www.secult.pa.gov.br/espaco/museu-do-forte-do-presepio" target="_blank">Forte do Presépio</a>, com canhões virados para a baía de Guajará e onde você pode curtir um ventinho no rosto enquanto olha a cidade. Dentro do forte há também um pequeno museu sobre a região e lendas indígenas. Sente nos bancos ao lado da entrada do forte para descansar.</p>
+<div id="attachment_5842" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2745.jpg"><img class="size-large wp-image-5842" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2745-1024x768.jpg" alt="Forte do Presépio, em Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Forte do Presépio, em Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5843" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2767.jpg"><img class="size-large wp-image-5843" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2767-1024x768.jpg" alt="Forte do Presépio, em Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Forte do Presépio, em Belém. Foto: Marcelle Ribeiro</p></div>
+<p>Em frente ao forte está uma atração que achei que não vale a pena pagar para entrar: a <a title="http://museucasadasonzejanelas.blogspot.com.br/" href="http://museucasadasonzejanelas.blogspot.com.br/" target="_blank">Casa das Onze Janelas</a>. É um casarão histórico, com onze janelas em uma das faces, que abriga um museu de arte moderna com poucas peças, não muito interessantes. A fachada está um pouco descascada. A única coisa que achei legal foi sentar no banco do jardim interno para curtir a brisa da baía (mas isso eu podia ter feito sem pagar, nos bancos do forte).</p>
+<div id="attachment_5844" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2768.jpg"><img class="size-large wp-image-5844" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2768-1024x768.jpg" alt="Casa das Onze Janelas, em Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Casa das Onze Janelas, em Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5845" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2772.jpg"><img class="size-large wp-image-5845" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2772-1024x768.jpg" alt="Casa das Onze Janelas (o lado bonito). Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Casa das Onze Janelas (o lado bonito). Foto: Marcelle Ribeiro</p></div>
+<p>Em frente à Casa das Onze Janelas está um museu que vale uma visita, o <a title="http://www.secult.pa.gov.br/espaco/museu-de-arte-sacra-mas" href="http://www.secult.pa.gov.br/espaco/museu-de-arte-sacra-mas" target="_blank">Museu de Arte Sacra</a>. Ele abrange uma igreja super antiga onde não são mais realizadas cerimônias, mas que é interessante mais pelo que não tem do que pelo que tem. Explico: é que a igreja, dos jesuítas, foi destruída/saqueada séculos atrás e, por isso, algumas paredes são brancas e outras todas trabalhadas em madeira esculpida por índios. O altar é bem diferente. Apenas a sacristia é dourada. Quando estive lá o guia do museu, que normalmente só consegue dar explicações para grupos agendados, ou estudantes, estava livre e se ofereceu para me explicar tudo. Muito interessante!</p>
+<div id="attachment_5846" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2788.jpg"><img class="size-large wp-image-5846" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2788-1024x768.jpg" alt="Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5847" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2798.jpg"><img class="size-large wp-image-5847" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2798-768x1024.jpg" alt="Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro" width="625" height="833" /></a><p class="wp-caption-text">Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5848" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2809.jpg"><img class="size-large wp-image-5848" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2809-1024x768.jpg" alt="Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5849" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2812.jpg"><img class="size-large wp-image-5849" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2812-1024x768.jpg" alt="Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro</p></div>
+<div id="attachment_5850" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2816.jpg"><img class="size-large wp-image-5850" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2816-1024x768.jpg" alt="Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro" width="625" height="469" /></a><p class="wp-caption-text">Museu de Arte Sacra de Belém. Foto: Marcelle Ribeiro</p></div>
+<p>O museu em si fica ao lado da igreja e é bem grandinho. As peças que me chamaram a atenção foram os instrumentos e acessórios dos padres em prata, muito bonitos.</p>
+<p>Saí do Museu de Arte Sacra por volta das 13h30 e peguei um táxi (R$ 15) para o <a title="http://www.mangaldasgarcas.com.br/" href="http://www.mangaldasgarcas.com.br/" target="_blank">Mangal das Garças</a>, um parque onde centenas de aves passeiam por entre os jardins e os visitantes. Tentei almoçar no restaurante do parque, o <a title="http://www.manjardasgarcas.com.br/" href="http://www.manjardasgarcas.com.br/" target="_blank">Manjar das Garças</a>, que é super disputado, mas não quis esperar cerca de 1h pela mesa. Além disso, achei o preço do buffet caro (cerca de R$ 80 por pessoa, sem bebidas, fora o couvert artístico). Peguei um táxi (R$ 15) para o restaurante Point do Açaí <a title="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" href="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" target="_blank">(falei sobre ele aqui)</a> e depois de almoçar, voltei de táxi para o parque.</p>
+<p>O Mangal das Garças é a atração mais incrível de Belém. Você se sente integrado aos jardins do parque e se espanta com os locais mais improváveis escolhidos pelas garças para &#8220;passear&#8221;: no alto do muro do parque, do teto do quiosque de sorvetes&#8230; Tem também pássaros vermelhos belíssimos, pretos e de outras cores. Tem lago com tartarugas, e lagartos grandes, que escalam os viveiros até o topo. O Mangal tem ainda um mirante lindo, onde você vê o parque, a baía e a cidade do alto. Uma delícia é ver a tarde cair do píer, os barquinhos passando, a vegetação alta e super diferente na beira da água&#8230;</p>
+<div id="attachment_5852" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2843.jpg"><img class="size-large wp-image-5852" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2843-1024x768.jpg" alt="Mangal das Garças, em Belém. Foto: Marcelle Ribeiro." width="625" height="469" /></a><p class="wp-caption-text">Mangal das Garças, em Belém. Foto: Marcelle Ribeiro.</p></div>
+<div id="attachment_5853" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2856.jpg"><img class="size-large wp-image-5853" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2856-1024x768.jpg" alt="Mangal das Garças, em Belém. Foto: Marcelle Ribeiro." width="625" height="469" /></a><p class="wp-caption-text">Mangal das Garças, em Belém. Foto: Marcelle Ribeiro.</p></div>
+<div id="attachment_5856" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2904.jpg"><img class="size-large wp-image-5856" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2904-1024x768.jpg" alt="Mangal das Garças, em Belém. Foto: Marcelle Ribeiro." width="625" height="469" /></a><p class="wp-caption-text">Mangal das Garças, em Belém. Foto: Marcelle Ribeiro.</p></div>
+<div id="attachment_5857" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2912.jpg"><img class="size-large wp-image-5857" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2912-1024x768.jpg" alt="Mangal das Garças, em Belém. Foto: Marcelle Ribeiro." width="625" height="469" /></a><p class="wp-caption-text">Mangal das Garças, em Belém. Foto: Marcelle Ribeiro.</p></div>
+<div id="attachment_5858" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2936.jpg"><img class="size-large wp-image-5858" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_2936-1024x768.jpg" alt="Mangal das Garças, em Belém. Foto: Marcelle Ribeiro." width="625" height="469" /></a><p class="wp-caption-text">Mangal das Garças, em Belém. Foto: Marcelle Ribeiro.</p></div>
+<div id="attachment_5859" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/mangal-2.jpg"><img class="size-large wp-image-5859" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/mangal-2-1024x576.jpg" alt="Mangal das Garças, em Belém. Foto: Marcelle Ribeiro." width="625" height="352" /></a><p class="wp-caption-text">Mangal das Garças, em Belém. Foto: Marcelle Ribeiro.</p></div>
+<div id="attachment_5860" style="width: 635px" class="wp-caption alignnone"><a href="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/mangal.jpg"><img class="size-large wp-image-5860" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/mangal-1024x576.jpg" alt="Mangal das Garças, em Belém. Foto: Marcelle Ribeiro." width="625" height="352" /></a><p class="wp-caption-text">Mangal das Garças, em Belém. Foto: Marcelle Ribeiro.</p></div>
+<p>O melhor é que boa parte das atrações do Mangal são gratuitas. Você paga R$ 5 se quiser ver o borboletário (mas vá de manhã, pois à tarde as borboletas estão quase todas recolhidas, &#8220;dormindo&#8221;), outros R$ 5 para subir no mirante (vale super a pena) e mais R$ 5 para ir no viveiro (que eu nem achei que valia tanto). Para ver o píer, os jardins e as garças, é grátis. Anote aí: não saia de Belém sem ir ao Mangal das Garças. Em cerca de 2h você visita o parque.</p>
+<p>Quando eu fui, fiquei no Mangal até umas 17h30 e depois peguei um táxi para visitar a lanchonete com os salgadinhos mais famosos de Belém, chamada A Portinha. Apesar de ela ser próxima ao parque, os moradores da cidade me aconselharam a ir de táxi, pois o caminho até lá não é muito seguro. Gastei uns R$ 10 de táxi para ir, e valeu a pena. Contei tudo sobre A Portinha <a title="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" href="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" target="_blank">aqui</a>.</p>
+<p>Após um banho para me refrescar do calor paraense, encerrei o dia petiscando na <a title="http://www.estacaodasdocas.com.br/index/" href="http://www.estacaodasdocas.com.br/index/" target="_blank">Estação das Docas</a>, área agradável à beira da baía em Belém com restaurantes e bares (<a title="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" href="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" target="_blank">saiba mais sobre o lugar aqui</a>).</p>
+<p>&nbsp;</p>
+<p><em><span style="color: #000000;">Reserve sua hospedagem em Belém pelo Booking <a title="http://www.booking.com/searchresults.html?city=-629039&amp;aid=820254" href="http://www.booking.com/searchresults.html?city=-629039&amp;aid=820254" target="_blank">clicando aqui</a> e ajude o blog a ganhar uma pequena comissão sem pagar nada a mais! (saiba como funciona essa parceria <span style="color: #ff9900;"><a style="color: #ff9900;" title="http://www.viciadaemviajar.com/como-fazer-uma-viagem-pratica-e-economica-e-ajudar-o-blog/" href="http://www.viciadaemviajar.com/como-fazer-uma-viagem-pratica-e-economica-e-ajudar-o-blog/" target="_blank">aqui</a></span>)</span></em></p>
+<p>&nbsp;</p>
+<h4>Serviço:</h4>
+<p>&nbsp;</p>
+<p><strong>Mercado  Ver-o-Peso: </strong>A feira livre funciona em horário comercial. Aos domingos, nem todas as barracas abrem. Endereço: Boulevard Castilho França, S/N, bairro Cidade Velha.</p>
+<p><strong>Museu do Círio:</strong> Funciona de terça a sexta-feira, das 10h às 18h. Sábados, domingos e feriados, das 9h às 13h. Endereço: Rua Padre Champagnat, s/n, Cidade Velha. Preço: R$ 6, com meia-entrada para estudante, gratuidade para idosos e crianças até 7 anos. Nas terças-feiras, a entrada é grátis. Site: <a title="http://www.secult.pa.gov.br/espaco/museu-do-cirio" href="http://www.secult.pa.gov.br/espaco/museu-do-cirio" target="_blank">http://www.secult.pa.gov.br/espaco/museu-do-cirio</a></p>
+<p><strong>Catedral da Sé: </strong>Às segundas, fica aberta das 14h às 20h30. De terça a sexta-feira, das 7h30 às 12h e das 14h às 20h30. Sábados das 7h30 às 10h e das 16h às 20h e aos domingos, de 6h30 às 12h e das 16h às 20h. Endereço: Praça Frei Caetano Brandão, S/N, Cidade Velha. Entrada gratuita. Site: <a title="http://www.catedraldebelem.com/site/" href="http://www.catedraldebelem.com/site/" target="_blank">http://www.catedraldebelem.com/site/</a></p>
+<p><strong>Forte do Presépio: </strong>Abre de terça a sexta-feira, das 10h às 18h. Sábados, domingos e feriados, das 9h às 13h. Entrada: R$ 6, com meia-entrada para estudante, gratuidade para idosos e crianças até 7 anos. Endereço: Praça Frei Caetano Brandão, S/N, Cidade Velha. Site: <a title="http://www.secult.pa.gov.br/espaco/museu-do-forte-do-presepio" href="http://www.secult.pa.gov.br/espaco/museu-do-forte-do-presepio" target="_blank">http://www.secult.pa.gov.br/espaco/museu-do-forte-do-presepio</a></p>
+<p><strong>Casa das Onze Janelas: </strong>Funciona de terça a sexta-feira das 10h às 18h e aos sábados, domingos e feriados das 9h às 14h. Ingresso: R$2. Grátis todas as terças-feiras do ano e todos os dias para crianças até 7 anos e adultos a partir dos 60 anos. Endereço: Praça Frei Caetano Brandão, S/N, Cidade Velha. Site: <a title="http://museucasadasonzejanelas.blogspot.com.br/" href="http://museucasadasonzejanelas.blogspot.com.br/" target="_blank">http://museucasadasonzejanelas.blogspot.com.br/</a></p>
+<p><strong>Museu de Arte Sacra: </strong>Aberto de terça a sexta-feira, das 10h às 18h. Sábados, domingos e feriados, das 9h às 13h. Preço: R$ 6, com meia-entrada para estudante, gratuidade para idosos e crianças até 7 anos. Às terças-feiras a entrada é grátis. Endereço: Praça Frei Caetano Brandão, S/N, Cidade Velha. Site: <a title="http://www.secult.pa.gov.br/espaco/museu-de-arte-sacra-mas" href="http://www.secult.pa.gov.br/espaco/museu-de-arte-sacra-mas" target="_blank">http://www.secult.pa.gov.br/espaco/museu-de-arte-sacra-mas</a></p>
+<p><strong>Mangal das Garças: </strong>Funciona de terça a domingo, das 9h às 18h. A entrada para o parque é grátis, mas paga-se para entrar no viveiro (R$ 5), borboletário (R$ 5) e torre do mirante (R$ 5). Endereço: Passeio Carneiro Rocha, S/N, bairro Cidade Velha. Site: <a title="http://www.mangaldasgarcas.com.br/" href="http://www.mangaldasgarcas.com.br/" target="_blank">http://www.mangaldasgarcas.com.br/</a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h4>Leia também:</h4>
+<p><a title="http://www.viciadaemviajar.com/belem-pa-roteiro-de-3-dias-de-viagem/" href="http://www.viciadaemviajar.com/belem-pa-roteiro-de-3-dias-de-viagem/" target="_blank">Roteiro de 3 dias de viagem a Belém (PA)</a></p>
+<p><a title="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" href="http://www.viciadaemviajar.com/onde-comer-as-delicias-de-belem-pa/" target="_blank">Onde comer as delícias de Belém</a></p>
+<p><a title="http://www.viciadaemviajar.com/category/brasil-outras-cidades/belem-pa/" href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/belem-pa/" target="_blank">Índice de posts sobre Belém (PA)</a></p>
+			</div><!-- .entry-content -->
+			
+		</div>
+		<div class="box-post-footer box-post-footer-close">
+			<div class="redes-sociais">
+				<!-- AddThis Button BEGIN -->
+				<div class="addthis_toolbox addthis_default_style "
+					        addthis:url="http://www.viciadaemviajar.com/?p=5807"
+					        addthis:title="Belém (PA): Roteiro para visitar atrações imperdíveis no mesmo dia"
+					        addthis:description="<p>Em seu primeiro dia de viagem a Belém, recomendo que você visite a maior parte das atrações &#8220;obrigatórias&#8221; no mesmo dia, pois elas são muito próximas umas às outras, na região central da cidade. Foi o que eu fiz quando passei três dias por lá, em novembro de 2015 (veja o roteiro resumido da viagem [&hellip;]</p>
+">
+					<a class="addthis_button_preferred_1"></a>
+					<a class="addthis_button_preferred_2"></a>
+					<a class="addthis_button_preferred_3"></a>
+					<a class="addthis_button_preferred_4"></a>
+					<a class="addthis_button_compact"></a>
+					<a class="addthis_counter addthis_bubble_style"></a>
+				</div>
+				<script type="text/javascript">var addthis_config = {"data_track_addressbar":true};</script>
+				<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50f9749a63fbb2c7"></script>
+				<!-- AddThis Button END -->
+			</div>
+			<a href="http://www.viciadaemviajar.com/belem-pa-roteiro-para-visitar-atracoes-imperdiveis-no-mesmo-dia/#comentarios" class="lk-comentarios">0 comentário(s)</a>				
+			<p class="data-footer">11.01.2016, por <a class="por-autor">Marcelle Ribeiro</a></p>
+
+			<div class="box-tags">
+								<ul class="ls-tags">
+										<li><span></span><a href="">belém</a></li>
+										<li><span></span><a href="">pará</a></li>
+										<li><span></span><a href="">roteiro</a></li>
+									</ul>
+								
+			</div>
+			
+		</div><!-- ./.box-post-footer -->
+		<div class="box-post-footer-close-bottom"></div>
+	</div><!-- ./.box-post -->
+		
+				
+				<div id="box-post-nav">
+			<div class="bt-proximo"></div>
+			<div class="bt-anterior"><a href="http://www.viciadaemviajar.com/page/2/" >Anteriores</a></div>
+		</div>
+						
+	</div><!-- ./#box-conteudo -->
+	
+					<div id="box-lateral">
+			
+			<div id="box-busca">
+				<form role="search" method="get" id="searchform" action="http://www.viciadaemviajar.com/">
+					<input type="submit" id="bt-buscar" value="" />
+					<input type="text" value="" placeholder="Buscar" name="s" id="s" />
+				</form>
+
+			</div><!-- ./#box-busca -->
+
+			<div class="bg-add-300x50-01">
+				<!-- Banner topo -->
+				<ins class="adsbygoogle"
+				     style="display:block"
+				     data-ad-client="ca-pub-2668391617203276"
+				     data-ad-slot="6967805148"
+				     data-ad-format="horizontal"></ins>
+				<script>
+				// (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div>
+	
+			<div id="box-dicas">
+				<div class="bg">
+					<h3>Dicas gerais de viagem</h3>
+					<ul>
+												<li class="clara"><a href="http://www.viciadaemviajar.com/como-economizar-na-sua-viagem/">Como economizar na sua viagem</a></li>
+												<li class="escura"><a href="http://www.viciadaemviajar.com/planejando-a-viagem-quantos-dias-em-cada-cidade/">Planejamento: Quantos dias em cada cidade?</a></li>
+												<li class="clara"><a href="http://www.viciadaemviajar.com/veja-se-o-seu-voo-esta-no-horario-sem-sair-de-casa/">Veja se o seu voo está no horário</a></li>
+												<li class="escura"><a href="http://www.viciadaemviajar.com/passaporte-azulzinho-dificil/">Passaporte azulzinho difícil</a></li>
+												<li class="clara"><a href="http://www.viciadaemviajar.com/como-descobrir-o-fuso-horario-da-cidade-que-voce-vai-visitar/">Como descobrir o fuso horário do seu destino</a></li>
+												<li class="escura"><a href="http://www.viciadaemviajar.com/dilemas-para-fazer-a-mala/">Dilemas para fazer a mala</a></li>
+												<li class="clara"><a href="http://www.viciadaemviajar.com/vai-chover-ou-fazer-sol/">Vai chover ou fazer sol?</a></li>
+												<li class="escura"><a href="http://www.viciadaemviajar.com/dicas-de-boas-agencias-de-viagem-no-rio-sao-paulo-e-bahia/">Boas agências de viagem que indico</a></li>
+											</ul>
+					<div class="divisor"></div>
+				</div>
+			</div><!-- ./#box-dicas -->
+
+			<div class="bg-add-300x50-02">
+				<!-- Banner Destinos -->
+				<ins class="adsbygoogle"
+				     style="display:block;"
+				     data-ad-client="ca-pub-2668391617203276"
+				     data-ad-slot="9369541543" data-ad-format="horizontal"></ins>
+				<script>
+				// (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+
+			</div>
+
+			<div id="box-arquivo">
+				<div class="bg">
+					<div class="box-data">
+						<a id="ano-sub" class="bt-seta-esq"><span class="off">seta esquerda</span></a>
+						<h5 id="ano">2016</h5>
+						<a id="ano-add" class="bt-seta-dir"><span class="off">seta direita</span></a>
+					</div>
+					<h3>Arquivo</h3>
+					<ul class="ls-meses">
+						<li><a id="mes-1">Jan</a></li>
+						<li><a id="mes-2">Fev</a></li>
+						<li><a id="mes-3">Mar</a></li>
+						<li><a id="mes-4">Abr</a></li>
+						<li><a id="mes-5">Mai</a></li>
+						<li><a id="mes-6">Jun</a></li>
+						<li><a id="mes-7">Jul</a></li>
+						<li><a id="mes-8">Ago</a></li>
+						<li><a id="mes-9">Set</a></li>
+						<li><a id="mes-10">Out</a></li>
+						<li><a id="mes-11">Nov</a></li>
+						<li><a id="mes-12">Dez</a></li>
+					</ul>
+					<br class="clear" />
+					<ul id="ls-posts-arquivo" class="ls-arquivo">
+						<li class="escura">
+							<span>04</span>
+							<a href="" title="Ver: Rio de Janeiro - a lista com todos os posts">Rio de Janeiro - a lista com todos os posts</a>
+						</li>
+						<li class="clara">
+							<span>04</span>
+							<a href="" title="Ver: Rio de Janeiro - a lista com todos os posts">Rio de Janeiro - a lista com todos os posts</a>
+						</li>
+						<li class="escura">
+							<span>04</span>
+							<a href="" title="Ver: Rio de Janeiro - a lista com todos os posts">Rio de Janeiro - a lista com todos os posts</a>
+						</li>
+						<li class="clara">
+							<span>04</span>
+							<a href="" title="Ver: Rio de Janeiro - a lista com todos os posts">Rio de Janeiro - a lista com todos os posts</a>
+						</li>
+					<ul>
+					<br class="clear" />
+				</div>
+		
+			</div><!-- ./#box-arquivo -->
+	
+			<!--<div id="box-destinos">
+				<div class="bg">
+					<h3>Destinos</h3>
+					<h2><a href="http://www.viciadaemviajar.com/category/america-do-sul/">América do Sul</a></h2><table class="tb-destinos">
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/america-do-sul/argentina/">Argentina</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/america-do-sul/chile/">Chile</a></td>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/america-do-sul/colombia/">Colômbia</a></td><td class="dir">&nbsp;</td></tr></table><div class="divisor"></div><h2><a href="http://www.viciadaemviajar.com/category/asia/">Ásia</a></h2><table class="tb-destinos">
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/asia/china/">China</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/asia/hong-kong/">Hong Kong</a></td>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/asia/macau/">Macau</a></td><td class="dir">&nbsp;</td></tr></table><div class="divisor"></div><h2><a href="http://www.viciadaemviajar.com/category/brasil/">Brasil - Litoral</a></h2><table class="tb-destinos">
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/arraial-dajuda/">Arraial d'Ajuda (BA)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/arraial-do-cabo/">Arraial do Cabo</a></td>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/boipeba/">Boipeba (BA)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/buzios-rj/">Búzios (RJ)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/fernando-de-noronha/">Fernando de Noronha (PE)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/florianopolis-brasil/">Florianópolis (SC)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/ilha-grande-rj/">Ilha Grande (RJ)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/itacare/">Itacaré (BA)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/ceara/">Jericoacoara (CE)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/maceio/">Maceió (AL)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/morro-de-sao-paulo/">Morro de São Paulo (BA)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/natal/">Natal (RN)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/niteroi/">Niterói (RJ)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/paraty-rj/">Paraty (RJ)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/porto-seguro/">Porto Seguro (BA)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/rio-de-janeiro/">Rio de Janeiro (RJ)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/salvador-ba/">Salvador (BA)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil/sao-sebastiao/">São Sebastião (SP)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil/trancoso/">Trancoso (BA)</a></td><td class="dir">&nbsp;</td></tr></table><div class="divisor"></div><h2><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/">Brasil - Outras cidades</a></h2><table class="tb-destinos">
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/bananal-sp/">Bananal (SP)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/belem-pa/">Belém (PA)</a></td>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/belo-horizonte-mg/">Belo Horizonte (MG)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/bonito/">Bonito (MS)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/canela/">Canela (RS)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/chapada-diamantina/">Chapada Diamantina (BA)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/chapada-dos-veadeiros/">Chapada dos Veadeiros (GO)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/conceicao-do-ibitipoca-mg/">Conceição do Ibitipoca (MG)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/curitiba/">Curitiba (PR)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/embu-das-artes-sp/">Embu das Artes (SP)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/foz-do-iguacu/">Foz do Iguaçu (PR)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/gramado/">Gramado (RS)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/inhotimbrumadinho-mg/">Inhotim/Brumadinho (MG)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/lumiar-e-s-pedro-da-serra-rj/">Lumiar e S.Pedro da Serra (RJ)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/sao-jose-do-barreiro/">São José do Barreiro (SP)</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/sao-paulo/">São Paulo (SP)</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/serra-da-bocaina/">Serra da Bocaina</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/teresopolis-brasil-outras-cidades/">Teresópolis (RJ)</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/brasil-outras-cidades/tres-coroas-rs/">Três Coroas (RS)</a></td><td class="dir">&nbsp;</td></tr></table><div class="divisor"></div><h2><a href="http://www.viciadaemviajar.com/category/caribe/">Caribe</a></h2><table class="tb-destinos">
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/caribe/aruba/">Aruba</a></td><td class="dir">&nbsp;</td></tr></table><div class="divisor"></div><h2><a href="http://www.viciadaemviajar.com/category/estados-unidos/">Estados Unidos</a></h2><table class="tb-destinos">
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/estados-unidos/big-sur/">Big Sur</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/estados-unidos/boston/">Boston</a></td>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/estados-unidos/carmel-by-the-sea-estados-unidos/">Carmel-by-the-Sea</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/estados-unidos/los-angeles/">Los Angeles</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/estados-unidos/monterey/">Monterey</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/estados-unidos/napa/">Napa</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/estados-unidos/nova-york/">Nova York</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/estados-unidos/paso-robles/">Paso Robles</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/estados-unidos/san-francisco/">San Francisco</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/estados-unidos/santa-cruz/">Santa Cruz</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/estados-unidos/sausalito/">Sausalito</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/estados-unidos/sonoma/">Sonoma</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/estados-unidos/yosemite/">Yosemite</a></td><td class="dir">&nbsp;</td></tr></table><div class="divisor"></div><h2><a href="http://www.viciadaemviajar.com/category/europa/">Europa</a></h2><table class="tb-destinos">
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/europa/alemanha/">Alemanha</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/europa/austria/">Áustria</a></td>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/europa/belgica/">Bélgica</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/europa/espanha/">Espanha</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/europa/franca/">França</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/europa/grecia/">Grécia</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/europa/holanda/">Holanda</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/europa/inglaterra/">Inglaterra</a></td></tr>
+							<tr class="escura">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/europa/italia/">Itália</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/europa/pais-de-gales/">País de Gales</a></td></tr>
+							<tr class="clara">
+								<td class="esq"><a href="http://www.viciadaemviajar.com/category/europa/roteiros-e-passagens-na-europa/">Roteiros e passagens na Europa</a></td><td class="dir"><a href="http://www.viciadaemviajar.com/category/europa/turquia/">Turquia</a></td></tr></table><div class="divisor"></div>				</div>
+		
+			</div> ./#box-destinos -->
+
+			<div class="box-ad box-ad-01">
+				<!-- Banner Meio -->
+				<ins class="adsbygoogle"
+				     style="display:block;"
+				     data-ad-client="ca-pub-2668391617203276"
+				     data-ad-slot="1846274749" data-ad-format="rectangle"></ins>
+				<script>
+				// (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div><!-- ./#box-tags -->
+
+			<div id="box-buscaBooking" class="box-escuro">
+				<h3>Reserve no Booking e ajude o blog.</h3>
+				<aside id="bos_searchbox_widget-2" class="widget bos_searchbox_widget_class">
+
+<div id="flexi_searchbox" style="background-color:#FEBA02;color:#003580;width:250px;" data-ver="1.4" >
+
+    <div id="b_searchboxInc">
+        <h3 class="search-box-title-1"  style="color:#003580;">Pesquisar hot&eacute;is e mais...</h3>
+         <form id="b_frm" action="//www.booking.com/searchresults.html" method="get" target="_blank" onsubmit="return sp.validation.validSearch();">
+            <div id="searchBox_error_msg" class="b_error b_external_searchbox" style="display: none;"></div>
+            <div id="b_frmInner">
+                
+                <input type="hidden" name="error_url" value="//www.booking.com/searchresults.html?aid=820254;" />
+                <input type="hidden" name="si" value="ai,co,ci,re,di" />
+                <input type="hidden" name="label" value="wp-searchbox-widget-820254" />
+                
+                                 
+                <input type="hidden" name="aid" value="820254" />
+                <input type="hidden" name="utm_campaign" value="search_box" /> 
+                <input type="hidden" name="utm_medium" value="sp" /> 
+                <input type="hidden" name="utm_term" value="wp-searchbox-widget-820254" />            
+            
+
+
+                <div id="b_searchDest">
+                    <h4 id="b_destination_h4" style="color:#003580;">Destino</h4>
+                    
+                    <input type="text" id="b_destination" name="ss" placeholder="Ex.: cidade, regi&atilde;o, bairro ou hotel espec&iacute;fico" title="Ex.: cidade, regi&atilde;o, bairro ou hotel espec&iacute;fico" />                    
+                </div><!-- #b_searchDest -->
+
+                <div id="searchBox_dates_error_msg" class="b_error b_external_searchbox" style="display: none ;"></div>
+
+
+                 <div id="b_searchCheckInDate"><h4 id="checkInDate_h4" style="color:#003580;">Data de entrada</h4><div class="b_searchDatesInner"><a id="b_checkinCalPos" class="b_requiresJsInline" href="javascript:showCalendar('b_checkinCalPos', 'b_calendarPopup', 'b_checkin', 'b_frm');" title="Abrir o calend&aacute;rio e escolher uma data"><img class="b_seeThrough" src="http://www.viciadaemviajar.com/wp-content/plugins/bookingcom-official-searchbox/images/b_calendar_icon.jpg" alt="" title="Abrir o calend&aacute;rio e escolher uma data"  /></a><select name="checkin_monthday" id="b_checkin_day" onchange="checkDateOrder('b_frm', 'b_checkin_day', 'b_checkin_month', 'b_checkout_day', 'b_checkout_month');"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select><select name="checkin_year_month"  id="b_checkin_month"  onchange="checkDateOrder('b_frm', 'b_checkin_day', 'b_checkin_month', 'b_checkout_day', 'b_checkout_month');"><option value='2016-1'>Janeiro&nbsp;2016</option>
+<option value='2016-2'>Fevereiro&nbsp;2016</option>
+<option value='2016-3'>Mar&ccedil;o&nbsp;2016</option>
+<option value='2016-4'>Abril&nbsp;2016</option>
+<option value='2016-5'>Maio&nbsp;2016</option>
+<option value='2016-6'>Junho&nbsp;2016</option>
+<option value='2016-7'>Julho&nbsp;2016</option>
+<option value='2016-8'>Agosto&nbsp;2016</option>
+<option value='2016-9'>Setembro&nbsp;2016</option>
+<option value='2016-10'>Outubro&nbsp;2016</option>
+<option value='2016-11'>Novembro&nbsp;2016</option>
+<option value='2016-12'>Dezembro&nbsp;2016</option>
+</select></div></div><div id="b_searchCheckOutDate"><h4 id="checkOutDate_h4" style="color:#003580;">Data de sa&iacute;da</h4><div class="b_searchDatesInner"><a id="b_checkoutCalPos" cclass="b_requiresJsInline" href="javascript:showCalendar('b_checkoutCalPos', 'b_calendarPopup', 'b_checkout', 'b_frm');" title="Abrir o calend&aacute;rio e escolher uma data"><img class="b_seeThrough" src="http://www.viciadaemviajar.com/wp-content/plugins/bookingcom-official-searchbox/images/b_calendar_icon.jpg" alt="" title="Abrir o calend&aacute;rio e escolher uma data"  /></a><select name="checkout_monthday" id="b_checkout_day"><option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+</select><select name="checkout_year_month"  id="b_checkout_month"><option value='2016-1'>Janeiro&nbsp;2016</option>
+<option value='2016-2'>Fevereiro&nbsp;2016</option>
+<option value='2016-3'>Mar&ccedil;o&nbsp;2016</option>
+<option value='2016-4'>Abril&nbsp;2016</option>
+<option value='2016-5'>Maio&nbsp;2016</option>
+<option value='2016-6'>Junho&nbsp;2016</option>
+<option value='2016-7'>Julho&nbsp;2016</option>
+<option value='2016-8'>Agosto&nbsp;2016</option>
+<option value='2016-9'>Setembro&nbsp;2016</option>
+<option value='2016-10'>Outubro&nbsp;2016</option>
+<option value='2016-11'>Novembro&nbsp;2016</option>
+<option value='2016-12'>Dezembro&nbsp;2016</option>
+</select></div></div>
+                <div class="b_avail">
+                    <input type="hidden" value="on" name="do_availability_check" />
+                </div><!-- .b_submitButton_wrapper-->
+                
+                
+                                
+                <div class="b_submitButton_wrapper" style="text-align:right">
+                    <input class="b_submitButton" type="submit" value="Pesquisar" style="background-color:#0896FF;color:#FFFFFF;border-color:#0896FF;"/>
+                </div><!-- .b_submitButton_wrapper-->
+                
+                <div id="b_logo" style="text-align:left;" ><img src="http://www.viciadaemviajar.com/wp-content/plugins/bookingcom-official-searchbox/images/booking_logotype_blue_150x25.png" alt="Booking.com"></div>                
+                <!-- #b_logo" -->                        
+                
+
+            </div><!-- #b_frmInner -->
+         </form>
+    </div><!-- #b_searchboxInc -->
+
+
+    <div id="b_calendarPopup" class="b_popup">
+        <div id="b_calendarInner" class="b_popupInner "></div>
+    </div>
+
+</div><!-- #flexi_searchbox --></aside>			</div>
+	
+			<div id="box-newsletter">
+				<h3>Receba os posts por e-mail</h3>
+				<form action="http://viciadaemviajar.com/" method="post" name="wp_email_capture">
+					<input type="submit" class="bt-enviar" value="Enviar" />
+					<input type="text" title="Email" id="wp-email-capture-email-widget" name="wp-email-capture-email" value="" placeholder="Seu e-mail" />
+					<input type="hidden" value="1" name="wp_capture_action">
+				</form>				
+			</div><!-- ./#box-newsletter -->
+
+			<div class="box-ad box-ad-02">
+				<!-- Banner Meio -->
+				<ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-2668391617203276" data-ad-slot="1846274749" data-ad-format="rectangle"></ins>
+			</div><!-- ./#box-tags -->
+
+			<div id="box-bannerDesconto" class="box-escuro">
+				<h3>Desconto no Seguro Viagem</h3>
+				<a href="https://www.mondialtravel.com.br/?SalesAgentId=2532" target="_blank"><img src="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/img/banner-mondial.jpg" alt=""></a>
+			</div>
+
+			<div class="box-ad box-ad-03">
+				<!-- Banner Meio -->
+				<ins class="adsbygoogle" style="display:block;" data-ad-client="ca-pub-2668391617203276" data-ad-slot="1846274749" data-ad-format="rectangle"></ins>
+				<script>
+				// (adsbygoogle = window.adsbygoogle || []).push({});
+				</script>
+			</div><!-- ./#box-banner -->
+
+			<div id="box-facebook" class="box-escuro">
+				<h3>Curta nossa fanpage</h3>
+				<div class="fb-page" data-href="https://www.facebook.com/pages/Viciada-em-Viajar/133088103524530" data-width="300" data-height="224" data-hide-cover="false" data-show-facepile="true" data-show-posts="false">
+					<div class="fb-xfbml-parse-ignore">
+						<blockquote cite="https://www.facebook.com/pages/Viciada-em-Viajar/133088103524530">
+							<a href="https://www.facebook.com/pages/Viciada-em-Viajar/133088103524530">Viciada em Viajar</a>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+
+			<div class="box-rbbv">
+				<div style="padding:30px 0 0 40px;">
+					<a href="http://www.rbbv.com.br" target="_blank"><img src="http://www.viciadaemviajar.com/wp-content/uploads/2015/01/selo_rbbv_g.jpg" width="250"></a>
+				</div>
+			</div>
+
+			<!--<div id="box-tags">
+				<div class="bg">
+					<h3>Tags</h3>
+					<ul class="ls-tags">
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/adolescentes/">adolescentes</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/aeroporto/">aeroporto</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/albergues/">albergues</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/alemanha-2/">alemanha</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/america-do-sul-2/">américa do sul</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/amsterdam/">amsterdam</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/argentina-2/">argentina</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/arraial/">arraial</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/aruba-2/">aruba</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/asia-2/">ásia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/assis/">assis</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/atalaia/">atalaia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/atenas/">atenas</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/austria-2/">áustria</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/aventura/">aventura</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/bahia/">bahia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/barcelona/">barcelona</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/barco/">barco</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/bares/">bares</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/basquete/">basquete</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/belem/">belém</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/belo-horizonte/">belo horizonte</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/big-sur/">Big Sur</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/bocaina/">bocaina</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/boqueirao/">boqueirão</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/buzios/">búzios</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/cachoeiras/">cachoeiras</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/california/">califórnia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/capadocia/">capadócia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/capri/">capri</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/carmel/">carmel</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/carmel-by-the-sea/">Carmel-by-the-sea</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/carnaval/">carnaval</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/carro/">carro</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/chapada-diamantina-2/">chapada diamantina</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/chapada-dos-veadeiros/">chapada dos veadeiros</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/china-2/">china</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/colombia-2/">colômbia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/comida/">comida</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/compras/">compras</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/costa-amalfitana/">costa amalfitana</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/criancas/">crianças</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/curitiba-2/">curitiba</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/ecoturismo/">ecoturismo</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/espanha-2/">espanha</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/estados-unidos/">Estados Unidos</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/eua/">eua</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/europa-2/">europa</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/farol/">farol</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/fernando-de-noronha-2/">fernando de noronha</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/florenca/">florença</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/florianopolis/">florianópolis</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/floripa/">floripa</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/forno/">forno</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/foz-do-iguacu-2/">foz do iguaçu</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/franca-2/">frança</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/gastronomia/">gastronomia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/goias/">goiás</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/gramado-2/">gramado</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/gratis/">grátis</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/grecia-2/">grécia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/gruta-azul/">gruta azul</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/holanda-2/">holanda</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/hong-kong-2/">hong kong</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/hospedagem/">hospedagem</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/ilha-grande/">ilha grande</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/inglaterra-2/">inglaterra</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/inhotim/">inhotim</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/istambul/">istambul</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/itacare-2/">itacaré</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/italia-2/">itália</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/jardim-botanico/">jardim botânico</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/lagoa/">lagoa</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/lakers/">lakers</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/litoral/">litoral</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/locadora/">locadora</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/londres/">londres</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/los-angeles/">los angeles</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/macau-2/">macau</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/maceio-2/">maceió</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/medellin/">medellín</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/milhas/">milhas</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/milos/">milos</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/minas-gerais/">minas gerais</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/monterey/">monterey</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/morro-de-sao-paulo-2/">morro de são paulo</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/mykonos/">mykonos</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/natal-2/">natal</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/niteroi-2/">niterói</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/nova-york-2/">nova york</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/onibus/">ônibus</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/outlet/">outlet</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/para/">pará</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/paraty/">paraty</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/paris/">paris</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/parque-lage/">parque lage</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/passeio/">passeio</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/passeios/">passeios</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/porto-seguro-2/">porto seguro</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/praia/">praia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/praias/">praias</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/prainha/">prainha</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/restaurantes/">restaurantes</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/rio/">rio</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/rio-de-janeiro-2/">rio de janeiro</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/roma/">roma</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/roteiro/">roteiro</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/roteiro-de-viagem/">roteiro de viagem</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/roteiros/">roteiros</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/salvador/">salvador</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/salzburgo/">salzburgo</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/san-francisco/">san francisco</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/santa-catarina/">santa catarina</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/santorini/">santorini</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/sao-paulo-2/">São Paulo</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/sao-sebastiao-2/">são sebastião</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/serra-da-bocaina/">serra da bocaina</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/siena/">siena</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/templos/">templos</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/teresopolis/">teresópolis</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/transporte/">transporte</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/transporte-publico/">transporte público</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/trem/">trem</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/trilha/">trilha</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/trilhas/">trilhas</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/turquia-2/">turquia</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/veneza/">veneza</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/viagem/">viagem</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/viciada-em-viajar/">viciada em viajar</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/viena/">viena</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/visto-americano/">visto americano</a></li>
+											<li><span></span><a href="http://www.viciadaemviajar.com/tag/yosemite/">yosemite</a></li>
+										</ul>
+					<br class="clear" />
+				</div>
+				<div style="padding:30px 0 0 40px;">
+					<img src="http://www.viciadaemviajar.com/wp-content/uploads/2015/01/selo_rbbv_g.jpg" width="250">
+				</div>
+			</div> ./#box-tags -->
+			
+			<div class="bg-sidebar-footer"></div>
+		</div><!-- ./#box-lateral -->
+			<div class="border-bottom"></div>
+
+			</div><!-- ./#content -->
+
+		</div><!-- ./#outter-content -->
+
+		<div id="outter-footer">
+
+			<div id="footer">
+
+				<div class="box-populares">
+	
+					<h2>Posts mais recentes</h2>
+					<ul>
+											<li class="divisor">
+														<div class="box-img">
+								<div class="borda-branca"></div>
+								<div class="clipse"></div>
+								<img width="150" height="150" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3346-150x150.jpg" class="post-thumb wp-post-image" alt="A praia do Farol é uma atração imperdível no passeio de barco! Foto: Marcelle Ribeiro" />							</div>
+														<h3><a href="http://www.viciadaemviajar.com/arraial-do-cabo-como-e-o-passeio-de-barco-por-aguas-cristalinas/" title="Ver Arraial do Cabo: como é o passeio de barco por águas cristalinas">Arraial do Cabo: como é o passeio de barco por águas cristalinas</a></h3>
+							<h6>21.01.2016</h6>
+							<a href="http://www.viciadaemviajar.com/arraial-do-cabo-como-e-o-passeio-de-barco-por-aguas-cristalinas/#comentarios" class="lk-comentarios">1 comentário(s)</a>
+						</li>
+											<li class="">
+														<div class="box-img">
+								<div class="borda-branca"></div>
+								<div class="clipse"></div>
+								<img width="150" height="150" src="http://www.viciadaemviajar.com/wp-content/uploads/2016/01/IMG_3345-150x150.jpg" class="post-thumb wp-post-image" alt="A beleza da Praia do Farol e suas águas calmas. Foto: Marcelle Ribeiro" />							</div>
+														<h3><a href="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/" title="Ver Praias de Arraial do Cabo: visite o Caribe sem sair do Brasil">Praias de Arraial do Cabo: visite o Caribe sem sair do Brasil</a></h3>
+							<h6>17.01.2016</h6>
+							<a href="http://www.viciadaemviajar.com/praias-de-arraial-do-cabo-visite-o-caribe-sem-sair-do-brasil/#comentarios" class="lk-comentarios">3 comentário(s)</a>
+						</li>
+										</ul>	
+				</div>
+
+				<div class="box-populares">
+	
+					<h2>Posts mais lidos</h2>
+					<ul>
+													<li class="divisor">
+																<div class="box-img">
+									<div class="borda-branca"></div>
+									<div class="clipse"></div>
+									<img width="150" height="150" src="http://www.viciadaemviajar.com/wp-content/uploads/2011/10/DSC02002-150x150.jpg" class="post-thumb wp-post-image" alt="Bandeira de SP no alto de prédio (acho que é o do Banespa)" />								</div>
+																<h3><a href="http://www.viciadaemviajar.com/aeroporto-de-guarulhos-sp-todas-as-maneiras-de-ir-e-vir/" title="Ver Aeroporto de Guarulhos (SP) - Todas as maneiras de ir e vir">Aeroporto de Guarulhos (SP) - Todas as maneiras de ir e vir</a></h3>
+								<h6>12.10.2011</h6>
+								<a href="http://www.viciadaemviajar.com/aeroporto-de-guarulhos-sp-todas-as-maneiras-de-ir-e-vir/#comentarios" class="lk-comentarios">162 comentário(s)</a>
+							</li>
+													<li class="">
+																<div class="box-img">
+									<div class="borda-branca"></div>
+									<div class="clipse"></div>
+									<img width="150" height="150" src="http://www.viciadaemviajar.com/wp-content/uploads/2013/10/DSCN4968-150x150.jpg" class="post-thumb wp-post-image" alt="Central Park. Foto: Marcelle Ribeiro" />								</div>
+																<h3><a href="http://www.viciadaemviajar.com/meu-roteiro-de-7-dias-de-viagem-em-nova-york/" title="Ver Meu roteiro de 7 dias de viagem em Nova York">Meu roteiro de 7 dias de viagem em Nova York</a></h3>
+								<h6>27.10.2013</h6>
+								<a href="http://www.viciadaemviajar.com/meu-roteiro-de-7-dias-de-viagem-em-nova-york/#comentarios" class="lk-comentarios">22 comentário(s)</a>
+							</li>
+											</ul>
+	
+				</div>
+
+				<div class="box-populares">
+	
+					<h2>Posts mais comentados</h2>
+					<ul>
+											<li class="divisor">
+														<div class="box-img">
+								<div class="borda-branca"></div>
+								<div class="clipse"></div>
+								<img width="150" height="150" src="http://www.viciadaemviajar.com/wp-content/uploads/2011/10/DSC02002-150x150.jpg" class="post-thumb wp-post-image" alt="Bandeira de SP no alto de prédio (acho que é o do Banespa)" />							</div>
+														<h3><a href="http://www.viciadaemviajar.com/aeroporto-de-guarulhos-sp-todas-as-maneiras-de-ir-e-vir/">Aeroporto de Guarulhos (SP) &#8211; Todas as maneiras de ir e vir</a></h3>
+							<h6>12.10.2011</h6>
+							<a href="http://www.viciadaemviajar.com/aeroporto-de-guarulhos-sp-todas-as-maneiras-de-ir-e-vir/#comentarios" class="lk-comentarios">162 comentário(s)</a>
+						</li>						
+											<li class="">
+														<div class="box-img">
+								<div class="borda-branca"></div>
+								<div class="clipse"></div>
+								<img width="150" height="150" src="http://www.viciadaemviajar.com/wp-content/uploads/2011/06/DSC01321-150x150.jpg" class="post-thumb wp-post-image" alt="DSC01321" />							</div>
+														<h3><a href="http://www.viciadaemviajar.com/como-comprar-bilhetes-de-trem-para-a-italia/">Como comprar passagens de trem para a Itália</a></h3>
+							<h6>19.06.2011</h6>
+							<a href="http://www.viciadaemviajar.com/como-comprar-bilhetes-de-trem-para-a-italia/#comentarios" class="lk-comentarios">155 comentário(s)</a>
+						</li>						
+										</ul>
+	
+				</div>
+				<br class="clear" />
+				<div class="box-direitos">
+					<div class="redes-sociais-bg">
+						<ul>
+							<li><a href="https://www.facebook.com/pages/Viciada-em-Viajar/133088103524530?ref=ts&fref=ts" class="facebook" target="_blank">facebook</a></li>
+							<li><a href="https://twitter.com/viciadaemviajar" class="twitter" target="_blank">twitter</a></li>
+							<li><a href="http://www.viciadaemviajar.com/feed/" class="feed" target="_blank">feed</a></li>
+						</ul>
+					</div>
+					<h2><span class="off">Viciada em viajar</span></h2>
+					<p>&copy;2013 Viciada em Viajar | Todos os direitos reservados.</p>
+				</div>
+
+			</div><!-- ./#footer -->
+
+	</div><!-- ./#outter-footer -->
+
+</div><!-- ./#outter -->
+<script src="http://www.viciadaemviajar.com/wp-content/themes/twentytwelve/assets/js/jquery.mmenu.min.all.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+$(document).ready(function(){
+		//altera_tamanho();
+	$('.abrir-menu, .menu-main-menu-container').hover(
+		function() {
+			$('.menu-main-menu-container').show();
+			$(".menu-destinos-menu-container").hide();
+		},
+		function() {
+			$('.menu-main-menu-container').hide();
+		}
+	);
+
+	$('.abrir-menu2, .menu-destinos-menu-container').hover(
+		function() {
+			$('.menu-destinos-menu-container').show();
+			$(".menu-main-menu-container").hide();
+		},
+		function() {
+			$('.menu-destinos-menu-container').hide();
+		}
+	);
+		/*$('.abrir-menu').bind('click', function() {
+		var target = '.menu-main-menu-container';
+		$(".menu-destinos-menu-container").hide();
+		$('.abrir-menu2').removeClass('active')
+		
+		if($(this).is('.active')) {
+			$(target).slideUp('fast');
+			$(this).removeClass('active');
+		} else {
+			$(target).slideDown('fast');
+			$(this).addClass('active');	
+		}
+
+		return false;
+	});
+
+	$('.abrir-menu2').bind('click', function() {
+		var target = '.menu-destinos-menu-container';
+		$(".menu-main-menu-container").hide();
+		$('.abrir-menu').removeClass('active')
+		
+		if($(this).is('.active')) {
+			$(target).slideUp('fast');
+			$(this).removeClass('active');	
+		} else {
+			$(target).slideDown('fast');
+			$(this).addClass('active');	
+		}
+
+		return false;
+	});*/
+});
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-39466239-1']);
+  _gaq.push(['_setDomainName', 'viciadaemviajar.com']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+  	[].forEach.call(document.querySelectorAll('.adsbygoogle'), function(){
+    	(adsbygoogle = window.adsbygoogle || []).push({});
+	});
+</script>
+
+</body>
+</html>

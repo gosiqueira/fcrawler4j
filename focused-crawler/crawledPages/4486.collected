@@ -1,0 +1,1125 @@
+title=Avaliação de Lojas por consumidores - E-bit
+url=http://www.ebit.com.br/avaliacao-lojas
+html=
+
+
+
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Avaliação de Lojas por consumidores - E-bit</title>
+	<meta name="description" content="Veja aqui na E-bit as lojas de confiança, que foram avalidas pelos próprios consumidores de compras online.">
+    <meta name="keywords" content="seguranca, certificado, ebite, mercado, e-commerce, pesquisa, loja online, análise, medalha, reputação, avaliação, opinião, confiança.">
+	
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/fonts.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="//imgs.ebit.com.br/Site-ebit/css/jquery/jquery-ui.css" />
+
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="/js/css3-mediaqueries.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/ie.css" media="all" />
+<![endif]-->
+
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery.js"></script> 
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery.livequery.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-modal.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-typeahead.js"></script>
+
+<script type="text/javascript" src="/js/slideBlock.min.js"></script>
+<script type="text/javascript" src="/js/fadeBlock.min.js"></script>
+<script type="text/javascript" src="/js/autocomplete.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap-tooltip.min.js"></script>
+<script type="text/javascript" src="/js/analytics.min.js"></script>
+
+<script id="navegg" type="text/javascript" src="//d1070b8a575b8m.cloudfront.net/tm12525.js"></script>
+<script type="text/javascript" >$.ajaxSetup({async: true});</script>
+
+<script>
+	$(document).ready(function() {
+
+			$('#searchStore').click(function(){
+				if($('#searchStore').val() == "Digite o nome da loja"){
+					$('#searchStore').val('');	
+				}
+			});
+
+			$('#searchStore').blur(function(){
+				if($('#searchStore').val() == ""){
+					$('#searchStore').val('Digite o nome da loja');	
+				}
+			});
+
+			function handleImageError(obj, label) {
+				$(obj).remove();
+				$('#'+label).show();
+			}
+	});
+</script>
+
+	<link rel="stylesheet" type="text/css" href='/css/rep-loja.min.css' media="all">
+	<link rel="stylesheet" href='/css/jqtransform.min.css' type="text/css" media="all" />
+
+	<script src='/js/dropdown.min.js'></script>
+	<script src='/js/jquery.jqtransform.min.js'></script>
+	<script src='/js/jquery.tipsy.min.js'></script>
+
+</head>
+
+<body>
+	<section id="wrapper">
+		
+		<div class="banner">
+			<span>Publicidade</span>
+			<!-- "Ebit_ReputacaoLoja_728x90" (section "Reputação das Lojas") -->
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- "Ebit_ReputacaoLoja_728x90" (section "ReputaÃ§Ã£o das Lojas") -->
+		</div>
+		
+
+
+
+
+<header>
+	<a href="/">
+		<strong class="logo" id="logo-ebit">ebit A certificação dos consumidores null</strong>
+	</a>
+	<div class="search">
+		<fieldset>
+			<input type="text" value="Digite o nome da loja" class="text" id="searchStore" name="searchStore" data-provide="typeahead">
+			<input type="hidden" value="Digite o nome da loja" id="placeholder">
+			<input type="button" class="submit" id="submitSearch" value="search" alt='Digite o nome da loja' >
+		</fieldset>
+	</div>
+	<nav>
+		<ul>
+			<li><a class='menu-selected' href='/avaliacao-lojas'>Reputação das lojas</a></li>
+			<li><a  href='/concorra-premios/regulamento'>Concorra a prêmios</a></li>
+			
+				
+				
+					<li><a  href='/cadastro'>Cadastre-se</a></li>
+				
+			
+			
+		</ul>
+	</nav>
+
+<!-- Begin comScore Tag -->
+	<script>
+		  var _comscore = _comscore || [];
+		  _comscore.push({ c1: "2", c2: "9976088" });
+		  (function() {
+		    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		    el.parentNode.insertBefore(s, el);
+		  })();
+	</script>
+	<noscript>
+		<img src="http://b.scorecardresearch.com/p?c1=2&c2=9976088&cv=2.0&cj=1" />
+	</noscript>
+<!-- End comScore Tag -->
+	
+</header>
+   		<section id="main">
+   			<div class="conteudo-geral-reputacao">
+				<div id="content-filtros">
+					<span class="bread">Home >>  Reputação das Lojas</span>
+	            	<h1>Reputação das Lojas</h1>
+	            	
+	                <p>Aqui você poderá consultar a certificação das lojas conveniadas à E-bit e checar outras informações relevantes
+	                que irão te ajudar na sua decisão de compra</p>
+
+					<div class="content-drop-down-gnd">
+						<div class="content-label-gnd">Selecione a categoria</div>
+						<button class="button signin" id="cat"><img src="http://img.ebit.com.br/site-ebit/images/arrow-rep.png" /></button>
+
+						<div id="escolha-cat">
+		    				
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="1" id="estandar">
+										Acessórios Automotivos
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="2" id="estandar">
+										Alimentos e Bebidas
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="3" id="arte-e-antiguidades">
+										Arte e Antiguidades
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="4" id="artigos-religiosos">
+											Artigos Religiosos
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="5" id="assinaturas-e-revistas">
+										Assinaturas e Revistas
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="6" id="bebes-e-cia">
+										Bebês e Cia
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="7" id="blu-ray">
+										Blu-Ray
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="8" id="brinquedos-e-games">
+											Brinquedos e Games
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="9" id="casa-e-decoracao">
+										Casa e Decoração
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="10" id="cds">
+										CDs
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="38" id="clube-de-compras">
+										Clube de Compras
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="11" id="colecionaveis">
+											Colecionáveis
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="37" id="compra-coletiva">
+										Compra Coletiva
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="12" id="construcao-e-ferramentas">
+										Construção e Ferramentas
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="13" id="cosmeticos-e-perfumaria">
+										Cosméticos e Perfumaria
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="14" id="cuidados-pessoais">
+											Cuidados Pessoais
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="15" id="dvds">
+										DVDs
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="16" id="eletrodomesticos">
+										Eletrodomésticos
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="17" id="eletronicos">
+										Eletrônicos
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="18" id="esporte-e-lazer">
+											Esporte e Lazer
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="19" id="florescestas-e-presentes">
+										Flores,Cestas e Presentes
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="20" id="fotografia">
+										Fotografia
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="21" id="informatica">
+										Informática
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="22" id="ingressos">
+											Ingressos
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="23" id="instrumentos-musicais">
+										Instrumentos Musicais
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="24" id="joalheria">
+										Joalheria
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="25" id="livros">
+										Livros
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="0" id="loja-de-departamentos">
+											Loja de departamentos
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="26" id="loterias-e-apostas">
+										Loterias e Apostas
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="27" id="moda-e-acessorios">
+										Moda e Acessórios
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="28" id="musica-digital">
+										Musica Digital
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="29" id="papelaria-e-escritorio">
+											Papelaria e Escritório
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="30" id="pet-shop">
+										Pet Shop
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="31" id="saude">
+										Saúde
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="32" id="servicos">
+										Serviços
+									</div>
+								
+							
+								
+									<div class="btn-group">
+										
+											<input type="checkbox" class="categories" value="33" id="sex-shop">
+											Sex Shop
+										
+									</div>
+								
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="34" id="telefoniacelulares">
+										Telefonia/Celulares
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="35" id="vhs">
+										VHS
+									</div>
+								
+							
+								
+								
+									<div class="btn-group">
+										<input type="checkbox" class="categories" value="36" id="viagens-e-turismo">
+										Viagens e Turismo
+									</div>
+								
+							
+		 				 </div>
+	 				 </div>
+
+					<div class="content-drop-down">
+						<div class="content-label">Por Medalha</div>
+						 <button class="button signin"  id="med"><img src="http://img.ebit.com.br/site-ebit/images/arrow-rep.png" /></button>
+						<div id="escolha-med">
+		    				<div class="btn-group">
+								<label>
+				    					<img src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" /><s><strong>Diamante</strong> Excelente</s> 
+				    			</label>	
+				    			<input class="coins" type="checkbox" id="diamondCoin" value="DIAMOND">
+			     			</div>
+			     			<div class="btn-group">
+				 				<label>
+				  					<img src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" /><s><strong>Ouro</strong> Ótima</s> 
+				    			</label>	
+				    			<input class="coins" type="checkbox" id="goldCoin" value="GOLD">
+			     			</div>
+			     			<div class="btn-group">
+				     			<label>
+				     				<img src="http://img.ebit.com.br/Site-ebit/images/med-prata-pqn.png" /><s><strong>Prata</strong> Boa</s>
+				     			</label>	
+				     			<input class="coins" type="checkbox" id="silverCoin" value="SILVER">
+			     			</div>
+			     			<div class="btn-group">
+				     			<label>
+				     				<img src="http://img.ebit.com.br/Site-ebit/images/med-bronze-pqn.png" /><s><strong>Bronze</strong> Regular</s>
+				     			</label>	
+				     			<input class="coins" type="checkbox" id="bronzeCoin" value="BRONZE">
+			     			</div>
+			     			<div class="btn-group">
+				     			<label>
+				     				<img src="http://img.ebit.com.br/Site-ebit/images/med-em-avaliacao-pqn.png" /><s>Loja em Avaliação</s>
+				     			</label>	
+				     			<input class="coins" type="checkbox" id="waterCoin" value="WATER">
+			     			</div>
+			
+		 				 </div>
+					</div>
+
+					<div class="content-drop-down">
+						<div class="content-label">Por Ordenação</div>
+						 <button class="button signin" id="ord">
+						 <img src="http://img.ebit.com.br/site-ebit/images/arrow-rep.png" /></button>
+						<div id="escolha-ord">
+		    				<div class="btn-group">
+			     				<label>As melhores avaliadas</label>
+			     				<input class="sorting" type="radio" name="chbox" value="BEST_EVALUATED" checked="checked">
+			     			</div>
+			     			<div class="btn-group">
+			     				<label>As mais indicadas para amigos</label>
+			     				<input class="sorting" type="radio" name="chbox" value="RECOMMENDATION_TO_FRIENDS" >
+			     			</div>
+			     			<div class="btn-group">
+			     				<label>As melhores em probabilidade de voltar a comprar</label>
+			     				<input class="sorting" type="radio" name="chbox" value="LIKELIHOOD_TO_REPURCHASE">
+			     			</div>
+		 				 </div>
+					</div>
+
+			    </div>      
+	        	<div class="desc-drop">
+				<p id="totalOfItems">24697&nbsp;<span>lojas encontradas</span></p>
+				<a class="clear" class="limpar" id="cleanFilter">Limpar filtro</a>
+				
+			</div>
+			    
+			    <div class="loading" align="center" style="display: none;">
+					<img src="http://img.ebit.com.br/Site-ebit/images/loader1.gif" id="loading" alt="loading" />
+		  		 </div>
+           		
+           		<div class="searchResults">
+          			
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/fonts.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/rep-loja.min.css" media="all">
+
+
+	
+
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/delivery-extra">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img74231" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif" 
+											 alt="Avaliação da loja delivery extra" 
+											 title="Avaliação da loja delivery extra" 
+											 onerror="image404('img74231', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="74231" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/delivery-extra">delivery extra</a></strong> <span>                                                            </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> 0</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/walmart">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img742" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_742.gif" 
+											 alt="Avaliação da loja Walmart" 
+											 title="Avaliação da loja Walmart" 
+											 onerror="image404('img742', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="742" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/walmart">Walmart</a></strong> <span>Loja de departamentos                                       </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 10.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/magazine-luiza">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img552" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_552.gif" 
+											 alt="Avaliação da loja Magazine Luiza" 
+											 title="Avaliação da loja Magazine Luiza" 
+											 onerror="image404('img552', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="552" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/magazine-luiza">Magazine Luiza</a></strong> <span>Loja de departamentos                                       </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/ultrafarma">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img2163" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_2163.gif" 
+											 alt="Avaliação da loja UltraFarma" 
+											 title="Avaliação da loja UltraFarma" 
+											 onerror="image404('img2163', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="2163" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/ultrafarma">UltraFarma</a></strong> <span>Saúde, Cuidados Pessoais                                    </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/ricardo-eletro">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img3556" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_3556.gif" 
+											 alt="Avaliação da loja Ricardo Eletro" 
+											 title="Avaliação da loja Ricardo Eletro" 
+											 onerror="image404('img3556', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="3556" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/ricardo-eletro">Ricardo Eletro</a></strong> <span>Loja de departamentos                                       </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/saraiva">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img648" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_648.gif" 
+											 alt="Avaliação da loja Saraiva.com.br" 
+											 title="Avaliação da loja Saraiva.com.br" 
+											 onerror="image404('img648', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="648" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/saraiva">Saraiva.com.br</a></strong> <span>Livros                                                      </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/loja-do-mecanico">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img3108" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_3108.gif" 
+											 alt="Avaliação da loja Loja do Mecânico Gurgel Ferramentas" 
+											 title="Avaliação da loja Loja do Mecânico Gurgel Ferramentas" 
+											 onerror="image404('img3108', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="3108" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/loja-do-mecanico">Loja do Mecânico Gurgel Ferramentas</a></strong> <span>Construção e Ferramentas, Casa e Decoração                  </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/americanas">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img568" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_568.gif" 
+											 alt="Avaliação da loja Americanas.com" 
+											 title="Avaliação da loja Americanas.com" 
+											 onerror="image404('img568', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="568" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/americanas">Americanas.com</a></strong> <span>                                                            </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/dafiti">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img13472" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_13472.gif" 
+											 alt="Avaliação da loja Dafiti" 
+											 title="Avaliação da loja Dafiti" 
+											 onerror="image404('img13472', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="13472" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/dafiti">Dafiti</a></strong> <span>Moda e Acessórios                                           </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/kabum">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img2709" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_2709.gif" 
+											 alt="Avaliação da loja KaBuM!" 
+											 title="Avaliação da loja KaBuM!" 
+											 onerror="image404('img2709', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="2709" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/kabum">KaBuM!</a></strong> <span>Loja de Informática                                         </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/pontofrio">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img566" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_566.gif" 
+											 alt="Avaliação da loja PontoFrio" 
+											 title="Avaliação da loja PontoFrio" 
+											 onerror="image404('img566', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="566" 
+							 		 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png"
+							 		 style="vertical-align:middle" alt="Medalha diamante" title="Medalha diamante">
+							 	</div>
+							
+							
+							
+							
+							
+							
+					
+					</li>
+					
+					
+					<li><strong><a href="/pontofrio">PontoFrio</a></strong> <span>Loja de departamentos                                       </span></li>
+		            <li><img src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif" width="23" height="15" alt="#"> <strong> + 1.000</strong> <span>Avaliações em nosso site</span></li>
+		            
+				</div>
+			
+							
+				<div class="return-result">
+				<ul>
+					
+            			
+		            		
+							
+							
+								<li>
+									<a href="/rede-natura">
+										<div align="center" >
+										   <img class="resolve-img"
+										     id="img59301" 
+											 src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif" 
+											 alt="Avaliação da loja Rede Natura" 
+											 title="Avaliação da loja Rede Natura" 
+											 onerror="image404('img59301', 'http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif')" />
+										</div>
+									</a>
+								</li>
+							
+						
+					
+					
+					
+					<li class="medal">
+							
+							
+								<div style="text-align: center;">
+								<img alt="diamante" id="59301" 
+							 		 src="http://img.ebit.c

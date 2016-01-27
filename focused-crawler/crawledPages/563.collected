@@ -1,0 +1,579 @@
+title=Perguntas frequentes, Programa de fidelidade | Programa Viaje CVC
+url=http://www.programaviaje.com.br/perguntas-frequentes.html
+html=<!DOCTYPE html>
+<html>
+<head>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+        
+        
+        <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+     <script type="text/javascript">
+jQuery(document).ready(function() {
+
+	$(".video").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'elastic',
+			'transitionOut'	: 'elastic',
+			'title'			: this.title,
+			'width'			: 300,
+			'height'		: 385,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+
+
+
+$("a#inline").fancybox({
+		'hideOnContentClick': true
+	});
+
+
+
+ $(".iframe").fancybox({
+         'width'		: 900,
+		'height'		: '80%',
+         'autoScale' : false,
+         'transitionIn' : 'none',
+         'transitionOut' : 'none',
+         'type' : 'iframe',
+		  'autoSize' : false,
+		 
+     });
+
+
+
+
+});
+</script>
+
+    
+    
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    
+        
+		<script src="js/jquery.orbit.min.js" type="text/javascript"></script>
+		<script src="js/jquery.bxSlider/jquery.bxSlider.min.js" type="text/javascript"></script>
+		<script src="js/scripts.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="js/orbit.css">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Perguntas frequentes, Programa de fidelidade | Programa Viaje CVC</title>
+<meta name="description" content="Fale Conosco.Programa de fidelidade CVC. Suas compras acumulam pontos, podem ser trocados por descontos em pacotes turísticos, benefícios e muito mais!"/>
+<meta name="keywords" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+<meta name="DC.title" content="Perguntas frequentes, Programa de fidelidade | Programa Viaje CVC"/>
+<meta name="DC.description" content="Perguntas frequentes.Programa de fidelidade CVC. Suas compras acumulam pontos, podem ser trocados por descontos em pacotes turísticos e benefícios!"/>
+<meta name="DC.subject" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem, CVC"/>
+<meta name="DC.identifier" content="http://www.cvc.com.br"/>
+<meta Name="robots" content= "index,follow">
+<meta property="og:title" content="Perguntas frequentes, Programa de fidelidade | Programa Viaje CVC"/>
+<meta property="og:description" content="Perguntas frequentes.Programa de fidelidade CVC. Suas compras acumulam pontos, podem ser trocados por descontos em pacotes turísticos e benefícios!"/>
+<meta property="og:url" content="http://www.programaviaje.com.br/perguntas-frequentes.html"/>
+<meta property="og:site_name" content="CVC Viagens"/>
+<meta property="og:type" content="website"/>
+<link rel="canonical" href="http://www.programaviaje.com.br/perguntas-frequentes.html"/>
+</head>
+	<body id="perguntas-frequentes">
+		<div id="page">
+		  <div id="header" style="height:100px">
+				<h1><a href="index.html">Programa Viaje</a></h1>
+				
+				<div class="area-usuario">
+					<p class="titulo-area-usuario">Participe agora!</p>
+					<p><a  class="botao-registrar" href="http://www.programaviaje.com.br/eloyalty_ptb">Registre-se gr&aacute;tis</a></p>
+					<p> ou </p>
+					<p><a class="botao-login" href="http://www.programaviaje.com.br/eloyalty_ptb">Fa?a o login</a></p>
+					<!--<div class="frase-lojas"><strong style="color:#92288C">Atenção:</strong> <a href="programa.html#lojas-participantes">clique aqui</a> para conferir as lojas participantes do Programa Viaje!.</div>-->
+	    </div>
+                <div class="menu-header">
+                    <ul>
+                        <li class="duvidas on"><a href="#">Tire suas Dúvidas</a>
+                            <ul class="submenu-fale-conosco">
+                                <li class="fale-conosco"><a href="fale-conosco.html">Fale Conosco</a></li>
+                                <li class="perguntas-frequentes"><a href="perguntas-frequentes.html">Perguntas Frequentes</a></li>
+                            </ul>
+                        </li>  <li class="ofertas"><a href="#">Ofertas</a>
+                            <ul class="submenu-ofertas">
+                                <li class="acumule-pontos"><a href="ofertas-nacionais.html">Ofertas Nacionais</a></li>
+                                <li class="resgate pontos"><a href="ofertas-internacionais.html">Ofertas Internacionais</a></li>
+                                
+                            </ul>
+                        </li>
+                        <li class="parceiros"><a href="cartao-cvc.html">Cartão CVC</a></li>
+                        
+                      
+                        
+                        <li class="programa"><a href="programa.html">Sobre o Programa</a>
+                            <ul class="submenu-programa">
+                                <li class="acumule-pontos"><a href="programa.html#acumule">Acumule Pontos</a></li>
+                                <li class="resgate pontos"><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+                                <li class="regulamento"><a href="regulamento.html">Regulamento</a></li>
+                            </ul>
+                        </li> <li class="home"><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+			</div>
+			<div id="conteudo">
+				<h2>Perguntas Frequentes</h2>
+				
+				<p>Selecione o tópico para suas perguntas:</p>
+				
+				<div class="left">
+					<ul>
+						<li class="primeiro"><a href="#programa">Sobre o Programa Viaje!</a></li>
+						<li><a href="#cadastro">Cadastro</a></li>
+						<li><a href="#cartao">Cartão de Crédito CVC</a></li>
+						
+					  <li><a href="#pontuacao">Pontuação</a></li>
+						<li><a href="#produtos-servicos">Produtos e Serviços participantes</a></li>
+						<li><a href="#acumulo-resgate">Acúmulo e Resgate</a></li>
+						<li><a href="#reserva">Reserva com pontos</a></li>
+						<li><a href="#cancelamento">Cancelamento</a></li>
+						<li><a href="#reembolso">Reembolso/Estorno de pontos</a></li>
+						<li style="height: 42px;"><a href="#lista-vale">Lista de Casamento, Vale-Viagem <br>
+e Credipax</a></li>
+						
+					  <li><a href="#fale-conosco">Fale Conosco</a></li>
+					</ul>
+				</div>
+				
+				<div class="center">
+					<!--form action="">
+						<p>
+							<label>Busca:</label>
+							<input type="text" name="busca" class="cmp-texto" />
+							<input type="submit" class="btn-buscar" />
+						</p>
+					</form-->
+					<div id="perguntas-frequentes" class="faq box">
+						<a name="programa"></a>
+                        <h2>Sobre o Programa Viaje!</h2>
+						<dl>
+							<dt class="no-active">1.	O que é o Programa Viaje! ?</dt>
+							<dd>É o programa de fidelidade da CVC Brasil Operadora e Agencia de Viagens que permite aos seus participantes o acúmulo de pontos, a partir da compra de produtos e serviços realizadas através do Cartão CVC. <br/>
+							</dd>
+							
+							<dt class="no-active">2.	A adesão ao Programa Viaje! é gratuita?</dt>
+							<dd>
+							  <p>A adesão ao Programa Viaje! é totalmente gratuita, porém o acúmulo de pontos está vinculado ao pagamento da fatura de compras realizadas apenas com o Cartão CVC. </p>
+							</dd>
+                            
+                            <dt class="no-active">3.	Quem pode participar do Programa Viaje! ?</dt>
+							<dd>
+							  <p>Para participar do Programa Viaje! é necessário ser maior de 18 anos, brasileiro (a), ou residente no Brasil, inscrito no Cadastro de Pessoas Físicas (CPF) e adquirente de produtos ou serviços com o Cartão CVC. </p>
+							</dd>
+                            
+                            
+                        <dt class="no-active">4.	Posso cancelar minha participação no Programa Viaje! ?</dt>
+							<dd><p>Você poderá cancelar sua participação no Programa Viaje! mediante solicitação via Fale Conosco. IMPORTANTE: Após o cancelamento da sua participação no programa, serão cancelados todos os pontos creditados em sua conta fidelidade. <br>
+O cliente deve ligar para a Central de Relacionamento do Programa Viaje! através do telefone 0800 701 1226 de segunda à sexta das 9h às 18h, exceto feriados e solicitar o cancelamento. Caso o cliente possua pontuação, a mesma será perdida e não pode ser transferida nem reativada. <br>
+							</p>
+</dd>
+						</dl>
+					</div>
+                    
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="cadastro"></a>
+                        <h2>Cadastro</h2>
+						<dl>
+							<dt class="no-active">1.	Como faço para me cadastrar no Programa Viaje! ?</dt>
+							<dd>Para cadastrar-se, basta adquirir o Cartão CVC em uma de nossas lojas habilitadas e seu cadastro será realizado automaticamente. Para acompanhamento dos pontos e resgate é necessário à criação de uma senha, confirmar o seu e-mail e aceitar o Regulamento através do site www.programaviaje.com.br.</dd>
+							
+							<dt class="no-active">2.	Qual é o prazo para cadastro no Programa Viaje! após a adesão do Cartão CVC ?  </dt>
+							<dd>Ao aderir ao Cartão CVC (Internacional ou Gold) você já esta pré-cadastrado no Programa Viaje! podendo pontuar no momento do pagamento de sua fatura, porem, para visualizar seu saldo e realizar o resgate dos seus pontos, é necessário finalizar o seu cadastro no site do programa www.programaviaje.com.br, escolhendo uma senha, confirmando o seu e-mail e aceitando o regulamento do programa. Para isso, não há prazo, porem para resgatar seus pontos é necessário realizar esta etapa.</dd>
+                            
+
+                            
+    <dt class="no-active">3.	Esqueci minha senha no Programa Viaje!, como recuperá-la?</dt>							<dd>Ao acessar o link “Esqueci minha senha” na área de login no site do programa, informe seu CPF e e-mail cadastrado e uma nova senha será enviada ao seu e-mail.</dd>
+                            
+                      
+
+    <dt class="no-active">4.	Como alterar dados já cadastrados no Programa Viaje! ?</dt>
+							<dd>Todos os dados cadastrados no Programa Viaje! poderão ser alterados acessando a área "Alterar Cadastro" no site do programa (www.programaviaje.com.br), exceto os campos relacionados ao número do CPF e a Data de Nascimento.</dd>
+					</div>    
+                    
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="cartao"></a>
+                        <h2>Cartão de crédito CVC</h2>
+                       
+						<dl>
+							<dt class="no-active">1. O que é o Cartão CVC?</dt>
+							<dd>É um cartão emitido por instituição financeira credenciada a CVC com a bandeira VISA ou MASTERCARD e que confere a seu titular pontos no Programa Viaje! mediante pagamento da fatura. Os cartões disponíveis são: Gold e Internacional</dd>
+                            
+                            <dt class="no-active">2. Como eu ganho pontos com o Cartão CVC?</dt>
+							<dd>Qualquer compra realizada com o Cartão CVC dentro da loja CVC ou em qualquer estabelecimento que aceite as bandeiras VISA e MASTERCARD acumula pontos e os mesmo são creditados em sua conta após o pagamento das faturas.</dd>
+                            
+                             <dt class="no-active">3. Acumulo pontos com compras pagas no crédito e também no débito?</dt>
+							<dd>O Cartão CVC possui apenas a função crédito. Não é possível efetuar pagamentos na função débito utilizando  Cartão CVC.</dd>
+                            
+                             <dt class="no-active">4. Quantos pontos valem minhas compras feitas com o Cartão CVC?</dt>
+							<dd>O Cartão CVC é disponibilizado em duas modalidades, Internacional e Gold:<br>
+Internacional: R$1,00 = 1 ponto<br>
+Gold: R$1,00 = 2 pontos
+</dd>
+                            
+                             <dt class="no-active">5. Como controlar a pontuação adquirida em compras com o Cartão CVC?</dt>
+							<dd>Todas as informações referentes a sua pontuação estarão disponíveis para consulta no seu extrato no site do programa de fidelidade da CVC e no extrato que consta na fatura do seu Cartão CVC em até 40 dias após o pagamento da fatura.</dd>
+                            
+                             <dt class="no-active">6. Multas referentes ao meu Cartão CVC acumulam ou anulam pontos?</dt>
+							<dd>Valores pagos a título de multas não geram ou anulam qualquer ponto para o programa Viaje, porém, compras dentro e fora da CVC, anuidade, saque e Seguro Proteção Total acumulam pontos.</dd>
+                            
+                             <dt class="no-active">7. Adquiri o Cartão CVC, posso me cadastrar no Programa Viaje! ?</dt>
+							<dd>Ao adquirir o cartão de crédito CVC, você já estará pré-cadastrado no Programa e já começa a acumular pontos com as compras efetuadas em seu cartão (mediante pagamento da fatura). Para realizar o resgate da sua pontuação, será necessário acessar o site do programa www.programaviaje.com.br e finalizar o seu cadastro, escolhendo uma senha, confirmando o seu e-mail e concordando com o regulamento.</dd>
+                            
+							
+							
+                        </dl>
+                        
+	</div>                        
+                    
+					
+                    
+	<div id="perguntas-frequentes" class="faq box">
+						<a name="pontuacao"></a>
+                        <h2>Pontuação</h2>
+						<dl>
+							<dt class="no-active">1.	Como faço para ganhar pontos  no Programa Viaje!?</dt>
+							<dd>Para ganhar pontos no Programa Viaje! Basta efetuar compras com seu Cartão CVC, e realizar o pagamento de sua fatura.</dd>
+							
+							<dt class="no-active">2.	Quando recebo meus pontos no Programa Viaje! ?</dt>
+							<dd>Sua pontuação no Programa Viaje! será creditada em sua conta fidelidade em até 40 dias após o pagamento da fatura de seu Cartão CVC.</dd>
+                            
+                            <dt class="no-active">3.	Como posso utilizar meus pontos no Programa Viaje! ?</dt>
+							<dd>Os pontos adquiridos no Programa Viaje! serão utilizados exclusivamente na forma de desconto na aquisição de produtos e serviços da CVC, constantes no catálogo de produtos e serviços participantes, disponível nas lojas CVC. É isso mesmo, se viajar com a CVC já era fácil, prepare suas malas para viajar mais e melhor com a gente. </dd>
+                            
+                            <dt class="no-active">4.	Qual é a validade dos pontos no Programa Viaje! ?</dt>
+							<dd>Você tem o prazo de até 24 meses para utilizar sua pontuação adquirida nas compras realizadas com o seu Cartão CVC. Esta validade começa a ser contabilizada a partir da data de crédito de pontos em sua conta no momento do pagamento de sua fatura.<br>
+Após este prazo, se não houver resgate, os pontos serão expirados a contar da data de primeiro acúmulo, exemplo:<br><br>
+<strong>20/03/2014: </strong>Acúmulo de 1.000 pontos<br>
+<strong>21/04/2014:</strong> Acúmulo de 500 pontos<br>
+<strong>Total:</strong> 1.500 pontos<br><br>
+<strong>20/03/2016:</strong> Expiração de 1.000 pontos<br>
+<strong>Total restante:</strong> 500 pontos<br>
+<strong>21/04/2016:</strong> Expiração de 500 pontos<br>
+<strong>Total restante:</strong> 0 pontos<br>
+
+</dd>
+                            
+                            <dt class="no-active">5.	Posso transferir meus pontos do Programa Viaje! para outra pessoa?</dt>
+							<dd>Não. Sua pontuação no Programa Viaje! é individual e intransferível, por isso, compras realizadas com o seu Cartão CVC, só poderão ser contabilizadas para você, contratante. Entretanto, você poderá efetuar resgate da sua pontuação para realizar viagens com sua família e amigos, lembrando que o contratante da viagem sempre será a pessoa que acumulará os pontos referentes a ela. </dd>
+
+                            <dt class="no-active">6.	Fiz uma viagem com a CVC e não ganhei pontos</dt>
+							<dd>Apenas faturas pagas com o Cartão CVC acumulam pontos.</dd>
+
+                            <dt class="no-active">7.	Existe um limite para acúmulo de pontos no Programa Viaje!?</dt>
+							<dd>Não existe limite para o acúmulo de pontos no Programa Viaje!</dd>
+
+                            <dt class="no-active">8.	Pontos utilizados para a compra de produtos CVC também acumulam pontos?</dt>
+							<dd>Não, apenas o valor líquido da parte do pagamento em dinheiro gera acúmulo de pontos no Programa Viaje! (desde que este pagamento seja realizado via Cartão CVC). Confira o exemplo a seguir: <br><br>
+<strong>Saldo:</strong> 0 <br>
+<strong>18/04/2014: </strong>Compra realizada com o Cartão CVC no valor de R$ 4.000,00.<br>
+ 
+<strong>20/04/2014:</strong> Acúmulo de 4.000 pontos referente a compra com o Cartão CVC realizada em 18/04/2012. <br>
+<strong>Saldo:</strong> 4.000 pontos. <br><br>
+<strong>15/07/2014:</strong> Cliente compra uma viagem com pontos mais dinheiro (Cartão CVC): R$ 1.200,00 + 500 pontos  <br>
+<strong>Saldo:</strong> 4.700 pontos  (4.000 pontos acumulados – 500 pontos resgatados + 1.200 pontos acumulados). 
+
+</dd>
+
+                            <dt class="no-active">9.	O que fazer em caso de suspeita de utilização indevida dos pontos do Programa Viaje!?</dt>
+							<dd>Em caso de suspeita de utilização indevida dos seus pontos no Programa Viaje!, contate nossa Central de Atendimento. Lembre-se de ter cuidado com o fornecimento de seus dados a terceiros e que sua senha no programa é de uso pessoal e deve ser mantida em sigilo. Medidas simples como essas ajudam a garantir a segurança da sua conta no programa.</dd>
+
+                            <dt class="no-active">10.	Os centavos pagos na fatura também acumulam pontos? Existem pontos fracionados?</dt>
+							<dd>Não existem pontos fracionados (ex: 0,5 ponto; 0,75 ponto)
+Caso o valor “quebrado” de sua fatura seja de até R$ 0,50 não haverá acúmulo de um ponto extra. A partir de R$ 0,51 você receberá um ponto a mais. Veja os exemplos abaixo:<br>
+Valor da fatura: R$ 725,33 → Pontos acumulados: 725<br>
+Valor da fatura: R$ 725,50 → Pontos acumulados: 725<br>
+Valor da fatura: R$ 725,51 → Pontos acumulados: 726<br>
+Valor da fatura: R$ 725,94 → Pontos acumulados: 726<br>
+</dd>
+
+                        </dl>
+					</div>                        
+                    
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="produtos-servicos"></a>
+                        <h2>Produtos e Serviços participantes</h2>
+						<dl>
+							<dt class="no-active">1.	Estou procurando um pacote com pontos e não encontro</dt>
+							<dd>Os pacotes disponíveis para compra com pontos+dinheiro estão disponíveis no catálogo de produtos participantes nas lojas CVC.</dd>
+				        </dl>
+					</div> 
+
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="acumulo-resgate"></a>
+                        <h2>Acúmulo e Resgate</h2>
+						<dl>
+							<dt class="no-active">1.	Como faço para resgatar meus pontos?</dt>
+							<dd>Você pode resgatar seus pontos apenas nas lojas da CVC. </dd>
+							
+							<dt class="no-active">2.	Como verificar saldo de pontos no Programa Viaje! ?</dt>
+							<dd>Você poderá consultar seu extrato de pontos e todas as movimentações realizadas com sua pontuação através do nosso site www.programaviaje.com.br ou através da fatura de seu Cartão CVC. Consulte sua conta fidelidade regularmente, visite o site da CVC e não perca as incríveis chances de resgate que o Programa Viaje! tem para você.</dd>
+                            
+                            <dt class="no-active">3.	Meus pontos não foram contabilizados.</dt>
+							<dd>A data de pagamento da sua fatura do Cartão CVC representa a data de acúmulo no Programa Viaje!, onde apenas o contratante do produto, terá os pontos contabilizados em sua conta fidelidade.</dd>
+                            
+                          
+                            
+                            <dt class="no-active">4.	Estou pagando as parcelas do meu Cartão CVC, o acúmulo de pontos é referente ao valor da compra ou da fatura?</dt>
+							<dd>O acúmulo de pontos sempre será realizado mediante pagamento da fatura referente ao valor da compra. <br>
+							  Veja exemplos abaixo, com cartão Internacional (R$ 1,00 = 1 ponto):<br>
+							  <br>
+Compra à vista (parcela única de R$ 1.000,00) →  cliente efetuou pagamento do valor mínimo da fatura, porém acumulará 1.000 pontos.
+<br>
+<br>
+Compra parcelada (R$ 1.000,00  em 10 parcelas de R$ 100,00 cada) → cliente efetuou pagamento do valor mínimo da fatura e acumulará 100 pontos, referentes à 1ª parcela de R$ 100,00. </dd>
+
+                            <dt class="no-active">5.	Posso pagar apenas parte do meu pacote CVC com pontos + dinheiro?</dt>
+							<dd>Ao comprar um pacote CVC para mais de um passageiro, você poderá escolher quantos terão o pacote pago com pontos + dinheiro e quantos apenas com dinheiro.</dd>
+                            
+                            <dt class="no-active">6.	Uma compra com pontos + dinheiro pode ter mais que um contratante (pagante)? </dt>
+							<dd>Sim. A divisão do valor em dinheiro e em pontos a serem pagos por um pacote pode ser realizada, desde que nenhuma parte do pagamento seja feita apenas com pontos. O mínimo de pontos a ser utilizado como pagamento do pacote será correspondente à quantia de pontos necessária por pessoa para a aquisição do produto desejado.</dd>
+
+                            <dt class="no-active">7.	Posso comprar um pacote apenas com pontos?</dt>
+							<dd>Não é possível adquirir um produto CVC exclusivamente com pontos. A pontuação adquirida no Programa Viaje! será utilizada exclusivamente para desconto na aquisição de produtos oferecidos pela CVC, constantes do catálogo promocional, mediante pagamento com dinheiro + pontos.</dd>
+
+                            <dt class="no-active">8.	Tenho mais pontos do que o necessário indicado em orçamento para a aquisição de um produto CVC. Posso utilizá-los para abater a quantia em dinheiro necessária para adquiri-lo?</dt>
+							<dd>Não, o valor em dinheiro e pontos necessários para a aquisição de um produto CVC, deve ser o mesmo determinado em seu orçamento. </dd>
+
+                            <dt class="no-active">9.	Realizei compras com o Cartão CVC antes do lançamento do programa. Elas acumulam pontos?</dt>
+							<dd>Sim, todas as compras realizadas com o Cartão CVC a partir de novembro/2013 acumulam pontos, porem, para realizar o resgate dos seus pontos é necessário finalizar o seu cadastro no site do programa www.programaviaje.com.br escolhendo uma senha de acesso, confirmando o seu e-mail e aceitar o regulamento.</dd>
+
+                            <dt class="no-active">10.	Quantos pontos posso acumular no Programa Viaje!?</dt>
+							<dd>Seu acúmulo de pontos no Programa Viaje! será sempre proporcional ao valor de suas compras, mas somente serão validos para resgate se a fatura do cartão for paga entre o valor mínimo e o total. É isso mesmo, cada um real gasto em compras com o Cartão CVC Internacional você ganhará um ponto e cada um real gasto em compras com o Cartão CVC Gold vale dois pontos.<br>
+Não existe limite para acúmulo de pontos.
+</dd>
+
+                            <dt class="no-active">11.	Onde posso resgatar meus pontos do Programa Viaje!?</dt>
+							<dd>Você pode resgatar seus pontos somente através das lojas CVC participantes.</dd>
+
+                            <dt class="no-active">12.	Como faço para saber quais são minhas atuais opções de compra com pontos + dinheiro?</dt>
+							<dd>Para saber quais são os produtos disponíveis para compra com resgate de pontos, consulte uma de nossas Lojas CVC. Importante: A CVC se reserva o direito de alterar o catálogo de produtos e serviços a qualquer momento, bem como a quantidade de pontos necessária para a aquisição dos mesmos, sem aviso prévio, garantindo apenas valores fornecidos em orçamento e que estiverem dentro de sua respectiva validade.
+
+</dd>
+
+                            <dt class="no-active">13.	Com quanto tempo de antecedência posso comprar produtos CVC com pontos + dinheiro?</dt>
+							<dd>Não existe prazo limitante.</dd>
+
+                            <dt class="no-active">14.	Se eu realizar compras na CVC sem o Cartão CVC, estas compras acumularão pontos após a aquisição do cartão?</dt>
+							<dd>Não, apenas compras realizadas com o Cartão CVC acumulam pontos (mediante pagamento da fatura). </dd>
+
+                            <dt class="no-active">15.	Como acumular pontos no Programa Viaje!?</dt>
+							<dd>O acúmulo de pontos no Programa Viaje! está vinculado a qualquer compra realizada com os cartões CVC mediante pagamento da fatura do cartão. </dd>
+
+                        
+
+                        </dl>
+					</div>
+
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="reserva"></a>
+                        <h2>Reserva com pontos</h2>
+						<dl>
+							<dt class="no-active">1.	Posso realizar uma reserva para comprar um pacote com pontos + dinheiro? </dt>
+							<dd>Reserva não garante o preço com pontos de um produto. Se disponível no catálogo de produtos participantes do Programa Viaje!, a reserva garantirá o lugar no produto desejado dentro do prazo de validade da reserva e não os valores em dinheiro e pontos necessários para a aquisição, apresentados no momento em que a reserva é efetuada. Para que ela seja efetuada, seu saldo de pontos deve ser suficiente para a aquisição do produto desejado na data efetiva da compra. Caso os pontos utilizados no momento da reserva expirem antes da data efetiva de compra, os pontos expirados não poderão ser utilizados na aquisição do produto reservado. <br><br>
+Importante: A CVC se reserva o direito de alterar o catálogo de produtos e serviços a qualquer momento, bem como a quantidade de pontos necessária para a aquisição dos mesmos, sem aviso prévio, garantindo apenas valores fornecidos em orçamento e que estiverem dentro de sua respectiva validade.
+</dd>
+							
+						
+
+                        </dl>
+					</div> 
+
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="cancelamento"></a>
+                        <h2>Cancelamento</h2>
+						<dl>
+							<dt class="no-active">1.	Posso cancelar a compra de um produto comprado com pontos + dinheiro?</dt>
+							<dd>Sim, o processo de cancelamento de compras com pontos + dinheiro é o mesmo de uma compra sem pontos e deve ser feito por meio do nosso SAC, com uma formalização via email, ou através da loja onde a compra foi efetuada. 
+
+</dd>
+
+                    <dt class="no-active">2.	Cancelei minha compra com pontos + dinheiro, tenho direito ao reembolso dos pontos? </dt>
+              <dd>Em casos de cancelamento realizados antes da data de início da viagem, nosso sistema devolve a pontuação utilizada na compra em  questão, sem cobrança de multas.. Em casos de cancelamentos após o início da viagem ou na ausência injustificada no momento do embarque, haverá perda de 100% dos pontos. 
+             </dd>
+
+
+                        </dl>
+					</div> 
+
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="reembolso"></a>
+                        <h2>Reembolso/Estorno de pontos</h2>
+						<dl>
+							<dt class="no-active">1.	Qual é a validade dos meus pontos reembolsados/estornados? </dt>
+							<dd><strong>IMPORTANTE:</strong> Em casos de reembolso/estorno de pontos, os mesmos manterão sua validade original, isto é, o prazo de 24 meses permanece sendo contado a partir da data do crédito original dos pontos (data de pagamento da fatura), e não do seu estorno.</dd>
+							
+			
+
+                        </dl>
+					</div> 
+   
+						<div id="perguntas-frequentes" class="faq box">
+						<a name="lista-vale"></a>
+                        <h2>Lista de Casamento, Vale-Viagem e Credipax</h2>
+						<dl>
+							<dt class="no-active">1.	Minha lista de casamento me ajuda a acumular pontos no Programa Viaje!?</dt>
+							<dd>A lista de casamento CVC acumula pontos apenas para pessoa que utilizar o Cartão CVC como forma de pagamento das cotas. O beneficiário da lista de presentes, não terá direito ao crédito de pontos.</dd>
+							
+							<dt class="no-active">2.	Compras efetuadas com o Credipax acumulam pontos no Programa Viaje!?</dt>
+							<dd>Não, apenas compras realizadas com o Cartão CVC acumulam pontos mediante pagamento da fatura.</dd>
+                            
+                            
+                            
+                            <dt class="no-active">3. Posso utilizar meu Credipax para efetuar uma compra de produtos com pontos + dinheiro?	</dt>
+						  <dd>O Credipax só poderá ser utilizado em compras de produtos com pontos + dinheiro, se o mesmo tiver sido adquirido em uma compra com o pagamento efetuado com pontos + dinheiro, porém o montante pago em dinheiro com o Credipax  não acumulará pontos para o programa.</dd>
+                            
+                            <dt class="no-active">4.	Vale-Viagem acumula pontos?</dt>
+						  <dd>Sim, desde que a compra dos créditos do Vale-Viagem seja realizada com um Cartão CVC. Você poderá utilizar seu Vale-Viagem como parte do pagamento, porém somente a parte paga com o Cartão CVC permitirá o acúmulo de pontos. Caso o valor do produto seja pago totalmente via Vale-Viagem, não acumulará pontos.</dd>
+                            
+                           
+                            
+                            
+                            
+
+                        </dl>
+					</div> 
+                    
+					
+                    
+	<div id="perguntas-frequentes" class="faq box">
+						<a name="fale-conosco"></a>
+                        <h2>Fale conosco</h2>
+					
+	</div>                     
+                    
+                    
+                    
+ <div id="fale-conosco-perguntas">
+				
+				
+                <p><a name="fale-conosco"></a>Tem mais alguma dúvida? Entre em contato no telefone <strong>0800 701 1226</strong> de segunda à sexta das 9h às 18h, exceto feriados.</p>
+				
+				<fieldset>
+				  <p>
+						<label>Nome</label>
+						<input type="text" name="nome" class="form-nome" />
+					</p>
+					<p>
+						<label>E-mail</label>
+						<input type="text" name="email" class="form-email" />
+					</p>
+					<p>
+						<label>CPF</label>
+						<input type="text" name="cpf" class="form-cpf" />
+					</p>
+				</fieldset>
+				<fieldset>
+					<p>
+						<label>Assunto</label>
+						<select class="form-assunto">
+						  <option>Selecione um assunto</option>
+						  <option>Cadastro</option>
+						  <option>Loja Favorita</option>
+						  <option>Cartão de Crédito CVC</option>
+						  <option>Pontuação</option>
+                          <option>Produtos e Serviços participantes</option>
+						  <option>Acúmulo e Resgate</option>
+						  <option>Reserva com Pontos</option>
+                          <option>Reembolso/Estorno de pontos</option>
+						  <option>Lista de Casamento, Vale Viagem e Credipax</option>
+						  <option>Multa</option>
+                          <option>Participantes</option>
+                          <option>Programa de Fidelidade CVC</option>
+						</select>
+					</p>
+					<p>
+						<label>Titulo</label>
+						<input type="text" name="" class="form-titulo" />
+					</p>
+					<p class="form-mensagem">
+						<label>Mensagem:</label>
+						<textarea></textarea>
+					</p>
+					
+					<input type="submit" class="btn-enviar" value="Enviar" />
+				</fieldset>
+				
+				
+			</div>	                    
+                    
+				</div>
+			<div class="clearfix"></div>	
+			</div>	
+		</div>
+	<div id="footer-expansivel">
+		<div id="footer">
+		  <div id="texto-legal"><strong style="color:#92288C">Atenção:</strong> Somente acumularão pontos as compras realizadas com o seu Cartão CVC nas lojas CVC ou em qualquer estabelecimento</div>
+			<div class="institucional">
+				<ul>
+					<li class="titulo"><span>Sobre o Programa</span>
+						<ul class="lista-servicos">
+							<li><a href="programa.html#acumule">Acumule Pontos</a></li>
+							<li><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+							<li><a href="regulamento.html">Regulamento</a></li>
+					    </ul>
+				    </li>
+			    </ul>
+				
+				
+				    </li>
+			    </ul>
+				<ul class="ultimo">
+					<li class="titulo"><span>Tire suas dúvidas</span>
+						<ul class="lista-servicos">
+							<li><a href="perguntas-frequentes.html">Perguntas frequentes</a></li>
+							<li><a href="fale-conosco.html">Fale conosco</a></li>
+                             <li><a class="iframe" href="lojas-participantes.html">Lojas participantes</a></li>
+                            
+					    </ul>
+				    </li>
+			    </ul>
+		    </div>
+			<!-- Aqui entra o carrossel 
+			<div class="carrossel">
+				<ul id="slider1">
+					<li class="black-coffee"><a href="parceiros.html">Black Coffee</a></li>
+					<li class="abril"><a href="parceiros.html">Abril Assinaturas</a></li>
+					<li class="frango-assado"><a href="parceiros.html">Frango Assadj</a></li>
+					<li class="hertz"><a href="parceiros.html">Hertz</a></li>
+					<li class="le-postiche"><a href="parceiros.html">Le postiche</a></li>
+					<li class="saraiva"><a href="parceiros.html">Saraiva</a></li>
+					<li class="boticario"><a href="parceiros.html">O Boticario</a></li>
+					<li class="viena"><a href="parceiros.html">Viena</a></li>
+					<li class="viva"><a href="parceiros.html">Viva</a></li>
+			    </ul>
+		    </div>
+            -->
+            <div style="clear:both"></div>
+			<div class="rodape">
+				<ul>
+					<li><a href="http://www.programaviaje.com.br/eloyalty_ptb"> Consultar Pontos</a> | </li>
+					<li><a href="regulamento.html"> Regulamento	</a></li>
+			    </ul>
+		    </div>
+	    </div>
+    </div>
+	<div id="copyright"><div class="container"><span>Powered by:</span><div class="logo-rodape"></div>
+	<span>&copy 2011-2014 Todos os direitos reservados. O Programa Viaje! é uma marca registrada pela CVC Brasil. <a class="cvc" href="http://www.cvc.com.br">www.cvc.com.br</a></span></div></div>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M8SJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8SJ');</script>
+<!-- End Google Tag Manager -->
+
+	</body>
+</html>

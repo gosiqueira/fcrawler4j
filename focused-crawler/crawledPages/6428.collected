@@ -1,0 +1,218 @@
+title=null
+url=https://www.expedia.com.br/p/info-outro/feedback
+html=<!DOCTYPE html>
+<!--[if lt IE 7 ]> <html class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]> <html class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]> <html class="no-js ie8"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js"> <!--<![endif]--><head>
+  <style>
+   div.fork {width: 630px; height: 265px; position: relative;}
+   a.tab { display: block; width: 210px; height: 265px; float: left; background: url(https://images.trvl-media.com/media/content/expca/graphics/info-other/fork-bkg-br.png) no-repeat;}
+   a.tab1 { background-position: 0px 0px;}
+   a.tab2 { background-position: -210px 0px ;}
+   a.tab3 { background-position: -420px 0px ;}
+   a.tab1:hover { background-position: 0px -265px;}
+   a.tab2:hover { background-position: -210px -265px ;}
+   a.tab3:hover { background-position: -420px -265px ;}
+   a.closeButton { position: absolute; top: 5px; right: 5px; height: 25px; width: 25px; display: block;}
+  </style>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
+  <script src="/static/default/default/scripts/header/header.js"></script>
+  <script language="JavaScript" type="text/javascript" src="https://images.trvl-media.com/media/content/shared/scripts/external/opinionlab/oo_engine.js?v=1"></script>
+</head>
+<body>
+
+
+<div class="fork">
+    <a class="tab tab1" onClick="xp.nav.trackAnalytics(this, 'a', 'Head:Nav:Feedback:FAQ');window.open('http://support.expedia.com.br');window.close();return false;" target="_new" href="http://support.expedia.com.br/"></a>
+    <a class="tab tab2" onClick="xp.nav.trackAnalytics(this, 'a', 'Head:Nav:Feedback:Review');window.open('http://support.expedia.com.br/app/answers/detail/a_id/1907');window.close();return false;" target="_new" href="http://support.expedia.com.br/app/answers/detail/a_id/1907"></a>
+    <a class="tab tab3" href="https://secure.opinionlab.com/ccc01/comment_card.asp" onClick="xp.nav.trackAnalytics(this, 'a', 'Head:Nav:Feedback:WebsiteFeedback');OpinionLab.O_LC();return false;"></a>
+    <a href="javascript:window.close();" class="closeButton" href=""></a>
+</div>
+
+
+<div style="display:none;">
+	<input type="hidden" id="pageId" value="/p/info-outro/feedback" />
+</div>
+<script type="text/javascript">
+if('undefined' != typeof(fnTHJSInc) && fnTHJSInc)
+{
+	fnTHJSInc();
+}
+
+function trackClick(linkObj,linkType,linkID)
+{
+	if('undefined' != typeof(s_exp_trackClick) && s_exp_trackClick)
+	{
+		s_exp_trackClick(linkObj,linkType,linkID);
+	}
+}
+</script>
+
+<script src="/minify/exp.core.tracking-min-511167340.js?v=release-2016-01-r3-1309-1510824-1"></script><!-- 1 ms -->
+
+	<script language="javascript" type="text/javascript">
+
+	var s_account = "expedia69";
+
+	//We only want to log s_BrandEAPID for a select group of tpid/eapid pairs.
+	//Enter the pair below and set the value to the logged eapid
+	//s_BrandEAPID table, lookup is 'expedia<Tpid>-<EAPID>'
+	s_BrandEAPIDTable = new Object();
+	s_BrandEAPIDTable['expedia30035-327'] = '327';
+	s_BrandEAPIDTable['expedia30036-392'] = '392';
+	s_BrandEAPIDTable['expedia30009-314'] = '314';
+	s_BrandEAPIDTable['expedia6-10122'] = '10122';
+	s_BrandEAPIDTable['expedia30007-711'] = '711';
+	s_BrandEAPIDTable['expedia30007-712'] = '712';
+
+	var s_BrandEAPID = '';
+	if('undefined' != typeof(s_BrandEAPIDTable['expedia69-']))
+	{
+		s_BrandEAPID = s_BrandEAPIDTable['expedia69-'];
+	}
+
+	//This returns empty string if not in test env
+	var s_accountDevPostfix = '';
+
+	//If s_BrandEAPID is set then the OM code will append it to s_account
+	//So append the dev postfix to account if blank, but s_BrandEAPID otherwise
+	if (s_BrandEAPID.length > 0) {
+		s_BrandEAPID += s_accountDevPostfix;
+	} else {
+		s_account += s_accountDevPostfix;
+	}
+
+	//This is for future use so that OM can add 'dev' by itself
+	s_exp_isTest = s_accountDevPostfix.length > 0;
+	</script>
+<script src="/minify/siteAnalytics-min-1642178910.js?v=release-2016-01-r3-1309-1510824-1"></script><!-- 1 ms -->
+	<script language='javascript' type='text/javascript' >
+	s_exp.pageName = '/p/info-outro/feedback';
+	s_exp.server = 'www.expedia.com.br';
+	s_exp.channel = '';
+
+	if('undefined' != typeof(RecentlyViewedData) && RecentlyViewedData){RecentlyViewedData.omniTrac(s_exp);}
+	s_exp.prop2 = '';
+		s_exp.prop3 = '';
+
+        s_exp.prop4 = '';
+        if(s_exp.prop4 == "")
+        {
+        }
+
+    if(s_exp.prop4 == "")
+    {
+    }
+
+    s_exp.prop5 = '';
+    s_exp.prop6 = '';
+	s_exp.prop11 = '-1';
+	s_exp.prop12 = '2c3be6766a2948e995994c022328065e';
+
+
+	    
+	
+	if (typeof(s_prop34)!='undefined') {s_exp.prop34 = s_prop34;s_exp.eVar34=s_prop34;}
+
+    if (typeof(s_prop36)!='undefined') {s_exp.prop36 = s_prop36;}
+
+	if ('undefined' != typeof(OmnitureABIds)){
+		 for (var i = 0; i < OmnitureABIds.length; i++) {
+			PLSetABTestIDAndValue(OmnitureABIds[i]);
+		}
+	}
+
+
+	s_exp.eVar2 = s_exp.prop2;
+	s_exp.eVar3 = s_exp.prop3;
+	s_exp.eVar4 = s_exp.prop4;
+        s_exp.eVar5 = s_exp.prop5;
+        s_exp.eVar6 = s_exp.prop6;
+	s_exp.eVar28 = '';
+	s_exp.eVar45 = '';
+
+	if (typeof(s_OpaqueBannerVisible)!='undefined') {s_exp.events = 'event12';}
+
+        s_exp.prop4 = '';
+        if(s_exp.prop4 == "")
+        {
+        }
+
+    if(s_exp.prop4 == "")
+    {
+    }
+
+    s_exp.prop1 = '';
+    s_exp.prop30 = '1046';
+    s_exp.eVar54 = s_exp.prop30;
+    s_exp.eVar37 = '';
+    s_exp.prop37 = s_exp.eVar37;
+    s_exp.prop10 = '';
+
+
+
+
+	if(typeof s_exp_products != "undefined")
+	{
+	   s_exp.products = s_exp_products;
+
+		if(typeof s_exp_channel != "undefined")
+		{
+			s_exp.channel = s_exp_channel; //override the default
+		}
+
+		if(typeof s_exp_events != "undefined")
+		{
+			s_exp.events = s_exp_events;  //override the default
+		}
+
+		if(typeof s_exp_prop25 != "undefined")
+		{
+			s_exp.prop25 = s_exp_prop25;
+		}
+
+		if(typeof s_exp_eVar25 != "undefined")
+		{
+			s_exp.eVar25 = s_exp_eVar25;
+		}
+
+		if(typeof s_exp_eVar30 != "undefined")
+		{
+			s_exp.eVar30 = s_exp_eVar30;
+		}
+
+		if(typeof s_exp_currencyCode != "undefined")
+		{
+			s_exp.currencyCode = s_exp_currencyCode;
+		}
+        if (typeof s_exp_eVar44 != "undefined")
+        {
+            s_exp.eVar44 = s_exp_eVar44;
+        }
+	}
+	///p/info-outro/feedback
+	
+
+	
+
+
+	if ('undefined' != typeof(s_analyticsLoggingCallback)) {
+		s_analyticsLoggingCallback(s_exp);
+	}
+
+	if ('undefined' != typeof(ProductSiteAnalyticsLogger)
+	 && 'undefined' != typeof(ProductSiteAnalyticsLogger.updateOmniture))
+	{
+		ProductSiteAnalyticsLogger.updateOmniture(s_exp);
+	}
+  </script>
+    <div id="sCodeDiv"><!-- s_code will load here --></div>
+	<script language="javascript" type="text/javascript"><!--
+    var s_code=s_exp.t();if(s_code)document.getElementById('sCodeDiv').innerHTML = s_code;
+	//--></script>
+
+
+</body>
+
+</html>

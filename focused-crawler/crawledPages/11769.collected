@@ -1,0 +1,467 @@
+title=NGR Agência - Viagens de Turismo
+url=http://www.ngrturismo.com.br/
+html=<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<title>NGR Agência - Viagens de Turismo</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script type="text/javascript">
+var __dominio__ = "ngrturismo.com.br";
+var __root__ = "";
+var __host__ = "http://www.ngrturismo.com.br";
+</script>
+<script type="text/javascript" src="?__fid__=engineJavascript&amp;__url__=jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="?__fid__=engineJavascript&amp;__url__=jquery-ui.min.js"></script>
+<script type="text/javascript" src="?__fid__=engineJavascript&amp;__url__=api.js"></script>
+<script type="text/javascript" src="?__fid__=engineJavascript&amp;__url__=object.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=jquery.mask.min.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=jquery.ui.autocomplete.accentfolding.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=bootstrap.min.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=wowslider-anim.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=geral.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=moodular.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=wowslider.js"></script>
+<script type="text/javascript" src="?__fid__=commonJavascript&amp;__url__=funcoesInterface.js"></script>
+<link rel="StyleSheet" href="?__fid__=sharedStyle&amp;__url__=reset.css" type="text/css" />
+<link rel="StyleSheet" href="?__fid__=sharedStyle&amp;__url__=structure.css" type="text/css" />
+<link rel="StyleSheet" href="?__fid__=sharedStyle&amp;__url__=jquery-ui.css" type="text/css" />
+<link rel="StyleSheet" href="?__fid__=sharedStyle&amp;__url__=geral.css" type="text/css" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><link rel="shortcut icon" href="?__fid__=userImage&amp;__url__=favicon.png" />
+</head>
+<body>
+<script type="text/javascript">urlParameters = {};
+root.children = new Array();var tsx_app_main_1 = new TSXObject();
+tsx_app_main_1.group = "app";
+tsx_app_main_1.name = "main";
+tsx_app_main_1.uid = "tsx_app_main_1";
+tsx_app_main_1.parent = root;
+tsx_app_main_1.attribute = {"title":"NGR Agência - Viagens de Turismo", "icon":"favicon.png"};
+tsx_app_main_1.children = [];
+root.children.push(tsx_app_main_1);
+var tsx_app_style_1 = new TSXObject();
+tsx_app_style_1.group = "app";
+tsx_app_style_1.name = "style";
+tsx_app_style_1.uid = "tsx_app_style_1";
+tsx_app_style_1.parent = tsx_app_main_1;
+tsx_app_style_1.attribute = {"src":"style.css"};
+tsx_app_style_1.children = [];
+tsx_app_main_1.children.push(tsx_app_style_1);
+var tsx_app_style_2 = new TSXObject();
+tsx_app_style_2.group = "app";
+tsx_app_style_2.name = "style";
+tsx_app_style_2.uid = "tsx_app_style_2";
+tsx_app_style_2.parent = tsx_app_main_1;
+tsx_app_style_2.attribute = {"src":"flytour_motor_style.css"};
+tsx_app_style_2.children = [];
+tsx_app_main_1.children.push(tsx_app_style_2);
+var tsx_app_style_3 = new TSXObject();
+tsx_app_style_3.group = "app";
+tsx_app_style_3.name = "style";
+tsx_app_style_3.uid = "tsx_app_style_3";
+tsx_app_style_3.parent = tsx_app_main_1;
+tsx_app_style_3.attribute = {"src":"bootstrap.min.css"};
+tsx_app_style_3.children = [];
+tsx_app_main_1.children.push(tsx_app_style_3);
+var tsx_app_style_4 = new TSXObject();
+tsx_app_style_4.group = "app";
+tsx_app_style_4.name = "style";
+tsx_app_style_4.uid = "tsx_app_style_4";
+tsx_app_style_4.parent = tsx_app_main_1;
+tsx_app_style_4.attribute = {"src":"seletorLayout.css"};
+tsx_app_style_4.children = [];
+tsx_app_main_1.children.push(tsx_app_style_4);
+var tsx_app_script_1 = new TSXObject();
+tsx_app_script_1.group = "app";
+tsx_app_script_1.name = "script";
+tsx_app_script_1.uid = "tsx_app_script_1";
+tsx_app_script_1.parent = tsx_app_main_1;
+tsx_app_script_1.attribute = {"src":"design/cambio.js", "loadOnce":""};
+tsx_app_script_1.children = [];
+tsx_app_main_1.children.push(tsx_app_script_1);
+var tsx_app_script_2 = new TSXObject();
+tsx_app_script_2.group = "app";
+tsx_app_script_2.name = "script";
+tsx_app_script_2.uid = "tsx_app_script_2";
+tsx_app_script_2.parent = tsx_app_main_1;
+tsx_app_script_2.attribute = {"src":"design/layout.dubai/funcoes_complementares.js", "loadOnce":""};
+tsx_app_script_2.children = [];
+tsx_app_main_1.children.push(tsx_app_script_2);
+var tsx_design_atendimentoOnline_1 = new TSXObject();
+tsx_design_atendimentoOnline_1.group = "design";
+tsx_design_atendimentoOnline_1.name = "atendimentoOnline";
+tsx_design_atendimentoOnline_1.uid = "tsx_design_atendimentoOnline_1";
+tsx_design_atendimentoOnline_1.parent = tsx_app_main_1;
+tsx_design_atendimentoOnline_1.attribute = {"id":"", "class":""};
+tsx_design_atendimentoOnline_1.children = [];
+tsx_app_main_1.children.push(tsx_design_atendimentoOnline_1);
+var tsx_design_bannerResponsivo_1 = new TSXObject();
+tsx_design_bannerResponsivo_1.group = "design";
+tsx_design_bannerResponsivo_1.name = "bannerResponsivo";
+tsx_design_bannerResponsivo_1.uid = "tsx_design_bannerResponsivo_1";
+tsx_design_bannerResponsivo_1.parent = tsx_app_main_1;
+tsx_design_bannerResponsivo_1.attribute = {"effect":"basic", "duration":"2500", "delay":"10000", "width":"1920", "height":"365", "autoPlay":"true", "playPause":"true", "stopOnHover":"false", "loop":"false", "bullets":"false", "caption":"true", "captionEffect":"slide", "controls":"true", "class":""};
+tsx_design_bannerResponsivo_1.children = [];
+tsx_app_main_1.children.push(tsx_design_bannerResponsivo_1);
+var tsx_app_target_1 = new TSXObject();
+tsx_app_target_1.group = "app";
+tsx_app_target_1.name = "target";
+tsx_app_target_1.uid = "tsx_app_target_1";
+tsx_app_target_1.parent = tsx_app_main_1;
+tsx_app_target_1.attribute = {"id":"", "class":""};
+tsx_app_target_1.children = [];
+tsx_app_main_1.children.push(tsx_app_target_1);
+var tsx_dados_razaoSocial_1 = new TSXObject();
+tsx_dados_razaoSocial_1.group = "dados";
+tsx_dados_razaoSocial_1.name = "razaoSocial";
+tsx_dados_razaoSocial_1.uid = "tsx_dados_razaoSocial_1";
+tsx_dados_razaoSocial_1.parent = tsx_app_main_1;
+tsx_dados_razaoSocial_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_razaoSocial_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_razaoSocial_1);
+var tsx_dados_cnpj_1 = new TSXObject();
+tsx_dados_cnpj_1.group = "dados";
+tsx_dados_cnpj_1.name = "cnpj";
+tsx_dados_cnpj_1.uid = "tsx_dados_cnpj_1";
+tsx_dados_cnpj_1.parent = tsx_app_main_1;
+tsx_dados_cnpj_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_cnpj_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_cnpj_1);
+var tsx_dados_endereco_1 = new TSXObject();
+tsx_dados_endereco_1.group = "dados";
+tsx_dados_endereco_1.name = "endereco";
+tsx_dados_endereco_1.uid = "tsx_dados_endereco_1";
+tsx_dados_endereco_1.parent = tsx_app_main_1;
+tsx_dados_endereco_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_endereco_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_endereco_1);
+var tsx_dados_cidade_1 = new TSXObject();
+tsx_dados_cidade_1.group = "dados";
+tsx_dados_cidade_1.name = "cidade";
+tsx_dados_cidade_1.uid = "tsx_dados_cidade_1";
+tsx_dados_cidade_1.parent = tsx_app_main_1;
+tsx_dados_cidade_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_cidade_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_cidade_1);
+var tsx_dados_uf_1 = new TSXObject();
+tsx_dados_uf_1.group = "dados";
+tsx_dados_uf_1.name = "uf";
+tsx_dados_uf_1.uid = "tsx_dados_uf_1";
+tsx_dados_uf_1.parent = tsx_app_main_1;
+tsx_dados_uf_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_uf_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_uf_1);
+var tsx_dados_cep_1 = new TSXObject();
+tsx_dados_cep_1.group = "dados";
+tsx_dados_cep_1.name = "cep";
+tsx_dados_cep_1.uid = "tsx_dados_cep_1";
+tsx_dados_cep_1.parent = tsx_app_main_1;
+tsx_dados_cep_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_cep_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_cep_1);
+var tsx_dados_telefone_1 = new TSXObject();
+tsx_dados_telefone_1.group = "dados";
+tsx_dados_telefone_1.name = "telefone";
+tsx_dados_telefone_1.uid = "tsx_dados_telefone_1";
+tsx_dados_telefone_1.parent = tsx_app_main_1;
+tsx_dados_telefone_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_telefone_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_telefone_1);
+var tsx_dados_emailLink_1 = new TSXObject();
+tsx_dados_emailLink_1.group = "dados";
+tsx_dados_emailLink_1.name = "emailLink";
+tsx_dados_emailLink_1.uid = "tsx_dados_emailLink_1";
+tsx_dados_emailLink_1.parent = tsx_app_main_1;
+tsx_dados_emailLink_1.attribute = {"class":"", "id":"", "style":""};
+tsx_dados_emailLink_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_emailLink_1);
+var tsx_dados_nomeFantasia_1 = new TSXObject();
+tsx_dados_nomeFantasia_1.group = "dados";
+tsx_dados_nomeFantasia_1.name = "nomeFantasia";
+tsx_dados_nomeFantasia_1.uid = "tsx_dados_nomeFantasia_1";
+tsx_dados_nomeFantasia_1.parent = tsx_app_main_1;
+tsx_dados_nomeFantasia_1.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_nomeFantasia_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_nomeFantasia_1);
+var tsx_dados_cnpj_2 = new TSXObject();
+tsx_dados_cnpj_2.group = "dados";
+tsx_dados_cnpj_2.name = "cnpj";
+tsx_dados_cnpj_2.uid = "tsx_dados_cnpj_2";
+tsx_dados_cnpj_2.parent = tsx_app_main_1;
+tsx_dados_cnpj_2.attribute = {"class":"", "id":"", "onClick":"", "style":""};
+tsx_dados_cnpj_2.children = [];
+tsx_app_main_1.children.push(tsx_dados_cnpj_2);
+var tsx_dados_direitosConsumidor_1 = new TSXObject();
+tsx_dados_direitosConsumidor_1.group = "dados";
+tsx_dados_direitosConsumidor_1.name = "direitosConsumidor";
+tsx_dados_direitosConsumidor_1.uid = "tsx_dados_direitosConsumidor_1";
+tsx_dados_direitosConsumidor_1.parent = tsx_app_main_1;
+tsx_dados_direitosConsumidor_1.attribute = {"class":"", "id":"", "style":""};
+tsx_dados_direitosConsumidor_1.children = [];
+tsx_app_main_1.children.push(tsx_dados_direitosConsumidor_1);
+var tsx_estatisticas_contador_1 = new TSXObject();
+tsx_estatisticas_contador_1.group = "estatisticas";
+tsx_estatisticas_contador_1.name = "contador";
+tsx_estatisticas_contador_1.uid = "tsx_estatisticas_contador_1";
+tsx_estatisticas_contador_1.parent = tsx_app_main_1;
+tsx_estatisticas_contador_1.attribute = {"id":"", "class":"", "direction":"up", "amount":"2"};
+tsx_estatisticas_contador_1.children = [];
+tsx_app_main_1.children.push(tsx_estatisticas_contador_1);
+var self = tsx_app_script_1;
+            loadJavascript("design/cambio.js", "", "", "");
+        var self = tsx_app_script_2;
+            loadJavascript("design/layout.dubai/funcoes_complementares.js", "", "", "");
+        var self = tsx_design_bannerResponsivo_1;
+			loadStyle("wowslider/wowslider.css");
+        </script>
+                    <div class="tsx_app_main_1">
+
+    
+            <link property="stylesheet" rel="StyleSheet" href="?__fid__=userStyle&amp;__url__=style.css" type="text/css" />
+        
+    
+            <link property="stylesheet" rel="StyleSheet" href="?__fid__=userStyle&amp;__url__=flytour_motor_style.css" type="text/css" />
+        
+    
+            <link property="stylesheet" rel="StyleSheet" href="?__fid__=userStyle&amp;__url__=bootstrap.min.css" type="text/css" />
+        
+    
+            <link property="stylesheet" rel="StyleSheet" href="?__fid__=userStyle&amp;__url__=seletorLayout.css" type="text/css" />
+        
+    
+    
+    
+    
+
+    
+    
+    <div id="wrap">
+        
+        <header>
+            
+            <div id="topo">
+                
+                <div class="container">
+                    
+                    <div class="row">
+                        
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <h1><a onclick="openPage('')"><img src="?__fid__=userImage&amp;__url__=logo.png" alt="NGR Turismo" class="img-responsive" width="375" height="97" /></a></h1>
+                        </div>
+                        
+                        
+                        <div class="col-md-6 col-sm-6 col-xs-12">
+                            <div id="redes_sociais">
+                            	<img src="?__fid__=userImage&amp;__url__=redes.png" width="120" height="39" border="0" usemap="#Map" />
+                            </div>
+                            <div id="menu_topo">
+                            	<map name="Map" id="Map">
+                                  <area shape="rect" coords="2,1,38,37" href="#" onclick="javascript:alert('Em Breve')" />
+                                  <area shape="rect" coords="43,1,78,37" href="#" onclick="javascript:alert('Em Breve')" />
+                                  <area shape="rect" coords="85,0,118,36" href="#" onclick="javascript:alert('Em Breve')" />
+                                </map>
+                                <a onclick="openPage('quem-somos')">Empresa</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a onclick="openPage('contato')">Contato</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+            <a onclick="openPopup('http://www2.tursites.com.br/atendimento_online/index.php?dominio=ngrturismo.com.br', 300, 600);" id="" class="tsx_design_atendimentoOnline_1 ">Atendimento Online</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+            </div>
+            
+            
+            
+            <nav>  
+                
+                <div class="container">
+                    
+                    <div class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            </button>
+                        </div>
+                        <div class="collapse navbar-collapse">
+                            <ul class="nav navbar-nav">
+                                <li class="dropdown">
+                                    <p class="dropdown-toggle" data-toggle="dropdown">Nacionais <span class="caret"></span></p>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a onclick="openPage('clubmed')">Club Med</a></li>
+                                        <li><a onclick="openPage('roteiros-ecologicos/nacionais')">Ecológicos</a></li>
+                                        <li><a onclick="openPage('hoteis-de-luxo')">Hotéis de Luxo</a></li>
+                                        <li><a onclick="openPage('pacotes-personalizados')">Personalizados</a></li>
+                                        <li><a onclick="openPage('resorts')">Resorts</a></li>
+                                        <li><a onclick="openPage('rio-quente-resorts')">Rio Quente Resorts</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <p class="dropdown-toggle" data-toggle="dropdown">Internacionais <span class="caret"></span></p>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a onclick="openPage('roteiros')">Todos</a></li>
+                                        <li><a onclick="openPage('roteiros/africa')">África</a></li>
+                                        <li><a onclick="openPage('roteiros/america-do-norte')">América do Norte</a></li>
+                                        <li><a onclick="openPage('roteiros/america-central')">América Central</a></li>
+                                        <li><a onclick="openPage('roteiros/america-do-sul')">América do Sul</a></li>
+                                        <li><a onclick="openPage('roteiros/asia-e-oceania')">Ásia e Oceania</a></li>
+                                        <li><a onclick="openPage('roteiros/europa')">Europa</a></li>
+                                        <li><a onclick="openPage('roteiros/grecia')">Grécia</a></li>
+                                        <li><a onclick="openPage('roteiros-ecologicos/internacionais')">Ecológicos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <p class="dropdown-toggle" data-toggle="dropdown">Cruzeiros <span class="caret"></span></p>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a onclick="openPage('cruzeiros/nacionais')">Nacionais</a></li>
+                                        <li><a onclick="openPage('cruzeiros/internacionais')">Internacionais</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <p class="dropdown-toggle" data-toggle="dropdown">Mídia <span class="caret"></span></p>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a onclick="openPage('informativos')">Informativos</a></li>
+                                        <li><a onclick="openPage('noticias')">Notícias</a></li>
+                                        <li><a onclick="openPage('galeria-de-fotos')">Galeria de Fotos</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <p class="dropdown-toggle" data-toggle="dropdown">Informações <span class="caret"></span></p>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a onclick="openPage('alfandega')">Alfândega</a></li>
+                                        <li><a onclick="openPage('cambio')">Câmbio</a></li>
+                                        <li><a onclick="openPage('consulados')">Consulados</a></li>
+                                        <li><a id="menuConsultaVoos">Consulta de Voo</a></li>
+                                        <li><a onclick="openPage('curiosidades')">Curiosidades</a></li>
+                                        <li><a onclick="openPage('embaixadas')">Embaixadas</a></li>
+                                        <li><a onclick="openPage('free-shop')">Free Shop</a></li>
+                                        <li><a onclick="openPage('fusos-horarios')">Fusos Horários</a></li>
+                                        <li><a onclick="openPage('pesos-e-medidas')">Pesos e Medidas</a></li>
+                                        <li><a onclick="openPage('seguro-viagem')">Seguro Viagem</a></li>
+                                        <li><a id="menuTradutorOnlne">Tradutor Online</a></li>
+                                        <li><a onclick="openPage('transporte-de-animais')">Transp. de Animais</a></li>
+                                        <li><a onclick="openPage('web-check-in')">Web Check-in</a></li>
+                                    </ul>
+                                </li>
+                                <li class="dropdown">
+                                    <p class="dropdown-toggle" data-toggle="dropdown">Documentos <span class="caret"></span></p>
+                                    <ul class="dropdown-menu" role="menu">
+                                        <li><a onclick="openPage('documentos-de-embarque')">Docs. Embarque</a></li>
+                                        <li><a onclick="openPage('passaportes')">Passaportes</a></li>
+                                        <li><a onclick="openPage('vacinas')">Vacinas</a></li>
+                                        <li><a onclick="openPage('vistos')">Vistos</a></li>
+                                        <li><a id="menuVistoAmericano">Visto Americano</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> 
+                    
+                </div>
+                
+            </nav>
+            
+
+            
+            <div id="banner">
+                
+			<!-- slider -->			
+			<div id="wowslider-container1" style="max-width: 1920px; max-height: 500px;" class="">
+				<div class="ws_images">
+					<ul>
+						<li><img src="http://www2.tursites.com.br/painel/banner_js/uploads/ngrturismo_com_br/banner_1436979528.jpg" alt="" title="" style="max-width: 1920px; max-height: 500px;"/></li>
+					
+						<li><img src="http://www2.tursites.com.br/painel/banner_js/uploads/ngrturismo_com_br/banner_1436979533.jpg" alt="" title="" style="max-width: 1920px; max-height: 500px;"/></li>
+					
+						<li><img src="http://www2.tursites.com.br/painel/banner_js/uploads/ngrturismo_com_br/banner_1436979537.jpg" alt="" title="" style="max-width: 1920px; max-height: 500px;"/></li>
+					
+					</ul>
+				</div>
+				<div class="ws_shadow"></div>
+			</div>
+			<!-- fim slider -->
+		
+            </div>
+            
+            
+        </header>
+        
+    
+        
+        
+        
+        <section>
+            <div class="container">
+                <div class="row">
+                    <div class="tsx_app_target_1 " id=""></div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <div class="push">&nbsp;</div>
+    </div>
+    
+    
+    <footer>
+        
+        <div id="rodape1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-left">
+                        <b><span class="tsx_dados_razaoSocial_1 " id="" style="" onclick="">Info Light Comercio E Servicos Ltda - Me</span></b>
+                        <p>CNPJ: <span class="tsx_dados_cnpj_1 " id="" style="" onclick="">04.740.025/0001-82</span></p>
+                        <p><span class="tsx_dados_endereco_1 " id="" style="" onclick="">Av Cupece, 2965 - Jardim Jabaquara</span></p>    
+                        <p><span class="tsx_dados_cidade_1 " id="" style="" onclick="">São paulo</span> - <span class="tsx_dados_uf_1 " id="" style="" onclick="">SP</span></p>
+                        <p>CEP: <span class="tsx_dados_cep_1 " id="" style="" onclick="">04365-001</span></p>
+                        <p>Tel.: <span class="tsx_dados_telefone_1 " id="" style="" onclick="">(11) 5565-1639 / 5562-7356</span></p>
+                        <p>Whatsapp: (11) 9.7640-3083</p>
+                        <p>E-mail: <a class="tsx_dados_emailLink_1 "  id="" style="" href="mailto: vendas@ngrturismo.com.br">vendas@ngrturismo.com.br</a></p>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 text-right">
+                        <p><img src="?__fid__=userImage&amp;__url__=cartoes-bandeiras.png" class="img-responsive" /></p>
+                        <p>Site com licença de uso. Desenvolvimento e propriedade de <a onclick="window.open('http://www.tursites.com.br/')"><img src="?__fid__=userImage&amp;__url__=logo-tursites.png" width="97" height="25" /></a></p>
+                        <p class="dados_legais">Tursites Assessoria Comercial Ltda - ME (06.241.957/0001-06)</p>
+                        <p class="dados_legais"><span class="tsx_dados_nomeFantasia_1 " id="" style="" onclick="">NGR</span>: <span class="tsx_dados_cnpj_2 " id="" style="" onclick="">04.740.025/0001-82</span></p>
+                        <p class="dados_legais"><a onClick="openPage('/legal/condicoes-gerais-de-contratacao.htm')">Condições Gerais de Contratação</a> | <a class="tsx_dados_direitosConsumidor_1 " id="" style="" href="http://www.planalto.gov.br/ccivil_03/leis/l8078.htm" target="_blank">Direitos do Consumidor</a></p>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+        
+        
+        <div id="rodape2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12 col-xs-12 text-center">
+                        Copyright © <b>TurSites</b> Negócios Digitais
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </footer>
+    <script>
+		;
+		(function($) {
+			$('div#abas').aplicaAbas();
+		})(jQuery);
+	</script>
+    
+    
+
+            <div class="tsx_estatisticas_contador_1 " id="">
+            </div>
+        
+</div>
+                <script type="text/javascript">var self = tsx_design_bannerResponsivo_1;
+				 jQuery("#wowslider-container1").wowSlider({effect: "basic", prev: "", next: "", duration: 2500, delay: 10000, width: 1920, height: 365, autoPlay: true, playPause: true, stopOnHover: false, loop: false, bullets: false, caption: true, captionEffect: "slide", controls: true, onBeforeStep: 0, images: 0});
+        var self = tsx_estatisticas_contador_1;
+            loadJavascript('design/estatisticas-contador.js');
+        var self = tsx_app_main_1;
+            loadJavascript('app/main.js');
+        </script></body>
+</html>

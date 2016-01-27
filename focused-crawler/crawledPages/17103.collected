@@ -1,0 +1,973 @@
+title=MARGS | Museu de Arte do Rio Grande do Sul
+url=http://www.margs.rs.gov.br/
+html= <!DOCTYPE html>
+<html>
+    <head>
+        <title>MARGS | Museu de Arte do Rio Grande do Sul</title>
+        <!-- ======== META TAGS ======== -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+				<html lang="pt-BR" xml:lang="pt-BR" xmlns="http://www.w3.org/1999/xhtml">
+        <!-- ======== FAVICONS ======== -->
+        <link rel="icon" href="favicon.ico">
+        <link rel="apple-touch-icon" href="http://www.margs.rs.gov.br/wp-content/themes/margs/img/favicon.ico">
+        <!-- ======== STYLESHEETS ======== -->
+        <!-- Stylesheet -->
+        <link rel="stylesheet" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/normalize.css">
+        <link rel="stylesheet" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/typography.css">
+        <link rel="stylesheet" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/fontawesome.css">
+        <link rel="stylesheet" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/weathericons.css">
+        <link rel="stylesheet" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/colors.css">
+        <link rel="stylesheet" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/style.css"> 
+        <!-- ======== RESPONSIVE ======== -->
+        <link rel="stylesheet" media="(max-width:767px)" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/0-responsive.css">
+        <link rel="stylesheet" media="(min-width:768px) and (max-width:1024px)" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/768-responsive.css">
+        <link rel="stylesheet" media="(min-width:1025px) and (max-width:1199px)" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/1025-responsive.css">
+        <link rel="stylesheet" media="(min-width:1200px)" href="http://www.margs.rs.gov.br/wp-content/themes/margs/css/1200-responsive.css">
+        <!-- ======== GOOGLE FONTS ======== -->
+        <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic' rel='stylesheet' type='text/css'>
+					<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"http:\/\/s.w.org\/images\/core\/emoji\/72x72\/","ext":".png","source":{"concatemoji":"http:\/\/www.margs.rs.gov.br\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.3.1"}};
+			!function(a,b,c){function d(a){var c=b.createElement("canvas"),d=c.getContext&&c.getContext("2d");return d&&d.fillText?(d.textBaseline="top",d.font="600 32px Arial","flag"===a?(d.fillText(String.fromCharCode(55356,56812,55356,56807),0,0),c.toDataURL().length>3e3):(d.fillText(String.fromCharCode(55357,56835),0,0),0!==d.getImageData(16,16,1,1).data[0])):!1}function e(a){var c=b.createElement("script");c.src=a,c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var f,g;c.supports={simple:d("simple"),flag:d("flag")},c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.simple&&c.supports.flag||(g=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",g,!1),a.addEventListener("load",g,!1)):(a.attachEvent("onload",g),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),f=c.source||{},f.concatemoji?e(f.concatemoji):f.wpemoji&&f.twemoji&&(e(f.twemoji),e(f.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='contact-form-7-css'  href='http://www.margs.rs.gov.br/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=4.3.1' type='text/css' media='all' />
+<link rel='stylesheet' id='events-manager-css'  href='http://www.margs.rs.gov.br/wp-content/plugins/events-manager/includes/css/events_manager.css?ver=5.61' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-layout-css'  href='//www.margs.rs.gov.br/wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='woocommerce-smallscreen-css'  href='//www.margs.rs.gov.br/wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=2.4.10' type='text/css' media='only screen and (max-width: 768px)' />
+<link rel='stylesheet' id='woocommerce-general-css'  href='//www.margs.rs.gov.br/wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=2.4.10' type='text/css' media='all' />
+<link rel='stylesheet' id='sliderpro-plugin-style-css'  href='http://www.margs.rs.gov.br/wp-content/plugins/sliderpro/public/assets/css/slider-pro.min.css?ver=4.3.0' type='text/css' media='all' />
+<style id='sliderpro-plugin-style-inline-css' type='text/css'>
+.slider-pro p.sp-layer {
+    font-size: 1.5em;
+    line-height: 1.4;
+    margin: 0;
+}
+.sp-next-arrow:after, .sp-next-arrow:before, .sp-previous-arrow:after, .sp-previous-arrow:before{background-color: rgba(16, 16, 16, 0.30);}
+.sp-button { border-radius: 0px;}
+.slider-row{margin-bottom:17px;}
+</style>
+<link rel='stylesheet' id='mimetypes-link-icons-css'  href='http://www.margs.rs.gov.br/wp-content/plugins/mimetypes-link-icons/css/style.php?cssvars=bXRsaV9oZWlnaHQ9MTYmbXRsaV9pbWFnZV90eXBlPXBuZyZtdGxpX2xlZnRvcnJpZ2h0PWxlZnQ&#038;ver=3.0' type='text/css' media='all' />
+<link rel='stylesheet' id='A2A_SHARE_SAVE-css'  href='http://www.margs.rs.gov.br/wp-content/plugins/add-to-any/addtoany.min.css?ver=1.11' type='text/css' media='all' />
+<link rel='stylesheet' id='lightboxStyle-css'  href='http://www.margs.rs.gov.br/wp-content/plugins/lightbox-plus/css/shadowed/colorbox.min.css?ver=2.7.2' type='text/css' media='screen' />
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/jquery.js?ver=1.11.3'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/core.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/widget.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/position.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/mouse.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/sortable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/datepicker.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/menu.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/autocomplete.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/resizable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/draggable.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/button.min.js?ver=1.11.4'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-includes/js/jquery/ui/dialog.min.js?ver=1.11.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var EM = {"ajaxurl":"http:\/\/www.margs.rs.gov.br\/wp-admin\/admin-ajax.php","locationajaxurl":"http:\/\/www.margs.rs.gov.br\/wp-admin\/admin-ajax.php?action=locations_search","firstDay":"0","locale":"pt","dateFormat":"dd\/mm\/yy","ui_css":"http:\/\/www.margs.rs.gov.br\/wp-content\/plugins\/events-manager\/includes\/css\/jquery-ui.min.css","show24hours":"1","is_ssl":"","bookingInProgress":"Por favor, aguarde enquanto a reserva est\u00e1 sendo processada.","tickets_save":"Salvar Ticket","bookingajaxurl":"http:\/\/www.margs.rs.gov.br\/wp-admin\/admin-ajax.php","bookings_export_save":"Reservas de exporta\u00e7\u00e3o","bookings_settings_save":"Salvar configura\u00e7\u00f5es","booking_delete":"Voc\u00ea tem certeza que quer apagar?","bb_full":"Esgotado","bb_book":"Reserve agora","bb_booking":"Reserva ...","bb_booked":"Reserva Enviado","bb_error":"Reserva Erro. Tentar novamente?","bb_cancel":"Cancelar","bb_canceling":"Cancelando...","bb_cancelled":"Cancelado","bb_cancel_error":"Cancelamento Erro. Tentar novamente?","txt_search":"Buscar","txt_searching":"Busca ...","txt_loading":"Carregando ...","event_reschedule_warning":"Tem certeza de que deseja reagendar este evento recorrente? Se voc\u00ea fizer isso, voc\u00ea perder\u00e1 todas as informa\u00e7\u00f5es da reserva e os eventos antigos recorrentes ser\u00e3o apagados.","event_detach_warning":"Tem certeza que deseja desanexar este evento? Ao faz\u00ea-lo, este evento ser\u00e1 independente do conjunto de eventos recorrente.","delete_recurrence_warning":"Voc\u00ea tem certeza que quer apagar todas as recorr\u00eancias desse evento? Todos os eventos ser\u00e3o movidos para a Lixeira.","disable_bookings_warning":"Tem certeza de que deseja desativar reservas? Se voc\u00ea fizer isso e salvar, voc\u00ea vai perder todas as reservas anteriores. Se voc\u00ea deseja evitar reservas adicionais, reduza o n\u00famero de espa\u00e7os dispon\u00edveis para a quantidade de reservas que voc\u00ea atualmente t\u00eam","booking_warning_cancel":"Tem certeza de que deseja cancelar a sua reserva?"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-content/plugins/events-manager/includes/js/events-manager.js?ver=5.61'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://www.margs.rs.gov.br/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="http://www.margs.rs.gov.br/wp-includes/wlwmanifest.xml" /> 
+<meta name="generator" content="WordPress 4.3.1" />
+<meta name="generator" content="WooCommerce 2.4.10" />
+<link rel='canonical' href='http://www.margs.rs.gov.br/' />
+<link rel='shortlink' href='http://www.margs.rs.gov.br/' />
+
+<script type="text/javascript"><!--
+var a2a_config=a2a_config||{},wpa2a={done:false,html_done:false,script_ready:false,script_load:function(){var a=document.createElement('script'),s=document.getElementsByTagName('script')[0];a.type='text/javascript';a.async=true;a.src='http://static.addtoany.com/menu/page.js';s.parentNode.insertBefore(a,s);wpa2a.script_load=function(){};},script_onready:function(){wpa2a.script_ready=true;if(wpa2a.html_done)wpa2a.init();},init:function(){for(var i=0,el,target,targets=wpa2a.targets,length=targets.length;i<length;i++){el=document.getElementById('wpa2a_'+(i+1));target=targets[i];a2a_config.linkname=target.title;a2a_config.linkurl=target.url;if(el){a2a.init('page',{target:el});el.id='';}wpa2a.done=true;}wpa2a.targets=[];}};a2a_config.callbacks=a2a_config.callbacks||[];a2a_config.callbacks.push({ready:wpa2a.script_onready});a2a_localize = {
+	Share: "Compartilhar",
+	Save: "Salvar",
+	Subscribe: "Inscrever",
+	Email: "Email",
+	Bookmark: "Favoritos",
+	ShowAll: "Mostrar tudo",
+	ShowLess: "Mostrar menos",
+	FindServices: "Procurar serviço(s)",
+	FindAnyServiceToAddTo: "Encontrar rapidamente qualquer serviço para",
+	PoweredBy: "Serviço fornecido por",
+	ShareViaEmail: "Share via email",
+	SubscribeViaEmail: "Subscribe via email",
+	BookmarkInYourBrowser: "Adicionar aos favoritos",
+	BookmarkInstructions: "Press Ctrl+D or \u2318+D to bookmark this page",
+	AddToYourFavorites: "Adicionar a favoritos",
+	SendFromWebOrProgram: "Send from any email address or email program",
+	EmailProgram: "Email program",
+	More: "More&#8230;"
+};
+
+//--></script>
+<meta property="fb:app_id" content="1677395785837804"/><style type="text/css">
+.qtranxs_flag_pb {background-image: url(http://www.margs.rs.gov.br/wp-content/plugins/qtranslate-x/flags/br.png); background-repeat: no-repeat;}
+.qtranxs_flag_en {background-image: url(http://www.margs.rs.gov.br/wp-content/plugins/qtranslate-x/flags/gb.png); background-repeat: no-repeat;}
+.qtranxs_flag_es {background-image: url(http://www.margs.rs.gov.br/wp-content/plugins/qtranslate-x/flags/es.png); background-repeat: no-repeat;}
+</style>
+<link hreflang="pb" href="http://www.margs.rs.gov.br/pb/" rel="alternate" />
+<link hreflang="en" href="http://www.margs.rs.gov.br/en/" rel="alternate" />
+<link hreflang="es" href="http://www.margs.rs.gov.br/es/" rel="alternate" />
+<link hreflang="x-default" href="http://www.margs.rs.gov.br/" rel="alternate" />
+<meta name="generator" content="qTranslate-X 3.4.6.4" />
+<meta name="generator" content="Powered by Visual Composer - drag and drop page builder for WordPress."/>
+<!--[if lte IE 9]><link rel="stylesheet" type="text/css" href="http://www.margs.rs.gov.br/wp-content/plugins/js_composer/assets/css/vc_lte_ie9.css" media="screen"><![endif]--><!--[if IE  8]><link rel="stylesheet" type="text/css" href="http://www.margs.rs.gov.br/wp-content/plugins/js_composer/assets/css/vc-ie8.css" media="screen"><![endif]--><!-- Vipers Video Quicktags v6.5.2 | http://www.viper007bond.com/wordpress-plugins/vipers-video-quicktags/ -->
+<style type="text/css">
+.vvqbox { display: block; max-width: 100%; visibility: visible !important; margin: 10px auto; } .vvqbox img { max-width: 100%; height: 100%; } .vvqbox object { max-width: 100%; } 
+</style>
+<script type="text/javascript">
+// <![CDATA[
+	var vvqflashvars = {};
+	var vvqparams = { wmode: "opaque", allowfullscreen: "true", allowscriptaccess: "always" };
+	var vvqattributes = {};
+	var vvqexpressinstall = "http://www.margs.rs.gov.br/wp-content/plugins/vipers-video-quicktags/resources/expressinstall.swf";
+// ]]>
+</script>
+<noscript><style> .wpb_animate_when_almost_visible { opacity: 1; }</style></noscript>		</head>
+    <body class="home page page-id-13 page-template page-template-tpl-home page-template-tpl-home-php wpb-js-composer js-comp-ver-4.7.1.1 vc_responsive">
+        <div id="fb-root"></div>
+				<script>(function(d, s, id) {
+					var js, fjs = d.getElementsByTagName(s)[0];
+					if (d.getElementById(id)) return;
+					js = d.createElement(s); js.id = id;
+					js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.4&appId=174368865958124";
+					fjs.parentNode.insertBefore(js, fjs);
+				}(document, 'script', 'facebook-jssdk'));</script>
+			<!-- Wrapper -->
+			<div id="wrapper" class="wide">
+				<!-- Header -->
+				<header id="header">
+					<!-- Header meta -->
+					
+					<!-- Header body -->
+					<div class="header_body">
+							<div class="container">
+									<!-- Logo -->
+									<div class="brand_logo">
+										<a href="http://www.margs.rs.gov.br"><img alt="Logo" src="http://www.margs.rs.gov.br/wp-content/themes/margs/img/margs-logo-site-1.jpg"></a>
+									</div>									
+									<!-- Banner -->
+									<div class="header_ad">
+											<form id="search-form" class="contact_form" action="http://www.margs.rs.gov.br" method="GET">
+													<p>
+															<input type="text" name="s" placeholder="Pesquisar no site">
+															<input type="submit" value="Buscar" class="btn">
+													</p>																
+											</form>
+											<ul class="lag-list lang-top">
+												<li><a href="#">Português |</a></li>
+												<li><a href="#">English |</a></li>
+												<li><a href="#">Español</a></li>
+											</ul>
+									</div>
+							</div>
+					</div>
+					<!-- Header menu -->
+					<div class="header_menu">
+							<div class="container">
+									<div class="open_main_menu"><i class="fa fa-bars"></i></div>
+									<nav class="main_menu dark clearfix">
+											<ul id="menu-menutopo" class="header_main_menu clearfix"><li id="menu-item-17255" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-13 current_page_item menu-item-17255"><a href="http://www.margs.rs.gov.br/">Home</a></li>
+<li id="menu-item-17276" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-17276"><a href="http://www.margs.rs.gov.br/sobre-o-margs/">Sobre</a>
+<ul class="sub-menu">
+	<li id="menu-item-17266" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17266"><a href="http://www.margs.rs.gov.br/sobre-o-margs/">Sobre o MARGS</a></li>
+	<li id="menu-item-17265" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17265"><a href="http://www.margs.rs.gov.br/faq/">Perguntas Frequentes</a></li>
+	<li id="menu-item-17269" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17269"><a href="http://www.margs.rs.gov.br/diretoria/">Diretoria</a></li>
+	<li id="menu-item-17263" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17263"><a href="http://www.margs.rs.gov.br/nucleo-de-acervo/">Núcleo de Acervo</a></li>
+	<li id="menu-item-17258" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17258"><a href="http://www.margs.rs.gov.br/nucleo-administrativo/">Núcleo Administrativo</a></li>
+	<li id="menu-item-17259" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17259"><a href="http://www.margs.rs.gov.br/nucleo-de-comunicacao/">Núcleo de Comunicação</a></li>
+	<li id="menu-item-17260" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17260"><a href="http://www.margs.rs.gov.br/nucleo-de-curadoria/">Núcleo de Curadoria</a></li>
+	<li id="menu-item-17262" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17262"><a href="http://www.margs.rs.gov.br/nucleo-de-documentacao-e-pesquisa/">Núcleo de Documentação e Pesquisa</a></li>
+	<li id="menu-item-17264" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17264"><a href="http://www.margs.rs.gov.br/nucleo-educativo/">Núcleo Educativo</a></li>
+	<li id="menu-item-17261" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17261"><a href="http://www.margs.rs.gov.br/nucleo-de-restauro-e-conservacao/">Núcleo de Restauro e Conservação</a></li>
+</ul>
+</li>
+<li id="menu-item-17256" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17256"><a href="http://www.margs.rs.gov.br/aamargs/">AAMARGS</a></li>
+<li id="menu-item-17270" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17270"><a href="http://www.margs.rs.gov.br/noticias/">Notícias</a></li>
+<li id="menu-item-17271" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17271"><a href="http://www.margs.rs.gov.br/agenda/">Agenda</a></li>
+<li id="menu-item-17274" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17274"><a href="http://www.margs.rs.gov.br/catalogo-de-obras/">Catálogo de Obras</a></li>
+<li id="menu-item-17275" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17275"><a href="http://www.margs.rs.gov.br/publicacoes/">Publicações</a></li>
+<li id="menu-item-17272" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17272"><a href="http://www.margs.rs.gov.br/aamargs#loja-do-margs">Livraria e Loja</a></li>
+<li id="menu-item-17273" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-17273"><a href="http://www.margs.rs.gov.br/aamargs#cafe-do-margs">Café</a></li>
+<li id="menu-item-17267" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17267"><a href="http://www.margs.rs.gov.br/tour-virtual/">Tour Virtual</a></li>
+<li id="menu-item-17268" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-17268"><a href="http://www.margs.rs.gov.br/contato/">Contato</a></li>
+</ul>									</nav>
+							</div>
+					</div>
+				</header>
+				
+											
+					<!--Você está em: Home -->
+											<!-- »-->
+											
+				 <!-- Container -->
+<div class="container">                
+		<div class="row slider-row">
+				<!-- Main content -->
+				<div class="col col_12_of_12 main_content">
+						<!-- Main slider -->
+												
+<div id="slider-pro-1" class="slider-pro sp-no-js sliderpro-home" style="width: 100%; height: 400px;">
+	<div class="sp-slides">
+		
+		<div class="sp-slide">
+			<a class="" href="http://www.margs.rs.gov.br/eventos/" target="_self">
+				<img class="sp-image" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/0088-Rosa-Bonheur-La-petite-mare-dans-la-plaine-et-troupeau-de-moutons-SLIDER-e1451370361536.png" alt="" />
+			</a>
+			
+			
+			<p class="sp-layer sp-animated sp-black sp-padding caption-slide-home" data-position="bottomLeft">&#8220;Olhar Feminino&#8221;, na Galeria Iberê Camargo, de 24 de dezembro a 24 de janeiro</p>
+		</div>
+		<div class="sp-slide">
+			<a class="" href="http://www.margs.rs.gov.br/eventos/" target="_self">
+				<img class="sp-image" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/02477-Angelo-Guido-Crepúsculo_SLIDER.png" alt="" />
+			</a>
+			
+			
+			<p class="sp-layer sp-animated sp-black sp-padding caption-slide-home" data-position="bottomLeft">Mostra &#8220;Pinturas no Acervo&#8221;, de 24 de dezembro a 24 de janeiro, na Galeria João Fahrion</p>
+		</div>
+		<div class="sp-slide">
+			<a class="" href="http://www.margs.rs.gov.br/catalogo-de-obras/" target="_self">
+				<img class="sp-image" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/10/3.jpg" alt="" />
+			</a>
+			
+			
+			<p class="sp-layer sp-animated sp-black sp-padding caption-slide-home" data-position="bottomLeft">O MARGS apresenta exposições nacionais e internacionais de renome, além dos principais artistas do Rio Grande do Sul.</p>
+		</div>
+		<div class="sp-slide">
+			<a class="" href="http://www.margs.rs.gov.br/sobre-o-margs/" target="_self">
+				<img class="sp-image" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/10/2.jpg" alt="" />
+			</a>
+			
+			
+			<p class="sp-layer sp-animated sp-black sp-padding caption-slide-home" data-position="bottomLeft">O belíssimo prédio do MARGS foi projetado por Theodor Wiederspahn, o mais destacado arquiteto que atuou em Porto Alegre, nas primeiras décadas do Séc. XX.</p>
+		</div>
+		<div class="sp-slide">
+			<a class="" href="http://www.margs.rs.gov.br/sobre-o-margs/" target="_self">
+				<img class="sp-image" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/10/1.jpg" alt="" />
+			</a>
+			
+			
+			<p class="sp-layer sp-animated sp-black sp-padding caption-slide-home" data-position="bottomLeft">Museu Arte do Rio Grande do Sul: há 61 anos fazendo parte da história da cultura no Rio Grande do Sul e no mundo</p>
+		</div>
+	</div>
+</div>				</div>
+		</div>
+</div>
+
+<!-- Container -->
+<div class="container">                
+		<div class="row">
+				<!-- Main content -->
+				<div class="col col_8_of_12 main_content">
+						<!-- Content carousel -->
+						<div class="content_carousel">
+								<!-- Content title -->
+								<div class="content_carousel_title">
+										<h2><span>Catálogo de Obras</span></h2>
+										<div class="content_carousel_controls">
+												<span class="ccs_prev"><i class="fa fa-caret-left"></i></span>
+												<span class="ccs_next"><i class="fa fa-caret-right"></i></span>
+										</div>
+										<a class="view_all" href="http://www.margs.rs.gov.br/catalogo-de-obras/">Pesquise as obras</a>
+								</div>
+								<div class="content_carousel_sliders catalogo-home">
+										<!-- Article -->
+										
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2215h(3406).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16893/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2215h(3406).jpg" alt="Olinda &#8211; Amapro VIII, 1981"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16893/">Olinda &#8211; Amapro VIII, 1981</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1775 (1527).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16904/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1775 (1527).jpg" alt="O duplo, 1988"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16904/">O duplo, 1988</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3069 (2944).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16979/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3069 (2944).jpg" alt="No title 001, 2006"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16979/">No title 001, 2006</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/00372(1100).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16199/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/00372(1100).jpg" alt="Em busca de liberdade para algumas figuras que nasceram confinadas a uma folha de papel: Desenho I, 1976"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16199/">Em busca de liberdade para algumas figuras que nasceram confinadas a uma folha de papel: Desenho I, 1976</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2055 (2341).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16818/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2055 (2341).jpg" alt="A vida na cidade: A fábrica &#8211; Os operários, 1963-1969"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16818/">A vida na cidade: A fábrica &#8211; Os operários, 1963-1969</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/01283(414).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16408/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/01283(414).jpg" alt="Segmentos, 1989"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16408/">Segmentos, 1989</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3367(4123).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/17122/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3367(4123).jpg" alt="16JAN2014-19H, 2014"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/17122/">16JAN2014-19H, 2014</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1465 (2470).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16353/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1465 (2470).jpg" alt="Ainda os anjos // Questionando // Alados // Ventríloquos, 1991"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16353/">Ainda os anjos // Questionando // Alados // Ventríloquos, 1991</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1850 (1792).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16581/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1850 (1792).jpg" alt="Variações sobre um mesmo tema &#8211; II, 1986"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16581/">Variações sobre um mesmo tema &#8211; II, 1986</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/0598 (1356).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16318/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/0598 (1356).jpg" alt="Sem título, 1972"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16318/">Sem título, 1972</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3570(4308).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16805/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3570(4308).jpg" alt="Sem título"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16805/">Sem título</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3132_resize(3247).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16255/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3132_resize(3247).jpg" alt="Sem título, 1972"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16255/">Sem título, 1972</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2044 (2310).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16818/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2044 (2310).jpg" alt="Sem título, 1963-1969"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16818/">Sem título, 1963-1969</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1917 (1900).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16687/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/1917 (1900).jpg" alt="Sem título, 1988"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16687/">Sem título, 1988</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2638 (2838).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16730/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2638 (2838).jpg" alt="Sem título, 1983"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16730/">Sem título, 1983</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3055 (2930).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16976/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3055 (2930).jpg" alt="Sem título, 2011"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16976/">Sem título, 2011</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/01896(1870).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16542/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/01896(1870).jpg" alt="Moses und Miriam, 1989"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16542/">Moses und Miriam, 1989</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2890 (2721).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16832/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2890 (2721).jpg" alt="Sem título, 1971"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16832/">Sem título, 1971</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3339(4012).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16843/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3339(4012).jpg" alt="Paisagens, 1985"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16843/">Paisagens, 1985</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2012 (161).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16732/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/2012 (161).jpg" alt="Tubos, 1986"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16732/">Tubos, 1986</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/0421 (1153).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16577/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/0421 (1153).jpg" alt="Litografia nº 7, 1977"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16577/">Litografia nº 7, 1977</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																					<article class="item" style="background:url('http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3413(4110).jpg') no-repeat;background-size: cover;">
+													<div class="item_overlay">
+															<!--<a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16758/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/3413(4110).jpg" alt="Cenário de &#8220;São Joaquim entre os pastores&#8221;, 2014"></a>-->
+															<div class="item_overlay_container">
+																	<div class="item_overlay_content">
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo-de-obras/A/16758/">Cenário de &#8220;São Joaquim entre os pastores&#8221;, 2014</a></h3>
+																	</div>
+															</div>
+													</div>
+											</article>	
+											
+																		</div>
+						</div>
+						<!-- Section title -->
+						<div class="section_title">
+								<h2><span>Notícias</span></h2>
+								<a class="view_all" href="http://www.margs.rs.gov.br/noticias">Ver todas</a>
+								
+						</div>
+						<div class="row">
+								<div class="col col_6_of_12">
+										<!-- Article standard view -->
+										<div class="article_standard_view">
+												<!-- Article -->
+																								<article class="item">
+														<div class="item_header">
+																
+																<a href="http://www.margs.rs.gov.br/midia/bienal-naifs-do-brasil-2016-abre-para-inscricoes/" title="Bienal Naïfs do Brasil 2016 abre para inscrições"><img width="229" height="326" src="http://www.margs.rs.gov.br/wp-content/uploads/2016/01/Cartaz_Bienal_Naifs-229x326.png" class="attachment-manchete-post-big wp-post-image" alt="Cartaz_Bienal_Naifs" /></a>
+																<div class="item_header_line_outside"><div class="item_header_line" style="background-color: #f9f9f9"></div></div>
+														</div>
+														<div class="item_content">
+																<h3><a href="http://www.margs.rs.gov.br/midia/bienal-naifs-do-brasil-2016-abre-para-inscricoes/" title="Bienal Naïfs do Brasil 2016 abre para inscrições">Bienal Naïfs do Brasil 2016 abre para inscrições</a></h3>
+																<p><p>A Bienal Naïfs do Brasil constitui-se em um evento cultural de grande amplitude e expressiva repercussão em todo o país. Realizada pelo Sesc São Paulo desde 1992, na Unidade de Piracicaba, foi criada com o intuito de privilegiar a participação de artistas, cujas obras se relacionam à produção de arte ingênua, espontânea, instintiva, popular, naïfe [&hellip;]</p>
+</p>
+														</div>
+												</article>
+																						</div>
+								</div>
+								<div class="col col_6_of_12">
+										<!-- Article small view -->
+										<div class="article_small_view">
+												<!-- Article -->
+																								<article class="item">
+														<div class="item_header">
+																<a href="http://www.margs.rs.gov.br/midia/orquestra-sinfonica-de-porto-alegre-lanca-temporada-2016/" title="Orquestra Sinfônica de Porto Alegre lança Temporada 2016"><img width="120" height="80" src="http://www.margs.rs.gov.br/wp-content/uploads/2016/01/OSPA-120x80.jpg" class="attachment-manchete-post-lit wp-post-image" alt="OSPA" /></a>
+														</div>
+														<div class="item_content">
+																<h3><a href="http://www.margs.rs.gov.br/midia/orquestra-sinfonica-de-porto-alegre-lanca-temporada-2016/" title="Orquestra Sinfônica de Porto Alegre lança Temporada 2016">Orquestra Sinfônica de Porto Alegre lança Temporada 2016</a></h3>
+														</div>
+												</article>	
+																								<article class="item">
+														<div class="item_header">
+																<a href="http://www.margs.rs.gov.br/midia/programacao-de-janeiro-no-margs/" title="PROGRAMAÇÃO DE JANEIRO NO MARGS"><img width="120" height="80" src="http://www.margs.rs.gov.br/wp-content/uploads/2016/01/016-120x80.png" class="attachment-manchete-post-lit wp-post-image" alt="01" /></a>
+														</div>
+														<div class="item_content">
+																<h3><a href="http://www.margs.rs.gov.br/midia/programacao-de-janeiro-no-margs/" title="PROGRAMAÇÃO DE JANEIRO NO MARGS">PROGRAMAÇÃO DE JANEIRO NO MARGS</a></h3>
+														</div>
+												</article>	
+																								<article class="item">
+														<div class="item_header">
+																<a href="http://www.margs.rs.gov.br/midia/margs-comemora-22-exposicoes-em-2015/" title="MARGS COMEMORA 22 EXPOSIÇÔES EM 2015"><img width="120" height="80" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/logo_margs-120x80.png" class="attachment-manchete-post-lit wp-post-image" alt="logo_margs" /></a>
+														</div>
+														<div class="item_content">
+																<h3><a href="http://www.margs.rs.gov.br/midia/margs-comemora-22-exposicoes-em-2015/" title="MARGS COMEMORA 22 EXPOSIÇÔES EM 2015">MARGS COMEMORA 22 EXPOSIÇÔES EM 2015</a></h3>
+														</div>
+												</article>	
+																								<article class="item">
+														<div class="item_header">
+																<a href="http://www.margs.rs.gov.br/midia/margs-abre-duas-novas-exposicoes-no-final-do-ano-2/" title="MARGS abre duas novas exposições no final do ano"><img width="120" height="80" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/Convite-Pinturas-do-acervo-120x80.jpg" class="attachment-manchete-post-lit wp-post-image" alt="Convite Pinturas do acervo" /></a>
+														</div>
+														<div class="item_content">
+																<h3><a href="http://www.margs.rs.gov.br/midia/margs-abre-duas-novas-exposicoes-no-final-do-ano-2/" title="MARGS abre duas novas exposições no final do ano">MARGS abre duas novas exposições no final do ano</a></h3>
+														</div>
+												</article>	
+																								<article class="item">
+														<div class="item_header">
+																<a href="http://www.margs.rs.gov.br/noticias/margs-abre-duas-novas-exposicoes-no-final-do-ano/" title="MARGS abre duas novas exposições no final do ano"><img width="120" height="80" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/Convite-OLHAR-FEMININO-120x80.jpg" class="attachment-manchete-post-lit wp-post-image" alt="Convite OLHAR FEMININO" /></a>
+														</div>
+														<div class="item_content">
+																<h3><a href="http://www.margs.rs.gov.br/noticias/margs-abre-duas-novas-exposicoes-no-final-do-ano/" title="MARGS abre duas novas exposições no final do ano">MARGS abre duas novas exposições no final do ano</a></h3>
+														</div>
+												</article>	
+																						</div>
+								</div>
+						</div>		
+						<!-- Content banner -->
+						<div class="content_banner call-aamrgs">
+								<a href="http://www.margs.rs.gov.br/aamargs#associe-se-na-aamargs" target="_blank">
+										<img src="http://www.margs.rs.gov.br/wp-content/themes/margs/demo/banner-ads/AAMARGS-300x85.jpg" alt="AAMARGS">
+								</a>
+								<blockquote class="aamargs-info">
+									Sócios da AAMARGS possuem 10% de desconto na Loja do Margs e em diversos estabelecimentos conveniados, além de receber convites especiais para atividades do museu.
+									<a class="btn btn_dblue btn_extralarge" href="http://www.margs.rs.gov.br/aamargs#associe-se-na-aamargs" target="_blank">Associe-se Agora!<i class="fa fa-arrow-right"></i></a>
+								</blockquote >
+						</div>     
+						<!-- Section title -->
+										</div>                
+				<!-- Sidebar -->
+				<aside class="col col_4_of_12 sidebar_area">
+						<div class="theiaStickySidebar">
+								<!-- Widget -->
+								<div class="widget widget_categories" style="padding-top:30px;">
+		<h3 class="widget_title"><span>Assine nossa Newsletter</span></h3>
+		<div role="form" class="wpcf7" id="wpcf7-f17277-o1" lang="pt-BR" dir="ltr">
+<div class="screen-reader-response"></div>
+<form action="/#wpcf7-f17277-o1" method="post" class="wpcf7-form" novalidate="novalidate">
+<div style="display: none;">
+<input type="hidden" name="_wpcf7" value="17277" />
+<input type="hidden" name="_wpcf7_version" value="4.3.1" />
+<input type="hidden" name="_wpcf7_locale" value="pt_BR" />
+<input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f17277-o1" />
+<input type="hidden" name="_wpnonce" value="52858a4d59" />
+</div>
+<p><label>Nome *</label><br />
+    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" aria-required="true" aria-invalid="false" /></span> </p>
+<p><label>E-mail *<br />
+    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false" /></span> </p>
+<p><input type="submit" value="Enviar" class="wpcf7-form-control wpcf7-submit" /></p>
+<div class="wpcf7-response-output wpcf7-display-none"></div></form></div></div>
+<div class="widget">
+		<h3 class="widget_title"><span>Tour Virtual</span></h3>
+		<div class="widget_advertisement_300x250">
+				<a href="http://www.margs.rs.gov.br/tour-virtual/">
+						<img src="http://www.margs.rs.gov.br/wp-content/themes/margs/demo/banner-ads/300x250.jpg" alt="Banner">
+				</a>
+		</div>
+</div>  
+<!-- Widget -->
+<div class="widget">
+		<h3 class="widget_title"><span>Agenda</span></h3>
+					<div class="widget_timeline_posts">
+					<div class="item">
+							<span class="date">04/12/2016</span>
+							<div class="timeline_content">
+									<div class="pin_holder"><div class="inside"></div></div>
+									<h3><a href="http://www.margs.rs.gov.br/events/ospa-serie-musica-no-museu-9/" alt="OSPA &#8211; Série Música no Museu">OSPA &#8211; Série Música no Museu</a></h3>
+							</div>
+					</div>												
+			</div>
+						<div class="widget_timeline_posts">
+					<div class="item">
+							<span class="date">20/11/2016</span>
+							<div class="timeline_content">
+									<div class="pin_holder"><div class="inside"></div></div>
+									<h3><a href="http://www.margs.rs.gov.br/events/ospa-serie-musica-no-museu-8/" alt="OSPA &#8211; Série Música no Museu">OSPA &#8211; Série Música no Museu</a></h3>
+							</div>
+					</div>												
+			</div>
+						<div class="widget_timeline_posts">
+					<div class="item">
+							<span class="date">23/10/2016</span>
+							<div class="timeline_content">
+									<div class="pin_holder"><div class="inside"></div></div>
+									<h3><a href="http://www.margs.rs.gov.br/events/ospa-serie-musica-no-museu-7/" alt="OSPA &#8211; Série Música no Museu">OSPA &#8211; Série Música no Museu</a></h3>
+							</div>
+					</div>												
+			</div>
+													
+</div>
+<!-- Widget -->
+<div class="widget">
+		<h3 class="widget_title"><span>Revista Digital</span></h3>
+		<div class="widget_custom_posts">
+				<ul>
+												<li>
+								<div class="item_header">
+																				<a href="http://www.margs.rs.gov.br/publicacao/revista-no-01/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/rvtexto-150x150.jpg" alt="Margs"></a>
+																		</div>
+								<div class="item_content">
+										<h3><a href="http://www.margs.rs.gov.br/publicacao/revista-no-01/">Revista Te s ]xOH Nº 01</a></h3>
+										O Museu de Arte do Rio Grande do Sul apresenta o primeiro número da revista Te s ]xOH. A publicação foi criada com o objetivo não só de refletir prioritariamente as áreas de atividade do museu, mas também de ampliar seu raio de ação para outras disciplinas. As áreas de desenvolvimento da revista são aquelas [&hellip;]								</div>
+						</li>
+												<li>
+								<div class="item_header">
+																				<a href="http://www.margs.rs.gov.br/publicacao/revista-te-s-xoh-no-02/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/rvtexto2-150x150.jpg" alt="Margs"></a>
+																		</div>
+								<div class="item_content">
+										<h3><a href="http://www.margs.rs.gov.br/publicacao/revista-te-s-xoh-no-02/">Revista Te s ]xOH Nº 02</a></h3>
+										O Museu de Arte do Rio Grande do Sul apresenta o segundo número da revista Tes ] xOH. Criada com o objetivo de refletir prioritariamente sobre as áreas de atividades do museu, trata-se de uma publicação aberta também para sua comunidade mais ampla. Nesta edição da revista apresentamos novas perspectivas que envolvem a administração do [&hellip;]								</div>
+						</li>
+												<li>
+								<div class="item_header">
+																				<a href="http://www.margs.rs.gov.br/publicacao/revista-te-s-xoh-no-03/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/rvtexto3-150x150.jpg" alt="Margs"></a>
+																		</div>
+								<div class="item_content">
+										<h3><a href="http://www.margs.rs.gov.br/publicacao/revista-te-s-xoh-no-03/">Revista Te s ]xOH Nº 03</a></h3>
+										O Museu de Arte do Rio Grande do Sul apresenta o terceiro número da revista Te s ]xOH, cujo objetivo principal é a produção de conhecimento original sobre as diversas áreas de atuação do museu. Entretanto, eventualmente, incluímos textos não relacionados às artes visuais, que possam beneficiar os leitores que correspondem o público principal da [&hellip;]								</div>
+						</li>
+								
+				</ul>
+		</div>
+</div>						</div>
+				</aside>
+		</div>
+</div>
+<!-- Wild container -->
+<div class="wild_container">
+		<div class="container">   
+			<!-- Section title -->
+			<div class="section_title">
+					<h2><span>Exposições</span></h2>
+					<a class="view_all" href="http://www.margs.rs.gov.br/events/categories/exposicoes/">Veja mais</a>
+			</div>
+			<div class="row">
+				<div class="article_standard_view">
+												<div class="col col_4_of_12">
+								<!-- Article -->
+								<article class="item">
+										<div class="item_header galeria-home-foto">
+												<a href="http://www.margs.rs.gov.br/events/olhar-feminino/"><img width="300" height="200" src="http://www.margs.rs.gov.br/wp-content/uploads/2016/01/051-300x200.png" class="attachment-medium wp-post-image" alt="05" /></a>
+												<div class="item_header_line_outside"><div class="item_header_line" style="background-color: #f9f9f9"></div></div>
+										</div>
+										<div class="item_content">														
+												<h3><a a href="http://www.margs.rs.gov.br/events/olhar-feminino/" alt="&#8220;Olhar Feminino&#8221;">&#8220;Olhar Feminino&#8221;</a></h3>
+										</div>
+								</article>
+						</div>
+												<div class="col col_4_of_12">
+								<!-- Article -->
+								<article class="item">
+										<div class="item_header galeria-home-foto">
+												<a href="http://www.margs.rs.gov.br/events/pinturas-do-acervo/"><img width="300" height="200" src="http://www.margs.rs.gov.br/wp-content/uploads/2016/01/04-300x200.png" class="attachment-medium wp-post-image" alt="04" /></a>
+												<div class="item_header_line_outside"><div class="item_header_line" style="background-color: #f9f9f9"></div></div>
+										</div>
+										<div class="item_content">														
+												<h3><a a href="http://www.margs.rs.gov.br/events/pinturas-do-acervo/" alt="&#8220;Pinturas do Acervo&#8221;">&#8220;Pinturas do Acervo&#8221;</a></h3>
+										</div>
+								</article>
+						</div>
+												<div class="col col_4_of_12">
+								<!-- Article -->
+								<article class="item">
+										<div class="item_header galeria-home-foto">
+												<a href="http://www.margs.rs.gov.br/events/soixante-dix-de-juarez-machado/"><img width="300" height="190" src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/Soixante-dix-Fortaleza-2-300x190.jpg" class="attachment-medium wp-post-image" alt="Soixante-dix Fortaleza (2)" /></a>
+												<div class="item_header_line_outside"><div class="item_header_line" style="background-color: #f9f9f9"></div></div>
+										</div>
+										<div class="item_content">														
+												<h3><a a href="http://www.margs.rs.gov.br/events/soixante-dix-de-juarez-machado/" alt="&#8220;Soixante-Dix&#8221;, de Juarez Machado">&#8220;Soixante-Dix&#8221;, de Juarez Machado</a></h3>
+										</div>
+								</article>
+						</div>
+										</div>                        
+			</div>	
+				
+		</div>
+</div>
+<!-- Container -->
+<div class="container">
+		<div class="row">
+				<!-- Main content -->
+				<div class="col col_12_of_12 main_content">
+						<!-- Section title -->
+						<div class="section_title">
+								<h2><span>Catálogos</span></h2>
+								<a class="view_all" href="http://www.margs.rs.gov.br/catalogos">Veja mais</a>
+						</div>
+						<div class="row">
+								<div class="col col_4_of_12">
+										<!-- Article standard view -->
+										<div class="article_standard_view">
+												<!-- Article -->
+																									<div class="article_standard_view catalogo-hd-home">
+															<!-- Article -->
+															<article class="item">
+																	
+																	<div class="item_header">
+																																				<a href="http://www.margs.rs.gov.br/catalogo/o-museu-sensivel/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/museusensivel-300x243.jpg" alt="Margs"></a>
+																																				<div class="item_header_line_outside"><div class="item_header_line"  style="background-color: #f9f9f9"></div></div>
+																	</div>
+																	<div class="item_content">
+																	 
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo/o-museu-sensivel/">O Museu Sensível</a></h3>
+																	</div>
+															</article>
+													</div>
+																							</div>
+										<!-- Article small view -->
+																		</div>
+								<div class="col col_4_of_12">
+										<!-- Article standard view -->
+										
+																									<div class="article_standard_view catalogo-hd-home">
+															<!-- Article -->
+															<article class="item">
+																	
+																	<div class="item_header">
+																																				<a href="http://www.margs.rs.gov.br/catalogo/economia-da-montagem/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/economiadamontagem-300x225.jpg" alt="Margs"></a>
+																																				<div class="item_header_line_outside"><div class="item_header_line"  style="background-color: #f9f9f9"></div></div>
+																	</div>
+																	<div class="item_content">
+																	 
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo/economia-da-montagem/">Economia da Montagem</a></h3>
+																	</div>
+															</article>
+													</div>
+																										
+										<!-- Article small view -->
+																		</div>
+								<div class="col col_4_of_12">
+										<!-- Article standard view -->
+										
+																									<div class="article_standard_view catalogo-hd-home">
+															<!-- Article -->
+															<article class="item">
+																	
+																	<div class="item_header">
+																																				<a href="http://www.margs.rs.gov.br/catalogo/do-atelier-ao-cubo-branco/"><img src="http://www.margs.rs.gov.br/wp-content/uploads/2015/12/cubobrancoft-297x300.jpg" alt="Margs"></a>
+																																				<div class="item_header_line_outside"><div class="item_header_line"  style="background-color: #f9f9f9"></div></div>
+																	</div>
+																	<div class="item_content">
+																	 
+																			<h3><a href="http://www.margs.rs.gov.br/catalogo/do-atelier-ao-cubo-branco/">Do Atelier ao Cubo Branco</a></h3>
+																	</div>
+															</article>
+													</div>
+																										
+										<!-- Article small view -->
+																		</div>
+						</div>
+						<!-- Content banner -->
+										</div>
+				<!-- Sidebar -->
+				
+		</div>
+</div>
+<!-- Footer -->
+            <footer id="footer">
+                <div class="container">
+                    <div class="row">
+                        <!-- Widget -->
+                        <div class="col col_4_of_12">
+                            <div class="widget widget_text">
+                                <div class="textwidget">
+                                    <p><img alt="Logo" src="http://www.margs.rs.gov.br/wp-content/themes/margs/img/margs-logo-site-2.jpg"></p>
+                       
+                                    <ul class="fa-ul">
+                                        <li><i class="fa-li fa fa-map-marker"></i>Praça da Alfândega, s/n°
+Centro - 90010-150
+Porto Alegre - RS – BRASIL</li>
+                                        <li><i class="fa-li fa fa-phone"></i>051 3227-2311</li>
+                                        <li><i class="fa-li fa fa-envelope"></i>museu@margs.rs.gov.br</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Widget -->
+                        <div class="col col_4_of_12">
+                            <div class="widget twftsbar">
+                              			<div class="textwidget"><a class="twitter-timeline" href="https://twitter.com/margsmuseu" data-widget-id="677020038516350976" data-chrome="no header nofooter noborders noscrollbar"  data-tweet-limit="3">@margsmuseu</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+		                            </div>
+                        </div>
+                        <!-- Widget -->
+                        <div class="col col_4_of_12">
+                            <div class="widget fb-widg">
+                               <!-- <h3 class="widget_title"><span>Curta o MARGS</span></h3>-->
+                               <div class="fb-page" data-href="https://www.facebook.com/margsmuseu/" data-height="350" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/margsmuseu/"><a href="https://www.facebook.com/margsmuseu/">MARGS</a></blockquote></div></div>
+                            </div>
+														<div class="logos-ok-ft">
+															<ul>
+																<li><img alt="AAMARGS" src="http://www.margs.rs.gov.br/wp-content/themes/margs/img/logoaamargs-peq.png"></li>
+																<li><img alt="Governo RS" src="http://www.margs.rs.gov.br/wp-content/themes/margs/img/governo-rs.png"></li>
+															</ul>
+														</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <!-- Copyright -->
+            <div id="copyright">
+                <div class="">
+                    <p>© Copyright 2015.</p>
+										<div class="devlink">
+												<a href="http://alvaron.com.br" title="Desenvolvido por Alvaron Sites & E-commerce" target="_blank">AN</a></p>
+										</div>
+                </div>									
+            </div>						
+        </div>
+        
+        <!-- Javascripts-->
+        <script src="http://www.margs.rs.gov.br/wp-content/themes/margs/js/jquery.js"></script>
+        <script src="http://www.margs.rs.gov.br/wp-content/themes/margs/js/jquery-ui.js"></script>
+        <script src="http://www.margs.rs.gov.br/wp-content/themes/margs/js/jquery-stickykit.js"></script>
+        <script src="http://www.margs.rs.gov.br/wp-content/themes/margs/js/jquery-lightbox.js"></script>
+        <script src="http://www.margs.rs.gov.br/wp-content/themes/margs/js/jquery-fitvids.js"></script>
+        <script src="http://www.margs.rs.gov.br/wp-content/themes/margs/js/jquery-carousel.js"></script>
+        <script src="http://www.margs.rs.gov.br/wp-content/themes/margs/js/jquery-init.js"></script> 
+      
+<script type="text/javascript"><!--
+wpa2a.targets=[];
+wpa2a.html_done=true;if(wpa2a.script_ready&&!wpa2a.done)wpa2a.init();wpa2a.script_load();
+//--></script>
+<!-- Lightbox Plus Colorbox v2.7.2/1.5.9 - 2013.01.24 - Message: 0-->
+<script type="text/javascript">
+jQuery(document).ready(function($){
+  $("a[rel*=lightbox]").colorbox({initialWidth:"30%",initialHeight:"30%",maxWidth:"90%",maxHeight:"90%",opacity:0.8});
+});
+</script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-content/plugins/contact-form-7/includes/js/jquery.form.min.js?ver=3.51.0-2014.06.20'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var _wpcf7 = {"loaderUrl":"http:\/\/www.margs.rs.gov.br\/wp-content\/plugins\/contact-form-7\/images\/ajax-loader.gif","recaptchaEmpty":"Please verify that you are not a robot.","sending":"Enviando ..."};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=4.3.1'></script>
+<script type='text/javascript' src='//www.margs.rs.gov.br/wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.margs.rs.gov.br/wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=2.4.10'></script>
+<script type='text/javascript' src='//www.margs.rs.gov.br/wp-content/plugins/woocommerce/assets/js/jquery-cookie/jquery.cookie.min.js?ver=1.4.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","fragment_name":"wc_fragments"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='//www.margs.rs.gov.br/wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=2.4.10'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var i18n_mtli = {"hidethings":"1","enable_async":"","enable_async_debug":"","avoid_selector":".wp-caption"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-content/plugins/mimetypes-link-icons/js/mtli-str-replace.min.js?ver=3.1.0'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.5.9-min.js?ver=1.5.9'></script>
+<script type='text/javascript' src='http://www.margs.rs.gov.br/wp-content/plugins/sliderpro/public/assets/js/jquery.sliderPro.min.js?ver=4.3.0'></script>
+
+<script type="text/javascript">
+	jQuery( document ).ready(function( $ ) {
+		$( "#slider-pro-1" ).sliderPro({
+			width: '100%',
+			height: 400,
+			shuffle: true,
+			arrows: true,
+			thumbnailImageSize: 'thumbnail'
+		});
+
+	});
+</script>
+
+<!-- Facebook Comments Plugin for WordPress: http://peadig.com/wordpress-plugins/facebook-comments/ -->
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&appId=1677395785837804&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+  
+    </body>
+</html>

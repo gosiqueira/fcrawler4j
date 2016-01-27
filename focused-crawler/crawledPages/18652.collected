@@ -1,0 +1,611 @@
+title=Site brasileiro calcula quanto custa viajar para várias cidades do mundo | Economize
+url=https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/
+html=<!DOCTYPE html>
+<!--[if IE 6]>
+<html id="ie6" lang="pt-BR">
+<![endif]-->
+<!--[if IE 7]>
+<html id="ie7" lang="pt-BR">
+<![endif]-->
+<!--[if IE 8]>
+<html id="ie8" lang="pt-BR">
+<![endif]-->
+<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
+<html lang="pt-BR">
+<!--<![endif]-->
+<head>
+<meta charset="UTF-8"/><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XQcOU1BVGwUGUFdRBgg="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+<meta name="viewport" content="initial-scale=1.0,width=device-width"/>
+<meta name="referrer" content="unsafe-url"/>
+ 
+<meta name="twitter:widgets:csp" content="on">
+<title>Site brasileiro calcula quanto custa viajar para várias cidades do mundo | Economize</title>
+<link rel="profile" href="http://gmpg.org/xfn/11"/>
+<link rel="pingback" href="https://economize.catracalivre.com.br/xmlrpc.php"/>
+<!--[if lt IE 8]><link rel="stylesheet" href="/css/ie.css" type="text/css" media="screen,projection"><![endif]-->
+<!--[if lt IE 9]>
+        <script src="https://economize.catracalivre.com.br/wp-content/themes/catracalivre/js/html5.js" type="text/javascript"></script>
+        <![endif]-->
+<link rel="alternate" type="application/rss+xml" title="Feed de Economize &raquo;" href="https://economize.catracalivre.com.br/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Economize &raquo;  Feed de comentários" href="https://economize.catracalivre.com.br/comments/feed/"/>
+<link rel="alternate" type="application/rss+xml" title="Economize &raquo; Site brasileiro calcula quanto custa viajar para várias cidades do mundo  Feed de comentários" href="https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/feed/"/>
+<link rel='stylesheet' id='catraca-main-css' href='https://economize.catracalivre.com.br/wp-content/themes/catracalivre/main.css?ver=8472e7de8e36d78df9479b505d15491d' type='text/css' media='all'/>
+ 
+<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-7322738-2']);
+	_gaq.push(['_setDomainName', 'economize.catracalivre.com.br']);
+	_gaq.push(['_setAllowLinker', true]);
+	_gaq.push(['_gat._forceSSL']);
+	_gaq.push(['_setCustomVar',1,'category','dicas',3]);
+	_gaq.push(['_setCustomVar',2,'categories','dicas',3]);
+	_gaq.push(['_setCustomVar',4,'rede','Não',3]);
+	_gaq.push(['_trackPageview']);
+
+	(function () {
+		var ga = document.createElement('script');
+		ga.type = 'text/javascript';
+		ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0];
+		s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+ 
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-includes/js/jquery/jquery.js?ver=1.11.2'></script>
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.2.1'></script>
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-content/mu-plugins/js/banners.js?ver=e29b16350ae307ee2a26f7199421893e'></script>
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-content/themes/catracalivre/js/hand-talk.js?ver=1.faf145678ceb38ca7b05227171c9e79f'></script>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://economize.catracalivre.com.br/xmlrpc.php?rsd"/>
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://economize.catracalivre.com.br/wp-includes/wlwmanifest.xml"/>
+<link rel='prev' title='Saiba como vender o seu celular quebrado' href='https://economize.catracalivre.com.br/dicas/saiba-como-vender-o-seu-celular-quebrado/'/>
+<link rel='next' title='Procon dá orientações sobre passagens e pacotes de viagem no Carnaval' href='https://economize.catracalivre.com.br/dicas/procon-da-orientacoes-sobre-passagens-e-pacotes-de-viagem-no-carnaval/'/>
+<meta name="generator" content="WordPress 4.2.5"/>
+<link rel='canonical' href='https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/'/>
+<link rel='shortlink' href='https://economize.catracalivre.com.br/?p=6123'/>
+<script>
+        'use strict';
+
+        //Analytics Main
+
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+
+        ga('create', 'UA-7322738-8', 'auto', {
+            'allowLinker': true
+        });
+        ga('set', 'forceSSL', true);
+        ga('require', 'displayfeatures');
+        
+            ga('set', 'dimension3', 'dicas');
+            ga('set', 'dimension4', 'tukapereira');
+            ga('set', 'dimension5', '0');
+            ga('set', 'dimension6', '0');
+
+        ga('send','pageview');
+
+        ga('require', 'linker');
+        ga('linker:autoLink', ['catracalivre.com.br']);
+
+        // Link Tracking
+jQuery(window).load(function(){
+    jQuery.universalAnalytics.trackLinks();
+});
+
+// Removes "?_ga" querystring
+jQuery(document).ready(function(){
+    var gasplit = window.location.href.split('?_ga='),
+        url;
+    if (gasplit.length === 2) {
+        var url = gasplit[0];
+        history.replaceState("state", "", url);
+    }
+});
+
+// Event Tracking
+jQuery(document).ready(function(){
+    function getLabel(el) {
+        var label = '';
+        if (el.text) { label += '"' + el.text.trim() + '"'; }
+        if (el.parentElement && el.parentElement.id) { label += ' #' + el.parentElement.id; }
+        if (el.id) { label += ' #' + el.id; }
+        if (el.href && el.getAttribute('href') !== '#') { label += ' (' + el.href + ')'; }
+        return label;
+    }
+
+    var clickTarget;
+    jQuery(document).on('mousedown', function(e) {
+        var category;
+
+        if (clickTarget === e.target) {
+            return;
+        } else {
+            clickTarget = e.target;
+        }
+
+        if (jQuery(e.target).parents('nav#barra-do-topo').length) {
+            category = 'Barra do Topo';
+        } else if (jQuery(e.target).parents('nav#main-nav').length) {
+            category = 'Menu Principal';
+        }
+
+        if (category) {
+            if (e.target.href) {
+                ga('send', 'event', category, e.type, getLabel(e.target), {
+                    "hitCallback": function() {
+                        window.location.href = e.target.href
+                    }
+                });
+                e.preventDefault ? e.preventDefault() : e.returnValue = !1;
+            } else {
+                ga('send', 'event', category, e.type, getLabel(e.target));
+            }
+
+        }
+    });
+});
+
+// Scroll Tracking
+jQuery(document).ready(function(){
+    jQuery.scrollDepth({
+        minHeight: 100,
+        nonInteraction: true,
+        eventNaming: {
+            category: {
+                scrollDepth: 'Scroll'
+            },
+            action: {
+                percentage: 'Porcentagem',
+                elements: 'Elementos',
+                pixelDepth: 'Pixels'
+            },
+            label: {
+                baseline: 'Início'
+            }
+        }
+    });
+});    </script>
+<meta name="keywords" content="consumo conscientedescontosdescontos em viagensdicas de viagemdireito do consumidoreconomiaplanejamento de viagemviagem com economia"/>
+<meta name="description" content="Toda viagem que planejamos parece sair mais cara do que nosso bolso consegue dar conta e &eacute; por isso que um site chamado &ldquo;Quanto Custa Viajar&rdquo; pode estar prestes a mudar a vida de quem adora fazer as malas e sair pelo mundo. O site oferece todas as informa&ccedil;&otilde;es necess&aacute;rias para quem deseja planejar uma...&lt;br /&gt;&lt;a class=&quot;more-link&quot; href=&quot;https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/&quot;&gt;Continue lendo &amp;raquo;&lt;/a&gt;"/>
+<meta property="og:type" content="article"/>
+<meta property="og:locale" content="pt_BR"/>
+<meta property="twitter:card" content="summary_large_image"/>
+<meta property="twitter:site" content="@CatracaLivre"/>
+<meta property="twitter:url" content="https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo"/>
+<meta property="og:url" content="https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo"/>
+<meta property="twitter:description" content="Toda viagem que planejamos parece sair mais cara do que nosso bolso consegue dar conta e &eacute; por isso que um site chamado &ldquo;Quanto Custa Viajar&rdquo; pode estar prestes a mudar a vida de quem adora fazer as malas e sair pelo mundo. O site oferece todas as informa&ccedil;&otilde;es necess&aacute;rias para quem deseja planejar uma...&lt;br /&gt;&lt;a class=&quot;more-link&quot; href=&quot;https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/&quot;&gt;Continue lendo &amp;raquo;&lt;/a&gt;"/>
+<meta property="og:description" content="Toda viagem que planejamos parece sair mais cara do que nosso bolso consegue dar conta e &eacute; por isso que um site chamado &ldquo;Quanto Custa Viajar&rdquo; pode estar prestes a mudar a vida de quem adora fazer as malas e sair pelo mundo. O site oferece todas as informa&ccedil;&otilde;es necess&aacute;rias para quem deseja planejar uma...&lt;br /&gt;&lt;a class=&quot;more-link&quot; href=&quot;https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/&quot;&gt;Continue lendo &amp;raquo;&lt;/a&gt;"/>
+<meta property="og:site_name" content="Economize"/>
+<meta property="twitter:title" content="Site brasileiro calcula quanto custa viajar para v&aacute;rias cidades do mundo"/>
+<meta property="og:title" content="Site brasileiro calcula quanto custa viajar para v&aacute;rias cidades do mundo"/>
+<meta property="twitter:image" content="https://economize.catracalivre.com.br/wp-content/uploads/sites/8/2014/09/viagem.jpg"/>
+<meta property="og:image" content="https://economize.catracalivre.com.br/wp-content/uploads/sites/8/2014/09/viagem.jpg"/>
+<meta property="fb:app_id" content="416704195022309"/>
+<meta property="fb:admins" content="leogermani,650865543,100000196625342"/>
+</head>
+<body class="single single-post postid-6123 single-format-standard">
+<div id="sm-bounce" data-scope="email" style="display:none"></div>
+<div id="sm-lightbox" data-scope="email,user_birthday,user_location,user_likes,user_friends"></div>
+<div id="fb-root"></div>
+<script>
+        (function ($) {
+            'use strict';
+
+            // Facebook's JS SDK before window load
+            window.fbAsyncInit = function() {
+                FB.init({
+                    appId      : '416704195022309',
+                    xfbml      : true,
+                    version    : 'v2.4'
+                });
+            };
+            (function(d, s, id){
+                var js, fjs = d.getElementsByTagName(s)[0];
+                if (d.getElementById(id)) {return;}
+                js = d.createElement(s); js.id = id;
+                js.src = "//connect.facebook.net/pt_BR/sdk.js";
+                fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));
+
+            $(window).load(function() {
+                // Google plus
+                window.___gcfg = {lang: 'pt-BR'};
+                enqueue_script('https://apis.google.com/js/plusone.js');
+
+                // Alexa
+                window._atrk_opts = { atrk_acct:"QbUOk1a4eFf2T3", domain:"catracalivre.com.br",dynamic: true};
+                enqueue_script('https://d31qbv1cthcecs.cloudfront.net/atrk.js');
+
+                // Comscore
+                enqueue_script('https://sb.scorecardresearch.com/beacon.js');
+
+                // delay de iframes
+                $('*[data-hl-src]').each(function(element) {
+                    var $this = $(this);
+
+                    var src = $this.data('hl-src');
+                    $this.attr('src', src);
+                });
+
+                // Social Miner
+                if (vars.is_single) {
+                        enqueue_script('https://plugins.soclminer.com.br/v3/sdk/all.min.js', 'soclminer-jssdk');
+    window.soclInit = function () {
+        socl.start("992d43a6-fc22-4a40-aa49-9b4917037e12");
+    };
+                    }
+            });
+        })(jQuery);
+    </script>
+ 
+<div class="menu-block">
+<nav class="menu-interno ">
+<div class="search-mobile">
+<form action="">
+<input class="search-input" name="s" type="text" value="Buscar"/>
+</form>
+</div>
+<a class="voltar-home btn-verde-escuro" href="https://economize.catracalivre.com.br" title="Economize">Página Inicial</a>
+ 
+ 
+ 
+ 
+<ul id="menu-menu-1" class="categorias"><li id="menu-item-8" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8 cat-item category-fc0301"><a href="https://economize.catracalivre.com.br/editoria/descontos/">Descontos</a></li>
+<li id="menu-item-9" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9 cat-item category-ff6600"><a href="https://economize.catracalivre.com.br/editoria/faca-voce-mesmo/">Faça você mesmo</a></li>
+<li id="menu-item-10" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10 cat-item category-fc0301"><a href="https://economize.catracalivre.com.br/editoria/trocas-e-usados/">Trocas e usados</a></li>
+<li id="menu-item-63" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-63 cat-item category-ff6600"><a href="https://economize.catracalivre.com.br/editoria/dicas/">Dicas</a></li>
+<li id="menu-item-15115" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15115 cat-item category-fc0301"><a href="https://economize.catracalivre.com.br/editoria/cuponeria/">Cupom de Desconto</a></li>
+<li id="menu-item-18014" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18014 cat-item category-ff6600"><a href="https://economize.catracalivre.com.br/editoria/desapegados/">Desapegados</a></li>
+</ul>  
+ 
+<ul class="sites">
+<li class="title">Conheça nossos sites</li>
+<li><a href="https://catracalivre.com.br" title="Catraca Livre">Catraca Livre</a></li>
+<li><a href="https://aoquadrado.catracalivre.com.br" title="Ao Quadrado">Ao Quadrado</a></li>
+<li><a href="https://blogdaredacao.catracalivre.com.br" title="Blog da Redação">Blog da Redação</a></li>
+<li><a href="https://catraquinha.catracalivre.com.br" title="Catraquinha">Catraquinha</a></li>
+<li><a href="https://choquecultural.catracalivre.com.br" title="Choque Cultural">Choque Cultural</a></li>
+<li><a href="https://consumosocial.catracalivre.com.br" title="Consumo Social">Consumo Social</a></li>
+<li><a href="https://culturaemcasa.catracalivre.com.br" title="Cultura em Casa">Cultura em Casa</a></li>
+<li><a class="site-ativo" href="https://economize.catracalivre.com.br" title="Economize">Economize</a></li>
+<li><a href="https://estilo.catracalivre.com.br" title="Estilo">Estilo</a></li>
+<li><a href="https://fazedores.catracalivre.com.br" title="Fazedores">Fazedores</a></li>
+<li><a href="https://movimentese.catracalivre.com.br" title="Movimente-se">Movimente-se</a></li>
+<li><a href="https://naresponsa.catracalivre.com.br" title="Na Responsa">Na Responsa</a></li>
+<li><a href="https://porvir.catracalivre.com.br" title="Porvir">Porvir</a></li>
+<li><a href="https://queminova.catracalivre.com.br" title="Quem Inova">Quem Inova</a></li>
+<li><a href="https://samba.catracalivre.com.br" title="Samba em Rede">Samba em Rede</a></li>
+<li><a href="https://viagem.catracalivre.com.br" title="Viagem Livre">Viagem Livre</a></li>
+</ul>
+ 
+</nav> 
+</div> 
+<div class="overlay-menu"></div>
+<header class="header-principal ">
+<div class="header-conteudo">
+<nav>
+<button class="js-btn-menu-principal btn-menu-principal" name="menu-principal">
+<span class="js-menu-principal glyphicons glyphicons-menu-hamburger"></span><span class="type-menu">Menu</span>
+</button>
+</nav>
+ 
+<div class="logo-mobile">
+<h1 class="mobile-navbar-header-subtitle">
+<a href="https://economize.catracalivre.com.br" title="Economize">Economize</a>
+</h1>
+</div> 
+ 
+<div class="search-desktop">
+<form action="">
+<input class="search-input" name="s" type="text" value="Buscar"/>
+</form>
+</div> 
+ 
+<div class="social-desktop">
+<a class="facebook-header social-icons" target="_blank" href="https://www.facebook.com/economizemaiscatracalivre"></a>
+</div> 
+ 
+<div class="logo-topbar-catraca">
+<a href="https://catracalivre.com.br">
+<img src="https://economize.catracalivre.com.br/wp-content/themes/catracalivre/img/catraca-topbar.png" alt="Logo Catraca Livre"/>
+</a>
+</div>
+ 
+<div id="rede-userbar"> <div id='rede-login-box'>
+<form id="login-form" class="clear" method="post" action="https://economize.catracalivre.com.br/wp-login.php">
+<input type='hidden' name='redirect_to' id='rede-redirect_to'/>
+<input class="input-rede" placeholder="Usuário" id="email" type="text" name="log" value=""/>
+<input class="input-rede" placeholder="Senha" id="senha" type="password" name="pwd" value=""/>
+<input class="input-rede" type="submit" value="Entrar"/>
+</form>
+<div id='balao-erro-login' class="mensagens balao">
+<p>O usuário e/ou senha digitados estão incorretos.</p>
+</div>
+</div>
+</div>
+</div> 
+</header>
+<header id="main-header" class="clearfix">
+<div id="branding" class="wrap clearfix">
+<div class="col-12">
+<div class='site-title'>
+<a href="https://economize.catracalivre.com.br" title="Economize"><img src="https://economize.catracalivre.com.br/wp-content/uploads/sites/8/2015/04/logo-economize.png"/></a>
+</div>
+<div id="super-banner" class="banner">
+<div id="catraca-gpt-0" class="banner-wrap banner-super-banner" style="width:728px; height:90px"></div>
+</div>
+</div>
+</div>
+ 
+<nav id="main-nav">
+<div class="wrap clearfix">
+<ul id="main-menu" class="col-12 clearfix"><li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-8 cat-item category-fc0301"><a href="https://economize.catracalivre.com.br/editoria/descontos/">Descontos</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9 cat-item category-ff6600"><a href="https://economize.catracalivre.com.br/editoria/faca-voce-mesmo/">Faça você mesmo</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10 cat-item category-fc0301"><a href="https://economize.catracalivre.com.br/editoria/trocas-e-usados/">Trocas e usados</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-63 cat-item category-ff6600"><a href="https://economize.catracalivre.com.br/editoria/dicas/">Dicas</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-15115 cat-item category-fc0301"><a href="https://economize.catracalivre.com.br/editoria/cuponeria/">Cupom de Desconto</a></li>
+<li class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-18014 cat-item category-ff6600"><a href="https://economize.catracalivre.com.br/editoria/desapegados/">Desapegados</a></li>
+</ul> </div>
+ 
+</nav> 
+</header>
+<header id="category-header">
+<div class="wrap clearfix">
+<div id="category-description" class="col-12">
+<h2 class="category-ff6600 category-title">
+<a href="https://economize.catracalivre.com.br/editoria/dicas/">Dicas</a> </h2>
+</div>
+ 
+</div>
+ 
+</header>
+ 
+<div class="wrap clearfix">
+<header id="single-header" class="col-12 clearfix post-6123 post type-post status-publish format-standard has-post-thumbnail hentry category-dicas tag-consumo-consciente tag-descontos-2 tag-descontos-em-viagens tag-dicas-de-viagem tag-direito-do-consumidor tag-economia tag-planejamento-de-viagem tag-viagem-com-economia category-ff6600">
+<h1>Site brasileiro calcula quanto custa viajar para várias cidades do mundo</h1>
+ 
+<div class="autor-e-data">
+<a href="https://economize.catracalivre.com.br/autor/tukapereira/" title="Posts de Tuka Pereira" rel="author">Tuka Pereira</a> em <time class="post-time" datetime="2015-02-11" pubdate>11 de fevereiro de 2015 às 12:29</time>
+</div>
+ 
+<div class="share">
+<div class="sm-share" data-height="27" data-width="100%"></div>
+</div>
+<p class="editar-post"></p>
+</header>
+<section id="main-section" class='col-8 clearfix'>
+<article id="post-6123" class="main-post clearfix post-6123 post type-post status-publish format-standard has-post-thumbnail hentry category-dicas tag-consumo-consciente tag-descontos-2 tag-descontos-em-viagens tag-dicas-de-viagem tag-direito-do-consumidor tag-economia tag-planejamento-de-viagem tag-viagem-com-economia category-ff6600">
+<div id="post-content-single" class="post-content clearfix ">
+<div id="attachment_5656" class="wp-caption alignright" style="width: 310px"><p class="credito-foto">Foto: iStock</p><a href="https://economize.catracalivre.com.br/wp-content/uploads/sites/8/2015/02/viagem_1.jpg"><img class="size-medium wp-image-5656" src="https://economize.catracalivre.com.br/wp-content/plugins/lazy-load/images/1x1.trans.gif" data-lazy-src="https://economize.catracalivre.com.br/wp-content/uploads/sites/8/2015/02/viagem_1-300x225.jpg" alt="Foto: iStock" width="300" height="225"/><noscript><img class="size-medium wp-image-5656" src="https://economize.catracalivre.com.br/wp-content/uploads/sites/8/2015/02/viagem_1-300x225.jpg" alt="Foto: iStock" width="300" height="225"/></noscript></a><p class="wp-caption-text">Foto: iStock</p></div>
+<p>Toda viagem que planejamos parece sair mais cara do que nosso bolso consegue dar conta e é por isso que um site chamado “<a href="http://www.quantocustaviajar.com" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.quantocustaviajar.com', 'Quanto Custa Viajar']);" target="_blank">Quanto Custa Viajar</a>” pode estar prestes a mudar a vida de quem adora fazer as malas e sair pelo mundo.</p>
+<p>O site oferece todas as informações necessárias para quem deseja planejar uma viagem e precisa fazer o levantamento dos custos. Permite escolher o destino e com uma calculadora online simula os gastos com passagens aéreas, hospedagem, alimentação, transporte e atrações dependendo do número de dias que o usuário ficará na cidade. A ferramenta permite também escolher o perfil do viajante que é dividido em três categorias: baixo custo (mochileiro), econômico e confortável.</p>
+<p>Atualmente, o viajante pode conferir os preços das principais atrações de cerca de 100 cidades pelo mundo e este número aumentará em breve.</p>
+<p>Para passar oito dias em La paz, na Bolívia, uma pessoa com perfil de baixo custo gastará, segundo o aplicativo, o valor de R$ 1885 (incluindo passagem aérea e custos gerais). Já para ficar o mesmo tempo num perfil confortável, o valor será de R$ 2528. Quando o destino fica na Europa, os custos aumentam bastante. Ficar oito dias em Paris sai no mínimo R$ 4357 (mochileiro) e R$ 7039 para um perfil confortável.</p>
+<p>O Quanto Custa Viajar é uma iniciativa de três amigos de Curitiba (Amanda Santiago, Fabio Yamahira e Igor Pucci) e começou a ser viabilizado em janeiro de 2014. O projeto surgiu a partir da experiência de Fábio em uma de suas viagens:</p>
+<p>“Em 2013 estava organizando uma viagem para a Europa e tive algumas dificuldades no planejamento financeiro, do quanto iria gastar e quanto precisaria levar. Na maioria das vezes que buscava por informações de custos de atrações, transporte, acabava caindo em sites que falavam sobre a atração, mas nunca havia o preço, e quando encontrava, via que a página estava desatualizada há mais de três anos. A partir desse problema, sentamos os três e começamos os testes de como poderia ser o site”, conta Fábio.</p>
+<p>No ar desde dezembro de 2014, o Quanto Custa Viajar já tem sua versão para mobile em desenvolvimento. Segundo seus criadores, a app terá algumas funcionalidades extras que irão ajudar não só no planejamento da viagem, como também durante a estadia.</p>
+<p>“Nossa missão é manter os dados sempre atualizados, com valores muito próximos ao custo real da viagem. Para isso contamos com a colaboração dos leitores, equipe interna de conteúdo e também um sistema automático de atualização de preços”, explica Fábio.</p>
+<p><a href="http://www.quantocustaviajar.com" onclick="_gaq.push(['_trackEvent', 'outbound-article', 'http://www.quantocustaviajar.com', 'www.quantocustaviajar.com']);" target="_blank">www.quantocustaviajar.com</a></p>
+</div>
+<div id="container-continuar-lendo" class="">
+<button class="js-btn-continuar-lendo btn-continuar-lendo">Continuar Lendo</button>
+</div>
+<div class="banner-wrap-full banner-arroba-inferior clearfix">
+<div class="banner">
+<div id="catraca-gpt-1" class="banner-wrap banner-arroba-inferior-1" style="width:300px; height:250px"></div>
+</div>
+<div class="banner">
+<div id="catraca-gpt-2" class="banner-wrap banner-arroba-inferior-2" style="width:300px; height:250px"></div>
+</div>
+</div>
+ 
+<footer id="post-footer" class="clearfix">
+<div class="share">
+<div class="sm-share" data-height="27" data-width="100%"></div>
+</div>
+<div class="taxonomies clearfix">
+<span class="glyphicons icon_tags"></span>
+<a href="https://economize.catracalivre.com.br/tag/consumo-consciente/" rel="tag">consumo consciente</a><a href="https://economize.catracalivre.com.br/tag/descontos-2/" rel="tag">descontos</a><a href="https://economize.catracalivre.com.br/tag/descontos-em-viagens/" rel="tag">descontos em viagens</a><a href="https://economize.catracalivre.com.br/tag/dicas-de-viagem/" rel="tag">dicas de viagem</a><a href="https://economize.catracalivre.com.br/tag/direito-do-consumidor/" rel="tag">direito do consumidor</a><a href="https://economize.catracalivre.com.br/tag/economia/" rel="tag">economia</a><a href="https://economize.catracalivre.com.br/tag/planejamento-de-viagem/" rel="tag">planejamento de viagem</a><a href="https://economize.catracalivre.com.br/tag/viagem-com-economia/" rel="tag">viagem com economia</a> </div>
+<ul id="abas-single" class="abas abas-single clearfix">
+<li>
+<a id="aba-comentarios"><span class="glyphicons icon_chat"></span>Comentários</a>
+</li>
+<li>
+<a id="aba-comentarios-facebook">Comentários do Facebook</a>
+</li>
+</ul>
+</footer>
+<div id="comments">
+ 
+<h4 class="subtitle">Comentários (6)</h4>
+<ul class="commentlist" id="singlecomments">
+<li class="pingback even thread-even depth-1 clearfix" id="comment-10161">
+<p class="comment-meta alignright bottom">
+<a class='comment-reply-link' href='/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/?replytocom=10161#respond' onclick='return addComment.moveForm( "comment-10161", "10161", "respond", "6123" )' aria-label='Responder para Quanto custa viajar? - Amanda Santiago'>Responder</a> </p>
+<p class="comment-meta bottom">
+Por <a href='http://amandasantiago.com/quanto-custa-viajar/' rel='external nofollow' class='url'>Quanto custa viajar? - Amanda Santiago</a> em 3 de outubro de 2015 as 18:57. </p>
+<div class="content">
+<p>[&#8230;] pessoal pareceu gostar bastante da ideia. Saiu matéria no site da Exame, no da Época, Brainstorm, Catraca Livre e muitos outros, então se alguém leu Amanda Santiago nas matérias e pensou em mim&#8230; sou eu! [&#8230;]</p>
+</div>
+</li> 
+<li class="pingback odd alt thread-odd thread-alt depth-1 clearfix" id="comment-3238">
+<p class="comment-meta alignright bottom">
+<a class='comment-reply-link' href='/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/?replytocom=3238#respond' onclick='return addComment.moveForm( "comment-3238", "3238", "respond", "6123" )' aria-label='Responder para 20 dicas para conseguir economizar mais em época de inflação | Consumo Social'>Responder</a> </p>
+<p class="comment-meta bottom">
+Por <a href='https://consumosocial.catracalivre.com.br/geral/financas/indicacao/20-dicas-para-conseguir-economizar-mais-em-epoca-de-inflacao/' rel='external nofollow' class='url'>20 dicas para conseguir economizar mais em época de inflação | Consumo Social</a> em 28 de maio de 2015 as 11:58. </p>
+<div class="content">
+<p>[&#8230;] 11 - Site brasileiro calcula quanto custa viajar para várias cidades do mundo [&#8230;]</p>
+</div>
+</li> 
+<li class="pingback even thread-even depth-1 clearfix" id="comment-3217">
+<p class="comment-meta alignright bottom">
+<a class='comment-reply-link' href='/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/?replytocom=3217#respond' onclick='return addComment.moveForm( "comment-3217", "3217", "respond", "6123" )' aria-label='Responder para Veja lista dos destinos internacionais mais baratos para viajar | Economize'>Responder</a> </p>
+<p class="comment-meta bottom">
+Por <a href='https://economize.catracalivre.com.br/dicas/veja-lista-de-destinos-internacionais-mais-baratos-para-viajar/' rel='external nofollow' class='url'>Veja lista dos destinos internacionais mais baratos para viajar | Economize</a> em 27 de maio de 2015 as 13:28. </p>
+<div class="content">
+<p>[&#8230;] site “Quanto Custa Viajar”, que oferece um levantamento de custos para quem deseja planejar uma viagem, listou as cidades [&#8230;]</p>
+</div>
+</li> 
+<li class="pingback odd alt thread-odd thread-alt depth-1 clearfix" id="comment-2820">
+<p class="comment-meta alignright bottom">
+<a class='comment-reply-link' href='/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/?replytocom=2820#respond' onclick='return addComment.moveForm( "comment-2820", "2820", "respond", "6123" )' aria-label='Responder para 20 dicas do Catraca Livre para enfrentar a inflação | Economize'>Responder</a> </p>
+<p class="comment-meta bottom">
+Por <a href='https://economize.catracalivre.com.br/dicas/20-dicas-do-catraca-livre-para-enfrentar-a-inflacao/' rel='external nofollow' class='url'>20 dicas do Catraca Livre para enfrentar a inflação | Economize</a> em 18 de maio de 2015 as 12:20. </p>
+<div class="content">
+<p>[&#8230;] 11 - Site brasileiro calcula quanto custa viajar para várias cidades do mundo [&#8230;]</p>
+</div>
+</li> 
+<li class="pingback even thread-even depth-1 clearfix" id="comment-1164">
+<p class="comment-meta alignright bottom">
+<a class='comment-reply-link' href='/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/?replytocom=1164#respond' onclick='return addComment.moveForm( "comment-1164", "1164", "respond", "6123" )' aria-label='Responder para Quanto custa viajar para a Coreia do Sul?'>Responder</a> </p>
+<p class="comment-meta bottom">
+Por <a href='http://brazilkorea.com.br/homo/quanto-custa-viajar-para-coreia-sul/' rel='external nofollow' class='url'>Quanto custa viajar para a Coreia do Sul?</a> em 22 de fevereiro de 2015 as 12:43. </p>
+<div class="content">
+<p>[&#8230;] Catraca Livre, Época [&#8230;]</p>
+</div>
+</li> 
+<li class="pingback odd alt thread-odd thread-alt depth-1 clearfix" id="comment-1141">
+<p class="comment-meta alignright bottom">
+<a class='comment-reply-link' href='/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/?replytocom=1141#respond' onclick='return addComment.moveForm( "comment-1141", "1141", "respond", "6123" )' aria-label='Responder para Quanto custa viajar? - Troquei na China'>Responder</a> </p>
+<p class="comment-meta bottom">
+Por <a href='http://troqueinachina.com.br/quanto-custa-viajar/' rel='external nofollow' class='url'>Quanto custa viajar? - Troquei na China</a> em 19 de fevereiro de 2015 as 22:09. </p>
+<div class="content">
+<p>[&#8230;] pessoal pareceu gostar bastante da ideia. Saiu matéria no site da Exame, no da Época, Brainstorm, Catraca Livre e muitos outros, então se alguém leu Amanda Santiago nas matérias e pensou em mim&#8230; sou eu! [&#8230;]</p>
+</div>
+</li> 
+</ul>
+<p>Os comentários não representam a opinião do Catraca Livre. A responsabilidade é do autor da mensagem.</p>
+ 
+<div id="respond" class="clearfix">
+<div id="respond" class="comment-respond">
+<h3 id="reply-title" class="comment-reply-title">Deixe uma resposta <small><a rel="nofollow" id="cancel-comment-reply-link" href="/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/#respond" style="display:none;">Cancelar resposta</a></small></h3>
+<form action="https://economize.catracalivre.com.br/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+<p class="comment-notes"><span id="email-notes">O seu endereço de email não será publicado</span> Campos obrigatórios são marcados <span class="required">*</span></p> <p class="comment-form-author"><label for="author">Nome <span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" aria-required='true' required='required'/></p>
+<p class="comment-form-email"><label for="email">Email <span class="required">*</span></label> <input id="email" name="email" type="text" value="" size="30" aria-describedby="email-notes" aria-required='true' required='required'/></p>
+<p class="comment-form-url"><label for="url">Site</label> <input id="url" name="url" type="text" value="" size="30"/></p>
+<p class="comment-form-comment"><label for="comment">Comentário</label> <textarea id="comment" name="comment" cols="45" rows="8" aria-describedby="form-allowed-tags" aria-required="true" required="required"></textarea></p> <p class="form-allowed-tags" id="form-allowed-tags">Você pode usar estas tags e atributos de <abbr title="HyperText Markup Language">HTML</abbr>: <code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;s&gt; &lt;strike&gt; &lt;strong&gt; </code></p>
+<p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Publicar comentário"/> <input type='hidden' name='comment_post_ID' value='6123' id='comment_post_ID'/>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'/>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="5ed6550ae8"/></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="230"/></p> </form>
+</div> 
+</div>
+</div>
+<div id="fb-comments">
+<div class="fb-comments" data-href="https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/" data-num-posts="8" data-width="600"></div>
+<p>Os comentários não representam a opinião do Catraca Livre. A responsabilidade é do autor da mensagem.</p>
+</div>
+</article>
+ 
+ 
+<div class="OUTBRAIN" data-src="https://economize.catracalivre.com.br/dicas/site-brasileiro-calcula-quanto-custa-viajar-para-varias-cidades-do-mundo/" data-widget-id="AR_1" data-ob-template="CatracaLivre"></div>
+<script type="text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+ 
+</section>
+ 
+<aside id="main-sidebar" class="col-4 clearfix">
+<div class="box-banner banner clear widget">
+<div class="borda">
+<p><span>Oferecido por</span></p>
+<div id="catraca-gpt-3" class="banner-wrap banner-oferecido-por-sub-editoria" style="width:210px; height:110px"></div>
+</div>
+</div>
+<div class="arroba-banner banner clear widget">
+<div id="catraca-gpt-4" class="banner-wrap banner-arroba" style="width:300px; height:250px"></div>
+</div>
+<div class="clear">
+<div id="text-6" class="widget widget-brasil widget_text"> <div class="textwidget"><a href="https://twitter.com/Economize_Mais" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://twitter.com/Economize_Mais', 'Tweets de @Economize_Mais']);" class="twitter-timeline" data-widget-id="631158100008026114">Tweets de @Economize_Mais</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+</div><div id="text-4" class="widget widget-brasil widget_text"> <div class="textwidget"><div class="fb-page" data-href="https://www.facebook.com/EconomizeMaisCatracaLivre" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/EconomizeMaisCatracaLivre"><a href="https://www.facebook.com/EconomizeMaisCatracaLivre" onclick="_gaq.push(['_trackEvent', 'outbound-widget', 'https://www.facebook.com/EconomizeMaisCatracaLivre', 'Economize+']);">Economize+</a></blockquote></div></div></div>
+</div> </div>
+<div class="half-page-banner clear banner">
+<div id="catraca-gpt-5" class="banner-wrap banner-half-page" style="width:300px; height:600px"></div>
+</div>
+<div class="skyscraper clear banner">
+<div id="catraca-gpt-6" class="banner-wrap banner-wide-skyscraper" style="width:160px; height:600px"></div>
+</div>
+</aside>
+ 
+</div>
+ 
+<footer id="main-footer">
+<div class="footer-content">
+<div id="redes-sociais" class="col-12 clearfix">
+<ul class="clearfix">
+<li>
+<a class="sprites-social-facebook" target="_blank" href="https://www.facebook.com/economizemaiscatracalivre"></a>
+</li>
+</ul> 
+</div> 
+<div id="nav_menu-3" class="widget widget_nav_menu col-2"><div class="menu-rdape-container"><ul id="menu-rdape" class="menu"><li id="menu-item-7789" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7789 pagecolor-"><a href="https://economize.catracalivre.com.br/quem-somos-e-contatos/">Quem Somos e Contatos</a></li>
+</ul></div></div>
+<div class="logo-minc">
+</div>
+<div id="creditos-hacklab" class="col-12 clearfix">
+<p id="creditos">
+Desenvolvido por <a href="http://hacklab.com.br" title="Hacklab">Hacklab</a> com <a href="http://wordpress.org" title="WordPress">WordPress</a>.
+</p>
+</div>
+<script type='text/javascript'>
+            var googletag = googletag || {};
+            googletag.cmd = googletag.cmd || [];
+            (function() {
+                var gads = document.createElement('script');
+                gads.async = true;
+                gads.type = 'text/javascript';
+                var useSSL = 'https:' == document.location.protocol;
+                gads.src = (useSSL ? 'https:' : 'http:') +
+                '//www.googletagservices.com/tag/js/gpt.js';
+                var node = document.getElementsByTagName('script')[0];
+                node.parentNode.insertBefore(gads, node);
+            })();
+            googletag.cmd.push(function() {
+                                                                                googletag.defineSlot('/3781540/economize_dicas_super-banner', [728, 90], 'catraca-gpt-0').addService(googletag.pubads());
+                                                                                                    if (jQuery(window).width() <= 700 || jQuery(window).width() >= 1024 ) {
+                            googletag.defineSlot('/3781540/economize_dicas_arroba-inferior-1', [300, 250], 'catraca-gpt-1').addService(googletag.pubads());
+                        }
+                                                                                                    googletag.defineSlot('/3781540/economize_dicas_arroba-inferior-2', [300, 250], 'catraca-gpt-2').addService(googletag.pubads());
+                                                                                                    googletag.defineSlot('/3781540/economize_dicas_arroba', [300, 250], 'catraca-gpt-4').addService(googletag.pubads());
+                                                                                                    googletag.defineSlot('/3781540/economize_dicas_half-page', [300, 600], 'catraca-gpt-5').addService(googletag.pubads());
+                                                                                                    if (jQuery(window).width() > 700 && jQuery(window).width() <= 1024) {
+                            googletag.defineSlot('/3781540/economize_dicas_wide-skyscraper', [160, 600], 'catraca-gpt-6').addService(googletag.pubads());
+                        }
+                                                    googletag.pubads().enableSingleRequest();
+                googletag.pubads().collapseEmptyDivs();
+                googletag.enableServices();
+            });
+            googletag.cmd.push(function() {
+                                                                                googletag.display('catraca-gpt-0');
+                                                                                                    if (jQuery(window).width() <= 700 || jQuery(window).width() >= 1024) {
+                            googletag.defineSlot('/3781540/economize_dicas_arroba-inferior-1', [300, 250], 'catraca-gpt-1').addService(googletag.pubads());
+                        }
+                                                                                                    googletag.display('catraca-gpt-2');
+                                                                                                    googletag.display('catraca-gpt-4');
+                                                                                                    googletag.display('catraca-gpt-5');
+                                                                                                    if (jQuery(window).width() > 700 && jQuery(window).width() <= 1024) {
+                            googletag.display('catraca-gpt-6');
+                        }
+                                                });
+        </script>
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-content/themes/catracalivre/build/js/vendor.min.js?ver=17978cb7a2ff025a207b53d500e1380c'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var congelado = {"ajaxurl":"https:\/\/economize.catracalivre.com.br\/wp-admin\/admin-ajax.php","indev":""};
+var vars = {"catraca_us":"catraca-us-8","catraca_cs":"catraca-cs-8","current_site":"brasil","base_url":"https:\/\/economize.catracalivre.com.br","theme_url":"https:\/\/economize.catracalivre.com.br\/wp-content\/themes\/catracalivre","ajax_url":"https:\/\/economize.catracalivre.com.br\/wp-admin\/admin-ajax.php","googleKey":"AIzaSyCjy9qkYlB2380yrB4r_fjsNw19pnVHpTU","share":{"fb_app_id":"416704195022309","name":"Site brasileiro calcula quanto custa viajar para v\u00e1rias cidades do mundo","caption":"Economize","thumb_url":"https:\/\/economize.catracalivre.com.br\/wp-content\/uploads\/sites\/8\/2014\/09\/viagem-150x150.jpg","description":""},"catraca_api":"https:\/\/api.catracalivre.com.br","blog_id":"8","wp_version":"4.2.5","akismet_version":"3.1.5","is_single":"1","rootDomain":"catracalivre.com.br"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-content/themes/catracalivre/build/js/catraca.min.js?ver=904366402214932d1d3505cf746e61d0'></script>
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-content/plugins/lazy-load/js/jquery.sonar.min.js?ver=0.6.2f5b4ade9c7514b244e204c138cf4a06'></script>
+<script type='text/javascript' src='https://economize.catracalivre.com.br/wp-content/plugins/lazy-load/js/lazy-load.js?ver=0.6.c208b892d5e834b4932b43e67037f290'></script>
+<noscript>
+<img src="https://sb.scorecardresearch.com/p?c1=2&c2=19762648&cv=2.0&cj=1"/>
+<img src="https://d5nxst8fruw4z.cloudfront.net/atrk.gif?account=QbUOk1a4eFf2T3" style="display:none" height="1" width="1" alt=""/>
+</noscript>
+</div>
+</footer>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"e8cc6df71b","applicationID":"6646319","transactionName":"ZVcBNUNQW0UEWhELWVwdIgJFWFpYSkoMDFFeVw==","queueTime":0,"applicationTime":406,"atts":"SRACQwtKSEs=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

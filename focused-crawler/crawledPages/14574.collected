@@ -1,0 +1,229 @@
+title=Our Stores - Store Hours - Macy's
+url=http://www.macys.com/store/storehours.ognc?storeId=70
+html=
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en-us">
+<head xmlns:jsp="http://java.sun.com/products/jsp/dtd/jsp_1_0.dtd"><META http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Our Stores - Store Hours - Macy's</title>
+<meta name="alt-url" content="http://www1.macys.com/store/storehours.jsp">
+<meta http-equiv="generator" content="JACPKMALPHTCSJDTCR">
+<script>
+var signInButton = '<img title="Sign In" src="http://www1.macys.com/img/nav/co_topnav_signin.gif" width="45" height="29" alt="Sign In" border="0">';
+var signOutButton = '<img title="Sign Out" src="http://www1.macys.com/img/nav/co_topnav_signout.gif" width="45" height="29" alt="Sign Out" border="0">';
+var registerButton = '<img title="Register" src="http://www1.macys.com/img/nav/co_topnav_register.gif" width="44" height="29" alt="Register" border="0">';
+var colorStandard = '#333333';
+var signOutPath = "https://www.macys.com/signin/signout.ognc";
+var signInPath = "https://www.macys.com/signin/index.ognc";
+var registerPath = "https://www.macys.com/myinfo/register/index.ognc";
+var ShoppingBagPath = "http://www1.macys.com/bag/index.ognc";
+</script><script type="text/javascript" src="http://www1.macys.com/javascript/cookieJar.js" language="JavaScript">Error: Could not load cookieJar.js</script><script type="text/javascript" src="http://www1.macys.com/javascript/userObject.js" language="JavaScript">Error: Could not load userObject.js</script><script type="text/javascript" src="http://www1.macys.com/javascript/formValidation.js" language="JavaScript">Error: Could not load formValidation.js</script><script type="text/javascript" src="http://www1.macys.com/javascript/flashUtils.js" language="JavaScript">Error: Could not load flashUtils.js</script><script src="http://www1.macys.com/javascript/standard.js" language="Javascript"></script>
+<link href="http://www1.macys.com/css/yui/build/reset/reset.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/css/yui/build/base/base.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/css/yui/build/fonts/fonts.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/css/yui/build/grids/grids.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/web20/assets/style/myaccount/myorders.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/css/standard.css" rel="stylesheet" type="text/css"><!--[if IE]><link href="http://www1.macys.com/css/ie.css" rel="stylesheet" type="text/css"><![endif]--><link href="http://www1.macys.com/web20/assets/style/common/macys.bootstrap.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/web20/assets/style/common/header.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/web20/assets/style/common/footer.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/web20/assets/fonts/customfonts.css" type="text/css" rel="stylesheet">
+<link href="http://www1.macys.com/web20/assets/style/common/legacysprites.css" type="text/css" rel="stylesheet">
+<!--[if lte IE 8]>
+<style>
+#nav-search-box #globalSearchInputContainer {
+background:url('http://www1.macys.com/web20/assets/img/nav/header-search-gradient_ie8.gif') no-repeat 0px 0px;
+}
+#nav-search-box input.globalSearchInputField {
+background-color: transparent;
+}
+</style>
+<![endif]-->
+<link rel="stylesheet" type="text/css" href="/styles/mcom/components/flyout/flyout.css"><!--[if lt IE 10]><link rel="stylesheet" type="text/css" href="http://www1.macys.com/web20/assets/style/common/flyout_IE.css"><![endif]-->
+<link rel="SHORTCUT ICON" href="/favicon.ico">
+<style type="text/css">
+html, body, #doc3 { background-color:#FFF; margin:auto; text-align:left; min-width:341px;}
+</style>
+<script type="text/javascript" src="//s.btstatic.com/tag.js">
+{ site: "YQClrLy", mode: "sync" }
+</script>
+</head><body leftmargin="0" marginwidth="0" marginheight="0" topmargin="0" bgcolor="#ffffff">
+<input type="hidden" id="macysCookieDomain" value=".macys.com"/>
+<input type="hidden" id="MACYS_secureHostName" value="https://www.macys.com"/>
+<input type="hidden" id="MACYS_baseHostName" value="http://www1.macys.com"/>
+<input type="hidden" id="MACYS_assetsHostName" value="http://www1.macys.com"/>
+<input type="hidden" id="MACYS_imageHostName" value="http://slimages.macys.com/is/image/MCY"/>
+<div id="doc3">
+<script type="text/javascript" src="//libs.coremetrics.com/v4.18.106/eluminate.js" ></script>
+<script type="text/javascript" src="http://www1.macys.com/web20/assets/script/coremetrics/cmcustom.js" ></script> 
+<script type="text/javascript" src="http://www1.macys.com/web20/assets/script/macys/base/cmFunctions.js"></script> 
+<script xmlns:c="http://java.sun.com/jstl/core" type="text/javascript" language="JavaScript">
+cmSetClientID("90067660",false,"www3.macys.com","macys.com");
+var pageViewExploreAttributes = "-_--_--_--_--_--_--_--_--_--_--_--_--_--_-";
+var countryName	= getCookie("shippingCountry");
+if(countryName && countryName != 'US'){
+countryName = 'International_'+countryName;
+pageViewExploreAttributes += countryName;
+}
+cmCreatePageviewTag(	
+"Store Hours (st-xx-xx-xx.storehours)",
+"st-xx-xx-xx.storehours",
+"","",
+getMMCVendor(),
+getMMCCategory(),
+getMMCPlacement(),
+getMMCItem(),
+getLinkShareID(),
+thisUser.getMachID(),
+getReferrerURL(),	
+pageViewExploreAttributes
+);
+</script>
+<div class="errorTrackingPixel" id="errorTrackingPixel"></div>
+<a name="top"></a>
+<div class="popupContainer popupContainerIni">
+<div class="popupBanner popupBannerIni"></div>
+<div class="popupContent popupContentIni">
+<table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0" class="popupTable">
+<tr>
+<td valign="top" class="standard">
+<!-- BEGIN XML TABLE --><table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td valign="top">&nbsp;</td>
+</tr>
+<tr>
+<td class="tertiary" colspan="3" valign="top"><strong>
+MACY'S HERALD SQUARE&#xA0;&#xA0;STORE HOURS
+</strong></td>
+</tr>
+<tr>
+<td valign="top"><img src="http://www1.macys.com/img/campaign/hDayCutoffs/spacer.gif" width="1" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td class="">
+Monday,
+January
+25:
+</td>
+<td class="" align="right">
+9:30AM&#xA0;-&#xA0;10:00PM
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="http://www1.macys.com/img/campaign/hDayCutoffs/spacer.gif" width="1" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td class="bg_light_gray">
+Tuesday,
+January
+26:
+</td>
+<td class="bg_light_gray" align="right">
+9:30AM&#xA0;-&#xA0;10:00PM
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="http://www1.macys.com/img/campaign/hDayCutoffs/spacer.gif" width="1" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td class="">
+Wednesday,
+January
+27:
+</td>
+<td class="" align="right">
+9:30AM&#xA0;-&#xA0;10:00PM
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="http://www1.macys.com/img/campaign/hDayCutoffs/spacer.gif" width="1" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td class="bg_light_gray">
+Thursday,
+January
+28:
+</td>
+<td class="bg_light_gray" align="right">
+9:30AM&#xA0;-&#xA0;10:00PM
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="http://www1.macys.com/img/campaign/hDayCutoffs/spacer.gif" width="1" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td class="">
+Friday,
+January
+29:
+</td>
+<td class="" align="right">
+9:30AM&#xA0;-&#xA0;10:00PM
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="http://www1.macys.com/img/campaign/hDayCutoffs/spacer.gif" width="1" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td class="bg_light_gray">
+Saturday,
+January
+30:
+</td>
+<td class="bg_light_gray" align="right">
+10:00AM&#xA0;-&#xA0;10:00PM
+</td>
+</tr>
+<tr>
+<td valign="top"><img src="http://www1.macys.com/img/campaign/hDayCutoffs/spacer.gif" width="1" height="10" alt="" border="0"></td>
+</tr>
+<tr>
+<td class="">
+Sunday,
+January
+31:
+</td>
+<td class="" align="right">
+11:00AM&#xA0;-&#xA0;9:00PM
+</td>
+</tr>
+</table><!-- END XML TABLE --></td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<br>
+<div style="display: block; margin: 15px 8px 0 0; clear: both; " align="right">
+<a style="font-family: ; font-size: 9px; line-height: 12px; color: #666666" href="javascript:self.close();">close</a>&nbsp;<a href="javascript:self.close();"><img style="margin-bottom: 5px;" border="0" align="middle" alt="close this window." src="http://www1.macys.com/img/misc/close_sqr.gif"></a>
+</div>
+<div style="clear:both;"></div>
+</div>
+</div>
+<noscript>
+<iframe src="//s.thebrighttag.com/iframe?c=YQClrLy" width="1" height="1" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+</noscript>
+<script>
+MACYS.namespace("brightTag");
+var keywordSearch = MACYS.util.Url.getParameter('Keyword');
+if(keywordSearch == null){
+keywordSearch="";
+}
+else {
+keywordSearch=keywordSearch.replace(/([+])/g, " ");
+}
+var navigation = {"pageName" : "Store Hours(st-xx-xx-xx.storehours) ",
+"pageID" : "st-xx-xx-xx.storehours",
+"registryMode" :"No"
+};
+navigation.keywordSearch = ""+keywordSearch; 
+MACYS.brightTag = {"navigation": navigation};	
+</script>
+</body>
+<!--
+Pagecode: st-xx-xx-xx.storehours
+Secure: false
+Request URI: /store/storehours.jsp
+Server Physical Name: ma100mlvwas001Node_A
+Server Clone Name: macys_A_c01_s001_m04
+JSP Page Encoding: ISO-8859-1
+-->
+</html>

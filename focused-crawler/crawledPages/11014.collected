@@ -1,0 +1,1042 @@
+title=Logitravel App for travelling for iOS, iPhone, iPad
+url=http://www.logitravel.co.uk/apps/
+html=
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="EN" lang="EN" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<title>Logitravel App for travelling for iOS, iPhone, iPad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="description" content="Now with the new Logitravel App you have access to all the flights, hotels, trains, ferries and cars in the palm of your hand. Logitravel, the whole world in your hands!" />
+<meta name="keywords" content="logitravel, app, apple, iphone, ios, ipad, application, download, ipod touch" />
+<meta name="title" content="Logitravel App for travelling for iOS, iPhone, iPad" />
+<meta http-equiv="title" content="Logitravel App for travelling for iOS, iPhone, iPad" />
+<meta property="fb:admins" content="100002031649350" />
+
+<meta property="fb:app_id" content="" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Expires" content="never" />
+<meta name="google" content="notranslate" />
+    <meta name="robots" content="index,follow" />
+
+<meta name='apple-itunes-app' content='app-id=820411473, affiliate-data=at=10lJDC&ct=SmartAppBanner&pt=492790, app-argument=logitravel://home/?sesion=' /><meta name='google-play-app' content='app-id=com.logitravel.logitravel' />
+
+
+<link rel="shortcut icon" href="http://cdn.logitravel.co.uk/logitraveluk/images/favicon.ico">
+<!--[if lt IE 9]>
+    <script src="http://cdn.logitravel.co.uk/responsive/common/js/common/html5.js"></script>
+<![endif]-->
+<!-- Google Fonts -->
+
+    <link href="http://cdn.logitravel.co.uk/responsive/assets/css/app/fonts.css?301120151333" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.co.uk/responsive/assets/css/app/vendors.css?010620151748" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.co.uk/responsive/assets/css/logitravel/main.css?220120160924" rel="stylesheet" type="text/css" />
+<!--[if lt IE 10]><link href="http://cdn.logitravel.co.uk/responsive/assets/css/logitravel/ie-9-main.css?141020150938" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.co.uk/responsive/assets/css/logitravel/en.css?160920150955" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]><link href="http://cdn.logitravel.co.uk/responsive/common/css/bootstrap/ie-non-responsive.css?031220131704" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 9]><link href="http://cdn.logitravel.co.uk/responsive/logitraveluk/css/style-ie-8.css?121220141054" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.co.uk/responsive/logitraveluk/css/app/app.css?310320141638" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.co.uk/responsive/logitraveluk/css/app/app-responsive.css?310320141638" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.co.uk/responsive/logitraveluk/css/owl.carousel.min.css?070120151601" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <script type="text/javascript">
+    var setCookie = function (cookieName, cookieValue, nDays) {
+        var today = new Date();
+        var expire = new Date();
+        if (nDays == null || nDays == 0) nDays = 1;
+        expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+        document.cookie = cookieName + '=' + cookieValue + ';expires=' + expire.toGMTString() + ';path=/';
+    }
+    var getCookie = function (name) {
+        var c_value = document.cookie
+        var c_start = c_value.indexOf(" " + name + "=");
+        if (c_start == -1) {
+            c_start = c_value.indexOf(name + "=");
+        }
+        if (c_start == -1) {
+            c_value = null;
+        } else {
+            c_start = c_value.indexOf("=", c_start) + 1;
+            var c_end = c_value.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = c_value.length;
+            }
+            c_value = (c_value.substring(c_start, c_end));
+        }
+        return c_value;
+    }
+    function enviapintado(idpixel, ok) {
+        $.ajax({
+            url: urlCierre + '/estadoPixel.ashx',
+            data: { codPixel: idpixel, estado: ok },
+            async: true
+        });
+    }
+
+</script>
+
+<script type="text/javascript">
+dataLayer=[{
+		product_id: "", //ID del producto. Formato estandarizado: linea de negocio + codigo de producto
+		productName: "", //Nombre del producto
+		productURL: "", //Url del producto
+		productImgURL: "", //Imagen del producto
+		productDesc: "#productDesc#", //Descripcion del producto
+		productTypeName: "home", //Tipo de producto. Formato estandarizado por linea de negocio
+		categoryItem1: "", //Primer item para categorizar
+		categoryItem2: "", //Segundo item para categorizar
+		categoryItem3: "", //Tercer item para categorizar
+		categoryItem4: "", //Cuarto item para categorizar
+		categoryItem5: "", //Quinto item para categorizar
+		categoryName: "home", //Linea de negocio estandarizada
+		pageTypeName: "home", //Nombre de la pagina en el flujo de venta (estandarizado)
+		pageName: "EN/apps", //Nombre semantico de la pagina Formato Google Analytics
+		webCode: "logitraveluk", //Codigo de aplicacion web
+		anuncio: "35921036", // Codigo de anuncio (interno)
+		userCode: "32557956407", //Codigo de usuario (interno)
+		customerID: "", //Codigo de cliente (interno)
+		localizador: "", //Localizador de la reserva (interno)
+		totalAmount: "0.00", //Precio con decimales y punto
+		currency: "", //Moneda de venta
+		revenue: "0.00", //Beneficio de la reserva con decimales y punto
+		numPeople: "0", //Suma del total de pasajeros
+		numAdults: "0", //No adultos
+		numKids: "0", //No ninos (no bebes)
+		numInfants: "0", //No bebes
+		numRooms: "0", //No habitaciones
+		productCity: "", //Ciudad del producto
+		productZone: "", //Zona del producto
+		productCountry: "", //Pais del producto
+		codDeparture: "", //Codigo de origen (aeropuerto/tren/puerto)
+		codArrival: "", //Codigo de destino (aeropuerto/tren/puerto)
+		checkInDMY: "01/01/0001", //Fecha inicio formato DD/MM/YYYY
+		checkOutDMY: "01/01/0001", //Fecha fin formato DD/MM/YYYY
+		numNights: "0", //No de noches
+		tduid: "", //Identificador partner Treadedoubler
+		tduid2: "", //Identificador partner Tradedoubler2
+		partnerID: "", //Identificador partner Zanox
+		externalID: "", //Identificador externaldID
+		ReviewStr: "name%3dlogitravelIT%26email%3djose.miguel%40logitravel.com", //Sring de verificacion
+		checksum: "v04c4ca4238a0b923820dcc509a6f75849b", //String para validacion TradeDoubler
+		deviceType: "desktop",
+		MD5Email: ""
+	}];
+</script>
+
+
+        <header class="header clearfix hidden-retina newHeader" id="newHeader">
+        <div class="container">
+    <section class="header-top">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-xl-3">
+                <div class="logo contEllipsis">
+                    <a href="http://www.logitravel.co.uk/" title="Logitravel"><img src="http://cdn.logitravel.co.uk/logitraveluk/images/permanentes/logo_positivo@2x.png" alt="Holidays" /></a>
+                    <h1 class="hidden-phone">Logitravel App for travelling for iOS, iPhone, iPad</h1>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-8 col-xl-9">
+
+<div id="buscadorDesktop" class="buscadorDesktop boton-header condensed ">
+    <label class="caption" for="textoIrA"></label>
+    <input type="text" 
+           aria-haspopup="true" 
+           aria-autocomplete="list" 
+           role="textbox" 
+           autocomplete="off" 
+           class="textoIrACab ui-autocomplete-input ac_input"
+           id="textoIrA" 
+           name="textoIrA" 
+           value="Go to...." 
+           onfocus="if ($(this).val() == 'Go to....') $(this).val('');"
+           onblur="if ($(this).val() == '') { $(this).val('Go to....'); $('#buscar').hide(); }">
+    <div class="styled-select">
+        <span class="selectorBuscador" id="selectorBuscador"></span>
+        <select id="selectLinea">
+            <option value="IRA0">All holidays</option>
+            <option value="IRA8">Hotels</option>
+            <option value="IRA12">Flights</option>
+            <option value="IRA1">Holidays</option>
+            <option value="IRA13">Car Hire</option>
+        </select>
+    </div>
+</div>
+                        <div id="botonOrigenes" class="selectOrigen boton-header">
+                    <a href="#" data-toggle="modal">
+                        <span class="label-origen">Departure</span>
+                        <strong class="origen" id="originCity">London </strong>
+                    </a>
+                </div>
+
+                
+
+
+<div class="boton-header lastSearches">
+    <span id="LoadLastSearches">Searches</span>
+    <div class="dropdown">
+        <div class="infoLastSearches">
+            <h3>Latest searches</h3>
+            <p>We save the last searches performed on the website so you can continue where you left it</p>
+            <a href="/contents/LastSearch/Index" target="_parent">See all searches</a>           
+        </div>
+        <div class="listLastSearches" id="listLastSearches">
+            <div id="waitHomeLastSearch" class="loader-ajax unbordered searches"><span>Loading your searches</span></div>
+        </div>
+    </div>
+</div>                <div id="userSesion" class="userSesion boton-header" data-message-call="False">
+        <span id="enlaceIniSesion" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+            <strong>My Account</strong>
+        </span>
+    <ul id="user-menu" class="user-menu dropdown-menu">
+        <li>
+            <a id="enlacePerfil" class="enlacePerfil listedLink">
+                <i class="ico-user ico-lg"></i><span id="usuario" class="user">Login</span>
+            </a>
+        </li>
+        <li>
+            <div class="separadorBottom"></div>
+            <a id="enlaceMensajes" class="enlaceMensajes">
+                <i class="icon-envelope icon-lg fa fa-envelope fa-lg"></i>
+                <span class="numMensajes" id="numMsg">0</span>Messages
+            </a>
+        </li>
+
+        <li>
+            <a class="enlaceMisReservas">
+                <i class="icon-suitcase icon-lg fa fa-suitcase fa-lg"></i>My Bookings
+            </a>
+        </li>
+            <li>
+                <div class="separadorBottom"></div>
+                <a class="enlaceContacto listedLink" href="http://www.logitravel.co.uk/contact-us/">
+                    <span class="visible">Contact us</span>
+                    <i class="fa fa-phone fa-lg"></i>
+                    <span class="phoneNumber">0333 336 5428</span>
+                </a>
+            </li>
+    </ul>
+
+</div>
+
+                
+                
+    <div id="contactUs" class="contactUs boton-header">
+        <a class="phoneNum markerToolTip" data-phone="0333 336 5428" href="http://www.logitravel.co.uk/contact-us/" data-original-title="&lt;span class=&#39;title&#39;&gt;Need help?&lt;/span&gt;&lt;p&gt;Customer service opening times are Monday to Friday from 09:00h to 19:00h and Saturdays from 09.30h to 13.30h. Closed on Sundays and Bank holidays. Calls from a landline or mobiles are charged the national standard rate plus any network charges if applicable.&lt;/p&gt;" data-placement="bottom">0333 336 5428</a>
+    </div> 
+
+
+                
+                
+
+    <div id="certificados" class="certificados uk">
+            <a class="travelLogo markerToolTip visible-lg" data-original-title="&lt;span class=&#39;title&#39;&gt;Travel with confidence&lt;/span&gt; &lt;p&gt;Logitravel are full ABTA members (ABTA P6643). Travel with confidence and book your holiday, safe in the knowledge that you are ABTA protected.&lt;/p&gt;" data-placement="bottom" target="_blank" href="http://abta.com/">
+                <img class="lazy abta" alt="abta" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/logitraveluk/images2012/home/img_abta.png" />
+            </a>
+        <a class="travelLogo markerToolTip visible-lg" data-original-title="&lt;span class=&#39;title&#39;&gt;Pack Peace of Mind&lt;/span&gt; &lt;p&gt;Many of the flights and flight-inclusive holidays on this website are financially protected by the ATOL scheme. But ATOL protection does not apply to all holiday and travel services listed on this website. Please ask us to confirm what protection may apply to your booking. If you do not receive an ATOL Certificate then the booking will not be ATOL protected. If you do receive an ATOL Certificate but all the parts of your holiday are not listed on it, those parts will not be ATOL protected. Please see our booking conditions for information, or for more information about financial protection and the ATOL Certificate click on Atol Logo.&lt;/p&gt;" data-placement="bottom" target="_blank" href="http://www.packpeaceofmind.co.uk/">
+            <img class="lazy atol" alt="atol" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/logitraveluk/images2012/home/img_Atol.png" />
+        </a>
+    </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+        <nav class="navegacion hidden-phone hidden-xs">
+    <div class="container">
+        <ul class="nav navPrincipal">
+                            <li class="">
+                    <a title="Cheap Hotels"
+                       href="http://www.logitravel.co.uk/hotels/"  data-menu-track="hoteles">
+                        Hotels
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Cheap Cruises"
+                       href="http://www.logitravel.co.uk/cruises/"  data-menu-track="cruceros">
+                        Cruises
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Cheap Flights"
+                       href="http://www.logitravel.co.uk/flights/"  data-menu-track="vuelos">
+                        Flights
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Cheap Holidays"
+                       href="http://www.logitravel.co.uk/holidays/"  data-menu-track="paquetes">
+                        Holidays
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Car Hire"
+                       href="http://www.logitravel.co.uk/cars/"  data-menu-track="coches">
+                        Car Hire
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Viajes PortAventura"
+                       href="http://www.logitravel.co.uk/portaventura/"  data-menu-track="portaventura">
+                        PortAventura
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Holiday Deals"
+                       href="http://www.logitravel.co.uk/deals/"  data-menu-track="chollos">
+                        Deals
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="UK Trains"
+                       href="http://www.logitravel.co.uk/trains/"  data-menu-track="trenes">
+                        Trains
+
+                    </a>
+                </li>
+                
+        </ul>
+        
+    </div>
+</nav>
+    </header>
+    
+<header id="mobile-header" class="mobile-header visible-retina">
+    <div id="btn-mobile" class="btn-mobile prueba"><i class="icon-reorder fa fa-reorder fa-bars"></i></div>
+    <div class="logo">
+        <a href="http://www.logitravel.co.uk" title="Logitravel">
+            <img src="http://cdn.logitravel.co.uk/logitraveluk/images/permanentes/logo_negativo@2x.png" alt="Holidays"/>
+        </a>
+    </div>
+
+    
+    <a id="btn-phoneMobile" class="btn-phoneMobile visible-xs" title="Call" href="tel:03333365428"><i class="icon-phone fa fa-phone"></i></a>
+   
+    
+    <div id="btn-buscadorMobile" class="btn-buscadorMobile hidden-xs"><i class="icon-search fa fa-search"></i></div>
+    <div id="buscadorMobile" class="buscadorMobile scrollableSearch input-group">
+        <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" class="textoIrACabMobile m-0" id="textoIrAMobile" name="textoIrA"
+                value="Destination, city, hotel..." 
+               onfocus="if ($(this).val() == 'Destination, city, hotel...') $(this).val('');"
+                onblur="if ($(this).val() == '') { $(this).val('Destination, city, hotel...'); $('#buscar').hide(); }">
+        <a id="clearSearch" class="input-group-addon transparent mr-10 mt-10 mt-xs-5">
+            <i class="icon-times icon-2x fa fa-times fa-2x"></i>
+        </a>
+    </div>
+</header>
+
+<div id="mobile-menu" class="mobile-menu visible-retina scrollable">
+    <div class="phoneMenuSection user-mobile-menu">
+        <div class="seccionMenuPhone">Profile</div>
+            <div class="enlacePerfil" id="enlacePerfilMobile" data-toggle=" collapse" data-target="#user-details" data-parent=".user-mobile-menu">
+                <i class="ico-user ico-lg user-photo"></i>
+                <div class="user-info contellipsis"><span class="ellipsis"><strong class="user">Login</strong></span></div>
+            </div>
+        
+        
+    </div>
+    <div class="phoneMenuSection originMenu selectOrigen">
+        <div class="seccionMenuPhone">
+            Departure
+        </div>
+        <ul class="nav mb-0">
+            <li><a href="#" data-toggle="modal"><i class="icon-plane icon-lg fa fa-plane fa-lg"></i>London </a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection masterMenu">
+        <div class="seccionMenuPhone">
+            Book now...
+        </div>
+        <ul class="nav mb-0">
+                <li><a href="http://www.logitravel.co.uk/portaventura/"  data-menu-track="portaventura" ><i class="ico-portAventura"></i>PortAventura</a></li>
+                <li><a href="http://www.logitravel.co.uk/holidays/"  data-menu-track="paquetes" ><i class="ico-maleta"></i>Holidays</a></li>
+                <li><a href="http://www.logitravel.co.uk/hotels/"  data-menu-track="hoteles" ><i class="ico-hotel"></i>Hotels</a></li>
+                <li><a href="http://www.logitravel.co.uk/flights/"  data-menu-track="vuelos" ><i class="ico-vuelo"></i>Flights</a></li>
+                <li><a href="http://www.logitravel.co.uk/cruises/"  data-menu-track="cruceros" ><i class="ico-crucero"></i>Cruises</a></li>
+                <li><a href="http://www.logitravel.co.uk/trains/"  data-menu-track="trenes" ><i class=""></i>Trains</a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection soporteMenu">
+        <div class="seccionMenuPhone">
+            Support.....
+        </div>
+        <ul class="nav mb-0">
+            <li class="llamada visible-xs visible-sm">
+                <a id="llamar" href="tel:03333365428" title="Call" class="boton boton-peque boton-azul pt-7 mt-3">
+                    <i class="icon-phone icon-lg fa fa-phone fa-lg blanco mr-5"></i>
+                    03333365428</a>
+            </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection socialMenu">
+        <div class="seccionMenuPhone">
+           Social......
+        </div>
+        <ul class="nav mb-0">
+                        <li>
+                            <a href="https://www.facebook.com/Logitraveluk" title="Logitravel on  Facebook " target="_blank"
+                               class="facebook">
+                                <span class="icon-facebook fa fa-facebook"></span>Facebook
+                            </a>
+                        </li>
+                    <li>
+                        <a href="https://plus.google.com/+LogitravelCoUk" title="Logitravel on  Google+ " target="_blank"
+                           class="google">
+                            <span class="icon-google-plus fa fa-google-plus"></span>Google+
+                        </a>
+                    </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection paisMenu">
+        <div class="seccionMenuPhone">Change country.....</div>
+        <div id="cambioPais" class="enlaceIdioma collapsed" data-toggle="collapse" data-target="#user-idioma" data-parent=".paisMenu">
+            <span class="flagEN ml-10 mt-5 mr-20"></span>United Kingdom
+        </div>
+        <ul id="user-idioma" class="user-idioma collapse">
+                <li><a href="http://www.logitravel.com">
+                        <span class="flagES mt-15 ml-5 mr-20"></span>Spain
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.pt">
+                        <span class="flagPT mt-15 ml-5 mr-20"></span>Portugal
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.it">
+                        <span class="flagIT mt-15 ml-5 mr-20"></span>Italy
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.de">
+                        <span class="flagDE mt-15 ml-5 mr-20"></span>Germany
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.com.br">
+                        <span class="flagBR mt-15 ml-5 mr-20"></span>Brazil
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.fr">
+                        <span class="flagFR mt-15 ml-5 mr-20"></span>France
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.fi">
+                        <span class="flagFI mt-15 ml-5 mr-20"></span>Finland
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+    
+    
+
+    
+<div class="contenido p-0">
+    <!-- Presentacion Aplicacion -->
+    <div id="presentacion" class="presentacion bg-grisPalido pt-sm-50 mt-sm-10 pt-xs-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-0">
+                    <!-- Descripcion Principal -->
+                    <article class="descripcion text-center-sm text-center-xs mt-50 mt-sm-40 mt-xs-0 mb-sm-20 mb-xs-50 ph-lg-30 ph-xs-25">
+                        <h2>New Logitravel App</h2>
+                        <p class="txtGrande normal x3 mb-25">
+							Now with the new Logitravel App you have access to all the flights, hotels, trains, ferries and cars in the palm of your hand. Logitravel, the whole world in your hands!
+                        </p>
+    
+						<div class="row row-narrow">
+							<div class="col-xxs-12 col-xs-7 col-sm-7 col-md-7 mb-xs-10">
+                                <a class="top-download pv-12" href="https://geo.itunes.apple.com/EN/app/logitravel/id820411473?mt=8&amp;at=10lJDC&amp;ls=1&amp;pt=492790&amp;ct=LandingApps" data-app-menu-track="AppStore" >
+                                    <img src="http://cdn.logitravel.co.uk/comun/images/moviles/badges/appstore/appstore_en.png" alt="Logitravel App Store Download" />
+                                    <!--<i class="fa fa-apple fa-2x blanco shadow-black mr-10"></i><span class="titulo blanco shadow-black">App Store</span>-->
+                                </a>
+							</div>
+							<div class="col-xxs-12 col-xs-5 col-sm-5 col-md-5 mb-xs-10">
+                                <a class="top-download pv-12" href="https://play.google.com/store/apps/details?id=com.logitravel.logitravel&amp;referrer=utm_source=logitravel&amp;utm_medium=landing&amp;utm_campaign=LandingApps" data-app-menu-track="GooglePlay" >
+                                    <img src="http://cdn.logitravel.co.uk/comun/images/moviles/badges/playstore/googleplay_en.png" alt="Logitravel Play Store Download" />
+                                    <!--<i class="fa fa-android fa-2x blanco shadow-black mr-10"></i><span class="subtitulo blanco shadow-black">Google Play</span>-->
+                                </a>
+							</div>
+						</div>
+
+                    </article>
+                </div>
+
+                    
+                <div class="col-xxs-12 col-xs-10 col-xs-offset-2 col-sm-7 col-sm-offset-4 col-md-5 col-md-offset-0 col-lg-4">
+                    <div class="phone-holder relative" id="phone-holder">
+                        <figure>
+                            <img class="lazy" alt="#" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/comun/images/moviles/phone-in-hand.png" />
+							<noscript><img alt="#" src="http://cdn.logitravel.co.uk/comun/images/moviles/phone-in-hand.png"></noscript>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hightlights -->
+    <section id="hightlights" class="hightlights bg-normal pv-50 text-center">
+        <div class="container">
+            <figure>
+				<img class="lazy" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/comun/images/moviles/icoApp2014.png" alt="App Logitravel" />
+            </figure>
+            <h1 class="blanco shadow-black mt-0 mb-30">Your holidays in the palm of your hand</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Search</span>
+						<p class="blanco shadow-black txtGrande x2">The best offers within reach, in the palm of your hand</p>
+						<i class="fa fa-search fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Compare</span>
+						<p class="blanco shadow-black txtGrande x2">Because we have many options for each type of product</p>
+						<i class="fa fa-thumbs-o-up fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Book</span>
+						<p class="blanco shadow-black txtGrande x2">Book easily and comfortably from your own mobile phone</p>
+						<i class="fa ico-maleta fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Travel Guides</span>
+						<p class="blanco shadow-black txtGrande x2">Includes FREE travel guides for more than 350 destinations</p>
+						<i class="fa fa-book fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Share</span>
+						<p class="blanco shadow-black txtGrande x2">Share your holidays with your friends on Facebook and Twitter</p>
+						<i class="fa fa-share-square-o fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">All type of maps</span>
+						<p class="blanco shadow-black txtGrande x2">Find your destination on the map at any moment</p>
+						<i class="fa fa-globe fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Magic</span>
+						<p class="blanco shadow-black txtGrande x2">Show the best options of your position, just like magic</p>
+						<i class="fa fa-magic fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Notifications</span>
+						<p class="blanco shadow-black txtGrande x2">Receive notification about your bookings and the best offers</p>
+						<i class="fa fa-bell fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Calendars</span>
+						<p class="blanco shadow-black txtGrande x2">Add the dates of your holidays automatically to your calendar</p>
+						<i class="fa fa-calendar fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Lineas de Negocio -->
+    <div class="lineasNegocio pv-50 p-xs-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-3 col-md-offset-1 hidden-xs">
+                    <div class="module carouselPantallas relative">
+                        <!-- Phone Mockup -->
+                        <div class="cont-phone">
+                            <img class="img-responsive" id="phone-mockup" src="http://cdn.logitravel.co.uk/comun/images/moviles/phone-mockup.png" alt="iPhone Mockup" />
+                        </div>
+                        <!-- Carousel de Pantallas -->
+                        <div class="cont-owl-extra">
+                            <div class="cont-owl relative hidden-xs">
+					            <div class="loading-owl height400 text-center">
+						            <i class="fa fa-spinner fa-spin colorPrincipal fa-3x"></i> 
+					            </div>
+                                <div id="carouselPantallas" class="owl-carousel owl-theme no-pagination" data-items="1-1-1-1-1">
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/comun/images/moviles/pantalla-vuelos.png" alt="Flights with discounts" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/comun/images/moviles/pantalla-hotel.jpg" alt="The cheapest hotels" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/comun/images/moviles/pantalla-cruceros.png" alt="All Cruises" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/comun/images/moviles/pantalla-trenes.png" alt="Immediate train tickets " />
+                                        </div>
+                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="text-center mb-20 visible-xs">
+                        <img class="lazy" alt="#" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://placehold.it/390x620" />
+						<noscript><img alt="#" src="http://placehold.it/390x620"></noscript>
+                    </figure>
+                </div>
+                <div class="col-sm-7 col-md-5 col-md-offset-2 col-lg-6">
+                    <div class="panel-group pv-10" id="accordionProducts">
+
+                            <div id="product-1" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-1"><i class="ico-vuelo ico-lg valignMiddle mr-15 pb-3"></i>Flights with discounts</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-1" class="panel-collapse collapse in">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">As well as having all the conventional airlines:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>We have all the LOWCOST companies</li>
+                                                <li><i class="fa fa-li fa-check success"></i>We compare them all and show you the best prices.</li>
+                                                <li><i class="fa fa-li fa-check success"></i>We apply the resident discount</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-2" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-2"><i class="ico-hotel ico-lg valignMiddle mr-15 pb-3"></i>The cheapest hotels</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-2" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">As well as having the cheapest hotels, we have unique promotions in most of the selected hotels:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Pay now only a part and the rest when you travel.</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Children free.</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Without cancellation costs</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-3" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-3"><i class="ico-vuelo ico-lg valignMiddle mr-15 pb-3"></i>All Cruises</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-3" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">ALL THE CRUISES in the World in your hand!</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>More than 5.500 Cruises</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Beat price guaranteed</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Promotions and exclusive Logitravel discounts</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Contact our team of specialized agents for FREE</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-4" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-4"><i class="ico-tren ico-lg valignMiddle mr-15 pb-3"></i>Immediate train tickets </a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-4" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">We show you the quickest and easiest way to book train tickets:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>In only two steps.</li>
+                                                <li><i class="fa fa-li fa-check success"></i>You can use your discount cards.</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Receive your electronic ticket on your mobile telephone</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Datos numéricos -->
+	<div id="numeros" class="numeros bg-debil pv-30 mt-25 text-center">
+		<div class="container">
+            <div class="row row-narrow">
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-apple fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+721K</span>
+                        <p class="normal txtGrande x2">iOS downloads</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-android fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+91K</span>
+                        <p class="normal txtGrande x2">Android downloads</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-user fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">9M</span>
+                        <p class="normal txtGrande x2">clients</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-star-o fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+690</span>
+                        <p class="normal txtGrande x2">ratings</p>
+                    </div>
+                    </div>                         
+            </div>
+        </div>
+	</div>
+
+	<!-- Enviar enlace -->
+	<section id="enviarEnlace" class="enviarEnlace text-center">
+		<div class="container">
+			<h3 class="titulo x2 likeHtag mb-20">We&#39;ll send you the link to your mobile!</h3>
+			<div class="row">
+				<form id="signup" role="form" class="form-inline">
+					<div class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-5 mt-5">
+						<label for="NewsletterEmail" class="sr-only">E-mail</label>
+						<input type="email" placeholder="e-mail address" id="NewsletterEmail" class="form-control p-0 large">
+					</div>
+					<div class="col-xxs-12 col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                        <a id="btnEnviarEnlace" class="btn btn-default btn-block pv-12" data-app-menu-track="SendMail"><span class="subtitulo blanco shadow-black">Send</span></a>
+					</div>
+                    <div id="legalInfoMsgNewsletterEmail" style="font-size:115%;" class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-10">By sending this form, I accept I have read the <a href="http://cdn.logitravel.co.uk/logitraveluk/htm/en/legalNotice.htm" target="_blank">legal</a> and the <a href="http://cdn.logitravel.co.uk/logitraveluk/htm/en/privacidad.htm" target="_blank">privacy policy</a> of the website.</div>
+                    <div id="msgTextNewsletterEmail" class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-10"></div>
+				</form>
+			</div>	
+		</div>
+	</section>
+
+	<!-- Botones sociales -->
+	<div class="btnSociales">
+        <a title="Compartir en Google Plus" href="https://plus.google.com/share?url=http://www.logitravel.co.uk/apps" target="_blank" data-app-menu-track="GooglePlus" ><i class="fa fa-google-plus-square fa-3x"></i></a>
+        <a title="Compartir en Twitter" href="http://twitter.com/home?status=Travel an easier way with the new Logitravel app http://www.logitravel.co.uk/apps" target="_blank" data-app-menu-track="Twitter" ><i class="fa fa-twitter-square fa-3x"></i></a>
+        <a title="Compartir en Facebook" href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=http%3a%2f%2fwww.logitravel.co.uk%2fapps&amp;p[images][0]=http%3a%2f%2fcdn.logitravel.co.uk%2fcomun%2fimages%2fmoviles%2fphone-in-hand.png&amp;p[title]=New+Logitravel+App&amp;p[summary]=Travel+an+easier+way+with+the+new+Logitravel+app" target="_blank" data-app-menu-track="Facebook" ><i class="fa fa-facebook-square fa-3x"></i></a>
+    </div>
+</div>
+
+
+<!-- MODAL REMOTE -->
+<div class="modal fade lg" id="modalRemote" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+				<span class="titularDestacado" id="titleModal"></span>
+			</div>
+			<div class="modal-body bg-grisFondo"></div>
+            <div class="modal-footer">
+				<button id="#" data-dismiss="modal" class="btn btn-success pull-right" type="button">Close</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    
+<div class="modal fade lg" id="playVideo" tabindex="-1" data-keyboard="true"  role="dialog" aria-labelledby="addFlightModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body p-0">
+				<div class="flex-video vimeo">
+						<iframe allowfullscreen="" src="//www.youtube.com/embed/PVxWJe6iVgw" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<button id="goTo" class="hidden"></button>
+
+
+
+    <div class="modal modal-home fade xlg " id="modalRemoteLogin" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-login" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Go back
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-home fade xlg " id="modalRemoteGeo" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-principal" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Go back
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-home fade xlg " id="modalRemoteAirports" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal md fade full-width" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <div class="titularDestacado" id="titleModal"></div>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <span class="txtGrande normal visible text-left"><strong></strong> </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal lg fade" id="modal-createAnswhere" tabindex="-1" role="dialog" aria-labelledby="modal-createAnswhereLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                <h2 class="modal-title grisMedio" id="modal-FlightRatesLabel">Crea tu alerta</h2>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer class="condensed">
+    <div class="container">
+        <!-- Links -->
+                <div class="wrapperLinks hidden-xs hidden-phone">
+                        <h6>Information</h6>
+                    <ul class="linksInfo unstyled list-unstyled">
+                                <li>
+                                    <a href="http://cdn.logitravel.co.uk/logitraveluk/htm/en/legalNotice.htm" title="Legal Notice" target="_blank">Legal Notice</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.co.uk/logitraveluk/htm/en/privacyPolicy.htm" title="Privacy Policy" target="_blank">Privacy Policy</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.co.uk/logitraveluk/htm/en/security.htm" title="Security" target="_blank">Security</a>
+                                </li>
+                                <li>
+                                    <a href="/how-to-make-a-booking/general.aspx" title="How to make a booking" target="_blank">How to make a booking</a>
+                                </li>
+                                <li>
+                                    <a href="/frequently-asked-questions/" title="Frequently Asked Questions" target="_blank">Frequently Asked Questions</a>
+                                </li>
+                                <li>
+                                    <a href="/employment/" title="Employment" target="_blank">Employment</a>
+                                </li>
+                                <li>
+                                    <a href="/affiliate-program/home.aspx" title="Affiliate Program" target="_blank">Affiliate Program</a>
+                                </li>
+                                <li>
+                                    <a href="/apps/" title="Mobile App" target="_blank">Mobile App</a>
+                                </li>
+                                <li>
+                                    <a href="/about-us/home.aspx" title="About Us" target="_blank">About Us</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="wrapperInternacional hidden-xs hidden-phone">
+                        <h6>International</h6>
+                    <ul class="linksInternacional unstyled list-unstyled">
+                                <li>
+                                    <span class="flagES"></span>
+                                
+                                    <a href="http://www.logitravel.es" title="Spain" rel="nofollow" target="_blank">Spain</a>
+                                </li>
+                                <li>
+                                    <span class="flagPT"></span>
+                                
+                                    <a href="http://www.logitravel.pt" title="Portugal" rel="nofollow" target="_blank">Portugal</a>
+                                </li>
+                                <li>
+                                    <span class="flagIT"></span>
+                                
+                                    <a href="http://www.logitravel.it" title="Italy" rel="nofollow" target="_blank">Italy</a>
+                                </li>
+                                <li>
+                                    <span class="flagDE"></span>
+                                
+                                    <a href="http://www.logitravel.de" title="Germany" rel="nofollow" target="_blank">Germany</a>
+                                </li>
+                                <li>
+                                    <span class="flagBR"></span>
+                                
+                                    <a href="http://www.logitravel.com.br" title="Brazil" rel="nofollow" target="_blank">Brazil</a>
+                                </li>
+                                <li>
+                                    <span class="flagFR"></span>
+                                
+                                    <a href="http://www.logitravel.fr" title="France" rel="nofollow" target="_blank">France</a>
+                                </li>
+                                <li>
+                                    <span class="flagFI"></span>
+                                
+                                    <a href="http://www.logitravel.fi" title="Finland" rel="nofollow" target="_blank">Finland</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="legal">
+    <div class="copyRight">
+        <p>
+            Logitravel Ltd.
+- Online travel agency - All rights reserved        </p>
+    </div>
+</div>
+
+    </div>
+
+<div id="certificadosEN" class="hidden-phone hidden-xs">
+	<div class="container">
+
+
+		<div class="row-fluid row hidden-phone hidden-xs">
+																				</div>
+	</div>
+</div>
+    <div id="divPieVerif" class="divPieVerif hidden-phone hidden-xs hidden-sm hidden-tablet">
+        <!--POP-UP VERIFICACION VERISIGN -->
+        <img class="lazy" src="http://cdn.logitravel.co.uk/comun/images/shim.gif" data-original="http://cdn.logitravel.co.uk/logitraveluk/images2012/pieIconos.png"
+             alt="Footer" usemap="#Map_verisign" />
+        <map name="Map_verisign" id="Map_verisign">
+            <area shape="rect" coords="5,1,67,24" href="https://sealinfo.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=ssl.logitravel.co.uk&lang=en"
+                  target="_blank" alt="Thawte" />
+        </map>
+    </div>
+</footer>
+
+    <script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/jquery/jquery.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/jquery/jqueryui.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/bootstrap/bootstrap.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/bootstrap/bootstrap-dropdown-hover.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/jquery/jquery.lazyload.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/onerror.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/channels/applicationchannels.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/modalremote.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/bindings.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/visuals.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/cookies.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/tracking.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/geolocation.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/hacks/detectmobilebrowser.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/hacks/placeholders-ie-lt9.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://www.logitravel.co.uk/commoncomponents/globalsjs?application=logitraveluk"></script>
+<script type="text/javascript" language="javascript" src="http://autocomplete.logitravel.com/static/js/borg_jquery.js"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/topheader/gotopage.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/topheader/originselector.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/topheader/account.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/crossdomain.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/helpers/dynamicloader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/topheader/maintopheader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/topheader/menu.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/topheader/lastsearch.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/topheader/setlanguagecurrency.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/common/jquery/owl.carousel.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.co.uk/resources/javascript/mobile/appslanding/landing.js?020720151753" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var aplicacion='logitraveluk';
+var dominioCDN='http://cdn.logitravel.co.uk';
+var idioma='en';
+var _glPr='1';
+var geolocalizar=false;
+var urlCompletaAnu='http://www.logitravel.co.uk';
+var entradaMedioOk='';
+var newHeaderActive='1';
+var GlobalValue='http://www.logitravel.co.uk/operativalogi/';
+var toolfactory=toolfactory || {};
+toolfactory.Common=toolfactory.Common || {};
+toolfactory.Common.Helpers=toolfactory.Common.Helpers || {};
+toolfactory.Common.Helpers.Onerror=toolfactory.Common.Helpers.Onerror || {};
+toolfactory.Common.Helpers.Onerror.reportJavascriptEnabled=false;
+toolfactory.Common.Helpers.Onerror.reportControllerUrl='';
+
+var cookie='tokenlogitraveluk';
+var messageExpires=60000;
+var usuarioWebCookie='32557956407';
+var pathAccount='https://api.logitravel.com/account';
+var sessionCode='13a5c794-f576-4130-a713-8a9372a9b463';
+var sesion='13a5c794-f576-4130-a713-8a9372a9b463';
+var withoutMessages='You have no messages';
+var urlHTTPS='https://ssl.logitravel.co.uk';
+var litMessage='Messages';
+var litUnRead='not read';
+var litMessageFrom='Posts';
+var litMessageTo='to';
+var litAllMessages='See all my messages';
+var urlOperativa='http://www.logitravel.co.uk/operativaLogi';
+var litMisBusquedas='My last searches...';
+var SearchExpires='300000';
+var idioma='en';
+var USW_codigo='32557956407';
+var litSinBusqueda='No searches have been made';
+var litBuscando='Searching';
+var GoogleAnalytics='UA-39441590-1';
+
+
+var paramsAnuncio='';
+
+var sessionCode='13a5c794-f576-4130-a713-8a9372a9b463';
+appsLiterals=new Array();
+appsLiterals[0]='sending e-mail...';
+appsLiterals[1]='E-mail successfully sent';
+appsLiterals[2]='An error ocurred while sending the e-mail, please try again';
+var geolocalizar=false;
+
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,248 @@
+title=La Charbonnade
+url=http://lacharbonnade.com.br/
+html=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+   <head>
+   
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="description" content="La Charbonnade. Importadora e Adega de Vinhos. Canela, RS">
+<meta name="keywords" content="la charbonnade charbonade vinho vinhos tinto tintos branco brancos serra gaúcha gaucha canela gramado enoteva adega vinhedo vinhedos castelo chateau merlot cabernet">
+<meta name="robots" content="index,follow">
+<meta name="googlebot" content="index,follow">
+
+      <title>La Charbonnade</title>
+      <link rel="stylesheet" href="/css.php?folha=charbonnade" type="text/css">
+      <link rel="stylesheet" href="/css.php?folha=highslide" type="text/css">
+      <link rel="stylesheet" href="/css.php?folha=highslide_html" type="text/css">
+      <link rel="shortcut icon" href="/favicon.ico">
+      <!-- se for ie7 inclui css com correcoes do ie7 -->
+      <!--[if IE 7]>
+      <link rel="stylesheet" href="/css.php?folha=ie7" type="text/css">
+      <![endif]-->
+      <!-- se for ie8 inclui css com correcoes do ie8 -->
+      <!--[if IE 8]>
+      <link rel="stylesheet" href="/css.php?folha=ie7" type="text/css">
+      <![endif]-->
+      <script type="text/javascript" src="./altera/_javascript/jquery/jquery-1.2.6.pack.js"></script>		
+      <script type="text/javascript" src="./altera/_javascript/jquery-validate/jquery.validate.pack.js"></script>
+      <script type="text/javascript" src="./altera/_javascript/jquery-maskeditinput/jquery.maskeditinput-1.1.4.pack.js"></script>
+      <script type="text/javascript" src="/_javascript/funcoes.js"></script>
+      <script type="text/javascript" src="/_javascript/ajax.js"></script>
+      <script type="text/javascript" src="/_javascript/swfobject.js"></script>
+      <script type="text/javascript" src="/_javascript/highslide/highslide-with-html.packed.js"></script>
+      <script src="./_javascript/jquery-1.js" type="text/javascript"></script>
+	  <script src="./_javascript/jquery.js"   type="text/javascript"></script>
+	  <script src="./_javascript/lib.js"      type="text/javascript"></script>
+
+<script type="text/javascript">
+hs.graphicsDir = "./_javascript/highslide/graphics/";
+hs.showCredits = false;
+hs.restoreTitle = "Clique pra fechar ou segure e arraste a imagem para mover";
+hs.focusTitle = "Clique para trazê-la para frente";
+hs.loadingText = "Carregando...";
+hs.loadingTitle = "Cancelar";
+</script>
+
+<script type="text/javascript" src="/_javascript/cufon-yui.js"></script>
+<script type="text/javascript" src="/_javascript/teste_cufon.font.js"></script>		
+	  <script type="text/javascript">
+		  Cufon.replace('#barra ul li a');	  		  
+		  Cufon.replace('h1');	  	
+		  Cufon.replace('#ficha h2');
+	  </script>
+
+		
+<script type="text/javascript">
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+</script>
+<script type="text/javascript">
+var pageTracker = _gat._getTracker("UA-4813022-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+</script>
+
+</head>
+<body >
+
+	<div id="header">
+		<div id="header_left"><p>Das melhores videiras do<br>mundo para você.</p></div>
+		<div id="header_center"><a href="./?opcao=capa"><img src="/_imagens/logo_capa.gif" alt="logo"></a></div>
+		<div id="header_right">
+			<div id="header_busca">
+				<form name="formulario_busca" method="POST" action="./lista">
+				<input type="hidden" name="opcao" value="busca">
+					<span style="display: inline;"><input type="text" class="campo_busca" name="busca" value="Busca Rápida" onclick="javascript:this.value=''" style="font-family: Arial, sans-serif; font-weight: bold; font-size: 13px; color: #000; padding: 4px; background-color: #fff; border: 0;"></span>
+					<input type="submit" value="OK" style="color: #000; padding: 3px; background-color: #a38a9e; font-family: Arial, sans-serif; font-weight: bold; font-size: 14px; border: 0;">
+				</form>	
+			</div>
+			<div class="limpa"></div>
+		</div>
+			<div class="limpa"></div>
+			<div id="barra">
+			<ul>
+				<li><a href="/">HOME</a></li>
+				<li><a href="/importadora">A IMPORTADORA</a></li>
+				<li><a href="/adega">A ADEGA</a></li>
+				<li><a href="/produtos">PRODUTOS</a></li>
+				<li><a href="/blog">BLOG</a></li>				
+				<li><a href="/representantes">REPRESENTANTES</a></li>
+				<li><a href="/contato">LOCALIZAÇÃO/CONTATO</a></li>
+			</ul>			
+			</div>
+			
+		
+	</div>
+	<div id="header_linha"></div>
+		
+<div id="conteudo">
+
+	<div id="capa">
+	<div id="box_busca">
+		<h2>Encontre o seu vinho:</h2>
+		<form name="formulario_busca" method="POST" action="./lista">
+		<input type="hidden" name="opcao" value="frente">
+		<select name="cod_pa">
+	   		<option value="">Origem</option>
+	   	<option value=28></option><option value=27></option><option value=26></option><option value=25></option><option value=24></option><option value=23></option><option value=22></option><option value=21></option><option value=20></option><option value=19></option><option value=18></option><option value=17></option><option value=16></option><option value=3>Argentina</option><option value=1>Brasil</option><option value=6>Chile</option><option value=11>Portugal</option><option value=13>Uruguai</option>	    </select>
+	    
+	    <select name="cod_var">
+	   		<option value="">Varietal</option>	 
+        <option value=10>Blend / Assemblage</option><option value=11>Bonarda</option><option value=2>Cabernet Franc</option><option value=3>Cabernet Sauvignon</option><option value=17>Carignan</option><option value=4>Carmenere</option><option value=5>Chardonnay</option><option value=14>Corte</option><option value=16>Espumante/Champagne</option><option value=23>Gewurztraminer</option><option value=1>Malbec</option><option value=6>Merlot</option><option value=20>Petit Verdot</option><option value=22>Pinot Grigio</option><option value=8>Pinot Noir</option><option value=19>Riesling</option><option value=15>Rose</option><option value=12>Sauvignon Blanc</option><option value=18>Sauvignonasse / Sauvignon Vert / Tocai</option><option value=7>Shiraz / Syrah</option><option value=9>Tannat</option><option value=21>Tempranillo</option><option value=13>Torrontes</option>	    </select>
+	    <select name="cod_pr">
+	    <option value="">Produtor</option>	   		
+	    <option value=30>Aguma Casa Vinicola</option><option value=33>Alto de La Ballena Bodega</option><option value=9>Bodega Bressia</option><option value=25>Bodega Cavas Del 23</option><option value=13>Bodega Corvus</option><option value=14>Bodega Del Río Elorza</option><option value=29>Bodega Merced del Estero</option><option value=15>Bodega Miras</option><option value=11>Bodega Océano</option><option value=16>Bodega Palo Alto</option><option value=10>Bodega Patritti </option><option value=34>Bodega San Polo</option><option value=32>Bodega Secreto Patogonico</option><option value=6>Bodega Siete Fincas</option><option value=37>Bodegas RE</option><option value=20>Cabanas do Castanheiro</option><option value=7>Familia Blanco </option><option value=4>Familia Masera Giol</option><option value=8>Familia Mayol</option><option value=31>Finca Sierras Azules</option><option value=19>Herdade de Cadouços</option><option value=24>Quinta de Baldias</option><option value=21>Quinta do Espinho</option><option value=35>Starry Night Wineyard</option><option value=22>Trabun Wines</option><option value=5>Viña Bustamante</option><option value=17>Viña Casa Vergara</option><option value=27>Viña Catrala</option><option value=23>Viña Clos Andino</option><option value=18>Viña Meli</option><option value=26>Viña Montsecano</option><option value=36>Viña Rukumilla</option><option value=28>Viña Tremonte</option>		  </select>
+	   <!-- <a href="#"><img src="/_imagens/botao_busca.png"></a>-->
+	    <div align="right"><input type="image" src="/_imagens/botao_busca.png" style="margin-top: 1px;"></div>
+ 	</div>
+</div>
+
+<div style="float:left; width:580px;">
+<h1 class='gigante'>Lançamentos</h1>
+<div class='square'><div class='thumb'><img src='./altera/produto/_imagens/151_mini.jpg' alt='imagem_logo'></div><div class='square_content'><a href='/lista&codigo=151' class='nome'>Catrala Grand Reserve Merlot</a></div></div><div class='square'><div class='thumb'><img src='./altera/produto/_imagens/169_mini.jpg' alt='imagem_logo'></div><div class='square_content'><a href='/lista&codigo=169' class='nome'>Mil Vientos Malbec Criado em Barrica</a></div></div><div class='square'><div class='thumb'><img src='./altera/produto/_imagens/220_mini.jpg' alt='imagem_logo'></div><div class='square_content'><a href='/lista&codigo=220' class='nome'>Bodegas Renace</a></div></div><div class='square'><div class='thumb'><img src='./altera/produto/_imagens/221_mini.jpg' alt='imagem_logo'></div><div class='square_content'><a href='/lista&codigo=221' class='nome'>Sacrificio Gran Reserva Tinto</a></div></div><div class="limpa"></div>
+</div>
+
+
+<!-- inclusão dos artigos -->
+<div id="coluna_blog">
+<h1>Blog</h1>
+<a href='blog&codigo=10'>Vinhos Importados pela La Charbonnade, da Movi chilena por Jorge Lucki.</a><br><a href='blog&codigo=8'>Bressia e suas notas fantásticas!</a><br><a href='blog&codigo=9'>Mais notas da Bressia. Agora por Robert Parker.</a><br>
+
+
+	
+<div class="limpa"></div>
+</div>
+
+<div class="limpa"></div>
+
+
+
+
+
+
+
+
+
+	
+<!-- RODAPÉ -->
+		
+<div class='limpa'></div>
+<div class="separator" style='margin-top: 50px;'></div>
+
+<div align="center" style="margin-top: 50px;">
+	<img src="/_imagens/logo_capa.gif" alt="imagem_logo">
+</div>
+
+<div class="coluna" style="margin-right: 35px; width: 147px; ">
+	<img src="/_imagens/fachada.jpg" alt="imagem_logo">
+</div>
+
+<div class="coluna" style="margin-right: 87px;">
+<h1>Sobre nós</h1>
+<p>
+Nossa importadora (loja) esta localizada em uma das mais visitadas regiões turísticas do sul do Brasil, na serra gaúcha, cidade de Canela.
+<br><br>
+A La Charbonnade é pioneira no comércio de vinhos, empresa fundada no ano de 1987, com a intenção de fornecer hotéis e restaurantes da serra, foi a primeira distribuidora de vinhos da região das Hortênsias. A empresa cresceu e a partir do ano de 2007 tornou-se importadora. Assim, visando atender todo o mercado brasileiro, com importação de vinhos provenientes de empresas familiares, de produção limitada, vinícolas boutiques de enólogos renomados.
+</p>
+</div>
+
+<div class="coluna" style="margin-right: 87px;">
+<h1>Como comprar</h1>
+<p>
+Entre em contato conosco em nossa loja, por intermédio de nosso e-mail, pelo telefone ou através de nossos representantes e distribuidores.
+</p>
+<br><br><br><br>
+<h1>Conecte-se<br>conosco</h1>
+<p>Saiba mais sobre nossas novidades e promoções em nossas páginas no facebook e twitter:</p><br>
+
+<iframe src="http://www.facebook.com/plugins/like.php?href=http://www.lacharbonnade.com.br&layout=standard&show_faces=false&width=380&action=like&colorscheme=light&height=25&locale=pt_BR" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:25px; padding-top:5px;" allowTransparency="true"></iframe>
+<br><br>
+<a href="https://twitter.com/lacharbonnade" class="twitter-follow-button" data-show-count="false" data-show-screen-name="false">Follow @lacharbonnade</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+</div>
+
+<div class="coluna" style="margin-right: 0; width: 160px;">
+<h1>Endereço<br>Contato</h1>
+<p>
+La Charbonnade<br>
+Av. José L. Corrêa Pinto, 800<br>
+Acesso ao Laje de Pedra<br>
+Canela, RS - Brasil<br>
+<br>
+E-mail: <a href="mailto:atendimento@lacharbonnade.com.br" style="margin-top:0;">atendimento@<br>lacharbonnade.com.br</a><br>
+<br><br><br>
+Telefones:<br>
+(54) 3282.4313<br>
+(54) 3282.7820<br>
+(54) 3282.1488<br>
+
+</p>
+</div>
+		
+		
+	<div id="footer_interno">
+		<div class="limpa"></div>
+				<ul>
+				<li><a href="/">home</a></li>
+				<li><a href="/importadora">a importadora</a></li>
+				<li><a href="/adega">a adega</a></li>
+				<li><a href="/lista">produtos</a></li>
+				<li><a href="/blog">blog</a></li>				
+				<li><a href="/representantes">representantes</a></li>
+				<li class="ultimo"><a href="/contato">localização/contato</a></li>		
+				</ul>			
+		<div class="limpa"></div>
+		<div class="separator"></div>
+		<p>&copy; 2011 La Charbonnade. &copy; 2011 Website by ACIMA. Todos os direitos reservados.</p>
+	</div>
+
+</div>	
+
+<!-- 
+	  <div id="footer" align="center" style="position: fixed; width: 1680px; top: 805px;">
+		<div class='wrap'>
+		<ul>
+	        <li style='margin-bottom:5px;'><i>Conecte-se com a La Charbonnade:</i>
+	        </li>
+	        <li style='background:#c9b8c7; padding: 7px;'> 
+	        <iframe src="http://www.facebook.com/plugins/like.php?href=http://www.lacharbonnade.com.br&layout=standard&show_faces=false&width=380&action=like&colorscheme=light&height=25&locale=pt_BR" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:250px; height:25px; padding-top:5px;" allowTransparency="true"></iframe>
+			</li>
+			<li>			
+			<script src='http://platform.twitter.com/widgets.js' type='text/javascript'></script>
+			<a href='http://twitter.com/share' class='twitter-share-button'
+      		data-priority='3'
+      		data-url='http://www.lacharbonnade.com.br/'
+      		data-via='lacharbonnade'
+      		data-text='La Charbonnade Importadora'
+      		data-counturl='http://www.lacharbonnade.com.br'
+      		data-related='anywhere:The Javascript API'
+      		class='twitter-share-button'>Tweet</a>
+			</li>
+	    </ul>
+		</div>
+	</div>
+ -->
+
+   </body>
+</html>

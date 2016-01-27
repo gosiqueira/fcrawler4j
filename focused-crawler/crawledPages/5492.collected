@@ -1,0 +1,1869 @@
+title=null
+url=https://www.expedia.com.br/Hotel-Search
+html=<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="no-js" data-version="v2.51.1.fd50169951c7c4d28cf58e2d959c129bd5c2fadc"  data-language="pt_BR"  lang="pt">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="UTF-8" />
+  
+  <link rel="dns-prefetch" href="//a.intentmedia.net"/>
+  <link rel="dns-prefetch" href="//images.trvl-media.com"/>
+  <link rel="dns-prefetch" href="//a.travel-assets.com/"/>
+  <link rel="dns-prefetch" href="//b.travel-assets.com/"/>
+  <link rel="dns-prefetch" href="//c.travel-assets.com/"/>
+  
+  
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"  sizes="16x16 32x32" />
+
+  
+  <style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    html {
+        background: #f5f5f5;
+        font-size: 106.25%;
+        line-height: 1.45;
+        font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-smoothing: antialiased;
+        -webkit-text-size-adjust: 100%;
+        -ms-text-size-adjust: 100%;
+    }
+
+    .visuallyhidden {
+        position: absolute !important;
+        height: 1px;
+        width: 1px;
+        overflow: hidden;
+        clip: rect(1px, 1px, 1px, 1px);
+    }
+
+    #pageInterstitial img {
+        max-width: 75%
+    }
+
+    img {
+        position: relative;
+        border: 0;
+        -ms-interpolation-mode: bicubic;
+        vertical-align: middle;
+    }
+
+    #pageInterstitial hr {
+        display: block;
+        clear: both;
+        max-width: 90%;
+        height: 1px;
+        border: 0;
+        border-top: 0.058823529411764705em solid;
+        margin: 1.3529411764705883em auto 1.411764705882353em auto;
+        padding: 0;
+        border-color: #c7c7c7;
+    }
+
+    #pageInterstitial {
+        display: none;
+        width: 24em;
+        max-width: 100%;
+        padding-top: 2em;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    #pageInterstitial .msg {
+        max-width: 90%;
+        margin: 0 auto;
+        font: bold 1.66666666667em 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+                padding-top: 2em;
+        color: #00355f;
+    }
+  
+     #pageInterstitial .isEurostarMsg {
+        max-width: 90%;
+        margin: 0 auto;
+        font: bold 13px "Tahoma","Geneva", Arial, sans-serif;
+        padding-top: 2em;
+        color: #00355f;
+    }
+
+
+
+    #pageInterstitial .imgPriming {
+        display: none;
+    }
+
+    .ie8 #pageInterstitial .imgPriming {
+        display: inline;
+    }
+
+    #pageInterstitial .imgLoading, #pageInterstitial .imgPriming {
+        padding-top: 2em;
+    }
+
+    #pageInterstitial .logo + .msg {
+        padding-top: 0;
+    }
+
+    .cssanimations.svg .loader {
+        background-image: url(/static/ui_toolkit/v2-0/images/loader-light.svg);
+    }
+
+    .ie10.cssanimations.svg .loader, .cssanimations.no-svg .loader, .no-cssanimations.no-svg .loader, .no-cssanimations .loader {
+        background-image: url(/static/ui_toolkit/v2-0/images/loader-light.png);
+    }
+
+    .no-cssanimations.no-svg .loader, .no-cssanimations .loader {
+        background-image: url(/static/ui_toolkit/v2-0/images/loader-light.gif);
+    }
+
+    .loader-overlay .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-top: -1.0588235294117647em;
+        margin-left: -1.0588235294117647em;
+    }
+
+    .loader {
+        display: inline-block;
+        position: relative;
+        width: 2.1176470588235294em;
+        height: 2.1176470588235294em;
+        overflow: hidden;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+        -webkit-background-size: contain;
+        -moz-background-size: contain;
+        -ms-background-size: contain;
+        -o-background-size: contain;
+        -ms-background-size: contain;
+        background-size: contain;
+        line-height: 1;
+    }
+
+    @media screen and (min-height: 35.2941176em) {
+        #pageInterstitial .imgPriming {
+            display: inline;
+        }
+    }
+
+    .has-interstitial #mainContent, .has-interstitial #wizard, .has-interstitial #header, .has-interstitial #footer, .has-interstitial #historyTabs, .has-interstitial #modSignUpBanner  {
+        display: none;
+    }
+
+    .has-interstitial #pageInterstitial {
+        display: block;
+    }
+</style>
+
+
+  
+
+  
+  
+    <script src="//b.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/js/uitk-lib-bundle-min.js"></script>
+
+  
+  
+  <!--[if lt IE 8]>
+    <script src="//b.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/js/uitk-ltie8-bundle-min.js"></script>
+
+  <![endif]-->
+  <!--[if IE 8]>
+    <script src="//b.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/js/uitk-ie8-bundle-min.js"></script>
+
+  <![endif]-->
+
+  
+  
+
+  
+  
+
+  
+  
+
+  
+  
+
+
+  
+
+  
+  
+
+    
+<script>
+  var uitkformatter = { dependency: ['uitk_localized_dateApi'] };
+</script><script src="//www.expedia.com/i18n/69/pt_BR/dateTimeFormats.js"></script><script async defer src="//b.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/js/uitk-localize-bundle-min.js"></script></head>
+
+<body class="wrap cf l-results has-interstitial">
+
+    <div id="pageInterstitial">
+        
+            <div class="logo">
+                <div>
+        <img itemprop="image" alt="Expedia.com.br" src="https://www.expedia.com.br/_dms/interstitial/logo.svg?locale=pt_BR&siteid=69" onerror="this.src='https://www.expedia.com.br/_dms/interstitial/logo.png?locale=pt_BR&siteid=69';this.onerror='';this.setAttribute('style','');" style="font-size:0;" border="0"  />
+                </div>
+					<hr />
+            </div>
+        
+			<div class="msg">
+					Corra! Os preços e o estoque são limitados
+			</div>
+        <div aria-live="assertive" role="status">
+            <div class="imgLoading">
+                <span class="visuallyhidden">Aguarde...</span>
+<span class="loader loader-primary loader-light loader-animated loading pageInterstitialLoader" aria-hidden="true" title="Loading..."></span>            </div>
+		</div>
+			<img src="/static/default/default/images/hotResult/interstitial/run.jpg" class="imgPriming" alt=""/>
+    </div>
+    <div aria-live="assertive" role="status">
+        <div id="modalInterstitial" style="display:none">
+        <div class="updating">Atualizando seus resultados</div>
+            <div class="modalInterstitialWrapper">
+                Aguarde...
+<span class="loader loader-primary loader-light loader-animated loading ajaxInterstitialLoader" aria-hidden="true" title="Loading..."></span>            </div>
+        </div>
+    </div>
+
+                <script id="firstAjaxJS" type="text/javascript">
+            document.documentElement.className += ' responsive';
+        window.pageModel = {};
+        window.releaseVersion = "release-2016-01-r3.1309.1510824";
+        window.define.amd = {
+            "uitk": true,
+            "jQuery": true
+        };
+    /*<script id="config" type="text/javascript">*/
+    define('config', function(){
+        "use strict";
+        return {
+            
+            headerScripts: {
+                // Any extra header info goes here
+            },
+            abacusConfig: {
+                // A/B values go here
+                isCashBackUpdate: false, 
+            },
+            branding: {
+                expediaRewardsBranded: "Expedia+",
+                vipAccessPlusBrandingAvailable:"true"
+            },
+            brandBaseName: "Expedia",
+            drrTimerBuckets: [
+        0,
+        120,
+        600,
+        7200,
+        172800,
+        345600
+    ],
+            displayMessageWithRedBoldText: false,
+            isInstallmentFeatureEnabled: true,
+
+            // Configs should be moved out of the wizard model. They do not change between requests
+            maxStayLength: 28,
+
+            // PDO (Price Display Optimization) flag is set by POS (point of sale/supply) according to domain config.
+            pdoFeatureEnabled: false,
+            // dateRegEx property is meant to be used in a regex literal,
+            // passing it to a RegExp constructor throws off the backslash escaping
+            dateRegex: /^(?:0*[1-9]|[12][0-9]|3[01])[- /.](?:0*[1-9]|1[012])(?:[- /.](?:20)*\d\d)*$/,
+            isTablet: false,
+            isMobile: false,
+            // this util function is in config because it needs to be available to firstXHR
+            getHash: function() {
+                var query = window.location.href.split('#')[1] || "";
+                return query;
+            },
+
+            months: ['jan', 'fev', 'mar', 'abr',
+                'maio', 'jun', 'jul', 'ago',
+                'set', 'out', 'nov', 'dez'],
+            days: ['Dom', 'Seg', 'Ter', 'Qua', 'Qui', 'Sex', 'Sáb'],
+            delayAfterPageRender: true,
+            dataUrl: '/Hotel-Search?inpAjax=true&responsive=true',
+            hashParam: 'f73dfb2311bc4d019077c7e2c42d5708dadc4d83',
+            siteId: '69',
+            locale: 'pt_BR',
+            langId: 1046,
+            isTD: false,
+            isBarclays: false,
+            isAARP: false,
+            isHotwire: false,
+            isTravelocity: false,
+            isOrbitz: false,
+            isCheapTickets: false,
+            isExpedia: true,
+            isHotelSRHideExpediaRateText: false,
+            isNewCompressionScoreEnabled: true,
+            calDateFormat: 'ddmmyy',
+            calDateSeparator: '/',
+            calStartDayOfTheWeek: 1,
+            calMonths: ['Janeiro','Fevereiro','Março','Abril','Maio','Junho','Julho','Agosto','Setembro','Outubro','Novembro','Dezembro'],
+            calDaysOfTheWeek: ['D','S','T','Q','Q','S','S'],
+            calClose: 'Fechar',
+            /*  Jira Bug MAIN-124370 Cannot get to TD HSR page, calNightText is munged causing JS error */
+            calNightText: ['uma noite','noites','viagem de 1 noite','viagem de # noites'],
+            toplisting: {
+                delay: 2000,
+                isCacheEnabled: true
+            },
+            googleMapUrl: '',
+            isTaapAgent: false,
+            isPerceivePageDisplay: false,
+            isNewlimitedAvailabilityMessaging: false,
+            devMode: false,
+            isTaapHotelTypeFilterEnabled: false,
+            perceivedPageDisplayVariant: 0,
+            flexibleShoppingRefreshDialogTimeout: 1680,
+            telesales_hbs: '<span class="no-wrap">{{telephoneNumber}}</span>',
+            tripAdvisorCacheServiceUrl: '/trip-advisor-cache/',
+            missingReviewThresholdForTripAdvisor: 0.3,
+            superlativeRating: ['Bom!', 'Muito bom!',
+                'Excelente!', 'Maravilhoso!', 'Extraordinário!'],
+            goingToBucketIntoFlex: false,
+            loyaltyMessage: {
+                pointsEarnt: '',
+                posDollarSpent: ''
+            },
+            amenitiesWithElasticSearchVariation: 0,
+            isLogPeek: false,
+            isUrgencyCompressionEnabled: true,
+            isShowIntentMediaMetaPricing: false,
+            intentMediaScriptUrl: ""
+        };
+    });
+    window.uitkUseNativeEvents = true;
+
+    // **** SEE /static/hotels/retailsearch/views/googleanalytics.js ****
+    // if GA is on, it will defined googleAnalyticsConfig -->
+        
+        
+        googleAnalyticsConfig = {
+                        "account": "UA-35711341-1",
+                        
+                        "domainName": ".expedia.com.br",
+                        "isAnonymize": false,
+                        "ignoredRef": "expedia.com.br"
+                        
+                            ,"title": 'page.Hotels.Search' 
+                        
+                    }
+            
+
+    // all modules are singletons so this factory should only run once
+    // defined as a module now it can be mocked
+    define('googleAnalyticsScript', function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        return {};
+    });
+/*<script type="text/javascript">*/
+"use strict";
+define('performanceLogger', [], function() {
+    var performanceLogger = {
+        restart: function() {},
+        time: function() {},
+        timeEnd: function() {},
+        publish: function() {}
+    };
+
+    if(window.performance && window.performance.timing && window.performance.now) {
+        performanceLogger = {
+            isFirstRequest: true,
+            startTime: 0,
+            events: {},
+            restart: function() {
+                this.isFirstRequest = false;
+                this.events = [];
+                this.startTime = this.getCurrentTime();
+            },
+            getCurrentTime: function() {
+                return window.performance.now();
+            },
+            createEvent: function(id, startTime) {
+                return {
+                    id: id,
+                    startTime: (startTime) ? startTime : this.startTime
+                };
+            },
+            time: function(id) {
+                var currentTime = this.getCurrentTime();
+                if(id) {
+                    this.events[id] = this.createEvent(id, currentTime);
+                } else {
+                    this.logError('ID must not be blank');
+                }
+            },
+            timeEnd: function(id) {
+                var event;
+                if(id) {
+                    event = this.events[id];
+                    if(!event) {
+                        event = this.createEvent(id);
+                        this.events[id] = event;
+                    }
+
+                    if(!event.endTime) {
+                        event.endTime = this.getCurrentTime();
+                        event.elapsedTime = event.endTime - event.startTime;
+                    }
+
+
+                } else {
+                    this.logError('ID must not be blank');
+                }
+            },
+            publish: function() {
+                var that = this;
+                require('dctk', function(dctk) {
+                    var event, params, key;
+                    if(dctk.loggingAdapter) {
+                        for(key in that.events) {
+                            event = that.events[key];
+                            if (event.elapsedTime) {
+                                params = that.buildParamsForTrx(event);
+                                dctk.loggingAdapter.logTrxEvent('navTiming', params);
+                            }
+                        }
+                    }
+                });
+            },
+            buildParamsForTrx: function(event) {
+                var params = [],
+                    eventName = event.id;
+
+                if(this.isFirstRequest) {
+                    eventName += "_first";
+                } else {
+                    eventName += "_subsequent";
+                }
+
+                params.push('clEventName01=' + eventName);
+                params.push('clEventTime01=' + event.elapsedTime);
+
+                return params;
+            },
+            logError: function(msg) {
+                require('logger', function(logger){
+                    logger.logMessage('[performanceLogger] Error ' + msg, []);
+                });
+            }
+        };
+    }
+
+    return performanceLogger;
+});        // TODO: we cannot log the offical start time of the interstitial because it is visible before the logging script is.
+        require(['application'], function (application) {
+    application.start();
+});
+
+require(['config', 'performanceLogger'], function(config, performanceLogger){
+    "use strict";
+    // json caching. attaching these to window object as we can't return after wrapping inside require
+    window.timeToLive = 5 * 60 * 1000; // 5 minutes in milliseconds
+    window.useSavedState = function (state) {
+        if(!state) {
+            return false;
+        }
+        var isValidTimeToLive = window.timeToLive > 0;
+        var hasStateNotExpired = state.expirationTime && state.expirationTime > new Date().getTime();
+        var isSameRelease = state.metaData && state.metaData.releaseVersion &&
+            state.metaData.releaseVersion === window.releaseVersion;
+        return (isValidTimeToLive && hasStateNotExpired && isSameRelease);
+    };
+
+    window.handleError = function(isFirstAjax, httpStatus, textStatus, responseText, error) {
+        require('ajaxErrorHandler', function(ajaxErrorHandler) {
+            ajaxErrorHandler.handleError(isFirstAjax, httpStatus, textStatus, responseText, error);
+        });
+    };
+
+    window.isFirstXHR = true;
+
+    window.firstXHR = function(window, XMLHttpRequest, ActiveXObject) {
+        /*
+        HORRIBLE HACK to fix an IE bug
+        This replace refreshes the page and allows us to replace the URL fragment on the second page load without
+        triggering a full page load. By doing it early we can at least prevent an additional AJAX request.
+        */
+        var isMSIE = /*@cc_on!@*/0;
+        if (isMSIE && window.location.hash) {
+            window.location.replace(window.location.hash); // in normal browsers this does not cause a full page refresh
+        }
+        /* end of HACK */
+
+        // We don't have any fast back info. We need to setup & execute the AJAX call
+        var xmlHttp,
+            ajaxQuery = config.getHash(),
+            headers = {
+                "X-Requested-With": "XMLHttpRequest",
+                "Accept": "application/json, text/javascript",
+                "Content-type": "application/x-www-form-urlencoded"
+            };
+
+        if(!ajaxQuery) {
+            ajaxQuery = "destination=";
+        }
+        
+        ajaxQuery += "&hashParam=" + config.hashParam;
+
+        try {
+            xmlHttp = new XMLHttpRequest(); // Try creating the default XMLHTTPRequest
+        } catch(e) {
+            try {
+                xmlHttp = new ActiveXObject("Microsoft.XMLHttp"); // Of course IE has to be different
+            } catch(ex) {
+                // will probably never run .. but just in case
+                throw new Error('Unable to create XMLHTTP object');
+            }
+        }
+
+        // Setup the callback function to handle the response
+        xmlHttp.onreadystatechange = function() {
+            if (this.readyState === 4) {
+                var self = this;
+                if(this.status >= 400) {
+                    window.handleError(true, self.status, self.statusText, self.responseText);
+                } else if (this.status === 0 || !this.responseText) {    // This happens when the user cancels the request (cancel button, refresh, back/forward, ect)
+                    require('ajaxErrorHandler', function(ajaxErrorHandler) {
+                        var responseText = (self.responseText) ? self.responseText : "";
+                        ajaxErrorHandler.handleError(true, self.status, self.statusText, responseText, new Error("First XHR status 0 or no response"));
+                    });
+                } else {
+                    require(['jquery', 'utils', 'presenter', 'config'], function($, utils, presenter, config){
+                        performanceLogger.timeEnd('ajaxResponse');
+                        // Parse JSON
+                        try {
+                            window.pageModel = $.parseJSON(xmlHttp.responseText);
+
+                            if(window.pageModel) {
+                                window.pageModel.request = utils.queryToObject(utils.getHash());
+                            } else {
+                                window.handleError(true, xmlHttp.status, xmlHttp.statusText, xmlHttp.responseText);
+                            }
+                        } catch(err) {
+                            // Matching JQuery.ajax here by passing 'parseerror'
+                            window.handleError(true, xmlHttp.status, 'error while parsing JSON', xmlHttp.responseText, err);
+                        }
+
+                        // Render the HTML
+                        try {
+                            require(['allModules'], function (allModules) {
+                                presenter.registerModules(allModules);
+                                presenter.render(window.pageModel);
+
+                                // Hide the interstitial
+                                require(['interstitialCtrl'], function(interstitialCtrl){
+                                    try {
+                                        if (window.pageModel === null || !window.pageModel || window.pageModel.handler !== "redirect") {
+                                            interstitialCtrl.hideInterstitials();
+                                            if(!config.isPerceivePageDisplay) {
+                                                performanceLogger.timeEnd('resultsVisible');
+                                            }
+                                        }
+                                    } catch(err) {
+                                        window.handleError(true, xmlHttp.status, 'error while hiding the interstitial', xmlHttp.responseText, err);
+                                    }
+                                });
+
+                                // After Page Render
+                                try {
+                                    if (config.delayAfterPageRender) {
+                                        setTimeout(presenter.executeAfterPageRender, 50); // roll down the event queue
+                                    } else {
+                                        presenter.executeAfterPageRender();
+                                    }
+                                } catch(err) {
+                                    window.handleError(true, xmlHttp.status, 'error while executing after page render. delay=' + config.delayAfterPageRender, xmlHttp.responseText, err);
+                                }
+                                });
+                        } catch(err) {
+                            window.handleError(true, xmlHttp.status, 'error while calling presenter.render()', xmlHttp.responseText, err);
+                        }
+
+                        // Save History
+                        require(['formController', 'historyManager'], function(formController, historyManager){
+                            try {
+                                if(window.pageModel && window.pageModel.metaData && window.pageModel.metaData.isRetryRequest) {
+                                    formController.updateHashFromForm();
+                                }
+                                historyManager.saveState(window.pageModel);
+                            } catch(err) {
+                                window.handleError(true, xmlHttp.status, 'error while saving history', xmlHttp.responseText, err);
+                            }
+                        });
+                    });
+                }
+            }
+        };
+
+        // Execute the request. Use all the headers, and parameters
+        xmlHttp.open("POST", config.dataUrl, true);
+
+        for(var header in headers) {
+            if (headers.hasOwnProperty(header)) {
+                xmlHttp.setRequestHeader(header, headers[header]);
+            }
+        }
+        performanceLogger.time('ajaxResponse');
+        xmlHttp.send(ajaxQuery);
+    };
+    window.firstXHR(window, window.XMLHttpRequest, window.ActiveXObject);
+});
+      
+    </script>
+ 
+
+
+  
+  
+    <link rel='stylesheet' type='text/css' href='//a.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/minifiedCss/brands/exp-responsive.css'/>
+<!--[if IE 8]>
+    <link rel='stylesheet' type='text/css' href='//a.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/minifiedCss/brands/exp-ie8.css'/>
+<![endif]-->
+
+      <div id="experiments">
+
+<script type="text/javascript">
+    window.dctk = window.dctk || {};
+
+    (function( window, logging, undefined ) {
+        logging.pageStartTime = new Date().getTime();
+        logging.pageName = "page.Hotels.Search";
+        logging.guid = "2c3be6766a2948e995994c022328065e";
+        logging.data = "clEventName04=responsive|";
+    })( window, window.dctk.logging = window.dctk.logging || {} );
+</script>
+
+<script src="//b.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/datacapture/js/client-logging-bundle-min.js"></script>
+
+
+        <link href="//b.travel-assets.com/bundles/expweb/hotelsearch/expedia-f70a2d88968cf3a40c4342c8a879f942-min.css" media="all" rel="stylesheet" type="text/css" />
+       
+        
+    <script id="headJS" type="text/javascript">
+        var interval;
+        function defineShims() {
+            if(window.Handlebars && window.Modernizr) {
+                try {
+                    define('Handlebars', function(){
+                        return Handlebars;
+                    });
+                } catch (e) {}
+
+                try {
+                    define('Modernizr', function(){
+                        return Modernizr;
+                    });
+                } catch(e) {}
+
+                clearInterval(interval);
+            }
+        }
+        require(['jQuery'], function(){
+            interval = setInterval(defineShims, 10);
+        });
+
+define('ajaxErrorHandler', ['config'], function(config){
+    var ajaxErrorHandler = {
+        "handleError": function(isFirstAjax, httpStatus, textStatus, responseText, error) {
+            var isHtml = false;
+            if (!config.hashParam && httpStatus === 400) {
+                require('interstitialCtrl', function(interstitialCtrl) {
+                    interstitialCtrl.showAjaxInterstitial();
+                });
+                require('dctk', function(dctk){
+                    dctk.loggingAdapter.logMessage('ajax auth failure', ['responsive=true']);
+                });
+                location.reload(true);
+            }
+            // First we want to display something to the user.
+            if (/<!DOCTYPE html/.test(responseText)) {
+                // the response from the server is an HTML document. Just write it out (this is likely a "We're Stuffed" page)
+                document.close();
+                document.write(responseText);
+                document.close();
+                isHtml = true;
+            } else {
+                // worst case is we don't know what to render, just render a generic error
+                this.handleSoftError();
+            }
+
+            // Now we can log something to client side logs so that we know it happened and can fix it later
+            require('logger', function(logger){
+                var additionalParams = {
+                    "isFirstAjax": isFirstAjax,
+                    "httpStatus": httpStatus,
+                    "textStatus": textStatus,
+                    "location": encodeURIComponent(window.location.href),
+                    "isHtml": isHtml
+                };
+
+                if(!error) {
+                    error = new Error('Error while processing XHR'); // we need to add a dummy error so the DCT doesn't disallow us
+                }
+
+                logger.logError('Error while processing XHR', error, additionalParams);
+            });
+        },
+        "handleSoftError": function() {
+            require(['presenter', 'interstitialCtrl', 'uitk', 'config'], function(presenter, interstitialCtrl, uitk, config){
+                window.pageModel = {
+                    "error": {
+                        "status": status,
+                        "isErrorMessage": true
+                    },
+                    "wizard": {
+                        "isDatelessSearch": false,
+                        "isError": true,
+                        "selRoomIndex": 1,
+                        rooms: [{"adults":2, childAges:[]}]
+                    }
+                };
+                presenter.render(window.pageModel);
+                uitk.publish('hsr.interstitial.hide');
+                if (config.delayAfterPageRender) {
+                    setTimeout(presenter.executeAfterPageRender, 50); // roll down the event queue
+                } else {
+                    presenter.executeAfterPageRender();
+                }
+            });
+        }
+    };
+
+    return ajaxErrorHandler;
+});    </script>
+
+<script type="text/javascript">window.loc = window.loc || {}; window.loc['views_default_pages_hotels_retailsearch_views_experiments_tophotelsfamily']={"roomsLeftMessageMulti":"{{numberOfRoomsLeftForUrgencyMsg}} quartos restantes em nosso site a","roomsLeftMessageSingle":"1 quarto restante em nosso site a"};window.loc['views_default_pages_hotels_retailsearch_views_airattachthirdparty']={"airAttachPartnerDefaultMessage":"Você se qualifica para incríveis descontos em hotéis! A oferta expira em                                                                                                                                                         "};window.loc['views_default_pages_hotels_retailsearch_views_experiments_hotelsrairattachreminder']={"reminderButtonText":"Configurar alerta"};window.loc['views_default_pages_hotels_retailsearch_views_filters_hotelname']={"close":"Fechar","goText":"OK","hotelName":"","hotelNameHeader":"Buscar por nome do hotel","hotelNameHelper":"Insira o nome do hotel aqui."};window.loc['views_default_pages_hotels_retailsearch_views_wizard-responsive']={"airlineAgeLinkText":"Regras da companhia aérea em relação a idade","DropOffTime":"Hora de entrega","PickUpTime":"Hora de retirada","PleaseFixError":"Corrija os seguintes erros para prosseguir:","addRoom":"Adicionar quarto","adultsLabel":"Adultos","airlineAgeLinkLiveAnnounce":"Regras da companhia aérea em relação à idade. Abre em uma nova guia.","cancelSearch":"Cancelar busca","changeSearch":"Alterar busca","checkInLabel":"        Check-in<span class=\"visuallyhidden\"> Enter date in dd/mm/yyyy format<\/span>    ","checkInLabelFH":"Partida","checkInLabelHC":"        Check-in<span class=\"visuallyhidden\"> no formato dd/mm/yyyy<\/span>   ","checkInRequiredError":"Insira uma data de check-in.","checkInTooltip":"Janela pop-up contendo o texto sobre o Check-in","checkOutLabel":"        Check-out<span class=\"visuallyhidden\"> Enter date in dd/mm/yyyy format<\/span>    ","checkOutLabelFH":"Retorno","checkOutLabelHC":"       Check-out<span class=\"visuallyhidden\"> no formato dd/mm/yyyy<\/span>    ","checkOutRequiredError":"Insira uma data de check-out.","checkOutTooltip":"Janela pop-up contendo o texto sobre o Check-out","childAgeInstructions":"Podem ser aplicados descontos","childAgeInstructionsTitle":"Idades das crianças","childNumLabel":"Criança  {{number}}","childrenLabel":"Crianças","cityOrAirport":"Cidade ou aeroporto","close":"Fechar","datelessTitle":"Insira as datas de sua viagem abaixo","flightOriginFH":"Voando de <span class=\"visuallyhidden\"> cidade, aeroporto ou atração<\/span>","formErrors":"Há erros no formulário","fsSummaryHotel":"{{#flexibleShoppingModel.isPartialStay}}Hotel para {{uitkDate ../checkIn}} - {{uitkDate ../checkOut}}, {{/flexibleShoppingModel.isPartialStay}}<span class=\"travellers\">{{> main_wizard_second_summary_rooms_travellers travellerContext}}<\/span><\/p>","genericLocationLabel":"        Estabelecimentos perto de <span class=\"visuallyhidden\">cidade, aeroporto ou atração<\/span>    ","goingToLocationLabel":"Indo para<span class=\"visuallyhidden\"> cidade, aeroporto ou atração<\/span>    ","hideOptions":"Ocultar opções","infantsInLap":"No colo","infantsInSeats":"Crianças menores de 2 anos viajam no colo ou em assentos.","infantsInSeatsRadio":"Em assento","locationLabel":"        Hotéis perto de<span class=\"visuallyhidden\"> cidade, aeroporto ou atração<\/span>    ","singleSearchLabel":"Descubra o hotel perfeito para sua viagem","locationLabelFH":"Voando para <span class=\"visuallyhidden\"> cidade, aeroporto ou atração<\/span>","locationLabelHC":"Indo para<span class=\"visuallyhidden\"> cidade, aeroporto ou atração<\/span>   ","locationPlacehodler":"Cidade, aeroporto ou atração","locationRequiredError":"Insira um local.","locationTooltip":"Janela pop-up contendo o texto sobre a Localização","multiAdults":"{{adultCount}} adultos","multiChildren":"{{childCount}} crianças","multiRooms":"{{roomCount}} quartos","origin":"ORIGEM","travelers":"VIAJANTES","partialStayLabel":"Preciso de um hotel para apenas parte de minha estadia","removeRoom":"Remover quarto  {{roomNumber}}","roomTitle":"Quarto {{this}}","searchButton":"Buscar","searchButtonHC":"Procurar hotel + carro","searchButtonFH":"Procurar voo + hotel","searchForHCLabel":"Procurar hotel + carro","showOptions":"Mostrar opções","singleAdult":"1 adulto","singleChild":"1 criança","singleRoom":"1 quarto","summaryDates":"                    <span class=\"day-of-week\">{{convertDay checkInDayOfWeek}}, <\/span><span id=\"wizardSummaryStartDate\">{{convertMonth checkInMonth}} {{checkInDay}}<\/span><span class=\"carTime\"> {{carPickupTime}}<\/span> - <span class=\"day-of-week\">{{convertDay checkOutDayOfWeek}}, <\/span><span id=\"wizardSummaryEndDate\">{{convertMonth checkOutMonth}} {{checkOutDay}}<\/span><span class=\"carTime\">, {{carDropoffTime}} <\/span>                ","summaryDatesFH":"<span class=\"day-of-week\">{{uitkDay flexibleShoppingModel.fromDate}},<\/span> {{uitkMediumDate flexibleShoppingModel.fromDate}} <span aria-hidden=true>-<\/span> <span class=\"visuallyhidden\">a<\/span><span class=\"day-of-week\">{{uitkDay flexibleShoppingModel.toDate}},<\/span> {{uitkMediumDate flexibleShoppingModel.toDate}}","summaryDatesHC":"{{uitkDate flexibleShoppingModel.fromDate}}<span class=\"carTime\">,{{carPickupTime}}<\/span><span aria-hidden=true>-<\/span> <span class=\"visuallyhidden\">a<\/span> {{uitkDate flexibleShoppingModel.toDate}}, <span class=\"carTime\"> {{carDropoffTime}} <\/span>","updateLabel":"Procurar hotéis","wizardDateFormatError":"As datas parecem estar incorretas. Insira as datas de sua viagem no seguinte formato: {{dateFormat}}.","wizardDateRangeError":"A duração da estadia não pode ser superior a {{maxStayLength}} noites.","wizardDateSequenceError":"Verifique novamente o calendário e selecione uma data de check-in anterior à data de check-out.","wizardMissingChildError":"Insira as idades das crianças abaixo.","wizardPriorDateError":"Verifique mais uma vez suas datas e tente novamente. Não é possível reservar uma data que já passou.","wizardDateBetweenErrorCheckIn":"Lamentamos, mas a data do check-in deve estar entre suas datas de ida e volta. Insira uma nova data.","wizardDateBetweenErrorCheckOut":"Lamentamos, mas a data do check-out deve estar entre suas datas de ida e volta. Insira uma nova data.","wizardLapsRequiredError":"O bebê deve viajar no colo de uma pessoa de no mínimo 12 anos de idade.","destination":"DESTINO","dates":"DATAS","rooms":"QUARTOS","clearButtonScreenReaderText":"Eliminar conteúdo do campo: hotéis perto de<span class=\"visuallyhidden\"> cidade, aeroporto ou atração<\/span> Valor do campo: <span class=\"field-value\">{{destinationNameShort}}<\/span>","fieldCleared":"Conteúdo eliminado."};window.loc['views_default_pages_hotels_retailsearch_views_regioncompression']={"title":"{{destination}} é um destino popular nas datas selecionadas.","hint":"Dica: você pode conseguir um preço mais baixo em outras datas","close":"fechar","booked":"reservado","tryNextWeekMsg":"{{destination}} tem {{percentOccupiedRounded}}% de reservas nessas datas","tryNextWeek":" Tente mudar sua busca para uma semana depois ","tryPreviousWeek":" Tente mudar sua busca para uma semana antes "};window.loc['views_default_pages_hotels_retailsearch_views_hotwire_search_wizard']={};window.loc['views_default_pages_hotels_retailsearch_views_filters_neighborhood']={"neighborhoodFilterTitle":"Bairro","neighborhoodTitle":"Bairro"};window.loc['views_default_pages_hotels_retailsearch_views_results_pricetagthirdparty']={"exclusiveOffer":"Oferta exclusiva"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_ringfencedpricing']={"dealText":"Oferta exclusiva","exclusiveDeal":"Suas ofertas exclusivas em {{destination}}","otherHotels":"Não há ofertas exclusivas em {{destination}} nestas datas. Encontramos estas ofertas incríveis para suas datas:","similarHotels":"Encontramos hotéis semelhantes em {{destination}}."};window.loc['views_default_pages_hotels_retailsearch_views_lastbooked']={"lastBookedHour":"Reservado na última hora","lastBookedHours":"Reservado nas últimas {{lastBookedHours}} horas","lastBookedMinute":"Reservado no último minuto","lastBookedMinutes":"Reservado nos últimos {{lastBookedMinutes}} minutos"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_neighborhood2']={"all":"Todos","neighborhoodFilterTitle":"Bairro","neighborhoodTitle":"Bairro"};window.loc['views_default_pages_hotels_retailsearch_views_eds']={"checkAvailability":"Verificando a disponibilidade","checkIn":"Check-in","checkInFH":"Partida","checkOut":"Check-out","checkOutFH":"Retorno","close":"Fechar","edsCheckInCheckOutError":"É necessário informar uma data de check-in e de check-out para verificarmos a disponibilidade.","edsDateRangeError":"A duração da estadia não pode ser superior a {{maxStayLength}} noites. Ajuste as datas de sua viagem.","edsHotelSearchResultsHeading":"Insira suas datas para ver os preços","edsSubmitBtn":"Verificar tarifas e disponibilidade","go":"OK","hotelEdsPrompt":"Insira as datas de sua estadia para verificar as tarifas e a disponibilidade","hotelEdsPromptUnavail":"Não há quartos disponíveis neste hotel nas datas solicitadas. Insira outras datas para sua estadia.","starRatingFallback":"{{hotelStars}} estrelas","timeoutErrorNew":"<strong>Desculpe! Estamos com problemas para acessar os dados sobre a acomodação e a cidade no momento. Tente novamente mais tarde.<\/strong>","wizardDateFormatError":"As datas parecem estar incorretas. Insira as datas de sua viagem no seguinte formato: {{dateFormat}}.","wizardDateSequenceError":"Verifique novamente o calendário e selecione uma data de check-in anterior à data de check-out.","wizardPriorDateError":"Verifique novamente as suas datas e faremos uma nova tentativa. Não é possível reservar uma data que já passou."};window.loc['views_default_pages_hotels_retailsearch_views_filters_amenities']={"amenityTitle":"Comodidades"};window.loc['views_default_pages_hotels_retailsearch_views_matrix']={"all":"Preço méd. do hotel","starsFrom":"Hotel {{id}} estrelas; preço méd."};window.loc['views_default_pages_hotels_retailsearch_views_filters_city']={"hotelCountAndCity":"<span class=\"hotelCounts\" aria-hidden=\"true\" onclick=\"return false\" >{{count}} hotéis<\/span> em <span class=\"fakeLink cityName\" aria-hidden=\"true\">{{city}}<\/span>","popularDestinations":"Destinos procurados"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_flexibleshoppingrefreshdialog']={"flexibleShoppingRefreshModalMsg":"Devido à disponibilidade e à demanda, os preços são alterados com frequência. Queremos garantir que você veja sempre os melhores preços.","flexibleShoppingRefreshModalTitle":"Atualize sua busca para ver os preços mais recentes.","flexibleShoppingRefreshText":"Atualizar busca","flexibleShoppingRestartModalTitle":"Reinicie sua busca para ver os preços mais recentes.","flexibleShoppingRestartText":"Reiniciar busca"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_back-to-top']={"backToTop":"Voltar ao topo"};window.loc['views_default_pages_hotels_retailsearch_views_googlemap']={"hangOnWeAreWorking":"Aguarde; estamos trabalhando nisso","hotelCountInCity":"Hotéis em {{destination}}","hotelCountNearDestination":"Hotéis próximos a {{destination}}","hotels":"Hotéis","pleaseWaitHotelsAreBeingLoaded":"Estamos verificando a disponibilidade","roomsLeftAt_singular":"1 restante a {{> map_price}}","roomsLeftAt_plural":"{{numberOfRoomsLeftForUrgencyMsg}} restantes a  {{> map_price}}","soldOut":"Indisponível em nosso site","soldOutLegal":"No momento, este hotel está indisponível em nosso site.","starRatingFallback":"{{hotelStarRating}} estrelas","viewMap":"Ver mapa"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_loyalty-message']={"loyaltyMessage":"Ganhe {{loyaltyPointEarnt}} pontos para cada {{posDollar}} que gastar em hotéis ou pacotes com um hotel.","joinExpediaPlus_callToAction":"<a href=\"{{signInUrl}}\" target=\"_blank\">Conecte-se<\/a> agora ou <a href=\"{{createAccountUrl}}\" target=\"_blank\">crie uma conta<\/a> e inscreva-se no Expedia+ ainda hoje.","joinExpediaPlus_withoutCallToAction":"Inscreva-se no programa Expedia+ no processo de reserva"};window.loc['views_default_pages_hotels_retailsearch_views_filters_price']={"greaterThan":"Mais de {{{minPrice}}}}","lessThan":"Menos de {{{maxPrice}}}","priceFilterTitle":"Preço","pricePerNightText":"Preço do por noite","priceRange":"{{{minPrice}}} até {{{maxPrice}}}:","priceTitle":"Preço"};window.loc['views_default_pages_hotels_retailsearch_views_filters_pointofinterest']={"poiFilterTitle":"Buscar nas proximidades"};window.loc['views_default_pages_hotels_retailsearch_views_filters_filter_promotion']={"filterDisclaimerText":"Encontre o que procura ainda mais rápido, filtrando por preço ou bairro.","gotItText":"Certo."};window.loc['views_default_pages_hotels_retailsearch_views_regionurgencymessage']={"viewsInCity":"            No momento, {{viewCount}} pessoas estão reservando hotéis em {{destination}} na {{brandBaseName}}        "};window.loc['views_default_pages_hotels_retailsearch_views_results_pricecol']={"actualHSRListedPrice":"O preço agora é: ","airAttachExclusivePercentMobile":"<span class=\"exclusiveText\"><strong>Oferta exclusiva<\/strong><\/span><span class=\"saveText\">Economize {{hotmipPercentage}}%<\/span>","airAttachReason":"<strong>Oferta exclusiva! <\/strong>Como você reservou um {{bookedLob}}","airAttachReasonPercentage":"<strong>Oferta exclusiva! <\/strong>Como você reservou um {{bookedLob}}, economize {{hotmipPercentage}}% em uma estadia de {{stayLength}} noites","airAttachRedeemWithin":"                    Utilize dentro de <strong> <span class=\"timer\">{{airAttachTimer}}<\/span> <\/strong>                ","avgPerNight":"méd/noite","avgPerNightOneStar":"méd/noite*","avgRatePerNightHC":"méd/noite inclui hotel + carro, além dos impostos e taxas","avgRatePerPersonFH":"por pessoa, inclui voo + hotel, impostos e taxas","beBookedHotel1":"Esse hotel não pode ser reservado","dailyDeal":"Oferta diária","discountAvailable":"Desconto disponível","doublePoints":"Pontos em dobro","drrExpMessage1":"ÚLTIMA CHANCE! A oferta termina em {{>timer}}","drrExpMessage2":"Corra! A oferta termina em {{>timer}}","drrExpMessage3":"Corra! A oferta termina em breve","drrPopupMsgEnd":"Desculpe, você precisa agir rápido para aproveitar essas ótimas ofertas. Atualize esta página para ver os preços atuais.","dynamicStrikeDisclaimer":"Esse preço comparativo é o preço mais alto pelo qual este hotel está disponível na {{brandBaseName}} para pelo menos um dos próximos 14 dias.","errorAvailabilityRooms":"Pode haver quartos disponíveis","excludedInPriceMsgTxt":"Não incluído no preço","exclusiveOffer":"Oferta exclusiva","guestRating":"{{reviewOverall}}/5","hotelSoldOutGeneralMessage":"Indisponível em nosso site","includedInPriceMsgTxt":"Incluído no preço","includesTaxAndFee":"inclui impostos e taxas","maxAdults":"Excede o nº máx. de adultos","maxChildren":"Excede o nº máx. de crianças","maxGuests":"Excede o nº máx. de hóspedes","maxInfants":"Excede o nº máx. de bebês","memberDiscountBadgeTextOrbitz":"Insider Steal","memberPrice":"preço para associado","mobileExclusive":"Exclusivo para dispositivos móveis","numberofNightStay":"{{pricingNumberOfNightStay}} noite a partir de","numberofNightsStay":"{{pricingNumberOfNightStay}} noites a partir de","oldHSRListedPrice":"O preço era: ","packageReferencePrice":"Preço se os componentes forem reservados separadamente: ","partialUnavailability":"Não conseguimos encontrar nenhum quarto disponível em nosso site para todas as datas","payInUpTo12Installments":"em até 12x","payLater":"Reserve agora, pague depois","payLaterOrPayInUpTo12Installments":"Pagar depois ou em até 12x","priceColAirAttachDaysLabel":"{{totalDays}} dias","priceColAirAttachExpiresLabel":"Expira em","priceColAirAttachSingleDayLabel":"{{totalDays}} dia","priceFrom":"Preço a partir de","ratePerNight":"tarifa por noite","ratePerNightTwoStars":"tarifa por noite**","reviews":"({{reviewTotal}} avaliações)","rewardsAvailable":"Desconto do Rewards disponível","rewardsDoublePoints":"Pontos em dobro do Rewards","roomsLeftAt_singular":"<span class=\"urgency\">1 restante a<\/span> {{> price}}","roomsLeftAt_plural":"<span class=\"urgency\">{{numberOfRoomsLeftForUrgencyMsg}} restantes a<\/span> {{> price}}","saleBadge":"Promoção!","sampleDates":"                    <span class=\"sampleStartDate\">{{pricingStartDate}}<\/span> a <span class=\"sampleEndDate\">{{pricingEndDate}}<\/span>                ","sponsoredShort":"Patrocinado por","taxAndFeeInfo":"informações sobre impostos e taxas","tonightOnlyBadge":"Apenas esta noite!","totalPriceFrom":"Preço total de","totalPriceFromOneStar":"Preço total* a partir de","totalRateFrom":"Tarifa total de","totalRateFromOneStar":"Tarifa total* de","totalRateFromTwoStars":"Tarifa total** de","weHaveRoomsLeftAt_plural":"<span class=\"urgency\">Restam {{numberOfRoomsLeftForUrgencyMsg}} em <\/span> {{> price}}","weHaveRoomsLeftAt_singular":"<span class=\"urgency\">Resta 1 em <\/span> {{> price}}"};window.loc['views_default_pages_hotels_retailsearch_views_filters_mealplan']={"allInclusive":"Tudo incluído","breakfast":"Café da manhã","fullBoard":"Pensão completa","halfBoard":"Meia pensão","mealplanInclude":"Disponível no hotel: {{mealPlanType}}","mealplanTitle":"Planos de refeições"};window.loc['views_default_pages_hotels_retailsearch_views_filters_sort-responsive']={"bestDeals":"Melhores ofertas","distance":"Distância","filtersBtnTitle":"Filtros","hotelName":"Nome do hotel","moreLabel":"Mais","recommendedSort":"Recomendado","smartFinder":"Ordenar por","sortByGuestRating":"Avaliação do hóspede","sortByLabel":"Ordenar por:","sortByPrice":"Preço","sortByStarRating":"Categoria do Hotel","tonightOnlyDeals":"Ofertas apenas para esta noite","vipAccessLabel":"+VIP Access"};window.loc['views_default_pages_hotels_retailsearch_views_error']={"downStreamSystemUnavailable":"Desculpe! Estamos com problemas para acessar os dados sobre a acomodação e a cidade no momento. Tente novamente mais tarde.","oops":" "};window.loc['views_default_pages_hotels_retailsearch_views_results_opaque']={"getHotelName":"<strong>Aproveite a oferta agora<\/strong> e obtenha o nome do hotel após sua reserva","noPriceDestination":"{{destination}} Hotéis com descontos de até 40%","percentOff":"até <span class=\"opaquePercent\">40%<\/span> de desconto<span class=\"opaqueDagger\">&dagger;<\/span> <span class=\"opaqueLine2\">tarifas de hotéis padrão<\/span>","priceDestination":"Consiga até 40% de desconto em hotéis selecionados em {{destination}}","secretSaverHotels":"Hotéis ${sitebrand.brandname} Secret Saver","starsFrom":"Hotéis {{stars}} estrelas a partir de <span class=\"opaquePrice fakeLink\">{{addCurrency showCurrencyAsSuffix currencySymbol price}}","travelocityTopSecretHotels":"Principais Hotéis Secretos da ${sitebrand.brandname}","unpublishedHotels":"Hotéis com tarifas não publicadas da ${sitebrand.brandname}","mysteryHotel":"Hotel misterioso","seeDeals":"Ver ofertas","deepDiscounts":"Consiga ótimos descontos em {{opaqueBranding}}","saleBadge":"Promoção!","discountRibbon":"até 40% de desconto"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_memberpricing']={"unlockDeals":"Tenha acesso a preços para associados em hotéis selecionados","saveExtraTenPercent":"Receba descontos extras de 10% ou mais!","alreadyMemberLink":"Já é um associado?","signInLink":"Conecte-se","continueShopping":"Continuar reservando","continueShoppingBtnLabel":"SIM","emailAddress":"Endereço de e-mail","signUp":"Inscreva-se","emailValidationMsg":"Digite um endereço de e-mail válido","emailDisclaimer":"Você aceita receber promoções e ofertas da Expedia. Além disso, você poderá cancelar a assinatura a qualquer momento.","needAccount":"Precisa de uma conta?","newHere":"Ainda não tem uma conta?","password":"Senha","signInBtn":"Conecte-se","signInError":"Talvez você tenha digitado um endereço de e-mail desconhecido ou uma senha incorreta."};window.loc['views_default_pages_hotels_retailsearch_views_filters_filterheader']={"filterBy":"Filtrar por","filterHotelsBy":"Filtrar hotéis por"};window.loc['views_default_pages_hotels_retailsearch_views_interstitial']={"hotelsOfferedMsg":"Hotéis disponibilizados pela:","interstitialMsg":"Corra! Os preços e o estoque são limitados","lastMinuteInterstitialMsg":"Aguarde. <br/>Os quartos são reservados rápido. Estamos procurando as ofertas que são a sua cara...","pleaseWait":"Aguarde...","updatingMsg":"Atualizando seus resultados","wotifInterstitialMsg":"Estamos procurando as melhores ofertas para você, sem demora!"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_unratedfilter']={"unratedHotelStarRating":"Não avaliado"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_transportation-portals']={"portalsMessageKilometers":"{{distance}} km de {{portalName}}","portalsMessageMiles":"{{distance}} milhas de {{portalName}}","portalsMessageTimeToMetroStation":"{{time}} minutos de caminhada da estação de metrô"};window.loc['views_default_pages_hotels_retailsearch_views_airattach']={"changeTownLink":"Não vou me hospedar em {{destination}}?","consistentAirAttachDaysLabel":"{{totalDays}} dias","consistentAirAttachExpiresLabel":"Expira em","consistentAirAttachQualification":"<span class=\"highlight\">Como você reservou um {{bookedLob}},<\/span> <span class=\"discount\">economize até {{maxHotmipPercentage}}% em hotéis para sua viagem.<\/span>","consistentAirAttachQualificationNoPercent":"<span class=\"highlight\">Como você reservou um {{bookedLob}},<\/span> <span class=\"discount\">desfrute de nossas tarifas mais baixas em hotéis selecionados.<\/span>","consistentAirAttachSingleDayLabel":"{{totalDays}} dia","exclusiveOffer":"Oferta exclusiva","overrideConsistentAirAttachQualification":"<span class=\"highlight\">【voo + desconto】Como reservou um {{bookedLob}},<\/span> <span class=\"discount\">você ganhou desconto de até {{maxHotmipPercentage}}% em hotéis para sua viagem.<\/span>","trainLob":"trem","carLob":" carro","flightLob":"voo"};window.loc['views_default_pages_hotels_retailsearch_views_disambig']={"didYouMeanThis":"Você quis dizer {{>disambig_link}}?"};window.loc['views_default_pages_hotels_reatilsearch_views_wizard-responsive']={};window.loc['views_default_pages_hotels_retailsearch_views_experiments_holidayurgencymessage']={"holidayUrgencyMessage":"Você está visitando durante o feriado do dia da marinha no Japão (18 a 20 de julho). Os quartos estão acabando. Reserve agora!"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_star-clarity']={"hotelStarClarity":"Hotel {{starRating}} estrelas"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_pdo']={"addTaxAndFeeText":"+ {{taxAndFeedata}} impostos e taxas","additionalFeesText":"as taxas adicionais devem ser pagas no hotel","includesTaxAndFeeText":"Inclui {{taxAndFeedata}} impostos e taxas","mandatoryFeeDue":"Pagamento no hotel:","notIncludedFeesText":"Taxas não incluídas: pagamento no hotel","taxAndFeeText":"mais {{taxAndFeedata}} impostos e taxas","totalTaxAndFeeText":"Total {{totalFeedata}}, inclui impostos e taxas"};window.loc['views_default_pages_hotels_retailsearch_views_disclaimer']={"expediaSpecialRateCreditNewUI":"                    as tarifas da {{brandBaseName}} podem se qualificar para promoções especiais e utilização de cupom. As tarifas da {{brandBaseName}} exigem <strong>que o valor total do pagamento seja cobrado em seu cartão de crédito<\/strong>, no ato da reserva. Ofertas especiais podem ser aplicadas para tipos de quarto específicos e pode haver termos e condições adicionais.                ","frStarRatingDisclaimer":"Observe que o sistema de categorização de hotéis na França sofreu uma alteração recentemente. O número de estrelas exibidas em alguns hotéis podem corresponder ao antigo sistema. As Instituições vêm solicitando a nova classificação dos hotéis. Nós nos comprometemos a atualizar essas informações o mais breve possível. Para identificar os hotéis envolvidos, basta acessar a página de informações desses hotéis e clicar nas estrelas que eles possuem.","includetotals":"Os valores totais do <strong>* {{keyword_hotel}}<\/strong> incluem: impostos, taxas de serviço e cobranças correspondentes a hóspede extra.","includetotalsDe":"Os valores totais do <strong>* {{keyword_hotel}}<\/strong> incluem: impostos e taxas de serviço.","includetotals_nl":"Os valores totais do <strong>* {{keyword_hotel}}<\/strong> incluem: impostos, taxas de serviço e cobranças correspondentes a hóspede extra.","notIncludetotals":"<strong>** A tarifa total<\/strong> pode não incluir: impostos, sobretaxas (incluindo sobretaxas de energia), cobranças correspondentes a hóspede extra e opções de custo extra.","notIncludetotals_nl":"<strong>** A tarifa total<\/strong> pode não incluir: impostos, sobretaxas (incluindo sobretaxas de energia), cobranças correspondentes a hóspede extra e opções de custo extra.","note":"Observação:","opaqueDisclaimer":"Descontos com base nas tarifas do hotel {{supplementalDesc}} para o mês passado, comparadas à tarifa regular para o mesmo hotel em {{brandName}}.","pointOfSupplyCurrencyDisclaimer":"Os preços em {{pointOfSupplyCurrencyCode}} são estimados com base na taxa de câmbio de hoje. O pagamento final será acertado na moeda local do dono/gerente do estabelecimento.","showESRAveragePriceDisclaimerDated":"Os valores totais do <strong>* {{keyword_hotel}}<\/strong> incluem: impostos, taxas de serviço e cobranças correspondentes a hóspede extra.","showESRAveragePriceDisclaimerDateless":"Escolha suas datas para obter o preço de sua reserva incluindo os impostos.","showESRTotalPriceDisclaimerDateless":"Escolha suas datas para obter o preço de sua reserva incluindo os impostos.","showGDSAveragePriceDisclaimerDated":"A tarifa total pode não incluir: impostos, sobretaxas (incluindo sobretaxas de energia), cobranças correspondentes a hóspede extra e opções de custo extra.","showGDSAveragePriceDisclaimerDated_nl":"A tarifa total pode não incluir: impostos, sobretaxas (incluindo sobretaxas de energia), cobranças correspondentes a hóspede extra e opções de custo extra.","showPdoDisclaimer":"<strong>* <\/strong>Os eventuais impostos ou taxas cobrados no hotel serão pagos na moeda local.","strikeDisclaimer_au":"Os cálculos da % de desconto são baseados na tarifa integral, conforme determinada e fornecida pelo estabelecimento."};window.loc['views_default_pages_hotels_retailsearch_views_filters_starrating']={"StarRatingFilterTitle":"Categoria do Hotel","starRatingLabelPlural":"{{stars}} estrelas","starRatingLabelSingular":"1 estrela"};window.loc['views_default_pages_hotels_retailsearch_views_filters_filters']={"showAll":"Exibir tudo","showLess":"Exibir menos"};window.loc['views_default_pages_hotels_retailsearch_views_banners']={"close":"Fechar","welcomeGuest":"Bem-vindo, hóspede.","welcomeSignedUser":"Bem-vindo(a), {{firstName}}.","memberDiscount":"{{memberDiscountMessage}}","memberDiscount_message":"Os associados ganham descontos extras de 10% ou mais em hotéis selecionados. Veja os preços para associados abaixo.","memberDiscount_sortedMessage":"{{firstName}}, não se esqueça! Os associados têm direito a descontos extras de 10% ou mais em hotéis selecionados. Procure preços para associados abaixo!","sortBtnText":"Ordenar por preço para associado","sortSuccessText":"Sucesso! Sua busca foi atualizada.","closeWelcomeBanner":"Fechar mensagem de boas-vindas"};window.loc['views_default_pages_hotels_retailsearch_views_bookingvelocity']={"bookingVelocityMsg":"${bookingCount} pessoas reservaram este hotel nas últimas 48 horas","mostPopularBookedHotel":"Mais popular!"};window.loc['views_default_pages_hotels_retailsearch_views_results_results']={"accessibilityHotelNameAndProperty":"{{retailHotelInfoModel.hotelName}}, um estabelecimento {{retailHotelInfoModel.hotelStarRating}} estrela(s), situado em {{retailHotelInfoModel.cityName}}, {{retailHotelInfoModel.neighborhood}}. ","accessibilityHotelNameAndPropertyFH":"{{retailHotelInfoModel.hotelName}}, um estabelecimento {{retailHotelInfoModel.hotelStarRating}} estrela(s), situado em {{retailHotelInfoModel.cityName}}, {{retailHotelInfoModel.neighborhood}} {{#unless retailHotelPricingModel.isSoldOut}}, voos {{retailHotelInfoModel.flightModel.localizedCabinClasses}} {{#if retailHotelInfoModel.flightModel.isNonStop}}sem escalas{{/if}} incluídos no preço{{/unless}}. ","accessibilityHotelNameAndPropertyHC":"{{retailHotelInfoModel.hotelName}}, um estabelecimento {{retailHotelInfoModel.hotelStarRating}} estrela(s), situado em {{retailHotelInfoModel.cityName}}, {{retailHotelInfoModel.neighborhood}} {{#unless retailHotelPricingModel.isSoldOut}}, carro incluído no preço{{/unless}}.","accessibilityPrice":"O preço é de {{retailHotelPricingModel.currencySymbol}}{{retailHotelPricingModel.priceFormatted}}.","accessibilityPriceTypeAvg":"Indica o preço médio, por noite.","accessibilityPriceTypeAvgFH":"{{#unless retailHotelPricingModel.isSoldOut}}Indica o preço por pessoa.{{/unless}}","accessibilityPriceTypeTotal":"Indica o preço total.","accessibilityPriceTypeTotalFH":"{{#unless retailHotelPricingModel.isSoldOut}}Indica o preço por pessoa.{{/unless}}","accessibilityPriceTypeRate":"Indica o preço por noite.","accessibilityPriceTypeRateFH":"{{#unless retailHotelPricingModel.isSoldOut}}Indica o preço por pessoa.{{/unless}}","accessibilityUserRating":"A classificação do usuário é {{retailHotelInfoModel.reviewOverall}} de 5, com {{retailHotelInfoModel.reviewTotal}} avaliações.","dailyDeal":"Oferta diária","discountPriceMessage":"{{discountPercentage}}% de desconto","dynamicStrikeDisclaimer":"Esse preço comparativo é o preço mais alto pelo qual este hotel está disponível na ${this.brandModel.brandBaseName} para pelo menos um dos próximos 14 dias.","newHotelBannerBranded":"Novo na ${this.brandModel.brandBaseName}!","opensInANewWindow":"Abre em uma nova janela","mapControl":"Controle do mapa.","previousPurchase":"Por que não se hospeda novamente?","sale":"Promoção","topHotelBadge":"Hotel mais popular","shortNewHotelBannerBranded":"Novo na ${this.brandModel.shortBrandName}!"};window.loc['views_default_pages_hotels_retailsearch_views_back-to-retail-search']={"backToRetailSearch":"Voltar à busca de hotel"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_tonightonlydeals']={"stayLocal":"Fique na área!","shopGreatDeals":"Encontre ótimas ofertas para esta noite.","stayTonight":"Hospede-se esta noite!","shopExclusiveDeals":"Encontre ofertas exclusivas.","shopLocalDealsButtonText":"Encontre ofertas na área para esta noite","shopExclusiveDealsButtonText":"Encontre ofertas exclusivas para esta noite","success":"Sucesso!","nowViewingTonightOnlyDeals":"Estas são as ofertas para esta noite.","closeBtnTooltip":"fechar"};window.loc['views_default_pages_hotels_retailsearch_views_filters_lodging']={"agritourism":"Agroturismo","all":"Todos","allInclusive":"Resort com tudo incluído","apartHotel":"Apart-hotel","apartment":"Apartamento","bedBreakfast":"Bed & Breakfast","cabin":"Cabine","caravanPark":"Camping para trailers","castle":"Castelo","chalet":"Chalé","condo":"Condo","condoResort":"Resort condo","cottage":"Casa de campo","countryHouse":"Casa de campo","ecoHotel":"Eco-hotel","guestHouse":"Pensão","hostal":"Albergue (hotel econômico)","hostel":"Albergue/acomodação para mochileiros","hotel":"Hotel","hotelResort":"Hotel resort","houseBoat":"Hotel barco","inn":"Pousada","lodge":"Alojamento","lodgingTitle":"Tipo de estabelecimento","longHouse":"Casa grande","motel":"Motel","overWater":"Acomodação sobre a água","palace":"Palácio","pension":"Pensão","pousadaBrazil":"Pousada (Brasil)","pousadaPortugal":"Pousada (Portugal)","ranch":"Rancho","residence":"Residência","riad":"Riad","ryoken":"Ryokan","safari":"Safári / Tentalow","servicedApartment":"Apartamento com serviço","townhouse":"Moradia","traditionalBuilding":"Edifício tradicional","treeHouse":"Casa na árvore","vacationHome":"Casa de férias particular","villa":"Villa"};window.loc['views_default_pages_hotels_retailsearch_views_results_infocol']={"carIncludedLongText":"Carro incluído no preço","carIncludedShortText":"Carro incluído","flightsIncludedInPrice":"{{flightModel.localizedCabinClasses}} voos incluídos no preço","nonstopFlightsIncludedInPrice":"{{flightModel.localizedCabinClasses}} voos sem escala incluídos no preço","economyCoachInfoCol":"Econômica","premiumEconomyInfoCol":"Classe Econômica Premium","businessClassInfoCol":"Classe Executiva","firstClassInfoCol":"Primeira Classe","distanceFromKilometers":"{{localizedDistanceInKilometers}} km de {{searchDestination}}","distanceFromMiles":"{{localizedDistanceInMiles}} milhas de {{searchDestination}}","expediaRateHotel":"Tarifa da {{brandBaseName}}","freeCancellation":"Cancelamento gratuito","goldUserImgText":"Conveniências exclusivas disponíveis para os associados Expedia +gold. ","guestRating":"{{reviewOverall}} de 5","insiderSelectText":"Este hotel é um dos poucos selecionados em {{cityName}} para receber este prêmio exclusivo com base em 1 milhão de avaliações de hóspedes enviadas anualmente pelos viajantes da ${sitebrand.brandname}.","insiderSelectTitle":"Vencedor de 2014 do Insiders' Select da Expedia","insiderSelectTmTitle":"Vencedor de 2014 do Insiders' Select<sup style=\"font-size: 50%; vertical-align: super;\">™<\/sup> da Expedia","localizedFamilyFriendly":"Ideal para famílias","reviewOverall":"Classificação de hóspede {{reviewOverall}} de 5","reviews":"({{reviewTotal}} avaliações)","silverUserImgText":"Conveniências exclusivas disponíveis para os associados Expedia +gold e +silver.","topHotelBadge":"Hotel mais popular","transportationPortalsMessageKilometers":"{{distance}} km de {{portalName}}","transportationPortalsMessageMiles":"{{distance}} milhas de {{portalName}}","viewMap":"Mapa","vipAccessStatus":"+VIP Access","vipImgText":"Hotéis +VIP Access com benefícios especiais","vipImgTooltipText":"Nossos clientes recebem sempre um ótimo serviço neste hotel.Acumule duas vezes mais pontos do <br /><br />{{expediaPlusBranded}} em hotéis +VIP Access."};window.loc['views_default_pages_hotels_retailsearch_views_results_home-away']={"advertisement":"Propaganda","avgPerNight":"méd/noite","clickForPrice":"Clique para ver o preço","exceedsMaxGuests":"Excede o máx. de hóspedes","exploreVacationRentalsText":"Explore {{vacationRentalCount}} opções de aluguel de temporada em <span class=\"nowrap\">{{destination}} {{hsr_icon \"toggle90\"}}<\/span>","homeAwayBannerText":"Fizemos uma parceria com a HomeAway para oferecer as melhores opções de aluguel de temporada para suas férias com a família ou amigos.","notAvailableForYourDates":"Não está disponível em nosso site para suas datas","numberOfBathrooms":"{{bathrooms}} WC,","numberOfBedrooms":"{{bedrooms}} quarto,","numberOfOccupants":"Acomoda {{sleeps}}","priceFrom":"a partir de","ratePerNight":"tarifa por noite","seeAllXProperties":"Ver todos os {{vacationRentalCount}} estabelecimentos","totalPrice":"preço total","totalRate":"Tarifa total","totalRateWithFootnote":"Tarifa total\u2021","totalRateFromOneStar":"Tarifa total* de","totalRateFromWithFootnote":"Tarifa total\u2021 a partir de","vacationRental":"Aluguel de temporada","xVacationRentalText":"{{vacationRentalCount}} opções de aluguel de temporada neste local"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_exclude-tax-message']={"excludingTaxAndFees":"Excluindo impostos e taxas"};window.loc['views_default_pages_hotels_retailsearch_views_filters_a_col_filter']={"showLess":"Exibir menos","showMore":"Exibir mais"};window.loc['views_default_pages_hotels_retailsearch_views_pagetitle']={"docTitleGettingResults":"Obtendo resultados de busca","docTitleOriginal":"Resultados de busca","docTitleResultsDest":"Resultados de busca de hotéis em {{{destination}}}","hotelsInCity":"{{destination}}: {{hotelCount}} hotéis","questions":"Dúvidas? <span class=\"phoneNumberIcon\"/> {{phoneNumber}}","searchingForHotels":"Buscando centenas de milhares de hotéis","tfnProgressive":"Dúvidas? ${this.telesalesModel.phoneNumber}","titleVacationRentalIn":"{{hotelCount}} aluguel de temporada em {{destination}}","titleVacationRentalNear":"{{hotelCount}} aluguel de temporada perto de {{destination}}","tripPricesIncludeHotelAndCar":"Os preços de viagem incluem Hotel + Carro, além de impostos e taxas.","airlineFeeDisclaimerMsg":"Os valores da viagem mostrados abaixo incluem Voo + Hotel, impostos e taxas, porém não incluem <a id=\"airline_fees_link\" class=\"underline\" aria-label=\"{{flightModel.locBaggageFees}}\" href=\"javascript:window.open('{{flightModel.bookingFeesUrl}}','','width=755px,height=725px,resizable,toolbar=false,menubar=false,scrollbars,status'); void(0);\" >taxas de bagagem<\/a> ou demais taxas cobradas diretamente pela companhia aérea.","baggageFeesNewTab":"O link de taxas de bagagem abre em uma nova aba","viewMap":"Ver mapa","shortMapLink":"Mapa"};window.loc['views_default_pages_hotels_retailsearch_views_filters_accessibilities']={"AccessibilityTitle":"Acessibilidade"};window.loc['views_default_pages_hotels_retailsearch_views_experiments_installmentclarity']={"payLaterOrPayInUpTo12InstallmentsWithoutInterest":"Pagar depois ou em até 12x sem juros","payInUpTo12InstallmentsWithoutInterest":"em até 12x sem juros"};</script>    <script type="text/javascript">
+        require(['Handlebars'], function(Handlebars) {
+            $LAB.script("/minify/templates.purgatory.hsr.3.69.pt_BR-min-2056799945.js?v=release-2016-01-r3-1309-1510824-1")
+.script("//a.travel-assets.com/bundles/expweb/hotelsearch/templates-bbc87776fea8b576ab1085f5ddb5b2f6-min.js")                .wait(function() {
+                    define('allTemplates', ['priceHelpers', 'purgatoryTemplates'], function() {
+                        'use strict';
+                        return {};
+                    });
+                });
+        });
+    </script>
+
+<script src="/minify/views.hsr.3.69.pt_BR-min-3985046606.js?v=release-2016-01-r3-1309-1510824-1" async></script><!-- 8 ms -->
+
+     
+
+        <!-- Sitespect AA Test Control -->
+        <!-- Sitespect Hook -->
+    <!-- BEGIN SITESPECT.FTL -->
+
+
+
+    
+    
+    
+    
+    
+    
+    
+
+    
+
+    
+    
+
+    
+
+<!-- END SITESPECT.FTL -->
+
+
+
+        <div id="edsContainer"></div>
+    <!--tlpageName:page.hotel-search-frame-->
+
+        <div id="header">
+<!-- NEW_EXPEDIA_HEADER -->
+<!--ActivityId:cb6b052e-72a5-4e38-8653-810dad803ddc;-->
+
+<div class="skip-nav" id="skipNav">
+   <a href="#skip-nav-anchor" data-onclick="xp.nav.trackAnalytics(this,'a','Header.SkipNav')">Ignorar a seção principal da página</a> 
+</div>
+
+<script>
+	$LAB.queueWait(function(){
+	    $('.skip-nav a[href^=#]').on('click', function(e) {
+	      e.preventDefault();
+	      e.stopPropagation();
+	      var focusId = e.currentTarget.getAttribute('href');
+	      uitk.utils.focusElement($(focusId));
+	    });
+	});
+</script>
+
+
+
+
+  <script>
+    $LAB
+.queueScript("/minify/uitk-only-header-bundle-min-461634651.js?v=release-2016-01-r3-1309-1510824-1")
+;
+  </script>
+
+<link rel="stylesheet" href="//www.expedia.com.br/minify/global-header-bundle-min-217788430.css?v=release-2016-01-r3-1309-1510824-1" /><!-- 1 ms -->
+
+
+<link rel="stylesheet" href="//www.expedia.com.br/minify/global-header-responsive-bundle-min-2441224781.css?v=release-2016-01-r3-1309-1510824-1" /><!-- 1 ms -->
+
+
+
+
+
+
+
+
+
+<script>
+
+  var header_feedBackUrl = "//www.expedia.com.br/p/info-outro/feedback";
+  $LAB
+.queueScript("/minify/header-bundle-min-3163186069.js?v=release-2016-01-r3-1309-1510824-1")
+;
+</script>
+
+  <script>
+    $LAB
+.queueScript("/minify/alert-menu-bundle-min-1341489076.js?v=release-2016-01-r3-1309-1510824-1")
+;
+  </script>
+
+  <script>
+    $LAB
+.queueScript("/minify/scratchpad-tray-bundle-min-1329403440.js?v=release-2016-01-r3-1309-1510824-1")
+;
+    if (typeof $LAB !== 'undefined' && typeof $LAB.queueWait == 'function') {
+      $LAB.queueWait(function(){
+          if (typeof jQuery === 'undefined' && window.define && window.require && window.define.amd) {
+          require(['jquery', 'handlebars'], function($) {
+            Scratchpad.init();
+          });
+        } else {
+          Scratchpad.init();
+        }
+      });
+    }
+  </script>
+
+<div role="banner" class="cf">
+
+
+
+
+
+
+
+  <div class="site-header site-header-primary br-pos" role="navigation">
+
+    <div class="cols-row">
+    
+        
+        
+<a id="header-logo" data-tid="header-logo" target="_top" href="//www.expedia.com.br/" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Logo')"> <link rel="stylesheet" type="text/css" href="https://www.expedia.com.br/_dms/css/header.css?locale=pt_BR&siteid=69"> <img itemprop="image" alt="Expedia.com.br" src="https://www.expedia.com.br/_dms/header/logo.svg?locale=pt_BR&siteid=69" onerror="this.src='https://www.expedia.com.br/_dms/header/logo.png?locale=pt_BR&siteid=69';this.onerror='';this.setAttribute('style','');" style="font-size:0;" border="0" /> </a>        
+        
+
+        
+          <ul class="mobile-language-links cf">
+        </ul>
+      <!-- Responsive Menu Toggle -->
+      <button aria-controls="globalSiteNavigation" id="mobile-toggle-header-link" class="btn off-canvas-btn menu-toggle-btn">
+        <span class="visuallyhidden" id="hamburger-menu-text" data-show-text='Exibir menu' data-hide-text='Ocultar menu'>Exibir menu</span>
+        <span class="icon icon-offcanvas" id="header-mobile-toggle" aria-hidden="true"></span>
+      </button>
+      <!-- / End Responsive Menu Toggle -->
+
+	  <div class="site-navigation cf" id="globalSiteNavigation">
+		<ul class="utility-nav below726 nav-group cf">
+<li id="shop-menu"> <a id="header-shop-menu" data-tid="header-shop-menu" href="#shop-menu" class="nav-tab" data-control="menu" data-onclick="xp.nav.trackAnalytics(this,'a','Header.ShopHeading'); return false;"> Compre suas viagens<span class="icon icon-toggle180" aria-hidden="true"></span> </a> <div class="menu"> <ul> <!-- jdbk-test: parameters: shop|hotels|www.expedia.com.br - request.serverName: www.expedia.com.br --> <li> <a id="sub-menu-header-shop-home" target="_top" href="//www.expedia.com.br/" data-onclick="xp.nav.trackAnalytics(this,'a','Header.ExpediaLogo')"> Início </a> </li><li> <a id="sub-menu-header-shop-hotel" target="_top" href="//www.expedia.com.br/Hoteis" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Hotels')"> Hotéis </a> </li><li> <a id="sub-menu-header-shop-flight" target="_top" href="//www.expedia.com.br/passagens-aereas" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Flights')"> Voos </a> </li><li> <a id="sub-menu-header-shop-package" target="_top" href="//www.expedia.com.br/pacotes-de-viagens" data-onclick="xp.nav.trackAnalytics(this,'a','Header.VacationPackages')"> Pacotes </a> </li><li> <a id="sub-menu-header-shop-car" target="_top" href="//www.expedia.com.br/aluguel-de-carros" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Cars')"> Aluguel de Carros </a> </li><li> <a id="sub-menu-header-shop-tshop" target="_top" href="//www.expedia.com.br/Atividades" data-onclick="xp.nav.trackAnalytics(this,'a','Header.ThingsToDo')"> Atividades </a> </li><li> <a id="sub-menu-header-shop-deals" target="_top" href="//www.expedia.com.br/promocoes-de-viagens" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Deals')"> PROMOÇÕES </a> </li><li> <a id="sub-menu-header-shop-disney" target="_top" href="//www.expedia.com.br/p/disney" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Disney')"> Disney </a> </li><li> <a id="sub-menu-header-shop-insurance" target="_top" href="//www.expedia.com.br/seguro" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Insurance')"> Seguro </a> </li><li> <a id="sub-menu-header-shop-rewards" target="_top" href="//www.expedia.com.br/user/expediarewards" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Rewards')"> Rewards </a> </li><li> <a id="sub-menu-header-shop-mobile" target="_top" href="//www.expedia.com.br/app" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.MobileApp')"> Celular </a> </li><li> <a id="sub-menu-header-shop-seo" target="_top" href="http://viajando.expedia.com.br/" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Seo')"> Blog </a> </li> </ul> </div> </li>        </ul>
+
+		<ul class="shop-nav nav-group cf">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li class="alerts-display-wrapper" style="display:none;">
+<link rel="stylesheet" href="/minify/alert-menu-bundle-min-884573977.css?v=release-2016-01-r3-1309-1510824-1" /><!-- 2 ms -->
+<div id="user-alerts-menu" class="menu-bar alert-menu-wrapper"><ul class="menu-bar-inner"><li><a href="#" data-control="menu" data-auto-pos="true" class="trigger-link theme-standard pin-center menu-arrow bell-trigger-link" role="button" aria-expanded="false"><span class="visuallyhidden">Suas notificações</span><span id="accessibleBadge" class="visuallyhidden"></span><div class="badge" aria-hidden="true">1</div><span class="icon icon-notification" aria-hidden="true"></span></a><div class="menu sticky" aria-hidden="true"><div class="menu-main"><div class="arrow"></div><ul><li class="alerts-container"><ul class="scrollable"><li class="alert-item default-alert-item"><div class="alert-body centered"><div class="alert-message">É tudo! <br> Sem mais notificações no momento.</div></div></li></ul></li></ul></div></div></li></ul></div>
+</li>
+
+
+<script>
+   window.alertMenuRequestIds = {
+    TUID: -1,
+    SITEID: 69,
+    GUID: "2c3be6766a2948e995994c022328065e",
+    EXPID: -1
+   };
+  window.alertMenuDisplayStrings = {
+    /* ================ Start Scratchpad/Nudge BETA TEST price change alerts =*/
+    SPHC: "<div class='greeting-icon'><img src='/static/default/default/images/new-header/sp-news-alert-bell.png' alt='news' class='news-icon'></div><div class='greeting-message'>Os preços de alguns itens em seu Scratchpad foram alterados!</div><div class='greeting-submessage'>Os preços de {0} hotéis diminuíram</div><div class='greeting-submessage'>Os preços de {0} hotéis aumentaram</div><button type='button' class='btn-action btn-primary'>Veja o que mudou</button>",
+    SPHCONEUP: "<div class='greeting-icon'><img src='/static/default/default/images/new-header/sp-news-alert-bell.png' alt='news' class='news-icon'></div><div class='greeting-message'>Os preços de alguns itens em seu Scratchpad foram alterados!</div><div class='greeting-submessage'>Os preços de {0} hotéis diminuíram</div><div class='greeting-submessage'>O preço de {0} hotel aumentou</div><button type='button' class='btn-action btn-primary'>Veja o que mudou</button>",
+    SPHCONEDOWN: "<div class='greeting-icon'><img src='/static/default/default/images/new-header/sp-news-alert-bell.png' alt='news' class='news-icon'></div><div class='greeting-message'>Os preços de alguns itens em seu Scratchpad foram alterados!</div><div class='greeting-submessage'>O preço de {0} hotel diminuiu</div><div class='greeting-submessage'>Os preços de {0} hotéis aumentaram</div><button type='button' class='btn-action btn-primary'>Veja o que mudou</button>",
+    SPHCBOTHONE: "<div class='greeting-icon'><img src='/static/default/default/images/new-header/sp-news-alert-bell.png' alt='news' class='news-icon'></div><div class='greeting-message'>Os preços de alguns itens em seu Scratchpad foram alterados!</div><div class='greeting-submessage'>O preço de {0} hotel diminuiu</div><div class='greeting-submessage'>O preço de {0} hotel aumentou</div><button type='button' class='btn-action btn-primary'>Veja o que mudou</button>",
+    /* ================ End Scratchpad/Nudge BETA TEST price change alerts ===*/
+    /* ================ Start Scratchpad/Nudge price change alerts ===========*/
+    SPHCONEUPONLYV2: "<div class='alert-icon up'><img src='/static/default/default/images/scratchpad/alerts-up-2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! 1 preço aumentou. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    SPHCUPONLYV2: "<div class='alert-icon up'><img src='/static/default/default/images/scratchpad/alerts-up-2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! {0} preços aumentaram. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    SPHCONEDOWNONLYV2: "<div class='alert-icon down'><img src='/static/default/default/images/scratchpad/alerts-down-2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! 1 preço diminuiu. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    SPHCDOWNONLYV2: "<div class='alert-icon down'><img src='/static/default/default/images/scratchpad/alerts-down-2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! {0} preços diminuíram. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    SPHCBOTHONEV2: "<div class='alert-icon up-and-down'><img src='/static/default/default/images/scratchpad/alerts-up-down.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! 1 preço diminuiu, 1 preço aumentou. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    SPHCONEUPV2: "<div class='alert-icon up-and-down'><img src='/static/default/default/images/scratchpad/alerts-up-down.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! {0} preços diminuíram, {1} preço aumentou. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    SPHCONEDOWNV2: "<div class='alert-icon up-and-down'><img src='/static/default/default/images/scratchpad/alerts-up-down.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! {0} preço diminuiu, {1} preços aumentaram. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    SPHCV2: "<div class='alert-icon up-and-down'><img src='/static/default/default/images/scratchpad/alerts-up-down.png' alt=''></div><div class='alert-body'><div class='alert-message'>Os itens visualizados foram alterados! {0} preços diminuíram, {1} preços aumentaram. <a href='/scratchpad?rfrr=Header.Notif.SPNews' data-action='spDetailedNews'>Veja os detalhes em seu Scratchpad</a></div></div>",
+    /* ================ End Scratchpad/Nudge price change alerts =============*/
+    /* ================ Start Scratchpad default alerts  =====================*/
+    spSignIn: "<div class='alert-body centered'><div class='alert-message'>Bem-vindo!<br><a href='/user/login?&ckoflag=0' data-action='spSignIn'>Conecte-se para ver as notificações.</a></div></div>",
+    spNudgeEnroll: "<div class='alert-icon'><img src='/static/default/default/images/scratchpad/alerts-mail-72.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Receba informações sobre as alterações de preço e disponibilidade dos hotéis visualizados. Seu Scratchpad pode observar as alterações 24 horas, 7 dias por semana. <a class='spAccessibleButtonLink' href='javascript:void(0)' data-action='spNudgeEnroll' data-trigger-delete='false'>Acompanhar alterações</a></div></div>",
+    spBasicNews: "<div class='alert-icon updown'><img src='/static/default/default/images/scratchpad/alerts-up-down.png' alt=''></div><div class='alert-body'><div class='alert-message'><b>Veja o que mudou!</b> O Scratchpad encontrou uma atualização de pelo menos um hotel visualizado. <a href='/scratchpad?rfrr=Header.Notif.SP' data-action='spBasicNews'>Veja o que mudou</a></div></div>",
+    /* ================ End Scratchpad default alerts  =======================*/
+    /* ================ Start Itin alerts  ===================================*/
+    itinBouncedEmail: "<div class='alert-icon'><img src='/static/default/default/images/scratchpad/alerts-yellowalert-2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Não pudemos enviar a confirmação de sua compra por e-mail. <a href='/trips'>Ver itinerário on-line ou reenviar</a></div></div>",
+    /* ================ End Itin alerts  =====================================*/
+    /* ================ Start Rewards alerts  ================================*/
+    HOTELCOUPONAVAILABILITYV1: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você tem um cupom de {0} disponível. Utilize-o em sua próxima reserva de hotel e economize! <a href='/Hotels?rfrr=Header.Notif.Rewards.ShopHotels'>Reserve hotéis</a></div></div>",
+    HOTELCOUPONAVAILABILITYV2: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você tem um cupom de {0} disponível. Utilize-o em sua próxima reserva de hotel e economize! <a href='/Hotels?rfrr=Header.Notif.Rewards.ShopHotels' target='_blank'>Reserve hotéis</a></div></div>",
+    VIPCOUPONAVAILABILITYV1: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você tem um cupom +VIP Access de {0} disponível. Utilize-o em sua próxima reserva de hotel e economize! <a href='/rewards/vipaccess?rfrr=Header.Notif.Rewards.ShopVIPHotels'>Reserve hotéis +VIP Access</a></div></div>",
+    VIPCOUPONAVAILABILITYV2: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você tem um cupom +VIP Access de {0} disponível. Utilize-o em sua próxima reserva de hotel e economize! <a href='/rewards/vipaccess?rfrr=Header.Notif.Rewards.ShopVIPHotels' target='_blank'>Reserve hotéis +VIP Access</a></div></div>",
+    REWARDSPOINTEXPIRATIONV1: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-warning.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Não perca seus {0} pontos do Expedia+! Utilize-os para um cupom de {1} antes que eles expirem em {2}. <a href='/rewards/redeem?rfrr=Header.Notif.Rewards.RedeemNow' target='_blank'>Utilizar agora</a></div></div>",
+    REWARDSPOINTEXPIRATIONV2: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-warning.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Seus pontos do Expedia+ estão prestes a expirar. Utilize-os agora para obter recompensas. <a href='/rewards/redeem?rfrr=Header.Notif.Rewards.RedeemNow' target='_blank'>Utilizar agora</a></div></div>",
+    HOTELCOUPONEXPIRATIONV1: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-warning.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Seu cupom de {0} expira em {1}!<br>Reserve agora para garantir seus pontos. <a href='/Hotels?rfrr=Header.Notif.Rewards.ShopHotelsExpiring'>Reserve hotéis</a></div></div>",
+    HOTELCOUPONEXPIRATIONV2: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-warning.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você tem um cupom que expira logo. Verifique sua conta para mais detalhes. <a href='/user/account?selc=coupons&rfrr=Header.Notif.Rewards.VisitAcct'>Visite sua conta</a></div></div>",
+    PWPELIGIBILITYHOTELV1: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Receba {0} de desconto em sua próxima estadia de hotel. Você tem {1} pontos do Expedia+ disponíveis para utilização. <a href='/rewards/redeem?rfrr=Header.Notif.Rewards.PwP.Points'>Saiba mais</a></div></div>",
+    PWPELIGIBILITYHOTELV2: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você acumulou {0} Expedia+ pontos, você pode conseguir um desconto de {1} em sua próxima viagem. <a href='/rewards/redeem?rfrr=Header.Notif.Rewards.PwP.CashValue'>Saiba mais</a></div></div>",
+    ONEAWAYSILVER: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-silver-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você só precisa de mais 1 noite para desfrutar de benefícios +silver<br>elite &mdash; comodidades exclusivas e<br>muito mais. <a href='/rewards/silver?rfrr=Header.Notif.Rewards.OneAway.Silver'>Veja todas as vantagens</a></div></div>",
+    ONEAWAYGOLD: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/expus/graphics/other/rewards/icons/rewards-notification-gold-pluses.png' alt=''></div></div><div class='alert-body'><div class='alert-message'>Você só precisa de mais 1 noite para desfrutar de benefícios +gold<br>elite &mdash; upgrades de quarto gratuitos e<br>muito mais. <a href='/rewards/gold?rfrr=Header.Notif.Rewards.OneAway.Gold'>Veja todas as vantagens</a></div></div>",
+    /* ================ End Rewards alerts  ==================================*/
+    /* ================ Start Member deals messaging  ===================================*/
+          
+    MEMBERDEALSNEWSV1: "<div class='alert-icon'><img src='/static/default/default/images/scratchpad/alerts-yellowalert-2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Receba ofertas somente para associados. Crie sua conta da Expedia ainda hoje. <a href='https://www.expedia.com/user/login?uurl=e3id%3Dredr%26rurl%3D%2Fg%2Fr%2Frfd&loyaltyRewardsEnrollSignin=true&memberDeals=true&selc=0&ckoflag=0&rfrr=SP.Global-Merch.MemberDeals'>Inscreva-se agora</a></div></div>",
+    MEMBERDEALSNEWSV2: "<div class='alert-icon'><img src='/static/default/default/images/scratchpad/alerts-yellowalert-2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Desfrute das ofertas para associados e acumule pontos do Expedia+ para suas próximas viagens. <a href='https://www.expedia.com/user/login?uurl=e3id%3Dredr%26rurl%3D%2Fg%2Fr%2Frfd&loyaltyRewardsEnrollSignin=true&memberDeals=true&selc=0&ckoflag=0&rfrr=SP.Global-Merch.MemberRewards'>Inscreva-se agora</a></div></div>",
+    /* ================ End Member deals messaging   =====================================*/
+    /* ================ Start Expedia Extension alerts  =====================*/
+    CHROMEEXTENSIONNEWS: "<div class='alert-icon'><img src='//images.trvl-media.com/media/content/shared/graphics/icons/chrome-web-store_icon_2x.png' alt=''></div><div class='alert-body'><div class='alert-message'>Aqui está a extensão oficial com ofertas somente para associados da Expedia! Fique conectado para receber 10% de desconto sobre os preços de associado. <a id='extension-install-launch' href='javascript:void(0)' data-action='addChromeExtension' data-trigger-delete='true'>Adicionar ao Chrome</a></div></div>",
+    /* ================ End Expedia Extension alerts  =======================*/
+    /* ================ Start AARP alerts  ===================================*/
+    AARPMEMBERLINK: "<div class='alert-icon' style='color:green'><span class='icon icon-infoalt' aria-hidden='true'></span></div><div class='alert-body'><div class='alert-message'>Ganhe descontos para associados AARP no <a href=\'//www.expedia-aarp.com/\'>AARP Travel Center</a></div></div>",
+    /* ================ End AARP alerts  =====================================*/
+  };
+
+  window.alertMenuClickHandlers = {
+    spSignIn: function(e, alertItemRef) {
+        if (window.AlertsMenu) {
+            AlertsMenu.sendeVar28('Header.Notif.SP.SignIn');
+        }
+    },
+    spNudgeEnroll: function(e, alertItemRef) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        var $target = $(e.target).closest('.alert-item');
+
+        $target
+            .find('.close-button')
+            .remove();
+
+        $target
+            .find('.alert-message')
+            .html('Enviaremos atualizações do Scratchpad para seu e-mail. Fique de olho em suas mensagens!');
+        
+        if (Scratchpad.state.loggedInUser) {
+            uitk.utils.liveAnnounce('Enviaremos atualizações do Scratchpad para seu e-mail. Fique de olho em suas mensagens!');
+        }
+
+        if (window.uitk 
+        && window.uitk.utils 
+        && window.uitk.utils.focusElement) {
+            uitk.utils.focusElement($target);
+        }
+
+        if (window.AlertsMenu) AlertsMenu.sendeVar28('Header.Notif.SP.OptIn');
+        if (window.Scratchpad) Scratchpad.enrollInNudge();
+    },
+    spBasicNews: function(e, alertItemRef) {
+        if (window.AlertsMenu) {
+            AlertsMenu.sendeVar28('Header.Notif.SP.News');
+        }
+    },
+    spDetailedNews: function(e, alertItemRef) {
+        if (window.AlertsMenu) {
+            AlertsMenu.sendeVar28('Header.Notif.SP.LiveAlerts');
+        }
+    },
+    addChromeExtension: function(e, alertItemRef)
+    {
+        function successCallback ()
+        {
+            dctk.loggingAdapter.logMessage("ChromeExpediaExtensionSuccessful")
+            if(localStorage)
+            {
+                var date = new Date($.now());
+                var month = date.getUTCMonth() + 1;
+                var day = date.getUTCDate();
+                var year = date.getUTCFullYear();
+                var hours = date.getUTCHours();
+                var minutes = date.getUTCMinutes();
+                var seconds = date.getUTCSeconds();
+
+                var logDate = year + "-" + month + "-" + day + " " + hours + ":" + minutes + ":" + seconds;
+                localStorage.setItem("chromeExtensionInstallCTA", logDate);
+            }
+        }
+
+        function failureCallback (error)
+        {
+            dctk.loggingAdapter.logError("ChromeExpediaExtensionFailed", error)
+        }
+
+
+         if (window.AlertsMenu)
+            {
+                AlertsMenu.sendeVar28('HP.notbell');
+            }
+
+
+        chrome.webstore.install("https://chrome.google.com/webstore/detail/cfbpcgmafclgfmpoelldpmiolgblgbel", successCallback, failureCallback);
+    }
+  };
+
+
+  if (window.define && window.require)
+  {
+          require(['jquery'], function ($) {
+          $('#extension-install-launch').on('click', function () {
+              alertMenuClickHandlers.addChromeExtension();
+          });
+      });
+  }
+
+
+      /*===========Accessible Strings============*/
+  window.accessibleBadgeMessage = "Você tem 1 notificação";
+  window.accessibleBadgeMessagePlural = "Você tem {0} notificações";
+  window.accessibleNotifClose = "Fechar";
+</script>
+
+
+<li id="utility-menu"> <a id="header-account-menu" data-tid="header-account-menu" href="#utility-menu" class="nav-tab" data-control="menu" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.AccountHeading'); return false;">Conta<span class="icon icon-toggle180" aria-hidden="true"></span></a> <div class="menu"> <ul> <li> <a id="header-account-signin" data-tid="header-account-signin" target="_top" href="https://www.expedia.com.br/user/signin?ckoflag=0 " rel="nofollow" data-onclick="appendRedirectionUrl(this); xp.nav.trackAnalytics(this,'a','Header.Signin'); return false;"> Conecte-se </a> </li> <li> <a id="header-account-register" data-tid="header-account-register" target="_top" href="https://www.expedia.com.br/user/createaccount? " rel="nofollow" data-onclick="appendRedirectionUrl(this); xp.nav.trackAnalytics(this,'a','Header.CreateAccount'); return false;"> Crie uma conta </a> </li> </ul> </div> </li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <li class="user-history-tab scratchpad " data-control="tooltip" data-trigger="" data-content='        <div class="hotel-saved-default"><span>Este hotel foi salvo em seu Scratchpad.</span></div>
+        <div class="search-saved-default"><span>Esta busca foi salva em seu Scratchpad.</span></div>
+        <div class="flight-saved-default"><span>Este voo foi salvo em seu Scratchpad.</span></div>
+        <div class="hotel-saved-cta"><span>Este hotel foi salvo em seu Scratchpad.</span></div>
+        <div class="search-saved-cta"><span>Esta busca foi salva em seu Scratchpad.</span></div>
+        <div class="flight-saved-cta"><span>Este voo foi salvo em seu Scratchpad.</span></div>
+        <div class="enroll-success">Ótimo! Você receberá um e-mail quando houver alterações de preço.</div>
+' data-arrow="true" data-fade="out" data-width="250" data-js-theme="urgency" data-tt-color="yellow">
+        <a id="header-history" data-tid="header-history" target="_top" href="https://www.expedia.com.br/scratchpad
+" class="nav-tab" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.SP.Tray.Interaction')" data-identifieduser="false" data-guestuser="false">
+Meu Scratchpad          <span class="scratchpad-flare"></span>
+          <span id="scratchpad-badge" class="badge badge-urgent badge-secondary badge-notification visuallyhidden" aria-hidden="true"></span>
+          <span id="accessibleTrayBadge" class="visuallyhidden"></span>
+        </a>
+        <div class="scratchpad-arrow">&nbsp;</div>
+        <div class="menu double-wide">
+          <div class="scratchpad-menu-wrapper">
+
+
+
+<script>
+  window.scratchpadNudgeAllowed = false;
+  window.scratchpadBadgeFlareTLFlag = 0;
+  window.scratchpad2ColTrayTestBucket = 0;
+  window.scratchpadUseLiveAlertsAsNews = 0;
+  window.scratchpadBlockFSRTooltip = (false === "true");
+  window.accessibleTrayBadgeOne = "Você tem 1 item em seu Scratchpad";
+  window.accessibleTrayBadgePlural = "Você tem #### itens em seu Scratchpad";
+  window.scratchpadLocStrings = {
+    scratchpadName: 'Scratchpad',
+    seePrice: 'Ver preço',
+    asOfDate: 'em ####',
+    asOfTime: 'à(s) ####',
+    from: 'a partir de ####',
+    oneWay: 'Somente ida',
+    roundTrip: 'Ida e volta',
+    fromTo: '#### para ####',
+    others: 'Mais #### pessoas visualizando agora',
+    other: '1 pessoa visualizando agora',
+    plus: '#### + ####',
+    included: '#### e #### incluídos',
+    notesConfirmation: 'Enviaremos atualizações do Scratchpad para seu e-mail. Fique de olho em suas mensagens!',
+    defaultHeaderMessage: 'Os itens visualizados em sua visita ao site são salvos aqui. Continue de onde parou.',
+    getUpdates: 'Receba atualizações do Scratchpad no e-mail.',
+    thingsSavedHere: 'Os itens visualizados em sua visita ao site são salvos aqui.',
+    viewScratchpad: 'Ver Scratchpad',
+    viewAllItems: 'Ver todos os #### itens',
+    searchIsSaved: 'Esta busca foi salva em seu Scratchpad.',
+    sendNotesTo: 'Enviaremos atualizações para ####. Fique de olho em suas mensagens!',
+    pageGetUpdates: 'Receba atualizações em seu Scratchpad.',
+    notAvailable: 'Indisponível em nosso site',
+    findOutWhy: 'Saber o motivo',
+    room: '1 quarto restante a esse preço em nosso site',
+    roomShort: '1 quarto restante em nosso site',
+    rooms: '#### quartos restantes a este preço em nosso site',
+    roomsShort: '#### quartos restantes em nosso site',
+    packages: 'Pacotes para ####',
+    flight: 'Voo',
+    hotel: 'hotel',
+    car: 'carro' ,
+    othersSearching: '#### pessoas buscando agora' ,
+    hotels: 'Hotéis em ####' ,
+    fromToHyphen: '#### - ####',
+    hotelSearchAvgPerNight:  'méd. por noite',
+    personBooked: '1 pessoa reservou este hotel',
+    peopleBooked: '#### pessoas reservaram este hotel',
+    perPerson: 'por pessoa</p>',
+    detachedBanner: '<b>O Scratchpad continuará a acompanhar as alterações, mesmo se você for para outras páginas.</b> Conecte-se para visualizar suas buscas de qualquer dispositivo.',
+    friendlyOptInConfirmationOn: 'Seu Scratchpad está acompanhando as alterações de preço e disponibilidade. Fique de olho em suas mensagens em ####',
+    friendlyOptInConfirmationOff: 'Receba informações sobre alterações de preço e disponibilidade dos hotéis salvos em seu Scratchpad por e-mail.',
+    airlineLogoAltText: 'Logotipo da',
+    multipleAirlinesLogoAltText: 'Logotipo de várias companhias aéreas',
+    charRemaining: '1 caractere restante',
+    charsRemaining: '#### caracteres restantes',
+    priceUpDot: 'Subiu ####',
+    priceDownDot: 'Baixou ####',
+    peopleBookedDot: '#### pessoas reservaram',
+    personBookedDot: '1 pessoa reservou',
+    daily: 'diária',
+    carsAt: "Carros em ####",
+    carsNear: "Carros próximos a ####",
+    personBookedMinified: 'Reservado por 1 pessoa',
+    peopleBookedMinified: 'Reservado por #### pessoas',
+    peopleBookedDated: 'Reservado por #### pessoas em suas datas',
+    personBookedDated: 'Reservado por 1 pessoa em suas datas',
+    allDestinations : 'Todos os destinos de cruzeiro',
+    allMonths : 'Todos os meses'
+  };
+</script>
+
+<script id="hotel-tray-item-template" type="text/x-handlebars-template">
+  <li class="scratchpad-item">
+      <a href="{{deepLinkUrl}}" class="item-link" data-onclick="">
+        <div class="item-data">
+          <span class="item-img-icon">
+            {{#if thumbnailUrl}}
+<figure class="image aspect-ratio1-1" data-media-type="image" data-src="//images.trvl-media.com{{thumbnailUrl}}" data-alt="{{hotelName}}" data-aspect-ratio="1-1" data-class="tile-media"><img src="//images.trvl-media.com{{thumbnailUrl}}" alt="{{hotelName}}" class="tile-media"/></figure>
+            {{else}}
+              <figure class="aspect-ratio16-9 image no-image" data-media-type="image" data-lazy="true" data-late="false" data-downgrade="false" data-aspect-ratio="16-9" data-class="tile-media" style="background-size:110%"></figure>
+            {{/if}}
+          </span>
+          <h4 class="item-title">{{hotelName}}</h4>
+          <p class="item-date">{{checkInDate}} - {{checkOutDate}}</p>
+          <p class="item-watches item-nested">{{viewership viewCount}}</p>
+          <div class="item-price-urgency"><strong class="price">{{price}}</strong><p class="item-nested">{{lastSeenDate}}</p></div>
+        </div>
+      </a>
+    </li>
+</script>
+
+
+<script id="hotel-search-tray-item-template" type="text/x-handlebars-template">
+    <li class="scratchpad-item">
+        <a href="{{deepLinkUrl}}" class="item-link" data-onclick="">
+            <div class="item-data">
+                <span class="item-img-icon"><span class="icon icon-hotelsalt" aria-hidden="true"></span></span>
+                <h4 class="item-title">{{localizer "hotels" destination }}</h4>
+                <p class="item-date">{{localizer "fromToHyphen" checkInDate checkOutDate}}</p>
+                {{#if amount}}
+                <div class="item-price-urgency"><strong class="price">{{price}}</strong><p class="item-package-meesage">{{localizer "hotelSearchAvgPerNight"}}</p> <p class="item-nested">{{localizer "asOfDate" lastSeenDate}}</p></div>
+                {{else}}
+                <div class="item-price-urgency"><strong class="price"></strong><p class="item-nested">Ver preço</p></div>
+                {{/if}}
+                <p class="item-watches item-nested">{{#if viewCount}}<span>{{localizer "othersSearching" viewCount}}</span>{{/if}}&nbsp;</p>
+            </div>
+        </a>
+    </li>
+</script>
+
+<script id="flight-tray-item-template" type="text/x-handlebars-template">
+  <li class="scratchpad-item">
+    <a href="{{deepLinkUrl}}" class="item-link" data-onclick="">
+      <div class="item-data">
+        <span class="item-img-icon">
+          <span class="icon icon-flightsalt" aria-hidden="true"></span>
+        </span>
+        <h4 class="item-title">{{airportToAirport}}</h4>
+        <p class="item-date">{{departureDate}}{{returnDate}}</p>
+        <p class="item-info item-nested">{{routeType}}</p>
+        <div class="item-price-urgency"><strong class="price">{{price}}</strong><p class="item-nested">{{lastSeen}}</p></div>
+      </div>
+    </a>
+  </li>
+</script>
+
+<script id="flight-detail-tray-item-template" type="text/x-handlebars-template">
+    <li class="scratchpad-item flight-detail">
+        <a href="{{deepLinkUrl}}" class="item-link" data-onclick="">
+            <div class="item-data">
+                {{#each legs}}
+                <h4 class="item-title {{#if @index}}item-group-gap{{/if}}">{{departureAirportCode}} para {{arrivalAirportCode}}</h4>
+                <p class="item-date">
+                    <span class="departure-date">{{departureDate}}</span><!--
+                --><span class="time-range">{{departureTime}} - {{arrivalTime}}</span>
+                    {{#if numberOfDays}}<span class="number-of-days">+{{numberOfDays}}</span>{{/if}}
+                </p>
+                {{/each}}
+                <div class="item-price-urgency"><strong class="price">{{formattedPricePerPerson}}</strong><p class="item-nested">{{lastSeen}}</p></div>
+                <span class="item-img-icon">
+                    {{#each legs}}
+                    <span class="icon {{#if @index}}item-group-gap{{/if}}">
+
+<figure class="image aspect-ratio1-1 airline-image" data-media-type="image" data-lazy="true" data-src="//images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/vector/s/{{#if airlineImageFileName}}{{airlineImageFileName}}{{else}}multiple_airlines_logo{{/if}}_sq.svg" data-alt="{{#if airlineImageFileName}}{{airlineName}} Logotipo da{{else}}Logotipo de várias companhias aéreas{{/if}}" data-aspect-ratio="1-1" data-svgfallback="//images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/s/{{airlineImageFileName}}_sq.jpg" data-class="tile-media"><noscript><img src="//images.trvl-media.com/media/content/expus/graphics/static_content/fusion/v0.1b/images/airlines/vector/s/{{#if airlineImageFileName}}{{airlineImageFileName}}{{else}}multiple_airlines_logo{{/if}}_sq.svg" alt="{{#if airlineImageFileName}}{{airlineName}} Logotipo da{{else}}Logotipo de várias companhias aéreas{{/if}}" class="tile-media"/></noscript></figure>
+                    </span>
+                    {{/each}}
+                </span>
+            </div>
+        </a>
+    </li>
+</script>
+
+<script id="package-tray-item-template" type="text/x-handlebars-template">
+    <li class="scratchpad-item">
+        <a href="{{deepLinkUrl}}" class="item-link" data-onclick="">
+            <div class="item-data">
+                <span class="item-img-icon"><span class="icon icon-packagesalt" aria-hidden="true"></span></span>
+                <h4 class="item-title">Pacotes para {{packageDestination}}</h4>
+                <p class="item-date item-nested">{{departureDate}} {{returnDate}}</p>
+                <p class="item-info item-nested"> {{productDescription products}} </p>
+                <div class="item-price-urgency"><strong class="price"> {{price}} </strong> <p class="item-package-meesage"> por pessoa</p><p class="item-nested">{{lastSeen}}</p></div>
+            </div>
+        </a>
+    </li>
+</script>
+
+<script id="car-search-tray-item-template" type="text/x-handlebars-template">
+  <li class="scratchpad-item">
+    <a href="{{deepLink}}" class="item-link" data-onclick="">
+      <div class="item-data">
+        <span class="item-img-icon">
+<span class="icon icon-carsalt" aria-hidden="true"></span>        </span>
+        <h4 class="item-title">
+            {{txtPreLocation}}
+        </h4>
+        <p class="item-date item-nested">{{pickupDate}} - {{dropOffDate}}</p>
+        <p class="item-dummy item-nested"></p>
+        <div class="item-price-urgency"><strong class="price">{{price}}</strong>diária<p class="item-nested">{{lastSeen}}</p></div>
+      </div>
+    </a>
+  </li>
+</script>
+
+<script id="cruise-search-tray-item-template" type="text/x-handlebars-template">
+      <li class="scratchpad-item">
+        <a href="{{deepLink}}" class="item-link" data-onclick="">
+          <div class="item-data">
+            <span class="item-img-icon">
+<span class="icon icon-cruisealt" aria-hidden="true"></span>            </span>
+            <h4 class="item-title">
+                {{destination}}
+            </h4>
+            <p class="item-date item-nested">{{departureDate}}</p>
+            <p class="item-dummy item-nested"></p>
+            <div class="item-price-urgency"><strong class="price">{{price}}</strong>por noite<p class="item-nested">{{lastSeen}}</p></div>
+          </div>
+        </a>
+      </li>
+</script>
+
+<div class="menu-header scratchpad-greeting cf" style="display:none;">
+
+  <div class="greeting-icon" style="display:none;"><img src="/static/default/default/images/new-header/sp-news-alert-bell.png" alt="news" class="news-icon"></div>
+  <div class="greeting-message" style="display:none;">Os itens visualizados em sua visita ao site são salvos aqui.</div>
+  <div class="greeting-submessage" style="display:none;">Os itens visualizados em sua visita ao site são salvos aqui.</div>
+  <div class="optional-save-buttons" style="display:none;">
+<button type="button" class="btn-primary btn-action"><span class="btn-label">Salvar Scratchpad</span></button>
+  </div>
+  <div class="optional-notes-buttons" style="display:none;">
+<button type="button" class="btn-primary btn-action"><span class="btn-label">Enviar atualizações</span></button>
+  </div>
+  <div class="optional-news-buttons" style="display:none;">
+<button type="button" class="btn-primary btn-action"><span class="btn-label">Enviar atualizações</span></button>
+  </div>
+  <div class="optional-deals-buttons" style="display:none;">
+<button type="button" class="btn-primary btn-action"><span class="btn-label">Enviar atualizações</span></button>
+  </div>
+</div>
+
+<div class="divider"></div>
+
+<ul class='item-list'>
+</ul>
+  
+<div class="scratchpad-item last-tray-item" data-test="">
+  <a href="/scratchpad?rfrr=SP.Tray.SP" class="view-all-history item-link" data-onclick="">Ver Scratchpad</a>
+</div>          </div>
+        </div>
+    </li>
+
+    <li id="trip-menu">
+<a id="header-trip-menu" data-tid="header-trip-menu" target="_top" href="#trip-menu" class="nav-tab" data-control="menu" data-onclick="xp.nav.trackAnalytics(this,'a','Header.TripsHeading'); return false;"> Gerenciar viagens<span class="icon icon-toggle180" aria-hidden="true"></span> </a>        <div class="menu">
+            <ul>
+<li id="utility-link"> <a id="header-itineraries" data-tid="header-itineraries" target="_top" href="https://www.expedia.com.br/trips " rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.MyItineraries'); fillTestOverrideParams()"> Itinerários </a> </li>    <!-- jdbk-test: parameters: util||www.expedia.com.br - request.serverName: www.expedia.com.br -->
+
+
+
+
+<li> <a id="header-cancel_booking-trip" href="//www.expedia.com.br/pub/agent.dll?qscr=litn" target="_top" data-onclick="xp.nav.trackAnalytics(this,'a','Header.CancelHotel');"> Cancelar sua reserva de hotel </a> </li>
+            </ul>
+        </div>
+    </li>
+
+<li id="support-menu">
+<a id="header-support-menu" data-tid="header-support-menu" href="#support-menu" class="nav-tab" data-control="menu" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.SupportHeading'); return false;"> Suporte<span class="icon icon-toggle180" aria-hidden="true"></span> </a>    <div class="menu">
+    <ul>
+        <li>
+<a id="header-support-cs" data-tid="header-support-cs" target="_top" href="/service" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.CustSupport')">Atendimento ao Cliente</a>    	</li>
+    <li>
+        <script>
+    if (typeof $LAB === 'object' && typeof $LAB.queueScript === 'function') {
+        $LAB.queueScript('/static/default/default/scripts/external/opinionlab/oo_engine.js?v=1');
+    }
+    else {
+        var head= document.getElementsByTagName('head')[0];
+        var script= document.createElement('script');
+        script.type= 'text/javascript';
+        script.src= '/static/default/default/scripts/external/opinionlab/oo_engine.js?v=1';
+        head.appendChild(script);
+    }
+    </script>
+<a id="header-support-feedback" data-tid="header-support-feedback" target="_top" href="/p/info-outro/feedback" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Feedback');headerFeedback();return false;">Opinião</a>    </li>
+</ul>
+</div>
+</li>
+
+		</ul>
+	</div> <!-- /.site-navigation -->
+	  
+          
+    </div> <!-- /.cols-row role="banner" -->
+
+
+          <div  class="cols-row  cf pt_BR partner-loyalty-module ">
+ 
+          </div>
+
+
+  </div> <!-- /.site-header -->
+
+  <div class="site-header site-header-secondary" role="navigation">
+    <div class="cols-row">
+      <!-- hotels -->
+      <div class="site-navigation all-in cf">
+        <ul class="utility-nav nav-group cf">
+    <!-- jdbk-test: parameters: all-in|hotels|www.expedia.com.br - request.serverName: www.expedia.com.br -->
+
+
+
+
+<li id="all-in-home-header-link"> <a id="primary-header-home" data-key="home" target="_top" href="//www.expedia.com.br/" data-onclick="xp.nav.trackAnalytics(this,'a','Header.ExpediaLogo')"> Início </a> </li><li id="all-in-hotel-header-link" class="selected-tab "> <a id="primary-header-hotel" data-key="hotel" target="_top" href="//www.expedia.com.br/Hoteis" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Hotels')"> Hotéis </a> </li><li id="all-in-flight-header-link"> <a id="primary-header-flight" data-key="flight" target="_top" href="//www.expedia.com.br/passagens-aereas" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Flights')"> Voos </a> </li><li id="all-in-package-header-link"> <a id="primary-header-package" data-key="package" target="_top" href="//www.expedia.com.br/pacotes-de-viagens" data-onclick="xp.nav.trackAnalytics(this,'a','Header.VacationPackages')"> Pacotes </a> </li><li id="all-in-car-header-link"> <a id="primary-header-car" data-key="car" target="_top" href="//www.expedia.com.br/aluguel-de-carros" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Cars')"> Aluguel de Carros </a> </li><li id="all-in-tshop-header-link"> <a id="primary-header-tshop" data-key="tshop" target="_top" href="//www.expedia.com.br/Atividades" data-onclick="xp.nav.trackAnalytics(this,'a','Header.ThingsToDo')"> Atividades </a> </li><li id="all-in-deals-header-link"> <a id="primary-header-deals" data-key="deals" target="_top" href="//www.expedia.com.br/promocoes-de-viagens" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Deals')"> PROMOÇÕES </a> </li><li id="all-in-disney-header-link" class=" all-in-full"> <a id="primary-header-disney" data-key="disney" target="_top" href="//www.expedia.com.br/p/disney" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Disney')"> Disney </a> </li><li id="all-in-insurance-header-link" class=" all-in-full"> <a id="primary-header-insurance" data-key="insurance" target="_top" href="//www.expedia.com.br/seguro" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Insurance')"> Seguro </a> </li><li id="all-in-rewards-header-link" class=" all-in-full"> <a id="primary-header-rewards" data-key="rewards" target="_top" href="//www.expedia.com.br/user/expediarewards" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Rewards')"> Rewards </a> </li><li id="all-in-mobile-header-link" class=" all-in-full"> <a id="primary-header-mobile" data-key="mobile" target="_top" href="//www.expedia.com.br/app" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.MobileApp')"> Celular </a> </li><li id="all-in-seo-header-link" class=" all-in-full"> <a id="primary-header-seo" data-key="seo" target="_top" href="http://viajando.expedia.com.br/" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Seo')"> Blog </a> </li>  <li id="all-in-shop-menu-link" class="all-in-collapsed">
+    <a id="all-in-header-shop-menu" data-tid="header-shop-menu" target="_top" href="#more-shop-menu" class="nav-tab" data-control="menu" data-onclick="return false;">
+        Mais<span class="icon icon-toggle180"></span>
+    </a>
+    <div class="menu">
+      <ul>
+<li> <a id="header-account-disney-more-menu" target="_top" href="//www.expedia.com.br/p/disney" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Disney')"> Disney </a> </li><li> <a id="header-account-insurance-more-menu" target="_top" href="//www.expedia.com.br/seguro" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Insurance')"> Seguro </a> </li><li> <a id="header-account-rewards-more-menu" target="_top" href="//www.expedia.com.br/user/expediarewards" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Rewards')"> Rewards </a> </li><li> <a id="header-account-mobile-more-menu" target="_top" href="//www.expedia.com.br/app" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Header.MobileApp')"> Celular </a> </li><li> <a id="header-account-seo-more-menu" target="_top" href="http://viajando.expedia.com.br/" data-onclick="xp.nav.trackAnalytics(this,'a','Header.Seo')"> Blog </a> </li>      </ul>
+    </div>
+  </li>
+
+        </ul>
+      </div> <!-- /.site-navigation all-in -->
+
+       <!-- end if block for !model.isBlank -->
+
+
+    </div> <!-- /.cols-row role="banner" -->
+  </div> <!-- /.site-header -->
+
+<!-- NewsFeed Scala Service for the bell icon -->
+<span id="newsFeed-scalatra-app-url" data-id="https://newsfeed-scalatra-service.us-east-1.prod.expedia.com" style="display: none;"></span>
+
+<span id="scratchpad-badge-guid" data-id="2c3be676-6a29-48e9-9599-4c022328065e" style="display: none;"></span>
+<span id="scratchpad-badge-tuid" data-id="-1" style="display: none;"></span>
+<span id="scratchpad-badge-expuserid" data-id="-1" style="display: none;"></span>
+<span id="scratchpad-badge-url" data-id="https://userhistory-web.us-east-1.prod.expedia.com/service" style="display: none;"></span>
+<span id="scratchpad-badge-lobs" data-id="HOTEL_SEARCH,HOTEL_DETAIL,AIR_SEARCH,PACKAGE_SEARCH,AIR_DETAIL,CAR_SEARCH" style="display: none;"></span>
+<span id="scratchpad-badge-site-id" data-id="69" style="display: none;"></span>
+<span id="scratchpad-badge-tpid" data-id="69" style="display: none;"></span>
+<span id="scratchpad-badge-eapid" data-id="0" style="display: none;"></span></div> <!-- /role="banner" -->
+
+  <script>
+    $LAB
+    .queueScript("/static/default/default/scripts/inauth/inauth.js")
+  </script>
+
+
+    <div id="skip-nav-anchor" class="visuallyhidden" tabindex="-1">Início da seção principal da página</div>
+
+        </div>
+
+
+
+        <form id="searchForm" action="/Hotel-Search" method="POST">
+
+            <div id="historyTabs" class="box hidden">
+                <div class="cols-row">
+                    <div id="historyTabContainer"></div>
+                </div>
+            </div>
+
+            <div id="wizard">
+                <div id="wizardResponsiveContainer" class="cols-row site-content cf"></div>
+            </div>
+            
+			<div id="banners"></div>
+            <div id="modSignUpBanner"></div>
+            <div id="mainContent" class="site-content-wrap">
+                <div id="airAttachContainer"></div>
+                <div class="site-content cols-row cf" role="region">
+    <div id="headerAdsContainer">
+    <div id="CENTERTOP1" class="ad" style="overflow:hidden;width:740px;max-height:50px;margin-left:auto;margin-right:auto;"></div>
+    <script>
+(function (w) { try { w.expads = w.expads || {}; w.expads.slots = w.expads.slots || {}; w.expads.slots["CENTERTOP1"] = { height: 50, width: 740, path: "/23171577/expedia.br_pt/hotels/results/CT1", sizeMap: {}, slotTargeting: {"placementId":"CENTERTOP1"} }; } catch (e) { console.log(e.message); } })(window);    </script>
+    </div>
+
+    <img id="hookLogicPageViewPixel" base-url="//beam.hlserve.com/travel?action=pageview&programId=1&domain=www.expedia.com.br&culture=pt-BR&publisher=expedia&pageName=Hotel-Search&publisherUserGuid=2c3be6766a2948e995994c022328065e&userIP=187.1.61.26&userAgent=crawler4j+%28https%3A%2F%2Fgithub.com%2Fyasserg%2Fcrawler4j%2F%29&testVersion=7781.0%2C9029.0" style="display:none;" />
+                    <div id="errorContainer"></div>
+                    <div id="backToRetailSearchContainer"></div>
+                    <div id="pageTitleContainer"></div>
+                    <div id="disambigContainer"></div>
+                    <div id="filterOrientation" class="hidden">
+                        <span id="orientationTaapHotelTypeContainer"></span>
+                        <ul id="orientationHotelNameContainer" class="filterOrientationContainer"></ul>
+                        <span id="orientationRatingContainer"></span>
+                        <span id="orientationPoiContainer"></span>
+                        <ul id="orientationNeighborhoodContainer2" class="filterOrientationContainer"></ul>
+                        <span id="orientationNeighborhoodContainer"></span>
+                        <ul id="orientationAmenitiesContainer" class="filterOrientationContainer"></ul>
+                        <span id="orientationPriceContainer"></span>
+                        <span id="orientationTopThemeContainer"></span>
+                        <span id="orientationLodgingContainer"></span>
+                        <span id="orientationMealplansContainer" class="filterOrientationContainer"></span>
+                        <span id="orientationAccessibilityContainer" class="filterOrientationContainer"></span>
+                        <ul id="orientationAmenitiesContainer2" class="filterOrientationContainer"></ul>
+                    </div>
+
+                    <aside id="acol" class="col hsrFilters" role="complementary">
+                        <!-- A-Column Content Here... -->
+                        <div id="filterCloseButtonContainer">
+                            <button type="button" class="btn-close btn-primary" id="acol-filter-close" data-track="HOT:SR:FilterFootprintClose">
+                                <span class="icon icon-close"> </span>
+                            </button>
+                        </div>
+                        <div id="googleMapContainer"></div>
+                        <div id="aColDisclaimerContainer"></div>
+                        <div id="hotelNameContainer"></div>
+                        <div class="filterDisclaimer"></div>
+                        <div id="taapHotelTypeContainer"></div>
+                        <div id="ratingContainer" class="rangeFilter"></div>
+                        <div id="priceFilterContainer" class="rangeFilter"></div>
+                        <div id="topThemeContainer"></div>
+                        <fieldset id="poiFilterContainer" class="rangeFilter filterContainer"></fieldset>
+                        <div id="neighborhoodContainer2"></div>
+                        <div id="neighborhoodContainer"></div>
+                        <fieldset id="lodgingTypecontainer" class="filterContainer"></fieldset>
+                        <div id="mealplansContainer"></div>
+                        <fieldset id="amenitiesContainer" class="filterContainer"></fieldset>
+                        <div id="accessibilitiesContainer"></div>
+                        <div id="familyHotelsContainer"></div>
+                        <div id="amenitiesTAContainer" class="filterContainer"></div>
+                        <div id="multiFilterSelectionContainer"></div>
+                    </aside>
+
+                    <section id="bcol" class="col" role="main">
+                        <div class="bColumn">
+                            <div id="cityContainer"></div>
+                            <div id="sortContainer"></div>
+                            <div id="searchSmartFinderContainer"></div>
+                            <div id="tonightOnlyBannerContainer"></div>
+                            <div id="themeContainer"></div>
+                            <div id="guidedContainer"></div>
+							<div id="compressionContainer"></div>
+                            <div id="matrixContainer"></div>
+                            <div id="headerDisclaimerContainer"></div>
+                            <h2 class="visuallyhidden">Hotel Search Results</h2>
+                            <div id="resultsContainer"></div>
+                            <div id="strikeTooltip" class="hidden">
+                                <p>O preço riscado indica a tarifa padrão do hotel.</p>
+                            </div>
+                            <div id="paginationContainer"></div>
+                            <ul id="disclaimerContainer"></ul>
+    <div id="bottomAdsContainer">
+    <div id="CENTERMIDDLE1" class="ad" style="overflow:hidden;width:728px;max-height:90px;margin-left:auto;margin-right:auto;"></div>
+    <script>
+(function (w) { try { w.expads = w.expads || {}; w.expads.slots = w.expads.slots || {}; w.expads.slots["CENTERMIDDLE1"] = { height: 90, width: 728, path: "/23171577/expedia.br_pt/hotels/results/CM1", sizeMap: {}, slotTargeting: {"placementId":"CENTERMIDDLE1"} }; } catch (e) { console.log(e.message); } })(window);    </script>
+    <div id="CENTERMIDDLE2" class="ad" style="overflow:hidden;width:468px;max-height:60px;margin-left:auto;margin-right:auto;"></div>
+    <script>
+(function (w) { try { w.expads = w.expads || {}; w.expads.slots = w.expads.slots || {}; w.expads.slots["CENTERMIDDLE2"] = { height: 60, width: 468, path: "/23171577/expedia.br_pt/hotels/results/CM2", sizeMap: {}, slotTargeting: {"placementId":"CENTERMIDDLE2"} }; } catch (e) { console.log(e.message); } })(window);    </script>
+    <div id="CENTERMIDDLE3" class="ad" style="overflow:hidden;width:300px;max-height:50px;margin-left:auto;margin-right:auto;"></div>
+    <script>
+(function (w) { try { w.expads = w.expads || {}; w.expads.slots = w.expads.slots || {}; w.expads.slots["CENTERMIDDLE3"] = { height: 50, width: 300, path: "/23171577/expedia.br_pt/hotels/results/CM3", sizeMap: {}, slotTargeting: {"placementId":"CENTERMIDDLE3"} }; } catch (e) { console.log(e.message); } })(window);    </script>
+
+    </div>
+                        </div>
+                    </section>
+
+            <aside id="ccol" class="ad-container">
+    <div id="RIGHT1" class="ad" style="overflow:hidden;width:160px;max-height:600px;margin-left:auto;margin-right:auto;"></div>
+    <script>
+(function (w) { try { w.expads = w.expads || {}; w.expads.slots = w.expads.slots || {}; w.expads.slots["RIGHT1"] = { height: 600, width: 160, path: "/23171577/expedia.br_pt/hotels/results/R1", sizeMap: {}, slotTargeting: {"placementId":"RIGHT1"} }; } catch (e) { console.log(e.message); } })(window);    </script>
+<div id="travelad-D-column" class="ad travelad_D_column"></div>
+    <div id="RIGHT2" class="ad" style="overflow:hidden;width:160px;max-height:600px;margin-left:auto;margin-right:auto;"></div>
+    <script>
+(function (w) { try { w.expads = w.expads || {}; w.expads.slots = w.expads.slots || {}; w.expads.slots["RIGHT2"] = { height: 600, width: 160, path: "/23171577/expedia.br_pt/hotels/results/R2", sizeMap: {}, slotTargeting: {"placementId":"RIGHT2"} }; } catch (e) { console.log(e.message); } })(window);    </script>
+            </aside>
+                </div>
+            </div>
+        </form>
+        <div id="footer">
+
+
+
+<link rel="stylesheet" href="//www.expedia.com.br/minify/global-footer-bundles-min-4113637448.css?v=release-2016-01-r3-1309-1510824-1" /><!-- 1 ms -->
+
+
+
+
+<div id="site-footer-background" class="site-footer-background ">
+    <div id="site-footer-wrap" class="site-footer-wrap cols-nested">
+
+<ul class="segmented-list trip-planning cf">
+
+
+	<!-- SWXL widget : c -->
+</ul>
+
+
+        <div class="site-footer cf sub-footer" role="contentinfo">
+            <!-- begin show bot optimized footer -->
+            <section class="segmented-list toggle clearfix open">
+                <a href="#exploreMore" aria-controls="exploreMore" class="toggle-trigger open" data-control="toggle">Explore mais<span class="icon icon-expand" aria-hidden="true"></span></a>
+                <div id="exploreMore" class="toggle-pane clearfix open" role="region" aria-expanded="false">
+                    <div class="toggle-inner">
+
+<div class="cf">
+
+  <div id="more-travel-options-header" class="links-description">
+      <h5>Mais promoções</h5>
+  </div>
+  <div class="links-list">
+    <ul id="more-travel-options-links" class="expedia-links">
+      <li><a href="//www.expedia.com.br/viagem-ultima-hora" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:LocalLinks')">Viagens de última hora</a></li>
+      <li><a href="//www.expedia.com.br/vc/rotas-aereas" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:LocalLinks')">Promoções de passagens aéreas</a></li>
+    </ul>
+
+  </div>
+
+</div>
+<div class="cf">
+  <div id="expedia-corp-header" class="links-description">
+      <h5>Expedia</h5>
+  </div>
+  <div class="links-list">
+      <ul id="expedia-corp-links" class="expedia-links">
+          <li><a href="/quem-somos.aspx" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Quem somos</a></li>
+          <li><a href="http://expediajobs.com/index.html" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Trabalhe conosco</a></li>
+          <li><a href="http://viajando.expedia.com.br/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Blog da Expedia</a></li>
+          <li><a href="//www.expedia.com/mediasolutions/" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Propaganda</a></li>
+          <li><a href="/p/support/legal" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Termos de uso</a></li>
+          <li><a href="/p/support/privacy" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:CorporateLink')">Política de privacidade</a></li>
+      </ul>
+  </div>
+</div>
+
+
+
+<div class="cf">
+  <div id="partner-services-header" class="links-description">
+      <h5>Serviços para Parceiros</h5>
+  </div>
+
+  <div class="links-list">
+    <ul id="partner-services-links" class="partner-service-links">
+      <li><a href="https://www.expediapartnercentral.com/Setting/RequestChangeLanguage?lang=1046&callback=https%3A%2F%2Fwww.expediapartnercentral.com%2FAccount%2FLogon%3FreturnURL%3Dhttps%253A%252F%252Fwww.expediapartnercentral.com%252F" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.PartnerService')">Expedia Partner Central</a></li>
+        <li><a href="https://join.expediapartnercentral.com/?lang=pt" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Adicionar um Hotel</a></li>
+        <li><a href="http://join.localexpertpartnercentral.com" rel="nofollow" data-onclick="xp.nav.trackAnalytics(this,'a','Footer:All:PartnerService')">Adicionar uma atividade</a></li>
+    </ul>
+  </div>
+
+</div>
+
+
+<div class="cf">
+  <div id="global-sites-header" class="links-description">
+        <h5>Sites globais</h5>
+    </div>
+    <div class="links-list">
+         <ul id="global-sites-links" class="global-sites-list">
+              <li><a class="flag ar" href="http://www.expedia.com.ar" title="Expedia.com.ar" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Argentina</a></li>
+              <li><a class="flag at" href="http://www.expedia.at" title="Expedia.at" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Áustria</a></li>
+              <li><a class="flag au" href="http://www.expedia.com.au" title="Expedia.com.au" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Austrália</a></li>
+              <li><a class="flag be" href="http://www.expedia.be" title="Expedia.be" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Bélgica</a></li>
+              <li><a class="flag br" href="http://www.expedia.com.br" title="Expedia.com.br" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Brasil</a></li>
+              <li><a class="flag ca" href="http://www.expedia.ca" title="Expedia.ca" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Canadá</a></li>
+              <li><a class="flag ch" href="http://www.expedia.ch" title="Expedia.ch" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Suíça</a></li>
+              <li><a class="flag dk" href="http://www.expedia.dk" title="Expedia.dk" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Dinamarca</a></li>
+              <li><a class="flag fi" href="http://www.expedia.fi" title="Expedia.fi" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Finlândia</a></li>
+              <li><a class="flag fr" href="http://www.expedia.fr" title="Expedia.fr" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">França</a></li>
+              <li><a class="flag de" href="http://www.expedia.de" title="Expedia.de" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Alemanha</a></li>
+              <li><a class="flag hk" href="http://www.expedia.com.hk" title="Expedia.com.hk" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Hong Kong</a></li>
+              <li><a class="flag in" href="http://www.expedia.co.in" title="Expedia.co.in" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Índia</a></li>
+              <li><a class="flag ind" href="http://www.expedia.co.id" title="Expedia.co.id" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Indonésia</a></li>
+              <li><a class="flag ie" href="http://www.expedia.ie" title="Expedia.ie" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Irlanda</a></li>
+              <li><a class="flag it" href="http://www.expedia.it" title="Expedia.it" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Itália</a></li>
+              <li><a class="flag jp" href="http://www.expedia.co.jp" title="Expedia.co.jp" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Japão</a></li>
+              <li><a class="flag kr" href="http://www.expedia.co.kr" title="Expedia.co.kr" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Coreia</a></li>
+              <li><a class="flag my" href="http://www.expedia.com.my" title="Expedia.com.my" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Malásia</a></li>
+              <li><a class="flag mx" href="http://www.expedia.mx" title="Expedia.mx" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">México</a></li>
+              <li><a class="flag nl" href="http://www.expedia.nl" title="Expedia.nl" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Holanda</a></li>
+              <li><a class="flag nz" href="http://www.expedia.co.nz" title="Expedia.co.nz" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Nova Zelândia</a></li>
+              <li><a class="flag no" href="http://www.expedia.no" title="Expedia.no" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Noruega</a></li>
+              <li><a class="flag ph" href="http://www.expedia.com.ph" title="Expedia.com.ph" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Filipinas</a></li>
+              <li><a class="flag sg" href="http://www.expedia.com.sg" title="Expedia.com.sg" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Cingapura</a></li>
+              <li><a class="flag es" href="http://www.expedia.es" title="Expedia.es" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Espanha</a></li>
+              <li><a class="flag se" href="http://www.expedia.se" title="Expedia.se" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Suécia</a></li>
+              <li><a class="flag tw" href="http://www.expedia.com.tw" title="Expedia.com.tw" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Taiwan</a></li>
+              <li><a class="flag th" href="http://www.expedia.co.th" title="Expedia.co.th" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Tailândia</a></li>
+              <li><a class="flag uk" href="http://www.expedia.co.uk" title="Expedia.co.uk" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Reino Unido</a></li>
+              <li><a class="flag us" href="http://www.expedia.com" title="Expedia.com" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Estados Unidos</a></li>
+              <li><a class="flag vn" href="http://www.expedia.com.vn" title="Expedia.com.vn" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')">Vietnã</a></li>
+              <li><a class="flag cn" href="http://www.expedia.cn" title="Expedia.cn" data-onclick="xp.nav.trackAnalytics(this,'a','Footer.AllSites')"></a></li>
+         </ul>
+    </div>
+</div>
+
+<div class="cf">
+  <div id="expedia-partners-header" class="links-description">
+      <h5>Parceiros da Expedia</h5>
+  </div>
+  <div class="links-list">
+    <ul id="expedia-partners-links" class="other-partner-links other-links">
+      <li><a href="http://www.hoteis.com/" data-onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners'); window.open(this.href,'_blank'); return false;">Hoteis.com</a></li>
+      <li><a href="http://www.venere.com/" data-onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners'); window.open(this.href,'_blank'); return false;">Venere</a></li>
+      <li><a href="http://www.hotwire.com/" data-onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners'); window.open(this.href,'_blank'); return false;">Hotwire</a></li>
+      <li><a href="http://www.trivago.com.br/" data-onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Epartners'); window.open(this.href,'_blank'); return false;">Trivago</a></li>
+    </ul>
+  </div>
+
+</div>                    </div>
+                 </div>
+            </section>
+<p id="legal" class="legal">
+A Expedia, Inc. não se responsabiliza pelo conteúdo dos sites externos.
+</p><p id="footer-copyright-msg" class="footer-copyright-msg">&copy; 2016 <a href="//www.expediainc.com/" rel="nofollow" onclick="xp.nav.trackAnalytics(this,'a','Footer:All:Copyright')">Expedia, Inc.</a> Todos os direitos reservados.
+</p>        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    var utag_data = {"context":{"user":{"guid":"2c3be676-6a29-48e9-9599-4c022328065e","tuid":"-1"},"site":{"siteId":69,"siteName":"www.expedia.com.br","eapid":0},"clientInfo":{"userAgent":"DefaultProperties","ipAddress":"187.1.61.26","coords":{"latitude":0.0,"longitude":0.0,"city":"","state":"","country":"","confidence":0.0},"requestMadeByBot":true,"ua":"crawler4j (https://github.com/yasserg/crawler4j/)","deviceCharacteristics":{"deviceOs":"","deviceOsVersion":"","mobileBrowser":"","mobileBrowserVersion":"","brandName":"generic web browser","modelName":"","tablet":false,"wirelessDevice":false,"physicalScreenHeight":400,"physicalScreenWidth":400,"resolutionHeight":600,"resolutionWidth":800,"mobile":false},"fingerprintId":""},"parentRequestId":"cb6b052e-72a5-4e38-8653-810dad803ddc","marketingAttribution":{"campaignIdTimestamp":0,"campaignIdVisitTimestamp":0,"emailIdTimestamp":0,"distributionPartnersTimestamp":0,"searchEngineMarketingCodeTimestamp":0,"affiliateMarketingCodeTimestamp":0,"onlineAdvertisingCodeTimestamp":0,"intraCompanyMarketingCodeTimestamp":0,"restrictedLastTouchTimestamp":0,"searchEngineOrganicCodeTimestamp":0}},"utcTimestamp":1453759723679,"entity":{"productTypes":[]},"pageInfo":{"pageName":"page.Hotels.Search","errorCodes":[]},"version":"v1","action":"EMPTY","channelTracking":{},"tvylChannelTracking":{},"logSourceType":"ExpWeb"};
+</script>
+
+
+
+<script>
+    var tealiumSettingInfo = {
+        "tealiumProfilename" : "main",
+        "tealiumEnvironment" : "prod"
+    };
+</script>
+
+        <script>
+            $LAB
+.queueScript("/minify/exp.core.channeltracking.exp-min-511167340.js?v=release-2016-01-r3-1309-1510824-1")
+        </script>
+
+
+<div id="aria-live-region-container" class="visuallyhidden" aria-live="assertive"></div>
+<!--
+ue2echk
+    exp st:anon reg:false cr:none  mgr:false sua:false
+  -->
+        </div>
+        <div id="regionUrgencyMessageContainer" class="hidden"></div>
+        <div id="hiddenElements" style="display:none">
+            <input type="hidden" id="pageId" value="page.Hotel-Search">
+            <div id="iframeContainer"></div>
+            <div id="dcOPMContainer"  data-url="//fls.doubleclick.net/activityi;src=3224677;type=latam050;cat=latam484;"></div>
+            <div id="dcMSContainer" data-url="//fls.doubleclick.net/activityi;src=3225729;type=nabrc598;cat=nabrs090;"></div>
+            <div id="retargetingPartnersContainer"></div>
+            <div id="activitiesModal">
+                <div id="activitiesElement"></div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            window.onunload = function() {};
+        </script>
+<script>
+    (function(w) { w.expads = w.expads || {}; w.expads.targeting = {"eapid":"0","mc1":"2c3be6766a2948e995994c022328065e","activity":"cb6b052e-72a5-4e38-8653-810dad803ddc","ssl":true,"sb":["S"],"email":false}; w.expads.configuration = w.expads.configuration || {}; w.expads.configuration["loggingEnabled"] = true; w.expads.configuration["postToCollectorWeb"] = false; w.expads.configuration["clientLoggingPerfBeaconUrl"] = '/cl/1x1.gif'; w.expads.configuration["clientLoggingMessageBeaconUrl"] = '/cl/2x2.gif'; w.expads.configuration["dctkBeaconServerUrl"] = '/clientLog'; w.expads.configuration["dctkClientLoggingURL"] = '//b.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/datacapture/js/client-logging-bundle-min.js'; w.expads.configuration["dctkData"] = ''; w.expads.configuration["dctkLogKey"] = 'page.Hotels.Search%7Ccb6b052e-72a5-4e38-8653-810dad803ddc%7C1527ad4f932%7C251e793ca5358ed74ed8474d7568de62'; w.expads.configuration["guid"] = '2c3be6766a2948e995994c022328065e'; w.expads.configuration["pageName"] = "page.hotels.search"; w.expads.configuration["title"] = "Anúncio"; w.expads.configuration["tpid"] = 69; w.expads.configuration["eapid"] = 0; w.expads.configuration["reloadAdsOnFocus"] = false; })(window);</script><script>
+</script>    <script id="bottomQueueAndRun" type="text/javascript" >
+        $LAB.script("/minify/bottom.hsr.3.69.pt_BR-min-2429989185.js?v=release-2016-01-r3-1309-1510824-1")
+
+        require(['uitk'], function() { // I really don't like having these blanket requires preventing dependencies from loading.
+            $LAB.script("/minify/requiresuitk.hsr.3.69.pt_BR-min-456292169.js?v=release-2016-01-r3-1309-1510824-1")
+        });
+
+        require(['jquery'], function() {    // I really don't like having these blanket requires preventing dependencies from loading.
+            $LAB.script("/minify/requiresjquery.hsr.3.69.pt_BR-min-260398467.js?v=release-2016-01-r3-1309-1510824-1")
+        });
+
+        require(['priming-message', 'lifeCycleManager'], function(primingMessage, lcm){
+        	'use strict';
+    		lcm.register(['allResultsView'], { afterPopulateContainer: primingMessage.showBanner });
+    	});
+/*<script id="dependencyShim" type="text/javascript" >*/
+$LAB.queueWait(function(){
+    define('jQuery', ['jquery'], function() {
+        return window.jQuery;
+    });
+});
+    </script>
+<!-- Time taken in millis:  ms -->
+
+<script>
+    
+
+    $LAB
+    .queueScript("//b.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/datacapture/js/analytics-core-bundle-min.js")
+
+    
+
+    
+    /* Minimal DCTK interface before it's fully loaded */
+    var dctk = window.dctk || {};
+    if (!dctk.enabled) {
+        dctk.enabled = true;
+        dctk._createOnQueueStrategy = function () {
+            var strategy = function (callback) { strategy._queue.push(callback); };
+            strategy._queue = [];
+            return strategy;
+        };
+        dctk.onReady = dctk._createOnQueueStrategy();
+    }
+
+    dctk._guid =  null ;
+    dctk._tpid =  null ;
+    dctk._eapid =  null ;
+
+    
+</script>
+
+
+    </div>  
+    
+    
+      
+  <script async defer src="//c.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/js/uitk-jquery-jstemplate-bundle-min.js"></script>
+
+  <script async defer src="//a.travel-assets.com/uitoolkit/2-51/fd50169951c7c4d28cf58e2d959c129bd5c2fadc/core/js/uitk-core-bundle-min.js"></script>
+
+
+
+
+    
+    
+
+    
+    
+
+    <script>
+      define('uitk_domReady', function(){
+        return true;
+      });
+    </script>
+    <div id="uitk-live-announce" class="visuallyhidden" aria-live="assertive"></div>
+</body>
+</html>

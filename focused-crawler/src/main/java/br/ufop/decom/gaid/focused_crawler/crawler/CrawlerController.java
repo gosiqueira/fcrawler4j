@@ -99,13 +99,13 @@ public class CrawlerController {
 		 * You can set the maximum crawl depth here. The default value is -1 for
 		 * unlimited depth
 		 */
-		config.setMaxDepthOfCrawling(15);
+		config.setMaxDepthOfCrawling(-1);
 
 		/*
 		 * You can set the maximum number of pages to crawl. The default value
 		 * is -1 for unlimited number of pages
 		 */
-		config.setMaxPagesToFetch(100);
+		config.setMaxPagesToFetch(20000);
 
 		/*
 		 * This config parameter can be used to set your crawl to be resumable
@@ -134,7 +134,7 @@ public class CrawlerController {
 		 * Defines similarity threshold for focused crawling process.
 		 */
 		// TODO check a better pattern for different threshold implementations, maybe factory method.
-		threshold = new ArithmeticMean(new CosineSimilarity(genreTerms, contentTerms, 0.7, 0.3), seeds).getThreshold();
+		threshold = new ArithmeticMean(new CosineSimilarity(genreTerms, contentTerms, 0.3, 0.7), seeds).getThreshold();
 		logger.info("Similarity threshold were defined as " + threshold);
 		logger.info("Starting crawl process.");
 

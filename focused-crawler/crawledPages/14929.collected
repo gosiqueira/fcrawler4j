@@ -1,0 +1,250 @@
+title=Beco do Rato
+url=http://becodorato.com.br/
+html=<!DOCTYPE html>
+<!-- Beco do Rato -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Beco do Rato</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Nobile:400,400italic,700,700italic">
+<style type="text/css">
+ht {
+    font-family: "Nobile:400,400italic,700,700italic", sans-serif;
+}
+</style>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+</head>
+<body>
+	<div id="header">
+		<div>
+			<div id="logo">
+				<a href="index.html"><img src="images/logo.png" alt="LOGO"></a>
+			</div>
+			<ul id="navigation">
+				<li class="selected">
+					<a href="index.html">Home</a>
+				</li>
+				<li>
+					<a href="about.html">O Beco</a>
+				</li>
+				<li>
+					<a href="eventos.html">Eventos</a>
+				</li>
+				<li>
+					<a href="cardapio.html">Cardápio</a>
+				</li>
+				<li>
+					<a href="contact.html">Contato</a>
+				</li>
+				
+			</ul>
+		</div>
+	</div>
+	<div id="contents">
+		<div>
+			<div class="body">
+				<div id="adbox">
+					<a href="eventos.html"><img src="images/destaquebeco2201.jpg" alt="Img"></a> <span class="info">  <em> </em> <a href="index.html" class=""></a> </span>
+					<a href="eventos.html"><img src="images/destaquebeco2901.jpg" alt="Img"></a> <span class="info">  <em> </em> <a href="index.html" class=""></a> </span>					
+				</div>
+				
+				
+				
+					<ul id="featured">
+					<li>
+					
+						<div>
+							<a href="eventos.html"><img src="images/capatercas.jpg" alt="Img"> </a>
+						</div>
+						<div class="details">
+							<h4>TERÇAS "DESAMPLIFICADAS"</h4>
+							<p>
+							Todas as Terças &nbsp; | &nbsp; 19:00h
+							
+							</p>
+						</div>
+
+
+
+					</li>
+					 
+					<li class="capa2">
+						
+						<div>
+							<a href="eventos.html"><img src="images/capaencontros.jpg" alt="Img"> </a>
+						</div>
+						<div class="details">
+							<h4>Encontros Casuais - Inácio Rios e Mosquito</h4>
+							<p>
+							Todas as Quintas &nbsp; | &nbsp; 20:00h
+							
+							</p>
+						</div>
+
+						
+					</li>
+					<li class="capa3">
+						
+						<div>
+							<a href="eventos.html"><img src="images/capabandabeco.jpg " alt="Img"> </a>
+						</div>
+						<div class="details">
+							<h4>Banda Beco do Rato</h4>
+							<p>
+							08/01 &nbsp; | &nbsp; Sexta &nbsp; | &nbsp; 21:00h
+							
+							</p>
+						</div>
+
+					</li>
+				</ul>	
+				
+							
+				
+				
+							
+				<ul id="featured2">
+					<li>
+					
+						
+						<div>
+							<a href="eventos.html"><img src="images/capabeco1501.jpg " alt="Img"> </a>
+						</div>
+						<div class="details">
+							<h4>Encontro de Compositores</h4>
+							<p>
+							15/01 &nbsp; | &nbsp; Sexta &nbsp; | &nbsp; 20:00h
+							
+							</p>
+						</div>
+
+
+
+
+					</li>
+					 
+					<li class="capa2">
+					
+						<div>
+							<a href="eventos.html"><img src="images/capabeco2201.jpg " alt="Img"> </a>
+						</div>
+						<div class="details">
+							<h4>Encontro de Compositores</h4>
+							<p>
+							22/01 &nbsp; | &nbsp; Sexta &nbsp; | &nbsp; 20:00h
+							
+							</p>
+						</div>
+
+					</li>
+					<li class="capa3">
+					
+						<div>
+							<a href="eventos.html"><img src="images/capaarruda2901.jpg " alt="Img"> </a>
+						</div>
+						<div class="details">
+							<h4>Arruda</h4>
+							<p>
+							29/01 &nbsp; | &nbsp; Sexta &nbsp; | &nbsp; 21:00h
+							
+							</p>
+						</div>
+					</li>
+					
+					
+					
+				</ul>
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				<div class="contact">
+					<p>
+						
+
+					</p>
+				</div>
+				
+				
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<div id="links">
+				<div class="showroom">
+					<h4>Beco do Rato</h4>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d918.7322587422605!2d-43.177039300000004!3d-22.915988199999997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0000000000000000%3A0xff86e119c38bfa1b!2sBeco+do+Rato!5e0!3m2!1spt-BR!2sbr!4v1441938424747" width="291" height="240" frameborder="0" style="border:0" allowfullscreen></iframe>
+									
+					<h9>Reservas de Mesa:</h9>
+					<p>
+					55 21 2508-5600<br> 
+					<a href="index.html">contato@becodorato.com.br</a><br>
+					
+					</p>
+					<h9>Visite Nosso Espaço:</h9>
+					<p>
+					Rua Joaquim Silva 11 - Lapa<br> Rio de Janeiro, RJ - Brasil<br> cep: 20241-110<br><br> 
+					</p>
+				</div>
+				<div>
+					<ul class="posts">
+					
+					<div id="facebook">
+			
+				<iframe src="http://www.facebook.com/plugins/likebox.php?href=http%3A%2F%2Fwww.facebook.com%2Fpages%2FBeco-do-Rato%2F130319573672210&amp;width=290&amp;colorscheme=light&amp;show_faces=true&amp;stream=true&amp;header=true&amp;height=427" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:290px; height:427px;" allowTransparency="true"></iframe>
+						
+						
+					</ul>
+				</div>
+				<div>
+					<form action="envia.php" method="post" id="newsletter">
+						<h4>Receba nosso informativo</h4>
+						
+						<p>Fique por dentro de tudo que acontece no Beco do Rato: promoções exclusivas, shows, eventos e muito mais.</p>
+						<br/>
+						
+						<input name="tNome" type="text" value="Nome" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						<input name="tEmail" type="text" value="e-mail" onBlur="javascript:if(this.value==''){this.value=this.defaultValue;}" onFocus="javascript:if(this.value==this.defaultValue){this.value='';}">
+						<input type="submit" value="enviar" class="btn2" />
+					</form>
+					
+									
+									
+					<div id="connect">
+						<h4>Rede Social</h4>
+						<a href="https://www.facebook.com/becodorato?fref=ts" target="_blank" class="facebook"></a> <a href="http://instagram.com/becodorato" target="_blank" class="instagram"></a> 
+					</div>
+				</div>
+			</div>
+			<ul class="navigation">
+				<li>
+					<a href="http://www.oscriadores.com" target="_blank">OsCriadores Arte & Design</a>
+				</li>
+				
+			</ul>
+			<p id="footnote">
+				Beco do Rato. Todos os direitos reservados
+			</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,380 @@
+title=Vale Viagem CVC - Dê o mundo de presente, conheça o Vale Viagem CVC
+url=http://www.valeviagemcvc.com.br/valeviagem/consultasaldo.jsf
+html=<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd" >
+<!-- 
+  - Author(s): Rodrigo Rocha 
+  - Date: 11/11/2009
+  - Copyright Notice: 2009 CVC Turismo
+  - @(#)
+  - Description: Template para as paginas do sistema.
+  
+  - Author(s): Marcelo SiLva(MTZCPD444)
+  - Date: 12/12/2013
+  - Copyright Notice: 2013 CVC Turismo
+  - @(#)
+  - Description: Extrato e Lancamentos do Cartao Vale Viagem.
+--><html version="2.0" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>Vale Viagem CVC - Dê o mundo de presente, conheça o Vale Viagem CVC</title>
+    <link class="component" href="/valeviagem/a4j/s/3_3_2.GAorg/richfaces/renderkit/html/css/basic_classes.xcss/DATB/eAELXT5DOhSIAQ!sA18_.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" rel="stylesheet" type="text/css" /><link class="component" href="/valeviagem/a4j/s/3_3_2.GAorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAELXT5DOhSIAQ!sA18_.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" media="rich-extended-skinning" rel="stylesheet" type="text/css" /><link class="component" href="/valeviagem/a4j/g/3_3_2.GAorg/richfaces/renderkit/html/css/msg.css.jsf" rel="stylesheet" type="text/css" /><link class="component" href="/valeviagem/a4j/g/3_3_2.GAorg/richfaces/renderkit/html/css/msgs.css.jsf" rel="stylesheet" type="text/css" /><script src="/valeviagem/a4j/g/3_3_2.GAorg.ajax4jsf.javascript.AjaxScript.jsf" type="text/javascript"></script><script src="/valeviagem/a4j/g/3_3_2.GAorg.ajax4jsf.javascript.PrototypeScript.jsf" type="text/javascript"></script><script src="/valeviagem/a4j/g/3_3_2.GAorg/richfaces/renderkit/html/scripts/utils.js.jsf" type="text/javascript"></script><script src="/valeviagem/a4j/g/3_3_2.GAorg/richfaces/renderkit/html/scripts/browser_info.js.jsf" type="text/javascript"></script><script src="/valeviagem/a4j/g/3_3_2.GAorg/richfaces/renderkit/html/scripts/modalPanel.js.jsf" type="text/javascript"></script><script src="/valeviagem/a4j/g/3_3_2.GAorg/richfaces/renderkit/html/scripts/modalPanelBorders.js.jsf" type="text/javascript"></script><link class="component" href="/valeviagem/a4j/s/3_3_2.GAorg/richfaces/renderkit/html/css/modalPanel.xcss/DATB/eAELXT5DOhSIAQ!sA18_.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" rel="stylesheet" type="text/css" /><script type="text/javascript">window.RICH_FACES_EXTENDED_SKINNING_ON=true;</script><script src="/valeviagem/a4j/g/3_3_2.GAorg/richfaces/renderkit/html/scripts/skinning.js.jsf" type="text/javascript"></script><link type="text/css" rel="stylesheet" href="/valeviagem/resources/styles/global.css" />
+	<link type="text/css" rel="stylesheet" href="/valeviagem/resources/styles/basic.css" media="screen" />
+    <link type="text/css" rel="stylesheet" href="/valeviagem/resources/styles/estilomodalerro.css" />
+ 	<script language="JavaScript" type="text/javascript" src="/valeviagem/resources/js/formul.js"></script>
+ 	<script language="JavaScript" type="text/javascript" src="/valeviagem/resources/js/rollover.js"></script>
+
+	<script type="text/JavaScript" language="javascript">
+		//javascript:validaFaleConosco();javascript:Richfaces.hideModalPanel('panelFaleConosco');return false;
+		var erroFC = false;
+		function validaFaleConosco(){
+			myNome = new String(document.getElementById('formFaleConosco:nomeFC').value);
+			myEmail = new String(document.getElementById('formFaleConosco:emailFC').value);
+			myMensagem = new String(document.getElementById('formFaleConosco:mensagemFC').value);
+			//if (myNome.match("^\w{1,}[.,0-9,a-z,A-Z,_]\w{1,}[.,0-9,a-z,A-Z,_]\w{1,}@\w{1,}[.,0-9,a-z,A-Z,_]\w{1,}[.,0-9,a-z,A-Z,_]\w{1,}[.,0-9,a-z,A-Z,_]\w{1,}$")){
+			if (myNome == null || myNome == ''){
+				alert('Digite o nome!');
+				erroFC = true;
+				return false;
+			}
+			if (myEmail.indexOf('@') < 0 || myEmail.indexOf('.') < 0){
+				alert('Email invalido!');
+				erroFC = true;
+				return false;
+			}
+			if (myMensagem == null || myMensagem == ''){
+				alert('Digite a mensagem!');
+				erroFC = true;
+				return false;
+			}
+			return true;
+		}
+
+		function limpaCampos(){
+			document.getElementById('formFaleConosco:nomeFC').value = "";
+			document.getElementById('formFaleConosco:emailFC').value = "";
+			document.getElementById('formFaleConosco:cartaoFC').value = "";
+			document.getElementById('formFaleConosco:mensagemFC').value = "";
+		}
+	
+		function hideModalLogout(){
+			Richfaces.hideModalPanel('panelObsTam');								
+		}
+
+		function openModal(){
+			Richfaces.showModalPanel('panelObsTam');
+		}
+	</script>
+</head>
+
+<body>
+
+	<div align="center">
+<!-- Modal de erros --><div id="alertasPanel"></div>
+
+		<!-- Inserir AQUI o conteudo da pagina -->
+<script type="text/JavaScript" language="javascript">history.go(1);</script>
+<form id="formPrincipal" name="formPrincipal" method="post" action="/valeviagem/consultasaldo.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" enctype="application/x-www-form-urlencoded" style="width:979;">
+<input type="hidden" name="formPrincipal" value="formPrincipal" />
+<table border="0" cellpadding="0" cellspacing="0" style="align:center;" width="767">
+<tbody>
+<tr>
+<td>
+<script type="text/javascript" src="/valeviagem/javax.faces.resource/jsf.js.jsf?ln=javax.faces"></script>
+<a href="#" onclick="mojarra.jsfcljs(document.getElementById('formPrincipal'),{'formPrincipal:j_id25':'formPrincipal:j_id25'},'');return false"><img id="formPrincipal:bt_home" src="resources/images/bt_m-home.gif;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="home" height="17" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(document.getElementById('formPrincipal:bt_home').id,'','resources/images/bt_m-home_o.gif',1);" style="border:0;" width="114" /></a></td>
+<td><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formPrincipal'),{'formPrincipal:j_id26':'formPrincipal:j_id26'},'');return false"><img id="formPrincipal:bt_mcomo" src="resources/images/bt_m-como.gif;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="como funciona" height="17" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(document.getElementById('formPrincipal:bt_mcomo').id,'','resources/images/bt_m-como_o.gif',1);" style="border:0;" width="114" /></a></td>
+<td><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formPrincipal'),{'formPrincipal:j_id27':'formPrincipal:j_id27'},'');return false"><img id="formPrincipal:bt_mofertas" src="resources/images/bt_m-ofertas.gif;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="ofertas cvc" height="17" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(document.getElementById('formPrincipal:bt_mofertas').id,'','resources/images/bt_m-ofertas_o.gif',1);" style="border:0;" width="114" /></a></td>
+<td><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formPrincipal'),{'formPrincipal:j_id28':'formPrincipal:j_id28'},'');return false"><img id="formPrincipal:bt_mlojas" src="resources/images/bt_m-lojas.gif;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="lojas ou agentes" height="17" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(document.getElementById('formPrincipal:bt_mlojas').id,'','resources/images/bt_m-lojas_o.gif',1);" style="border:0;" width="114" /></a></td>
+<td><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formPrincipal'),{'formPrincipal:j_id29':'formPrincipal:j_id29'},'');return false"><img id="formPrincipal:bt_mcadastrese" src="resources/images/bt_m-cadastrese.gif;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="cadastre-se" height="17" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(document.getElementById('formPrincipal:bt_mcadastrese').id,'','resources/images/bt_m-cadastrese_o.gif',1);" style="border:0;" width="114" /></a></td>
+<td><img id="formPrincipal:bt_consulta" src="resources/images/bt_m-consulta_d.gif;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="consulta saldo" height="17" style="border:0;" width="114" /></td>
+<td><table bgcolor="#0A65BA" border="0" cellpadding="0" cellspacing="0" style="height:17;" width="83">
+<tbody>
+<tr>
+<td><span style="height:17; width:83; background-color:#0A65BA;"></span></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+			<table align="center" border="0" cellpadding="0" cellspacing="0" width="767">
+			  <tr>
+			    <td height="17" colspan="6"><img name="topo" src="resources/images/topo.gif" width="767" height="315" border="0" id="topo" alt="VALE VIAGEM CVC" /></td>
+			  </tr>
+			</table>
+			<table cellspacing="0" cellpadding="0" border="0" align="center" width="767">
+				<tbody>
+					<tr>
+						<td class="bg_dest-04" valign="top">
+							<img height="21" border="0" width="140" src="resources/images/txt_consultaSaldo.png" name="txt_cadastre" />
+						</td>
+					</tr>
+					<tr>
+						<td valign="top">
+							<img height="3" width="767" src="resources/images/linha.gif" />
+						</td>
+					</tr>
+					<tr>
+						<td class="bg_cont-05" valign="top">
+							<a href="#"> </a>
+							<p>
+							<strong>Numero do Cartão * </strong><input id="formPrincipal:numeroCartao" type="text" name="formPrincipal:numeroCartao" class="formulario-amarelo" maxlength="24" size="25" />
+							</p><table>
+<tbody>
+<tr>
+<td>
+								<p><img height="40" width="160" src="stickyImg" /></p></td>
+<td><table style="text-align:left;">
+<tbody>
+<tr>
+<td><a href="#" id="formPrincipal:j_id37" name="formPrincipal:j_id37" onclick="A4J.AJAX.Submit('formPrincipal',event,{'similarityGroupingId':'formPrincipal:j_id37','parameters':{'formPrincipal:j_id37':'formPrincipal:j_id37'} ,'actionUrl':'/valeviagem/consultasaldo.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1'} );return false;"><img src="resources/images/icon_refresh.png;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="" height="20" style="border:0;" width="22" /></a></td>
+</tr>
+<tr>
+<td><label style="padding:0px;" class="bg_cont-05">
+Alterar imagem</label></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+
+							<p>
+							Digite os caracteres da imagem acima *
+							<br /><input id="formPrincipal:respostaCaptcha" type="text" name="formPrincipal:respostaCaptcha" class="formulario-amarelo" maxlength="5" size="5" />
+							</p> 
+							<p><table>
+<tbody>
+<tr>
+<td><a href="#" onclick="mojarra.jsfcljs(document.getElementById('formPrincipal'),{'formPrincipal:j_id43':'formPrincipal:j_id43'},'');return false"><img id="formPrincipal:bt_consultar_down" src="resources/images/bt_consultar.gif;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" alt="" height="21" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage(document.getElementById('formPrincipal:bt_consultar_down').id,'','resources/images/bt_consultar_o.gif',1);" style="border:0;" width="75" /></a></td>
+<td><img alt="" class="rich-spacer " height="1" id="formPrincipal:j_id44" src="/valeviagem/a4j/g/3_3_2.GAimages/spacer.gif.jsf" width="100" /></td>
+</tr>
+</tbody>
+</table>
+
+							</p>
+							<p>(*) Campos Obrigatórios </p>
+						</td>
+					</tr>
+				</tbody>
+			</table><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-6564145724951200336:5879725001181758126" autocomplete="off" />
+</form>
+<form id="j_id46" name="j_id46" method="post" action="/valeviagem/consultasaldo.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="j_id46" value="j_id46" />
+
+			<table width="767" border="0" align="center" cellpadding="0" cellspacing="0">
+			  <tr>
+			    <td width="64" class="rodape"><a href="http://www.cvc.com.br" target="_blank">cvc.com.br</a> |</td>
+			    <td width="73" class="rodape"><a href="#" onclick="mojarra.jsfcljs(document.getElementById('j_id46'),{'j_id46:j_id48':'j_id46:j_id48'},'');return false">Regulamento</a> | </td>
+			    <td width="72" class="rodape"><a href="#" id="j_id46:j_id50" name="j_id46:j_id50" onclick="Richfaces.showModalPanel('panelFaleConosco');;A4J.AJAX.Submit('j_id46',event,{'similarityGroupingId':'j_id46:j_id50','parameters':{'j_id46:j_id50':'j_id46:j_id50'} ,'actionUrl':'/valeviagem/consultasaldo.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1'} );return false;"><span class="basic">Fale conosco</span></a>
+				</td>
+ 			    <td width="288" class="rodape">|
+<!-- Outros sites  CVC
+			      <select name="select" class="formulario-amarelo" id="select">
+			        <option>VALE VIAGEM CVC</option>
+			      </select>  -->
+				</td>  
+			    <td width="270" align="right" class="rodape"><img src="resources/images/logo.png" width="56" height="34" /></td>
+			  </tr>
+			</table><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-6564145724951200336:5879725001181758126" autocomplete="off" />
+</form>
+	</div>
+
+	<!-- Modal de Status --><div id="panelStatus" style="display: none;"><input autocomplete="off" id="panelStatusOpenedState" name="panelStatusOpenedState" type="hidden" /><div class="rich-modalpanel " id="panelStatusContainer" style="position: absolute; display: none; z-index: 2000; background-color: inherit;"><div class="rich-mpnl-mask-div-opaque rich-mpnl-mask-div" id="panelStatusDiv" style="z-index: -1;"><button class="rich-mpnl-button" id="panelStatusFirstHref"></button></div><div class="rich-mpnl_panel"><div class="rich-mp-container" id="panelStatusCDiv" style="position: absolute; left: 0px; top: 0px; z-index: 9;"><div class="rich-mpnl-shadow" id="panelStatusShadowDiv"></div><div class="rich-mpnl-ovf-hd rich-mpnl-trim rich-mpnl-content" id="panelStatusContentDiv"><table border="0" cellpadding="0" cellspacing="0" class="rich-mp-content-table" id="panelStatusContentTable" style="height: 100%; width: 100%;"><tr style="height: 1%;"><td class="rich-mpnl-header-cell"><div class="rich-mpnl-text rich-mpnl-header " id="panelStatusHeader" style="white-space: nowrap;">Processando</div></td></tr><tr style="height: 99%"><td class="rich-mpnl-body" valign="top">
+	    <b>Aguarde, processando...</b></td></tr></table></div><div class="rich-mpnl-resizer" id="panelStatusResizerN" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerE" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerS" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerW" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerNWU" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerNEU" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerNEL" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerSEU" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerSEL" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerSWL" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerSWU" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelStatusResizerNWL" style="height: 40px; width: 4px;"></div></div></div><div class="rich-mpnl-mask-div rich-mpnl-mask-div-transparent" id="panelStatusCursorDiv" style="z-index: -200;"><button class="rich-mpnl-button" id="panelStatusLastHref"></button></div><script type="text/javascript">new ModalPanel('panelStatus',
+				{
+					width: 200,
+					height: 50,
+
+					minWidth: 200,
+					minHeight: 50,
+
+					resizeable: true,
+					moveable: true,
+
+					left: "auto",
+					top: "auto",
+
+					zindex: 2000,onresize: '',onmove: '',onshow: '',onhide: '',onbeforeshow: '',onbeforehide: '',
+					domElementAttachment: "",				
+					keepVisualState: false,
+					showWhenRendered: false,
+					selectBehavior: "hide",
+
+					autosized: false,
+					overlapEmbedObjects: false});</script></div><script type="text/javascript"></script></div><div id="modalPanelAguarde2" style="display: none;"><input autocomplete="off" id="modalPanelAguarde2OpenedState" name="modalPanelAguarde2OpenedState" type="hidden" /><div class="rich-modalpanel " id="modalPanelAguarde2Container" style="position: absolute; display: none; z-index: 100; background-color: inherit;"><div class="rich-mpnl-mask-div-opaque rich-mpnl-mask-div" id="modalPanelAguarde2Div" style="z-index: -1;"><button class="rich-mpnl-button" id="modalPanelAguarde2FirstHref"></button></div><div class="rich-mpnl_panel"><div class="rich-mp-container" id="modalPanelAguarde2CDiv" style="position: absolute; left: 0px; top: 0px; z-index: 9;"><div class="rich-mpnl-shadow" id="modalPanelAguarde2ShadowDiv"></div><div class="rich-mpnl-ovf-hd rich-mpnl-trim rich-mpnl-content" id="modalPanelAguarde2ContentDiv"><table border="0" cellpadding="0" cellspacing="0" class="rich-mp-content-table" id="modalPanelAguarde2ContentTable" style="height: 100%; width: 100%;"><tr style="height: 99%"><td class="rich-mpnl-body" valign="top">
+		<table width="100%" height="100%" border="0">
+			<tr>
+				<td style="height:10px;">
+					<img src="resources/images/processando.gif" />
+				</td>
+				<td align="left" style="height:10px;">											  
+					<font size="2"><b>Aguarde, processando...</b></font>
+                </td>
+           </tr>                                     
+        </table></td></tr></table></div></div></div><div class="rich-mpnl-mask-div rich-mpnl-mask-div-transparent" id="modalPanelAguarde2CursorDiv" style="z-index: -200;"><button class="rich-mpnl-button" id="modalPanelAguarde2LastHref"></button></div><script type="text/javascript">new ModalPanel('modalPanelAguarde2',
+				{
+					width: 300,
+					height: 80,
+
+					minWidth: -1,
+					minHeight: -1,
+
+					resizeable: false,
+					moveable: true,
+
+					left: "auto",
+					top: "auto",
+
+					zindex: 100,onresize: '',onmove: '',onshow: '',onhide: '',onbeforeshow: '',onbeforehide: '',
+					domElementAttachment: "",				
+					keepVisualState: false,
+					showWhenRendered: false,
+					selectBehavior: "disable",
+
+					autosized: false,
+					overlapEmbedObjects: false});</script></div><script type="text/javascript"></script></div><div id="panelObsTam" style="display: none;"><input autocomplete="off" id="panelObsTamOpenedState" name="panelObsTamOpenedState" type="hidden" /><div class="rich-modalpanel " id="panelObsTamContainer" style="position: absolute; display: none; z-index: 2001; background-color: inherit;"><div class="rich-mpnl-mask-div-opaque rich-mpnl-mask-div" id="panelObsTamDiv" style="z-index: -1;"><button class="rich-mpnl-button" id="panelObsTamFirstHref"></button></div><div class="rich-mpnl_panel"><div class="rich-mp-container" id="panelObsTamCDiv" style="position: absolute; left: 0px; top: 0px; z-index: 9;"><div class="rich-mpnl-shadow" id="panelObsTamShadowDiv"></div><div class="rich-mpnl-ovf-hd rich-mpnl-trim rich-mpnl-content" id="panelObsTamContentDiv"><table border="0" cellpadding="0" cellspacing="0" class="rich-mp-content-table" id="panelObsTamContentTable" style="height: 100%; width: 100%;"><tr style="height: 1%;"><td class="rich-mpnl-header-cell"><div class="rich-mpnl-text rich-mpnl-header " id="panelObsTamHeader" style="white-space: nowrap;">Informação</div></td></tr><tr style="height: 99%"><td class="rich-mpnl-body" valign="top">
+	    <b>???template.label.informacaoTam???</b>
+		<br />
+		<table width="100%">
+			<tr>
+				<td align="center">
+					<a href="#" class="linkAcao" style="border:0px; cursor:pointer;" onclick="hideModalLogout()">Fechar</a>	
+				</td>
+			</tr>
+		</table></td></tr></table></div></div></div><div class="rich-mpnl-mask-div rich-mpnl-mask-div-transparent" id="panelObsTamCursorDiv" style="z-index: -200;"><button class="rich-mpnl-button" id="panelObsTamLastHref"></button></div><script type="text/javascript">new ModalPanel('panelObsTam',
+				{
+					width: 350,
+					height: 50,
+
+					minWidth: 300,
+					minHeight: 200,
+
+					resizeable: false,
+					moveable: true,
+
+					left: "auto",
+					top: "auto",
+
+					zindex: 2001,onresize: '',onmove: '',onshow: '',onhide: '',onbeforeshow: '',onbeforehide: '',
+					domElementAttachment: "",				
+					keepVisualState: false,
+					showWhenRendered: false,
+					selectBehavior: "hide",
+
+					autosized: false,
+					overlapEmbedObjects: false});</script></div><script type="text/javascript"></script></div><div id="panelStatusRefresh" style="display: none;"><input autocomplete="off" id="panelStatusRefreshOpenedState" name="panelStatusRefreshOpenedState" type="hidden" /><div class="rich-modalpanel " id="panelStatusRefreshContainer" style="position: absolute; display: none; z-index: 2000; background-color: inherit;"><div class="rich-mpnl-mask-div-opaque rich-mpnl-mask-div" id="panelStatusRefreshDiv" style="z-index: -1;"><button class="rich-mpnl-button" id="panelStatusRefreshFirstHref"></button></div><div class="rich-mpnl_panel"><div class="rich-mp-container" id="panelStatusRefreshCDiv" style="position: absolute; left: 0px; top: 0px; z-index: 9;"><div class="rich-mpnl-shadow" id="panelStatusRefreshShadowDiv"></div><div class="rich-mpnl-ovf-hd rich-mpnl-trim rich-mpnl-content" id="panelStatusRefreshContentDiv"><table border="0" cellpadding="0" cellspacing="0" class="rich-mp-content-table" id="panelStatusRefreshContentTable" style="height: 100%; width: 100%;"><tr style="height: 1%;"><td class="rich-mpnl-header-cell"><div class="rich-mpnl-text rich-mpnl-header " id="panelStatusRefreshHeader" style="white-space: nowrap;">Processando</div></td></tr><tr style="height: 99%"><td class="rich-mpnl-body" valign="top">
+	    <b>Aguarde, processando...</b></td></tr></table></div></div></div><div class="rich-mpnl-mask-div rich-mpnl-mask-div-transparent" id="panelStatusRefreshCursorDiv" style="z-index: -200;"><button class="rich-mpnl-button" id="panelStatusRefreshLastHref"></button></div><script type="text/javascript">new ModalPanel('panelStatusRefresh',
+				{
+					width: 250,
+					height: 80,
+
+					minWidth: 200,
+					minHeight: 50,
+
+					resizeable: false,
+					moveable: true,
+
+					left: "auto",
+					top: "auto",
+
+					zindex: 2000,onresize: '',onmove: '',onshow: '',onhide: '',onbeforeshow: '',onbeforehide: '',
+					domElementAttachment: "",				
+					keepVisualState: false,
+					showWhenRendered: false,
+					selectBehavior: "hide",
+
+					autosized: false,
+					overlapEmbedObjects: false});</script></div><script type="text/javascript"></script></div><div id="panelFaleConosco" style="display: none;"><input autocomplete="off" id="panelFaleConoscoOpenedState" name="panelFaleConoscoOpenedState" type="hidden" /><div class="rich-modalpanel bg_cont-03" id="panelFaleConoscoContainer" style="position: absolute; display: none; z-index: 100; background-color: inherit;"><div class="rich-mpnl-mask-div-opaque rich-mpnl-mask-div" id="panelFaleConoscoDiv" style="z-index: -1;"><button class="rich-mpnl-button" id="panelFaleConoscoFirstHref"></button></div><div class="rich-mpnl_panel"><div class="rich-mp-container" id="panelFaleConoscoCDiv" style="position: absolute; left: 0px; top: 0px; z-index: 9;"><div class="rich-mpnl-shadow" id="panelFaleConoscoShadowDiv"></div><div class="rich-mpnl-ovf-hd rich-mpnl-trim rich-mpnl-content" id="panelFaleConoscoContentDiv" style="border:4px solid #EEC606; background-color:#F8DB15;"><table border="0" cellpadding="0" cellspacing="0" class="rich-mp-content-table" id="panelFaleConoscoContentTable" style="height: 100%; width: 100%;"><tr style="height: 99%"><td class="rich-mpnl-body" valign="top">
+<form id="formFaleConosco" name="formFaleConosco" method="post" action="/valeviagem/consultasaldo.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1" enctype="application/x-www-form-urlencoded">
+<input type="hidden" name="formFaleConosco" value="formFaleConosco" />
+
+	        <h3>Fale Conosco</h3>
+	        <p style="color:#918004;">Nome:<input id="formFaleConosco:nomeFC" type="text" name="formFaleConosco:nomeFC" class="formulario-amarelo" maxlength="50" size="39" />
+	        </p>
+	        <p style="color:#918004;">E-mail:<input id="formFaleConosco:emailFC" type="text" name="formFaleConosco:emailFC" class="formulario-amarelo" maxlength="50" size="39" />
+	        </p>
+	        <p style="color:#918004;"> Número do Cartão:<input id="formFaleConosco:cartaoFC" type="text" name="formFaleConosco:cartaoFC" class="formulario-amarelo" maxlength="20" size="20" />
+	          <br />
+	        </p>
+	        <table border="0" cellpadding="0" cellspacing="0">
+	          <tr>
+	            <td valign="top" style="color:#918004;">Mensagem:</td>
+	            <td><textarea id="formFaleConosco:mensagemFC" name="formFaleConosco:mensagemFC" class="formulario-amarelo" cols="50" rows="4"></textarea>
+				</td>
+	          </tr>
+	        </table>
+	        <br /><table>
+<tbody>
+<tr>
+<td><input class="formulario-azul" id="formFaleConosco:j_id72" name="formFaleConosco:j_id72" onclick="validaFaleConosco();;A4J.AJAX.Submit('formFaleConosco',event,{'oncomplete':function(request,event,data){if(!erroFC){Richfaces.hideModalPanel('panelFaleConosco');Richfaces.showModalPanel('panelResultadoFale');return false;}},'similarityGroupingId':'formFaleConosco:j_id72','parameters':{'formFaleConosco:j_id72':'formFaleConosco:j_id72'} ,'actionUrl':'/valeviagem/consultasaldo.jsf;jsessionid=D1DC8B3353C87EA8377E21D1DC99ABAD.node1'} );return false;" value="Enviar" style="width:50; height:19;text-align:center;" type="button" /></td>
+<td><img alt="" class="rich-spacer " height="1" id="formFaleConosco:j_id73" src="/valeviagem/a4j/g/3_3_2.GAimages/spacer.gif.jsf" width="215" /></td>
+<td>
+						<input type="button" class="formulario-azul" onclick="javascript:Richfaces.hideModalPanel('panelFaleConosco');return false;" value="Fechar" /></td>
+</tr>
+</tbody>
+</table>
+
+	        <br /><input type="hidden" name="javax.faces.ViewState" id="javax.faces.ViewState" value="-6564145724951200336:5879725001181758126" autocomplete="off" />
+</form></td></tr></table></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerN" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerE" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerS" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerW" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerNWU" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerNEU" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerNEL" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerSEU" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerSEL" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerSWL" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerSWU" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelFaleConoscoResizerNWL" style="height: 40px; width: 4px;"></div></div></div><div class="rich-mpnl-mask-div rich-mpnl-mask-div-transparent" id="panelFaleConoscoCursorDiv" style="z-index: -200;"><button class="rich-mpnl-button" id="panelFaleConoscoLastHref"></button></div><script type="text/javascript">new ModalPanel('panelFaleConosco',
+				{
+					width: 355,
+					height: 260,
+
+					minWidth: -1,
+					minHeight: -1,
+
+					resizeable: true,
+					moveable: true,
+
+					left: "auto",
+					top: "auto",
+
+					zindex: 100,onresize: '',onmove: '',onshow: '',onhide: '',onbeforeshow: function(event){limpaCampos();},onbeforehide: '',
+					domElementAttachment: "",				
+					keepVisualState: false,
+					showWhenRendered: false,
+					selectBehavior: "disable",
+
+					autosized: false,
+					overlapEmbedObjects: false});</script></div><script type="text/javascript"></script></div><div id="panelResultadoFale" style="display: none;"><input autocomplete="off" id="panelResultadoFaleOpenedState" name="panelResultadoFaleOpenedState" type="hidden" /><div class="rich-modalpanel bg_cont-03" id="panelResultadoFaleContainer" style="position: absolute; display: none; z-index: 100; background-color: inherit;"><div class="rich-mpnl-mask-div-opaque rich-mpnl-mask-div" id="panelResultadoFaleDiv" style="z-index: -1;"><button class="rich-mpnl-button" id="panelResultadoFaleFirstHref"></button></div><div class="rich-mpnl_panel"><div class="rich-mp-container" id="panelResultadoFaleCDiv" style="position: absolute; left: 0px; top: 0px; z-index: 9;"><div class="rich-mpnl-shadow" id="panelResultadoFaleShadowDiv"></div><div class="rich-mpnl-ovf-hd rich-mpnl-trim rich-mpnl-content" id="panelResultadoFaleContentDiv" style="border:4px solid #EEC606; background-color:#F8DB15;"><table border="0" cellpadding="0" cellspacing="0" class="rich-mp-content-table" id="panelResultadoFaleContentTable" style="height: 100%; width: 100%;"><tr style="height: 99%"><td class="rich-mpnl-body" valign="top"><table class="bg_cont-03" cellpadding="8" cellspacing="8">
+<tbody>
+<tr>
+<td>
+            <p>Mensagem enviada com sucesso!</p>
+            <div style="text-align: center;"><input type="button" class="formulario-azul" onclick="javascript:Richfaces.hideModalPanel('panelResultadoFale');return false;" value="Fechar" /></div></td>
+</tr>
+</tbody>
+</table>
+</td></tr></table></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerN" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerE" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerS" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerW" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerNWU" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerNEU" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerNEL" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerSEU" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerSEL" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerSWL" style="height: 40px; width: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerSWU" style="width: 40px; height: 4px;"></div><div class="rich-mpnl-resizer" id="panelResultadoFaleResizerNWL" style="height: 40px; width: 4px;"></div></div></div><div class="rich-mpnl-mask-div rich-mpnl-mask-div-transparent" id="panelResultadoFaleCursorDiv" style="z-index: -200;"><button class="rich-mpnl-button" id="panelResultadoFaleLastHref"></button></div><script type="text/javascript">new ModalPanel('panelResultadoFale',
+				{
+					width: 240,
+					height: 120,
+
+					minWidth: -1,
+					minHeight: -1,
+
+					resizeable: true,
+					moveable: true,
+
+					left: "auto",
+					top: "auto",
+
+					zindex: 100,onresize: '',onmove: '',onshow: '',onhide: '',onbeforeshow: '',onbeforehide: '',
+					domElementAttachment: "",				
+					keepVisualState: false,
+					showWhenRendered: false,
+					selectBehavior: "disable",
+
+					autosized: false,
+					overlapEmbedObjects: false});</script></div><script type="text/javascript"></script></div>
+
+	<br /><script id="logWriter" type="text/javascript">LOG.registerPopup('L','LogWindow',800,600,LOG.ALL);</script>
+	<br />
+
+</body>
+
+</html>

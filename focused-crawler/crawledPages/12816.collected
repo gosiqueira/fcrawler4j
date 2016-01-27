@@ -1,0 +1,732 @@
+title=Anunciar - YouTube
+url=https://www.youtube.com/yt/advertise/pt-BR/
+html=<!DOCTYPE html>
+<html data-ng-app="yt.goro.site.advertise.app" data-ng-cloak="" lang="pt-BR">
+  <head>
+    <meta charset="utf-8">
+    <script>
+    for(var a=["article","footer","nav","figure","figcaption"],b=0;b<a.length;b++);window._gaq=window._gaq||[];
+    </script>
+    <title>
+      Anunciar - YouTube
+    </title>
+    <meta content="YouTube" name="author">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content=
+    "anunciar no youtube, anúncios do youtube, publicidade no youtube, marketing no youtube, publicidade em vídeo"
+    name="keywords">
+    <meta content=
+    "O marketing no YouTube transforma espectadores em fãs e fãs em novos clientes. Faça com que suas campanhas de vídeo sejam sempre um sucesso. Saiba mais."
+    name="description">
+    <link href=
+    "//fonts.googleapis.com/css?family=Roboto:300italic,400italic,700italic,300,400,700&amp;lang=pt-BR"
+    rel="stylesheet" title="Folha de estilo Roboto">
+    <link href="//ajax.googleapis.com/ajax/libs/angular_material/0.6.1/angular-material.min.css"
+    rel="stylesheet">
+    <link href="/yt/css/www-advertise.css" rel="stylesheet" title="">
+  </head>
+  <body class="ltr yt-responsive yt-cardified" dir="ltr">
+    <div id="page">
+      <div class="yt-dimmer yt-js-dimmer yt-hide"></div>
+      <div class="yt-js-masthead" id="masthead-container">
+        <div class="yt-grid-main" id="masthead">
+          <div id="masthead-root">
+            <a class="yt-js-masthead-logo" href="//www.youtube.com/" id="masthead-logo" title=
+            "Página inicial do YouTube"><img alt="Página inicial do YouTube" src=
+            "/yt/img/logo_1x.png" srcset="/yt/img/logo_2x.png 2x"></a>
+            <form action="//www.youtube.com/results" autocomplete="on" class=
+            "search-form yt-js-masthead-search-form" id="masthead-search" method="get" name=
+            "masthead-search">
+              <button class=
+              "search-button yt-uix-button yt-uix-button-default yt-js-masthead-search-button" dir=
+              "ltr" id="search-btn" role="button" tabindex="2" type="submit"><span class=
+              "yt-uix-button-content">Pesquisar</span></button> <label class=
+              "yt-js-masthead-search-term-label" id="masthead-search-term"><input class=
+              "search-term yt-js-masthead-search-term" name="search_query" tabindex="1" title=
+              "Pesquisar" type="search" value=""></label>
+            </form>
+            <form action="//www.youtube.com/results" autocomplete="on" class=
+            "search-form yt-js-masthead-search-form" id="masthead-mobile-search" method="get" name=
+            "masthead-mobile-search">
+              <button class="yt-masthead-mobile-button yt-js-masthead-mobile-button" role="button"
+              type="submit"><span class=
+              "yt-masthead-mobile-button-content">Pesquisar</span></button> <label class=
+              "yt-masthead-mobile-search-term-label yt-js-masthead-mobile-search-term-label yt-hide"
+              id="masthead-mobile-search-term"><input class=
+              "search-term yt-js-masthead-mobile-search-term" name="search_query" placeholder=
+              "Pesquisar no YouTube" tabindex="1" title="Pesquisar" type="search" value=""></label>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div advertise-material-analytics="" class="" data-ng-controller=
+      "yt.goro.site.advertise.app.MainCtrl as ctrl" id="yt-microsite">
+        <div class="yt-js-stickytopnav" id="yt-main-nav-container">
+          <md-sidenav class="md-sidenav-right yt-advertise-sidebar" md-component-id="right">
+            <md-toolbar class="md-theme-light" ng-click="ctrl.closeRight()">
+              <h1 class="md-toolbar-tools">
+                Você tem alguma pergunta?
+              </h1>
+            </md-toolbar>
+            <md-content class="md-padding">
+              <div class="yt-advertise-sidebar-icon">
+                <img alt="" src="/yt/img/yt-contact-phone-dark.svg">
+              </div>
+              <div class="yt-advertise-sidebar-contact">
+                <p>
+                  Ligue para nós
+                </p><a href=
+                "tel:{[ctrl.widgetData[ctrl.countrySelected].phone]}">{[ctrl.widgetData[ctrl.countrySelected].phone]}</a>
+              </div>
+              <hr class="yt-advertise-sidebar-rule">
+              <div class="yt-advertise-sidebar-icon">
+                <img alt="" src="/yt/img/yt-contact-question-dark.svg">
+              </div>
+              <div class="yt-advertise-sidebar-contact">
+                <p>
+                  Receber ajuda
+                </p><a class="yt-analytics-event-tracking" data-analytics-category=
+                "contact-expand-help" href=
+                "https://support.google.com/youtube/topic/3030592">CENTRAL DE AJUDA DO GOOGLE
+                ADWORDS</a>
+              </div>
+              <hr class="yt-advertise-sidebar-rule">
+              <div class="yt-advertise-sidebar-icon">
+                <img alt="" src="/yt/img/yt-contact-gplus-dark.svg">
+              </div>
+              <div class="yt-advertise-sidebar-contact">
+                <p>
+                  Pergunte a um colega
+                </p><a class="yt-analytics-event-tracking" data-analytics-category=
+                "contact-expand-gplus" href=
+                "https://plus.google.com/communities/109232418125793730353">PÁGINA DO GOOGLE+ PARA
+                PME</a>
+              </div>
+              <hr class="yt-advertise-sidebar-rule">
+              <div class="yt-advertise-sidebar-icon">
+                <img alt="" src="/yt/img/yt-contact-start-dark.svg">
+              </div>
+              <div class="yt-advertise-sidebar-contact">
+                <p>
+                  Pronto para começar?
+                </p><a class="yt-analytics-event-tracking" data-analytics-category=
+                "contact-expand-sign-in" href=
+                "https://accounts.google.com/ServiceLogin?service=adwords&amp;ltmpl=awvsignup&amp;hl=en_US&amp;continue=https://adwords.google.com/um/identity?hl%3Den_US%26passive%3Dtrue%26ltmpl%3Dawvsignup%26dst%3D%252Fvideo%252FSignupReview">FAZER
+                LOGIN</a> <a class="yt-analytics-event-tracking yt-js-advertise-param-anchors"
+                data-analytics-category="contact-expand-create-account" href=
+                "https://adwords.google.com/video/SignupFlow?sourceid=awo&amp;subid=ww-en_us-et-v_ads_yt_1adwords&amp;utm_source=YT_Advertise&amp;utm_campaign=advertise_header_nav&amp;utm_medium=permanent&amp;utm_term=1adwords-ww-hl-en_us&amp;utm_content=run_button">
+                CRIAR UMA CONTA</a>
+              </div>
+              <hr class="yt-advertise-sidebar-rule">
+            </md-content>
+          </md-sidenav>
+          <nav class="yt-grid-main" id="yt-main-nav">
+            <nav class="yt-advertise-nav-container yt-nav-responsive yt-js-responsive-nav">
+              <div class="nav-container" role="tablist">
+                <button class="yt-nav-header yt-js-nav-header">Visão geral</button>
+                <a aria-selected="true" class="yt-js-responsive-nav-item active" href="index.html"
+                role="tab">Visão geral</a> <a aria-selected="false" class=
+                "yt-js-responsive-nav-item" href="case-studies.html" role="tab">Estudos de caso</a>
+                <a aria-selected="false" class="yt-js-responsive-nav-item" href=
+                "make-video-ads.html" role="tab">Criar um vídeo</a> <a aria-selected="false" class=
+                "yt-js-responsive-nav-item" href="launch-ad.html" role="tab">Lançar um anúncio</a>
+              </div>
+              <div id="yt-advertise-top-nav-right">
+                <md-button aria-label="Contact us" class=
+                "yt-md-button yt-advertise-contact-us-button yt-analytics-event-tracking default yt-uix-button-light-contact-us-icon"
+                data-analytics-category="header-contact-expand" ng-click=
+                "ctrl.toggleRight()"></md-button>
+              </div>
+            </nav>
+          </nav>
+        </div>
+        <div class="home-hero-full-width js-home-hero-parent home-hero-video-black-bg"
+        data-advertise-video-id="5ZD4a3qDNlk">
+          <div class="home-hero-overlay-container js-home-hero-overlay-container">
+            <div class="home-hero-video-wrapper js-home-hero-video-wrapper"></div><img alt=""
+            class="js-home-hero-video-close home-hero-video-close yt-hide" src=
+            "/yt/img/yt-close-x-white-medium.png">
+            <div class="home-hero-title-container js-home-hero-title-container">
+              <h1 class="home-hero-title">
+                Comece a anunciar<br>
+                no YouTube
+              </h1><md-button class=
+              "yt-md-button yt-advertise-hero-button yt-js-advertise-param-anchors yt-analytics-event-tracking md-raised md-primary"
+              data-analytics-category="header-conversion" data-ng-href=
+              "http://adwords.google.com/video/SignupFlow?sourceid=awo&amp;subid=ww-pt_BR-et-v_ads_yt_index&amp;utm_source=YT_Advertise&amp;utm_campaign=advertise_header_nav&amp;utm_medium=permanent&amp;utm_term=index-ww-hl-pt_BR&amp;utm_content=run_button"
+              id="yt-advertise-title-button"><span class="yt-uix-button-content">Primeiros
+              passos</span></md-button>
+            </div><a class="home-hero-arrow" href="#cta-banner"><img alt="Seta branca" src=
+            "/yt/img/yt-core-arrow-down-white.png"></a>
+          </div><span class=
+          "yt-icon-play-button-container home-hero-play-button js-home-hero-play yt-analytics-event-tracking"
+          data-analytics-category="overview-header-view"><svg class="yt-icon yt-icon-play-button"
+          enable-background="new 0 0 1024 721" height="721px" id="YouTube_Icon" version="1.1"
+          viewbox="0 0 1024 721" width="1024px" x="0px" xml:space="preserve" xmlns=
+          "http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" y="0px">
+          <path d="M407,493l276-143L407,206V493z" fill="#FFFFFF" id="Triangle"></path>
+          <path clip-rule="evenodd" d="M407,206l242.042,161.625 L683,350L407,206z" fill="#020101"
+          fill-rule="evenodd" id="The_Sharpness" opacity="0.12"></path>
+          <g id="Lozenge" opacity="0.9">
+            <g id="icon-youtube">
+              <path d=
+              "M1013.023,156.281c0,0-9.981-70.389-40.606-101.386c-38.842-40.684-82.38-40.885-102.346-43.267 C727.134,1.296,512.721,1.296,512.721,1.296h-0.444c0,0-214.408,0-357.35,10.333c-19.967,2.381-63.49,2.583-102.346,43.267 C21.956,85.892,11.99,156.281,11.99,156.281S1.775,238.94,1.775,321.6v77.493c0,82.658,10.215,165.317,10.215,165.317 s9.966,70.39,40.591,101.387c38.856,40.684,89.896,39.397,112.629,43.661c81.718,7.836,347.29,10.261,347.29,10.261 s214.634-0.323,357.571-10.655c19.966-2.382,63.504-2.583,102.346-43.267c30.625-30.997,40.606-101.387,40.606-101.387 s10.2-82.659,10.2-165.317V321.6C1023.224,238.94,1013.023,156.281,1013.023,156.281z M407.047,493L407,206l276,144L407.047,493z">
+              </path>
+            </g>
+          </g></svg></span>
+          <div class="home-hero-video-container js-home-hero-video-container">
+            <img alt="Gradiente de sobreposição" class=
+            "js-home-hero-video-gradient-left home-hero-video-gradient-left" src=
+            "/yt/advertise/medias/images/yt-ads-index-hero-gradient-left.png"> <img alt=
+            "Gradiente de sobreposição" class=
+            "js-home-hero-video-gradient-right home-hero-video-gradient-right" src=
+            "/yt/advertise/medias/images/yt-ads-index-hero-gradient-right.png"> <img alt=
+            "Imagem de herói do YouTube Advertise" class=
+            "yt-ads-index-hero-static-no-video js-yt-ads-index-hero-static-no-video" src=
+            "/yt/advertise/medias/images/yt-ads-home-hero-static.jpg"> <video autoplay="" class=
+            "home-hero-video js-home-hero-video" loop=""><source src=
+            "/yt/advertise/medias/video/yt-ads-home-loop-smb.webm" type="video/webm"><source src=
+            "/yt/advertise/medias/video/yt-ads-home-loop-smb.mp4" type="video/mp4"></video>
+          </div>
+          <div class="home-hero-video-container-mobile">
+            <div class="yt-card-video yt-js-video" data-video-player-vars=
+            '{"modestbranding": 1, "wmode": "opaque", "showinfo": 0, "autohide": 1, "controls": 1}'
+            data-video-video-id="5ZD4a3qDNlk" data-video-width="100%" id="yt-advertise-video-1">
+            </div>
+          </div><a class="adwords-cta-banner yt-analytics-event-tracking" data-analytics-category=
+          "overview-conversion-card" href="case-studies.html" id="cta-banner">
+          <div class="yt-grid-main">
+            <div class="adwords-cta-banner-inner">
+              <h2 class="adwords-cta-banner-title">
+                Veja como outras empresas usam a publicidade em vídeo.
+              </h2><span class="adwords-cta-banner-link"><span class=
+              "adwords-cta-banner-link-text">Inspire-se</span> <svg class=
+              "yt-icon yt-icon-arrow-forward yt-icon-black" viewbox="4 4.1 15.8 15.8">
+              <g>
+                <path d="M4,11v2h12l-5.5,5.5l1.4,1.4l7.9-7.9l-7.9-7.9l-1.4,1.4L16,11H4z"></path>
+              </g></svg></span>
+            </div>
+          </div></a>
+          <div class="home-what-are-video-ads">
+            <img alt="Dispositivos compatíveis com o YouTube" class=
+            "yt-advertise-home-devices yt-col-7" src=
+            "/yt/advertise/medias/images/yt-ads-home-devices.png">
+            <div class="yt-grid-main">
+              <div class="yt-col-5 yt-advertise-home-devices-txt">
+                <h2>
+                  O que são anúncios em vídeo?
+                </h2>
+                <p>
+                  Qualquer vídeo enviado ao YouTube pode ser um anúncio. Os anúncios em vídeo são
+                  exibidos antes de outros vídeos no YouTube, ao lado do player e nos resultados da
+                  pesquisa.<br>
+                  <br>
+                </p><a href="https://support.google.com/displayspecs/?topic=4588474" target=
+                "_blank">Ver as especificações de anúncios</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="yt-grid-main" id="yt-microsite-features">
+          <div class="yt-cols">
+            <div class=
+            "yt-card-light yt-js-card yt-card-relative yt-col-12 initial-el home-cost-card">
+              <div class="home-cost-module">
+                <div class="home-cost-block tv">
+                  <div class="home-cost-module-item tv">
+                    <img alt="Televisão" src="/yt/advertise/medias/images/yt-ads-home-tv-icon.svg">
+                    <span class="home-cost-viewcount">Visualizações de {[ctrl.prices.tv]}</span>
+                  </div>
+                  <div class="home-cost-scale" ng-style="ctrl.transformCss"></div>
+                </div>
+                <div class="home-cost-block views">
+                  <div class="home-cost-module-item views">
+                    <img alt="YouTube Play" src="/yt/img/yt-play-button-white-scalable.svg">
+                    <span class="home-cost-viewcount">Visualizações de
+                    {[ctrl.prices.youtube]}</span>
+                  </div>
+                  <div class="home-cost-scale" ng-style="ctrl.transformCss"></div>
+                </div>
+                <div class="home-cost-block radio">
+                  <div class="home-cost-module-item radio">
+                    <img alt="Rádio" src="/yt/advertise/medias/images/yt-ads-home-radio-icon.svg">
+                    <span class="home-cost-viewcount">Ouvidas em {[ctrl.prices.radio]}</span>
+                  </div>
+                  <div class="home-cost-scale" ng-style="ctrl.transformCss"></div>
+                </div>
+                <div class="home-cost-block newspaper">
+                  <div class="home-cost-module-item newspaper">
+                    <img alt="Jornal" src="/yt/advertise/medias/images/yt-ads-home-paper-icon.svg">
+                    <span class="home-cost-viewcount">Leituras em {[ctrl.prices.newspaper]}</span>
+                  </div>
+                  <div class="home-cost-scale" ng-style="ctrl.transformCss"></div>
+                </div>
+                <div class="home-cost-slider-container">
+                  <div class="home-cost-slider-label">
+                    Custo diário
+                  </div>
+                  <md-slider aria-label="rating" class=
+                  "home-cost-md-slider yt-analytics-event-tracking" data-analytics-action="slide"
+                  data-analytics-category="overview-budget-slider" data-analytics-event-type=
+                  "change" max="100" md-discrete min="0" ng-change="ctrl.handleRating()" ng-model=
+                  "ctrl.rating" step="10"></md-slider>
+                </div>
+              </div>
+              <div class="yt-card-text">
+                <h2 class="yt-card-title">
+                  Quanto custam os anúncios?
+                </h2>
+                <p>
+                  Você tem controle total sobre seu orçamento diário, então, pode gastar quanto
+                  achar melhor.<br>
+                  <br>
+                  Além disso, você só paga quando alguém interage com seu anúncio. Se o anúncio for
+                  ignorado antes de 30 segundos (ou antes do fim), você não paga um centavo.
+                </p>
+              </div>
+            </div>
+            <div class=
+            "yt-card-light yt-js-card yt-card-relative yt-col-12 home-audience-card initial-el">
+              <div class="yt-js-svg-animation" id="yt-ads-audience">
+                <span class=
+                "home-audience-nav-container left js-home-nav-el yt-analytics-event-tracking"
+                data-analytics-category="overview-audience-slideshow" data-nav-action=
+                "prev"><img alt="Seta para esquerda" class="home-audience-animation-left" src=
+                "/yt/advertise/medias/images/yt-ads-animate-left.svg"></span> <span class=
+                "home-audience-nav-container right js-home-nav-el yt-analytics-event-tracking"
+                data-analytics-category="overview-audience-slideshow" data-nav-action=
+                "next"><img alt="Seta para direita" class="home-audience-animation-right" src=
+                "/yt/advertise/medias/images/yt-ads-animate-right.svg"></span>
+              </div>
+              <div class="yt-card-text">
+                <h2 class="yt-card-title">
+                  Para quem posso direcionar meus anúncios?
+                </h2>
+                <p>
+                  O YouTube tem diversas opções de segmentação que ajudam você a alcançar o cliente
+                  certo para sua empresa. A segmentação pode ser por idade, sexo, localização,
+                  interesses e muito mais.
+                </p>
+              </div>
+            </div>
+            <div class=
+            "yt-card-light yt-js-card yt-card-relative yt-col-12 home-results-card initial-el">
+              <div class="yt-js-carousel-container home-results-carousel-container"
+              data-carousel-autostart="true" data-carousel-interval-msecs="4000"
+              data-carousel-locale="pt-BR">
+                <div class="yt-js-carousel yt-advertise-home-results-carousel">
+                  <div class="yt-js-carousel-item home-results-carousel-item">
+                    <img alt="Visualizações" src=
+                    "/yt/advertise/medias/images/yt-ads-home-views.svg">
+                    <div class="yt-advertise-home-results-carousel-banner">
+                      Veja por quantas visualizações você pagou.
+                    </div>
+                  </div>
+                  <div class="yt-js-carousel-item home-results-carousel-item">
+                    <img alt="Visualizações" src=
+                    "/yt/advertise/medias/images/yt-ads-home-ad-views-update.svg">
+                    <div class="yt-advertise-home-results-carousel-banner">
+                      Veja onde seu anúncio é visto.
+                    </div>
+                  </div>
+                  <div class="yt-js-carousel-item home-results-carousel-item">
+                    <img alt="Visualizações" src=
+                    "/yt/advertise/medias/images/yt-ads-home-click-rate-update.svg">
+                    <div class="yt-advertise-home-results-carousel-banner">
+                      Veja quantos cliques você conseguiu.
+                    </div>
+                  </div>
+                </div>
+                <div class="yt-js-carousel-nav yt-advertise-whyitworks-carousel-nav">
+                  <button class=
+                  "yt-js-carousel-nav-item yt-carousel-nav-item yt-analytics-event-tracking"
+                  data-analytics-category="overview-results-slideshow" data-carousel-action=
+                  "1">•</button> <button class=
+                  "yt-js-carousel-nav-item yt-carousel-nav-item yt-analytics-event-tracking"
+                  data-analytics-category="overview-results-slideshow" data-carousel-action=
+                  "2">•</button> <button class=
+                  "yt-js-carousel-nav-item yt-carousel-nav-item yt-analytics-event-tracking"
+                  data-analytics-category="overview-results-slideshow" data-carousel-action=
+                  "3">•</button>
+                </div>
+              </div>
+              <div class="yt-card-text">
+                <h2 class="yt-card-title">
+                  Como medir os resultados?
+                </h2>
+                <p>
+                  O YouTube tem um Analytics interno, que torna mais fácil ver o desempenho de seu
+                  anúncio. Você também pode fazer ajustes no anúncio a qualquer momento e usar
+                  vários simultaneamente para ver qual tem o melhor desempenho.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="yt-js-sidebarscroll-footer" id="yt-microsite-footer">
+          <footer class="footer home-footer yt-cols">
+            <div class="footer-offer">
+              <div class="footer-offer-inner">
+                <h2 class="footer-title">
+                  Ganhe {[ctrl.widgetData[ctrl.countrySelected].currencyGet]} em créditos gratuitos
+                  ao gastar {[ctrl.widgetData[ctrl.countrySelected].currencySpend]} com anúncios em
+                  vídeo
+                </h2>
+                <div class="footer-terms">
+                  <a class="yt-advertise-js-lightbox-group-1 yt-js-lightbox" data-lightbox-height=
+                  "480" data-lightbox-width="550" href="#yt-advertise-offer-terms" id=
+                  "yt-advertise-js-lightbox-group-1">Termos e condições</a>
+                </div>
+                <div class="yt-hide" id="yt-advertise-offer-terms">
+                  <h2>
+                    Termos e condições desta oferta:
+                  </h2>
+                  <p>
+                    Os códigos promocionais não têm valor monetário. A inserção desses códigos
+                    serve apenas para iniciar seu processo de qualificação para o crédito
+                    promocional associado a eles.
+                  </p>
+                  <p>
+                    Para se qualificar para o crédito promocional, é necessário acumular despesas
+                    de publicidade com anúncios em vídeo on-line (somente anúncios em vídeo
+                    TrueView do Google AdWords) no valor de R$ 50 em até 60 dias da inserção do
+                    código promocional (taxas podem ser aplicadas). Por exemplo, se você digitar o
+                    código no dia 10 de outubro de 2014, terá até 11 de dezembro de 2014 para
+                    acumular despesas de publicidade no valor de R$ 50. Em todas as circunstâncias,
+                    é necessário digitar o código promocional no prazo de 30 dias a contar da data
+                    de recebimento para ativar esta oferta.
+                  </p>
+                  <p>
+                    Para que sua conta se qualifique para um crédito promocional, é necessário que
+                    ela seja faturada pelo Google AdWords e permaneça em situação regular.
+                  </p>
+                  <p>
+                    O crédito promocional será aplicado em aproximadamente cinco dias úteis após
+                    sua conta ter atingido as despesas de publicidade em vídeo acumuladas no
+                    montante acima especificado, desde que você tenha ativado sua conta usando o
+                    código promocional e cumprido todos os requisitos estabelecidos na oferta.
+                    Depois de aplicado, o crédito promocional aparecerá na página "Resumo do
+                    faturamento" na conta.
+                  </p>
+                </div>
+                <form class=
+                "yt-js-form-root yt-form-field-wrapper yt-form-root footer-offer-form js-ads-form-root"
+                data-ads-locale="pt-BR">
+                  <span class=
+                  "yt-form-input-select-container yt-js-form-input-select-container yt-col-6"><span class="yt-form-input-select-value yt-js-form-input-select-value">
+                  &nbsp;</span> <span class=
+                  "yt-form-input-select-arrow">&nbsp;</span><select class="yt-js-form-input-select"
+                  ng-click="ctrl.setWidgetUrl()" ng-model="ctrl.countrySelected">
+                    <option value="AU">
+                      Austrália
+                    </option>
+                    <option value="AT">
+                      Áustria
+                    </option>
+                    <option value="BE">
+                      Bélgica
+                    </option>
+                    <option value="BR">
+                      Brasil
+                    </option>
+                    <option value="CA">
+                      Canadá
+                    </option>
+                    <option value="CL">
+                      Chile
+                    </option>
+                    <option value="CO">
+                      Colômbia
+                    </option>
+                    <option value="DK">
+                      Dinamarca
+                    </option>
+                    <option value="FI">
+                      Finlândia
+                    </option>
+                    <option value="FR">
+                      França
+                    </option>
+                    <option value="DE">
+                      Alemanha
+                    </option>
+                    <option value="IE">
+                      Irlanda
+                    </option>
+                    <option value="IT">
+                      Itália
+                    </option>
+                    <option value="JP">
+                      Japão
+                    </option>
+                    <option value="MX">
+                      México
+                    </option>
+                    <option value="NL">
+                      Holanda
+                    </option>
+                    <option value="NZ">
+                      Nova Zelândia
+                    </option>
+                    <option value="NO">
+                      Noruega
+                    </option>
+                    <option value="PE">
+                      Peru
+                    </option>
+                    <option value="KR">
+                      Coreia do Sul
+                    </option>
+                    <option value="ES">
+                      Espanha
+                    </option>
+                    <option value="SE">
+                      Suécia
+                    </option>
+                    <option value="CH">
+                      Suíça
+                    </option>
+                    <option value="GB">
+                      Reino Unido
+                    </option>
+                    <option value="US">
+                      Estados Unidos
+                    </option>
+                  </select></span> <iframe class="yt-advertise-incentive-widget yt-col-6" ng-src=
+                  "{[ctrl.iframeSrcUrl]}"></iframe>
+                </form>
+              </div>
+            </div>
+            <div class="footer-nav">
+              <div class="footer-nav-inner">
+                <div class=
+                "footer-nav-image footer-nav-image-first home-footer-nav-launch-ad yt-col-6">
+                  <div class="footer-nav-image-inner">
+                    <h3 class="footer-title previous">
+                      <svg class="yt-icon yt-icon-arrow-reverse yt-icon-black" viewbox=
+                      "4 4.1 15.8 15.8">
+                      <g>
+                        <path d="M4,11v2h12l-5.5,5.5l1.4,1.4l7.9-7.9l-7.9-7.9l-1.4,1.4L16,11H4z">
+                        </path>
+                      </g></svg> Lançar um anúncio
+                    </h3><a class="footer-anchor" href="launch-ad.html">&nbsp;</a>
+                    <div class="footer-ripple"></div>
+                  </div>
+                </div>
+                <div class="footer-nav-image home-footer-nav-worker yt-col-6">
+                  <div class="footer-nav-image-inner">
+                    <h3 class="footer-title next">
+                      Estudos de caso<svg class="yt-icon yt-icon-arrow-forward yt-icon-black"
+                      viewbox="4 4.1 15.8 15.8">
+                      <g>
+                        <path d="M4,11v2h12l-5.5,5.5l1.4,1.4l7.9-7.9l-7.9-7.9l-1.4,1.4L16,11H4z">
+                        </path>
+                      </g></svg>
+                    </h3><a class="footer-anchor" href="case-studies.html">&nbsp;</a>
+                    <div class="footer-ripple"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </footer>
+        </div>
+      </div>
+    </div>
+    <div class="footer-container">
+      <div>
+        <div class="footer-main">
+          <span class="footer-logo"><a href="/"><img alt="Página inicial do YouTube" src=
+          "/yt/img/logo_1x.png" srcset="/yt/img/logo_2x.png 2x"></a></span>
+          <div class="footer-language-selector-container yt-js-form-root">
+            <label for="yt-footer-language-selector">Idioma:</label> <span class=
+            "footer-language-selector yt-form-input-select-container yt-js-form-input-select-container">
+            <span aria-hidden="true" class=
+            "yt-form-input-select-value yt-js-form-input-select-value">&nbsp;</span>
+            <span aria-hidden="true" class="yt-form-input-select-arrow">&nbsp;</span><select class=
+            "yt-js-form-input-select yt-js-language-selector yt-form-input-select-element" id=
+            "yt-footer-language-selector">
+              <option class="yt-rtl" title="Árabe" value="/yt/advertise/ar/index.html">
+                العربية
+              </option>
+              <option class="yt-ltr" title="Dinamarquês" value="/yt/advertise/da/index.html">
+                Dansk
+              </option>
+              <option class="yt-ltr" title="Alemão" value="/yt/advertise/de/index.html">
+                Deutsch
+              </option>
+              <option class="yt-ltr" title="Inglês" value="/yt/advertise/index.html">
+                English
+              </option>
+              <option class="yt-ltr" title="Inglês (Reino Unido)" value=
+              "/yt/advertise/en-GB/index.html">
+                English (United Kingdom)
+              </option>
+              <option class="yt-ltr" title="Espanhol" value="/yt/advertise/es/index.html">
+                Español
+              </option>
+              <option class="yt-ltr" title="Espanhol (América Latina)" value=
+              "/yt/advertise/es-419/index.html">
+                Español (Latinoamérica)
+              </option>
+              <option class="yt-ltr" title="Finlandês" value="/yt/advertise/fi/index.html">
+                Suomi
+              </option>
+              <option class="yt-ltr" title="Francês" value="/yt/advertise/fr/index.html">
+                Français
+              </option>
+              <option class="yt-ltr" title="Italiano" value="/yt/advertise/it/index.html">
+                Italiano
+              </option>
+              <option class="yt-ltr" title="Japonês" value="/yt/advertise/ja/index.html">
+                日本語
+              </option>
+              <option class="yt-ltr" title="Coreano" value="/yt/advertise/ko/index.html">
+                한국어
+              </option>
+              <option class="yt-ltr" title="Holandês" value="/yt/advertise/nl/index.html">
+                Nederlands
+              </option>
+              <option class="yt-ltr" title="Norueguês" value="/yt/advertise/no/index.html">
+                Norsk
+              </option>
+              <option class="yt-ltr" title="polonês" value="/yt/advertise/pl/index.html">
+                polski
+              </option>
+              <option class="yt-ltr" selected title="Português (Brasil)" value=
+              "/yt/advertise/pt-BR/index.html">
+                Português (Brasil)
+              </option>
+              <option class="yt-ltr" title="Russo" value="/yt/advertise/ru/index.html">
+                Русский
+              </option>
+              <option class="yt-ltr" title="Sueco" value="/yt/advertise/sv/index.html">
+                Svenska
+              </option>
+              <option class="yt-ltr" title="Turco" value="/yt/advertise/tr/index.html">
+                Türkçe
+              </option>
+            </select></span>
+          </div><a class="yt-uix-button yt-uix-button-default footer-help-btn" href=
+          "https://support.google.com/youtube"><span class=
+          "footer-help-btn-img-container"><img alt="" aria-label="Help" src=
+          "/yt/img/yt-icon-small-help.png" srcset="/yt/img/yt-icon-small-help-2x.png 2x"></span>
+          <span class=
+          "yt-uix-button-content footer-help-btn-content yt-mobile-hidden">Ajuda</span></a>
+        </div>
+        <div class="footer-secondary">
+          <ul class="footer-primary-info">
+            <li>
+              <a href="/yt/about/pt-BR/">Sobre</a>
+            </li>
+            <li>
+              <a href="/yt/press/pt-BR/">Imprensa</a>
+            </li>
+            <li>
+              <a href="/yt/copyright/pt-BR/">Direitos autorais</a>
+            </li>
+            <li>
+              <a href="/yt/creators/pt-BR/">Criadores de conteúdo</a>
+            </li>
+            <li>
+              <a href="/yt/advertise/pt-BR/">Publicidade</a>
+            </li>
+            <li>
+              <a href="/yt/dev/pt-BR/">Desenvolvedores</a>
+            </li>
+            <li>
+              <a href="https://plus.google.com/+youtube">+YouTube</a>
+            </li>
+          </ul>
+          <ul class="footer-secondary-info">
+            <li>
+              <a href="/t/terms">Termos</a>
+            </li>
+            <li>
+              <a href="/yt/policyandsafety/pt-BR/">Política e segurança</a>
+            </li>
+            <li>
+              <a href="//www.google.com/policies/privacy/">Privacidade</a>
+            </li>
+            <li>
+              <a href="/testtube">Tente algo novo!</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://www.gstatic.com/external_hosted/hammerjs/v2_0_2/hammer.min.js">
+    </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular.min.js">
+    </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular-animate.min.js">
+    </script> 
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.6/angular-aria.min.js">
+    </script> 
+    <script src=
+    "https://ajax.googleapis.com/ajax/libs/angular_material/0.6.1/angular-material.min.js">
+    </script> 
+    <script src="/yt/js/www-goro.min.js">
+    </script> 
+    <script src="/yt/js/www-advertise.min.js">
+    </script> 
+    <script>
+    var lb = new yt.goro.core.lightbox.Lightbox("yt-advertise-js-lightbox-group-1", "yt-advertise-js-lightbox-group-1");
+
+    /* Floodlights */
+    var ytAdvertiseRunAdTracker = new yt.goro.core.analytics.DoubleTrack('floodlight', {
+      src: 2507573,
+      type: 'b2b-y165',
+      cat: 'youtu079'
+    });
+    ytAdvertiseRunAdTracker.trackClass('yt-advertise-adwv-run-your-ad');
+    var ytAdvertiseTracker = yt.goro.site.advertise.config.ANALYTICS_TRACKER;
+    var ytAdvertiseSendCommand = yt.goro.site.advertise.config.GA_SEND_COMMAND;
+    yt.goro.core.analytics.ga('create', 'UA-28403453-1', 'auto', {
+      'name': ytAdvertiseTracker,
+      'allowLinker': true,
+      'siteSpeedSampleRate': 100
+    });
+    yt.goro.core.analytics.ga(ytAdvertiseTracker + '.require', 'linker');
+    yt.goro.core.analytics.ga(ytAdvertiseTracker + '.linker:autoLink', ['google.com']);
+    yt.goro.core.analytics.ga(ytAdvertiseSendCommand, 'pageview');
+    yt.goro.core.analytics.updateQueryParamsByClass('yt-js-advertise-param-anchors');
+    </script> 
+    <script src="//www.gstatic.com/swiffy/v7.0/runtime.js">
+    </script> 
+    <script>
+    var initHero = function() {
+      yt.goro.site.advertise.videoHeroInit();
+    }
+    yt.goro.core.pubsub.subscribe(
+        yt.goro.core.responsive.ViewportEvents.NON_MOBILE, initHero);
+
+    var ytAdvertiseHeroCalls = 0;
+    var ytAdvertiseVideoReady = function(e) {
+      ytAdvertiseHeroCalls++;
+      if(ytAdvertiseHeroCalls <= 1) {
+        yt.goro.core.pubsub.publish('ytHeroReady', e);
+      }
+    }
+    /* Floodlights */
+    var ytAdvertiseIndexConversions = new yt.goro.core.analytics.DoubleTrack('floodlight', {
+      src: 2507573,
+      type: 'b2b-y165',
+      cat: 'b2b-y329'
+    });
+    ytAdvertiseIndexConversions.track();
+    (function(){
+     /* Remove SVG strings for non-EN sites */
+     
+       var ytAdsSvgEl = ytAdsSvgAudienceIntl;
+     
+       ytAdsSvgEl.el = document.createElement('div');
+       ytAdsSvgEl.el.className = 'js-home-swiffycontainer';
+       ytAdsSvgEl.stage = new window.swiffy.Stage(ytAdsSvgEl.el,
+           ytAdsSvgEl.swiffy);
+       ytAdsSvgEl.stage.start();
+       svgParentEl = document.getElementById('yt-ads-audience');
+       svgParentEl.appendChild(ytAdsSvgEl.el);
+    })();
+    </script>
+  </body>
+</html>

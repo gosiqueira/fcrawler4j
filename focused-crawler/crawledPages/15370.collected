@@ -1,0 +1,243 @@
+title=Canvas Webhouse
+url=http://canvas.com.br/clientes_portfolio.html
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Canvas Webhouse</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link href="css/estrutura.css" rel="stylesheet" type="text/css" />
+    <link href="css/geral.css" rel="stylesheet" type="text/css" />
+    <link href="css/menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="font/stylesheet.css" type="text/css" charset="utf-8" />
+    
+    <link rel="stylesheet" href="css/mosaic.css" type="text/css" media="screen" />
+    
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/mosaic.1.0.1.min.js"></script>
+    <script type="text/javascript" src="js/funcoes.js"></script>
+    <script type="text/javascript">  
+                
+                $(document).ready(function($){
+    
+                    $('.bar2').mosaic({
+                        animation	:	'slide'	//fade or slide
+                    });
+                    
+    
+                });
+    
+    </script>
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+        <div id="logo">
+        	<img src="imgs/canvas_logo.png" alt="Canvas Webhouse">
+        </div>
+        <div id="tel_email">
+        	<p><span>canvas@canvas.com.br</span></p>
+        </div>
+    </div>
+	<div id="content">
+        <div id="latEsq">
+        	<ul id="menu">
+            	<li><a class="home" href="index.html">HOME</a></li>
+                <li><a class="clientes" href="clientes_portfolio.html">CLIENTES &amp; PORTF&Oacute;LIO</a></li>
+                <li><a class="expertise" href="expertise.html">EXPERTISE</a></li>
+                <li><a class="contatos"  href="contato.html">CONTATOS</a></li>
+                <!--<li><a class="blog"  href="blog.html">BLOG</a></li>-->
+            </ul>
+            <div id="social_media"> <a href="#"><img src="imgs/media_facebook.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_twitter.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_flikr.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_delicious.gif" width="36" height="35"></a>
+            </div>
+        </div>
+        <div id="latDir" style="position:relative">
+        	<h1>Clientes &amp; Portfolio</h1>
+            <h2>&uacute;ltimo projeto</h2>
+            <!-- �ltimo projeto -->
+              
+             <div class="dest_ult_proj" style=" float:right;">
+                <img src="imgs/portfolio_clientes/ultimo_trabalho/ultimo_trabalho_01.jpg" title="Rede Globo - Sala de Imprensa" alt="Rede Globo - Sala de Imprensa"/>
+            </div>
+             
+						<div id="dvTip" class="dest_ult_proj_bt2" style="width:30px; height:80px; overflow:hidden; background-color:#5f6c7c; position:absolute; display:block; top:120px; right:-22px; z-index:9999;">
+							
+                            <div id="txt" style="display:none; float:left; width:270px; height:70px; padding:5px; overflow:hidden; color:#FFF;">
+								<p style="color:#FFF"><strong>Rede Globo de Televis&atilde;o</strong><br />Site de Imprensa</p>
+								<p style="margin-bottom:6px;" class="link_ultimo_trabalho"><a href="http://imprensa.globo.com" title="Clique e conhe&ccedil;a o projeto" target="_blank" style="font-size:12px; padding:4px;">imprensa.globo.com</a></p>
+							</div>
+							<div style="float:right; width:30px; height:80px; overflow:hidden;">
+									<a onClick="abreTip('dvTip', 'imgHover', 'pelicula', 'txt');" href="javascript:void(0);" title="Clique para saber mais detalhes" target="_self"><img id="imgHover" src="imgs/icon_canvas_on.gif" width="27" height="80" border="0"></a>
+							</div>
+                         
+                         
+                         </div>
+                         
+              
+            <div class="dest_ult_proj_fade" id="pelicula" style="display: none; opacity:0; filter: alpha(opacity=0); width:674px; height:564px; background-color: #fff; float:left; position:absolute; top:88px; left:28px;">
+            </div>
+  
+            <!-- �ltimo projeto -->
+            
+            
+           <!-- marca que antendemos - in�cio -->
+			<div class="clear">&nbsp;</div>
+            <h2>marcas que atendemos</h2>
+            <p class="subTitClientes">conhe&ccedil;a os trabalhos mais recentes</p>
+            
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_globo.gif" width="110" height="110" title="Rede Globo" alt="Rede Globo">
+          	</div>            
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_telecine.gif" width="110" height="110" title="Rede Telecine" alt="Rede Telecine">
+            </div>
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_tb.gif" width="110" height="110" title="Time Brasil" alt="Time Brasil">
+            </div>
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_dufry.gif" width="110" height="110" title="Dufry" alt="Dufry">
+            </div>
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_vale.gif" width="110" height="110" title="Vale" alt="Vale">
+            </div>
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_in-press.gif" width="110" height="110" title="In Press" alt="In Press">
+            </div>
+            
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_megapix.gif" width="110" height="110" title="Megapix" alt="Megapix">
+            </div>            
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_luminosidade.gif" width="110" height="110" title="Luminosidade" alt="Luminosidade">
+            </div>
+            
+             <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_aproach.gif" width="110" height="110" title="Approach" alt="Approach">
+            </div>            
+            <div class="link_clientes"> 
+            	<img src="imgs/portfolio_clientes/logo_governo-do-estado.gif" width="110" height="110" title="Governo do Estado do RJ" alt="Governo do Estado do RJ">
+            </div>		   
+            
+            <div class="clear"></div>
+           <p class="txt1 txtR"><a class="postAnt" href="clientes_portfolio_marcas.html">Veja a lista completa &rarr;</a></p>
+           
+           <!-- marca que antendemos - fim -->
+
+           <!-- estudos de caso - in�cio -->
+        	<!--<h2>Estudo de caso</h2>
+            <p class="subTitClientes">fique por dentro dos cases de sucesso</p>
+            
+                    
+                    <div class="mosaic-block bar2">
+                        <a href="/" target="_blank" class="mosaic-overlay">
+                            <div class="details">
+                                <h4>Marina</h4>
+                                <p>Texto fake</p>
+                            </div>
+                        </a>
+                        <div class="mosaic-backdrop">
+                        	<img src="imgs/portfolio_clientes/estudos_de_caso/estudo-de-caso_marina.gif"/>
+                        </div>
+                    </div>
+
+                    
+                    <div class="mosaic-block bar2 meio2">
+                        <a href="/" target="_self" class="mosaic-overlay">
+                            <div class="details">
+                                <h4>Rede Globo</h4>
+                                <p>Texto fake</p>
+                            </div>
+                        </a>
+                        <div class="mosaic-backdrop"><img src="imgs/portfolio_clientes/estudos_de_caso/estudo-de-caso_globo.gif"/></div>
+                    </div>
+                    
+                    
+                    <div class="mosaic-block bar2">
+                        <a href="/" target="_blank" class="mosaic-overlay">
+                            <div class="details">
+                                <h4>Shrek</h4>
+                                <p>Texto fake</p>
+                            </div>
+                        </a>
+                        <div class="mosaic-backdrop"><img src="imgs/portfolio_clientes/estudos_de_caso/estudo-de-caso_shrek.gif"/></div>
+                    </div>
+		   
+           <div class="clear">&nbsp;</div>-->
+          
+           <!-- estudos de caso - fim -->
+            
+        </div>
+    </div>
+</div>
+	<div id="footer">
+  <div id="footer_cont">
+            <div class="det_footer">
+            <p class="frase"><span>Prouldly powered by ourselves</span></p>
+            <!--<p class="numero">+55 21 <span>2245.9248</span></p>-->
+            </div>
+            
+            <hr /> 
+                    
+                <div class="container_footer"> 
+                   
+                    <div class="float">
+                    <ul>
+                        <li>HOME</li>
+                        <li class="clientes">CLIENTES &amp; PORTF&Oacute;LIO
+                            <ul>
+                                <li>Cria&ccedil;&atilde;o&nbsp;&middot;</li>
+                                <li>Tecnologia&nbsp;&nbsp;&nbsp;</li>
+                                <li>Estrat&eacute;gia	&nbsp;&middot;</li>
+                                <li>Conte&uacute;do&nbsp;&nbsp;&nbsp;</li>
+                                <li>Corporativo</li>
+                            </ul>
+                        </li>
+                        <li>CONTATOS</li>
+                        <li>BLOG</li>
+                    </ul>
+                    </div>
+                    
+                    <div class="float">
+                    <!--<ul>
+                        <li>SIGA-NOS
+                            <ul>
+                                <li><img src="imgs/footer/facebook.png" width="19" height="19" alt="Facebook">&nbsp;FACEBOOK</li>
+                                <li><img src="imgs/footer/twitter.png" width="19" height="19" alt="Twitter">&nbsp;TWITTER</li>
+                                <li><img src="imgs/footer/flickr.png" width="19" height="19" alt="Flickr">&nbsp;FLICKR</li>
+                                <li><img src="imgs/footer/delicious.png" width="19" height="19" alt="Delicious">&nbsp;DELICIOUS</li>
+                            </ul>
+                         </li>   
+                    </ul>-->
+            </div>
+                    
+                    <div class="float">
+                    <ul>
+                        <li>ENDERE&Ccedil;O
+                            <p class="footer_endereco">
+                                Rua do Catete, 311 / cobertura 09<br />
+                                Flamengo - Rio do Janeiro - RJ<br />
+                                CEP 22220-901 - Brasil
+                            </p>
+                        </li>
+                    </ul>
+          </div>
+        
+                    <div class="float">
+                    	<img src="imgs/footer/mapa.gif" width="233" height="116" alt="Mapa">
+                    </div>
+                 
+                 </div>   
+                    
+            <hr /> 
+			<p class="footer_assinatura left">Pol&iacute;ticas de privacidade &#8226; Termos de Uso</p>
+      		<p class="footer_assinatura right">&copy; 2011 Canvas Webhouse. Todos os direitos reservados. All rights reserved.</p>
+    	</div>
+    </div>
+</body>
+</html>

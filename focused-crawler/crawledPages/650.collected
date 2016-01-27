@@ -1,0 +1,626 @@
+title=Twitter Status
+url=http://status.twitter.com/
+html=<!DOCTYPE html>
+<script>var __pbpa = true;</script><script>var translated_warning_string = 'Warning: Never enter your Tumblr password unless \u201chttps://www.tumblr.com/login\u201d\x0ais the address in your web browser.\x0a\x0aYou should also see a green \u201cTumblr, Inc.\u201d identification in the address bar.\x0a\x0aSpammers and other bad guys use fake forms to steal passwords.\x0a\x0aTumblr will never ask you to log in from a user\u2019s blog.\x0a\x0aAre you absolutely sure you want to continue?';</script><script type="text/javascript" language="javascript" src="http://assets.tumblr.com/assets/scripts/pre_tumblelog.js?_v=4407ac63b04a974114891da19b333539"></script>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# blog: http://ogp.me/ns/blog#">
+        <!-- DEFAULT COLORS -->
+        <meta name="color:Background" content="#fff"/>
+        <meta name="color:Title" content="#444"/>
+        <meta name="color:Description" content="#777"/>
+        <meta name="color:Post Title" content="#6498cc"/>    
+        <meta name="color:Text" content="#444"/>
+        <meta name="color:Inline Link" content="#6498cc"/>
+        <meta name="color:Quote" content="#888"/>
+        <meta name="color:Quote Border" content="#6498cc"/>
+        <meta name="color:Quote Source" content="#555"/>
+        <meta name="color:Link Post" content="#c00"/>
+        <meta name="color:Conversation Background 1" content="#f4f4f4"/>
+        <meta name="color:Conversation Background 2" content="#e8e8e8"/>
+        <meta name="color:Conversation Border" content="#bbb"/>
+        <meta name="color:Conversation Text" content="#444"/>
+        <meta name="color:Date" content="#ccc"/>
+        <meta name="color:Date Block" content="#6498cc"/>
+        <meta name="color:Date Block Text" content="#bbd5f1"/>        
+        <!-- END DEFAULT COLORS -->
+
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>Twitter Status</title>
+        <style type="text/css">figure {margin: 0;}</style>
+<link rel="icon" href="http://38.media.tumblr.com/avatar_be75a538ccae_128.gif"/>
+        <link rel="alternate" type="application/rss+xml" title="RSS" href="http://twitterstatus.tumblr.com/rss"/>
+        <meta name="viewport" content="width=800"/> <!-- iPhone -->
+
+        <style type="text/css">
+            body {
+                margin: 0px;
+                background-color: #fff;
+                font-family: 'Lucida Grande', Helvetica, sans-serif;
+            }            
+
+            a {
+                color: #99cc33;
+            }
+
+            h1 {
+                width: 600px;
+                padding: 0px 100px 20px 100px;
+                margin: 50px auto 40px auto;
+                border-bottom: solid 1px #ccc;
+                text-align: center;
+                font: Bold 55px 'Trebuchet MS', Helvetica, sans-serif;
+                letter-spacing: -2px;
+                line-height: 50px;
+                position: relative;
+            }
+            
+                h1 a {
+                    color: #444;
+                    text-decoration: none;
+                }
+                
+                h1 img {
+                    border-width: 0px;
+                    position: absolute;
+                    right: 0px;
+                    bottom: 10px;
+                    width: 43px;
+                    height: 23px;
+                }
+
+            div#content {
+                width: 420px;
+                margin: auto;
+                position: relative;
+            }
+
+                div#content div#description {
+                    position: absolute;
+                    right: -170px;
+                    width: 160px;
+                    text-align: right;
+                }
+
+            div#description {
+                font: Normal 17px Helvetica,sans-serif;
+                line-height: 20px;
+                color: #777;
+            }
+
+                div#description a {
+                    color: #777;
+                }
+            
+            div.post {
+                position: relative;
+                margin-bottom: 40px;
+                padding-right: 20px;
+            }
+
+                div.post div.date {
+                    position: absolute;
+                    left: -260px;
+                    text-align: right;
+                    width: 230px;                
+                    white-space: nowrap;
+                    font: Normal 34px Helvetica, sans-serif;
+                    letter-spacing: -2px;
+                    color: #ccc;
+                    text-transform: uppercase;
+                    line-height: 35px;
+                }
+                
+                    div.post div.date div.date_brick {
+                        float: right;
+                        height: 30px;
+                        width: 45px;
+                        background-color: #6498cc;
+                        color: #bbd5f1;
+                        font: Bold 12px Verdana, Sans-Serif;
+                        text-align: center;
+                        line-height: 12px;
+                        margin-left: 10px;
+                        padding-top: 5px;
+                        letter-spacing: 0px;
+                        overflow: hidden;
+                    }
+
+                div.post img.permalink {
+                    width: 14px;
+                    height: 13px;
+                    border-width: 0px;
+                    background-color: #000;
+                    display: none;
+                    position: absolute;
+                    right: 0px;
+                    top: 0px;
+                    z-index: 10;
+                }
+                
+                    div.post:hover img.permalink {
+                        display: inline;
+                    }
+
+                div.post h2 {
+                    font-size: 18px;
+                    font-weight: Bold;
+                    color: #6498cc;
+                    letter-spacing: -1px;
+                    margin: 0px 0px 5px 0px;
+                }
+
+                    div.post h2 a {
+                        color: #6498cc;
+                        text-decoration: none;
+                    }
+            
+                div.post div.caption {
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: #444;
+                    margin-top: 10px;
+                    padding: 0px 20px 0px 20px;
+                }
+
+                    div.post div.caption a {
+                        color: #444;
+                    }
+    
+            /* Regular Post */
+            
+                div.post div.regular {
+                    font-size: 12px;
+                    color: #444;
+                    line-height: 17px;
+                }
+
+                    div.post div.regular blockquote {
+                        font-style: italic;
+                        border-left: solid 2px #444;
+                        padding-left: 10px;
+                    }
+                        
+            /* Quote Post */
+            
+                div.post div.quote div.quote_text {
+                    font-family: Helvetica, sans-serif;
+                    font-weight: bold;
+                    color: #888;
+                    border-left: solid 5px #6498cc;
+                    padding-left: 10px;
+                }
+                
+                    div.post div.quote div.quote_text span.short {
+                        font-size: 36px;
+                        line-height: 40px;
+                        letter-spacing: -1px;
+                    }
+                    
+                    div.post div.quote div.quote_text span.medium {
+                        font-size: 25px;
+                        line-height: 27px;
+                        letter-spacing: -1px;
+                    }
+                    
+                    div.post div.quote div.quote_text span.long {
+                        font-size: 16px;
+                        line-height: 20px;
+                    }
+
+                    div.post div.quote div.quote_text a {
+                        color: #888;
+                    }
+        
+                div.post div.quote div.source {
+                    font-size: 16px;
+                    font-weight: Bold;
+                    color: #555;
+                    margin-top: 5px;
+                }
+
+                    div.post div.quote div.source a {
+                        color: #555;
+                    }
+            
+            /* Link Post */
+            
+                div.post div.link a.link {
+                    font: Bold 20px Helvetica, sans-serif;
+                    letter-spacing: -1px;
+                    color: #c00;
+                }
+
+                    div.post div.link span.description {
+                        font-size: 13px;
+                        font-weight: normal;
+                        letter-spacing: -1px;
+                        color: #444;
+                    }
+            
+            /* Conversation Post */
+                        
+                div.post div.conversation ul {
+                    list-style-type: none;
+                    margin: 0px;
+                    padding: 0px 0px 0px 1px;
+                    border-left: solid 5px #bbb;
+                }
+            
+                    div.post div.conversation ul li {
+                        font-size: 12px;
+                        padding: 4px 10px 4px 8px;
+                        color: #444;
+                        margin-bottom: 1px;
+                    }
+            
+                        div.post div.conversation ul li span.label {
+                            font-weight: bold;
+                        }
+                        
+                            div.post div.conversation ul li span.user_1 {
+                                color: #c00;
+                            }
+                            
+                            div.post div.conversation ul li span.user_2 {
+                                color: #00c;
+                            }
+                            
+                            div.post div.conversation ul li span.user_3 {
+                                color: #0a0;
+                            }
+                        
+                        div.post div.conversation ul li.odd {
+                            background-color: #f4f4f4;
+                        }
+
+                        div.post div.conversation ul li.even {
+                            background-color: #e8e8e8;
+                        }
+            
+            /* Video Post */
+            
+                div.post div.video {
+                    width: 400px;
+                    margin: auto;
+                }
+
+            /* Footer */
+            
+                div#footer {
+                    margin: 40px 0px 30px 0px;
+                    text-align: center;
+                    font-size: 15px;
+                    font-weight: bold;
+                    color: #444;
+                }
+            
+                    div#footer a {
+                        text-decoration: none;
+                        color: #444;
+                    }
+            
+                        div#footer a:hover {
+                            text-decoration: underline;
+                        }
+                    
+                    div#footer div#credit {
+                        font: Normal 13px Georgia, serif;
+                        font-size: 13px;
+                        margin-top: 15px;
+                    }
+                    
+            
+        </style>
+<script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+    <link rel="alternate" href="android-app://com.tumblr/tumblr/x-callback-url/blog?blogName=twitterstatus" />
+<link rel="alternate" href="ios-app://305343404/tumblr/x-callback-url/blog?blogName=twitterstatus" />
+<script src="http://assets.tumblr.com/assets/scripts/tumblelog.js?_v=8542c581eb847e87ac67ac5a0855c7f6"></script>
+
+<link rel="stylesheet" type="text/css" href="http://assets.tumblr.com/fonts/gibson/stylesheet.css?v=3">
+
+<!-- BEGIN TUMBLR FACEBOOK OPENGRAPH TAGS --><!-- If you'd like to specify your own Open Graph tags, define the og:url and og:title tags in your theme's HTML. --><!-- Read more: http://ogp.me/ --><meta property="fb:app_id" content="48119224995" /><meta property="og:title" content="Twitter Status" /><meta property="og:url" content="http://twitterstatus.tumblr.com/?og=1" /><meta property="og:description" content="Updates on the status of the Twitter service." /><meta property="og:type" content="tumblr-feed:tumblelog" /><meta property="og:image" content="http://38.media.tumblr.com/avatar_be75a538ccae_128.gif" /><meta property="al:ios:url" content="tumblr://x-callback-url/blog?blogName=twitterstatus" /><meta property="al:ios:app_name" content="Tumblr" /><meta property="al:ios:app_store_id" content="305343404" /><meta property="al:android:url" content="tumblr://x-callback-url/blog?blogName=twitterstatus" /><meta property="al:android:app_name" content="Tumblr" /><meta property="al:android:package" content="com.tumblr" /><!-- END TUMBLR FACEBOOK OPENGRAPH TAGS -->
+
+
+<!-- TWITTER TAGS --><meta charset="utf-8"><meta name="twitter:site" content="tumblr" /><meta name="twitter:card" content="app" /><meta name="twitter:description" content="twitterstatus" /><meta name="twitter:title" content="twitterstatus" /><meta name="twitter:creator" content="twitterapi" /><meta name="twitter:app:name:iphone" content="Tumblr" /><meta name="twitter:app:name:ipad" content="Tumblr" /><meta name="twitter:app:name:googleplay" content="Tumblr" /><meta name="twitter:app:id:iphone" content="305343404" /><meta name="twitter:app:id:ipad" content="305343404" /><meta name="twitter:app:id:googleplay" content="com.tumblr" /><meta name="twitter:app:url:iphone" content="tumblr://x-callback-url/blog?blogName=twitterstatus&amp;referrer=twitter-cards" /><meta name="twitter:app:url:ipad" content="tumblr://x-callback-url/blog?blogName=twitterstatus&amp;referrer=twitter-cards" /><meta name="twitter:app:url:googleplay" content="tumblr://x-callback-url/blog?blogName=twitterstatus&amp;referrer=twitter-cards" />
+
+<!-- GOOGLE CAROUSEL --><script type="application/ld+json">{"@type":"ItemList","url":"http:\/\/twitterstatus.tumblr.com","itemListElement":[{"@type":"ListItem","position":1,"url":"http:\/\/twitterstatus.tumblr.com\/post\/137610751178\/service-issue"},{"@type":"ListItem","position":2,"url":"http:\/\/twitterstatus.tumblr.com\/post\/137550775343\/service-issue"},{"@type":"ListItem","position":3,"url":"http:\/\/twitterstatus.tumblr.com\/post\/137366304908\/service-issue"}],"@context":"http:\/\/schema.org"}</script>
+<link rel="canonical" href="http://twitterstatus.tumblr.com" />
+
+</head>
+    <body>
+
+<div style="text-align:center;margin-bottom:20px">
+<a href="/" >
+<img src="https://25.media.tumblr.com/tumblr_m55pvtvGAY1qznd1ro1_1280.png" alt="Twitter Status"
+style="border:0;margin-left:15px;margin-top:30px" />
+</a>        
+
+
+</div>
+    
+    
+        <div id="content">
+            <div id="description">
+                <div>
+                    Updates on the status of the <a href="http://twitter.com">Twitter</a> service.
+<br/>
+
+
+<div style="margin-top:20px;">
+<b>Related Links</b><br/>
+<a href="http://blog.twitter.com/">Official Company Blog</a>
+<br/><br/>
+<a href="http://support.twitter.com/">Official Help Documents</a>
+<br/><br/>
+<a href="http://dev.twitter.com/">Developer Community</a>
+<br /><br />
+</div>
+
+                    <p><a href="/archive">Archive</a></p>
+<a href="/rss"><img src="/themes/5/rss.gif" id="rss" alt="RSS"/></a>
+
+
+ <div id="credit" style="margin-top:100px;font-size:70%">
+                    Powered by <a href="https://www.tumblr.com/"
+                    target="_blank">Tumblr</a>
+                </div>
+
+                </div>
+            </div>
+            
+
+
+            
+                <div class="post">
+                    
+                        <div class="date">
+                            <div class="date_brick">
+                                Jan<br/>
+                                19th
+                            </div>
+                            Tue
+                        </div>
+                    
+                    
+                    <a href="http://twitterstatus.tumblr.com/post/137610751178/service-issue"><img src="/themes/5/permalink.gif"
+                    class="permalink" alt="permalink"/></a>
+
+                    
+                        <div class="regular">
+                            <h2><a href="http://twitterstatus.tumblr.com/post/137610751178/service-issue">Service Issue</a> <small style="color:#aaa;font-size:70%;">9 hours ago</small></h2>
+                            <p>Some users are currently experiencing problems accessing Twitter. We are aware of the issue and are working towards a resolution.<br></p><p><br></p><p>[ Update 10:00 PST ]<br></p><p>The intermittent issue affecting some users between 00:40 to 06:50 PST has now been resolved. The issue was related to an internal code change. We reverted the change, which fixed the issue. Thank you for your patience.</p>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://twitterstatus.tumblr.com/post/137610751178/service-issue" data-count="vertical" data-via="twitter" data-related="twitterapi">Tweet</a>
+                </div>
+            
+                <div class="post">
+                    
+                        <div class="date">
+                            <div class="date_brick">
+                                Jan<br/>
+                                18th
+                            </div>
+                            Mon
+                        </div>
+                    
+                    
+                    <a href="http://twitterstatus.tumblr.com/post/137550775343/service-issue"><img src="/themes/5/permalink.gif"
+                    class="permalink" alt="permalink"/></a>
+
+                    
+                        <div class="regular">
+                            <h2><a href="http://twitterstatus.tumblr.com/post/137550775343/service-issue">Service issue</a> <small style="color:#aaa;font-size:70%;">1 day ago</small></h2>
+                            <p>Between 06:23AM and 06:33AM PST some users were experiencing issues accessing Twitter via mobile and web.
+</p><p>This issue has now been resolved. We apologize for any inconvenience.
+</p>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://twitterstatus.tumblr.com/post/137550775343/service-issue" data-count="vertical" data-via="twitter" data-related="twitterapi">Tweet</a>
+                </div>
+            
+                <div class="post">
+                    
+                        <div class="date">
+                            <div class="date_brick">
+                                Jan<br/>
+                                15th
+                            </div>
+                            Fri
+                        </div>
+                    
+                    
+                    <a href="http://twitterstatus.tumblr.com/post/137366304908/service-issue"><img src="/themes/5/permalink.gif"
+                    class="permalink" alt="permalink"/></a>
+
+                    
+                        <div class="regular">
+                            <h2><a href="http://twitterstatus.tumblr.com/post/137366304908/service-issue">Service Issue</a> <small style="color:#aaa;font-size:70%;">3 days ago</small></h2>
+                            <p>Between 12:35 and 12:58PM PST some users were experiencing issues accessing Twitter via mobile and web.</p><p>This issue has now been resolved. We apologize for any inconvenience.</p>
+                        </div>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+<a href="http://twitter.com/share" class="twitter-share-button" data-url="http://twitterstatus.tumblr.com/post/137366304908/service-issue" data-count="vertical" data-via="twitter" data-related="twitterapi">Tweet</a>
+                </div>
+            
+
+            <div id="footer">
+                
+                
+                
+                    <a href="/page/2">Next &#187;</a>
+                
+                
+               
+            </div>
+        </div>
+    <!-- BEGIN TUMBLR CODE --><iframe scrolling="no" width="1" height="1" frameborder="0" style="background-color:transparent; overflow:hidden; position:absolute; top:0; left:0; z-index:9999;" id="ga_target"></iframe><script type="text/javascript">
+    (function(){
+        var analytics_frame = document.getElementById('ga_target');
+        var analytics_iframe_loaded;
+        var user_logged_in;
+        var blog_is_nsfw = 'No';
+        var addthis_enabled = false;
+
+        var eventMethod = window.addEventListener ? "addEventListener" : "attachEvent";
+        var eventer = window[eventMethod];
+        var messageEvent = eventMethod == "attachEvent" ? "onmessage" : "message";
+        eventer(messageEvent,function(e) {
+            var message = (e.data && e.data.split) ? e.data.split(';') : '';
+            switch (message[0]) {
+                case 'analytics_iframe_loaded':
+                    analytics_iframe_loaded = true;
+                    postCSMessage();
+                    postGAMessage();
+                    postATMessage();
+                    postRapidMessage();
+                    break;
+                case 'user_logged_in':
+                    user_logged_in = message[1];
+                    postGAMessage();
+                    postATMessage();
+                    break;
+            }
+        }, false);
+
+        analytics_frame.src = "https://secure.assets.tumblr.com/analytics.html?2c21d514373b9221f5a5041b0dfb079f#" +
+                              "http://twitterstatus.tumblr.com";
+        function postGAMessage() {
+            if (analytics_iframe_loaded && user_logged_in) {
+                var is_ajax = false;
+                analytics_frame.contentWindow.postMessage(['tick_google_analytics', is_ajax, user_logged_in, blog_is_nsfw, '/?route=%2F'].join(';'), analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postCSMessage() {
+            COMSCORE = true;
+            analytics_frame.contentWindow.postMessage('enable_comscore;' + window.location, analytics_frame.src.split('/analytics.html')[0]);
+        }
+        function postATMessage() {
+            if (addthis_enabled && analytics_iframe_loaded) {
+                analytics_frame.contentWindow.postMessage('enable_addthis', analytics_frame.src.split('/analytics.html')[0]);
+            }
+        }
+        function postRapidMessage() {
+                            if (analytics_iframe_loaded) {
+                    var is_ajax = '';
+                    var route = '/';
+                    var tumblelog_id = '294482';
+                    var yahoo_space_id = '1197719229';
+                    var rapid_client_only = '1';
+                    var apv = '1';
+                    var rapid_ex = '';
+
+                    analytics_frame.contentWindow.postMessage(
+                        [
+                            'tick_rapid', is_ajax, route, user_logged_in, tumblelog_id,
+                            yahoo_space_id, rapid_client_only, apv, rapid_ex
+                        ].join(';'),
+                        analytics_frame.src.split('/analytics.html')[0]
+                    );
+                }
+                    }
+    })();
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1453227064&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHdpdHRlcnN0YXR1cy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIn0=&U=DNFFCJEDDG&K=ea7831ffab02dea130ee35dfc3830b7bcf37591b22e774a57c4e1c97869e3a91&R=https%3A%2F%2Ftwitter.com%2FAchmunicip'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1453227064&J=eyJ0eXBlIjoidXJsIiwidXJsIjoiaHR0cDpcL1wvdHdpdHRlcnN0YXR1cy50dW1ibHIuY29tXC8iLCJyZXF0eXBlIjowLCJyb3V0ZSI6IlwvIiwibm9zY3JpcHQiOjF9&U=DNFFCJEDDG&K=69812dfa91db83b805faffb388a4a46f783a95f98b09ba384678d470089fd4eb&R=https%3A%2F%2Ftwitter.com%2FAchmunicip"></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><script type="text/javascript">!function(s){s.src='https://px.srvcs.tumblr.com/impixu?T=1453227064&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3R3aXR0ZXJzdGF0dXMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiIxMzc2MTA3NTExNzgiLCJibG9naWQiOiIyOTQ0ODIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzNzU1MDc3NTM0MyIsImJsb2dpZCI6IjI5NDQ4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTM3MzY2MzA0OTA4IiwiYmxvZ2lkIjoiMjk0NDgyIiwic291cmNlIjozM31dfQ==&U=GMOBFEMLHA&K=4fe523a74bc5d90491f923f6bc675dc15570705c828ea0a9c38d38af8655f7b2&R=https%3A%2F%2Ftwitter.com%2FAchmunicip'.replace(/&R=[^&$]*/,'').concat('&R='+escape(document.referrer)).slice(0,2000).replace(/%.?.?$/,'');}(new Image());</script><noscript><img style="position:absolute;z-index:-3334;top:0px;left:0px;visibility:hidden;" src="https://px.srvcs.tumblr.com/impixu?T=1453227064&J=eyJ0eXBlIjoicG9zdCIsInVybCI6Imh0dHA6XC9cL3R3aXR0ZXJzdGF0dXMudHVtYmxyLmNvbVwvIiwicmVxdHlwZSI6MCwicm91dGUiOiJcLyIsInBvc3RzIjpbeyJwb3N0aWQiOiIxMzc2MTA3NTExNzgiLCJibG9naWQiOiIyOTQ0ODIiLCJzb3VyY2UiOjMzfSx7InBvc3RpZCI6IjEzNzU1MDc3NTM0MyIsImJsb2dpZCI6IjI5NDQ4MiIsInNvdXJjZSI6MzN9LHsicG9zdGlkIjoiMTM3MzY2MzA0OTA4IiwiYmxvZ2lkIjoiMjk0NDgyIiwic291cmNlIjozM31dLCJub3NjcmlwdCI6MX0=&U=GMOBFEMLHA&K=8120cf7acbe38117a305012c858cae0ad923b46241efdbcdaf7ee4ca4b1d561c&R=https%3A%2F%2Ftwitter.com%2FAchmunicip"></noscript><script >
+        (function (w,d) {
+            'use strict';
+            var l = function(el, type, listener, useCapture) {
+                el.addEventListener ?
+                el.addEventListener(type, listener, !!useCapture) :
+                el.attachEvent && el.attachEvent('on' + type, listener, !!useCapture);
+            };
+            var a = function () {
+                                if (d.getElementById('tumblr-cdx')) {
+                    return;
+                }
+                var s = d.createElement('script');
+                var el = d.getElementsByTagName('script')[0];
+                s.async = true;
+                s.src = 'http://assets.tumblr.com/assets/scripts/vendor/cedexis/cedexis.radar.js?_v=7450eec657e34e1e41dac4e1af96a170';
+                s.type = 'text/javascript';
+                s.id = 'tumblr-cdx';
+                d.body.appendChild(s);
+            };
+            l(w,'load',a);
+        }(window, document));
+</script><iframe id="tumblr_controls" class="tumblr_controls" width="1" height="1" frameborder="0" scrolling="no" src="https://secure.assets.tumblr.com/assets/html/iframe/o.html?_v=2e35138dae6883d18c953203ec54a4c8#src=http%3A%2F%2Ftwitterstatus.tumblr.com%2F&amp;lang=en_US&amp;name=twitterstatus&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_be75a538ccae_64.gif&amp;title=Twitter+Status&amp;url=http%3A%2F%2Ftwitterstatus.tumblr.com%2F&amp;page_slide=slide"></iframe>
+<div id="teaser_iframe_container" style="display:none;"><iframe scrolling="no" frameborder="0" src="http://assets.tumblr.com/assets/html/iframe/teaser.html?_v=2bb3d8dec5960c5d6d3e0c9729330451#src=http%3A%2F%2Ftwitterstatus.tumblr.com%2F&amp;lang=en_US&amp;name=twitterstatus&amp;avatar=http%3A%2F%2F38.media.tumblr.com%2Favatar_be75a538ccae_64.gif&amp;title=Twitter+Status&amp;url=http%3A%2F%2Ftwitterstatus.tumblr.com%2F&amp;page_slide=slide" id="teaser_iframe" width="1" height="1"></iframe></div><script type="text/javascript">
+    (function(Tumblr){
+        var follow_iframe_initialized = false;
+        if (Tumblr.FollowTeaser && Tumblr.PostMessageListener) {
+            // Don't do anything until the first initialize event
+            Tumblr.PostMessageListener.initialize(function(message, origin) {
+                if (follow_iframe_initialized || message.length < 2) return;
+
+                if (message[0] === 'follow_iframe' && message[1] === 'enable') {
+                    Tumblr.FollowTeaser.current_page = 1;
+                    Tumblr.FollowTeaser.infer_infinite_scroll = true;
+                    Tumblr.FollowTeaser.create_from_tumblr_controls("http:\/\/assets.tumblr.com\/assets\/html\/iframe\/follow.html?_v=0918b2cabc03950e54d31f4264ecc006");
+                    Tumblr.FollowTeaser.scroll_listener(true);
+                    follow_iframe_initialized = true;
+                }
+            });
+        }
+    })(this.Tumblr || (this.Tumblr = {}));
+</script><!--[if IE]><script type="text/javascript">document.getElementById('tumblr_controls').allowTransparency=true;</script><![endif]--><!-- END TUMBLR CODE -->
+
+</body>
+</html>

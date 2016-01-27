@@ -1,0 +1,332 @@
+title=Autobus Roma Siena: orari delle corse dei pullman Autolinee Sena - Sena.it
+url=http://www.sena.it/Autobus/Roma/Siena/219-234/49-1.html
+html=<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="it" lang="it" dir="ltr">
+<head>
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=iso-8859-1" />
+<title>Autobus Roma Siena: orari delle corse dei pullman Autolinee Sena - Sena.it</title>
+<meta name="description" content="Ricerca degli orari e dei percorsi degli autobus Sena in partenza da Roma diretti verso le citt&agrave; italiane" />
+<meta name="keywords" content="autobus da Roma, orari autobus da Roma, autobus in partenza da Roma, percorso autobus da Roma, corse autobus da Roma, orari pullman da Roma, orari autolinee in partenza da Roma" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<script type="text/javascript" src="http://www.sena.it/framework/jquery/jquery.js"></script>
+<script type="text/javascript" src="http://www.sena.it/framework/jquery/jquery-validate/jquery.validate.js"></script>
+<script type="text/javascript" src="http://www.sena.it/framework/jquery/jquery-validate/messages_it.js"></script>
+<script type="text/javascript" src="http://www.sena.it/framework/jquery/jquery-ui/core/jquery.ui.core.js"></script>
+<script type="text/javascript" src="http://www.sena.it/framework/jquery/jquery-ui/core/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="http://www.sena.it/framework/jquery/jquery-ui/widgets/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="http://www.sena.it/framework/jquery/jquery-ui/i18n/jquery.ui.datepicker-it.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/framework/jquery/jquery-validate/jquery.validate.css" />
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/framework/jquery/jquery-ui/themes/default/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/plugins/plugin_cookie/css/plugin_cookie.css" />
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/templates/css/font_lower.css" />
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/templates/css/default_css.css" />
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/templates/it/default/css/default_css.css" />
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/templates/it/default/css/framework.css" />
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/templates/it/default/css/menu.css" />
+<!--[if lt IE 7]>
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/templates/it/default/css/add_on.css" />
+<script type="text/javascript" src="http://www.sena.it/templates/it/default/js/script.js"></script>
+<![endif]-->
+<!--[if gte IE 7]>
+<link rel="stylesheet" type="text/css" href="http://www.sena.it/templates/it/default/css/add_on_IE7.css" />
+<![endif]-->
+<base href="http://www.sena.it/" />
+</head>
+<body>
+<div id="contenitore">
+<div id="box">
+<div id="header">
+<div class="flag_it"><a title="Italiano" href="http://www.sena.it/"><img alt="Italian" src="templates/it/default/images/flags/flag_it.png" /></a></div>
+<div class="flag_en"><a title="English" href="http://www.sena.it/Home/78-1-en.html"><img alt="English" src="templates/it/default/images/flags/flag_en.png" /></a></div>
+<div class="flag_fr"><a title="Francais" href="http://www.sena.it/Accueil/207-1-fr.html"><img alt="Francais" src="templates/it/default/images/flags/flag_fr.png" /></a></div>
+<div class="flag_de"><a title="Deutsch" href="http://www.sena.it/Home/356-1-de.html"><img alt="Deutsch" src="templates/it/default/images/flags/flag_de.png" /></a></div>
+<div class="flag_es"><a title="Espanol" href="http://www.sena.it/Home/126-1-es.html"><img alt="Espanol" src="templates/it/default/images/flags/flag_es.png" /></a></div>
+<div class="flag_pt"><a title="Portugu&ecirc;s" href="http://www.sena.it/Home/278-1-pt.html"><img alt="Portugu&ecirc;s" src="templates/it/default/images/flags/flag_pt.png" /></a></div>
+<div class="flag_ro"><a title="Romanian" href="http://www.sena.it/Acasa/168-1-ro.html"><img alt="Romanian" src="templates/it/default/images/flags/flag_ro.png" /></a></div>
+<div class="flag_ru"><a title="&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;" href="http://www.sena.it/&#1043;&#1083;&#1072;&#1074;&#1085;&#1072;&#1103;/317-1-ru.html"><img alt="&#1088;&#1091;&#1089;&#1089;&#1082;&#1080;&#1081;" src="templates/it/default/images/flags/flag_ru.png" /></a></div>
+<div id="logo"><a title="Sena.it" href="http://www.sena.it/"><img src="templates/it/default/images/logo.gif" /></a></div>
+<!--<div id="colibri">&nbsp;</div>-->
+<div id="menu"><div id="plugin_1" class="plugin plugin_menu"><ul class="menu"><li id="menu_1"><div class="li_right">&nbsp;</div><a href="http://www.sena.it/" title="Home"><span>Home</span></a></li><li id="menu_52"><div class="li_right">&nbsp;</div><a href="javascript:void(0)" title="Gruppo Baltour - Sena"><span>Gruppo Baltour - Sena</span></a><ul><li id="menu_71"><a href="http://www.sena.it/Chi-siamo/71-1.html" title="Chi siamo"><span>Chi siamo</span></a></li><li id="menu_103"><a href="http://www.sena.it/Flotta-Autobus/103-1.html" title="Flotta Autobus"><span>Flotta Autobus</span></a></li><li id="menu_105" class="freccia"><a href="javascript:void(0)" title="Noleggio"><span>Noleggio</span></a><ul><li id="menu_64"><a href="http://autolinee.baltour.it/Richiedi-Preventivo/3-1.html" target="_blank" title="Richiedi Preventivo"><span>Richiedi Preventivo</span></a></li><li id="menu_108"><a href="http://autolinee.baltour.it/Automezzi/4-1.html" target="_blank" title="Automezzi disponibili"><span>Automezzi disponibili</span></a></li></ul></li><li id="menu_106" class="freccia"><a href="javascript:void(0)" title="Comunicazione"><span>Comunicazione</span></a><ul><li id="menu_112"><a href="http://www.sena.it/Tv-Radio/112-1.html" title="Tv - Radio"><span>Tv - Radio</span></a></li><li id="menu_109"><a href="http://www.sena.it/Rassegna-stampa/109-1.html" title="Rassegna stampa"><span>Rassegna stampa</span></a></li></ul></li><li id="menu_76"><a href="http://www.sena.it/Contatti/74-1.html" title="Contatti"><span>Contatti</span></a></li></ul></li><li id="menu_114" class="active"><div class="li_right">&nbsp;</div><a href="javascript:void(0)" title="Viaggiare con noi"><span>Viaggiare con noi</span></a><ul><li id="menu_51"><a href="http://www.sena.it/Orari-Autobus/51-1.html" title="Ricerca Orari"><span>Ricerca Orari</span></a></li><li id="menu_116"><a href="http://autolinee.baltour.it/Scarica-Orari-autobus-nazionali/12-1.html" target="_blank" title="Scarica Orari autobus nazionali"><span>Scarica Orari autobus nazionali</span></a></li><li id="menu_115"><a href="http://www.eurolines.it/Orari-degli-autobus/138-1.html" target="_blank" title="Scarica Orari autobus internazionali"><span>Scarica Orari autobus internazionali</span></a></li><li id="menu_415" class="freccia"><a href="javascript:void(0)" title="Carte Convenienza"><span>Carte Convenienza</span></a><ul><li id="menu_417"><a href="http://www.sena.it/ItalyBus-Card/417-1.html" title="ItalyBus Card"><span>ItalyBus Card</span></a></li><li id="menu_416"><a href="http://www.eurolines.it/Home/390-1-en.html" target="_blank" title="Italy Pass"><span>Italy Pass</span></a></li><li id="menu_117"><a href="http://www.sena.it/Eurolines-Pass/117-1.html" title="Eurolines Pass e EurolinesBus Card"><span>Eurolines Pass e EurolinesBus Card</span></a></li></ul></li><li id="menu_118" class="freccia"><a href="javascript:void(0)" title="Low Cost"><span>Low Cost</span></a><ul><li id="menu_66"><a href="http://www.sena.it/Informazioni-Low-Cost/66-1.html" title="Condizioni Low Cost linee Italia"><span>Condizioni Low Cost linee Italia</span></a></li><li id="menu_125"><a href="http://www.sena.it/Condizioni-Low-Cost-linee-Internazionali/125-1.html" title="Condizioni Low Cost linee Internazionali"><span>Condizioni Low Cost linee Internazionali</span></a></li></ul></li><li id="menu_119"><a href="http://www.sena.it/Gruppi/119-1.html" title="Gruppi"><span>Gruppi</span></a></li><li id="menu_62"><a href="http://www.sena.it/Condizioni-Generali-di-Trasporto/62-1.html" title="Condizioni Generali di Trasporto"><span>Condizioni Generali di Trasporto</span></a></li><li id="menu_120" class="freccia"><a href="javascript:void(0)" title="Annullamenti/Rimborsi/Modifiche"><span>Annullamenti/Rimborsi/Modifiche</span></a><ul><li id="menu_102"><a href="http://www.sena.it/Annullamenti-Rimborsi-Modifiche/102-1.html" title="Linee in Italia"><span>Linee in Italia</span></a></li><li id="menu_121"><a href="http://www.sena.it/AnnullamentiRimborsiModifiche-Linee-Internazionali/121-1.html" title="Linee Internazionali"><span>Linee Internazionali</span></a></li></ul></li><li id="menu_61"><a href="http://www.sena.it/Carta-dei-Servizi/61-1.html" title="Monitoraggio della Qualit&agrave; del servizio"><span>Monitoraggio della Qualit&agrave; del servizio</span></a></li><li id="menu_122"><a href="http://www.sena.it/Perche-scegliere-di-viaggiare-con-noi/122-1.html" title="Perch&eacute; scegliere di viaggiare con noi"><span>Perch&eacute; scegliere di viaggiare con noi</span></a></li><li id="menu_123"><a href="http://www.sena.it/Rispetta-lambiente-scegli-Baltour/123-1.html" title="Rispetta l&#039;ambiente - scegli Sena"><span>Rispetta l&#039;ambiente - scegli Sena</span></a></li><li id="menu_124"><a href="http://www.sena.it/Come-Prenotare/124-1.html" title="Come Prenotare"><span>Come Prenotare</span></a></li><li id="menu_398"><a href="http://www.sena.it/Paga-con-SISAL/398-1.html" title="Paga con SISAL"><span>Paga con SISAL</span></a></li><li id="menu_404"><a href="http://www.sena.it/Orari-Biglietterie/404-1.html" title="Orari Biglietterie"><span>Orari Biglietterie</span></a></li></ul></li><li id="menu_399"><div class="li_right">&nbsp;</div><a href="javascript:void(0)" title="Prenotazione"><span>Prenotazione</span></a><ul><li id="menu_400"><a href="https://boa.busbookingline.it/web/eurolines/application/booking/seekBookingFrame.php" target="_blank" title="Prenota"><span>Prenota</span></a></li><li id="menu_401"><a href="http://www.sena.it/Modifica/401-1.html" title="Modifica"><span>Modifica</span></a></li><li id="menu_402"><a href="http://www.sena.it/Annulla/402-1.html" title="Annulla"><span>Annulla</span></a></li><li id="menu_396"><a href="http://autolinee.baltour.it/resources/guida_prenotazione.pdf" target="_blank" title="Guida alla prenotazione"><span>Guida alla prenotazione</span></a></li><li id="menu_403"><a href="http://www.sena.it/Condizioni-Generali-di-Trasporto/62-1.html" title="Condizioni Generali"><span>Condizioni Generali</span></a></li></ul></li><li id="menu_7"><div class="li_right">&nbsp;</div><a href="http://www.sena.it/News/7-1.html" title="News"><span>News</span></a></ul></li><li id="menu_73"><div class="li_right">&nbsp;</div><a href="javascript:void(0)" title="Info e Contatti"><span>Info e Contatti</span></a><ul><li id="menu_72"><a href="http://www.sena.it/Richiesta-informazioni/72-1.html" title="Richiesta informazioni"><span>Richiesta informazioni</span></a></li><li id="menu_406"><a href="http://www.sena.it/Suggerimenti-e-Reclami/406-1.html" title="Suggerimenti e Reclami"><span>Suggerimenti e Reclami</span></a></li><li id="menu_74"><a href="http://www.sena.it/Contatti/74-1.html" title="Contatti"><span>Contatti</span></a></li></ul></li><li style="padding:0; margin:0; width:1px; height:1px"></li></ul></div></div>
+</div>
+<div id="main">
+<div id="sotto_main">
+<div class="padding_main">
+<div id="pathway">
+<div class="padding"><div id="plugin_2" class="plugin plugin_pathway"><div class="pathway">Ti trovi in:&nbsp;<a href="http://www.sena.it/" title="Autolinee Sena">Autolinee Sena</a>&nbsp;&raquo;&nbsp;<a href="http://www.sena.it/Orari-Autobus/51-1.html" title="Ricerca Orari">Ricerca Orari</a>&nbsp;&raquo;&nbsp;<a href="http://www.sena.it/Autobus/Roma/Siena/219-234/49-1.html" title="Autobus da Roma a Siena">Autobus da Roma a Siena</a></div></div></div>
+</div>
+<div class="spazio_13"></div>
+<div id="left" style="text-align:left">
+<div>
+<div id="plugin_12" class="plugin plugin_nomi_da_id"><div class="page_title"><h1>Autobus da Roma a Siena</h1></div>
+<p>Ricerca degli orari degli autobus da <strong>Roma</strong> a <strong>Siena</strong>. Oltre agli orari degli autobus, &egrave; possibile visionare la cartina illustrata della tratta da percorrere, verificare le previsioni meteo della citt&agrave; di partenza e della citt&agrave; di arrivo, e visualizzare alcune foto delle citt&agrave; scelte per il viaggio.</p></div><div id="plugin_13" class="plugin plugin_html"><script type="text/javascript">
+function customRange(input) {
+return { minDate: (input.id == 'day_end' ? $('#day_start').datepicker('getDate') : '+d'), maxDate: (input.id == 'day_start' ? $('#day_end').datepicker('getDate') : null) };
+}
+$(function() {
+$("input.date_pick_opt").datepicker( { beforeShow: customRange, firstDay: 1, hideIfNoPrevNext: true, showOn: 'both', buttonImageOnly: false, buttonText: '' } );
+$("input.date_pick").datepicker( { beforeShow: customRange, firstDay: 1, hideIfNoPrevNext: true, showOn: 'both', buttonImageOnly: false, buttonText: '' } ).attr("readonly", "readonly");
+$("#type").change(function() {
+var type = $(this).val();
+switch(type) {
+case "AR":
+$("#div_day_end").removeClass("hide");
+$("#day_end").addClass("required");
+$("#day_end").attr("disabled", false);
+break;
+default:
+$("#div_day_end").addClass("hide");
+$("#day_end").removeClass("required");
+$("#day_end").attr("disabled", true);
+break;
+}
+});
+$("div.motore .form_button").click(function() {
+$("div.motore form").validate({
+errorElement: "p",
+errorPlacement: function(error, element) {
+},
+showErrors: function(errorMap, errorList) {
+this.defaultShowErrors();
+}
+});
+$("div.motore form").submit();
+});
+});
+</script>
+<div class="content_box"><h2 class="large content_box_title">Ricerca guidata degli orari e dei percorsi degli autobus delle autolinee Sena</h2></div>
+<p>Selezionare la localit&agrave; di arrivo e la localit&agrave; di partenza, per visualizzare gli orari delle corse degli Autobus servite dalle autolinee Sena.</p>
+<div class="motore">
+<form class="p10t" action="https://web.busbookingline.it/external/data.php" target="_blank" method="get">
+<div class="p10 p20t">
+<div class="large p20t p10b">
+Ricerca Orari della rete delle autolinee di <span class="large strong">17 regioni italiane, 23 paesi europei, oltre 500 destinazioni</span>
+</div>
+<div>
+<div id="div_day" class="fl p20r div_selectlist">
+<label class="large" for="type">Tipo di viaggio:</label><br />
+<select id="type" name="tipoViaggio"><option value="CS">Corsa semplice</option><option value="AR">Andata e ritorno</option><option value="OPEN">OPEN</option></select>
+</div>
+<div id="div_day_start" class="fl p20r div_date">
+<label class="large" for="day_start">Data partenza:</label><br />
+<input id="day_start" name="dataPartenza" value="26/01/2016" size="10" maxlength="10" class="date_pick required" type="text" />
+</div>
+<div id="div_day_end" class="fl p20r hide div_date">
+<label class="large" for="day_end">Data ritorno:</label><br />
+<input id="day_end" name="dataRitorno" value="" size="10" maxlength="10" class="date_pick_opt" type="text" disabled="disabled" />
+</div>
+<div id="div_number" class="fl p20r div_textbox">
+<label class="large" for="number">Passeggeri:</label><br />
+<input size="2" id="number" type="text" name="nPax" class="required number" value="1" />
+</div>
+<div class="clear"></div>
+</div>
+<div class="p10t">
+<div id="div_destination_start" class="fl p10r div_textbox">
+<label class="large" for="destination_start">Partenza:</label><br />
+<input class="required" value="Roma" type="text" name="cittap" id="destination_start" />
+</div>
+<div id="div_destination_end" class="fl p10r div_textbox">
+<label class="large" for="destination_end">Destinazione:</label><br />
+<input class="required" value="Siena" type="text" name="cittaa" id="destination_end" />
+</div>
+<div class="fl p20t">
+<div class="div_button">
+<input id="submit" name="submit" type="submit" value="Avvia Ricerca &raquo;" class="large form_button"/>
+</div>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div class="clear"></div>
+</form>
+</div></div><div id="plugin_14" class="plugin plugin_percorso_maps"><script type="text/javascript">
+var directionDisplay;
+var directionsService = new google.maps.DirectionsService();
+var map;
+function calcRoute(start, end) {
+directionsDisplay = new google.maps.DirectionsRenderer();
+var myOptions = {
+zoom:15,
+mapTypeId: google.maps.MapTypeId.ROADMAP
+}
+map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+directionsDisplay.setMap(map);
+var request = {
+origin:start,
+destination:end,
+travelMode: google.maps.DirectionsTravelMode.DRIVING
+};
+directionsService.route(request, function(response, status) {
+if (status == google.maps.DirectionsStatus.OK) {
+directionsDisplay.setDirections(response);
+}
+});
+return false;
+}
+$(function() {
+calcRoute("Roma - 00118", "Siena - 53100");
+} );
+</script>
+<h2>Percorso da Roma a Siena</h2>
+<div id="map_canvas" style="width: 600px; height: 300px; position:static"></div>
+<p>Attenzione, il percorso visualizzato &egrave; indicativo e non rappresenta il percorso effettivo della corsa</p></div><div id="plugin_19" class="plugin plugin_altre_destinazioni"><div class="clear">&nbsp;</div>
+<br /><h2>Altre corse verso le localit&agrave; della stessa regione</h2>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Barberino-Cavallina/219-119/49-1.html">
+Autobus <strong>Roma</strong> <strong>Barberino Cavallina</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Bettolle/219-124/49-1.html">
+Autobus <strong>Roma</strong> <strong>Bettolle</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Chiusi/219-143/49-1.html">
+Autobus <strong>Roma</strong> <strong>Chiusi</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Colle-di-Val-DElsa/219-147/49-1.html">
+Autobus <strong>Roma</strong> <strong>Colle di Val D&#039;Elsa</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Empoli/219-150/49-1.html">
+Autobus <strong>Roma</strong> <strong>Empoli</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Firenze/219-153/49-1.html">
+Autobus <strong>Roma</strong> <strong>Firenze</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Grosseto/219-162/49-1.html">
+Autobus <strong>Roma</strong> <strong>Grosseto</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Livorno/219-168/49-1.html">
+Autobus <strong>Roma</strong> <strong>Livorno</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Montecatini-Terme/219-180/49-1.html">
+Autobus <strong>Roma</strong> <strong>Montecatini Terme</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Monteriggioni/219-182/49-1.html">
+Autobus <strong>Roma</strong> <strong>Monteriggioni</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Pisa/219-201/49-1.html">
+Autobus <strong>Roma</strong> <strong>Pisa</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Pistoia/219-202/49-1.html">
+Autobus <strong>Roma</strong> <strong>Pistoia</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Poggibonsi/219-203/49-1.html">
+Autobus <strong>Roma</strong> <strong>Poggibonsi</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Pontedera/219-207/49-1.html">
+Autobus <strong>Roma</strong> <strong>Pontedera</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Prato/219-210/49-1.html">
+Autobus <strong>Roma</strong> <strong>Prato</strong>
+</a>
+</div>
+<div style="float:left; width:300px; padding:2px 0 2px 0">
+<a href="http://www.sena.it/Autobus/Roma/Rapolano/219-213/49-1.html">
+Autobus <strong>Roma</strong> <strong>Rapolano</strong>
+</a>
+</div>
+<div class="clear">&nbsp;</div></div>
+</div>
+</div>
+<div id="white">&nbsp;</div>
+<div id="right">
+<div class="p30l p10b">
+<div class="yt_a"><a target="_blank" href="http://www.youtube.com/user/gruppobaltour" title="Seguici su YouTube"><img src="http://www.sena.it/templates/it/default/images/yt_logo.gif" /></a></div>
+<div class="fb_a"><a target="_blank" href="http://www.facebook.com/sena.autolinee" title="Seguici su Facebook"><img src="http://www.sena.it/templates/it/default/images/fb_logo.gif" /></a></div>
+<div class="clear"></div>
+</div>
+<div id="box_grigio_news_header"></div>
+<div id="box_grigio_news"><div id="plugin_3" class="plugin plugin_models_contents"><div class="home_news"><div style="padding:0 0 0 11px"><div class="title_play">News</div></div><ul><li><a href="http://www.sena.it/News/Fermata-di-Modena-sospesa/8-62-1.html" title="Fermata di Modena sospesa">Fermata di Modena sospesa</a></li><li><a href="http://www.sena.it/News/Nuovi-collegamenti-per-la-Croazia/8-60-1.html" title="Nuovi collegamenti per la Croazia">Nuovi collegamenti per la Croazia</a></li><li><a href="http://www.sena.it/News/ALTRI-15-POSTI-LOW-COST-OGNI-CORSA/8-59-1.html" title="ALTRI 15 POSTI LOW COST OGNI CORSA">ALTRI 15 POSTI LOW COST OGNI CORSA</a></li><li><a href="http://www.sena.it/News/GRANDI-NOVITA&#039;-DAL-1&deg;-GIUGNO!/8-58-1.html" title="GRANDI NOVITA&#039; DAL 1&deg; GIUGNO!">GRANDI NOVITA&#039; DAL 1&deg; GIUGNO!</a></li><li><a href="http://www.sena.it/News/Nuova-Linea-Rapida-Foggia/Pescara/Milano/8-57-1.html" title="Nuova Linea Rapida Foggia/Pescara/Milano">Nuova Linea Rapida Foggia/Pescara/Milano</a></li></ul><div style="text-align:right"><a href="http://www.sena.it/News/7-1.html">Altre news &raquo;</a></div></div></div></div>
+<div id="box_grigio_news_footer"></div>
+<div class="spazio_21"></div>
+<div id="plugin_128" class="plugin plugin_html"><div class="spazio_21">&nbsp;</div>
+<div class="title_play p8b">Offerte Low Cost</div>
+<div class="p8b" style="text-align: left;"><strong>100.000 posti</strong> ogni anno a tariffa speciale.</div>
+<div style="padding-bottom: 10px; text-align: right;"><a href="http://www.sena.it/Informazioni-Low-Cost/66-1.html">Per le condizioni Low Cost clicca qui &raquo;</a></div>
+<p><a title="Tutte le destinazioni a partire da 10 euro" href="http://www.sena.it/Informazioni-Low-Cost/66-1.html"><img src="http://www.sena.it/templates/it/default/images/low_cost.gif" alt="Tutte le destinazioni a partire da 10 euro" /></a></p></div><div id="plugin_130" class="plugin plugin_html"><div class="spazio_21">&nbsp;</div>
+<div class="banner_right">
+<div class="titolo_box_destra">Scarica orari autobus</div>
+<div class="testo_box_destra">
+<p><a title="Orari degli autobus" href="http://www.sena.it/index.php?id=75"><img style="float: left; padding: 0 6px 0 0;" src="http://www.sena.it/templates/it/default/images/icon_clock.gif" alt="Ricerca" /></a>In quest'area &egrave; possibile scaricare in pdf tutti gli orari delle tratte Sena.</p>
+</div>
+<div style="float: right; padding: 0 6px 0 0;"><a title="Orari" href="http://autolinee.baltour.it/index.php?id=306" target="_blank">Entra nell'area orari autobus &raquo;</a></div>
+<div class="clear">&nbsp;</div>
+</div>
+<div class="spazio_21">&nbsp;</div>
+<p><a href="http://www.baltour.it/Diario-di-bordo-Racconti/28-1.html"><img src="http://www.sena.it/uploads/plugins/banner_diario_di_bordo_fine3.png" alt="" width="285" height="174" /></a></p></div><div id="plugin_129" class="plugin plugin_html"><div class="spazio_21">&nbsp;</div>
+<div><a title="Italy Pass" href="http://www.eurolines.it/Home/390-1-en.html" target="_blank"><img src="http://www.sena.it/templates/it/default/images/italy_pass_it.gif" alt="" /></a></div></div><div id="plugin_113" class="plugin plugin_html"><div class="p20t"><a href="http://www.sena.it/Video-istituzionale/110-8-1.html"><img src="http://www.sena.it/uploads/plugins/baltour_banner_video.png" alt="" width="285" height="78" /></a></div></div><div id="plugin_178" class="plugin plugin_html p20t"><p><a title="Residence Gambrinus" href="http://www.residencegambrinus.it/" target="_blank"><img src="http://www.sena.it/uploads/plugins/banner_gambrinus.jpg" alt="Residence Gambrinus" width="285" height="160" /></a></p></div>
+</div>
+<div class="clear"></div>
+</div>
+<div id="onda">
+</div>
+</div>
+</div>
+<div id="footer"><div id="logo_rina"></div></div>
+<div id="footer_text">
+Gruppo Baltour: <a target="_blank" title="http://www.baltour.it" href="http://www.baltour.it">www.baltour.it</a> | <a target="_blank" title="http://www.eurolines.it" href="http://www.eurolines.it">www.eurolines.it</a> | <a target="_blank" title="http://www.sena.it" href="http://www.sena.it">www.sena.it</a> | <a target="_blank" title="http://www.staur.it" href="http://www.staur.it">www.staur.it</a> | <a target="_blank" title="http://www.residencegambrinus.it" href="http://www.residencegambrinus.it">www.residencegambrinus.it</a><br />
+Baltour Srl - Contrada Piano Delfico - 64100 teramo - C.F. e P.I. 00691100671<br />
+<div id="plugin_25" class="plugin plugin_menu"><a href="http://www.sena.it/Condizioni-di-utilizzo-del-sito/53-1.html" title="Condizioni di utilizzo del sito"><span>Condizioni di utilizzo del sito</span></a>&nbsp;-&nbsp;<a href="http://www.sena.it/Privacy/54-1.html" title="Privacy"><span>Privacy</span></a>&nbsp;-&nbsp;<a href="http://www.sena.it/Note-legali/55-1.html" title="Note legali"><span>Note legali</span></a>&nbsp;-&nbsp;<a href="http://www.sena.it/Dati-societari/56-1.html" title="Dati societari"><span>Dati societari</span></a>&nbsp;-&nbsp;<a href="http://www.sena.it/Ricerca-orari-autolinee/48-1.html" title="Orari Autobus"><span>Orari Autobus</span></a>&nbsp;-&nbsp;<a href="http://www.sena.it/Privacy/54-1.html#cookie" title="Cookie policy"><span>Cookie policy</span></a><p>&nbsp;</p></div>
+</div>
+</div>
+</div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-15261822-1']);
+_gaq.push(['_trackPageview']);
+(function() {
+var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+</script>
+<div id="plugin_180" class="plugin plugin_cookie"><div id="plugin_cookie_int">
+Questo sito utilizza cookies di profilazione di terze parti in linea con le preferenze manifestate dall'utente nell'ambito della navigazione in rete. Continuando a navigare o accedendo a un qualunque elemento del sito fornite il vostro consenso all'utilizzo dei cookies. Per ulteriori informazioni o negare il consenso a tutti o ad alcuni cookies <a class="strong" href="http://www.sena.it/Privacy/54-1.html#cookie">si rimanda alla policy sui cookies</a>
+<span class="p10l"><a id="cookie_close" href="javascript:void(0);">Accetta</a></span>
+</div>
+<script type="text/javascript">
+function setInfoCookie(cname, cvalue, exdays) {
+var d = new Date();
+d.setTime(d.getTime()+(exdays*24*60*60*1000));
+var expires = "expires="+d.toGMTString();
+document.cookie = cname+"="+cvalue+"; "+expires + "; path=/";
+}
+$(function() {
+$("#cookie_close").click(function() {
+setInfoCookie("HIDE_INFO_COOKIE", "true", 90);
+$(".plugin_cookie").css("display", "none");
+});
+});
+</script></div>
+</body>
+</html>
+<!-- Normal length: 28193 - compressed gzip length: 7519 -->

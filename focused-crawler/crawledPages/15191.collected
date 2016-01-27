@@ -1,0 +1,62 @@
+title=Entradas para cine, conciertos, teatro, deportes... en Ticketmaster.es
+url=http://www.ticketmaster.es/
+html=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+	<html>
+		<head>
+			<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+			<title>Entradas para cine, conciertos, teatro, deportes... en Ticketmaster.es</title>
+			<meta content="entrada, entradas, venta de entradas, comprar entradas, cine, cartelera, cartelera de cine, musicales, musicales barcelona, musicales madrid, conciertos barcelona, conciertos madrid, festivales, m�sica, teatros, obra de teatro, deportes, futbol, basket, baloncesto, partidos de futbol, monumentos, alhambra, sagrada familia, estadio, sala, motos, motor" name="keywords"/>
+			<meta content="Compra tus entradas para cine, conciertos, festivales, teatro, musicales, m�sica, deportes, monumentos, toros y mucho m�s. P�gina oficial de Ticketmaster." name="description"/>
+			<meta content="01/11/2013" name="date"/>
+			<!--
+			<meta HTTP-EQUIV="REFRESH" content="0; url=/nav/es/index.html">
+			-->
+		</head>
+		<body>
+			<script type="text/javascript">
+				isHot = false;
+				hotUrl = "";
+
+				function GetCookie(na) {
+					fo=new RegExp(na+"=([^;]*)").exec(document.cookie);
+					if(fo) return unescape(fo[1])
+						return null; 
+				}
+
+				function redirectToIdioma(){
+					var cookie = GetCookie('IDIOMA');
+					if(cookie == null || cookie == '' || cookie == 'ES'){		window.location='/es/';
+					}else if( cookie == 'EN'){		window.location='/en/';
+					}else if( cookie == 'CA'){		window.location='/ca/';
+					}else if( cookie == 'PT'){	window.location='/pt/';
+					}else{		window.location='/es/';	}
+				}
+
+				function loadHotStatus(){
+					var xmlhttp = new XMLHttpRequest();
+					
+					xmlhttp.onreadystatechange=function(){
+						if (xmlhttp.readyState==4 && xmlhttp.status==200){
+//							document.getElementById("myDiv").innerHTML=xmlhttp.responseText;
+							xmlhttp.responseText;
+						}
+					}
+
+					xmlhttp.open("GET","nav/es/hot_status.txt",false);
+					xmlhttp.send();
+					var dataHot = JSON.parse(xmlhttp.responseText);
+					isHot = dataHot.isHot;
+					hotUrl=dataHot.hotUrl;
+//					return JSON.parse(xmlhttp.responseText);
+				}
+
+				loadHotStatus();
+				if(isHot){
+					window.location=hotUrl;
+				}else{
+					redirectToIdioma();
+				}
+				
+			</script>
+		</body>
+	</html>

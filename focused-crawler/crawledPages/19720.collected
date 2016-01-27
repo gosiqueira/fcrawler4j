@@ -1,0 +1,2442 @@
+title=Pontos Turisticos & Turismo - Viator
+url=http://br.viator.com/
+html=
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="pt" xml:lang="pt" >
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <!-- Always force latest IE rendering engine or request Chrome Frame -->
+  <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+  <meta name="viewport" content="width=1020"> 
+
+  
+  
+
+  <title>Pontos Turisticos & Turismo - Viator</title>
+  
+
+  
+    
+    
+    
+    
+    
+      <meta property="fb:page_id" content="21566250864" />
+    
+  
+
+  
+    
+    
+    
+  
+
+  
+    <link rel="shortcut icon" href="/images/favicon.ico" type="image/x-icon" />
+  
+  
+
+  
+
+
+
+
+
+
+
+
+
+
+
+    
+        <link rel="stylesheet" href="//partner.vtrcdn.com/assets/css/skin/vml/styles-vml-pt.css?v=release_TSM_2.12.0-20160118.005.3304d88c" media="all"  />
+        <link rel="stylesheet" href="//partner.vtrcdn.com/assets/css/skin/vml/viacon_url.css?puid=8328&v=release_TSM_2.12.0-20160118.005.3304d88c" media="all" type="text/css" rel="stylesheet"  />
+        <script>
+            // TSM-2915 : rewrite url for viacon for CORS - Font file should not be cached across different VML/Partners
+            var styleSheets = document.styleSheets;
+            var cssFontStr = '';
+            var isIE8 = false;
+            var hostUrl = "";
+
+            for(var a in styleSheets){
+                if(Object.prototype.hasOwnProperty.call(styleSheets,a) && styleSheets[a].href != null
+                        && styleSheets[a].href.indexOf('viacon_url')>0){
+                    var sSheets = styleSheets[a];
+                    hostUrl = sSheets.href;
+                    var cssRules = sSheets.cssRules? styleSheets[a].cssRules : sSheets.rules;
+                    for(var b in cssRules) {
+                        if(!!window.CSSFontFaceRule){
+                            if(Object.prototype.hasOwnProperty.call(cssRules,b)
+                                    && cssRules[b] instanceof CSSFontFaceRule){
+                                cssFontStr = cssRules[b].cssText;
+                                sSheets.deleteRule(b);
+                            }
+                        }else{
+                            // This is IE < 8
+                            isIE8 = true;
+                            cssFontStr = sSheets.cssText;
+                        }
+                    }
+                }
+            }
+
+            // IE returns CSS url as it is defined in viacon_url.css file, while modern browsers return with abs url.
+            var replaceStr = '../../..';
+            var reg = new RegExp(replaceStr, 'g');
+            hostUrl = hostUrl.replace('http://', '').replace('https://', '').replace('//', '');
+            hostUrl = hostUrl.substring(0, hostUrl.indexOf('/'));
+            cssFontStr = cssFontStr.replace(reg,'//'+hostUrl+'/assets');
+
+            // Add puid to all font file request urls.
+            cssFontStr = cssFontStr.replace('.eot?#iefix','.eot?puid=8328#iefix');
+            cssFontStr = cssFontStr.replace('.eot)','.eot?puid=8328)');
+            cssFontStr = cssFontStr.replace('.woff','.woff?puid=8328');
+            cssFontStr = cssFontStr.replace('.ttf','.ttf?puid=8328');
+            cssFontStr = cssFontStr.replace('.svg#viacon','.svg?puid=8328#viacon');
+
+            var css = document.createElement("style");
+            css.type = "text/css";
+
+            if(isIE8 && !!css.styleSheet){
+                // IE8 doesn't have innerHTML for style node.
+                css.styleSheet.cssText = cssFontStr;
+            } else {
+                css.innerHTML = cssFontStr;
+                css.appendChild(document.createTextNode("")); // for webkit
+            }
+
+            document.head = document.head || document.getElementsByTagName('head')[0];
+            document.head.appendChild(css);
+        </script>
+        <link rel="stylesheet" href="//partner.vtrcdn.com/assets/css/skin/vml/viacon.css?puid=8328&v=release_TSM_2.12.0-20160118.005.3304d88c" media="all"  />
+    
+
+    
+
+
+
+<link rel="stylesheet" href="//partner.vtrcdn.com/assets/css/lang/pt.css?v=release_TSM_2.12.0-20160118.005.3304d88c" media="all"  />
+<link rel="stylesheet" href="//partner.vtrcdn.com/assets/css/print.css?v=release_TSM_2.12.0-20160118.005.3304d88c" media="print" type="text/css"  />
+
+  
+
+
+
+
+
+
+
+
+      <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+      <link rel="stylesheet" href="//partner.vtrcdn.com/assets/css/nyroModal.css?v=release_TSM_2.12.0-20160118.005.3304d88c" media="screen" type="text/css"  />      
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/jquery.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/bootstrap.min.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/bootstrap-datepicker.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/date.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/jquery.wookmark.min.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/modernizr-2.6.2.min.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/core.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/jquery.form.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/jquery.nyroModal.custom.min.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/select2.min.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/jquery-ui-1.10.4.custom.min.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/jquery.cookie.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/jquery.placeholder.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+
+      
+     	 <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/bootstrap-date-locales/bootstrap-datepicker.pt.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      	 
+         
+      
+     	 <script type="text/javascript" src="//partner.vtrcdn.com/assets/js/billboard.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+      	
+
+	<script type="text/javascript">
+        
+            $(function(){
+                
+            	var dateToday = new Date();
+                $('.date').datepicker({
+                	 format: 'dd Myyyy',
+                     //workaround for bootsrap date-picker bug
+                	 startDate:  new Date(dateToday.getFullYear(), dateToday.getMonth(), dateToday.getDate()),
+                	 orientation: "top auto",
+                	 language:'pt',
+                         todayHighlight:true
+                  }).on('changeDate', function (ev) {
+              	    $(this).datepicker('hide');
+              	});	
+              	if ( $('.dropdown-toggle').length ) {
+                    $('.dropdown-toggle').dropdown();
+                }
+            });
+
+     </script>
+
+
+
+<script type="text/javascript"> 
+    function nyroModalDefaultSettings() {
+        //default dialog box settings //don't change as needed by ie etc and firefox 3.0 +  
+        /**$.nyroModalSettings({
+            debug: false,
+            modal: true,
+            autoSizable: true,
+            windowResize: true,
+            closeButton: null,
+            minWidth: null,
+            minHeight: null,  
+            zIndexStart: 100000000 
+        });*/
+    } 
+</script>
+ 
+
+ 
+
+       <script type="text/javascript">
+            $(document).ready(function(){
+                nyroModalDefaultSettings();  
+                
+            });
+        </script> 
+
+
+
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+
+	function removeIfr()
+	{
+		var theIfr = document.getElementById('tourOptions_Ifr');
+		if(theIfr != null && theIfr != 'undefined')
+		{
+			$(theIfr).remove();
+		}
+	}
+
+	function removeIfrFromParent()
+	{
+		var iFrm = this.parent.document.getElementById('tourOptions_Ifr');
+		if(iFrm != null && iFrm != 'undefined')
+		{
+			$(iFrm).remove();
+		}
+	}
+
+	function addIfr()
+	{
+		var theIfrHTML = '<iframe id="tourOptions_Ifr" name="tourOptions_Ifr" frameborder="0" scrolling="no" style="position:absolute;visibility:hidden;z-index:9999;"></iframe>';
+		$("body").prepend(theIfrHTML);
+	}
+
+	function body_doonload() {
+		if (document.pasForm && typeof(document.pasForm.country) != 'undefined') {
+			document.pasForm.reset();
+		}
+		
+		
+		
+	}
+
+//]]>
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+  
+
+
+
+<script src="//cache-graphicslib.viator.com/graphicslib/TnT/mbox.js?_=release_TSM_2.12.0-20160118.005.3304d88c"></script>
+
+
+
+
+
+  <meta name="description" content="Reserve passeios, pontos turisticos e tourismo atrações com Viator. " />
+	<meta name="keywords" content="" />
+	<meta name="currentPage" content="HOME" />
+	
+    
+	
+	
+	
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- domain prefix -->
+
+
+
+
+
+<!-- PUID if need -->
+
+
+
+ 
+        
+        
+        
+        
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+            
+                
+                                        
+                
+            
+                
+            
+        
+    
+                
+<!-- domain suffix -->
+
+
+
+    <!-- prepare vml domain prefix -->
+    
+    
+        
+            
+        
+        
+        
+        
+        
+             <!-- Portuguese and Spanish doesn't need www in front (ITS-13922) -->        
+        
+    
+    
+
+
+
+
+
+
+
+    
+
+
+
+
+
+	<link rel="canonical"
+		href="http://br.viator.com" />
+	
+	
+	
+		<link rel="alternate" media="handheld"
+			href="http://br.m.viator.com" />
+
+</head>
+
+<body
+     onload="body_doonload();">
+
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+<!-- Show only IF top nav is selected only -->
+
+    
+         
+
+
+
+
+  <div class="utilities">
+
+    
+            <div class="container small">
+                <div class="line">
+                    <div class="col cols5of12">
+                         
+                            
+
+    
+
+<script type="text/javascript" >
+
+    
+
+    function changeCurrency(currency) {
+        $.ajax({
+            type: 'POST',
+            url: "/changeCurrency.jspa?currencyCode=" + currency,
+            success: function (data) {
+                if (data.status !== 'success') {
+                    location.href = '/error.jspa';
+                }
+
+                
+                
+                
+                location.replace(location.href);
+                
+            },
+            error: function () {
+                location.reload();
+            }
+        });
+
+    }
+
+</script>
+
+
+		
+		
+		 
+		 
+		    
+		 
+		
+		 
+		    <div class="dropdown pull-left mrxl">
+		 
+		    
+	 	 
+	        
+	     
+	        
+	     
+	        
+	            
+	            
+	            
+	            	 	
+	                 <button class="dropdown-toggle phn pvs hover-none hover-fade block-level" type="button" id="currency" data-toggle="dropdown">USD ($)&nbsp;<span class="caret"></span></button>
+	            
+	        
+	     
+	        
+	     
+	        
+	     
+
+		
+     <ul class="dropdown-menu smaller " role="menu" aria-labelledby="currency">
+        
+          
+            
+            	
+               <li><a onclick="changeCurrency('EUR');">EUR (&euro;)</a></li>
+           
+         
+            
+            	
+               <li><a onclick="changeCurrency('GBP');">GBP (&pound;)</a></li>
+           
+         
+            
+         
+            
+            	
+               <li><a onclick="changeCurrency('CAD');">CAD ($)</a></li>
+           
+         
+            
+            	
+               <li><a onclick="changeCurrency('AUD');">AUD ($)</a></li>
+           
+         
+         
+     </ul>
+
+    
+    	</div>
+    
+
+                        
+                           
+                        
+                            <div class="dropdown pull-left">
+                                
+
+
+
+<button class="dropdown-toggle phn pvs hover-none hover-fade block-level" type="button" id="dropdownMenu2" data-toggle="dropdown">
+    
+    
+    
+    
+    Portugu&ecirc;s (Brasil) 
+    
+    
+    
+    
+    
+    <span class="caret"></span>
+</button>
+<ul class="dropdown-menu small" role="menu" aria-labelledby="dropdownMenu2">
+    <li role="presentation"><a href="http://www.viator.com" role="menuitem" tabindex="-1">English</a></li>
+    <li role="presentation"><a href="//www.viatorcom.de" role="menuitem" tabindex="-1">Deutsch</a></li>
+    <li role="presentation"><a href="//www.viatorcom.fr" role="menuitem" tabindex="-1">Fran&ccedil;ais</a></li>
+    <li role="presentation"><a href="//es.viator.com" role="menuitem" tabindex="-1">Espa&ntilde;ol</a></li>
+    <li role="presentation"><a href="//it.viator.com" role="menuitem" tabindex="-1">Italiano</a></li>
+    
+    <li role="presentation"><a href="//dk.viator.com" role="menuitem" tabindex="-1">Dansk</a></li>
+    <li role="presentation"><a href="//www.viatorcom.nl" role="menuitem" tabindex="-1">Nederlands</a></li>
+    <li role="presentation"><a href="//www.viatorcom.no" role="menuitem" tabindex="-1">Norsk</a></li>
+    <li role="presentation"><a href="//www.viatorcom.se" role="menuitem" tabindex="-1">Svenska</a></li>
+    <li role="presentation"><a href="//jp.viator.com" role="menuitem" tabindex="-1">日本語</a></li>
+</ul>
+
+                            </div>
+                         
+                           
+                    </div>
+
+                    <div class="col cols7of12 last-col">
+                      
+
+
+
+
+
+
+<script type="text/javascript">
+
+  function getHomePage() {
+    return 'http://br.viator.com';
+  }
+
+  $(document).ready(function(){
+
+    //signout link setup
+    $("#signoutLink").click(function(e) {
+      e.preventDefault();
+      $.ajax({
+        url: '/pt/8328/content/account/ajax-signOut.jspa?a=' + Math.random(),
+        cache: false,
+        success: function (data) {
+          //$('#accountToolsHeaderDiv').html(data);
+          if (location.href.indexOf('/profile/') > 0 || (location.href.indexOf('/content/account/') > 0 && location.href.indexOf('/SSL/') < 0 ) || location.href.lastIndexOf('userProfileEdit.jspa') > 0) {
+            var nickname = '';
+            location.href = 'http://br.viator.com/pt/8328/profile//' + nickname; //uses the global js var from tools header!
+          } else if(location.href.indexOf('/SSL/') > 0) {
+            location.href = getHomePage();
+          } else if (location.href.indexOf('/customer-care') > 0) {
+            location.href = 'http://br.viator.com/customer-care';
+          } else if (location.href.indexOf('/booking/checkout') > 0) {
+            location.href= getHomePage();
+          } else if (location.href.indexOf('/booking/shopping-cart') > 0) {
+            location.href= getHomePage();     //locally doesn't work
+          } else {
+            location.reload();
+          }
+        }
+      }); //reload the tools header if signout!
+    });
+
+
+
+  });
+
+  function reloadAccountToolsHeader() {
+
+    $('#accountToolsHeaderDiv').load('/content/account/ajax-accountToolsHeaderReload.jspa?&PUID=8328&setLocale=pt&a=' + Math.random() ,
+            function(response, status, xhr) {
+              //loadToolLinks(); //do nothing Assumes only used for sign out!
+            }
+    );
+    return false;
+  }
+
+</script>
+
+
+
+<div id="accountToolsHeaderDiv">
+    
+	<ul class="list-inline txtR mtn pvxs">
+    
+	 
+     
+    
+	    
+	        <li>
+	           <a class="hover-none hover-fade block-level" 
+	              href="https://br.viator.com/pt/8328/content/account/SSL/signUp-form.jspa" 
+	              title="Cadastre-se">Cadastre-se
+	           </a>
+	        </li>
+	        <li>
+	            <a class="hover-none hover-fade block-level" 
+	               href="https://br.viator.com/pt/8328/content/account/SSL/signIn-form.jspa" 
+	               title="Fazer logon" >
+	               Fazer logon
+	           </a>
+	        </li>
+	    
+
+    
+	
+		
+			<li>
+				<a class="hover-none hover-fade block-level"
+				   href="http://br.viator.com/pt/8328/customer-care" >
+				   Help
+				</a>
+			</li>
+		
+	
+
+	
+		<li>
+			<span id="wishlistCount">
+				
+
+
+
+
+
+
+
+
+
+<span><a a style="display:none;" href="#" id="nyroModalId" class="nyroModal">nyroPopup</a></span>
+
+
+    
+    <a href="javascript:void(0);" onclick="showWishList('/wishlistManager.jspa?PUID=8328&setLocale=pt')"  class="pill pvxs phm hover-none">
+      <i class="fa fa-heart mrs"></i><span class="sr-only"> Lista de desejos </span> 0
+    </a>
+
+
+
+
+			</span>
+		</li>
+	
+
+    <li class="prn">
+	   	
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        <a rel="nofollow" href="http://br.viator.com/pt/8328/booking/view-cart" class="pill pvxs phm hover-none">
+              
+                  <i class="via-cart icon-lg mrs"></i>
+              
+              
+              <span class="sr-only">Shopping cart</span> <span id="shopCartCount">0</span>
+        </a>
+    
+    
+
+
+
+	</li>
+	
+	</ul>
+
+</div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    
+
+
+
+
+<header class="header  mbn    eapH13544 ">
+    <div class="container">
+        
+        
+            <!-- header_logo start -->
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        <!-- in else here -->
+        
+            
+            
+            
+        
+
+
+
+    <a class="img" href="/">
+<img alt="" src="http://br.viator.com/assets/images/vml/pt_header_logo_tagline.png">
+</a>
+
+
+    
+    
+
+
+
+
+
+	
+
+
+
+
+            <!-- header_logo end -->
+            
+                
+            
+        
+
+    </div>
+</header>
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+        
+            <script type="text/javascript" src="//partner.vtrcdn.com/analytics/s_code_pt.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+        
+        
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+<script>
+    dataLayer = [];
+
+    //all pages
+    if (window.s) {
+        dataLayer.push({
+            'visitorType': window.s.getNewRepeat()
+        })
+    }
+    //Set 1
+    
+    
+        dataLayer.push({
+            'pageType' : 'Home',
+        });
+    
+
+    //Set 2
+    
+    
+
+
+    //Set 3
+    
+    
+    
+    
+</script>
+
+
+
+<!-- Google Tag Manager -->
+
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KD4N7L"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push(
+{'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KD4N7L');</script>
+
+<!-- End Google Tag Manager -->
+
+
+
+
+
+
+
+
+
+
+  <div class=" clearfix">
+
+    
+
+      <div class="sidebar">
+
+        
+
+        
+        
+        
+        
+
+        
+
+        
+
+        
+      </div>
+    
+
+    <div class="omniture">
+		
+<!-- Define default omniture variables-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Different from analyticsPageType -->
+
+
+
+<!-- End Define default omniture variables-->
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+    var analyticsItemArr = new Array();
+    var analyticsTrans;
+</script>
+
+		
+		 
+		
+
+
+<!-- SiteCatalyst Copyright 1996-2010 Adobe, Inc. All Rights Reserved More info available at http://www.omniture.com -->
+
+
+
+
+
+
+
+
+
+
+	
+	
+		
+			 <script type="text/javascript" src="//partner.vtrcdn.com/analytics/s_code_pt.js?v=release_TSM_2.12.0-20160118.005.3304d88c" ></script>
+		
+		
+		
+
+
+
+
+<script type="text/javascript"><!--
+    /* You may give each page an identifying name, server, and channel on the next lines. */
+    s.pageName="Home";
+    s.server="";
+    s.pageType="";
+    s.prop1="";
+    s.prop2="";
+    s.prop3="";
+    /* Conversion Variables */
+    s.campaign="";
+    s.state="";
+    s.zip="";
+    s.events="";
+    s.products="";
+    s.purchaseID="";
+    s.currencyCode="";
+    s.eVar1="";
+    s.eVar2="";
+    s.eVar3="8328";
+    s.eVar4="";
+    s.eVar5="";
+    s.eVar6="";
+    s.eVar7="";
+    s.eVar8="";
+    s.eVar9="";
+    s.eVar10="";
+    s.eVar11="";
+    s.eVar12="pt";
+    s.eVar13="";
+    s.eVar14="";
+    s.eVar15="";  // Only for partner dev and partner prd NOT for VMLS
+    s.eVar16="";  // Only for partner dev and partner prd NOT for VMLS
+    s.eVar17="";  // Only for partner dev and partner prd NOT for VMLS
+    s.eVar18="";
+    s.eVar19="";
+    s.eVar20="";
+    s.eVar21="";
+    s.eVar22="";
+    s.eVar23="";
+    //s.eVar24="" //Order Summary PRE (Merchandising)
+    s.eVar25="Main-1-13544"; //Eagle Affliate Program
+    s.eVar26=""; // Blog Referral URL for VMLs
+    s.eVar27=""; // Webgains for VMLs only
+    s.eVar31=""; // Price Change Message for VMLs only
+    
+    s.channel="Home";
+    
+    
+    /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+    var s_code=s.t();if(s_code)document.write(s_code)//--></script>
+<script type="text/javascript"><!--
+    if(navigator.appVersion.indexOf('MSIE')>=0)document.write(unescape('%3C')+'\!-'+'-')
+    //--></script>
+    
+<noscript>
+    
+    
+	
+		
+			
+			
+			
+			
+            
+			
+				<a href="http://bb.viator.com" title="Web Analytics"><img src="http://bb.viator.com/b/ss/viatorcompt/1/H.20.3--NS/0" height="0" width="0" border="0" alt="" /></a>
+				
+		
+		
+		
+    
+    
+</noscript>
+<!--/DO NOT REMOVE/-->
+<!-- End SiteCatalyst code -->
+
+
+
+
+
+
+
+	
+
+
+
+    
+
+	<div class="mboxDefault">
+    </div>
+    <script type="text/javascript">
+        mboxCreate('pt-viator');
+    </script>   
+
+    <div class="mboxDefault">
+    </div>
+    <script type="text/javascript">
+        mboxCreate('pt-viatorHome');
+    </script>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	
+	
+		
+
+
+
+
+
+<script type="text/javascript" src="//partner.vtrcdn.com/js/silverpopFormValidate.js?v=release_TSM_2.12.0-20160118.005.3304d88c" Language="javascript" ></script>
+<script type="text/javascript">
+    $(function() {
+
+        $('.slider').vBillboard({
+            selectors: {
+                slideShadow: '.slider-shadow',
+                slideImageWrapper: '.slide-img-wrapper',
+                slideImage: '.slide-img',
+                slideUnit: '.slide-unit',
+                prev: '.prev',
+                next: '.next',
+                slideImageTemplate: '#slideImageTemplate',
+                slideUnitTemplate: '#slideUnitTemplate'
+            },
+            pauseOnHover: true,
+            autoPlay: true,
+            autoPlayDelay: 7000,
+            showNav: true
+        });
+
+
+
+    });
+</script> 
+
+
+
+   
+<div class="spotlight">
+    <div class="home-search ">
+        <i class="icon icon-home-search-posts"></i>
+        <div class="box round pas">
+            <div class="border pam">
+                <div class="media headline mbm pbs">
+                    <div class="media-img mrm"><i class="via-v-teardrop h1 mrs"></i><i class="via-hands-up-teardrop h1"></i></div>
+                    <!-- <i class="icon icon-home-search-hands-up media-inline-image mrm"></i> -->
+                    <div class="media-body"><h1 class="mvn">Que comecem as atividades!</h1></div>
+                </div>
+                
+                
+                <form id="homeSearch" action="//br.viator.com/freeTextSearch.jspa" method="get" 
+                      onsubmit="return doFreeTextSearchSubmit('freeTextKeyword', '', 'Insira uma palavra-chave para pesquisa','//br.viator.com/pt/8328/search/');">
+
+                    <div class="line global-search search-left-aligned">
+                        <div class="col cols9of12 ">
+                            <input type="text" class="form-control" id="freeTextKeyword" name="freeTextKeyword" placeholder='Cidade ou palavra-chave' >
+                        </div>
+                        <div class="col last-col plm">
+                            <button id="homeSearchBtn" class="btn btn-default btn-block small">Buscar </button>
+                        </div>
+                    <!-- Closing div missing for the bulletin board as required-->
+                    <!--</div> -->
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+    
+    
+    
+    
+
+
+
+ <div class="slider">
+     <div class="slide-img-wrapper" style="margin-left:0px;"></div>   
+
+    
+        
+        <img class="slide-img unit mha" src="//cache-graphicslib.viator.com/graphicslib/mm/DSN-1270_NY_BB_PT_42144_1.jpg" data-src="//cache-graphicslib.viator.com/graphicslib/mm/DSN-1270_NY_BB_PT_42144_1.jpg" style="">
+
+            <div class="slide-unit" style="">
+                <div class="slide-unit-inner mha">
+                    <a title="" class="mha" style="display:block; width:1600px; height:100%;" ></a>
+          
+                
+                    <div class="slide-caption strong small">
+                        
+                            <a href="http://br.viator.com/Nova-York-tours/Tiquetes-e-ingressos-para-passeios-turisticos/d687-g8?pub=ptnytickets">
+                                Visite Nova York
+                            </a>
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+    
+        
+        <img class="slide-img unit mha" src="" data-src="//cache-graphicslib.viator.com/graphicslib/mm/GrandCanyon_34801_1.jpg" style="display:none;">
+
+            <div class="slide-unit" style="display:none;">
+                <div class="slide-unit-inner mha">
+                    <a title="" class="mha" style="display:block; width:1600px; height:100%;" ></a>
+          
+                
+                    <div class="slide-caption strong small">
+                        
+                            <a href="http://br.viator.com/Parque-Nacional-do-Grand-Canyon-tours/Excursoes-aereas-em-helicopteros-e-em-baloes/d815-g1?pub=ptgrandcanyonbillboard">
+                                Visite Grand Canyon
+                            </a>
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+    
+        
+        <img class="slide-img unit mha" src="" data-src="//cache-graphicslib.viator.com/graphicslib/mm/Paris_34802_1.jpg" style="display:none;">
+
+            <div class="slide-unit" style="display:none;">
+                <div class="slide-unit-inner mha">
+                    <a title="" class="mha" style="display:block; width:1600px; height:100%;" ></a>
+          
+                
+                    <div class="slide-caption strong small">
+                        
+                            <a href="http://br.viator.com/Paris-tours/Shows-concertos-e-esportes/d479-g11?pub=ptparisbillboard">
+                                Tours em Paris
+                            </a>
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+    
+        
+        <img class="slide-img unit mha" src="" data-src="//cache-graphicslib.viator.com/graphicslib/mm/Buenos aires_34803_1.jpg" style="display:none;">
+
+            <div class="slide-unit" style="display:none;">
+                <div class="slide-unit-inner mha">
+                    <a title="" class="mha" style="display:block; width:1600px; height:100%;" ></a>
+          
+                
+                    <div class="slide-caption strong small">
+                        
+                            <a href="http://br.viator.com/Buenos-Aires/d901-ttd?pub=ptbuenosbillboard">
+                                Tours em Buenos Aires
+                            </a>
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+    
+        
+        <img class="slide-img unit mha" src="" data-src="//cache-graphicslib.viator.com/graphicslib/mm/Rome_34827_1.jpg" style="display:none;">
+
+            <div class="slide-unit" style="display:none;">
+                <div class="slide-unit-inner mha">
+                    <a title="" class="mha" style="display:block; width:1600px; height:100%;" ></a>
+          
+                
+                    <div class="slide-caption strong small">
+                        
+                            <a href="http://br.viator.com/Roma/d511-ttd?pub=ptromebillboard">
+                                Visite Roma
+                            </a>
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+    
+        
+        <img class="slide-img unit mha" src="" data-src="//cache-graphicslib.viator.com/graphicslib/mm/Lisboa_34804_1.jpg" style="display:none;">
+
+            <div class="slide-unit" style="display:none;">
+                <div class="slide-unit-inner mha">
+                    <a title="" class="mha" style="display:block; width:1600px; height:100%;" ></a>
+          
+                
+                    <div class="slide-caption strong small">
+                        
+                            <a href="http://br.viator.com/Lisboa/d538-ttd?pub=ptlisbonbillboard">
+                                Visite Lisboa
+                            </a>
+                        
+                        
+                    </div>
+                
+            </div>
+        </div>
+    
+    <div class="slider-shadow"></div>
+    
+        <a class="prev" >Prev</a>
+        <a class="next" >Next</a>
+    
+
+ </div>
+
+<img id="slideImageTemplate" class="slide-img unit mha" data-src="" src="" style="display:none;">
+
+<div id="slideUnitTemplate" class="slide-unit" style="display:none;">
+    <div class="slide-unit-inner mha">
+        <a style="display:none; width:1600px; height:100%;" class="mha" title="" href=""></a>
+        <div class="slide-caption inverse-txt strong small" style="display:none;">
+            <a class="inverse-link" href=""></a>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+</div>
+
+<!-- Freetext search On click -->
+
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+    
+    
+    <!--<div style="position:absolute;" id="segmented-search-container">-->
+        <div id="topSearch" style="display:none;position: absolute; width: 401px;" tabindex="0" class="ui-autocomplete  ui-menu ui-widget ui-widget-content segmented-search mini-menu">
+            <div class="pvxl">
+                <h3 class="strong h4">Destinos mais procurados</h3>
+                <div class="line mln">
+                    <div class="col cols6of12 pln">
+                        <ul class="man">
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Las-Vegas/d684-ttd" title="Las Vegas">
+                                        Las Vegas
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Roma/d511-ttd" title="Roma">
+                                        Roma
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Madri/d566-ttd" title="Madri">
+                                        Madri
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Sao-Francisco/d651-ttd" title="São Francisco">
+                                        São Francisco
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Veneza/d522-ttd" title="Veneza">
+                                        Veneza
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Paris/d479-ttd" title="Paris">
+                                        Paris
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Londres/d737-ttd" title="Londres">
+                                        Londres
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="col cols6of12 last-col pln">
+                        <ul class="man border-default-l">
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Barcelona/d562-ttd" title="Barcelona">
+                                        Barcelona
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Orlando/d663-ttd" title="Orlando">
+                                        Orlando
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Munique/d487-ttd" title="Munique">
+                                        Munique
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Nova-York/d687-ttd" title="Nova York">
+                                        Nova York
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Milao/d512-ttd" title="Milão">
+                                        Milão
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Florenca/d519-ttd" title="Florença">
+                                        Florença
+                                    </a>
+                                </li>
+                            
+                                <li class="ui-autocomplete-item ui-menu-item">
+                                    <a href="/pt/8328/Miami/d662-ttd" title="Miami">
+                                        Miami
+                                    </a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--</div>-->
+
+
+
+
+<!-- /Freetext search On click -->
+
+<div class="light-shader pvl">
+    <div class="container light-shader">
+        <div class="line">
+            <div class="col">
+                <div class="media-inline">
+                    <div class="media-inline-img mrs">
+                        <i class="icon icon-home-v"></i>
+                    </div>
+                    <span>
+                        <a class="leading-s hover-none largest strong bock-level" href="/pt/8328/about-us">
+                            <span class="note">O que há de tão <br/>incrível na Viator?</span>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            <div class="col last-col">
+                <div class="line">
+                    <div class="so-great-item pull-left border-default-l">
+                        <a href="/pt/8328/about-us" class="block-level">
+                            <i class="icon icon-so-great-handpicked"></i>
+                        </a>
+                    </div>
+                    <div class="so-great-item pull-left border-default-l">
+                        <a href="/pt/8328/about-us" class="block-level">
+                            <i class="icon icon-so-great-verified"></i>
+                        </a>
+                    </div>
+                    <div class="so-great-item pull-left border-default-l">
+                        <a href="/pt/8328/about-us" class="block-level">
+                            <i class="icon icon-so-great-vip"></i>
+                        </a>
+                    </div>
+                    <div class="so-great-item pull-left border-default-l">
+                        <a href="/pt/8328/about-us" class="block-level">
+                            <i class="icon icon-so-great-low-prices"></i>
+                        </a>
+                    </div>
+                    <div class="so-great-item pull-left border-default-l">
+                        <a href="/pt/8328/about-us" class="block-level">
+                            <i class="icon icon-so-great-support"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    
+        
+        
+        
+        
+        
+    
+
+
+
+<!-- on the CENTER -->
+
+
+
+
+
+	<div class="line mvxl mm-row">
+		
+			<div class="col cols4of12 ttd-row-inner last-col">
+				
+					
+
+
+
+
+
+
+	
+	    <a href="http://br.viator.com/Roma-turismo/Jubileu-da-Misericordia-em-Roma-tours-tickets/d511-t21071?pub=ptromejubilee" title=""> 
+	
+	    <img src="//cache-graphicslib.viator.com/graphicslib/mm/Vatican 1_58805_1.jpg" alt="" class="round-top" width="310px">
+	
+	    </a>   
+	 
+	                  
+	<div class="light-shader round-bottom paxl mm-row-height">
+	        <h3 class="home-module-title mvn">
+		            
+	                <a href="http://br.viator.com/Roma-turismo/Jubileu-da-Misericordia-em-Roma-tours-tickets/d511-t21071?pub=ptromejubilee">
+	                    Jubileu da Misericórdia
+	                </a>
+		        
+		        
+	        </h3>
+	        <p class="mtm">O Papa Francisco declarou que 2016 será um Ano do Jubileu, com muitos eventos especiais e uma atmosfera única. Descubra mais!</p>
+	</div>
+
+
+				
+			</div>
+		
+			<div class="col cols4of12 ttd-row-inner last-col">
+				
+					
+
+
+
+
+
+
+	
+	    <a href="http://br.viator.com/Las-Vegas-tours/Excursoes-aereas-em-helicopteros-e-em-baloes/d684-g1?pub=pthelivegas" title=""> 
+	
+	    <img src="//cache-graphicslib.viator.com/graphicslib/mm/Heli Vegas_59955_1.jpg" alt="" class="round-top" width="310px">
+	
+	    </a>   
+	 
+	                  
+	<div class="light-shader round-bottom paxl mm-row-height">
+	        <h3 class="home-module-title mvn">
+		            
+	                <a href="http://br.viator.com/Las-Vegas-tours/Excursoes-aereas-em-helicopteros-e-em-baloes/d684-g1?pub=pthelivegas">
+	                    Passeio de helicóptero no Grand Canyon
+	                </a>
+		        
+		        
+	        </h3>
+	        <p class="mtm">Dê uma olhada nos nossos emocionantes passeios de helicóptero! Uma experiência única na vida, que você nunca vai esquecer.</p>
+	</div>
+
+
+				
+			</div>
+		
+			<div class="col cols4of12 ttd-row-inner last-col">
+				
+					
+
+
+
+
+
+
+	
+	    <a href="http://br.viator.com/Nova-York-tours/Tiquetes-e-ingressos-para-passeios-turisticos/d687-g8" title=""> 
+	
+	    <img src="//cache-graphicslib.viator.com/graphicslib/mm/NYC 2_32310_1.jpg" alt="" class="round-top" width="310px">
+	
+	    </a>   
+	 
+	                  
+	<div class="light-shader round-bottom paxl mm-row-height">
+	        <h3 class="home-module-title mvn">
+		            
+	                <a href="http://br.viator.com/Nova-York-tours/Tiquetes-e-ingressos-para-passeios-turisticos/d687-g8">
+	                    Ingressos para atrações na Cidade de Nova York
+	                </a>
+		        
+		        
+	        </h3>
+	        <p class="mtm">Visite Nova York da sua maneira com a flexibilidade de nossos ingressos para acesso às melhores atrações da cidade.</p>
+	</div>
+
+
+				
+			</div>
+		
+	</div>
+
+
+
+    <div class="line mvxl">
+
+        
+            
+            
+            
+            
+            
+            
+        
+
+
+
+<!-- on the CENTER -->
+
+
+
+
+
+			
+	
+		
+
+
+
+
+      
+    
+        <div class="col cols4of12">
+            
+            <div id="mm_10006905" layoutcode="HOME_CENTER_QUICKLINKS">
+                <div class="media mbn headline section-heading">
+                    <div class="media-img mrm">
+                        <i class="via-globe-teardrop icon-2x"></i>
+                    </div>
+                    <div class="media-body">
+                        <h3 class="mtm">Os destinos mais procurados</h3>
+                        <!-- ww:property value="mm.getTitle()" /-->
+                    </div>
+                </div>
+                <div class="line">
+                    
+                        <div class="col cols6of12">
+                            <ul class="small list-bordered type-upper strong">
+                                
+                                    <li>
+                                        <a href="/pt/8328/Las-Vegas/d684-ttd" title="Las Vegas">
+                                            Las Vegas
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Roma/d511-ttd" title="Roma">
+                                            Roma
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Madri/d566-ttd" title="Madri">
+                                            Madri
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Sao-Francisco/d651-ttd" title="São Francisco">
+                                            São Francisco
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Veneza/d522-ttd" title="Veneza">
+                                            Veneza
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Paris/d479-ttd" title="Paris">
+                                            Paris
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Londres/d737-ttd" title="Londres">
+                                            Londres
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                        <div class="col last-col">
+                            <ul class="small list-bordered type-upper strong">
+                                
+                                    <li>
+                                        <a href="/pt/8328/Barcelona/d562-ttd" title="Barcelona">
+                                            Barcelona
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Orlando/d663-ttd" title="Orlando">
+                                            Orlando
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Munique/d487-ttd" title="Munique">
+                                            Munique
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Nova-York/d687-ttd" title="Nova York">
+                                            Nova York
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Milao/d512-ttd" title="Milão">
+                                            Milão
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Florenca/d519-ttd" title="Florença">
+                                            Florença
+                                        </a>
+                                    </li>
+                                
+                                    <li>
+                                        <a href="/pt/8328/Miami/d662-ttd" title="Miami">
+                                            Miami
+                                        </a>
+                                    </li>
+                                
+                            </ul>
+                        </div>
+                    
+                </div>
+            </div>
+        </div>
+    
+    
+
+
+
+	
+
+
+
+
+	
+
+        
+            
+            
+            
+            
+            
+            
+        
+
+
+
+<!-- on the CENTER -->
+
+
+
+
+
+			
+	
+		
+
+
+
+
+<div class="col cols4of12">
+    <div class="media mbn headline section-heading">
+        <div class="media-img mrm">
+            <i class="via-friendly-man-teardrop icon-2x"></i>
+        </div>
+        <div class="media-body">
+            <h3 class="mtm"> Carnaval ao redor do mundo</h3>
+        </div>
+    </div>
+    <p class="mvm">Venha pular o carnaval em Veneza, Rio de Janeiro ou Nova Orleans.</p>
+    <div class="media">
+    	<div class="media-img">
+			<img src="//cache-graphicslib.viator.com/graphicslib/mm/Venice Carnival 2_59580_1.jpg"
+			 alt="" style="width: 140px; height: 110px;">
+		</div>
+        <div class="media-body">
+            <ul>
+              	
+              	  	<li class="mbs"><a href="/pt/8328/Veneza-turismo/Carnaval-em-Veneza-tours-tickets/d522-t3599?pub=ptvenicecarnival" class="strong">Veneza</a></li>           	
+				               
+				               
+                	<li class="mbs"><a href="/pt/8328/Rio-de-Janeiro-turismo/Carnaval-no-Rio-de-Janeiro-tours-tickets/d712-t1322?pub=ptriocarnival" class="strong">Rio de Janeiro</a></li>
+                
+                
+                	<li class="mbs"><a href="/pt/8328/Nova-Orleans-turismo/Mardi-Gras-de-Nova-Orleans-tours-tickets/d675-t3600?pub=ptmardigrass" class="strong">Nova Orleans</a></li>
+  				          
+            </ul>                           
+        </div>
+    </div>
+</div>
+	
+		
+
+
+
+
+<div class="col cols4of12 last-col">
+    <div class="media mbn headline section-heading">
+        <div class="media-img mrm">
+            <i class="via-binoculars-teardrop icon-2x"></i>
+        </div>
+        <div class="media-body">
+            <h3 class="mtm">
+			
+			Seleção do mês
+			
+            </h3>
+        </div>
+    </div>
+	<ul class="mtm">
+		<!-- SUBTITLE_1_LINK_TEXT -->
+		
+			<li class="mbs">
+					
+					<a class="strong" href="/pt/8328/tours/Roma/Nao-entre-na-fila-Excursao-a-pe-de-meio-dia-a-Roma-Antiga-e-ao-Coliseu/d511-3731COLOSSEUM">
+					 	Não entre na fila: Roma Antiga 
+					</a>
+			 
+			<span class="xsmall note"></span></li>
+		
+		<!-- SUBTITLE_1_LINK_TEXT END -->
+
+		<!-- LINK_1_TEXT -->
+		
+			<li class="mbs">
+								
+					<a class="strong" href="/pt/8328/tours/Londres/London-Eye-ingressos-de-acesso-sem-fila/d737-2988LONDON_EYE">
+					 	Evite filas: London Eye 
+					</a>
+			 
+			<span class="xsmall note"></span></li>
+		
+		<!-- LINK_1_TEXT END -->
+
+		<!-- LINK_2_TEXT -->
+		
+			<li class="mbs">
+							
+					<a class="strong" href="/pt/8328/tours/Nova-York/Exclusivo-da-Viator-Acesso-a-Estatua-da-Liberdade-e-Memorial-911/d687-5250LIBERTY911">
+					 	Exclusivo Viator: Estátua da Liberdade 
+					</a>
+			 
+			<span class="xsmall note"></span></li>
+		
+		<!-- LINK_2_TEXT END -->
+
+		<!-- LINK_3_TEXT -->
+		
+			<li class="mbs">
+								
+					<a class="strong" href="/pt/8328/Miami/d662-ttd">
+					 	O que fazer em Miami 
+					</a>
+			 
+			<span class="xsmall note"></span></li>
+		
+		<!-- LINK_3_TEXT END -->
+
+		<!-- LINK_4_TEXT -->
+		
+			<li class="mbs">
+							
+					<a class="strong" href="/pt/8328/tours/Paris/Evite-filas-Excursao-guiada-pelo-Museu-do-Louvre-em-Paris/d479-2050_PA">
+					 	Museu Louvre 
+					</a>
+			 
+			<span class="xsmall note"></span></li>
+		
+		<!-- LINK_4_TEXT END -->
+	</ul>
+</div>
+<!-- end CW1B -->
+
+
+	
+
+
+
+
+
+    </div>
+    
+    <script type="text/javascript">
+    	mboxCreate('pt-viatorHomePageRecs');
+    </script>	
+
+</div> 
+<div class="light-shader pvl mtl">
+        <div class="light-shader container">  
+            <div class="media mvn mha cols11of12">
+                <div class="media-img mts">
+                    <h3 class="section-heading mrs inline-level">Ofertas e Descontos</h3> Inscreva-se para receber boletins informativos 
+                </div>
+                <div class="media-body">
+                    <form name="subscribe" id="subscribe" action="#" method="get">
+                        <input type="hidden" name="EMAIL_REQUIRED" value="T" />
+                        <input type="hidden" name="locale" value="pt"/>
+                        <input type="hidden" name="PUID" value="8328"/>
+                        <div class="line">
+                            <div class="col cols7of12">
+                                <input type="text" id="email" name="EMAIL" maxlength="255" class="form-control" placeholder="Endereço de e-mail">
+                            </div>
+                            <div class="col last-col">
+                                <button class="btn btn-default pill smaller" onclick="f_validateForm(this.form.name);
+                                        return false;">Cadastre-se<i class="via-arrow-east mls"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+                            
+<script type="text/javascript" language="JavaScript">
+
+    var searchConfig = {
+        tourCategoryName: "EXCURSÕES E ATIVIDADES",
+        destCategoryName: "OS DESTINOS MAIS POPULARES",
+        seoCategoryName: "ATRAÇÕES E RECOMENDAÇÕES",
+        findMoreResults: "Encontrar mais resultados para",
+        topSearchSourceId: "topSearch"
+    };
+    $(function() {
+    	Viator.SegmentedSearch.init(searchConfig);
+    })
+
+</script>
+  </div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+<script>
+    function imageClick(url) {
+        window.open(url, '_blank');
+    }
+</script>
+
+    
+
+    
+
+  
+
+  
+
+
+
+<footer class="footer" role="footer">
+    
+    <div class="container">
+        <div class="line smaller mbxl">
+            <div class="col cols7of12">
+                <div class="line">    
+                    <div class="col footer-col-1">
+                        <div class="mrl">
+
+                            
+
+
+
+
+
+                            
+                            
+                                <img src="/assets/images/vml/logo_viator_footer_alt.png" alt="Viator logo" class="mtl">
+                            
+                            <p class="mtm mrxl">A Viator é líder mundial no fornecimento de pesquisas, buscas e reservas para as melhores experiências de viagem em todo o mundo.</p>
+                                <div class="media">
+                                    <div class="media-img">
+                                        <a href="http://br.viator.com/pt/8328/customer-care"  class="hover-fade"><i class="via-support-teardrop icon-3x"></i></a>
+                                        
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="type-upper mtn mbs"><span id="contactusHeadline" class="headline">Sup. 24h</span></h5>
+                                            <ul>
+                                                <li><a rel="nofollow" href="http://br.viator.com/pt/8328/customer-care" title='Envie um e-mail ou ligue para nós'>Envie um e-mail ou ligue para nós</a></li>
+                                            </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col footer-col-2 ptl">
+                            <h5 class="type-upper mbs"><span id="companyHeadline" class="headline">Empresa</span></h5>
+                            <ul>
+                                <li><a id="link_aboutus" href="/pt/8328/about-us">Sobre a Viator</a></li>
+                            <li><a id="link_sitemap" href="/pt/8328/all-destinations">Mapa do Site</a></li>
+                            <li><a id="link_newsletter" href="/pt/8328/newsletters">Boletim informativo gratuito</a></li>
+
+                            
+                        </ul>
+                        <h5 class="type-upper mtxl mbs"><span id="supportHeadline" class="headline">Suporte</span></h5>
+                        <ul>
+                            <li><a id="link_custcare" rel="nofollow" href="http://br.viator.com/pt/8328/customer-care" title="Atendimento ao cliente">Atendimento ao cliente</a></li>
+                            <li><a id="link_privacy" rel="nofollow" href="http://br.viator.com/pt/8328/privacy-policy" title="Política de privacidade">Política de privacidade</a></li>
+                            <li><a id="link_lowPrice" href="#" onclick="window.open('http://br.viator.com/pt/8328/popups/lowPriceGuarantee.jspa', 'lowpricewindow', 'scrollbars=1,resizable=1,width=500,height=600');
+                                    return false;" title="Garantia de preço baixo">Garantia de preço baixo</a></li>
+                        </ul>  
+                    </div>
+                    <div class="col footer-col-3 ptl last-col">
+                    
+                        <h5 class="type-upper mbs"><span id="sitesHeadline" class="headline">Locais</span></h5>
+                        <ul>
+                            <li>
+                                
+                            </li>
+                            <li>
+                                <a id="privateGuidesLink" rel="nofollow" href="Http://tourguides.viator.com/" target="_blank" title="Guias Turísticos Particulares"> Guias Turísticos Particulares</a>
+                            </li>
+                            <li><a id="de_Link" href="//www.viatorcom.de">Deutsch</a></li>
+                            <li><a id="fr_Link" href="//www.viatorcom.fr">Fran&ccedil;ais</a></li>
+                            <li><a id="es_Link" href="//es.viator.com" >Espa&ntilde;ol</a></li>
+                            <li><a id="it_Link" href="//it.viator.com">Italiano</a></li>
+                            
+                            <li><a id="dk_Link" href="//dk.viator.com">Dansk</a></li>
+                            <li><a id="nl_Link" href="//www.viatorcom.nl">Nederlands</a></li>
+                            <li><a id="no_Link" href="//www.viatorcom.no">Norsk</a></li>
+                            <li><a id="se_Link" href="//www.viatorcom.se">Svenska</a></li>
+                            <li><a id="jp_Link" href="//jp.viator.com">日本語</a></li>
+                            </ul>
+                        </div> 
+                    </div><!-- /.line -->
+                </div><!-- /.unit -->
+
+            
+                <div class="col footer-col-4 ptl pln">
+                    <h5 class="type-upper mbs"><span id="socialMediaHeadline" class="headline">Social</span></h5>
+
+                    
+                    
+                    
+                    
+                        <div class="cf leading-s mbs">
+                            <a href="#" onclick="imageClick('https://www.facebook.com/pages/Viator_Portugues/108233222695981')" class="pull-left hover-fade mrl"><i class="via-facebook-teardrop icon-3x"></i></a>
+                            <a href="#" onclick="imageClick('https://twitter.com/#!/Viatorportugues')" class="pull-left hover-fade"><i class="via-twitter-teardrop icon-3x"></i></a>
+                        </div>
+                        <div class="cf leading-s mbs">
+                            <a href="#" onclick="imageClick('https://plus.google.com/u/0/102999096875897603148/posts')" class="pull-left hover-fade mrl"><i class="via-google-plus-teardrop icon-3x"></i></a>
+                            <a href="#" onclick="imageClick('http://blog.br.viator.com')" class="pull-left hover-fade"><i class="via-rss-teardrop icon-3x"></i></a>  
+                        </div>
+                        <div class="cf leading-s mbs">
+                            <a href="#" onclick="imageClick('https://pinterest.com/viatorportugues/')" class="pull-left hover-fade mrl"><i class="via-pinterest-teardrop icon-3x"></i></a>
+                            <a href="#" onclick="imageClick('http://instagram.com/viator_portugues/#')" class="pull-left hover-fade"><i class="via-instagram-teardrop icon-3x"></i></a>
+                        </div>
+                    
+                    
+                </div>    
+            
+            <div class="pull-right round-bottom footer-search mbxl">
+                
+            
+                <div class="pal">
+                    <h5 class="type-upper mbs" id="activityLabel">Encontre sua próxima atividade!</h5>
+                    <form role="search" action="//br.viator.com/freeTextSearch.jspa" method="get" onsubmit="return doFreeTextSearchSubmit('footerFreeTextSearch', '', 'Insira uma palavra-chave para pesquisa','//br.viator.com/pt/8328/search/');">
+                        <div class="input-group pill-group">
+                            <input type="text" name="freeTextKeyword" id="footerFreeTextSearch" class="form-control prn" size="16" value="">
+                            <span class="input-group-btn"><button id="freeTextSearch" class="btn" type="submit"><i class="fa fa-search"></i></button></span>
+                        </div>
+                    </form>
+
+                    
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    
+
+
+<!-- on the CENTER -->
+
+
+
+
+
+
+ <h5 class="type-upper mtxl mbs"><span id="topDestHeadline" class="headline">Destinos mais procurados</span></h5>
+	<div class="line clear">
+		
+			
+
+
+
+ 
+
+
+
+	
+                      
+    <div class="col col6of12">    
+   		 <ul class="mrm">        
+                
+                    <li>
+                        <a href="/pt/8328/Las-Vegas/d684-ttd" title="Las Vegas">
+                            Las Vegas
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/pt/8328/Roma/d511-ttd" title="Roma">
+                            Roma
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/pt/8328/Madri/d566-ttd" title="Madri">
+                            Madri
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/pt/8328/Sao-Francisco/d651-ttd" title="São Francisco">
+                            São Francisco
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/pt/8328/Veneza/d522-ttd" title="Veneza">
+                            Veneza
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/pt/8328/Paris/d479-ttd" title="Paris">
+                            Paris
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/pt/8328/Londres/d737-ttd" title="Londres">
+                            Londres
+                        </a>
+                    </li>
+                
+           </ul>     
+      </div>          
+     
+     <div class="col col6of12 last-col">
+     	<ul>
+            
+                 <li>
+                     <a href="/pt/8328/Barcelona/d562-ttd" title="Barcelona">
+                         Barcelona
+                     </a>
+                 </li>
+             
+                 <li>
+                     <a href="/pt/8328/Orlando/d663-ttd" title="Orlando">
+                         Orlando
+                     </a>
+                 </li>
+             
+                 <li>
+                     <a href="/pt/8328/Munique/d487-ttd" title="Munique">
+                         Munique
+                     </a>
+                 </li>
+             
+                 <li>
+                     <a href="/pt/8328/Nova-York/d687-ttd" title="Nova York">
+                         Nova York
+                     </a>
+                 </li>
+             
+                 <li>
+                     <a href="/pt/8328/Milao/d512-ttd" title="Milão">
+                         Milão
+                     </a>
+                 </li>
+             
+                 <li>
+                     <a href="/pt/8328/Florenca/d519-ttd" title="Florença">
+                         Florença
+                     </a>
+                 </li>
+             
+                 <li>
+                     <a href="/pt/8328/Miami/d662-ttd" title="Miami">
+                         Miami
+                     </a>
+                 </li>
+             
+              <li><a href="/pt/8328/all-destinations" class="more-link micro">Todos os destinos</a></li> 
+             </ul>
+     </div>           
+
+
+									
+	</div>					
+
+
+
+                </div>
+            </div> <!-- /.footer-search --> 
+        </div>
+    </div>
+
+    <div class="footer-fine-print smallest pvm" role="contentinfo">
+        <div class="container">
+            <ul class="list-inline-divider mbxs">
+                <li>
+                	
+                	
+                		<a id="aboutUs" rel="nofollow" href="/pt/8328/about-us" title="Sobre a Viator">Sobre a Viator</a>
+                	
+				</li>	
+				
+                <li><a id="faq" rel="nofollow" href="http://br.viator.com/pt/8328/faq" title="FAQ">FAQ</a></li>
+                <li><a id="custcare" rel="nofollow"  href="http://br.viator.com/pt/8328/customer-care" title="Atendimento ao cliente">Atendimento ao cliente </a></li>
+
+
+
+                <li>
+                    <a id="privacy" rel="nofollow" href="http://br.viator.com/pt/8328/privacy-policy" title="Política de privacidade">Política de privacidade
+                    </a>
+                </li>
+
+
+                <li><a id="lowPrice" href="#" onclick="window.open('http://br.viator.com/pt/8328/popups/lowPriceGuarantee.jspa', 'lowpricewindow', 'scrollbars=1,resizable=1,width=500,height=600');
+                        return false;" title="Garantia de preço baixo">Garantia de preço baixo</a></li>
+
+                
+                
+                
+
+            </ul>
+            <p>&copy; 
+                1997-2016 Viator Inc. 330467 Todos os direitos reservados. O uso deste site se constitui em aceitação da <a id="terms" href="#" onclick="window.open('http://br.viator.com/popups/terms.jspa', 'termsNcondition', 'toolbar=no,location=no,directories=no,status=yes,menubar=no,scrollbars=yes,resizable=yes,width=500,height=600');
+                        return false;" title="Termos e Condições">Termos e Condições</a> da Viator.
+
+        </div>
+    </div>
+
+</footer>
+
+
+
+
+
+
+<script type="text/javascript">
+    $(initializeCookieNotice);
+</script>
+
+<div class="container learn-more" id="learnMore" style="display: block;">
+    <input type="hidden" name="" value="BR" id="countryCode"/>
+ 
+    <input type="hidden" name="" value="true" id="isVML"/>
+
+    <input type="hidden" name="" value="8328" id="puid"/>
+
+    <div class="pvm">
+        <ul class="list-inline-divider smallest note">
+            <li>A Viator usa cookies no site. <a href="http://br.viator.com/pt/8328/privacy-policy#cookies" >Saiba mais</a> sobre como usamos cookies e como alterar a configuração do seu navegador.
+            </li>
+            <li><a  href="javascript:void(0);" onclick="closeCookieNotice()">Fechar</a></li>
+        </ul>
+    </div> 
+</div> 
+ 
+
+
+	<div class="mboxDefault">
+	</div>
+	<script type="text/javascript">
+		mboxCreate('pt-viatorHomeMarketingMiddle');
+	</script>
+
+
+</body>
+</html>
+
+
+

@@ -1,0 +1,485 @@
+title=Visite O Congresso
+url=http://www2.congressonacional.leg.br/visite
+html=
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+        <base href="http://www2.congressonacional.leg.br/visite/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+<link rel="kss-base-url" href="http://www2.congressonacional.leg.br/visite/" />
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/base-cachekey8011.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/collective.js.jqueryui.custom.min-cachekey1489.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/columns-cachekey7304.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/resourceplone.app.discussion.stylesheetsdiscussion-cachekey2133.css" />
+    <link rel="stylesheet" type="text/css" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/ploneKss-cachekey4611.css" />
+    <style type="text/css" media="screen">@import url(http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/resourceplone.app.jquerytools.overlays-cachekey3148.css);</style>
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/IEFixes-cachekey1569.css" />
+        <![endif]-->
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/resourceplone.app.dexterity.overlays-cachekey2431.css" />
+    <style type="text/css" media="screen">@import url(http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/resourceplone.formwidget.autocompletejquery.autocomplete-cachekey7573.css);</style>
+    <link rel="stylesheet" type="text/css" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/bootstrap-cachekey3063.css" />
+    <link rel="stylesheet" type="text/css" media="all" href="http://www2.congressonacional.leg.br/visite/portal_css/Tema_Visitacao/ploneCustom-cachekey9064.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="http://www2.congressonacional.leg.br/visite/portal_kss/Tema_Visitacao/at-cachekey3086.kss" />
+  
+    <script type="text/javascript" src="http://www2.congressonacional.leg.br/visite/portal_javascripts/Tema_Visitacao/resourcesenado.jqueryjquery-cachekey4920.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="http://www2.congressonacional.leg.br/visite/portal_javascripts/Tema_Visitacao/iefixes-cachekey5382.js"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="http://www2.congressonacional.leg.br/visite/portal_javascripts/Tema_Visitacao/collective.js.jqueryui.custom.min-cachekey0653.js"></script>
+
+
+<title>Visite O Congresso</title>
+        
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://www2.congressonacional.leg.br/visite/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://www2.congressonacional.leg.br/visite/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['pt-BR'],
+                {dateFormat: 'dd/mm/yy'}));
+        });
+        </script>
+
+    <link rel="home" href="http://www2.congressonacional.leg.br/visite" title="Página inicial" />
+
+    <link rel="contents" href="http://www2.congressonacional.leg.br/visite/sitemap" title="Mapa do Site" />
+
+
+
+
+
+
+    <link rel="search" href="http://www2.congressonacional.leg.br/visite/search_form" title="Buscar neste site" />
+
+
+
+        <script type="text/javascript" src="http://www2.congressonacional.leg.br/visite/++resource++visitacao.agendamento/script/main_template.js"></script>
+
+        
+        
+        
+        <meta name="description" content="Informações sobre como visitar o Congresso Nacional. Horário de visitação, agendamento, dicas e avisos." />
+    
+        
+        <link rel="stylesheet" type="text/css" media="screen" href="http://www2.congressonacional.leg.br/visite/++resource++visitacao.agendamento/css/root_home_visite.css" />
+    
+        
+
+        <meta name="viewport" content="width=device-width, initial-scale=0.6666, maximum-scale=1.0, minimum-scale=0.6666" />
+    
+
+    <meta name="generator" content="Plone - http://plone.org" />
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-45496042-1', 'auto');
+        ga('require', 'linkid', 'linkid.js');
+        ga('send', 'pageview');
+    </script>
+
+</head>
+
+<body>
+    
+        <div id="fb-root"></div>
+        <script>          
+          window.fbAsyncInit = function() {
+	        FB.init({
+	          status     : true,
+	          cookie     : true,
+	          xfbml      : true
+	        });
+          };
+           
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+    
+
+    
+
+    
+        <div class="head-container">
+            <div class="container">
+              <div class="row">
+                  <div class="span5 head-box">
+                    <p class="site-logo">
+                        <img alt="Congresso Nacional" border="0" usemap="#logoMap" src="http://www2.congressonacional.leg.br/visite/logo-congresso-nacional.jpg" />
+                        <map name="logoMap">
+                            <area shape="rect" coords="1,1,120,45" href="http://www.senado.leg.br" alt="Senado Federal">
+                            <area shape="rect" coords="121,1,205,45" href="http://www.congressonacional.leg.br" alt="Congresso Nacional">
+                            <area shape="rect" coords="206,1,325,45" href="http://www.camara.leg.br" alt="Câmara dos Deputados">
+                        </map>
+                    </p>
+                    <span class="clearfix"></span>
+                    <iframe name="youtube-player" width="370" height="227" src="http://www.youtube.com/embed/xiHvrJBDLqE?enablejsapi=1&amp;rel=0" frameborder="0" allowfullscreen></iframe> <!-- Necessário manter parâmetro enablejsapi na url -->
+                        <h1 class="head-subtitle">SEJA BEM-VINDO AO PALÁCIO DO CONGRESSO NACIONAL!</h1>
+                        <p class="head-text">O prédio que abriga a Câmara dos Deputados e o Senado Federal é um marco arquitetônico da Capital da República e está de portas abertas para receber visitantes interessados em conhecer um pouco mais sobre o Poder Legislativo brasileiro.</p>
+                  </div>
+                </div>
+            </div>
+        </div>
+    
+
+    <div class="navbar navbar-static-top main-nav">
+      <div class="navbar-inner box-congresso">
+        <div class="container"> 
+        
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+        
+        <div class="nav-collapse collapse">
+          <ul class="nav">
+            
+                
+                    
+                        <li><a href="/visite">Início</a></li>
+                    
+                    
+                
+                <li class="divider-vertical" />
+            
+            
+                
+                    
+                    
+                        <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle white" data-toggle="dropdown" data-hover="dropdown" data-delay="500" data-close-others="true">Visite<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                    <li><a id="Link" href="/visite/agendamento">Agendamento</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/guia-do-visitante">Guia do visitante</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/guia-do-professor">Guia para professores</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/como-chegar">Como chegar</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/perguntas-frequentes">Perguntas frequentes</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/depoimentos">Depoimentos</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/contato">Contato</a></li>
+                                    
+                                
+                            </ul>
+                        </li>
+                    
+                
+                <li class="divider-vertical" />
+            
+            
+                
+                    
+                    
+                        <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle white" data-toggle="dropdown" data-hover="dropdown" data-delay="500" data-close-others="true">Congresso Nacional<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                    <li><a id="Link" href="/visite/o-que-e">O que é?</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/sedes-historicas">Sedes históricas</a></li>
+                                    
+                                
+                            </ul>
+                        </li>
+                    
+                
+                <li class="divider-vertical" />
+            
+            
+                
+                    
+                    
+                        <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle white" data-toggle="dropdown" data-hover="dropdown" data-delay="500" data-close-others="true">Um palácio, duas Casas<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                    <li><a id="Link" href="/visite/arquitetura">Arquitetura</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/arte">Arte</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/imagens">Imagens</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/visitas-virtuais">Visitas virtuais</a></li>
+                                    
+                                
+                            </ul>
+                        </li>
+                    
+                
+                <li class="divider-vertical" />
+            
+            
+                
+                    
+                    
+                        <li class="dropdown">
+	                        <a href="#" class="dropdown-toggle white" data-toggle="dropdown" data-hover="dropdown" data-delay="500" data-close-others="true">Exposições e Eventos<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                
+                                    <li><a id="Link" href="/visite/exposicoes-permanentes">Permanentes</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/exposicoes-temporarias">Temporárias</a></li>
+                                    <li class="divider-standard"></li>
+                                
+                                
+                                    <li><a id="Link" href="/visite/eventos">Eventos</a></li>
+                                    
+                                
+                            </ul>
+                        </li>
+                    
+                
+                <li class="divider-vertical" />
+            
+            
+                
+                    
+                        <li><a href="/visite/publicacoes">Publicações</a></li>
+                    
+                    
+                
+                
+            
+	      </ul>
+        </div>  
+        </div>
+      </div>
+    </div>
+
+
+    
+        <div>
+            
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+            
+                <div class="container">
+                    
+                    
+                        <div class="row">
+                            <div class="span12">
+                                <div class="thumbnails">
+
+                                    
+            <!-- Coluna esquerda -->
+            <div id="acontece" class="span3">
+                <h2 class="section-header">Avisos</h2>
+                <div class="thumbnail">
+                    <div class="clearfix"></div>
+                    <div class="caption" id="sliderAvisos">
+                        <ul class="ulAvisos">
+                            <li>
+                                <a href="/visite/acontece/plenario-da-camara-interditado-neste-final-de-semana"><span>Plenário da Câmara interditado neste final de semana</span><br /><span></span></a>
+                                
+                            </li>
+                            <li>
+                                <a href="/visite/acontece/fim-de-ano-e-ferias-na-visita-institucional"><span>Fim de ano e férias na Visita Institucional</span><br /><span></span></a>
+                                
+                            </li>
+                        </ul>
+                        <h6><a href="acontece">Veja mais</a></h6>
+                    </div>
+                </div>
+
+                <div id="bannerColunaEsquerda" class="thumbnail"><a href="http://www.viibra.gov.br" target="_blank"><img alt="Visitação Institucional Integrada em Brasília" src="http://www2.congressonacional.leg.br/visite/banner-viibra.jpg"></a></div>
+
+                <div id="TA_selfserveprop892" class="TA_selfserveprop">
+                    <ul id="JWuv7KlXj" class="TA_links 3IVtuP">
+                        <li id="IlbJaYDWMH" class="CPfsp2">
+                            <a target="_blank" href="http://www.tripadvisor.com.br/">
+                                <img src="http://www.tripadvisor.com.br/img/cdsi/img2/branding/150_logo-11900-2.png" alt="TripAdvisor" />
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <script src="http://www.jscache.com/wejs?wtype=selfserveprop&amp;uniq=892&amp;locationId=318128&amp;lang=pt&amp;rating=true&amp;nreviews=4&amp;writereviewlink=true&amp;popIdx=true&amp;iswide=false&amp;border=true&amp;display_version=2"></script>
+
+            </div>
+            <!-- /Coluna esquerda -->
+            
+            <!-- Coluna central -->
+            <div id="imagens" class="span6">
+              <h2 class="section-header">Imagens</h2>
+              <div class="thumbnail"> 
+              	<div id="carouselCongresso" class="carousel slide">
+                  <!-- Carousel items -->
+                  <div class="carousel-inner">
+                    <div class="active item"><img src="/visite/imagens/congresso-1/image_large" alt="Foto: Ana Volpe/Senado Federal" title="Foto: Ana Volpe/Senado Federal" /></div>
+                    <div class="item"><img src="/visite/imagens/congresso-3/image_large" alt="Foto: Ana Volpe/Senado Federal" title="Foto: Ana Volpe/Senado Federal" /></div>
+                    <div class="item"><img src="/visite/imagens/congresso-4/image_large" alt="Foto: Ana Volpe/Senado Federal" title="Foto: Ana Volpe/Senado Federal" /></div>
+                    <div class="item"><img src="/visite/imagens/visitantes-3/image_large" alt="Foto: Ana Volpe/Senado Federal" title="Foto: Ana Volpe/Senado Federal" /></div>
+                    <div class="item"><img src="/visite/imagens/croqui-oscar/image_large" alt="Croqui do Congresso Nacional." title="Croqui do Congresso Nacional." /></div>
+                    <div class="item"><img src="/visite/imagens/visitantes-2/image_large" alt="Foto: Ana Volpe/Senado Federal" title="Foto: Ana Volpe/Senado Federal" /></div>
+                    <div class="item"><img src="/visite/imagens/visitantes-5/image_large" alt="Foto: Ana Volpe/Senado Federal" title="Foto: Ana Volpe/Senado Federal" /></div>
+                    <div class="item"><img src="/visite/imagens/vista-da-esplanada-dos-ministerios/image_large" alt="Foto: Ana Volpe/Senado Federal" title="Foto: Ana Volpe/Senado Federal" /></div>
+                  </div>
+                  <!-- Carousel nav -->
+                  <a class="carousel-control left" href="#carouselCongresso" data-slide="prev">&lsaquo;</a>
+                  <a class="carousel-control right" href="#carouselCongresso" data-slide="next">&rsaquo;</a>
+                </div>
+              </div>
+                <div class="media">
+                  <a class="pull-left" href="guia-do-professor"><img width="120" height="80" alt="Dicas para professores" alt="" src="http://www2.congressonacional.leg.br/visite/dicas-professores.jpg"></a>
+                  <div class="media-body">
+                  	<h5><a href="guia-do-professor">DICAS PARA OS PROFESSORES</a></h5>
+                    <p>Saiba mais como aproveitar melhor a visita de seus alunos ao Congresso Nacional</p>
+                  </div>
+                </div>
+                <div class="media">
+                  <a class="pull-left" href="visitas-virtuais"><img width="120" height="80" alt="Visitas Virtuais" alt="" src="http://www2.congressonacional.leg.br/visite/visitas-virtuais.jpg"></a>
+                  <div class="media-body">
+                  	<h5><a href="visitas-virtuais">VISITAS VIRTUAIS</a></h5>
+                    <p>Visualize os espaços mostrados durante as visitas guiadas que acontecem diariamente na Casa</p>
+                  </div>
+                </div>
+                <ul class="thumbnails">
+                  <li class="span3">
+                    <div class="thumbnail pull-left">
+					  <a class="pull-left" href="http://www.senado.leg.br/senado/alosenado/default.asp?s=fs&amp;area=internet&amp;a=f" target="_blank"><img alt="Fale com o Senado" alt="" src="http://www2.congressonacional.leg.br/visite/icone-fale-senado.jpg"></a>
+                      <h4 class="azul-senado">Fale com o Senado</h4>
+                      <p><a href="http://www.senado.leg.br/senado/alosenado/default.asp?s=fs&amp;area=internet&amp;a=f" target="_blank">Acesse o site</a> ou entre em contato pelo telefone 0800 612211</p>
+                    </div>
+                  </li>
+			      <li class="span3">
+                    <div class="thumbnail pull-left">
+				      <a class="pull-left" href="http://www2.camara.leg.br/participe/fale-conosco" target="_blank"><img alt="Fale com a Câmara" alt="" src="http://www2.congressonacional.leg.br/visite/icone-fale-camara.jpg"></a>
+                      <h4 class="verde-camara">Fale com a Câmara</h4>
+                      <p><a href="http://www2.camara.leg.br/participe/fale-conosco" target="_blank">Acesse o site</a> ou entre em contato pelo telefone 0800 619619</p>
+                    </div>
+                  </li>
+                </ul>
+            </div>
+            <!-- /Coluna central -->
+            
+            <!-- Coluna direita -->
+            <div id="colunaDireita" class="span3">
+                <div class="international">
+                	<span class="section-header">Internacional</span>
+                	<ul class="list-inline pull-right">
+                        <li><a href="http://www2.congressonacional.leg.br/visite/idioma/en"><img class="international-english" title="English" src="http://www2.congressonacional.leg.br/visite/transparent-pixel.gif"></a></li>
+                        <li><a href="http://www2.congressonacional.leg.br/visite/idioma/fr"><img class="international-french" title="Français" src="http://www2.congressonacional.leg.br/visite/transparent-pixel.gif"></a></li>
+                        <li><a href="http://www2.congressonacional.leg.br/visite/idioma/es"><img class="international-spanish" title="Español" src="http://www2.congressonacional.leg.br/visite/transparent-pixel.gif"></a></li>
+                    </ul>
+                </div>
+
+                <h2 class="section-header">Como chegar</h2>
+                <div id="comoChegar" class="thumbnail">
+                    <a href="https://maps.google.com/maps?f=q&amp;source=embed&amp;hl=pt-BR&amp;geocode=&amp;q=congresso+nacional+bras%C3%ADlia&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=60.158465,84.023438&amp;ie=UTF8&amp;hq=congresso+nacional+bras%C3%ADlia&amp;t=m&amp;ll=-15.799687,-47.864149&amp;spn=0.006194,0.006437&amp;z=16&amp;iwloc=A" target="_blank"><img alt="Como chegar ao Congresso Nacional" src="http://www2.congressonacional.leg.br/visite/mapa-congresso-nacional.gif"></a>
+                    <h3>Congresso Nacional</h3>
+                    <p>Praça dos Três Poderes, Zona
+                    Cívico-Administrativa - Brasília - DF <br />
+                    CEP - 70165-900</p>
+                    <br />
+                </div>
+                <br />
+                <h2 class="section-header">Facebook</h2>
+                <div class="thumbnail">
+                    <div class="fb-like-box" data-href="https://www.facebook.com/visitacaocongresso" height="400" data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false"></div>
+                </div>
+
+            </div> 
+            <!-- /Coluna direita -->
+    
+                                </div>
+                            </div>
+                        </div>
+                    
+                </div>
+            
+        </div>
+    
+
+    <footer>
+      <div class="navbar navbar-static-top navbar-footer">
+        
+        <div class="footer-senado span12">
+         <div class="footer-senado-text"><h5></h5></div>
+        </div>
+      </div>
+      
+    </footer>
+
+</body>
+</html>
+
+

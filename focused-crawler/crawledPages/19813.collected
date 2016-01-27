@@ -1,0 +1,1838 @@
+title=TripAdvisor: lees beoordelingen, vergelijk prijzen & boek
+url=https://www.tripadvisor.be/
+html=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://opengraphprotocol.org/schema/">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="icon" id="favicon" href="https://static.tacdn.com/favicon.ico" type="image/x-icon"/>
+<link rel="mask-icon" sizes="any" href="https://static.tacdn.com/img2/icons/ta_square.svg" color="#589442"/>
+<script type='text/javascript'>
+window.onerror = function onErrorFunc(msg, url, line, colno, error) {
+if(!window.ta || !ta.has('ta.js_error_array.processed')) {
+if(typeof js_error_array == 'undefined') {
+js_error_array = [];
+}
+var err = error;
+js_error_array[js_error_array.length] = {'msg': msg, 'error_script': url, 'line': line, 'column': colno, 'error': err, 'ready_state': document.readyState};
+return true;
+}
+else {
+if(window.ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record(error, 'error post load:: ' + msg, null, {'error_script': url, 'line': line, 'column': colno, 'ready_state': document.readyState});
+}
+}
+};
+</script>
+<script>
+try {
+if (window.XMLHttpRequest) {
+window.g_trackingLoadTime = {
+start: (new Date()).getTime(),
+track: function(name) {
+var duration = (new Date()).getTime() - g_trackingLoadTime.start;
+var xmlHttp = new XMLHttpRequest();
+xmlHttp.open('GET', '/ActionRecord?action=PageLoadTime&subAction=' + name + '&time=' + duration, false);
+xmlHttp.send(null);
+}
+};
+if (window.addEventListener) {
+document.addEventListener("DOMContentLoaded", function(event) {
+g_trackingLoadTime.track('DOMContentLoaded');
+});
+window.addEventListener('load', function(event) {
+g_trackingLoadTime.track('load');
+});
+}
+else {
+window.attachEvent('onload', function(event) {
+g_trackingLoadTime.track('DOMContentLoaded');
+g_trackingLoadTime.track('load');
+});
+}
+g_trackingLoadTime.track('start');
+}
+} catch(e) {
+delete window['g_trackingLoadTime'];
+}
+</script>
+<script>(function(){
+var q={d:[],r:[],c:[],t:[],v:[]};
+var r = window.require = function() {q.r.push(arguments);};
+r.config = function() {q.c.push(arguments);}
+r.taConfig = function() {q.t.push(arguments);}
+r.taVer = function(v) {q.v.push(v);}
+window.getRequireJSQueue = function() {return q;}
+})();</script>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>TripAdvisor: lees beoordelingen, vergelijk prijzen &amp; boek</title>
+<meta name='yandex-verification' content='72f2dede0d56da88'/>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta property="og:title" content="TripAdvisor: lees beoordelingen, vergelijk prijzen &amp; boek"/>
+<meta property="og:description" content="De grootste reiswebsite ter wereld. Meer dan 200 miljoen onpartijdige reizigersbeoordelingen. Doorzoek meer dan 200 websites om de beste hotelprijzen te vinden."/>
+<meta property="og:image" content="https://static.tacdn.com/img2/branding/TA_550x370.png"/>
+<meta property="og:image:width" content="550"/>
+<meta property="og:image:height" content="370"/>
+<meta name="keywords" content="vakantie, vakanties, vakantiepakketten, vakantiepakket, reispakket, reispakketten, reis, planning, hotel, hotels, motel, bed &amp; breakfast, pension, gids, beoordeling, beoordelingen, populair, plannen, vluchttarief, goedkoop, korting, kaart, kaarten, golfen, skiën, artikelen, attracties, advies, restaurants"/>
+<meta name="description" content="De grootste reiswebsite ter wereld. Meer dan 200 miljoen onpartijdige reizigersbeoordelingen. Doorzoek meer dan 200 websites om de beste hotelprijzen te vinden."/>
+<link rel="alternate" hreflang="en" href="http://www.tripadvisor.com/"/>
+<link rel="alternate" hreflang="en-GB" href="http://www.tripadvisor.co.uk/"/>
+<link rel="alternate" hreflang="en-CA" href="https://www.tripadvisor.ca/"/>
+<link rel="alternate" hreflang="fr-CA" href="https://fr.tripadvisor.ca/"/>
+<link rel="alternate" hreflang="it" href="https://www.tripadvisor.it/"/>
+<link rel="alternate" hreflang="es" href="https://www.tripadvisor.es/"/>
+<link rel="alternate" hreflang="de" href="https://www.tripadvisor.de/"/>
+<link rel="alternate" hreflang="fr" href="https://www.tripadvisor.fr/"/>
+<link rel="alternate" hreflang="ja" href="https://www.tripadvisor.jp/"/>
+<link rel="alternate" hreflang="zh-Hans" href="https://cn.tripadvisor.com/"/>
+<link rel="alternate" hreflang="en-IN" href="https://www.tripadvisor.in/"/>
+<link rel="alternate" hreflang="sv" href="https://www.tripadvisor.se/"/>
+<link rel="alternate" hreflang="nl" href="http://www.tripadvisor.nl/"/>
+<link rel="alternate" hreflang="pt" href="https://www.tripadvisor.com.br/"/>
+<link rel="alternate" hreflang="tr" href="http://www.tripadvisor.com.tr/"/>
+<link rel="alternate" hreflang="da" href="https://www.tripadvisor.dk/"/>
+<link rel="alternate" hreflang="es-MX" href="http://www.tripadvisor.com.mx/"/>
+<link rel="alternate" hreflang="en-IE" href="https://www.tripadvisor.ie/"/>
+<link rel="alternate" hreflang="ar" href="https://www.tripadvisor.com.eg/"/>
+<link rel="alternate" hreflang="cs" href="https://www.tripadvisor.cz/"/>
+<link rel="alternate" hreflang="de-AT" href="https://www.tripadvisor.at/"/>
+<link rel="alternate" hreflang="el" href="https://www.tripadvisor.com.gr/"/>
+<link rel="alternate" hreflang="en-AU" href="https://www.tripadvisor.com.au/"/>
+<link rel="alternate" hreflang="en-MY" href="https://www.tripadvisor.com.my/"/>
+<link rel="alternate" hreflang="en-NZ" href="https://www.tripadvisor.co.nz/"/>
+<link rel="alternate" hreflang="en-PH" href="https://www.tripadvisor.com.ph/"/>
+<link rel="alternate" hreflang="en-SG" href="https://www.tripadvisor.com.sg/"/>
+<link rel="alternate" hreflang="en-ZA" href="https://www.tripadvisor.co.za/"/>
+<link rel="alternate" hreflang="es-AR" href="http://www.tripadvisor.com.ar/"/>
+<link rel="alternate" hreflang="es-CL" href="https://www.tripadvisor.cl/"/>
+<link rel="alternate" hreflang="es-CO" href="https://www.tripadvisor.co/"/>
+<link rel="alternate" hreflang="es-PE" href="https://www.tripadvisor.com.pe/"/>
+<link rel="alternate" hreflang="es-VE" href="https://www.tripadvisor.com.ve/"/>
+<link rel="alternate" hreflang="fi" href="https://www.tripadvisor.fi/"/>
+<link rel="alternate" hreflang="hu" href="https://www.tripadvisor.co.hu/"/>
+<link rel="alternate" hreflang="id" href="https://www.tripadvisor.co.id/"/>
+<link rel="alternate" hreflang="he" href="https://www.tripadvisor.co.il/"/>
+<link rel="alternate" hreflang="ko" href="https://www.tripadvisor.co.kr/"/>
+<link rel="alternate" hreflang="nb" href="http://no.tripadvisor.com/"/>
+<link rel="alternate" hreflang="pl" href="http://pl.tripadvisor.com/"/>
+<link rel="alternate" hreflang="ru" href="https://www.tripadvisor.ru/"/>
+<link rel="alternate" hreflang="sk" href="https://www.tripadvisor.sk/"/>
+<link rel="alternate" hreflang="sr" href="https://www.tripadvisor.rs/"/>
+<link rel="alternate" hreflang="th" href="http://th.tripadvisor.com/"/>
+<link rel="alternate" hreflang="vi" href="https://www.tripadvisor.com.vn/"/>
+<link rel="alternate" hreflang="zh-Hant" href="https://www.tripadvisor.com.tw/"/>
+<link rel="alternate" hreflang="de-CH" href="https://www.tripadvisor.ch/"/>
+<link rel="alternate" hreflang="fr-CH" href="https://fr.tripadvisor.ch/"/>
+<link rel="alternate" hreflang="it-CH" href="https://it.tripadvisor.ch/"/>
+<link rel="alternate" hreflang="fr-BE" href="https://fr.tripadvisor.be/"/>
+<link rel="alternate" hreflang="nl-BE" href="https://www.tripadvisor.be/"/>
+<meta property="al:ios:app_name" content="TripAdvisor">
+<meta property="al:ios:app_store_id" content="284876795">
+<meta property="twitter:app:id:ipad" name="twitter:app:id:ipad" content="284876795">
+<meta property="twitter:app:id:iphone" name="twitter:app:id:iphone" content="284876795">
+<meta property="al:ios:url" content="tripadvisor://www.tripadvisor.be/-m33762">
+<meta property="twitter:app:url:ipad" name="twitter:app:url:ipad" content="tripadvisor://www.tripadvisor.be/-m33762">
+<meta property="twitter:app:url:iphone" name="twitter:app:url:iphone" content="tripadvisor://www.tripadvisor.be/-m33762">
+<script type="text/javascript">
+var taEarlyRoyBattyStatus = 0;
+(function(){
+var taSecureToken = "AAABUnzw7KQY1MM78YruQyNkHE9SDOsVf1QdoQ==";
+var cookieDomain = ".tripadvisor.be";
+try {
+if (taSecureToken && navigator.userAgent.indexOf('MSIE 10.0')<0) {
+var val = taSecureToken+",1";
+val = encodeURIComponent(val);
+if (cookieDomain) {
+val += "; domain=" + cookieDomain;
+}
+document.cookie = "roybatty="+val+"; path=/";
+var url="/CookiePingback?early=true";
+var xhr = null;
+try {
+xhr = new XMLHttpRequest();
+} catch (e1) {
+try {
+xhr = new ActiveXObject('MSXML2.XMLHTTP');
+} catch (e2) {
+try {
+xhr = new ActiveXObject('Microsoft.XMLHTTP');
+} catch (e3) {
+}
+}
+}
+if (xhr != null) {
+var seth = function(name, val) {
+try {xhr.setRequestHeader(name, val)}
+catch(e){}
+};
+xhr.open("POST", url, true);
+seth('Content-type', 'application/x-www-form-urlencoded; charset=utf-8');
+seth('X-Requested-With', 'XMLHttpRequest');
+seth('Accept', 'text/javascript, text/html, application/xml, text/xml, */*');
+xhr.send('');
+taEarlyRoyBattyStatus = 2;
+}
+}
+} catch(err) {
+}
+})();
+</script>
+<script type="application/ld+json">
+{ "@context" : "http://schema.org",
+"@type" : "Organization",
+"name" : "TripAdvisor",
+"url" : "https://www.tripadvisor.be/",
+"logo" : "https://static.tacdn.com/img2/langs/nl_BE/branding/trip_logo_footer@2x.png",
+"sameAs" : [ "http://www.facebook.com/TripAdvisor",
+"http://www.twitter.com/tripadvisor",
+"http://plus.google.com/+TripAdvisor",
+"https://instagram.com/TripAdvisor/",
+"https://www.linkedin.com/company/tripadvisor"]
+}
+</script>
+<link rel='stylesheet' type='text/css' media='screen, print' href='https://static.tacdn.com/css2/home_2011_meta-nl_BE-v23463707491b.css'/>
+<style type="text/css"><!--
+DIV.ppr_rup.ppr_priv_ibex_nav_recent_searches_control .content {
+display: none;
+}
+--></style>
+<style type="text/css">
+body{}
+@media all and (min-width: 983px) {
+#GUTTER_CONTAINER{ overflow-x: hidden; }
+}
+#COOKIE_BANNER { display: none; width: 100%; background-color: #FFFFFF; }
+#COOKIE_BANNER .inner { width: 963px; margin: 0 auto; padding: 3px 0; color: #393C36; background-color: #E6F2DA; font-size: 0.75em; text-align: center; }
+#COOKIE_BANNER.refresh { margin: 0 auto; width: 963px }
+#COOKIE_BANNER.refresh .inner { background: #FFFFE4; color: #656565; padding: 6px; font-size: .8135em }
+@media screen and (max-width: 962px) {
+#COOKIE_BANNER.refresh, #COOKIE_BANNER .inner { width:auto; }
+}
+.flat_buttons.sitewide .overlay .offer.premium { height:57px; line-height:54px;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock { right:-1px;}
+.flat_buttons.sitewide .overlay .crBtn { margin-top:8px;}
+.flat_buttons.sitewide .overlay .offer.premium,
+.flat_buttons #BODYCON .offer.premium { box-shadow:1px 1px 0 0 rgba(0,0,0,.15); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock,
+.flat_buttons #BODYCON .offer.premium .priceBlock { border-color:#fc0 #e4a000 #e4a000 #fc0; background:none; background-color:#fc0; filter:none;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock:not(.lte_ie8):after,
+.flat_buttons #BODYCON .offer.premium .priceBlock:not(.lte_ie8):after { border-color:#000; position:absolute; top:50%; right:13px; width:7px; height:7px; margin-top:-4px; border-width:0 2px 2px 0; border-style:solid; content:""; -ms-transform:rotate(-45deg); -sand-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.flat_buttons.sitewide .overlay .offer.premium:hover .priceBlock,
+.flat_buttons #BODYCON .offer.premium:hover .priceBlock { border-color:#ffb300 #e4a000 #e4a000 #ffb300; background-color:#ffb300;}
+.flat_buttons.sitewide .overlay .offer.premium:active .priceBlock,
+.flat_buttons #BODYCON .offer.premium:active .priceBlock { background-color:#f5ac00; border-color:#f5ac00;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock,
+.flat_buttons #BODYCON .offer.premium .priceBlock,
+.flat_buttons.sitewide .overlay .offer.premium .viewDealText,
+.flat_buttons #BODYCON .offer.premium .viewDealText { text-shadow:none;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock .checkSite,
+.flat_buttons #BODYCON .offer.premium .priceBlock .checkSite { font-size:16px;}
+.flat_buttons.sitewide .overlay .offer.premium img.chevron,
+.flat_buttons #BODYCON .offer.premium img.chevron { display:none;}
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState .partnerImg,
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState .priceAndNights { border-color:#ffb300 #e4a000 #e4a000 #ffb300;}
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState:active .partnerImg,
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState:active .priceAndNights { border-color:#f5ac00;}
+.rtl.flat_buttons.sitewide .overlay .offer.premium,
+.rtl.flat_buttons #BODYCON .offer.premium { box-shadow:-1px 1px 0 0 rgba(0,0,0,.15);}
+.rtl.flat_buttons.sitewide .overlay .offer.premium .priceBlock,
+.rtl.flat_buttons #BODYCON .offer.premium .priceBlock { border-radius:3px 0 0 3px; border-color:#fc0 #fc0 #e4a000 #e4a000;}
+.rtl.flat_buttons.sitewide .overlay .offer.premium .priceBlock:not(.lte_ie8):after,
+.rtl.flat_buttons #BODYCON .offer.premium .priceBlock:not(.lte_ie8):after { position:absolute; top:50%; right:auto; left:13px; margin-top:-4px; border-width:0 0 2px 2px; border-style:solid; content:""; -ms-transform:rotate(45deg); -sand-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg);}
+.flat_buttons.sitewide #HSCS .crOverlayButton { width:auto; float:left;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal img.chevron { display:none;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron { padding:11px 15px; border-color:#fc0 #e4a000 #e4a000 #fc0; border-radius:0 3px 3px 0; background:none; background-color:#fc0; background-clip:padding-box; color:#000; filter:none;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal:hover .viewDealChevron { text-decoration:none; border-color:#ffb300 #e4a000 #e4a000 #ffb300; background-color:#ffb300;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal:active .viewDealChevron { background-color:#f5ac00; border-color:#f5ac00; box-shadow:none;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron:not(.lte_ie8) { padding-right:36px;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron:not(.lte_ie8):after { position:absolute; top:50%; right:13px; width:6px; height:6px; margin-top:-4px; border-width:0 2px 2px 0; border-style:solid; content:""; -ms-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.rtl .flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron:not(.lte_ie8):after { -ms-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg);}
+.flat_buttons.sitewide #meta_on_photo_viewer .hacForm .original { width:155px; margin:6px 10px 12px;}
+.flat_buttons.sitewide .nfoBbl .crOverlayButton { width:auto;}
+.flat_buttons.sitewide .ShowUserReviews #HR_HACKATHON_CONTENT .offer.premium .priceBlock { right:-1px; height:57px; background-image:none; border-color:#fc0 #e4a000 #e4a000 #fc0; background-color:#fc0; line-height:inherit;}
+.flat_buttons.sitewide .ShowUserReviews #HR_HACKATHON_CONTENT .offer.premium:hover .priceBlock { border-color:#ffb300 #e4a000 #e4a000 #ffb300; background-color:#ffb300;}
+.flat_buttons.sitewide .ShowUserReviews #HR_HACKATHON_CONTENT .offer.premium:active .priceBlock { background-color:#f5ac00; border-color:#f5ac00;}
+.flat_buttons.sitewide .photos_lb_update #HR_HACKATHON_CONTENT .offer.premium .priceBlock { background-image:none; font-weight:bold;}
+.flat_buttons.sitewide .inter_module .im_hotel { height:166px;}
+</style>
+<link rel="stylesheet" type="text/css" media="screen, print" href="https://static.tacdn.com/css2/registration-v22849831835b.css"/>
+</head>
+<body class="ltr domn_nl_BE lang_nl globalNav2011_reset css_commerce_buttons flat_buttons sitewide xo_pin_user_review_to_top track_back" data-scroll='OVERVIEW' data-navArea-metaType="QC_Meta_Mini" data-navArea-placement="Unknown">
+<div id="fb-root"></div>
+<div id="iframediv"></div>
+<div id="PAGE" class=" non_hotels_like desktop scopedSearch">
+<div class="cartFocus hidden">
+<img src="https://static.tacdn.com/img2/branding/white-drawn-ollie.png" class="whiteOllie" alt="white ollie">
+<div class="title">
+Nog niet klaar om te boeken?
+</div>
+<div class="description">
+No rush. We've <span class="numHotels">saved this trip in your cart
+</span> so you can come back any time, compare prices, and complete your booking.
+</div>
+<img src="https://static.tacdn.com/img2/generic/white-drawn-close.png" class="closeBtn" alt="close button">
+</div>
+<img src="https://static.tacdn.com/img2/arrows/white-drawn-arrow-right.png" class="cartFocusUpArrow hidden" alt="up arrow">
+<div class="focusMask hidden"></div>
+<div id="HEAD" class="">
+<div class="masthead  masthead_notification_enabled  ">
+<div class="container">
+<div class="brandArea">
+<span class="topLogo">
+<a class="logoWrap" onClick="setPID(5045);ta.setEvtCookie('TopNav', 'click', 'TAlogo', 0, this.href);" href="/"><img class="svg-taLogo" src="https://static.tacdn.com/img2/langs/nl_BE/branding/trip_logo.svg" width="197" height="35" alt="Beoordelingen van hotels, vluchten en vakantiehuizen"/></a>
+</span>
+<h1 class="header   ">Lees beoordelingen, vergelijk prijzen en boek je beste reis</h1>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="options">
+<li class="masthead_notification">
+</li>
+<li id="register" onclick="ta.setEvtCookie('TopNav', 'open', 'Join', 0, '/Register');ta.util.cookie.setPIDCookie(427);ta.store('registration.ga_module', 'Masthead');  return ta.registration.register({product: 'MASTHEAD', action: 'SIGNUP', data: function () { return { pid: 427 }; } } ); "><span class="link no_cpu">INSCHRIJVEN</span></li>
+<li class="login" onclick="ta.setEvtCookie('TopNav', 'open', 'Login', 0, '/Register');ta.util.cookie.setPIDCookie(429);ta.store('registration.ga_module', 'Masthead'); return ta.registration.register({product: 'MASTHEAD', data: function () { return { pid: 429 }; } } ); "><span class="link no_cpu">INLOGGEN</span></li>
+<li id="CURRENCYPOP" class="optitem link" onclick="ta.call('ta.overlays.Factory.currencyPickerPopup', event, this, '')">
+<span class="link">
+R$
+<img src="https://static.tacdn.com/img2/x.gif" class="arrow_dropdown_gry sprite-arrow_dropdown_gry_refresh" alt="" width="9" height="7">
+</span>
+</span>
+</li>
+<li id="INTLPOP" class=" no_cpu " onclick="ta.call('ta.overlays.Factory.intlPopup', event, this)">
+<span class="link">
+<img class="flag" src="https://static.tacdn.com/img2/langs/nl_BE/flags/flag.gif" alt="Internationale sites" title="Internationale sites" width="16" height="11">
+<img src="https://static.tacdn.com/img2/x.gif" class="arrow_dropdown_gry sprite-arrow_dropdown_gry_refresh" alt="" width="9" height="7">
+</span>
+</li>
+<li class="optItem last" id="RECENT_SEARCHES">
+<!--trkP:ibex_nav_recent_searches_control-->
+<!-- PLACEMENT ibex_nav_recent_searches_control -->
+<DIV ID="taplc_ibex_nav_recent_searches_control_0" class="ppr_rup ppr_priv_ibex_nav_recent_searches_control">
+<script type="text/javascript">window.addEventListener('load', function(event) {ta.plc_ibex_nav_recent_searches_control_0_handlers.fireTracking(false,false,false,true);});</script></DIV>
+<!--etk-->
+</li>
+</ul>
+</div>
+</div>
+<div class="tabsBar">
+<ul class="tabs" onclick="">
+<li class="tabItem dropDownJS jsNavMenu  hvrIE6"><span class="tabLink arwLink"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Hotels', 0, this.href)" href="/Hotels" class="arrow_text  pid2972">
+Hotels
+</a><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht_refresh" src="https://static.tacdn.com/img2/x.gif" alt="" width="9" height="7"></span>
+<div class='subNav hotelsDD'>
+<div class="allHotels"><a href="/Hotels" alt="In alle hotels zoeken">In alle hotels zoeken</a></div> </div>
+</li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Restaurants', 0, this.href)" href="/Restaurants" class="tabLink  pid2973">
+Restaurants
+</a>
+</li>
+<li id="FRIENDSTAB" class="tabItem tooltip hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'YourFriends', 0, this.href);ta.call('ta.common.header.adjustFriendsLink', event, this);" href="/Friends-rnauth" class="tabLink tooltip pid18784">
+Vrienden <span id="FBL" class="sprite-facebook15x15"></span>
+</a>
+<div class='overlayContents'><div class='inner2'><div class='help'><div class='hdr'>Reizen is leuker met vrienden.</div><div class='ttbody'>Laat je inspireren door je vrienden en deel je reisplannen. <a href='/Friends-rnauth' onclick="return ta.call('ta.common.header.adjustFriendsLink', event, this);">Meer informatie</a></div></div></div></div>
+</li>
+<li class="tabItem dropDown jsNavMenu hvrIE6 ">
+<span class="tabLink arwLink"><span class="arrow_text">Meer</span><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht_refresh" src="https://static.tacdn.com/img2/x.gif" alt="" width="9" height="7"></span>
+<ul class="subNav">
+<li class="subItem ">
+<a href="/apps" onclick="ta.setEvtCookie('TopNav', 'click', 'Apps', 0, this.href)" class="subLink pid18876">Apps
+</a>
+</li>
+<li class="subItem ">
+<a href="/GreenLeaders" onclick="ta.setEvtCookie('TopNav', 'click', 'GreenLeaders', 0, this.href)" class="subLink pid34563">Eco-leaders
+</a>
+</li>
+<li class="subItem ">
+<a href="#" onclick="ta.call('ta.overlays.Factory.helpCenterLB', event)" class="subLink ">Hulpcentrum
+</a>
+</li>
+</ul>
+</li>
+<li class="tabItem altItem dropDown warLink">
+<a class="tabLink arwLink" onclick="ta.setEvtCookie('WarGlobalNav', 'ClickLink', '', '0', '/UserReviewRedesign');" href="/UserReview-ehttp%3A__2F____2F__www__2E__tripadvisor__2E__be__2F__">
+<span class="arrow_text">
+Schrijf een beoordeling <div id="WAR_NOTIFICATION_FLAG" class="lsJewelCounter">
+1+
+</div>
+</span>
+<img class="arrow_dropdown_wht sprite-arrow_dropdown_wht_refresh" src="https://static.tacdn.com/img2/x.gif" alt="" width="9" height="7">
+</a>
+<div class="subNav">
+<div id="WAR_TO_DO_LIST">
+<div id="WAR_ANOTHER_POI" class="warAnotherPOI">
+<div class="warLoc subItem" onclick="ta.setEvtCookie('WAR', 'WAR_PROJECT_GLOBAL_NAV_DROP_DOWN', 'PICK_ANOTHER_POI', '39392', '/UserReviewRedesign');ta.util.cookie.setPIDCookie(39392);location.href='/UserReview-ehttp%3A__2F____2F__www__2E__tripadvisor__2E__be__2F__'">
+<div class="warLocImg">
+<div class="nophoto thumbNail">
+<img id='lazyload_-794829046_0' class='lodge' src='https://static.tacdn.com/img2/x.gif'/>
+</div>
+</div>
+<div class="warLocDetail">
+<span>
+Beoordeel een plek die je hebt bezocht </span>
+</div>
+</div>
+</div>
+<div id="WAR_TODO_LOADING">
+<img src="https://static.tacdn.com/img2/spinner.gif"/>
+</div>
+</div>
+</div>
+</li>
+</ul> </div>
+</div> </div>
+<div id="SECONDARY_NAV_BAR" class="secondaryNavBar scopedSearch">
+<div class="crumbs dark">
+<div class="globalSearch"> <div class="navSrch  no_cpu ">
+<form method="get" action="/Search" onsubmit="
+                                    return ta.call('ta.common.dualsearch.scopedSearchSubmitValidate', event, this, '')" id="global_nav_search_form">
+<div id="GEO_SCOPE_CONTAINER" class="geoScopeContainer ">
+<label id="GEO_SCOPED_SEARCH_LABEL" class="text geoScopeLabel" for="GEO_SCOPED_SEARCH_INPUT"></label>
+<input id="GEO_SCOPED_SEARCH_INPUT" type="text" class="text searchInputWide geoScopeInput focusClear" onfocus="
+                    var scopedSearch = get_scoped_typeahead(event, this);
+                    if(scopedSearch){
+                      scopedSearch.stopStaticSearch();
+                      scopedSearch.startGeoSearch(false);
+                    }" placeholder="Waar ga je heen?"/>
+</div>
+<span id="MAIN_SEARCH_CONTAINER" class="mainSearchContainer ">
+<label id="STATIC_SEARCH_LABEL" class="text staticSearchLabel" for="mainSearch"></label>
+<input id="mainSearch" type="text" name="q" class="text searchInputWide  focusClear" autocomplete="off" onBlur="if(this.value.trim() == ''){
+                            this.addClass('focusClear');
+                         }" onfocus="if (ta && ta.common) {
+             ta.removeClass(this, 'focusClear');
+                                         ta.trackEventOnPage('TopNav_search', 'focus', '');
+                 var scopedSearch = get_scoped_typeahead(event, this);
+                 if(scopedSearch){
+                  scopedSearch.stopGeoSearch();
+                  scopedSearch.startStaticSearch(false);
+                  var geoInfo = scopedSearch.geoInfo;
+                  if (geoInfo && geoInfo.categories && geoInfo.categories['TRAVEL_GUIDE']) {
+                     ta.trackEventOnPage('TravelGuides_SearchBar', 'impression', geoInfo.geoID, 0, true);
+                  }
+                 }
+
+                                  }" onkeydown="if (ta && (event.keyCode || event.which) === 13){ta.setEvtCookie('TopNav_Search', 'Action', 'Hit_Enter_toSRP', 0, '/Search');}" placeholder="Waar ben je naar op zoek?"/>
+</span>
+<button id="SEARCH_BUTTON" class="search_button " type="submit" onclick=" if (event.clientY) { ta.id('global_nav_search_form').elements['pid'].value=3825; }" name="sub-search">
+<div class="inner ">Zoeken</div>
+</button>
+<input id="TYPEAHEAD_GEO_ID" type="hidden" name="geo" value="">
+<input type="hidden" name="pid" value="3826">
+<input id="TYPEAHEAD_REDIRECT" type="hidden" name="typeaheadRedirect" value="">
+<input id="TOURISM_REDIRECT" type="hidden" name="redirect" value="">
+<input id="MASTAHEAD_TYPEAHEAD_START_TIME" type="hidden" name="startTime" value="">
+<input id="MASTAHEAD_TYPEAHEAD_UI_ORIGIN" type="hidden" name="uiOrigin" value="">
+<input type="hidden" name="returnTo" value="http%3A__2F____2F__www__2E__tripadvisor__2E__be__2F__">
+</form>
+</div>
+</div>
+</div> <div class="easyClear"></div>
+</div>
+<div class="homePageHeaderBox">
+<div class="headerScrollLimiter">
+<div id="mainImageHeader" class="heroImageWidth heroImageHeight" onclick="ta.pages.home.trackHeroPhoto(event)">
+<div id="PPT" class="ppt_container ">
+<div class="ppt_innerContent">
+<div class="ppt_meta_wrapper">
+<div class="ppt_meta">
+<h1 class="ppt_header ppt_header_best_trip" id="ppt_header">Lees beoordelingen, vergelijk prijzen en boek je beste reis</h1>
+<div class="ppt_forms">
+<div class="ppt_radio_ui">
+<span id="rdoHotels" class="ppt_input checked" tabindex="1" onclick="ta.trackEventOnPage('Meta_Homepage', 'Radio', 'Hotels', 0, false); loadPtptForm(this);sectionUI(this, 'rdoHotels');">
+<img class="radio_ui" src="https://static.tacdn.com/img2/x.gif" alt="">
+<span class="label">Hotels</span> </span>
+<span id="rdoRestaurants" class="ppt_input" tabindex="16" onclick="ta.trackEventOnPage('Meta_Homepage', 'Radio', 'Restaurants', 0, false); loadPtptForm(this);sectionUI(this, 'rdoRestaurants');">
+<img class="radio_ui" src="https://static.tacdn.com/img2/x.gif" alt="">
+<span class="label">Restaurants</span> </span>
+<span id="rdoDestinations" class="ppt_input" tabindex="19" onclick="ta.trackEventOnPage('Meta_Homepage', 'Radio', 'Destinations', 0, false); loadPtptForm(this);sectionUI(this, 'rdoDestinations');">
+<img class="radio_ui" src="https://static.tacdn.com/img2/x.gif" alt="">
+<span class="label">Bestemmingen</span> </span>
+</div>
+<div class="ppt_sections">
+<div id="ptptHotels" class="ptptContent active loaded">
+<form id="PTPT_HAC_FORM" class="wrap" name="PTPT_HAC_FORM" method="GET" action="/Search" onsubmit="return ta.call('ta.pages.home.validate', event, this);">
+<div class="fl metaFormWrapper">
+<label class="ptptLabelWrap">
+<div class="ptptLabel">
+</div>
+<input id="searchbox" type="text" name="q" class="big_text sHotels fl focusInput focusClear no_cpu typeahead beforeOnLoad" tabindex="2" autocomplete="off" onfocus="ta.trackEventOnPage('PYPT_search', 'hotel', 'focus', 0, false);" value="Stad of hotelnaam">
+</label>
+<div class="line2wrap">
+<div class="meta_date_wrapper withoutLabels    ">
+<span class="meta_date_field    first">
+<span class=" date_picker_calendar_wrap dual_date no_cpu focusInput classicText  classicStyling " tabindex="3" onfocus="ta.call('ta.overlays.Factory.loadDatePicker', event, this, '1', false,             ta.widgets.calendar.justUpdateSessionDates
+ );" onclick="ta.call('ta.overlays.Factory.loadDatePicker', event, this, '1', false,             ta.widgets.calendar.justUpdateSessionDates
+ );" data-in="true">
+<span id="date_picker_in_1" class="date_picker date                      sprite-calendar-ylw dpv5 no_cpu id_ ">
+dd/mm/jjjj
+</span>
+</span>
+</span>
+<span class="meta_date_field   ">
+<span class="date_picker_calendar_wrap dual_date no_cpu focusInput classicText  classicStyling out_date" tabindex="3" onfocus="ta.store('ta.calendar.isOutDateTrigger', true); ta.call('ta.overlays.Factory.loadDatePicker', event, this, '1', false,             ta.widgets.calendar.justUpdateSessionDates
+ );" onclick="ta.store('ta.calendar.isOutDateTrigger', true); ta.call('ta.overlays.Factory.loadDatePicker', event, this, '1', false,             ta.widgets.calendar.justUpdateSessionDates
+ );">
+<span id="date_picker_out_1" class="date_picker out_date date                      sprite-calendar-ylw no_cpu id_ ">
+dd/mm/jjjj
+</span>
+</span>
+</span>
+</div>
+</div>
+</div>
+<button type="submit" id="SUBMIT_HOTEL" class="submit sprite-submit_hotels fr" onclick="ta.trackEventOnPage('Meta_Homepage', 'Submit', 'Hotels', 0, false);" onmousedown="ta.store('ta.pages.home.find.clicked', true);" alt="Hotels zoeken">
+</button>
+</form>
+</div>
+<div id="ptptRestaurants" class="ptptContent"></div>
+<div id="ptptDestinations" class="ptptContent"></div>
+</div> </div> </div> </div>
+<style>
+.homePageHeaderBox .heroImageWidth {
+width:1482px;
+position:relative;
+/* This kind of margin doesn't handle all resize conditions: margin:0 auto; */
+}
+.ltr .homePageHeaderBox .heroImageWidth {
+left:50%;
+margin-left:-741px;
+}
+.rtl .homePageHeaderBox .heroImageWidth {
+right:50%;
+margin-right:-741px;
+}
+.homePageHeaderBox .heroImageHeight {
+height:500px;
+}
+.homePageHeaderBox .ppt_innerContent {
+height:500px;
+}
+.homePageHeaderBox .headerScrollLimiter {
+max-width:1482px;
+}
+.homePageHeaderBox .promo_featured_image {
+height:500px;
+width:1482px;
+background:url(https://static.tacdn.com/img2/homepage_hero_borabora_dark.jpg);
+}
+.homePageHeaderBox .headerQuote {
+position:absolute;
+top:42px;
+left:232px;
+cursor: pointer;
+}
+.homePageHeaderBox .headerQuote:hover .quoteLoc {
+text-decoration: underline;
+}
+.homePageHeaderBox .headerQuoteTitle {
+color: #191919;
+}
+.homePageHeaderBox .headerQuoteText {
+color:#191919;
+}
+.homePageHeaderBox .headerQuoteAvatar {
+background:url(https://static.tacdn.com/img2/home/homepage_borabora_aug2015_avatar2.jpg) no-repeat;
+}
+.homePageHeaderBox .headerCarousel .carouselItem {
+width:0px;
+height:138px;
+}
+.homePageHeaderBox .headerCarouselPlaceholder {
+height:138px;
+}
+.homePageHeaderBox .headerCarouselPlaceholder,
+.homePageHeaderBox .navArrowBox {
+display:none;
+}
+</style>
+<a id="HEADER_QUOTE_URL" class="headerQuote" href="/Tourism-g311415-Bora_Bora_Society_Islands-Vacations.html" onclick=" ta.pages.home.trackFeaturedQuote(event);">
+<div class="circularAvWrap">
+<img id="HEADER_QUOTE_AVATAR" class="headerQuoteAvatar circularAvatar" src="https://static.tacdn.com/img2/x.gif" width="64" height="64">
+</div>
+<div class="headerQuoteContent">
+<div ID="HEADER_QUOTE_TITLE" class="headerQuoteTitle">&ldquo;Een stukje paradijs in het paradijs!&rdquo;</div>
+<div class="headerQuoteRating wrap">
+<img class="hardCoded5Bubble fl" src="https://static.tacdn.com/img2/x.gif" alt="-1">
+<div id="HEADER_QUOTE_USER" class="headerQuoteText headerBubbleText fl">Beoordeling door Leng L</div>
+</div>
+<div id="HEADER_QUOTE_LOC" class="headerQuoteText">
+Alle 16.057 beoordelingen van <span class='quoteLoc'>Bora Bora</span> bekijken &nbsp&rsaquo;
+</div>
+</div>
+</a>
+<script>
+(function() {
+var head = document.getElementById("ppt_header");
+if (head) {
+head.innerHTML = "Boek iedere keer de beste reis.";
+}
+})()
+</script>
+</div>
+<div class="promo">
+<img class="promo_featured_image" src="https://static.tacdn.com/img2/x.gif" alt=""/>
+</div>
+</div>
+</div>
+<div id="headerCarousel" class="heroImageWidth headerCarousel">
+<div class="headerCarouselPlaceholder"></div>
+</div>
+<div class="navArrowBox leftArrow">
+<div class="navArrowBg"></div>
+<div class="navArrow"></div>
+</div>
+<div class="navArrowBox rightArrow">
+<div class="navArrowBg"></div>
+<div class="navArrow"></div>
+</div>
+</div>
+</div>
+<div id="HOMEPAGE">
+<div class="gridA">
+<div class="gradient_gry">&nbsp;</div>
+<div class="sidebar">
+<div class="ad iab_medRecStrict">
+<div id="gpt-ad-300x250" class="adInner gptAd"></div>
+</div>
+<div class="ad iab_medRecStrict">
+<div id="gpt-ad-300x250-bottom" class="adInner gptAd"></div>
+</div>
+<div id="CMSPOLLBOX" class="bx cmsPoll">
+</div>
+</div><!--/ sidebar-->
+<div class="balance">
+<div id="MEM_DASH"></div>
+<div id="GEO_MODULE_CONTAINER"></div>
+<div class="boxhp quickLinks">
+<div class="header">Snelle links</div>
+<div class="col">
+<ul>
+<li class="section"><b>Laat je horen</b> <ul>
+<li class="sprite-middot"><a href="https://www.tripadvisorsupport.com/hc/nl">Geef je commentaar of rapporteer een probleem</a></li> </ul>
+</li>
+<li class="section"><b>Voor eigenaren</b> <ul>
+<li class="sprite-middot">
+Bedrijfsvermeldingen voor <a href="/BusinessListings">hotelmarketing</a>
+</li>
+<li class="sprite-middot"><a href="/Owners">Bezoek uw Management Center</a></li> </ul>
+</li>
+<li class="section"><b>Ons beleid voor contentintegriteit</b> <ul>
+<li class="sprite-middot"><a href="/pages/content_integrity_policy.html">Ontdek hoe we inhoud actueel en bruikbaar houden</a></li> </ul>
+</li>
+</ul>
+</div><!--/ col-->
+</div><!--/ boxhp.quickLinks-->
+<div class="boxhp popDest popDestFirst">
+<div class="header"><strong>Hotels in populaire bestemmingen:</strong></div>
+<div class="paragraph">Of je nu de voorkeur geeft aan grote hotelketens of knusse boetiekhotels, bij TripAdvisor vind je er beoordelingen van. Miljoenen gebruikers hebben hun beoordelingen van hotels, bed & breakfasts, pensions en meer gedeeld. Voeg je reisbeoordelingen toe en help reizigers over de hele wereld bij het plannen en boeken van hun perfecte reis.</div>
+<div class="featured wrap">
+<div class="tagline"><span class="header">België</span> Verblijf in de beste hotels in België</div>
+<ul class="first">
+<li class="sprite-middot"><a href="/Hotels-g188636-Antwerp_Antwerp_Province-Hotels.html">Hotels Antwerpen</a></li> <li class="sprite-middot"><a href="/Hotels-g230016-Blankenberge_West_Flanders_Province-Hotels.html">Hotels Blankenberge</a></li> <li class="sprite-middot"><a href="/Hotels-g188671-Bruges_West_Flanders_Province-Hotels.html">Hotels Brugge</a></li> <li class="sprite-middot"><a href="/Hotels-g188644-Brussels-Hotels.html">Hotels Brussel</a></li> <li class="sprite-middot"><a href="/Hotels-g188646-Charleroi_Hainaut_Province_Wallonia-Hotels.html">Hotels Charleroi</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g188662-Dinant_The_Ardennes_Wallonia-Hotels.html">Hotels Dinant</a></li> <li class="sprite-middot"><a href="/Hotels-g580121-Durbuy_Luxembourg_Province_The_Ardennes_Wallonia-Hotels.html">Hotels Durbuy</a></li> <li class="sprite-middot"><a href="/Hotels-g188666-Ghent_East_Flanders_Province-Hotels.html">Hotels Gent</a></li> <li class="sprite-middot"><a href="/Hotels-g188675-Ieper_Ypres_West_Flanders_Province-Hotels.html">Hotels Ieper (Ypres)</a></li> <li class="sprite-middot"><a href="/Hotels-g1136493-Ixelles_Brussels-Hotels.html">Hotels Ixelles</a></li> </ul>
+<ul>
+<li class="sprite-middot"><a href="/Hotels-g188673-Kortrijk_West_Flanders_Province-Hotels.html">Hotels Kortrijk</a></li> <li class="sprite-middot"><a href="/Hotels-g188669-Leuven_Flemish_Brabant_Province-Hotels.html">Hotels Leuven</a></li> <li class="sprite-middot"><a href="/Hotels-g188655-Liege_Liege_Province_The_Ardennes_Wallonia-Hotels.html">Hotels Luik</a></li> <li class="sprite-middot"><a href="/Hotels-g188637-Mechelen_Antwerp_Province-Hotels.html">Hotels Mechelen</a></li> <li class="sprite-middot"><a href="/Hotels-g188647-Mons_Hainaut_Province_Wallonia-Hotels.html">Hotels Mons</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g188663-Namur_The_Ardennes_Wallonia-Hotels.html">Hotels Namen</a></li> <li class="sprite-middot"><a href="/Hotels-g188672-Ostend_West_Flanders_Province-Hotels.html">Hotels Oostende</a></li> <li class="sprite-middot"><a href="/Hotels-g230026-Spa_Liege_Province_The_Ardennes_Wallonia-Hotels.html">Hotels Spa</a></li> </ul>
+</div><!--/ featured-->
+<div class="featured wrap">
+<div class="tagline"><span class="header">Buurlanden</span> Vind accommodatie dicht bij huis</div>
+<ul class="first">
+<li class="sprite-middot"><a href="/Hotels-g188590-Amsterdam_North_Holland_Province-Hotels.html">Hotels Amsterdam</a></li> <li class="sprite-middot"><a href="/Hotels-g187323-Berlin-Hotels.html">Hotels Berlijn</a></li> <li class="sprite-middot"><a href="/Hotels-g187373-Dusseldorf_North_Rhine_Westphalia-Hotels.html">Hotels Düsseldorf</a></li> <li class="sprite-middot"><a href="/Hotels-g187189-Honfleur_Calvados_Basse_Normandie_Normandy-Hotels.html">Hotels Honfleur</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g187371-Cologne_North_Rhine_Westphalia-Hotels.html">Hotels Keulen</a></li> <li class="sprite-middot"><a href="/Hotels-g227608-Le_Touquet_Paris_Plage_Pas_de_Calais_Nord_Pas_de_Calais-Hotels.html">Hotels Le Touquet – Paris-Plage</a></li> <li class="sprite-middot"><a href="/Hotels-g190356-Luxembourg_City-Hotels.html">Hotels Luxemburg Stad</a></li> <li class="sprite-middot"><a href="/Hotels-g187265-Lyon_Rhone_Rhone_Alpes-Hotels.html">Hotels Lyon</a></li> </ul>
+<ul>
+<li class="sprite-middot"><a href="/Hotels-g188575-Maastricht_Limburg_Province-Hotels.html">Hotels Maastricht</a></li> <li class="sprite-middot"><a href="/Hotels-g187253-Marseille_Bouches_du_Rhone_Provence-Hotels.html">Hotels Marseille</a></li> <li class="sprite-middot"><a href="/Hotels-g187234-Nice_French_Riviera_Cote_d_Azur_Provence-Hotels.html">Hotels Nice</a></li> <li class="sprite-middot"><a href="/Hotels-g187147-Paris_Ile_de_France-Hotels.html">Hotels Parijs</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g187137-Reims_Marne_Champagne_Ardenne-Hotels.html">Hotels Reims</a></li> <li class="sprite-middot"><a href="/Hotels-g187178-Lille_Nord_Nord_Pas_de_Calais-Hotels.html">Hotels Rijsel</a></li> <li class="sprite-middot"><a href="/Hotels-g188632-Rotterdam_South_Holland_Province-Hotels.html">Hotels Rotterdam</a></li> <li class="sprite-middot"><a href="/Hotels-g187075-Strasbourg_Bas_Rhin_Alsace-Hotels.html">Hotels Straatsburg</a></li> </ul>
+</div><!--/ featured-->
+<div class="featured wrap">
+<div class="tagline"><span class="header">Steden in Europa</span> Ontdek enkele van de mooiste steden van Europa</div>
+<ul class="first">
+<li class="sprite-middot"><a href="/Hotels-g189400-Athens_Attica-Hotels.html">Hotels Athene</a></li> <li class="sprite-middot"><a href="/Hotels-g187497-Barcelona_Catalonia-Hotels.html">Hotels Barcelona</a></li> <li class="sprite-middot"><a href="/Hotels-g274887-Budapest_Central_Hungary-Hotels.html">Hotels Boedapest</a></li> <li class="sprite-middot"><a href="/Hotels-g186605-Dublin_County_Dublin-Hotels.html">Hotels Dublin</a></li> <li class="sprite-middot"><a href="/Hotels-g187895-Florence_Tuscany-Hotels.html">Hotels Florence</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g293974-Istanbul-Hotels.html">Hotels Istanbul</a></li> <li class="sprite-middot"><a href="/Hotels-g189541-Copenhagen_Zealand-Hotels.html">Hotels Kopenhagen</a></li> <li class="sprite-middot"><a href="/Hotels-g274772-Krakow_Lesser_Poland_Province_Southern_Poland-Hotels.html">Hotels Krakau</a></li> <li class="sprite-middot"><a href="/Hotels-g189158-Lisbon_Lisbon_District_Central_Portugal-Hotels.html">Hotels Lissabon</a></li> <li class="sprite-middot"><a href="/Hotels-g186338-London_England-Hotels.html">Hotels Londen</a></li> </ul>
+<ul>
+<li class="sprite-middot"><a href="/Hotels-g187514-Madrid-Hotels.html">Hotels Madrid</a></li> <li class="sprite-middot"><a href="/Hotels-g187849-Milan_Lombardy-Hotels.html">Hotels Milaan</a></li> <li class="sprite-middot"><a href="/Hotels-g189180-Porto_Porto_District_Northern_Portugal-Hotels.html">Hotels Porto</a></li> <li class="sprite-middot"><a href="/Hotels-g274707-Prague_Bohemia-Hotels.html">Hotels Praag</a></li> <li class="sprite-middot"><a href="/Hotels-g187791-Rome_Lazio-Hotels.html">Hotels Rome</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g187443-Seville_Province_of_Seville_Andalucia-Hotels.html">Hotels Sevilla</a></li> <li class="sprite-middot"><a href="/Hotels-g189852-Stockholm-Hotels.html">Hotels Stockholm</a></li> <li class="sprite-middot"><a href="/Hotels-g187529-Valencia_Valencia_Province_Valencian_Country-Hotels.html">Hotels Valencia</a></li> <li class="sprite-middot"><a href="/Hotels-g187870-Venice_Veneto-Hotels.html">Hotels Venetië</a></li> <li class="sprite-middot"><a href="/Hotels-g190454-Vienna-Hotels.html">Hotels Wenen</a></li> </ul>
+</div><!--/ featured-->
+<div class="featured wrap">
+<div class="tagline"><span class="header">Zon in Europa</span> Geniet van de zon en de zee in deze vakantiebestemmingen</div>
+<ul class="first">
+<li class="sprite-middot"><a href="/Hotels-g189112-Albufeira_Faro_District_Algarve-Hotels.html">Hotels Albufeira</a></li> <li class="sprite-middot"><a href="/Hotels-g297962-Antalya_Turkish_Mediterranean_Coast-Hotels.html">Hotels Antalya</a></li> <li class="sprite-middot"><a href="/Hotels-g312725-Belek_Turkish_Mediterranean_Coast-Hotels.html">Hotels Belek</a></li> <li class="sprite-middot"><a href="/Hotels-g187525-Benidorm_Costa_Blanca_Alicante_Province_Valencian_Country-Hotels.html">Hotels Benidorm</a></li> <li class="sprite-middot"><a href="/Hotels-g503710-Hersonissos_Crete-Hotels.html">Hotels Chersonissos</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g662606-Costa_Adeje_Adeje_Tenerife_Canary_Islands-Hotels.html">Hotels Costa Adeje</a></li> <li class="sprite-middot"><a href="/Hotels-g295371-Dubrovnik_Dubrovnik_Neretva_County_Dalmatia-Hotels.html">Hotels Dubrovnik</a></li> <li class="sprite-middot"><a href="/Hotels-g189167-Funchal_Madeira_Madeira_Islands-Hotels.html">Hotels Funchal</a></li> <li class="sprite-middot"><a href="/Hotels-g297972-Kusadasi_Turkish_Aegean_Coast-Hotels.html">Hotels Kusadasi</a></li> <li class="sprite-middot"><a href="/Hotels-g494960-Lloret_de_Mar_Costa_Brava_Province_of_Girona_Catalonia-Hotels.html">Hotels Lloret de Mar</a></li> </ul>
+<ul>
+<li class="sprite-middot"><a href="/Hotels-g187438-Malaga_Costa_del_Sol_Province_of_Malaga_Andalucia-Hotels.html">Hotels Malaga</a></li> <li class="sprite-middot"><a href="/Hotels-g187439-Marbella_Costa_del_Sol_Province_of_Malaga_Andalucia-Hotels.html">Hotels Marbella</a></li> <li class="sprite-middot"><a href="/Hotels-g230095-Maspalomas_Gran_Canaria_Canary_Islands-Hotels.html">Hotels Maspalomas</a></li> <li class="sprite-middot"><a href="/Hotels-g187463-Palma_de_Mallorca_Majorca_Balearic_Islands-Hotels.html">Hotels Palma de Mallorca</a></li> <li class="sprite-middot"><a href="/Hotels-g652121-Playa_Blanca_Lanzarote_Canary_Islands-Hotels.html">Hotels Playa Blanca</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g562820-Playa_de_las_Americas_Tenerife_Canary_Islands-Hotels.html">Hotels Playa de las Americas</a></li> <li class="sprite-middot"><a href="/Hotels-g562819-Playa_del_Ingles_Gran_Canaria_Canary_Islands-Hotels.html">Hotels Playa del Ingles</a></li> <li class="sprite-middot"><a href="/Hotels-g297968-Side_Manavgat_Turkish_Mediterranean_Coast-Hotels.html">Hotels Side</a></li> <li class="sprite-middot"><a href="/Hotels-g187782-Sorrento_Province_of_Naples_Campania-Hotels.html">Hotels Sorrento</a></li> <li class="sprite-middot"><a href="/Hotels-g187440-Torremolinos_Costa_del_Sol_Province_of_Malaga_Andalucia-Hotels.html">Hotels Torremolinos</a></li> </ul>
+</div><!--/ featured-->
+<div class="featured wrap">
+<div class="tagline"><span class="header">Midden-Oosten en Azië</span> Ontdek de beste bestemmingen in het Midden-Oosten en Azië</div>
+<ul class="first">
+<li class="sprite-middot"><a href="/Hotels-g293731-Agadir_Souss_Massa_Draa_Region-Hotels.html">Hotels Agadir</a></li> <li class="sprite-middot"><a href="/Hotels-g293916-Bangkok-Hotels.html">Hotels Bangkok</a></li> <li class="sprite-middot"><a href="/Hotels-g293917-Chiang_Mai-Hotels.html">Hotels Chiang Mai</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g295424-Dubai_Emirate_of_Dubai-Hotels.html">Hotels Dubai</a></li> <li class="sprite-middot"><a href="/Hotels-g297943-Hammamet_Nabeul_Governorate-Hotels.html">Hotels Hammamet</a></li> <li class="sprite-middot"><a href="/Hotels-g297549-Hurghada_Red_Sea_and_Sinai-Hotels.html">Hotels Hurghada</a></li> </ul>
+<ul>
+<li class="sprite-middot"><a href="/Hotels-g293734-Marrakech_Marrakech_Tensift_El_Haouz_Region-Hotels.html">Hotels Marrakesh</a></li> <li class="sprite-middot"><a href="/Hotels-g311425-Marsa_Alam_Red_Sea_and_Sinai-Hotels.html">Hotels Marsa Alam</a></li> <li class="sprite-middot"><a href="/Hotels-g297948-Midoun_Djerba_Island_Medenine_Governorate-Hotels.html">Hotels Midoun</a></li> </ul>
+<ul class="evenCol">
+<li class="sprite-middot"><a href="/Hotels-g297930-Patong_Kathu_Phuket-Hotels.html">Hotels Patong</a></li> <li class="sprite-middot"><a href="/Hotels-g297555-Sharm_El_Sheikh_South_Sinai_Red_Sea_and_Sinai-Hotels.html">Hotels Sharm-el-Sheikh</a></li> <li class="sprite-middot"><a href="/Hotels-g297701-Ubud_Bali-Hotels.html">Hotels Ubud</a></li> </ul>
+</div><!--/ featured-->
+</div><!--/ boxhp.popDest-->
+<div class="boxhp popDest">
+<div class="header"><strong>Topbestemmingen:</strong></div>
+<div class="paragraph">Plan en boek je perfecte reis met TripAdvisor, de grootste reiswebsite ter wereld. Bekijk meer dan 200 miljoen beoordelingen, meningen en foto's van hotels, restaurants, attracties en meer. Je vindt er ook voordelige vliegtickets, gratis reisgidsen, advertenties voor vakantiewoningen over de hele wereld, populaire forums met advies over bijna elke bestemming, en meer. Niet gek dus, dat zoveel gebruikers bij het plannen van al hun reizen eerst een bezoek brengen aan TripAdvisor.</div>
+<div class="featured wrap">
+<div class="tagline"><span class="header">Populaire bestemmingen:</span> Beoordeeld door reizigers op TripAdvisor</div>
+<a href="/Tourism-g311415-Bora_Bora_Society_Islands-Vacations.html">Bora Bora</a> | <a href="/Tourism-g45963-Las_Vegas_Nevada-Vacations.html">Las Vegas</a> | <a href="/Tourism-g226865-Marne_la_Vallee_Seine_et_Marne_Ile_de_France-Vacations.html">Marne-la-Vallée</a> | <a href="/Tourism-g34439-Miami_Beach_Florida-Vacations.html">Miami Beach</a> | <a href="/Tourism-g60763-New_York_City_New_York-Vacations.html">New York</a> | <a href="/Tourism-g34515-Orlando_Florida-Vacations.html">Orlando</a> | <a href="/Tourism-g150812-Playa_del_Carmen_Yucatan_Peninsula-Vacations.html">Playa del Carmen</a> | <a href="/Tourism-g147293-Punta_Cana_La_Altagracia_Province_Dominican_Republic-Vacations.html">Punta Cana</a> | <a href="/Tourism-g635613-Rhodes_Town_Rhodes_Dodecanese_South_Aegean-Vacations.html">Rhodos</a> | <a href="/Tourism-g60713-San_Francisco_California-Vacations.html">San Francisco</a> </div><!--/ featured-->
+</div><!--/ boxhp.popDest-->
+<div class="boxhp popDest">
+<div class="header"><strong>Plan en boek op de grootste reiswebsite ter wereld</strong></div>
+<div class="paragraph">TripAdvisor heeft het reisadvies waar de meeste mensen op vertrouwen. Zoek en boek een gunstig gelegen en comfortabel hotel, of zoek een vakantiewoning voor een gedenkwaardige vakantie. Als je bij TripAdvisor een vlucht zoekt, worden duizenden mogelijke reisroutes gecontroleerd en krijg je vaker de laagste tarieven dan bij andere internetzoeksites voor vluchten. Download een gratis full colour bestemmingsgids voor eerlijk advies van reizigers over locaties om te verblijven, te eten en je te ontspannen. Bezoek onze populaire reisforums en lees het antwoord op al je vragen, voordat je vertrekt.</div>
+</div><!--/ boxhp.popDest-->
+</div><!--/ balance-->
+</div><!--/ gridA-->
+</div><!--/ HOMEPAGE-->
+<div id="FOOT_CONTAINER">
+<div id="FOOT">
+<div class="corporate wrap">
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt itemscope itemtype="http://schema.org/Organization" id="FOOTER_LOGO">
+<a itemprop="url" href="/">
+<img src="https://static.tacdn.com/img2/langs/nl_BE/branding/trip_logo_footer@2x.png" itemprop="logo" width="132" alt="TripAdvisor">
+</a>
+</dt>
+<dd class="meta">
+Beoordelingen en advies over hotels, resorts, vluchten, vakantiehuizen, vakantiepakketten en nog veel voor het plannen en boeken van je perfecte reis!
+</dd>
+</dl>
+<div class="sep internal">
+<span><a class="taLnk" href="/pages/about_us.html">Wie zijn wij?</a></span> | <span><a class="taLnk" href="/UserReview">Schrijf een beoordeling</a></span> | <span><a class="taLnk" href="/MemberProfile" onClick="ta.util.cookie.setPIDCookie(432);">Lidmaatschap</a></span>
+| <span><a class="taLnk" href="/AllLocations-g1-c1-Hotels-World.html">Sitemap</a></span>
+| <span><a class="taLnk" href="/Owners">Eigenaren</a></span>
+| <span><a class="taLnk" href="/BusinessListings">Bedrijfsvermeldingen</a></span> | <span><a class="taLnk" href="/Owners">DMO/CVB</a></span>
+| <span class="taLnk" onclick="ta.call('ta.popups.PopUtil.cookieSettingsPanel', event, this)">Cookietoestemming</span>
+| <span class="taLnk" onclick="return ta.call('ta.overlays.Factory.helpCenterLB', event);">Hulpcentrum <img alt='' width='14' id='lazyload_-794829046_1' height='10' src='https://static.tacdn.com/img2/x.gif'/></span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2016 TripAdvisor LLC Alle rechten voorbehouden. TripAdvisor <a href="/pages/terms.html">Gebruiksvoorwaarden</a>, <a href="/pages/privacy.html">Privacybeleid</a> en <a href="/CookiePolicy">Cookiebeleid</a>.</div>
+<div class="vfm_disclaimer">
+</div>
+<div id="PDISCLAIMER" class="disclaimer">
+* TripAdvisor LLC is geen boekingsagentschap en onze dienstverlening aan de gebruikers van deze site is kosteloos ... (<span id="TERMS" class="taLnk hvrIE6" onclick="getFullDisclaimerText()">meer</span>) </div>
+<div class="disclaimer">TripAdvisor LLC is niet aansprakelijk voor de inhoud op externe websites. Belastingen en toeslagen zijn niet inbegrepen bij aanbiedingen.</div>
+</div>
+</div> </div> </div>
+</div> </div>
+</div>
+<div id="COOKIE_BANNER" class="refresh">
+<div class="inner">
+TripAdvisor maakt gebruik van cookies om de werking van de site voor de bezoeker zo optimaal mogelijk te maken. <a href="/CookiePolicy">Meer informatie</a> of wijzig je <span class="taLnk hvrIE6" onclick="ta.call(&#39;ta.popups.PopUtil.cookieSettingsPanel&#39;, event, this)">instellingen</span>. Door verder te gaan aanvaard je onze cookies.
+</div>
+</div>
+<script type="text/javascript">
+(function () {
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})();
+var pageInit = new Date();
+var hideOnLoad = new Array();
+</script>
+<script type='text/javascript' crossorigin='anonymous' src='https://static.tacdn.com/js3/mootools-c-v21226524396b.js'></script>
+<script type="text/javascript">
+var jsGlobalMonths =     new Array("Januari","Februari","Maart","April","Mei","Juni","Juli","Augustus","September","Oktober","November","December");
+var jsGlobalMonthsAbbrev =     new Array("Jan","Feb","Mrt","Apr","Mei","Jun","Jul","Aug","Sep","Okt","Nov","Dec");
+var jsGlobalDaysAbbrev =     new Array("Ma","Di","Wo","Do","Vr","Za","Zo");
+var jsGlobalDaysShort =     new Array("M","D","W","D","V","Z","Z");
+var jsGlobalDaysFull =     new Array("zondag","maandag","dinsdag","woensdag","donderdag","vrijdag","zaterdag");
+var sInvalidDates = "De datums die je hebt ingevoerd zijn ongeldig. Wijzig de datums en zoek opnieuw.";
+var sSelectDeparture = "Selecteer luchthaven van vertrek.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var DATE_PICKER_CLASSIC_FORMAT = "dd/MM/yyyy";
+var DATE_PICKER_SHORT_FORMAT = "dd/MM";
+var DATE_PICKER_META_FORMAT = "EEE d MMM";
+var jsGlobalDayOffset = 2 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\/(\d{1,2})\/(\d{2,4})/, month: 2, date: 1, year: 3 };
+var formatDate = function(d, m, y) {return [d,++m,y].join("/");};
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;};
+</script>
+<script type="text/javascript">
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+var curs=[,'CHF','SEK','TRY','DKK','NOK','PLN','AED','AFN','ALL','AMD','ANG','AOA','ARS','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BSD','BTN','BWP','BYR','BZD','CDF','CLP','COP','CRC','CVE','CZK','DJF','DOP','DZD','EGP','ERN','ETB','FKP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HNL','HRK','HTG','HUF','IDR','IQD','IRR','ISK','JMD','JOD','KES','KGS','KHR','KMF','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MNT','MOP','MRO','MUR','MVR','MWK','MYR','MZN','NAD','NGN','NIO','NPR','OMR','PAB','PEN','PGK','PHP','PKR','PYG','QAR','RON','RSD','RUB','RWF','SAR','SCR','SGD','SHP','SLL','SOS','SRD','STD','SZL','TJS','TMT','TND','TOP','TTD','TZS','UAH','UGX','UYU','UZS','VEF','VUV','WST','XPF','YER','ZAR','CUP','KPW','MMK','SDG','SYP'];
+for(var i=1;i<curs.length;i++){currencySymbol[curs[i]]=new Array(curs[i],false);}
+var curs = [,'USD','GBP','EUR','CAD','AUD','JPY','RMB','INR','BRL','MXN','TWD','HKD','FJD','ILS','KRW','NZD','SBD','THB','VND','XAF','XCD','XOF']
+var curs2 = [,'US$','£','€','C$','AU$','JP¥','CN¥','₹','R$','MX$','NT$','HK$','FJ$','₪','₩','NZ$','SI$','฿','₫','FCFA','EC$','CFA']
+for(var i=1;i<curs.length;i++){currencySymbol[curs[i]]=new Array(curs2[i],false);}
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "We hebben je locatie niet gevonden.";
+var JS_click_to_expand = "Klik om uit te breiden";
+var JS_choose_valid_city = "Kies een geldige stad uit de lijst.";
+var JS_select_a_cruise_line = "Selecteer een cruiselijn.";
+var JS_loading = "Laden ...";
+var JS_Ajax_failed="Helaas is er een probleem bij het ophalen van de inhoud. Kom over een paar minuten terug.";
+var JS_maintenance="TripAdvisor.com is op het moment met onderhoudswerk bezig.  Onze excuses voor het ongemak...we zijn snel terug.";
+var JS_Stop_search = "stop zoeken";
+var JS_Resume_search = "Opnieuw zoeken";
+var JS_Thankyou = "Dank je";
+var JS_DateFormat = "dd/mm/jjjj";
+var JS_review_lost = "Je beoordeling zal worden gewist.";
+var JS_coppa_sorry = "Onze excuses...";
+var JS_coppa_privacy = "Met de door jou verzonden gegevens voldoet je TripAdvisor account niet aan de eisen van ons <a href='/pages/privacy.html'>Privacybeleid</a>.";
+var JS_coppa_deleted = "Je account is verwijderd.";
+var JS_close = "Afsluiten";
+var JS_close_image = "https://static.tacdn.com/img2/langs/nl/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Wijzigingen opgeslagen";
+var JS_community_on = "Community is ingeschakeld";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Bezig met bijwerken van je resultaten &#8230";
+var JS_OwnerPhoto_heading = "Bedankt voor het versturen van je aanvraag naar TripAdvisor! ";
+var JS_OwnerPhoto_subheading = "De meeste vermeldingen en wijzigingen verwerken we binnen 5 werkdagen. ";
+var JS_OwnerPhoto_more = "Meer foto's aan je vermelding toevoegen";
+var JS_OwnerPhoto_return = "Terug naar Centrum Eigenaar";
+var JS_NMN_Timeout_title = "Wil je het opnieuw proberen?";
+var JS_NMN_Timeout_msg = "Het duurt langer dan verwacht om je locatie te bepalen.";
+var JS_NMN_Error_title = "Locatiefout";
+var JS_NMN_Error_msg   = "Er is een fout opgetreden bij het bepalen van je locatie";
+var JS_KeepTrying = "Blijf opnieuw proberen";
+var JS_TryAgain   = "Opnieuw proberen";
+var js_0001 = "Tenminste één leverancier uit de lijst selecteren."; var js_0002 = "De ingevoerde data dienen toekomstig te zijn"; var js_0003 = "Kies een uitcheckdatum die tenminste één dag later is dan je incheckdatum."; var js_0004 = "Kies data binnen de 330 dagen.";   var js_0005 = "Bezig aanbiedingen te zoeken ... dit kan enige tijd in beslag nemen"; var js_0006 = "Je selecties zijn niet veranderd."; var js_0010 = "Nogmaals klikken om elk venster te openen of de pop-upblokkering in de browser uitschakelen."; var js_0011 = "Bijwerken"; var js_0012 = "Toon volgende aanbieding"; var js_0013 = "Klik op de knop \"Bekijk de beste tarieven!\" bovenaan om elk venster te openen."; var js_0014 = 'Opent een venster voor elk aanbod. Schakel je pop-upblokkeringen uit.';
+var js_0015 = 'Prijzen vergelijken';
+var js_invalid_dates_text = "De ingevoerde datums zijn ongeldig. Wijzig de datums en zoek opnieuw."; var js_invalid_dates_text_new = "Geef een algemene waardering voor deze attractie:"; var js_invalid_dates_text_new2 = "Vul datums in voor weergave van prijzen";
+var qcErrorImage = '<center><img src="https://static.tacdn.com/img/langs/nl/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'https://static.tacdn.com/img2/langs/nl/checkrates/cr.gif';
+var cr_loc_vend_ch = 'https://static.tacdn.com/img2/langs/nl/checkrates/cr_check.gif';
+var cr_loc_logo = 'https://static.tacdn.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'https://static.tacdn.com/img2/langs/nl/checkrates/cd.png';
+var cd_loc_vend_ch = 'https://static.tacdn.com/img2/langs/nl/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Klik om een waardering te geven",
+"Vreselijk",
+"Matig",
+"Gemiddeld",
+"Heel goed",
+"Uitstekend"
+];
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var isTakeOver = false;
+var overlayOptions = "";
+var overlayBackupLoc = "";
+var gmapDomain = "maps.google.com";
+var mapChannel = "ta.desktop";
+var bingMapsLang = "nl".toLowerCase();
+var bingMapsCountry = "BE".toLowerCase();
+var bingMapsBaseUrl = "http://www.bing.com/maps/default.aspx?cc=be&";
+var googleMapsBaseUrl = "http://maps.google.be/?";
+var yandexMapsBaseUrl = "http://maps.yandex.com";
+var serverPool = "X";
+var reg_overhaul = true;
+var posLocale = "nl_BE";
+var cssPhotoViewerAsset = "https://static.tacdn.com/css2/photos_with_inline_review-v21686674533b.css";
+var cssAlbumViewerAsset = "https://static.tacdn.com/css2/photo_albums-v23765369189b.css";
+var jsPhotoViewerAsset = 'https://static.tacdn.com/js3/src/ta/photos/Viewer-v22429591760b.js';
+var jsAlbumViewerAsset = ["https://static.tacdn.com/js3/album_viewer-c-v21755102550b.js"];
+var jsAlbumViewerExtendedAsset = ["https://static.tacdn.com/js3/album_viewer_extended-c-v23547086677b.js"];
+var jsDesktopBackboneAsset = ["https://static.tacdn.com/js3/desktop_modules_backbone-c-v22601866853b.js"];
+var jsScrollingTabsAsset = 'https://static.tacdn.com/js3/src/ta/widgets/ScrollingTabs-v2491278589b.js';
+var jsPhotoViewerTALSOAsset = 'https://static.tacdn.com/js3/src/TALSO-v2188162152b.js';
+var jsJWPlayerHelperAsset = 'https://static.tacdn.com/js3/src/ta/media/player/JwPlayer-v2250836624b.js';
+var taJwplayerVersion6 = true;
+var hasRequiredFlashPlayer = function() {
+return ta.media.JWPlayer.hasRequiredFlashPlayer();
+};
+</script>
+<script type="text/javascript">
+var IS_DEBUG = false;
+var CDNHOST = "https://static.tacdn.com";
+var cdnHost = CDNHOST;
+var MEDIA_HTTP_BASE = "https://media-cdn.tripadvisor.com/media/";
+var POINT_OF_SALE = "nl_BE";
+var WINDOW_EVENT_OBJ = window.Event;
+</script>
+<script type="text/javascript">
+var VERSION_MAP = {
+"ta-widgets-typeahead.js": "https://static.tacdn.com/js3/ta-widgets-typeahead-c-v23529258534b.js"
+,
+"ta-media.js": "https://static.tacdn.com/js3/ta-media-c-v2144566242b.js"
+,
+"ta-overlays.js": "https://static.tacdn.com/js3/ta-overlays-c-v2311153032b.js"
+,
+"ta-mapsv2.js": "https://static.tacdn.com/js3/ta-mapsv2-gmaps3-c-v21334863859b.js"
+};
+</script>
+<script type="text/javascript">
+var cookieDomain = ".tripadvisor.be";
+var modelLocaleCountry = "BE";
+var ipCountryId = "294280";
+var pageServlet = "Home";
+var crPageServlet = "Home";
+var userLoggedIn = false;
+</script>
+<script type="text/javascript">
+var migrationMember = false;
+var savesEnable = false;
+var flagsUrl = '/';
+var noPopClass = "no_cpu";
+var flagsSettings = [
+];
+var isIPad = false;
+var isTabletOnFullSite = false;
+var tabletOnFullSite = false;
+var lang_Close  = "Afsluiten";
+var isSmartdealBlueChevron = false;
+var img_loop    = "https://static.tacdn.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "";
+var modelLocId = "";
+var gClient = 'gme-tripadvisorinc';
+var gKey = '';
+var gLang = '&language=nl_BE';
+var mapsJs = 'https://static.tacdn.com/js3/ta-maps-gmaps3-c-v2517161971b.js';
+var mapsJsLite = 'https://static.tacdn.com/js3/lib/TAMap-v22716202300b.js';
+var memoverlayCSS = 'https://static.tacdn.com/css2/pages/memberoverlay-v2735825778b.css';
+var flagsFlyoutCSS = 'https://static.tacdn.com/css2/overlays/flags/flags_flyout-v2178661648b.css';
+var globalCurrencyPickerCSS = 'https://static.tacdn.com/css2/overlays/global_currency_picker-v24284795853b.css';
+var emailHotelCSS = 'https://static.tacdn.com/css2/t4b/emailhotel-v22741496419b.css';
+var passportStampsCSS = 'https://static.tacdn.com/css2/modules/passport_stamps-v21996473260b.css';
+var autocompleteCss = "https://static.tacdn.com/css2/modules/autocomplete-v22296357173b.css";
+var globalTypeAheadCss = "https://static.tacdn.com/css2/global_typeahead-v23388826953b.css";
+var globalTypeAheadFontCss = "https://static.tacdn.com/css2/proxima_nova-v21536367270b.css";
+var compareHotelCSS = 'https://static.tacdn.com/css2/pages/compareHotel-v24288065984b.css';
+var wiFriHasMember =  false  ;
+var JS_SECURITY_TOKEN = "AAABUnzw7KQY1MM78YruQyNkHE9SDOsVf1QdoQ==";
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+</script>
+<script type='text/javascript' crossorigin='anonymous' src='https://static.tacdn.com/js3/ta-home-2011-without-mootools-c-v22396108440b.js'></script>
+<script>
+if (window.g_trackingLoadTime) {
+g_trackingLoadTime.track('rollupLoaded');
+}
+</script>
+<script type="text/javascript">var taSecureToken = "AAABUnzw7KQY1MM78YruQyNkHE9SDOsVf1QdoQ==";</script>
+<script type="text/javascript">
+if(window.ta && ta.store) {
+ta.store('photo.viewer.localization.videoError', 'De videospeler kan helaas niet geladen worden');     }
+</script>
+<script type="text/javascript">
+var geoParam = "&geo=";
+</script>
+<!-- web512b.b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type='text/javascript'> ta.store('currency_format_using_icu4j_cldr.featureEnabled', 'true'); </script><script type='text/javascript'> ta.store('flag_flyout_link_fixing.featureEnabled', 'false'); </script><script>ta.common.header.createNavMenu(ta.find('.warLink'), { initFn: function() { ta.run('ta.overlays.Factory.createWARToDoListOverlay'); }});</script><script>ta.common.header.createNavMenu(ta.select('.jsNavMenu'));</script><script type='text/javascript'>
+ta.store('typeahead_closed_label', 'GESLOTEN'); // CLOSED
+ta.store('typeahead_moved_label', 'VERHUISD'); // MOVED
+ta.store('typeahead_new_location_label', 'NIEUWE LOCATIE'); // NEW LOCATION
+ta.store('typeahead.scoped.all_of_trip', 'wereldwijd');
+ta.store('typeahead.scoped.poi_default_text', 'Waar ben je naar op zoek?');
+ta.store('typeahead.masthead_options', {showHistory:true, integrateHistory:true,
+focusAction:'history',
+minChars:3, defaultValue:'Zoeken',
+nextField:false, injectNeighborhoods:true,
+injectNewLocation:true})
+var get_scoped_typeahead = function(evt, element){
+var scopedSearch = ta.retrieve('ta_scoped_typeahead_search');
+if(scopedSearch){
+return scopedSearch;
+}
+var staticTypeAheadOptions = ta.retrieve('typeahead.masthead_options');
+var scopedSearch = ta.call('ta.common.dualsearch.createScopedSearch', evt, element, options={geoID:'',
+swapped: false,
+bypassSearch:true,
+staticTypeAheadOptions:staticTypeAheadOptions});
+if(!scopedSearch) {
+return;         }
+return scopedSearch;
+}
+</script><script>
+ta.store('home.text_defaults', {default_attractions:'De favoriete attracties van reizigers', default_beaches:'De beste stranden volgens reizigers', default_destinations:'De 25 beste bestemmingen', default_hotels:'De beste hotels ter wereld ', default_islands:'De 10 mooiste eilanden', default_restaurants:'De meest aanbevolen restaurants'});
+</script><script type='text/javascript'>
+ta.store('typeahead_pypt_allow_too_few_chars_search_feature', true);
+</script><script type='text/javascript'>
+ta.store('ta.pages.home.pypt.msgs.select_one_of_these', 'Kies een van deze steden:');      ta.store('typeahead.revised.pypt.mechanics.feature', true);
+</script><script type='text/javascript'>
+;
+;
+ta.queueForLoad( function() { ta.pages.home.createTypeAhead(null,ta.id('searchbox'),'HOTELHOME','hotel',{showHistory:true,
+includeNeighborhoods:true,
+integrateHistory: true,
+highlightHistory: true,
+historyTypes:['geo','hotel'],
+historyPredicate: function(result){return !result.is_broad;},
+jpFirefoxIME: ta.retrieve('jp_typeahead_ime_firefox.enabled')},
+false); });
+</script><script>
+ta.store('fall2013.refresh.carousel', []);
+</script>
+<script type='text/javascript'>
+ta.keep('fb.partial.extraCSS', 'https://static.tacdn.com/css2/home_activity-v22177461653b.css');
+ta.keep('fb.partial.extraJS', ["https://static.tacdn.com/js3/homepage_activity-c-v24269366099b.js"]);
+</script>
+<script>
+ta.queueForLoad( function() {
+ta.keep('facebook.data.request', 'HOME_DASHBOARD_DELAYED')
+}, 'IPFriends');
+ta.keep('facebook.data.onAvail.HOME_DASHBOARD_DELAYED', function(container, incomplete, fail){
+if(fail) return false;
+if(incomplete) return true;
+var content = container.getElementById('HOME_DASHBOARD_DELAYED');
+if(content)
+{
+content = content.getElement('div');
+content.replaces(ta.id('MEM_DASH'));
+if ( ta.id('RECENTLY_VIEWED_LIST') ) {
+ta.id('RECENTLY_VIEWED_LIST').hide();
+}
+}
+return false;
+});
+</script>
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: '2', c2: '6036461', c3: '', c4: '' });
+var _csload = function() {
+var s = document.createElement('script'), el = document.getElementsByTagName('script')[0]; s.async = true;
+s.src = (document.location.protocol == 'https:' ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+el.parentNode.insertBefore(s, el);
+};
+ta.queueForLoad(_csload, 5, 'comscore');
+</script>
+<noscript>
+<img class='tracking' height='1' width='1' src='https://sb.scorecardresearch.com/p?c1=2&c2=6036461&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1'/>
+</noscript>
+<script type="text/javascript">
+ta.queueForReady( function() {
+ta.localStorage && ta.localStorage.updateSessionId('E5938E417AADE1135E1288B774E2F33F');
+}, 1, "reset localStorage session id");
+</script>
+<script type="text/javascript">
+ta.store('ta.commerce.suppress_commerce_impressions.enabled', true);
+</script>
+<script type="text/javascript">
+ta.store('typeahead.typeahead2_mixed_ui', true);
+ta.store('typeahead.elasticsearch_include_geo_pages', true);
+ta.store('typeahead.integrate_recently_viewed', true);
+ta.store('typeahead.destination_icons', "https://static.tacdn.com/img2/langs/nl/icons/typeahead/destination_icons.png");
+ta.store('typeahead.geoArea', 'gebied ');       ta.store('typeahead.worldwide', 'Wereldwijd');       ta.store('typeahead.noResultsFound', 'Geen resultaten gevonden.');       ta.store('typeahead.searchForPrompt', "Zoeken naar");
+ta.store('typeahead.location', "Locatie");                  ta.store('typeahead.restaurant', "Restaurant");           ta.store('typeahead.attraction', "Attractie");           ta.store('typeahead.hotel', "Hotel");
+ta.store('typeahead.restaurant_list', "Restaurants");         ta.store('typeahead.attraction_list', "Attracties");         ta.store('typeahead.things_to_do', "Activiteiten");                   ta.store('typeahead.hotel_list', "Hotels");                   ta.store('typeahead.vacation_rental_list', "Vakantiewoningen");
+ta.store('typeahead.scoped.static_local_label', 'gebied %');       ta.store('typeahead.scoped.result_title_text', 'Begin met typen, of probeer één van deze suggesties ...');       ta.store('typeahead.scoped.poi_overview_geo', '<span class="poi_overview_item">Overzicht</span> van %');       ta.store('typeahead.scoped.poi_hotels_geo', '<span class="poi_overview_item">Hotels</span> in %');       ta.store('typeahead.scoped.poi_vr_geo', '<span class="poi_overview_item">Vakantiewoningen</span> in %');       ta.store('typeahead.scoped.poi_attractions_geo', '<span class="poi_overview_item">Activiteiten</span> in %');       ta.store('typeahead.scoped.poi_eat_geo', '<span class="poi_overview_item">Restaurants</span> in %');       ta.store('typeahead.scoped.poi_flights_geo', '<span class="poi_overview_item">Vluchten</span> naar %');       ta.store('typeahead.scoped.poi_nbrhd_geo', '<span class="poi_overview_item">Wijken</span> in %');       ta.store('typeahead.scoped.poi_travel_guides_geo', '<span class="poi_overview_item">Reisgidsen</span> over %');
+ta.store('typeahead.scoped.overview', 'Overzicht');       ta.store('typeahead.scoped.flights', 'Vluchten');       ta.store('typeahead.scoped.neighborhoods', 'Wijken');       ta.store('typeahead.scoped.travel_guides', 'Reisgidsen');
+ta.store('typeahead.scoped.geo_area_template', 'gebied %');
+ta.store('typeahead.searchMore', 'Zoek meer resultaten voor "%"');
+ta.store('typeahead.history', "Recent bekeken");       ta.store('typeahead.history.all_caps', "ONLANGS BEKEKEN");       ta.store('typeahead.popular_destinations', "POPULAIRE BESTEMMINGEN");
+ta.store('typeahead.recentHistoryList', []);
+ta.store('typeahead.popularDestinations', [{"lookbackServlet":null,"normalized_name":"istanbul","title":"Bestemmingen","type":"GEO","is_vr":true,"url":"\/Tourism-g293974-Istanbul-Vacations.html","urls":[{"url_type":"geo","name":"Istanbul vakantie","type":"GEO","url":"\/Tourism-g293974-Istanbul-Vacations.html"},{"url_type":"eat","name":"Restaurants in Istanbul","type":"EATERY","url":"\/Restaurants-g293974-Istanbul.html"},{"url_type":"attr","name":"Istanbul Attracties","type":"ATTRACTION","url":"\/Attractions-g293974-Activities-Istanbul.html"},{"url_type":"hotel","name":"Hotels Istanbul","type":"HOTEL","url":"\/Hotels-g293974-Istanbul-Hotels.html"},{"url_type":"flights_to","name":"Vluchten naar Istanbul","type":"FLIGHTS_TO","url":"\/Flights-g293974-Istanbul-Cheap_Discount_Airfares.html"}],"is_broad":false,"scope":"global","name":"Istanbul, Turkije, Europa","data_type":"LOCATION","details":{"parent_name":"Turkije","grandparent_name":"Europa","rac_enabled":true,"name":"Istanbul","parent_ids":[293969,4,1],"geo_name":"Turkije, Europa"},"value":293974,"coords":"41.00986,28.95707"},{"lookbackServlet":null,"normalized_name":"rome","title":"Bestemmingen","type":"GEO","is_vr":true,"url":"\/Tourism-g187791-Rome_Lazio-Vacations.html","urls":[{"url_type":"geo","name":"Rome vakantie","type":"GEO","url":"\/Tourism-g187791-Rome_Lazio-Vacations.html"},{"url_type":"eat","name":"Restaurants in Rome","type":"EATERY","url":"\/Restaurants-g187791-Rome_Lazio.html"},{"url_type":"attr","name":"Rome Attracties","type":"ATTRACTION","url":"\/Attractions-g187791-Activities-Rome_Lazio.html"},{"url_type":"hotel","name":"Hotels Rome","type":"HOTEL","url":"\/Hotels-g187791-Rome_Lazio-Hotels.html"},{"url_type":"flights_to","name":"Vluchten naar Rome","type":"FLIGHTS_TO","url":"\/Flights-g187791-Rome_Lazio-Cheap_Discount_Airfares.html"}],"is_broad":false,"scope":"global","name":"Rome, Lazio, Italië","data_type":"LOCATION","details":{"parent_name":"Italië","grandparent_name":"Europa","rac_enabled":true,"name":"Rome","parent_ids":[187789,187768,4,1],"geo_name":"Lazio, Italië"},"value":187791,"coords":"41.893623,12.495978"},{"lookbackServlet":null,"normalized_name":"londen","title":"Bestemmingen","type":"GEO","is_vr":true,"url":"\/Tourism-g186338-London_England-Vacations.html","urls":[{"url_type":"geo","name":"Londen vakantie","type":"GEO","url":"\/Tourism-g186338-London_England-Vacations.html"},{"url_type":"eat","name":"Restaurants in Londen","type":"EATERY","url":"\/Restaurants-g186338-London_England.html"},{"url_type":"attr","name":"Londen Attracties","type":"ATTRACTION","url":"\/Attractions-g186338-Activities-London_England.html"},{"url_type":"hotel","name":"Hotels Londen","type":"HOTEL","url":"\/Hotels-g186338-London_England-Hotels.html"},{"url_type":"flights_to","name":"Vluchten naar Londen","type":"FLIGHTS_TO","url":"\/Flights-g186338-London_England-Cheap_Discount_Airfares.html"}],"is_broad":false,"scope":"global","name":"Londen, Verenigd Koninkrijk, Verenigd Koninkrijk","data_type":"LOCATION","details":{"parent_name":"Verenigd Koninkrijk","grandparent_name":"Verenigd Koninkrijk","rac_enabled":false,"name":"Londen","parent_ids":[186217,186216,4,1],"geo_name":"Verenigd Koninkrijk, Verenigd Koninkrijk"},"value":186338,"coords":"51.51924,-0.096654"},{"lookbackServlet":null,"normalized_name":"beijing","title":"Bestemmingen","type":"GEO","is_vr":true,"url":"\/Tourism-g294212-Beijing-Vacations.html","urls":[{"url_type":"geo","name":"Beijing vakantie","type":"GEO","url":"\/Tourism-g294212-Beijing-Vacations.html"},{"url_type":"eat","name":"Restaurants in Beijing","type":"EATERY","url":"\/Restaurants-g294212-Beijing.html"},{"url_type":"attr","name":"Beijing Attracties","type":"ATTRACTION","url":"\/Attractions-g294212-Activities-Beijing.html"},{"url_type":"hotel","name":"Hotels Beijing","type":"HOTEL","url":"\/Hotels-g294212-Beijing-Hotels.html"},{"url_type":"flights_to","name":"Vluchten naar Beijing","type":"FLIGHTS_TO","url":"\/Flights-g294212-Beijing-Cheap_Discount_Airfares.html"}],"is_broad":false,"scope":"global","name":"Beijing, Peking Gewest, China","data_type":"LOCATION","details":{"parent_name":"China","grandparent_name":"Azië","rac_enabled":false,"name":"Beijing","parent_ids":[1131314,294211,2,1],"geo_name":"Peking Gewest, China"},"value":294212,"coords":"39.909336,116.39452"},{"lookbackServlet":null,"normalized_name":"praag","title":"Bestemmingen","type":"GEO","is_vr":true,"url":"\/Tourism-g274707-Prague_Bohemia-Vacations.html","urls":[{"url_type":"geo","name":"Praag vakantie","type":"GEO","url":"\/Tourism-g274707-Prague_Bohemia-Vacations.html"},{"url_type":"eat","name":"Restaurants in Praag","type":"EATERY","url":"\/Restaurants-g274707-Prague_Bohemia.html"},{"url_type":"attr","name":"Praag Attracties","type":"ATTRACTION","url":"\/Attractions-g274707-Activities-Prague_Bohemia.html"},{"url_type":"hotel","name":"Hotels Praag","type":"HOTEL","url":"\/Hotels-g274707-Prague_Bohemia-Hotels.html"},{"url_type":"flights_to","name":"Vluchten naar Praag","type":"FLIGHTS_TO","url":"\/Flights-g274707-Prague_Bohemia-Cheap_Discount_Airfares.html"}],"is_broad":false,"scope":"global","name":"Praag, Tsjechië, Europa","data_type":"LOCATION","details":{"parent_name":"Tsjechië","grandparent_name":"Europa","rac_enabled":false,"name":"Praag","parent_ids":[274685,274684,4,1],"geo_name":"Tsjechië, Europa"},"value":274707,"coords":"50.076847,14.427817"}]);
+</script>
+<script type="text/javascript">
+ta.store('metaCheckRatesUpdateDivInline', 'PROVIDER_BLOCK_INLINE');
+ta.store('metaInlineGeoId', '');
+</script>
+<script>
+</script>
+<script type="text/javascript">
+ta.store('metaCheckRatesUpdateDiv', 'PROVIDER_BLOCK');
+ta.store('checkrates.meta_ui_sk_box_v3', true)
+ta.store('checkrates.one_second_xsell', true);
+</script>
+<script>
+ta.store("lightbox_improvements", true);
+ta.store("checkrates.hr_bc_see_all_click.lb", true);
+</script>
+<script type="text/javascript">
+ta.store("hotels_meta_focus", 4);
+</script>
+<script type="text/javascript">
+var metaCheckRatesCSS = 'https://static.tacdn.com/css2/meta_ui_sk_box_chevron-v2980097277b.css';
+ta.store('metaCheckRatesFeatureEnabled', true);
+</script>
+<script type="text/javascript">
+ta.store('mapProviderFeature.maps_api','ta-maps-gmaps3');
+</script>
+<script type="text/javascript">
+var dropdownMetaCSS = "https://static.tacdn.com/css2/meta_drop_down_overlay-nl_BE-v21145623765b.css";
+</script>
+<script type="text/javascript">
+ta.store('metaDatePickerEnabled', true);
+var common_skip_dates = "Zoek zonder specifieke data";
+ta.store('multiDP.skipDates', "Zoek zonder specifieke data");         ta.store('multiDP.inDate', "");
+ta.store('multiDP.outDate', "");
+ta.store('multiDP.multiNightsText', "2 nachten");         ta.store('multiDP.singleNightText', "1 nacht");         ta.store('calendar.preDateText', "dd/mm/jjjj");
+ta.store('multiDP.adultsCount', "2");
+ta.store('multiDP.singleAdultsText', "1 gast");         ta.store('multiDP.multiAdultsText', "2 gasten");         ta.store('multiDP.enterDatesText', "Voer reisdata in");                 ta.store('multiDP.checkIn', "Aankomst");         ta.store('multiDP.checkOut', "Vertrek");         ta.store('multiDP.isMondayFirstDayOfWeek', true);
+ta.store('multiDP.dateSeparator', " - ");
+ta.store('multiDP.dateRangeEllipsis', "Zoeken op %%%...");
+ta.store('multiDP.abbrevMonthList', ["Jan", "Feb", "Mrt", "Apr", "Mei", "Jun", "Jul", "Aug", "Sep", "Okt", "Nov", "Dec"]);
+ta.store('multiDP.checkIn', "dd/mm/jjjj");           ta.store('multiDP.checkOut', "dd/mm/jjjj");               </script>
+<script type="text/javascript">
+(function(window,ta,undefined){
+try {
+ta = window.ta = window.ta || {};
+ta.uid = 'VqcnJgoQHnIAAXtuZscAAAAx';
+ta.userLoggedIn = false;
+ta.userSecurelyLoggedIn = false;
+}
+catch (e) {
+if(ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record(e,'global_ga.vm');
+}
+}
+}(window,ta));
+</script>
+<script type="text/javascript">
+(function(window,ta,undefined){
+try {
+ta = window.ta = window.ta || {};
+ta.uid = 'VqcnJgoQHnIAAXtuZscAAAAx';
+ta.userLoggedIn = false;
+ta.userSecurelyLoggedIn = false;
+if (ta.prerender && ta.prerender._init){
+ta.prerender._init(true);
+}
+var _gaq = window._gaq = window._gaq || []
+, pageDataStack = ta.analytics.pageData = ta.analytics.pageData || []
+, pageData
+;
+window._gaq.push = function(){};
+pageData=ta.analytics._JSON_parse('{\"cv\":[[\"_deleteCustomVar\",1],[\"_deleteCustomVar\",47],[\"_setCustomVar\",20,\"PP\",\"-251-\",3],[\"_setCustomVar\",26,\"Promos\",\"-RBA_September2013HPHero_Ft_Laud-\",3],[\"_deleteCustomVar\",11],[\"_deleteCustomVar\",13],[\"_deleteCustomVar\",12],[\"_deleteCustomVar\",19],[\"_deleteCustomVar\",25],[\"_deleteCustomVar\",14],[\"_deleteCustomVar\",8],[\"_deleteCustomVar\",10]],\"url\":\"/Home\"}');
+pageDataStack.push(pageData);
+if(ta.keep){
+ta.keep("partials.pageProperties","251");
+}
+if(ta.store){
+ta.store("gaMemberState","-");
+}
+}
+catch (e) {
+if(ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record(e,'global_ga.vm');
+}
+}
+}(window,ta));
+</script>
+<script type="text/javascript">
+var lazyImgs = [
+{"data":"https://static.tacdn.com/img2/generic/site/pencil.png","scroll":false,"tagType":"img","id":"lazyload_-794829046_0","priority":100,"logerror":false}
+,   {"data":"https://static.tacdn.com/img2/icons/bell.png","scroll":true,"tagType":"img","id":"lazyload_-794829046_1","priority":100,"logerror":false}
+];
+var lazyHtml = [
+];
+ta.queueForLoad( function() {
+window.setupLazyLoad();
+}, 'lazy load images');
+</script>
+<script type="text/javascript">
+ta.keep('startOffset', '');
+ta.store('page.geo', "");
+ta.store('page.location', "");
+ta.store('page.urlSafe', "http%3A__2F____2F__www__2E__tripadvisor__2E__be__2F__");
+ta.store('facebook.disableLogin', false);
+ta.store('facebook.apiKey', "f1e687a58f0cdac60b7af2317a5febb3");
+ta.store('facebook.appId', "162729813767876");
+ta.store('facebook.appName', "tripadvisor");
+ta.store('facebook.taServerTime', "1453795110");
+ta.store('facebook.skip.session.check',"false");
+ta.store('facebook.apiVersion', "v2.2");
+ta.store("facebook.invalidFBCreds", true);
+window.fbAsyncInit = ta.support.Facebook.init;
+ta.queueForLoad(function(){
+new Asset.javascript("//connect.facebook.net/en_US/sdk.js");
+}, 0, 'LoadFBJS');
+function ip_adjustHeader() {
+// check for overlap
+var prefs = ta.id('USER_PREFS');
+var head = ta.id('HEAD');
+if (!prefs || !head) {
+return;
+}
+var logo = head.getElement('.topLogo');
+if (logo) {
+var c = prefs.getCoordinates();
+if (c.left - logo.getCoordinates().right < 10) {
+head.setStyle('padding-top', 5);
+}
+}
+}
+ta.queueForLoad(ip_adjustHeader, 'ip_adjustHeader');
+ta.store('fb.name', "");
+ta.store('fb.icon', "");
+ta.keep('facebook.data.request', [
+'IP_HEADER'       ]);
+ta.keep('facebook.data.request', ['ACTIVITY_COUNT']);
+ta.queueForLoad( function() { Cookie.writeSession('FBH', sniffFacebook() ? 1 : 2); }, 'SniffFB' );
+ta.store('ads.reverseScroll', true);
+ta.store('ads.disableEventRefresh', true);
+ta.store('ads.deferEnabled', true);
+ta.store('ads.gptEnabled', true);
+var googletag=googletag||{};
+googletag.cmd=googletag.cmd||[];
+ta.queueForLoad(
+function() {
+ta.store('ads.pageTargeting', {
+"sess": "E5938E417AADE1135E1288B774E2F33F",
+"PageType": "Home",
+"pool": "X",
+"rd": "be_nl",
+"loctype": "none",
+"slice": "control_7",
+"drs10": [
+"MOB_1",
+"BRAND_8",
+"CMN_8",
+"FL_3",
+"REV_1",
+"RNA_7",
+"SALES_4",
+"SEARCH_7"
+],
+"drs": [
+"MOB_15",
+"BRAND_84",
+"CMN_86",
+"FL_39",
+"REV_15",
+"RNA_77",
+"SALES_47",
+"SEARCH_75"
+],
+"report": [
+"desktop_be_nl_x",
+"desktop_Home_MOB_1",
+"desktop_Home_BRAND_8",
+"desktop_Home_CMN_8",
+"desktop_Home_FL_3",
+"desktop_Home_REV_1",
+"desktop_Home_RNA_7",
+"desktop_Home_SALES_4",
+"desktop_Home_SEARCH_7"
+],
+"platform": "desktop"
+});
+var adStubsJSON = {
+"adTypes": [
+{
+"base": "/5349/ta.ta.br.s/homepage",
+"size": [
+[
+728,
+90
+]
+],
+"tgt": "gpt-ad-728x90",
+"type": "leaderboard_top",
+"custom_targeting": {
+"pos": "top"
+}
+},
+{
+"base": "/5349/ta.ta.br.s/homepage",
+"size": [
+[
+300,
+250
+]
+],
+"tgt": "gpt-ad-300x250",
+"type": "medium_rectangle_top",
+"custom_targeting": {
+"pos": "top"
+}
+},
+{
+"base": "/5349/ta.ta.br.s/homepage",
+"size": [
+[
+728,
+90
+]
+],
+"tgt": "gpt-ad-728x90-a",
+"type": "leaderboard_a",
+"custom_targeting": {
+"pos": "a"
+}
+},
+{
+"base": "/5349/ta.ta.br.s/homepage",
+"size": [
+[
+300,
+250
+]
+],
+"tgt": "gpt-ad-300x250-bottom",
+"type": "medium_rectangle_bottom",
+"custom_targeting": {
+"pos": "bottom"
+}
+}
+]
+};
+if( adStubsJSON && adStubsJSON.adTypes ) {
+ta.store('ads.adStubs', adStubsJSON.adTypes);
+}
+ta.store('ads.gptBase', '/5349/ta.ta.br.s/homepage' );
+ta.common.ads.initDoubleClick();
+}, 'Load GPT Ad JS'
+);
+var avlb_hero_photos = "https://static.tacdn.com/css2/modules/avlb_hero_photos-v23950307902b.css";
+var checkRatesCSS = "https://static.tacdn.com/css2/modules/checkrates-v23737909110b.css";
+var regflowCss = "https://static.tacdn.com/css2/registration-v22849831835b.css";
+var overlayCss = "https://static.tacdn.com/css2/overlays_defer-v2857424301b.css";
+var amenityOverlayCss = "https://static.tacdn.com/css2/amenities_flyout-v21660573287b.css";
+var amenityLightboxCss = "https://static.tacdn.com/css2/amenities_lightbox-v2764079569b.css";
+var conceptsCss = "https://static.tacdn.com/css2/accommodations/top_concepts-v23534996259b.css";
+var avlbCss = "https://static.tacdn.com/css2/overlays/alsoViewed-v22190906332b.css";
+var avlbTestCss = "https://static.tacdn.com/css2/overlays/alsoViewed_test-v2430392620b.css";
+var VRCrossSellCss = "https://static.tacdn.com/css2/modules/vr_cross_sell-v24168044193b.css";
+var chkMoreCss = "https://static.tacdn.com/css2/modules/checkmore-v23062822448b.css";
+var chkMoreSpritesCss = "https://static.tacdn.com/css2/checkmore_pack-nl_BE.css";
+var privateMsgCSS = "https://static.tacdn.com/css2/modules/private_messaging-v250312725b.css";
+var recentViewedCSS = "https://static.tacdn.com/css2/common/recently_viewed-v2628695694b.css";
+var checkRatesLBCss = "https://static.tacdn.com/css2/check_rates_lb-v2106152486b.css";
+var jfyOverlayCss = "https://static.tacdn.com/css2/p13n/jfy_onboarding.css";
+var floatingMapCSS = "https://static.tacdn.com/css2/modules/floating_map-v22419345840b.css";
+var t4bSlideshowCSS = "https://static.tacdn.com/css2/modules/t4b_slideshow-v24112077699b.css";
+var dhtml_cr_redesign_png24 = "https://static.tacdn.com/css2/overlays/cr_flyout-v22544950678b.css";
+ta.store('checkrates.check_more_re',true);
+ta.store('checkrates.check_more_re_center_large_hero_photos',true);
+ta.store('checkrates.check_more_hero_photos',true);
+ta.store('checkrates.center_overlay',true);
+ta.queueForLoad( function() {
+ta.util.cookie.showCookieBanner();
+}, 'showCookieBanner - initial consent');
+ta.store('popunder.similar_hotels', true);
+ta.store('popunder.similar_hotels_new_rules', true);
+ta.store('popunder.suppress_half_day', true);
+ta.store('p13n_client_tracking_tree',true);
+ta.store('useHotelsFilterState', true);
+ta.store('similar_hotels_exit_window_chevron', true);
+ta.store('fall_2013_masthead_refresh', true);
+ta.store( 'hotel_highlight_sd_style_disclaimer', true);
+ta.store('ta.media.uploader.cssAsset', 'https://static.tacdn.com/css2/overlays/media_uploader-v22065344501b.css')
+ta.meta && ta.meta.linkTracking && ta.queueForLoad(function() { ta.meta.linkTracking.setup(); }, 'setup meta link tracking event');
+ta.store('sem_provider_availability_sort', true);
+ta.store('sem_provider_availability_sort_respects_autobroadening', true);
+ta.queueForLoad(function() {
+if(typeof js_error_array != "undefined") {
+Array.each(js_error_array, function onErrorFuncPost(js_error) {
+if(js_error && js_error.msg) {
+var jsMsg = js_error.msg;
+delete js_error['msg'];
+var jsErr = null;
+if(js_error.error) {
+jsErr = js_error.error;
+delete js_error['error'];
+}
+var isTaNotDefinedError =
+jsMsg &&
+typeof jsMsg === 'string' &&
+jsMsg.indexOf('ta is not defined') >= 0;
+if(!isTaNotDefinedError) {
+ta.util.error.record(jsErr, "window.onerror:: " + jsMsg, null, js_error);
+}
+}
+});
+ta.store('ta.onload.errors', true);
+}
+ta.store('ta.js_error_array.processed', true);
+}, 'record onload errors');
+try {
+if(true || false) {
+if (window.ta && ta.common && ta.common.dmp && ta.common.dmp.store) {
+ta.common.dmp.store.storeValue("dmpEnabled", true);
+ta.common.dmp.store.storeValue("dmpBlueKaiEnabled", true);
+ta.common.dmp.store.storeValue("dmpPerfLoggingEnabled", false);
+ta.common.dmp.store.storeValue("dmpConsoleDebugEnabled", false);
+ta.common.dmp.store.storeValue("dmpMetaExposedEnabled", false);
+ta.common.dmp.store.storeValue("dmpGARecordWhitelistEnabled", true);
+ta.common.dmp.store.storeValue("dmpBlueKaiEnableMultipleIframes", true);
+if (ta.common && ta.common.dmp && ta.common.dmp.bluekai) {
+ta.common.dmp.store.setActiveDMP( ta.common.dmp.bluekai);
+}
+else if (ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record.apply(this, [null, "DMP JavaScript not found"]);
+}
+ta.common.dmp.store.storeValue("taUUID", "7CPfSw3ou8umnADYPFiGfpNu8RKgqBDYR/eEHceJFFQ=");
+ta.common.dmp.store.setBehaviors({
+"ServletName" : [
+"Home"
+]
+,  "POS" : [
+"br"
+]
+});
+}
+if (ta.common && ta.common.dmp && ta.common.dmp.store) {
+ta.common.dmp.store.storeValue('dmpMeasureTest', false);
+ta.common.dmp.store.storeValue('dmpReviewReadTest', false);
+}
+if (ta.queueForLoad) {
+ta.queueForLoad(function() {
+if (ta.common && ta.common.dmp) {
+ta.common.dmp.init();
+}
+},"initialize DMP framework");
+}
+}
+}
+catch(e) {
+if (window.ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record.apply(this, [e, "generic exception in ads_dmp_js.vm"]);
+}
+}
+;
+ta.store('access_control_headers', true);
+ta.store('secure_registration.enabled',true);
+ta.store( 'meta.disclaimerLinkText', 'Disclaimer' );
+ta.store('restaurant_reserve_ui',true);
+ta.store('hotels_placements_short_cells', true);
+ta.store('hotels_placements_short_cells.overlaysCss', "https://static.tacdn.com/css2/hotels_list_short_cells_overlays-v22724604168b.css" );
+</script>
+<script class="allowAbsoluteUrls" type="text/javascript">
+ta.store('ta.registration.currentUrlDefaults', {'url' : 'http%3A__2F____2F__www__2E__tripadvisor__2E__be__2F__','partnerKey' : '1','urlKey' : '7533ba0ab1915750f'} );
+</script>
+<script type="text/javascript">
+var ta = window.ta || {};
+ta.common = ta.common || {};
+ta.common.ads = ta.common.ads || {};
+ta.common.ads.remarketingOptions = ta.common.ads.remarketingOptions || {};
+(function() {
+var store = function(key, val) { ta.common.ads.remarketingOptions[key] = val; };
+store('pixelServlet', 'PageMoniker');
+store('pixelList', "adroll_pixel,clicktripz_clickout_pixel,criteo_pixel,crosswise_pixel,facebook_dr_pixel,facebook_wca_pixel,google_clickout_audience_pixel,google_clickout_conversion_pixel,google_pixel,pinterest_clickout_pixel,triggit_fbx_clickout_pixel,triggit_fbx_pixel,twitter_clickout_pixel,twitter_clickout_pixel_2,twitter_pixel,yahoo_clickout_pixel,yahoo_pixel");
+store('pixelsEnabled', true);
+store('clickoutPixelsEnabled', true);
+store('ibPixelsEnabled', true);
+store('cacheMobileClickoutResponse', false);
+store('pixelContext', {
+geoId: "",
+curLocId: "",
+vrRemarketingLocation: "",
+locIds: "",
+blTabIdx: "",
+servlet: "Home",
+userUnique: "55bd1745c60647b7f9d25c85289f2dbb3e8ec189",
+});
+var delayedLoadFunc = function() {
+setTimeout(function() {
+if (ta.common.ads.loadMonikers) {
+ta.common.ads.loadMonikers();
+}
+}, 2000);
+};
+if (ta.queueForLoad)
+{
+ta.queueForLoad(delayedLoadFunc, 'Remarketing');
+} else if (window.attachEvent && !window.addEventListener) {
+window.attachEvent('load', delayedLoadFunc);
+} else {
+window.addEventListener('load', delayedLoadFunc);
+}
+})();
+</script>
+<script type="text/javascript">
+ta.store('ta.isIE11orHigher', false);
+</script>
+<script type='text/javascript'>
+ta.store("calendar.serverTime", 1453795110049);
+</script>
+<script type="text/javascript">
+ta.store("commerce_clicks_in_new_tab.isEnabled", true);
+</script>
+<script type="text/javascript">
+ta.store('meta.meta_chevron_module_2014', true);
+</script>
+<script type="text/javascript">
+ta.store('assisted_booking_desktop_entry', false);
+ta.store('ibdm_impression_tracking', true);
+ta.store('assisted_booking_desktop_entry.logTreePoll', true);
+</script>
+<script type="text/javascript">
+ta.queueForLoad(function() {
+if( ta.common.header ) {
+ta.common.header.getWARNotificationFlag();
+}
+}, 'load notification flag if needed');
+</script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript">
+ta.localStorage && ta.localStorage.set('latestPageServlet', 'Home');
+</script>
+<script type="text/javascript">
+ta.queueForLoad(function() {
+if(!ta.overlays || !ta.overlays.Factory) {
+ta.load('ta-overlays');
+}
+}, 'preload ta-overlays');
+</script>
+<script type="text/javascript">
+ta.store("ib_flyout_more_rooms", true);
+</script>
+<script type="text/javascript">
+ta.store('screenSizeRecord', true);
+</script>
+<script type="text/javascript">
+try {
+ta.queueForLoad(function () {
+// Delay showing the display for a moment to let other overlays decide what to do
+setTimeout(function () {
+var lastVisitTS, dayMs, monthMs, curTS;
+// Test for functional local storage
+// NOTE: Not using ta.localStorage as it's not available in all scopes. This usage is simple and for a test.
+try {
+if (!window.localStorage) {
+return;
+}
+// Confirm we can store and retrieve values.
+window.localStorage.setItem('testtest', 'testtest');
+if ('testtest' !== window.localStorage.getItem('testtest')) {
+return;
+}
+window.localStorage.removeItem('testtest');
+dayMs = 1000 * 60 * 60 * 24;
+monthMs = 30 * dayMs;
+curTS = new Date().getTime();
+// Get last visit date from local storage if we can
+// NOTE: keep this above any gating logic!!
+lastVisitTS = +window.localStorage.getItem('overlay_registration_repeat_visit');
+// Store a new last visited date in local storage regardless of display if 0
+if (lastVisitTS < 1) {
+window.localStorage.setItem('overlay_registration_repeat_visit', '' + curTS);
+}
+} catch (e) {
+// ignore, localStorage failures probably
+}
+if (ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent()) {
+return;
+}
+// Do not display if meta focus is showing
+if (ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) {
+return;
+}
+// NOTE: This logic should live in fetchRepeatVisitDisplayConfig() so it's in a central location
+// However, without making that an ajax request, there's no way to get local storage values to that method.
+// In the future, avoid local storage to enable IE7, and have centralized logic.
+// Do not display if the member's last visit was less than 24 hours ago
+if ((lastVisitTS + dayMs) > curTS) {
+return;
+}
+// Do not display if the member's last visit was more than 30 days ago.
+if ((lastVisitTS + monthMs) < curTS) {
+return;
+}
+}, 250); // setTimeout, delay for display
+});
+} catch (e) {
+ta.util.error.record(e, 'Error with overlay registration display logic.');
+}
+</script>
+<script type="text/javascript">
+try {
+ta.queueForLoad(function () {
+// Delay showing the display for a moment to let other overlays decide what to do
+setTimeout(function () {
+// Do not display if another overlay is showing
+if (ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent()) {
+return;
+}
+// Do not display if meta focus (meta smoke-out) is showing
+if (ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) {
+return;
+}
+// Do not display on world- or non-geo- forums pages
+}, 250); // setTimeout, delay for display
+});
+} catch (e) {
+ta.util.error.record(e, 'Error with Viator overlay registration display logic.');
+}
+</script>
+<script type="text/javascript">
+try {
+ta.queueForLoad(function () {
+// Delay showing the display for a moment to let other overlays decide what to do
+setTimeout(function () {
+// Do not display if another overlay is showing
+if (ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent()) {
+return;
+}
+// Do not display if meta focus (meta smoke-out) is showing
+if (ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) {
+return;
+}
+}, 250); // setTimeout, delay for display
+});
+} catch (e) {
+ta.util.error.record(e, 'Error with ShowTopic sideways overlay registration display logic.');
+}
+</script>
+<script type="text/javascript">
+ta.store('meta_focus_no_servlet_in_key', true);
+ta.store('meta_focus_seen_timeout', 259200 * 1000);           </script>
+<script type='text/javascript'>
+ta.store('feature.flat_buttons_sitewide', true);
+</script>
+<script type='text/javascript'>
+new Asset.javascript("https://static.tacdn.com/js3/src/modules/component/BounceUserTracking-v2957112044b.js");
+</script>
+<script type='text/javascript'>
+ta.store('book_your_best_trip', true);
+ta.queueForLoad(function() {
+setTimeout(function() {
+var windowScroll = window.getScroll()
+, imageElement = ta.id('mainImageHeader');
+if (windowScroll && imageElement && windowScroll.y < (imageElement.getSize().y / 2 + imageElement.getPosition().y)) {
+ta.trackEventOnPage('pcb_campaign', 'homepage_message_in_view', 'Home', 1, true);
+};
+}, 3000 );
+});
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){
+var define = ta.p13n.placements.define.bind(ta.p13n.placements,'ibex_nav_recent_searches_control','handlers.js');
+/*
+* Handler for the control state of recent searches nav functionality. Handlers firing tracking for
+* events that would have caused the recent searches nav menu to open automatically if it was
+* displayed.
+*/
+define(["placement"], function(placement) {
+var EXIT_INTERRUPTOR_SHOWN_KEY = 'rsExitInterruptShown'
+, EXIT_INTERRUPTOR_OCCURRENCES = 'rsExitInterruptOccurrences'
+, WELCOME_DISABLED_KEY = 'rs_welcome_disabled'
+, RS_SESSION_TTL_KEY = "rs_session_ttl" //LS key to track TTL for session-based recent searches values.
+, RS_SESSION_TTL = 2 //in hours, how long should we keep around RS session data.
+, EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD = 2 //number of time the exit interruptor can appear for users during the threshold period
+, EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD_PERIOD = 7 //number of days used to limit exit interruptor appearances
+, EXIT_INTERRUPTOR_HR_VIEWS_KEY = 'rsHrViews'
+, EXIT_INTERRUPTOR_MIN_HR_VIEWS = 3
+, EXIT_INTERRUPTOR_MIN_HR_VIEWS_WITH_FILTER = 1
+, _interruptDisabled = false
+/*
+* Fires any tracking for the control version of recent searches
+*/
+, _fireTracking = function(initialSave, welcomeBack, hasValidExitSearch, requireEmailEntry) {
+_handleTTL();
+if(initialSave) {
+_trackingActions("INITIAL");
+}
+else if(welcomeBack &&
+_welcomeMessagingEnabled()) {
+_trackingActions("WELCOME");
+_disableInterrupt();
+}
+_trackHRViews();
+//welcome back messaging should always be disabled after the first page view
+_disableWelcomeMessaging();
+_enableExitInterruptorTracking(hasValidExitSearch, requireEmailEntry);
+}
+, _enableExitInterruptorTracking = function(hasValidExitSearch, requireEmailEntry) {
+if(!_localStorageEnabled()) {
+return;
+}
+(new Elements([document]))["addListener"]("mouseout", function(evt) {
+if (evt.toElement == null && evt.relatedTarget == null) {
+_triggerExitInterruptor(hasValidExitSearch, requireEmailEntry);
+}
+});
+_interruptDisabled = ta.has("interruptShown") ? ta.retrieve("interruptShown") : false;
+ta.on("interruptShown", _disableInterrupt);
+}
+, _disableInterrupt = function() {
+_interruptDisabled = true;
+}
+, _triggerExitInterruptor = function(hasValidExitSearch, requireEmailEntry) {
+if(!_exitInterruptorCanShow(hasValidExitSearch)) {
+return;
+}
+_flagInterruptorAsShown();
+var trackingAttributes = [];
+if(requireEmailEntry) {
+trackingAttributes.push("emailSignup");
+}
+else {
+trackingAttributes.push("emailExisting");
+}
+ta.trk(placement.name + "_EXIT_INTERRUPT_OPEN", false, ta.select("#" + placement.id)[0], trackingAttributes);
+}
+, _exitInterruptorCanShow = function(hasValidExitSearch) {
+return !_interruptDisabled &&
+!_exitInterruptorAlreadyShown() &&
+!_exitInterruptorBlockedByOverlay() &&
+!_exitInterruptorExceedsFrequencyThreshold() &&
+_userMeetsInterruptSearchCriteria(hasValidExitSearch) &&
+_isNavigationVisible();
+}
+, _isNavigationVisible = function() {
+var yPos = ta.id('HEAD').getPosition().y;
+yPos += ta.id('HEAD').offsetHeight;
+return window.scrollY < yPos;
+}
+, _userMeetsInterruptSearchCriteria = function(hasValidExitSearch) {
+//Disable if the user does not have dates set
+if(!window.ta || !ta.widgets || !ta.widgets.calendar || !ta.widgets.calendar.hasPageDates())
+{
+return false;
+}
+var hrViews = ta.localStorage.getSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY);
+hrViews = hrViews ? parseInt(hrViews) : 0;
+if(hasValidExitSearch &&
+hrViews >= EXIT_INTERRUPTOR_MIN_HR_VIEWS_WITH_FILTER) {
+return true;
+}
+return hrViews >= EXIT_INTERRUPTOR_MIN_HR_VIEWS;
+}
+, _trackHRViews = function() {
+if(!_localStorageEnabled()) {
+return;
+}
+if(window.pageServlet != "Hotel_Review" || !ta.widgets || !ta.widgets.calendar || !ta.widgets.calendar.hasPageDates()) {
+return;
+}
+var hrViews = ta.localStorage.getSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY);
+hrViews = hrViews ? parseInt(hrViews) + 1 : 1;
+ta.localStorage.setSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY, hrViews);
+}
+, _exitInterruptorAlreadyShown = function() {
+return !_localStorageEnabled() ||
+ta.localStorage.getSessionKey(EXIT_INTERRUPTOR_SHOWN_KEY);
+}
+, _exitInterruptorExceedsFrequencyThreshold = function() {
+if(!_localStorageEnabled()) {
+return true;
+}
+var previousOccurrences = _getPreviousExitInterruptOccurrences();
+return previousOccurrences && previousOccurrences.length >= EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD;
+}
+/**
+* block exit interruptor if there is another overlay appearing.
+*/
+, _exitInterruptorBlockedByOverlay = function() {
+return (ta && ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) ||
+(ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent());
+}
+, _getPreviousExitInterruptOccurrences = function() {
+if(!_localStorageEnabled()) {
+return [];
+}
+var pastOccurrences = ta.localStorage.get(EXIT_INTERRUPTOR_OCCURRENCES)
+, cleanedOccurrences = []
+, currentTime = new Date()
+, thresholdDiffMs = EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD_PERIOD * 24 * 60 * 60 * 1000
+, thresholdPeriodStart = new Date(currentTime.getTime() - thresholdDiffMs)
+;
+if(!pastOccurrences || !pastOccurrences.length) {
+return [];
+}
+pastOccurrences = pastOccurrences.split(',');
+//clean up any irrelevant occurrences
+for(var i = 0; i < pastOccurrences.length; i++) {
+var occurrenceDate = new Date(pastOccurrences[i]);
+if(occurrenceDate > thresholdPeriodStart) {
+cleanedOccurrences.push(occurrenceDate);
+}
+}
+return cleanedOccurrences;
+}
+, _flagInterruptorAsShown = function() {
+if(!_localStorageEnabled()) {
+return;
+}
+ta.localStorage.setSessionKey(EXIT_INTERRUPTOR_SHOWN_KEY, true);
+var pastOccurrences = _getPreviousExitInterruptOccurrences()
+, currentTime = new Date()
+, thresholdDiffMs = EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD_PERIOD * 24 * 60 * 60 * 1000
+;
+pastOccurrences.push(currentTime);
+ta.localStorage.set(EXIT_INTERRUPTOR_OCCURRENCES, pastOccurrences, thresholdDiffMs);
+}
+, _localStorageEnabled = function() {
+return ta && ta.localStorage && ta.localStorage.enabled;
+}
+/*
+* Actions needed for each of the tracking events
+*/
+, _trackingActions = function(openType) {
+ta.trk(placement.name + "_AUTO_OPEN_" + openType, false, ta.id(placement.id));
+}
+/*
+* Determines if the welcome message can fire. Checks local storage to see
+* if it has already fire or has been disabled (i.e. beyond the first page view).
+*/
+, _welcomeMessagingEnabled = function () {
+if(!_localStorageEnabled()) {
+return false;
+}
+if(!ta.localStorage.getSessionKey(WELCOME_DISABLED_KEY)) {
+return true;
+}
+}
+/*
+* Disables the welcome back messaging so it cannot fire multiple times during a session
+*/
+, _disableWelcomeMessaging = function() {
+if(_localStorageEnabled()) {
+ta.localStorage.setSessionKey(WELCOME_DISABLED_KEY, true);
+}
+}
+, _handleTTL = function() {
+if(!_localStorageEnabled()) {
+return;
+}
+var ttlValue = ta.localStorage.getSessionKey(RS_SESSION_TTL_KEY)
+, ttlExpired = !ttlValue || (new Date(ttlValue) < new Date())
+;
+if(ttlExpired) {
+ta.localStorage.removeSessionKey(WELCOME_DISABLED_KEY);
+ta.localStorage.removeSessionKey(EXIT_INTERRUPTOR_SHOWN_KEY);
+ta.localStorage.removeSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY);
+}
+var now = new Date()
+, expiration = new Date(now.getTime() + RS_SESSION_TTL * 60 * 60 * 1000)
+;
+ta.localStorage.setSessionKey(RS_SESSION_TTL_KEY, expiration);
+}
+;
+return {
+fireTracking : _fireTracking,
+enableExitInterruptorTracking : _enableExitInterruptorTracking
+};
+});
+})();
+ta.plc_ibex_nav_recent_searches_control_0_handlers = ta.p13n.placements.load('ibex_nav_recent_searches_control','handlers.js', { 'name': 'ibex_nav_recent_searches_control', 'occurrence': 0, 'id': 'taplc_ibex_nav_recent_searches_control_0', 'location_id': -1, 'servletClass': 'com.TripResearch.servlet.HomeServlet', 'servletName': 'Home', 'params': {}});
+if (ta.prwidgets) {
+ta.prwidgets.initWidgets(document);
+}
+/* ]]> */
+</script>
+<div id="IP_IFRAME_HOLDER"></div>
+</body>
+<!-- st: 28 dc: 0 sc: 1 -->
+<!-- uid: VqcnJgoQHnIAAXtuZscAAAAx -->
+</html>

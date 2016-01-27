@@ -1,0 +1,21 @@
+title=Fernando de Noronha
+url=http://www.noronha.pe.gov.br/
+html=<title>Fernando de Noronha</title>
+<body style="margin: 0px; border:0px; padding: 0px;">
+<iframe id="frm" marginheight="0" marginwidth="0" frameborder="0"></iframe>
+<script type="text/javascript">
+	function getWidth() {
+		return window.innerWidth && window.innerWidth > 0 ? window.innerWidth : /* Non IE */
+		document.documentElement.clientWidth && document.documentElement.clientWidth > 0 ? document.documentElement.clientWidth : /* IE 6+ */
+		document.body.clientWidth && document.body.clientWidth > 0 ? document.body.clientWidth : -1; /* IE 4 */
+	}
+	function getHeight() {
+		return window.innerHeight && window.innerHeight > 0 ? window.innerHeight : /* Non IE */
+		document.documentElement.clientHeight && document.documentElement.clientHeight > 0 ? document.documentElement.clientHeight : /* IE 6+ */
+		document.body.clientHeight && document.body.clientHeight > 0 ? document.body.clientHeight : -1; /* IE 4 */
+	}
+	document.getElementById("frm").width = getWidth(); 
+	document.getElementById("frm").height = getHeight(); 
+	document.getElementById("frm").src = "http://www.prontotecnologia.com.br/noronha/";
+</script>
+</body>

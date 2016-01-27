@@ -1,0 +1,53 @@
+title=LOGITRAVEL
+url=http://cdn.logitravel.it/logitravelit/htm/it/seguridad.htm
+html=<html>
+<head>
+	<title>LOGITRAVEL</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link href="/logitravelit/css2012/default.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+	    function guardarComo() {
+	        if (navigator.appName == 'Netscape') {
+	            alert('Para guardar el documento:Boton Derecho,Guardar como...');
+	        } else {
+	            window.document.execCommand('saveAs', true, 'avisoLegal.htm');
+	        }
+	    }
+	</script>
+	<style>
+		p {margin: 0 0 8px; line-height: 15px;}
+		p span.txt14azulbold {line-height: 17px;}
+	</style>
+</head>
+
+<body>
+	<div style="width: 650px; margin: 15px">
+		<div class="caja_basica">
+			<div class="rotuloazul">
+				<h2>Politica di Sicurezza</h2>
+			</div>
+			<div class="contenido10 txt11negro">
+				<p>
+					<b>LOGITRAVEL</b> ha adottato le misure tecniche e organizzative necessarie per garantire la sicurezza e integrit&agrave; dei dati, cos&igrave; 
+					come per evitare la loro alterazione, perdita, trattamento o accesso non autorizzato.
+				</p>
+				<p>
+                     A questa garanzia si aggiungeranno le seguenti condizioni: 
+                </p>
+				<ol style="margin: 0 0 0 17px">
+					<li> 
+						<p>
+							<b>SERVER SICURO - PUOI SAPERE IN QUALUNQUE MOMENTO SE UNA PAGINA &Egrave; SICURA</b>
+						</p>
+						<p>
+							Quando ti chiedono di inserire dati personali, indipendentemente dal sistema di sicurezza applicato, avrai la certezza che un negozio &egrave; 
+							sicuro quando appare chiuso il lucchetto nella parte inferiore di un browser di questi tipi:
+						</p>
+						<div align="center"><img src="/logitravel/images/candadito.gif" /></div>
+					</li>            
+				</ol>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,85 @@
+title=
+url=http://www.taittinger.fr/presentation/presentation2.htm
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+ 	<meta http-equiv="content-language" content="">
+
+	<title></title>
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+</head>
+<script>
+	function change() {
+	window.location.href = 'http://www.taittinger.fr/#/presentation/presentation2.htm';
+	}
+</script>
+<style>
+	body {
+		background:#CCCCCC;
+		margin:10px 0px 0px 0px;
+		padding:0px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+	
+	#contenu {
+		width:980px;
+		padding:10px;
+		margin-left:auto;
+		margin-right:auto;
+		border:#666666 solid 1px;
+		font-size:12px;
+		background:#FFFFFF;
+	}
+	
+	#contenu h1 {
+		font-size:16px;
+		color:#333333;
+		padding-bottom:5px;
+		border-bottom:dashed 1px #333333;
+		margin-bottom:5px;
+	}
+	
+	#contenu h2 {
+		font-size:12px;
+		color:#666666
+		margin-bottom:5px;
+	}	
+</style>
+<body onload="change();">
+	<div id="contenu">
+    	          
+          	<h1></h1>
+            <p>
+            	            </p>
+          
+              </div>
+    
+    <!-- tag de passage -->
+
+    	<script type="text/javascript">
+		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		</script>
+		<script type="text/javascript">
+		try {
+            _gat._createTracker('UA-32268573-1', 'local');
+            _gat._createTracker('UA-26641714-1', 'global');
+            window.trackView = function(value)
+            {
+                var pageTracker = _gat._getTrackerByName('local');
+                pageTracker._trackPageview(value);
+                var pageTrackerGlobal = _gat._getTrackerByName('global');
+                pageTrackerGlobal._trackPageview(value);
+            }
+
+            SWFAddress.setTracker("trackView");
+
+        } catch(err) {}
+	</script>
+	
+    <script id="tg_passage_cybercite" type="text/javascript" src="http://tracking.veille-referencement.com/TAG/TAG_passage.js?idsite=8437"></script> 
+    </body>
+</html>

@@ -1,0 +1,118 @@
+title=null
+url=http://www.cvc.com.br/faq-vale-viagem/nossas-lojas.aspx
+html=
+
+    
+
+    <!-- Título -->
+    
+            <h2>Nossas Lojas</h2>
+    
+
+    <a href="javascript:void(0);" class="btn_close close" title="Fechar"></a>
+    
+    <div class="comments" id="printPage" style="overflow:auto;">
+        <!-- Subtítulo -->
+        
+                <h3>Conheça uma de nossas lojas</h3>
+        
+              
+        <!-- Descrição -->
+        <h1>Atendimento ao Cliente</h1>
+
+<div class="header">Para sua maior comodidade, a CVC possui uma
+linha direta com o cliente, onde é possível esclarecer dúvidas,
+solicitar informações ou simplesmente sugerir alguma idéia. Basta
+selecionar o tema de sua preferência e preencher o formulário corre
+spondente.</div>
+
+<ul class="menu">
+<li class="faq"><a href="/atendimento/faq.aspx">Dúvidas
+Frequentes</a></li>
+
+<li class="shop active"><a
+href="/atendimento/lojas.aspx">Lojas</a></li>
+
+<li class="contact"><a href="/atendimento/fale-conosco.aspx">Fale
+Conosco</a></li>
+</ul>
+
+<!-- FORM BUSCA DE FILIAIS -->
+<div class="content">
+<h2>Encontre a loja CVC mais próxima</h2>
+
+<p>Preencha os campos <strong>Estado e Cidade</strong> para
+encontrar a loja CVC mais próxima de você.</p>
+
+<div class="localization">
+<div class="box_left" id="boxLeft"><span>CEP:</span> 
+
+<div class="small label required"><span>Estado:</span>Selecione um
+EstadoACREALAGOASAMAPAAMAZONASBAHIACEARADISTRITO FEDERALESPIRITO
+SANTOGOIASMARANHAOMATO GROSSOMATO GROSSO DO SULMINAS
+GERAISPARAPARAIBAPARANAPERNAMBUCOPIAUIRIO DE JANEIRORIO GRANDE DO
+NORTERIO GRANDE DO SULRONDONIARORAIMASANTA CATARINASAO
+PAULOSERGIPETOCANTINS</div>
+</div>
+
+<div class="box_left" style="margin-left: 70px;">
+<span>Distância(KM):</span> 
+
+<div id="sliderDistancia"
+class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all">
+<a style="left: 0%;" href="#"
+class="ui-slider-handle ui-state-default ui-corner-all"></a></div>
+
+<div class="small label required"><span>Cidade:</span></div>
+</div>
+</div>
+
+<div id="branch-loader"
+style="position: absolute; margin-left: 390px; display: none;"><img src="/travel/Styles_B2C/images/loader/loading-gif-pequeno.gif"/></div>
+
+<a id="buscarFiliais" href="javascript:void(0);"
+class="btn_confirm">Encontrar loja</a></div>
+
+<!-- MODELOS -->
+<div id="modelos" class="hide"><!-- FILIAIS -->
+<div id="modeloFilial">
+<div class="establishment">
+<p>&nbsp;</p>
+
+<p><strong>-</strong></p>
+
+<p>CEP:</p>
+</div>
+
+<div class="branch">
+<p>Filial</p>
+
+<p>&nbsp;</p>
+</div>
+
+<div class="phone">
+<div id="telefones"></div>
+
+<p>&nbsp;</p>
+</div>
+</div>
+
+<!-- FUNCIONARIO -->
+<div id="modeloFuncionario"></div>
+
+<!-- TELEFONE -->
+<div id="modeloTelefone">
+<p><span class="text_14_555"><span>(</span>
+<span>)</span></span></p>
+</div>
+</div>
+
+<!-- RESULTADO -->
+<div id="resultadoBuscaFilial"></div>
+
+<div id="erro" class="hide"></div>
+              
+    </div>
+    
+    <!-- Impressão -->
+    

@@ -1,0 +1,1023 @@
+title=Logitravelin uusi sovellus osa saatavilla seuraaviin laitteisiin  iOS, iPhone, iPad
+url=http://www.logitravel.fi/apps/
+html=
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="FI" lang="FI" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<title>Logitravelin uusi sovellus osa saatavilla seuraaviin laitteisiin  iOS, iPhone, iPad </title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="description" content="Uusi Logitravel sovellus, josta l&#246;yd&#228;t lennot, hotellit, vuokra-autot ja nyt my&#246;s valtameriristeilyt. Logitravel - varaa miss&#228; ja koska tahansa!." />
+<meta name="keywords" content="logitravel, app, apple, iphone, ios, ipad, sovellus, lataa, ipod touch" />
+<meta name="title" content="Logitravelin uusi sovellus osa saatavilla seuraaviin laitteisiin  iOS, iPhone, iPad " />
+<meta http-equiv="title" content="Logitravelin uusi sovellus osa saatavilla seuraaviin laitteisiin  iOS, iPhone, iPad " />
+<meta property="fb:admins" content="100002031649350" />
+
+<meta property="fb:app_id" content="" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Expires" content="never" />
+<meta name="google" content="notranslate" />
+    <meta name="robots" content="index,follow" />
+
+<meta name='apple-itunes-app' content='app-id=820411473, affiliate-data=at=10lJDC&ct=SmartAppBanner&pt=492790, app-argument=logitravel://home/?sesion=' /><meta name='google-play-app' content='app-id=com.logitravel.logitravel' />
+
+
+<link rel="shortcut icon" href="http://cdn.logitravel.fi/logitravelfi/images/favicon.ico">
+<!--[if lt IE 9]>
+    <script src="http://cdn.logitravel.fi/responsive/common/js/common/html5.js"></script>
+<![endif]-->
+<!-- Google Fonts -->
+
+    <link href="http://cdn.logitravel.fi/responsive/assets/css/app/fonts.css?301120151333" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.fi/responsive/assets/css/app/vendors.css?010620151748" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.fi/responsive/assets/css/logitravel/main.css?220120160924" rel="stylesheet" type="text/css" />
+<!--[if lt IE 10]><link href="http://cdn.logitravel.fi/responsive/assets/css/logitravel/ie-9-main.css?141020150938" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.fi/responsive/assets/css/logitravel/fi.css?210120160900" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]><link href="http://cdn.logitravel.fi/responsive/common/css/bootstrap/ie-non-responsive.css?031220131704" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 9]><link href="http://cdn.logitravel.fi/responsive/logitravelfi/css/style-ie-8.css?121220141054" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.fi/responsive/logitravelfi/css/app/app.css?310320141638" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.fi/responsive/logitravelfi/css/app/app-responsive.css?310320141638" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.fi/responsive/logitravelfi/css/owl.carousel.min.css?070120151601" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <script type="text/javascript">
+    var setCookie = function (cookieName, cookieValue, nDays) {
+        var today = new Date();
+        var expire = new Date();
+        if (nDays == null || nDays == 0) nDays = 1;
+        expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+        document.cookie = cookieName + '=' + cookieValue + ';expires=' + expire.toGMTString() + ';path=/';
+    }
+    var getCookie = function (name) {
+        var c_value = document.cookie
+        var c_start = c_value.indexOf(" " + name + "=");
+        if (c_start == -1) {
+            c_start = c_value.indexOf(name + "=");
+        }
+        if (c_start == -1) {
+            c_value = null;
+        } else {
+            c_start = c_value.indexOf("=", c_start) + 1;
+            var c_end = c_value.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = c_value.length;
+            }
+            c_value = (c_value.substring(c_start, c_end));
+        }
+        return c_value;
+    }
+    function enviapintado(idpixel, ok) {
+        $.ajax({
+            url: urlCierre + '/estadoPixel.ashx',
+            data: { codPixel: idpixel, estado: ok },
+            async: true
+        });
+    }
+
+</script>
+
+<script type="text/javascript">
+dataLayer=[{
+		product_id: "", //ID del producto. Formato estandarizado: linea de negocio + codigo de producto
+		productName: "", //Nombre del producto
+		productURL: "", //Url del producto
+		productImgURL: "", //Imagen del producto
+		productDesc: "#productDesc#", //Descripcion del producto
+		productTypeName: "home", //Tipo de producto. Formato estandarizado por linea de negocio
+		categoryItem1: "", //Primer item para categorizar
+		categoryItem2: "", //Segundo item para categorizar
+		categoryItem3: "", //Tercer item para categorizar
+		categoryItem4: "", //Cuarto item para categorizar
+		categoryItem5: "", //Quinto item para categorizar
+		categoryName: "home", //Linea de negocio estandarizada
+		pageTypeName: "home", //Nombre de la pagina en el flujo de venta (estandarizado)
+		pageName: "FI/apps", //Nombre semantico de la pagina Formato Google Analytics
+		webCode: "logitravelfi", //Codigo de aplicacion web
+		anuncio: "25034117", // Codigo de anuncio (interno)
+		userCode: "32557933276", //Codigo de usuario (interno)
+		customerID: "", //Codigo de cliente (interno)
+		localizador: "", //Localizador de la reserva (interno)
+		totalAmount: "0.00", //Precio con decimales y punto
+		currency: "", //Moneda de venta
+		revenue: "0.00", //Beneficio de la reserva con decimales y punto
+		numPeople: "0", //Suma del total de pasajeros
+		numAdults: "0", //No adultos
+		numKids: "0", //No ninos (no bebes)
+		numInfants: "0", //No bebes
+		numRooms: "0", //No habitaciones
+		productCity: "", //Ciudad del producto
+		productZone: "", //Zona del producto
+		productCountry: "", //Pais del producto
+		codDeparture: "", //Codigo de origen (aeropuerto/tren/puerto)
+		codArrival: "", //Codigo de destino (aeropuerto/tren/puerto)
+		checkInDMY: "01/01/0001", //Fecha inicio formato DD/MM/YYYY
+		checkOutDMY: "01/01/0001", //Fecha fin formato DD/MM/YYYY
+		numNights: "0", //No de noches
+		tduid: "", //Identificador partner Treadedoubler
+		tduid2: "", //Identificador partner Tradedoubler2
+		partnerID: "", //Identificador partner Zanox
+		externalID: "", //Identificador externaldID
+		ReviewStr: "name%3dlogitravelIT%26email%3djose.miguel%40logitravel.com", //Sring de verificacion
+		checksum: "v04c4ca4238a0b923820dcc509a6f75849b", //String para validacion TradeDoubler
+		deviceType: "desktop",
+		MD5Email: ""
+	}];
+</script>
+
+
+        <header class="header clearfix hidden-retina newHeader" id="newHeader">
+        <div class="container">
+    <section class="header-top">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-xl-3">
+                <div class="logo contEllipsis">
+                    <a href="http://www.logitravel.fi/" title="Logitravel"><img src="http://cdn.logitravel.fi/logitravelfi/images/permanentes/logo_positivo@2x.png" alt="Matkat" /></a>
+                    <h1 class="hidden-phone">Logitravelin uusi sovellus osa saatavilla seuraaviin laitteisiin  iOS, iPhone, iPad </h1>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-8 col-xl-9">
+
+<div id="buscadorDesktop" class="buscadorDesktop boton-header condensed ">
+    <label class="caption" for="textoIrA"></label>
+    <input type="text" 
+           aria-haspopup="true" 
+           aria-autocomplete="list" 
+           role="textbox" 
+           autocomplete="off" 
+           class="textoIrACab ui-autocomplete-input ac_input"
+           id="textoIrA" 
+           name="textoIrA" 
+           value="Jatka ..." 
+           onfocus="if ($(this).val() == 'Jatka ...') $(this).val('');"
+           onblur="if ($(this).val() == '') { $(this).val('Jatka ...'); $('#buscar').hide(); }">
+    <div class="styled-select">
+        <span class="selectorBuscador" id="selectorBuscador"></span>
+        <select id="selectLinea">
+            <option value="IRA0">Kaikki Matkapaketit</option>
+            <option value="IRA8">Hotellit</option>
+            <option value="IRA12">Lennot</option>
+            <option value="IRA4">Risteilyt</option>
+            <option value="IRA1">Matkapaketit</option>
+            <option value="IRA13">Autot</option>
+        </select>
+    </div>
+</div>
+                        <div id="botonOrigenes" class="selectOrigen boton-header">
+                    <a href="#" data-toggle="modal">
+                        <span class="label-origen">L&#228;hin lentokentt&#228;</span>
+                        <strong class="origen" id="originCity">Helsinki</strong>
+                    </a>
+                </div>
+
+                
+
+
+<div class="boton-header lastSearches">
+    <span id="LoadLastSearches">Omat matkahakuni</span>
+    <div class="dropdown">
+        <div class="infoLastSearches">
+            <h3>Viimeisimm&#228;t haut</h3>
+            <p>Tallennamme hakusi  voidaksesi my&#246;hemmin jatkaa varausta.</p>
+            <a href="/contents/LastSearch/Index" target="_parent">Katso kaikki hakusi</a>           
+        </div>
+        <div class="listLastSearches" id="listLastSearches">
+            <div id="waitHomeLastSearch" class="loader-ajax unbordered searches"><span>Matkahakuja p&#228;ivitet&#228;&#228;n </span></div>
+        </div>
+    </div>
+</div>                <div id="userSesion" class="userSesion boton-header" data-message-call="False">
+        <span id="enlaceIniSesion" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+            <strong>Omat varaukset</strong>
+        </span>
+    <ul id="user-menu" class="user-menu dropdown-menu">
+        <li>
+            <a id="enlacePerfil" class="enlacePerfil listedLink">
+                <i class="ico-user ico-lg"></i><span id="usuario" class="user">Kirjaudu </span>
+            </a>
+        </li>
+        <li>
+            <div class="separadorBottom"></div>
+            <a id="enlaceMensajes" class="enlaceMensajes">
+                <i class="icon-envelope icon-lg fa fa-envelope fa-lg"></i>
+                <span class="numMensajes" id="numMsg">0</span>Viestit
+            </a>
+        </li>
+
+        <li>
+            <a class="enlaceMisReservas">
+                <i class="icon-suitcase icon-lg fa fa-suitcase fa-lg"></i>Omat varaukseni
+            </a>
+        </li>
+            <li>
+                <div class="separadorBottom"></div>
+                <a class="enlaceContacto listedLink" href="http://www.logitravel.fi/ota-yhteytta/">
+                    <span class="visible">Tarvitsetko apua?</span>
+                    <i class="fa fa-phone fa-lg"></i>
+                    <span class="phoneNumber">09 31 579 401  </span>
+                </a>
+            </li>
+    </ul>
+
+</div>
+
+                
+                
+    <div id="contactUs" class="contactUs boton-header">
+        <a class="phoneNum markerToolTip" data-phone="09 31 579 401" href="http://www.logitravel.fi/ota-yhteytta/" data-original-title="&lt;span class=&#39;title&#39;&gt;Tarvitsetko apua?&lt;/span&gt;&lt;p&gt;Suomenkielinen asiakaspalvelumme on avoinna ma  - pe 09.00 - 18.00. Lauantaisin, sunnuntaisin ja arkipyhin&#228; suljettu.&lt;/p&gt;" data-placement="bottom">09 31 579 401</a>
+    </div> 
+
+
+                
+                
+
+    <div id="certificados" class="certificados fi">
+        <a class="travelLogo visible-lg" target="_blank" href="http://www.kkv.fi/matkatoimistorekisteri/">
+            <img class="lazy valmismatka" alt="Valmismatka" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/logitravelfi/images2012/home/img_valmismatka.png" />
+        </a>
+    </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+        <nav class="navegacion hidden-phone hidden-xs">
+    <div class="container">
+        <ul class="nav navPrincipal">
+                            <li class="">
+                    <a title="Halvat hotellit"
+                       href="http://www.logitravel.fi/hotellit/"  data-menu-track="hoteles">
+                        Hotellit
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Halvat lennot"
+                       href="http://www.logitravel.fi/lennot/"  data-menu-track="vuelos">
+                        Lennot
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Halvat risteilyt"
+                       href="http://www.logitravel.fi/risteilyt/"  data-menu-track="cruceros">
+                        Risteilyt
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Matkapaketit"
+                       href="http://www.logitravel.fi/matkapaketit/"  data-menu-track="paquetes">
+                        Matkapaketit
+
+                    </a>
+                </li>
+                <li class="hidden-tablet hidden-sm">
+                    <a title="&#196;kkil&#228;hd&#246;t"
+                       href="http://www.logitravel.fi/akkilahdot/"  data-menu-track="chollos">
+                        &#196;kkil&#228;hd&#246;t
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Halpa autonvuokraus"
+                       href="http://www.logitravel.fi/autonvuokraus/"  data-menu-track="coches">
+                        Autot
+
+                    </a>
+                </li>
+                
+        </ul>
+        
+    </div>
+</nav>
+    </header>
+    
+<header id="mobile-header" class="mobile-header visible-retina">
+    <div id="btn-mobile" class="btn-mobile prueba"><i class="icon-reorder fa fa-reorder fa-bars"></i></div>
+    <div class="logo">
+        <a href="http://www.logitravel.fi" title="Logitravel">
+            <img src="http://cdn.logitravel.fi/logitravelfi/images/permanentes/logo_negativo@2x.png" alt="Matkat"/>
+        </a>
+    </div>
+
+    
+    <a id="btn-phoneMobile" class="btn-phoneMobile visible-xs" title="Soita" href="tel:0931579401"><i class="icon-phone fa fa-phone"></i></a>
+   
+    
+    <div id="btn-buscadorMobile" class="btn-buscadorMobile hidden-xs"><i class="icon-search fa fa-search"></i></div>
+    <div id="buscadorMobile" class="buscadorMobile scrollableSearch input-group">
+        <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" class="textoIrACabMobile m-0" id="textoIrAMobile" name="textoIrA"
+                value="Matkapaketit: laita kohde" 
+               onfocus="if ($(this).val() == 'Matkapaketit: laita kohde') $(this).val('');"
+                onblur="if ($(this).val() == '') { $(this).val('Matkapaketit: laita kohde'); $('#buscar').hide(); }">
+        <a id="clearSearch" class="input-group-addon transparent mr-10 mt-10 mt-xs-5">
+            <i class="icon-times icon-2x fa fa-times fa-2x"></i>
+        </a>
+    </div>
+</header>
+
+<div id="mobile-menu" class="mobile-menu visible-retina scrollable">
+    <div class="phoneMenuSection user-mobile-menu">
+        <div class="seccionMenuPhone">K&#228;ytt&#228;j&#228;profiili</div>
+            <div class="enlacePerfil" id="enlacePerfilMobile" data-toggle=" collapse" data-target="#user-details" data-parent=".user-mobile-menu">
+                <i class="ico-user ico-lg user-photo"></i>
+                <div class="user-info contellipsis"><span class="ellipsis"><strong class="user">Aloita</strong></span></div>
+            </div>
+        
+        
+    </div>
+    <div class="phoneMenuSection originMenu selectOrigen">
+        <div class="seccionMenuPhone">
+            L&#228;hin lentokentt&#228;
+        </div>
+        <ul class="nav mb-0">
+            <li><a href="#" data-toggle="modal"><i class="icon-plane icon-lg fa fa-plane fa-lg"></i>Helsinki</a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection masterMenu">
+        <div class="seccionMenuPhone">
+            Varaa nyt
+        </div>
+        <ul class="nav mb-0">
+                <li><a href="http://www.logitravel.fi/hotellit/"  data-menu-track="hoteles" ><i class="ico-hotel"></i>Hotellit</a></li>
+                <li><a href="http://www.logitravel.fi/lennot/"  data-menu-track="vuelos" ><i class="ico-vuelo"></i>Lennot</a></li>
+                <li><a href="http://www.logitravel.fi/matkapaketit/"  data-menu-track="paquetes" ><i class=""></i>Matkapaketit</a></li>
+                <li><a href="http://www.logitravel.fi/risteilyt/"  data-menu-track="cruceros" ><i class="ico-crucero"></i>Risteilyt</a></li>
+                <li><a href="http://www.logitravel.fi/autonvuokraus/"  data-menu-track="coches" ><i class=""></i>Autonvuokraus</a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection soporteMenu">
+        <div class="seccionMenuPhone">
+            Asiakaspalvelu
+        </div>
+        <ul class="nav mb-0">
+            <li class="llamada visible-xs visible-sm">
+                <a id="llamar" href="tel:0931579401" title="Soita" class="boton boton-peque boton-azul pt-7 mt-3">
+                    <i class="icon-phone icon-lg fa fa-phone fa-lg blanco mr-5"></i>
+                    0931579401</a>
+            </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection socialMenu">
+        <div class="seccionMenuPhone">
+           Sosialiset mediat ...
+        </div>
+        <ul class="nav mb-0">
+                        <li>
+                            <a href="https://www.facebook.com/LogitravelFi" title="Tutustu Logitravelin Facebook kautta" target="_blank"
+                               class="facebook">
+                                <span class="icon-facebook fa fa-facebook"></span>Facebook
+                            </a>
+                        </li>
+                    <li>
+                        <a href="https://plus.google.com/+LogitravelFI/" title="Tutustu Logitravelin Google+ kautta" target="_blank"
+                           class="google">
+                            <span class="icon-google-plus fa fa-google-plus"></span>Google+
+                        </a>
+                    </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection paisMenu">
+        <div class="seccionMenuPhone">Vaihda maata...</div>
+        <div id="cambioPais" class="enlaceIdioma collapsed" data-toggle="collapse" data-target="#user-idioma" data-parent=".paisMenu">
+            <span class="flagFI ml-10 mt-5 mr-20"></span>Suomi
+        </div>
+        <ul id="user-idioma" class="user-idioma collapse">
+                <li><a href="http://www.logitravel.com">
+                        <span class="flagES mt-15 ml-5 mr-20"></span>Espanja
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.pt">
+                        <span class="flagPT mt-15 ml-5 mr-20"></span>Portugali
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.it">
+                        <span class="flagIT mt-15 ml-5 mr-20"></span>Italia
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.de">
+                        <span class="flagDE mt-15 ml-5 mr-20"></span>Saksa
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.com.br">
+                        <span class="flagBR mt-15 ml-5 mr-20"></span>Brasilia
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.fr">
+                        <span class="flagFR mt-15 ml-5 mr-20"></span>Ranska
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.co.uk">
+                        <span class="flagUK mt-15 ml-5 mr-20"></span>Iso-Britannia
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+    
+    
+
+    
+<div class="contenido p-0">
+    <!-- Presentacion Aplicacion -->
+    <div id="presentacion" class="presentacion bg-grisPalido pt-sm-50 mt-sm-10 pt-xs-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-0">
+                    <!-- Descripcion Principal -->
+                    <article class="descripcion text-center-sm text-center-xs mt-50 mt-sm-40 mt-xs-0 mb-sm-20 mb-xs-50 ph-lg-30 ph-xs-25">
+                        <h2>Logitravel App</h2>
+                        <p class="txtGrande normal x3 mb-25">
+							Uusi Logitravel sovellus, josta l&#246;yd&#228;t lennot, hotellit, vuokra-autot ja nyt my&#246;s valtameriristeilyt. Logitravel - varaa miss&#228; ja koska tahansa!.
+                        </p>
+    
+						<div class="row row-narrow">
+							<div class="col-xxs-12 col-xs-7 col-sm-7 col-md-7 mb-xs-10">
+                                <a class="top-download pv-12" href="https://geo.itunes.apple.com/FI/app/logitravel/id820411473?mt=8&amp;at=10lJDC&amp;ls=1&amp;pt=492790&amp;ct=LandingApps" data-app-menu-track="AppStore" >
+                                    <img src="http://cdn.logitravel.fi/comun/images/moviles/badges/appstore/appstore_fi.png" alt="Logitravel App Store Download" />
+                                    <!--<i class="fa fa-apple fa-2x blanco shadow-black mr-10"></i><span class="titulo blanco shadow-black">App Store</span>-->
+                                </a>
+							</div>
+							<div class="col-xxs-12 col-xs-5 col-sm-5 col-md-5 mb-xs-10">
+                                <a class="top-download pv-12" href="https://play.google.com/store/apps/details?id=com.logitravel.logitravel&amp;referrer=utm_source=logitravel&amp;utm_medium=landing&amp;utm_campaign=LandingApps" data-app-menu-track="GooglePlay" >
+                                    <img src="http://cdn.logitravel.fi/comun/images/moviles/badges/playstore/googleplay_fi.png" alt="Logitravel Play Store Download" />
+                                    <!--<i class="fa fa-android fa-2x blanco shadow-black mr-10"></i><span class="subtitulo blanco shadow-black">Google Play</span>-->
+                                </a>
+							</div>
+						</div>
+
+                    </article>
+                </div>
+
+                    
+                <div class="col-xxs-12 col-xs-10 col-xs-offset-2 col-sm-7 col-sm-offset-4 col-md-5 col-md-offset-0 col-lg-4">
+                    <div class="phone-holder relative" id="phone-holder">
+                        <figure>
+                            <img class="lazy" alt="#" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/comun/images/moviles/phone-in-hand.png" />
+							<noscript><img alt="#" src="http://cdn.logitravel.fi/comun/images/moviles/phone-in-hand.png"></noscript>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hightlights -->
+    <section id="hightlights" class="hightlights bg-normal pv-50 text-center">
+        <div class="container">
+            <figure>
+				<img class="lazy" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/comun/images/moviles/icoApp2014.png" alt="App Logitravel" />
+            </figure>
+            <h1 class="blanco shadow-black mt-0 mb-30">Kaikki matkasi mobiilissa!</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Etsi</span>
+						<p class="blanco shadow-black txtGrande x2">Parhaat matkatarjoukset aina saatavilla!</p>
+						<i class="fa fa-search fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Vertaile</span>
+						<p class="blanco shadow-black txtGrande x2">Tutustu upeaan valikoimaamme eri matkatuotteita</p>
+						<i class="fa fa-thumbs-o-up fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Varaa</span>
+						<p class="blanco shadow-black txtGrande x2">Varaa helposti ja turvallisesti </p>
+						<i class="fa ico-maleta fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Matkaoppaat</span>
+						<p class="blanco shadow-black txtGrande x2">Satoja ilmaisia  kohdeopppaita ymp&#228;ri maailman (vain espanjaksi))</p>
+						<i class="fa fa-book fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Jaa verkossa</span>
+						<p class="blanco shadow-black txtGrande x2">Jaa matkakokemuksesi Facebookissa ja Twitteriss&#228;</p>
+						<i class="fa fa-share-square-o fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Kartat</span>
+						<p class="blanco shadow-black txtGrande x2">Paikallista kohteesi kartalla</p>
+						<i class="fa fa-globe fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Upea uutuus</span>
+						<p class="blanco shadow-black txtGrande x2">L&#246;yd&#228; parhaat vaihtoehdot oman sijaintisi perusteella</p>
+						<i class="fa fa-magic fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Tiedotteita</span>
+						<p class="blanco shadow-black txtGrande x2">Vastaanota huipputarjouksia ja tiedotteita varaustasi koskien</p>
+						<i class="fa fa-bell fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Kalenterit</span>
+						<p class="blanco shadow-black txtGrande x2">Lis&#228;&#228; matkan ajankohta automaattisesti kalenteriisi</p>
+						<i class="fa fa-calendar fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Lineas de Negocio -->
+    <div class="lineasNegocio pv-50 p-xs-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-3 col-md-offset-1 hidden-xs">
+                    <div class="module carouselPantallas relative">
+                        <!-- Phone Mockup -->
+                        <div class="cont-phone">
+                            <img class="img-responsive" id="phone-mockup" src="http://cdn.logitravel.fi/comun/images/moviles/phone-mockup.png" alt="iPhone Mockup" />
+                        </div>
+                        <!-- Carousel de Pantallas -->
+                        <div class="cont-owl-extra">
+                            <div class="cont-owl relative hidden-xs">
+					            <div class="loading-owl height400 text-center">
+						            <i class="fa fa-spinner fa-spin colorPrincipal fa-3x"></i> 
+					            </div>
+                                <div id="carouselPantallas" class="owl-carousel owl-theme no-pagination" data-items="1-1-1-1-1">
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/comun/images/moviles/pantalla-vuelos.png" alt="Lentotarjouksia" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/comun/images/moviles/pantalla-hotel.jpg" alt="Halvimmat hotellit" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/comun/images/moviles/pantalla-cruceros.png" alt="Kaikki valtameriristeilyt" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/comun/images/moviles/pantalla-coches.jpg" alt="Autonvuokraus huippuhintaan" />
+                                        </div>
+                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="text-center mb-20 visible-xs">
+                        <img class="lazy" alt="#" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://placehold.it/390x620" />
+						<noscript><img alt="#" src="http://placehold.it/390x620"></noscript>
+                    </figure>
+                </div>
+                <div class="col-sm-7 col-md-5 col-md-offset-2 col-lg-6">
+                    <div class="panel-group pv-10" id="accordionProducts">
+
+                            <div id="product-1" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-1"><i class="ico-vuelo ico-lg valignMiddle mr-15 pb-3"></i>Lentotarjouksia</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-1" class="panel-collapse collapse in">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Kaikkien reittilentoyhti&#246;iden lis&#228;ksi:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Saatavilla my&#246;s Low Cost -yhti&#246;t</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Vertailemme eri yhti&#246;it&#228; ja n&#228;yt&#228;mme parhaat hinnat.</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Huippuhinnat</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-2" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-2"><i class="ico-hotel ico-lg valignMiddle mr-15 pb-3"></i>Halvimmat hotellit</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-2" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Aina ajankohtaisia huipputarjouksia hotelleissa ymp&#228;ri maailman:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Maksa aina turvallisesti.</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Usein erikoishintoja lapsille</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Ei erillisi&#228; toimistokuluja</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-3" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-3"><i class="ico-vuelo ico-lg valignMiddle mr-15 pb-3"></i>Kaikki valtameriristeilyt</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-3" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Nyt mukana my&#246;s VALTAMERIRISTEILYT</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Tuhansia valtameriristeilyj&#228;</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Aina huippuhinnoilla</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Kampanjat ja Logitravelin erikoistajoukset</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Ota yhteytt&#228; matka-asiantuntijoihimme</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-4" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-4"><i class="ico-coche ico-lg valignMiddle mr-15 pb-3"></i>Autonvuokraus huippuhintaan</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-4" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Fiksut varaavat autonsa Logitravelilta ja s&#228;&#228;st&#228;v&#228;t selv&#228;&#228; rahaa!</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Suurimmat vuokraamot</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Voit palauttaa auton eri paikkaan</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Mahtava m&#228;&#228;r&#228; eri autoluokkia valittavanasi</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Varaa helposti.</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Datos numéricos -->
+	<div id="numeros" class="numeros bg-debil pv-30 mt-25 text-center">
+		<div class="container">
+            <div class="row row-narrow">
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-apple fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+721tuhatta </span>
+                        <p class="normal txtGrande x2">iOS latausta</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-android fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+91tuhatta </span>
+                        <p class="normal txtGrande x2">Android latausta</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-user fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">9miljoonaa </span>
+                        <p class="normal txtGrande x2">asiakasta maailmanlaajuisesti</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-star-o fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+690</span>
+                        <p class="normal txtGrande x2">arvostelua</p>
+                    </div>
+                    </div>                         
+            </div>
+        </div>
+	</div>
+
+	<!-- Enviar enlace -->
+	<section id="enviarEnlace" class="enviarEnlace text-center">
+		<div class="container">
+			<h3 class="titulo x2 likeHtag mb-20">Tilaa latauslinkki puhelimeesi!</h3>
+			<div class="row">
+				<form id="signup" role="form" class="form-inline">
+					<div class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-5 mt-5">
+						<label for="NewsletterEmail" class="sr-only">S&#228;hk&#246;posti</label>
+						<input type="email" placeholder="s&#228;hk&#246;postiosoite" id="NewsletterEmail" class="form-control p-0 large">
+					</div>
+					<div class="col-xxs-12 col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                        <a id="btnEnviarEnlace" class="btn btn-default btn-block pv-12" data-app-menu-track="SendMail"><span class="subtitulo blanco shadow-black">L&#228;het&#228;</span></a>
+					</div>
+                    <div id="legalInfoMsgNewsletterEmail" style="font-size:115%;" class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-10">Olen lukenut ja hyväksyn  <a href="http://cdn.logitravel.fi/logitravelfi/htm/fi/sivujenKayttoehdot.htm" target="_blank">Matkaehdot</a> y la <a href="http://cdn.logitravel.fi/logitravelfi/htm/fi/privacidad.htm" target="_blank">Yksityisyydensuojan</a>.</div>
+                    <div id="msgTextNewsletterEmail" class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-10"></div>
+				</form>
+			</div>	
+		</div>
+	</section>
+
+	<!-- Botones sociales -->
+	<div class="btnSociales">
+        <a title="Compartir en Google Plus" href="https://plus.google.com/share?url=http://www.logitravel.fi/apps" target="_blank" data-app-menu-track="GooglePlus" ><i class="fa fa-google-plus-square fa-3x"></i></a>
+        <a title="Compartir en Twitter" href="http://twitter.com/home?status=Matkusta helpommin k&#228;ytt&#228;m&#228;ll&#228; Logitravel sovellusta http://www.logitravel.fi/apps" target="_blank" data-app-menu-track="Twitter" ><i class="fa fa-twitter-square fa-3x"></i></a>
+        <a title="Compartir en Facebook" href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=http%3a%2f%2fwww.logitravel.fi%2fapps&amp;p[images][0]=http%3a%2f%2fcdn.logitravel.fi%2fcomun%2fimages%2fmoviles%2fphone-in-hand.png&amp;p[title]=Logitravel+App&amp;p[summary]=Matkusta+helpommin+k%c3%a4ytt%c3%a4m%c3%a4ll%c3%a4+Logitravel+sovellusta" target="_blank" data-app-menu-track="Facebook" ><i class="fa fa-facebook-square fa-3x"></i></a>
+    </div>
+</div>
+
+
+<!-- MODAL REMOTE -->
+<div class="modal fade lg" id="modalRemote" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+				<span class="titularDestacado" id="titleModal"></span>
+			</div>
+			<div class="modal-body bg-grisFondo"></div>
+            <div class="modal-footer">
+				<button id="#" data-dismiss="modal" class="btn btn-success pull-right" type="button">Sulje</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    
+<div class="modal fade lg" id="playVideo" tabindex="-1" data-keyboard="true"  role="dialog" aria-labelledby="addFlightModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body p-0">
+				<div class="flex-video vimeo">
+						<iframe allowfullscreen="" src="//www.youtube.com/embed/PVxWJe6iVgw" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<button id="goTo" class="hidden"></button>
+
+
+
+    <div class="modal modal-home fade xlg " id="modalRemoteLogin" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-login" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Palaa takaisin
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-home fade xlg " id="modalRemoteGeo" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-principal" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Palaa takaisin
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-home fade xlg " id="modalRemoteAirports" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal md fade full-width" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <div class="titularDestacado" id="titleModal"></div>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <span class="txtGrande normal visible text-left"><strong></strong> </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal lg fade" id="modal-createAnswhere" tabindex="-1" role="dialog" aria-labelledby="modal-createAnswhereLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                <h2 class="modal-title grisMedio" id="modal-FlightRatesLabel">Crea tu alerta</h2>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer class="condensed">
+    <div class="container">
+        <!-- Links -->
+                <div class="wrapperLinks hidden-xs hidden-phone">
+                        <h6>Tietoa Logitravelista</h6>
+                    <ul class="linksInfo unstyled list-unstyled">
+                                <li>
+                                    <a href="http://cdn.logitravel.fi/logitravelfi/pdf/yritysesittely.pdf" title="Yritysesittely" target="_blank">Yritysesittely</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.fi/logitravelfi/htm/fi/sivujenKayttoehdot.htm" title="Sivujen k&#228;ytt&#246;ehdot" target="_blank">Sivujen k&#228;ytt&#246;ehdot</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.fi/logitravelfi/htm/fi/yksityisyydensuoja.htm" title="Yksityisyyden suoja" target="_blank">Yksityisyyden suoja</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.fi/logitravelfi/htm/fi/turvallisuus.htm" title="Turvallisuus" target="_blank">Turvallisuus</a>
+                                </li>
+                                <li>
+                                    <a href="/kuinka-varata/general.aspx" title="Kuinka teen varauksen?" target="_blank">Kuinka teen varauksen?</a>
+                                </li>
+                                <li>
+                                    <a href="/usein-kysytyt-kysymykset/" title="Usein kysytyt kysymykset" target="_blank">Usein kysytyt kysymykset</a>
+                                </li>
+                                <li>
+                                    <a href="/ota-yhteytta/" title="Ota yhteytt&#228;" target="_blank">Ota yhteytt&#228;</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.fi/logitravelfi/htm/fi/yleisetValmismatkaehdot.htm" title="Yleiset valmismatkaehdot" target="_blank">Yleiset valmismatkaehdot</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="wrapperInternacional hidden-xs hidden-phone">
+                        <h6>Muissa maissa</h6>
+                    <ul class="linksInternacional unstyled list-unstyled">
+                                <li>
+                                    <span class="flagES"></span>
+                                
+                                    <a href="http://www.logitravel.es" title="Espanja" rel="nofollow" target="_blank">Espanja</a>
+                                </li>
+                                <li>
+                                    <span class="flagPT"></span>
+                                
+                                    <a href="http://www.logitravel.pt" title="Portugali" rel="nofollow" target="_blank">Portugali</a>
+                                </li>
+                                <li>
+                                    <span class="flagIT"></span>
+                                
+                                    <a href="http://www.logitravel.it" title="Italia" rel="nofollow" target="_blank">Italia</a>
+                                </li>
+                                <li>
+                                    <span class="flagDE"></span>
+                                
+                                    <a href="http://www.logitravel.de" title="Saksa" rel="nofollow" target="_blank">Saksa</a>
+                                </li>
+                                <li>
+                                    <span class="flagBR"></span>
+                                
+                                    <a href="http://www.logitravel.com.br" title="Brasilia" rel="nofollow" target="_blank">Brasilia</a>
+                                </li>
+                                <li>
+                                    <span class="flagFR"></span>
+                                
+                                    <a href="http://www.logitravel.fr" title="Ranska" rel="nofollow" target="_blank">Ranska</a>
+                                </li>
+                                <li>
+                                    <span class="flagUK"></span>
+                                
+                                    <a href="http://www.logitravel.co.uk" title="Iso-Britannia" rel="nofollow" target="_blank">Iso-Britannia</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="legal">
+    <div class="copyRight">
+        <p>
+            Travelsteps Oy
+, Y-tunnus 2559611-1, KuVi 2843/13/U. Kaikki oikeudet pid&#228;tet&#228;&#228;n.        </p>
+    </div>
+</div>
+
+    </div>
+
+<div id="certificadosFI" class="hidden-phone hidden-xs">
+	<div class="container">
+
+
+		<div class="row-fluid row hidden-phone hidden-xs">
+																				</div>
+	</div>
+</div>
+    <div id="divPieVerif" class="divPieVerif hidden-phone hidden-xs hidden-sm hidden-tablet">
+        <!--POP-UP VERIFICACION VERISIGN -->
+        <img class="lazy" src="http://cdn.logitravel.fi/comun/images/shim.gif" data-original="http://cdn.logitravel.fi/logitravelfi/images2012/pieIconos.png"
+             alt="Footer" usemap="#Map_verisign" />
+        <map name="Map_verisign" id="Map_verisign">
+            <area shape="rect" coords="5,1,67,24" href="https://sealinfo.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=ssl.logitravel.fi&lang=fi"
+                  target="_blank" alt="Thawte" />
+        </map>
+    </div>
+</footer>
+
+    <script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/jquery/jquery.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/jquery/jqueryui.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/bootstrap/bootstrap.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/bootstrap/bootstrap-dropdown-hover.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/jquery/jquery.lazyload.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/onerror.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/channels/applicationchannels.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/modalremote.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/bindings.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/visuals.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/cookies.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/tracking.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/geolocation.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/hacks/detectmobilebrowser.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/hacks/placeholders-ie-lt9.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://www.logitravel.fi/commoncomponents/globalsjs?application=logitravelfi"></script>
+<script type="text/javascript" language="javascript" src="http://autocomplete.logitravel.com/static/js/borg_jquery.js"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/topheader/gotopage.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/topheader/originselector.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/topheader/account.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/crossdomain.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/helpers/dynamicloader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/topheader/maintopheader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/topheader/menu.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/topheader/lastsearch.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/topheader/setlanguagecurrency.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/common/jquery/owl.carousel.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.fi/resources/javascript/mobile/appslanding/landing.js?020720151753" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var aplicacion='logitravelfi';
+var dominioCDN='http://cdn.logitravel.fi';
+var idioma='fi';
+var _glPr='1';
+var geolocalizar=false;
+var urlCompletaAnu='http://www.logitravel.fi';
+var entradaMedioOk='';
+var newHeaderActive='1';
+var GlobalValue='http://www.logitravel.fi/operativalogi/';
+var toolfactory=toolfactory || {};
+toolfactory.Common=toolfactory.Common || {};
+toolfactory.Common.Helpers=toolfactory.Common.Helpers || {};
+toolfactory.Common.Helpers.Onerror=toolfactory.Common.Helpers.Onerror || {};
+toolfactory.Common.Helpers.Onerror.reportJavascriptEnabled=false;
+toolfactory.Common.Helpers.Onerror.reportControllerUrl='';
+
+var cookie='tokenlogitravelfi';
+var messageExpires=60000;
+var usuarioWebCookie='32557933276';
+var pathAccount='https://api.logitravel.com/account';
+var sessionCode='16e62a81-afd9-4dfc-ab11-3b1735e24cfd';
+var sesion='16e62a81-afd9-4dfc-ab11-3b1735e24cfd';
+var withoutMessages='Ei viestejä';
+var urlHTTPS='https://ssl.logitravel.fi';
+var litMessage='Viestit';
+var litUnRead='lukemattomat';
+var litMessageFrom='Viesti';
+var litMessageTo='saakka';
+var litAllMessages='Kaikki viestini';
+var urlOperativa='http://www.logitravel.fi/operativaLogi';
+var litMisBusquedas='Viimeisimmät hakuni';
+var SearchExpires='300000';
+var idioma='fi';
+var USW_codigo='32557933276';
+var litSinBusqueda='Haku ei tuottanut tulosta';
+var litBuscando='Hakua päivitetään';
+var GoogleAnalytics='UA-43051650-1';
+
+
+var paramsAnuncio='';
+
+var sessionCode='16e62a81-afd9-4dfc-ab11-3b1735e24cfd';
+appsLiterals=new Array();
+appsLiterals[0]='sähköpostia lähetetään...';
+appsLiterals[1]='Sähköpostin lähetys onnistui';
+appsLiterals[2]='Sähköpostin lähetyksessä virhe, ole hyvä, ja yritä uudelleen';
+var geolocalizar=false;
+
+    </script>
+    
+
+</body>
+</html>

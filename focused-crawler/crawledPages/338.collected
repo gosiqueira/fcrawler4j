@@ -1,0 +1,2397 @@
+title=Completão CVC - Escolha sua Viagem! | CVC Viagens
+url=http://www.cvc.com.br/destinos/cadernos-virtuais.aspx
+html=
+    <!doctype html public "-//w3c//dtd html 4.01//en" "http://www.w3.org/tr/html4/strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" xmlns:og="http://ogp.me/ns#" id="ng-app">
+    <head>
+        <title>
+            Completão CVC - Escolha sua Viagem! | CVC Viagens
+        </title>
+
+        <meta name="google-site-verification" content="n72WDYk5P2qbrc3f9r0KmQfuvmOWmixNbvxmh72mGDU" />
+
+        
+
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+        <meta name="description" content="Escolha agora seu destino de viagem com o Completão CVC. Os cadernos que você encontra nas lojas CVC agora no site também, Confira e garanta sua viagem!"/>
+<!-- DC.Dublin Core -->	
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+<meta name="DC.identifier" content="http://www.cvc.com.br/destinos/cadernos-virtuais.aspx"/><meta name="DC.description" content="Escolha agora seu destino de viagem com o Completão CVC. Os cadernos que você encontra nas lojas CVC agora no site também, Confira e garanta sua viagem!"/><meta name="DC.title" content="Completão CVC - Escolha sua Viagem! | CVC Viagens"/>
+<!-- OG Protocol -->
+<meta property="og:title" content="Completão CVC - Escolha sua Viagem! | CVC Viagens"/><meta property="og:url" content="http://www.cvc.com.br/destinos/cadernos-virtuais.aspx"/>
+<meta property="og:site_name" content="CVC Viagens"/><meta property="og:type" content="website"/><meta property="og:description" content="Escolha agora seu destino de viagem com o Completão CVC. Os cadernos que você encontra nas lojas CVC agora no site também, Confira e garanta sua viagem!"/>
+<!--Twitter Card-->
+<meta name="twitter:card" content="summary"><meta name="twitter:url" content="http://www.cvc.com.br/destinos/cadernos-virtuais.aspx>
+<meta name="twitter:title" content="Completão CVC - Escolha sua Viagem! | CVC Viagens"><meta name="twitter:description" content="Escolha agora seu destino de viagem com o Completão CVC. Os cadernos que você encontra nas lojas CVC agora no site também, Confira e garanta sua viagem!"><meta name="twitter:image" content="http://www.cvc.com.br/media/3128419/logo-header-checkout.png">
+<!---Google---->
+<meta itemprop="name" content="Completão CVC - Escolha sua Viagem! | CVC Viagens"><meta itemprop="description" content="Escolha agora seu destino de viagem com o Completão CVC. Os cadernos que você encontra nas lojas CVC agora no site também, Confira e garanta sua viagem!"><meta itemprop="image" content="http://www.cvc.com.br/media/3128419/logo-header-checkout.png"><link rel="canonical" href="http://www.cvc.com.br/destinos/cadernos-virtuais.aspx"/><meta property="fb:admins" content="100005886151264" />
+
+        <link href="/travel/Styles_B2C/style.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/helper.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/style_crm.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href='/travel/Styles_B2C/jquery-ui.css?v=v=20160123' rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/ngDialog.css" rel="stylesheet">
+        <link href="/travel/Styles_B2C/ngDialog-theme-default.css" rel="stylesheet">
+        <link href="/travel/Styles_B2C/DrpBox.css?v=v=20160123" rel="stylesheet" />
+        <link href="/css/footer.css?v=v=20160123" rel="stylesheet" />
+        <link href="/css/social-login.css?v=v=20160123" rel="stylesheet" />
+        <link href="/travel/Styles_B2C/services.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+        <link href="/travel/Styles_B2C/login-timeout.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+
+        
+
+        <link href="/travel/Styles_B2C/header_site.css" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/login-timeout.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+
+        
+  
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js" type="text/javascript"></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/i18n/angular-locale_pt-br.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-animate.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-resource.min.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui-date.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui-mask.js'></script>
+             <script type="text/javascript" src="/travel/Scripts/angular/angular-cookies.min.js"></script>
+             <script src="/scripts/autocomplete.js" type="text/javascript"></script>
+
+         <script type="text/javascript">
+            angular.module('siteCVC', []);
+         </script>
+
+        <!-- JS Libraries -->
+        <script type="text/javascript" src="/travel/scripts/underscore/underscore-min.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery-ui.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery-ui-pt-BR.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Jquery.cycle.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.maskedinput-1.3.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Util.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Prototypes.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Event.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Formatters.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/ServiceCaller.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/json2.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/CustomElements.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Modernizr/modernizr.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/scripts/modernizrPolyfills.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/DatePickerOption.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/ClosureTemplate/soyutils.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/jquery.DropBox.custom.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/EnumHelper.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/jquery.scrollTo-1.4.2-min.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Masks.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.flip.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Views/Loader.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Handlers/CultureResource.ashx?culture=pt-BR'></script>
+        <script type="text/javascript" src="/travel/scripts/jStorage.js"></script>
+        <!-- JS MVC -->
+        <script type="text/javascript" src='/WebCommon/Scripts/Models/NewsLetterModel.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Models/LocationsModel.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Models/TemplateModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/PackageDetailModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/PackageModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/ServiceModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/CruiseModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/Adapter.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/LocationsFinder.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/MessagesExhibitor.js?v=20160123"></script>
+        <script type="text/javascript" src="/scripts/cookie.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Views/NewsLetterContact.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/NewsLetterController.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/LocationsController.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/MessagesController.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Controllers/TemplateController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/PackageDetailController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/PackageController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/ServiceController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/CruiseController.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.easing-1.3.pack.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery-easing-compatibility.1.2.pack.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/coda-slider.1.1.1.pack.js?v=20160123"></script>
+        
+        <script type="text/javascript" src="/travel/Templates/B2C/Shared/Shared_pt-BR.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/SharedFunctions.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/FormState.js?v=20160123"></script>
+        <script src="/scripts/NavigationEvents.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.namespace.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.window.utils.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.controls.utils.js?v=20160123" type="text/javascript"></script>
+
+        <script type="text/javascript" src="/Travel/Scripts/app/directives/modal/modalLightbox.js?v=20160123"></script>
+        <!--JS CRM-->
+
+        
+
+
+
+      <script type="text/javascript">
+          if (!Global) var Global = {};
+          if (!Global.LocationsCache) Global.LocationsCache = [];
+          Global.Culture = "pt-br";
+          Global.ImageRoot = "http://www.cvc.com.br/travel/Styles_B2C/";
+          Global.PathWebService = "/travel/ServiceUI.svc/";
+          Global.PathWebServiceOther = "http://www.cvc.com.br/umbraco/api/Destination/";
+          Global.PathServiceApi = "http://www.cvc.com.br/api/";
+          Global.PathB2BWebService = "";
+          Global.PathSystur = "http://systur.cvc.com.br/pls/systur/";
+          Global.CheckOutProtocol = "https://";
+          Global.CheckOutDomain = window.location.host;
+          Global.SearchType = "3";
+          Global.SearchTypes.Full = "3";
+          Global.InterfaceEnvelope = {};
+          Global.QueryString = "";
+          Global.SelectedCurrency = "BRL";
+          Global.MessagesController = new MessagesController();
+          Global.URLSite = "http://www.cvc.com.br/";
+          Global.ImagesPath = "//www.cvc.com.br/WebCommon/" + "Images/";
+          Global.Login = {};
+          Global.Login.Login = Util.getCookie("Signature");
+          Global.Login.AgencyId = "1";
+          transformLinkInSubmit();
+
+          function CreateCookie(strCookie, strValor, lngDias) {
+              if (ReadCookie("Loyalt") != "false") {
+                  if (ReadCookie("Loyalt") == null || lngDias == -1) {
+                      var dtmData = new Date();
+                      dtmData.setTime(dtmData.getTime() + (lngDias * 60 * 60 * 1000));
+                      var strExpires = "; expires=" + dtmData.toGMTString();
+                      document.cookie = strCookie + "=" + strValor + strExpires + "; path=/";
+                  }
+                  else {
+                      CreateCookie("Loyalt", '', -1);
+                      CreateCookie("Loyalt", strValor, 1);
+                  }
+              }
+          }
+
+          function ReadCookie(strCookie) {
+              var strNomeIgual = strCookie + "=";
+              var arrCookies = document.cookie.split(';');
+
+              for (var i = 0; i < arrCookies.length; i++) {
+                  var strValorCookie = arrCookies[i];
+                  while (strValorCookie.charAt(0) == ' ') {
+                      strValorCookie = strValorCookie.substring(1, strValorCookie.length);
+                  }
+                  if (strValorCookie.indexOf(strNomeIgual) == 0) {
+                      return strValorCookie.substring(strNomeIgual.length,
+                      strValorCookie.length);
+                  }
+              }
+              return null;
+          }
+
+          if (Util.getCookie("Loyalt") == null) {
+              var ValidLoyalt = "False";
+              if (ValidLoyalt.toLowerCase() == "false") {
+                  CreateCookie("Loyalt", false, 1);
+              }
+          }
+
+          
+
+        </script>
+
+        <script type="text/javascript">
+            $SA = { s: 81070, asynch: 1 };
+            (function () {
+                var sa = document.createElement("script");
+                sa.type = "text/javascript";
+                sa.async = true;
+                sa.src = ("https:" == document.location.protocol ? "https://" + $SA.s + ".sa" : "http://" + $SA.s + ".a") + ".siteapps.com/" + $SA.s + ".js";
+                var t = document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(sa, t);
+            })();
+            (function () {
+                var link = document.createElement("style");
+                link.id = "_sa_hide_style";
+                link.innerHTML = "body{opacity:0 !important; filter:alpha(opacity=0) !important; background:none !important;}";
+                document.getElementsByTagName('head')[0].appendChild(link);
+            })();
+            setTimeout(function () {
+                var _hideStyle = document.getElementById('_sa_hide_style');
+                if (_hideStyle) {
+                    _hideStyle.parentNode.removeChild(_hideStyle);
+                }
+            }, 3000);
+		</script>
+
+		
+  
+  <link href='/css/packageGuide.css' rel='stylesheet' type='text/css' />
+  <link href='/css/completao.css' rel='stylesheet' type='text/css' />
+  <link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src='/scripts/destinations/packageGuide.js?v=20160123'></script>
+
+  
+    
+ 
+    
+
+    </head>
+    <body ng-app="siteCVC" id="ng-app">
+    <input type="hidden" value="1" id="agencyId"/>
+    <input type="hidden" value="3" id="searchTypeFull"/>
+
+        <div id="overlay" class="trace-manager-overlay"></div>
+        <div id="modal-opacity" class="ui-widget-overlay hide"></div>
+
+        <form id="continueForm" method="post" action="../MasterPricer">
+            <div class="siteContent">
+            <input id="InterfaceEnvelope" type="hidden" name="InterfaceEnvelope" />
+            <input id="Culture" type="hidden" name="Culture" />
+            <input id="SearchType" type="hidden" name="SearchType" />
+            <input id="Currency" type="hidden" name="Currency" />
+            <input id="ExchangeRate" type="hidden" name="ExchangeRate" />
+            <input id="SelectedCurrency" type="hidden" name="SelectedCurrency" />
+            <input id="QueryString" type="hidden" name="QueryString" />
+
+            
+
+    
+
+    <!--Maxymiser INTUITIVE script start --> 
+        <script type="text/javascript" src= "/scripts/intuitive/mmcore.js" ></script>
+    <!--Maxymiser INTUITIVE script end -->
+
+    <!-- JS Analytics -->
+    <script type="text/javascript" src="/scripts/analytics/pmkt.js"></script>
+    <script type="text/javascript" src="/scripts/analytics/multitouch.js"></script>
+    <script type="text/javascript" src="/scripts/redirects.js"></script>
+    <script type="text/javascript">
+              // TAG PADRAO
+              var _gaq = _gaq || [];
+              var UA = 'UA-1814594-1';
+
+              if(document.location.hostname == 'vendasti.cvc.com.br')
+              UA = 'UA-1814594-34';
+              else if(Util.getCookie('userType') == 'Vendor'){
+              UA = 'UA-1814594-35';
+              _gaq.push(['_trackEvent', 'Filial', 'SetCode', 'Código da filial', parseInt(Util.getCookie('BranchCode'), 10)]);
+              }
+              else if(Util.getCookie('userType') == 'Agent'){
+              UA = 'UA-1814594-36';
+              _gaq.push(['_trackEvent', 'Filial', 'SetCode', 'Código da filial', parseInt(Util.getCookie('BranchCode'), 10)]);
+              }
+
+              _gaq.push(['_setAccount', UA]);
+				//_gaq.push(['_addIgnoredOrganic', 'ignore']);
+				//_gaq.push(['_addIgnoredRef', 'cvc.com.br']);
+              _gaq.push(['_setDomainName', 'cvc.com.br']);
+              _gaq.push(['_trackPageview']);
+
+              (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+
+            </script><script>
+            // SCRIPT NOVO
+            
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-1814594-39', 'auto');
+
+          </script>
+        
+    <!-- JS de execução/chamadas de script -->
+    <script type="text/javascript" src="/WebCommon/Scripts/Models/NewsLetterModel.js?v=20160123"></script>
+    <script type="text/javascript" src="/WebCommon/Scripts/Views/NewsLetterContact.js?v=20160123"></script>
+    <script type="text/javascript" src="/WebCommon/Scripts/Controllers/NewsLetterController.js?v=20160123"></script>
+    <script type="text/javascript" src="/scripts/GridList.js?v=20160123"></script>
+    <script type="text/javascript" src="/scripts/ImageError.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/Loyalt/Loyalt_pt-BR.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/Loyalt/LoyaltTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/ModalToolTipTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Scripts/ModalToolTip.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Scripts/ModalHotelMap.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/HotelMap/HotelMapTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/HotelMap/HotelMap_pt-BR.js?v=20160123"></script>
+    <script src="/scripts/cookie.js?v=20160123" type="text/javascript"></script>
+    <script src="/scripts/scriptsHeader.js?v=20160123" type="text/javascript"></script>
+    <script src="/scripts/NavigationEvents.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.namespace.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.window.utils.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.controls.utils.js?v=20160123" type="text/javascript"></script>
+   
+
+    <script type="text/javascript" src="/scripts/pl_socialnetworks.js?v=20160123"></script>
+      
+
+    
+<script type="text/javascript">
+                    var hTMLCollection = HTMLCollection.prototype.item;
+                    var hTMLSelectElement = HTMLSelectElement.prototype.item;
+
+                    HTMLCollection.prototype.item = function () { return hTMLCollection.bind(this)(arguments[0] || 0); }
+
+                    HTMLSelectElement.prototype.item = function () { return hTMLSelectElement.bind(this)(arguments[0] || 0); }
+</script>
+
+
+
+<script src="/Travel/Scripts/angular/ngStorage.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/modules/general/generalModule.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/services/general/loginTimeoutService.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/directives/general/dirHeaderLoginTimeout.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/controllers/general/loginTimeoutController.js?v=20160123" type="text/javascript"></script>
+
+<input type="hidden" value="1" id="agencyId" />
+<input type="hidden" value="3" id="searchTypeFull" />
+
+<div id="modal-packageSystur" class="ui-widget-overlay hide"></div>
+
+<div ng-app="general" class="boxModel" header-login-timeout>
+    <div class="headerTop">
+        <h1 class="logo">
+            <a href="/index.aspx" title="CVC - Viagens" target="_self">CVC - Viagens</a>
+        </h1>
+        <div class="userBox" id="userBox">
+            <ul class="userMenu">
+                <li class="commonItem"><a href="/lista-de-casamento/index.aspx">Lista de casamento</a></li>
+                <li class="commonItem"><a href="/ri">Investidores</a></li>
+                <li class="commonItem"><a href="/lps/franquias/index.aspx" target="_blank">Seja um franqueado</a></li>
+                <li class="commonItem"><a href="http://lojas.cvc.com.br" target="_blank">Lojas</a></li>
+                <li class="commonItem"><a href="/atendimento/central-de-atendimento.aspx">Atendimento</a></li>
+                
+            </ul>
+            <div id="linkLogin">
+                <p>
+                    <a href="/travel/minhaconta/myorders?menu=2">Minhas viagens</a> / <a href="/travel/minhaconta">Login</a>
+                </p>
+            </div>
+        </div>
+        <div ng-if="showLoginArea()">
+
+            <div class="loginArea" style="display: block;">
+                <div sell-probability></div>
+                <div style="margin-top:-10px; margin-bottom: 9px; float: right;">
+                    <p style="margin-left: 5px;">Bem-vindo a CVC,</p>
+                    <p id="loggerUser">
+                        <a href="/travel/minhaconta"><strong class="userLog"></strong></a>
+                        (<a class="submit" href="/travel/Logout">sair</a>)
+                    </p>
+                </div>
+                <div id="unloggedHeader"></div>
+            </div>
+        </div>
+
+        <div class="menuTelevendas">
+            <ul class="userMenuTelevendas">
+                <li class="topItem">
+                    <span class="titulo">Televendas: </span><a class="withMenuTelevendas" href="javascript:void(0);">(11) 3003-9282</a>
+
+                    <ul class="userSubMenuTelevendas">
+                        <li>
+                            <p>Capitais e Regiões Metropolitanas</p>
+                            <span>3003-9282</span>
+                        </li>
+                        <li>
+                            <p>Demais localidades</p>
+                            <span>(11) 3003-9282</span>
+                        </li>
+                        <li class="atendimento">
+                            <p>Horário de atendimento</p>
+                            <span>Seg a Sex: 8h às 22h<br />
+                            Sab: 9h às 21h<br />
+                            Dom: 10h às 21h<br />
+                            Feriados: 10h às 21h</span>                            
+                        </li>
+                        <li class="outras-localidades">
+                            <p class="bt-outras-localidades">Veja informações sobre o custo das ligações</p>
+                        </li>
+                        <li class="atendimento">
+                            <p>Ligações feitas de telefone fixo</p>
+                            <span>Custo de ligação local + impostos locais conforme o estado de origem.</span>                            
+                        <li class="atendimento">
+                            <p>Chamadas feitas de celular</p>
+                            <span>Custo da ligação + impostos para celulares, conforme a operadora.</span>
+                        </li>
+                        <li class="atendimento">
+                            <span>Para verificar se a cidade de onde você está falando permite ligações sem código da operadora, tente discar diretamente o número <strong class="menor">3003-9282</strong>.</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="subMenuFolder" id="subMenuCanais" style="display: none"></div>
+<umbraco:macro id="Macro1" alias="[RAZOR]MainMenu" runat="server"></umbraco:macro>
+
+    
+            <script lang="javascript">
+              $(window).resize(function() {
+                var WindowWidth = $(window).width();
+                if (WindowWidth < 1007) {
+                    $('body').css("overflow-x", "visible");
+                }
+                else
+                    $('body').css("overflow-x", "hidden");
+              });
+            </script>
+            <div class="menuTopo">
+                <div>
+                    <ul class="boxModel" id="mainMenu">
+                            <li>
+                                                                    <a href="/pacotes/index.aspx" title="Pacotes" target="_self">Pacotes</a>
+                            </li>
+                            <li>
+                                                                    <a href="/passagens-aereas/index.aspx" title="Passagens A&#233;reas" target="_self">Passagens A&#233;reas</a>
+                            </li>
+                            <li>
+                                                                    <a href="/hoteis/index.aspx" title="Hot&#233;is" target="_self">Hot&#233;is</a>
+                            </li>
+                            <li>
+                                                                    <a href="/resorts/index.aspx" title="Resorts" target="_self">Resorts</a>
+                            </li>
+                            <li>
+                                                                    <a href="/cruzeiros" title="Cruzeiros" target="_self">Cruzeiros</a>
+                            </li>
+                            <li>
+                                                                    <a href="/promocao/circuitos.aspx" title="Circuitos" target="_self">Circuitos</a>
+                            </li>
+                            <li>
+                                                                    <a href="/intercambios.aspx" title="Interc&#226;mbios" target="_self">Interc&#226;mbios</a>
+                            </li>
+                            <li>
+                                                                    <a href="/promocao/ingressos.aspx" title="Ingressos" target="_self">Ingressos</a>
+                            </li>
+                            <li>
+                                                                    <a href="/vale-viagem.aspx" title="Vale Viagem" target="_self">Vale Viagem</a>
+                            </li>
+                            <li>
+                                                                    <a href="/destinos/index.aspx" title="Destinos" target="_self">Destinos</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container">
+                
+  
+  <ul class="breadcrumbs" itemprop="breadcrumb"><li><a href="/index.aspx" title="HOME" target="_self">CVC VIAGENS</a></li><li><a href="/destinos/index.aspx" title="Destinos" target="_self">Destinos</a></li><li class="active"><a href="#" title="Cadernos virtuais" target="_self">Cadernos virtuais</a></li></ul><script>
+                if ( !$('ul.breadcrumbs li:last-child').hasClass('active') ){
+                $('ul.breadcrumbs li:last-child').addClass('active');
+                }
+            </script>
+  
+  <div class="section packageDestiny">
+    <div class="bxCadernosVirtuaisGeral completaoCvc"> <a class="voltar" href="/destinos/index.aspx">Voltar ao guia de destinos</a>
+      <div class="titleCompletao">
+        <h1>Completão CVC</h1>
+		  <p style="font-size:16px;">Saiba mais sobre os maiores destinos de <strong>turismo</strong> do Brasil e do mundo.</p>
+		  <p>Confira nossos <strong>cadernos virtuais</strong>, os mesmos que você encontra nas lojas CVC. Separamos as melhores dicas dos principais <strong>destinos turísticos</strong> nacionais e internacionais, para você planejar suas próximas <strong>viagens</strong> com tranquilidade.</p> 
+		  <p>Aproveite para escolher entre nossas opções de <strong>pacotes de viagem</strong>, <strong>passagens aéreas</strong> e <strong>hotéis</strong> em promoção!</p>
+      </div>
+      <div class="bxCadernosVirtuais2">
+        <p class="abaNacional ativo">Destinos nacionais</p>
+        <p class="abaResortsHoteis">Resorts & Hotéis</p>
+        <p class="abaInternacional">Destinos internacionais</p>
+        <p class="abaCruzeiros">Cruzeiros</p>
+        <p class="abaCadernosEspeciais">Cadernos especiais</p>
+        <p class="abaCiasAereas">Cias Aéreas</p>
+        
+        <!-- Copiado da rede NACIONAL -->
+        <div id="tblNacional" class="subtab-content"><h1 class="subtab">DESTINOS NACIONAIS</h1><p><a href="http://www.vendamaiscvc.com.br/cadernos/aracaju/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/aracaju/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/aracaju.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Aracaju</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/aracaju/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/balneariocamboriu/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/balneariocamboriu/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/balneario-camboriu.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Balneário Camboriu</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/balneariocamboriu/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/brasilia/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/brasilia/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/brasilia.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Brasília</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/brasilia/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/bonito/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/bonito/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/bonito.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Bonito</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/bonito/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/caldasnovas/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/caldasnovas/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/caldas-novas.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Caldas Novas</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/caldasnovas/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/costadosauipe/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/costadosauipe/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/costa-sauipe.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Costa do Sauípe</div><div class="cadernos-versao">VERSÃO 14M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/costadosauipe/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/cuiaba/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/cuiaba/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/cuiaba.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Cuiabá</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/cuiaba/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/dompedrolaguna/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/dompedrolaguna/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/dompedro-laguna.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Dom Pedro laguna</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/dompedrolaguna/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/enotel/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/enotel/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/enotel.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Enotel</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/enotel/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/fernandodenoronha/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/fernandodenoronha/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/fernando-de-noronha.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Fernando de Noronha</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/fernandodenoronha/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/florianopolis/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/florianopolis/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/florianopolis.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Florianópolis</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/florianopolis/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/fortaleza/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/fortaleza/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/fortaleza.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Fortaleza</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/fortaleza/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/fozdoiguacu/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/fozdoiguacu/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/foz-do-iguacu.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Foz do Iguaçu</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/fozdoiguacu/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/gramadoecanela/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/gramadoecanela/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/gramado-canela.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Gramado e Canela</div><div class="cadernos-versao">VERSÃO 14M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/gramadoecanela/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/grandpalladium/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/grandpalladium/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/grand-palladium.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Grand Palladium</div><div class="cadernos-versao">VERSÃO 14M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/grandpalladium/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/iberostar/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/iberostar/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/iberostar.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Iberostar</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/iberostar/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/itacare/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/itacare/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/itacare.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Itacaré</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/itacare/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/ilheus/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/ilheus/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/ilheus.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Ilhéus</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/ilheus/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/joaopessoa/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/joaopessoa/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/joao-pessoa.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">João Pessoa</div><div class="cadernos-versao">VERSÃO 14M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/joaopessoa/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/lencoismaranhenses/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/lencoismaranhenses/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/lencois-maranhenses.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Lençois Maranhenses</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/lencoismaranhenses/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/litoraldoceara/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/litoraldoceara/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/litoral-ceara.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Litoral do Ceará</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/litoraldoceara/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/suldabahia/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/suldabahia/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/litoral-sul-bahia.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Litoral Sul da Bahia</div><div class="cadernos-versao">VERSÃO 14M-1</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/suldabahia/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/maceio/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/maceio/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/maceio.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Maceió</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/maceio/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/mavsa/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/mavsa/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/mavsa.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Mavsa</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/mavsa/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/mundoparabrasileiros/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/mundoparabrasileiros/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/mundo-para-brasileiros.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Mundo para Brasileiros</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/mundoparabrasileiros/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/nannai/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/nannai/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/nannai.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Nannai</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/nannai/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/natal/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/natal/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/natal.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Natal</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/natal/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/oceanpalace/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/oceanpalace/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/ocean_palace.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Ocean Palace</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/oceanpalace/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/parquedacosteira/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/parquedacosteira/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/parque-da-costeira.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Parque da Costeira</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/parquedacosteira/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/portodegalinhas/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/portodegalinhas/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/porto-galinhas.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Porto de Galinhas</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/portodegalinhas/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/portoseguro/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/portoseguro/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/porto-seguro.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Porto Seguro</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/portoseguro/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/recife/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/recife/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/recife.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Recife</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/recife/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/riodejaneiro/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/riodejaneiro/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/rio-de-janeiro.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Rio de Janeiro</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/riodejaneiro/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/salinasdomaragogi/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/salinasdomaragogi/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/salinasdomaragogi.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Salinas do Maragogi</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/salinasdomaragogi/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/salvador/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/salvador/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/salvador.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Salvador</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/salvador/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/saopaulo/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/saopaulo/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/saopaulo.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">São Paulo</div><div class="cadernos-versao">VERSÃO 14N</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/saopaulo/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/sehrs/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/sehrs/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/serhs.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Sehrs Natal</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/sehrs/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/summerville/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/summerville/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/summerville.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Summerville</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/summerville/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/tauaaraxa/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/tauaaraxa/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/tauaaraxa.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Tauá Araxá</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/tauaaraxa/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/wishfozdoiguacu/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/wishfozdoiguacu/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/wishfozdoiguacu.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Wish Foz do Iguaçu</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/wishfozdoiguacu/index.html" target="_blank"> </a> </p><p><a href="http://www.vendamaiscvc.com.br/cadernos/serrano/index.html" target="_blank"> </a> </p><a href="http://www.vendamaiscvc.com.br/cadernos/serrano/index.html" target="_blank"><div class="cadernos-content"><div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/serrano.jpg" alt="" /> </div><div id="cadernos-subcontent"><div class="cadernos-texto"><div class="cadernos-titulo">Wish Serrano Resort</div><div class="cadernos-versao">VERSÃO 15M</div></div><div class="cadernos-botao">VER CADERNO DIGITAL</div></div><div style="clear:both"> </div></div></a><p><a href="http://www.vendamaiscvc.com.br/cadernos/serrano/index.html" target="_blank"> </a> </p></div>
+        <!--<div id="tblNacional" class="subtab-content">
+<h1 class="subtab">DESTINOS NACIONAIS</h1>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/aracaju/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/aracaju.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Aracaju</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/aracaju/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/balneariocamboriu/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/balneario-camboriu.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Balneário Camboriu</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/balneariocamboriu/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/brasilia/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/brasilia.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Brasília</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/brasilia/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/bonito/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/bonito.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Bonito</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/bonito/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/caldasnovas/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/caldas-novas.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Caldas Novas</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/caldasnovas/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/costadosauipe/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/costa-sauipe.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Costa do Sauípe</div>
+<div class="cadernos-versao">VERSÃO 14M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/costadosauipe/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/cuiaba/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/cuiaba.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cuiabá</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/cuiaba/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/dompedrolaguna/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/dompedro-laguna.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Dom Pedro laguna</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/dompedrolaguna/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/enotel/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/enotel.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Enotel</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/enotel/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/fernandodenoronha/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/fernando-de-noronha.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Fernando de Noronha</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/fernandodenoronha/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/florianopolis/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/florianopolis.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Florianópolis</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/florianopolis/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/fortaleza/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/fortaleza.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Fortaleza</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/fortaleza/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/fozdoiguacu/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/foz-do-iguacu.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Foz do Iguaçu</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/fozdoiguacu/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/gramadoecanela/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/gramado-canela.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Gramado e Canela</div>
+<div class="cadernos-versao">VERSÃO 14M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/gramadoecanela/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/grandpalladium/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/grand-palladium.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Grand Palladium</div>
+<div class="cadernos-versao">VERSÃO 14M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/grandpalladium/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/iberostar/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/iberostar.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Iberostar</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/iberostar/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/itacare/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/itacare.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Itacaré</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/itacare/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/ilheus/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/ilheus.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Ilhéus</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/ilheus/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/joaopessoa/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/joao-pessoa.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">João Pessoa</div>
+<div class="cadernos-versao">VERSÃO 14M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/joaopessoa/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/lencoismaranhenses/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/lencois-maranhenses.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Lençois Maranhenses</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/lencoismaranhenses/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/litoraldoceara/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/litoral-ceara.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Litoral do Ceará</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/litoraldoceara/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/suldabahia/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/litoral-sul-bahia.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Litoral Sul da Bahia</div>
+<div class="cadernos-versao">VERSÃO 14M-1</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/suldabahia/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/maceio/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/maceio.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Maceió</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/maceio/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/mavsa/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/mavsa.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Mavsa</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/mavsa/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/mundoparabrasileiros/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/mundo-para-brasileiros.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Mundo para Brasileiros</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/mundoparabrasileiros/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/nannai/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/nannai.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Nannai</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/nannai/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/natal/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/natal.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Natal</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/natal/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/oceanpalace/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/ocean_palace.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Ocean Palace</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/oceanpalace/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/parquedacosteira/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/parque-da-costeira.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Parque da Costeira</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/parquedacosteira/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/portodegalinhas/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/porto-galinhas.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Porto de Galinhas</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/portodegalinhas/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/portoseguro/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/porto-seguro.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Porto Seguro</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/portoseguro/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/recife/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/recife.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Recife</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/recife/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/riodejaneiro/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/rio-de-janeiro.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Rio de Janeiro</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/riodejaneiro/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/salinasdomaragogi/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/salinasdomaragogi.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Salinas do Maragogi</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/salinasdomaragogi/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/salvador/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/salvador.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Salvador</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/salvador/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/saopaulo/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/saopaulo.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">São Paulo</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/saopaulo/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/sehrs/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/serhs.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Sehrs Natal</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/sehrs/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/summerville/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/summerville.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Summerville</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/summerville/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/tauaaraxa/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/tauaaraxa.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Tauá Araxá</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/tauaaraxa/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/wishfozdoiguacu/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/wishfozdoiguacu.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Wish Foz do Iguaçu</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/wishfozdoiguacu/index.html" target="_blank"> </a> </p>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/serrano/index.html" target="_blank"> </a> </p>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/serrano.jpg"/> </div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Wish Serrano Resort</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<p><a href="http://www.vendamaiscvc.com.br/cadernos/serrano/index.html" target="_blank"> </a> </p>
+</div>--> 
+        <!-- / Copiado da rede - NACIONAL --> 
+        
+        <!-- Copiado da rede - INTERNACIONAL -->
+        <div id="tblInternacional" class="subtab-content">
+<h1 class="subtab">DESTINOS INTERNACIONAIS</h1>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/amsterda/" target="amsterda"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/amsterda.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Amsterdã</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/aruba/" target="Aruba"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/aruba.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Aruba</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/aspen/" target="Aspen"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/aspen.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Aspen</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/bahamas/" target="bahamas"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/bahamas.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Bahamas</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/barbados/" target="barbados"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/barbados.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Barbados</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/barcelona/" target="barcelona"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/barcelona.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Barcelona</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/bariloche/" target="bariloche"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/bariloche.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Bariloche</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/buenosaires/" target="buenosaires"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/buenos-aires.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Buenos Aires</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/buenosaires/','buenosaires');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/cancun/" target="cancun"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/cancun.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cancún</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/cartagena/" target="Cartagena"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/cartagena.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cartagena</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/chicago/" target=""> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/chicago.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Chicago</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/chicago/','chicago');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Chicago1.pdf','FoneticaChicago');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/cidadedocabo/" target="cidadedocabo"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/cidadedocabo.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cidade do Cabo</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/cidadedocabo/','cidadedocabo');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/CidadedoCaboFonetica.pdf','FoneticaCidadedoCabo');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/conrad/" target="conrad"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/conrad.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Conrad</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/conrad/','conrad');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/ConradFonetica.pdf','FoneticaConrad');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/curacao/" target="curacao"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/curacao.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Curaçao</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/curacao/','curacao');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Cura%C3%A7ao-Fon%C3%A9tica.pdf','FoneticaCuracao');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/dubai/" target="dubai"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/dubai.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Dubai</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/dubai/','dubai');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Dubai1.pdf','FoneticaDubai');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/el-calafate/" target="el-calafate"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/el-calafare.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">El Calafate</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/el-calafate/','el-calafate');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/ElCalafate.pdf','FoneticaElCalafate');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/galapagos/" target="galapagos"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/galapagos.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Galápagos</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/galapagos/','galapagos');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/ibiza/" target="ibiza"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/ibiza.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Ibiza</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/ibiza/','ibiza');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/IbizaFonetica.pdf','FoneticaIbiza');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/jamaica/" target="jamaica"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/jamaica.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Jamaica</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/jamaica/','jamaica');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/kruger/" target="kruger"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/kruger.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Kruger</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/kruger/','kruger');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/lasvegas/" target="lasvegas"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/las-vegas.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Las Vegas</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/lasvegas/','lasvegas');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Las-Vegas.pdf','FoneticaLasVegas');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/lima/" target="lima"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/lima.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Lima</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/lima/','lima');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Lima.pdf','FoneticaLima');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/lisboa/" target="lisboa"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/lisboa.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Lisboa</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/lisboa/','lisboa');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/londres/" target="londres"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/londres.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Londres</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/londres/','londres');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/LondresFonetica1.pdf','FoneticaLondres');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/losangeles/" target="losangeles"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/los-angeles.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Los Angeles</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/losangeles/','losangeles');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/LosAngeles.pdf','FoneticaLosAngeles');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/machupicchu/" target="machupicchu"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/machu-picchu.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Machu Picchu</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/machupicchu/','machupicchu');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2014/06/MachuPicchu.pdf','FoneticaMachuPicchu');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/madri/" target="madri"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/madri.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Madri</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/madri/','madri');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/MadriFonetica.pdf','FoneticaMadri');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos//" target="mendoza"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/mendoza.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Mendoza</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/mendoza/','mendoza');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Mendoza-Fonética.pdf','FoneticaMendoza');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/miami/" target="miami"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/miami.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Miami</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/miami/','miami');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/MiamiFonetica.pdf','FoneticaMiami');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/montevideu/" target="montevideu"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/montevideu.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Montevidéu</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/montevideu/','montevideu');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Montevid%C3%A9u.pdf','FoneticaMontevideo');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/novayork/" target="novayork"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/nova-york.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Nova York</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/novayork/','novayork');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/NovaYork.pdf','FoneticaNovaYork');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/orlando/" target="orlando"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/orlando.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Orlando</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/orlando/','orlando');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/orlando1.pdf','FoneticaOrlando');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/panama/" target="panama"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/panama.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Panamá</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/panama/','panama');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/PANAM%C3%811.pdf','FoneticaPanama');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/paris/" target="paris"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/paris.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Paris</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/paris/','paris');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/ParisFonetica-2.pdf','FoneticaParis');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/puntacana/" target="puntacana"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/punta-cana.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Punta Cana</div>
+<div class="cadernos-versao">VERSÃO 15M-1</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/puntacana/','puntacana');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/PuntaCanaFonetica.pdf','FoneticaPuntaCana');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/puntadeleste/" target="puntadeleste"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/punta-del-este.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Punta Del Este</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/puntadeleste/','puntadeleste');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Punta-del-Este-Fonética.pdf','FoneticaPuntaDelLeste');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/quito/" target="quito"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/quito.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Quito</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/quito/','quito');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/QUITO.pdf','FoneticaQuito');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/rivieramaya/" target="rivieramaya"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/riviera-maya.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Riviera Maya</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/rivieramaya/','rivieramaya');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/RivieraMaya.pdf','FoneticaRivieraMaya');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/roma/" target="roma"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/roma.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Roma</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/roma/','roma');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/RomaFonetica.pdf','FoneticaRoma');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/san-andres/" target="san-andres"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/san-andres.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">San Andrés</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/san-andres/','san-andres');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/SanAndresFonetica.pdf','FoneticaSanAndres');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/santiago/" target="santiago"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/santiago.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Santiago</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/santiago/','santiago');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Santiago-Fon%C3%A9tica.pdf','FoneticaSantiago');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/saofrancisco/" target="saofrancisco"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/sao-francisco.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">São Francisco</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/saofrancisco/','saofrancisco');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/SanFrancisco.pdf','FoneticaSanFrancisco');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/stmaarten/" target="stmaarten"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/st-maarten.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">St. Maarten</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/stmaarten/','stmaarten');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/STMAARTEN.pdf','FoneticaSanMarten');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/ushuaia/" target="ushuaia"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/ushuaia.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Ushuaia</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/ushuaia/','ushuaia');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Ushuaia.pdf','FoneticaUshuaia');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/washington/" target="washington"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/washington.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Washington</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+<p> </p>
+</div>
+<div class="cadernos-botao" onclick="window.open('http://www.vendamaiscvc.com.br/cadernos/washington/','washington');" style="cursor: pointer;">VER CADERNO DIGITAL</div>
+<div id="podeSumir"></div>
+<div style="margin-top: -2px; cursor: pointer;" class="cadernos-botao" onclick="window.open('http://rede.cvc.com.br/wp-content/uploads/2015/04/Washington1.pdf','FoneticaWashington');">VER PRONÚNCIA</div>
+<p> </p>
+</div>
+<div style="clear: both;"></div>
+<p> </p>
+</div>
+<p> </p>
+</div>
+        <!-- / Copiado da rede - INTERNACIONAL --> 
+        
+        <!-- Copiado da rede - CRUZEIROS -->
+        <div id="tblCruzeiros" class="subtab-content">
+<h1 class="subtab">CRUZEIROS</h1>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/cruzeiros-disney/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/cruzeiros-disney.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cruzeiros Disney</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/cruzeiros-fluviais/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/cruzeiros-fluviais.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cruzeiros Fluviais</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+</div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/monarch/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/monarch.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cruzeiro Monarch</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/zenith/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/zenith.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cruzeiro Zenith</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/grandamazon/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/grand-amazon.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Grand Amazon</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/mscesplendidaefantasia/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/msc.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">MSC Splendida e MSC Fantasia</div>
+<div class="cadernos-versao">VERSÃO 14M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/oasisallure/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/oasis-allure.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Oasis e Allure</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div class="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/sovereign/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/cruzeiros/sovereign.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Sovereign</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+<div sclass="cadernos-botao">VER PRONÚNCIA</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+        <!-- / Copiado da rede - CRUZEIROS --> 
+        
+        <!-- Copiado da rede - CADERNOS ESPECIAIS -->
+        <div id="tblCadernosEspeciais" class="subtab-content">
+<h1 class="subtab">CADERNOS ESPECIAIS</h1>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/alugueldecarros/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/especiais/carros.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Aluguel de Carros</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/mundoparabrasileiros/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/mundo-para-brasileiros.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Mundo para Brasileiros</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/serieconquistas/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/conquistas.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Série Conquistas</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/seriesonhos/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/internacional/sonhos.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Série Sonhos</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/cursosnoexterior/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/especiais/cursosnoexterior.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Cursos no Exterior</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+        <!-- / Copiado da rede - CADERNOS ESPECIAIS --> 
+        
+        <!-- Copiado da rede - CIAS AÉREAS -->
+        <div id="tblCiasAereas" class="subtab-content">
+<h1 class="subtab">CIAS AÉREAS</h1>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/azul/index.html" target="_blank"><img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/especiais/azul.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">AZUL</div>
+<div class="cadernos-versao">VERSÃO 15N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/copaairlines/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/especiais/copaairlines.jpg"/></a><a></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">COPA AIRLINES</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/emirates/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/especiais/emirates.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">EMIRATES</div>
+<div class="cadernos-versao">VERSÃO 15N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/tap/index.html" target="_blank"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/especiais/tap.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">TAP</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+        <!-- / Copiado da rede - CIAS AÉREAS --> 
+        
+        <!-- Copiado da rede - RESORTS E HOTÉIS -->
+        <div id="tblResortsHoteis" class="subtab-content">
+<h1 class="subtab">RESORTS &amp; HOTÉIS</h1>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/dompedrolaguna/" target="dompedrolaguna"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/dompedro-laguna.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Dom Pedro laguna</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/enotel/" target="enotel"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/enotel.jpg"/></a><a></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Enotel</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/grandpalladium/" target="grandpalladium"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/grand-palladium.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Grand Palladium</div>
+<div class="cadernos-versao">VERSÃO 14M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/iberostar/" target="iberostar"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/iberostar.jpg"/></a><a></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Iberostar</div>
+<div class="cadernos-versao">VERSÃO 14N</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/mavsa/" target="mavsa"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/mavsa.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Mavsa</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/nannai/" target="nannai"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/nannai.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Nannai</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/oceanpalace/" target="oceanpalace"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/ocean_palace.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Ocean Palace</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/parquedacosteira/" target="parquedacosteira"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/parque-da-costeira.jpg"/></a><a></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Parque da Costeira</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/salinasdomaragogi/" target="salinasdomaragogi"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/salinasdomaragogi.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Salinas do Maragogi</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/sehrs/" target="sehrs"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/serhs.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Sehrs Natal</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/summerville/" target="summerville"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/summerville.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Summerville</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/tauaaraxa/" target="summerville"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/tauaaraxa.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Tauá Araxá</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/wishfozdoiguacu/" target="summerville"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/wishfozdoiguacu.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Wish Foz do Iguaçu</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+<div class="cadernos-content">
+<div id="cadernos-thumb"><a href="http://www.vendamaiscvc.com.br/cadernos/serrano/" target="summerville"> <img src="http://www.vendamaiscvc.com.br/cadernos/thumbs/nacional/serrano.jpg"/></a></div>
+<div id="cadernos-subcontent">
+<div class="cadernos-texto">
+<div class="cadernos-titulo">Wish Serrano Resort</div>
+<div class="cadernos-versao">VERSÃO 15M</div>
+</div>
+<div class="cadernos-botao">VER CADERNO DIGITAL</div>
+</div>
+<div style="clear: both;"></div>
+</div>
+</div>
+        <!-- / Copiado da rede - RESORTS E HOTÉIS --> 
+        
+      </div>
+    </div>
+  </div>
+  <!-- packageDestiny --> 
+  
+
+
+                </div>
+
+                <div class="container">
+                <a href="javascript:void(0)" class='facebook_link_right' style="height: 230px; position: absolute; right: -149px; top: 141px; width: 140px;"></a>
+                
+                
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            var ToolTipPriceRegion = $('#newcompany').html();
+            var pag = window.location.pathname.toLocaleLowerCase();
+            $('#tooltip_region').html(ToolTipPriceRegion);
+
+            if (ToolTipPriceRegion != "" && ToolTipPriceRegion != undefined)
+                $('.container .header .modal.lookpriceRegion').css('visibility', 'visible').delay(5000).slideUp(200);
+
+            if (Util.getCookie("UserName") != "" && Util.getCookie("UserName") != null)
+                $('.container .header .modal.lookpriceRegion').addClass('moveslookpriceRegion');
+
+            else
+                $('.container .header .modal.lookpriceRegion').removeClass('moveslookpriceRegion');
+
+            var pag = window.location.pathname;
+            if (pag.search('/travel/resultado-de-carros') < 0 && pag.search('/travel/resultado-de-cruzeiros') < 0 && pag.search('/travel/resultado-de-circuitos') < 0 && pag.search('/travel/minhaconta/index') < 0 && pag.search('/travel/minhaconta/changepassword') < 0 && pag.search('/travel/minhaconta/personalinfo') < 0 && pag.search('/travel/minhaconta/myorders') < 0 && pag.search('/detalhes/hotel') < 0) {
+                $('div.newsletter').newsLetterContact({
+                    controllers: {
+                        newsLetterController: Global.NewsLetterController
+                    }
+                });
+            }
+
+        });
+    </script>
+    <script type="text/javascript" src="/scripts/footer.js"></script>
+
+	
+	<!-- NEO ASSIST -->
+				
+					
+					<div id="NeoassistCentral"></div>
+					<script type="text/javascript">
+					    (function () {
+					        window.NeoAssistTag = {};
+					        NeoAssistTag.querystring = true;
+					        NeoAssistTag.pageid = '';
+					        NeoAssistTag.clientdomain = 'cvc.neoassist.com';
+					        var na = document.createElement('script'); na.type = 'text/javascript'; na.async = true; na.src = '//cdn.atendimen.to/n.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(na, s);
+					    })();
+					</script>
+					
+					
+	<!-- END NEO ASSIST -->
+	
+ 	
+		<div class="container footer menu">
+	        <!-- BANNER DFP -->
+                            
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        var pag = window.location.pathname.toLocaleLowerCase();
+                        if (pag == '/travel/resultado-pacotes.aspx' || pag == '/travel/resultado-passagens.aspx' || pag == '/travel/resultado-hoteis.aspx') {
+                            Global.SearchController.searchCompleted.attach(function () {
+                                mostraBannerDFP();
+                            });
+                        }
+                        else if (pag.search('/hoteis/index.aspx') == -1 && pag.search('/passagens-aereas/index.aspx') == -1 && pag.search('/pacotes/index.aspx') == -1 && pag.search('/destinos/index.aspx') == -1 && pag.search('/destinos/cadernos-virtuais.aspx') == -1) {
+                            if (pag.search('/passagens-aereas/') >= 0 || pag.search('/hoteis/') >= 0 || pag.search('/pacotes/') >= 0 || pag.search('/promocao/') >= 0 || pag == '/todos-pacotes-cvc.aspx' || pag == '/detalhes/pacote.aspx' || pag == '/detalhes/hotel.aspx' || pag.search('/destinos/') >= 0) {
+                                window.onload = initPage;
+                                function initPage() {
+                                    //alert('carregou');
+                                    mostraBannerDFP();
+                                }
+
+                            }
+                        }
+
+                        function mostraBannerDFP() {
+                            switch (pag) {
+                                case '/travel/resultado-pacotes.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    if ($('#resultsAirHotel').css('display') == 'none') {
+                                        $('.bannerDFP-vertical').css('display', 'inline-block');
+                                        $('.section.main_results').after($('.bannerDFP-vertical'));
+                                    }
+                                    else {
+                                        //$('#airFilter').after($('.bannerDFP-vertical'));
+                                        $('#hotelFilters').after($('.bannerDFP-vertical'));
+                                        $('.bannerDFP-vertical').css('display', 'block');
+                                        $('.bannerDFP-vertical').css('clear', 'both');
+                                        $('.bannerDFP-vertical').css('float', 'left');
+                                    }
+                                    break;
+                                case '/todos-pacotes-cvc.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('#especial_packages').eq(0).after($('.bannerDFP-vertical').eq(0));
+                                    break;
+                                case '/travel/resultado-passagens.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('.filters:eq(0)').after($('.bannerDFP-vertical'));
+                                    break;
+                                case '/travel/resultado-hoteis.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('.filters:eq(0)').after($('.bannerDFP-vertical'));
+                                    break;
+                            }
+
+                            $('.bannerDFP').css('display', 'inline-block');
+                            $('.bannerDFP div').css('margin', 'auto');
+                        }
+
+                        $('.bannerAdsTemp').hide();
+
+                    });
+                </script>
+                <div class="bannerDFP-vertical">
+                    <p>Publicidade</p>
+                    <script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+                        googletag.pubads().definePassback('/38958695/ROS_160X600', [160, 600]).display();
+                    </script>
+                </div> 
+                <div class='bannerDFP'>
+                    <p>Publicidade</p>
+                    <script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+                        googletag.pubads().definePassback('/38958695/ROS97090', [[728, 90], [970, 90]]).display();
+                    </script>
+                </div>
+                       
+	    
+		<!-- FIM BANNER DFP -->
+
+        
+            
+				
+				
+            
+
+            
+            <div class="lead-social modulo-principal box-cinza">
+                <ul>
+                    <li class="newsletterBox newsletter">
+                        <div id="nlcComponentForm_2" class="newsletterBox newsletter"><h3>Receba nossas ofertas por e-mail</h3><h3 class="secondaryHeader"></h3><div class="form"><div class="signInNewsletterEmail"><div><input class="input_name" type="text" id="nlcTxtNome" placeholder="Nome" maxlength="20" /><div id="nlcTxtNomeErrMsg" class="fieldMessageInvalid" style="display: none;">*informe o nome</div></div><div><input type="text" id="nlcTxtEmail" placeholder="E-mail" /><div id="nlcTxtEmailErrMsg" class="fieldMessageInvalid" style="display: none;">*digite um e-mail válido</div></div><ul><li class="nlcCustomCheckbox already_client" id="nlcTxtAlreadyClient">Já sou cliente de uma loja física CVC</li></ul><a href="javascript:void(0);" title="Assinar e-mail" class="blueBtn" id="nlcTxtSubscribeEmail_2" rel="nlcComponentForm_2,nlcComponentSent_2">Assinar e-mail</a></div></div><div class="newsletterMessageBox sent hide" id="nlcComponentSent_2"><h2>Seu e-mail foi registrado com sucesso!</h2><p>Agora você receberá as melhores ofertas da CVC.</p></div></div>						
+                        
+                    </li>
+                    <li class="txtRedesSociais">Faça parte das nossas redes sociais</li>
+                    <li class="icos-sociais">
+                        <a href="https://www.facebook.com/cvcviagens" target="_blank" title="Facebook" class="ico-facebook">Facebook</a> <a href="https://twitter.com/#!/cvcviagens" target="_blank" title="Twitter" class="ico-twitter">Twitter</a> <a href="https://instagram.com/cvcviagens" target="_blank" title="instagram" class="ico-instagram">Instagram</a> <a href="http://www.youtube.com/cvc" target="_blank" title="Youtube" class="ico-youtube">Youtube</a> <a rel="publisher" href="https://plus.google.com/u/0/100621743540649260620/posts#100621743540649260620/posts" target="_blank" title="Google Plus" class="ico-googleplus">Google Plus</a> <a href="http://pinterest.com/cvcviagens" target="_blank" title="Pinterest" class="ico-pinterest">Pinterest</a>
+                    </li>
+                </ul>
+            </div>
+            
+
+            
+            <div class="menu-rodape modulo-principal box-cinza">
+                
+                <div class="menu-rodape-institucional"><h4>Institucional</h4><ul><li><a href="/institucional/nossa-historia.aspx" title="Sobre a CVC" target="_blank">Sobre a CVC</a></li><li><a href="/institucional/politica-de-privacidade.aspx" title="Política de Privacidade" target="_blank">Política de Privacidade</a></li><li><a href="/institucional/termos-e-condicoes-de-uso.aspx" title="Termos e condições de uso" target="_blank">Termos e condições de uso</a></li><li><a href="/area-do-cliente/condicoes-gerais/index.aspx" title="Condições Gerais de Contratação" target="_blank">Condições Gerais de Contratação</a></li><li><a href="http://www.cvc.com.br/ri" title="Relações com investidores" target="_blank">Relações com investidores</a></li></ul><ul><li><a href="/institucional/politica-e-normas-de-seguranca.aspx" title="Política e normas de segurança" target="_self">Política e normas de segurança</a></li><li><a href="/afiliados.aspx" title="Afiliados CVC" target="_blank">Afiliados CVC</a></li><li><a href="http://www.vagas.com.br/cvcturismo" title="Trabalhe Conosco" target="_blank">Trabalhe Conosco</a></li><li><a href="http://www.parceiroscvc.com.br/pesquisa/cadastro.php" title="Pesquisa de Satisfação" target="_blank">Pesquisa de Satisfação</a></li><li><a href="/lps/responsabilidade-social/index.aspx" title="Responsabilidade Social Corporativa" target="_self">Responsabilidade Social Corporativa</a></li></ul><ul><li><a href="http://www.programaviaje.com.br" title="Programa Viaje!" target="_blank">Programa Viaje!</a></li><li><a href="http://www.cvc.com.br/cambio" title="Serviço de câmbio" target="_blank">Serviço de câmbio</a></li><li><a href="http://www.cvc.com.br/assistenciaviagem" title="Assistência Viagem" target="_blank">Assistência Viagem</a></li><li><a href="mailto:imprensa@cvc.com.br" title="Sala de Imprensa" target="_blank">Sala de Imprensa</a></li><li><a href="http://lojas.cvc.com.br" title="Encontre uma loja CVC" target="_blank">Encontre uma loja CVC</a></li></ul></div><div class="menu-rodape-ajuda"><h4>Ajuda e observações</h4><ul><li><a href="/institucional/compra-segura.aspx" title="Compra Segura" target="_self">Compra Segura</a></li><li><a href="/atendimento/faq.aspx" title="Perguntas Frequentes" target="_self">Perguntas Frequentes</a></li><li><a href="/institucional/forma-de-pagamento.aspx" title="Formas de Pagamento" target="_self">Formas de Pagamento</a></li><li><a href="/sitemap.aspx" title="Mapa do Site" target="_self">Mapa do Site</a></li><li><a href="http://www.procon.rj.gov.br/" title="Acesso ao Procon/RJ" target="_blank">Acesso ao Procon/RJ</a></li><li><a href="/media/8864080/condicoes-gerais-seguro-viagem-protegida.pdf" title="Seguro Férias Protegidas CVC" target="_blank">Seguro Férias Protegidas CVC</a></li></ul></div>
+                    
+
+                
+                <div class="pagamento">
+                    <h4>Formas de pagamento</h4>
+                    <ul>
+                        <li><img src="/travel/Styles_B2C/images/Visa.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/MasterCard.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/American-Express.png" /></li>                   
+                        <li><img src="/travel/Styles_B2C/images/Dinersc-Club.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/hipercard.png" /></li>
+                    </ul>
+                </div>
+                
+
+                
+                <div class="seguranca">
+                    <h4>Certificados</h4>
+                    <ul>
+                        <li>
+                            <script language='javascript'>
+                                function vopenw() { tbar = 'location=no,status=yes,resizable=yes,scrollbars=yes,width=560,height=535'; sw = window.open('https://www.certisign.com.br/seal/splashcerti.htm', 'CRSN_Splash', tbar); sw.focus(); }
+							    </script>
+							    <table border='0' cellpadding='0' cellspacing='0' id="Table2">
+								    <tr>
+									    <td align='left' valign='middle'>
+										    <a href='javascript:vopenw()'>
+											    <img src='http://www.cvc.com.br/travel/styles_b2c/images/span/certisign.jpg' border='0' align='center' alt='Um site validado pela Certisign indica que nossa empresa concluiu satisfatoriamente todos os procedimentos para determinar que o domínio validado é de propriedade ou se encontra registrado por uma empresa ou organização autorizada a negociar por ela ou exercer qualquer atividade lícita em seu nome.'/>
+										    </a>
+									    </td>									
+								    </tr>
+							    </table>
+                        </li>
+                        <li><script src='https://seal.verisign.com/getseal?host_name=www.cvc.com.br&amp;size=S&amp;use_flash=NO&amp;use_transparent=getsealjs_b.js&amp;lang=pt'></script></li>
+                        <li><a href="/responsabilidade-social/index.aspx" target="_blank"><img src="/travel/Styles_B2C/images/abrinq.png" /></a></li>
+                        <li><a href="http://www.ebit.com.br/viagens-cvc/selo" target="_blank" onclick="redir(this.href)" title="Avaliado pelos consumidores"><img src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo/img_5160.png" height="62" /></a></li>
+                    </ul>
+                </div>
+                
+
+            </div>
+            
+
+            
+
+            <div class="rodape-copyright modulo-principal box-cinza">
+                <center>CVC Brasil Operadora e Agência de Viagens | CNPJ: 10.760.260/0001-19 | Rua das Figueiras, 501 - Jardim – Santo André – SP | CEP: 09.080-370</center>
+                <center><img src="/media/3128416/logo-rodape.png" />© 2015 Viagens CVC - Todos os direitos reservados.</center>
+            </div>
+            
+            
+        
+
+        
+
+		
+        </div>           
+
+		
+
+		<!--Fecha footer-->            
+		<!-- Start Tagueamento -->
+		
+                                                               
+      <!-- Google Tag Manager -->
+      <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-2LZJ" height="0" width="0" style="display:none;visibility:hidden"> </iframe>
+      </noscript>
+      <script>
+          (function (w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+              var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })
+        (window, document, 'script', 'dataLayer', 'GTM-2LZJ');
+      </script>
+      <!-- End Google Tag Manager -->
+
+        <!-- End Tagueamento -->
+				
+		
+        
+
+
+            </div>
+
+                <div id="Div1"></div>
+        <div id="Div2" class="modal info">
+            <span class="tab top">&nbsp;</span>
+            <div class="content"></div>
+        </div>
+        <div id="Div3"></div>
+
+                <div id="estimateBox"></div>
+                 
+                 <div id="modal-content" class="modal info hide">
+                     <span class="tab top">&nbsp;</span>
+                     <div class="content"></div>
+                 </div>
+        </div>
+        </form>
+
+        <!--Diretiva B -->
+        
+        
+        
+        
+        
+        
+        
+
+        
+  
+
+        
+    
+
+        <div id="sm-bounce" data-scope="email" style="display:none"></div>
+
+    </body>
+
+    </html>
+

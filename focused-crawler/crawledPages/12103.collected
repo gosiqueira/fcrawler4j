@@ -1,0 +1,65 @@
+title=Thalys
+url=http://m.thalys.com/
+html=<!doctype html>
+<html manifest="site.manifest">
+<!--<html>-->
+<head>
+  <title>Thalys</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="chrome=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+  <meta name="description" lang="en" content="Book your train tickets to Paris, Brussels, Amsterdam and Cologne directly at Thalys.com, and enjoy cheaper fares!">
+
+  <meta name="apple-itunes-app" content="app-id=552867771">
+
+  <link rel="apple-touch-icon-precomposed" href="images/webclip/ThalysWebapp57x57.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/webclip/ThalysWebapp72x72.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/webclip/ThalysWebapp114x114.png" />
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/webclip/ThalysWebapp144x144.png" />
+
+  <link rel="apple-touch-startup-image" href="images/webclip/splashscreen_320x480.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 1)" />
+  <link rel="apple-touch-startup-image" href="images/webclip/splashscreen_640x920.png" media="(device-width: 320px) and (device-height: 480px) and (-webkit-device-pixel-ratio: 2)" />
+  <link rel="apple-touch-startup-image" href="images/webclip/splashscreen_640x1096.png" media="(device-width: 320px) and (device-height: 568px) and (-webkit-device-pixel-ratio: 2)" />
+
+  <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <!--<meta name="apple-mobile-web-app-capable" content="yes" />-->
+  <meta content="yes" name="apple-touch-fullscreen" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no">  
+  <link type="text/css" rel="stylesheet" media="screen" href="stylesheets/screen.css" />
+  <link type="text/css" rel="stylesheet" href="stylesheets/mobiscroll.css">
+  <!--[if IE]>
+  <link type="text/css" rel="stylesheet" rev="stylesheet" media="screen" href="stylesheets/oldbrowsers.css" />
+  <![endif]-->
+  <!--<script src="javascripts/libs/modernizr.js"></script>-->
+</head>
+
+<body class="page-layout">
+   <div id="window" class="page-layout" style="background-color:#AC1133">
+
+      <header class="top-bar"></header>
+
+      <div id="menu" class="scrollable with-topbar">
+      </div>
+
+      <div id="main" class="page-layout with-topbar animation-region">
+      	<div class="loader red current" style="background-color:#AC1133"></div>
+      </div>
+	  	
+	
+  </div>
+
+<div id="pushview" align="center"></div>
+   
+  <div id="popup"></div>
+ 
+  <div id="calendar" class="bookings"></div>
+
+  <script>
+    var startTimeGlobal = new Date().getTime();
+  </script>
+
+  <!-- Application source. -->
+  <script data-main="javascripts/app/config" src="javascripts/libs/require.js"></script>
+</body>
+</html>

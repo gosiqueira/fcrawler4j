@@ -1,0 +1,104 @@
+title=Ronco do Bugio
+url=http://roncodobugio.com.br/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" lang="pt-br"> 
+  <head>
+    <link rel="shortcut icon" href="ico.ico" type="image/x-icon" /> 
+    <title>Ronco do Bugio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />       
+    <meta http-equiv="content-language" content="pt-br">
+    <meta name="title" content="Ronco do Bugio - Pouso e Gastronomia">
+    <meta name="description" content="Em uma área de doze alqueires de Mata Atlântica, o Ronco do Bugio une o charmoso design de suítes personalizadas e um restaurante de cozinha refinada com muitas ações sustentáveis. Tudo aqui foi pensado para priorizar os hóspedes e a natureza." />
+    <meta property="og:url" content="http://roncodobugio.com.br/" />
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:title" content="Ronco do Bugio - Pouso e Gastronomia" />
+    <meta property="og:image" content="http://roncodobugio.com.br/img/logo.png" />
+    <meta property="og:description" content="Em uma área de doze alqueires de Mata Atlântica, o Ronco do Bugio une o charmoso design de suítes personalizadas e um restaurante de cozinha refinada com muitas ações sustentáveis. Tudo aqui foi pensado para priorizar os hóspedes e a natureza." />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/website.css" type="text/css" media="screen"/>
+    <link rel="stylesheet" href="css/supersized.css" type="text/css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/jquery.vegas.css" />
+  </head>
+  <body>
+    <!--<img id="bg" src="img/background.jpg">-->
+    <div id="wrapper">
+
+      <div id="sidebar">
+
+        <a href="" id="logo"></a>
+
+        <a style="left: 135px; top: 0px; position:absolute;" href="/en/"><img src="img/flag.png" alt="English version" /></a>
+
+        <span style="color: #ff9900; font-size:16px; font-weight:bold; letter-spacing:6px; top:-10px; position: relative; left:10px;">Piedade - SP</span>
+
+        <span id="contato">
+          <img src="img/telefone.png" alt="" /><span style="font-weight:bold; font-size:14px;">Local: (15) 3299-8600</span><br />
+          <img src="img/telefone.png" alt="" /><span style="font-weight:bold; font-size:14px;">Local: (11) 3230-5434</span><br />
+          <span style="font-weight:bold; font-size:14px;">Reservas: (11) 98259-7788</span><br>
+        </span>
+
+        <ul>
+          <li><a target="_blank" href="/blog">Novidades</a></li>
+          <li><a id="btn-nossa-proposta" href="#!/nossa-proposta">Nossa Proposta</a></li>
+          <li><a id="btn-pousada" href="#!/pousada">Pousada</a></li>
+          <li><a id="btn-restaurante" href="#!/restaurante">Restaurante</a></li>
+          <li><a id="btn-atividades" href="#!/atividades">Atividades</a></li>
+          <li><a id="btn-localizacao" href="#!/localizacao">Localização</a></li>
+          <li><a id="btn-galeria-de-fotos" href="#!/galeria-de-fotos">Galeria de Fotos</a></li>
+          <li><a id="btn-ronco-na-midia" href="#!/ronco-na-midia">Ronco na Mídia</a></li>
+          <li><a id="btn-fale-conosco" href="#!/fale-conosco">Fale Conosco</a></li>
+          <li><a id="btn-parceiros-de-caminhada" href="#!/parceiros-de-caminhada">Parceiros de Caminhada</a></li>
+        </ul>
+
+        <span style="position: absolute; bottom:0; font-weight:bold; font-size: 12px;" >© 2014 Pousada Ronco do Bugio</span>
+
+      </div>
+      
+      <span id="loader"><img  src="img/progress.gif"></span>
+
+      <div id="home-txt">
+        <span id="home-txt-01" class="home-txt"><blockquote><strong>“</strong>Supercharmosa,<br/> a pousada Ronco do Bugio<br/> possui decoração diferenciada em cada <br/>uma das suas suítes.<br/></blockquote> <span style="font-family: sans-serif; font-size: 18px; font-style: italic; float: right; margin-top: 20px;">Veja São Paulo</span></span>
+
+        <span id="home-txt-02" class="home-txt"><blockquote><strong>“</strong>Imagine um recanto localizado <br/> em meio à uma reserva florestal,<br/> que oferece conforto, belezas naturais e alta gastronomia.<br/></blockquote> <span style="font-family: sans-serif; font-size: 18px; font-style: italic; float: right; margin-top: 20px;">Estilo Natural</span></span>
+
+        <span id="home-txt-03" class="home-txt"><blockquote><strong>“</strong>A pousada é um exemplo de desenvolvimento sustentável e negócio bem sucedido.</blockquote> <span style="font-family: sans-serif; font-size: 18px; font-style: italic; float: right; margin-top: 10px;">Joyce Pascowitch</span></span>
+
+        <span id="home-txt-04" class="home-txt"><blockquote><strong>“</strong>O pouso e gastronomia Ronco do Bugio <br/> proporciona paz e requinte bem <br/> no meio de uma reserva florestal <br/> na Serra de Paranapiacaba.</blockquote> <span style="font-family: sans-serif; font-size: 18px; font-style: italic; float: right; margin-top: 20px;">Welcome Congonhas</span></span>
+
+        <span id="home-txt-05" class="home-txt"><blockquote><strong>“</strong>Aconchego à moda antiga: basta entrar para se apaixonar pelo Ronco do Bugio.</blockquote> <span style="font-family: sans-serif; font-size: 18px; font-style: italic; float: right; margin-top: 20px;">Jornal O Estado de S. Paulo</span></span>
+      </div>
+
+      <a id="btn_charme" target=_blank href="http://www.roteirosdecharme.com.br/"><img src="img/charme.png" alt="Roteiros de Charme" /></a>
+      <div id="TA_certificateOfExcellence415" class="TA_certificateOfExcellence" style="position: absolute; left: 20%; top: 0;">
+        
+      </div>
+      <script src="http://www.jscache.com/wejs?wtype=certificateOfExcellence&uniq=415&locationId=2437649&lang=pt&year=2014"></script>
+
+          <div id="content">
+      </div>
+        <div id="fb-content">
+                <div id="fb-wrapper">
+                        <div class="fb-comments" data-href="http://roncodobugio.com.br/#!/fale-conosco" data-width="500" data-numposts="3" data-colorscheme="light"></div>
+                        <div id="fb-root"></div>
+                </div>
+        </div>
+</div>
+
+  </body>
+
+</html>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.tinyscrollbar.min.js"></script>
+<script type="text/javascript" src="js/jquery.easing.min.js"></script>
+<script type="text/javascript" src="js/jquery.vegas.js"></script>
+<script>
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-31794366-1']);
+	_gaq.push(['_trackPageview']);
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+</script>

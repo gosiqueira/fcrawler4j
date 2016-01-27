@@ -1,0 +1,355 @@
+title=PROCON
+url=http://www.procon.rj.gov.br/index.php/publicacao/listar/4/1
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>PROCON</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://www.procon.rj.gov.br/procon/assets/css/style_site.css" />
+
+	<script type="text/javascript">	
+		var site_url = "http://www.procon.rj.gov.br/index.php/";
+		var base_url = "http://www.procon.rj.gov.br/";
+		var js_url	 = "http://www.procon.rj.gov.br/procon/assets/js/";
+		var img_url  = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var css_url  = "http://www.procon.rj.gov.br/procon/assets/css/";
+		var url_img = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var url_css = "http://www.procon.rj.gov.br/procon/assets/css/";
+	</script>
+	
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.ui.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/menu.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/acessibilidade.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/plugins/mi.js"></script>
+
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/scripts/site/banners.js"></script>
+
+      <script>
+         function confirmDelete(delUrl) {
+	     
+            msg = "Você está sendo redirecionado para fora do PROCON, deseja continuar?";
+            if (confirm(msg)) {
+               document.location = delUrl;
+            }
+        }
+		
+		           
+        </script>
+
+	
+</head>
+<body>
+<noscript></noscript>
+
+	<div class="governo">
+		<div class="conteudo">
+			<a target="_blank" href="http://www.rj.gov.br/web/guest">
+				<div class="logotipo">Governo do Estado do Rio de Janeiro</div>
+			</a>
+			<div class="secretaria">SECRETARIA DE ESTADO DE PROTEÇÃO DE DEFESA DO CONSUMIDOR</div>
+			<!--<div class="topo_menu">
+				<ul>
+					<li>
+						<a href="http://www.rj.gov.br/web/informacaopublica/">INFORMAÇÃO PÚBLICA</a>
+					</li>
+				</ul>
+			</div>-->
+			
+			<div class="acessibilidade">
+				<ul>
+					<li class="aumentar_fonte divisao"><a href="#" rel="nofollow">Aumentar fonte do texto</a></li>
+					<li class="diminuir_fonte divisao"><a href="#" rel="nofollow">Diminuir fonte do texto</a></li>
+					<li class="normalizar_fonte divisao"><a href="#" rel="nofollow">Voltar para tamanho original da fonte do texto</a></li>
+					<li class="altocontraste_fonte"><a href="#" rel="nofollow">Ativar Alto contraste</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class="geral">
+		
+		<div class="menu fundo_consumidor">
+			<a href="http://www.procon.rj.gov.br/index.php"><div class="logotipo">Procon RJ</div></a>
+			<div class="conteudo">
+            	<div class="titulo">MENU</div>
+				<ul>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao">INÍCIO</a></li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/1">NOTÍCIAS</a></li>
+					<li ><a href="#">INSTITUCIONAL</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/historico">histórico</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/objetivo">objetivo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/estrutura">estrutura</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/telefones">telefones</a></li>
+						</ul>
+					</li>
+					<li class="selecionado corfundo_setor_consumidor"><a href="javascript:;">CONSUMIDOR</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">dicas ao consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">educação para o consumo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/1">recall</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">código de defesa do consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/6/1">cartilhas e folders</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">LEGISLAÇÃO</a>
+					    <ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/1/1">Leis Federais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/2/1">Leis Estaduais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/3/1">Leis Municipais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/4/1">Portarias Procon</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/5/1">Outras</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">IMPRENSA</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/fato_foto">fatos e fotos</a></li>
+							<!--<li><a href="http://www.procon.rj.gov.br/index.php/informativo">informativo</a></li>-->
+							<li><a href="http://www.procon.rj.gov.br/index.php/clipping">clipping</a></li>
+                            <li><a href="http://www.procon.rj.gov.br/index.php/main/contato">contato</a></li>
+							<li><a href="javascript:proconNaMidia();">v&iacute;deos</a></li>
+						</ul>
+					</li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/link_util">LINKS</a></li>
+					<li ><a href="#">ATENDIMENTO</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/posto_atendimento">postos de atendimento</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/agenda_procon_movel">agenda procon móvel</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/expressinho">procon expressinho</a></li>
+                           				<li><a href="http://www.procon.rj.gov.br/index.php/main/disque151">disque procon 151</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/ouvidoria">ouvidoria</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div>
+                     <div class="redesSociais">
+			     <a href="javascript:confirmDelete('http://www.facebook.com/ProconRJ')"><div class="redesSociaisFacebook">.</div></a>
+     			     <a href="javascript:confirmDelete('https://twitter.com/ProconRJ')"><div class="redessociais_twitter">.</div></a>
+                     </div>
+		</div>
+		
+		<div class="principal">
+		
+	<div class="suporte">
+				<div class="busca">	
+						
+					<div class="superior"></div>
+					<div class="conteudo">
+						<label for="txtBusca" style="display:none;"></label>
+						<input maxlength="100" name="txtBusca" id="txtBusca" type="text" value="Buscar..."/>
+						<div class="botao">
+							<a id="btnBuscar" href="javascript:;">
+								<img src="http://www.procon.rj.gov.br/procon/assets/imagens/icone_detalhar.png" alt="Buscar" title="Buscar" width="19" height="19" border="0"/>Buscar
+							</a>
+						</div>
+					</div>	
+							
+					<div class="inferior"></div>
+				</div>
+					
+				<div class="texto">Para DENÚNCIAS e ORIENTAÇÕES ligue para 151 e o horário de funcionamento é de segunda à sexta de 07:00 às 19:00.</div>
+			</div>
+			
+		
+			<div class="acabamento"></div>
+			<div class="palco">
+			
+				<div class="apoio">
+					<div class="instrucoes margin_bottom_20">
+						<div class="titulo">
+							<h1>EDUCAÇÃO<br />PARA O CONSUMO</h1>
+						</div>
+						<div class="instrucoes_conteudo">
+							<p class="margin_bottom_20">Saiba o que determina o Código de Defesa do Consumidor e aprenda a usar os seus direitos.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">ENTENDA MAIS</a></p>
+							<p class="margin_bottom_20">Veja como o PROCON orienta de maneira simples e clara o consumidor, antes de realizar as compras ou adquirir serviços.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">VER DICAS</a></p>
+							<p>Conhe&ccedil;a o C&oacute;digo de Defesa do Consumidor (Portugu&ecirc;s, English, Espa&ntilde;ol).<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">MAIS INFORMAÇÕES</a></p>
+						</div>
+						<div class="acabamento"></div>
+					</div>
+					<div class="banners">
+						
+					</div>
+				</div>
+				
+				<div class="conteudo hiddenInViewSource">
+						<input type="hidden" value="" id="linkAnterior"/>
+<input type="hidden" value="1" id="temPublicacoes"/>
+<input type="hidden" value="4" id="tipos"/>
+<div class="conteudo">
+	
+			<h1 class="cor_setor_consumidor">CONSUMIDOR
+			<span class="font_size_20">  / recall</span>
+			
+			
+		</h1>
+		
+		
+		<div class="secundaria">
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: SUBARU FORESTER (vers&otilde;es S 2.0 e XT 2.0 Turbo) ANO 2013 A 2015.</h1>
+
+			<div class="data">14.01.2016 - 14:23</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- RJ abriu campanha de chamamento do SUBARU FORESTER (vers&otilde;es S 2.0 e XT 2.0 Turbo) para resolver o problema envolve o chicote el&eacute;trico da coluna da dire&ccedil;&atilde;o.</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2335">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: Honda - Shadow 750</h1>
+
+			<div class="data">08.01.2016 - 13:54</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- Rj abriu campanha do chamamento da Shadow 750 para a substitui&ccedil;&atilde;o do sensor de inclina&ccedil;&atilde;o (BAS- Bank Angle Sensor)</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2327">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: motocicletas Suzuki, modelos V-STROM1000A</h1>
+
+			<div class="data">30.12.2015 - 14:35</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- RJ abriu campanha de chamamento convocando os propriet&aacute;rios das motocicletas Suzuki, modelos V-STROM1000A</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2313">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: Jaguar e Land Rover Brasil Importa&ccedil;&atilde;o e Com&eacute;rcio de Ve&iacute;culos Ltda</h1>
+
+			<div class="data">29.12.2015 - 11:27</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- RJ abriu campanha de chamamento para a inspe&ccedil;&atilde;o preventiva e, se necess&aacute;rio, a substitui&ccedil;&atilde;o dos mecanismos de reclinagem do assento da 2&ordf; fileira de assentos em ve&iacute;culos Land Rover, modelo Ranger Rover Sport, ano/ modelo 2015/2016</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2311">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: Lo&ccedil;&atilde;o Jovem Cremosa, lotes 001/15. (v&aacute;lido at&eacute; 13/01/2018) e 002/15 ( v&aacute;lido at&eacute; 18/01/2018)</h1>
+
+			<div class="data">29.12.2015 - 11:07</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- RJ abriu campanha de chamamento da Lo&ccedil;&atilde;o Jovem Cremosa, lotes 001/15. (V&aacute;lido at&eacute; 13/01/2018) e 002/15 (v&aacute;lido at&eacute; 18/01/2018)</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2310">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: BRP BRASIL PROMOVE EVINRUDE E-TEC G2 74&deg; V6 (3,4 L) , modelo AB e AG</h1>
+
+			<div class="data">29.12.2015 - 10:53</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- RJ abriu campanha de chamamento da : BRP BRASIL PROMOVE EVINRUDE E-TEC G2 74&deg; V6 (3,4 L) , modelo AB e AG para a substituir o conjunto de dire&ccedil;&atilde;o dos motores de popa. </p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2309">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: BMW, modelo M3 Sedan.</h1>
+
+			<div class="data">29.12.2015 - 10:24</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- RJ abriu campanha de chamamento dos ve&iacute;culos BMW, modelo M3 Sedan para realizar a inspe&ccedil;&atilde;o e, se necess&aacute;rio, o reparo do ve&iacute;culo.</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2308">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: Jeep - modelos Cherokee e Grand Cherokee, produzidos entre 2002 e 2003 e 2002 e 2004</h1>
+
+			<div class="data">28.12.2015 - 15:24</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon - RJ abriu campanha de chamamento da Jeep - modelos Cherokee e Grand Cherokee , em raz&atilde;o da possibilidade de falha no funcionamento do modulo de controle do sistema de air bag</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2306">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: Yamaha modelo das motocicletas MT09, modelo 2015 e 2016</h1>
+
+			<div class="data">28.12.2015 - 14:51</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon ? RJ abriu campanha de chamamento para  Yamaha modelo das motocicletas MT09, modelo 2015 e 2016 para a substitui&ccedil;&atilde;o da transmiss&atilde;o secund&aacute;ria da motocicleta.</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2305">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Recall: Mercedes ? Benz do Brasil Ltda. ( MSBras) -  Classe GLA , ano/ modelo 2015/2015</h1>
+
+			<div class="data">28.12.2015 - 14:15</div>
+
+							<div class="conteudo sem_imagem">
+							<p class="margin_bottom_20">O Procon- Rj abriu campanha de chamamento da Classe GLA , ano/ modelo 2015/2015 para substitui&ccedil;&atilde;o dos eixos dos comandos de v&aacute;lvula de admiss&atilde;o e exaust&atilde;o do motor</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2304">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				</div>
+	
+	 		 <div class="paginacao">
+			 <ul><li class="nolink"><<</li><li class="nolink"><</li><li class="nolink selecionado">1</li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/2">2</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/3">3</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/4">4</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/5">5</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/2">></a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/94">>></a></li></ul>		</div>	
+ 		</div>
+
+	</div>
+
+		
+				
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="base">
+			<div class="proderj">Tecnologia PRODERJ - Todos os direitos reservados</div>
+			<div class="direitos">
+            	<div class="logotipo"><a href="#">Saiba Mais sobre Creative Commons</a></div>
+                <div class="texto">Esta obra é licenciada sob uma licença Creative Commons Atribuio 2.0 Brasil</div>
+			</div>
+			<div class="acabamento">
+			</div>
+		</div>
+		
+	</div>
+	
+
+	
+	
+
+ 
+
+
+</body>
+</html>
+
+
+
+
+

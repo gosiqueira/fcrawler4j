@@ -1,0 +1,298 @@
+title=Descontos em pacotes, hotéis e muito mais | Programa Viaje CVC
+url=http://www.programaviaje.com.br/programa.html
+html=<!DOCTYPE html>
+<html>
+	<head>
+    
+<script src="js/jquery.min.js" type="text/javascript"></script>
+
+
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+     <script type="text/javascript">
+jQuery(document).ready(function() {
+
+	$(".video").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'elastic',
+			'transitionOut'	: 'elastic',
+			'title'			: this.title,
+			'width'			: 300,
+			'height'		: 385,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+
+
+
+$("a#inline").fancybox({
+		'hideOnContentClick': true
+	});
+
+
+
+ $(".iframe").fancybox({
+         'width'		: 900,
+		'height'		: '80%',
+         'autoScale' : false,
+         'transitionIn' : 'none',
+         'transitionOut' : 'none',
+         'type' : 'iframe',
+		  'autoSize' : false,
+		 
+     });
+
+
+
+
+});
+</script>
+
+    
+    
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    
+		
+		<script src="js/jquery.orbit.min.js" type="text/javascript"></script>
+		<script src="js/jquery.bxSlider/jquery.bxSlider.min.js" type="text/javascript"></script>
+		<script src="js/scripts.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="js/orbit.css">
+        
+        
+   
+
+        
+        
+       
+        
+<title>Descontos em pacotes, hotéis e muito mais | Programa Viaje CVC</title>
+<meta name="description" content="Programa de fidelidade CVC. Suas compras acumulam pontos, ganhe descontos em pacotes e hotéis.Quanto mais você viaja, mais pontos acumula.CVC Viagens!"/>
+<meta name="keywords" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+<meta name="DC.title" content="Descontos em pacotes, hotéis e muito mais | Programa Viaje CVC"/>
+<meta name="DC.description" content="Programa de fidelidade CVC. Suas compras acumulam pontos, ganhe descontos em pacotes e hotéis.Quanto mais você viaja, mais pontos acumula.CVC Viagens!"/>
+<meta name="DC.subject" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem, CVC"/>
+<meta name="DC.identifier" content="http://www.cvc.com.br"/>
+<meta Name="robots" content= "index,follow">
+<meta property="og:title" content="Descontos em pacotes, hotéis e muito mais | Programa Viaje CVC"/>
+<meta property="og:description" content="Programa de fidelidade CVC. Suas compras acumulam pontos, ganhe descontos em pacotes e hotéis.Quanto mais você viaja, mais pontos acumula.CVC Viagens!"/>
+<meta property="og:url" content="http://www.programaviaje.com.br/programa.html"/>
+<meta property="og:site_name" content="CVC Viagens"/>
+<meta property="og:type" content="website"/>
+<link rel="canonical" href="http://www.programaviaje.com.br/programa.html"/>
+	</head>
+	<body id="programa">
+		<div id="page">
+		  <div id="header">
+				<h1><a href="index.html">Programa Viaje</a></h1>
+				
+				<div class="area-usuario">
+					<p class="titulo-area-usuario">Participe agora!</p>
+					<p><a  class="botao-registrar" href="http://www.programaviaje.com.br/eloyalty_ptb">Registre-se gr&aacute;tis</a></p>
+					<p> ou </p>
+					<p><a class="botao-login"  href="http://www.programaviaje.com.br/eloyalty_ptb">Faça o login</a></p>
+	<!--<div class="frase-lojas"><strong style="color:#92288C">Atenção:</strong> <a href="programa.html#lojas-participantes">clique aqui</a> para conferir as lojas participantes do Programa Viaje!.</div>-->				
+				</div>
+                <div class="menu-header">
+                    <ul>
+                        <li class="duvidas"><a href="#">Tire suas Dúvidas</a>
+                            <ul class="submenu-fale-conosco">
+                                <li class="fale-conosco"><a href="fale-conosco.html">Fale Conosco</a></li>
+                                <li class="perguntas-frequentes"><a href="perguntas-frequentes.html">Perguntas Frequentes</a></li>
+                            </ul>
+                        </li>
+                        
+                        <li class="ofertas"><a href="#">Ofertas</a>
+                            <ul class="submenu-ofertas">
+                                <li class="acumule-pontos"><a href="ofertas-nacionais.html">Ofertas Nacionais</a></li>
+                                <li class="resgate pontos"><a href="ofertas-internacionais.html">Ofertas Internacionais</a></li>
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        
+                        <li class="parceiros"><a href="cartao-cvc.html">Cartão CVC</a></li>
+                        <li class="programa on"><a href="programa.html">Sobre o Programa</a>
+                            <ul class="submenu-programa">
+                                <li class="acumule-pontos"><a href="programa.html#acumule">Acumule Pontos</a></li>
+                                <li class="resgate pontos"><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+                                <li class="regulamento"><a href="regulamento.html">Regulamento</a></li>
+                            </ul>
+                        </li> <li class="home"><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+			</div>
+			<div id="conteudo">
+				<h2>Programa Viaje!</h2>
+				<a name="lojas-participantes"></a>
+				<p class="subtitulo"><span>Juntou, </span>trocou, viajou!</p>
+			  <p class="texto-normal">Com o programa Viaje! da CVC, explorar o mundo e viver novas experiências ficam ainda mais fáceis. Suas compras, no cartão CVC, acumulam pontos que podem ser trocados por descontos em diversos produtos<br>
+			    <br>
+			  </p>
+              
+              <p class="segundo-paragrafo texto-normal">Para saber as lojas participantes <a class="iframe" href="lojas-participantes.html">clique aqui</a> </p>
+</p>
+			  <br>
+			  <p><img src="images/fotos.png" alt="Montagem de fotos" align="top" class="montagem-fotos" />              
+			  <div class="vantagens">
+			    <p class="titulo">Vantagens</p>
+					<p class="subtitulo-vantagens">São inúmeras vantagens no programa Viaje! <br><br>
+					  <span>Aproveite!</span>
+					
+				<dl>
+						<dt><a href="#resgate">Viaje o ano todo: finais de semana e feriados</a></dt>
+						<dd>Resgate seus pontos e troque por descontos também em viagens de curta duração para aproveitar os finais de semana e feriados. Não espere as férias para viajar utilizando seus pontos. Viaje com sua família, viva novas experiências e aproveite nossas vantagens exclusivas.</dd>
+						<dt><a href="#acumule">Seus pontos valem descontos em viagens</a></dt>
+						<dd>Compre com o Cart&atilde;o CVC, acumule pontos e troque por descontos em viagens. Quanto mais voc&ecirc; utilizar o seu cart&atilde;o CVC, mais pontos acumula para conhecer o mundo, novas culturas ou apenas para sair da rotina.</dd>
+						<dt><a href="ofertas.html">Preços exclusivos</a></dt>
+						<dd>Adquirindo o cart&atilde;o CVC, você aproveita uma série de ofertas especiais. Fique atento ao nosso site. Sempre haverá uma novidade imperdível.</dd>
+					</dl>
+			  </div>
+			  <div class="acumule-pontos">
+				  <a name="acumule"></a>
+			    <p class="titulo">Acumule pontos</p>
+					<p class="subtitulo-vantagens">Como acumular</p>
+					<p class="texto-normal">Ganhar pontos no programa Viaje! &eacute; muito simples. Todas as compras realizadas com o cart&atilde;o CVC acumulam pontos</p>
+					<br/><br/>
+					<p class="subtitulo-vantagens">Veja como ganhar pontos:</p>
+					<p class="subtitulo-vantagens saldo">&nbsp;</p><table width="900" border="1">
+					  <tr>
+					    <td width="265" bgcolor="#FFFFFF" style="text-align: center">&nbsp;</td>
+					    <td width="273" align="center" bgcolor="#FFFFFF" style="text-align: center"><img src="images/cartao-gold.jpg" width="164" height="102" alt=""/></td>
+					    <td width="240" align="center" bgcolor="#FFFFFF" style="text-align: center"><img src="images/cartao-inter.jpg" width="164" height="102" alt=""/></td>
+				      </tr>
+					  <tr>
+					    <td height="74" bgcolor="#FFFFFF" style="text-align: center">&nbsp;</td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><p align="center"><strong>A cada R$ 1,00 </strong>pago* na fatura <br>
+  &nbsp; com o&nbsp; cart&atilde;o Gold, <br>
+				        o cliente ganha <strong>2 pontos.</strong></p></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><p align="center"><strong>A cada R$ 1,00 </strong>pago* na fatura <br>
+					      com o cart&atilde;o Internacional, <br>
+				        o cliente ganha <strong>1 ponto.</strong></p></td>
+				      </tr>
+					  <tr>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><p align="center"><strong>Compras na CVC</strong><br>
+				        <strong>(Parcela paga no m&ecirc;s R$1.000)</strong><strong> </strong></p></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><p align="center"><strong>2.000 pontos</strong><strong> </strong></p></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><p align="center"><strong>1.000 pontos</strong><strong> </strong></p></td>
+				      </tr>
+					  <tr>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><p align="center">&nbsp;</p></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center">+</td>
+					    <td bgcolor="#FFFFFF" style="text-align: center">+</td>
+				      </tr>
+					  <tr>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><strong>Compras fora da CVC</strong><br>
+                        <strong>(Parcela paga no m&ecirc;s R$2.000)</strong><strong style="text-align: center"></strong></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><strong>4.000 pontos</strong></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><strong>2.000 pontos</strong></td>
+				      </tr>
+					  <tr>
+					    <td height="46" bgcolor="#FFFFFF" style="text-align: center"><strong>Total</strong></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><strong style="font-size: 24px">6.000 pontos</strong></td>
+					    <td bgcolor="#FFFFFF" style="text-align: center"><strong style="font-size: 24px">3.000 pontos</strong></td>
+				      </tr>
+					  <tr>
+					    <td height="46" colspan="3" bgcolor="#FFFFFF" style="text-align: center"><p>* Itens pagos na fatura que pontuam: compras na CVC, compras fora da CVC, anuidade e produtos financeiros</p></td>
+				      </tr>
+				  </table>
+				</div>
+			  <div class="resgate">
+					
+			    <a name="resgate"><p class="titulo">Como <span>resgatar?</span></p></a>
+					
+					<p class="texto-normal">No programa Viaje!, resgatar seus pontos é fácil e rápido: juntou, trocou, viajou. Simples assim.<br>
+<p style="font-size:20px; font-weight:bold; color:#F7941E">Veja como &eacute; f&aacute;cil:</p>
+<br><p style="font-weight:bold; font-size:17px"> <span style="color: #003D7E">1.</span> V&aacute; at&eacute; uma loja CVC<br>
+<br>
+<span style="color: #003D7E">2.</span> Escolha a sua viagem<br>
+<br>
+<span style="color: #003D7E">3.</span> Escolha a quantidade de pontos que deseja utilizar <br>
+<br></p>
+<br/>
+					  </p>
+					
+					<p class="texto-maior">Seus pontos geram descontos incr&iacute;veis em viagens</p>
+					<img src="images/pontos02.png" alt="Pontos do programa" />
+					
+				
+				</div>
+			</div>
+		</div>
+	
+		<div id="footer-expansivel">
+		<div id="footer">
+		  <div id="texto-legal"><strong style="color:#92288C">Atenção:</strong> Somente acumularão pontos as compras realizadas com o seu Cartão CVC nas lojas CVC ou em qualquer estabelecimento</div>
+			<div class="institucional">
+				<ul>
+					<li class="titulo"><span>Sobre o Programa</span>
+						<ul class="lista-servicos">
+							<li><a href="programa.html#acumule">Acumule Pontos</a></li>
+							<li><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+							<li><a href="regulamento.html">Regulamento</a></li>
+					    </ul>
+				    </li>
+			    </ul>
+				
+				
+				    </li>
+			    </ul>
+				<ul class="ultimo">
+					<li class="titulo"><span>Tire suas dúvidas</span>
+						<ul class="lista-servicos">
+							<li><a href="perguntas-frequentes.html">Perguntas frequentes</a></li>
+							<li><a href="fale-conosco.html">Fale conosco</a></li>
+                            
+                            <li><a class="iframe" href="lojas-participantes.html">Lojas participantes</a></li>
+					    </ul>
+				    </li>
+			    </ul>
+		    </div>
+			<!-- Aqui entra o carrossel 
+			<div class="carrossel">
+				<ul id="slider1">
+					<li class="black-coffee"><a href="parceiros.html">Black Coffee</a></li>
+					<li class="abril"><a href="parceiros.html">Abril Assinaturas</a></li>
+					<li class="frango-assado"><a href="parceiros.html">Frango Assadj</a></li>
+					<li class="hertz"><a href="parceiros.html">Hertz</a></li>
+					<li class="le-postiche"><a href="parceiros.html">Le postiche</a></li>
+					<li class="saraiva"><a href="parceiros.html">Saraiva</a></li>
+					<li class="boticario"><a href="parceiros.html">O Boticario</a></li>
+					<li class="viena"><a href="parceiros.html">Viena</a></li>
+					<li class="viva"><a href="parceiros.html">Viva</a></li>
+			    </ul>
+		    </div>
+            -->
+            <div style="clear:both"></div>
+			<div class="rodape">
+				<ul>
+					<li><a href="http://www.programaviaje.com.br/eloyalty_ptb"> Consultar Pontos</a> | </li>
+					<li><a href="regulamento.html"> Regulamento	</a></li>
+			    </ul>
+		    </div>
+	    </div>
+    </div>
+	<div id="copyright"><div class="container"><span>Powered by:</span><div class="logo-rodape"></div>
+	<span>&copy 2011-2014 Todos os direitos reservados. O Programa Viaje! é uma marca registrada pela CVC Brasil. <a class="cvc" href="http://www.cvc.com.br">www.cvc.com.br</a></span></div></div>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M8SJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8SJ');</script>
+<!-- End Google Tag Manager -->
+
+	</body>
+</html>

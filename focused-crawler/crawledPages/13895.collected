@@ -1,0 +1,594 @@
+title=Band News FM
+url=http://bandnewsfm.band.uol.com.br/colunista.aspx?cod=140
+html=
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title id="pgTitle">Band News FM</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/site.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/miolo.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/jquery.checkbox.css" rel="stylesheet" type="text/css" media="all" />
+<!--[if IE 6]>
+<link href="css/ie.css" rel="stylesheet" type="text/css" media="all" />
+<![endif]-->
+<script type="text/javascript" src="js/jquery.js" language="javascript"></script>
+<script type="text/javascript" src="js/jquery.pngfix.js" language="javascript"></script>
+<script type="text/javascript" src="js/jquery.checkbox.js" language="javascript"></script>
+<script type="text/javascript" src="js/swfobject.js" language="javascript"></script>
+<script type="text/javascript" src="js/padrao.js" language="javascript"></script>
+
+<script type="text/javascript" src="http://www.band.uol.com.br/audio/flowplayer-3.2.12.min.js"></script>
+<script type="text/javascript" src="http://www.band.uol.com.br/audio/flowplayer-plugin.js"></script>
+<script type="text/javascript" src="http://www.band.uol.com.br/audio/flowplayer.ipad-3.2.12.min.js"></script>
+
+<script language="javascript" type="text/javascript"  >
+    $(document).ready(function () {
+        $("#ainot3_rp").hide();
+        $("#ainot2_rp").hide();
+        $("#ainot1_rp").show();
+    });
+    function colunistas_abas(aba) {
+        $("#ainot3_rp").hide();
+        $("#ainot2_rp").hide();
+        $("#ainot1_rp").hide();
+
+        $(".col_ativo").removeClass("col_ativo");
+
+        $("#ainot" + aba).addClass("col_ativo");
+        $("#ainot" + aba + "_rp").show();
+        return false;
+    }
+</script>
+<meta http-equiv="Cache-Control" content="max-age=120">
+</head>
+<body>
+<script type="text/javascript" src="http://jsuol.com/barra/parceiro-1024.js?refbusca=band&full=true"></script>
+<form name="Form1" method="post" action="colunista.aspx?cod=140" id="Form1">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJODgwMzY1MjI4D2QWBAIBDxYCHglpbm5lcmh0bWwFDEJhbmQgTmV3cyBGTWQCAw9kFg4CAw8WAh4EVGV4dAUeU3VhIFZpYWdlbSwgY29tIFJpY2FyZG8gRnJlaXJlZAIEDxYCHgNzcmMFKWh0dHA6Ly9pbWFnZW0uYmFuZC5jb20uYnIvQ09MX0ZUMV8xNDAuanBnZAIFDw8WAh8BBSZTZWd1bmRhIGEgU2V4dGEgw6BzIDZoNTYsIDloMzYgZSAxMmgzN2RkAgYPFgIfAQW1BE8gwpN0dXJpc3RhIHByb2Zpc3Npb25hbMKUIFJpY2FyZG8gRnJlaXJlIGTDoSBkaWNhcyBkZSB2aWFnZW5zIHBlbG8gQnJhc2lsIGUgbyBtdW5kbywgY29tIGRldGFsaGVzIHF1ZSB2w6NvIGZhemVyIGEgZGlmZXJlbsOnYSBubyBzZXUgcm90ZWlyby4NClB1YmxpY2l0w6FyaW8sIEZyZWlyZSBwdWJsaWNvdSBzZXRlIGxpdnJvcyAtIGNpbmNvIGRlbGVzIHNvYnJlIHZpYWphcjogVmlhamUgbmEgVmlhZ2VtLCBQb3N0YWlzIHBvciBFc2NyaXRvLCBGcmVpcmUncyBQcmFpYXMsIDEwMCBEaWNhcyBQYXJhIFZpYWphciBNZWxob3IgZSAxMDAgUHJhaWFzIHF1ZSBWYWxlbSBhIFZpYWdlbS4gRm9pIGVkaXRvciBkZSBWaWFnZW0gZGEgcmV2aXN0YSBWaXAgZSBjb2xhYm9yYWRvciBkYSBWaWFnZW0gJiBUdXJpc21vIGUgZGEgw4lwb2NhLiBIb2plIHNlIGRlZGljYSBhbyBzaXRlIFZpYWplIG5hIFZpYWdlbSAod3d3LnZpYWplbmF2aWFnZW0uY29tKSBlIGVzY3JldmUgc2VtYW5hbG1lbnRlIG5vIGNhZGVybm8gVmlhZ2VtICYgQXZlbnR1cmEgZG8gam9ybmFsIE8gRXN0YWRvIERlIFPDo28gUGF1bG8uDQpkAgcPZBYCZg8WAh4EaHJlZgUibWFpbHRvOnN1YXZpYWdlbUBiYW5kbmV3c2ZtLmNvbS5icmQCCQ8WAh4LXyFJdGVtQ291bnQCHBY4AgEPZBYCZg8VAxAyNS8wMS8yMDE2IDEzOjE1LVZpYWphciBlbSBtw6pzIGRlIGbDqXJpYXMgc2VtcHJlIMOpIG1haXMgY2Fybz9odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE2LzAxL1NVQSBWSUFHRU1fMjUwMS5tcDNkAgIPZBYCZg8VAxAyMi8wMS8yMDE2IDEzOjI5OU8gbWVkbyBxdWUgbm9zIHRpcmEgbyBzb25vOiBhcGVzYXIgZG8gemlrYSB2w61ydXMsIHZpYWplIT9odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE2LzAxL1NVQSBWSUFHRU1fMjIwMS5tcDNkAgMPZBYCZg8VAxAyMS8wMS8yMDE2IDEzOjUyTE8gbWVkbyBxdWUgbm9zIHRpcmEgbyBzb25vOiBBcGVzYXIgZGEgY3Jpc2UgZG9zIHJlZnVnaWFkb3MgbmEgRXVyb3BhLCB2aWFqZSE/aHR0cDovL2JhbmRuZXdzZm0uYmFuZC5jb20uYnIvYXVkaW8vMjAxNi8wMS9TVUEgVklBR0VNXzIxMDEubXAzZAIED2QWAmYPFQMQMjAvMDEvMjAxNiAxNzozNDdBbWVhw6dhIGRlIHRlcnJvcmlzbW8gbmEgRXVyb3BhIHRlbSBsb25nbyBoaXN0w7NyaWNvLi4uPWh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNi8wMS9TVUFWSUFHRU1fMjAwMS5tcDNkAgUPZBYCZg8VAxAxOS8wMS8yMDE2IDEzOjMyOE8gbWVkbyBxdWUgbm9zIHRpcmEgbyBzb25vOiBhcGVzYXIgZG8gdGVycm9yaXNtbywgdmlhamUhP2h0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTYvMDEvU1VBIFZJQUdFTV8xOTAxLm1wM2QCBg9kFgJmDxUDEDE4LzAxLzIwMTYgMTI6MjM3TyBtZWRvIHF1ZSBub3MgdGlyYSBvIHNvbm86IGFwZXNhciBkb3MgYXBlc2FyZXMsIHZpYWplIT5odHRwOi8vd3d3LmJhbmRuZXdzZm0uY29tLmJyL2F1ZGlvLzIwMTYvMDEvU1VBIFZJQUdFTV8xODAxLm1wM2QCBw9kFgJmDxUDEDE1LzAxLzIwMTYgMTc6MzNXQ2FybmF2YWw6IFZpdMOzcmlhLCBubyBFc3DDrXJpdG8gU2FudG8sIG7Do28gc29mcmUgY29tIGFzIGluZmxhw6fDtWVzIGVtIGFsdGEgdGVtcG9yYWRhO2h0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTYvMDEvVklBR0VNXzE1MDEubXAzZAIID2QWAmYPFQMQMTQvMDEvMjAxNiAxMTo0MDxDYXJuYXZhbDogYSBwbHVyYWxpZGFkZSBkZSBkZXN0aW5vcyBubyBmZXJpYWRvIGVtIFPDo28gUGF1bG8/aHR0cDovL2JhbmRuZXdzZm0uYmFuZC5jb20uYnIvYXVkaW8vMjAxNi8wMS9TVUEgVklBR0VNXzE0MDEubXAzZAIJD2QWAmYPFQMQMTMvMDEvMjAxNiAxMTo1NzhDYXJuYXZhbDogQnJhc8OtbGlhIMOpIHVtIMOzdGltbyBkZXN0aW5vLCBzYWliYSBwb3IgcXXDqj9odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE2LzAxL1NVQSBWSUFHRU1fMTMwMS5tcDNkAgoPZBYCZg8VAxAxMi8wMS8yMDE2IDEyOjE4VkNhcm5hdmFsOiBRdWF0cm8gY2lkYWRlcyBncmFuZGVzIGNvbSBob3RlaXMgNCBlc3RyZWxhcyBvbmRlIGEgcmVzZXJ2YSBjdXN0YSBhdMOpIFIkMzAwP2h0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTYvMDEvU1VBIFZJQUdFTV8xMjAxLm1wM2QCCw9kFgJmDxUDEDEyLzAxLzIwMTYgMTI6MThWQ2FybmF2YWw6IFF1YXRybyBjaWRhZGVzIGdyYW5kZXMgY29tIGhvdGVpcyA0IGVzdHJlbGFzIG9uZGUgYSByZXNlcnZhIGN1c3RhIGF0w6kgUiQzMDA/aHR0cDovL2JhbmRuZXdzZm0uYmFuZC5jb20uYnIvYXVkaW8vMjAxNi8wMS9TVUEgVklBR0VNXzEyMDEubXAzZAIMD2QWAmYPFQMQMTEvMDEvMjAxNiAxMjoxN0xDYXJuYXZhbDogUGFyYSBvbmRlIGlyIGNhc28gcXVlaXJhIGZ1Z2lyIGRvcyBsdWdhcmVzIGxvdGFkb3MgZSBwcmXDp29zIGFsdG9zP2h0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTYvMDEvU1VBIFZJQUdFTV8xMTAxLm1wM2QCDQ9kFgJmDxUDEDA4LzAxLzIwMTYgMTE6Mjk6U2FpYmEgcXVhaXMgc8OjbyBhcyBtZWxob3JlcyBwaXNjaW5hcyBuYXR1cmFpcyBkbyBOb3JkZXN0ZT9odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE2LzAxL1NVQSBWSUFHRU1fMDgwMS5tcDNkAg4PZBYCZg8VAxAwNy8wMS8yMDE2IDExOjMwPlNhaWJhIHF1YW5kbyBuw6NvIHZpYWphciBwYXJhIGFzIHBpc2NpbmFzIG5hdHVyYWlzIGRvIE5vcmRlc3RlP2h0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTYvMDEvU1VBIFZJQUdFTV8wNzAxLm1wM2QCDw9kFgJmDxUDEDA2LzAxLzIwMTYgMTE6NDlMQ29tbyBpZGVudGlmaWNhciBvIHBlcsOtb2RvIGRlIG1hcsOpIGJhaXhhIG5hcyBwaXNjaW5hcyBuYXR1cmFpcyBkbyBOb3JkZXN0ZT5odHRwOi8vd3d3LmJhbmRuZXdzZm0uY29tLmJyL2F1ZGlvLzIwMTYvMDEvU1VBIFZJQUdFTV8wNjAxLm1wM2QCEA9kFgJmDxUDEDA1LzAxLzIwMTYgMTE6NTE6Q29tbyBmdW5jaW9uYW0gYXMgbWFyw6lzIGRhcyBwaXNjaW5hcyBuYXR1cmFpcyBkbyBOb3JkZXN0ZT5odHRwOi8vd3d3LmJhbmRuZXdzZm0uY29tLmJyL2F1ZGlvLzIwMTYvMDEvU1VBIFZJQUdFTV8wNTAxLm1wM2QCEQ9kFgJmDxUDEDA0LzAxLzIwMTYgMTE6NTEwQ29tbyBhcHJvdmVpdGFyIGFzIHBpc2NpbmFzIG5hdHVyYWlzIGRvIE5vcmRlc3RlPmh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNi8wMS9TVUEgVklBR0VNXzA0MDEubXAzZAISD2QWAmYPFQMQMDEvMDEvMjAxNiAxNTo0MFBEZXN0cmluY2hlIFPDo28gUGF1bG8gZW0gMyBkaWFzOiBkaWNhcyBwYXJhIGFjb21wYW5oYXIgYSB2aWRhIG5vdHVybmEgcGF1bGlzdGFuYT9odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE2LzAxL1NVQSBWSUFHRU1fMDEwMS5tcDNkAhMPZBYCZg8VAxAzMS8xMi8yMDE1IDE0OjIzYERlc3RyaW5jaGUgU8OjbyBQYXVsbyBlbSAzIGRpYXM6IHZpc2l0YSBwZWxvIE1hc3AgZSBhbGd1bWFzIGNvbXByYXMgbm9zIG1lcmNhZGluaG9zIGRhIExpYmVyZGFkZT9odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE1LzEyL1NVQSBWSUFHRU1fMzExMi5tcDNkAhQPZBYCZg8VAxAzMC8xMi8yMDE1IDE1OjIwWURlc3RyaW5jaGUgU8OjbyBQYXVsbyBlbSAzIGRpYXM6IHBhc3NlaW8gcGVsbyBNdXNldSBkbyBGdXRlYm9sIGUgYSBmZWlyYSBkYSBWaWxhIE1hZGFsZW5hPmh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNS8xMi9TVUEgVklBR0VNXzMwMTIubXAzZAIVD2QWAmYPFQMQMjkvMTIvMjAxNSAxOTo0N0lEZXN0cmluY2hlIFPDo28gUGF1bG8gZW0gMyBkaWFzOiB1bSBmaW5hbCBkZSBzZW1hbmEgcGVsbyBjZW50cm8gZGEgY2lkYWRlPmh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNS8xMi9TVUEgVklBR0VNXzI5MTIubXAzZAIWD2QWAmYPFQMQMjgvMTIvMjAxNSAxMTo1ME1EZXN0cmluY2hlIFPDo28gUGF1bG8gZW0gMyBkaWFzOiBxdWFuZG8gdmlzaXRhciBhIHRlcnJhIGRhIGdhcm9hIGUgb25kZSBmaWNhckBodHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE1LzEyL1NVQSBWSUFHRU1fMjgxMi5tcDMgZAIXD2QWAmYPFQMQMjUvMTIvMjAxNSAyMToyNTtEaWNhcyBwYXJhIHF1ZW0gdmFpIHBhcmEgYSBwcmFpYSBkbyBSb3NhLCBlbSBTYW50YSBDYXRhcmluYT5odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE1LzEyL1NVQVZJQUdFTV8yNTEyLm1wM2QCGA9kFgJmDxUDEDI0LzEyLzIwMTUgMTg6MDM/T3V2aW50ZSBxdWVyIGRpY2FzIHBhcmEgYXMgZsOpcmlhcyBlbSBGbG9yaWFuw7Nwb2xpcyBlbSBqYW5laXJvPmh0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTUvMTIvU1VBVklBR0VNXzI0MTIubXAzZAIZD2QWAmYPFQMQMjMvMTIvMjAxNSAyMDoyNUFPIGNvbHVuaXN0YSBhanVkYSBvdXZpbnRlIGEgZWxhYm9yYXIgcm90ZWlybyBwZWxhIEFtw6lyaWNhIExhdGluYT5odHRwOi8vYmFuZG5ld3NmbS5iYW5kLmNvbS5ici9hdWRpby8yMDE1LzEyL1NVQVZJQUdFTV8yMzEyLm1wM2QCGg9kFgJmDxUDEDIyLzEyLzIwMTUgMjI6MzQnRMO6dmlkYTogw6kgc2VndXJvIHZpYWphciBwYXJhIG8gRWdpdG8/Pmh0dHA6Ly9iYW5kbmV3c2ZtLmJhbmQuY29tLmJyL2F1ZGlvLzIwMTUvMTIvU1VBVklBR0VNXzIyMTIubXAzZAIbD2QWAmYPFQMQMjEvMTIvMjAxNSAwNzoxODxOYXRhbCBkZSBwZXJndW50YXMgZSByZXNwb3N0YXM6IGRpY2EgZG8gcXVlIGZhemVyIGVtIGVzY2FsYXM+aHR0cDovL3d3dy5iYW5kbmV3c2ZtLmNvbS5ici9hdWRpby8yMDE1LzEyL1NVQSBWSUFHRU1fMjExMi5tcDNkAhwPZBYCZg8VAxAxOC8xMi8yMDE1IDExOjE4Sk5hdGFsIGRlIHBlcmd1bnRhcyBlIHJlc3Bvc3RhczogZGljYXMgcGFyYSBhbHVnYXIgYXBhcnRhbWVudG8gZW0gdGVtcG9yYWRhPmh0dHA6Ly93d3cuYmFuZG5ld3NmbS5jb20uYnIvYXVkaW8vMjAxNS8xMi9TVUEgVklBR0VNXzE4MTIubXAzZAIKD2QWAmYPFgIfBAIEFghmD2QWAmYPFQQCMDEGNzY4NTMzAzIyN0lNaW5pc3RyYSBkbyBNZWlvIEFtYmllbnRlIGFkbWl0ZSBwb3Nzw612ZWlzIG11ZGFuw6dhcyBuYSBsZWkgZGUgYmFycmFnZW5zZAIBD2QWAmYPFQQCMDIGNzY4NTMxAzIyN2JGZXJuYW5kbyBIYWRkYWQgZSBHZXJhbGRvIEFsY2ttaW0gc8OjbyBvZmVuZGlkb3MgZHVyYW50ZSBhcyBjb21lbW9yYcOnw7VlcyBuYSBjaWRhZGUgZGUgU8OjbyBQYXVsb2QCAg9kFgJmDxUEAjAzBjc2ODUyOQMyMjcmQWx0YSBGcmVxdcOqbmNpYSAtIMONbnRlZ3JhIDI1LTAxLTIwMTZkAgMPZBYCZg8VBAIwNAY3Njg1MzADMjI3UUEgZGl2aWRhIHDDumJsaWNhIGJyYXNpbGVpcmEgY3Jlc2NlIG1haXMgZGUgUiQgNTAwIG1pbGjDtWVzIGR1cmFudGUgbyBhbm8gZGUgMjAxNWRkuMadnO1aigL1gSJ0xy+D3Z8Up5g=" />
+
+<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="23147C2D" />
+  <div id="barra_band">
+    
+  <center>
+    <script language="JavaScript" src="http://www.band.uol.com.br/barra/grupo_parceiro_inteira.js"></script>
+  </center>
+  </div>
+  <div id="container">
+    
+<link rel="stylesheet" href="/css/home.css">
+<script type="text/javascript" src="http://www.band.uol.com.br/library/modernizr/modernizr-1.7.min.js"></script>
+<div id="site_body">
+
+	<div id="area_header">
+		<header class="largura_site">
+				
+			<h1><a href="/" class="eband_ir"><span>Band News FM</span></a></h1>
+
+			<div id="publicidade_superbanner"><script language="javascript" type="text/javascript">			                                      window.dctile = Number(window.dctile) + 1 || 1; window.dc_ord = Number(window.dc_ord) || Math.floor(Math.random() * 1E10); if (window.dctile == 1) { var vdcopt = 'ist'; } else { vdcopt = ''; } if (17 > window.dctile) document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/band.bandnewsfm/home;dcopt=' + vdcopt + ';tile=' + window.dctile + ';sz=728x90;ord=' + window.dc_ord + '?"><\/script>\n');</script><!-- End ad tag -->  </div>
+								
+			<nav id="menu1">
+				<ul>
+					<li><a href="Institucional.aspx">Quem Somos</a> | </li>
+					<li><a href="equipe.aspx">Rede</a> | </li>
+					<li><a href="apresentadores.aspx">Apresentadores</a> | </li> 
+					<li><a href="apresentadores.aspx?tipo=esporte">Equipe Esportiva</a> | </li>
+					<li><a href="colunistas.aspx">Colunistas</a> </li>
+					<!--<li><a href="Blogs.aspx">Blogs</a> | </li>-->
+					<!--<li><a href="promocoes.aspx">Promoções</a></li>-->
+				</ul>
+			</nav>
+
+			<nav id="menu2">
+				<ul>
+					<li><a href="noticias.aspx?cod=99">Brasil</a></li>
+					<li><a href="noticias.aspx?cod=230">Economia</a></li>
+					<li><a href="noticias.aspx?cod=363">Política</a></li>
+					<li><a href="noticias.aspx?cod=231">Internacional</a></li>
+					<li><a href="noticias.aspx?cod=232">Esporte</a></li>
+					<li><a href="noticias.aspx?cod=233">Cultura</a></li>
+					<li><a href="faleconosco.aspx">Fale conosco</a></li>
+				</ul>
+			</nav>
+			
+
+		</header>
+        </div>
+
+	<div id="area_conteudo">
+
+
+    
+<div id="barra_radios">
+                <div class="largura_site">
+                    <ul>		    
+                        <li class="ouca"><strong>Ouça ao vivo</strong><br />
+                            Clique na rádio que deseja ouvir</strong></li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sao', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">São Paulo<br />
+                            <strong>96,9</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <!--<li class="frequencias"><a href="">Fortaleza<br />
+                            <strong>101,7</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>-->
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_rio', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Rio de Janeiro<br />
+                            <strong>94,9</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_poa', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Porto Alegre<br />
+                            <strong>99,3</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_bhz', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Belo Horizonte<br />
+                            <strong>89,5</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sal', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Salvador<br />
+                            <strong>99,1</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_bsb', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Brasília<br />
+                            <strong>90,5</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_cwb', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Curitiba<br />
+                            <strong>96,3</strong> <span>Ouça agora</span></a> </li>
+                        <li class="separador">|</li>
+                        <!--<li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sao', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip">Ribeirão Preto<br />
+                            <strong>96,7</strong> <span>Ouça agora</span></a> </li>
+			<li class="separador">|</li>-->
+			<li class="frequencias"><a href="javascript: window.open('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_for', 'Player', 'location=no,scrollbars=no,width=450,height=310,top=100,left=100'); void(0)" class="radios_tooltip" class="radios_tooltip">Fortaleza<br>
+                            <strong>101,7</strong> <span>Ouça agora</span></a> </li>
+
+                        
+                    </ul>
+                </div>
+            </div>
+
+        
+	    <div class="largura_site"><!-- essa DIV fecha dentro do rodape -->
+        
+    <div id="col_c_interna">
+      <h1>Colunista</h1>
+      <h2><a href="Default.aspx">home</a> > <a href="Colunistas.aspx">Colunistas</a></h2>
+      <div class="cl_caixa_grande">
+        <div class="cl_titulo">
+          <p class="titulo_colunista">Sua Viagem, com Ricardo Freire</p>
+        </div>
+        <div class="cl_conteudo">
+          <dl class="cl_apresentador">
+            <dt><img src="http://imagem.band.com.br/COL_FT1_140.jpg" id="imgCol" width="112" /></dt>
+            <dd>
+              <p><span id="lthorario">Segunda a Sexta às 6h56, 9h36 e 12h37</span></p>
+              <p>O turista profissional Ricardo Freire dá dicas de viagens pelo Brasil e o mundo, com detalhes que vão fazer a diferença no seu roteiro.
+Publicitário, Freire publicou sete livros - cinco deles sobre viajar: Viaje na Viagem, Postais por Escrito, Freire's Praias, 100 Dicas Para Viajar Melhor e 100 Praias que Valem a Viagem. Foi editor de Viagem da revista Vip e colaborador da Viagem & Turismo e da Época. Hoje se dedica ao site Viaje na Viagem (www.viajenaviagem.com) e escreve semanalmente no caderno Viagem & Aventura do jornal O Estado De São Paulo.
+</p>
+              <div id="dvColEmail" class="cl_informacao_contato_equipe"><a href="mailto:suaviagem@bandnewsfm.com.br" id="aMail">Mande um e-mail para a coluna</a></div>
+            </dd>
+          </dl>
+          <br clear="all" />
+        </div>
+      </div>
+      <div class="cl_caixa_grande" style="margin-top:0px;">
+        <div class="cl_conteudo cl_b_top">
+          <div class="cl_info_audio">
+            <center>
+              <dl>
+                <dt><img src="imagens/icone_ipod.jpg" />
+                  <p><a href="http://www.band.com.br/rss/colunista_140.xml" target="_blank">Receba áudios deste colunista
+                    em seu computador ou iPod.</a></p>
+                </dt>
+                <dd> <img src="imagens/icone_ipod_duvida.jpg" />
+                  <p><a href="podcast.aspx">Se precisa de mais orientação, clique aqui.</a></p>
+                </dd>
+              </dl>
+            </center>
+          </div>
+          <br clear="all" />
+        </div>
+      </div>
+         
+      <ul class="cl_lista_programas_downlaod">
+        <li>
+          <h2>25/01/2016 13:15</h2>
+          <h1>Viajar em mês de férias sempre é mais caro</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_2501.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>22/01/2016 13:29</h2>
+          <h1>O medo que nos tira o sono: apesar do zika vírus, viaje!</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_2201.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>21/01/2016 13:52</h2>
+          <h1>O medo que nos tira o sono: Apesar da crise dos refugiados na Europa, viaje!</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_2101.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>20/01/2016 17:34</h2>
+          <h1>Ameaça de terrorismo na Europa tem longo histórico...</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2016/01/SUAVIAGEM_2001.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>19/01/2016 13:32</h2>
+          <h1>O medo que nos tira o sono: apesar do terrorismo, viaje!</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_1901.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>18/01/2016 12:23</h2>
+          <h1>O medo que nos tira o sono: apesar dos apesares, viaje!</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2016/01/SUA VIAGEM_1801.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>15/01/2016 17:33</h2>
+          <h1>Carnaval: Vitória, no Espírito Santo, não sofre com as inflações em alta temporada</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/VIAGEM_1501.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>14/01/2016 11:40</h2>
+          <h1>Carnaval: a pluralidade de destinos no feriado em São Paulo</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_1401.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>13/01/2016 11:57</h2>
+          <h1>Carnaval: Brasília é um ótimo destino, saiba por quê</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_1301.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>12/01/2016 12:18</h2>
+          <h1>Carnaval: Quatro cidades grandes com hoteis 4 estrelas onde a reserva custa até R$300</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_1201.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>12/01/2016 12:18</h2>
+          <h1>Carnaval: Quatro cidades grandes com hoteis 4 estrelas onde a reserva custa até R$300</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_1201.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>11/01/2016 12:17</h2>
+          <h1>Carnaval: Para onde ir caso queira fugir dos lugares lotados e preços altos</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_1101.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>08/01/2016 11:29</h2>
+          <h1>Saiba quais são as melhores piscinas naturais do Nordeste</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_0801.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>07/01/2016 11:30</h2>
+          <h1>Saiba quando não viajar para as piscinas naturais do Nordeste</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_0701.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>06/01/2016 11:49</h2>
+          <h1>Como identificar o período de maré baixa nas piscinas naturais do Nordeste</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2016/01/SUA VIAGEM_0601.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>05/01/2016 11:51</h2>
+          <h1>Como funcionam as marés das piscinas naturais do Nordeste</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2016/01/SUA VIAGEM_0501.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>04/01/2016 11:51</h2>
+          <h1>Como aproveitar as piscinas naturais do Nordeste</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2016/01/SUA VIAGEM_0401.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>01/01/2016 15:40</h2>
+          <h1>Destrinche São Paulo em 3 dias: dicas para acompanhar a vida noturna paulistana</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2016/01/SUA VIAGEM_0101.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>31/12/2015 14:23</h2>
+          <h1>Destrinche São Paulo em 3 dias: visita pelo Masp e algumas compras nos mercadinhos da Liberdade</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2015/12/SUA VIAGEM_3112.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>30/12/2015 15:20</h2>
+          <h1>Destrinche São Paulo em 3 dias: passeio pelo Museu do Futebol e a feira da Vila Madalena</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2015/12/SUA VIAGEM_3012.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>29/12/2015 19:47</h2>
+          <h1>Destrinche São Paulo em 3 dias: um final de semana pelo centro da cidade</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2015/12/SUA VIAGEM_2912.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>28/12/2015 11:50</h2>
+          <h1>Destrinche São Paulo em 3 dias: quando visitar a terra da garoa e onde ficar</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2015/12/SUA VIAGEM_2812.mp3 " class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>25/12/2015 21:25</h2>
+          <h1>Dicas para quem vai para a praia do Rosa, em Santa Catarina</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2015/12/SUAVIAGEM_2512.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>24/12/2015 18:03</h2>
+          <h1>Ouvinte quer dicas para as férias em Florianópolis em janeiro</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2015/12/SUAVIAGEM_2412.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>23/12/2015 20:25</h2>
+          <h1>O colunista ajuda ouvinte a elaborar roteiro pela América Latina</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2015/12/SUAVIAGEM_2312.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>22/12/2015 22:34</h2>
+          <h1>Dúvida: é seguro viajar para o Egito?</h1>
+			<Br/>
+            <a href="http://bandnewsfm.band.com.br/audio/2015/12/SUAVIAGEM_2212.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>21/12/2015 07:18</h2>
+          <h1>Natal de perguntas e respostas: dica do que fazer em escalas</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2015/12/SUA VIAGEM_2112.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          
+        <li>
+          <h2>18/12/2015 11:18</h2>
+          <h1>Natal de perguntas e respostas: dicas para alugar apartamento em temporada</h1>
+			<Br/>
+            <a href="http://www.bandnewsfm.com.br/audio/2015/12/SUA VIAGEM_1812.mp3" class="audio" style="display:block;height:50px;width:330px;background-color:#12699f;">
+	        </a>
+		  </li>
+          </ul>
+      <script language="javascript">
+		$f("a.audio", "http://www.band.uol.com.br/audio/flowplayer.swf", {
+			plugins: {
+				controls: {
+					fullscreen: false,
+					autoHide: false,
+					height: 50,
+					timeFontSize: 12,
+					backgroundColor: '#12699f',
+					backgroundGradient: [0.3, 0]
+				},
+			},
+			clip: {
+				autoPlay: false,
+				autoBuffering: false
+			},
+		}).ipad();
+		</script>
+      
+    </div>
+    <div id="col_d_interna">
+      
+
+<div class="cl_caixa_d_interna">
+  <div class="cl_titulo">
+    <p id="ainot" class="cl_ativo"><a href="javascript:;" onclick="carregar_noticia();">Últimas</a></p>
+    <p id="aifal"><a href="faleconosco.aspx" >Fale Conosco</a></p>
+  </div>
+  <div class="cl_conteudo">
+    <div id="ax_bloco" style="display: none;">
+      <table width="270" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td height="186" align="center" valign="middle"><img src="imagens/ajax-loader.gif" width="24" height="24" alt="carregando..." /></td>
+        </tr>
+      </table>
+    </div>
+    <div id="conteudo_bloco">
+      
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">01</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=768533&Tipo=227">Ministra do Meio Ambiente admite possíveis mudanças na lei de barragens</a></p>
+            </dd>
+          </dl>
+        
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">02</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=768531&Tipo=227">Fernando Haddad e Geraldo Alckmim são ofendidos durante as comemorações na cidade de São Paulo</a></p>
+            </dd>
+          </dl>
+        
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">03</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=768529&Tipo=227">Alta Frequência - Íntegra 25-01-2016</a></p>
+            </dd>
+          </dl>
+        
+          <dl class="cl_destaques">
+            <dt class="cl_marcacao">04</dt>
+            <dd>
+              <p class="cl_texto_destaque"><a href="Noticia.aspx?COD=768530&Tipo=227">A divida pública brasileira cresce mais de R$ 500 milhões durante o ano de 2015</a></p>
+            </dd>
+          </dl>
+        
+    </div>
+    <br clear="all" />
+  </div>
+</div>
+
+<div id="banner"><center>
+               <div id="publicidade_arroba">
+                                <script language="javascript" type="text/javascript">                                    window.dctile = Number(window.dctile) + 1 || 1; window.dc_ord = Number(window.dc_ord) || Math.floor(Math.random() * 1E10); if (window.dctile == 1) { var vdcopt = 'ist'; } else { vdcopt = ''; } if (17 > window.dctile) document.write('<script type="text/javascript" src="http://ad.doubleclick.net/adj/eband.esporte/home;dcopt=' + vdcopt + ';tile=' + window.dctile + ';sz=300x250;sec=conteudo;ord=' + window.dc_ord + '?"><\/script>\n'); </script> </div>
+</center></div>
+      
+    </div>
+    <br clear="all" />
+  </div>
+  
+ </div> <!-- fechando a DIV largura_site -->
+<div id="rodape">
+  <div id="conteudo"> <img src="imagens/topo_conteudo_rodape.jpg" width="939" height="18" />
+    <ul class="cl_menu_r_p">
+	<li><a href="Institucional.aspx">Quem Somos</a></li>
+	<li><a href="equipe.aspx">Rede</a></li>
+	<li><a href="apresentadores.aspx">Âncoras</a></li> 
+	<li><a href="apresentadores.aspx?tipo=esporte">Equipe Esportiva</a></li>
+	<li><a href="colunistas.aspx">Colunistas</a></li>
+	<li><a href="FaleConosco.aspx">Fale com a BandNews FM</a></li>
+    </ul>
+    <ul class="cl_menu_r_s">
+      <li><a href="Noticias.aspx?COD=363">Política</a></li>
+      <li><a href="Noticias.aspx?COD=230">Economia</a></li>
+      <li><a href="Noticias.aspx?COD=99">Brasil</a></li>
+      <li><a href="Noticias.aspx?COD=231">Internacional</a></li>
+      <li><a href="Noticias.aspx?COD=232">Esporte</a></li>
+      <li><a href="Noticias.aspx?COD=233">Cultura</a></li>
+    </ul>
+    <p class="cl_direitos">All rights reserved.</p>
+    <p class="redes">
+    <a href="http://twitter.com/radiobandnewsfm" target="_blank" title="Twitter" class="facebook">Twitter</a>
+    <a href="http://www.facebook.com/pages/R%C3%A1dio-BandNews-FM/245513265559924" target="_blank" title="Facebook" class="twitter">Facebook</a>
+    </p>
+    <p class="cl_menu_d"><a href="/comercial/TABELA_01_OUTUBRO_2015.pdf" target="_blank" >Como Anunciar</a></p>
+
+
+    
+  </div>
+</div>
+</div></div>
+<div id="sombra"></div>
+<map name="sp" id="sp">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-80,0,-80,86,220,85,220,19,197,20,197,1" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/?r=rb_bandnewsfm_sao')" />
+</map>
+<map name="camp" id="camp">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-81,2,-81,88,219,87,219,21,196,22,196,3" href="javascript:;" onclick="alert('Em breve!')" />
+</map>
+<map name="rj" id="rj">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,1,-77,87,223,86,223,20,200,21,200,2" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_rio')" />
+</map>
+<map name="rs" id="rs">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-78,2,-78,88,222,87,222,21,199,22,199,3" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_poa')" />
+</map>
+<map name="bh" id="bh">
+  <area shape="poly" coords="-78,1,-78,87,222,86,222,20,199,21,199,2" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_bhz')" />
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+</map>
+<map name="ba" id="ba">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,0,-77,86,223,85,223,19,200,20,200,1" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_sal')" />
+</map>
+<map name="df" id="df">
+  <area shape="poly" coords="-77,1,-77,87,223,86,223,20,200,21,200,2" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_bsb')" />
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+</map>
+<map name="pr" id="pr">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,-1,-77,85,223,84,223,18,200,19,200,0" href="javascript:;" onclick="player_radio('http://playersradios.band.uol.com.br/index.php?r=rb_bandnewsfm_cwb')" />
+</map>
+<map name="sprp" id="sprp">
+  <area shape="rect" coords="199,3,217,20" href="javascript:;" onclick="fecha_radio();" />
+  <area shape="poly" coords="-77,-1,-77,85,223,84,223,18,200,19,200,0" href="javascript:;" onclick="alert('Em breve!')" />
+</map>
+
+
+<script language="JavaScript" src="http://www.band.uol.com.br/barra/grupo_rodape.js"></script>
+
+		<script type="text/javascript">
+
+        var Config = window.config || {}
+
+            Config.Metricas = { 
+              'parceiro'       : 'Bandparceiro-BandNewsFM',
+              'canal'          : '',
+              'subcanal'       : ''
+            }; 
+
+        </script>
+    
+        <!-- Google Tag Manager -->
+        <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-CCNR" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+            <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-CCNR');
+            </script>
+        <!-- End Google Tag Manager -->
+        
+		<!-- SiteCatalyst code version: H.20.2. Copyright 1997-2009 Omniture, Inc. More info available at http://www.omniture.com -->
+        <script language="JavaScript" type="text/javascript" src="http://me.jsuol.com/omtr/band.js"></script>
+        <script language="JavaScript" type="text/javascript"><!--
+        /************* DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+        var s_code=uol_sc.t();if(s_code)document.write(s_code)//--></script>
+        <!-- End SiteCatalyst code version: H.20.2. -->
+</form>
+</body>
+</html>

@@ -1,0 +1,425 @@
+title=Detalhes
+url=http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-e-bit/
+html=<!DOCTYPE html>
+<html>
+<head><link type="text/css" rel="stylesheet" href="../../../../../lumis/service/navigation/stylesheet/horizontal.css"/><!--[if lt IE 9]><script type="text/javascript" src="../../../../../lumis/tool/html5shiv/html5shiv.js"></script><![endif]--><script type="text/javascript">//<![CDATA[
+ var g_LumisLocale = "pt_BR"; var g_LumisChannelId = "2C9EF4C94C43756E014D44A55E0B2D49"; var g_LumisRoot_href = "../../../../../"; var g_LumisRootChannelId = "00000000F00000000000000000000001"; var g_LumisPageId = "2C9EF4C94D6E018F014D6E13705E02BD"; var g_LumisPageConfig = new Object();g_LumisPageConfig.name = "Detalhes"; g_LumisPageConfig.type = 0; g_LumisPageConfig.isTemplate = false; g_LumisPageConfig.hasParentTemplate = true; var g_LumisLayoutFile = true; var g_LumisDisplayMode = 0; var g_LumisViewMode = 0; var g_LumisAdminMode = 2; var g_LumisPersonalizationMode = 5; var g_LumisInContextEditMode = 3; var g_LumisAutoAdminMode = 4;var g_LumisChannelConfig = new Object(); g_LumisChannelConfig.name = "Integração E-bit";var g_LumisIsHtmlCache=true;var g_LumisRootPath='/';var g_LumisLoadingHtmlMessage="<img src=\"../../../../../lumis/portal/client/images/Loading.gif\" style=\"vertical-align: middle;\" alt=\"Carregando\"/>";
+//]]>
+</script><script type="text/javascript" charset="UTF-8" src="../../../../../lumis/portal/client/script/LumisPortal.js"></script>
+	<meta charset="UTF-8">
+	<title>Detalhes</title>
+	<link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" hreflang="pt">
+	<link rel="stylesheet" type="text/css" href="/developer/static/css/style.css" hreflang="pt">
+
+	<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://code.highcharts.com/highcharts.js"></script>
+	<script src="http://code.highcharts.com/highcharts-more.js"></script>
+	<script src="http://code.highcharts.com/modules/solid-gauge.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Content-Script-Type" content="text/javascript"><meta http-equiv="Content-Style-Type" content="text/css"><script type="text/javascript" charset="UTF-8" src="../../../../../lumis/doui/client/script/LumisDoui.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../../../../../lumis/doui/control/validator/client/script/LumisDouiValidator.js"></script>
+<script type="text/javascript" charset="UTF-8" src="../../../../../lumis/doui/client/script/LumisDouiErrorSummary.js"></script>
+<script src="../../../../../lumis/tool/jquery/jquery.js" type="text/javascript"></script></head>
+<body><form style="display:none" accept-charset="UTF-8" id="LumisPortalForm" action="../../../../../main.jsp?lumPageId=2C9EF4C94D6E018F014D6E13705E02BD" method="post"><input name="lumNewParams" type="hidden" /><input name="lumPrinting" type="hidden" /><input name="lumToggleModeOriginUrl" type="hidden" /><input name="lumSafeRenderMode" type="hidden" /><input name="lumPageOriginalUrl" type="hidden" value="../../../../../main.jsp?lumPageId=2C9EF4C94D6E018F014D6E13705E02BD"/><input name="lumS" type="hidden" value=""/><input name="lumSI" type="hidden" value=""/><input name="lumI" type="hidden" value=""/><input name="lumII" type="hidden" value=""/><input name="lumReplIntfState" type="hidden" value="" /><input name="lumPrevParams" type="hidden" value="%3CallParameters%3E%3Cparameters%3E%3Cp+n%3D%22lumChannelId%22%3E2C9EF4C94C43756E014D44A55E0B2D49%3C%2Fp%3E%3Cp+n%3D%22lumFromPCM%22%3E2C9EF4C94D5056C1014D591D44EE7129%3C%2Fp%3E%3C%2Fparameters%3E%3C%2FallParameters%3E" /><input name="lumA" type="hidden" value=""/><input name="lumDataPreviewMode" type="hidden" value=""/><input name="lumClientMessage" type="hidden" value=""/></form><form style="display:none" accept-charset="UTF-8" id="LumisPortalRenderInterfaceForm" action="../../../../../lumis/portal/controller/html/ServiceInterfaceInstanceControllerHtml.jsp?lumPageId=2C9EF4C94D6E018F014D6E13705E02BD&amp;lumPageCacheId=2C9EF4C94D5056C1014D591D44EE7129" method="post"></form>
+
+	<div class="navbar head" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="/developer/static/img/branding.png" width="164" height="36"></a>
+			</div>
+			<div id="topHeaderMenu" class="navbar-collapse collapse" style="height: 1px;">
+				<ul class="nav navbar-nav navbar-right">
+					<li class="language"></li>
+					<li class="search"><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><div class="lumis-service-search lumis-service-search-search lum-interface-type-standard"><form id="Form_2C9EF4C94D6E018F014D6E13708002C3" method="post" action="http://developer.buscape.com.br/main.jsp?lumA=1&lumII=2C9EF4C94D6E018F014D6E13708002C3&lumPageId=2C9EF4C94D6E018F014D6E13705E02BD" accept-charset="UTF-8" onkeypress="var k = window.event ? window.event.keyCode : event.which; if(k==13){function f1(){document.forms['Form_2C9EF4C94D6E018F014D6E13708002C3'].elements['doui_processActionId'].value='doSearch';LumisPortal.onSubmitForm('Form_2C9EF4C94D6E018F014D6E13708002C3','2C9EF4C94D6E018F014D6E13708002C3', null, true);} f1();;return false;};" style="margin:0px;"><input type="hidden" name="doui_processActionId"/><input type="hidden" name="doui_renderAction"/><input type="hidden" name="doui_renderControlId"/><input type="hidden" name="doui_fromForm" value="Form_2C9EF4C94D6E018F014D6E13708002C3"/><input type="hidden" name="doui_storedValues" value=""/><input type="hidden" name="lumII" value="2C9EF4C94D6E018F014D6E13708002C3"/><input type="hidden" name="lumReplIntfCommands" value=""/><input type="hidden" name="lumReplIntfParams" value=""/><div class="input-group"><input type="text" name="simplequery" class="form-control" value="" style="width: 80%; border: 1px solid lightgray;" placeholder="Buscar" id="simplequery" onblur="this.value=this.value.replace(/^\s*|\s*$/g,'');"/>
+		
+		<div id="Form_2C9EF4C94D6E018F014D6E13708002C3lum_searchQueryValidator" title="" class="lum-validation-message"></div><script type="text/javascript">/*<![CDATA[*/function Validate_Form_2C9EF4C94D6E018F014D6E13708002C3_lum_searchQueryValidator() {return true;;}/*]]>*//*<![CDATA[*/
+				function Form_2C9EF4C94D6E018F014D6E13708002C3lum_searchQueryValidator_SetMessages(localMessage, summaryMessage)
+				{
+	  				var clientUniqueId = "Form_2C9EF4C94D6E018F014D6E13708002C3lum_searchQueryValidator";
+					clientUniqueId = clientUniqueId.replace(/(:|\.)/g,'\\$1');
+					if(localMessage.length)
+					{
+						$("#"+clientUniqueId).html(localMessage);
+						
+ 						var span = $("<span></span>")
+ 						.text(summaryMessage);
+ 						$("#"+clientUniqueId).append(span);
+						$("#"+clientUniqueId).show();
+					}
+					else
+					{
+						$("#"+clientUniqueId).html("");
+						$("#"+clientUniqueId).hide();
+					}
+				}
+				/*]]>*/</script><div style="display: none"><ul class="lum-actions "><li class="lum-first lum-last"><a href="#" id="lum_2C9EF4C94D6E018F014D6E13708002C3_doSearch" class="lum-button" onclick="function f1(){document.forms['Form_2C9EF4C94D6E018F014D6E13708002C3'].elements['doui_processActionId'].value='doSearch';LumisPortal.onSubmitForm('Form_2C9EF4C94D6E018F014D6E13708002C3','2C9EF4C94D6E018F014D6E13708002C3', null, true);} f1();return false;">Buscar</a></li></ul></div></div></form><input type="hidden" id="es2C9EF4C94D6E018F014D6E13708002C3_Form_2C9EF4C94D6E018F014D6E13708002C3_lum_errorSummary"/></div></li>
+					<li class="active"></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="navbar menu" role="navigation">
+		<div class="container">
+			<div class="navbar-collapse collapse"><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['lumis/service/navigation/stylesheet/horizontal.css'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><div class="lumis-service-navigation lumis-service-navigation-list lum-interface-type-standard">
+			
+	
+			<nav class="lum-navigation-horizontal"><ul class="lum-menu"><li class="lum-menu-leaf lum-first"><a href="http://developer.buscape.com.br/portal/developer/noticias/">Notícias</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/lojistas/">Lojistas</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/afiliados/">Afiliados</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/tutoriais/">Tutoriais</a></li><li class="lum-menu-parent lum-menu-breadcrumb"><a href="http://developer.buscape.com.br/portal/developer/documentacao/">Documentação</a><ul class="children"><li class="lum-menu-parent lum-menu-breadcrumb lum-first"><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/">Integração Lojista</a><ul class="children"><li class="lum-menu-parent lum-first"><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-api/">Integração API</a><ul class="children"><li class="lum-menu-leaf lum-first"><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-api/autenticacao/">Autenticação</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-api/modelo-1/">Recursos</a></li><li class="lum-menu-leaf lum-last"><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-api/tratamento-de-erros/">Tratamento de erros</a></li></ul></li><li class="lum-menu-leaf lum-menu-breadcrumb lum-menu-selected"><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-e-bit/">Integração E-bit</a></li><li class="lum-menu-leaf lum-last"><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-de-pedidos/">Integração de Pedidos</a></li></ul></li><li class="lum-menu-parent lum-last"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/">APIs Afiliados</a><ul class="children"><li class="lum-menu-parent lum-first"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-buscape/">API Buscapé</a><ul class="children"><li class="lum-menu-leaf lum-first"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-buscape/categorias/">Categorias</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-buscape/produtos/">Produtos</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-buscape/ofertas/">Ofertas</a></li><li class="lum-menu-leaf lum-last"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-buscape/lojas/">Lojas</a></li></ul></li><li class="lum-menu-parent lum-last"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-lomadee/">API Lomadee</a><ul class="children"><li class="lum-menu-leaf lum-first"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-lomadee/categorias/">Categorias</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-lomadee/produtos/">Produtos</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-lomadee/ofertas/">Ofertas</a></li><li class="lum-menu-leaf"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-lomadee/cupons/">Cupons</a></li><li class="lum-menu-leaf lum-last"><a href="http://developer.buscape.com.br/portal/developer/documentacao/apis-afiliados/api-lomadee/lojas/">Lojas</a></li></ul></li></ul></li></ul></li><li class="lum-menu-leaf lum-last"><a href="http://developer.buscape.com.br/portal/developer/suporte/">Suporte</a></li></ul></nav><style>
+			
+			.lum-navigation-horizontal {
+				background:#1499D3;
+	            border:1px solid #1499D3;
+				font-family: helveticaltstdlight !important;
+			}
+			.lum-navigation-horizontal ul a {
+				background: #1499D3;
+				font-weight: normal !important;
+			}
+			.lum-navigation-horizontal ul li.lum-menu-parent  a:after  {
+				margin-top:3px;
+			}
+			.lum-navigation-horizontal ul li {
+				border-right: 0px solid white;
+			}
+			.lum-navigation-horizontal ul li.lum-menu-parent &gt; a:after {
+				border: 4px solid transparent !important;
+				border-top-color: white !important;
+			}
+			.lum-navigation-horizontal ul li ul {
+				display: none;
+				position: absolute;
+				z-index: 9;
+				top: 35px;
+				left: 12px;
+				background: #fff;
+				border: 1px solid #e5e2da;
+				border-radius: 0px;
+				padding: 0 10px;
+				width: 160px;
+				border-bottom: 2px solid #1499D3;
+			}
+			.lum-navigation-horizontal a {
+				text-decoration:none !important;
+				background:#1499D3 !important;
+				font-weight: bold !important;
+			}
+			.lum-navigation-horizontal ul li ul a {
+				background-color: white !important;
+				color: black !important;
+				width: 160px;
+			}
+			.lum-navigation-horizontal ul li ul li {
+				text-align: left;
+			}
+			.lum-navigation-horizontal ul li:hover ul li:hover a {
+				background:white !important;
+			}
+			.lum-navigation-horizontal ul li.lum-menu-selected &gt; a:after, .lum-navigation-horizontal ul li.lum-menu-breadcrumb &gt; a:after  {
+				border: 4px solid transparent;
+				border-top-color: #ba2a2a;
+				position: absolute;
+				z-index: 2;
+				right: 5px ;
+				top: 1em ;
+			}
+			a:after, li:after {
+				border-top-color: #1499D3 !important;
+			}
+			ul.children a {
+				font-size: 14px;
+			}
+			
+		</style><script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script><input type="hidden" id="es2C9EF4C94D6E018F014D6E13708F02C5_null_lum_errorSummary"/></div></div>
+		</div>
+	</div>
+	
+	<section class="content">
+		<div class="container">
+			<div class="row generic clear-margin-bottom"><div class="col-md-12"><div class="row"><div><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['lumis/service/navigation/stylesheet/horizontal.css'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><div class="buscape-service-login buscape-service-login-loginUnico lum-interface-type-standard"><script>
+			var loginunico_id = "developer";
+			var timeout_lu = "18000";
+		</script><script src="/portal/static/buscape/service/login/script.js" type="text/javascript"></script><input type="hidden" id="es2C9EF4C94DE9B2CC014DE9C7890112C1_null_lum_errorSummary"/></div></div><div><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['lumis/service/navigation/stylesheet/horizontal.css'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><script>
+function vurl(urlTrue) {
+   var url = location.href;
+   url = url.replace('http://developer.buscape.com.br', '');
+   if (url!=urlTrue && location.href.indexOf('developer.buscape.com.br')!=-1) {
+      location.href=urlTrue;
+   }
+}
+if (location.href.indexOf('documentacao')!=-1) {
+$(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('.navbar.menu');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 0,
+                left: nav.offset().left,
+                width: nav.width(),
+				zIndex: 999999
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+
+$(function() {
+    // Stick the #nav to the top of the window
+    var nav = $('.lumis-service-navigation-list ul.list');
+    var navHomeY = nav.offset().top;
+    var isFixed = false;
+    var $w = $(window);
+    $w.scroll(function() {
+        var scrollTop = $w.scrollTop();
+        var shouldBeFixed = scrollTop > navHomeY;
+        if (shouldBeFixed && !isFixed) {
+            nav.css({
+                position: 'fixed',
+                top: 60,
+                left: nav.offset().left,
+                width: nav.width(),
+				zIndex: 999999
+            });
+            $('#subMenuInternoDocs').parent().css({
+                position: 'fixed',
+                top: $('.lumis-service-navigation-list ul.list').height() + 80,
+                left: nav.offset().left,
+                width: nav.width(),
+                marginLeft: '0px',
+				zIndex: 999999
+            });
+            isFixed = true;
+        }
+        else if (!shouldBeFixed && isFixed)
+        {
+            nav.css({
+                position: 'static'
+            });
+            $('#subMenuInternoDocs').parent().css({
+                position: 'static',
+                marginLeft: '30px'
+            });
+            isFixed = false;
+        }
+    });
+});
+
+}
+</script></div><div><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['lumis/service/navigation/stylesheet/horizontal.css'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><div class="lumis-service-navigation lumis-service-navigation-list lum-interface-type-standard"><div id="sidebar" class="col-md-3" style="min-height: 250px;"></div><nav class="nav" style="width: 236px; margin-left: 30px; position: fixed; margin-top: 30px;"><ul class="list" style="list-style-position: inside;list-style-type: disc;overflow: hidden;margin: 0;padding: 0;"><li class="item" style="padding-left:10px;color: #1499D0;border-top: 1px solid #e1e3e6;background: none repeat scroll 0 0 rgb(235, 246, 251);"><a href="/main.jsp?lumChannelId=2C9EF4C94C0AE474014C196167832222" style="background: #ebf6fb;color: #777;display: inline-block;font-family: Arial, Helvetica, sans-serif;font-size: 14px;padding: 14px;padding-left:0px;">Integração API</a></li><li class="item active" style="padding-left:10px; color: #1499D0;border-top: 1px solid #e1e3e6;background: none repeat scroll 0 0 rgb(235, 246, 251);"><a href="/main.jsp?lumChannelId=2C9EF4C94C43756E014D44A55E0B2D49" style="background: #ebf6fb;color: #777;display: inline-block;font-family: Arial, Helvetica, sans-serif;font-size: 14px;padding: 14px;padding-left:0px;">Integração E-bit</a></li><li class="item" style="padding-left:10px;color: #1499D0;border-top: 1px solid #e1e3e6;background: none repeat scroll 0 0 rgb(235, 246, 251);"><a href="/main.jsp?lumChannelId=2C9EF4C94D5056C1014D52B1F77515AD" style="background: #ebf6fb;color: #777;display: inline-block;font-family: Arial, Helvetica, sans-serif;font-size: 14px;padding: 14px;padding-left:0px;">Integração de Pedidos</a></li></ul></nav><input type="hidden" id="es2C9EF4C94D6E018F014D6E175C9A07ED_null_lum_errorSummary"/></div></div><div><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['lumis/service/navigation/stylesheet/horizontal.css'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><div class="lumis-service-news lumis-service-news-quicklist lum-interface-type-standard lum-interface-type-summary"><form id="Form_2C9EF4C94D6E018F014D6E13DF8F0382" method="post" action="http://developer.buscape.com.br/main.jsp?lumA=1&lumII=2C9EF4C94D6E018F014D6E13DF8F0382&lumPageId=2C9EF4C94D6E018F014D6E13705E02BD" accept-charset="UTF-8" style="margin:0px;"><input type="hidden" name="doui_processActionId"/><input type="hidden" name="doui_renderAction"/><input type="hidden" name="doui_renderControlId"/><input type="hidden" name="doui_fromForm" value="Form_2C9EF4C94D6E018F014D6E13DF8F0382"/><input type="hidden" name="doui_storedValues" value=""/><input type="hidden" name="lumII" value="2C9EF4C94D6E018F014D6E13DF8F0382"/><input type="hidden" name="lumReplIntfCommands" value=""/><input type="hidden" name="lumReplIntfParams" value=""/><aside><div class="lum-content"><div class="lum-content-body"><nav class="nav" style="width: 236px; margin-left: 30px; position: fixed; margin-top: 210px;"><h3>Recursos:</h3><ul id="storeList" class="list" style="list-style-position: inside;list-style-type: disc;overflow: hidden;margin: 0;padding: 0;"><li class="item" id="menuInterno_2C9EF4C9515E3C8F015181C7E0A55169" style="padding-left:10px; color: #1499D0;border-top: 1px solid #e1e3e6;background: none repeat scroll 0 0 rgb(235, 246, 251);"><a href="/main.jsp?lumPageId=2C9EF4C94D6E018F014D6E13705E02BD&amp;lumItemId=2C9EF4C94C43756E014D491C9BC42FE4" style="background: #ebf6fb;color: #777;display: inline-block;font-family: Arial, Helvetica, sans-serif;font-size: 14px;padding: 14px;padding-left:0px;">Selo</a></li><li class="item" id="menuInterno_2C9EF4C951B5183B01520DED37CE2B86" style="padding-left:10px; color: #1499D0;border-top: 1px solid #e1e3e6;background: none repeat scroll 0 0 rgb(235, 246, 251);"><a href="/main.jsp?lumPageId=2C9EF4C94D6E018F014D6E13705E02BD&amp;lumItemId=2C9EF4C94C43756E014D491D13B63033" style="background: #ebf6fb;color: #777;display: inline-block;font-family: Arial, Helvetica, sans-serif;font-size: 14px;padding: 14px;padding-left:0px;">Banner e Lightbox</a></li><li class="item" id="menuInterno_2C9EF4C94F1D3B89014F4285087A250E" style="padding-left:10px; color: #1499D0;border-top: 1px solid #e1e3e6;background: none repeat scroll 0 0 rgb(235, 246, 251);"><a href="/main.jsp?lumPageId=2C9EF4C94D6E018F014D6E13705E02BD&amp;lumItemId=2C9EF4C94F1D3B89014F428345C4240C" style="background: #ebf6fb;color: #777;display: inline-block;font-family: Arial, Helvetica, sans-serif;font-size: 14px;padding: 14px;padding-left:0px;">Validar integração</a></li></ul></nav></div><div class="lum-content-footer"></div></div></aside></form><input type="hidden" id="es2C9EF4C94D6E018F014D6E13DF8F0382_Form_2C9EF4C94D6E018F014D6E13DF8F0382_lum_errorSummary"/></div></div><div><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['lumis/service/navigation/stylesheet/horizontal.css'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><?xml version="1.0" encoding="UTF-8"?><h2 style="color: #3d3d3d;font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;font-weight: bold;font-size: 2em;">Validar integração</h2><div class="col-md-9"><p><div style="min-height: 320px;">
+	<p>Após realizar a integração com o banner e selo utilize nossa ferramenta de validação. Para isso será necessário fazer todos os passos até o checkout da venda até que o banner seja carregado. Insira o seu ID ebit e caso esteja tudo ok, basta solicitar a homologação através do formulário de suporte.<br><br>
+		Consulte o status da sua integra&ccedil;&atilde;o E-bit</p>
+	<form action="#" id="get-status">
+		<p>
+			<label for="ebitId"><strong>E-bit Id</strong> </label></p>
+		<p>
+			<input id="ebitId" name="ebitId" placeholder="Insira seu E-bit Id" required="" type="text" /> <input type="submit" value="Consultar" /></p>
+	</form>
+	<table class="table table-bordered" id="status-table" style="text-align:left;width:80%">
+		<tbody>
+			<tr>
+				<td class="info">
+					<strong>Data</strong></td>
+				<td id="status-data">
+					&nbsp;</td>
+			</tr>
+			<tr id="status-buscape-id-row">
+				<td class="info">
+					<strong>Buscap&eacute; Id</strong></td>
+				<td id="status-buscape-id">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="info">
+					<strong>Ebit Id</strong></td>
+				<td id="status-ebit-id">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="info">
+					<strong>Nome</strong></td>
+				<td id="status-ebit-name">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="info">
+					<strong>Status</strong></td>
+				<td id="status-status">
+					&nbsp;</td>
+			</tr>
+			<tr>
+				<td class="info">
+					<strong>Erros</strong></td>
+				<td>
+					<p id="status-errors">
+						&nbsp;</p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<script>
+$(document).ready(function () {
+function resetScreen(){
+$("#status-table").hide();
+$("#status-buscape-id").text("");
+$("#status-ebit-id").text("");
+$("#status-status").text("");
+$("#status-errors").html("");
+}
+resetScreen();
+$("#get-status").submit(function (event) {
+var ebitId = $("#ebitId").val();
+$.ajax({
+url: "http://developer.buscape.com.br/ebit/status/" + ebitId,
+success: function (response) {
+resetScreen();
+if (response.buscapeId == null) {
+$("#status-buscape-row").hide();
+} else {
+$("#status-buscape-row").show();
+$("#status-buscape-id").text(response.buscapeId);
+}
+$("#status-data").text(new Date(response.day).toLocaleString())
+$("#status-ebit-id").text(response.ebitId);
+$("#status-ebit-name").text(response.ebitName);
+if (response.status) {
+$("#status-status").text("Válida");
+} else {
+$("#status-status").text("Inválida");
+}
+$("#status-errors").html(response.message);
+$("#status-table").show();
+},
+error:function(error){
+resetScreen();
+}
+});
+event.preventDefault();
+});
+});
+</script></div>
+<p>
+	&nbsp;</p>
+</p></div><input type="hidden" id="pageIdNow" value="2C9EF4C94F1D3B89014F4285087A250E"/><script>
+			var pageIdNow = $('#pageIdNow').val();
+			$('#storeList').find('li').attr('class', 'item');
+			$('#storeList').find('li').each(function() {
+			if ($(this).attr('id')=='menuInterno_'+pageIdNow) {
+				$(this).attr('class', 'item active');
+			}
+			});
+		</script></div></div></div></div> 
+		</div>
+	</section>
+	
+	<footer id="footer">
+		<div class="container"><script type="text/javascript">if (!window.LumisBWKeys) window.LumisBWKeys = {};window.LumisBWKeys['LumisDouiErrorSummary.js'] = true;window.LumisBWKeys['LumisDoui.js'] = true;window.LumisBWKeys['lumis/service/navigation/stylesheet/horizontal.css'] = true;window.LumisBWKeys['LumisDouiValidator.js'] = true;window.LumisBWKeys['jquery.js'] = true;</script><div class="container" page:holder="area_footer">
+	<div class="row">
+		<div class="col-md-7" id="menu-footer">
+			<ul class="list-inline pull-left">
+				<li>
+					<a href="/portal/developer/quem-somos/">Quem somos</a></li>
+				<li>
+					<a href="/portal/developer/termos-de-uso/">Privacidade e Termos de uso</a></li>
+				<li>
+					<a href="/portal/developer/api-status/">API Status</a></li>
+				<li>
+					<a href="/portal/developer/suporte/">Contato</a></li>
+			</ul>
+		</div>
+		<div class="col-md-5">
+			<ul class="list-inline pull-right">
+				<li>
+					<a href="https://www.facebook.com/devbuscape" target="_blank"><img class="social facebook" src="/developer/static/img/blank.png" /></a></li>
+				<li>
+					<a href="https://twitter.com/devbuscapeco" target="_blank"><img class="social twitter" src="/developer/static/img/blank.png" /></a></li>
+				<li>
+					<a href="https://www.youtube.com/user/devbuscapecompany" target="_blank"><img class="social youtube" src="/developer/static/img/blank.png" /></a></li>
+				<li>
+					<a href="https://github.com/devbuscapecompany" target="_blank"><img class="social github" src="/developer/static/img/blank.png" /></a></li>
+				<!--<li><a href="#"><img src="/developer/static/img/blank.png" class="social rss"></a></li>
+                                                <li><a href="#"><img src="/developer/static/img/blank.png" class="social googleplus"></a></li>-->
+				<li>
+					<small>&copy;2014 Buscap&eacute; Company</small></li>
+			</ul>
+		</div>
+	</div>
+</div></div>
+	</footer>
+	
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+#octagon {
+   width: 200px;
+   height: 35px;
+   background: #1499D3;
+text-align: center;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+position: absolute !important;
+top: 0px;
+left: 50%;
+margin-left: -100px;
+padding-top: 5px;
+z-index: 99999px;
+}
+#octagon a {
+color: white;
+font-weight: bold;
+text-decoration: none;
+}</style>
+        <div id="octagon" style="display:none;">
+                <a href="/portal/developer/admin/aplicacoes/">Minhas aplica&ccedil;&otilde;es</a></div>
+
+        <script>
+                function getCookie(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) == 0) return c.substring(name.length,c.length);
+    }
+    return "";
+}
+if (getCookie('lumail')!='') {
+$('#octagon').removeAttr('style');
+}
+        </script>
+	
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-17174085-2', 'buscape.com.br');
+	  ga('send', 'pageview');
+	</script>
+<script type="text/javascript">
+//<![CDATA[
+ if(document.cookie.search("lumUserLocale=pt_BR")==-1)document.write("<div style=\"display:none\"><img src=\"../../../../../lumis/portal/controller/html/SetLocale.jsp?lumUserLocale=pt_BR\" alt=\" \"/><\/div>");
+//]]>
+</script></body>
+</html>

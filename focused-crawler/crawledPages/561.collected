@@ -1,0 +1,337 @@
+title=Termo de Adesão do Programa Fidelidade  | Programa Viaje CVC
+url=http://www.programaviaje.com.br/regulamento.html
+html=<!DOCTYPE html>
+<html>
+<head>
+<script src="js/jquery.min.js" type="text/javascript"></script>
+
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+     <script type="text/javascript">
+jQuery(document).ready(function() {
+
+	$(".video").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'elastic',
+			'transitionOut'	: 'elastic',
+			'title'			: this.title,
+			'width'			: 300,
+			'height'		: 385,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+
+
+
+$("a#inline").fancybox({
+		'hideOnContentClick': true
+	});
+
+
+
+ $(".iframe").fancybox({
+         'width'		: 900,
+		'height'		: '80%',
+         'autoScale' : false,
+         'transitionIn' : 'none',
+         'transitionOut' : 'none',
+         'type' : 'iframe',
+		  'autoSize' : false,
+		 
+     });
+
+
+
+
+});
+</script>
+
+    
+    
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    
+
+
+
+<script src="js/jquery.orbit.min.js" type="text/javascript"></script>
+<script src="js/jquery.bxSlider/jquery.bxSlider.min.js" type="text/javascript"></script>
+<script src="js/scripts.js" type="text/javascript"></script>
+<link rel="stylesheet" href="css/estilo.css">
+<link rel="stylesheet" href="js/orbit.css">
+<title>Termo de Adesão do Programa Fidelidade  | Programa Viaje CVC</title>
+<meta name="description" content="Termo de Adesão do Programa Viaje! o programa de fidelidade da CVC. Acumule e Resgate seus Pontos.Quanto mais você viaja, mais pontos acumula."/>
+<meta name="keywords" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem"/>
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+<meta name="DC.title" content="Termo de Adesão do Programa Fidelidade  | Programa Viaje CVC"/>
+<meta name="DC.description" content="Termo de Adesão do Programa Viaje! o programa de fidelidade da CVC. Acumule e Resgate seus Pontos.Quanto mais você viaja, mais pontos acumula."/>
+<meta name="DC.subject" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem, CVC"/>
+<meta name="DC.identifier" content="http://www.cvc.com.br"/>
+<meta Name="robots" content= "index,follow">
+<meta property="og:title" content="Termo de Adesão do Programa Fidelidade  | Programa Viaje CVC"/>
+<meta property="og:description" content="Termo de Adesão do Programa Viaje! o programa de fidelidade da CVC. Acumule e Resgate seus Pontos.Quanto mais você viaja, mais pontos acumula."/>
+<meta property="og:url" content="http://www.programaviaje.com.br/regulamento.html"/>
+<meta property="og:site_name" content="CVC Viagens"/>
+<meta property="og:type" content="website"/>
+<link rel="canonical" href="http://www.programaviaje.com.br/regulamento.html"/>
+</head>
+<body id="regulamento">
+<div id="page">
+  <div id="header">
+    <h1><a href="index.html">Programa Viaje</a></h1>
+    <div class="area-usuario">
+      <p class="titulo-area-usuario">Participe agora!</p>
+      <p><a  class="botao-registrar" href="http://www.programaviaje.com.br/eloyalty_ptb">Registre-se gr&aacute;tis</a></p>
+      <p> ou </p>
+      <p><a class="botao-login"  href="http://www.programaviaje.com.br/eloyalty_ptb">Faça o login</a></p>
+      <!--<div class="frase-lojas"><strong style="color:#92288C">Atenção:</strong> <a href="programa.html#lojas-participantes">clique aqui</a> para conferir as lojas participantes do Programa Viaje!.</div>--> 
+    </div>
+    <div class="menu-header">
+      <ul>
+        <li class="duvidas"><a href="#">Tire suas Dúvidas</a>
+          <ul class="submenu-fale-conosco">
+            <li class="fale-conosco"><a href="fale-conosco.html">Fale Conosco</a></li>
+            <li class="perguntas-frequentes"><a href="perguntas-frequentes.html">Perguntas Frequentes</a></li>
+          </ul>
+        </li>
+        <li class="parceiros"><a href="cartao-cvc.html">Cartão CVC</a></li>
+        <li class="programa on"><a href="programa.html">Sobre o Programa</a>
+          <ul class="submenu-programa">
+            <li class="acumule-pontos"><a href="programa.html#acumule">Acumule Pontos</a></li>
+            <li class="resgate pontos"><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+            <li class="regulamento"><a href="regulamento.html">Regulamento</a></li>
+          </ul>
+        </li> <li class="home"><a href="index.html">Home</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="conteudo">
+    <h2>Termo de Ades&atilde;o do Programa Viaje!, o Programa de Fidelidade da CVC </h2>
+    <p><strong>CVC Brasil Operadora e Ag&ecirc;ncia de  Viagens S.A.</strong>,  sociedade por a&ccedil;&otilde;es de capital aberto, inscrita no CNPJ sob n&ordm; 10.760.260/0001-19,  com sede na Rua das Figueiras, 501, 8&ordm; andar, na Cidade de Santo Andr&eacute;, Bairro  Jardim, Estado de S&atilde;o Paulo, CEP 09080-370, doravante denominada simplesmente  CVC, com base no presente Regulamento, institui o PROGRAMA VIAJE!, conforme os  termos, cl&aacute;usulas e condi&ccedil;&otilde;es a seguir estipulados.</p>
+    <p>&nbsp;</p>
+    
+    <div id="lista-regulamento">
+        <ul>
+            <li>
+                <strong>I. DEFINI&Ccedil;&Otilde;ES</strong>
+                <ul>
+                    <li>(a) <strong>Cat&aacute;logo de Servi&ccedil;os</strong>: &eacute; o cat&aacute;logo de  Servi&ccedil;os disponibilizado nas lojas da Rede CVC, na Central de Atendimento e no <em>Website </em>(<a href="http://www.programaviaje.com.br">www.programaviaje.com.br</a>). O  Cat&aacute;logo de Servi&ccedil;os pode ser a qualquer momento alterado pela CVC, segundo seu  exclusivo crit&eacute;rio, sem aviso pr&eacute;vio.</li>
+                    <li>(b) <strong>Central de Atendimento:</strong> &nbsp;&eacute; o canal de atendimento ao cliente,  funcion&aacute;rios das lojas CVC e Agentes de Viagens para d&uacute;vidas, reclama&ccedil;&otilde;es e  elogios referente ao PROGRAMA VIAJE!. Os contatos da Central de Atendimento est&atilde;o  dispon&iacute;veis no <em>Website</em>.</li>
+                    <li>(c) <strong>Parceiros:</strong> S&atilde;o as empresas associadas  como parceiras do PROGRAMA VIAJE!, dentre eles o Banco Bradescard S.A.(<strong>Emissor</strong>), ou que venham a se associar  ao PROGRAMA VIAJE!, que fornecer&atilde;o Produtos Eleg&iacute;veis</li>
+                    <li>(d) <strong>Participante</strong>: toda e qualquer pessoa  f&iacute;sica residente no Brasil, com capacidade para a pr&aacute;tica de todos os atos da  vida civil, nos termos do C&oacute;digo Civil Brasileiro, inscrita no Cadastro de  Pessoas F&iacute;sicas (&ldquo;CPF&rdquo;) emitido pelo Minist&eacute;rio da Fazenda, que adquira Produtos  Eleg&iacute;veis e venha a se cadastrar no PROGRAMA VIAJE! nos termos deste  Regulamento. </li>
+                    <li>(e) <strong>Produtos Eleg&iacute;veis</strong>: S&atilde;o os produtos  e/ou servi&ccedil;os prestados pelos Parceiros, dentre eles o Cart&atilde;o CVC emitido pelo  Banco Bradescard S.A., que possibilitar&atilde;o aos seus clientes acumularem pontos  para o PROGRAMA VIAJE! desde que, tais clientes sejam cadastrados neste  Programa.</li>
+                    <li>(f) <strong>PROGRAMA VIAJE!</strong>: &eacute; um programa de fideliza&ccedil;&atilde;o  da CVC, a vigorar por prazo indeterminado, que permite aos seus Participantes o  ac&uacute;mulo de Pontos, em raz&atilde;o da aquisi&ccedil;&atilde;o dos Produtos Eleg&iacute;veis, e que ser&atilde;o  utilizados e resgatados exclusivamente para a obten&ccedil;&atilde;o de desconto na aquisi&ccedil;&atilde;o  de Servi&ccedil;os constantes do Cat&aacute;logo de Servi&ccedil;os.</li>
+                    <li>(g) <strong>Pontos</strong>: &eacute; a unidade de benef&iacute;cios do PROGRAMA  VIAJE!, creditada pela CVC na conta do PROGRAMA VIAJE! de cada Participante.</li>
+                    <li>(h) <strong>Servi&ccedil;os</strong>: compreendem os servi&ccedil;os  tur&iacute;sticos intermediados pela Rede CVC. </li>
+                    <li>(i) <strong>Rede CVC</strong>: composta pelas lojas f&iacute;sicas  e exclusivas da marca CVC, bem como agentes de viagens credenciados e loja  virtual da CVC.</li>
+                    <li>(j) <strong><em>Website</em></strong><em>:</em><strong> </strong>s&iacute;tio na rede mundial de computadores (&ldquo;<em>Internet</em>&rdquo;)  criado especificamente para o PROGRAMA VIAJE!, por meio do endere&ccedil;o eletr&ocirc;nico: <a href="http://www.programaviaje.com.br">www.programaviaje.com.br</a>.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>II. PARTICIPA&Ccedil;&Atilde;O E ADES&Atilde;O NO PROGRAMA</strong>
+                <ul>
+                    <li>2.1. O  Participante que queira aderir ao PROGRAMA VIAJE! dever&aacute; preencher os seguintes  requisitos m&iacute;nimos:
+                        <ul>
+                            <li>(a) ser  residente no Brasil;</li>
+                            <li>(b) possuir  CPF;</p>
+                            <li>(c) ter  capacidade para a pr&aacute;tica de todos os atos da vida civil, nos termos do C&oacute;digo  Civil Brasileiro; e</li>
+                            <li>(d) ter adquirido  os<strong> </strong>Produtos Eleg&iacute;veis. </li>
+                        </ul>
+                    </li>                
+                    <li>2.2. A  ades&atilde;o ao PROGRAMA VIAJE! dever&aacute; ser efetuada pelo Participante por meio da  finaliza&ccedil;&atilde;o do cadastro, confirma&ccedil;&atilde;o do e-mail para comunica&ccedil;&otilde;es, escolha da senha  de acesso ao ambiente pessoal do Participante no <em>Website</em>, firma em documento concedendo autoriza&ccedil;&atilde;o para que os  Parceiros possam fornecer &agrave; CVC suas informa&ccedil;&otilde;es cadastrais e financeiras  objetivando viabilizar o c&aacute;lculo da pontua&ccedil;&atilde;o, e aceita&ccedil;&atilde;o ao presente  Regulamento no <em>Website</em>.</li>
+                    <li>2.3. Uma  vez conclu&iacute;do o cadastro, o Participante receber&aacute;, no e-mail informado durante o  preenchimento do cadastro, a confirma&ccedil;&atilde;o da sua inscri&ccedil;&atilde;o por meio de um e-mail  de boas vindas, com seu nome, e demais informa&ccedil;&otilde;es relevantes sobre o PROGRAMA  VIAJE!. </li>
+                    <li>2.4. Ap&oacute;s  completar seu cadastro, confirmar seu e-mail, escolher sua senha pessoal de  acesso, autorizar o compartilhamento das informa&ccedil;&otilde;es cadastrais e financeiras  do Participante entre o Parceiro e a CVC, e, por fim, aderir ao Regulamento do PROGRAMA  VIAJE!, o Participante ter&aacute; acesso ao seu extrato de Pontos, que ficar&aacute;  dispon&iacute;vel em uma conta <em>online</em>, a  qual poder&aacute; ser acessada no <em>Website</em>.</li>
+                </ul>
+            </li>
+            <li>
+                <strong>&nbsp;</strong><strong>III. AC&Uacute;MULO DE PONTOS</strong>
+                <ul>
+                    <li>3.1. O  PROGRAMA VIAJE! conferir&aacute; Pontos aos seus Participantes em raz&atilde;o da aquisi&ccedil;&atilde;o  dos Produtos Eleg&iacute;veis.</li>
+                    <li>
+                        3.2. No  tocante ao ac&uacute;mulo de pontos para os Produtos Eleg&iacute;veis, estes seguir&atilde;o as  regras e condi&ccedil;&otilde;es dos respectivos Parceiros.
+                        <ul>
+                            <li>3.2.1.&nbsp;Quanto  ao Produto Eleg&iacute;vel denominado Cart&atilde;o CVC, s&atilde;o aplic&aacute;veis, no m&iacute;nimo, as  seguintes regras: 
+                                <ul>				
+                                    <li>(i) A cada R$ 1,00 (um  Real) de  transa&ccedil;&atilde;o efetuada com o Cart&atilde;o CVC  Internacional, e devidamente lan&ccedil;ada na fatura, proporcionar&aacute; ao Participante o  ac&uacute;mulo de 01 (um) ponto no  PROGRAMA VIAJE!;</li>
+                                    <li>(ii) A cada R$ 1,00 (um  Real) de  transa&ccedil;&atilde;o efetuada&nbsp; com o Cart&atilde;o CVC Gold, e devidamente lan&ccedil;ada na  fatura, proporcionar&aacute; ao Participante o ac&uacute;mulo de 02 (dois) pontos no PROGRAMA  VIAJE!;</li>
+                                    <li>(iii) Valores lan&ccedil;ados  na fatura a t&iacute;tulo de multa, juros ou demais encargos n&atilde;o ser&atilde;o considerados  para fins de c&aacute;lculo e ac&uacute;mulo de Pontos no PROGRAMA VIAJE!;</li>
+                                    <li>(iv) O cr&eacute;dito dos  Pontos na conta do Participante no PROGRAMA VIAJE! ser&aacute; efetuado em at&eacute; 40  (quarenta) dias ap&oacute;s a data de &nbsp;pagamento,  pelo menos do valor m&iacute;nimo da fatura do Cart&atilde;o CVC;</li>
+                                    <li>(v) As demais  condi&ccedil;&otilde;es e crit&eacute;rios referentes &agrave; possibilidade de Ac&uacute;mulo de Pontos por meio  do Cart&atilde;o CVC no PROGRAMA VIAJE! ser&atilde;o definidas pelo Emissor em Instrumento  espec&iacute;fico. </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        3.3. A  CVC poder&aacute;, a qualquer momento e a seu exclusivo crit&eacute;rio, efetuar as seguintes  altera&ccedil;&otilde;es: (i) alterar o percentual de descontos no Cat&aacute;logo de Servi&ccedil;os; (ii)  alterar a forma de ac&uacute;mulo de Pontos no PROGRAMA VIAJE!, inclusive adotando um  c&aacute;lculo diferenciado por Servi&ccedil;o, seja em car&aacute;ter definitivo ou promocional.
+                        <ul>
+                            <li>3.3.1.&nbsp;Os  novos valores e a proporcionalidade dos pontos ser&atilde;o informados previamente atrav&eacute;s  do Website e em outros canais de f&aacute;cil acesso p&uacute;blico que a CVC julgar  necess&aacute;rio. Contudo, a utiliza&ccedil;&atilde;o/resgate dos Pontos sempre obedecer&aacute; &agrave; regra  vigente na data de obten&ccedil;&atilde;o do desconto na aquisi&ccedil;&atilde;o de Servi&ccedil;os constantes do  Cat&aacute;logo de Servi&ccedil;os.</li>
+                            <li>3.3.2.&nbsp;Em  caso de altera&ccedil;&atilde;o da forma de ac&uacute;mulo de Pontos, a CVC ir&aacute; informar o  Participante com 30 (trinta) dias de anteced&ecirc;ncia, por meio do Website e outros  canais que a CVC julgar necess&aacute;rios. Caso o Participante n&atilde;o concorde com a  respectiva altera&ccedil;&atilde;o, poder&aacute; revogar sua ades&atilde;o ao PROGRAMA VIAJE!, deixando de  fazer parte do Programa, sem qualquer &ocirc;nus. </li>
+                        </ul>
+                    </li>
+                    <li>3.4. <strong>Os Pontos permanecer&atilde;o v&aacute;lidos pelo per&iacute;odo  de 24 (vinte e quatro) meses</strong> contado da data do cr&eacute;dito do respectivo Ponto  na conta do Participante do PROGRAMA VIAJE!. Caso o Participante utilize  determinados Pontos e, por qualquer motivo, nos termos deste Regulamento, esses  Pontos sejam restitu&iacute;dos, o prazo de validade original continuar&aacute; em vigor.  Isto &eacute;, o prazo de 24 (vinte e quatro) meses permanece sendo contado a partir  da data do cr&eacute;dito original dos Pontos, e n&atilde;o da data de restitui&ccedil;&atilde;o.</li>
+                    <li>3.5. O  Participante fica desde j&aacute; ciente de que os Parceiros, eventualmente, poder&atilde;o  solicitar &agrave; CVC o cancelamento dos Pontos, conforme regras e crit&eacute;rios por eles  estabelecidos para o ac&uacute;mulo de Pontos no PROGRAMA VIAJE!. </li>
+                    <li>3.6. Em  caso de eventual n&atilde;o credenciamento dos Pontos ou em caso de discord&acirc;ncia nos  extratos emitidos, o Participante dever&aacute; solicitar junto &agrave; Central de  Atendimento do PROGRAMA VIAJE! a averigua&ccedil;&atilde;o sobre a referida discord&acirc;ncia, <strong>limitado ao prazo de validade do referido  cr&eacute;dito pleiteado, isto &eacute;, 24 (vinte e quatro) meses data do credenciamento dos  Pontos. No caso de falta de credenciamento, o prazo de solicita&ccedil;&atilde;o de  averigua&ccedil;&atilde;o &eacute; de at&eacute; 24 (vinte e quatro) meses da data da aquisi&ccedil;&atilde;o do Produto  Eleg&iacute;vel.</strong></li>
+                    <li>3.7.&nbsp;No  ato do pagamento dos Servi&ccedil;os, constantes do Cat&aacute;logo de Servi&ccedil;os, mediante  utiliza&ccedil;&atilde;o/resgate de Pontos, nos termos do Cap&iacute;tulo IV abaixo, apenas a  parcela financeira paga pelo Participante gerar&aacute; ac&uacute;mulo de Pontos no PROGRAMA  VIAJE! nos termos deste Regulamento. Nenhum desconto na aquisi&ccedil;&atilde;o de Servi&ccedil;os constantes  do Cat&aacute;logo de Servi&ccedil;os, que ser&aacute; concedido ao Participante em raz&atilde;o da  utiliza&ccedil;&atilde;o/resgate de Pontos, ser&aacute; revertido em Pontos para participa&ccedil;&atilde;o no PROGRAMA  VIAJE!.</li>
+                    <li>3.8.&nbsp;Na  hip&oacute;tese de aquisi&ccedil;&atilde;o de Servi&ccedil;o na Rede CVC com a utiliza&ccedil;&atilde;o de &ldquo;vale-compra&rdquo;  comercializado pela Rede CVC (denominado Vale-Viagem CVC), o Participante que  apresentar o Vale-Viagem CVC como forma de pagamento do respectivo Servi&ccedil;o n&atilde;o  acumular&aacute; Pontos. </li>        
+                </ul>          
+            </li>
+            <li>
+                <strong>IV.&nbsp;RESGATE</strong>
+                <ul>
+                    <li>4.1. Os  Pontos acumulados pelo Participante permitir&atilde;o que ele obtenha desconto na  aquisi&ccedil;&atilde;o de Servi&ccedil;os constantes do Cat&aacute;logo de Servi&ccedil;os, que ser&atilde;o oferecidos  a pre&ccedil;os ou condi&ccedil;&otilde;es especiais, de acordo com a quantidade de Pontos exigida e  os termos do Cat&aacute;logo de Servi&ccedil;os. </li>
+                        <ul>
+                            <li>4.1.1. Os  Pontos complementam os valores de Servi&ccedil;os oferecidos pela Rede CVC,  possibilitando descontos nos pre&ccedil;os de aquisi&ccedil;&atilde;o dos Servi&ccedil;os constantes do  Cat&aacute;logo de Servi&ccedil;os. <strong>N&atilde;o ser&aacute; poss&iacute;vel  a aquisi&ccedil;&atilde;o de Servi&ccedil;os exclusivamente com Pontos do PROGRAMA VIAJE!</strong>. </li>
+                            <li>4.1.2.&nbsp;Constar&aacute;  do Cat&aacute;logo de Servi&ccedil;os o n&uacute;mero de Pontos necess&aacute;rios para obten&ccedil;&atilde;o de descontos  nos respectivos Servi&ccedil;os. <strong>ATEN&Ccedil;&Atilde;O: O  n&uacute;mero de Pontos necess&aacute;rio para obten&ccedil;&atilde;o de descontos n&atilde;o corresponde a um  valor em Reais.</strong> </li>
+                            <li>4.1.3. A  t&iacute;tulo de exemplo, o Cat&aacute;logo de Servi&ccedil;os poder&aacute; informar que determinado  pacote tur&iacute;stico poder&aacute; ser adquirido por um pre&ccedil;o promocional, utilizando-se  5.000 Pontos. <strong>Isso n&atilde;o significa que o  Participante ter&aacute; um desconto de R$ 5.000,00 (cinco mil reais) na aquisi&ccedil;&atilde;o do pacote</strong>,  mas apenas que, utilizando 5.000 Pontos far&aacute; jus ao desconto anunciado no Cat&aacute;logo  de Servi&ccedil;os. </li>
+                            <li>4.1.4. O  Participante apenas poder&aacute; se valer do desconto caso utilize o n&uacute;mero total e exato  de Pontos exigido no Cat&aacute;logo de Servi&ccedil;os. A t&iacute;tulo de exemplo, caso o<strong> </strong>desconto exija a utiliza&ccedil;&atilde;o de 100  pontos, <strong>o Participante n&atilde;o poder&aacute; se  valer de um desconto proporcional utilizando menos pontos</strong> (por exemplo,  obter 20% do desconto, utilizando 20 Pontos). Da mesma forma, <strong>o Participante n&atilde;o poder&aacute; se valer de um  desconto maior utilizando mais pontos</strong> (por exemplo, 200% do desconto  utilizando 200 Pontos).</li>
+                        </ul>
+                    <li>4.2. O  Participante reconhece e concorda que a natureza e funcionamento do PROGRAMA  VIAJE! dependem da constante atualiza&ccedil;&atilde;o das promo&ccedil;&otilde;es e que a CVC est&aacute;  autorizada a modificar os Servi&ccedil;os constantes do Cat&aacute;logo de Servi&ccedil;os sem aviso  pr&eacute;vio. <strong>O Participante tem conhecimento  de que as promo&ccedil;&otilde;es constantes do Cat&aacute;logo de Servi&ccedil;os tem vig&ecirc;ncia imediata,  no sentido de que se o Participante n&atilde;o adquirir o Servi&ccedil;o de imediato n&atilde;o h&aacute;  garantia de que a mesma promo&ccedil;&atilde;o estar&aacute; dispon&iacute;vel no pr&oacute;ximo acesso do Participante  ao Cat&aacute;logo de Servi&ccedil;os</strong>. </li>
+                    <li>4.3. Os  Pontos acumulados no PROGRAMA VIAJE! apenas estar&atilde;o dispon&iacute;veis para resgate  ap&oacute;s 3 (tr&ecirc;s) dias &uacute;teis a contar do seu respectivo cr&eacute;dito na conta do  Participante no PROGRAMA VIAJE!. </li>
+                    <li>4.4. Caso  uma compra de Servi&ccedil;o constante do Cat&aacute;logo de Servi&ccedil;os seja cancelada pelo  Participante, o Participante far&aacute; jus &agrave; restitui&ccedil;&atilde;o dos Pontos utilizados na  aquisi&ccedil;&atilde;o do Servi&ccedil;o cancelado, sem preju&iacute;zo das multas e penalidades  contratualmente previstas nos contratos de intermedia&ccedil;&atilde;o de Servi&ccedil;os da Rede  CVC.</li>
+                    <li>4.5. Em  caso de aus&ecirc;ncia injustificada do Participante no momento de in&iacute;cio da viagem  relacionada a um Servi&ccedil;o constantes do Cat&aacute;logo de Servi&ccedil;os contratado com a  Rede CVC, <strong>haver&aacute; perda de 100% (cem por  cento) dos Pontos utilizados na compra do respectivo Servi&ccedil;o</strong>, sem preju&iacute;zo  de demais multas e penalidades contratualmente previstas nos contratos de intermedia&ccedil;&atilde;o  de Servi&ccedil;os na Rede CVC.</li>
+                    <li>4.6. A  possibilidade de obten&ccedil;&atilde;o de descontos no pagamento de Servi&ccedil;os constantes do Cat&aacute;logo  de Servi&ccedil;os com a utiliza&ccedil;&atilde;o/resgate de Pontos no &acirc;mbito do PROGRAMA VIAJE!  apenas ser&aacute; disponibilizada ao Participante quando referido Participante  possuir, na data da aquisi&ccedil;&atilde;o do Servi&ccedil;os constantes do Cat&aacute;logo de Servi&ccedil;os,  saldo de Pontos suficiente para a utiliza&ccedil;&atilde;o/resgate em desconto ao referido Servi&ccedil;o,  observadas as condi&ccedil;&otilde;es deste Regulamento.</li>
+                    <li>4.7. A  cria&ccedil;&atilde;o de novos canais para utiliza&ccedil;&atilde;o/resgate de Pontos, bem como a exclus&atilde;o  dos existentes, podem ocorrer a qualquer momento pela CVC. Desse modo, o  Participante deve informar ao vendedor da loja que deseja efetuar o resgate de  seus Pontos, a fim de que tenha desconto no pagamento dos Servi&ccedil;os constantes  do Cat&aacute;logo de Servi&ccedil;os.</li>
+                    <li>4.7.1.&nbsp;No caso dos Pontos originados em raz&atilde;o do  Cart&atilde;o CVC, a utiliza&ccedil;&atilde;o/resgate de Pontos apenas poder&aacute; ser feita na loja  f&iacute;sica da Rede CVC que intermediou a aquisi&ccedil;&atilde;o do Cart&atilde;o CVC ao Participante,  exceto se de outro modo permitido pela CVC.<strong></strong></li>                
+                </ul>            	
+            </li>
+            <li>
+                <strong>V. CADASTRO E COMUNICA&Ccedil;&Otilde;ES</strong>
+                <ul>
+                    <li>5.1. O  Participante se obriga a manter atualizados seus dados cadastrais junto ao PROGRAMA  VIAJE!. Desse modo, comunica&ccedil;&otilde;es enviadas pela CVC ser&atilde;o tidas como devidamente  efetivadas se dirigidas a um dos meios de contato presentes no cadastro. </li>
+                    <li>5.2. Ao  aderir ao PROGRAMA VIAJE!, efetuando seu cadastro, o Participante  automaticamente anui integralmente com todos os termos e condi&ccedil;&otilde;es deste  Regulamento, que, periodicamente, poder&aacute; ser alterado pela CVC. </li>            
+                </ul>
+            </li>
+            <li>
+                <strong>VI.&nbsp;CONDI&Ccedil;&Otilde;ES GERAIS</strong>
+                <ul>
+                    <li>6.1. O  PROGRAMA VIAJE! tem validade por tempo indeterminado. Entretanto, a CVC poder&aacute;,  a qualquer momento, suspender o ac&uacute;mulo de Pontos ou encerrar o PROGRAMA VIAJE!  Os Participantes ser&atilde;o avisados com anteced&ecirc;ncia de 30 (trinta) dias sobre  eventual suspens&atilde;o ou cancelamento do PROGRAMA VIAJE!. Uma vez encerrado o  PROGRAMA VIAJE!, os Pontos do Participante poder&atilde;o ser resgatados nos termos  deste Regulamento, isto &eacute;, ter&atilde;o seu prazo de validade respeitado. </li>
+                    <li>6.2. Via  Central de Atendimento ou por meio do <em>Website</em>,  o Participante poder&aacute;, a qualquer tempo, e com anteced&ecirc;ncia de 30 (trinta) dias  da data desejada, solicitar o cancelamento de sua participa&ccedil;&atilde;o no PROGRAMA  VIAJE!. Durante esse per&iacute;odo de 30 (trinta) dias, o Participante ainda poder&aacute;  resgatar seus Pontos nos termos deste Regulamento. </li>
+                    <li>6.3. A  CVC poder&aacute; alterar este Regulamento a qualquer momento, sendo que divulgar&aacute; as altera&ccedil;&otilde;es  no <em>Website</em> e na Rede CVC, com  anteced&ecirc;ncia de 30 (trinta) dias corridos da data de in&iacute;cio da vig&ecirc;ncia do  Regulamento alterado.
+                        <ul>
+                            <li>6.3.1. Caso  o Participante n&atilde;o concorde com a altera&ccedil;&atilde;o do Regulamento, poder&aacute; revogar sua  ades&atilde;o ao PROGRAMA VIAJE!, deixando de fazer parte do Programa, sem qualquer  &ocirc;nus. <strong>Desse modo, a perman&ecirc;ncia no  Programa implica aceite &agrave;s altera&ccedil;&otilde;es efetivadas pela CVC.</strong></li>
+                        </ul>
+                    </li>
+                    <li>6.4. <strong>Ser&aacute; automaticamente exclu&iacute;do do Programa e  perder&aacute; o direito aos seus Pontos acumulados, o Participante que tenha prestado  informa&ccedil;&otilde;es ou declara&ccedil;&otilde;es falsas &agrave; CVC</strong>.</li>
+                    <li>6.5. O  Participante tamb&eacute;m poder&aacute; esclarecer eventuais d&uacute;vidas sobre o PROGRAMA VIAJE!  por meio da Central de Atendimento dispon&iacute;vel no <em>Website</em>. </li>
+                    <li>6.6. <strong>Os Pontos creditados ao Participante n&atilde;o  poder&atilde;o ser convertidos em dinheiro ou valores de qualquer outra esp&eacute;cie</strong>, por  possu&iacute;rem car&aacute;ter pessoal, inegoci&aacute;vel e intransfer&iacute;vel, <strong>sendo vedada qualquer forma de cess&atilde;o ou transfer&ecirc;ncia, a qualquer  tempo e t&iacute;tulo</strong>, a terceiros, sucessores ou herdeiros.</li>
+                    <li>6.7. &Eacute;  vedado ao Participante qualquer tipo de comercializa&ccedil;&atilde;o de Pontos ou Servi&ccedil;os adquiridos  pelo PROGRAMA VIAJE!. </li>
+                </ul>    	
+            </li>
+            <li>
+                <strong>VII. CONDI&Ccedil;&Otilde;ES DE UTILIZA&Ccedil;&Atilde;O </strong>
+                <ul>
+                    <li>7.1. A  senha de acesso ao PROGRAMA VIAJE! &eacute; pessoal e intransfer&iacute;vel, sendo sua  utiliza&ccedil;&atilde;o de inteira responsabilidade do Participante que, por seguran&ccedil;a, n&atilde;o  dever&aacute; revel&aacute;-la a terceiros. </li>
+                    <li>7.2. A  identifica&ccedil;&atilde;o do Participante no PROGRAMA VIAJE! ser&aacute; feita atrav&eacute;s do preenchimento  de seu n&uacute;mero de CPF/MF.</li>
+                    <li>7.3. <strong>No caso de n&atilde;o cumprimento deste  Regulamento por parte do Participante, a&nbsp;  CVC poder&aacute; suspender ou cancelar a respectiva conta do Participante no PROGRAMA  VIAJE!</strong> em car&aacute;ter tempor&aacute;rio (para verifica&ccedil;&atilde;o) ou em definitivo, como  tamb&eacute;m n&atilde;o mais aceitar que o infrator utilize os benef&iacute;cios oferecidos pelo PROGRAMA  VIAJE!.</li>
+                </ul>     
+            </li>
+            <li>
+                <strong>VIII. DISPOSI&Ccedil;&Otilde;ES FINAIS </strong>
+                <ul>
+                    <li>8.1. Ser&atilde;o  automaticamente exclu&iacute;dos do PROGRAMA VIAJE! os Participantes que tentarem  desrespeitar qualquer um dos itens deste Regulamento, ou ainda, utilizarem  quaisquer meios il&iacute;citos para obter beneficio pr&oacute;prio ou para terceiro, sem  preju&iacute;zo da propositura das medidas judiciais cab&iacute;veis. </li>
+                    <li>8.2. O  Participante autoriza desde j&aacute; o uso gratuito de seu nome em qualquer tipo de  m&iacute;dia, incluindo <em>internet</em>, e pe&ccedil;as  promocionais para fins de divulga&ccedil;&atilde;o de eventuais premia&ccedil;&otilde;es recebidas no  &acirc;mbito do PROGRAMA VIAJE!, sem qualquer &ocirc;nus para a CVC. </li>
+                    <li>8.3. Tendo  em vista as caracter&iacute;sticas inerentes ao ambiente da <em>Internet</em>, a CVC n&atilde;o garante o pleno funcionamento e acesso ao Website  de maneira ininterrupta. Ademais, a CVC n&atilde;o garante que o <em>Website</em> esteja livre de invas&otilde;es, interrup&ccedil;&otilde;es ou suspens&otilde;es. O  Participante reconhece e concorda que a CVC n&atilde;o poder&aacute; ser responsabilizada por  tais fatos e/ou atos, o mesmo ocorrendo em hip&oacute;teses de for&ccedil;a maior ou caso  fortuito. 
+                        <ul>
+                            <li>8.3.1. Em  raz&atilde;o do exposto no item anterior, na hip&oacute;tese de ocorr&ecirc;ncia de invas&otilde;es,  interrup&ccedil;&otilde;es ou suspens&otilde;es de qualquer g&ecirc;nero, durante o per&iacute;odo de vig&ecirc;ncia do  PROGRAMA VIAJE! ou eventual promo&ccedil;&atilde;o a ele vinculada, a CVC n&atilde;o ficar&aacute; obrigada  a prorrogar o prazo da promo&ccedil;&atilde;o, dando-se por finda no prazo originalmente  veiculado, salvo decis&atilde;o em contr&aacute;rio a exclusivo crit&eacute;rio da CVC.</li>
+                        </ul>
+                    </li>
+                    <li>8.3.2. O  Participante reconhece que dada &agrave;s caracter&iacute;sticas do PROGRAMA VIAJE! no  ambiente da <em>Internet</em>, terceiros de  m&aacute;-f&eacute; poder&atilde;o remotamente tentar utilizar-se de subterf&uacute;gios tecnol&oacute;gicos a fim  de terem acesso a dados pessoais do Participante ou a fraudar o PROGRAMA VIAJE!.  Diante disso, o Participante tamb&eacute;m reconhece que a CVC n&atilde;o poder&aacute; ser  responsabilizada pelos atos praticados por terceiros. </li>
+                    <li>8.3.3. A  CVC se reserva o direito de efetuar toda e qualquer a&ccedil;&atilde;o corretiva que se  aplique &agrave;s a&ccedil;&otilde;es de terceiros que venham a interferir no bom funcionamento do PROGRAMA  VIAJE!, como tamb&eacute;m se reserva o direito de efetuar an&aacute;lises peri&oacute;dicas,  baseadas em crit&eacute;rios objetivos apurados nos registros de participa&ccedil;&otilde;es dos  consumidores inscritos, hip&oacute;tese em que, se constatadas inconsist&ecirc;ncias,  fica-lhe facultado o direito de efetuar autom&aacute;tico bloqueio da respectiva  conta.</li>
+                    <li>8.4.&nbsp;No  caso de bloqueio ou impedimento de utiliza&ccedil;&atilde;o do <em>Website</em>, o Participante dever&aacute; manter todos os comprovantes dos  pagamentos relacionados aos Produtos Eleg&iacute;veis durante tal bloqueio ou  impedimento. Desse modo, o Participante, ap&oacute;s a cessa&ccedil;&atilde;o do bloqueio ou  impedimento, poder&aacute; solicitar o devido cr&eacute;dito dos Pontos correspondentes.
+                        <ul>
+                            <li>8.4.1. &nbsp; A  ocorr&ecirc;ncia de bloqueio n&atilde;o implica em cancelamento dos Pontos acumulados no  extrato do Participante, salvo o decurso do prazo de sua respectiva validade. </li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <strong>IX.&nbsp;REGISTRO</strong>
+                <ul>
+                    <p>9.1. O  presente Regulamento ser&aacute; registrado no Cart&oacute;rio de T&iacute;tulos e Documentos da  Comarca de Santo Andr&eacute;/SP, substituindo qualquer Regulamento anterior do  PROGRAMA VIAJE!</p>         
+                </ul>
+            </li>
+        </ul>
+    </div>
+    
+    
+    <p>Santo Andr&eacute;, 11 de fevereiro de 2014.</p>
+    <p><strong>CVC Brasil  Operadora e Ag&ecirc;ncia de Viagens S.A.</strong></p>
+  </div>
+</div>
+</div>
+<div id="footer-expansivel">
+  <div id="footer">
+    <div id="texto-legal"><strong style="color:#92288C">Atenção:</strong> Somente acumularão pontos as compras realizadas com o seu Cartão CVC nas lojas CVC ou em qualquer estabelecimento</div>
+    <div class="institucional">
+      <ul>
+        <li class="titulo"><span>Sobre o Programa</span>
+          <ul class="lista-servicos">
+            <li><a href="programa.html#acumule">Acumule Pontos</a></li>
+            <li><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+            <li><a href="regulamento.html">Regulamento</a></li>
+          </ul>
+        </li>
+      </ul>
+      </li>
+      </ul>
+      <ul class="ultimo">
+        <li class="titulo"><span>Tire suas dúvidas</span>
+          <ul class="lista-servicos">
+            <li><a href="perguntas-frequentes.html">Perguntas frequentes</a></li>
+            <li><a href="fale-conosco.html">Fale conosco</a></li>
+            
+             <li><a class="iframe" href="lojas-participantes.html">Lojas participantes</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+    <!-- Aqui entra o carrossel 
+			<div class="carrossel">
+				<ul id="slider1">
+					<li class="black-coffee"><a href="parceiros.html">Black Coffee</a></li>
+					<li class="abril"><a href="parceiros.html">Abril Assinaturas</a></li>
+					<li class="frango-assado"><a href="parceiros.html">Frango Assadj</a></li>
+					<li class="hertz"><a href="parceiros.html">Hertz</a></li>
+					<li class="le-postiche"><a href="parceiros.html">Le postiche</a></li>
+					<li class="saraiva"><a href="parceiros.html">Saraiva</a></li>
+					<li class="boticario"><a href="parceiros.html">O Boticario</a></li>
+					<li class="viena"><a href="parceiros.html">Viena</a></li>
+					<li class="viva"><a href="parceiros.html">Viva</a></li>
+			    </ul>
+		    </div>
+            -->
+    <div style="clear:both"></div>
+    <div class="rodape">
+      <ul>
+        <li><a href="http://www.programaviaje.com.br/eloyalty_ptb"> Consultar Pontos</a> | </li>
+        <li><a href="regulamento.html"> Regulamento </a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<div id="copyright">
+  <div class="container"><span>Powered by:</span>
+    <div class="logo-rodape"></div>
+    <span>&copy 2011-2014 Todos os direitos reservados. O Programa Viaje! é uma marca registrada pela CVC Brasil. <a class="cvc" href="http://www.cvc.com.br">www.cvc.com.br</a></span></div>
+</div>
+<!-- Google Tag Manager -->
+<noscript>
+<iframe src="//www.googletagmanager.com/ns.html?id=GTM-M8SJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe>
+</noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8SJ');</script> 
+<!-- End Google Tag Manager -->
+
+</body>
+</html>

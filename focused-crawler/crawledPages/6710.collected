@@ -1,0 +1,1772 @@
+title=Passagens Logitravel.com.br desde . As melhores passagens promocionais
+url=http://www.logitravel.com.br/passagens/
+html=
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="BR" lang="BR" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<title>Passagens Logitravel.com.br desde . As melhores passagens promocionais</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="description" content="Passagens promocionais de linhas a&#233;reas low cost e regulares para qualquer destino. Reservas online de passagens de avi&#227;o com o buscador de voos de Logitravel.com.br" />
+<meta name="keywords" content="voos, voo, passagens promocionais, reservas, passagens, linhas a&#233;reas,avi&#227;o, tarifas, low cost, passagens a&#233;reas, voos baratos, baixo custo, lowcost, internacionais, pesquisa de voos" />
+<meta name="title" content="Passagens Logitravel.com.br desde . As melhores passagens promocionais" />
+<meta http-equiv="title" content="Passagens Logitravel.com.br desde . As melhores passagens promocionais" />
+<meta property="fb:admins" content="100002031649350" />
+<link rel="alternate" hreflang="es-ES" href="http://www.logitravel.com/vuelos/"/>
+<link rel="alternate" hreflang="it-IT" href="http://www.logitravel.it/voli/"/>
+<link rel="alternate" hreflang="pt-PT" href="http://www.logitravel.pt/voos/"/>
+<link rel="alternate" hreflang="de-DE" href="http://www.logitravel.de/fluege/"/>
+<link rel="alternate" hreflang="en-GB" href="http://www.logitravel.co.uk/flights/"/>
+<link rel="alternate" hreflang="fi-FI" href="http://www.logitravel.fi/lennot/"/>
+
+<meta property="fb:app_id" content="355194851162502" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Expires" content="never" />
+<meta name="google" content="notranslate" />
+    <meta name="robots" content="index,follow" />
+
+<meta name='apple-itunes-app' content='app-id=820411473, affiliate-data=at=10lJDC&ct=SmartAppBanner&pt=492790, app-argument=logitravel://home/?sesion=' /><meta name='google-play-app' content='app-id=com.logitravel.logitravel' />
+
+    <link rel="canonical" href="http://www.logitravel.com.br/passagens/" />
+
+<link rel="shortcut icon" href="http://cdn.logitravel.com.br/logitravelbr/images/favicon.ico">
+<!--[if lt IE 9]>
+    <script src="http://cdn.logitravel.com.br/responsive/common/js/common/html5.js"></script>
+<![endif]-->
+<!-- Google Fonts -->
+
+    <link href="http://cdn.logitravel.com.br/responsive/assets/css/app/fonts.css?301120151333" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.com.br/responsive/assets/css/app/vendors.css?010620151748" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.com.br/responsive/assets/css/logitravel/main.css?220120160924" rel="stylesheet" type="text/css" />
+<!--[if lt IE 10]><link href="http://cdn.logitravel.com.br/responsive/assets/css/logitravel/ie-9-main.css?141020150938" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.com.br/responsive/assets/css/logitravel/br.css?100920151250" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]><link href="http://cdn.logitravel.com.br/responsive/common/css/bootstrap/ie-non-responsive.css?031220131704" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 9]><link href="http://cdn.logitravel.com.br/responsive/logitravelbr/css/style-ie-8.css?121220141054" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.com.br/responsive/assets/css/logitravel/flights.css?091120151140" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <script type="text/javascript">
+    var setCookie = function (cookieName, cookieValue, nDays) {
+        var today = new Date();
+        var expire = new Date();
+        if (nDays == null || nDays == 0) nDays = 1;
+        expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+        document.cookie = cookieName + '=' + cookieValue + ';expires=' + expire.toGMTString() + ';path=/';
+    }
+    var getCookie = function (name) {
+        var c_value = document.cookie
+        var c_start = c_value.indexOf(" " + name + "=");
+        if (c_start == -1) {
+            c_start = c_value.indexOf(name + "=");
+        }
+        if (c_start == -1) {
+            c_value = null;
+        } else {
+            c_start = c_value.indexOf("=", c_start) + 1;
+            var c_end = c_value.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = c_value.length;
+            }
+            c_value = (c_value.substring(c_start, c_end));
+        }
+        return c_value;
+    }
+    function enviapintado(idpixel, ok) {
+        $.ajax({
+            url: urlCierre + '/estadoPixel.ashx',
+            data: { codPixel: idpixel, estado: ok },
+            async: true
+        });
+    }
+
+</script>
+
+<script type="text/javascript">
+dataLayer=[{
+		product_id: "home", //ID del producto. Formato estandarizado: linea de negocio + codigo de producto
+		productName: "Home", //Nombre del producto
+		productURL: "", //Url del producto
+		productImgURL: "", //Imagen del producto
+		productDesc: "#productDesc#", //Descripcion del producto
+		productTypeName: "flight", //Tipo de producto. Formato estandarizado por linea de negocio
+		categoryItem1: "", //Primer item para categorizar
+		categoryItem2: "", //Segundo item para categorizar
+		categoryItem3: "", //Tercer item para categorizar
+		categoryItem4: "", //Cuarto item para categorizar
+		categoryItem5: "", //Quinto item para categorizar
+		categoryName: "flights", //Linea de negocio estandarizada
+		pageTypeName: "home", //Nombre de la pagina en el flujo de venta (estandarizado)
+		pageName: "br/Vuelos/Home", //Nombre semantico de la pagina Formato Google Analytics
+		webCode: "logitravelbr", //Codigo de aplicacion web
+		anuncio: "4308902", // Codigo de anuncio (interno)
+		userCode: "32557946849", //Codigo de usuario (interno)
+		customerID: "", //Codigo de cliente (interno)
+		localizador: "", //Localizador de la reserva (interno)
+		totalAmount: "0.00", //Precio con decimales y punto
+		currency: "", //Moneda de venta
+		revenue: "0.00", //Beneficio de la reserva con decimales y punto
+		numPeople: "0", //Suma del total de pasajeros
+		numAdults: "0", //No adultos
+		numKids: "0", //No ninos (no bebes)
+		numInfants: "0", //No bebes
+		numRooms: "0", //No habitaciones
+		productCity: "", //Ciudad del producto
+		productZone: "", //Zona del producto
+		productCountry: "", //Pais del producto
+		codDeparture: "", //Codigo de origen (aeropuerto/tren/puerto)
+		codArrival: "", //Codigo de destino (aeropuerto/tren/puerto)
+		checkInDMY: "01/01/0001", //Fecha inicio formato DD/MM/YYYY
+		checkOutDMY: "01/01/0001", //Fecha fin formato DD/MM/YYYY
+		numNights: "0", //No de noches
+		tduid: "", //Identificador partner Treadedoubler
+		tduid2: "", //Identificador partner Tradedoubler2
+		partnerID: "", //Identificador partner Zanox
+		externalID: "", //Identificador externaldID
+		ReviewStr: "name%3dlogitravelIT%26email%3djose.miguel%40logitravel.com", //Sring de verificacion
+		checksum: "v04c4ca4238a0b923820dcc509a6f75849b", //String para validacion TradeDoubler
+		deviceType: "desktop",
+		MD5Email: ""
+	}];
+</script>
+
+    <script type="text/javascript">
+var toolfactoryDataLayer = {"Page":{"SessionCode":"10a9aabc-e883-4a1a-94fb-b36f7c2bc5d7","LineOfBusiness":"Flights","ProductType":"Flight","PageTypeName":"Home","EventType":"Visit","WebCode":"logitravelbr","DeviceType":"Desktop","PageLayout":"Home","SeoUrl":"/passagens/","Language":"BR","wsFraude_ORG_ID":"logitravelprod10a9aabc-e883-4a1a-94fb-b36f7c2bc5d7","idFingerPrint":"k8vif92e","AgentCode":"","SessionValidated":"0"},"Product":{"Room1":"","Room2":"","Room3":"","MasterCampaignArray":""},"Client":{"UserCode":"32557946849","Customer":"","MD5Email":"","OriginAirportCode":"SAO","Source":{"SourceInternalCode":"","Id":"12","Name":"SEO"}},"Purchase":{}}
+</script>
+<script type="text/javascript">
+    "undefined"!=typeof dataLayer?dataLayer.push(toolfactoryDataLayer):dataLayer=[toolfactoryDataLayer];
+</script>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-5VBSX5" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>
+    var gtmLoaded;
+    if(!gtmLoaded){
+        gtmLoaded = true;
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-5VBSX5');
+    }
+</script>
+<!-- End Google Tag Manager -->
+
+    
+        <header class="header clearfix hidden-retina newHeader" id="newHeader">
+        <div class="container">
+    <section class="header-top">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-xl-3">
+                <div class="logo contEllipsis">
+                    <a href="http://www.logitravel.com.br/" title="Logitravel"><img src="http://cdn.logitravel.com.br/logitravelbr/images/permanentes/logo_positivo@2x.png" alt="Viagens" /></a>
+                    <h1 class="hidden-phone">Passagens</h1>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-8 col-xl-9">
+
+<div id="buscadorDesktop" class="buscadorDesktop boton-header ">
+    <label class="caption" for="textoIrA"></label>
+    <input type="text" 
+           aria-haspopup="true" 
+           aria-autocomplete="list" 
+           role="textbox" 
+           autocomplete="off" 
+           class="textoIrACab ui-autocomplete-input ac_input"
+           id="textoIrA" 
+           name="textoIrA" 
+           value="Ir para ..." 
+           onfocus="if ($(this).val() == 'Ir para ...') $(this).val('');"
+           onblur="if ($(this).val() == '') { $(this).val('Ir para ...'); $('#buscar').hide(); }">
+    <div class="styled-select">
+        <span class="selectorBuscador" id="selectorBuscador"></span>
+        <select id="selectLinea">
+        </select>
+    </div>
+</div>
+                        <div id="botonOrigenes" class="selectOrigen boton-header">
+                    <a href="#" data-toggle="modal">
+                        <span class="label-origen">Origem</span>
+                        <strong class="origen" id="originCity">S&#227;o Paulo  </strong>
+                    </a>
+                </div>
+
+                
+
+
+<div class="boton-header lastSearches">
+    <span id="LoadLastSearches">Buscas</span>
+    <div class="dropdown">
+        <div class="infoLastSearches">
+            <h3>&#218;ltimas buscas</h3>
+            <p>Salvamos aqui as buscas que realiza no nosso site, para que possa continuar de onde parou.</p>
+            <a href="/contents/LastSearch/Index" target="_parent">Ver todas as buscas</a>           
+        </div>
+        <div class="listLastSearches" id="listLastSearches">
+            <div id="waitHomeLastSearch" class="loader-ajax unbordered searches"><span>A carregar as suas buscas</span></div>
+        </div>
+    </div>
+</div>                <div id="userSesion" class="userSesion boton-header" data-message-call="False">
+        <span id="enlaceIniSesion" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+            <strong>Minha Conta</strong>
+        </span>
+    <ul id="user-menu" class="user-menu dropdown-menu">
+        <li>
+            <a id="enlacePerfil" class="enlacePerfil listedLink">
+                <i class="ico-user ico-lg"></i><span id="usuario" class="user">Meu Login</span>
+            </a>
+        </li>
+        <li>
+            <div class="separadorBottom"></div>
+            <a id="enlaceMensajes" class="enlaceMensajes">
+                <i class="icon-envelope icon-lg fa fa-envelope fa-lg"></i>
+                <span class="numMensajes" id="numMsg">0</span>Mensagens
+            </a>
+        </li>
+
+        <li>
+            <a class="enlaceMisReservas">
+                <i class="icon-suitcase icon-lg fa fa-suitcase fa-lg"></i>Minhas Reservas
+            </a>
+        </li>
+            <li>
+                <div class="separadorBottom"></div>
+                <a class="enlaceContacto listedLink" href="http://www.logitravel.com.br/contate-nos/">
+                    <span class="visible">Precisa de ajuda?</span>
+                    <i class="fa fa-phone fa-lg"></i>
+                    <span class="phoneNumber">4003 2496</span>
+                </a>
+            </li>
+    </ul>
+
+</div>
+
+                
+                
+    <div id="contactUs" class="contactUs boton-header">
+        <a class="phoneNum markerToolTip" data-phone="4003-2496" href="http://www.logitravel.com.br/contate-nos/" data-original-title="&lt;span class=&#39;title&#39;&gt;Assist&#234;ncia&lt;/span&gt;&lt;ul class=&#39;text-left&#39;&gt;&lt;li&gt;Hor&#225;rio comercial: De  Segunda a Sexta-feira  de 9 as  19hrs.&lt;/li&gt;&lt;li&gt;Erro na sua liga&#231;&#227;o telef&#243;nica: Caso esteja  ligando para o nosso n&#250;mero 4003-2496 de fora de uma regi&#227;o metropolitana, por favor indique o c&#243;digo de &#225;rea da regi&#227;o metropolitana mais pr&#243;xima.&lt;/li&gt;&lt;li&gt;Custos da liga&#231;&#227;o telef&#244;nica: Suas liga&#231;&#245;es telef&#244;nicas feitas atrav&#233;s do servi&#231;o 4003 ter&#227;o custos de liga&#231;&#245;es locais+impostos de acordo com  o Estado de origem da sua  liga&#231;&#227;o.   As liga&#231;&#245;es efetuadas de telefones celulares ter&#227;o o custo de liga&#231;&#227;o + imposto para celular de acordo com a operadora do celular.  Os custos ser&#227;o cobrados na sua conta telef&#244;nica.&lt;/li&gt;&lt;/ul&gt;" data-placement="bottom">4003-2496</a>
+    </div> 
+
+
+                
+                
+
+
+            </div>
+        </div>
+    </section>
+</div>
+        <nav class="navegacion hidden-phone hidden-xs">
+    <div class="container">
+        <ul class="nav navPrincipal">
+                <li class="dropdown masterTab">
+
+                    <a title="Todas as viagens" href="#" data-target="#"
+                       data-hover="dropdown" role="button" class="dropdown-toggle">
+                        <span class="icon-angle-down fa fa-angle-down masterIcon"></span>Todas as <strong>viagens</strong>
+                    </a>
+
+                    <ul class="dropdown-menu masterMenu hidden">
+                                <li>
+                                    <a title="Hot&#233;is baratos" href="http://www.logitravel.com.br/hoteis/"  data-menu-track="hoteles">
+                                        <span class="ico-hotel mr-10"></span>
+                                        Hot&#233;is
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a title="Cruzeiros" href="http://www.logitravel.com.br/cruzeiros/"  data-menu-track="cruceros">
+                                        <span class="ico-crucero mr-10"></span>
+                                        Cruzeiros
+                                    </a>
+                                    <ul class="dropdown-menu masterSubmenu">
+                                        <li class="tituloMenu"><span class="ico-crucero mr-10"></span>Cruzeiros</li>
+                                            <li>
+                                                <a title="Cruzeiros 2015/2016" href="http://www.logitravel.com.br/cruzeiros/cruzeiros-2015-2016-15941653.html"  data-menu-track="crucerosverano">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros 2015/2016
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Super ofertas em Cruzeiros " href="http://www.logitravel.com.br/cruzeiros/ofertas-6318437.html"  data-menu-track="crucerosofertas">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Ofertas Cruzeiros
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Cruzeiros Natal e R&#233;veillon" href="http://www.logitravel.com.br/cruzeiros/cruzeiros-natal-e-reveillon-10861774.html"  data-menu-track="cruceronavidad">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros Natal e R&#233;veillon
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Cruzeiros Carnaval" href="http://www.logitravel.com.br/cruzeiros/cruzeiros-carnaval-10861773.html"  data-menu-track="crucerocarnaval">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros Carnaval
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Cruzeiros Brasil" href="http://www.logitravel.com.br/cruzeiros/brasil-9568154.html"  data-menu-track="crucerosbrasil">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros Nacionais
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Cruzeiros Caribe" href="http://www.logitravel.com.br/cruzeiros/caribe-e-america-central-4120926.html"  data-menu-track="crucerocaribe">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros Caribe
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Cruzeiros internacionais" href="http://www.logitravel.com.br/cruzeiros/cruzeiros-internacionais-11498514.html"  data-menu-track="crucerosinternacionales">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros internacionais
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Cruzeiros Europa" href="http://www.logitravel.com.br/cruzeiros/cruzeiros-pela-europa-10756264.html"  data-menu-track="cruceroseuropa">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros Europa
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Cruzeiros de Luxo" href="http://www.logitravel.com.br/cruzeiros/cruzeiros-de-luxo-4225997.html"  data-menu-track="crucerolujo">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Cruzeiros de Luxo
+                                                </a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a title="Promo&#231;&#245;es e ofertas" href="http://www.logitravel.com.br/viagens-ofertas/"  data-menu-track="chollos">
+                                        <span class="ico-chollos mr-10"></span>
+                                        Ofertas
+                                    </a>
+                                </li>
+                    </ul>
+                </li>
+                            <li class="">
+                    <a title="Cruzeiros de Luxo"
+                       href="http://www.logitravel.com.br/cruzeiros/cruzeiros-de-luxo-4225997.html"  data-menu-track="cruceros_lujo">
+                        Cruzeiros de Luxo
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Cruzeiros baratos 2015/2016"
+                       href="http://www.logitravel.com.br/cruzeiros/cruzeiros-2015-2016-15941653.html"  data-menu-track="cruceros_2015-2016">
+                        Cruzeiros 2015/16
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Cruzeiros baratos"
+                       href="http://www.logitravel.com.br/cruzeiros/"  data-menu-track="cruceros">
+                        Cruzeiros
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Hot&#233;is baratos"
+                       href="http://www.logitravel.com.br/hoteis/"  data-menu-track="hoteles">
+                        Hot&#233;is
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Hot&#233;is baratos EUA"
+                       href="http://www.logitravel.com.br/hoteis/estados-unidos-3521853.html"  data-menu-track="hoteles_eeuu">
+                        Hot&#233;is EUA
+
+                    </a>
+                </li>
+                <li class="hidden-tablet hidden-sm">
+                    <a title="Promo&#231;&#245;es e ofertas"
+                       href="http://www.logitravel.com.br/viagens-ofertas/"  data-menu-track="chollos">
+                        Ofertas
+
+                    </a>
+                </li>
+                
+        </ul>
+        
+    </div>
+</nav>
+    </header>
+    
+<header id="mobile-header" class="mobile-header visible-retina">
+    <div id="btn-mobile" class="btn-mobile prueba"><i class="icon-reorder fa fa-reorder fa-bars"></i></div>
+    <div class="logo">
+        <a href="http://www.logitravel.com.br" title="Logitravel">
+            <img src="http://cdn.logitravel.com.br/logitravelbr/images/permanentes/logo_negativo@2x.png" alt="Viagens"/>
+        </a>
+    </div>
+
+    
+    <a id="btn-phoneMobile" class="btn-phoneMobile visible-xs" title="Ligar" href="tel:40032496"><i class="icon-phone fa fa-phone"></i></a>
+   
+    
+    <div id="btn-buscadorMobile" class="btn-buscadorMobile hidden-xs"><i class="icon-search fa fa-search"></i></div>
+    <div id="buscadorMobile" class="buscadorMobile scrollableSearch input-group">
+        <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" class="textoIrACabMobile m-0" id="textoIrAMobile" name="textoIrA"
+                value="Destino, cidade, hotel,..." 
+               onfocus="if ($(this).val() == 'Destino, cidade, hotel,...') $(this).val('');"
+                onblur="if ($(this).val() == '') { $(this).val('Destino, cidade, hotel,...'); $('#buscar').hide(); }">
+        <a id="clearSearch" class="input-group-addon transparent mr-10 mt-10 mt-xs-5">
+            <i class="icon-times icon-2x fa fa-times fa-2x"></i>
+        </a>
+    </div>
+</header>
+
+<div id="mobile-menu" class="mobile-menu visible-retina scrollable">
+    <div class="phoneMenuSection user-mobile-menu">
+        <div class="seccionMenuPhone">Perfil</div>
+            <div class="enlacePerfil" id="enlacePerfilMobile" data-toggle=" collapse" data-target="#user-details" data-parent=".user-mobile-menu">
+                <i class="ico-user ico-lg user-photo"></i>
+                <div class="user-info contellipsis"><span class="ellipsis"><strong class="user">Iniciar Sess&#227;o</strong></span></div>
+            </div>
+        
+        
+    </div>
+    <div class="phoneMenuSection originMenu selectOrigen">
+        <div class="seccionMenuPhone">
+            Origem
+        </div>
+        <ul class="nav mb-0">
+            <li><a href="#" data-toggle="modal"><i class="icon-plane icon-lg fa fa-plane fa-lg"></i>S&#227;o Paulo  </a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection masterMenu">
+        <div class="seccionMenuPhone">
+            Reserve agora...
+        </div>
+        <ul class="nav mb-0">
+                <li><a href="http://www.logitravel.com.br/hoteis/"  data-menu-track="hoteles" ><i class="ico-hotel"></i>Hot&#233;is</a></li>
+                <li><a href="http://www.logitravel.com.br/cruzeiros/"  data-menu-track="cruceros" ><i class="ico-crucero"></i>Cruzeiros</a></li>
+                <li><a href="http://www.logitravel.com.br/viagens-ofertas/"  data-menu-track="chollos" ><i class="ico-chollos"></i>Ofertas</a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection soporteMenu">
+        <div class="seccionMenuPhone">
+            Suporte...
+        </div>
+        <ul class="nav mb-0">
+            <li class="llamada visible-xs visible-sm">
+                <a id="llamar" href="tel:40032496" title="Ligar" class="boton boton-peque boton-azul pt-7 mt-3">
+                    <i class="icon-phone icon-lg fa fa-phone fa-lg blanco mr-5"></i>
+                    40032496</a>
+            </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection socialMenu">
+        <div class="seccionMenuPhone">
+           Social...
+        </div>
+        <ul class="nav mb-0">
+                        <li>
+                            <a href="https://www.facebook.com/logiviagens" title="Logitravel en Facebook" target="_blank"
+                               class="facebook">
+                                <span class="icon-facebook fa fa-facebook"></span>Facebook
+                            </a>
+                        </li>
+                    <li>
+                        <a href="http://twitter.com/logitravelBR" title="Logitravel en Twitter" target="_blank"
+                           class="twitter">
+                            <span class="icon-twitter fa fa-twitter"></span>Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+LogitravelBr/" title="Logitravel en Google+" target="_blank"
+                           class="google">
+                            <span class="icon-google-plus fa fa-google-plus"></span>Google+
+                        </a>
+                    </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection paisMenu">
+        <div class="seccionMenuPhone">Mudar pa&#237;s...</div>
+        <div id="cambioPais" class="enlaceIdioma collapsed" data-toggle="collapse" data-target="#user-idioma" data-parent=".paisMenu">
+            <span class="flagBR ml-10 mt-5 mr-20"></span>Brasil
+        </div>
+        <ul id="user-idioma" class="user-idioma collapse">
+                <li><a href="http://www.logitravel.es">
+                        <span class="flagES mt-15 ml-5 mr-20"></span>Espanha
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.pt">
+                        <span class="flagPT mt-15 ml-5 mr-20"></span>Portugal
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.it">
+                        <span class="flagIT mt-15 ml-5 mr-20"></span>Italia
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.de">
+                        <span class="flagDE mt-15 ml-5 mr-20"></span>Alemanha
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.fr">
+                        <span class="flagFR mt-15 ml-5 mr-20"></span>Fran&#231;a
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.co.uk">
+                        <span class="flagUK mt-15 ml-5 mr-20"></span>Reino Unido
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.fi">
+                        <span class="flagFI mt-15 ml-5 mr-20"></span>Finl&#226;ndia
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+    <div class="contenido">
+        
+        <div class="container clearfix">
+              <!--Nuevas Migas de Pan -->
+    <section class="migasPan conFondo hidden-phone hidden-xs" id="migaPan">
+        <ul>
+                    <li class="nivel1 contEllipsis">
+                        Passagens
+                    </li>
+                              <li><a title="Salvador" href="http://www.logitravel.com.br/passagens/passagens-salvador-3522022.html"  >Salvador</a></li>
+                  <li><a title="Recife" href="http://www.logitravel.com.br/passagens/passagens-recife-3521787.html"  >Recife</a></li>
+                  <li><a title="Porto Alegre" href="http://www.logitravel.com.br/passagens/passagens-porto-alegre-3521703.html"  >Porto Alegre</a></li>
+                  <li><a title="Santiago do Chile" href="http://www.logitravel.com.br/passagens/passagens-santiago-do-chile-3521893.html"  >Santiago do Chile</a></li>
+                  <li><a title="Rio de Janeiro" href="http://www.logitravel.com.br/passagens/passagens-rio-de-janeiro-3521812.html"  >Rio de Janeiro</a></li>
+                  <li><a title="Florian&#243;polis" href="http://www.logitravel.com.br/passagens/passagens-florianopolis-3521080.html"  >Florian&#243;polis</a></li>
+                  <li><a title="Fortaleza" href="http://www.logitravel.com.br/passagens/passagens-fortaleza-3521091.html"  >Fortaleza</a></li>
+                  <li><a title="Bras&#237;lia" href="http://www.logitravel.com.br/passagens/passagens-brasilia-3520865.html"  >Bras&#237;lia</a></li>
+                  <li><a title="Lisboa" href="http://www.logitravel.com.br/passagens/passagens-lisboa-3521356.html"  >Lisboa</a></li>
+                  <li><a title="Buenos Aires" href="http://www.logitravel.com.br/passagens/passagens-buenos-aires-3520871.html"  >Buenos Aires</a></li>
+                  <li><a title="La Paz" href="http://www.logitravel.com.br/passagens/passagens-la-paz-3521368.html"  >La Paz</a></li>
+                  <li><a title="Cochabamba" href="http://www.logitravel.com.br/passagens/passagens-cochabamba-3520895.html"  >Cochabamba</a></li>
+                  <li><a title="Natal" href="http://www.logitravel.com.br/passagens/passagens-natal-3521490.html"  >Natal</a></li>
+                  <li><a title="Curitiba" href="http://www.logitravel.com.br/passagens/passagens-curitiba-3520986.html"  >Curitiba</a></li>
+                  <li><a title="Macei&#243;" href="http://www.logitravel.com.br/passagens/passagens-maceio-3521411.html"  >Macei&#243;</a></li>
+            
+            
+            
+        </ul>
+    </section>
+
+            <section class="titPrincipal">
+    <h2 class="gris"><span class="hidden-xs-inline">As melhores ofertas de</span> <span class="principal bold">Passagens</span></h2>
+    <span class="txtGrande">Te oferecemos os melhores pre&#231;os combinando qualquer linha a&#233;rea. Finalize a sua reserva em s&#243; 3 cliques</span>
+</section>
+
+<div class="row">
+    <div class="col-md-6 col-sm-12">
+        <div class="contBuscadorVuelos box module cajaBuscador3">
+            <div class="buscadorVuelos">
+                <div class="p-15 p-xs-10 cont-visible">
+                    
+                    
+<div class="camposBuscadorVuelos" data-msg-required="Campo obrigat&#243;rio"
+     data-msg-minlength="M&#237;nimo 3 caracteres " data-msg-infant="O n&#250;mero de beb&#234;s n&#227;o pode ser superior ao de adultos" data-msg-checknumpaxes="N&#227;o pode indicar mais de 9 passageiros"
+     data-msg-equalfromto="A origem e o destino n&#227;o podem coincidir " data-text-translation='[&quot;Procurando as Passagens com melhores pre&#231;os&quot;,&quot;de&quot;,&quot;para&quot;,&quot;com sa&#237;da em&quot;,&quot;e regresso em&quot;,&quot;para&quot;,&quot;Adultos&quot;,&quot;Crian&#231;as&quot;,&quot;Beb&#234;s&quot;,&quot;e&quot;,&quot;Adulto&quot;,&quot;Crian&#231;a&quot;,&quot;Beb&#234;&quot;,&quot;Aplicando desconto de&quot;,&quot;Fam&#237;lia numerosa&quot;,&quot;Residente&quot;,&quot;Procurando o melhor pre&#231;o para a sua viagem&quot;]'>
+
+    <form action="/flightssaleprocess/availability" target="_top" method="get" class="fs-searchform-main relative" novalidate="novalidate">
+        <input type="hidden" name="spc" value="" />
+        <input type="hidden" name="ciaAerea" value="" />
+        <input type="hidden" name="ciasCon" value="" />
+        <input type="checkbox" name="vueloslowcost" value="on" checked="checked" class="hidden" />
+        <input type="hidden" name="hidOrigenSV" value="SAO" class="fs-searchform-main-hidden-origin" />
+        <input type="hidden" name="hidDestinoSV" class="fs-searchform-main-hidden-destination" />
+        <input type="hidden" name="searchTypeSV" data-init-value="RoundTrip" value="RoundTrip" class="fs-searchform-main-searchtype-selector invisible" />
+        
+        <div class="modoVuelo mb-5 mb-xs-0">
+            <div class="btn-group">
+                <button type="button" class="fs-searchform-main-return idaVuelta btn btn-default active">Ida e Volta</button>
+                <button type="button" class="fs-searchform-main-oneway soloIda btn btn-default">S&#243; Ida</button>
+                <button type="button" class="fs-searchform-main-multi multi btn btn-default">M&#250;ltiplos destinos</button>
+            </div>
+            <span class="hidden-xxs pull-right desactivado no-drop mt-10 txtMedio colorPrincipal pointer masTrayecto hidden"><i class="fa fa-plus mr-5"></i>Añadir trayecto</span>
+        </div>
+
+        <div class="controlMulti mt-15 mb-5 hidden">
+            <div class="row row-narrow">
+                <div class="col-xs-6">
+                    <span class="desactivado no-drop btn btn-primary btn-block txtMedio blanco pointer masTrayectoXS"><i class="fa fa-plus mr-5"></i>Añadir trayecto</span>
+                </div>
+                <div class="col-xs-6 text-right">
+                    <span class="btn btn-primary btn-block txtMedio blanco pointer menosTrayectoXS">Eliminar trayecto<i class="fa fa-minus ml-5"></i></span>
+                </div>
+            </div>
+        </div>
+
+        <fieldset class="fs-searchform-main-multiDestination hidden">
+            <legend class="hidden">M&#250;ltiplos destinos</legend>
+            <div class="camposMulti camposOrDes">
+                <input type="hidden" name="numeroDestinos" value="2" class="fs-searchform-main-hidden-numero-destinos" />
+
+                    <input type="hidden" name="hidOrigenSVMulti[0]" data-index="0" value="SAO" class="fs-searchform-main-hidden-origin-multi" />
+                    <input type="hidden" name="hidDestinoSVMulti[0]" data-index="0" value="" class="fs-searchform-main-hidden-destination-multi" />
+                    <div class="trayecto pb-7">
+                        <div class="row row-narrow">
+                            <div class="col-xxs-6 col-sm-4 col-md-4 col-xs-4 mt-10">
+                                <div class="input-group">
+                                    <input type="text" class="fs-searchform-main-origin-multi large pr-30 required" name="origenSVMulti[0]" data-index="0" placeholder="Origem" value="S&#227;o Paulo (SAO)">
+                                    <div class="input-group-addon transparent">
+                                        <span class="fs-searchform-main-planeOrigen-multi fa fa-plane fa-rotate-45 mt-5 mr-20" data-index="0"></span>
+                                        <span class="fs-searchform-main-equisOrigen-multi fa fa-times-circle hidden mt-5 mr-20" data-index="0"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxs-6 col-sm-4 col-md-4 col-xs-4 mt-10">
+                                <div class="input-group">
+                                    <input type="text" class="fs-searchform-main-destination-multi large pr-30" name="destinoSVMulti[0]" data-index="0" placeholder="Destino" value="">
+                                    <div class="input-group-addon transparent">
+                                        <span class="fs-searchform-main-planeDestination-multi fa fa-plane fa-rotate-225 mt-3" data-index="0"></span>
+                                        <span class="fs-searchform-main-equisDestination-multi fa fa-times-circle hidden mt-5 mr-20" data-index="0"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxs-12 col-xs-4 col-sm-4 col-md-4 mt-10">
+                                <div class="row row-narrow">
+                                    <div class="col-xxs-12 col-xs-10 col-sm-10 col-md-10 pr-sm-0 pr-lg-0">
+                                        <div class="input-group fs-dateinput-multi">
+                                            <a data-for="datePicker" data-rel="fs-searchform-multidate" data-index="0" class="hidden-xs hidden-sm input-group-addon transparent large">
+                                                <span class="fa fa-calendar"></span>
+                                            </a>
+                                            <a class="visible-xs visible-sm input-group-addon transparent large" data-toggle="modal" data-rel="multi" data-index="0">
+                                                <span class="fa fa-calendar"></span>
+                                            </a>
+                                            <input data-index="0" type="hidden" name="hidFechaMulti[0]" class="fs-searchform-main-multidate-hidden" value="31/01/2016" data-init-value="31/01/2016 0:00:00" />
+                                            <input data-index="0" type="hidden" class="fs-searchform-main-multidate hidden-xs large" readonly="readonly" />
+                                            <input data-index="0" type="hidden" class="fs-searchform-main-multidate-modal visible-xs large" readonly="readonly" data-toggle="modal" data-rel="multi" data-target=".fs-searchform-main-multi-flights-modal" />                                            
+                                            <input data-index="0" type="text" class="fs-searchform-main-multidate-ronly triggerCalendar hidden-xs hidden-sm pointer medium" name="fechaMulti[0]" data-format-date="dd/mm/yy" placeholder="" value="" readonly="readonly" />
+                                            <input data-index="0" type="text" class="fs-searchform-main-multidate-xs-ronly triggerCalendar visible-xs visible-sm pointer medium" name="fechaMultiModal[0]" data-format-date="dd/mm/yy" placeholder="" value="" readonly="readonly" />
+                                        </div>
+                                        <div class="fs-searchform-main-multi-flights-modal modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                        <span class="titularDestacado">Data de sa&#237;da</span>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <input type="hidden" name="hidOrigenSVMulti[1]" data-index="1" value="" class="fs-searchform-main-hidden-origin-multi" />
+                    <input type="hidden" name="hidDestinoSVMulti[1]" data-index="1" value="SAO" class="fs-searchform-main-hidden-destination-multi" />
+                    <div class="">
+                        <div class="row row-narrow">
+                            <div class="col-xxs-6 col-sm-4 col-md-4 col-xs-4 mt-10">
+                                <div class="input-group">
+                                    <input type="text" class="fs-searchform-main-origin-multi large pr-30 required" name="origenSVMulti[1]" data-index="1" placeholder="Origem" value="">
+                                    <div class="input-group-addon transparent">
+                                        <span class="fs-searchform-main-planeOrigen-multi fa fa-plane fa-rotate-45 mt-5 mr-20" data-index="1"></span>
+                                        <span class="fs-searchform-main-equisOrigen-multi fa fa-times-circle hidden mt-5 mr-20" data-index="1"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxs-6 col-sm-4 col-md-4 col-xs-4 mt-10">
+                                <div class="input-group">
+                                    <input type="text" class="fs-searchform-main-destination-multi large pr-30" name="destinoSVMulti[1]" data-index="1" placeholder="Destino" value="S&#227;o Paulo (SAO)">
+                                    <div class="input-group-addon transparent">
+                                        <span class="fs-searchform-main-planeDestination-multi fa fa-plane fa-rotate-225 mt-3" data-index="1"></span>
+                                        <span class="fs-searchform-main-equisDestination-multi fa fa-times-circle hidden mt-5 mr-20" data-index="1"></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xxs-12 col-xs-4 col-sm-4 col-md-4 mt-10">
+                                <div class="row row-narrow">
+                                    <div class="col-xxs-12 col-xs-10 col-sm-10 col-md-10 pr-sm-0 pr-lg-0">
+                                        <div class="input-group fs-dateinput-multi">
+                                            <a data-for="datePicker" data-rel="fs-searchform-multidate" data-index="1" class="hidden-xs hidden-sm input-group-addon transparent large">
+                                                <span class="fa fa-calendar"></span>
+                                            </a>
+                                            <a class="visible-xs visible-sm input-group-addon transparent large" data-toggle="modal" data-rel="multi" data-index="1">
+                                                <span class="fa fa-calendar"></span>
+                                            </a>
+                                            <input data-index="1" type="hidden" name="hidFechaMulti[1]" class="fs-searchform-main-multidate-hidden" value="31/01/2016" data-init-value="31/01/2016 0:00:00" />
+                                            <input data-index="1" type="hidden" class="fs-searchform-main-multidate hidden-xs large" readonly="readonly" />
+                                            <input data-index="1" type="hidden" class="fs-searchform-main-multidate-modal visible-xs large" readonly="readonly" data-toggle="modal" data-rel="multi" data-target=".fs-searchform-main-multi-flights-modal" />                                            
+                                            <input data-index="1" type="text" class="fs-searchform-main-multidate-ronly triggerCalendar hidden-xs hidden-sm pointer medium" name="fechaMulti[1]" data-format-date="dd/mm/yy" placeholder="" value="" readonly="readonly" />
+                                            <input data-index="1" type="text" class="fs-searchform-main-multidate-xs-ronly triggerCalendar visible-xs visible-sm pointer medium" name="fechaMultiModal[1]" data-format-date="dd/mm/yy" placeholder="" value="" readonly="readonly" />
+                                        </div>
+                                        <div class="fs-searchform-main-multi-flights-modal modal fade" tabindex="-1" role="dialog">
+                                            <div class="modal-dialog">
+                                                <div class="modal-content">
+                                                    <div class="modal-header">
+                                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                                        <span class="titularDestacado">Data de sa&#237;da</span>
+                                                    </div>
+                                                    <div class="modal-body">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </fieldset>
+
+        <fieldset class="fs-searchform-main-singleDestination mt-10 mt-xs-15">
+            <legend class="hidden">Origem</legend>
+            <div class="camposOrDes">
+                <div class="row row-narrow">
+                    <div class="col-sm-6 col-md-6 col-xs-6">
+                        <div class="input-group">
+                            <input type="text" class="fs-searchform-main-origin large pr-30" name="origenSV" placeholder="Origem" value="S&#227;o Paulo (SAO)" />
+                            <div class="input-group-addon transparent">
+                                <span class="fs-searchform-main-planeOrigen fa fa-plane fa-rotate-45 mt-5 mr-20"></span>
+                                <span class="fs-searchform-main-equisOrigen fa fa-times-circle hidden mt-5 mr-20"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-xs-6">
+                        <div class="input-group">
+                            <input type="text" class="fs-searchform-main-destination large pr-30" name="destinoSV" placeholder="Destino" value="" />
+                            <div class="input-group-addon transparent">
+                                <span class="fs-searchform-main-planeDestination fa fa-plane fa-rotate-225 mt-3"></span>
+                                <span class="fs-searchform-main-equisDestination fa fa-times-circle hidden mt-5 mr-20"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="camposFechas mt-10 mt-xs-15">
+                <div class="row row-narrow">
+                    <div class="col-sm-6 col-md-6 col-xs-6 ">
+                        <div class="input-group dateInput fs-dateinput-from">
+                            <a class="hidden-xs hidden-sm pt-10 input-group-addon transparent large" data-rel="fs-searchform-main-fromdate" data-for="datePicker">
+                                <span class="fa fa-calendar"></span>
+                            </a>
+                            <a class="visible-xs visible-sm pt-10 pt-xs-0 input-group-addon transparent" data-toggle="modal" data-rel="ida">
+                                <span class="visible-sm fa fa-calendar"></span>
+                                <span class="visible-xs"><span class="fa fa-calendar"></span> Ida</span>
+                            </a>
+                            <input type="hidden" name="fechaIdaSV" class="fs-searchform-main-fromdate-hidden" value="" data-init-value="31/01/2016 0:00:00" />
+                            <input type="text" class="fs-searchform-main-fromdate-ronly triggerCalendar hidden-xs hidden-sm pointer medium" readonly="readonly" />
+                            <input type="text" class="fs-searchform-main-fromdate-xs-ronly triggerCalendar visible-xs visible-sm pointer medium" readonly="readonly" />
+                            <input type="text" class="fs-searchform-main-fromdate hidden medium" name="fechaIda" placeholder="Data de sa&#237;da" value="" readonly="readonly" />
+                            <input type="text" class="fs-searchform-main-fromdate-modal hidden medium" name="fechaIdaModal" placeholder="" value="" readonly="readonly" data-toggle="modal" data-rel="ida" data-target=".fs-searchform-main-from-flights-modal" />
+                            <div class="dateLiteral pointer" data-rel="#fechaIda">
+                                <div class="numDateLiteral pull-left pt-7 pr-7">
+                                    <span class="txtGrande dayNumberLiteral"></span>
+                                </div>
+                                <div class="dayMonthDateLiteral pull-left">
+                                    <span class="txtMedio dayLabelLiteral"></span>
+                                    <br>
+                                    <span class="txtMedio monthLabelLiteral"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fs-searchform-main-from-flights-modal modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <span class="titularDestacado">Data de sa&#237;da</span>
+                                    </div>
+                                    <div class="modal-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-md-6 col-xs-6">
+                        <div class="input-group dateInput fs-dateinput-from">
+                            <a class="hidden-xs hidden-sm pt-10 input-group-addon transparent large" data-rel="fs-searchform-main-returndate" data-for="datePicker">
+                                <span class="fa fa-calendar"></span>
+                            </a>
+                            <a class="visible-sm visible-xs pt-10 pt-xs-0 input-group-addon transparent" data-toggle="modal" data-rel="vuelta">
+                                <span class="visible-sm fa fa-calendar"></span>
+                                <span class="visible-xs"><span class="fa fa-calendar"></span> Volta</span>
+                            </a>
+                            <input type="hidden" name="fechaVueltaSV" value="" class="fs-searchform-main-returndate-hidden" data-init-value="03/02/2016 0:00:00" />
+                            <input type="text" class="fs-searchform-main-returndate-ronly triggerCalendar hidden-xs hidden-sm pointer medium" readonly="readonly" />
+                            <input type="text" class="fs-searchform-main-returndate-xs-ronly triggerCalendar visible-xs visible-sm pointer medium" readonly="readonly" />
+                            <input type="text" class="fs-searchform-main-returndate hidden medium" name="fechaVuelta" placeholder="Data de retorno" value="" readonly="readonly" />
+                            <input type="text" class="fs-searchform-main-returndate-modal hidden medium" name="fechaVueltaModal" placeholder="" value="" readonly="readonly" data-toggle="modal" data-rel="vuelta" data-target=".fs-searchform-main-return-flights-modal" />
+                            <div class="dateLiteral pointer" data-rel="#fechaVuelta">
+                                <div class="numDateLiteral pull-left pt-7 pr-7">
+                                    <span class="txtGrande dayNumberLiteral"></span>
+                                </div>
+                                <div class="dayMonthDateLiteral pull-left">
+                                    <span class="txtMedio dayLabelLiteral"></span>
+                                    <br>
+                                    <span class="txtMedio monthLabelLiteral"></span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="fs-searchform-main-return-flights-modal modal fade" tabindex="-1" role="dialog">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                                        <span class="titularDestacado">Data de retorno</span>
+                                    </div>
+                                    <div class="modal-body">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </fieldset>
+
+
+        <fieldset class="mt-10 mt-xs-15">
+            <legend class="hidden"> Configura&#231;&#227;o passageiros</legend>
+            <div class="row row-narrow">
+                <div class="col-xs-4 ">
+                    <div class="styledSelectContainer inputFake">
+                        <label class="medium">(12+)</label>
+                        <div class="input-append">
+                            <input class="medium pointer" type="text" readonly="readonly" />
+                            <div class="input-group-addon transparent"><span class="fa fa-angle-down"></span><span class="fa fa-angle-up hidden"></span></div>
+                        </div>
+                        <select name="adultos" class="adultos medium fs-searchform-main-adults" data-init-value="1">
+                            <option value="1" data-rel="Adulto" selected="selected">1</option>
+                            <option value="2" data-rel="Adultos">2</option>
+                            <option value="3" data-rel="Adultos">3</option>
+                            <option value="4" data-rel="Adultos">4</option>
+                            <option value="5" data-rel="Adultos">5</option>
+                            <option value="6" data-rel="Adultos">6</option>
+                            <option value="7" data-rel="Adultos">7</option>
+                            <option value="8" data-rel="Adultos">8</option>
+                            <option value="9" data-rel="Adultos">9</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="styledSelectContainer inputFake">
+                        <label class="medium">(2-11)</label>
+                        <div class="input-append">
+                            <input class="medium pointer" type="text" readonly="readonly" />
+                            <div class="input-group-addon transparent">
+                                <span class="fa fa-angle-down"></span>
+                                <span class="fa fa-angle-up hidden"></span>
+                            </div>
+                        </div>
+                        <select name="ninos" class="ninos medium fs-searchform-main-children" data-init-value="0">
+                            <option value="0" data-rel="Crian&#231;as" selected="selected">0</option>
+                            <option value="1" data-rel="Crian&#231;a">1</option>
+                            <option value="2" data-rel="Crian&#231;as">2</option>
+                            <option value="3" data-rel="Crian&#231;as">3</option>
+                            <option value="4" data-rel="Crian&#231;as">4</option>
+                            <option value="5" data-rel="Crian&#231;as">5</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="styledSelectContainer inputFake">
+                        <label class="medium">(0-1)</label>
+                        <div class="input-append">
+                            <input class="medium pointer" type="text" readonly="readonly" />
+                            <div class="input-group-addon transparent"><span class="fa fa-angle-down"></span><span class="fa fa-angle-up hidden"></span></div>
+                        </div>
+                        <select name="bebes" class="bebes medium fs-searchform-main-babies" data-init-value="0">
+                            <option value="0" data-rel="Beb&#234;s" selected="selected">0</option>
+                            <option value="1" data-rel="Beb&#234;">1</option>
+                            <option value="2" data-rel="Beb&#234;s">2</option>
+                            <option value="3" data-rel="Beb&#234;s">3</option>
+                            <option value="4" data-rel="Beb&#234;s">4</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="textEdades mt-5"><span class="txtPeque">Assinale as idades no momento da viagem</span></div>
+        </fieldset>
+
+        <fieldset class="mt-10 mt-xs-15">
+            <legend class="hidden"></legend>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6">
+                    <div class="styledSelectContainer inputFake mb-10">
+                        <div class="input-append">
+                            <input class="medium pointer" type="text" placeholder="Todas as classes" readonly="readonly" />
+                            <div class="input-group-addon transparent">
+                                <span class="fa fa-angle-down"></span>
+                                <span class="fa fa-angle-up hidden"></span>
+                            </div>
+                        </div>
+                        <select name="clase" class="fs-searchform-main-class medium" tabindex="5" data-init-value="0">
+                            <option value="0" selected="selected">Todas as classes</option>
+                            <option value="1">Econ&#244;mica</option>
+                            <option value="4">Econ&#244;mica Plus</option>
+                            <option value="3">Business</option>
+                            <option value="2">Primeira Classe</option>
+                        </select>
+                    </div>
+
+
+                    <div class="styledSelectContainer invisible">
+                        <div class="row row-narrow">
+                            <div class="col-xs-11 col-sm-11 col-md-10">
+                                <div class="inputFake">
+                                    <div class="input-append">
+                                        <input class="medium pointer" type="text" placeholder="N&#227;o tenho descontos" readonly="readonly" />
+                                        <div class="input-group-addon transparent">
+                                            <span class="fa fa-angle-down"></span>
+                                            <span class="fa fa-angle-up hidden"></span>
+                                        </div>
+                                    </div>
+                                    <select name="descuentos" class="fs-searchform-main-discounts medium" data-init-value="0">
+                                        <option selected="selected" value="0">N&#227;o tenho descontos</option>
+                                        <option value="1">Residente nas ilhas, Ceuta ou Melilla</option>
+                                        <option value="2">Familia numerosa GERAL</option>
+                                        <option value="3">Fam&#237;lia numerosa ESPECIAL</option>
+                                        <option value="4">Residente + Familia numerosa GERAL</option>
+                                        <option value="5">Residente + Fam&#237;lia numerosa ESPECIAL</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-xs-1 col-sm-1 col-md-2 text-center pl-0 mt-5">
+                                        <div class="infoDescuentos">
+                                            <a href="#informacionDescuentosModal" data-toggle="modal">
+                                                <i class="fa fa-info-circle fa-2x colorPrincipal"></i>
+                                            </a>
+                                        </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-offset-1 col-sm-5 col-md-offset-1 col-md-5 ml-xs-0 pt-sm-10 pt-xs-15 contBotonBuscar">
+                    <a class="fs-mainform-flightssearch-button boton boton-grande btn-block boton-azul">Pesquisar</a>
+                    <a class="fs-mainform-packagesearch-button boton boton-peque btn-block boton-azul hidden hidden-xs">Pesquisar Passagem + Hotel</a>
+                </div>
+            </div>
+        </fieldset>
+    </form>
+    <form method="post" target="_top" action="http://www.logitravel.com.br/navegacion/paquete/dyn/calculaProducto.aspx" class="fs-searchform-package">
+        <input type="hidden" name="ciaAerea" value="" />
+        <input type="hidden" name="origenSV" value="" class="fs-searchform-package-origin" />
+        <input type="hidden" name="destinoSV" value="" class="fs-searchform-package-destination" />
+        <input type="hidden" name="residente" value="" class="fs-searchform-package-resident" />
+        <input type="hidden" name="SoloIdaSV" value="" />
+        <input type="hidden" name="fechaIdaSV" value="" class="fs-searchform-package-fromdate" />
+        <input type="hidden" name="fechaVueltaSV" value="" class="fs-searchform-package-returndate" />
+        <input type="hidden" name="MasHotel" value="1" />
+        <input type="hidden" name="MasCoche" value="" />
+        <input type="hidden" name="tipo" value="1" />
+        <input type="hidden" name="incluirTrenes" value="" />
+        <input type="hidden" name="proveedor" value="" />
+        <input type="hidden" name="codigoHotel" value="" />
+        <input type="hidden" name="vueloslowcost" value="1" />
+        <input type="hidden" name="PDnumHab" value="" class="fs-searchform-package-numrooms" />
+        <input type="hidden" name="PDnumPax0" value="2" />
+        <input type="hidden" name="PDnumPax1" value="2" />
+        <input type="hidden" name="PDnumPax2" value="0" />
+        <input type="hidden" name="PDnumPax3" value="0" />
+        <input type="hidden" name="PDadultos" value="2" class="fs-searchform-package-adults" />
+        <input type="hidden" name="PDninos" value="0" class="fs-searchform-package-children" />
+        <input type="hidden" name="PDbebes" value="0" class="fs-searchform-package-babies" />
+        <input type="hidden" name="PDnumAdu0" value="2" />
+        <input type="hidden" name="PDnumNin0" value="0" />
+        <input type="hidden" name="PDnumBeb0" value="0" />
+        <input type="hidden" name="PDnumAdu1" value="2" />
+        <input type="hidden" name="PDnumNin1" value="0" />
+        <input type="hidden" name="PDnumBeb1" value="0" />
+        <input type="hidden" name="PDnumAdu2" value="0" />
+        <input type="hidden" name="PDnumNin2" value="0" />
+        <input type="hidden" name="PDnumBeb2" value="0" />
+        <input type="hidden" name="PDnumAdu3" value="0" />
+        <input type="hidden" name="PDnumNin3" value="0" />
+        <input type="hidden" name="PDnumBeb3" value="0" />
+        <input type="hidden" name="PDhabMultiple" value="0" />
+        <input type="hidden" name="PDedad_0_1" value="30" />
+        <input type="hidden" name="PDedad_0_2" value="30" />
+        <input type="hidden" name="PDedad_0_3" value="30" />
+        <input type="hidden" name="PDedad_0_4" value="30" />
+        <input type="hidden" name="PDedad_0_5" value="30" />
+        <input type="hidden" name="PDedad_0_6" value="30" />
+        <input type="hidden" name="PDedad_1_1" value="30" />
+        <input type="hidden" name="PDedad_1_2" value="30" />
+        <input type="hidden" name="PDedad_1_3" value="30" />
+        <input type="hidden" name="PDedad_1_4" value="30" />
+        <input type="hidden" name="PDedad_1_5" value="30" />
+        <input type="hidden" name="PDedad_1_6" value="30" />
+        <input type="hidden" name="PDedad_2_1" value="30" />
+        <input type="hidden" name="PDedad_2_2" value="30" />
+        <input type="hidden" name="PDedad_2_3" value="30" />
+        <input type="hidden" name="PDedad_2_4" value="30" />
+        <input type="hidden" name="PDedad_2_5" value="30" />
+        <input type="hidden" name="PDedad_2_6" value="30" />
+        <input type="hidden" name="PDedad_3_1" value="30" />
+        <input type="hidden" name="PDedad_3_2" value="30" />
+        <input type="hidden" name="PDedad_3_3" value="30" />
+        <input type="hidden" name="PDedad_3_4" value="30" />
+        <input type="hidden" name="PDedad_3_5" value="30" />
+        <input type="hidden" name="PDedad_3_6" value="30" />
+    </form>
+</div>
+
+<div class="hidden">
+    <div class="p-3" id="data_1">
+        <div class="p-10 visible box">
+            <div class="pt-5 pb-10 row">
+                <div class="col-xs-12 col-sm-3 col-md-3 text-center">
+                    <img id="gifEspera_1" src="http://cdn.logitravel.com.br/logitravelbr/images/espera_vuelos.gif" alt="Procurando Voos" />
+                </div>
+                <div class="col-xs-12 col-sm-9 col-md-9 mt-15">
+                    <span class="tituloDestacado"></span><br />
+                    <span class="txtMedio"></span>
+                </div>
+            </div>
+                    <div class="p-10 hidden-xs" id="puedeInteresar">
+                        <div class="carousel carouselEspera slide">
+                            <div class="carousel-inner">
+                                        <div class="item active"><a href="http://www.logitravel.com.br/cruzeiros/" id="img_1_0" target="_blank"><div class="prop-28"><img src="http://cdn.logitravel.com.br/contenidosShared/banners/marca_22/linea_4/seccion_71/banner_3282.jpg?v=30032015170317" alt="#"></div></a></div>
+                            </div>
+                        </div>
+                    </div>
+
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="informacionDescuentosModal" tabindex="-1" data-keyboard="false" role="dialog"
+     aria-labelledby="informacionDescuentosModalLabel" aria-hidden="true">
+    <div id="informacionDescuentosModalLabel" class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <span class="titularDestacado">
+                    Informa&#231;&#227;o sobre os descontos
+                </span>
+            </div>
+            <div class="modal-body">
+                <div class="contInfoDEscuentosModal">
+                    <span class="titulo">
+                        Desconto por residente
+                    </span>
+                    <p>
+                        O desconto de residente &#233; aplic&#225;vel  aos cidad&#227;os espanh&#243;is e dos Estados membros da Uni&#227;o Europ&#233;ia e do espa&#231;o econ&#244;mico  (Noruega, Sui&#231;a, Isl&#226;ndia e Liechtenstein), que acreditem a condi&#231;&#227;o de residentes nas Ilhas Baleares, Ilhas Can&#225;rias ou Melilha. Se todos os passageiros n&#227;o podem acreditar a condi&#231;&#227;o de residente em Baleareas, Can&#225;rias, Ceuta ou Melilha, dever&#227;o realizar-se reservas por separado.
+                    </p>
+                    <br />
+                    <p>
+                        No caso dos residentes de Celta obter&#227;o descontos com passagens a&#233;reas quando tenham origem ou destino no aeroporto de M&#225;lago, Jerez ou Sevilha. Para isso dever&#227;o apresentar no momento do check in os bilhetes do barco/ferry/helic&#243;ptero em conex&#227;o desde Celta a Sevilha, M&#225;laga ou Jerez ou vice versa. A conex&#227;o entre ambos trajetos n&#227;o poder&#225; ter, de nenhuma maneira diferen&#231;a maior que 24 horas
+                    </p>
+                    <span class="titulo">
+                        Desconto por familia numerosa
+                    </span>
+                    <p>
+                        18 de dezembro de 2006 foi publicada a ordem ministerial fom/3837/2006 que estabelece a bonifica&#231;&#227;o das tarifas a&#233;res nacionais aos membros das familias numerosas tanto espanholas, u.e./E.e.e. como o resto das nacionalidades com resid&#234;ncia reconhecida em Espanha e estando de posse do t&#237;tulo de familia numerosa ou documento individual equivalente, em vigor, expedidos pela comunidade aut&#244;noma competente.
+                    </p>
+                    <br />
+                    <p>
+                        A bonifica&#231;&#227;o &#233; aplic&#225;vel, pr&#233;via peti&#231;&#227;o expressa do beneficiario, nas passagens a&#233;reas dom&#233;sticas que se emitam em Espanha para v&#244;os regulares e em todas as rotas dentro do territorio espanhol. Se aplica a todas as tarifas p&#250;blicas cujo valor facial apare&#231;a na passagem a&#233;rea, com a &#250;nica exce&#231;&#227;o das tarifas de clase business ( avant class), o desconto est&#225; limitado ao importe da bonifica&#231;&#227;o aplic&#225;vel &#224; tarifa em classe turista. 
+                    </p>
+                    <br />
+                    <p>
+                        As passagens a&#233;reas com direito a subven&#231;&#227;o por familia numerosa somente poder&#227;o ter trajetos nacionais.
+                    </p>
+                    <br />
+                    <p>
+                        Os membros das fam&#237;lias numerosas que tenham reconhecida oficialmente tal condi&#231;&#227;o, poder&#227;o beneficiar-se das seguintes redu&#231;&#245;es
+                    </p>
+                    <ul class="list-unstyled">
+                        <li>
+                            <span class="subtitulo">
+                                Familia numerosa GERAL
+                                :
+                            </span> <span class="txtMedio">
+                                Se aplica um 5% de desconto
+                            </span>
+                        </li>
+                        <li>
+                            <span class="subtitulo">
+                                Familia numerosa ESPECIAL
+                                :
+                            </span> <span class="txtMedio">
+                                Se aplica um 10% de desconto
+                            </span>
+                        </li>
+                    </ul>
+                    <div class="bg-palido p-15">
+                        <p>
+                            Lembre-se que o desconto por fam&#237;lia numerosa ser&#225; aplicado uma vez feita a reserva. O importe que o sr(a) v&#234; na web n&#227;o inclui o dito desconto. Desculpe o inc&#244;modo.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success pull-right" data-dismiss="modal">
+                    Aceitar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-6 col-sm-12">
+        
+        
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="module infoGeneralVuelos hidden-xs">
+    <ul class="nav nav-tabs new-tabs nav-justified tabs-horizontal large">
+
+<li class="active">
+    <a href="#" class="p-15" data-rel="#wrapperPest_linking">
+        <span class="iconoTab iconoTab-left ico-circuito ico-lg"></span>
+        <div class="textoTab">Links relacionadas</div>
+    </a>
+</li>
+<li class="">
+    <a href="#" class="p-15" data-rel="#wrapperPest_utilidades">
+        <span class="fa fa-lg fa-cog iconoTab iconoTab-left"></span>
+        <div class="textoTab">Utilidades</div>
+    </a>
+</li>
+<li class="">
+    <a href="#" class="p-15" data-rel="#wrapperPest_masOpciones">
+        <span class="fa fa-lg fa-plus iconoTab iconoTab-left"></span>
+        <div class="textoTab">Mais op&#231;&#245;es</div>
+    </a>
+</li>
+    </ul>
+    <div class="box unbordered">
+<div id="wrapperPest_linking" class="">
+    <div id="mapWorld" class="mapWorld module mb-0">
+    <div class="row">
+        <div class="col-md-7 col-lg-6 col-xs-12 mapImg">
+            <div id="map_world" class="map_world mt-10 mt-sm-0">
+                <div id="map_world_hp">
+                    <img id="imgWorldMap" alt="Voos ao redor de todo o mundo" usemap="#worldAreas" src="http://cdn.logitravel.com.br/comun/images/vuelos/maps/map-world.png">
+                            <div id="area_AM" class="region_map_america " title="America"></div>
+                            <div id="area_EU" class="region_map_europa hidden" title="Europa"></div>
+                            <div id="area_AS" class="region_map_asia hidden" title="&#193;sia"></div>
+                            <div id="area_OC" class="region_map_oceania hidden" title="Oce&#226;nia"></div>
+                            <div id="area_AF" class="region_map_africa hidden" title="Africa"></div>
+
+                </div>
+                <map id="worldAreas" name="worldAreas">
+                            
+                            <area class="pointer" shape="poly" data-map-zone="AM" coords="176,7,153,20,146,35,174,58,170,72,191,103,143,134,147,145,169,154,194,182,220,192,208,222,163,273,170,281,163,286,147,278,155,214,145,209,137,190,142,176,100,154,70,120,70,103,37,78,26,85,7,92,1,69,3,51,21,43,51,48,67,42,72,28,109,15,128,5,159,3,176,7" title="America">
+                            
+                            <area class="pointer" shape="poly" data-map-zone="EU" coords="154,22,177,8,216,1,256,10,246,22,237,52,268,74,287,62,293,50,309,44,320,45,316,52,320,69,314,75,314,82,334,98,328,105,338,116,339,120,326,126,305,124,300,119,294,124,289,119,272,119,267,124,256,124,255,109,267,109,251,92,261,72,251,65,239,69,220,58,203,78,191,73,182,56,155,28,154,22" title="Europa">
+                            
+                            <area class="pointer" shape="poly" data-map-zone="AS" coords="325,133,340,163,379,149,392,178,403,175,399,161,413,151,418,180,433,196,463,203,474,197,491,200,490,185,470,177,471,170,466,139,493,127,530,85,554,71,574,70,574,58,546,47,510,40,511,31,439,20,420,9,359,29,321,46,318,52,322,69,315,77,315,81,336,98,330,106,339,114,341,121,330,126,325,133" title="&#193;sia">
+                            
+                            <area class="pointer" shape="poly" data-map-zone="OC" coords="492,186,492,210,491,211,486,208,487,203,477,201,464,208,459,215,446,219,451,245,476,238,499,260,506,256,530,261,536,267,554,249,542,239,539,242,544,247,531,259,507,254,513,236,513,225,502,213,513,197,527,205,530,200,511,188,502,192,492,186" title="Oce&#226;nia">
+                            
+                            <area class="pointer" shape="poly" data-map-zone="AF" coords="259,125,241,146,243,164,256,180,275,176,290,202,287,211,298,243,313,241,328,223,344,227,351,208,348,200,335,206,334,192,345,180,354,164,350,163,339,165,321,132,302,127,299,132,289,128,291,125,287,121,271,121,267,125,259,125" title="Africa">
+
+                </map>
+            </div>
+        </div>
+        <div class="col-md-4 col-md-offset-1 col-lg-offset-1 col-lg-5 col-xs-12 mapMenu">
+            <ul id="menuContinentes" class="nav nav-tabs small tabsTransparent">
+<li class="active"><a href="#" data-rel="#wrapperPest_AM">America</a></li><li class=""><a href="#" data-rel="#wrapperPest_EU">Europa</a></li><li class=""><a href="#" data-rel="#wrapperPest_AS">&#193;sia</a></li><li class=""><a href="#" data-rel="#wrapperPest_OC">Oce&#226;nia</a></li><li class=""><a href="#" data-rel="#wrapperPest_AF">Africa</a></li>
+            </ul>
+            <div class="contListasHotelesPaises">
+<div id="wrapperPest_AM" class="pv-5 ">
+    <ul id="listaPaises_AM" class="listaPaises ul-table row list-unstyled pl-0">
+<li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-brasil-3520517.html" title="Passagens Brasil">Brasil</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-argentina-3520500.html" title="Passagens Argentina">Argentina</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-estados-unidos-3520673.html" title="Passagens Estados Unidos">Estados Unidos</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-chile-3520526.html" title="Passagens Chile">Chile</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-bolivia-3520516.html" title="Passagens Bol&#237;via">Bol&#237;via</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-cuba-3520531.html" title="Passagens Cuba">Cuba</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-mexico-3520614.html" title="Passagens M&#233;xico">M&#233;xico</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-republica-dominicana-3520539.html" title="Passagens Rep&#250;blica Dominicana">Rep&#250;blica Dominicana</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-colombia-3520529.html" title="Passagens Col&#244;mbia">Col&#244;mbia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-equador-3520541.html" title="Passagens Equador">Equador</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-uruguai-3520674.html" title="Passagens Uruguai">Uruguai</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-peru-3520628.html" title="Passagens Peru">Peru</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-guiana-francesa-3520555.html" title="Passagens Guiana Francesa">Guiana Francesa</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-canada-3520521.html" title="Passagens Canad&#225;">Canad&#225;</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-paraguai-3520638.html" title="Passagens Paraguai">Paraguai</a>
+</li>
+    </ul>
+    <div class="verMasCostas p-10">
+        <a class="txtMedio principal underline" href="http://www.logitravel.com.br/passagens/passagens-america-3520488.html">
+            Mais informa&#231;&#245;es de passagens para  America 
+        </a>
+    </div>
+</div><div id="wrapperPest_EU" class="pv-5 invisible">
+    <ul id="listaPaises_EU" class="listaPaises ul-table row list-unstyled pl-0">
+<li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-espanha-3520545.html" title="Passagens Espanha">Espanha</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-italia-3520579.html" title="Passagens It&#225;lia">It&#225;lia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-franca-3520550.html" title="Passagens Fran&#231;a">Fran&#231;a</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-alemanha-3520535.html" title="Passagens Alemanha">Alemanha</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-reino-unido-3520552.html" title="Passagens Reino Unido">Reino Unido</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-portugal-3520636.html" title="Passagens Portugal">Portugal</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-holanda-3520622.html" title="Passagens Holanda">Holanda</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-irlanda-3520573.html" title="Passagens Irlanda">Irlanda</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-turquia-3520666.html" title="Passagens Turquia">Turquia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-grecia-3520563.html" title="Passagens Gr&#233;cia">Gr&#233;cia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-suica-3520523.html" title="Passagens Su&#237;&#231;a">Su&#237;&#231;a</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-hungria-3520571.html" title="Passagens Hungria">Hungria</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-republica-checa-3520534.html" title="Passagens Rep&#250;blica Checa">Rep&#250;blica Checa</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-croacia-3520569.html" title="Passagens Cro&#225;cia">Cro&#225;cia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-dinamarca-3520537.html" title="Passagens Dinamarca">Dinamarca</a>
+</li>
+    </ul>
+    <div class="verMasCostas p-10">
+        <a class="txtMedio principal underline" href="http://www.logitravel.com.br/passagens/passagens-europa-3520490.html">
+            Mais informa&#231;&#245;es de passagens para  Europa 
+        </a>
+    </div>
+</div><div id="wrapperPest_AS" class="pv-5 invisible">
+    <ul id="listaPaises_AS" class="listaPaises ul-table row list-unstyled pl-0">
+<li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-tailandia-3520662.html" title="Passagens Tail&#226;ndia">Tail&#226;ndia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-singapura-3520650.html" title="Passagens Singapura">Singapura</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-libano-3520592.html" title="Passagens L&#237;bano">L&#237;bano</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-camboja-3520585.html" title="Passagens Camboja">Camboja</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-israel-3520574.html" title="Passagens Israel">Israel</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-malasia-3520615.html" title="Passagens Mal&#225;sia">Mal&#225;sia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-indonesia-3520572.html" title="Passagens Indon&#233;sia">Indon&#233;sia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-japao-3520582.html" title="Passagens Jap&#227;o">Jap&#227;o</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-madivas-3520612.html" title="Passagens Madivas">Madivas</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-coreia-do-sul-3520587.html" title="Passagens Cor&#233;ia do Sul">Cor&#233;ia do Sul</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-china-3520528.html" title="Passagens China">China</a>
+</li>
+    </ul>
+    <div class="verMasCostas p-10">
+        <a class="txtMedio principal underline" href="http://www.logitravel.com.br/passagens/passagens-asia-3520489.html">
+            Mais informa&#231;&#245;es de passagens para  &#193;sia 
+        </a>
+    </div>
+</div><div id="wrapperPest_OC" class="pv-5 invisible">
+    <ul id="listaPaises_OC" class="listaPaises ul-table row list-unstyled pl-0">
+<li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-australia-3520503.html" title="Passagens Austr&#225;lia">Austr&#225;lia</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-nova-zelandia-3520625.html" title="Passagens Nova Zel&#226;ndia">Nova Zel&#226;ndia</a>
+</li>
+    </ul>
+    <div class="verMasCostas p-10">
+        <a class="txtMedio principal underline" href="http://www.logitravel.com.br/passagens/passagens-oceania-3520491.html">
+            Mais informa&#231;&#245;es de passagens para  Oce&#226;nia 
+        </a>
+    </div>
+</div><div id="wrapperPest_AF" class="pv-5 invisible">
+    <ul id="listaPaises_AF" class="listaPaises ul-table row list-unstyled pl-0">
+<li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-marrocos-3520598.html" title="Passagens Marrocos">Marrocos</a>
+</li><li class="col-xs-4 contEllipsis txtMedio">
+    <a class="ellipsis" href="http://www.logitravel.com.br/passagens/passagens-cabo-verde-3520532.html" title="Passagens Cabo Verde">Cabo Verde</a>
+</li>
+    </ul>
+    <div class="verMasCostas p-10">
+        <a class="txtMedio principal underline" href="http://www.logitravel.com.br/passagens/passagens-africa-3520487.html">
+            Mais informa&#231;&#245;es de passagens para  Africa 
+        </a>
+    </div>
+</div>
+            </div>
+            <div class="ph-10">
+                <a class="txtMedio colorPrincipal underline" href="http://www.logitravel.com.br/passagens/passagens-promocionais-3551307.html">Ofertas de passagens baratas</a>
+            </div>
+        </div>
+    </div>
+</div>
+</div><div id="wrapperPest_utilidades" class="invisible">
+    <div class="utilidadesVuelos module text-center mb-0 hidden-xs">
+    <table class="table table-condensed">
+        <tr>
+
+<td>
+    <a href="#suscribirseNewsModal">
+        <div class="row p-5">
+            <div class="col-xs-3">
+                <span><i class="fa fa-envelope fa-7x grisMedio"></i></span>
+            </div>
+            <div class="col-xs-6 pt-20">
+                <span class="txtGrande">Inscreva-se na nossa newsletters</span>
+            </div>
+            <div class="col-xs-3 pt-20">
+                <span><i class="fa fa-chevron-right fa-3x grisMedio"></i></span>
+            </div>
+        </div>
+    </a>
+</td>
+<td>
+    <a href="http://www.logitravel.com.br/apps">
+        <div class="row p-5">
+            <div class="col-xs-3">
+                <span><i class="fa fa-mobile fa-7x grisMedio"></i></span>
+            </div>
+            <div class="col-xs-6 pt-20">
+                <span class="txtGrande">Baixe nosso App para iOS (iPhone, iPad) e Android</span>
+            </div>
+            <div class="col-xs-3 pt-20">
+                <span><i class="fa fa-chevron-right fa-3x grisMedio"></i></span>
+            </div>
+        </div>
+    </a>
+</td></tr><tr>
+<td>
+    <a href="/perguntas-frequentes/passagens a&#233;reas-12.html">
+        <div class="row p-5">
+            <div class="col-xs-3">
+                <span><i class="fa fa-comment fa-7x grisMedio"></i></span>
+            </div>
+            <div class="col-xs-6 pt-20">
+                <span class="txtGrande">Precisa de ajuda?</span>
+            </div>
+            <div class="col-xs-3 pt-20">
+                <span><i class="fa fa-chevron-right fa-3x grisMedio"></i></span>
+            </div>
+        </div>
+    </a>
+</td>
+<td>
+    <a href="http://www.logitravel.com.br/passagens/passagem-eletronica-3520483.html">
+        <div class="row p-5">
+            <div class="col-xs-3">
+                <span><i class="fa fa-ticket fa-7x grisMedio"></i></span>
+            </div>
+            <div class="col-xs-6 pt-20">
+                <span class="txtGrande">Aproveite as vantagens do bilhete eletr&#244;nico</span>
+            </div>
+            <div class="col-xs-3 pt-20">
+                <span><i class="fa fa-chevron-right fa-3x grisMedio"></i></span>
+            </div>
+        </div>
+    </a>
+</td></tr><tr>
+<td>
+    <a href="http://www.logitravel.com.br/passagens/auto-check-in-online-3520480.html">
+        <div class="row p-5">
+            <div class="col-xs-3">
+                <span><i class="fa fa-laptop fa-7x grisMedio"></i></span>
+            </div>
+            <div class="col-xs-6 pt-20">
+                <span class="txtGrande">Ganhe tempo com nosso Check-in Online</span>
+            </div>
+            <div class="col-xs-3 pt-20">
+                <span><i class="fa fa-chevron-right fa-3x grisMedio"></i></span>
+            </div>
+        </div>
+    </a>
+</td>
+<td>
+    <a href="http://www.logitravel.com.br/passagens/reconfirmacao-de-reservas-3520481.html">
+        <div class="row p-5">
+            <div class="col-xs-3">
+                <span><i class="fa fa-list-alt fa-7x grisMedio"></i></span>
+            </div>
+            <div class="col-xs-6 pt-20">
+                <span class="txtGrande">Reconfirme sua reserva e viaje tranquilo</span>
+            </div>
+            <div class="col-xs-3 pt-20">
+                <span><i class="fa fa-chevron-right fa-3x grisMedio"></i></span>
+            </div>
+        </div>
+    </a>
+</td>
+        </tr>
+    </table>
+</div>
+</div><div id="wrapperPest_masOpciones" class="invisible">
+    <section class="module masOpciones hidden-xs">
+    <div class="row">
+<div class="col-sm-4 col-md-4">
+    <div class="box pointer">
+        <div class="contFoto lazy-container prop-47 pointer" data-product-url="http://www.logitravel.com.br/carros/home-9538984.html">
+            <img class="lazy" alt="Aluguel de carros" src="http://cdn.logitravel.com.br/comun/images/shim.gif" data-original="http://cdn.logitravel.com.br/comun/images/lineas/coches_360x200.jpg" />
+            <noscript><img alt="Aluguel de carros" src="http://cdn.logitravel.com.br/comun/images/lineas/coches_360x200.jpg"></noscript>
+        </div>
+        <div class="contInfo pt-5 pb-5 pl-10 pr-10">
+            <h4><a href="http://www.logitravel.com.br/carros/home-9538984.html" title="Aluguel de carros">Aluguel de carros</a></h4>
+        </div>
+    </div>
+</div><div class="col-sm-4 col-md-4">
+    <div class="box pointer">
+        <div class="contFoto lazy-container prop-47 pointer" data-product-url="http://www.logitravel.com.br/hoteis/home-3521515.html">
+            <img class="lazy" alt="Est&#225; procurando um hotel?" src="http://cdn.logitravel.com.br/comun/images/shim.gif" data-original="http://cdn.logitravel.com.br/comun/images/lineas/hoteles_360x200.jpg" />
+            <noscript><img alt="Est&#225; procurando um hotel?" src="http://cdn.logitravel.com.br/comun/images/lineas/hoteles_360x200.jpg"></noscript>
+        </div>
+        <div class="contInfo pt-5 pb-5 pl-10 pr-10">
+            <h4><a href="http://www.logitravel.com.br/hoteis/home-3521515.html" title="Est&#225; procurando um hotel?">Est&#225; procurando um hotel?</a></h4>
+        </div>
+    </div>
+</div>
+    </div>
+</section>
+</div>
+    </div>
+</div>
+
+        </div>
+    </div>
+    <div class="modal modal-home fade xlg " id="modalRemoteLogin" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-login" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Voltar
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-home fade xlg " id="modalRemoteGeo" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-principal" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Voltar
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-home fade xlg " id="modalRemoteAirports" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal md fade full-width" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <div class="titularDestacado" id="titleModal"></div>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <span class="txtGrande normal visible text-left"><strong></strong> </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal lg fade" id="modal-createAnswhere" tabindex="-1" role="dialog" aria-labelledby="modal-createAnswhereLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                <h2 class="modal-title grisMedio" id="modal-FlightRatesLabel">Crea tu alerta</h2>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer class="">
+    <div class="container">
+        <!-- Links -->
+                <div class="wrapperLinks hidden-xs hidden-phone">
+                        <h6>Links</h6>
+                    <ul class="linksInfo unstyled list-unstyled">
+                                <li>
+                                    <a href="http://cdn.logitravel.com.br/logitravelbr/htm/br/avisoLegal.htm" title="Aviso Legal" target="_blank">Aviso Legal</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.com.br/logitravelbr/htm/br/privacidad.htm" title="Privacidade" target="_blank">Privacidade</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.com.br/logitravelbr/htm/br/seguridad.htm" title="Seguran&#231;a" target="_blank">Seguran&#231;a</a>
+                                </li>
+                                <li>
+                                    <a href="/contate-nos/" title="Contato" target="_blank">Contato</a>
+                                </li>
+                                <li>
+                                    <a href="/afiliados/home.aspx" title="Afiliados" target="_blank">Afiliados</a>
+                                </li>
+                                <li>
+                                    <a href="/quem-somos/home.aspx" title="Quem somos" target="_blank">Quem somos</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="wrapperComunidad hidden-xs hidden-phone">
+                        <h6>Comunidade e viagens</h6>
+                    <ul class="linksComunidad unstyled list-unstyled">
+                                <li>
+                                    <a href="/guias-de-viagens/" title="Guias de Viagens" target="_blank">Guias de Viagens</a>
+                                </li>
+                                <li>
+                                    <a href="/apps/" title="Aplicativos m&#243;veis" target="_blank">Aplicativos m&#243;veis</a>
+                                </li>
+                                <li>
+                                    <a href="/perguntas-frequentes/" title="Perguntas Frequentes" target="_blank">Perguntas Frequentes</a>
+                                </li>
+                                <li>
+                                    <a href="/hoteis/hoteis-baratos-5037211.html" title="Hot&#233;is baratos" target="_blank">Hot&#233;is baratos</a>
+                                </li>
+                                <li>
+                                    <a href="/hoteis/cadeias-hoteleiras-5014980.html" title="Redes Hoteleiras" target="_blank">Redes Hoteleiras</a>
+                                </li>
+                                <li>
+                                    <a href="/cruzeiros/fluviais-4223582.html" title="Cruzeiros fluviais" target="_blank">Cruzeiros fluviais</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="wrapperInternacional hidden-xs hidden-phone">
+                        <h6>Outros pa&#237;ses</h6>
+                    <ul class="linksInternacional unstyled list-unstyled">
+                                <li>
+                                    <span class="flagES"></span>
+                                
+                                    <a href="http://www.logitravel.es" title="Espanha" rel="nofollow" target="_blank">Espanha</a>
+                                </li>
+                                <li>
+                                    <span class="flagPT"></span>
+                                
+                                    <a href="http://www.logitravel.pt" title="Portugal" rel="nofollow" target="_blank">Portugal</a>
+                                </li>
+                                <li>
+                                    <span class="flagIT"></span>
+                                
+                                    <a href="http://www.logitravel.it" title="Italia" rel="nofollow" target="_blank">Italia</a>
+                                </li>
+                                <li>
+                                    <span class="flagDE"></span>
+                                
+                                    <a href="http://www.logitravel.de" title="Alemanha" rel="nofollow" target="_blank">Alemanha</a>
+                                </li>
+                                <li>
+                                    <span class="flagFR"></span>
+                                
+                                    <a href="http://www.logitravel.fr" title="Fran&#231;a" rel="nofollow" target="_blank">Fran&#231;a</a>
+                                </li>
+                                <li>
+                                    <span class="flagUK"></span>
+                                
+                                    <a href="http://www.logitravel.co.uk" title="Reino Unido" rel="nofollow" target="_blank">Reino Unido</a>
+                                </li>
+                                <li>
+                                    <span class="flagFI"></span>
+                                
+                                    <a href="http://www.logitravel.fi" title="Finl&#226;ndia" rel="nofollow" target="_blank">Finl&#226;ndia</a>
+                                </li>
+                    </ul>
+                </div>
+        <div class="wrapperComunication">
+    <div class="redesSociales hidden-phone hidden-xs">
+        <h6>Siga-nos nas Redes Sociais</h6>
+                    <a href="https://www.facebook.com/logiviagens" title="https://www.facebook.com/logiviagens" target="_blank" class="facebook"><i class="icon-facebook fa fa-facebook"></i></a>
+                <a href="http://twitter.com/logitravelBR" title="http://twitter.com/logitravelBR" target="_blank" class="twitter"><i class="icon-twitter fa fa-twitter"></i></a>
+                <a href="https://plus.google.com/b/111570082535986957085/111570082535986957085/posts" title="https://plus.google.com/b/111570082535986957085/111570082535986957085/posts" target="_blank" class="google"><i class="icon-google-plus fa fa-google-plus"></i></a>
+    </div>
+
+    <div class="callUsFooter ">
+        <h6>Central de Atendimento</h6>
+        <div>
+            <a class="phoneNumber phoneCall" data-phone="4003-2496" href="tel:+4003-2496">
+                <i class="icon-phone fa fa-phone mr-10 principal valignMiddle"></i>4003-2496
+            </a>
+        </div>
+
+    </div>
+    <div class="appGratis visible-xs visible-phone">
+        <h6>Baixe o nosso app gr&#225;tis:</h6>
+        <a href="https://itunes.apple.com/br/app/logitravel/id820411473" title="App da Logitravel para Iphone e Ipad"><i class="icon-apple fa fa-apple"></i></a>
+        <a href="https://play.google.com/store/apps/details?id=com.logitravel.logitravel&referrer=utm_source=footer&utm_medium=textlink&utm_campaign=FooterWeb" title="App da Logitravel para Android"><i class="icon-android fa fa-android"></i></a>
+    </div>
+</div>        <div class="legal">
+    <div class="copyRight">
+        <p>
+            Logitravel 
+Logitravel Viagens e Turismo Ltda. - Reg. Embratur 26.038016.10.0001-6 - Todos os direitos reservados        </p>
+    </div>
+</div>
+
+    </div>
+
+<div id="certificadosBR" class="hidden-phone hidden-xs">
+	<div class="container">
+
+
+		<div class="row-fluid row hidden-phone hidden-xs">
+																				</div>
+	</div>
+</div>
+    <div id="divPieVerif" class="divPieVerif hidden-phone hidden-xs hidden-sm hidden-tablet">
+        <!--POP-UP VERIFICACION VERISIGN -->
+        <img class="lazy" src="http://cdn.logitravel.com.br/comun/images/shim.gif" data-original="http://cdn.logitravel.com.br/logitravelbr/images2012/pieIconos.png"
+             alt="Footer" usemap="#Map_verisign" />
+        <map name="Map_verisign" id="Map_verisign">
+            <area shape="rect" coords="5,1,67,24" href="https://sealinfo.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=ssl.logitravel.com.br&lang=br"
+                  target="_blank" alt="Thawte" />
+        </map>
+    </div>
+</footer>
+
+    <script type="text/javascript" language="javascript" src="http://www.logitravel.com.br/flightsshowcase/common/javascript/configuration/globalsjs?application=logitravelbr"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/jquery/jquery.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/jquery/jqueryui.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/bootstrap/bootstrap.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/bootstrap/bootstrap-dropdown-hover.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/jquery/jquery.lazyload.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/onerror.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/channels/applicationchannels.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/modalremote.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/bindings.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/visuals.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/cookies.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/tracking.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/geolocation.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/hacks/detectmobilebrowser.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/hacks/placeholders-ie-lt9.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://www.logitravel.com.br/commoncomponents/globalsjs?application=logitravelbr"></script>
+<script type="text/javascript" language="javascript" src="http://autocomplete.logitravel.com/static/js/borg_jquery.js"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/topheader/gotopage.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/topheader/originselector.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/topheader/account.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/crossdomain.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/dynamicloader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/topheader/maintopheader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/topheader/menu.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/topheader/lastsearch.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/topheader/setlanguagecurrency.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/jquery/jquery.validate.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/jquery/jquery.fancybox.pack.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/fancybox.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/helpers/banners.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/jquery/calendar/calendar_br.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/flights/availability/communication.js?110120160830" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/flights/searcher/searchform.js?110120160830" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/flights/showcase/communication.js?110120160830" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/flights/showcase/showcase.js?110120160830" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/common/jquery/owl.carousel.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.com.br/resources/javascript/flights/components/map.js?110120160830" crossorigin="anonymous"></script>
+
+    <!-- Require JS 
+    <script src="https://ssl.logitravel.com/assets/vendors/requirejs/require.js" data-main="https://ssl.logitravel.com/assets/js/bootstrap.min.js"></script>
+        -->
+    <script type="text/javascript">
+        var aplicacion='logitravelbr';
+var dominioCDN='http://cdn.logitravel.com.br';
+var idioma='br';
+var _glPr='1';
+var geolocalizar=false;
+var urlCompletaAnu='http://www.logitravel.com.br';
+var entradaMedioOk='';
+var newHeaderActive='1';
+var GlobalValue='http://www.logitravel.com.br/operativalogi/';
+var toolfactory=toolfactory || {};
+toolfactory.Common=toolfactory.Common || {};
+toolfactory.Common.Helpers=toolfactory.Common.Helpers || {};
+toolfactory.Common.Helpers.Onerror=toolfactory.Common.Helpers.Onerror || {};
+toolfactory.Common.Helpers.Onerror.reportJavascriptEnabled=false;
+toolfactory.Common.Helpers.Onerror.reportControllerUrl='http://www.logitravel.com.br/flightsshowcase';
+
+var cookie='tokenlogitravelbr';
+var messageExpires=60000;
+var usuarioWebCookie='32557946849';
+var pathAccount='https://api.logitravel.com/account';
+var sessionCode='10a9aabc-e883-4a1a-94fb-b36f7c2bc5d7';
+var sesion='10a9aabc-e883-4a1a-94fb-b36f7c2bc5d7';
+var withoutMessages='Não tem novas mensagens ';
+var urlHTTPS='https://ssl.logitravel.com.br';
+var litMessage='Mensagens';
+var litUnRead='Não lidas';
+var litMessageFrom='Mensagens do';
+var litMessageTo='ao';
+var litAllMessages='Ver todas minhas mensagens';
+var urlOperativa='http://www.logitravel.com.br/operativaLogi';
+var litMisBusquedas='Minhas últimas buscas...';
+var SearchExpires='300000';
+var idioma='br';
+var USW_codigo='32557946849';
+var litSinBusqueda='Você não realizou nenhuma busca';
+var litBuscando='Buscando';
+var GoogleAnalytics='UA-19523063-1';
+
+
+
+var paramsAnuncio='';
+
+
+
+
+    </script>
+</body>
+
+<!-- Version: Toolfactory.Flights.Web.Showcase, 17/12/2014 8:30:11 -->
+</html>

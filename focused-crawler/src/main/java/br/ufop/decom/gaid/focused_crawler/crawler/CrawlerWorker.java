@@ -37,7 +37,7 @@ public class CrawlerWorker extends WebCrawler {
 			urlTerms.addAll(contentTerms);
 		}
 
-		this.similarityMetric = new CosineSimilarity(genreTerms, contentTerms, urlTerms, 0.7, 0.3, 0.8, 0.2,
+		this.similarityMetric = new CosineSimilarity(genreTerms, contentTerms, urlTerms, 0.3, 0.7, 0.8, 0.2,
 				CrawlerController.threshold);
 	}
 

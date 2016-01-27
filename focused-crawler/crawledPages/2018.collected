@@ -1,0 +1,196 @@
+title=Canvas Webhouse
+url=http://canvas.com.br/
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="oGOhhzzEQWSAEplhP6gIEHhD7rDDIFYADD34PM1_k8s" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Canvas Webhouse</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/estrutura.css" rel="stylesheet" type="text/css" />
+<link href="css/geral.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="css/bxSlider.css" rel="stylesheet" type="text/css" />
+<link href="css/sliding-boxes.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="css/mosaic_home.css" type="text/css" media="screen" />
+
+
+<link rel="stylesheet" href="font/stylesheet.css" type="text/css" charset="utf-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/mosaic.1.0.1.min.js"></script>
+<script type="text/javascript">  
+			
+			$(document).ready(function($){
+
+				$('.bar2').mosaic({
+					animation	:	'slide'		//fade or slide
+				});
+				
+
+		    });
+
+</script>
+
+
+<!-- box destaque -->
+<script src="/js/funcoes.js" type="text/javascript"></script>
+<!-- box destaque -->
+
+<!-- bxSlider -->
+<script src="http://code.jquery.com/jquery-latest.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://jqueryjs.googlecode.com/files/jquery-1.3.1.js"></script>
+<script src="js/jquery.bxSlider.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+
+  $(function(){
+	  $('#slider1').bxSlider({
+	    mode: 'vertical',
+	    pager: false
+	  });
+	});
+
+</script>
+
+</head>
+
+<body>
+
+
+<div id="container">
+	<div id="header">
+    <a name="topo"></a>
+    <div class="logo_mobile">
+        <!--<img src="../imgs/canvas_logo.giv" width="425" height="75" alt="canvas" title="canvas">-->
+    </div>
+    
+    <div id="logo">
+    <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" name="logo_canvas" width="500" height="105" align="middle" id="logo_canvas">
+	<param name="allowScriptAccess" value="sameDomain" />
+	<param name="allowFullScreen" value="false" />
+	<param name="movie" value="imgs/logo_canvas.swf" /><param name="quality" value="high" />
+	<param name="wmode" value="transparent">	
+	<embed src="imgs/logo_canvas.swf" width="500" height="105" align="middle" quality="high" wmode="transparent" name="logo_canvas" allowScriptAccess="sameDomain" allowFullScreen="false" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" />
+	</object>
+    </div>
+
+        <div id="tel_email">
+        	<p><span>canvas@canvas.com.br</span></p>
+        </div>
+        
+    </div>
+	<div id="content">
+        <div id="latEsq">
+        	<ul id="menu">
+            	<li><a class="home" href="index.html">HOME</a></li>
+                <li><a class="clientes" href="clientes_portfolio.html">CLIENTES &amp; PORTF&Oacute;LIO</a></li>
+                <li><a class="expertise" href="expertise.html">EXPERTISE</a></li>
+                <li><a class="contatos"  href="contato.html">CONTATOS</a></li>
+                <!--<li><a class="blog"  href="blog.html">BLOG</a></li>-->
+            </ul>
+            <div id="social_media"> 
+                <a href="http://www.flickr.com/photos/canvascombr" title="Nosso portf&oacute;lio"  target="_blank"><img src="imgs/media_flikr.gif" width="36" height="35" alt="Flickr"></a>
+                <a http:"//twitter.com/canvascombr" title="@canvascombr"  target="_blank"><img src="imgs/media_twitter.gif" width="36" height="35" alt="Twitter"></a>
+                <a href="http://www.facebook.com/canvaswebhouse" title="Participe!"  target="_blank"><img src="imgs/media_facebook.gif" width="36" height="35" alt="Facebook"></a>
+            </div>
+        </div>
+        <div id="latDir">
+        	<!--<div id="webdoor_home"><img src="imgs/home/destaques/principal.png"></div>-->
+            <div id="slider1">
+              <div><a href="#"><img src="imgs/home/destaques/destaque_shrek.png" width="700" height="325"></a></div>
+              <div><a href="#"><img src="imgs/home/destaques/destaque_globo.png" width="700" height="325"></a></div>
+              <div><a href="#"><img src="imgs/home/destaques/destaque_guadalajara.png" width="700" height="325"></a></div>
+            </div>            
+			
+            <div id="dest_home">
+            
+                    
+                    
+                        <!--<a href="/" target="_self" title="Destaque 1">-->
+                           <img src="imgs/home/destaques/box1.png" alt="Vale" />
+                        <!--</a>-->
+                    
+                        <!--<a href="/" target="_self" title="Destaque 2">-->
+                           <img src="imgs/home/destaques/box2.png" alt="Rede Globo" />
+                        <!--</a>-->
+                    
+                        <!--<a href="/" target="_self" title="Destaque 3">-->
+                           <img src="imgs/home/destaques/box3.png" style="margin-right:0px;" alt="Guadalajara 2011"/>
+                        <!--</a>-->
+                    
+
+            </div>
+            
+            <p>Inaugurada em 1997, quando a internet ainda estava engatinhando no Brasil, a Canvas conquistou espa&ccedil;o no mercado mostrando que a criatividade &eacute; o diferencial presente em todos os nossos servi&ccedil;os e produtos.</p>
+            <p>N&atilde;o nos consideramos apenas uma ag&ecirc;ncia interativa. Pensamos em <a href="#">estrat&eacute;gia</a>, <a href="#">conte&uacute;do</a>, <a href="#">cria&ccedil;&atilde;o</a> e <a href="#">tecnologia</a> de forma integrada - sincronizando canais, equipes e p&uacute;blico externo em torno de um mesmo objetivo.</p>
+            <p>No final, a experi&ecirc;ncia do usu&aacute;rio &eacute; o que vale. &Eacute; com foco nela que desenhamos todas as nossas <a href="#">pe&ccedil;as</a> e <a href="#">servi&ccedil;os</a>.</p>
+        </div>
+    </div>
+</div>
+	<div id="footer">
+  <div id="footer_cont">
+            <div class="det_footer">
+            <p class="frase"><span>Prouldly powered by ourselves</span></p>
+            <!--<p class="numero">+55 21 <span>2245.9248</span></p>-->
+            </div>
+            
+            <hr /> 
+                    
+                <div class="container_footer"> 
+                   
+                    <div class="float">
+                    <ul>
+                        <li>HOME</li>
+                        <li class="clientes">CLIENTES &amp; PORTF&Oacute;LIO
+                            <ul>
+                                <li>Cria&ccedil;&atilde;o&nbsp;&middot;</li>
+                                <li>Tecnologia&nbsp;&nbsp;&nbsp;</li>
+                                <li>Estrat&eacute;gia	&nbsp;&middot;</li>
+                                <li>Conte&uacute;do&nbsp;&nbsp;&nbsp;</li>
+                                <li>Corporativo</li>
+                            </ul>
+                        </li>
+                        <li>CONTATOS</li>
+                        <li>BLOG</li>
+                    </ul>
+                    </div>
+                    
+                    <div class="float">
+                    <!--<ul>
+                        <li>SIGA-NOS
+                            <ul>
+                                <li><img src="imgs/footer/facebook.png" width="19" height="19" alt="Facebook">&nbsp;FACEBOOK</li>
+                                <li><img src="imgs/footer/twitter.png" width="19" height="19" alt="Twitter">&nbsp;TWITTER</li>
+                                <li><img src="imgs/footer/flickr.png" width="19" height="19" alt="Flickr">&nbsp;FLICKR</li>
+                                <li><img src="imgs/footer/delicious.png" width="19" height="19" alt="Delicious">&nbsp;DELICIOUS</li>
+                            </ul>
+                         </li>   
+                    </ul>-->
+            </div>
+                    
+                    <div class="float">
+                    <ul>
+                        <li>ENDERE&Ccedil;O
+                            <p class="footer_endereco">
+                                Rua do Catete, 311 / cobertura 09<br />
+                                Flamengo - Rio do Janeiro - RJ<br />
+                                CEP 22220-901 - Brasil
+                            </p>
+                        </li>
+                    </ul>
+          </div>
+        
+                    <div class="float">
+                    	<img src="imgs/footer/mapa.gif" width="233" height="116" alt="Mapa">
+                    </div>
+                 
+                 </div>   
+                    
+            <hr /> 
+			<p class="footer_assinatura left">Pol&iacute;ticas de privacidade &#8226; Termos de Uso</p>
+      		<p class="footer_assinatura right">&copy; 2011 Canvas Webhouse. Todos os direitos reservados. All rights reserved.</p>
+    	</div>
+    </div>
+</body>
+</html>

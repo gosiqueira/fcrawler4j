@@ -1,0 +1,771 @@
+title=Musée d'Orsay: Home
+url=http://www.musee-orsay.fr/en/home.html
+html=<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?xml version="1.0" encoding="utf-8"?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<!-- 
+	This website is powered by TYPO3 - inspiring people to share!
+	TYPO3 is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.
+	TYPO3 is copyright 1998-2006 of Kasper Skaarhoj. Extensions are copyright of their respective owners.
+	Information and contribution at http://typo3.com/ and http://typo3.org/
+-->
+
+	<base href="http://www.musee-orsay.fr/" />
+	<link rel="stylesheet" type="text/css" href="typo3temp/stylesheet_91d08d742a.css" />
+	<link rel="stylesheet" type="text/css" href="typo3conf/ext/de_simplecalendar/tx_desimplecalendar_stylesheet.css" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/orsay.css" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/orsayhome2.css" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/rte_01.css" />
+	<link rel="stylesheet" type="text/css" href="fileadmin/templates/jquery.cookiebar.css" />
+<style type="text/css"> .yesscript { display:none;} </style>  
+  <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+  <script language="javascript" type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.4/jquery-ui.min.js"></script>
+  <script>window.jQuery || document.write('<script src="fileadmin/templates/scripts/home2/jquery-1.4.2.js"><\/script>')</script>
+  <script language="javascript" type="text/javascript" src="fileadmin/templates/scripts/home2/jquery.jcarousel.min.js"></script>
+  <script language="javascript" type="text/javascript" src="fileadmin/templates/scripts/home2/jquery_mousewheel.js"></script>
+  <script language="javascript" type="text/javascript" src="fileadmin/templates/scripts/home2/jScrollPane_min.js"></script>
+  <script language="javascript" type="text/javascript" src="fileadmin/templates/scripts/home2/scripts.js"></script>
+  
+  <script type="text/javascript" src="fileadmin/templates/scripts/jquery.cookiebar.js"></script>
+  
+
+
+  
+  <script type="text/javascript">  document.write('<style>.noscript { display:none ;} </style>'); </script>
+  <script type="text/javascript">  document.write('<style>.yesscript { display:block;} </style>'); </script><style type="text/css">#cookie-bar a {background:url(typo3temp/GB/bafeb1c378.gif) no-repeat; background-position: 0px 3px; padding-left: 10px;}</style>
+	<title>Musée d'Orsay: Home</title>
+	<meta name="generator" content="TYPO3 4.0 CMS" />
+	<script type="text/javascript" src="typo3temp/javascript_757c080409.js"></script>
+
+
+<script type="text/javascript">
+				$(document).ready(function () {
+					jQuery.cookieBar({
+					message:'<p class=\"bodytext\">By continuing your visit to this site, you accept the use of cookies to offer you customized services and offers.&nbsp; <a href=\"en/info/public-administrative-establishment/legal-information/cookies.html\" target=\"_top\" >Read more ...</a></p>',
+					acceptOnContinue: false,
+					acceptButton : true,
+					acceptText: '<img src="fileadmin/templates/img/cross.gif">',
+					declineButton : false,
+					append : true,
+					fixed : true,
+					bottom : true,
+					zindex : '90'
+				});
+			});</script>
+
+</head>
+<body>
+
+
+	<div id="site-accueil">
+		<div class="accueil-partie-haute"><!--TYPO3SEARCH_begin-->
+	<!--  CONTENT ELEMENT, uid:47419/list [begin] -->
+		<a id="c47419"></a>
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "klee_home2_header", plugin "tx_kleehome2header_pi1"
+
+	-->
+	<div class="tx-kleehome2header-pi1">
+		<div class="accueil-partie-haute">
+	<div class="accueil-carousel-haut"><img src="typo3conf/ext/klee_home2_header//tmp_img/random_img.php" alt="Welcome to the Musée d'Orsay" /></div>
+	<div class="accueil-menus-nivo1">
+		<ul>
+			
+			<li class="bloc1"><a href="en/events/now-on.html" >Events</a>
+				<div class="accueil-menus-nivo2 yesscript">
+					<ul>
+						
+						<li><a href="en/events/towards-the-nouvel-orsay.html" >Towards the Nouvel Orsay</a></li>
+						
+						<li><a href="en/events/now-on.html" >Now on</a></li>
+						
+						<li><a href="en/events/exhibitions/in-the-musee-dorsay.html" >Exhibitions</a></li>
+						
+						<li><a href="en/events/lectures.html" >Lectures</a></li>
+						
+						<li><a href="en/events/symposia.html" >Symposia</a></li>
+						
+						<li><a href="en/events/concerts.html" >Concerts</a></li>
+						
+						<li><a href="en/events/cinema.html" >Cinema</a></li>
+						
+						<li><a href="en/events/shows.html" >Shows</a></li>
+						
+						<li><a href="en/events/other-events.html" >Other events</a></li>
+						
+					</ul>
+				</div>
+			</li>
+			
+			<li class="bloc2"><a href="en/collections/overview.html" >Collections</a>
+				<div class="accueil-menus-nivo2 yesscript">
+					<ul>
+						
+						<li><a href="en/collections/overview.html" >Overview</a></li>
+						
+						<li><a href="en/collections/history-of-the-museum/home.html" >History of the museum</a></li>
+						
+						<li><a href="en/collections/history-of-the-collections/home.html" >History of the collections</a></li>
+						
+						<li><a href="en/collections/discovery.html" >Discovery</a></li>
+						
+						<li><a href="en/collections/works-in-focus/home.html" >Works in focus</a></li>
+						
+						<li><a href="en/collections/acquisitions/did-you-know.html" >Acquisitions</a></li>
+						
+						<li><a href="en/collections/index-of-works/home.html" >Index of works</a></li>
+						
+						<li><a href="en/collections/publications/print-catalogue.html" >Publications</a></li>
+						
+					</ul>
+				</div>
+			</li>
+			
+			<li class="bloc3"><a href="en/visit/welcome.html" >Visit</a>
+				<div class="accueil-menus-nivo2 yesscript">
+					<ul>
+						
+						<li><a href="en/visit/welcome.html" >Welcome</a></li>
+						
+						<li><a href="en/visit/access.html" >Access</a></li>
+						
+						<li><a href="en/visit/opening-hours/opening-hours.html" >Opening hours</a></li>
+						
+						<li><a href="en/visit/admission/admission-fees.html" >Admission</a></li>
+						
+						<li><a href="en/visit/membership/home.html" >Membership</a></li>
+						
+						<li><a href="en/visit/individuals/home.html" >Individuals</a></li>
+						
+						<li><a href="en/visit/groups/home.html" >Groups</a></li>
+						
+						<li><a href="en/visit/auditorium/home.html" >Auditorium</a></li>
+						
+						<li><a href="en/visit/services/home.html" >Services</a></li>
+						
+					</ul>
+				</div>
+			</li>
+			
+		</ul>
+	</div>
+	<div class="accueil-logo"><a href="en/home.html" target="_top" ><img src="fileadmin/templates/img/home2/logo.png" width="126" height="206" border="0" alt="" title="" /></a></div>
+	<div class="nom-musee">
+		<span class="musee1"><a href="en/home.html" target="_top" ><img src="fileadmin/templates/img/home2/titre_musee.png" width="208" height="32" border="0" alt="" title="" /></a></span>
+		<span class="musee2"><a href="http://www.musee-orangerie.fr/" target="_blank" ><img src="fileadmin/templates/img/home2/stitre_musee.png" width="181" height="18" border="0" alt="" title="" /></a></span>
+	</div>
+	<div class="lien-mecene">
+		<span class="mecene1"><a href="en/info/contact-us/support-us.html" target="_top" ><img src="fileadmin/templates/img/home2/lien_mecenes_en.png" width="197" height="20" border="0" alt="" title="" /></a></span>
+	</div>
+</div>
+
+	</div>
+	
+	<!-- END: Content of extension "klee_home2_header", plugin "tx_kleehome2header_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47419/list [end] -->
+		<!--TYPO3SEARCH_end--></div>
+		
+		<div class="accueil-colcentrale">
+	<!--  CONTENT ELEMENT, uid:47445/list [begin] -->
+		<a id="c47445"></a>
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "klee_caroussel", plugin "tx_kleecaroussel_pi1"
+
+	-->
+	<div class="tx-kleecaroussel-pi1">
+		<div class="accueil-carousel-centre carousel-type-1">
+	<div class="accueil-carousel-rubrique">
+		
+			<a href="en/events/now-on.html" target="_self" class="accueil-carousel-rubrique-carre" >
+				<span class="accueil-carousel-rubrique-carre-inner">Current and forthcoming events</span>
+			</a>
+            <div class="accueil-carousel-rubrique-lien">
+                <a href="en/events/now-on.html">
+                    
+                </a>
+            </div>
+	</div>
+	<div class="carousel-simple-centre" style="display:block; position:relative;">
+		
+			<ul style="left:0; margin:0; overflow:hidden; padding:0; position:relative; top:0; width:705px;">
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="http://www.musee-orsay.fr/en/events/exhibitions/in-the-musee-dorsay/exhibitions-in-the-musee-dorsay/article/le-douanier-rousseau-43250.html?tx_ttnews%5BbackPid%5D=254&amp;cHash=8bcb86c2cd" target="_self" >
+                    <img src="typo3temp/pics/79e6c51c4b.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Exhibition in the Musée d'Orsay</em><br /><strong>The Douanier Rousseau</strong><br />22 March - 17 July 2016</p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="http://www.musee-orsay.fr/en/events/concerts/music/article/cest-tout-satie-43116.html?tx_ttnews%5BbackPid%5D=219&amp;cHash=bb92e44bc1" target="_self" >
+                    <img src="typo3temp/pics/2be9cfbdba.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Concerts in the Musée d'Orsay</em><br /><strong>It's all Satie</strong><br />2 February - 29 March 2016</p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="http://www.musee-orsay.fr/en/events/concerts/music/article/desirs-de-lorient-43118.html?tx_ttnews%5BbackPid%5D=219&amp;cHash=c1f94c098a" target="_self" >
+                    <img src="typo3temp/pics/952b72eba5.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Concerts in the Musée d'Orsay</em><br /><strong>Oriental Desires</strong><br />22 March - 31 May 2016</p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="http://www.musee-orsay.fr/en/events/concerts/music/article/les-lunchtime-43112.html?tx_ttnews%5BbackPid%5D=219&amp;cHash=6ef895cf01" target="_self" >
+                    <img src="typo3temp/pics/0a279346d0.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Concerts in the Musée d'Orsay</em><br /><strong>The Lunchtimes</strong><br />13 October 2015 - 31 May 2016</p></span>
+                    </a>
+
+				</li>
+				
+			</ul>
+		<a href="en/home.html?no_cache=1&caroussel=4388&slide=2" class="noscript jcarousel-noscript-prev"></a>
+		<a href="en/home.html?no_cache=1&caroussel=4388&slide=4" class="noscript jcarousel-noscript-next"></a>
+	</div>
+	<div class="clear"></div>
+</div>
+	</div>
+	
+	<!-- END: Content of extension "klee_caroussel", plugin "tx_kleecaroussel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47445/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47439/list [begin] -->
+		<a id="c47439"></a>
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "klee_caroussel", plugin "tx_kleecaroussel_pi1"
+
+	-->
+	<div class="tx-kleecaroussel-pi1">
+		<div class="accueil-carousel-centre carousel-type-2">
+	<div class="accueil-carousel-rubrique">
+		
+			<a href="en/collections/overview.html" target="_self" class="accueil-carousel-rubrique-carre" >
+				<span class="accueil-carousel-rubrique-carre-inner">Museum and permanent collections</span>
+			</a>
+            <div class="accueil-carousel-rubrique-lien">
+                <a href="en/collections/overview.html">
+                    
+                </a>
+            </div>
+	</div>
+	<div class="carousel-simple-centre" style="display:block; position:relative;">
+		
+			<ul style="left:0; margin:0; overflow:hidden; padding:0; position:relative; top:0; width:705px;">
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/history-of-the-museum/home.html" target="_self" >
+                    <img src="typo3temp/pics/ead1ac46a9.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>History of the museum</em><br /><strong>A train station, a museum</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/overview/actualites/ambiguities-room.html" target="_self" >
+                    <img src="typo3temp/pics/8fb717c6d7.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Room Ambiguities</em><br /><strong>To the arts, citizens!</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/graphic-arts-displays.html" target="_self" >
+                    <img src="typo3temp/pics/c7446d0dfc.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Graphic Arts</em><br /><strong>Steinlen and Boudin</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/architecture-display.html" target="_self" >
+                    <img src="typo3temp/pics/a5e884be1e.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Architecture</em><br /><strong>A history of water, Hôtel de Ville</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/overview/actualites/the-museum-in-motion.html" target="_self" >
+                    <img src="fileadmin/mediatheque/integration_MO/SallesLuxembourg_Accueil.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>The Museum in motiont</em><br /><strong>The latest news about our displays</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/pavillon-amont/the-amont-pavilion.html" target="_self" >
+                    <img src="typo3temp/pics/e8fd3bfc02.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Nouvel Orsay</em><br /><strong>Amont Pavilion</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/discovery.html" target="_self" >
+                    <img src="fileadmin/mediatheque/integration_MO/Accueil_2010/Carousel/Decouverte_Accueil2010.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Discover the collections</em><br /><strong>Discovery</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/works-in-focus/home.html" target="_self" >
+                    <img src="fileadmin/mediatheque/integration_MO/Accueil_2010/Carousel/Daumier_Amateurs_Accueil_2010.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Discover the collections</em><br /><strong>Works in focus</strong></p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="http://www.musee-orangerie.fr" target="_self" >
+                    <img src="fileadmin/mediatheque/integration_MO/Accueil_2010/Carousel/Orangerie_7_Accueil2010.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext"><em>Web site</em><br /><strong>Musée de l'Orangerie</strong></p></span>
+                    </a>
+
+				</li>
+				
+			</ul>
+		<a href="en/home.html?no_cache=1&caroussel=4387&slide=2" class="noscript jcarousel-noscript-prev"></a>
+		<a href="en/home.html?no_cache=1&caroussel=4387&slide=9" class="noscript jcarousel-noscript-next"></a>
+	</div>
+	<div class="clear"></div>
+</div>
+	</div>
+	
+	<!-- END: Content of extension "klee_caroussel", plugin "tx_kleecaroussel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47439/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47435/list [begin] -->
+		<a id="c47435"></a>
+		<!--  Plugin inserted: [begin] -->
+			
+
+
+	<!--
+
+		BEGIN: Content of extension "klee_caroussel", plugin "tx_kleecaroussel_pi1"
+
+	-->
+	<div class="tx-kleecaroussel-pi1">
+		<div class="accueil-carousel-centre carousel-type-3">
+	<div class="accueil-carousel-rubrique">
+		
+			<a href="en/visit/welcome.html" target="_self" class="accueil-carousel-rubrique-carre" >
+				<span class="accueil-carousel-rubrique-carre-inner">Prepare your visit</span>
+			</a>
+            <div class="accueil-carousel-rubrique-lien">
+                <a href="en/visit/welcome.html">
+                    <p class="bodytext"><a href="en/visit/welcome.html" target="_top" >Practical information</a></p>
+                </a>
+            </div>
+	</div>
+	<div class="carousel-simple-centre" style="display:block; position:relative;">
+		
+			<ul style="left:0; margin:0; overflow:hidden; padding:0; position:relative; top:0; width:705px;">
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/visit/welcome.html" target="_self" >
+                    <img src="typo3temp/pics/9b06511fd9.jpg" width="165" height="164" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">Please note</p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/visit/membership/home.html" target="_self" >
+                    <img src="fileadmin/mediatheque/integration_MO/Accueil_2010/Carousel/Carre-pageaccueilCBVdef.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">Membership</p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/visit/admission/ticket-purchase.html" target="_self" >
+                    <img src="fileadmin/mediatheque/integration_MO/Accueil_2010/Carousel/Billet_Accueil2010.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">Print your ticket</p></span>
+                    </a>
+
+				</li>
+				
+				<li class=" " style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/info/museum-shop.html?no_cache=1" target="_self" >
+                    <img src="typo3temp/pics/69d037fab2.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">Online shop</p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/visit/services/home.html" target="_self" >
+                    <img src="fileadmin/mediatheque/Entetes/a_laffiche/Aff_audioguides.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">Services</p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="en/collections/publications/print-catalogue.html" target="_self" >
+                    <img src="typo3temp/pics/c7bf62dab0.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">Publications</p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="http://www.googleartproject.com/fr/collection/musee-dorsay-paris/" target="_blank" >
+                    <img src="fileadmin/mediatheque/integration_MO/Accueil_2010/Carousel/GooglArtProject_Accueil.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">The museum on Google Art Project</p></span>
+                    </a>
+
+				</li>
+				
+				<li class="yesscript" style="float:left; list-style:none outside none; margin-right:10px;">
+
+					<a href="http://www.musee-orsay.fr/en/collections/publications/productions-multi/notice-production/production_id/musee-dorsay-4537.html?cHash=844e64b2d0" target="_self" >
+                    <img src="typo3temp/pics/1a2ec09d73.jpg" width="165" height="165" border="0" alt="" title="" />
+					<span class="accueil-carousel-desc"><p class="bodytext">The Musée d'Orsay application on your mobile</p></span>
+                    </a>
+
+				</li>
+				
+			</ul>
+		<a href="en/home.html?no_cache=1&caroussel=4386&slide=2" class="noscript jcarousel-noscript-prev"></a>
+		<a href="en/home.html?no_cache=1&caroussel=4386&slide=8" class="noscript jcarousel-noscript-next"></a>
+	</div>
+	<div class="clear"></div>
+</div>
+	</div>
+	
+	<!-- END: Content of extension "klee_caroussel", plugin "tx_kleecaroussel_pi1" -->
+
+	
+		<!--  Plugin inserted: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47435/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47432/list [begin] -->
+		<a id="c47432"></a>
+		<!--  Plugin inserted: [begin] -->
+			
+	<div class="accueil-agenda">
+		<div class="accueil-agenda-titre">Calendar <div class="accueil-agenda-acces"><a href="en/tools/calendar.html" >> Access the calendar</a></div></div>
+		<div class="accueil-agenda-contenu">
+			<div class="accueil-agenda-contenu-col1"><div class='datecal'>
+		<div class='caljourstr'>TUESDAY</div>
+		<div class='caljournum'>26</div>
+		<div class='calmois'>JANUARY</div>
+		<div class='calannee'>2016</div>
+		</div><div id="calendrier" class="calendrier"><form action='en/tools/calendar.html' method='post' name='formcalendar'><input type='hidden' name='no_cache' value='1' /><input type='hidden' name='tx_ttnews[tx_pids]' value='' size='2' /><input type='hidden' name='tx_ttnews[tx_publics]' value='' size='2' /></form><table cellspacing="0" cellpadding="0" width="100%" summary="Calendrier des evenements">
+		<caption class="hidden">Calendrier des evenements : JANUARY 2016</caption>
+		<thead>
+		<tr><th></th>
+
+		<th colspan="5" class="mois">JANUARY 2016</th>
+		<th><a href="en/tools/calendar.html?tx_ttnews%5Bdu_hr%5D=1%2F2%2F2016&cHash=87ab7ce24b" title="February 2016"><img src="fileadmin/templates/img/calend_suiv.gif" border="0" alt="February 2016" /></a></th>
+		</tr>
+		<tr  class="header">
+		<th scope="col"><acronym title="lundi">M</acronym></th>
+		<th scope="col"><acronym title="mardi">T</acronym></th>
+		<th scope="col"><acronym title="mercredi">W</acronym></th>
+		<th scope="col"><acronym title="jeudi">T</acronym></th>
+		<th scope="col"><acronym title="vendredi">F</acronym></th>
+		<th scope="col"><acronym title="samedi">S</acronym></th>
+		<th scope="col"><acronym title="dimanche">S</acronym></th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr class="cal_content">
+		<td class='cal_empty'></td><td class='cal_empty'></td><td class='cal_empty'></td><td class='cal_empty'></td><td align='center' >1</td><td align='center' >2</td><td align='center' >3</td></tr><tr class='cal_content'>
+<td align='center' >4</td><td align='center' >5</td><td align='center' >6</td><td align='center' >7</td><td align='center' >8</td><td align='center' >9</td><td align='center' >10</td></tr><tr class='cal_content'>
+<td align='center' >11</td><td align='center' >12</td><td align='center' >13</td><td align='center' >14</td><td align='center' >15</td><td align='center' >16</td><td align='center' >17</td></tr><tr class='cal_content'>
+<td align='center' >18</td><td align='center' >19</td><td align='center' >20</td><td align='center' >21</td><td align='center' >22</td><td align='center' >23</td><td align='center' >24</td></tr><tr class='cal_content'>
+<td align='center' >25</td><td align='center' class='activedate'><a href='en/tools/calendar.html?tx_ttnews%5Bdu_hr%5D=26%2F01%2F2016&cHash=002602eb3f' >26</a></td><td align='center' ><a href='en/tools/calendar.html?tx_ttnews%5Bdu_hr%5D=27%2F01%2F2016&cHash=341217cd28' >27</a></td><td align='center' ><a href='en/tools/calendar.html?tx_ttnews%5Bdu_hr%5D=28%2F01%2F2016&cHash=85a8f70641' >28</a></td><td align='center' ><a href='en/tools/calendar.html?tx_ttnews%5Bdu_hr%5D=29%2F01%2F2016&cHash=e1b1b1460c' >29</a></td><td align='center' ><a href='en/tools/calendar.html?tx_ttnews%5Bdu_hr%5D=30%2F01%2F2016&cHash=3990f2a61e' >30</a></td><td align='center' ><a href='en/tools/calendar.html?tx_ttnews%5Bdu_hr%5D=31%2F01%2F2016&cHash=3f8df1be39' >31</a></td></tr><tr class='cal_content'>
+<td  class='cal_empty'></td>
+<td  class='cal_empty'></td>
+<td  class='cal_empty'></td>
+<td  class='cal_empty'></td>
+<td  class='cal_empty'></td>
+<td  class='cal_empty'></td>
+<td  class='cal_empty'></td>
+</tr></tbody></table></div></div>
+			<div class="accueil-agenda-contenu-col2"><div class="accueil-agenda-contenu-col2-inner">
+
+
+	
+
+
+<div id="newslist">
+		<div class="newslistcontent">
+		<div class="newslistimages"><img src="typo3temp/pics/b1fd2c49bb.jpg" width="55" height="55" border="0" alt="" title="" /></div>
+<div class="newslisttexte">
+		<div class="eventcategory"><div class="eventcategory">Guided tour</div></div>
+		
+		
+			<div class="eventshort"><a href="en/visit/individuals/tours/presentation-generale/article/decouvrir-le-musee-dorsay-868.html?tx_ttnews%5Btx_pids%5D=594%2C610%2C617%2C604%2C606%2C608%2C631%2C632%2C3286%2C591%2C619&amp;tx_ttnews%5Btt_cur%5D=819&amp;tx_ttnews%5BbackPid%5D=4385&amp;cHash=f5c0c15773#tt_news819" title="Masterpieces of the Musée d'Orsay">Masterpieces of the Musée d'Orsay</a></div>
+			
+			
+			<div class="eventsubheader"><a href="en/visit/individuals/tours/presentation-generale/article/decouvrir-le-musee-dorsay-868.html?tx_ttnews%5Btx_pids%5D=594%2C610%2C617%2C604%2C606%2C608%2C631%2C632%2C3286%2C591%2C619&amp;tx_ttnews%5Btt_cur%5D=819&amp;tx_ttnews%5BbackPid%5D=4385&amp;cHash=f5c0c15773#tt_news819" title="Masterpieces of the Musée d'Orsay"></a></div>
+			<div class="eventdates">Tue 26 January 2016 - 11h30<br/>Tue 26 January 2016 - 14h30<br/></div>
+			<div class="eventsubheader"><a href="en/visit/individuals/tours/presentation-generale/article/decouvrir-le-musee-dorsay-868.html?tx_ttnews%5Btx_pids%5D=594%2C610%2C617%2C604%2C606%2C608%2C631%2C632%2C3286%2C591%2C619&amp;tx_ttnews%5Btt_cur%5D=819&amp;tx_ttnews%5BbackPid%5D=4385&amp;cHash=f5c0c15773#tt_news819" title="Masterpieces of the Musée d'Orsay"><p class="bodytext">Through a few masterpieces, an overview of the museum collections, from paintings to decorative arts.</p></a></div>
+			<div class="eventlocation"></div>
+		
+		<div class="cycleitems"></div>
+
+<div class="archive">
+			<ul><li><a href="en/visit/individuals/tours/presentation-generale/article/decouvrir-le-musee-dorsay-868.html?tx_ttnews%5Btx_pids%5D=594%2C610%2C617%2C604%2C606%2C608%2C631%2C632%2C3286%2C591%2C619&amp;tx_ttnews%5Btt_cur%5D=819&amp;tx_ttnews%5BbackPid%5D=4385&amp;cHash=f5c0c15773#tt_news819" title="Masterpieces of the Musée d'Orsay">More</a></li></ul>
+</div>
+			<a class='lien_vers_alerte' href=en/tools/my-selection/alerts.html?uid_event=819&visite=1&back=en%252Fhome.html%253Ftx_ttnews%25255Btx_pids%25255D%253D594%25252C610%25252C617%25252C604%25252C606%25252C608%25252C631%25252C632%25252C3286%25252C591%25252C619%2526cHash%253D0d0af95773 title="Masterpieces of the Musée d'Orsay" >Be alerted on this manifestation</a>
+            </div><div class="clear"></div>
+		</div>
+		<div id="separator" class="clear"></div>
+</div>
+		
+
+	<div class="news-list-browse"></div>
+
+<a href="en/tools/calendar.html?tx_ttnews%5Btx_pids%5D=594%2C610%2C617%2C604%2C606%2C608%2C631%2C632%2C3286%2C591%2C619&amp;tx_ttnews%5Bhlm%5D=1&amp;cHash=461aacbfdc" >Display events outside the museum</a></div></div>
+		</div>
+	</div>
+
+		<!--  Plugin inserted: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47432/list [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:74448/templavoila_pi1 [begin] -->
+		<a id="c74448"></a>
+<div class="video-accueil">
+	<div class="video-accueil-titre-3"><a href="en/tools/video-gallery/video-gallery.html" >Video gallery</a></div>
+	<div class="video-accueil-video"><a href="en/tools/video-gallery/video-gallery.html" ><img src="uploads/tx_templavoila/VideoMRFemmesphoto_01.jpg" width="205" height="115" border="0" alt="" title="" /></a></div>
+	<div class="video-accueil-content"><a href="en/tools/video-gallery/video-gallery.html" ><span class="gris-orsay"><strong>Video gallery</strong></span><br /><strong>Who's Afraid of Women Photographers? 1919-1945</strong><br />Marie Robert, curator at the Musée d’Orsay and curator of the exhibition, presents the second part of the show, on view at the Musée d’Orsay and devoted to the years 1919-1945.</a></div>
+</div>
+<div class="clear"></div>
+
+	<!--  CONTENT ELEMENT, uid:74448/templavoila_pi1 [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47426/html [begin] -->
+		<a id="c47426"></a>
+		<!--  Raw HTML content: [begin] -->
+			<div class="accueil-basdepage"></div>
+		<!--  Raw HTML content: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47426/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47424/templavoila_pi1 [begin] -->
+		<a id="c47424"></a><div class="accueil-liens-rapides">
+	<div class="liens-rapides-colonne">
+	<!--  CONTENT ELEMENT, uid:47409/text [begin] -->
+		<a id="c47409"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47409"  class="header100"><p class="bodytext"><a href="en/events/now-on.html" target="_top" >Events</a><br /><a href="en/visit/welcome.html" target="_top" >Visits</a><br /><a href="en/collections/overview.html" target="_top" >Collections</a></p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47409/text [end] -->
+		</div>
+	<div class="liens-rapides-colonne">
+	<!--  CONTENT ELEMENT, uid:47414/text [begin] -->
+		<a id="c47414"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47414"  class="header100"><p class="bodytext"><a href="en/info/site-map.html" target="_top" >Site map</a><br /><a href="en/tools/plan-salle.html" target="_top" >Interactive plan of the museum</a><br /><a href="en/tools/calendar.html" target="_top" >Calendar</a><br /><a href="en/tools/search/advanced-search.html" target="_top" >Search</a><br /><a href="en/info/contact-us/guestbook.html?no_cache=1" target="_top" >Guest book</a><br /><a href="en/tools/my-selection/welcome.html" target="_top" >My selection</a></p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47414/text [end] -->
+		</div>
+	<div class="liens-rapides-colonne">
+	<!--  CONTENT ELEMENT, uid:47416/text [begin] -->
+		<a id="c47416"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47416"  class="header100"><p class="bodytext"><a href="en/espace-particuliers/private-individuals/members/welcome.html" target="_top" >Members</a><br /><a href="en/espace-particuliers/private-individuals/18-25-year-olds/welcome.html" target="_top" >18-25 year olds</a><br /><a href="en/espace-particuliers/private-individuals/disabled-visitors/welcome.html" target="_top" >Disabled visitors</a></p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47416/text [end] -->
+		</div>
+	<div class="liens-rapides-colonne">
+	<!--  CONTENT ELEMENT, uid:47418/text [begin] -->
+		<a id="c47418"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47418"  class="header100"><p class="bodytext"><a href="en/espace-professionnels/professionals/teachers-and-youth-leaders/welcome.html" target="_top" >Teachers and youth leaders</a><br /><a href="en/espace-professionnels/professionals/tourism-professionals/welcome.html" target="_top" >Tourism professionals</a><br /><a href="en/espace-professionnels/professionals/companies/welcome.html" target="_top" >Companies</a><br /><a href="en/espace-professionnels/professionals/press/press-releases.html" target="_top" >Press</a><br /><a href="en/espace-professionnels/professionals/researchers/welcome.html" target="_top" >Researchers</a></p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47418/text [end] -->
+		</div>
+	<div class="liens-rapides-colonne">
+	<!--  CONTENT ELEMENT, uid:47423/text [begin] -->
+		<a id="c47423"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47423"  class="header100"><p class="bodytext"><a href="en/info/sponsorship/support-the-museum.html" target="_top" >Sponsorship</a><br /><a href="en/info/public-administrative-establishment/in-brief.html" target="_top" >Public administrative establishment</a><br /><a href="en/info/musee-hebert.html" target="_top" >Musée Hébert</a><br /><a href="http://www.musee-orangerie.fr/" target="_blank" >Musée de l'Orangerie</a><br /><a href="en/info/museum-shop.html?no_cache=1" target="_blank" >Museum shop</a></p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47423/text [end] -->
+		</div>
+	<div class="clear"></div>
+</div>
+	<!--  CONTENT ELEMENT, uid:47424/templavoila_pi1 [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47422/templavoila_pi1 [begin] -->
+		<a id="c47422"></a>
+
+	<div id="troiscolonnes" class="troisColonnes">
+		<div id="col1" class="firstTiers">
+	<!--  CONTENT ELEMENT, uid:47430/text [begin] -->
+		<a id="c47430"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47430"  class="header100"><p class="bodytext">Museo de Orsay<br />62, rue de Lille<br />75343 Paris Cedex 07<br />France</p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47430/text [end] -->
+		</div>
+		<div id="col2" class="secondTiers">
+	<!--  CONTENT ELEMENT, uid:47438/text [begin] -->
+		<a id="c47438"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47438"  class="header100"><p class="bodytext">Metro 12 Solférino<br />RER C Musée d'Orsay<br />Buses 24, 63, 68, 69, 73, 83, 84, 94<br /><a href="en/visit/access.html" target="_top" >Area map</a> - <a href="http://www.ratp.fr/itineraires/en/ratp/recherche-avancee" target="_blank" >RATP</a></p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47438/text [end] -->
+		</div>
+		<div id="col3" class="lastTiers">
+	<!--  CONTENT ELEMENT, uid:47444/text [begin] -->
+		<a id="c47444"></a>
+		<!--  Text: [begin] -->
+			<div id="content_47444"  class="header100"><p class="bodytext">Information and switchboard<br />+33 (0)1 40 49 48 14<br /><a href="en/info/contact-us.html" target="_top" >Contact us</a></p><img src="clear.gif" width="1" height="20" border="0" class="spacer-gif" alt="" title="" /></div>
+		<!--  Text: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47444/text [end] -->
+		</div>
+		<div class="clear"></div>
+	</div>
+
+
+	<!--  CONTENT ELEMENT, uid:47422/templavoila_pi1 [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47420/html [begin] -->
+		<a id="c47420"></a>
+		<!--  Raw HTML content: [begin] -->
+			<div class="accueil-mentions">
+<a href="http://www.musee-orsay.fr/en/info/public-administrative-establishment/legal-information/legal-information.html">Legal information</a> 
+<img src="fileadmin/templates/img/home2/logo_baspage.gif" alt="" />
+ &copy; Musée d'Orsay 2010 
+<a href="http://www.culture.fr"><img src="fileadmin/templates/img/home2/logo_ministere.gif" alt="" />
+ Ministère de la Culture et de la Communication</a>
+</div>
+		<!--  Raw HTML content: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47420/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47485/html [begin] -->
+		<a id="c47485"></a>
+		<!--  Raw HTML content: [begin] -->
+			<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-111028-2";
+urchinTracker();
+</script>
+		<!--  Raw HTML content: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47485/html [end] -->
+		
+	<!--  CONTENT ELEMENT, uid:47811/html [begin] -->
+		<a id="c47811"></a>
+		<!--  Raw HTML content: [begin] -->
+			<!--DEBUT WREPORT Musée d'Orsay English -->
+<script language="javascript">
+var WRP_ID= 294724;
+var WRP_SECTION='Accueil';
+var WRP_SUBSECTION='Accueil general';
+var WRP_SECTION_GRP= WRP_SECTION ;
+var WRP_SUBSECTION_GRP= WRP_SUBSECTION ;
+var WRP_CONTENT= '';
+var WRP_CHANNEL= 'Accueil';
+
+/* Profondeur Frame */
+var WRP_ACC;
+
+wreport_ok=0;
+</script>
+<script language="javascript" src="/fileadmin/script/wreport.js"></SCRIPT>
+<SCRIPT>
+if(wreport_ok==1){ var w_counter = new wreport_counter(WRP_SECTION, WRP_SUBSECTION, WRP_ID, WRP_ACC, WRP_CHANNEL, WRP_SECTION_GRP, WRP_SUBSECTION_GRP);
+w_counter.add_content(WRP_CONTENT);
+w_counter.count();}
+</script>
+<!-- FIN WREPORT COPYRIGHT WEBORAMA-->
+		<!--  Raw HTML content: [end] -->
+			
+	<!--  CONTENT ELEMENT, uid:47811/html [end] -->
+		</div>
+		<div class="accueil-coldroite"><div class="search"><a href="en/tools/search/advanced-search.html" >Search</a></div><div class="tx-srlanguagemenu-pi1"><a href="fr/accueil.html?cHash=c578ddfcff" >Français</a><br /><a href="de/startseite.html?cHash=23f8ad1e47" >Deutsch</a><br /><a href="es/inicio.html?cHash=c112406b4a" >Español</a><br /><a href="it/accoglienza.html?cHash=4920150bbc" >Italiano</a><br /></div>
+
+
+	<!--
+
+		BEGIN: Content of extension "klee_admin", plugin "tx_kleeadmin_pi2"
+
+	-->
+	<div class="tx-kleeadmin-pi2">
+		<span class="liendoc"><a href="/uploads/tx_kleeadmin/Portugais2016.pdf" target="_blank">Português</a></span><br/><span class="liendoc"><a href="/uploads/tx_kleeadmin/Japonais2016.pdf" target="_blank">日本語</a></span><br/><span class="liendoc"><a href="/uploads/tx_kleeadmin/Coreen2016.pdf" target="_blank">한국어</a></span><br/><span class="liendoc"><a href="/uploads/tx_kleeadmin/Chinois2016.pdf" target="_blank">中文</a></span><br/><span class="liendoc"><a href="/uploads/tx_kleeadmin/Russe2016.pdf" target="_blank">Русский</a></span><br/>
+	</div>
+	
+	<!-- END: Content of extension "klee_admin", plugin "tx_kleeadmin_pi2" -->
+
+	<a href="http://www.facebook.com/museedorsay" target="_blank" ><img src="fileadmin/templates/img/social_facebook.gif" width="20" height="32" border="0" alt="Facebook" title="Facebook" /></a><a href="http://plus.google.com/114471386170848569649/posts" target="_blank" style="padding-left:12px;"><img src="fileadmin/templates/img/social_gplus.gif" width="20" height="32" border="0" alt="Google+" title="Google+" /></a><a href="http://www.dailymotion.com/musee-orsay" target="_blank" ><img src="fileadmin/templates/img/social_dailymotion.gif" width="20" height="32" border="0" alt="Dailymotion" title="Dailymotion" /></a><a href="http://www.youtube.com/MuseeOrsayOfficiel" target="_blank" style="padding-left:12px;"><img src="fileadmin/templates/img/social_youtube.gif" width="20" height="32" border="0" alt="YouTube" title="YouTube" /></a><a href="http://twitter.com/#!/MuseeOrsay" target="_blank" ><img src="fileadmin/templates/img/social_twitter.gif" width="20" height="32" border="0" alt="Twitter" title="Twitter" /></a><a href='en/home.html&no_cache=1&'   style="padding-left:12px;" onmouseover="return addthis_open(this, '', '[URL]', '[TITLE]')" onmouseout="addthis_close()" onclick="return addthis_sendto()"><script type="text/javascript">var addthis_pub="epmo"; var addthis_language = "en"; var addthis_options = "favorites, digg, delicious, myspace, google, facebook, twitter, live, stumbleupon, more";</script><img src="fileadmin/templates/img/social_addthis.gif" width="20" height="32" border="0" alt="" title="" /><script type="text/javascript" src="http://s7.addthis.com/js/200/addthis_widget.js"></script></a></div>
+		<div class="clear"></div>
+	</div>
+
+</body>
+</html>

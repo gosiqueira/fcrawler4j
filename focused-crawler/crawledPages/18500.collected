@@ -1,0 +1,2403 @@
+title=Home
+url=https://www.belgianrail.be/en/
+html=
+
+<!DOCTYPE html
+     PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!--[if lt IE 7]>  <html class="ie ie6 lte9 lte8 lte7" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 7]>     <html class="ie ie7 lte9 lte8 lte7" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 8]>     <html class="ie ie8 lte9 lte8" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if IE 9]>     <html class="ie ie9 lte9" xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if gt IE 9]>  <html xmlns="http://www.w3.org/1999/xhtml"> <![endif]-->
+<!--[if !IE]> <meta http-equiv="X-UA-Compatible" content="IE=edge" /> <!-->
+<html xmlns="http://www.w3.org/1999/xhtml" lang='en'>
+<!--<![endif]-->
+<head id="ctl00_ctl00_headSection">
+    <!--
+Hostname DMZEATRIUWF043 | B2B/B2C 6.6.2.0 | Milan 1.11.1.0 (API 1.11.0.5) | Nessie 2.3.0.0
+    -->   
+    <meta name="LanguageCustom" content="en" /><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="ContextDataBase" content="web" /><meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <link rel="icon" href="/favicon.ico" type="image/x-icon" /><link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" /><meta name="keywords" content="Sitecore,Home,administration" />
+<link rel="stylesheet" type="text/css" href="https://www.belgianrail.be/combres.axd/globalCss/1047613913/"/><meta http-equiv="Last-Modified" content="20151130124045" /><meta http-equiv="content-language" content="en"/><link rel="stylesheet" type="text/css" href="https://www.belgianrail.be/combres.axd/mobilityCss/1351485426/"/><script type="text/javascript" src="https://www.belgianrail.be/combres.axd/mobilityJs/-1563790088/"></script><link rel="Stylesheet" type="text/css" media="print" href="../Design/mobility/css/print.css" /><link href="https://www.belgianrail.be/layouts/System/VisitorIdentification.aspx" rel="stylesheet" type="text/css" />
+    <script type="text/javascript">
+        // <![CDATA[
+        (function($){
+            var searchPage = "http://www.belgianrail.be/en/Search.aspx";
+            
+            jQuery(window).load(function () {
+                var searchBtn = jQuery("#searchButton"),
+                    searchInp = jQuery(".js-input-search"),
+                    cookieBtn = jQuery('#closeCookieBtn'),
+                    cookieMsg = jQuery('#cookieWarning'),
+                    mysncbUsr = jQuery(".jq-mysncbuser");
+
+                searchBtn.click(function () {
+                    var val = searchInp.val();
+                    document.location = searchPage + "?term=" + encodeURIComponent(val);
+                });
+
+                if (brail.cookies.getCookie('acceptedCookie') == undefined) {
+                    cookieMsg.show();
+                }
+
+                cookieBtn.click(function () {
+                    brail.cookies.setCookie('acceptedCookie', '1', 1000);
+                    cookieMsg.animate({ height: 0 }, function () {
+                        jQuery(this).css({ paddingTop: 0, paddingBottom: 0 });
+                    });
+                });
+
+                brail.watermark(".js-input-search", "Search");
+                brail.keyhandler(".js-input-search", "#searchButton", true);
+
+                var values = brail.cookies.getCookieMultiValue("dataMySncb", "FullName", "FirstName");
+                if (values !== undefined) {
+                    mysncbUsr.html(values[1]);
+                }
+            });
+        }(jQuery));
+        
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-28370074-1']);
+        _gaq.push(['_setDomainName', 'none']);
+            _gaq.push(['_setAllowLinker', true]);
+            _gaq.push(['_setCustomVar', 1 , 'Level-1', 'mobility', 3 ]);
+
+            _gaq.push(['_trackPageview']);
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(ga, s);
+        })();
+        // ]]>
+    </script>
+
+    
+    <script type="text/javascript" src="https://www.belgianrail.be/jp/sncb-nmbs-routeplanner/help.exe/eny?tpl=suggest"></script>
+    <script type="text/javascript">
+        brail.hafas.url = "https://www.belgianrail.be/jp/sncb-nmbs-routeplanner/ajax-getstop.exe/dn?";
+    </script>
+    
+    
+    
+
+    <script type="text/javascript">
+        /* <![CDATA[ */
+        jQuery(document).ready(function () {
+            jQuery.datepicker.setDefaults(jQuery.datepicker.regional['en']);
+        });
+        /* ]]> */
+    </script>
+
+    
+        <meta name="PageType" content="ContentPage" />
+    
+
+    
+<title>
+	Home
+</title></head>
+<body>
+    <!-- PageItemId {a10d53c9-1c7d-4c69-94f3-2d52d692965f} -->
+    <!--BeginNoIndex-->
+    <!-- BeginNoFollow -->
+    <div id="print-logo">
+        <img src="/Design/mobility/img/print-logo.gif" alt="logo print" /> 
+    </div>
+    <div class="wrapper">
+        <div class="inner">
+            <div class="container_12">
+                <div class="header grid_12">
+                    <div class="myaccount-wrapper">
+                        <div class="myaccount">
+                            <div class="inner">
+                                <span class="label">
+                                    
+                                </span>
+                                <span class="label"><span><span id="ctl00_ctl00_mysncbUserLabel" class="jq-mysncbuser"></span></span></span>
+                                <a id="ctl00_ctl00_mySncbLink" href="https://www.belgianrail.be/en/MySNCB.aspx">My NMBS/SNCB</a>
+                                <a id="ctl00_ctl00_loginLink" class="jq-iframe jq-fixed-colorbox" href="https://www.belgianrail.be/en/MySNCB/login.aspx">Login</a>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    
+<ul class="quick-nav">
+    
+            <li class='selected'>
+                <a id="ctl00_ctl00_intraSiteNavigation_intraSiteNavigationList_ctl00_intraSiteNavigationLink" href="http://www.belgianrail.be/en/"><span id="ctl00_ctl00_intraSiteNavigation_intraSiteNavigationList_ctl00_align">National</span></a>
+            </li>
+        
+            <li class=''>
+                <a id="ctl00_ctl00_intraSiteNavigation_intraSiteNavigationList_ctl01_intraSiteNavigationLink" href="http://www.belgianrail.be/en/corporate/under_construction?utm_source=NMBS-Home&amp;utm_medium=link&amp;utm_content=link-top&amp;utm_campaign=corporate" target="_blank"><span id="ctl00_ctl00_intraSiteNavigation_intraSiteNavigationList_ctl01_align">Corporate</span></a>
+            </li>
+        
+            <li class=' europe  last-child'>
+                <a id="ctl00_ctl00_intraSiteNavigation_intraSiteNavigationList_ctl02_intraSiteNavigationLink" href="https://www.b-europe.com/Travel?utm_source=belgianrail.be&amp;utm_medium=referral - internal&amp;utm_content=&amp;utm_campaign=TextEurope_BEEN"><span id="ctl00_ctl00_intraSiteNavigation_intraSiteNavigationList_ctl02_align">International</span></a>
+            </li>
+        
+</ul>
+
+                    <div class="clear"></div>
+                    <a id="ctl00_ctl00_linkLogo" class="logo" href="http://www.belgianrail.be/en/Default.aspx"><img id="ctl00_ctl00_logoHeaderImage" src="https://www.belgianrail.be//~/media/Images/Logos/Mobility/logo-en-du-mobility.ashx" alt="Home SNCB/NMBS Mobility" /></a>
+                    <div class="label-container">
+                        
+                    </div>
+                    <div class="subheader">
+                        <div class="subheader-topnav-search">
+                            
+<ul class="top-nav">
+    
+            <li class=''>
+                <a id="ctl00_ctl00_functionalNavigation_functionalNavigationList_ctl00_functionalNavigationLink" href="http://mobile.b-rail.be/en" target="_blank">Mobile website</a></li>
+        
+            <li class=''>
+                <a id="ctl00_ctl00_functionalNavigation_functionalNavigationList_ctl01_functionalNavigationLink" href="http://www.nmbs.tv?utm_source=NMBS-Home&amp;utm_medium=link&amp;utm_content=link-funct&amp;utm_campaign=nmbs-tv" target="_blank">NMBS/SNCB TV</a></li>
+        
+            <li class=''>
+                <a id="ctl00_ctl00_functionalNavigation_functionalNavigationList_ctl02_functionalNavigationLink" href="http://www.belgianrail.be/en/news.aspx">News</a></li>
+        
+            <li class=''>
+                <a id="ctl00_ctl00_functionalNavigation_functionalNavigationList_ctl03_functionalNavigationLink" href="http://www.belgianrail.be/en/corporate/under_construction" target="_blank">Jobs</a></li>
+        
+            <li class=''>
+                <a id="ctl00_ctl00_functionalNavigation_functionalNavigationList_ctl04_functionalNavigationLink" href="http://www.belgianrail.be/en/Sitemap.aspx">Sitemap</a></li>
+        
+</ul>
+
+                            
+<ul class="languages">
+    
+            <li class=''>
+                <a id="ctl00_ctl00_langsSwitch_languagesList_ctl00_languageNameLink" rel="NL" href="http://www.belgianrail.be/nl/Home.aspx">NL</a>
+            </li>
+        
+            <li class=''>
+                <a id="ctl00_ctl00_langsSwitch_languagesList_ctl01_languageNameLink" rel="FR" href="http://www.belgianrail.be/fr/home.aspx">FR</a>
+            </li>
+        
+            <li class='selected'>
+                <a id="ctl00_ctl00_langsSwitch_languagesList_ctl02_languageNameLink" rel="EN" href="http://www.belgianrail.be/en/Default.aspx">EN</a>
+            </li>
+        
+            <li class=''>
+                <a id="ctl00_ctl00_langsSwitch_languagesList_ctl03_languageNameLink" rel="DE" href="http://www.belgianrail.be/de/Default.aspx">DE</a>
+            </li>
+        
+</ul>
+
+        <div class='js-msg-notexist-NL' style="display: none">
+            <div class="lngnotavailable-content">Sorry. Deze pagina bestaat niet in het Nederlands.</div>
+        </div>
+    
+        <div class='js-msg-notexist-FR' style="display: none">
+            <div class="lngnotavailable-content">Désolé, cette page n'existe pas en français.</div>
+        </div>
+    
+        <div class='js-msg-notexist-EN' style="display: none">
+            <div class="lngnotavailable-content">Sorry. This page is only available in French and Dutch.</div>
+        </div>
+    
+        <div class='js-msg-notexist-DE' style="display: none">
+            <div class="lngnotavailable-content">Dieses detaillierte Angebot ist nur auf Französisch und Niederländisch verfügbar. </div>
+        </div>
+    
+
+                        </div>
+                        <div class="clear">
+                        </div>
+                        <div class="subheader-lng-basket">
+                            <div class="quick-search">
+                                <div class="input">
+                                    <span>
+                                        <input type="text" class="js-input-search" id="inputSearch" title='Search' />
+                                    </span>
+                                </div>
+                                <a id="searchButton" href="javascript:void(0);" class="submit">Search</a>
+                            </div>
+                            
+    
+<script type="text/javascript">
+    /* <![CDATA[ */
+    jQuery(document).ready(function () {
+        var articles = jQuery('.basket').find('.jq-shoppingbasketarticles').html();
+        var dictionnaryArticle;
+
+        if (articles > 1) {
+            dictionnaryArticle = '{0} articles';
+        }
+
+        if (articles <= 1) {
+            dictionnaryArticle = '{0} article';
+        }
+        
+        jQuery('.basket').find('.jq-shoppingbasketarticles').html(dictionnaryArticle.replace('{0}', articles));
+    });
+    /* ]]> */
+</script>
+<div class="basket">
+    <a id="ctl00_ctl00_basketPlaceholder_shoppingBasket_basketLink" class="sbasket" href="https://www.belgianrail.be/en/timetable-and-buy-tickets/Search/secure/buy-your-ticket-step-2.aspx">Cart</a>
+    <span class="clear"></span>
+    
+        <span class="basketShortInfo">
+            <span class="cbasket jq-shoppingbasketarticles"></span>
+            <span class="pbasket jq-shoppingbasketprice"></span>
+        </span>
+    
+</div>
+
+
+                        </div>
+                    </div>
+                    <div class="clear">
+                    </div>
+                    
+<ul class="main-nav clearfix js-mainnav">
+    
+            <li class='selected'><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl00_mainMenuLink" href="http://www.belgianrail.be/en/Default.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl00_align">Home</span><span class="valign"></span></a>
+                
+            </li>
+        
+            <li class=''><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl01_mainMenuLink" href="http://www.belgianrail.be/jp/sncb-nmbs-routeplanner/query.exe/en"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl01_align">Timetable and Buy Tickets</span><span class="valign"></span></a>
+                
+                        <div class="fly-out-wrapper preload js-fly-out-wrapper">
+                            <span class="fly-out-top"><span class="fly-out-inner"><span class="fly-out-inner-c">
+                                &nbsp;</span></span></span>
+                            <div class="fly-out-content">
+                                <div class="fly-out">
+                                    <div class="inner clearfix">
+                                        <ul class="js-col-container">
+                                      
+                    
+                        
+            <div class='last-child'>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl01_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/jp/sncb-nmbs-routeplanner/query.exe/en">Timetable & buy tickets</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl01_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_childItemList_ctl01_childItemLink" href="https://www.belgianrail.be/en/timetable-and-buy-tickets/Search/secure/buy-your-ticket-step-1.aspx">Buy your ticket online</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl01_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl02_itemLink" href="https://www.belgianrail.be/en/timetable-and-buy-tickets/Validate-traincard.aspx">Validate your railcard</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                         </ul></div> </div> <span class="fly-out-bottom"><span class="fly-out-inner">&nbsp;</span>
+                        </span></div> </div>
+                    
+            </li>
+        
+            <li class=''><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_mainMenuLink" href="http://www.belgianrail.be/en/travel-tickets.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_align">Travel tickets</span><span class="valign"></span></a>
+                
+                        <div class="fly-out-wrapper preload js-fly-out-wrapper">
+                            <span class="fly-out-top"><span class="fly-out-inner"><span class="fly-out-inner-c">
+                                &nbsp;</span></span></span>
+                            <div class="fly-out-content">
+                                <div class="fly-out">
+                                    <div class="inner clearfix">
+                                        <ul class="js-col-container">
+                                      
+                    
+                        
+            <div class=''>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/travel-tickets/on-board-fare.aspx">On-board Fare</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/travel-tickets/which-is-the-right-ticket-for-me.aspx">Which is the right ticket for me?</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets.aspx">Tickets</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/standard-ticket.aspx">Standard Ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/go-pass-1.aspx">Go Pass 1</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/weekend-ticket.aspx">Weekend Ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/seniors-ticket.aspx">Seniors Ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/diabolo-fee-from-airport.aspx">Diabolo fee (Brussels Airport)</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl06_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/from-charleroi-airport-ticket.aspx">Charleroi Airport Ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl07_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/ticket-city-transport.aspx">Combined Ticket train with city transport</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl08_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/ticket-child.aspx">Child ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl09_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/families-ticket-040.aspx">Large Families Ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl10_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/pets-ticket.aspx">Pets Ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl11_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/bike-trip.aspx">Bike Card single journey</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl12_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/bike-day.aspx">Bike Day Ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_childItemList_ctl13_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/group-travel.aspx">Group travel</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class=''>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards.aspx">Passes and cards</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards/go-unlimited.aspx">Go Unlimited</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards/go-pass-10.aspx">Go Pass 10</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards/key-card.aspx">Key Card</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards/rail-pass.aspx">Rail Pass</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards/10-journey-card.aspx">10-Journey Card</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl06_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards/jump.aspx">Jump</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards.aspx">Railcards</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/railcard-fixed-journey.aspx">Journey Railcard</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/railcard-part-time.aspx">Part-Time Railcard</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/railcard-network.aspx">Network Railcard</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/campus-card.aspx">Campus Card</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/railcard-delijn.aspx">Railcard with De Lijn</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl06_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/railcard-tec.aspx">Railcard with TEC</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl07_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/railcard-stib.aspx">Railcard with MIVB/STIB</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_childItemList_ctl08_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/railcards/citywide-season-ticket.aspx">Citywide Season Ticket</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/travel-tickets/mobib.aspx">MOBIB</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl03_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/mobib/mobib.aspx">Already a MOBIB card</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl03_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/mobib/no-mobib.aspx">Don't have a MOBIB card yet?</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class='last-child'>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction.aspx">Reduced fares and free travel</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/large-families.aspx">Large Families</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/children.aspx">Children</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/pregnant.aspx">Mothers-to-be</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/journalist-050.aspx">Journalists</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/jobseeker.aspx">Jobseekers</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl06_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/military.aspx">Military</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl07_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/police.aspx">Police officers</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl08_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/patriot.aspx">National Recognition Status</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl09_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/special-discount.aspx">Preferential reimbursement </a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl10_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/national-reduction-blind.aspx">Blind or partially sighted</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl11_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/guide-free.aspx">Free Carer </a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_childItemList_ctl12_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/reduction/priority-to-a-seat.aspx">Priority to a seat</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/travel-tickets/abroad.aspx">A train to the border?</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/abroad/aachen.aspx">Aachen</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/abroad/lille.aspx">Lille</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/abroad/luxembourg.aspx">Luxembourg</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/abroad/maastricht.aspx">Maastricht</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl02_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/travel-tickets/abroad/roosendaal.aspx">Roosendaal</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+    </div>
+    
+                    
+                         </ul></div> </div> <span class="fly-out-bottom"><span class="fly-out-inner">&nbsp;</span>
+                        </span></div> </div>
+                    
+            </li>
+        
+            <li class=''><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_mainMenuLink" href="http://www.belgianrail.be/en/leisure.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_align">B-Excursions &amp; Leisure</span><span class="valign"></span></a>
+                
+                        <div class="fly-out-wrapper preload js-fly-out-wrapper">
+                            <span class="fly-out-top"><span class="fly-out-inner"><span class="fly-out-inner-c">
+                                &nbsp;</span></span></span>
+                            <div class="fly-out-content">
+                                <div class="fly-out">
+                                    <div class="inner clearfix">
+                                        <ul class="js-col-container">
+                                      
+                    
+                        
+            <div class=''>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/leisure/leisure-search.aspx">Leisure Search</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/leisure/festivals-and-concerts.aspx">Festivals and concerts</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class=''>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/leisure/bexcursions.aspx">B-Excursions</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/leisure/bexcursions/general-information.aspx">General information</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/leisure/bexcursions/nature-animal-parks.aspx">Nature and animal parks</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/leisure/bexcursions/adventure-parks.aspx">Parks and adventure</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/leisure/bexcursions/art-culture-science.aspx">Art, culture and science</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/leisure/bexcursions/events.aspx">Events</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl06_childItemLink" href="http://www.belgianrail.be/en/leisure/great-war-centenary.aspx">The Great War Centenary</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_childItemList_ctl07_childItemLink" href="http://www.belgianrail.be/en/leisure/mons-2015.aspx">Mons 2015</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class='last-child'>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/leisure/great-war-centenary.aspx">The Great War Centenary</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/leisure/mons-2015.aspx">Mons 2015</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl03_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/group-travel.aspx">Group travel</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                         </ul></div> </div> <span class="fly-out-bottom"><span class="fly-out-inner">&nbsp;</span>
+                        </span></div> </div>
+                    
+            </li>
+        
+            <li class=''><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_mainMenuLink" href="http://www.belgianrail.be/en/stations-and-train.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_align">Stations and on-board services</span><span class="valign"></span></a>
+                
+                        <div class="fly-out-wrapper preload js-fly-out-wrapper">
+                            <span class="fly-out-top"><span class="fly-out-inner"><span class="fly-out-inner-c">
+                                &nbsp;</span></span></span>
+                            <div class="fly-out-content">
+                                <div class="fly-out">
+                                    <div class="inner clearfix">
+                                        <ul class="js-col-container">
+                                      
+                    
+                        
+            <div class=''>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/stations-and-train/search-a-station.aspx">Search a station</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/stations-and-train/search-a-station2.aspx">Search a station</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/stations-and-train/8-tips-for-intelligent-travel.aspx">8 tips for intelligent travel</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_itemLink" href="http://www.belgianrail.be/en/customer-service/passengers-with-reduced-mobility.aspx">Passengers with reduced mobility</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class=''>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/stations-and-train/parking-at-the-station.aspx">Parking at the station </a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/stations-and-train/fast-airport-connections.aspx">Fast airport connections</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/stations-and-train/travel-with-your-pets.aspx">Travel with your pet</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl04_itemLink" href="http://www.belgianrail.be/en/stations-and-train/luggage-on-board.aspx">Luggage on board</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class='last-child'>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/stations-and-train/bike-on-the-train.aspx">Bike on the train</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/stations-and-train/rent-a-shared-bike-at-the-station.aspx">Rent a shared bike at the station</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/stations-and-train/travelling-1st-or-2nd-class.aspx">Travelling 1st or 2nd class?</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl04_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl04_itemLink" href="http://www.belgianrail.be/en/stations-and-train/safety.aspx">0800/30 230 - Security in stations and trains</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                         </ul></div> </div> <span class="fly-out-bottom"><span class="fly-out-inner">&nbsp;</span>
+                        </span></div> </div>
+                    
+            </li>
+        
+            <li class=''><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_mainMenuLink" href="http://www.belgianrail.be/en/customer-service.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_align">Customer Service </span><span class="valign"></span></a>
+                
+                        <div class="fly-out-wrapper preload js-fly-out-wrapper">
+                            <span class="fly-out-top"><span class="fly-out-inner"><span class="fly-out-inner-c">
+                                &nbsp;</span></span></span>
+                            <div class="fly-out-content">
+                                <div class="fly-out">
+                                    <div class="inner clearfix">
+                                        <ul class="js-col-container">
+                                      
+                    
+                        
+            <div class=''>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/customer-service/rfid-overview.aspx">Ticket on the train</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/customer-service/contact.aspx">Contact</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/customer-service/twitter.aspx">Twitter @NMBS/SNCB</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_itemLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets.aspx">Where and how to buy train tickets?</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-ticket-online.aspx">Via internet</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-ticket-app.aspx">Through the NMBS/SNCB app</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-ticket-mobile.aspx">Via mobile website</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-ticket-station.aspx">In the station</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-payment.aspx">Methods of payment</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl04_childItemList_ctl06_childItemLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-summary.aspx">Distribution channels</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl05_itemLink" href="http://www.belgianrail.be/en/customer-service/passengers-with-reduced-mobility.aspx">Passengers with reduced mobility</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl06_itemLink" href="http://www.belgianrail.be/en/customer-service/lost-objects.aspx">Lost objects</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class=''>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/customer-service/compensation-for-delays.aspx">Compensation</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_itemLink" href="http://sncb-siv.hafas.de/bin/help.exe/en?tpl=delay_certificate">Delay certificate</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/travel-tickets/tickets/group-travel.aspx">Group travel</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl04_itemLink" href="http://www.belgianrail.be/en/customer-service/comments-complaints.aspx">Comments or complaints</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl05_itemLink" href="http://www.belgianrail.be/en/customer-service/brochures-leaflets.aspx">Brochures and folders</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl06_itemLink" href="http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools.aspx">Information services and travel tools</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl06_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/timetable-on-mobile.aspx">Timetable mobile</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl06_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/timetable-on-pc.aspx">Timetable on PC</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl06_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/p2w/sncb-nmbs-brochures/query-p2w.exe/en">Personal timetable</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl06_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/works-info.aspx">Works Info</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl07_itemLink" href="http://www.belgianrail.be/jp/sncb-nmbs-routeplanner/help.exe/en?tpl=him_map">Network disturbance</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl08_itemLink" href="http://www.belgianrail.be/en/customer-service/travel-terms-and-conditions.aspx">Travel terms and conditions</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class='last-child'>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/travel-tickets/mobib.aspx">MOBIB</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/customer-service/FAQ.aspx">FAQ</a>
+            
+                    <ul>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl01_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/boordtarief.aspx">On-board Fare</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl02_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/mobib%202.aspx">MOBIB</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl03_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/group-travel.aspx">Group travel</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl04_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/tickets.aspx">Tickets</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl05_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/railcard.aspx">Railcard</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl06_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/mobile-ticketing.aspx">Text message ticket</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl07_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/mobile-tickets.aspx">Mobile Tickets</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl08_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/ticket-on-the-train.aspx">Ticket on the train (RFID)</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl09_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/terminology.aspx">Terminology</a></li>
+                
+                    <li>
+                        <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl05_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_childItemList_ctl10_childItemLink" href="http://www.belgianrail.be/en/customer-service/FAQ/reduced-mobility-sms.aspx">Confirmation of Assistance by SMS</a></li>
+                
+                    </ul>
+                
+        </li>
+    
+    </div>
+    
+                    
+                         </ul></div> </div> <span class="fly-out-bottom"><span class="fly-out-inner">&nbsp;</span>
+                        </span></div> </div>
+                    
+            </li>
+        
+            <li class=''><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_mainMenuLink" href="http://www.belgianrail.be/en/business.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_align">For business</span><span class="valign"></span></a>
+                
+                        <div class="fly-out-wrapper preload js-fly-out-wrapper">
+                            <span class="fly-out-top"><span class="fly-out-inner"><span class="fly-out-inner-c">
+                                &nbsp;</span></span></span>
+                            <div class="fly-out-content">
+                                <div class="fly-out">
+                                    <div class="inner clearfix">
+                                        <ul class="js-col-container">
+                                      
+                    
+                        
+            <div class=''>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/business/regus.aspx">Flexible workspaces</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/business/commuter.aspx">Home to work travel</a>
+            
+        </li>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/business/railease.aspx">Company car and train</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class=''>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/business/business-e-ticketing.aspx">Business E-Ticketing</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/business/train-info-services-for-business.aspx">Travel Tools for business</a>
+            
+        </li>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/business/events.aspx">Events à la carte</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class='last-child'>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/business/mobilpol.aspx">Mobility Survey: diagnose your travel needs</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl02_itemLink" href="http://www.belgianrail.be/en/business/bulk.aspx">Tickets in large quantities</a>
+            
+        </li>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl06_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl03_itemLink" href="http://www.belgianrail.be/en/business/travel-vouchers.aspx">Travel vouchers</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                         </ul></div> </div> <span class="fly-out-bottom"><span class="fly-out-inner">&nbsp;</span>
+                        </span></div> </div>
+                    
+            </li>
+        
+            <li class=''><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl07_mainMenuLink" href="https://www.belgianrail.be/en/MySNCB.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl07_align">My SNCB/NMBS</span><span class="valign"></span></a>
+                
+                        <div class="fly-out-wrapper preload js-fly-out-wrapper">
+                            <span class="fly-out-top"><span class="fly-out-inner"><span class="fly-out-inner-c">
+                                &nbsp;</span></span></span>
+                            <div class="fly-out-content">
+                                <div class="fly-out">
+                                    <div class="inner clearfix">
+                                        <ul class="js-col-container">
+                                      
+                    
+                        
+            <div class=''>
+    
+        <li class='column-0'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl07_itemsInFlyoutList_ctl01_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/MySNCB/EwalletOverview.aspx">My eWallet</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class=''>
+    
+        <li class='column-1'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl07_itemsInFlyoutList_ctl02_flyoutColumn_columnList_ctl01_itemLink" href="http://www.belgianrail.be/en/MySNCB/traveller-certificate.aspx">Traveller Certificate</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                        
+            <div class='last-child'>
+    
+        <li class='column-2'>
+            <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl07_itemsInFlyoutList_ctl03_flyoutColumn_columnList_ctl01_itemLink" href="https://www.belgianrail.be/en/timetable-and-buy-tickets/Validate-traincard.aspx">Validate your railcard</a>
+            
+        </li>
+    
+    </div>
+    
+                    
+                         </ul></div> </div> <span class="fly-out-bottom"><span class="fly-out-inner">&nbsp;</span>
+                        </span></div> </div>
+                    
+            </li>
+        
+            <li class='last-child'><span class="arrow"></span>
+                <a id="ctl00_ctl00_MainNavigation_mainMenuList_ctl08_mainMenuLink" href="http://www.belgianrail.be/en/s-train.aspx"><span id="ctl00_ctl00_MainNavigation_mainMenuList_ctl08_align">S-Train</span><span class="valign"></span></a>
+                
+            </li>
+        
+</ul>
+
+                </div>
+                <div class="clear">
+                </div>
+                <div class="content grid_12 sncb-tv">
+                    <!-- EndNoFollow -->
+                    
+    <form method="post" action="/en/" id="aspnetForm">
+
+
+
+<script type="text/javascript">
+//<![CDATA[
+var $mobilityDictionaryValues = [];var $mobilityAutocompleteStations = [];$globalDictionaryValues =["Close","expand","NOT_FOUND"];//]]>
+</script>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="B6121893" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdACZmDt7EUou9Q0bVeZhGIbwNBiVnOVlY9MWtQMu7PtQj1nSi4Ji+5pkEV1jZv4Tq/Oyo3ZzQlkg4P+0lb7E1C5nG8S6nLrZY3eQP16ZOcEjNlmGZ2eX32H2Q/LjOxqlnu2lXSj8SOSjNdDa9XPR+10ly5weQCjeS+EouwmO1rNufbUihKi/trKGC8LgVR7/krrjWRtLREfB2lsO+KUh0d9pTrvlmjVqAvm+MxNZ/SZ5rt2UfqnhjB3tpgMJIB8jFX83yneaH2e7WL8qsOVx28IHUBVOkJhckx6KnLiTzr9BowDMTsjgd1lTd8VvTeWddhYqlEPKrE/GANEW+r6w1ihq1ufxtpoXX/V1NeM6WdKVQvxxSylS5g0azJVw67NNaCFc/lk+pXZVh/0ia5AsvdrKcQeOVxdVM9Q/qKrfgk6CR2/fd5nFj00kl2VLtxeYy8chazD9WoJnZi5U5jqgFuUEjq3AtSvBIyVge6uKGH5zAtwWq/+Lsha4NP6rVwyVU1BYvM9KnxSPtmI5FDFT6JHbMlGmxv/lMvJ6M57IoKJFfav2BKXNNRJpRgohDzN3RWS82yVzjQsEbYNAxaV+8h6Rk8qEzda0Uk+3DXtDPBYGO1hL/bb/QjCX1TT1Wu7DWqRsd48ZlragxEoJtHmW3xVEG+vKkzLdTDOpuBwPws2RJhoUR874xQ7XsmyAON3l34MbyxlYQtynwXEbUQTp3/GqbQOV6BsSzkDKXuo+Sm3BxgV8khIiXaOVeoZ7x35GT2p/+GObZ/JKuVXQLQvwmn49G5/hyvhH8ZJrGFSq7OadwFDyoDvOZx34+YyfOLbVYlqU8dMCJ" />
+</div>
+    
+    
+    <div class="home">
+        
+
+
+<div id="disturbancesTicker" class="pop-in-grid blue-links-box hticker">
+    <div class="top">
+        <div class="inner">
+            <div class="bd js-hticker">
+                    <div id="disturbancesTickerHeader">
+                        <a href="javascript:void(0);" class="js-plpl play-pause">
+                            Pause"</a>
+                        
+                    </div>
+                    <div id="disturbancesTickerContent">
+                        <ul>
+                            <li><img style="height: 16px; width:16px" src="/Design/B2B/img/website/loading_blue_border.gif"/></li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-bottom">
+        <div class="grid-br">
+        </div>
+    </div>
+</div>
+
+<script>
+    
+    $(document).ready(function () {
+        
+        var feedUrl = '/RssFeedProxies/HIM.aspx?lang=EN';
+
+        $.get(feedUrl, function (data) {
+            var $xml = $($.parseXML(data));
+
+            var i = 0;
+            var ulist = '<ul>';
+
+            $xml.find("item").each(function () {
+                var $this = $(this),
+                    item = {
+                        title: $this.find("title").text().replace("<![CDATA[", "").replace("]]>", ""),
+                        link: $this.find("link").text(),
+                        description: $this.find("description").text().replace("<![CDATA[", "").replace("]]>", ""),
+                        pubDate: $this.find("pubDate").text(),
+                        guid: $this.find("guid ").text()
+                    }
+                i++;
+                ulist += '<li><a target="_blank" href="' + item.link + '">' + item.title + '</a></li>';
+            });
+
+            ulist += '</ul>';
+            
+            if (i > 0) {
+                $("#disturbancesTickerContent").html(ulist);
+            }
+            else {
+                $("#disturbancesTicker").hide();
+            }
+
+            brail.hTicker.init();
+        }).fail(function () {
+            $("#disturbancesTicker").hide();
+        });
+
+    });
+
+
+</script>
+
+
+
+        <div class="grid_12 alpha omega">
+            <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$activeTabDictionaryKey" id="activeTabDictionaryKey" value="Active Tab" />
+<div class="mobilityTimeTable">
+    <div class="js-tabulation">
+        <span style="position: absolute; overflow: hidden; height: 0">
+            The following makes a refreshing dynamic: it contains three tabs. We must use the links to view the contents of the tab under the list.</span>
+        <!-- Tabs-->
+        <ul class="tabulation clearfix">
+            <li><a href="#TimetableItem" class="tab" id="TimetableLink" onclick="_gaq.push(['_setCustomVar', 2 , 'Level-2', 'Timetable & buy tickets', 3 ]); _gaq.push(['_trackPageview', '/en/search-timetable-and-buying-tickets']);">
+                <span>
+                    Timetable & buy tickets</span>
+            </a></li>
+            <li><a href="#RealtimeItem" class="tab-time" id="RealtimeLink" onclick="_gaq.push(['_setCustomVar', 2 , 'Level-2', 'Stations & Trains', 3 ]); _gaq.push(['_trackPageview', '/en/realtime-info']);">
+                <span>
+                    Stations & Trains</span> </a>
+            </li>
+            <li><a href="#SubscriptionItem" class="tab" id="SubscriptionLink" onclick="_gaq.push(['_setCustomVar', 2 , 'Level-2', 'Validate your railcard', 3 ]); _gaq.push(['_trackPageview', '/en/subscription']);">
+                <span>
+                    Validate your railcard</span> </a>
+            </li>
+        </ul>
+        <!-- Content Tab 1 -->
+        
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script type="text/javascript">
+<!--
+
+    jQuery(document).ready(function ($) {
+
+        //$("#hoursInput,#hours2Input").mask("99:99", { placeholder: " " });
+        
+        brail.hafas.initMobilityHome();
+
+        brail.mobilityHome.hideRoundtrip();
+
+        brail.watermark('#departureStationInput', 'Station, stop, address, B-Excursion, ...');
+        brail.keyhandler('#departureStationInput', '#ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_submitButton', false);
+
+        brail.watermark('#arrivalStationInput', 'Station, stop, address, B-Excursion, ...');
+        brail.keyhandler('#arrivalStationInput', '#ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_submitButton', false);
+        
+        jQuery(".booking-switch").click(function () {
+            brail.mobilityHome.switchLocations();
+        });
+
+        jQuery('#singletravel').click(function () {
+            brail.mobilityHome.hideRoundtrip();
+        });
+
+        jQuery('#roundTripTravel').click(function () {
+            brail.mobilityHome.showRoundtrip();
+
+            debugger;
+
+            ////add 1 hour for return time
+            var strHoursInput = jQuery("#hoursInput").val().replace(" ","");
+            var departureDate = new Date();
+            //departureDate = $.datepicker.parseDate('dd/mm/yy',  jQuery("#dateInput").val());
+            departureDate = jQuery("#dateInput").datepicker("getDate");
+            
+            //var returnDate = jQuery("#date2Input").datepicker('getDate');
+
+            var indexOfDoublePoint = strHoursInput.indexOf(":");
+            var arrDepartureTime = strHoursInput.split(":");
+
+            //no double point, seperate hour and min manually
+            if (indexOfDoublePoint <= 0) {
+                switch(strHoursInput.length) {
+                    case 1:
+                        arrDepartureTime[0] = strHoursInput;
+                        break;
+                    case 2:
+                        arrDepartureTime[0] = strHoursInput;
+                        break;
+                    case 3:
+                        arrDepartureTime[0] = strHoursInput.substring(0,1);
+                        arrDepartureTime[1] = strHoursInput.substring(1,3);
+                        break;
+                    case 4:
+                        arrDepartureTime[0] = strHoursInput.substring(0,2);
+                        arrDepartureTime[1] = strHoursInput.substring(2,4);
+                    case 5:
+                        arrDepartureTime[0] = strHoursInput.substring(0,2);
+                        arrDepartureTime[1] = strHoursInput.substring(2,4);
+                        break;
+                }
+
+            }
+
+            if (arrDepartureTime[0] && arrDepartureTime[0] > 23)
+                arrDepartureTime[0] = "0";
+
+            if (arrDepartureTime[1] && arrDepartureTime[1] > 59)
+                arrDepartureTime[1] = "0";
+            
+            departureDate.setHours(arrDepartureTime[0]);
+            departureDate.setMinutes(arrDepartureTime[1]);
+            
+            var returnDate = departureDate;
+            returnDate.setHours(departureDate.getHours()+1);
+            
+            //construct time only
+            var strTime = "";
+
+            var h = returnDate.getHours();
+            var m = returnDate.getMinutes();
+            var s = returnDate.getSeconds();
+
+            if (h < 10) h = '0' + h;
+            if (m < 10) m = '0' + m;
+            if (s < 10) s = '0' + s;
+
+            strTime = h + ':' + m;
+
+            jQuery("#hours2Input").val(strTime);
+
+        });
+
+        var enablePicker = false;
+
+        departureLocationPicker = new mobility.locationpicker.control();
+        arrivalLocationPicker = new mobility.locationpicker.control();
+
+        if (enablePicker) {
+            departureLocationPicker.init("#departurePickerContainer", "#map", "#departureLatLngMapHidden");
+            arrivalLocationPicker.init("#arrivalPickerContainer", "#map", "#arrivalLatLngMapHidden");
+            departureLocationPicker.closeLabel = 'Close';
+            arrivalLocationPicker.closeLabel = 'Close';
+        }
+        else
+        {
+            departureLocationPicker.init("#departurePickerContainer");
+           arrivalLocationPicker.init("#arrivalPickerContainer");
+
+        }
+
+
+
+        jQuery( "#dateInput" ).change(function() {
+            jQuery("#date2Input").val(jQuery("#dateInput").val());
+        });
+        
+
+        if (jQuery("#roundTripTravel").is(':checked')) {
+            brail.mobilityHome.showRoundtrip();
+        }
+    });    
+ -->
+</script>
+<div id="TimetableItem" class="booking-box">
+<h2 style="position: absolute; overflow: hidden; height: 0; padding:0">Time Table</h2>
+    <div class="booking-boxinner">
+        <a class="international-travel" href="https://www.b-europe.com/Travel?utm_source=belgianrail.be&amp;utm_medium=referral%2B-%2Binternal&amp;utm_content=&amp;utm_campaign=HP_TextInternational_BEEN" target="_blank">
+            International travel
+        </a>
+        <div class="booking-destinations">
+            <div id="departurePickerContainer" class="booking-fields clearfix">
+                <div class="textBox-title">
+                    <label for="departureStationInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_departureStationText">From *</label>
+                </div>
+                <div class="textBox jq-selected-location-div" id="departureSearchWithText">
+                    <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureStationInput" type="text" id="departureStationInput" />
+                    
+                </div>
+                <div id="departureSearchOnMap" class="search-on-map jq-selected-map-location-div">
+                    Map Coordinates
+                    <a href="javascript:departureLocationPicker.DeleteValueSearchMap()" class="map-delete">
+                        clear</a>
+                </div>
+                <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_departureMapLinkColorBox" class="map-link jq-maplink">Search on map</a>
+                <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureLatLngMapHidden" id="departureLatLngMapHidden" />
+                <div class="jq-map-other-inputHiddenResult">
+                    <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureIdHidden" id="departureIdHidden" />
+                    <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureLocationTypeHidden" id="departureLocationTypeHidden" />
+                    <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureValueHidden" id="departureValueHidden" />
+                </div>
+            </div>
+            <!-- Button to switch field content -->
+            <a href="javascript:void(0);" class="booking-switch">
+                Reverse</a>
+            <!-- -->
+            <div id="arrivalPickerContainer" class="booking-fields clearfix">
+                <div class="textBox-title">
+                    <label for="arrivalStationInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_arrivalStationText">To *</label>
+                </div>
+                <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_arrivalMapLinkColorBox" class="map-link jq-maplink">Search on map</a>
+                <div class="textBox jq-selected-location-div" id="arrivalSearchWithText">
+                    <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$arrivalStationInput" type="text" id="arrivalStationInput" />
+                    
+                </div>
+                <div id="arrivalSearchOnMap" class="search-on-map jq-selected-map-location-div">
+                    Map Coordinates
+                    <a href="javascript:arrivalLocationPicker.DeleteValueSearchMap()" class="map-delete">
+                        clear</a>
+                </div>
+                <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$arrivalLatLngMapHidden" id="arrivalLatLngMapHidden" />
+                <div class="jq-other-map-inputHiddenResult">
+                    <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$arrivalIdHidden" id="arrivalIdHidden" />
+                    <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$arrivalLocationTypeHidden" id="arrivalLocationTypeHidden" />
+                    <input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$arrivalValueHidden" id="arrivalValueHidden" />
+                </div>
+            </div>
+            <div style='display: none'>
+                <!-- Begin content for colorbox-->
+                <div id="map" style="width: 800px; height: 600px">
+                </div>
+                <!-- End content for colorbox-->
+            </div>
+            <div class="booking-input">
+                <ul>
+                    <li>
+                        <input id="singletravel" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$ticketChoiceSelector" value="singletravel" checked="checked" /><label for="singletravel">Single</label>
+                    </li>
+                    <li>
+                        <input id="roundTripTravel" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$ticketChoiceSelector" value="roundTripTravel" /><label for="roundTripTravel">Outward and return journey</label>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="booking-date">
+            <div class="booking-input">
+                <fieldset>
+                    <legend style="position: absolute; overflow: hidden; height: 0">
+                        Trip to go</legend>
+                    <div class="dateBox">
+                        <div class="textBox-title">
+                            <label for="dateInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_dateText">Date (dd/mm/yyyy) *</label>
+                        </div>
+                        <div class="calendar-container">
+                            <div class="calendar">
+                                <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$dateInput" type="text" value="26/01/2016" id="dateInput" title="(dd/mm/yyyy)" class="js-datepicker" /><a
+                                        href="javascript:void(0);" class="js-datepicker"><span class="hidden">show calendar</span></a>
+                            </div>
+                            <div class="msgs-error">
+                                <div>
+                                    
+                                </div>
+                                <div class="msgs-error">
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoursInput">
+                        <div class="textBox-title">
+                            <label for="hoursInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_hoursText">Time *</label>
+                        </div>
+                        <div class="textBox">
+                            <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$hoursInput" type="text" value="08:16" maxlength="5" id="hoursInput" class="js-hoursInput" />
+                        </div>
+                        <div class="msgs-error">
+                            <div>
+                               
+                                
+                                
+                            </div>
+                            <div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="radio-departure single">
+                        <ul>
+                            <li>
+                                <input id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_departureChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureChoiceSelector" value="departureChoice" checked="checked" class="js-departure-radio" /><label for="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_departureChoice">Departure</label>
+                            </li>
+                            <li>
+                                <input id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_arrivalChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureChoiceSelector" value="arrivalChoice" class="js-arrival-radio" /><label for="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_arrivalChoice">Arrival</label>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </div>
+            <!-- show if radio button "Round-trip" is selected -->
+            <div class="booking-input" id="roundtrip">
+                <fieldset>
+                    <legend style="position: absolute; overflow: hidden; height: 0">
+                        Trip back</legend>
+                    <div class="dateBox">
+                        <div class="textBox-title">
+                            <label for="date2Input" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_date2Text">Date (dd/mm/yyyy) *</label></div>
+                        <div class="calendar-container">
+                            <div class="calendar">
+                                <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$date2Input" type="text" value="26/01/2016" id="date2Input" title="(dd/mm/yyyy)" class="js-datepicker" /><a
+                                        href="javascript:void(0);" class="js-datepicker"><span class="hidden">show calendar</span></a>
+                            </div>
+                            <div class="msgs-error">
+                                <div>
+                                    
+                                </div>
+                                <div>
+                                    
+                                </div>
+                                <div>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hoursInput">
+                        <div class="textBox-title">
+                            <label for="hours2Input" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_hours2Text">Time *</label>
+                        </div>
+                        <div class="textBox">
+                            <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$hours2Input" type="text" value="09:16" maxlength="5" id="hours2Input" class="js-hoursInput" />
+                        </div>
+                        <div class="msgs-error">
+                            <div>
+                                
+                                
+                                             
+                            </div>
+                            <div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="radio-departure return">
+                        <ul>
+                            <li>
+                                <input id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_departureReturnChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureChoice2Selector" value="departureReturnChoice" checked="checked" class="js-departure-return-radio" /><label for="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_departureReturnChoice">Departure</label>
+                            </li>
+                            <li>
+                                <input id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_arrivalReturnChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$departureChoice2Selector" value="arrivalReturnChoice" class="js-arrival-return-radio" /><label for="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_arrivalReturnChoice">Arrival</label>
+                            </li>
+                        </ul>
+                    </div>
+                </fieldset>
+            </div>
+        </div>
+        
+       
+        <div class="booking-cta">
+            <a class="advanced-search" href="http://www.belgianrail.be/jp/sncb-nmbs-routeplanner/query.exe/en?HWAI=VIEW!advanced=yes!&amp;">
+                Advanced search
+            </a>
+            <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_HomeTabTimeTable1_submitButton" class="btn-next-step btn-submit ga-time-table" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$HomeTabTimeTable1$submitButton&quot;, &quot;&quot;, true, &quot;timeTable&quot;, &quot;&quot;, false, true))">
+                <span>
+                    Timetable & buy tickets</span></a>
+        </div>
+    </div>
+</div>
+
+        <!-- Content Tab 2 -->
+        
+<script type="text/javascript">
+
+    jQuery(document).ready(function () {
+        brail.mobilityHome.showRealtimeStation();
+
+        jQuery('#stationChoice').click(function () {
+            brail.mobilityHome.showRealtimeStation();
+        });
+       
+        jQuery('#trainChoice').click(function () {
+            brail.mobilityHome.showRealtimeTrain();
+        });
+    });
+
+</script>
+
+
+
+<input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$stationRealtimeValueHidden" id="stationRealtimeValueHidden" />
+<input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$stationRealtimeIdHidden" id="stationRealtimeIdHidden" />
+<input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$departureRealtimeIdHidden" id="departureRealtimeIdHidden" />
+<input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$arrivalRealtimeIdHidden" id="arrivalRealtimeIdHidden" />
+<input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$departureRealtimeValueHidden" id="departureRealtimeValueHidden" />
+<input type="hidden" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$arrivalValueRealtimeHidden" id="arrivalValueRealtimeHidden" />
+<div id="RealtimeItem" class="booking-box real-time">
+    <div class="booking-boxinner">
+        <h2>
+            Find realtime info
+        </h2>
+        <div class="booking-input">
+            <ul>
+                <li>
+                    <input id="stationChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$searchTypeSelector" value="stationChoice" checked="checked" /><label for="stationChoice">Station</label>
+                </li>
+                <li>
+                    <input id="trainChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$searchTypeSelector" value="trainChoice" /><label for="trainChoice">Train</label>
+                </li>
+            </ul>
+        </div>
+        <div class="booking-destinations">
+            <div class="booking-fields">
+                <!-- show if radio button "Station" is selected-->
+                <div id="stationInput">
+                    <div class="textBox-title">
+                        <label for="stationRealTimeInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_departureStationRealTimeText">Station *</label>
+                    </div>
+                    <div class="textBox">
+                        <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$stationRealTimeInput" type="text" id="stationRealTimeInput" />
+                        
+                    </div>
+                </div>
+                <!-- END show if radio button "Station" is selected-->
+                <!-- show if radio button "Train" is selected-->
+                <div id="trainInput">
+                     <div class="booking-fields" style="padding: 7px 0 0 0;">
+                         <div class="textBox-title">
+                            <label for="trainRealtimeInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_trainNumberText">Train number *</label>
+                        </div>
+                         <div class="textBox">
+                            <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$trainRealtimeInput" type="text" id="trainRealtimeInput" style="width:160px;" />
+                            
+                        </div>
+                     </div>
+                </div>
+                <!-- END show if radio button "Train" is selected-->
+            </div>
+        </div>
+        <div class="booking-date">
+            <div class="booking-input">
+                <div class="dateBox">
+                    <div class="textBox-title">
+                        <label for="dateRealTimeInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_dateRealTimeText">Date (dd/mm/yyyy) *</label>
+                       </div>
+                    <div class="calendar">
+                        <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$dateRealTimeInput" type="text" value="26/01/2016" id="dateRealTimeInput" title="(dd/mm/yyyy)" class="js-datepicker" />
+                        <a href="javascript:void(0);" class="js-datepicker"><span class="hidden">
+                            show calendar</span></a>
+                    </div>
+                    
+                    
+                </div>
+                <div id="extraDateInformation">
+                    <div class="hoursInput">
+                        <div class="textBox-title">
+                            <label for="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_hoursRealTimeInput" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_hoursRealTimeText">Time *</label>
+                        </div>
+                        <div class="textBox">
+                            <input name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$hoursRealTimeInput" type="text" value="08:16" id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_hoursRealTimeInput" />
+                        </div>
+                        
+                        
+                    </div>
+                    <div class="radio-departure single">
+                        <ul>
+                            <li>
+                                <input id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_departureChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$departureChoiceRealTimeSelector" value="departureChoice" checked="checked" class="js-departure-radio-realtime" /><label for="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_departureChoice">Departure</label>
+                            </li>
+                            <li>
+                                <input id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_arrivalChoice" type="radio" name="ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$departureChoiceRealTimeSelector" value="arrivalChoice" class="js-arrival-radio-realtime" /><label for="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_arrivalChoice">Arrival</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="realTimeWinterPlanInfo">
+        
+        </div>
+        <div class="btn-orange">
+            <span>
+                <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_searchRealTime" class="btn-submit ga-realtime" href="javascript:WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions(&quot;ctl00$ctl00$bodyPlaceholder$bodyPlaceholder$mobilityTimeTableSearch$BaseHomeTabRealTime$searchRealTime&quot;, &quot;&quot;, true, &quot;realTime&quot;, &quot;&quot;, false, true))">Search RealTime Info</a>
+            </span>
+        </div>
+    </div>
+    
+    <div id="networkDisturbanceFeed">
+        <div class="linksBox">
+            <div id="rssFeedBoxRealTimeInfo" class="rssFeedBox pop-in-grid">
+                <span class="top"><span class="tl"></span><span class="tr"></span></span>
+                <div class="inner">
+                    <h3>
+                        <span id="feedTitleLabel"></span>
+                    </h3>
+                    <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_mobilityTimeTableSearch_BaseHomeTabRealTime_feedLink" class="rss-icon"><img src="../Design/mobility/img/website/icons/rss-icon.png" alt="RSS" /></a>
+
+                    <div id="disturbancesTickerContent2">
+                        <ul>
+                            <li><img style="height: 16px; width:16px" src="/Design/B2B/img/website/loading.gif"/></li>
+                        </ul>
+                    </div>
+
+                    <a href="http://www.belgianrail.be/jp/sncb-nmbs-routeplanner/help.exe/en?tpl=him_map">
+                        <span>
+                            <span id="networkDisturbanceLink"></span>
+                            <span id="countFeed"></span>
+                        </span>
+                    </a>
+                </div>
+                <span class="bottom"><span class="bl"></span><span class="br"></span></span>
+            </div>
+            <a>
+                <span>
+                    
+                </span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script>
+
+    $(document).ready(function () {
+
+        var feedUrl = '/RssFeedProxies/HIM.aspx?lang=EN';
+
+        $.get(feedUrl, function (data) {
+            var $xml = $($.parseXML(data));
+
+            var ulist = '<ul>';
+            var i = 0;
+            var maxItems = 3;
+
+            $xml.find("item").each(function () {
+                var $this = $(this),
+                    item = {
+                        title: $this.find("title").text().replace("<![CDATA[", "").replace("]]>", ""),
+                        link: $this.find("link").text(),
+                        description: $this.find("description").text().replace("<![CDATA[", "").replace("]]>", ""),
+                        pubDate: $this.find("pubDate").text(),
+                        guid: $this.find("guid ").text()
+                    }
+                i++;
+
+                if (i <= maxItems) {
+
+                    var maxLengtTitleCharacters = 42;
+                    var maxLengthTitle = item.title;
+                    if (maxLengthTitle.length > maxLengtTitleCharacters)
+                        maxLengthTitle = maxLengthTitle.substring(0, maxLengtTitleCharacters) + '...';
+                    ulist += '<li class="feed-item arrow js-ellipsis multiline" style="margin-top: 8px; margin-bottom: 4px;"><a target="_blank" href="' + item.link + '">' + maxLengthTitle + '</a></li>';
+                }
+
+            })
+
+            ulist += '</ul>';
+
+            $("#networkDisturbanceLink").html('Advanced search');
+            //$("#countFeed").html('(' + i.toString() + ')');
+
+            $("#feedTitleLabel").html('Disturbances' + ' (' + i.toString() + ')');
+
+            $("#disturbancesTickerContent2").html(ulist);
+        }).fail(function () {
+            $("#networkDisturbanceFeed").hide();
+        });
+
+    });
+
+
+
+</script>
+
+        <!-- Content Tab 3 -->
+        
+<div id="SubscriptionItem" class="booking-box Subscription">
+    <div class="booking-boxinner">
+        <h2>Validate your railcard</h2>
+        <div class="contentBox">
+            <p>You can <a href="https://www.belgianrail.be/en/timetable-and-buy-tickets/Validate-traincard.aspx">validate these railcards online</a>:</p>
+<ul>
+    <li>Journey Railcard</li>
+    <li>School Railcard</li>
+    <li>Network Railcard</li>
+    <li>Campus Card</li>
+    <li>Part-Time Railcard</li>
+</ul>
+<p>If you have a <strong>MOBIB card</strong>, your validation will be loaded on your card. For <strong>classic railcards</strong>, validations will be sent by mail to your home address.</p>
+<p>New railcards are only available at <a href="https://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-ticket-station.aspx">the ticket counter</a>.</p>
+        </div>
+        <div class="linksBox">
+            <div id="rssFeedBoxSubscription" class="rssFeedBox pop-in-grid">
+                <span class="top"><span class="tl"></span><span class="tr"></span></span>
+                <div class="inner">
+                    <h3>More Info</h3>
+                    
+                            <ul>
+                        
+                            <li>
+                                <a class="arrow" href="https://www.belgianrail.be/en/customer-service/FAQ/railcard.aspx">
+                                    <span>
+                                        How to validate your railcard?
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            <li>
+                                <a class="arrow" href="https://www.belgianrail.be/en/customer-service/FAQ/railcard.aspx">
+                                    <span>
+                                        How to demand a railcard?
+                                    </span>
+                                </a>
+                            </li>
+                        
+                            </ul>
+                        
+                </div>
+                <span class="bottom"><span class="bl"></span><span class="br"></span></span>
+            </div>
+        </div>
+        <a href="https://www.belgianrail.be/en/timetable-and-buy-tickets/Validate-traincard.aspx" target="_self" class="btn-orange"><span>Validate your traincard online</span></a>        
+    </div>
+</div>
+
+    </div>
+    <!-- Slider -->
+    <div class="sliderDiv">
+        <div class="sliderCache">
+        </div>
+        
+                <ul class='js-slider-landing'>
+            
+                <li>
+                    <a href="https://www.belgianrail.be/en/travel-tickets/passes-cards/go-unlimited.aspx" style="font-size:0px">
+                    </a>
+                    <img src="https://www.belgianrail.be//~/media/Images/Banners/Mobility/caroussel_home/Slider_Go_Unlimited_krokus_EN_800x533.ashx?h=300&amp;mh=320&amp;mw=450&amp;w=450" alt="Go Unlimited" width="450" height="300" style="width:100%; height:100%" />
+                    
+                </li>
+            
+                </ul>
+            
+        
+    </div>
+</div>
+<div class="clear">
+</div>
+
+        </div>
+        <div class="clear">
+        </div>
+        <!--EndNoIndex-->
+        <div class="grid_9 alpha">
+            
+
+
+<div class="pop-in-grid">
+    <div class="top">
+        <div class="inner">
+            <div class="bd">
+                <div class="header">
+                    <h2 class="curved-hd icon-daytrip">
+                        B-Excursions and Leisure
+                        
+                    </h2>
+                    <div class="curve">
+                    </div>
+                </div>
+                <div class="daytrips">
+                    
+                            <div class="unit size1of2">
+                                <div class="daytrip">
+                                    <h4>
+                                        <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_centralrow_1_dayTripList_ctl00_titleLink" href="http://www.belgianrail.be/en/leisure/bexcursions/events/carnival-binche.aspx">Binche Carnival<img src="https://www.belgianrail.be//~/media/Images/Bexcursion/B-excursion/carnaval-binche.ashx?h=150&amp;mw=319&amp;w=200" alt="binche carnival" width="200" height="150" /></a>
+                                    </h4>
+                                    <div class="content">
+                                        <p>Join the people of Binche.</p>
+                                    </div>
+                                    <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_centralrow_1_dayTripList_ctl00_SeeAlllink" class="read-more read-more-no-arrow" href="http://www.belgianrail.be/en/leisure/bexcursions/events/carnival-binche.aspx">More Info</a>
+                                </div>
+                            </div>
+                        
+                            <div class="unit size1of2">
+                                <div class="daytrip">
+                                    <h4>
+                                        <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_centralrow_1_dayTripList_ctl01_titleLink" href="http://www.belgianrail.be/en/leisure/bexcursions/events/carnival-aalst.aspx">Aalst Carnival<img src="https://www.belgianrail.be//~/media/Images/Bexcursion/B-excursion/carnaval-alost-4.ashx?h=150&amp;mw=319&amp;w=200" alt="aalst carnival" width="200" height="150" /></a>
+                                    </h4>
+                                    <div class="content">
+                                        <p>Aalst is the Carnival city par excellence.</p>
+                                    </div>
+                                    <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_centralrow_1_dayTripList_ctl01_SeeAlllink" class="read-more read-more-no-arrow" href="http://www.belgianrail.be/en/leisure/bexcursions/events/carnival-aalst.aspx">More Info</a>
+                                </div>
+                            </div>
+                        
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-bottom">
+        <div class="grid-br">
+        </div>
+    </div>
+</div>
+
+
+        </div>
+        <div class="grid_3 omega">
+            <a class="banner" title="International travel" href="https://www.b-europe.com/Travel?utm_source=belgianrail.be&amp;utm_medium=referral - internal&amp;utm_content=&amp;utm_campaign=BannerGeneric_BEEN" target="_blank">
+    <img src="https://www.belgianrail.be//~/media/Images/Banners/europe/320x220_gen_enNEW.ashx?h=320&amp;mw=220&amp;w=220" alt="International travel - Book now - Discover Europe" width="220" height="320" />
+</a>
+<a class="banner">
+    
+</a>
+<a class="banner" href="https://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/works-info.aspx">
+    <img src="https://www.belgianrail.be//~/media/Images/Banners/Mobility/works-info.ashx?h=120&amp;mw=220&amp;w=220" alt="Works Info" width="220" height="120" />
+</a>
+<a class="banner">
+    
+</a>
+
+<div class="pop-in-grid">
+    <div class="top">
+        <div class="inner">
+            <div class="bd">
+                <h1>
+                    Buy online
+                </h1>
+                
+                <div class="freecontent rightCol">
+                    <img id="trustwaveSealImage" src="https://sealserver.trustwave.com/seal_image.php?customerId=x4ij3BufDVRIByuTgY9FGabipDGC2k&amp;size=105x54&amp;style=invert" style="cursor: pointer; border-width: 0px; border-style: solid; width: 93px; height: 48px;" onclick="javascript:window.open('https://sealserver.trustwave.com/cert.php?customerId=x4ij3BufDVRIByuTgY9FGabipDGC2k&amp;size=105x54&amp;style=invert', 'c_TW', 'location=no, toolbar=no, resizable=yes, scrollbars=yes, directories=no, status=no, width=615, height=720'); return false;" alt="This site protected by Trustwave's Trusted Commerce program" title="This site protected by Trustwave's Trusted Commerce program" /> <a href="http://www.becommerce.be/fr/membres/chercher-un-membre/d/certificate/334" target="_blank" title="BeCommerce Guaranteed"><img src="http://www.belgianrail.be/nl/vervoersbewijzen/biljetten/%7E/media/70A0B0567A174C5A86AADE2CB09DBDD6.ashx?h=70&amp;w=70" alt="BeCommerce guaranteed" style="width: 60px; height: 60px;" /></a>
+                    <div class="clear"></div>
+                    <a title="More info about buying online" href="https://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-ticket-online.aspx">More info</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-bottom">
+        <div class="grid-br">
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="clear">
+        </div>
+        <div class="grid_12 alpha omega">
+            
+<div class="pop-in-grid">
+    <div class="top">
+        <div class="inner">
+            <div class="bd">
+                <div class="header">
+                    <h2 class="curved-hd icon-services">
+                    NMBS/SNCB Services: travel in all comfort
+                    
+                    </h2>
+                    <div class="curve"></div>
+                </div>
+                <div class="services">
+                    
+        <div class="service_three">
+            <span class="thumb-holder"><img src="https://www.belgianrail.be//~/media/Images/support/timetables-iphone.ashx?h=58&amp;mw=78&amp;w=78" alt="youngster-with-iphone" width="78" height="58" /></span>
+            <div class="co-column">
+                <h4>
+                    NMBS/SNCB app
+                </h4>
+                <div class="content"><p>Do you have a smartphone and do you regularly take the train? Then this free application will certainly come in handy!</p>
+<p>&nbsp;</p></div>
+                <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_bottomrow_0_serviceListOneColumn_serviceList_ctl00_SeeAlllink" class="read-more read-more-no-arrow" href="http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/timetable-on-mobile/apps.aspx">More Info</a>
+            </div>
+        </div>
+    
+        <div class="service_three">
+            <span class="thumb-holder"><img src="https://www.belgianrail.be//~/media/Images/support/timetables-smartphone.ashx?h=58&amp;mw=78&amp;w=78" alt="youngster-with-smartphone" width="78" height="58" /></span>
+            <div class="co-column">
+                <h4>
+                    SMS 2828
+                </h4>
+                <div class="content"><p>Send a simple SMS text message to 2828 and receive real-time travel information.</p></div>
+                <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_bottomrow_0_serviceListOneColumn_serviceList_ctl01_SeeAlllink" class="read-more read-more-no-arrow" href="http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools/timetable-on-mobile/sms-2828.aspx">More Info</a>
+            </div>
+        </div>
+    
+        <div class="service_three">
+            <span class="thumb-holder"><img src="https://www.belgianrail.be//~/media/Images/support/buy-mobile.ashx?h=59&amp;mw=78&amp;w=78" alt="woman with mobile phone - mobile ticketing" width="78" height="59" /></span>
+            <div class="co-column">
+                <h4>
+                    Via mobile website
+                </h4>
+                <div class="content"><p>Buy a ticket where and when you like and travel with your SMS ticket.</p></div>
+                <a id="ctl00_ctl00_bodyPlaceholder_bodyPlaceholder_bottomrow_0_serviceListOneColumn_serviceList_ctl02_SeeAlllink" class="read-more read-more-no-arrow" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets/buy-ticket-mobile.aspx">More Info</a>
+            </div>
+        </div>
+    
+
+                    
+                    
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="grid-bottom"><div class="grid-br"></div></div>
+</div>
+<div class="pop-in-grid mod-teasers">
+    <div class="top">
+        <div class="inner">
+            <div class="bd teasers">
+                
+                        
+<div class="unit size1of3">
+    <div class="teasergroup business">
+        <div class="teaser-content js-box-height">
+            <div class="header">
+                <h2 class="curved-hd icon-hd">
+                    Business solutions
+                </h2>
+            </div>
+            <div class="grouptitle">
+                
+                    <p>Looking for a tailor-made solution to your mobility questions?</p>
+<p><img alt="" style="width: 150px; height: 113px;" src="%7E/media/5E0AA7F53C644448ADFE83ED5BAD9380.ashx" /></p>
+<p>NMBS/SNCB Mobility offers you a wide range of possibilities:</p>
+<p></p>
+<ul>
+    <li>purchase tickets online</li>
+    <li>commuting</li>
+    <li>combining company car and train</li>
+    <li>bulk tickets</li>
+    <li>&hellip;</li>
+</ul>
+                
+            </div>
+            
+        </div>
+        <div class="clear">
+        </div>
+        <a class="btn-orange teasers-more" title="More about business solutions" href="https://www.belgianrail.be/en/business.aspx">
+            <span>
+                More about business solutions
+                <span class="arrow"></span>
+            </span>
+        </a>
+        <div class="clear"></div>
+    </div>
+</div>
+
+                    
+                        
+<div class="unit size1of3">
+    <div class="teasergroup europe">
+        <div class="teaser-content js-box-height">
+            <div class="header">
+                <h2 class="curved-hd icon-hd">
+                    International travel
+                </h2>
+            </div>
+            <div class="grouptitle">
+                
+                    <h3>Book this InterCity offer today!</h3>
+<p><a href="https://www.b-europe.com/Travel/Promotions/Booking/TCV/ICTicketFor2?utm_source=belgianrail.be&amp;utm_medium=referral - internal&amp;utm_content=&amp;utm_campaign=160119_ICTicketFor2_BEEN" title="Book the InterCity offer now" target="_blank"><img width="109" height="69" alt="" src="~/media/4A60CC9144CF440CB503F82B9AED3503.ashx" /></a><br />
+&nbsp;</p>
+<p>Until 29.02, the InterCity trains will take you to the Netherlands for only €49 return for 2.</p>
+<p><a href="https://www.b-europe.com/Travel/Promotions/Booking/TCV/ICTicketFor2?utm_source=belgianrail.be&amp;utm_medium=referral - internal&amp;utm_content=&amp;utm_campaign=160119_ICTicketFor2_BEEN" title="Book the InterCity offer now" target="_blank">Book your InterCity tickets now</a></p>
+<br/>
+<h3>Try our low fares calendar!</h3>
+<p><a href="http://www.b-europe.com/Travel/Promotions/LowestFares/GeneralLFF?utm_source=belgianrail.be&amp;utm_medium=referral - internal&amp;utm_content=&amp;utm_campaign=TextGeneralLFF_BEEN" title="Find the lowest fares (new window)" target="_blank"><img width="109" height="69" alt="Thalys" src="~/media/3B4139C789824E6A8EB8B58B9E160B32.ashx" /></a><br />
+&nbsp;</p>
+<p>Find the lowest fares for Thalys, Eurostar or TGV.</p>
+<p><a href="http://www.b-europe.com/Travel/Promotions/LowestFares/GeneralLFF?utm_source=belgianrail.be&amp;utm_medium=referral - internal&amp;utm_content=&amp;utm_campaign=TextGeneralLFF_BEEN" title="Find the lowest fares (new window)" target="_blank">Find the lowest fares</a></p>
+
+                
+            </div>
+            
+        </div>
+        <div class="clear">
+        </div>
+        <a class="btn-orange teasers-more" href="https://www.b-europe.com/Travel/Destinations?utm_source=belgianrail.be&amp;utm_medium=referral%20-%20internal&amp;utm_content=&amp;utm_campaign=ButtonDestinations_BEEN" target="_blank">
+            <span>
+                International top destinations
+                <span class="arrow"></span>
+            </span>
+        </a>
+        <div class="clear"></div>
+    </div>
+</div>
+
+                    
+                        
+<div class="unit size1of3">
+    <div class="teasergroup corporate">
+        <div class="teaser-content js-box-height">
+            <div class="header">
+                <h2 class="curved-hd icon-hd">
+                    About NMBS/SNCB
+                </h2>
+            </div>
+            <div class="grouptitle">
+                
+                    <h3>NMBS/SNCB is a sustainable enterprise</h3>
+<p><img alt="" width="111" height="74" src="%7E/media/2AD41E8838D14F9E9A500B2016E4B91C.ashx" /></p>
+<p>Discover how NMBS/SNCB plays <a href="http://www.belgianrail.be/en/corporate/under_construction" target="_blank" title="Link to NMBS/SNCB Corporate (new window)">its ecological role</a></p>
+<p><a href="http://www.belgianrail.be/fr/sitecore/content/Corporate/Web/RSE/durabilite/planet.aspx" target="_blank" title="SNCB/NMBS, a sustainable enterprise (in french)"><br />
+</a></p>
+<h3>Join us!</h3>
+<p><img alt="" src="%7E/media/761AC89772704AD28044BC08FFE4D6D5.ashx" /></p>
+<p>Learn more about <a href="http://www.belgianrail.be/en/corporate/under_construction" target="_blank" title="Link to jobs (new window)">our job opportunities, internships,&hellip;</a></p>
+                
+            </div>
+            
+        </div>
+        <div class="clear">
+        </div>
+        
+        <div class="clear"></div>
+    </div>
+</div>
+
+                    
+                        <div class="clear"></div>                        
+                    
+            </div>
+        </div>
+    </div>
+    <div class="grid-bottom">
+        <div class="grid-br">
+        </div>
+    </div>
+</div>
+
+        </div>
+        <div class="grid_6 alpha">
+            
+<div class="pop-in-grid mod-white-bottom">
+    <div class="top">
+        <div class="inner">
+            <div class="bd helpbox">
+                <div class="header">
+                    <strong></strong>
+                    <h2 class="curved-hd icon-help">Need assistance</h2>
+                    <div class="curve curve-half"></div>
+                </div>
+                <div class="content freecontent">
+                    <p>Our customer service department will be happy to help! On this website you will find information about various topics:</p>
+<ul>
+    <li><a href="https://www.belgianrail.be/en/customer-service/passengers-with-reduced-mobility.aspx">Passengers with reduced mobility</a></li>
+    <li><a href="https://www.belgianrail.be/en/travel-tickets/tickets/group-travel.aspx">Group travel</a></li>
+    <li><a href="https://www.belgianrail.be/en/customer-service/lost-objects.aspx">Lost &amp; found</a></li>
+    <li><a href="https://www.belgianrail.be/en/customer-service/FAQ.aspx">FAQ</a></li>
+    <li>&hellip;</li>
+</ul>
+<h3>You cannot find the answer to your question? </h3>
+<p>Then contact us at:</p>
+<h4>Domestic travel</h4>
+<ul>
+    <li>via the <a href="https://www.belgianrail.be/en/customer-service/contact.aspx">contact form</a></li>
+    <li>+32 2 528 28 28 (7 days a week, from 7.00 a.m. to 9.30 p.m.)</li>
+</ul>
+<h4>International travel</h4>
+<ul>
+    <li>via the <a href="https://www.b-europe.com/Travel/Practical/Contact%20us?utm_source=belgianrail.be&amp;utm_medium=referral%20-%20internal&amp;utm_content=&amp;utm_campaign=HP_Contact" target="_blank">contact form</a></li>
+    <li>+32 70 79 79 79 (&euro; 0.30/minute, from 8 a.m. to 8 p.m. on weekdays and from 8.30 a.m. to 4.30 p.m. during the weekend and on holidays)</li>
+</ul>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="grid-bottom">
+        <div class="grid-br">
+        </div>
+    </div>
+</div>
+
+
+        </div>
+        <div class="grid_6 omega">
+            
+        </div>
+        <div class="clear">
+        </div>
+        <!--BeginNoIndex-->
+    </div>
+
+    
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUJMzQzNzQ2NzI3D2QWAmYPZBYCZg9kFi5mDxUBAmVuZAIBD2QWDgIBDxYCHgdjb250ZW50BQJlbmQCAw8WAh8ABQN3ZWJkAgwPFgIeBFRleHQFPDxtZXRhIGh0dHAtZXF1aXY9Ikxhc3QtTW9kaWZpZWQiIGNvbnRlbnQ9IjIwMTUxMTMwMTI0MDQ1IiAvPmQCDQ8WAh8BBTI8bWV0YSBodHRwLWVxdWl2PSJjb250ZW50LWxhbmd1YWdlIiBjb250ZW50PSJlbiIvPmQCDg8WAh8BBdsBPGxpbmsgcmVsPSJzdHlsZXNoZWV0IiB0eXBlPSJ0ZXh0L2NzcyIgaHJlZj0iaHR0cHM6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvY29tYnJlcy5heGQvbW9iaWxpdHlDc3MvMTM1MTQ4NTQyNi8iLz48c2NyaXB0IHR5cGU9InRleHQvamF2YXNjcmlwdCIgc3JjPSJodHRwczovL3d3dy5iZWxnaWFucmFpbC5iZS9jb21icmVzLmF4ZC9tb2JpbGl0eUpzLy0xNTYzNzkwMDg4LyI+PC9zY3JpcHQ+ZAIQDxYCHwEFdTxsaW5rIGhyZWY9Imh0dHBzOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2xheW91dHMvU3lzdGVtL1Zpc2l0b3JJZGVudGlmaWNhdGlvbi5hc3B4IiByZWw9InN0eWxlc2hlZXQiIHR5cGU9InRleHQvY3NzIiAvPmQCEQ8VAQZTZWFyY2hkAgIPFgIfAQU6PCEtLSBQYWdlSXRlbUlkIHthMTBkNTNjOS0xYzdkLTRjNjktOTRmMy0yZDUyZDY5Mjk2NWZ9IC0tPmQCAw8WAh4HVmlzaWJsZWhkAgUPDxYEHwEFDE15IE5NQlMvU05DQh4LTmF2aWdhdGVVcmwFKWh0dHBzOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL015U05DQi5hc3B4ZGQCBg8PFggfAwUvaHR0cHM6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vTXlTTkNCL2xvZ2luLmFzcHgfAQUFTG9naW4eCENzc0NsYXNzBRtqcS1pZnJhbWUganEtZml4ZWQtY29sb3Jib3geBF8hU0ICAmRkAgcPDxYEHwMFN2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vRGVmYXVsdC5hc3B4P2FjdGlvbj1sb2dvdXQfAmhkZAIID2QWAgIBDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWBGYPFQEIc2VsZWN0ZWRkAgEPDxYEHwMFHWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vHgZUYXJnZXRlZBYCZg9kFgJmDxUBCE5hdGlvbmFsZAIBD2QWBGYPFQEAZAIBDw8WBB8DBYoBaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jb3Jwb3JhdGUvdW5kZXJfY29uc3RydWN0aW9uP3V0bV9zb3VyY2U9Tk1CUy1Ib21lJnV0bV9tZWRpdW09bGluayZ1dG1fY29udGVudD1saW5rLXRvcCZ1dG1fY2FtcGFpZ249Y29ycG9yYXRlHwcFBl9ibGFua2QWAmYPZBYCZg8VAQlDb3Jwb3JhdGVkAgIPZBYEZg8VARMgZXVyb3BlICBsYXN0LWNoaWxkZAIBDw8WBB8DBYIBaHR0cHM6Ly93d3cuYi1ldXJvcGUuY29tL1RyYXZlbD91dG1fc291cmNlPWJlbGdpYW5yYWlsLmJlJnV0bV9tZWRpdW09cmVmZXJyYWwgLSBpbnRlcm5hbCZ1dG1fY29udGVudD0mdXRtX2NhbXBhaWduPVRleHRFdXJvcGVfQkVFTh8HZWQWAmYPZBYCZg8VAQ1JbnRlcm5hdGlvbmFsZAIJDw8WAh8DBSlodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL0RlZmF1bHQuYXNweGQWAmYPDxYEHghJbWFnZVVybAVSaHR0cHM6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvL34vbWVkaWEvSW1hZ2VzL0xvZ29zL01vYmlsaXR5L2xvZ28tZW4tZHUtbW9iaWxpdHkuYXNoeB4NQWx0ZXJuYXRlVGV4dAUXSG9tZSBTTkNCL05NQlMgTW9iaWxpdHlkZAILD2QWAgIBDxYCHwYCBRYKZg9kFgRmDxUBAGQCAQ8PFgYfAwUaaHR0cDovL21vYmlsZS5iLXJhaWwuYmUvZW4fAQUOTW9iaWxlIHdlYnNpdGUfBwUGX2JsYW5rZGQCAQ9kFgRmDxUBAGQCAQ8PFgYfAwVjaHR0cDovL3d3dy5ubWJzLnR2P3V0bV9zb3VyY2U9Tk1CUy1Ib21lJnV0bV9tZWRpdW09bGluayZ1dG1fY29udGVudD1saW5rLWZ1bmN0JnV0bV9jYW1wYWlnbj1ubWJzLXR2HwEFDE5NQlMvU05DQiBUVh8HBQZfYmxhbmtkZAICD2QWBGYPFQEAZAIBDw8WBh8DBSZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL25ld3MuYXNweB8BBQROZXdzHwdlZGQCAw9kFgRmDxUBAGQCAQ8PFgYfAwU5aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jb3Jwb3JhdGUvdW5kZXJfY29uc3RydWN0aW9uHwEFBEpvYnMfBwUGX2JsYW5rZGQCBA9kFgRmDxUBAGQCAQ8PFgYfAwUpaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9TaXRlbWFwLmFzcHgfAQUHU2l0ZW1hcB8HZWRkAgwPZBYEAgEPFgIfBgIEFghmD2QWBGYPFQEAZAIBDw8WBB8DBSZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL25sL0hvbWUuYXNweB8BBQJOTBYCHgNyZWwFAk5MZAIBD2QWBGYPFQEAZAIBDw8WBB8DBSZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2ZyL2hvbWUuYXNweB8BBQJGUhYCHwoFAkZSZAICD2QWBGYPFQEIc2VsZWN0ZWRkAgEPDxYEHwMFKWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vRGVmYXVsdC5hc3B4HwEFAkVOFgIfCgUCRU5kAgMPZBYEZg8VAQBkAgEPDxYEHwMFKWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZGUvRGVmYXVsdC5hc3B4HwEFAkRFFgIfCgUCREVkAgMPFgIfBgIEFghmD2QWBGYPFQESanMtbXNnLW5vdGV4aXN0LU5MZAIBDxYCHwEFMlNvcnJ5LiBEZXplIHBhZ2luYSBiZXN0YWF0IG5pZXQgaW4gaGV0IE5lZGVybGFuZHMuZAIBD2QWBGYPFQESanMtbXNnLW5vdGV4aXN0LUZSZAIBDxYCHwEFL0TDqXNvbMOpLCBjZXR0ZSBwYWdlIG4nZXhpc3RlIHBhcyBlbiBmcmFuw6dhaXMuZAICD2QWBGYPFQESanMtbXNnLW5vdGV4aXN0LUVOZAIBDxYCHwEFN1NvcnJ5LiBUaGlzIHBhZ2UgaXMgb25seSBhdmFpbGFibGUgaW4gRnJlbmNoIGFuZCBEdXRjaC5kAgMPZBYEZg8VARJqcy1tc2ctbm90ZXhpc3QtREVkAgEPFgIfAQVVRGllc2VzIGRldGFpbGxpZXJ0ZSBBbmdlYm90IGlzdCBudXIgYXVmIEZyYW56w7ZzaXNjaCB1bmQgTmllZGVybMOkbmRpc2NoIHZlcmbDvGdiYXIuIGQCDQ9kFgICAQ9kFgJmDw8WBB8DBWFodHRwczovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90aW1ldGFibGUtYW5kLWJ1eS10aWNrZXRzL1NlYXJjaC9zZWN1cmUvYnV5LXlvdXItdGlja2V0LXN0ZXAtMi5hc3B4HwEFBENhcnRkZAIOD2QWAgIBDxYCHwYCCRYSZg9kFgZmDxUBCHNlbGVjdGVkZAIBDw8WAh8DBSlodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL0RlZmF1bHQuYXNweGQWAmYPZBYCZg8VAQRIb21lZAIDDxYCHwZmZAIBD2QWBmYPFQEAZAIBDw8WAh8DBUBodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2pwL3NuY2Itbm1icy1yb3V0ZXBsYW5uZXIvcXVlcnkuZXhlL2VuZBYCZg9kFgJmDxUBGVRpbWV0YWJsZSBhbmQgQnV5IFRpY2tldHNkAgMPFgIfBgIBFgICAQ9kFgICAQ9kFgJmDxYCHwYCAhYGZg9kFgJmDxUBCmxhc3QtY2hpbGRkAgEPZBYEZg8PFgQfAwVAaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9qcC9zbmNiLW5tYnMtcm91dGVwbGFubmVyL3F1ZXJ5LmV4ZS9lbh8BBRdUaW1ldGFibGUgJiBidXkgdGlja2V0c2RkAgEPFgIfBgIBFgICAQ9kFgICAQ8PFgQfAwVhaHR0cHM6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdGltZXRhYmxlLWFuZC1idXktdGlja2V0cy9TZWFyY2gvc2VjdXJlL2J1eS15b3VyLXRpY2tldC1zdGVwLTEuYXNweB8BBRZCdXkgeW91ciB0aWNrZXQgb25saW5lZGQCAg9kFgRmDw8WBB8DBU9odHRwczovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90aW1ldGFibGUtYW5kLWJ1eS10aWNrZXRzL1ZhbGlkYXRlLXRyYWluY2FyZC5hc3B4HwEFFlZhbGlkYXRlIHlvdXIgcmFpbGNhcmRkZAIBDxYCHwZmZAICD2QWBmYPFQEAZAIBDw8WAh8DBTBodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzLmFzcHhkFgJmD2QWAmYPFQEOVHJhdmVsIHRpY2tldHNkAgMPFgIfBgIDFgYCAQ9kFgICAQ9kFgJmDxYCHwYCAxYIZg9kFgJmDxUBAGQCAQ9kFgRmDw8WBB8DBT5odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL29uLWJvYXJkLWZhcmUuYXNweB8BBQ1Pbi1ib2FyZCBGYXJlZGQCAQ8WAh8GZmQCAg9kFgRmDw8WBB8DBVFodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3doaWNoLWlzLXRoZS1yaWdodC10aWNrZXQtZm9yLW1lLmFzcHgfAQUhV2hpY2ggaXMgdGhlIHJpZ2h0IHRpY2tldCBmb3IgbWU/ZGQCAQ8WAh8GZmQCAw9kFgRmDw8WBB8DBThodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3RpY2tldHMuYXNweB8BBQdUaWNrZXRzZGQCAQ8WAh8GAg0WGgIBD2QWAgIBDw8WBB8DBUhodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3RpY2tldHMvc3RhbmRhcmQtdGlja2V0LmFzcHgfAQUPU3RhbmRhcmQgVGlja2V0ZGQCAg9kFgICAQ8PFgQfAwVCaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL2dvLXBhc3MtMS5hc3B4HwEFCUdvIFBhc3MgMWRkAgMPZBYCAgEPDxYEHwMFR2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvdGlja2V0cy93ZWVrZW5kLXRpY2tldC5hc3B4HwEFDldlZWtlbmQgVGlja2V0ZGQCBA9kFgICAQ8PFgQfAwVHaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL3NlbmlvcnMtdGlja2V0LmFzcHgfAQUOU2VuaW9ycyBUaWNrZXRkZAIFD2QWAgIBDw8WBB8DBVFodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3RpY2tldHMvZGlhYm9sby1mZWUtZnJvbS1haXJwb3J0LmFzcHgfAQUeRGlhYm9sbyBmZWUgKEJydXNzZWxzIEFpcnBvcnQpZGQCBg9kFgICAQ8PFgQfAwVWaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL2Zyb20tY2hhcmxlcm9pLWFpcnBvcnQtdGlja2V0LmFzcHgfAQUYQ2hhcmxlcm9pIEFpcnBvcnQgVGlja2V0ZGQCBw9kFgICAQ8PFgQfAwVOaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL3RpY2tldC1jaXR5LXRyYW5zcG9ydC5hc3B4HwEFKUNvbWJpbmVkIFRpY2tldCB0cmFpbiB3aXRoIGNpdHkgdHJhbnNwb3J0ZGQCCA9kFgICAQ8PFgQfAwVFaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL3RpY2tldC1jaGlsZC5hc3B4HwEFDENoaWxkIHRpY2tldGRkAgkPZBYCAgEPDxYEHwMFTGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvdGlja2V0cy9mYW1pbGllcy10aWNrZXQtMDQwLmFzcHgfAQUVTGFyZ2UgRmFtaWxpZXMgVGlja2V0ZGQCCg9kFgICAQ8PFgQfAwVEaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL3BldHMtdGlja2V0LmFzcHgfAQULUGV0cyBUaWNrZXRkZAILD2QWAgIBDw8WBB8DBUJodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3RpY2tldHMvYmlrZS10cmlwLmFzcHgfAQUYQmlrZSBDYXJkIHNpbmdsZSBqb3VybmV5ZGQCDA9kFgICAQ8PFgQfAwVBaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL2Jpa2UtZGF5LmFzcHgfAQUPQmlrZSBEYXkgVGlja2V0ZGQCDQ9kFgICAQ8PFgQfAwVFaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL2dyb3VwLXRyYXZlbC5hc3B4HwEFDEdyb3VwIHRyYXZlbGRkAgIPZBYCAgEPZBYCZg8WAh8GAgMWCGYPZBYCZg8VAQBkAgEPZBYEZg8PFgQfAwU9aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9wYXNzZXMtY2FyZHMuYXNweB8BBRBQYXNzZXMgYW5kIGNhcmRzZGQCAQ8WAh8GAgYWDAIBD2QWAgIBDw8WBB8DBUpodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3Bhc3Nlcy1jYXJkcy9nby11bmxpbWl0ZWQuYXNweB8BBQxHbyBVbmxpbWl0ZWRkZAICD2QWAgIBDw8WBB8DBUhodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3Bhc3Nlcy1jYXJkcy9nby1wYXNzLTEwLmFzcHgfAQUKR28gUGFzcyAxMGRkAgMPZBYCAgEPDxYEHwMFRmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcGFzc2VzLWNhcmRzL2tleS1jYXJkLmFzcHgfAQUIS2V5IENhcmRkZAIED2QWAgIBDw8WBB8DBUdodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3Bhc3Nlcy1jYXJkcy9yYWlsLXBhc3MuYXNweB8BBQlSYWlsIFBhc3NkZAIFD2QWAgIBDw8WBB8DBU1odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3Bhc3Nlcy1jYXJkcy8xMC1qb3VybmV5LWNhcmQuYXNweB8BBQ8xMC1Kb3VybmV5IENhcmRkZAIGD2QWAgIBDw8WBB8DBUJodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3Bhc3Nlcy1jYXJkcy9qdW1wLmFzcHgfAQUESnVtcGRkAgIPZBYEZg8PFgQfAwU6aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yYWlsY2FyZHMuYXNweB8BBQlSYWlsY2FyZHNkZAIBDxYCHwYCCBYQAgEPZBYCAgEPDxYEHwMFUWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmFpbGNhcmRzL3JhaWxjYXJkLWZpeGVkLWpvdXJuZXkuYXNweB8BBRBKb3VybmV5IFJhaWxjYXJkZGQCAg9kFgICAQ8PFgQfAwVNaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yYWlsY2FyZHMvcmFpbGNhcmQtcGFydC10aW1lLmFzcHgfAQUSUGFydC1UaW1lIFJhaWxjYXJkZGQCAw9kFgICAQ8PFgQfAwVLaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yYWlsY2FyZHMvcmFpbGNhcmQtbmV0d29yay5hc3B4HwEFEE5ldHdvcmsgUmFpbGNhcmRkZAIED2QWAgIBDw8WBB8DBUZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3JhaWxjYXJkcy9jYW1wdXMtY2FyZC5hc3B4HwEFC0NhbXB1cyBDYXJkZGQCBQ9kFgICAQ8PFgQfAwVKaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yYWlsY2FyZHMvcmFpbGNhcmQtZGVsaWpuLmFzcHgfAQUVUmFpbGNhcmQgd2l0aCBEZSBMaWpuZGQCBg9kFgICAQ8PFgQfAwVHaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yYWlsY2FyZHMvcmFpbGNhcmQtdGVjLmFzcHgfAQURUmFpbGNhcmQgd2l0aCBURUNkZAIHD2QWAgIBDw8WBB8DBUhodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3JhaWxjYXJkcy9yYWlsY2FyZC1zdGliLmFzcHgfAQUXUmFpbGNhcmQgd2l0aCBNSVZCL1NUSUJkZAIID2QWAgIBDw8WBB8DBVFodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3JhaWxjYXJkcy9jaXR5d2lkZS1zZWFzb24tdGlja2V0LmFzcHgfAQUWQ2l0eXdpZGUgU2Vhc29uIFRpY2tldGRkAgMPZBYEZg8PFgQfAwU2aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9tb2JpYi5hc3B4HwEFBU1PQklCZGQCAQ8WAh8GAgIWBAIBD2QWAgIBDw8WBB8DBTxodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL21vYmliL21vYmliLmFzcHgfAQUUQWxyZWFkeSBhIE1PQklCIGNhcmRkZAICD2QWAgIBDw8WBB8DBT9odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL21vYmliL25vLW1vYmliLmFzcHgfAQUcRG9uJ3QgaGF2ZSBhIE1PQklCIGNhcmQgeWV0P2RkAgMPZBYCAgEPZBYCZg8WAh8GAgIWBmYPZBYCZg8VAQpsYXN0LWNoaWxkZAIBD2QWBGYPDxYEHwMFOmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmVkdWN0aW9uLmFzcHgfAQUdUmVkdWNlZCBmYXJlcyBhbmQgZnJlZSB0cmF2ZWxkZAIBDxYCHwYCDBYYAgEPZBYCAgEPDxYEHwMFSWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmVkdWN0aW9uL2xhcmdlLWZhbWlsaWVzLmFzcHgfAQUOTGFyZ2UgRmFtaWxpZXNkZAICD2QWAgIBDw8WBB8DBUNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3JlZHVjdGlvbi9jaGlsZHJlbi5hc3B4HwEFCENoaWxkcmVuZGQCAw9kFgICAQ8PFgQfAwVDaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yZWR1Y3Rpb24vcHJlZ25hbnQuYXNweB8BBQ1Nb3RoZXJzLXRvLWJlZGQCBA9kFgICAQ8PFgQfAwVJaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yZWR1Y3Rpb24vam91cm5hbGlzdC0wNTAuYXNweB8BBQtKb3VybmFsaXN0c2RkAgUPZBYCAgEPDxYEHwMFRGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmVkdWN0aW9uL2pvYnNlZWtlci5hc3B4HwEFCkpvYnNlZWtlcnNkZAIGD2QWAgIBDw8WBB8DBUNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3JlZHVjdGlvbi9taWxpdGFyeS5hc3B4HwEFCE1pbGl0YXJ5ZGQCBw9kFgICAQ8PFgQfAwVBaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yZWR1Y3Rpb24vcG9saWNlLmFzcHgfAQUPUG9saWNlIG9mZmljZXJzZGQCCA9kFgICAQ8PFgQfAwVCaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9yZWR1Y3Rpb24vcGF0cmlvdC5hc3B4HwEFG05hdGlvbmFsIFJlY29nbml0aW9uIFN0YXR1c2RkAgkPZBYCAgEPDxYEHwMFS2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmVkdWN0aW9uL3NwZWNpYWwtZGlzY291bnQuYXNweB8BBRtQcmVmZXJlbnRpYWwgcmVpbWJ1cnNlbWVudCBkZAIKD2QWAgIBDw8WBB8DBVNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3JlZHVjdGlvbi9uYXRpb25hbC1yZWR1Y3Rpb24tYmxpbmQuYXNweB8BBRpCbGluZCBvciBwYXJ0aWFsbHkgc2lnaHRlZGRkAgsPZBYCAgEPDxYEHwMFRWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmVkdWN0aW9uL2d1aWRlLWZyZWUuYXNweB8BBQtGcmVlIENhcmVyIGRkAgwPZBYCAgEPDxYEHwMFTWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmVkdWN0aW9uL3ByaW9yaXR5LXRvLWEtc2VhdC5hc3B4HwEFElByaW9yaXR5IHRvIGEgc2VhdGRkAgIPZBYEZg8PFgQfAwU3aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9hYnJvYWQuYXNweB8BBRZBIHRyYWluIHRvIHRoZSBib3JkZXI/ZGQCAQ8WAh8GAgUWCgIBD2QWAgIBDw8WBB8DBT5odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL2Ficm9hZC9hYWNoZW4uYXNweB8BBQZBYWNoZW5kZAICD2QWAgIBDw8WBB8DBT1odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL2Ficm9hZC9saWxsZS5hc3B4HwEFBUxpbGxlZGQCAw9kFgICAQ8PFgQfAwVCaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy9hYnJvYWQvbHV4ZW1ib3VyZy5hc3B4HwEFCkx1eGVtYm91cmdkZAIED2QWAgIBDw8WBB8DBUJodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL2Ficm9hZC9tYWFzdHJpY2h0LmFzcHgfAQUKTWFhc3RyaWNodGRkAgUPZBYCAgEPDxYEHwMFQmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvYWJyb2FkL3Jvb3NlbmRhYWwuYXNweB8BBQpSb29zZW5kYWFsZGQCAw9kFgZmDxUBAGQCAQ8PFgIfAwUpaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9sZWlzdXJlLmFzcHhkFgJmD2QWAmYPFQEaQi1FeGN1cnNpb25zICZhbXA7IExlaXN1cmVkAgMPFgIfBgIDFgYCAQ9kFgICAQ9kFgJmDxYCHwYCAhYGZg9kFgJmDxUBAGQCAQ9kFgRmDw8WBB8DBThodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2xlaXN1cmUvbGVpc3VyZS1zZWFyY2guYXNweB8BBQ5MZWlzdXJlIFNlYXJjaGRkAgEPFgIfBmZkAgIPZBYEZg8PFgQfAwVAaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9sZWlzdXJlL2Zlc3RpdmFscy1hbmQtY29uY2VydHMuYXNweB8BBRZGZXN0aXZhbHMgYW5kIGNvbmNlcnRzZGQCAQ8WAh8GZmQCAg9kFgICAQ9kFgJmDxYCHwYCARYEZg9kFgJmDxUBAGQCAQ9kFgRmDw8WBB8DBTVodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2xlaXN1cmUvYmV4Y3Vyc2lvbnMuYXNweB8BBQxCLUV4Y3Vyc2lvbnNkZAIBDxYCHwYCBxYOAgEPZBYCAgEPDxYEHwMFSWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS9iZXhjdXJzaW9ucy9nZW5lcmFsLWluZm9ybWF0aW9uLmFzcHgfAQUTR2VuZXJhbCBpbmZvcm1hdGlvbmRkAgIPZBYCAgEPDxYEHwMFSWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS9iZXhjdXJzaW9ucy9uYXR1cmUtYW5pbWFsLXBhcmtzLmFzcHgfAQUXTmF0dXJlIGFuZCBhbmltYWwgcGFya3NkZAIDD2QWAgIBDw8WBB8DBUVodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2xlaXN1cmUvYmV4Y3Vyc2lvbnMvYWR2ZW50dXJlLXBhcmtzLmFzcHgfAQUTUGFya3MgYW5kIGFkdmVudHVyZWRkAgQPZBYCAgEPDxYEHwMFSWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS9iZXhjdXJzaW9ucy9hcnQtY3VsdHVyZS1zY2llbmNlLmFzcHgfAQUYQXJ0LCBjdWx0dXJlIGFuZCBzY2llbmNlZGQCBQ9kFgICAQ8PFgQfAwU8aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9sZWlzdXJlL2JleGN1cnNpb25zL2V2ZW50cy5hc3B4HwEFBkV2ZW50c2RkAgYPZBYCAgEPDxYEHwMFPWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS9ncmVhdC13YXItY2VudGVuYXJ5LmFzcHgfAQUXVGhlIEdyZWF0IFdhciBDZW50ZW5hcnlkZAIHD2QWAgIBDw8WBB8DBTNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2xlaXN1cmUvbW9ucy0yMDE1LmFzcHgfAQUJTW9ucyAyMDE1ZGQCAw9kFgICAQ9kFgJmDxYCHwYCAxYIZg9kFgJmDxUBCmxhc3QtY2hpbGRkAgEPZBYEZg8PFgQfAwU9aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9sZWlzdXJlL2dyZWF0LXdhci1jZW50ZW5hcnkuYXNweB8BBRdUaGUgR3JlYXQgV2FyIENlbnRlbmFyeWRkAgEPFgIfBmZkAgIPZBYEZg8PFgQfAwUzaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9sZWlzdXJlL21vbnMtMjAxNS5hc3B4HwEFCU1vbnMgMjAxNWRkAgEPFgIfBmZkAgMPZBYEZg8PFgQfAwVFaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy90aWNrZXRzL2dyb3VwLXRyYXZlbC5hc3B4HwEFDEdyb3VwIHRyYXZlbGRkAgEPFgIfBmZkAgQPZBYGZg8VAQBkAgEPDxYCHwMFNGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluLmFzcHhkFgJmD2QWAmYPFQEeU3RhdGlvbnMgYW5kIG9uLWJvYXJkIHNlcnZpY2VzZAIDDxYCHwYCAxYGAgEPZBYCAgEPZBYCZg8WAh8GAgQWCmYPZBYCZg8VAQBkAgEPZBYEZg8PFgQfAwVFaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9zdGF0aW9ucy1hbmQtdHJhaW4vc2VhcmNoLWEtc3RhdGlvbi5hc3B4HwEFEFNlYXJjaCBhIHN0YXRpb25kZAIBDxYCHwZmZAICD2QWBGYPDxYEHwMFRmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluL3NlYXJjaC1hLXN0YXRpb24yLmFzcHgfAQUQU2VhcmNoIGEgc3RhdGlvbmRkAgEPFgIfBmZkAgMPZBYEZg8PFgQfAwVSaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9zdGF0aW9ucy1hbmQtdHJhaW4vOC10aXBzLWZvci1pbnRlbGxpZ2VudC10cmF2ZWwuYXNweB8BBR04IHRpcHMgZm9yIGludGVsbGlnZW50IHRyYXZlbGRkAgEPFgIfBmZkAgQPZBYEZg8PFgQfAwVTaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL3Bhc3NlbmdlcnMtd2l0aC1yZWR1Y2VkLW1vYmlsaXR5LmFzcHgfAQUgUGFzc2VuZ2VycyB3aXRoIHJlZHVjZWQgbW9iaWxpdHlkZAIBDxYCHwZmZAICD2QWAgIBD2QWAmYPFgIfBgIEFgpmD2QWAmYPFQEAZAIBD2QWBGYPDxYEHwMFS2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluL3BhcmtpbmctYXQtdGhlLXN0YXRpb24uYXNweB8BBRdQYXJraW5nIGF0IHRoZSBzdGF0aW9uIGRkAgEPFgIfBmZkAgIPZBYEZg8PFgQfAwVNaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9zdGF0aW9ucy1hbmQtdHJhaW4vZmFzdC1haXJwb3J0LWNvbm5lY3Rpb25zLmFzcHgfAQUYRmFzdCBhaXJwb3J0IGNvbm5lY3Rpb25zZGQCAQ8WAh8GZmQCAw9kFgRmDw8WBB8DBUpodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3N0YXRpb25zLWFuZC10cmFpbi90cmF2ZWwtd2l0aC15b3VyLXBldHMuYXNweB8BBRRUcmF2ZWwgd2l0aCB5b3VyIHBldGRkAgEPFgIfBmZkAgQPZBYEZg8PFgQfAwVFaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9zdGF0aW9ucy1hbmQtdHJhaW4vbHVnZ2FnZS1vbi1ib2FyZC5hc3B4HwEFEEx1Z2dhZ2Ugb24gYm9hcmRkZAIBDxYCHwZmZAIDD2QWAgIBD2QWAmYPFgIfBgIEFgpmD2QWAmYPFQEKbGFzdC1jaGlsZGQCAQ9kFgRmDw8WBB8DBUZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3N0YXRpb25zLWFuZC10cmFpbi9iaWtlLW9uLXRoZS10cmFpbi5hc3B4HwEFEUJpa2Ugb24gdGhlIHRyYWluZGQCAQ8WAh8GZmQCAg9kFgRmDw8WBB8DBVZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3N0YXRpb25zLWFuZC10cmFpbi9yZW50LWEtc2hhcmVkLWJpa2UtYXQtdGhlLXN0YXRpb24uYXNweB8BBSFSZW50IGEgc2hhcmVkIGJpa2UgYXQgdGhlIHN0YXRpb25kZAIBDxYCHwZmZAIDD2QWBGYPDxYEHwMFUGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluL3RyYXZlbGxpbmctMXN0LW9yLTJuZC1jbGFzcy5hc3B4HwEFHFRyYXZlbGxpbmcgMXN0IG9yIDJuZCBjbGFzcz9kZAIBDxYCHwZmZAIED2QWBGYPDxYEHwMFO2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluL3NhZmV0eS5hc3B4HwEFLTA4MDAvMzAgMjMwIC0gU2VjdXJpdHkgaW4gc3RhdGlvbnMgYW5kIHRyYWluc2RkAgEPFgIfBmZkAgUPZBYGZg8VAQBkAgEPDxYCHwMFMmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS5hc3B4ZBYCZg9kFgJmDxUBEUN1c3RvbWVyIFNlcnZpY2UgZAIDDxYCHwYCAxYGAgEPZBYCAgEPZBYCZg8WAh8GAgYWDmYPZBYCZg8VAQBkAgEPZBYEZg8PFgQfAwVAaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL3JmaWQtb3ZlcnZpZXcuYXNweB8BBRNUaWNrZXQgb24gdGhlIHRyYWluZGQCAQ8WAh8GZmQCAg9kFgRmDw8WBB8DBTpodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvY29udGFjdC5hc3B4HwEFB0NvbnRhY3RkZAIBDxYCHwZmZAIDD2QWBGYPDxYEHwMFOmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS90d2l0dGVyLmFzcHgfAQUSVHdpdHRlciBATk1CUy9TTkNCZGQCAQ8WAh8GZmQCBA9kFgRmDw8WBB8DBUpodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2Uvd2hlcmUtdG8tYnV5LW15LXRpY2tldHMuYXNweB8BBSNXaGVyZSBhbmQgaG93IHRvIGJ1eSB0cmFpbiB0aWNrZXRzP2RkAgEPFgIfBgIGFgwCAQ9kFgICAQ8PFgQfAwVcaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL3doZXJlLXRvLWJ1eS1teS10aWNrZXRzL2J1eS10aWNrZXQtb25saW5lLmFzcHgfAQUMVmlhIGludGVybmV0ZGQCAg9kFgICAQ8PFgQfAwVZaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL3doZXJlLXRvLWJ1eS1teS10aWNrZXRzL2J1eS10aWNrZXQtYXBwLmFzcHgfAQUZVGhyb3VnaCB0aGUgTk1CUy9TTkNCIGFwcGRkAgMPZBYCAgEPDxYEHwMFXGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS93aGVyZS10by1idXktbXktdGlja2V0cy9idXktdGlja2V0LW1vYmlsZS5hc3B4HwEFElZpYSBtb2JpbGUgd2Vic2l0ZWRkAgQPZBYCAgEPDxYEHwMFXWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS93aGVyZS10by1idXktbXktdGlja2V0cy9idXktdGlja2V0LXN0YXRpb24uYXNweB8BBQ5JbiB0aGUgc3RhdGlvbmRkAgUPZBYCAgEPDxYEHwMFVmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS93aGVyZS10by1idXktbXktdGlja2V0cy9idXktcGF5bWVudC5hc3B4HwEFEk1ldGhvZHMgb2YgcGF5bWVudGRkAgYPZBYCAgEPDxYEHwMFVmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS93aGVyZS10by1idXktbXktdGlja2V0cy9idXktc3VtbWFyeS5hc3B4HwEFFURpc3RyaWJ1dGlvbiBjaGFubmVsc2RkAgUPZBYEZg8PFgQfAwVTaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL3Bhc3NlbmdlcnMtd2l0aC1yZWR1Y2VkLW1vYmlsaXR5LmFzcHgfAQUgUGFzc2VuZ2VycyB3aXRoIHJlZHVjZWQgbW9iaWxpdHlkZAIBDxYCHwZmZAIGD2QWBGYPDxYEHwMFP2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9sb3N0LW9iamVjdHMuYXNweB8BBQxMb3N0IG9iamVjdHNkZAIBDxYCHwZmZAICD2QWAgIBD2QWAmYPFgIfBgIIFhJmD2QWAmYPFQEAZAIBD2QWBGYPDxYEHwMFSmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9jb21wZW5zYXRpb24tZm9yLWRlbGF5cy5hc3B4HwEFDENvbXBlbnNhdGlvbmRkAgEPFgIfBmZkAgIPZBYEZg8PFgQfAwU+aHR0cDovL3NuY2Itc2l2LmhhZmFzLmRlL2Jpbi9oZWxwLmV4ZS9lbj90cGw9ZGVsYXlfY2VydGlmaWNhdGUfAQURRGVsYXkgY2VydGlmaWNhdGVkZAIBDxYCHwZmZAIDD2QWBGYPDxYEHwMFRWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvdGlja2V0cy9ncm91cC10cmF2ZWwuYXNweB8BBQxHcm91cCB0cmF2ZWxkZAIBDxYCHwZmZAIED2QWBGYPDxYEHwMFRmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9jb21tZW50cy1jb21wbGFpbnRzLmFzcHgfAQUWQ29tbWVudHMgb3IgY29tcGxhaW50c2RkAgEPFgIfBmZkAgUPZBYEZg8PFgQfAwVFaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL2Jyb2NodXJlcy1sZWFmbGV0cy5hc3B4HwEFFUJyb2NodXJlcyBhbmQgZm9sZGVyc2RkAgEPFgIfBmZkAgYPZBYEZg8PFgQfAwVYaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL2luZm9ybWF0aW9uLXNlcnZpY2VzLWFuZC10cmF2ZWwtdG9vbHMuYXNweB8BBSVJbmZvcm1hdGlvbiBzZXJ2aWNlcyBhbmQgdHJhdmVsIHRvb2xzZGQCAQ8WAh8GAgQWCAIBD2QWAgIBDw8WBB8DBWxodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvaW5mb3JtYXRpb24tc2VydmljZXMtYW5kLXRyYXZlbC10b29scy90aW1ldGFibGUtb24tbW9iaWxlLmFzcHgfAQUQVGltZXRhYmxlIG1vYmlsZWRkAgIPZBYCAgEPDxYEHwMFaGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9pbmZvcm1hdGlvbi1zZXJ2aWNlcy1hbmQtdHJhdmVsLXRvb2xzL3RpbWV0YWJsZS1vbi1wYy5hc3B4HwEFD1RpbWV0YWJsZSBvbiBQQ2RkAgMPZBYCAgEPDxYEHwMFQmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvcDJ3L3NuY2Itbm1icy1icm9jaHVyZXMvcXVlcnktcDJ3LmV4ZS9lbh8BBRJQZXJzb25hbCB0aW1ldGFibGVkZAIED2QWAgIBDw8WBB8DBWNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvaW5mb3JtYXRpb24tc2VydmljZXMtYW5kLXRyYXZlbC10b29scy93b3Jrcy1pbmZvLmFzcHgfAQUKV29ya3MgSW5mb2RkAgcPZBYEZg8PFgQfAwVLaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9qcC9zbmNiLW5tYnMtcm91dGVwbGFubmVyL2hlbHAuZXhlL2VuP3RwbD1oaW1fbWFwHwEFE05ldHdvcmsgZGlzdHVyYmFuY2VkZAIBDxYCHwZmZAIID2QWBGYPDxYEHwMFTmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS90cmF2ZWwtdGVybXMtYW5kLWNvbmRpdGlvbnMuYXNweB8BBRtUcmF2ZWwgdGVybXMgYW5kIGNvbmRpdGlvbnNkZAIBDxYCHwZmZAIDD2QWAgIBD2QWAmYPFgIfBgICFgZmD2QWAmYPFQEKbGFzdC1jaGlsZGQCAQ9kFgRmDw8WBB8DBTZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL21vYmliLmFzcHgfAQUFTU9CSUJkZAIBDxYCHwZmZAICD2QWBGYPDxYEHwMFNmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9GQVEuYXNweB8BBQNGQVFkZAIBDxYCHwYCChYUAgEPZBYCAgEPDxYEHwMFQmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9GQVEvYm9vcmR0YXJpZWYuYXNweB8BBQ1Pbi1ib2FyZCBGYXJlZGQCAg9kFgICAQ8PFgQfAwU+aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL0ZBUS9tb2JpYiAyLmFzcHgfAQUFTU9CSUJkZAIDD2QWAgIBDw8WBB8DBUNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvRkFRL2dyb3VwLXRyYXZlbC5hc3B4HwEFDEdyb3VwIHRyYXZlbGRkAgQPZBYCAgEPDxYEHwMFPmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9GQVEvdGlja2V0cy5hc3B4HwEFB1RpY2tldHNkZAIFD2QWAgIBDw8WBB8DBT9odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvRkFRL3JhaWxjYXJkLmFzcHgfAQUIUmFpbGNhcmRkZAIGD2QWAgIBDw8WBB8DBUdodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvRkFRL21vYmlsZS10aWNrZXRpbmcuYXNweB8BBRNUZXh0IG1lc3NhZ2UgdGlja2V0ZGQCBw9kFgICAQ8PFgQfAwVFaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL0ZBUS9tb2JpbGUtdGlja2V0cy5hc3B4HwEFDk1vYmlsZSBUaWNrZXRzZGQCCA9kFgICAQ8PFgQfAwVKaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL0ZBUS90aWNrZXQtb24tdGhlLXRyYWluLmFzcHgfAQUaVGlja2V0IG9uIHRoZSB0cmFpbiAoUkZJRClkZAIJD2QWAgIBDw8WBB8DBUJodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvRkFRL3Rlcm1pbm9sb2d5LmFzcHgfAQULVGVybWlub2xvZ3lkZAIKD2QWAgIBDw8WBB8DBUtodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvRkFRL3JlZHVjZWQtbW9iaWxpdHktc21zLmFzcHgfAQUhQ29uZmlybWF0aW9uIG9mIEFzc2lzdGFuY2UgYnkgU01TZGQCBg9kFgZmDxUBAGQCAQ8PFgIfAwUqaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9idXNpbmVzcy5hc3B4ZBYCZg9kFgJmDxUBDEZvciBidXNpbmVzc2QCAw8WAh8GAgMWBgIBD2QWAgIBD2QWAmYPFgIfBgIDFghmD2QWAmYPFQEAZAIBD2QWBGYPDxYEHwMFMGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vYnVzaW5lc3MvcmVndXMuYXNweB8BBRNGbGV4aWJsZSB3b3Jrc3BhY2VzZGQCAQ8WAh8GZmQCAg9kFgRmDw8WBB8DBTNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2J1c2luZXNzL2NvbW11dGVyLmFzcHgfAQUTSG9tZSB0byB3b3JrIHRyYXZlbGRkAgEPFgIfBmZkAgMPZBYEZg8PFgQfAwUzaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9idXNpbmVzcy9yYWlsZWFzZS5hc3B4HwEFFUNvbXBhbnkgY2FyIGFuZCB0cmFpbmRkAgEPFgIfBmZkAgIPZBYCAgEPZBYCZg8WAh8GAgMWCGYPZBYCZg8VAQBkAgEPZBYEZg8PFgQfAwU/aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9idXNpbmVzcy9idXNpbmVzcy1lLXRpY2tldGluZy5hc3B4HwEFFEJ1c2luZXNzIEUtVGlja2V0aW5nZGQCAQ8WAh8GZmQCAg9kFgRmDw8WBB8DBUtodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2J1c2luZXNzL3RyYWluLWluZm8tc2VydmljZXMtZm9yLWJ1c2luZXNzLmFzcHgfAQUZVHJhdmVsIFRvb2xzIGZvciBidXNpbmVzc2RkAgEPFgIfBmZkAgMPZBYEZg8PFgQfAwUxaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9idXNpbmVzcy9ldmVudHMuYXNweB8BBRJFdmVudHMgw6AgbGEgY2FydGVkZAIBDxYCHwZmZAIDD2QWAgIBD2QWAmYPFgIfBgIDFghmD2QWAmYPFQEKbGFzdC1jaGlsZGQCAQ9kFgRmDw8WBB8DBTNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2J1c2luZXNzL21vYmlscG9sLmFzcHgfAQUrTW9iaWxpdHkgU3VydmV5OiBkaWFnbm9zZSB5b3VyIHRyYXZlbCBuZWVkc2RkAgEPFgIfBmZkAgIPZBYEZg8PFgQfAwUvaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9idXNpbmVzcy9idWxrLmFzcHgfAQUbVGlja2V0cyBpbiBsYXJnZSBxdWFudGl0aWVzZGQCAQ8WAh8GZmQCAw9kFgRmDw8WBB8DBTpodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2J1c2luZXNzL3RyYXZlbC12b3VjaGVycy5hc3B4HwEFD1RyYXZlbCB2b3VjaGVyc2RkAgEPFgIfBmZkAgcPZBYGZg8VAQBkAgEPDxYCHwMFKWh0dHBzOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL015U05DQi5hc3B4ZBYCZg9kFgJmDxUBDE15IFNOQ0IvTk1CU2QCAw8WAh8GAgMWBgIBD2QWAgIBD2QWAmYPFgIfBgIBFgRmD2QWAmYPFQEAZAIBD2QWBGYPDxYEHwMFOGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vTXlTTkNCL0V3YWxsZXRPdmVydmlldy5hc3B4HwEFCk15IGVXYWxsZXRkZAIBDxYCHwZmZAICD2QWAgIBD2QWAmYPFgIfBgIBFgRmD2QWAmYPFQEAZAIBD2QWBGYPDxYEHwMFPmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vTXlTTkNCL3RyYXZlbGxlci1jZXJ0aWZpY2F0ZS5hc3B4HwEFFVRyYXZlbGxlciBDZXJ0aWZpY2F0ZWRkAgEPFgIfBmZkAgMPZBYCAgEPZBYCZg8WAh8GAgEWBGYPZBYCZg8VAQpsYXN0LWNoaWxkZAIBD2QWBGYPDxYEHwMFT2h0dHBzOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RpbWV0YWJsZS1hbmQtYnV5LXRpY2tldHMvVmFsaWRhdGUtdHJhaW5jYXJkLmFzcHgfAQUWVmFsaWRhdGUgeW91ciByYWlsY2FyZGRkAgEPFgIfBmZkAggPZBYGZg8VAQpsYXN0LWNoaWxkZAIBDw8WAh8DBSlodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3MtdHJhaW4uYXNweGQWAmYPZBYCZg8VAQdTLVRyYWluZAIDDxYCHwZmZAIPD2QWAgIBEGRkFgICAw9kFgwCAQ9kFgJmDxUBBVBhdXNlZAIDD2QWDAIBDxUJS19nYXEucHVzaChbJ19zZXRDdXN0b21WYXInLCAyICwgJ0xldmVsLTInLCAnVGltZXRhYmxlICYgYnV5IHRpY2tldHMnLCAzIF0pO0lfZ2FxLnB1c2goWydfdHJhY2tQYWdldmlldycsICcvZW4vc2VhcmNoLXRpbWV0YWJsZS1hbmQtYnV5aW5nLXRpY2tldHMnXSk7F1RpbWV0YWJsZSAmIGJ1eSB0aWNrZXRzRV9nYXEucHVzaChbJ19zZXRDdXN0b21WYXInLCAyICwgJ0xldmVsLTInLCAnU3RhdGlvbnMgJiBUcmFpbnMnLCAzIF0pOzNfZ2FxLnB1c2goWydfdHJhY2tQYWdldmlldycsICcvZW4vcmVhbHRpbWUtaW5mbyddKTsRU3RhdGlvbnMgJiBUcmFpbnNKX2dhcS5wdXNoKFsnX3NldEN1c3RvbVZhcicsIDIgLCAnTGV2ZWwtMicsICdWYWxpZGF0ZSB5b3VyIHJhaWxjYXJkJywgMyBdKTsyX2dhcS5wdXNoKFsnX3RyYWNrUGFnZXZpZXcnLCAnL2VuL3N1YnNjcmlwdGlvbiddKTsWVmFsaWRhdGUgeW91ciByYWlsY2FyZGQCAg9kFkZmDxUIFiNkZXBhcnR1cmVTdGF0aW9uSW5wdXQoU3RhdGlvbiwgc3RvcCwgYWRkcmVzcywgQi1FeGN1cnNpb24sIC4uLhYjZGVwYXJ0dXJlU3RhdGlvbklucHV0YyNjdGwwMF9jdGwwMF9ib2R5UGxhY2Vob2xkZXJfYm9keVBsYWNlaG9sZGVyX21vYmlsaXR5VGltZVRhYmxlU2VhcmNoX0hvbWVUYWJUaW1lVGFibGUxX3N1Ym1pdEJ1dHRvbhQjYXJyaXZhbFN0YXRpb25JbnB1dChTdGF0aW9uLCBzdG9wLCBhZGRyZXNzLCBCLUV4Y3Vyc2lvbiwgLi4uFCNhcnJpdmFsU3RhdGlvbklucHV0YyNjdGwwMF9jdGwwMF9ib2R5UGxhY2Vob2xkZXJfYm9keVBsYWNlaG9sZGVyX21vYmlsaXR5VGltZVRhYmxlU2VhcmNoX0hvbWVUYWJUaW1lVGFibGUxX3N1Ym1pdEJ1dHRvbmQCAQ9kFgICAQ8WAh8BBRRJbnRlcm5hdGlvbmFsIHRyYXZlbGQCAg8PFgIfAQUGRnJvbSAqZGQCBA8PFgIeDEVycm9yTWVzc2FnZQUYUGxlYXNlIGVudGVyIGEgZGVwYXJ0dXJlZGQCBQ8WAh8BBQ9NYXAgQ29vcmRpbmF0ZXNkAgYPDxYCHwEFDVNlYXJjaCBvbiBtYXBkZAILDw8WAh8BBQRUbyAqZGQCDA8PFgIfAQUNU2VhcmNoIG9uIG1hcGRkAg4PDxYCHwsFF1BsZWFzZSBlbnRlciBhbiBhcnJpdmFsZGQCDw8WAh8BBQ9NYXAgQ29vcmRpbmF0ZXNkAhQPEA8WAh8BBQZTaW5nbGVkZGRkAhUPEA8WAh8BBRpPdXR3YXJkIGFuZCByZXR1cm4gam91cm5leWRkZGQCFg8PFgIfAQUTRGF0ZSAoZGQvbW0veXl5eSkgKmRkAhcPDxYCHgdUb29sVGlwBQwoZGQvbW0veXl5eSlkZAIYDxUBDXNob3cgY2FsZW5kYXJkAhkPDxYCHwsFMVBsZWFzZSBlbnRlciBhIHZhbGlkIGRhdGUsIGZvciBleGFtcGxlIDI1LzEyLzIwMTJkZAIaDw8WBB4MTWF4aW11bVZhbHVlBQozMS8xMi85OTk5HwsFMVBsZWFzZSBlbnRlciBhIHZhbGlkIGRhdGUsIGZvciBleGFtcGxlIDI1LzEyLzIwMTJkZAIbDw8WAh8BBQZUaW1lICpkZAIdDw8WBB4UVmFsaWRhdGlvbkV4cHJlc3Npb24FKV4oWzAtMV0/WzAtOV18MlswLTRdKT8oOik/KFswLTVdP1swLTldKT8kHwsFGlBsZWFzZSBlbnRlciBhIHZhbGlkIHRpbWUuZGQCHg8PFgIfCwUaUGxlYXNlIGVudGVyIGEgdmFsaWQgdGltZS5kZAIfDxAPFgIfAQUJRGVwYXJ0dXJlZBYCHgVjbGFzcwUSanMtZGVwYXJ0dXJlLXJhZGlvZGQCIA8QDxYCHwEFB0Fycml2YWxkFgIfDwUQanMtYXJyaXZhbC1yYWRpb2RkAiEPDxYCHwEFE0RhdGUgKGRkL21tL3l5eXkpICpkZAIiDw8WAh8MBQwoZGQvbW0veXl5eSlkZAIjDxUBDXNob3cgY2FsZW5kYXJkAiQPDxYCHwsFMVBsZWFzZSBlbnRlciBhIHZhbGlkIGRhdGUsIGZvciBleGFtcGxlIDI1LzEyLzIwMTJkZAIlDw8WBB8NBQozMS8xMi85OTk5HwEFMVBsZWFzZSBlbnRlciBhIHZhbGlkIGRhdGUsIGZvciBleGFtcGxlIDI1LzEyLzIwMTJkZAImDw8WAh8LBTFEYXRlIGNhbiBvbmx5IGJlIGVxdWFsIG9yIGdyZWF0ZXIgdGhhbiBzdGFydCBkYXRlZGQCJw8PFgIfAQUGVGltZSAqZGQCKQ8PFgQfDgUpXihbMC0xXT9bMC05XXwyWzAtNF0pPyg6KT8oWzAtNV0/WzAtOV0pPyQfCwUaUGxlYXNlIGVudGVyIGEgdmFsaWQgdGltZS5kZAIqDw8WAh8LBRpQbGVhc2UgZW50ZXIgYSB2YWxpZCB0aW1lLmRkAisPEA8WAh8BBQlEZXBhcnR1cmVkFgIfDwUZanMtZGVwYXJ0dXJlLXJldHVybi1yYWRpb2RkAiwPEA8WAh8BBQdBcnJpdmFsZBYCHw8FF2pzLWFycml2YWwtcmV0dXJuLXJhZGlvZGQCLg9kFgICAQ8WAh8BBQ9BZHZhbmNlZCBzZWFyY2hkAi8PZBYCAgEPFgIfAQUXVGltZXRhYmxlICYgYnV5IHRpY2tldHNkAgMPZBYoAgYPFgIfAQUSRmluZCByZWFsdGltZSBpbmZvZAIHDxAPFgIfAQUHU3RhdGlvbmRkZGQCCA8QDxYCHwEFBVRyYWluZGRkZAIJDw8WAh8BBQlTdGF0aW9uICpkZAILDw8WAh8LBRZQbGVhc2UgZW50ZXIgYSBzdGF0aW9uZGQCDA8PFgIfAQUOVHJhaW4gbnVtYmVyICpkZAIODw8WAh8LBRtQbGVhc2UgZW50ZXIgYSB0cmFpbiBudW1iZXJkZAIPDw8WAh8BBRNEYXRlIChkZC9tbS95eXl5KSAqZGQCEA8PFgIfDAUMKGRkL21tL3l5eXkpZGQCEQ8VAQ1zaG93IGNhbGVuZGFyZAISDw8WAh8LBTFQbGVhc2UgZW50ZXIgYSB2YWxpZCBkYXRlLCBmb3IgZXhhbXBsZSAyNS8xMi8yMDEyZGQCEw8PFgIfCwUxUGxlYXNlIGVudGVyIGEgdmFsaWQgZGF0ZSwgZm9yIGV4YW1wbGUgMjUvMTIvMjAxMmRkAhQPDxYCHwEFBlRpbWUgKmRkAhYPDxYEHwsFGlBsZWFzZSBlbnRlciBhIHZhbGlkIHRpbWUuHw4FKV4oWzAtMV0/WzAtOV18MlswLTRdKT8oOik/KFswLTVdP1swLTldKT8kZGQCFw8PFgIfCwUaUGxlYXNlIGVudGVyIGEgdmFsaWQgdGltZS5kZAIYDxAPFgIfAQUJRGVwYXJ0dXJlZBYCHw8FG2pzLWRlcGFydHVyZS1yYWRpby1yZWFsdGltZWRkAhkPEA8WAh8BBQdBcnJpdmFsZBYCHw8FGWpzLWFycml2YWwtcmFkaW8tcmVhbHRpbWVkZAIbDw8WAh8BBRRTZWFyY2ggUmVhbFRpbWUgSW5mb2RkAh4PZBYCAgEPFgIfAWVkAh8PFQIPQWR2YW5jZWQgc2VhcmNoDERpc3R1cmJhbmNlc2QCBA9kFgQCBQ8WAh8BBQlNb3JlIEluZm9kAgcPFgIfBgICFgQCAQ9kFgICAQ9kFgICAQ8WAh8BBR5Ib3cgdG8gdmFsaWRhdGUgeW91ciByYWlsY2FyZD9kAgIPZBYCAgEPZBYCAgEPFgIfAQUZSG93IHRvIGRlbWFuZCBhIHJhaWxjYXJkP2QCBQ8WAh8GAgEWAgIBD2QWAgIFDxYCHwJoZAIGDw8WAh8CaGRkAgUPZBYEZg9kFgJmD2QWAmYPFgIfAmgWAgIBDw8WAh8CaGRkAgEPZBYCZg9kFgYCAQ8WAh8BBRhCLUV4Y3Vyc2lvbnMgYW5kIExlaXN1cmVkAgMPDxYCHwJoZGQCBQ8WAh8GAgIWBGYPZBYEAgEPDxYCHwMFTGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS9iZXhjdXJzaW9ucy9ldmVudHMvY2Fybml2YWwtYmluY2hlLmFzcHhkZAIFDw8WBB8BBQlNb3JlIEluZm8fAwVMaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9sZWlzdXJlL2JleGN1cnNpb25zL2V2ZW50cy9jYXJuaXZhbC1iaW5jaGUuYXNweGRkAgEPZBYEAgEPDxYCHwMFS2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS9iZXhjdXJzaW9ucy9ldmVudHMvY2Fybml2YWwtYWFsc3QuYXNweGRkAgUPDxYEHwEFCU1vcmUgSW5mbx8DBUtodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2xlaXN1cmUvYmV4Y3Vyc2lvbnMvZXZlbnRzL2Nhcm5pdmFsLWFhbHN0LmFzcHhkZAIHD2QWBGYPZBYCZg8PFgIfAmhkFgICAQ8PFgIfAmhkZAIFD2QWAmYPZBYCAgMPFgIfAmhkAgkPZBYEZg9kFgJmD2QWCAIBDxYCHwEFKU5NQlMvU05DQiBTZXJ2aWNlczogdHJhdmVsIGluIGFsbCBjb21mb3J0ZAIDDw8WAh8CaGRkAgUPDxYCHwJnZBYCZg8WAh8GAgMWBmYPZBYCAgcPDxYEHwEFCU1vcmUgSW5mbx8DBXFodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvaW5mb3JtYXRpb24tc2VydmljZXMtYW5kLXRyYXZlbC10b29scy90aW1ldGFibGUtb24tbW9iaWxlL2FwcHMuYXNweGRkAgEPZBYCAgcPDxYEHwEFCU1vcmUgSW5mbx8DBXVodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvaW5mb3JtYXRpb24tc2VydmljZXMtYW5kLXRyYXZlbC10b29scy90aW1ldGFibGUtb24tbW9iaWxlL3Ntcy0yODI4LmFzcHhkZAICD2QWAgIHDw8WBB8BBQlNb3JlIEluZm8fAwVcaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL3doZXJlLXRvLWJ1eS1teS10aWNrZXRzL2J1eS10aWNrZXQtbW9iaWxlLmFzcHhkZAIHD2QWAmYPFgIfBgL/////D2QCAQ9kFgJmD2QWAgIBDxYCHwYCAxYGZg9kFgICAQ9kFgZmDxUBCGJ1c2luZXNzZAIFDxYCHwZmZAIHD2QWAgIBDxYCHwEFHU1vcmUgYWJvdXQgYnVzaW5lc3Mgc29sdXRpb25zZAIBD2QWAgIBD2QWBmYPFQEGZXVyb3BlZAIFDxYCHwZmZAIHD2QWAgIBDxYCHwEFHkludGVybmF0aW9uYWwgdG9wIGRlc3RpbmF0aW9uc2QCAg9kFgICAQ9kFgZmDxUBCWNvcnBvcmF0ZWQCBQ8WAh8GZmQCBw8PFgIfAmhkFgICAQ8WAh8BZWQCCw9kFgJmD2QWAmYPZBYEAgEPDxYCHwJoZGQCBw8PFgIfAmhkZAIQD2QWAmYPFgIfBgIDFgZmD2QWAgIBDxYCHwYCAxYGAgEPZBYEAgEPDxYGHwMFKWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vRGVmYXVsdC5hc3B4HwEFBEhvbWUfBwUFX3NlbGZkZAIDDxYCHwZmZAICD2QWBAIBDw8WBh8DBUBodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2pwL3NuY2Itbm1icy1yb3V0ZXBsYW5uZXIvcXVlcnkuZXhlL2VuHwEFG1RpbWV0YWJsZSAmYW1wOyBidXkgdGlja2V0cx8HBQVfc2VsZmRkAgMPFgIfBmZkAgMPZBYEAgEPDxYGHwMFMGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMuYXNweB8BBQ5UcmF2ZWwgdGlja2V0cx8HBQVfc2VsZmRkAgMPFgIfBgIGFgwCAQ9kFgICAQ8PFgYfAwVRaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi90cmF2ZWwtdGlja2V0cy93aGljaC1pcy10aGUtcmlnaHQtdGlja2V0LWZvci1tZS5hc3B4HwEFIVdoaWNoIGlzIHRoZSByaWdodCB0aWNrZXQgZm9yIG1lPx8HBQVfc2VsZmRkAgIPZBYCAgEPDxYGHwMFOGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvdGlja2V0cy5hc3B4HwEFB1RpY2tldHMfBwUFX3NlbGZkZAIDD2QWAgIBDw8WBh8DBT1odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3Bhc3Nlcy1jYXJkcy5hc3B4HwEFEFBhc3NlcyBhbmQgY2FyZHMfBwUFX3NlbGZkZAIED2QWAgIBDw8WBh8DBTpodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL3JhaWxjYXJkcy5hc3B4HwEFCVJhaWxjYXJkcx8HBQVfc2VsZmRkAgUPZBYCAgEPDxYGHwMFOmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vdHJhdmVsLXRpY2tldHMvcmVkdWN0aW9uLmFzcHgfAQUdUmVkdWNlZCBmYXJlcyBhbmQgZnJlZSB0cmF2ZWwfBwUFX3NlbGZkZAIGD2QWAgIBDw8WBh8DBTdodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3RyYXZlbC10aWNrZXRzL2Ficm9hZC5hc3B4HwEFFkEgdHJhaW4gdG8gdGhlIGJvcmRlcj8fBwUFX3NlbGZkZAIBD2QWAgIBDxYCHwYCAhYEAgEPZBYEAgEPDxYGHwMFKWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS5hc3B4HwEFGkItRXhjdXJzaW9ucyAmYW1wOyBMZWlzdXJlHwcFBV9zZWxmZGQCAw8WAh8GAgIWBAIBD2QWAgIBDw8WBh8DBThodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2xlaXN1cmUvbGVpc3VyZS1zZWFyY2guYXNweB8BBQ5MZWlzdXJlIFNlYXJjaB8HBQVfc2VsZmRkAgIPZBYCAgEPDxYGHwMFNWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbGVpc3VyZS9iZXhjdXJzaW9ucy5hc3B4HwEFDEItRXhjdXJzaW9ucx8HBQVfc2VsZmRkAgIPZBYEAgEPDxYGHwMFNGh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluLmFzcHgfAQUeU3RhdGlvbnMgYW5kIG9uLWJvYXJkIHNlcnZpY2VzHwcFBV9zZWxmZGQCAw8WAh8GAgQWCAIBD2QWAgIBDw8WBh8DBUVodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL3N0YXRpb25zLWFuZC10cmFpbi9zZWFyY2gtYS1zdGF0aW9uLmFzcHgfAQUQU2VhcmNoIGEgc3RhdGlvbh8HBQVfc2VsZmRkAgIPZBYCAgEPDxYGHwMFUmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluLzgtdGlwcy1mb3ItaW50ZWxsaWdlbnQtdHJhdmVsLmFzcHgfAQUdOCB0aXBzIGZvciBpbnRlbGxpZ2VudCB0cmF2ZWwfBwUFX3NlbGZkZAIDD2QWAgIBDw8WBh8DBVNodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvcGFzc2VuZ2Vycy13aXRoLXJlZHVjZWQtbW9iaWxpdHkuYXNweB8BBSBQYXNzZW5nZXJzIHdpdGggcmVkdWNlZCBtb2JpbGl0eR8HBQVfc2VsZmRkAgQPZBYCAgEPDxYGHwMFS2h0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vc3RhdGlvbnMtYW5kLXRyYWluL3BhcmtpbmctYXQtdGhlLXN0YXRpb24uYXNweB8BBRdQYXJraW5nIGF0IHRoZSBzdGF0aW9uIB8HBQVfc2VsZmRkAgIPZBYCAgEPFgIfBgIEFggCAQ9kFgQCAQ8PFgYfAwUyaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlLmFzcHgfAQURQ3VzdG9tZXIgU2VydmljZSAfBwUFX3NlbGZkZAIDDxYCHwYCBxYOAgEPZBYCAgEPDxYGHwMFOmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9jb250YWN0LmFzcHgfAQUHQ29udGFjdB8HBQVfc2VsZmRkAgIPZBYCAgEPDxYGHwMFSmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS93aGVyZS10by1idXktbXktdGlja2V0cy5hc3B4HwEFI1doZXJlIGFuZCBob3cgdG8gYnV5IHRyYWluIHRpY2tldHM/HwcFBV9zZWxmZGQCAw9kFgICAQ8PFgYfAwU/aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL2xvc3Qtb2JqZWN0cy5hc3B4HwEFDExvc3Qgb2JqZWN0cx8HBQVfc2VsZmRkAgQPZBYCAgEPDxYGHwMFSmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9jb21wZW5zYXRpb24tZm9yLWRlbGF5cy5hc3B4HwEFDENvbXBlbnNhdGlvbh8HBQVfc2VsZmRkAgUPZBYCAgEPDxYGHwMFRWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY3VzdG9tZXItc2VydmljZS9icm9jaHVyZXMtbGVhZmxldHMuYXNweB8BBRVCcm9jaHVyZXMgYW5kIGZvbGRlcnMfBwUFX3NlbGZkZAIGD2QWAgIBDw8WBh8DBVhodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvaW5mb3JtYXRpb24tc2VydmljZXMtYW5kLXRyYXZlbC10b29scy5hc3B4HwEFJUluZm9ybWF0aW9uIHNlcnZpY2VzIGFuZCB0cmF2ZWwgdG9vbHMfBwUFX3NlbGZkZAIHD2QWAgIBDw8WBh8DBTZodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvRkFRLmFzcHgfAQUDRkFRHwcFBV9zZWxmZGQCAg9kFgQCAQ8PFgYfAwUqaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9idXNpbmVzcy5hc3B4HwEFDEZvciBidXNpbmVzcx8HBQVfc2VsZmRkAgMPFgIfBmZkAgMPZBYEAgEPDxYGHwMFJmh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vbmV3cy5hc3B4HwEFBE5ld3MfBwUFX3NlbGZkZAIDDxYCHwZmZAIED2QWBAIBDw8WBh8DBSlodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL1NpdGVtYXAuYXNweB8BBQdTaXRlbWFwHwcFBV9zZWxmZGQCAw8WAh8GZmQCEQ9kFgQCAQ8WAh8BBRdUaGUgc2l0ZXMgb2YgTk1CUy9TTkNCOmQCAw8WAh8GAgUWCmYPZBYCAgEPDxYGHwMFOWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vY29ycG9yYXRlL3VuZGVyX2NvbnN0cnVjdGlvbh8BBRNOTUJTL1NOQ0IgQ29ycG9yYXRlHwcFBl9ibGFua2RkAgEPZBYCAgEPDxYGHwMFHWh0dHA6Ly93d3cuYmVsZ2lhbnJhaWwuYmUvZW4vHwEFEk5NQlMvU05DQiBOYXRpb25hbB8HZWRkAgIPZBYCAgEPDxYGHwMFd2h0dHBzOi8vd3d3LmItZXVyb3BlLmNvbS9UcmF2ZWw/dXRtX3NvdXJjZT1iZWxnaWFucmFpbC5iZSZ1dG1fbWVkaXVtPXJlZmVycmFsIOKAkyBpbnRlcm5hbCZ1dG1fY2FtcGFpZ249VGV4dEZvb3Rlcl9CRUVOHwEFF05NQlMvU05DQiBJbnRlcm5hdGlvbmFsHwdlZGQCAw9kFgICAQ8PFgYfAwUbaHR0cDovL3d3dy5zbmNibG9naXN0aWNzLmJlHwEFCUxvZ2lzdGljcx8HBQZfYmxhbmtkZAIED2QWAgIBDw8WBh8DBS1odHRwczovL3BvcnRhbC5teXBvcnRhbC5iLXJhaWwuYmUvTG9naW4vTG9naW4fAQUIRXh0cmF3ZWIfBwUGX2JsYW5rZGQCEg8PFgIfAmdkFgQCAQ8WAh8BBQxNeSBOTUJTL1NOQ0JkAgMPFgIfBgIBZAITDw8WAh8CaGQWBAIBDw8WAh8CaGRkAgMPDxYCHwJoZGQCFA8PFgIfAmhkFgQCAQ8PFgIfAmhkZAIDDw8WAh8CaGRkAhUPDxYEHwgFVGh0dHBzOi8vd3d3LmJlbGdpYW5yYWlsLmJlLy9+L21lZGlhL0ltYWdlcy9Mb2dvcy9Nb2JpbGl0eS9mb290ZXItZW4tZHUtbW9iaWxpdHkuYXNoeB8JBR5Gb290ZXIgTG9nbyBTTkNCL05NQlMgTW9iaWxpdHlkZAIWD2QWBGYPFgIfAQUVJiMxNjk7IDIwMTYgTk1CUy9TTkNCZAICDxYCHwYCBRYKZg9kFgICAQ8PFgYfAwU6aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL2NvbnRhY3QuYXNweB8BBQpDb250YWN0IHVzHwdlZGQCAQ9kFgICAQ8PFgYfAwU5aHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jb3Jwb3JhdGUvdW5kZXJfY29uc3RydWN0aW9uHwEFD0NvbXBhbnkgZGV0YWlscx8HBQZfYmxhbmtkZAICD2QWAgIBDw8WBh8DBU5odHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvdHJhdmVsLXRlcm1zLWFuZC1jb25kaXRpb25zLmFzcHgfAQUbVHJhdmVtIHRlcm1zIGFuZCBjb25kaXRpb25zHwdlZGQCAw9kFgICAQ8PFgYfAwVAaHR0cDovL3d3dy5iZWxnaWFucmFpbC5iZS9lbi9jdXN0b21lci1zZXJ2aWNlL2xlZ2FsL3ByaXZhY3kuYXNweB8BBRhQcml2YWN5IHBvbGljeSAmIGNvb2tpZXMfB2VkZAIED2QWAgIBDw8WBh8DBThodHRwOi8vd3d3LmJlbGdpYW5yYWlsLmJlL2VuL2N1c3RvbWVyLXNlcnZpY2UvbGVnYWwuYXNweB8BBQxMZWdhbCBub3RpY2UfB2VkZAIXDw8WAh8CaGRkAhkPFQEAZBgBBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WDwViY3RsMDAkY3RsMDAkYm9keVBsYWNlaG9sZGVyJGJvZHlQbGFjZWhvbGRlciRtb2JpbGl0eVRpbWVUYWJsZVNlYXJjaCRIb21lVGFiVGltZVRhYmxlMSRzaW5nbGV0cmF2ZWwFZWN0bDAwJGN0bDAwJGJvZHlQbGFjZWhvbGRlciRib2R5UGxhY2Vob2xkZXIkbW9iaWxpdHlUaW1lVGFibGVTZWFyY2gkSG9tZVRhYlRpbWVUYWJsZTEkcm91bmRUcmlwVHJhdmVsBWVjdGwwMCRjdGwwMCRib2R5UGxhY2Vob2xkZXIkYm9keVBsYWNlaG9sZGVyJG1vYmlsaXR5VGltZVRhYmxlU2VhcmNoJEhvbWVUYWJUaW1lVGFibGUxJHJvdW5kVHJpcFRyYXZlbAVlY3RsMDAkY3RsMDAkYm9keVBsYWNlaG9sZGVyJGJvZHlQbGFjZWhvbGRlciRtb2JpbGl0eVRpbWVUYWJsZVNlYXJjaCRIb21lVGFiVGltZVRhYmxlMSRkZXBhcnR1cmVDaG9pY2UFY2N0bDAwJGN0bDAwJGJvZHlQbGFjZWhvbGRlciRib2R5UGxhY2Vob2xkZXIkbW9iaWxpdHlUaW1lVGFibGVTZWFyY2gkSG9tZVRhYlRpbWVUYWJsZTEkYXJyaXZhbENob2ljZQVjY3RsMDAkY3RsMDAkYm9keVBsYWNlaG9sZGVyJGJvZHlQbGFjZWhvbGRlciRtb2JpbGl0eVRpbWVUYWJsZVNlYXJjaCRIb21lVGFiVGltZVRhYmxlMSRhcnJpdmFsQ2hvaWNlBWtjdGwwMCRjdGwwMCRib2R5UGxhY2Vob2xkZXIkYm9keVBsYWNlaG9sZGVyJG1vYmlsaXR5VGltZVRhYmxlU2VhcmNoJEhvbWVUYWJUaW1lVGFibGUxJGRlcGFydHVyZVJldHVybkNob2ljZQVpY3RsMDAkY3RsMDAkYm9keVBsYWNlaG9sZGVyJGJvZHlQbGFjZWhvbGRlciRtb2JpbGl0eVRpbWVUYWJsZVNlYXJjaCRIb21lVGFiVGltZVRhYmxlMSRhcnJpdmFsUmV0dXJuQ2hvaWNlBWljdGwwMCRjdGwwMCRib2R5UGxhY2Vob2xkZXIkYm9keVBsYWNlaG9sZGVyJG1vYmlsaXR5VGltZVRhYmxlU2VhcmNoJEhvbWVUYWJUaW1lVGFibGUxJGFycml2YWxSZXR1cm5DaG9pY2UFZWN0bDAwJGN0bDAwJGJvZHlQbGFjZWhvbGRlciRib2R5UGxhY2Vob2xkZXIkbW9iaWxpdHlUaW1lVGFibGVTZWFyY2gkQmFzZUhvbWVUYWJSZWFsVGltZSRzdGF0aW9uQ2hvaWNlBWNjdGwwMCRjdGwwMCRib2R5UGxhY2Vob2xkZXIkYm9keVBsYWNlaG9sZGVyJG1vYmlsaXR5VGltZVRhYmxlU2VhcmNoJEJhc2VIb21lVGFiUmVhbFRpbWUkdHJhaW5DaG9pY2UFY2N0bDAwJGN0bDAwJGJvZHlQbGFjZWhvbGRlciRib2R5UGxhY2Vob2xkZXIkbW9iaWxpdHlUaW1lVGFibGVTZWFyY2gkQmFzZUhvbWVUYWJSZWFsVGltZSR0cmFpbkNob2ljZQVnY3RsMDAkY3RsMDAkYm9keVBsYWNlaG9sZGVyJGJvZHlQbGFjZWhvbGRlciRtb2JpbGl0eVRpbWVUYWJsZVNlYXJjaCRCYXNlSG9tZVRhYlJlYWxUaW1lJGRlcGFydHVyZUNob2ljZQVlY3RsMDAkY3RsMDAkYm9keVBsYWNlaG9sZGVyJGJvZHlQbGFjZWhvbGRlciRtb2JpbGl0eVRpbWVUYWJsZVNlYXJjaCRCYXNlSG9tZVRhYlJlYWxUaW1lJGFycml2YWxDaG9pY2UFZWN0bDAwJGN0bDAwJGJvZHlQbGFjZWhvbGRlciRib2R5UGxhY2Vob2xkZXIkbW9iaWxpdHlUaW1lVGFibGVTZWFyY2gkQmFzZUhvbWVUYWJSZWFsVGltZSRhcnJpdmFsQ2hvaWNlITKtnC9ZVCEtjN1ZaOaO+Wi9KVs=" />
+</form>
+
+                    <!--BeginNoFollow -->
+                    <div class="jq-outsideform">
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fwrapper">
+        <div class="inner">
+            <div class="doormat-wrapper container_12">
+                <div class="grid_8">
+                    <ul class="doormat clearfix">
+                        
+        
+                <li><ul>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl01_itemDoormatLink" href="http://www.belgianrail.be/en/Default.aspx" target="_self">Home</a>
+                    
+                      
+                        
+                </li>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl02_itemDoormatLink" href="http://www.belgianrail.be/jp/sncb-nmbs-routeplanner/query.exe/en" target="_self">Timetable &amp; buy tickets</a>
+                    
+                      
+                        
+                </li>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl03_itemDoormatLink" href="http://www.belgianrail.be/en/travel-tickets.aspx" target="_self">Travel tickets</a>
+                    
+                            <ul>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl03_childDoormatList_ctl01_itemDoormatLink" href="http://www.belgianrail.be/en/travel-tickets/which-is-the-right-ticket-for-me.aspx" target="_self">Which is the right ticket for me?</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl03_childDoormatList_ctl02_itemDoormatLink" href="http://www.belgianrail.be/en/travel-tickets/tickets.aspx" target="_self">Tickets</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl03_childDoormatList_ctl03_itemDoormatLink" href="http://www.belgianrail.be/en/travel-tickets/passes-cards.aspx" target="_self">Passes and cards</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl03_childDoormatList_ctl04_itemDoormatLink" href="http://www.belgianrail.be/en/travel-tickets/railcards.aspx" target="_self">Railcards</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl03_childDoormatList_ctl05_itemDoormatLink" href="http://www.belgianrail.be/en/travel-tickets/reduction.aspx" target="_self">Reduced fares and free travel</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl00_columnList_ctl03_childDoormatList_ctl06_itemDoormatLink" href="http://www.belgianrail.be/en/travel-tickets/abroad.aspx" target="_self">A train to the border?</a>
+                            </li>
+                        
+                            </ul>
+                        
+                </li>
+            
+                </ul></li>
+            
+    
+        
+                <li><ul>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl01_itemDoormatLink" href="http://www.belgianrail.be/en/leisure.aspx" target="_self">B-Excursions &amp; Leisure</a>
+                    
+                            <ul>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl01_childDoormatList_ctl01_itemDoormatLink" href="http://www.belgianrail.be/en/leisure/leisure-search.aspx" target="_self">Leisure Search</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl01_childDoormatList_ctl02_itemDoormatLink" href="http://www.belgianrail.be/en/leisure/bexcursions.aspx" target="_self">B-Excursions</a>
+                            </li>
+                        
+                            </ul>
+                        
+                </li>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl02_itemDoormatLink" href="http://www.belgianrail.be/en/stations-and-train.aspx" target="_self">Stations and on-board services</a>
+                    
+                            <ul>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl02_childDoormatList_ctl01_itemDoormatLink" href="http://www.belgianrail.be/en/stations-and-train/search-a-station.aspx" target="_self">Search a station</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl02_childDoormatList_ctl02_itemDoormatLink" href="http://www.belgianrail.be/en/stations-and-train/8-tips-for-intelligent-travel.aspx" target="_self">8 tips for intelligent travel</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl02_childDoormatList_ctl03_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/passengers-with-reduced-mobility.aspx" target="_self">Passengers with reduced mobility</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl01_columnList_ctl02_childDoormatList_ctl04_itemDoormatLink" href="http://www.belgianrail.be/en/stations-and-train/parking-at-the-station.aspx" target="_self">Parking at the station </a>
+                            </li>
+                        
+                            </ul>
+                        
+                </li>
+            
+                </ul></li>
+            
+    
+        
+                <li><ul>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service.aspx" target="_self">Customer Service </a>
+                    
+                            <ul>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_childDoormatList_ctl01_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/contact.aspx" target="_self">Contact</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_childDoormatList_ctl02_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/where-to-buy-my-tickets.aspx" target="_self">Where and how to buy train tickets?</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_childDoormatList_ctl03_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/lost-objects.aspx" target="_self">Lost objects</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_childDoormatList_ctl04_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/compensation-for-delays.aspx" target="_self">Compensation</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_childDoormatList_ctl05_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/brochures-leaflets.aspx" target="_self">Brochures and folders</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_childDoormatList_ctl06_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/information-services-and-travel-tools.aspx" target="_self">Information services and travel tools</a>
+                            </li>
+                        
+                            <li>
+                                <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl01_childDoormatList_ctl07_itemDoormatLink" href="http://www.belgianrail.be/en/customer-service/FAQ.aspx" target="_self">FAQ</a>
+                            </li>
+                        
+                            </ul>
+                        
+                </li>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl02_itemDoormatLink" href="http://www.belgianrail.be/en/business.aspx" target="_self">For business</a>
+                    
+                      
+                        
+                </li>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl03_itemDoormatLink" href="http://www.belgianrail.be/en/news.aspx" target="_self">News</a>
+                    
+                      
+                        
+                </li>
+            
+                <li>
+                    <a id="ctl00_ctl00_Doormat1_doormatList_ctl02_columnList_ctl04_itemDoormatLink" href="http://www.belgianrail.be/en/Sitemap.aspx" target="_self">Sitemap</a>
+                    
+                      
+                        
+                </li>
+            
+                </ul></li>
+            
+    
+
+                    </ul>
+                    
+<div class="legend-sites">
+    The sites of NMBS/SNCB:
+    <ul>
+        
+                <li>
+                    <a id="ctl00_ctl00_sncbSiteNavigation_sncbSitesNavigationList_ctl00_sncbSitesNavigationLink" href="http://www.belgianrail.be/en/corporate/under_construction" target="_blank">NMBS/SNCB Corporate</a></li>
+            
+                <li>
+                    <a id="ctl00_ctl00_sncbSiteNavigation_sncbSitesNavigationList_ctl01_sncbSitesNavigationLink" href="http://www.belgianrail.be/en/">NMBS/SNCB National</a></li>
+            
+                <li>
+                    <a id="ctl00_ctl00_sncbSiteNavigation_sncbSitesNavigationList_ctl02_sncbSitesNavigationLink" href="https://www.b-europe.com/Travel?utm_source=belgianrail.be&amp;utm_medium=referral – internal&amp;utm_campaign=TextFooter_BEEN">NMBS/SNCB International</a></li>
+            
+                <li>
+                    <a id="ctl00_ctl00_sncbSiteNavigation_sncbSitesNavigationList_ctl03_sncbSitesNavigationLink" href="http://www.sncblogistics.be" target="_blank">Logistics</a></li>
+            
+                <li>
+                    <a id="ctl00_ctl00_sncbSiteNavigation_sncbSitesNavigationList_ctl04_sncbSitesNavigationLink" href="https://portal.myportal.b-rail.be/Login/Login" target="_blank">Extraweb</a></li>
+            
+    </ul>
+</div>
+
+                </div>
+                <div class="grid_4">
+                    <div class="mod-greyshadowed comp-andyou">
+                        
+
+<div class="inner">
+    <div class="hd">
+        My NMBS/SNCB
+    </div>
+    <div class="bd">
+        <ul class="icon-list">
+            
+                    <li>
+                        <a title="Discover the advantages of a My NMBS/SNCB account" href="https://www.belgianrail.be/en/MySNCB.aspx">
+                            
+                         </a>
+                         <a title="Discover the advantages of a My NMBS/SNCB account" href="https://www.belgianrail.be/en/MySNCB.aspx">Discover the advantages</a>
+                    </li>
+                
+        </ul>
+    </div>
+</div>
+
+                        
+                        
+                    </div>
+                    <div class="doormat-image-wrapper">
+                        <img id="ctl00_ctl00_footerLogoImage" src="https://www.belgianrail.be//~/media/Images/Logos/Mobility/footer-en-du-mobility.ashx" alt="Footer Logo SNCB/NMBS Mobility" />
+                    </div>
+                </div>
+                <div class="clear">
+                </div>
+            </div>
+            <div class="footer">
+                &#169; 2016 NMBS/SNCB
+<ul>
+    
+            <li>
+                <a id="ctl00_ctl00_footerNavigation_footerNavigationList_ctl00_footerNavigationLink" href="http://www.belgianrail.be/en/customer-service/contact.aspx">Contact us</a></li>
+        
+            <li>
+                <a id="ctl00_ctl00_footerNavigation_footerNavigationList_ctl01_footerNavigationLink" href="http://www.belgianrail.be/en/corporate/under_construction" target="_blank">Company details</a></li>
+        
+            <li>
+                <a id="ctl00_ctl00_footerNavigation_footerNavigationList_ctl02_footerNavigationLink" href="http://www.belgianrail.be/en/customer-service/travel-terms-and-conditions.aspx">Travem terms and conditions</a></li>
+        
+            <li>
+                <a id="ctl00_ctl00_footerNavigation_footerNavigationList_ctl03_footerNavigationLink" href="http://www.belgianrail.be/en/customer-service/legal/privacy.aspx">Privacy policy & cookies</a></li>
+        
+            <li>
+                <a id="ctl00_ctl00_footerNavigation_footerNavigationList_ctl04_footerNavigationLink" href="http://www.belgianrail.be/en/customer-service/legal.aspx">Legal notice</a></li>
+        
+</ul>
+
+                <div style="text-align: center">
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--EndNoIndex-->
+    <!--EndNoFollow-->
+    <div id="cookieWarning">
+	
+		<div class="container_12 clearfix">
+			<h2>
+				Cookie Policy
+			</h2>
+			<div class="grid_10 alpha text">
+				<p>By using the NMBS/SNCB website you consent to the use of cookies in accordance with our cookie policy. For more information about the cookies we use and manage, please read our <a href="https://www.belgianrail.be/en/customer-service/legal/privacy.aspx" target="_blank" title="full cookie policy (new window)">full cookie policy</a>. </p>
+			</div>
+			<div class="grid_2 omega">
+				<div class="btn">
+					<a href="javascript:void(0);" id="closeCookieBtn" class="btn-wimg">Close</a>
+				</div>
+			</div>
+		</div>
+	
+</div>
+
+    <script type="text/javascript">
+    // <![CDATA[
+        window.backgroundUrl = "";
+        var addthis_config = { "data_track_clickback": true };
+    // ]]>
+    </script>
+
+       
+    <script type="text/javascript" src="https://www.belgianrail.be/combres.axd/globalJs/-1751286676/"></script>
+</body>
+</html>

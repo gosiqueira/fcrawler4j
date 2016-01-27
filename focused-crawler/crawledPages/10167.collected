@@ -1,0 +1,671 @@
+title=Restaurants and stylish bedrooms : Paris and France - Le Fooding® Guide
+url=http://lefooding.com/en
+html=<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8'>
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"85a70945a2","applicationID":"4826501","transactionName":"dA1eRUZbCFlVS0xADEQWQx5dWgBQSA==","queueTime":0,"applicationTime":232,"agent":""}</script>
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"XAMPUFFbGwcIVldXBwA="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(){}function r(t){function e(t){return t&&t instanceof n?t:t?a(t,i,o):o()}function s(n,r,o){t&&t(n,r,o);for(var i=e(o),a=f(n),s=a.length,c=0;s>c;c++)a[c].apply(i,r);return i}function c(t,e){d[t]=f(t).concat(e)}function f(t){return d[t]||[]}function u(){return r(s)}var d={};return{on:c,emit:s,create:u,listeners:f,context:e,_events:d}}function o(){return new n}var i="nr@context",a=t("gos");e.exports=r()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:25,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,a){try{f?f-=1:r("err",[a||new UncaughtException(t,e,n)])}catch(c){try{r("ierr",[c,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof s?s.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=t("loader"),s=window.onerror,c=!1,f=0;a.features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(u){"stack"in u&&(t(1),t(2),"addEventListener"in window&&t(3),a.xhrWrappable&&t(4),c=!0)}i.on("fn-start",function(){c&&(f+=1)}),i.on("fn-err",function(t,e,r){c&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){c&&!this.thrown&&f>0&&(f-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:26,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.clearResourceTimings?window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1):window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){for(var e=t;e&&!e.hasOwnProperty("addEventListener");)e=Object.getPrototypeOf(e);e&&r(e)}function r(t){a.inPlace(t,["addEventListener","removeEventListener"],"-",o)}function o(t){return t[1]}var i=t("ee").create(),a=t(1)(i),s=t("gos");e.exports=i,r(window),"getPrototypeOf"in Object?(n(document),n(XMLHttpRequest.prototype)):XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&r(XMLHttpRequest.prototype),i.on("addEventListener-start",function(t){if(t[1]){var e=t[1];if("function"==typeof e){var n=s(e,"nr@wrapped",function(){return a(e,"fn-",null,e.name||"anonymous")});this.wrapped=t[1]=n}else"function"==typeof e.handleEvent&&a.inPlace(e,["handleEvent"],"fn-")}}),i.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:27,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:27,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:27,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){this.method=n,this.timerDuration="number"==typeof t[1]?t[1]:0,t[0]=i(t[0],"fn-",this,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:27,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,l,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-",o)}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,l=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[e],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:27,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var o=0;u>o;o++)t.removeEventListener(f[o],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var i=this.lastSize||n(t);if(i&&(r.rxSize=i),this.sameOrigin){var s=t.getResponseHeader("X-NewRelic-App-Data");s&&(e.cat=s.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,c.emit("xhr-done",[t],t),a("xhr",[e,r,this.startTime])}}}function n(t){var e=t.responseType,n="arraybuffer"===e||"blob"===e||"json"===e?t.response:t.responseText;return r(n)}function r(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function o(t,e){var n=s(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}var i=t("loader");if(i.xhrWrappable){var a=t("handle"),s=t(2),c=t("ee"),f=["load","error","abort","timeout"],u=f.length,d=t(1),l=t(3),p=window.XMLHttpRequest;i.features.xhr=!0,t(5),t(4),c.on("new-xhr",function(t){var n=this;n.totalCbs=0,n.called=0,n.cbTime=0,n.end=e,n.ended=!1,n.xhrGuids={},n.lastSize=0,l&&(l>34||10>l)||window.opera||t.addEventListener("progress",function(t){n.lastSize=t.loaded},!1)}),c.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),c.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),c.on("send-xhr-start",function(t,e){var n=this.metrics,o=t[0],i=this;if(n&&o){var a=r(o);a&&(n.txSize=a)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{c.emit("internal-error",[n])}catch(r){}}};for(var s=0;u>s;s++)e.addEventListener(f[s],this.listener,!1)}),c.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),c.on("xhr-load-added",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),c.on("xhr-load-removed",function(t,e){var n=""+d(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),c.on("addEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-added",[t[1],t[2]],e)}),c.on("removeEventListener-end",function(t,e){e instanceof p&&"load"===t[0]&&c.emit("xhr-load-removed",[t[1],t[2]],e)}),c.on("fn-start",function(t,e,n){e instanceof p&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),c.on("fn-end",function(t,e){this.xhrCbStart&&c.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:16,4:12,5:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname);var i=!e.protocol||":"===e.protocol||e.protocol===n.protocol,a=e.hostname===document.domain&&e.port===n.port;return r.sameOrigin=i&&(!e.hostname||a),r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:25,2:26,handle:"D5DuLP"}],16:[function(t,e){var n=0,r=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);r&&(n=+r[1]),e.exports=n},{}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){if(!h++){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){t[e]||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-852.min.js"},l=window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent),p=e.exports={offset:i(),origin:u,features:{},xhrWrappable:l};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()]);var h=0},{1:25,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],25:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],26:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],27:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty,s=!1;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,c;try{i=this,n=o(arguments),s="function"==typeof r?r(n,i):r||{}}catch(u){d([u,"",[n,i,a],s])}f(e+"start",[n,i,a],s);try{return c=t.apply(i,n)}catch(l){throw f(e+"err",[n,i,l],s),l}finally{f(e+"end",[n,i,c],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,u(t,nrWrapper),nrWrapper)}function c(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function f(e,n,r){if(!s){s=!0;try{t.emit(e,n,r)}catch(o){d([o,e,n,r])}s=!1}}function u(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){d([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function d(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=c,e.flag=i,e}},{1:26,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+<meta content='width=940, maximum-scale=1' name='viewport'>
+<meta content='' name='author'>
+<meta content='' name='keywords'>
+<meta content='a7da4a227a8109f8c822d334b6f6eb3d' name='p:domain_verify'>
+<title>Restaurants and stylish bedrooms : Paris and France - Le Fooding® Guide</title>
+<meta content="The Guide, plus restaurant, hotel and bed &amp; breakfast news in Paris, Lyon, Marseille and throughout France : new restaurants, original bistros, and stylish bedrooms. The taste of the times." name="description" />
+<meta content="529549097139771" property="fb:app_id" />
+<meta content="609975388" property="fb:admins" />
+<meta content="summary" property="twitter:card" />
+<meta content="LeFooding" property="twitter:site" />
+<meta content="LeFooding" property="twitter:creator" />
+<meta content="1051708566" property="twitter:app:id:iphone" />
+<meta content="Guide Fooding Restaurants &amp; Chambres de Style 2016" property="twitter:app:name:iphone" />
+<meta content="article" property="og:type" />
+<meta content="286236968753" property="og:article:publisher" />
+<meta content="Restaurants and stylish bedrooms : Paris and France" property="og:title" />
+<meta content="Lefooding.com" property="og:site_name" />
+<meta content="The Guide, plus restaurant, hotel and bed &amp; breakfast news in Paris, Lyon, Marseille and throughout France : new restaurants, original bistros, and..." property="og:description" />
+<meta content="http://lefooding.com/en" property="og:url" />
+<meta content="app-id=1051708566" name="apple-itunes-app" />
+<link href='http://lefooding.com/en' rel='canonical'>
+<link href='http://lefooding.com/en' hreflang='en' rel='alternate'>
+<link href='http://lefooding.com/fr' hreflang='fr' rel='alternate'>
+
+
+<link href="http://lefooding.com/en.rss" rel="alternate" title="RSS" type="application/rss+xml" />
+<link href="/assets/application-08d416163fa26e230ee31e5a83bdb52e.css" media="all" rel="stylesheet" type="text/css" />
+<script src="//maps.googleapis.com/maps/api/js?v=3.exp&amp;libraries=places" type="text/javascript"></script>
+<script src="/assets/application-d6122660a49e63c64e81fefcb86c889d.js" type="text/javascript"></script>
+<script type="text/javascript">
+  I18n.defaultLocale = "fr";
+  I18n.locale = "en";
+</script>
+<script type="text/javascript" src="//use.typekit.net/tpx2pkd.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+<script type="text/javascript">var switchTo5x=true;</script>
+
+
+
+<link href="/assets/favicon.ico?v=2" rel="shortcut icon" type="image/vnd.microsoft.icon" />
+<meta content="authenticity_token" name="csrf-param" />
+<meta content="8fx0XthShY3OZuZnB+Vv79sHZ+wfQ5b4jR0gEwl3dtY=" name="csrf-token" />
+<script type='text/javascript'>
+(function() {
+var useSSL = 'https:' == document.location.protocol;
+var src = (useSSL ? 'https:' : 'http:') +
+'//www.googletagservices.com/tag/js/gpt.js';
+document.write('<scr' + 'ipt src="' + src + '"></scr' + 'ipt>');
+})();
+</script>
+
+<script type="text/javascript">
+  googletag.cmd.push(function() {
+googletag.defineSlot("/3927737/WebAd_EN_HP_Leaderboard", [[728, 90], [970, 90], [970, 250]], 'dfp-baaceb9c1b98d67b4a17759205e0983f').addService(googletag.pubads());
+
+googletag.defineSlot("/3927737/WebAd_EN_HP_Pave_1", [[300, 250], [300, 600]], 'dfp-49bb7d4e74f5dab465d0f5ae8d339ca1').addService(googletag.pubads());
+
+googletag.defineSlot("/3927737/WebAd_EN_HP_Pave_2", [[300, 250], [300, 600]], 'dfp-8fcbc1e0e70df6f92e1d1c1908bd3e5c').addService(googletag.pubads());
+
+googletag.defineSlot("/3927737/WebAd_EN_HP_Pave_3", [[300, 250], [300, 600]], 'dfp-5b3388d52996373d5b2cfef55767f808').addService(googletag.pubads());
+
+googletag.defineSlot("/3927737/WebAd_EN_HP_Pave_4", [[300, 250], [300, 600]], 'dfp-9f338655cdf6fd7d789b70377b969c05').addService(googletag.pubads());
+
+googletag.defineSlot("/3927737/WebAd_EN_HP_Interstitiel", [1, 1], 'dfp-d263592bde3a28c15526ee76eeda354d').addService(googletag.pubads());
+
+googletag.defineSlot("/3927737/WebAd_EN_HP_Habillage", [1, 1], 'dfp-3a3d7340b58cb217d336d2f826012005').addService(googletag.pubads());
+
+
+    googletag.pubads().enableSyncRendering();
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+  });
+</script>
+
+</head>
+<body class='posts index posts-index en'>
+
+<ul class='social-media'>
+<li>
+<a class='facebook' href='https://www.facebook.com/LeFooding' target='_blank' title='Facebook'></a>
+</li>
+<li>
+<a class='twitter' href='http://twitter.com/LeFooding' target='_blank' title='Twitter'></a>
+</li>
+<li>
+<a class='instagram' href='http://instagram.com/lefooding' target='_blank' title='Instagram'></a>
+</li>
+<li>
+<a class='apps' href='http://lefooding.com/guide' target='_blank' title='Apps'></a>
+</li>
+<li>
+<a class='newsletter' href='http://eepurl.com/G_VVD' target='_blank' title='Newsletter'></a>
+</li>
+</ul>
+
+<div class='ad-background-cover'>
+<!-- WebAd_EN_HP_Habillage -->
+<div class='adunit ' id='dfp-3a3d7340b58cb217d336d2f826012005'>
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('dfp-3a3d7340b58cb217d336d2f826012005'); });
+</script>
+
+</div>
+
+
+</div>
+<div class='ad-leaderboard'>
+<!-- WebAd_EN_HP_Leaderboard -->
+<div class='adunit ' id='dfp-baaceb9c1b98d67b4a17759205e0983f'>
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('dfp-baaceb9c1b98d67b4a17759205e0983f'); });
+</script>
+
+</div>
+
+
+</div>
+<div class='content'>
+<header class='header'>
+<div class='block-wrapper'>
+<a href="/en" id="logo" title="Restaurants in Paris &amp; France: The FOODING® Guide for Stylish Restaurants">Le Fooding</a>
+<div id='quick-search'>
+<form action='/en/site_search' class='search-form' method='get' onkeypress='return event.keyCode != 13;'>
+<div class='autocomplete'>
+<input autocomplete='off' class='input text' id='q_natural' name='q' placeholder='Ex. Sardinia, Aix-en-Provence (13100)' title='Ex. Sardinia, Aix-en-Provence (13100)' type='text' value=''>
+</div>
+</form>
+<div class='advanced-search'>
+Advanced search: 
+<a href="/en/restaurants">Restaurants</a>, 
+<a href="/en/bedrooms-hotels">Bedrooms</a>
+</div>
+</div>
+</div>
+<div class='block-wrapper nav-wrapper'>
+<nav class='left en' id='main'>
+<ul>
+<li class="en-text on"><a href="/en" class="en-text on">The Taste of the Times</a></li>
+<li class="en-text off"><a href="/en/restaurants" class="en-text off">Restaurants</a></li>
+<li class="en-text off"><a href="/en/bedrooms-hotels" class="en-text off">Bedrooms</a></li>
+<li class="en-text off"><a href="/en/evenements" class="en-text off">Events</a></li>
+<li class="en-text off"><a href="/en/my_fooding" class="en-text off">My Fooding</a></li>
+</ul>
+</nav>
+<nav class='right en' id='language'>
+<ul>
+<li class='locale-en active'>
+<a href="/en">EN</a>
+</li>
+<li class='locale-fr '>
+<a href="/fr">FR</a>
+</li>
+
+</ul>
+</nav>
+</div>
+</header>
+
+<div class='ticker'>
+<span class='label'>Brand new!</span>
+<span class='message'><a href="/en/livraison-restaurant-domicile" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Ticker&#x27;, &#x27;Click - Livraison TEE&#x27;, &#x27;Get delivery from restaurants with Le Guide Fooding’s stamp of approval: Frenchie To Go, Hero, Bob’s Bake Shop, Candelaria...&#x27;)" title="Get delivery from restaurants with Le Guide Fooding’s stamp of approval: Frenchie To Go, Hero, Bob’s Bake Shop, Candelaria...">Get delivery from restaurants with Le Guide Fooding’s stamp of approval: Frenchie To Go, Hero, Bob’s Bake Shop, Candelaria...</a></span>
+</div>
+
+
+<section class='main'>
+
+<section class='left-col'><div class='article'>
+<header class='article-header'>
+<a href="http://lefooding.com/en/restaurants/restaurant-mokonuts-paris" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Le secret qu’on ne pouvait plus garder&#x27;);"><div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMjUvMDlfNDRfMThfMzUxX3Jlc3RhdXJhbnRfbW9rb251dHNfcGFyaXMuanBnIl0sWyJwIiwidGh1bWIiLCI0ODZ4MzIwIyJdXQ/restaurant-mokonuts-paris.jpg?sha=3f709ea1"/></div>
+</a><div class='article-metadata'>
+<div class='article-rubrique'>
+<a href="/en/the-good-news" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Le secret qu’on ne pouvait plus garder&#x27;);">The Good News/restaurant of the week</a>
+–
+</div>
+<div class='datetimeinsert'>today</div>
+</div>
+</header>
+<h2 class='article-title'>
+<a href="http://lefooding.com/en/restaurants/restaurant-mokonuts-paris" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Le secret qu’on ne pouvait plus garder&#x27;);">Mokonuts</a>
+</h2>
+<div class='article-text'><div class="fragment text fragment-text"><p>An authentic mosaic tile floor, light wood, copper pipes and the good smell of coffee… Just another coffee shop? Not quite. Omar Koreitem (who used to work at Sergent Recruteur) and Moko Hirayama (the former pastry&#8230;</p></div></div>
+<a href="http://lefooding.com/en/restaurants/restaurant-mokonuts-paris" class="read-more" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Le secret qu’on ne pouvait plus garder&#x27;);">Read more »</a>
+<div class='tool'>
+<span class='sharing'>Share :</span>
+<div addthis:title='Le secret qu’on ne pouvait plus garder' addthis:url='http://lefooding.com/en/restaurants/restaurant-mokonuts-paris' class='addthis_toolbox addthis_default_style'>
+<a class='addthis_button_email'></a>
+<a class='addthis_button_facebook'></a>
+<a class='addthis_button_twitter'></a>
+<a class='addthis_button_google_plusone_share'></a>
+<a class='addthis_button_pinterest_share'></a>
+<a class='addthis_button_tumblr'></a>
+</div>
+</div>
+
+</div>
+
+<div class='article'>
+<header class='article-header'>
+<a href="http://lefooding.com/en/restaurants/restaurant-bretons-paris" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27; Hot from the oven/we’ve tested these for you&#x27;, &#x27;Bretons&#x27;);"><div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMjIvMThfNThfMTVfMjk0X3Jlc3RhdXJhbnRfcGFyaXNfYnJldG9ucy5qcGciXSxbInAiLCJ0aHVtYiIsIjQ4NngzMjAjIl1d/restaurant-paris-bretons.jpg?sha=cc598399"/></div>
+</a><div class='article-metadata'>
+<div class='article-rubrique'>
+<a href="/en"><a href="/en/tout-nouveau-tout-chaud-1ySHCQ" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27; Hot from the oven/we’ve tested these for you&#x27;, &#x27;Bretons&#x27;);"> Hot from the oven/we’ve tested these for you</a></a>
+–
+</div>
+<div class='datetimeinsert'>day before yesterday</div>
+</div>
+</header>
+<h2 class='article-title'>
+<a href="http://lefooding.com/en/restaurants/restaurant-bretons-paris" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27; Hot from the oven/we’ve tested these for you&#x27;, &#x27;Bretons&#x27;);">Bretons</a>
+</h2>
+<div class='article-text'><div class="fragment text fragment-text"><p>Are the Marais and East Paris the new hotspots of the West? That’s where Bretons are celebrating buckwheat and white flour crepes these days…. Take Jérémie and Marie for example, a <em style="background-color: initial;">pur beurre </em>duo from Saint-Malo&#8230;</p></div></div>
+<a href="http://lefooding.com/en/restaurants/restaurant-bretons-paris" class="read-more" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27; Hot from the oven/we’ve tested these for you&#x27;, &#x27;Bretons&#x27;);">Read more »</a>
+<div class='tool'>
+<span class='sharing'>Share :</span>
+<div addthis:title='Bretons' addthis:url='http://lefooding.com/en/restaurants/restaurant-bretons-paris' class='addthis_toolbox addthis_default_style'>
+<a class='addthis_button_email'></a>
+<a class='addthis_button_facebook'></a>
+<a class='addthis_button_twitter'></a>
+<a class='addthis_button_google_plusone_share'></a>
+<a class='addthis_button_pinterest_share'></a>
+<a class='addthis_button_tumblr'></a>
+</div>
+</div>
+
+</div>
+
+<div class='article'>
+<header class='article-header'>
+<a href="http://lefooding.com/en/le-restomaton/crab-tavern-londres" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Le Restomaton&#x27;, &#x27;Crab Tavern, Londres&#x27;);"><div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMDgvMTFfNThfMDlfNjkxX2NyYWJfdGF2ZXJuMDEuanBnIl0sWyJwIiwidGh1bWIiLCI0ODZ4MzIwIyJdXQ/crab-tavern01.jpg?sha=8b2a5113"/></div>
+</a><div class='article-metadata'>
+<div class='article-rubrique'>
+<a href="/en/le-restomaton" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Le Restomaton&#x27;, &#x27;Crab Tavern, Londres&#x27;);">Le Restomaton</a>
+–
+</div>
+<div class='datetimeinsert'>day before yesterday</div>
+</div>
+<h2 class='article-title'>
+<a href="http://lefooding.com/en/le-restomaton/crab-tavern-londres" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Le Restomaton&#x27;, &#x27;Crab Tavern, Londres&#x27;);">Crab Tavern, Londres</a>
+</h2>
+<a href="http://lefooding.com/en/le-restomaton/crab-tavern-londres" class="read-more" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Le Restomaton&#x27;, &#x27;Crab Tavern, Londres&#x27;);">Read more »</a>
+<div class='tool'>
+<span class='sharing'>Share :</span>
+<div addthis:title='Crab Tavern, Londres' addthis:url='http://lefooding.com/en/le-restomaton/crab-tavern-londres' class='addthis_toolbox addthis_default_style'>
+<a class='addthis_button_email'></a>
+<a class='addthis_button_facebook'></a>
+<a class='addthis_button_twitter'></a>
+<a class='addthis_button_google_plusone_share'></a>
+<a class='addthis_button_pinterest_share'></a>
+<a class='addthis_button_tumblr'></a>
+</div>
+</div>
+
+</header>
+</div>
+
+<div class='article'>
+<header class='article-header'>
+<div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMjEvMjJfMzlfMjdfMTQ2X2RpYXBvX2hvbWVfMTYwMTIyXzIuanBnIl0sWyJwIiwidGh1bWIiLCI0ODZ4MzIwIyJdXQ/diapo-home-160122-2.jpg?sha=c64cd843" usemap="#triptik-56a14e0e42719aa2cb000011"/><map name='triptik-56a14e0e42719aa2cb000011'><area shape='rect' coords='0,0,162,329' href='/en/leurs-restos-preferes/valentine-gauthier' title='Valentine Gauthier'><area shape='rect' coords='161,0,324,329' href='/en/leurs-restos-preferes/djibril-cisse' title='Djibril Cissé'><area shape='rect' coords='323,0,486,329' href='/en/leurs-restos-preferes/superpoze' title='Superpoze'></map></div>
+<div class='article-metadata'>
+<div class='article-rubrique'>
+<a href="/en/their-favorite-restaurants" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Their favorite restaurants&#x27;, &#x27;Their favorite restaurants&#x27;);">Their favorite restaurants</a>
+–
+</div>
+<div class='datetimeinsert'>January 22, 2016</div>
+</div>
+</header>
+<h2 class='article-title'>
+<a href="/en/their-favorite-restaurants" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Their favorite restaurants&#x27;, &#x27;Their favorite restaurants&#x27;);">Their favorite restaurants</a>
+</h2>
+<div class='article-text'>
+<p>
+<a href="/en/their-favorite-restaurants/valentine-gauthier">Valentine Gauthier</a>, <a href="/en/their-favorite-restaurants/djibril-cisse">Djibril Cissé</a> & <a href="/en/their-favorite-restaurants/superpoze">Superpoze</a>
+</p>
+</div>
+<div class='tool'>
+<span class='sharing'>Share :</span>
+<div addthis:title='Their favorite restaurants' addthis:url='http://lefooding.com/en/their-favorite-restaurants/' class='addthis_toolbox addthis_default_style'>
+<a class='addthis_button_email'></a>
+<a class='addthis_button_facebook'></a>
+<a class='addthis_button_twitter'></a>
+<a class='addthis_button_google_plusone_share'></a>
+<a class='addthis_button_pinterest_share'></a>
+<a class='addthis_button_tumblr'></a>
+</div>
+</div>
+
+</div>
+
+<div class='article'>
+<header class='article-header'>
+<a href="http://lefooding.com/en/restaurants/restaurant-h-paris" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Du veau, du H et du vin&#x27;);"><div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMTgvMThfMjZfNTZfNzE2X3Jlc3RhdXJhbnRfaF9wYXJpcy5KUEciXSxbInAiLCJ0aHVtYiIsIjQ4NngzMjAjIl1d/restaurant-h-paris.JPG?sha=8ffe87bb"/></div>
+</a><div class='article-metadata'>
+<div class='article-rubrique'>
+<a href="/en/the-good-news" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Du veau, du H et du vin&#x27;);">The Good News/restaurant of the week</a>
+–
+</div>
+<div class='datetimeinsert'>January 21, 2016</div>
+</div>
+</header>
+<h2 class='article-title'>
+<a href="http://lefooding.com/en/restaurants/restaurant-h-paris" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Du veau, du H et du vin&#x27;);">Restaurant H</a>
+</h2>
+<div class='article-text'><div class="fragment text fragment-text"><!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN" "http://www.w3.org/TR/REC-html40/loose.dtd">
+<html><body><p>Before, there was Akrame Benallal and his place <a href="/en/restaurants/restaurant-akrame-paris-12" data-id="56743c3442719abb45000058" data-type="restaurant" data-name="Akrame" target="_blank">Akrame</a>, now there’s Hubert Duchenne, the former sous-chef, and his Restaurant H. Filiation, eponym, minimalism! The bistro interior is very much in keeping with the times, as…</p></body></html>
+</div></div>
+<a href="http://lefooding.com/en/restaurants/restaurant-h-paris" class="read-more" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;The Good News/restaurant of the week&#x27;, &#x27;Du veau, du H et du vin&#x27;);">Read more »</a>
+<div class='tool'>
+<span class='sharing'>Share :</span>
+<div addthis:title='Du veau, du H et du vin' addthis:url='http://lefooding.com/en/restaurants/restaurant-h-paris' class='addthis_toolbox addthis_default_style'>
+<a class='addthis_button_email'></a>
+<a class='addthis_button_facebook'></a>
+<a class='addthis_button_twitter'></a>
+<a class='addthis_button_google_plusone_share'></a>
+<a class='addthis_button_pinterest_share'></a>
+<a class='addthis_button_tumblr'></a>
+</div>
+</div>
+
+</div>
+
+<div class='article'>
+<header class='article-header'>
+<a href="http://lefooding.com/en/chambres-hotels/hotel-fourviere-hotel-lyon" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Stylish bedrooms&#x27;, &#x27;Fourvière Hôtel, Lyon&#x27;);"><div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMTkvMTNfNTNfNDhfODExX0hvX3RlbF9Gb3VydmllX3JlX0x5b24uanBnIl0sWyJwIiwidGh1bWIiLCI0ODZ4MzIwIyJdXQ/Ho%CC%82tel%20Fourvie%CC%80re-Lyon.jpg?sha=cf1c9032"/></div>
+</a><div class='article-metadata'>
+<div class='article-rubrique'>
+<a href="/en"><a href="/en/stylish-bedrooms" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Stylish bedrooms&#x27;, &#x27;Fourvière Hôtel, Lyon&#x27;);">Stylish bedrooms</a></a>
+–
+</div>
+<div class='datetimeinsert'>January 20, 2016</div>
+</div>
+</header>
+<h2 class='article-title'>
+<a href="http://lefooding.com/en/chambres-hotels/hotel-fourviere-hotel-lyon" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Stylish bedrooms&#x27;, &#x27;Fourvière Hôtel, Lyon&#x27;);">Fourvière Hôtel, Lyon</a>
+</h2>
+<div class='article-text'>High up on the Fourvière hill, the former Couvent de la Visitation is now a hotel. At the helm? Jean-Luc Mathias, already the owner of the Collège Hôtel, has skillfully renovated the space: there’s a majestic ambiance in the former chapel that has...</div>
+<a href="http://lefooding.com/en/chambres-hotels/hotel-fourviere-hotel-lyon" class="read-more" onclick="ga(&#x27;send&#x27;, &#x27;event&#x27;, &#x27;Posts_HP_en&#x27;, &#x27;Stylish bedrooms&#x27;, &#x27;Fourvière Hôtel, Lyon&#x27;);">Read more »</a>
+<div class='tool'>
+<span class='sharing'>Share :</span>
+<div addthis:title='Fourvière Hôtel, Lyon' addthis:url='http://lefooding.com/en/chambres-hotels/hotel-fourviere-hotel-lyon' class='addthis_toolbox addthis_default_style'>
+<a class='addthis_button_email'></a>
+<a class='addthis_button_facebook'></a>
+<a class='addthis_button_twitter'></a>
+<a class='addthis_button_google_plusone_share'></a>
+<a class='addthis_button_pinterest_share'></a>
+<a class='addthis_button_tumblr'></a>
+</div>
+</div>
+
+</div>
+
+<nav class='pagination'>
+<div class='background'></div>
+<ul>
+
+
+
+<li class='page current'>
+1
+</li>
+
+<li class='page'>
+<a href="/en?page=2" rel="next" title="Page 2">2</a>
+</li>
+
+<li class='page'>
+<a href="/en?page=3" title="Page 3">3</a>
+</li>
+
+<li class='page'>
+<a href="/en?page=4" title="Page 4">4</a>
+</li>
+
+<li class='next'>
+<a href="/en?page=2" rel="next" title="Next page">></a>
+</li>
+
+<li class='last'>
+<a href="/en?page=4" title="Last page (4)">&#8674;</a>
+</li>
+
+</ul>
+</nav>
+
+</section>
+<section class='middle-col'><section class='section bonne-nouvelle'>
+<a href="http://www.sanpellegrino.com/" target="_blank"><img alt="Spellegrino_hp" class="section-thumbnail" src="/assets/spellegrino_hp-772d5404b40637182dda7126c1032dc6.png" /></a>
+<h2 class='section-title'>
+<a href="/en/the-good-news">Brings you the Good News</a>
+</h2>
+<ul class='list'>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-mokonuts-paris">Le secret qu’on ne pouvait plus garder</a></li>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-h-paris">Du veau, du H et du vin</a></li>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-la-cave-du-paul-bert-paris">Où tremper la truffe et mouiller la mayo</a></li>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-palegrie-correncon-en-vercors">Palégrié</a></li>
+</ul>
+<a href="/en/the-good-news" class="see-more">more Good News</a>
+</section>
+<section class='section favorite-places'>
+<h2 class='section-title'>
+<a href="http://lefooding.com/en/their-favorite-restaurants/">Their Favorite Restaurants</a>
+</h2>
+<ul class='list'>
+<li class='item'>
+<a href="/en/their-favorite-restaurants/frederic-taddei"><img alt="T-370" src="/media/W1siZiIsIjIwMTYvMDEvMTQvMjJfMjJfMTFfMzYxX1RfMzcwLmpwZyJdLFsicCIsInRodW1iIiwiMTc2eDE3NiMiXV0/T-370.jpg?sha=98bb32e7" />
+</a><a href="/en/their-favorite-restaurants/frederic-taddei" class="item-title">Frédéric Taddéï</a>
+</li>
+<li class='item'><a href="/en/their-favorite-restaurants/djibril-cisse">Djibril Cissé</a></li>
+<li class='item'><a href="/en/their-favorite-restaurants/superpoze">Superpoze</a></li>
+<li class='item'><a href="/en/their-favorite-restaurants/valentine-gauthier">Valentine Gauthier</a></li>
+<li class='item'><a href="/en/their-favorite-restaurants/mathias-coullaud">Mathias Coullaud</a></li>
+</ul>
+<a href="http://lefooding.com/en/their-favorite-restaurants/" class="see-more">more of the scoop</a>
+</section>
+<section class='section guide'>
+<h2 class='section-title'>Buy me</h2>
+<a href="http://clic.reussissonsensemble.fr/click.asp?ref=748162&amp;site=14485&amp;type=text&amp;tnb=3&amp;diurl=http%3A%2F%2Feultech.fnac.com%2Fdynclick%2Ffnac%2F%3Feseg-name%3DaffilieID%26eseg-item%3D%24ref%24%26eaf-publisher%3DAFFILINET%26eaf-name%3Dg%3Fn%3Frique%26eaf-creative%3D%24affmt%24%26eaf-creativetype%3D%24affmn%24%26eurl%3Dhttp%253A%252F%252Flivre.fnac.com%252Fa9132903%252FCollectif-Guide-fooding-France-et-Paris%253FOrigin%253Daffilinet%2524ref%2524" target="_blank"><img alt="Guide_fooding_middle_176x224" src="/assets/guide/2016/guide_fooding_middle_176x224-be314207d46a215efe97d1ad25138e00.jpg" /></a>
+</section>
+
+<section class='section sac_a_viande'>
+<h2 class='section-title'>
+<a href="/en/stylish-bedrooms">Stylish bedrooms</a>
+</h2>
+<ul class='list'>
+<li class='item'>
+<a href='http://lefooding.com/en/chambres-hotels/hotel-fourviere-hotel-lyon'>
+<div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMTkvMTNfNTNfNDhfODExX0hvX3RlbF9Gb3VydmllX3JlX0x5b24uanBnIl0sWyJwIiwidGh1bWIiLCIxNzZ4MTE2IyJdXQ/Ho%CC%82tel%20Fourvie%CC%80re-Lyon.jpg?sha=e2d2b50c"/></div>
+</a>
+<a href="http://lefooding.com/en/chambres-hotels/hotel-fourviere-hotel-lyon" class="item-title">Fourvière Hôtel</a>
+</li>
+<li class='item'><a href="http://lefooding.com/en/chambres-hotels/hotel-coq-hotel-paris">Coq Hôtel</a></li>
+<li class='item'><a href="http://lefooding.com/en/chambres-hotels/hotel-terminal-neige-totem-magland">Terminal Neige - Totem</a></li>
+<li class='item'><a href="http://lefooding.com/en/chambres-hotels/chambre-d-hote-l-annexe-d-aubrac-aubrac-4">L&#x27;Annexe d&#x27;Aubrac</a></li>
+<li class='item'><a href="http://lefooding.com/en/chambres-hotels/hotel-hotel-des-dromonts-morzine">Hôtel des Dromonts</a></li>
+</ul>
+<a href="/en/stylish-bedrooms" class="see-more">more stylish bedrooms</a>
+</section>
+<section class='section tout-nouveau-tout-chaud'>
+<h2 class='section-title'>
+<a href="/en/tout-nouveau-tout-chaud">Hot from the Oven</a>
+</h2>
+<ul class='list'>
+<li class='item'>
+<a href='http://lefooding.com/en/restaurants/restaurant-mokonuts-paris'>
+<div class="fragment image fragment-image"><img src="/media/W1siZiIsIjIwMTYvMDEvMjUvMDlfNDRfMThfMzUxX3Jlc3RhdXJhbnRfbW9rb251dHNfcGFyaXMuanBnIl0sWyJwIiwidGh1bWIiLCIxNzZ4MTE2IyJdXQ/restaurant-mokonuts-paris.jpg?sha=fd4cfcda"/></div>
+</a>
+<a href="http://lefooding.com/en/restaurants/restaurant-mokonuts-paris" class="item-title">Mokonuts</a>
+</li>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-bretons-paris">Bretons</a></li>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-h-paris">Restaurant H</a></li>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-banh-me-tender-paris">Banh Me Tender</a></li>
+<li class='item'><a href="http://lefooding.com/en/restaurants/restaurant-la-cave-du-paul-bert-paris">La Cave du Paul Bert</a></li>
+</ul>
+<a href="/en/tout-nouveau-tout-chaud" class="see-more">more from the oven</a>
+</section>
+<section class='section prizes'>
+<h2 class='section-title'>
+<a href="/en/palmares">Fooding Guide Awards 2016</a>
+</h2>
+<ul class='list'>
+<li class='item'><a href="/en/palmares">Best Cave à Manger of 2016</a></li>
+<li class='item'><a href="/en/palmares">Le Guide Fooding’s 2016 Man of the Year</a></li>
+<li class='item'><a href="/en/palmares">Best Restaurant of 2016</a></li>
+<li class='item'><a href="/en/palmares">Best Bistro of 2016</a></li>
+<li class='item'><a href="/en/palmares">Biggest Crush of 2016</a></li>
+<li class='item'><a href="/en/palmares">Best Noodles of 2016</a></li>
+<li class='item'><a href="/en/palmares">Best Catch of 2016</a></li>
+<li class='item'><a href="/en/palmares">Best Table d’hôte of 2016</a></li>
+<li class='item'><a href="/en/palmares">Best Frit-style of 2016</a></li>
+<li class='item'><a href="/en/palmares">Best Pizza of 2016</a></li>
+<li class='item'><a href="/en/palmares">Best Pop-Up of 2016</a></li>
+<li class='item'><a href="/en/palmares">Adidas x Le Guide Fooding’s Best Street Food Award 2016</a></li>
+</ul>
+<a href="/en/palmares" class="see-more">more awards</a>
+</section>
+
+</section>
+</section>
+<div class='sidebar' role='complementary'>
+<aside class='sidebar-block'>
+<!-- WebAd_EN_HP_Pave_1 -->
+<div class='adunit ' id='dfp-49bb7d4e74f5dab465d0f5ae8d339ca1'>
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('dfp-49bb7d4e74f5dab465d0f5ae8d339ca1'); });
+</script>
+
+</div>
+
+</aside>
+
+
+<aside class='sidebar-block'>
+<!-- WebAd_EN_HP_Pave_2 -->
+<div class='adunit ' id='dfp-8fcbc1e0e70df6f92e1d1c1908bd3e5c'>
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('dfp-8fcbc1e0e70df6f92e1d1c1908bd3e5c'); });
+</script>
+
+</div>
+
+</aside>
+
+<aside class='sidebar-block newsletter'>
+<h2 class='sidebar-block-title'>Newsletter</h2>
+<div id='mc_embed_signup'>
+<div class='validate' id='mc-embedded-subscribe-form'>
+<div id='mc-embedded-subscribe-messages'></div>
+<input id="mce-EMAIL" name="newsletter_email" placeholder="Enter your email address" type="email" />
+<button class="button" id="mce-embedded-subscribe" name="button" type="submit">ok</button>
+</div>
+</div>
+</aside>
+
+<aside class='sidebar-block'>
+<!-- WebAd_EN_HP_Pave_3 -->
+<div class='adunit ' id='dfp-5b3388d52996373d5b2cfef55767f808'>
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('dfp-5b3388d52996373d5b2cfef55767f808'); });
+</script>
+
+</div>
+
+</aside>
+
+<aside class='sidebar-block'>
+<h2 class='sidebar-block-title'>CLASSIFIED ADS</h2>
+<!-- WebAd_EN_HP_Pave_4 -->
+<div class='adunit ' id='dfp-9f338655cdf6fd7d789b70377b969c05'>
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('dfp-9f338655cdf6fd7d789b70377b969c05'); });
+</script>
+
+</div>
+
+</aside>
+
+<aside class='sidebar-block souvenir'>
+<h2 class='sidebar-block-title'><a href="/en/souvenirs">Souvenirs</a></h2>
+<a href="http://lefooding.com/en/memories/remise-des-prix-guide-fooding-2016-souvenirs"><img alt="1b_100k" src="/media/W1siZiIsIjIwMTUvMTIvMDkvMTVfMzlfNDZfOTJfMWJfMTAway5qcGciXSxbInAiLCJ0aHVtYiIsIjMwMHgzMDAiXV0/1b_100k.jpg?sha=151c6de2" />
+</a></aside>
+
+
+</div>
+
+<footer class='footer'>
+<div id='verbatim'>
+<p class='titre'><img alt="Le Fooding" src="/assets/footer_logo_fooding-bdc77c3d45ea9e1e432cb9cd0dd3396e.png" /></p>
+<div class='texte'>
+FOODING® invites you to experience “the taste of the times”— The Guide to Stylish Restaurants, Hotels &amp; Guesthouses — Annual awards for the best new restaurants — Modern events — Enlightened, enlightening, never satisfied — Making everything more interesting.
+</div>
+</div>
+<div id='quickmap'>
+<article class='apropos'>
+<p class='titre'>
+<a href=''>About us</a>
+</p>
+<ul>
+<li>
+<a href="/en/the-tribe">The tribe</a>
+</li>
+<li>
+<a href="/en/j-f-bizot">J.F. Bizot</a>
+</li>
+<li>
+<a href="/en/guide">Guide &amp; APP</a>
+</li>
+</ul>
+</article>
+<article class='gout'>
+<p class='titre'>
+<a href="http://www.lefooding.com/en">The Taste of The Times</a>
+</p>
+<ul>
+<li><a href="http://www.lefooding.com/en/jeux-concours">Contests</a></li>
+<li><a href="/en/tout-nouveau-tout-chaud-1ySHCQ">Hot from the oven</a></li>
+<li><a href="/en/le-restomaton">Le Restomaton</a></li>
+<li><a href="/en/stylish-bedrooms">Stylish bedrooms</a></li>
+<li><a href="/en/the-good-news">The good news</a></li>
+<li><a href="/en/their-favorite-restaurants">Their favorite restaurants</a></li>
+<li><a href="/en/memories">We were there...</a></li>
+</ul>
+</article>
+<article class='restaurants'>
+<p class='titre'>
+<a href="http://www.lefooding.com/en/restaurants">Restaurants</a>
+</p>
+<ul>
+<li>
+<a href="http://www.lefooding.com/en/restaurants">Find a Restaurant</a>
+</li>
+<li>
+<a href="http://www.lefooding.com/en/palmares">Fooding Guide awards</a>
+</li>
+</ul>
+</article>
+<article class='hotels'>
+<p class='titre'>
+<a href="http://www.lefooding.com/en/chambres-hotels">Bedrooms</a>
+<ul>
+<li>
+<a href="http://www.lefooding.com/en/chambres-hotels">Find a Hotel</a>
+</li>
+</ul>
+</p>
+</article>
+<article class='evenements'>
+<p class='titre'>
+<a href="http://www.lefooding.com/en/evenements">Events</a>
+</p>
+<ul>
+<li><a href="http://evenements.lefooding.com/2015/15-ans/grand-fooding-la-revanche-des-faubourgs-foodstock/" target="_blank">La Revanche des Faubourgs</a></li>
+<li><a href="http://evenements.lefooding.com/priceless-soupers/#.VSQJa5SsW6Y" target="_blank">Priceless Soupers Saison 3</a></li>
+<li><a href="http://evenements.lefooding.com/2014/passard-et-les-arpegiens/#.VBm8NS5_vUZ" target="_blank">Passard et les arpégiens</a></li>
+<li><a href="http://evenements.lefooding.com/priceless-soupers/" target="_blank">Priceless Soupers Saison 2</a></li>
+<li><a href="http://legrandfooding.com  " target="_blank">Le Grand Fooding presents : Sanpellegrino Fruitstock at the Rockaways</a></li>
+</ul>
+</article>
+</div>
+<ul class='clearfix' id='mentionslegales'>
+<li>
+<a href="/en/contacts/new"><span class="translation_missing" title="translation missing: en.shared.footer.contact">Contact</span></a>
+</li>
+<li>
+<a href="/en/credits">Credits</a>
+</li>
+<li>
+<a href="/en/rss-feeds">RSS Feeds</a>
+</li>
+<li>
+<a href="/en/terms">Terms</a>
+</li>
+</ul>
+<div id='copyright'>COPYRIGHT 2016 MMM! SARL/FOODING® IS A REGISTERED TRADEMARK</div>
+</footer>
+
+</div>
+<script type="text/javascript">
+  var addthis_config = {};
+  var addthis_share = {templates: {twitter: "{{title}} (via @LeFooding)"}}
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-50814dbd11dbc5f6"></script>
+<!-- GA -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-15430310-1', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+</script>
+
+<!-- WebAd_EN_HP_Interstitiel -->
+<div class='adunit ' id='dfp-d263592bde3a28c15526ee76eeda354d'>
+<script type="text/javascript">
+googletag.cmd.push(function() { googletag.display('dfp-d263592bde3a28c15526ee76eeda354d'); });
+</script>
+
+</div>
+
+
+</body>
+</html>

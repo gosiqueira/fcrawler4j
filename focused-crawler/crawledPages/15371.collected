@@ -1,0 +1,167 @@
+title=Canvas Webhouse
+url=http://canvas.com.br/expertise.html
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Canvas Webhouse</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/estrutura.css" rel="stylesheet" type="text/css" />
+<link href="css/geral.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/fonts.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="font/stylesheet.css" type="text/css" charset="utf-8" />
+
+
+<style type="text/css">
+
+</style>
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+        <div id="logo">
+        	<img src="imgs/canvas_logo.png" alt="Canvas Webhouse">
+        </div>
+        <div id="tel_email">
+        	<p><span>canvas@canvas.com.br</span></p>
+        </div>
+    </div>
+	<div id="content">
+        <div id="latEsq">
+        	<ul id="menu">
+            	<li><a class="home" href="index.html">HOME</a></li>
+                <li><a class="clientes" href="clientes_portfolio.html">CLIENTES &amp; PORTF&Oacute;LIO</a></li>
+                <li><a class="expertise" href="expertise.html">EXPERTISE</a></li>
+                <li><a class="contatos"  href="contato.html">CONTATOS</a></li>
+                <!--<li><a class="blog"  href="blog.html">BLOG</a></li>-->
+            </ul>
+            <div id="social_media"> <a href="#"><img src="imgs/media_facebook.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_twitter.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_flikr.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_delicious.gif" width="36" height="35"></a>
+            </div>
+        <!--
+        <div class="nav_expertise">
+            <ul>
+                <li><a href="#">conte&uacute;do</a></li>
+                <li><a href="#">corporativo</a></li>
+                <li><a href="#">cria&ccedil;&atilde;o</a></li>
+                <li><a href="#">estrat&eacute;gia</a></li>
+                <li><a href="#">tecnologia</a></li>
+            </ul>        
+        </div>-->
+        
+        </div>
+        <div id="latDir">
+        	<h1 class="titExpertise">Expertise</h1>
+            <h2>intera(cria)tiva desde 1997</h2>
+            
+            <div class="dest_expertise_topo">
+            <img src="imgs/expertise/expertise_destaque_topo.gif" style="margin:0px 0px 20px 0px;" width="672" height="170" alt="Expertise">
+            </div>
+            
+            
+          <h3><strong>Design, tecnologia e intelig&ecirc;ncia em presen&ccedil;a e a&ccedil;&otilde;es  de marketing e comunica&ccedil;&atilde;o online.</strong></h3>
+          <p>Websites, intranets, virais, games, mobile, redes sociais, blogs, hotsites, video online e webcasts s&atilde;o apenas alguns dos termos com os quais lidamos no nosso cotidiano.</p>
+          <p>Nossos servi&ccedil;os e produtos resultam de 15 anos de cultura no mercado digital, da experi&ecirc;ncia de quem viveu a Guerra dos Browsers, o Estouro d&prime;A Bolha, os projetos de converg&ecirc;ncia de m&iacute;dias, a populariza&ccedil;&atilde;o da Banda Larga, o nascimento da mobilidade e finalmente a expans&atilde;o das redes sociais.</p>
+          <p><strong>Design e Cria&ccedil;&atilde;o</strong></p>
+          <p>- Responsive Design / Multiplataforma<br>
+            - Design de Interface<br>
+            - Motion Design<br>
+            - Kiosks e Displays<br>
+            - Infogr&aacute;ficos Interativos<br>
+            - Video e Anima&ccedil;&atilde;o<br>
+          -	Apresenta&ccedil;&otilde;es Empresariais Rich Media</p>
+          <p></p>
+            <p><strong>Estrat&eacute;gia, Marketing e Publicidade</strong></p>
+            <p>- Planejamento Estrat&eacute;gico Multicanais<br>
+              -	Consultoria e Treinamento de Equipes Internas<br>
+              -	SEO (Search Engine Optimization)<br>
+              -	SMO (Social Media Optimization)<br>
+              -	An&aacute;lise de Tr&aacute;fego (Webtrends e Google Analytics)<br>
+              -	Monitoramento e M&eacute;tricas em M&iacute;dias Sociais<br>
+              -	M&iacute;dia Paga (display / AdWords / Facebook Social Ads / Mobile)<br>
+              -	Hotsites / Campanhas / E-mail marketing<br>
+              -	Advergames / Games Online<br>
+              -	Estrat&eacute;gia e Produ&ccedil;&atilde;o de Conte&uacute;do<br>
+              -	Arquitetura da Informa&ccedil;&atilde;o</p>
+            <p><strong>Tecnologia</strong></p>
+            <p>- Open Source (wordpress, drupal, php, java)<br>
+              -	Aplicativos mobile (iPhone e Android Apps e widgets)<br>
+              -	CMS (sistema para gerenciamento de conte&uacute;do)<br>
+              -	Integra&ccedil;&atilde;o APIs (Facebook, Twitter, Google, Flickr, Foursquare)<br>
+            </p>
+      </div>
+    </div>
+</div>
+	<div id="footer">
+  <div id="footer_cont">
+            <div class="det_footer">
+            <p class="frase"><span>Prouldly powered by ourselves</span></p>
+            <!--<p class="numero">+55 21 <span>2245.9248</span></p>-->
+            </div>
+            
+            <hr /> 
+                    
+                <div class="container_footer"> 
+                   
+                    <div class="float">
+                    <ul>
+                        <li>HOME</li>
+                        <li class="clientes">CLIENTES &amp; PORTF&Oacute;LIO
+                            <ul>
+                                <li>Cria&ccedil;&atilde;o&nbsp;&middot;</li>
+                                <li>Tecnologia&nbsp;&nbsp;&nbsp;</li>
+                                <li>Estrat&eacute;gia	&nbsp;&middot;</li>
+                                <li>Conte&uacute;do&nbsp;&nbsp;&nbsp;</li>
+                                <li>Corporativo</li>
+                            </ul>
+                        </li>
+                        <li>CONTATOS</li>
+                        <li>BLOG</li>
+                    </ul>
+                    </div>
+                    
+                    <div class="float">
+                    <!--<ul>
+                        <li>SIGA-NOS
+                            <ul>
+                                <li><img src="imgs/footer/facebook.png" width="19" height="19" alt="Facebook">&nbsp;FACEBOOK</li>
+                                <li><img src="imgs/footer/twitter.png" width="19" height="19" alt="Twitter">&nbsp;TWITTER</li>
+                                <li><img src="imgs/footer/flickr.png" width="19" height="19" alt="Flickr">&nbsp;FLICKR</li>
+                                <li><img src="imgs/footer/delicious.png" width="19" height="19" alt="Delicious">&nbsp;DELICIOUS</li>
+                            </ul>
+                         </li>   
+                    </ul>-->
+            </div>
+                    
+                    <div class="float">
+                    <ul>
+                        <li>ENDERE&Ccedil;O
+                            <p class="footer_endereco">
+                                Rua do Catete, 311 / cobertura 09<br />
+                                Flamengo - Rio do Janeiro - RJ<br />
+                                CEP 22220-901 - Brasil
+                            </p>
+                        </li>
+                    </ul>
+          </div>
+        
+                    <div class="float">
+                    	<img src="imgs/footer/mapa.gif" width="233" height="116" alt="Mapa">
+                    </div>
+                 
+                 </div>   
+                    
+            <hr /> 
+			<p class="footer_assinatura left">Pol&iacute;ticas de privacidade &#8226; Termos de Uso</p>
+      		<p class="footer_assinatura right">&copy; 2011 Canvas Webhouse. Todos os direitos reservados. All rights reserved.</p>
+    	</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,404 @@
+title=Calculador de Tarifa de Táxi - Brasília - DF
+url=http://www.tarifadetaxi.com/brasilia
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml">
+    <head>
+          <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+          <title>Calculador de Tarifa de Táxi - Brasília - DF</title>
+          <meta name="Description" content="Ferramenta para calcular o preço de viagens de táxi. Brasília - DF" />
+            <meta name="Keywords" content="Táxi, Taxi, Tarifa, Taxímetro, Calculador, Preço, Brazil, Brasil, Brasília, DF" />
+
+    <meta property="og:image" content="http://www.tarifadetaxi.com/media/logo-square-128x128.png"/>
+
+          <link type="text/css" rel="stylesheet" href="/media/base.css?deploy=smart-banner-3" />
+
+  <!--[if IE 7]>
+    <link type="text/css" rel="stylesheet" href="/media/ie7-style.css?deploy=smart-banner-3" />
+
+  <![endif]-->
+  <!--[if lt IE 7]>
+    <link type="text/css" rel="stylesheet" href="/media/ie6-style.css?deploy=smart-banner-3" />
+
+  <![endif]-->
+
+    <link type="text/css" rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.5/themes/base/jquery-ui.css" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/media/apple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/media/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/media/apple-touch-icon-114x114.png" />
+
+
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+
+</script>
+
+    </head>
+    <body>
+    <script src="http://www.google.com/jsapi?key=AIzaSyARk-n4O3lLyAA4Snf_Wm360Qe_fpXGnQE" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
+        <script type="text/javascript"><!--
+    var TRACK_ID = Math.random().toString();
+    var MEDIA_URL = "/media/";
+    var IMAGES_URL = "/media/images";
+    var LANGUAGE = "pt_BR";
+    var BITLY_LOGIN = "tarifadetaxi";
+    var BITLY_KEY = "R_103f59c1f41444a5efc881c8956dfb9a";
+    // -->
+    </script>
+        <script type="text/javascript" src="/media/all.js?deploy=smart-banner-3"></script>
+
+
+    
+    <!-- Google Tag Manager -->
+    <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-WP64QF" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WP64QF');</script>
+    <!-- End Google Tag Manager -->
+    
+    <script type='text/javascript'>
+      var googletag = googletag || {};
+      googletag.cmd = googletag.cmd || [];
+      (function() {
+        var gads = document.createElement('script');
+        gads.async = true;
+        gads.type = 'text/javascript';
+        var useSSL = 'https:' == document.location.protocol;
+        gads.src = (useSSL ? 'https:' : 'http:') +
+          '//www.googletagservices.com/tag/js/gpt.js';
+        var node = document.getElementsByTagName('script')[0];
+        node.parentNode.insertBefore(gads, node);
+      })();
+    </script>
+
+    <script type='text/javascript'>
+      googletag.cmd.push(function() {
+        googletag.defineSlot('/217191929/house1', [320, 50], 'div-gpt-ad-1438731910587-0').addService(googletag.pubads());
+        googletag.pubads().enableSingleRequest();
+        googletag.enableServices();
+      });
+    </script>
+    
+    <script type="text/javascript"><!--
+
+    var apilang = "pt-BR";
+    google.load("jqueryui", "1.8.11");
+    google.load("search", "1");
+    google.load("maps", "3.5", {other_params:"sensor=false&libraries=places&language="+apilang});
+
+    AUTO_SCROLL = 0;
+    var cityName = "brasilia";
+    var moneyPrefix = "R$ ";
+    var calculator = new FareCalculator(cityName, moneyPrefix);
+    var searcher = new AddrSearcher(cityName, calculator, "Brasília - DF, Brazil");
+    $(document).ready(function(){
+        $('#submit').click(function(e) {
+            e.preventDefault();
+            searcher.clicked();
+        });
+        $('#submit').removeAttr('disabled');
+    });
+
+    $(document).ready(function(){
+        $('#loading-msg').hide();
+    });
+
+    function finishInitialization() {
+
+        MAP_ZOOMER.setBounds(new google.maps.LatLngBounds(new google.maps.LatLng(-15.845364868164063, -48.02016979980469), new google.maps.LatLng(-15.728635131835938, -47.790830200195316)));
+
+    // Center to the chosen city
+    MAP_ZOOMER.setBounds(new google.maps.LatLngBounds(new google.maps.LatLng(-15.845364868164063, -48.02016979980469), new google.maps.LatLng(-15.728635131835938, -47.790830200195316)));
+    searcher.initialize();
+        calculator.setFareArgs('b1', 451, 245, 1);
+        calculator.setFareArgs('b2', 451, 312, 1);
+        calculator.setPerHour(2729);
+    calculator.finish_init();
+    trackEvent(cityName, 'loaded', '', '','');
+
+    searcher.check_for_clicks();
+
+    var uriArgs = getUriArgs();
+    searcher.autoCalcFromArgs(uriArgs);
+
+    addthis.init()
+    }
+
+    function loaded() {
+        MAP_START_BOUNDS = new google.maps.LatLngBounds(new google.maps.LatLng(-15.845364868164063, -48.02016979980469), new google.maps.LatLng(-15.728635131835938, -47.790830200195316));
+
+
+        initializeCollapsableBlocks();
+        initCTracker();
+        mapInitialize();
+        finishInitialization();
+    }
+
+    google.setOnLoadCallback(loaded);
+    // -->
+    </script>
+
+    <script type="text/javascript">var addthis_config = {
+        data_track_clickback:false,
+        ui_language: "pt",
+        services_compact: 'twitter, orkut, facebook, googlereader, email, delicious, more',
+        services_exclude: 'print',
+        pubid: 'ra-4d84dbef143a333c'
+    };</script>
+    <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#async=1"></script>
+<div id="controls">
+    <div id="logo">
+    <a  href="/">
+    <img src="/media/images/logo.gif" width="261" height="28" alt="Calculador de Tarifa de Táxi" />
+    </a>
+  </div>
+
+
+  <div class="bodyout" id="fundomain">
+        <noscript>
+        <p style="color: red"><strong>Seu cliente não suporta Javascript ou Javascript está desabilitado. O Calculador precisa de suporte a Javascript para funcionar.</strong></p>
+        <img src="/media/panic.gif?noscript" width="1" height="1" />
+        </noscript>
+    <div class="field" id="field_cityname">
+    <div class="fieldlabels">
+        <div class="field-note">
+               <a href="/">Outras cidades</a>
+        </div>
+    </div>
+    <h1>Brasília - DF</h1>
+    </div>
+
+    
+<form id="formlocais" name="formlocais" onsubmit="return false;">
+
+        <div class="field" id="field_from">
+        <div class="fieldlabels">
+            <div class="mapselect field-note">
+                <a href="#" class="ctracked" id="mapselect-from">Selecionar no mapa</a>
+            </div>
+            <img src="http://chart.apis.google.com/chart?cht=mm&amp;chs=16x16&amp;chco=FFFFFF,0086E6,000000&amp;ext=.png" class="mapselecticon" id="selecticon_from" height="16" width="16" alt="marcador" />
+            <label id="label_from" for="from">Origem:</label>
+        </div>
+        <div class="markertextwrap">
+        <input class="markerinput textinput" name="from" id="from" type="text" tabindex="1" placeholder="ex.: Av. Getúlio Vargas, 1325" />
+        </div>
+
+        <p id="msg_selectfrom" class="field_msg"></p>
+
+        <div id="selectfrom" class="selectpage fieldpage">
+            <img class="spinner" id="spinner_from" src="/media/images/blank.png" height="16" width="16" style="display: none" />
+
+            <p class="select-label">Selecione a Origem:</p>
+            <ul id="matchlist_from" class="matchlist">
+                <li>...</li>
+            </ul>
+
+            <div id="attribution_from" class="attribution">
+            </div>
+
+        </div>
+
+        <div class="addrinfo fieldpage" id="addrinfo_from">
+            <p id="fromaddr"></p>
+        </div>
+    </div>
+    <script type="text/javascript"><!--
+        searcher.newInput({ name: 'from', color: "0086E6", title:"Origem:", dragme:"Arraste o marcador para selecionar o ponto de origem"});
+    // -->
+    </script>
+
+
+        <div class="field" id="field_to">
+        <div class="fieldlabels">
+            <div class="mapselect field-note">
+                <a href="#" class="ctracked" id="mapselect-to">Selecionar no mapa</a>
+            </div>
+            <img src="http://chart.apis.google.com/chart?cht=mm&amp;chs=16x16&amp;chco=FFFFFF,F3241D,000000&amp;ext=.png" class="mapselecticon" id="selecticon_to" height="16" width="16" alt="marcador" />
+            <label id="label_to" for="to">Destino:</label>
+        </div>
+        <div class="markertextwrap">
+        <input class="markerinput textinput" name="to" id="to" type="text" tabindex="2" placeholder="ex.: Parque do Ibirapuera" />
+        </div>
+
+        <p id="msg_selectto" class="field_msg"></p>
+
+        <div id="selectto" class="selectpage fieldpage">
+            <img class="spinner" id="spinner_to" src="/media/images/blank.png" height="16" width="16" style="display: none" />
+
+            <p class="select-label">Selecione o Destino:</p>
+            <ul id="matchlist_to" class="matchlist">
+                <li>...</li>
+            </ul>
+
+            <div id="attribution_to" class="attribution">
+            </div>
+
+        </div>
+
+        <div class="addrinfo fieldpage" id="addrinfo_to">
+            <p id="toaddr"></p>
+        </div>
+    </div>
+    <script type="text/javascript"><!--
+        searcher.newInput({ name: 'to', color: "F3241D", title:"Destino:", dragme:"Arraste o marcador para selecionar o ponto de destino"});
+    // -->
+    </script>
+
+
+
+    <span id="branding"><table cellspacing="0" cellpadding="0" class="g-manual-sc-branding"><tbody><tr><td class="g-manual-sc-branding-text"><div class="g-manual-sc-branding-text">powered by</div></td><td class="g-manual-sc-branding-img-noclear"><img src="http://www.google.com/uds/css/small-logo.png" class="g-manual-sc-branding-img-noclear"></td></tr></tbody></table></span>
+
+    <div id="submitbutton">
+        <input id="submit" type="submit" name="ok" value="Calcular Tarifa" disabled tabindex="3" />
+    </div>
+
+    <div id="main-status">
+        <span class="spinner"></span>
+        <span class="text"></span>
+    </div>
+
+    <div style="clear:both;"></div>
+
+</form>
+
+  </div>
+
+
+
+
+          
+
+
+    <div class="resultitem animated" id="resultbox">
+        <div id="results">
+                <div id="result-permalink-box">
+                <a id="result-permalink" href="#">Link para este cálculo</a>
+                </div>
+                <div id="fares">
+                <p class="fareline" id="fare_b1">Bandeira 1: <span class="total" id="total_b1">00,00</span></p>
+                <p class="fareline" id="fare_b2">Bandeira 2: <span class="total" id="total_b2">00,00</span></p>
+                <p class="fareline" id="fare_b3">Bandeira 3: <span class="total" id="total_b3">00,00</span></p>
+                <p class="fareline" id="fare_b4">Bandeira 4: <span class="total" id="total_b4">00,00</span></p>
+                <p class="fareline" id="fare_bu">Bandeira única: <span class="total" id="total_bu">00,00</span></p>
+                <p class="fareline" id="fare_dez_20">Dezembro (+20%): <span class="total" id="total_dez_20">00,00</span></p>
+                </div> 
+
+                <div id="resultsnotes">
+                    <p class="aviso"><i>Os valores acima são apenas estimativas. Outros fatores podem influenciar o preço da viagem.</i> <a href="#notes">[mais]</a></p>
+                </div> 
+
+
+
+        </div>
+
+        <div id="error">
+            <h2 id="errortitle"> </h2>
+            <p id="errormsg"> </p>
+            <p id="errorinfo"> </p>
+        </div>
+    </div>
+
+            <div class="block block-type-A resultitem collapsable ctracked" id=trajeto-block>
+        <div class="block-title">
+            <img class="block-btn-img" src="/media/images/bt_minimizar.png" alt="" width="15" height="15" />
+            <h2>Ver detalhes do trajeto</h2>
+        </div>
+        <div class="block-content">
+
+        <div id="route">
+        </div>
+        </div>
+    </div>
+
+
+        <div class="block block-type-B sharing-block" id=main-sharing-block>
+        <div class="block-title">
+            <img class="block-btn-img" src="/media/images/bt_minimizar.png" alt="" width="15" height="15" />
+            <h2>Compartilhe</h2>
+        </div>
+        <div class="block-content">
+
+    <div class="addthis_toolbox addthis_default_style addthis_32x32_style" addthis:url="http://www.tarifadetaxi.com/" addthis:title="Calcule o preço de viagens de táxi antes de sair de casa">
+    <a class="addthis_button_orkut"></a>
+    <a class="addthis_button_twitter"></a>
+    <a class="addthis_button_facebook"></a>
+    <a class="addthis_button_email"></a>
+    <a class="addthis_button_compact"></a>
+    </div>
+        </div>
+    </div>
+
+
+
+        <div class="block block-type-B ">
+        <div class="block-title">
+            <img class="block-btn-img" src="/media/images/bt_minimizar.png" alt="" width="15" height="15" />
+            <h2>Observações</h2>
+        </div>
+        <div class="block-content">
+
+<div id="notes">
+        <h3>Possíveis valores adicionais</h3>
+        <p>O calculador <strong>não</strong> inclui no resultado:</p>
+        <ul>
+            <li>Tempo parado: R$ 27,29 por hora</li>
+        </ul>
+          <p>A estimativa é válida apenas para viagens dentro do município.</p>
+
+
+        <h3>Valores</h3>
+        <p>Os valores utilizados para cálculo são:</p>
+
+        <ul>
+            <li>Bandeirada: R$ 4,51</li><li>Quilômetro rodado: R$ 2,45 (bandeira 1) e R$ 3,12 (bandeira 2)</li>
+        </ul>
+
+<p>Valores em vigor <a href="http://www.buriti.df.gov.br/ftp/diariooficial/2014/07_Julho/DODF%20N%C2%BA%20153%2029-07-2014/Se%C3%A7%C3%A3o01-%20153.pdf" target="_blank">desde 29/07/2014</a>.</p><p class="small-note">Última verificação dos valores atualizados: 18/08/2014.</p>
+</div>
+    </div>
+    </div>
+
+
+
+
+
+  <div class="block-content">
+  
+<div class="legal-notes">
+
+  <p class="copyright-note">© 2008-2010 Equipe Tarifadetaxi.com, Eduardo Habkost</p>
+
+  <ul class="legal-links">
+    <li><a href="/p/privacidade">Política de Privacidade</a></li>
+  </ul>
+
+</div>
+
+  </div>
+
+  <img src="/media/e.gif" id="panictrack" class="ti" width="1" height="1" />
+</div>
+<div id="map-topbar">
+    <div id="permalink-window">
+        <p>
+        <label class="shortening-status"></label>
+        <input readonly="readonly" type="text" class="short-url url-box">
+        </p>
+
+        <p>
+        <label>Link longo:</label>
+        <input readonly="readonly" type="text" class="long-url url-box">
+        </p>
+
+        <p>Os endereços acima podem ser utilizados para compartilhar este cálculo.</p>
+    </div>
+        <div class="linklist">
+        <a href="http://www.twitter.com/tarifadetaxi" target="_blank">Twitter</a>
+        <a href="mailto:contato@tarifadetaxi.com" target="_blank">e-mail</a>
+           <a href="?mobile=1">versão&nbsp;móvel</a>
+    </div>
+
+</div>
+<div id="mapsection">
+  <div id="map"></div>
+</div>
+    </body>
+</html>

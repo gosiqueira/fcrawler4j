@@ -1,0 +1,911 @@
+title=Pacotes para Europa - Circuitos Europeus | CVC.com.br
+url=http://www.cvc.com.br/promocao/Circuitos.aspx?filtro=pais&item=Esc%C3%B3cia
+html=
+    <!doctype html public "-//w3c//dtd html 4.01//en" "http://www.w3.org/tr/html4/strict.dtd">
+    <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="pt-br" lang="pt-br" xmlns:og="http://ogp.me/ns#" id="ng-app">
+    <head>
+        <title>
+            Pacotes para Europa - Circuitos Europeus | CVC.com.br
+        </title>
+
+        <meta name="google-site-verification" content="n72WDYk5P2qbrc3f9r0KmQfuvmOWmixNbvxmh72mGDU" />
+
+        
+
+        <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />
+        <meta name="description" content="A viagem dos seus sonhos esta na CVC: Pacotes turísticos, Passagens e Hotéis com preços imperdíveis! Não perca tempo, confira e reserve sua viagem!"/>
+<!-- DC.Dublin Core -->	
+<link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"/>
+<meta name="DC.identifier" content="http://www.cvc.com.br/index.aspx"/><meta name="DC.description" content="A viagem dos seus sonhos esta na CVC: Pacotes turísticos, Passagens e Hotéis com preços imperdíveis! Não perca tempo, confira e reserve sua viagem!"/><meta name="DC.title" content="Pacotes Turísticos, Passagens e Hotéis | CVC Viagens"/>
+<!-- OG Protocol -->
+<meta property="og:title" content="Pacotes Turísticos, Passagens e Hotéis | CVC Viagens"/><meta property="og:url" content="http://www.cvc.com.br/index.aspx"/><meta property="og:site_name" content="CVC Viagens"/><meta property="og:type" content="website"/><meta property="og:description" content="A viagem dos seus sonhos esta na CVC: Pacotes turísticos, Passagens e Hotéis com preços imperdíveis! Não perca tempo, confira e reserve sua viagem!"/>
+<!--Twitter Card-->
+<meta name="twitter:card" content="summary"><meta name="twitter:url" content="http://www.cvc.com.br/index.aspx"><meta name="twitter:title" content="A viagem dos seus sonhos esta na CVC: Pacotes turísticos, Passagens e Hotéis com preços imperdíveis! Não perca tempo, confira e reserve sua viagem!"><meta name="twitter:image" content="http://www.cvc.com.br/media/3128419/logo-header-checkout.png">
+<!---Google---->
+<meta itemprop="name" content="Pacotes Turísticos, Passagens e Hotéis | CVC Viagens"><meta itemprop="description" content="A viagem dos seus sonhos esta na CVC: Pacotes turísticos, Passagens e Hotéis com preços imperdíveis! Não perca tempo, confira e reserve sua viagem!"><meta itemprop="image" content="http://www.cvc.com.br/media/3128419/logo-header-checkout.png"><link rel="canonical" href="http://www.cvc.com.br/index.aspx"/><meta property="fb:admins" content="100005886151264" />
+
+        <link href="/travel/Styles_B2C/style.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/helper.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/style_crm.css?v=v=20160123" rel="stylesheet" type="text/css" />
+        <link href='/travel/Styles_B2C/jquery-ui.css?v=v=20160123' rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/ngDialog.css" rel="stylesheet">
+        <link href="/travel/Styles_B2C/ngDialog-theme-default.css" rel="stylesheet">
+        <link href="/travel/Styles_B2C/DrpBox.css?v=v=20160123" rel="stylesheet" />
+        <link href="/css/footer.css?v=v=20160123" rel="stylesheet" />
+        <link href="/css/social-login.css?v=v=20160123" rel="stylesheet" />
+        <link href="/travel/Styles_B2C/services.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+        <link href="/travel/Styles_B2C/login-timeout.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+
+        
+
+        <link href="/travel/Styles_B2C/header_site.css" rel="stylesheet" type="text/css" />
+        <link href="/travel/Styles_B2C/login-timeout.css?v="v=20160123" rel="stylesheet" type="text/css"  />
+
+        
+  
+	
+	<script type="text/javascript" src="/scripts/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="/scripts/jquery.cycle.all.js"></script>
+	
+	
+	
+	<script type='text/javascript' src="/scripts/circuitos-lightbox.js"></script>
+	<script type="text/javascript" src="/scripts/circuitos2.js"></script>
+	
+	
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,700,300' rel='stylesheet' type='text/css'>
+	<link type="text/css" href="/css/estilo-ingressos-lightbox.css" rel="stylesheet" />
+	<link type="text/css" href="/css/circuitos2.css" rel="stylesheet" />
+	
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.29/angular.min.js" type="text/javascript"></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/i18n/angular-locale_pt-br.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-animate.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-resource.min.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui-date.js'></script>
+             <script type="text/javascript" src='/travel/Scripts/angular/angular-ui-mask.js'></script>
+             <script type="text/javascript" src="/travel/Scripts/angular/angular-cookies.min.js"></script>
+             <script src="/scripts/autocomplete.js" type="text/javascript"></script>
+
+         <script type="text/javascript">
+            angular.module('siteCVC', []);
+         </script>
+
+        <!-- JS Libraries -->
+        <script type="text/javascript" src="/travel/scripts/underscore/underscore-min.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery-ui.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Jquery-ui-pt-BR.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Jquery.cycle.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.maskedinput-1.3.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Util.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Prototypes.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Event.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Formatters.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/ServiceCaller.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/json2.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/CustomElements.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Libraries/Modernizr/modernizr.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/scripts/modernizrPolyfills.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/DatePickerOption.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/ClosureTemplate/soyutils.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/jquery.DropBox.custom.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/EnumHelper.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Libraries/jquery.scrollTo-1.4.2-min.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/Masks.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.flip.min.js?v=20160123"></script>
+        <script type="text/javascript" src="/Webcommon/Scripts/Views/Loader.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Handlers/CultureResource.ashx?culture=pt-BR'></script>
+        <script type="text/javascript" src="/travel/scripts/jStorage.js"></script>
+        <!-- JS MVC -->
+        <script type="text/javascript" src='/WebCommon/Scripts/Models/NewsLetterModel.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Models/LocationsModel.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Models/TemplateModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/PackageDetailModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/PackageModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/ServiceModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Models/CruiseModel.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/Adapter.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/LocationsFinder.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Views/MessagesExhibitor.js?v=20160123"></script>
+        <script type="text/javascript" src="/scripts/cookie.js?v=20160123"></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Views/NewsLetterContact.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/NewsLetterController.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/LocationsController.js?v=20160123'></script>
+        <script type="text/javascript" src='/WebCommon/Scripts/Controllers/MessagesController.js?v=20160123'></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Controllers/TemplateController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/PackageDetailController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/PackageController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/ServiceController.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/Controllers/CruiseController.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery.easing-1.3.pack.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/jquery-easing-compatibility.1.2.pack.js?v=20160123"></script>
+        <script type="text/javascript" src="/WebCommon/Scripts/Libraries/coda-slider.1.1.1.pack.js?v=20160123"></script>
+        
+        <script type="text/javascript" src="/travel/Templates/B2C/Shared/Shared_pt-BR.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/SharedFunctions.js?v=20160123"></script>
+        <script type="text/javascript" src="/travel/Scripts/FormState.js?v=20160123"></script>
+        <script src="/scripts/NavigationEvents.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.namespace.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.window.utils.js?v=20160123" type="text/javascript"></script>
+        <script src="/travel/Scripts/CVC/CVC.controls.utils.js?v=20160123" type="text/javascript"></script>
+
+        <script type="text/javascript" src="/Travel/Scripts/app/directives/modal/modalLightbox.js?v=20160123"></script>
+        <!--JS CRM-->
+
+        
+
+
+
+      <script type="text/javascript">
+          if (!Global) var Global = {};
+          if (!Global.LocationsCache) Global.LocationsCache = [];
+          Global.Culture = "pt-br";
+          Global.ImageRoot = "http://www.cvc.com.br/travel/Styles_B2C/";
+          Global.PathWebService = "/travel/ServiceUI.svc/";
+          Global.PathWebServiceOther = "http://www.cvc.com.br/umbraco/api/Destination/";
+          Global.PathServiceApi = "http://www.cvc.com.br/api/";
+          Global.PathB2BWebService = "";
+          Global.PathSystur = "http://systur.cvc.com.br/pls/systur/";
+          Global.CheckOutProtocol = "https://";
+          Global.CheckOutDomain = window.location.host;
+          Global.SearchType = "3";
+          Global.SearchTypes.Full = "3";
+          Global.InterfaceEnvelope = {};
+          Global.QueryString = "";
+          Global.SelectedCurrency = "BRL";
+          Global.MessagesController = new MessagesController();
+          Global.URLSite = "http://www.cvc.com.br/";
+          Global.ImagesPath = "//www.cvc.com.br/WebCommon/" + "Images/";
+          Global.Login = {};
+          Global.Login.Login = Util.getCookie("Signature");
+          Global.Login.AgencyId = "1";
+          transformLinkInSubmit();
+
+          function CreateCookie(strCookie, strValor, lngDias) {
+              if (ReadCookie("Loyalt") != "false") {
+                  if (ReadCookie("Loyalt") == null || lngDias == -1) {
+                      var dtmData = new Date();
+                      dtmData.setTime(dtmData.getTime() + (lngDias * 60 * 60 * 1000));
+                      var strExpires = "; expires=" + dtmData.toGMTString();
+                      document.cookie = strCookie + "=" + strValor + strExpires + "; path=/";
+                  }
+                  else {
+                      CreateCookie("Loyalt", '', -1);
+                      CreateCookie("Loyalt", strValor, 1);
+                  }
+              }
+          }
+
+          function ReadCookie(strCookie) {
+              var strNomeIgual = strCookie + "=";
+              var arrCookies = document.cookie.split(';');
+
+              for (var i = 0; i < arrCookies.length; i++) {
+                  var strValorCookie = arrCookies[i];
+                  while (strValorCookie.charAt(0) == ' ') {
+                      strValorCookie = strValorCookie.substring(1, strValorCookie.length);
+                  }
+                  if (strValorCookie.indexOf(strNomeIgual) == 0) {
+                      return strValorCookie.substring(strNomeIgual.length,
+                      strValorCookie.length);
+                  }
+              }
+              return null;
+          }
+
+          if (Util.getCookie("Loyalt") == null) {
+              var ValidLoyalt = "False";
+              if (ValidLoyalt.toLowerCase() == "false") {
+                  CreateCookie("Loyalt", false, 1);
+              }
+          }
+
+          
+
+        </script>
+
+        <script type="text/javascript">
+            $SA = { s: 81070, asynch: 1 };
+            (function () {
+                var sa = document.createElement("script");
+                sa.type = "text/javascript";
+                sa.async = true;
+                sa.src = ("https:" == document.location.protocol ? "https://" + $SA.s + ".sa" : "http://" + $SA.s + ".a") + ".siteapps.com/" + $SA.s + ".js";
+                var t = document.getElementsByTagName("script")[0];
+                t.parentNode.insertBefore(sa, t);
+            })();
+            (function () {
+                var link = document.createElement("style");
+                link.id = "_sa_hide_style";
+                link.innerHTML = "body{opacity:0 !important; filter:alpha(opacity=0) !important; background:none !important;}";
+                document.getElementsByTagName('head')[0].appendChild(link);
+            })();
+            setTimeout(function () {
+                var _hideStyle = document.getElementById('_sa_hide_style');
+                if (_hideStyle) {
+                    _hideStyle.parentNode.removeChild(_hideStyle);
+                }
+            }, 3000);
+		</script>
+
+		
+  
+	
+
+  
+    
+ 
+    
+
+    </head>
+    <body ng-app="siteCVC" id="ng-app">
+    <input type="hidden" value="1" id="agencyId"/>
+    <input type="hidden" value="3" id="searchTypeFull"/>
+
+        <div id="overlay" class="trace-manager-overlay"></div>
+        <div id="modal-opacity" class="ui-widget-overlay hide"></div>
+
+        <form id="continueForm" method="post" action="../MasterPricer">
+            <div class="siteContent">
+            <input id="InterfaceEnvelope" type="hidden" name="InterfaceEnvelope" />
+            <input id="Culture" type="hidden" name="Culture" />
+            <input id="SearchType" type="hidden" name="SearchType" />
+            <input id="Currency" type="hidden" name="Currency" />
+            <input id="ExchangeRate" type="hidden" name="ExchangeRate" />
+            <input id="SelectedCurrency" type="hidden" name="SelectedCurrency" />
+            <input id="QueryString" type="hidden" name="QueryString" />
+
+            
+
+    
+
+    <!--Maxymiser INTUITIVE script start --> 
+        <script type="text/javascript" src= "/scripts/intuitive/mmcore.js" ></script>
+    <!--Maxymiser INTUITIVE script end -->
+
+    <!-- JS Analytics -->
+    <script type="text/javascript" src="/scripts/analytics/pmkt.js"></script>
+    <script type="text/javascript" src="/scripts/analytics/multitouch.js"></script>
+    <script type="text/javascript" src="/scripts/redirects.js"></script>
+    <script type="text/javascript">
+              // TAG PADRAO
+              var _gaq = _gaq || [];
+              var UA = 'UA-1814594-1';
+
+              if(document.location.hostname == 'vendasti.cvc.com.br')
+              UA = 'UA-1814594-34';
+              else if(Util.getCookie('userType') == 'Vendor'){
+              UA = 'UA-1814594-35';
+              _gaq.push(['_trackEvent', 'Filial', 'SetCode', 'Código da filial', parseInt(Util.getCookie('BranchCode'), 10)]);
+              }
+              else if(Util.getCookie('userType') == 'Agent'){
+              UA = 'UA-1814594-36';
+              _gaq.push(['_trackEvent', 'Filial', 'SetCode', 'Código da filial', parseInt(Util.getCookie('BranchCode'), 10)]);
+              }
+
+              _gaq.push(['_setAccount', UA]);
+				//_gaq.push(['_addIgnoredOrganic', 'ignore']);
+				//_gaq.push(['_addIgnoredRef', 'cvc.com.br']);
+              _gaq.push(['_setDomainName', 'cvc.com.br']);
+              _gaq.push(['_trackPageview']);
+
+              (function() {
+              var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+              ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+              var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+              })();
+
+            </script><script>
+            // SCRIPT NOVO
+            
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-1814594-39', 'auto');
+
+          </script>
+        
+    <!-- JS de execução/chamadas de script -->
+    <script type="text/javascript" src="/WebCommon/Scripts/Models/NewsLetterModel.js?v=20160123"></script>
+    <script type="text/javascript" src="/WebCommon/Scripts/Views/NewsLetterContact.js?v=20160123"></script>
+    <script type="text/javascript" src="/WebCommon/Scripts/Controllers/NewsLetterController.js?v=20160123"></script>
+    <script type="text/javascript" src="/scripts/GridList.js?v=20160123"></script>
+    <script type="text/javascript" src="/scripts/ImageError.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/Loyalt/Loyalt_pt-BR.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/Loyalt/LoyaltTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/ModalToolTipTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Scripts/ModalToolTip.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Scripts/ModalHotelMap.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/HotelMap/HotelMapTPL.js?v=20160123"></script>
+    <script type="text/javascript" src="/travel/Templates/B2C/ModalToolTip/HotelMap/HotelMap_pt-BR.js?v=20160123"></script>
+    <script src="/scripts/cookie.js?v=20160123" type="text/javascript"></script>
+    <script src="/scripts/scriptsHeader.js?v=20160123" type="text/javascript"></script>
+    <script src="/scripts/NavigationEvents.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.namespace.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.window.utils.js?v=20160123" type="text/javascript"></script>
+    <script src="/travel/Scripts/CVC/CVC.controls.utils.js?v=20160123" type="text/javascript"></script>
+   
+
+    <script type="text/javascript" src="/scripts/pl_socialnetworks.js?v=20160123"></script>
+      
+
+    
+<script type="text/javascript">
+                    var hTMLCollection = HTMLCollection.prototype.item;
+                    var hTMLSelectElement = HTMLSelectElement.prototype.item;
+
+                    HTMLCollection.prototype.item = function () { return hTMLCollection.bind(this)(arguments[0] || 0); }
+
+                    HTMLSelectElement.prototype.item = function () { return hTMLSelectElement.bind(this)(arguments[0] || 0); }
+</script>
+
+
+
+<script src="/Travel/Scripts/angular/ngStorage.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/modules/general/generalModule.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/services/general/loginTimeoutService.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/directives/general/dirHeaderLoginTimeout.js?v=20160123" type="text/javascript"></script>
+<script src="/Travel/Scripts/app/controllers/general/loginTimeoutController.js?v=20160123" type="text/javascript"></script>
+
+<input type="hidden" value="1" id="agencyId" />
+<input type="hidden" value="3" id="searchTypeFull" />
+
+<div id="modal-packageSystur" class="ui-widget-overlay hide"></div>
+
+<div ng-app="general" class="boxModel" header-login-timeout>
+    <div class="headerTop">
+        <h1 class="logo">
+            <a href="/index.aspx" title="CVC - Viagens" target="_self">CVC - Viagens</a>
+        </h1>
+        <div class="userBox" id="userBox">
+            <ul class="userMenu">
+                <li class="commonItem"><a href="/lista-de-casamento/index.aspx">Lista de casamento</a></li>
+                <li class="commonItem"><a href="/ri">Investidores</a></li>
+                <li class="commonItem"><a href="/lps/franquias/index.aspx" target="_blank">Seja um franqueado</a></li>
+                <li class="commonItem"><a href="http://lojas.cvc.com.br" target="_blank">Lojas</a></li>
+                <li class="commonItem"><a href="/atendimento/central-de-atendimento.aspx">Atendimento</a></li>
+                
+            </ul>
+            <div id="linkLogin">
+                <p>
+                    <a href="/travel/minhaconta/myorders?menu=2">Minhas viagens</a> / <a href="/travel/minhaconta">Login</a>
+                </p>
+            </div>
+        </div>
+        <div ng-if="showLoginArea()">
+
+            <div class="loginArea" style="display: block;">
+                <div sell-probability></div>
+                <div style="margin-top:-10px; margin-bottom: 9px; float: right;">
+                    <p style="margin-left: 5px;">Bem-vindo a CVC,</p>
+                    <p id="loggerUser">
+                        <a href="/travel/minhaconta"><strong class="userLog"></strong></a>
+                        (<a class="submit" href="/travel/Logout">sair</a>)
+                    </p>
+                </div>
+                <div id="unloggedHeader"></div>
+            </div>
+        </div>
+
+        <div class="menuTelevendas">
+            <ul class="userMenuTelevendas">
+                <li class="topItem">
+                    <span class="titulo">Televendas: </span><a class="withMenuTelevendas" href="javascript:void(0);">(11) 3003-9282</a>
+
+                    <ul class="userSubMenuTelevendas">
+                        <li>
+                            <p>Capitais e Regiões Metropolitanas</p>
+                            <span>3003-9282</span>
+                        </li>
+                        <li>
+                            <p>Demais localidades</p>
+                            <span>(11) 3003-9282</span>
+                        </li>
+                        <li class="atendimento">
+                            <p>Horário de atendimento</p>
+                            <span>Seg a Sex: 8h às 22h<br />
+                            Sab: 9h às 21h<br />
+                            Dom: 10h às 21h<br />
+                            Feriados: 10h às 21h</span>                            
+                        </li>
+                        <li class="outras-localidades">
+                            <p class="bt-outras-localidades">Veja informações sobre o custo das ligações</p>
+                        </li>
+                        <li class="atendimento">
+                            <p>Ligações feitas de telefone fixo</p>
+                            <span>Custo de ligação local + impostos locais conforme o estado de origem.</span>                            
+                        <li class="atendimento">
+                            <p>Chamadas feitas de celular</p>
+                            <span>Custo da ligação + impostos para celulares, conforme a operadora.</span>
+                        </li>
+                        <li class="atendimento">
+                            <span>Para verificar se a cidade de onde você está falando permite ligações sem código da operadora, tente discar diretamente o número <strong class="menor">3003-9282</strong>.</span>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="subMenuFolder" id="subMenuCanais" style="display: none"></div>
+<umbraco:macro id="Macro1" alias="[RAZOR]MainMenu" runat="server"></umbraco:macro>
+
+    
+            <script lang="javascript">
+              $(window).resize(function() {
+                var WindowWidth = $(window).width();
+                if (WindowWidth < 1007) {
+                    $('body').css("overflow-x", "visible");
+                }
+                else
+                    $('body').css("overflow-x", "hidden");
+              });
+            </script>
+            <div class="menuTopo">
+                <div>
+                    <ul class="boxModel" id="mainMenu">
+                            <li>
+                                                                    <a href="/pacotes/index.aspx" title="Pacotes" target="_self">Pacotes</a>
+                            </li>
+                            <li>
+                                                                    <a href="/passagens-aereas/index.aspx" title="Passagens A&#233;reas" target="_self">Passagens A&#233;reas</a>
+                            </li>
+                            <li>
+                                                                    <a href="/hoteis/index.aspx" title="Hot&#233;is" target="_self">Hot&#233;is</a>
+                            </li>
+                            <li>
+                                                                    <a href="/resorts/index.aspx" title="Resorts" target="_self">Resorts</a>
+                            </li>
+                            <li>
+                                                                    <a href="/cruzeiros" title="Cruzeiros" target="_self">Cruzeiros</a>
+                            </li>
+                            <li>
+                                                                    <a href="/promocao/circuitos.aspx" title="Circuitos" target="_self">Circuitos</a>
+                            </li>
+                            <li>
+                                                                    <a href="/intercambios.aspx" title="Interc&#226;mbios" target="_self">Interc&#226;mbios</a>
+                            </li>
+                            <li>
+                                                                    <a href="/promocao/ingressos.aspx" title="Ingressos" target="_self">Ingressos</a>
+                            </li>
+                            <li>
+                                                                    <a href="/vale-viagem.aspx" title="Vale Viagem" target="_self">Vale Viagem</a>
+                            </li>
+                            <li>
+                                                                    <a href="/destinos/index.aspx" title="Destinos" target="_self">Destinos</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+
+
+
+
+
+            <div class="container">
+                
+  
+	<div id="loading"></div>
+	<div id="circuitos2">
+		<ul class="breadcrumbs" itemprop="breadcrumb"><li><a href="/index.aspx" title="HOME" target="_self">CVC VIAGENS</a></li><li><a href="/promocao?campaign=lps" title="promoção" target="_self">promoção</a></li><li class="active"><a href="#" title="Circuitos" target="_self">Circuitos</a></li></ul><script>
+                if ( !$('ul.breadcrumbs li:last-child').hasClass('active') ){
+                $('ul.breadcrumbs li:last-child').addClass('active');
+                }
+            </script>
+		<div id="topo-resort">
+			<!--<h1>CRUZEIROS <span>CVC</span></h1>-->
+			<div id="slider">
+				<div id="transicao">
+					<img src="/media/8894084/topo_circuitos2.jpg" alt="Cruzeiros CVC"/>
+					<!--<a href="http://www.cvc.com.br/Cruzeiros/MSC-Cruzeiros/MSC-Splendida/detalhes.aspx" target="_blank">
+<span class="topo-legenda">MSC - Splendida | <small>Ver detalhes</small></span>
+</a>-->
+				</div>
+			</div>    
+			
+			<!--<div class="topo-legenda"><span>Me Cancun |</span> <a href="#">Ver detalhes</a></div>-->
+			
+			<div id="legendas" style="background:url('http://www.cvc.com.br/media/3127839/bg-transparente-70.png'); 
+position:absolute; bottom:0; right:0; padding: 5px 10px;
+font-size:12px;
+color:#fff;
+z-index:999;
+display:none;">
+				<span id="legenda0">Legenda 0</span>
+				<span id="legenda1">Legenda 1</span>
+				<span id="legenda2">Legenda 2</span>
+				<span id="legenda3">Legenda 3</span>
+				<span id="legenda4">Legenda 4</span>
+			</div>
+		</div><!-- topo -->
+		
+		<!--<span class="cabecalho_azul">FILTRAR POR:</span>-->
+		<div id="filtro-container">
+			<div id="coluna-filtro">
+				<div class="filtro opcoes"><span class="cabecalho">Buscar por:</span><ul class="categoria circuito"><li class="nome">Circuito</li></ul><ul class="subcategorias circuito"><li><a href="Circuitos.aspx?filtro=circuito&amp;item=todos-os-circuitos" class="todos-os-circuitos">Todos os circuitos</a></li><li class="circuito"><a href="Circuitos.aspx?filtro=circuito&amp;item=Série-Conquista" class="serie-conquista">Série Conquista</a></li><li class="circuito"><a href="Circuitos.aspx?filtro=circuito&amp;item=Série-Sonhos" class="serie-sonhos">Série Sonhos</a></li></ul><ul class="categoria pais"><li class="nome">País</li></ul><ul class="subcategorias pais"><li><a href="Circuitos.aspx?filtro=pais&amp;item=todos-os-paises" class="todos-os-paises">Todos os países</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Alemanha" class="alemanha">Alemanha</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Áustria" class="áustria">Áustria</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Bélgica" class="belgica">Bélgica</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Croácia" class="croacia">Croácia</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Dinamarca" class="dinamarca">Dinamarca</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Escócia" class="escocia">Escócia</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Espanha" class="espanha">Espanha</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Finlândia" class="finlandia">Finlândia</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=França" class="frança">França</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Holanda" class="holanda">Holanda</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Hungria" class="hungria">Hungria</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Inglaterra" class="inglaterra">Inglaterra</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Irlanda" class="irlanda">Irlanda</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Itália" class="italia">Itália</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Noruega" class="noruega">Noruega</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Portugal" class="portugal">Portugal</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=República-Tcheca" class="republica-tcheca">República Tcheca</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Rússia" class="russia">Rússia</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Suécia" class="suecia">Suécia</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Suíça" class="suiça">Suíça</a></li><li class="pais"><a href="Circuitos.aspx?filtro=pais&amp;item=Viena" class="viena">Viena</a></li></ul><ul class="categoria diarias"><li class="nome">Número de diárias</li></ul><ul class="subcategorias diarias"><li><a href="Circuitos.aspx?filtro=diarias&amp;item=todos-os-circuitos" class="todos-os-circuitos">Todos os circuitos</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=5-" class="5-">5 </a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=6" class="6">6</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=7" class="7">7</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=8" class="8">8</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=9" class="9">9</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=10" class="10">10</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=11" class="11">11</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=12" class="12">12</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=13" class="13">13</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=14" class="14">14</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=14" class="14">14</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=14" class="14">14</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=14" class="14">14</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=14" class="14">14</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=15" class="15">15</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=15" class="15">15</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=15" class="15">15</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=16" class="16">16</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=17" class="17">17</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=17" class="17">17</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=17" class="17">17</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=17" class="17">17</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=17" class="17">17</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=17" class="17">17</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=17" class="17">17</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=18" class="18">18</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=18" class="18">18</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=18" class="18">18</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=18" class="18">18</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=18" class="18">18</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=19" class="19">19</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=19" class="19">19</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=19" class="19">19</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=20" class="20">20</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=20" class="20">20</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=21" class="21">21</a></li><li class="diarias"><a href="Circuitos.aspx?filtro=diarias&amp;item=23" class="23">23</a></li></ul><ul class="categoria tipo"><li class="nome">Tipo de Pacote</li></ul><ul class="subcategorias tipo"><li><a href="Circuitos.aspx?filtro=tipo&amp;item=todos-os-tipos" class="todos-os-tipos">Todos os tipos</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li><li class="tipo"><a href="Circuitos.aspx?filtro=tipo&amp;item=Somente-Terrestre" id="somente-terrestre" class="somente-terrestre">Somente Terrestre</a></li></ul></div>				
+			</div><!-- coluna-filtro -->
+			<div class="btVoltarTopo"><a href="javascript:void(0);">VOLTAR <br/>AO TOPO</a></div>		
+		</div>
+				
+		<div id="conteudo">
+			<h2 class="Série Sonhos">Série Sonhos</h2><p class="descricaoCircuito descricao-companhia">Os circuitos da <strong>Série Sonhos</strong> oferecem hotéis de categoria Primeira localizados próximos aos pontos turísticos, guias brasileiros, passeios e refeições inclusas.  </p><div class="box-circuitos"><div class="foto-navio-container"><img src="/media/9028727/edimburgo.jpg" alt="Brasileiros no Melhor da Inglaterra e Escócia" width="276" height="200" class="foto-navio" /></div><div class="infos-container"><h3 class="Série Sonhos">Série Sonhos</h3><h4>Brasileiros no Melhor da Inglaterra e Escócia - 13 diárias</h4><span class="roteiroResumo">Escócia, Inglaterra</span><span class="servicosLightBosx"><a href="javascript:void(0)" class="buyBtn">Roteiro | Serviços inclusos</a></span><a href="javascript:void(0)" class="btVerDetalhes">Ver detalhes</a><ul><li class="servicos_Terrestre"><p>Somente Terrestre</p></li></ul></div><p /></div><div class="lightbox-detalhes"><div class="lb-fechar">X</div><h2>Brasileiros no Melhor da Inglaterra e Escócia - 13 diárias</h2><div class="bx-conteudo"><ul class="lb-botoes"><li><a href="javascript:void(0);">SOBRE O DESTINO</a><span> </span></li><li><a href="javascript:void(0);">ROTEIRO DIA A DIA</a><span> </span></li><li><a href="javascript:void(0);">SERVIÇOS INCLUSOS</a><span> </span></li></ul><div class="lb-item"><p>Londres é uma das capitais mais visitadas no mundo graças ao charme único que carrega. Entre as principais atrações estão o Big Ben, o Palácio de Buckingham e o Hyde Park. Liverpool e Chester também são encantadoras. Conheça também a Escócia. Em Glasgow, por exemplo, passeie pelo parque Kelvingrove, pela George Square e pela Catedral. Já em Edimburgo, veja o Palácio de Holyroodhouse, o Parlamento, a National Gallery e a Carlton Hill.</p></div><div class="lb-item"><p><strong>1º dia - Londres</strong><br />Chegada a Londres (não inclui passagem aérea). Transporte do aeroporto até o hotel e restante do dia livre para conhecer a capital britânica. Jantar e hospedagem.</p>
+<p><strong>2º dia - Londres / Stratford / Upon-Avon / Liverpool</strong><br />Após o café da manhã, saída para Stratford-upon-Avon, cidade natal de William Shakespeare. Tempo livre para conhecer lugares como a Trinity Church, onde está enterrado o dramaturgo, e a casa onde ele nasceu (entrada não incluída). Continuação rumo a Liverpool. Jantar e hospedagem.</p>
+<p><strong>3º dia - Liverpool / Chester / Liverpool</strong><br />Após o café da manhã, passeio panorâmico por Liverpool, cidade dos Beatles. Visitaremos Strawberry Fields e Penny Lane, locais que inspiraram músicas do grupo, assim como a estátua de Eleanor Rigby, a Ponte Inner Harbour e o Museu dos Beatles (entrada incluída). À tarde, saída com destino à cidade de Chester, conhecida como Cidade da Grande Muralha. Passeio panorâmico a pé, passando pelo famoso relógio Eastgate Clock, pelas muralhas romanas que cercam o centro histórico, pelo anfiteatro romano e pela Catedral de Santa Werburga. Retorno a Liverpool e hospedagem.</p>
+<p><strong>4º dia - Liverpool / Região dos Lagos / Windermere / Glasgow</strong><br />Após o café da manhã, saída para a região dos Lagos. Realizaremos passeio de barco pelo lago Windemere, o maior e mais importante da Inglaterra. Continuaremos a viagem até a Escócia. Chegada a Glasgow, uma das maiores cidades da Grã-Bretanha e berço da Revolução Industrial. Jantar e hospedagem.</p>
+<p><strong>5º dia - Glasgow</strong><br />Após o café da manhã, passeio panorâmico por Glasgow para conhecer lugares como a prefeitura, o parque Kelvingrove, a George Square, a Catedral de Glasgow, a rua Buchanan e a universidade. Tarde livre. Você pode conhecer (passeios não inclusos no pacote) museus como a Galeria de Arte Moderna, que funciona em um edifício neoclássico e tem obras escocesas e internacionais, a área de East End, onde fica o famoso Mercado das Pulgas, e os típicos pubs. Hospedagem.</p>
+<p><strong>6º dia - Glasgow / Região de Glencoe / Terras Altas</strong><br />Após o café da manhã, partida para o Castelo de Stirling, cenário de batalhas decisivas na história da Grã-Bretanha. Após a visita, saída para a região de Glencoe, com parada em Fort William, cidade próxima ao Lago Linnie. Continuação da viagem para as Terras Altas, incrível zona montanhosa no norte da Escócia. Chegada, jantar e hospedagem.</p>
+<p><strong>7º dia - Tierras Altas</strong><br />Após o café da manhã, saída para a região de Wester Ross. Visitaremos os Inverewe Gardens, jardins subtropicais próximos ao lago Maree, e faremos uma breve parada em Falls of Measach para apreciar suas belas cataratas. Seguiremos rumo ao lago Ness para um passeio de barco até as ruinas do Castelo de Urqhart. Retorno ao hotel e hospedagem.</p>
+<p><strong>8º dia - Terras Altas / Destilaria de Uísque / Edimburgo</strong><br />Café da manhã e tempo livre. Sugerimos passeio (não incluso no pacote) ao Castelo de Cawdor, palácio fortificado entre magníficos jardins. Em horário combinado, partiremos para visitar uma das destilarias de uísque mais conhecidas da Escócia e fazer degustação da bebida. Continuação da viagem para Edimburgo. Jantar e hospedagem.</p>
+<p><strong>9º dia - Edimburgo</strong><br />Após o café da manhã, passeio panorâmico pela capital da Escócia para conhecer lugares como o Castelo de Edimburgo, o Palácio de Holyroodhouse, o Parlamento, a National Gallery e a Carlton Hill. Tarde livre. Possibilidade de fazer visita opcional (não inclusa no pacote) ao Palácio de Hollyrood e ao Castelo de Edimburgo, onde viveu a lendária rainha escocesa Mary Stuart, que foi decapitada por sua prima inglesa Elizabeth I. Hospedagem.</p>
+<p><strong>10º dia - Edimburgo / Durham / York</strong><br />Após o café da manhã, saída com destino a Durham. Chegada e tempo livre para visitar a catedral (entrada incluída), uma das mais belas da Inglaterra e classificada pela Unesco como Patrimônio da Humanidade. À tarde, chegada a York e visita guiada. Conheceremos as muralhas, o centro histórico e a Catedral de São Pedro (entrada incluída). Jantar e hospedagem.</p>
+<p><strong>11º dia - Condado York / Cambridge / Londres</strong><br />Café da manhã. Saída para Cambridge e tempo livre para passear por esta cidade universitária. Continuação até Londres e restante do dia livre. No período da noite faremos um passeio (Pub Tour) com guia local por alguns dos principais pontos turísticos da cidade, como a Praça Piccadilly Circus, o bairro Soho, a Catedral de São Paulo e a Bridge Tower, com parada para jantar em um típico pub londrino. Hospedagem.</p>
+<p><strong>12º dia - Londres</strong><br />Após o café da manhã, faremos visita panorâmica pela cidade para conhecer lugares como Trafalgar Square, Big Ben, Palácio de Buckingham, Hyde Park e Oxford Street. À tarde visitaremos um dos lugares mais notáveis da tradição britânica: o Castelo de Windsor, o maior e mais antigo castelo habitado do mundo e residência oficial da família real há 900 anos. Hospedagem.</p>
+<p><strong>13º dia - Londres</strong><br />Café da manhã. Dia livre para continuar explorando Londres. Entre as sugestões de passeios (não inclusos no pacote) estão conhecer o Soho, o Convent Garden, o Museu de Cera da Madame Tussauds e a London Eye. Hospedagem.</p>
+<p><strong>14º dia - Londres</strong><br />Café da manhã e, em horário combinado previamente, transporte do hotel ao aeroporto para embarque de volta ao Brasil. Não inclui passagem aérea.</p></div><div class="lb-item"><ul><li>Transporte - aeroporto / hotel / aeroporto. </li><li>Hospedagem - 13 diárias com café da manhã, sendo 4 em Londres, 2 em Liverpool, 2 em Glasgow, 2 na região das Terras Altas, em Inverness, 2 em Edimburgo e 1 em York. </li><li>Atividades - Passeios panorâmicos em Londres, Chester, Liverpool, Glasgow, Edimburgo e York; paradas, com tempo livre, em Stratford-upon-Avon, Fort William, Durham e Cambridge; visitas ao Museu The Beatles Story, a uma destilaria de uísque (com degustação) e ao Castelo de Windsor; passeio de barco pelos lagos Ness e Windemere; passeio pela região de Wester Ross; passeio Pub Tour. </li><li>Serviços - Acompanhamento de guia brasileiro no destino, percurso em ônibus climatizado e serviço de maleteiro nos hotéis do circuito (1 mala por pessoa). </li><li>Refeições - 7 refeições, sendo 2 jantares em Londres, 1 em Liverpool, 1 em Glasgow, 1 na região das Terras Altas, 1 em Edimburgo e 1 em York (sem bebidas inclusas).</li><li>Atenção - este roteiro não inclui passagens aéreas de ida e volta ao Brasil. </li></ul></div></div><ul class="lb-telefones telefoneBox"><li><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></li></ul></div><h2 class="Série Conquista">Série Conquista</h2><p class="descricaoCircuito descricao-companhia">Os circuitos da <strong>Série Conquistas</strong> oferecem hotéis de categoria Turística e Turística Superior localizados próximos aos meios de transporte público, guias brasileiros, alguns passeios e refeições inclusas.  </p><div class="box-circuitos"><div class="foto-navio-container"><img src="/media/8893863/brasileiros-na-inglaterra-escócia-e-irlanda.jpg" alt="Brasileiros na Inglaterra, Escócia e Irlanda" width="276" height="200" class="foto-navio" /></div><div class="infos-container"><h3 class="Série Conquista">Série Conquista</h3><h4>Brasileiros na Inglaterra, Escócia e Irlanda - 13 diárias</h4><span class="roteiroResumo">Escócia, Inglaterra, Irlanda</span><span class="servicosLightBosx"><a href="javascript:void(0)" class="buyBtn">Roteiro | Serviços inclusos</a></span><a href="javascript:void(0)" class="btVerDetalhes">Ver detalhes</a><ul><li class="servicos_Terrestre"><p>Somente Terrestre</p></li></ul></div><p /></div><div class="lightbox-detalhes"><div class="lb-fechar">X</div><h2>Brasileiros na Inglaterra, Escócia e Irlanda - 13 diárias</h2><div class="bx-conteudo"><ul class="lb-botoes"><li><a href="javascript:void(0);">SOBRE O DESTINO</a><span> </span></li><li><a href="javascript:void(0);">ROTEIRO DIA A DIA</a><span> </span></li><li><a href="javascript:void(0);">SERVIÇOS INCLUSOS</a><span> </span></li></ul><div class="lb-item"><p>Londres é conhecida pelo tradicional chá da tarde, pelas construções imponentes da realeza e por diversas outras atrações. Entre os principais destaques estão a London Eye, o Palácio de Westminster, o Parlamento Inglês e o Big Ben. Já Edimburgo, no quesito tradição, abriga a renomada Universidade de Edimburgo, pioneira na informática e gerenciamentos. O charme da região se deve muito à presença do onipotente Castelo de Edimburgo.</p></div><div class="lb-item"><p><strong>1º dia - Londres</strong><br />Chegada a Londres e traslado ao hotel (não inclui passagem aérea). Tempo livre. Hospedagem.</p>
+<p><strong>2º dia - Londres</strong><br />Café da manhã. Visita panorâmica às Casas do Parlamento e ao Big-Ben, a Abadía de Westminster, a Trafalgar Square, o Palácio de Buckingham, entre outros locais. Tarde livre ou excursão opcional ao Castelo de Windsor, uma das residências oficiais da monarquia britânica a mais de 900 anos. Retorno a Londres. Hospedagem.</p>
+<p><strong>3º dia - Londres</strong><br />Café da manhã. Dia livre. Sugestão de passeio (não incluso) - visita opcional ao Museu Britânico para admirar o Partenon e a Torre de Londres. Hospedagem.</p>
+<p><strong>4º dia - Londres / Oxford / Stratford-upon-Avon / Liverpool</strong><br />Café da manhã e saída para Oxford. Tempo livre para passeio pela cidade. Continuação a Stratford-upon-Avon, conhecida como a cidade natal de Shakespeare. Tempo livre para conhecer seu centro histórico, as casas tipicamente inglesas e a área comercial. Continuação até Liverpool, berço dos Beatles e famosa pela equipe de futebol Liverpool Football Clube. Visita panorâmica a Liverpool, para conhecer os lugares relacionados aos Beatles. Jantar e hospedagem.</p>
+<p><strong>5º dia - Liverpool / Região dos lagos / Fountains Abbey / Condado de Yorkshire</strong><br />Após o café da manhã, saída para a região dos Lagos, o maior parque nacional da Inglaterra, considerado um dos lugares mais bonitos de todo o país. Passeio de barco pelo Lago Windermere, o mais importante e maior da Inglaterra. Continuação até Fountains Abbey (entrada incluída), região declarada Patrimônio da Humanidade pela Unesco. A viagem segue em direção ao hotel no Condado de Yorkshire. Jantar e hospedagem.</p>
+<p><strong>6º dia - Condado de Yorkshire / Durham / Edimburgo</strong><br />Após o café da manhã, saída para conhecer York, fundada no ano 17 a. C. pelos romanos. Visita guiada pela cidade, para conhecer a arquitetura típica com referências dos séculos 12 ao 14, as muralhas, o centro histórico e o interior da Catedral de São Pedro, a segunda maior em estilo gótico do norte da Europa. Em seguida, ida a Durham. Tempo livre para conhecer a cidade e sua catedral, considerada um dos mais importantes monumentos da Inglaterra e cenário de filmes, como Elisabeth, protagonizado por Cate Blanchet. O trajeto segue por locais históricos na fronteira entre a Inglaterra e a Escócia. Chegada a Edimburgo, capital da Escócia. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>7º dia - Edimburgo</strong><br />Café da manhã. Visita panorâmica pela Milha Real, o lendário Castelo, o Palácio de Holyrood House, o antigo Parlamento, entre outros locais. Restante do dia livre. Hospedagem.</p>
+<p><strong>8º dia - Edimburgo / Glasglow</strong><br />Após o café da manhã, saída para Glasgow, um dos centros culturais e econômicos mais ativos da Europa. Chegada e visita panorâmica. Destaque para locais como a Catedral, a Grande Mesquita Central, a Universidade, a George Square, entre outros. Tarde livre. Sugestão de passeio (não incluso) - passeio a New Lanark. Jantar e hospedagem.</p>
+<p><strong>9º dia - Glasglow / Ferryboat / Belfast</strong><br />Café da manhã irlandês. Saída até Cainryan, para cruzar, a bordo de ferryboat, até Larne em Ulster (Irlanda do Norte). Continuação a Belfast, conhecida por ter ser o local em que foi construído o Titanic. Chegada e visita panorâmica para conhecer o centro histórico e os bairros católicos e protestantes, entre outras atrações. Hospedagem.</p>
+<p><strong>10º dia - Belfast / Parque Nacional de Connemara / Galway</strong><br />Após de café de manhã, saída para o Parque Nacional de Connemara. O trajeto passa pelo lago de Inagh. Visita a Abadia de Kylemore. Continuação em direção ao fiorde de Killary, para passeio de barco. Continuação até o hotel na região de Galway. Jantar e hospedagem.</p>
+<p><strong>11º dia - Galway / Condado de Kerry</strong><br />Café da manhã. Continuação pela região de Burren até Moher, com penhascos de 200m de altura ao longo de 8 quilômetros. Continuação a Bunratty. Entrada ao Castelo , construído no século 15 e habitado pela família O'Brien. Continuação por Adare, com casas de telhados de palha e a Abadía medieval, até o hotel no Condado do Kerry. Jantar e hospedagem.</p>
+<p><strong>12º dia - Condado de Kerry</strong><br />Café da manhã. Excursão de dia inteiro pela Península de Dingle, conhecida pelas mais de 2 mil jazidas arqueológicas, e ida à Killarney, o centro turístico mais visitado da Irlanda. Em seguida, o percurso segue pelo Parque Nacional de Killarney. Passeio em uma típica carruagem até Muckross House, com tempo livre para visitação e passeio pelos jardins. Retorno ao hotel. Jantar e hospedagem no Condado de Kerry.</p>
+<p><strong>13º dia - Condado de Kerry / Dublin</strong><br />Após o café da manhã, saída para Tralee, fundada no século 12. Tempo livre para conhecer os monumentos históricos locais. Em seguida, continuação via Limerick até Dublin. Chegada e visita panorâmica. Destaque para locais como Merrion Square, O'Connel Street, edifício Central dos Correios, Museu de História Natural, entre outros locais. Tempo livre. Sugestão de passeio (não incluso) - passeio Dublin Histórico, com visita a Trinity College, Oxford e Cambridge. Jantar e hospedagem.</p>
+<p><strong>14º dia - Dublin</strong><br />Café da manhã no hotel e, em horário determinado, transporte ao aeroporto para embarque com destino ao Brasil (não inclui passagem aérea).</p>
+<p><strong>Importante</strong><br />A ordem dos passeios pode sofrer alteração devido a condições climáticas ou outros fatores. Todos os passeios adquiridos pelo passageiro serão realizados.</p>
+<p><strong>Atenção</strong><br />É necessário passaporte com validade superior a seis meses. Passageiros com passaporte brasileiro não precisam de visto.</p></div><div class="lb-item"><ul><li>Traslado - aeroporto / hotel / aeroporto.</li><li>Hospedagem - hospedagem com café da manhã, sendo 3 diárias em Londres, 1 em Liverpool, 1 em Yorkshire, 2 em Edimburgo, 1 em Glasgow, 1 em Belfast, 1 em Galway, 2 em Kerry e 1 em Dublin.</li><li>Atividades - passeios Panorâmicos em Londres, Liverpool, York, Edimburgo, Glasgow, Belfast e Dublin. Visita ao Parque Nacional de Connemara. Passeio de barco pelo fiorde de Killary e pelo Lago Windermere, Fountains Abbey (entrada incluída), Alcantilados Moher. Excursão de dia inteiro pela Península de Dingle.</li><li>Refeições - 1 jantar em Liverpool, 1 em York, 1 em Edimburgo, 1 em Glasgow, 1 em Galway, 2 em Condado de Kerry e 1 em Dublin.</li><li>Serviços - acompanhamento de guia falando português no destino. Percurso em ônibus climatizado. Serviço de maleteiro incluso nos hotéis do circuito (1 mala por pessoa).</li><li>Atenção - este roteiro não possui passagens aéreas de ida e volta.</li></ul></div></div><ul class="lb-telefones telefoneBox"><li><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></li></ul></div><h2 class="Série Conquista">Série Conquista</h2><p class="descricaoCircuito descricao-companhia">Os circuitos da <strong>Série Conquistas</strong> oferecem hotéis de categoria Turística e Turística Superior localizados próximos aos meios de transporte público, guias brasileiros, alguns passeios e refeições inclusas.  </p><div class="box-circuitos"><div class="foto-navio-container"><img src="/media/8893905/brasileiros-paris-inglaterra-escócia-e-irlanda.jpg" alt="Brasileiros em Paris, Inglaterra, Escócia e Irlanda" width="276" height="200" class="foto-navio" /></div><div class="infos-container"><h3 class="Série Conquista">Série Conquista</h3><h4>Brasileiros Paris, Inglaterra, Escócia e Irlanda - 16 diárias</h4><span class="roteiroResumo">Escócia, França, Inglaterra, Irlanda</span><span class="servicosLightBosx"><a href="javascript:void(0)" class="buyBtn">Roteiro | Serviços inclusos</a></span><a href="javascript:void(0)" class="btVerDetalhes">Ver detalhes</a><ul><li class="servicos_Terrestre"><p>Somente Terrestre</p></li></ul></div><p /></div><div class="lightbox-detalhes"><div class="lb-fechar">X</div><h2>Brasileiros Paris, Inglaterra, Escócia e Irlanda - 16 diárias</h2><div class="bx-conteudo"><ul class="lb-botoes"><li><a href="javascript:void(0);">SOBRE O DESTINO</a><span> </span></li><li><a href="javascript:void(0);">ROTEIRO DIA A DIA</a><span> </span></li><li><a href="javascript:void(0);">SERVIÇOS INCLUSOS</a><span> </span></li></ul><div class="lb-item"><p>Paris ocupa o posto de um das cidades mais bonitas do mundo. O charme único da capital da França e seus grandes ícones, como a Torre Eiffel e o Museu do Louvre, a mantém atrativa o ano inteiro. Aproveite para garantir seu pacote de viagem para a Europa e conheça também Londres, dona de locais famosos como a London Eye e o Big Ben. Na Escócia, visite as cidades de Glasgow, com seus inúmeros museus, e Edimburgo, capital do país e referência em roteiros culturais. Já na Irlanda, descubra as belas paisagens na região do Condado de Kerry.</p></div><div class="lb-item"><p><strong>1º dia - Paris</strong><br />Chegada à capital francesa. Transporte do aeroporto ao hotel e restante do dia livre (não inclui passagem aérea). À noite, uma sugestão de passeio (não incluso) é fazer o tour Paris Iluminada, passando pela Praça da Bastilha, Île de la Cité, Quartier Latin, Champs Elysées, Torre Eiffel (não inclui incluída), rio Sena e as avenidas famosas pelas vitrines com roupas de luxo. Hospedagem.</p>
+<p><strong>2º dia - Paris</strong><br />Após o café da manhã, passeio panorâmico pelos principais pontos turísticos da cidade, como a Praça da Concórdia, a Ópera Garnier, a igreja La Madeleine, a Avenida Champs Elysées, entre outros. Restante do dia livre. Sugestão de passeio (não incluso) - passeio opcional ao Louvre, o museu mais visitado do mundo. À noite, uma sugestão de passeio (não incluso) é o espetáculo opcional no Lido, Moulin Rouge ou Paradis Latin. Hospedagem.</p>
+<p><strong>3º dia - Paris</strong><br />Café da manhã e dia livre. Para o período da manhã, uma dica de programa opcional é visitar o encantador Palácio de Versalhes. À tarde, uma sugestão de passeio (não incluso) é conhecer com o guia local o famoso Bairro Latino, o interior da Catedral de Notre Dame e fazer um passeio de barco do tipo bateaux-mouches pelo rio Sena. Hospedagem.</p>
+<p><strong>4º dia - Paris / Londres</strong><br />Após o café da manhã, saída para Calais, de onde o ônibus de excursão parte para cruzar o Canal da Mancha através do Eurotúnel. Na chegada à capital inglesa, transporte para o hotel e restante do dia livre. À noite, uma sugestão de passeio (não incluso) é passar pelos principais pontos turísticos da cidade, como a Praça Picadilly Circus, o bairro Soho, a Catedral de São Paulo e a Bridge Tower, com parada para saborear uma bebida em um típico pub londrino. Hospedagem.</p>
+<p><strong>5º dia - Londres</strong><br />Após o café da manhã, passeio panorâmico pela cidade, passando pela Trafalgar Square, o Big-Ben, o Palácio de Buckingham e o Hyde Park. Restante do dia livre. Sugestão de passeio (não incluso) - passeio opcional ao Castelo de Windsor, uma das residências oficiais da monarquia britânica a mais de 900 anos. Hospedagem em Londres.</p>
+<p><strong>6º dia - Londres</strong><br />Café da manhã. Dia livre. Sugestão de passeio (não incluso)  aproveite para fazer um passeio passando pelos bairros Soho e Covent Garden, museu de cera Madame Tussauds e a London Eye, a rodagigante mais alta do mundo, com 135 metros. Hospedagem.</p>
+<p><strong>7º dia - Londres / Oxford / Stratford-upon-Avon / Liverpool</strong><br />Café da manhã e saída para Oxford. Tempo livre para passeio pela cidade. Continuação a Stratford-upon-Avon, conhecida como a cidade natal de Shakespeare. Tempo livre para conhecer seu centro histórico, as casas tipicamente inglesas e a área comercial. Continuação até Liverpool, berço dos Beatles e famosa pela equipe de futebol Liverpool Football Clube. Visita panorâmica a Liverpool, para conhecer os lugares relacionados aos Beatles. Jantar e hospedagem.</p>
+<p><strong>8º dia - Liverpool / Região dos lagos / Fountains Abbey / Condado de Yorkshire</strong><br />Após o café da manhã, saída para a região dos Lagos, o maior parque nacional da Inglaterra, considerado um dos lugares mais bonitos de todo o país. Passeio de barco pelo Lago Windermere, o mais importante e maior da Inglaterra. Continuação até Fountains Abbey (entrada incluída), região declarada Patrimônio da Humanidade pela Unesco. A viagem segue em direção ao hotel no Condado de Yorkshire. Jantar e hospedagem.</p>
+<p><strong>9º dia - Condado de Yorkshire / Durham / Edimburgo</strong><br />Após o café da manhã, saída para conhecer York, fundada no ano 17 a. C. pelos romanos. Visita guiada pela cidade para conhecer a arquitetura típica com referências dos séculos 12 ao 14, as muralhas, o centro histórico e o interior da Catedral de São Pedro, a segunda maior em estilo gótico do norte da Europa. Em seguida, ida a Durham. Tempo livre para conhecer a cidade e sua catedral, considerada um dos mais importantes monumentos da Inglaterra e cenário de filmes, como Elisabeth, protagonizado por Cate Blanchet. O trajeto segue por locais históricos na fronteira entre a Inglaterra e a Escócia. Chegada a Edimburgo, capital da Escócia. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>10º dia - Edimburgo</strong><br />Café da manhã. Visita panorâmica pela Milha Real, o lendário Castelo, o Palácio de Holyrood House, o antigo Parlamento, entre outros locais. Restante do dia livre. Hospedagem.</p>
+<p><strong>11º dia - Edimburgo / Glasglow</strong><br />Após da café da manhã, saída para Glasgow, um dos centros culturais e econômicos mais ativos da Europa. Chegada e visita panorâmica. Destaque para locais como a Catedral, a Grande Mesquita Central, a Universidade, a George Square, entre outros. Tarde livre. Sugestão de passeio (não incluso) - passeio a New Lanark, um antigo centro têxtil declarado Patrimônio da Humanidade pela Unesco. Continuação à Glasgow. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>12º dia - Glasglow / Ferryboat / Belfast</strong><br />Café da manhã irlandês. Saída até Cainryan, para cruzar, a bordo de ferryboat, até Larne em Ulster (Irlanda do Norte). Continuação a Belfast, conhecida por ser o local em que foi construído o Titanic. Chegada e visita panorâmica para conhecer o centro histórico e os bairros católicos e protestantes, entre outras atrações. Hospedagem.</p>
+<p><strong>13º dia - Belfast / Parque Nacional de Connemara / Galway</strong><br />Após o café de manhã, saída para o Parque Nacional de Connemara. O trajeto passa pelo lago de Inagh. Visita a Abadia de Kylemore. Continuação em direção ao fiorde de Killary, para passeio de barco. Continuação até o hotel na região de Galway. Jantar e hospedagem.</p>
+<p><strong>14º dia - Galway / Condado de Kerry</strong><br />Café da manhã. Continuação pela região de Burren até Moher, com penhascos de 200m de altura ao longo de 8 quilômetros. Continuação a Bunratty. Entrada ao Castelo, construído no século 15 e habitado pela família O'Brien. Continuação por Adare, com casas de telhados de palha e a Abadía medieval, até o hotel no Condado do Kerry. Jantar e hospedagem.</p>
+<p><strong>15º dia - Condado de Kerry</strong><br />Café da manhã. Excursão de dia inteiro pela Península de Dingle, conhecida pelas mais de 2 mil jazidas arqueológicas e ida à Killarney, o centro turístico mais visitado da Irlanda. Em seguida, o percurso segue pelo Parque Nacional de Killarney. Passeio em uma típica carruagem até Muckross House, com tempo livre para visitação e passeio pelos jardins. Retorno ao hotel. Jantar e hospedagem no Condado de Kerry.</p>
+<p><strong>16º dia - Condado de Kerry / Dublin</strong><br />Após o café da manhã, saída para Tralee, fundada no século 12. Tempo livre para conhecer os monumentos históricos locais. Em seguida, continuação via Limerick até Dublin. Chegada e visita panorâmica. Destaque para locais como Merrion Square, O'Connel Street, edifício Central dos Correios, Museu de História Natural, entre outros locais. Tempo livre. Sugestão de passeio (não incluso) - passeio Dublin Histórico, com visita a Trinity College, Oxford e Cambridge. Jantar e hospedagem.</p>
+<p><strong>17º dia - Dublin</strong><br />Café da manhã no hotel e, em horário determinado, transporte ao aeroporto para embarque com destino ao Brasil (não inclui passagem aérea).</p>
+<p><strong>Importante</strong><br />A ordem dos passeios pode sofrer alteração devido a condições climáticas ou outros fatores. Todos os passeios adquiridos pelo passageiro serão realizados.</p>
+<p><strong>Atenção</strong><br />É necessário portar passaporte com validade superior a 6 meses. Passageiros com passaporte brasileiro não precisam de visto.</p></div><div class="lb-item"><ul><li>Traslado - aeroporto / hotel /aeroporto.</li><li>Hospedagem - hospedagem com café da manhã, sendo 3 diárias em Paris, 3 em Londres, 1 em Liverpool, 1 em Yorkshire, 2 em Edimburgo, 1 em Glasgow,1 em Belfast, 1 em Galway, 2 em Kerry e 1 em Dublin.</li><li>Atividades - passeios panorâmicos em Paris, Londres, Liverpool, York, Edimburgo, Glasgow, Belfast e Dublin. Visita ao Parque Nacional de Connemara. Passeio de barco pelo fiorde de Killary e o Lago Windermere. Visita Fountains Abbey (entrada incluída) e Moher. Excursão de dia inteiro pela Península de Dingle.</li><li>Refeições - 1 jantar em Liverpool, 1 em York, 1 em Edimburgo, 1 em Glasgow, 1 em Galway, 2 no Condado de Kerry e 1 em Dublin.</li><li>Serviços - acompanhamento de guia falando português no destino. Percurso em ônibus moderno e climatizado. Serviço de maleteiro incluso nos hotéis do circuito (1 mala por pessoa).</li><li>Atenção - este roteiro não inclui passagens aéreas de ida e volta.</li></ul></div></div><ul class="lb-telefones telefoneBox"><li><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></li></ul></div><h2 class="Série Conquista">Série Conquista</h2><p class="descricaoCircuito descricao-companhia">Os circuitos da <strong>Série Conquistas</strong> oferecem hotéis de categoria Turística e Turística Superior localizados próximos aos meios de transporte público, guias brasileiros, alguns passeios e refeições inclusas.  </p><div class="box-circuitos"><div class="foto-navio-container"><img src="/media/8893949/brasileiros-na-escócia-e-irlanda.jpg" alt="Brasileiros na Escócia e Irlanda" width="276" height="200" class="foto-navio" /></div><div class="infos-container"><h3 class="Série Conquista">Série Conquista</h3><h4>Brasileiros na Escócia e Irlanda - 8 diárias</h4><span class="roteiroResumo">Escócia, Irlanda</span><span class="servicosLightBosx"><a href="javascript:void(0)" class="buyBtn">Roteiro | Serviços inclusos</a></span><a href="javascript:void(0)" class="btVerDetalhes">Ver detalhes</a><ul><li class="servicos_Terrestre"><p>Somente Terrestre</p></li></ul></div><p /></div><div class="lightbox-detalhes"><div class="lb-fechar">X</div><h2>Brasileiros na Escócia e Irlanda - 8 diárias</h2><div class="bx-conteudo"><ul class="lb-botoes"><li><a href="javascript:void(0);">SOBRE O DESTINO</a><span> </span></li><li><a href="javascript:void(0);">ROTEIRO DIA A DIA</a><span> </span></li><li><a href="javascript:void(0);">SERVIÇOS INCLUSOS</a><span> </span></li></ul><div class="lb-item"><p>Garanta seu pacote de viagem para conhecer o Norte da Europa e aproveite as experiências inesquecíveis pela Escócia e Irlanda. Em Edimburgo, capital escocesa, não deixe de explorar as atrações culturais e artísticas. Na cidade de Glasgow você pode passear pelos inúmeros museus. Já na Irlanda, descubra as belas paisagens na região do Condado de Kerry, assim como a cidade de Belfast, ideal para ver construções históricas e castelos incríveis bem de perto.</p></div><div class="lb-item"><p><strong>1º dia - Edimburgo</strong><br />Chegada a Edimburgo e traslado ao hotel (não inclui passagem aérea). Tempo livre. Jantar e hospedagem.</p>
+<p><strong>2º dia - Edimburgo</strong><br />Café da manhã. Visita panorâmica pela Milha Real e o legendário Castelo, o Palácio de Holyrood House, o antigo Parlamento, sede dos Tribunais, a New Town, a National Gallery, entre outros locais. Restante do dia livre. À noite, uma sugestão de passeio (não incluso) é o passeio Edimburgo Inédito, que passa pelo Dean Village, Fettes College e Porto de Leith. Hospedagem.</p>
+<p><strong>3º dia - Edimburgo / Glasgow</strong><br />Após da café da manhã, saída para Glasgow, um dos centros culturais e econômicos mais ativos da Europa. Chegada e visita panorâmica pela Catedral, a Grande Mesquita Central, as belas vistas da Universidade, a Prefeitura, George Square, entre outros locais. Tarde livre. Excursão opcional a New Lanark, declarado patrimônio da humanidade pela Unesco. Continuação à Glasgow. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>4º dia - Glasgow / Ferryboat / Belfast</strong><br />Café da manhã irlandês. Saída até Cainryan para cruzar, em ferryboat, até Larne em Ulster (Irlanda do Norte). Continuação a Belfast em cujos estaleiros foi construído o Titanic e testemunha viva da história dos séculos 20 e 21. Chegada e visita panorâmica desta capital, para conhecer o centro histórico. Hospedagem.</p>
+<p><strong>5º dia - Belfast / Parque Nacional de Connemara / Galway</strong><br />Após de café de manhã, saída para o Parque Nacional de Connemara. Em seguida, ida ao fiorde de Killary e passeio em barco. Continuação até o hotel na região de Galway. Jantar e hospedagem.</p>
+<p><strong>6º dia - Galway / Condado de Kerry</strong><br />Café da manhã. Continuação do passeio pela região de Burren até Moher, cercada por penhascos de 200m de altura ao longo de 8 quilometros. Continuação a Bunratty. Entrada ao Castelo do século 15. Continuação por Adare, conhecida pelas casas de telhados de palha e a Abadía medieval. O trajeto segue até o hotel no Condado do Kerry. Jantar e hospedagem.</p>
+<p><strong>7º dia - Condado de Kerry</strong><br />Café da manhã. Excursão de dia inteiro pela Península de Dingle e à Killarney, centro turístico mais visitado da Irlanda. Em seguida, passeio ao Parque Nacional de Killarney, para passeio em uma típica carruagem até Muckross House. Tempo livre. Retorno ao hotel. Sugestão de passeio (não incluso) - visita opcional ao Teatro Nacional de Tradições de Tralee. Jantar e hospedagem no Condado de Kerry.</p>
+<p><strong>8º dia - Condado de Kerry / Dublin</strong><br />Após do café da manhã saída para Tralee, fundada no século 12. Tempo livre. Em seguida, continuação via Limerick até Dublim. Chegada e visita panorâmica por pontos turísticos como a Merrion Square, edifício Central dos Correios, o Museu de História Natural, o Palácio da Justiça, o Phoenix Parque, ente outros. Tempo livre ou passeio opcional (não incluso) Dublim Histórico, com visita a Trinity College, uma das universidades inglesas mais antigas do mundo. Jantar e hospedagem.</p>
+<p><strong>9º dia - Dublin</strong><br />Café da manhã e, em horário predeterminado, transporte do hotel ao aeroporto para embarque de volta ao Brasil (não inclui passagem aérea).</p>
+<p><strong>Importante</strong><br />A ordem dos passeios pode sofrer alteração devido a condições climáticas ou outros fatores. Todos os passeios adquiridos pelo passageiro serão realizados.</p>
+<p><strong>Atenção</strong><br />É necessário portar passaporte com validade superior a 6 meses. Passageiros com passaporte brasileiro não precisam de visto.</p></div><div class="lb-item"><ul><li>Traslado - aeroporto / hotel / aeroporto.</li><li>Hospedagem - hospedagem com café da manhã, sendo 2 diárias em Edimburgo, 1 em Glasgow,1 em Belfast, 1 em Galway, 2 em Kerry e 1 em Dublin.</li><li>Atividades - passeios panorâmicos em Edimburgo, Glasgow, Belfast e Dublin visita ao Parque Nacional de Connemara passeio de barco pelo fiorde de Killary visita a Moher e excursão de dia inteiro pela Península de Dingle.</li><li>Refeições - 1 jantar em Edimburgo, 1 em Glasgow, 1 em Galway, 2 no Condado de Kerry e 1 em Dublin.</li><li>Serviços - acompanhamento de guia falando português no destino. Percurso em ônibus moderno e climatizado. Serviço de maleteiro incluso nos hotéis do circuito (1 mala por pessoa).</li><li>Atenção - este roteiro não inclui passagens aéreas de ida e volta.</li></ul></div></div><ul class="lb-telefones telefoneBox"><li><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></li></ul></div><h2 class="Série Conquista">Série Conquista</h2><p class="descricaoCircuito descricao-companhia">Os circuitos da <strong>Série Conquistas</strong> oferecem hotéis de categoria Turística e Turística Superior localizados próximos aos meios de transporte público, guias brasileiros, alguns passeios e refeições inclusas.  </p><div class="box-circuitos"><div class="foto-navio-container"><img src="/media/8893951/brasileiros-em-paris-inglaterra-e-escócia.jpg" alt="Brasileiros em Paris, Inglaterra e Escócia" width="276" height="200" class="foto-navio" /></div><div class="infos-container"><h3 class="Série Conquista">Série Conquista</h3><h4>Brasileiros em Paris, Inglaterra e Escócia - 11 diárias</h4><span class="roteiroResumo">Escócia, França, Inglaterra</span><span class="servicosLightBosx"><a href="javascript:void(0)" class="buyBtn">Roteiro | Serviços inclusos</a></span><a href="javascript:void(0)" class="btVerDetalhes">Ver detalhes</a><ul><li class="servicos_Terrestre"><p>Somente Terrestre</p></li></ul></div><p /></div><div class="lightbox-detalhes"><div class="lb-fechar">X</div><h2>Brasileiros em Paris, Inglaterra e Escócia - 11 diárias</h2><div class="bx-conteudo"><ul class="lb-botoes"><li><a href="javascript:void(0);">SOBRE O DESTINO</a><span> </span></li><li><a href="javascript:void(0);">ROTEIRO DIA A DIA</a><span> </span></li><li><a href="javascript:void(0);">SERVIÇOS INCLUSOS</a><span> </span></li></ul><div class="lb-item"><p>Paris ocupa o posto de um das cidades mais bonitas do mundo. O charme único da capital da França e seus grandes ícones, como a Torre Eiffel e o Museu do Louvre, a mantém atrativa o ano inteiro. Aproveite para garantir seu pacote de viagem para a Europa e conheça também Londres, dona de locais famosos como a London Eye e o Big Ben. Na Escócia, visite as cidades de Glasgow, com seus inúmeros museus, e Edimburgo, capital do país e referência em roteiros culturais.</p></div><div class="lb-item"><p><strong>1º dia - Paris</strong><br />Chegada a capital francesa. Transporte do aeroporto ao hotel e restante do dia livre (não inclui passagem aérea). À noite, uma sugestão de passeio (não incluso) é fazer o passeio opcional Paris Iluminada, que passa pela Praça da Bastilha, a Île de la Cité, o Quartier Latin, a Champs Elysées, entre outras atrações. Hospedagem.</p>
+<p><strong>2º dia - Paris</strong><br />Após o café da manhã, passeio panorâmico pelos principais pontos turísticos da cidade, como a Praça da Concórdia, a Ópera Garnier, a igreja La Madeleine, a Avenida Champs Elysées, entre outros locais famosos. Restante do dia livre. Sugestão de passeio (não incluso) - passeio opcional ao Louvre, o museu mais visitado do mundo. Hospedagem.</p>
+<p><strong>3º dia - Paris</strong><br />Café da manhã e dia livre. Para o período da manhã, uma sugestão de passeio (não incluso) é visitar o encantador Palácio de Versalhes. À tarde, você poderá fazer um passeio opcional com guia ao famoso bairro latino e ao interior da Catedral de Notre Dame (passeio não incluso no pacote). Hospedagem.</p>
+<p><strong>4º dia - Paris / Londres</strong><br />Após o café da manhã, partida para Calais, de onde sai o ônibus de excursão para cruzar o Canal da Mancha através do Eurotúnel (o trajeto pode ser realizado em ferryboat de Calais a Dover). Na chegada à capital inglesa, transporte para o hotel e restante do dia livre. Sugestão de passeio (não incluso) - passeio pelos pontos turísticos da cidade, como a Praça Picadilly Circus, o bairro Soho, a Catedral de São Paulo e a Bridge Tower. Hospedagem.</p>
+<p><strong>5º dia - Londres</strong><br />Após o café da manhã, passeio panorâmico pela cidade, passando pela Trafalgar Square, o Big Ben, o Palácio de Buckingham e o Hyde Park. Restante do dia livre. Sugestão de passeio (não incluso) - passeio opcional ao tradicional Castelo de Windsor, o maior e mais antigo castelo habitado do mundo e residência oficial da família real há 900 anos. Hospedagem em Londres.</p>
+<p><strong>6º dia - Londres</strong><br />Café da manhã. Dia livre para seguir conhecendo Londres. Destaque para lugares mundialmente famosos, como o Soho e a região do Covent Garden, algum dos musicais que se apresentam na cidade, o museu de cera Madame Tussauds e a London Eye, rodagigante mais alta do mundo, com 135 metros. Sugestão de passeio (não incluso) - visita opcional ao Museu Britânico. Hospedagem.</p>
+<p><strong>7º dia - Londres / Oxford / Stratford-Upon-Avon / Liverpool</strong><br />Café da manhã, saída para Oxford e tempo livre. Oxford também foi berço de livros famosos como Alice no País das Maravilhas de Lewis Carroll, O Senhor dos Anéis de J. R. R. Tolkien, e muitos outros. Continuação a Stratford-upon-Avon. Tempo livre. Continuação a Liverpool, e visita panorâmica para conhecer os lugares relacionados com a banda Beatles, como Docklands, Mathew Street, Penny Lane, entre outros locais. Jantar e hospedagem.</p>
+<p><strong>8º dia - Liverpool / Região dos Lagos / Fountais Abbey / Condado de Yorkshire</strong><br />Após o café da manhã, Saída para a Região dos Lagos, o maior parque nacional da Inglaterra, considerado um dos lugares mais bonitos de todo o país. Passeio de barco pelo lago Windermere, o mais importante e maior da Inglaterra. Continuação a Fountains Abbey (entrada incluída), declarada Patrimônio da Humanidade pela Unesco. Continuação ao hotel no Condado de Yorkshire. Jantar e hospedagem.</p>
+<p><strong>9º dia - Condado de Yorkshire / Durham / Edimburgo</strong><br />Após o café da manhã conheceremos York, fundada no ano 17 a. C.. Visita guiada pela cidade, repleta de construções que remontam à Inglaterra dos séculos 12 ao 14. Destaque para locais como as muralhas, o centro histórico e o interior da Catedral de São Pedro - a segunda maior em estilo gótico do norte da Europa. Continuação da viagem até Durham. Tempo livre. Em seguida, passeios pelos lugares históricos da fronteira entre Inglaterra e Escócia. Chegada a Edimburgo, capital da Escócia. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>10º dia - Edimburgo</strong><br />Café da manhã. Visita panorâmica pela Milha Real e o legendário Castelo, o Palácio de Holyrood House, o antigo Parlamento, sede dos Tribunais, a New Town, a National Gallery, entre outros locais. Restante do dia livre. À noite, uma sugestão de passeio (não incluso) é o passeio Edimburgo Inédito, que passa pelo Dean Village, Fettes College e Porto de Leith. Hospedagem.</p>
+<p><strong>11º dia - Edimburgo / Glasgow</strong><br />Após da café da manhã, saída para Glasgow, um dos centros culturais e econômicos mais ativos da Europa. Chegada e visita panorâmica pela Catedral, a Grande Mesquita Central, as belas vistas da Universidade, a Prefeitura, George Square, entre outros locais. Tarde livre. Excursão opcional a New Lanark, declarado patrimônio da humanidade pela Unesco. Continuação à Glasgow. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>12º dia - Glasgow</strong><br />Café da manhã e, em horário predeterminado, transporte do hotel ao aeroporto para embarque de volta ao Brasil (não inclui passagem aérea).</p>
+<p><strong>Importante</strong><br />A ordem dos passeios pode sofrer alteração devido a condições climáticas ou outros fatores. Todos os passeios adquiridos pelo passageiro serão realizados.</p>
+<p><strong>Atenção</strong><br />É necessário portar passaporte com validade superior a 6 meses. Passageiros com passaporte brasileiro não precisam de visto.</p></div><div class="lb-item"><ul><li>Traslado - aeroporto / hotel / aeroporto.</li><li>Hospedagem - hospedagem com café da manhã, sendo 3 diárias em Paris, 3 em Londres, 1 em Liverpool, 1 em Yorkshire, 2 em Edimburgo e 1 em Glasgow.</li><li>Atividades - passeios panorâmicos em Paris, Londres, Liverpool, York, Edimburgo, Glasgow. Passeio de barco pelo Lago Windermere. Visita à Fountains Abbey (entrada incluída).</li><li>Refeições - 1 jantar em Liverpool, 1 em York, 1 em Edimburgo e 1 em Glasgow.</li><li>Serviços - acompanhamento de guia falando português no destino. Percurso em ônibus moderno e climatizado. Serviço de maleteiro incluso nos hotéis do circuito (1 mala por pessoa).</li><li>Atenção - este roteiro não inclui passagens aéreas de ida e volta.</li></ul></div></div><ul class="lb-telefones telefoneBox"><li><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></li></ul></div><h2 class="Série Conquista">Série Conquista</h2><p class="descricaoCircuito descricao-companhia">Os circuitos da <strong>Série Conquistas</strong> oferecem hotéis de categoria Turística e Turística Superior localizados próximos aos meios de transporte público, guias brasileiros, alguns passeios e refeições inclusas.  </p><div class="box-circuitos"><div class="foto-navio-container"><img src="/media/8893965/brasileiros-na-inglaterra-e-escócia.jpg" alt="Brasileiros na Inglaterra e Escócia" width="276" height="200" class="foto-navio" /></div><div class="infos-container"><h3 class="Série Conquista">Série Conquista</h3><h4>Brasileiros na Inglaterra e Escócia - 8 diárias</h4><span class="roteiroResumo">Escócia, Inglaterra</span><span class="servicosLightBosx"><a href="javascript:void(0)" class="buyBtn">Roteiro | Serviços inclusos</a></span><a href="javascript:void(0)" class="btVerDetalhes">Ver detalhes</a><ul><li class="servicos_Terrestre"><p>Somente Terrestre</p></li></ul></div><p /></div><div class="lightbox-detalhes"><div class="lb-fechar">X</div><h2>Brasileiros na Inglaterra e Escócia - 8 diárias</h2><div class="bx-conteudo"><ul class="lb-botoes"><li><a href="javascript:void(0);">SOBRE O DESTINO</a><span> </span></li><li><a href="javascript:void(0);">ROTEIRO DIA A DIA</a><span> </span></li><li><a href="javascript:void(0);">SERVIÇOS INCLUSOS</a><span> </span></li></ul><div class="lb-item"><p>Londres é conhecida pelo tradicional chá da tarde, pelas construções imponentes da realeza e por diversas outras atrações. Entre os principais destaques estão a London Eye, o Palácio de Westminster, o Parlamento Inglês e o Big Ben. Já Edimburgo, no quesito tradição, abriga a renomada Universidade de Edimburgo, pioneira na informática e gerenciamentos. O charme da região se deve muito à presença do onipotente Castelo de Edimburgo.</p></div><div class="lb-item"><p><strong>1º dia - Londres</strong><br />Chegada a Londres e traslado ao hotel (não inclui passagem aérea). Hospedagem.</p>
+<p><strong>2º dia - Londres</strong><br />Café da manhã. Visita panorâmica pelos principais pontos turísticos, como a as Casas do Parlamento, Big-Bem, Abadía de Westminster, Trafalgar Squar, Palácio de Buckingham, entre outros locais. Tarde livre ou excursão opcional ao Castelo de Windsor (não incluso no pacote). Retorno a Londres. Hospedagem.</p>
+<p><strong>3º dia - Londres</strong><br />Café da manhã. Dia livre. Sugestão de passeio (não incluso) - visita opcional ao Museu Britânico e a Torre de Londres, de 1066. Hospedagem.</p>
+<p><strong>4º dia - Londres / Oxford / Stratford-upon-Avon / Liverpool</strong><br />Café da manhã e saída para Oxford. Tempo livre para passear pela cidade, conhecida por sua famosa universidade, uma das mais antigas do mundo, e pela arquitetura gótica. Oxford também foi berço de livros importantes e famosos na literatura mundial, como Alice no País das Maravilhas de Lewis Carroll. Continuação a Stratford-upon-Avon. Tempo livre. Continuação a Liverpool, berço dos Beatles, com visita panorâmica para conhecer os lugares relacionados com a famosa banda, entre eles Docklands, Mathew Street, Penny Lane, entre outros. Jantar e hospedagem.</p>
+<p><strong>5º dia - Liverpool / Região dos lagos / Fountains Abbey / Condado de Yorkshire</strong><br />Após o café da manhã, saída para a região dos Lagos, o maior parque nacional da Inglaterra. Passeio em barco pelo Lago Windermere, o mais importante e maior da Inglaterra. Continuação a Fountains Abbey (entrada incluída), declarada patrimônio da humanidade pela Unesco. Continuação ao hotel no Condado de Yorkshire. Jantar e hospedagem.</p>
+<p><strong>6º dia - Condado Yorkshire / Durham / Edimburgo</strong><br />Após o café da manhã conheceremos York, fundada no ano 17 a. C. Em seguida, visita guiada pela cidade para conhecer suas muralhas, o centro histórico e o interior da Catedral de São Pedro, a segunda maior em estilo gótico do norte da Europa. Em seguida, saída para Durham. Tempo livre. A cidade abriga uma catedral que foi declarada patrimônio da humanidade e também é conhecida por ter servido de cenário para o filme Elisabeth, protagonizado por Cate Blanchet. Em seguida, visita aos locais históricos da fronteira entre a Inglaterra e a Escócia. Chegada a Edimburgo, capital da Escócia. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>7º dia - Edimburgo</strong><br />Café da manhã. Visita panorâmica passando pela Milha Real e o legendário Castelo, Palácio de Holyrood House, antigo Parlamento, sede dos Tribunais, entre outros locais. Restante do dia livre. Sugestão de passeio (não incluso) - aproveite para realizar uma visita opcional ao interior do Castelo e do Palácio de Holyrood House, residência real. Hospedagem.</p>
+<p><strong>8º dia - Edimburgo / Glasgow</strong><br />Após da café da manhã, saída para Glasgow, um dos centros culturais e econômicos mais ativos da Europa. Chegada e visita panorâmica pela Catedral, a Grande Mesquita Central, Universidade, Prefeitura, George Square, entre outros locais. Tarde livre. Sugestão de passeio (não incluso) - excursão opcional a New Lanark, um antigo centro têxtil declarado Patrimônio da Humanidade. Continuação até Glasgow. Tempo livre. Jantar e hospedagem.</p>
+<p><strong>9º dia - Glasgow</strong><br />Café da manhã e, em horário predeterminado, transporte do hotel ao aeroporto para embarque de volta ao Brasil (não inclui passagem aérea).</p>
+<p><strong>Importante</strong><br />A ordem dos passeios pode sofrer alteração devido a condições climáticas ou outros fatores. Todos os passeios adquiridos pelo passageiro serão realizados.</p>
+<p><strong>Atenção</strong><br />É necessário portar passaporte com validade superior a 6 meses. Passageiros com passaporte brasileiro não precisam de visto.</p></div><div class="lb-item"><ul><li>Traslado - aeroporto / hotel / aeroporto.</li><li>Hospedagem - hospedagem com café da manhã, sendo 3 diárias em Londres, 1 em Liverpool, 1 em Yorkshire, 2 em Edimburgo e 1 em Glasgow.</li><li>Atividades - passeios panorâmicos em Londres, Liverpool, York, Edimburgo, Glasgow, passeio de barco pelo Lago Windermere, Fountains Abbey (entrada incluída).</li><li>Refeições - 1 jantar em Liverpool, 1 em York, 1 em Edimburgo e 1 em Glasgow.</li><li>Serviços - acompanhamento de guia falando português no destino. Percurso em ônibus moderno e climatizado. Serviço de maleteiro incluso nos hotéis do circuito (1 mala por pessoa).</li><li>Atenção - este roteiro não inclui passagens aéreas de ida e volta.</li></ul></div></div><ul class="lb-telefones telefoneBox"><li><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></li></ul></div>	
+		</div><!-- conteudo -->
+		
+		<div class="telefoneBox" id="telefone"><div class="telContent"><div class="iconsTelBox compreTelefone"><p class="telCvc">Compre pelo telefone: 3003-9282</p><span class="horarioAtendimento">Seg a Sex: 8h às 22h | Sáb: 9h às 21h | Dom: 10h às 21h | Feriados: 10h às 21h</span></div><div class="iconsTelBox compreLoja"><p class="telCvc">Compre em uma loja</p><span class="encontreLoja"><a href="/atendimento/lojas.aspx" target="_blank">Localize a loja mais proxima de você</a></span></div></div></div>
+		<div class="btVoltarTopo"><a href="javascript:void(0);">VOLTAR <br/>AO TOPO</a></div>	
+	</div><!-- circuitos-2 -->
+	
+
+
+                </div>
+
+                <div class="container">
+                <a href="javascript:void(0)" class='facebook_link_right' style="height: 230px; position: absolute; right: -149px; top: 141px; width: 140px;"></a>
+                
+                
+    <script type="text/javascript" language="javascript">
+        $(document).ready(function () {
+            var ToolTipPriceRegion = $('#newcompany').html();
+            var pag = window.location.pathname.toLocaleLowerCase();
+            $('#tooltip_region').html(ToolTipPriceRegion);
+
+            if (ToolTipPriceRegion != "" && ToolTipPriceRegion != undefined)
+                $('.container .header .modal.lookpriceRegion').css('visibility', 'visible').delay(5000).slideUp(200);
+
+            if (Util.getCookie("UserName") != "" && Util.getCookie("UserName") != null)
+                $('.container .header .modal.lookpriceRegion').addClass('moveslookpriceRegion');
+
+            else
+                $('.container .header .modal.lookpriceRegion').removeClass('moveslookpriceRegion');
+
+            var pag = window.location.pathname;
+            if (pag.search('/travel/resultado-de-carros') < 0 && pag.search('/travel/resultado-de-cruzeiros') < 0 && pag.search('/travel/resultado-de-circuitos') < 0 && pag.search('/travel/minhaconta/index') < 0 && pag.search('/travel/minhaconta/changepassword') < 0 && pag.search('/travel/minhaconta/personalinfo') < 0 && pag.search('/travel/minhaconta/myorders') < 0 && pag.search('/detalhes/hotel') < 0) {
+                $('div.newsletter').newsLetterContact({
+                    controllers: {
+                        newsLetterController: Global.NewsLetterController
+                    }
+                });
+            }
+
+        });
+    </script>
+    <script type="text/javascript" src="/scripts/footer.js"></script>
+
+	
+	<!-- NEO ASSIST -->
+				
+					
+					<div id="NeoassistCentral"></div>
+					<script type="text/javascript">
+					    (function () {
+					        window.NeoAssistTag = {};
+					        NeoAssistTag.querystring = true;
+					        NeoAssistTag.pageid = '';
+					        NeoAssistTag.clientdomain = 'cvc.neoassist.com';
+					        var na = document.createElement('script'); na.type = 'text/javascript'; na.async = true; na.src = '//cdn.atendimen.to/n.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(na, s);
+					    })();
+					</script>
+					
+					
+	<!-- END NEO ASSIST -->
+	
+ 	
+		<div class="container footer menu">
+	        <!-- BANNER DFP -->
+                            
+                <script type="text/javascript">
+                    $(document).ready(function () {
+                        var pag = window.location.pathname.toLocaleLowerCase();
+                        if (pag == '/travel/resultado-pacotes.aspx' || pag == '/travel/resultado-passagens.aspx' || pag == '/travel/resultado-hoteis.aspx') {
+                            Global.SearchController.searchCompleted.attach(function () {
+                                mostraBannerDFP();
+                            });
+                        }
+                        else if (pag.search('/hoteis/index.aspx') == -1 && pag.search('/passagens-aereas/index.aspx') == -1 && pag.search('/pacotes/index.aspx') == -1 && pag.search('/destinos/index.aspx') == -1 && pag.search('/destinos/cadernos-virtuais.aspx') == -1) {
+                            if (pag.search('/passagens-aereas/') >= 0 || pag.search('/hoteis/') >= 0 || pag.search('/pacotes/') >= 0 || pag.search('/promocao/') >= 0 || pag == '/todos-pacotes-cvc.aspx' || pag == '/detalhes/pacote.aspx' || pag == '/detalhes/hotel.aspx' || pag.search('/destinos/') >= 0) {
+                                window.onload = initPage;
+                                function initPage() {
+                                    //alert('carregou');
+                                    mostraBannerDFP();
+                                }
+
+                            }
+                        }
+
+                        function mostraBannerDFP() {
+                            switch (pag) {
+                                case '/travel/resultado-pacotes.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    if ($('#resultsAirHotel').css('display') == 'none') {
+                                        $('.bannerDFP-vertical').css('display', 'inline-block');
+                                        $('.section.main_results').after($('.bannerDFP-vertical'));
+                                    }
+                                    else {
+                                        //$('#airFilter').after($('.bannerDFP-vertical'));
+                                        $('#hotelFilters').after($('.bannerDFP-vertical'));
+                                        $('.bannerDFP-vertical').css('display', 'block');
+                                        $('.bannerDFP-vertical').css('clear', 'both');
+                                        $('.bannerDFP-vertical').css('float', 'left');
+                                    }
+                                    break;
+                                case '/todos-pacotes-cvc.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('#especial_packages').eq(0).after($('.bannerDFP-vertical').eq(0));
+                                    break;
+                                case '/travel/resultado-passagens.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('.filters:eq(0)').after($('.bannerDFP-vertical'));
+                                    break;
+                                case '/travel/resultado-hoteis.aspx':
+                                    $('.bannerDFP-vertical ins:eq(0)').css('display', 'none');
+                                    $('.bannerDFP-vertical ins:eq(0)').eq(1).css('display', 'none');
+                                    $('.bannerDFP-vertical').css('display', 'inline-block');
+                                    $('.filters:eq(0)').after($('.bannerDFP-vertical'));
+                                    break;
+                            }
+
+                            $('.bannerDFP').css('display', 'inline-block');
+                            $('.bannerDFP div').css('margin', 'auto');
+                        }
+
+                        $('.bannerAdsTemp').hide();
+
+                    });
+                </script>
+                <div class="bannerDFP-vertical">
+                    <p>Publicidade</p>
+                    <script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+                        googletag.pubads().definePassback('/38958695/ROS_160X600', [160, 600]).display();
+                    </script>
+                </div> 
+                <div class='bannerDFP'>
+                    <p>Publicidade</p>
+                    <script type='text/javascript' src='http://www.googletagservices.com/tag/js/gpt.js'>
+                        googletag.pubads().definePassback('/38958695/ROS97090', [[728, 90], [970, 90]]).display();
+                    </script>
+                </div>
+                       
+	    
+		<!-- FIM BANNER DFP -->
+
+        
+            
+				
+				
+            
+
+            
+            <div class="lead-social modulo-principal box-cinza">
+                <ul>
+                    <li class="newsletterBox newsletter">
+                        <div id="nlcComponentForm_2" class="newsletterBox newsletter"><h3>Receba nossas ofertas por e-mail</h3><h3 class="secondaryHeader"></h3><div class="form"><div class="signInNewsletterEmail"><div><input class="input_name" type="text" id="nlcTxtNome" placeholder="Nome" maxlength="20" /><div id="nlcTxtNomeErrMsg" class="fieldMessageInvalid" style="display: none;">*informe o nome</div></div><div><input type="text" id="nlcTxtEmail" placeholder="E-mail" /><div id="nlcTxtEmailErrMsg" class="fieldMessageInvalid" style="display: none;">*digite um e-mail válido</div></div><ul><li class="nlcCustomCheckbox already_client" id="nlcTxtAlreadyClient">Já sou cliente de uma loja física CVC</li></ul><a href="javascript:void(0);" title="Assinar e-mail" class="blueBtn" id="nlcTxtSubscribeEmail_2" rel="nlcComponentForm_2,nlcComponentSent_2">Assinar e-mail</a></div></div><div class="newsletterMessageBox sent hide" id="nlcComponentSent_2"><h2>Seu e-mail foi registrado com sucesso!</h2><p>Agora você receberá as melhores ofertas da CVC.</p></div></div>						
+                        
+                    </li>
+                    <li class="txtRedesSociais">Faça parte das nossas redes sociais</li>
+                    <li class="icos-sociais">
+                        <a href="https://www.facebook.com/cvcviagens" target="_blank" title="Facebook" class="ico-facebook">Facebook</a> <a href="https://twitter.com/#!/cvcviagens" target="_blank" title="Twitter" class="ico-twitter">Twitter</a> <a href="https://instagram.com/cvcviagens" target="_blank" title="instagram" class="ico-instagram">Instagram</a> <a href="http://www.youtube.com/cvc" target="_blank" title="Youtube" class="ico-youtube">Youtube</a> <a rel="publisher" href="https://plus.google.com/u/0/100621743540649260620/posts#100621743540649260620/posts" target="_blank" title="Google Plus" class="ico-googleplus">Google Plus</a> <a href="http://pinterest.com/cvcviagens" target="_blank" title="Pinterest" class="ico-pinterest">Pinterest</a>
+                    </li>
+                </ul>
+            </div>
+            
+
+            
+            <div class="menu-rodape modulo-principal box-cinza">
+                
+                <div class="menu-rodape-institucional"><h4>Institucional</h4><ul><li><a href="/institucional/nossa-historia.aspx" title="Sobre a CVC" target="_blank">Sobre a CVC</a></li><li><a href="/institucional/politica-de-privacidade.aspx" title="Política de Privacidade" target="_blank">Política de Privacidade</a></li><li><a href="/institucional/termos-e-condicoes-de-uso.aspx" title="Termos e condições de uso" target="_blank">Termos e condições de uso</a></li><li><a href="/area-do-cliente/condicoes-gerais/index.aspx" title="Condições Gerais de Contratação" target="_blank">Condições Gerais de Contratação</a></li><li><a href="http://www.cvc.com.br/ri" title="Relações com investidores" target="_blank">Relações com investidores</a></li></ul><ul><li><a href="/institucional/politica-e-normas-de-seguranca.aspx" title="Política e normas de segurança" target="_self">Política e normas de segurança</a></li><li><a href="/afiliados.aspx" title="Afiliados CVC" target="_blank">Afiliados CVC</a></li><li><a href="http://www.vagas.com.br/cvcturismo" title="Trabalhe Conosco" target="_blank">Trabalhe Conosco</a></li><li><a href="http://www.parceiroscvc.com.br/pesquisa/cadastro.php" title="Pesquisa de Satisfação" target="_blank">Pesquisa de Satisfação</a></li><li><a href="/lps/responsabilidade-social/index.aspx" title="Responsabilidade Social Corporativa" target="_self">Responsabilidade Social Corporativa</a></li></ul><ul><li><a href="http://www.programaviaje.com.br" title="Programa Viaje!" target="_blank">Programa Viaje!</a></li><li><a href="http://www.cvc.com.br/cambio" title="Serviço de câmbio" target="_blank">Serviço de câmbio</a></li><li><a href="http://www.cvc.com.br/assistenciaviagem" title="Assistência Viagem" target="_blank">Assistência Viagem</a></li><li><a href="mailto:imprensa@cvc.com.br" title="Sala de Imprensa" target="_blank">Sala de Imprensa</a></li><li><a href="http://lojas.cvc.com.br" title="Encontre uma loja CVC" target="_blank">Encontre uma loja CVC</a></li></ul></div><div class="menu-rodape-ajuda"><h4>Ajuda e observações</h4><ul><li><a href="/institucional/compra-segura.aspx" title="Compra Segura" target="_self">Compra Segura</a></li><li><a href="/atendimento/faq.aspx" title="Perguntas Frequentes" target="_self">Perguntas Frequentes</a></li><li><a href="/institucional/forma-de-pagamento.aspx" title="Formas de Pagamento" target="_self">Formas de Pagamento</a></li><li><a href="/sitemap.aspx" title="Mapa do Site" target="_self">Mapa do Site</a></li><li><a href="http://www.procon.rj.gov.br/" title="Acesso ao Procon/RJ" target="_blank">Acesso ao Procon/RJ</a></li><li><a href="/media/8864080/condicoes-gerais-seguro-viagem-protegida.pdf" title="Seguro Férias Protegidas CVC" target="_blank">Seguro Férias Protegidas CVC</a></li></ul></div>
+                    
+
+                
+                <div class="pagamento">
+                    <h4>Formas de pagamento</h4>
+                    <ul>
+                        <li><img src="/travel/Styles_B2C/images/Visa.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/MasterCard.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/American-Express.png" /></li>                   
+                        <li><img src="/travel/Styles_B2C/images/Dinersc-Club.png" /></li>
+                        <li><img src="/travel/Styles_B2C/images/hipercard.png" /></li>
+                    </ul>
+                </div>
+                
+
+                
+                <div class="seguranca">
+                    <h4>Certificados</h4>
+                    <ul>
+                        <li>
+                            <script language='javascript'>
+                                function vopenw() { tbar = 'location=no,status=yes,resizable=yes,scrollbars=yes,width=560,height=535'; sw = window.open('https://www.certisign.com.br/seal/splashcerti.htm', 'CRSN_Splash', tbar); sw.focus(); }
+							    </script>
+							    <table border='0' cellpadding='0' cellspacing='0' id="Table2">
+								    <tr>
+									    <td align='left' valign='middle'>
+										    <a href='javascript:vopenw()'>
+											    <img src='http://www.cvc.com.br/travel/styles_b2c/images/span/certisign.jpg' border='0' align='center' alt='Um site validado pela Certisign indica que nossa empresa concluiu satisfatoriamente todos os procedimentos para determinar que o domínio validado é de propriedade ou se encontra registrado por uma empresa ou organização autorizada a negociar por ela ou exercer qualquer atividade lícita em seu nome.'/>
+										    </a>
+									    </td>									
+								    </tr>
+							    </table>
+                        </li>
+                        <li><script src='https://seal.verisign.com/getseal?host_name=www.cvc.com.br&amp;size=S&amp;use_flash=NO&amp;use_transparent=getsealjs_b.js&amp;lang=pt'></script></li>
+                        <li><a href="/responsabilidade-social/index.aspx" target="_blank"><img src="/travel/Styles_B2C/images/abrinq.png" /></a></li>
+                        <li><a href="http://www.ebit.com.br/viagens-cvc/selo" target="_blank" onclick="redir(this.href)" title="Avaliado pelos consumidores"><img src="https://a248.e.akamai.net/f/248/52872/0s/img.ebit.com.br/ebitBR/selo/img_5160.png" height="62" /></a></li>
+                    </ul>
+                </div>
+                
+
+            </div>
+            
+
+            
+
+            <div class="rodape-copyright modulo-principal box-cinza">
+                <center>CVC Brasil Operadora e Agência de Viagens | CNPJ: 10.760.260/0001-19 | Rua das Figueiras, 501 - Jardim – Santo André – SP | CEP: 09.080-370</center>
+                <center><img src="/media/3128416/logo-rodape.png" />© 2015 Viagens CVC - Todos os direitos reservados.</center>
+            </div>
+            
+            
+        
+
+        
+
+		
+        </div>           
+
+		
+
+		<!--Fecha footer-->            
+		<!-- Start Tagueamento -->
+		
+                                                               
+      <!-- Google Tag Manager -->
+      <noscript>
+        <iframe src="//www.googletagmanager.com/ns.html?id=GTM-2LZJ" height="0" width="0" style="display:none;visibility:hidden"> </iframe>
+      </noscript>
+      <script>
+          (function (w, d, s, l, i) {
+              w[l] = w[l] || [];
+              w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+              var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+              j.async = true; j.src = '//www.googletagmanager.com/gtm.js?id=' + i + dl;
+              f.parentNode.insertBefore(j, f);
+          })
+        (window, document, 'script', 'dataLayer', 'GTM-2LZJ');
+      </script>
+      <!-- End Google Tag Manager -->
+
+        <!-- End Tagueamento -->
+				
+		
+        
+
+
+            </div>
+
+                <div id="Div1"></div>
+        <div id="Div2" class="modal info">
+            <span class="tab top">&nbsp;</span>
+            <div class="content"></div>
+        </div>
+        <div id="Div3"></div>
+
+                <div id="estimateBox"></div>
+                 
+                 <div id="modal-content" class="modal info hide">
+                     <span class="tab top">&nbsp;</span>
+                     <div class="content"></div>
+                 </div>
+        </div>
+        </form>
+
+        <!--Diretiva B -->
+        
+        
+        
+        
+        
+        
+        
+
+        
+  
+
+        
+    
+
+        <div id="sm-bounce" data-scope="email" style="display:none"></div>
+
+    </body>
+
+    </html>
+

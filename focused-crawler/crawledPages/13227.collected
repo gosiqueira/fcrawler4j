@@ -1,0 +1,162 @@
+title=Bienvenidos al Parque Pumalín
+url=http://www.parquepumalin.cl/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Bienvenidos al Parque Pumal&iacute;n</title>
+
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather:700,400' rel='stylesheet' type='text/css'>
+
+<link href="css/styles.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="css/utopian-menus.css" />
+<link rel="stylesheet" href="css/orbit-1.2.3.css">
+
+<script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+<script type="text/javascript" src="js/jquery.orbit-1.2.3.min.js"></script>
+
+		<!--[if IE]>
+			     <style type="text/css">
+			         .timer { display: none !important; }
+			         div.caption { background:transparent; filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000,endColorstr=#99000000);zoom: 1; }
+			    </style>
+			<![endif]-->
+<script type="text/javascript">
+			$(window).load(function() {
+				$('#featured').orbit({
+     animation: 'fade',
+     animationSpeed: 3000,
+     timer: true,
+     advanceSpeed: 7000,
+     pauseOnHover: false,
+     startClockOnMouseOut: false,
+     startClockOnMouseOutAfter: 1000,
+     directionalNav: false,
+     captions: false,
+     captionAnimation: 'none',
+     captionAnimationSpeed: 2000,
+     bullets: false,
+     bulletThumbs: false,
+     bulletThumbLocation: '',
+     afterSlideChange: function(){}
+			});
+			});
+</script>
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3894994-1']);
+  _gaq.push(['_setDomainName', 'parquepumalin.cl']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+
+<div id="out_wrapper">
+<div id="color-top"></div>
+<div id="wrapper">
+<div id="menu">
+  <table width="980" border="0" cellpadding="0" cellspacing="0">
+      <tr>
+        <td width="20" rowspan="2">&nbsp;</td>
+        <td width="180" rowspan="2"><a href="index.htm"><img src="images/top_logo_sp.gif" alt="Parque y Proyecto Pumal&iacute;n" width="180" height="109" border="0" /></a></td>
+        <td height="25" align="right" valign="top"><div id="language"><a href="en/index.htm">English</a>  &nbsp;|&nbsp;  Espa&ntilde;ol</div></td>
+      </tr>
+      <tr>
+        <td valign="bottom"><ul id="utopian-navigation" class="horizontal white">
+                <li class="dropdown"><a href="pumalin_park.htm">Parque Pumal&iacute;n</a><ul>
+                    <li><a href="pumalin_history.htm">Historia de Pumal&iacute;n</a></li>	<li><a href="how_to_get_there.htm">C&oacute;mo Llegar</a></li>
+	<li><a href="visiting_the_park.htm">Dónde Quedarse</a></li>
+                    <li><a href="senderos.htm">Senderos</a></li>
+                  </ul>
+              </li>
+                <li class="dropdown"><a href="farms.htm">Campos</a>
+                  <ul>
+                    <li><a href="pasture_management.htm">Manejo de Praderas</a></li>
+                    <li><a href="animal_husbandry.htm">Crianza de Animales</a></li>
+                    <li><a href="organic_apiculture.htm">Apicultura Org&aacute;nica</a></li>
+                    <li><a href="organic_gardens_and_berries.htm">Huertos y Frutos Org&aacute;nicos</a></li>
+                  </ul>
+              </li>
+                <li class="dropdown"><a href="social_work.htm">Trabajo Social</a>
+                  <ul>
+                    <li><a href="amarillo_beautification.htm">Embellecimiento de El Amarillo</a></li>
+                    <li><a href="scenic_route.htm">Ruta Esc&eacute;nica</a></li>
+                    <li><a href="community_outreach.htm">Compromiso con la Comunidad</a></li>
+                    <li><a href="puma_verde_local_crafts.htm">Artesan&iacute;as Locales Puma Verde</a></li>
+                    <li><a href="land_title_assistance.htm">Asistencia con T&iacute;tulos de Tierra</a></li>
+                  </ul>
+              </li>
+                <li class="dropdown"><a href="activism.htm">Activismo</a>
+                  <ul>
+                    <li><a href="patagonia_sin_represas.htm">Patagonia Sin Represas</a></li>
+                    <li><a href="conectividad_para_palena.htm">Conectividad Para Palena</a></li>
+                    <li><a href="conferences_and_meetings.htm">Conferencias y Reuniones</a></li>
+                  </ul>
+                <li class="dropdown"><a href="get_involved.htm">Invol&uacute;crate</a>
+                  <ul>
+                    <li><a href="learn_more.htm">Aprende M&aacute;s</a></li>
+                    <li><a href="donate.htm">Haz una Donaci&oacute;n</a></li>
+                    <li><a href="volunteers_and_interns.htm">Voluntarios y Practicantes</a></li>
+                  </ul>
+                <li class="dropdown"><a href="photo_gallery.htm">Galer&iacute;as de Fotos</a>
+                <ul>
+                    <li><a href="photo_gallery.htm">La Naturaleza de Pumal&iacute;n</a></li>
+                    <li><a href="photo_gallery_04.htm">Campos/Fundos</a></li>
+                    <li><a href="photo_gallery_02.htm">Alojamiento en Caleta Gonzalo</a></li>
+                    <li><a href="photo_gallery_03.htm">Afiches</a></li>
+                  </ul>
+                <li><a href="contact_us.htm">Cont&aacute;ctanos</a></li>
+              </ul>
+            </td>
+              </tr>
+            </table>
+  </div>
+          <div id="slider">
+          <div id="welcome">
+            <h1 style="font-size:34px;">Bienvenidos al<br />
+            Parque Pumal&iacute;n</h1>
+            <p>Provincia Palena | X Regi&oacute;n | Chile</p>
+          </div>
+            <div id="featured">
+            <img src="images/slide_home01.jpg" />
+            <img src="images/slide_home02.jpg" />
+            <img src="images/slide_home03.jpg" />
+            <img src="images/slide_home04.jpg" />
+            <img src="images/slide_home05.jpg" />
+            </div>
+          </div>
+          <div style="margin-top:10px; padding:5px; font-family:'Open Sans', sans-serif; font-size:12px; border-bottom:solid; border-top:solid; border-color:#333; border-top-width:1px; border-bottom-width:1px;">
+            <p>Atenci&oacute;n: El sendero Tronador se encuentra cerrado hasta nuevo aviso.</p>
+          </div>
+  <div id="home_featured" style="margin-top:10px;">
+    <table width="960" border="0" cellspacing="0" cellpadding="0">
+      <tr>
+        <td width="220" valign="top"><img src="images/home_01.jpg" width="195" height="290" /></td>
+        <td width="240" valign="top"><h1>Parque Pumal&iacute;n</h1>
+          <p>El <a href="pumalin_park.htm">Parque Pumal&iacute;n</a> (290.000 hect&aacute;reas), ubicado en la Provincia de Palena, X Regi&oacute;n de Chile, es uno de los proyectos de conservaci&oacute;n m&aacute;s grandes y diversos de Sudam&eacute;rica. Se extiende desde el coraz&oacute;n de Los Andes hasta los fiordos de la Costa del Pac&iacute;fico. Adem&aacute;s de proteger los pr&iacute;stinos bosques Valdivianos, incluye senderos, sitios de camping e instalaciones p&uacute;blicas, permitiendo que cada a&ntilde;o miles de visitas puedan <a href="visiting_the_park.htm">disfrutar este majestuoso paisaje</a>.</p></td>
+        <td width="40">&nbsp;</td>
+        <td width="220" valign="top"><img src="images/home_02.jpg" width="195" height="290" /></td>
+        <td width="240" valign="top"><h1>Proyecto Pumal&iacute;n</h1>
+          <p>El Proyecto Pumal&iacute;n incluye <a href="farms.htm">campos org&aacute;nicos</a> restaurados de una fuerte degradaci&oacute;n ecol&oacute;gica, <a href="social_work.htm">iniciativas sociales</a> que promueven una vida sana y valores de conservaci&oacute;n en las comunidades vecinas, y <a href="activism.htm">campa&ntilde;as de activismo</a> que abarcan los temas de conservaci&oacute;n m&aacute;s grandes de la regi&oacute;n. Por m&aacute;s de dos d&eacute;cadas, este m&eacute;todo de conservaci&oacute;n ha permitido que el proyecto extienda su impacto mucho m&aacute;s all&aacute; de los l&iacute;mites del parque.</p></td>
+      </tr>
+    </table>
+  </div>
+  <div id="pie">
+  Copyright 2013 Proyecto y Parque Pumal&iacute;n | www.parquepumalin.cl | e-mail: <a href="mailto:info@parquepumalin.cl">info@parquepumalin.cl</a><br />
+  <a href="http://www.tompkinsconservation.org/sp" target="_blank">Visita Tompkins Conservation</a> | <img src="images/temp.jpg" width="16" height="16" /> <a href="http://www.facebook.com/pages/Parque-Pumal&iacute;n/1514961508735646" target="_blank">Parque Pumal&iacute;n</a> | <img src="images/temp.jpg" width="16" height="16" /> <a href="http://www.facebook.com/tompkinsconservationchile" target="_blank">Tompkins Conservation Chile</a>| <img src="images/temp.jpg" width="16" height="16" /> <a href="http://www.facebook.com/pages/Parque-Patagonia/528656723882230" target="_blank">Parque Patagonia</a> | <a href="get_involved.htm">Suscr&iacute;bete al Newsletter</a></div>
+</div>
+</div>
+</body>
+</html>

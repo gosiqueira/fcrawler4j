@@ -1,0 +1,84 @@
+title=Belle du Valais
+url=http://www.belleduvalais.com.br/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+		<title>Belle du Valais</title>
+	
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		
+		<!-- Outros links -->
+		<link rel="shortcut icon" href="http://www.belleduvalais.com.br/images/favicon.gif">
+		
+		<link rel="stylesheet" type="text/css" href="index_files/geral.css?v=20140521">
+		
+		<script type="text/javascript" src="index_files/ajaxInit.js"></script>
+		<script type="text/javascript" src="index_files/library.js"></script>
+		<script type="text/javascript" src="index_files/ufo.js"></script>
+		<script type="text/javascript" src="index_files/geral.js"></script>
+	<style media="screen" type="text/css">#slogan {visibility:hidden;}</style><style media="screen" type="text/css">#movie {visibility:hidden;}</style></head>
+	
+	<body>
+		<div id="geral">
+			<div id="cabecalho">
+				<h1>
+					<img src="index_files/logotipo.gif" alt="Belle du Valais">
+				</h1>
+				
+				<h2 style="visibility: visible;" id="slogan"><object data="index_files/slogan.swf" type="application/x-shockwave-flash" width="283" height="105"><param value="transparent" name="wmode"></object></h2>
+				
+			</div> <!--#cabecalho-->
+			
+			<div style="text-align: center">
+				<div style="padding: 15px 0px; float:left; width: 100%; text-align: center; font-size: 14pt; font-weight: bold"><a href="anonovo.html" style="color: #990000">AVISO</a></div>
+			<div style="padding-bottom: 15px; font-size: 13pt">
+			<p style="padding-bottom: 10px"><strong>Não estaremos atendendo</strong> nos dias:</p>
+			<p><strong>11, 18, 25 e 31</strong> no mês de <strong>Janeiro</strong></p>
+			<p><strong>10, 15, 22 e 28</strong> no mês de <strong>Fevereiro</strong>.</p>
+			</div>
+			</div>
+
+			<div style="visibility: visible;" id="movie"><object data="index_files/360.swf" type="application/x-shockwave-flash" width="731" height="336"><param value="transparent" name="wmode"></object></div> <!--#movie-->
+
+			<a name="conteudo" href="#conteudo"></a>
+			<div id="conteudodinamico">
+				<div id="conteudohome">
+	<div id="resumo">
+		<img src="index_files/foto_resumo.gif" alt="Fachada">
+		<p>
+			O Belle du Valais oferece diariamente um cardápio especial onde você pode provar além de suas famosas fondues, delícias como Bacalhau Grelhado, Cordeiro, Truta com Amêndoas, Pato com Laranjas, Raclette e La Pierrade.<br>
+
+			Em suas adegas climtizadas estão guardados os melhores vinhos da Serra Gaúcha e das mais tradicionais regiões produtoras do mundo.
+		</p>
+		
+		<a href="#conteudo" target=""><img src="index_files/button_galeria_de_fotos.gif" alt="Galeria de Fotos" id="buttongaleria"></a>
+	</div>
+
+	
+	<div id="indiqueamigo">
+				<h3><img src="index_files/indique_tit.gif" alt="Indique o restaurante ?um amigo!"></h3>
+					
+			<form action="mailer.php" target="_blank" method="post">
+				<fieldset>
+					<label>Seu nome:</label>
+					<input name="name" type="text">
+
+					<label>Seu e-mail:</label>
+					<input name="from" type="text">
+					
+					<label>O e-mail do seu amigo:</label>
+					<input name="to" type="text">
+					
+					<input class="submit" value="Enviar" type="submit">
+				</fieldset>
+			</form>
+		
+	</div>
+</div> <!--#conteudohome-->			</div> <!--#conteudodinamico-->
+			
+			<address>
+				Jantar Diariamente<br>
+				Av. das Hortênsias, 1432 - Reservas: (54) 3286.1744 - Gramado - RS - Brasil - <a href="mailto:belleduvalais@belleduvalais.com.br">belleduvalais@belleduvalais.com.br</a>
+			</address>
+		</div>
+	
+</body></html>

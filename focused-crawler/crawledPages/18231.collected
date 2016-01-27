@@ -1,0 +1,216 @@
+title=Parques Disney
+url=http://www.disneylandparis.pt/disney-parks/
+html=<!DOCTYPE html PUBLIC '-//W3C//DTD XHTML 1.0 Strict//EN' 'http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd'>
+
+<html>
+<head>
+<title>Parques Disney</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<link href="./favicon.ico" rel="shortcut icon" type="image/x-icon" >
+<!--[if lte IE 6]><link rel="stylesheet" href="http://www.disneylandparis.pt/css/ie6.css" type="text/css" media="all" /><![endif]-->
+<link href="http://www.disneylandparis.pt/./css/mise_en_forme.css" rel="stylesheet" type="text/css">
+<link href="http://www.disneylandparis.pt/./css/htmlMenu.css" rel="stylesheet" type="text/css">
+<link href="http://www.disneylandparis.pt/./css/disney-parks.css" rel="stylesheet" type="text/css">
+<script language="javascript" src="http://www.disneylandparis.pt/./fonctions/js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script language="javascript" src="http://www.disneylandparis.pt/./fonctions/js/jquery.easing.min.js" type="text/javascript"></script>
+<script language="javascript" src="http://www.disneylandparis.pt/./fonctions/js/fonctions.js" type="text/javascript"></script>
+<script language="javascript" src="http://www.disneylandparis.pt/./fonctions/js/htmlMenu.js" type="text/javascript"></script>
+<script language="javascript" src="http://www.disneylandparis.pt/./fonctions/js/swfobject.js" type="text/javascript"></script>
+<script language="javascript" src="http://www.disneylandparis.pt/./fonctions/js/popup.js" type="text/javascript"></script>
+<!--[if IE 7]> <link rel="stylesheet" type="text/css" href="http://www.disneylandparis.pt/css/ie7.css" /> <![endif]-->
+</head><body class="body_classique">
+<div id="structure_site" class="fondsite">
+  	<div class="main-element" id="wrapper-header-disney" style="background-color:#ffffff; padding-top:20px;">
+        <div id="menuHeader" style="visibility: visible;">
+            <div id="menuHeaderLink"><a href="http://www.disneylandparis.pt/./" alt="Disneyland Paris" title="Disneyland Paris" style="float:left;width:247px;height:67px;border:0px;"></a></div>
+            <div id="menuInsideHeader">
+                <div id="menuInsideHeaderLeft"></div>                
+            </div>	
+		</div>
+<!--
+ <script language="JavaScript" type="text/javascript">
+       displayLoginLogout();
+       diplayOffers();
+       hideOffers();
+</script>
+-->
+       <!--[if !IE 7]><!-->
+        <script language="JavaScript" type="text/javascript">
+            moveDownLayer();
+        </script>
+        <!--<![endif]-->
+       
+
+<div id="menuContainer" class="menuContainer" align="center">
+    <ul>
+        <li>
+            <a class="menuContainerUlLi" href="http://www.disneylandparis.pt/./disney-parks/" title="Parques Disney">Parques Disney<!--[if gte IE 7]><!--></a><!--<![endif]-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <ul>
+                          <li><a href="http://www.disneylandparis.pt/./disney-parks/disneyland-park/" title="Parque Disneyland">Parque Disneyland</a></li>
+                          <li><a href="http://www.disneylandparis.pt/./disney-parks/walt-disney-studios-park/" title="Parque Walt Disney Studios">Parque Walt Disney Studios</a></li>
+    				      <span class="margeSpacer"></span>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!--[if lte IE 6]></a><![endif]-->
+         </li>
+    </ul>     
+
+    <ul>
+        <li>
+            <a class="menuContainerUlLi" href="http://www.disneylandparis.pt/./disney-hotels/" title="Hotéis Disney">Hotéis Disney<!--[if gte IE 7]><!--></a><!--<![endif]-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <ul>
+    						<li><a href="http://www.disneylandparis.pt/./disney-hotels/" title="Hotéis Disney">Hotéis Disney</a></li>
+                  			<li><a href="http://www.disneylandparis.pt/./disney-hotels/hotels-important-notification.html" title="Notificações Importantes">Notificações Importantes</a></li>
+                        	<span class="margeSpacer"></span>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!--[if lte IE 6]></a><![endif]-->
+         </li>
+    </ul>     
+
+    <ul>
+        <li>
+            <a class="menuContainerUlLi" href="http://www.disneylandparis.pt/./prepare-your-visit/" title="Preparar a visita">Preparar a visita<!--[if gte IE 7]><!--></a><!--<![endif]-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <ul>
+                        	<span class="margeSpacer"></span>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!--[if lte IE 6]></a><![endif]-->
+         </li>
+    </ul> 
+        <ul>
+        <li>
+            <a class="menuContainerUlLi" href="#" title="Ofertas" alt="Ofertas">Temporadas<!--[if gte IE 7]><!--></a><!--<![endif]-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <ul class="ul-special-offers">
+                            <li><a href="http://www.disneylandparis.pt/./temporadas-natal-na-dp.html">Natal na Disneyland® Paris</a></li>
+                            <span class="margeSpacer"></span>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!--[if lte IE 6]></a><![endif]-->
+         </li>
+    </ul>
+
+    <ul>
+        <li>
+            <a class="menuContainerUlLi" href="#" title="Ofertas" alt="Ofertas">Ofertas<!--[if gte IE 7]><!--></a><!--<![endif]-->
+            <table border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                    <td>
+                        <ul class="ul-special-offers">
+                            <li><a href="http://www.disneylandparis.pt/./special-offers-1noite-1dia.html" class="link-special-offers">1 Noite / 1 Dia GRÁTIS</a></li>
+                            <li><a href="http://www.disneylandparis.pt/./special-offers-menores-de-7-anos-gratis.html" class="link-special-offers">Crianças menores de 7 anos grátis!</a></li>           
+                        	<span class="margeSpacer"></span>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            <!--[if lte IE 6]></a><![endif]-->
+         </li>
+    </ul>
+ 
+    <div class="imageRightMenu" id="imageRightMenu"></div>
+    <div class="menuContainer-rightLink">
+        <a href="http://brochure.disneylandparis.com/A15/P/catalogue/appli.htm" target="_blank">Brochura Eletrónica</a>
+    </div>
+</div>
+<div id="blueLine" class="blueLine"></div>
+<script language="JavaScript" type="text/javascript">
+        displayTwoLines();        
+     if (menuHeaderSelected) {
+        highLightLink(menuHeaderSelected);
+    }
+</script>
+</div>		<div id="header">
+	    <script type="text/javascript">
+		// <![CDATA[
+		//var so = new SWFObject("medias/header_our_offers.swf","header_our_offers", "770", "324", "9", "");
+		 var so = new SWFObject('http://www.disneylandparis.pt/./swf/shell.swf?uniqstring=1377899043', 'header', '770', '324', '8', '#FFFFFF');		//so.addParam("wmode", "transparent");
+		//so.write("test"); 
+		
+		so.addParam("wmode", "transparent");
+		so.addVariable("xml_path", "http://www.disneylandparis.pt/./xml/");
+		so.addVariable("media_path", "http://www.disneylandparis.pt/./swf/medias/");
+		so.addVariable("logged", "1");
+		so.addVariable("wow_url", "parc.xml");
+		so.addVariable("valeur_adresse", "");
+		so.write("header");
+		// ]]>
+		</script>
+	</div>
+	  <div id="contenu_page">
+    <div id="park_home">
+  <div id="park_hometexte" class="texte">
+ Imagina-te a explorar o mundo mágico da Disneyland® Resort Paris, onde todos os sonhos se tornam realidade! Dois parques Disney, muitas atracções e espectáculos esperam por ti! De que estás à espera? Vem viver a magia! <br />
+E agora a diversão vai até ao infinito e mais além com o Festival da Nova Geração Disney!
+  </div>
+  
+  <div id="park_homecentre">
+    <div id="park_homeligne">
+      <div id="park_homeimg">
+           <a href="walt-disney-studios-park/top-5-attractions.html#crush_s_coaster" onMouseOver="MM_swapImage('crush_toaster','','http://www.disneylandparis.pt/./images/park/home/crush_toaster_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/crush_toaster.jpg" width="152" height="158" name="crush_toaster" alt="alt" class="" border="0"></a>
+       </div>
+      <div id="park_homeimg">
+           <a href="walt-disney-studios-park/top-5-attractions.html#cars_quatre" onMouseOver="MM_swapImage('car','','http://www.disneylandparis.pt/./images/park/home/car_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/car.jpg" width="151" height="158" name="car" alt="alt" class="" border="0"></a>
+       </div>
+      <div id="park_homeimg">
+           <a href="disneyland-park/top-5-attractions.html#space_mountain" onMouseOver="MM_swapImage('space_mountain','','http://www.disneylandparis.pt/./images/park/home/space_mountain_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/space_mountain.jpg" width="151" height="158" name="space_mountain" alt="alt" class="" border="0"></a>
+       </div>
+      <div id="park_homeimg">
+           <a href="walt-disney-studios-park/top-5-attractions.html#rock_n_roller" onMouseOver="MM_swapImage('aerosmith','','http://www.disneylandparis.pt/./images/park/home/aerosmith_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/aerosmith.jpg" width="151" height="158" name="aerosmith" alt="alt" class="" border="0"></a>
+       </div>
+    </div>
+    
+    <div id="park_homeligne">
+      <div id="park_homeimg">
+           <a href="disneyland-park/top-5-attractions.html#pirates_caraibean" onMouseOver="MM_swapImage('pirates_caribbean','','http://www.disneylandparis.pt/./images/park/home/pirates_caribbean_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/pirates_caribbean.jpg" width="151" height="158" name="pirates_caribbean" alt="alt" class="" border="0"></a>
+       </div>
+      <div id="park_homeimg">
+           <a href="walt-disney-studios-park/top-5-attractions.html#moteurs_action" onMouseOver="MM_swapImage('studio_tram_tour','','http://www.disneylandparis.pt/./images/park/home/studio_tram_tour_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/studio_tram_tour.jpg" width="151" height="158" name="studio_tram_tour" alt="alt" class="" border="0"></a>
+       </div>
+      <div id="park_homeimg">
+           <a href="disneyland-park/top-5-attractions.html#thunder_mountain" onMouseOver="MM_swapImage('big_thunder_moutain','','http://www.disneylandparis.pt/./images/park/home/big_thunder_moutain_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/big_thunder_moutain.jpg" width="151" height="159" name="big_thunder_moutain" alt="alt" class="" border="0"></a>
+       </div>
+      <div id="park_homeimg">
+           <a href="disneyland-park/top-5-attractions.html#buzz_ligthyear" onMouseOver="MM_swapImage('buzz','','http://www.disneylandparis.pt/./images/park/home/buzz_2.jpg')" onMouseOut="MM_swapImgRestore();"><img src="http://www.disneylandparis.pt/./images/park/home/buzz.jpg" width="152" height="159" name="buzz" alt="alt" class="" border="0"></a>
+       </div>
+    </div>
+  </div>
+</div>    <div class="clear"></div>
+  </div>
+  <div id="pied_blanc" class="texte_piedblanc">
+  <a href="#" class="texte_piedblanc" onclick="openpopup('http://www.disneylandparis.pt/./restrictions.htm', 560, 600, 1);">Restri&ccedil;&otilde;es legais</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="#" class="texte_piedblanc" onclick="openpopup('http://www.disneylandparis.pt/./charte_confidentialite.htm', 560, 600, 1);">Pol&iacute;tica de confidencialidade</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://www.disneylandparis.com/index2.jsp?c=0" class="texte_piedblanc">O seu pa&iacute;s</a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<select name="access" onchange="window.open(this.value,'External','')">
+    <option>Acesso aos nossos sites</option>
+    <option value="http://www.eurodisney.com/">Euro Disney SCA</option>
+    <!-- <option value="http://www.disney.co.uk">Disney UK</option> -->
+    <option value="http://www.drpbusiness.com/uk/001.php">Convention Center</option>
+     <!-- <option value="http://www.disneylandparis.com/uk/groups_and_travel_agents/index.htm">Groups &#38; Travel Agent</option> -->
+  </select>
+  <br /><br /><br />&copy;&nbsp;Disney - Todos os direitos reservados.<br /><br />
+</div>  <div id="blanc"></div>
+</div>
+</body>
+</html>

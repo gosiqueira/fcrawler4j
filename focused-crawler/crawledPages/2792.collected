@@ -1,0 +1,281 @@
+title=PROCON
+url=http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2341
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>PROCON</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://www.procon.rj.gov.br/procon/assets/css/style_site.css" />
+
+	<script type="text/javascript">	
+		var site_url = "http://www.procon.rj.gov.br/index.php/";
+		var base_url = "http://www.procon.rj.gov.br/";
+		var js_url	 = "http://www.procon.rj.gov.br/procon/assets/js/";
+		var img_url  = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var css_url  = "http://www.procon.rj.gov.br/procon/assets/css/";
+		var url_img = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var url_css = "http://www.procon.rj.gov.br/procon/assets/css/";
+	</script>
+	
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.ui.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/menu.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/acessibilidade.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/plugins/mi.js"></script>
+
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/scripts/site/banners.js"></script>
+
+      <script>
+         function confirmDelete(delUrl) {
+	     
+            msg = "Você está sendo redirecionado para fora do PROCON, deseja continuar?";
+            if (confirm(msg)) {
+               document.location = delUrl;
+            }
+        }
+		
+		           
+        </script>
+
+	
+</head>
+<body>
+<noscript></noscript>
+
+	<div class="governo">
+		<div class="conteudo">
+			<a target="_blank" href="http://www.rj.gov.br/web/guest">
+				<div class="logotipo">Governo do Estado do Rio de Janeiro</div>
+			</a>
+			<div class="secretaria">SECRETARIA DE ESTADO DE PROTEÇÃO DE DEFESA DO CONSUMIDOR</div>
+			<!--<div class="topo_menu">
+				<ul>
+					<li>
+						<a href="http://www.rj.gov.br/web/informacaopublica/">INFORMAÇÃO PÚBLICA</a>
+					</li>
+				</ul>
+			</div>-->
+			
+			<div class="acessibilidade">
+				<ul>
+					<li class="aumentar_fonte divisao"><a href="#" rel="nofollow">Aumentar fonte do texto</a></li>
+					<li class="diminuir_fonte divisao"><a href="#" rel="nofollow">Diminuir fonte do texto</a></li>
+					<li class="normalizar_fonte divisao"><a href="#" rel="nofollow">Voltar para tamanho original da fonte do texto</a></li>
+					<li class="altocontraste_fonte"><a href="#" rel="nofollow">Ativar Alto contraste</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class="geral">
+		
+		<div class="menu fundo_inicio">
+			<a href="http://www.procon.rj.gov.br/index.php"><div class="logotipo">Procon RJ</div></a>
+			<div class="conteudo">
+            	<div class="titulo">MENU</div>
+				<ul>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao">INÍCIO</a></li>
+					<li class="selecionado corfundo_setor_inicio"><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/1">NOTÍCIAS</a></li>
+					<li ><a href="#">INSTITUCIONAL</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/historico">histórico</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/objetivo">objetivo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/estrutura">estrutura</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/telefones">telefones</a></li>
+						</ul>
+					</li>
+					<li ><a href="javascript:;">CONSUMIDOR</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">dicas ao consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">educação para o consumo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/1">recall</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">código de defesa do consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/6/1">cartilhas e folders</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">LEGISLAÇÃO</a>
+					    <ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/1/1">Leis Federais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/2/1">Leis Estaduais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/3/1">Leis Municipais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/4/1">Portarias Procon</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/5/1">Outras</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">IMPRENSA</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/fato_foto">fatos e fotos</a></li>
+							<!--<li><a href="http://www.procon.rj.gov.br/index.php/informativo">informativo</a></li>-->
+							<li><a href="http://www.procon.rj.gov.br/index.php/clipping">clipping</a></li>
+                            <li><a href="http://www.procon.rj.gov.br/index.php/main/contato">contato</a></li>
+							<li><a href="javascript:proconNaMidia();">v&iacute;deos</a></li>
+						</ul>
+					</li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/link_util">LINKS</a></li>
+					<li ><a href="#">ATENDIMENTO</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/posto_atendimento">postos de atendimento</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/agenda_procon_movel">agenda procon móvel</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/expressinho">procon expressinho</a></li>
+                           				<li><a href="http://www.procon.rj.gov.br/index.php/main/disque151">disque procon 151</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/ouvidoria">ouvidoria</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div>
+                     <div class="redesSociais">
+			     <a href="javascript:confirmDelete('http://www.facebook.com/ProconRJ')"><div class="redesSociaisFacebook">.</div></a>
+     			     <a href="javascript:confirmDelete('https://twitter.com/ProconRJ')"><div class="redessociais_twitter">.</div></a>
+                     </div>
+		</div>
+		
+		<div class="principal">
+		
+	<div class="suporte">
+				<div class="busca">	
+						
+					<div class="superior"></div>
+					<div class="conteudo">
+						<label for="txtBusca" style="display:none;"></label>
+						<input maxlength="100" name="txtBusca" id="txtBusca" type="text" value="Buscar..."/>
+						<div class="botao">
+							<a id="btnBuscar" href="javascript:;">
+								<img src="http://www.procon.rj.gov.br/procon/assets/imagens/icone_detalhar.png" alt="Buscar" title="Buscar" width="19" height="19" border="0"/>Buscar
+							</a>
+						</div>
+					</div>	
+							
+					<div class="inferior"></div>
+				</div>
+					
+				<div class="texto">Para DENÚNCIAS e ORIENTAÇÕES ligue para 151 e o horário de funcionamento é de segunda à sexta de 07:00 às 19:00.</div>
+			</div>
+			
+		
+			<div class="acabamento"></div>
+			<div class="palco">
+			
+				<div class="apoio">
+					<div class="instrucoes margin_bottom_20">
+						<div class="titulo">
+							<h1>EDUCAÇÃO<br />PARA O CONSUMO</h1>
+						</div>
+						<div class="instrucoes_conteudo">
+							<p class="margin_bottom_20">Saiba o que determina o Código de Defesa do Consumidor e aprenda a usar os seus direitos.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">ENTENDA MAIS</a></p>
+							<p class="margin_bottom_20">Veja como o PROCON orienta de maneira simples e clara o consumidor, antes de realizar as compras ou adquirir serviços.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">VER DICAS</a></p>
+							<p>Conhe&ccedil;a o C&oacute;digo de Defesa do Consumidor (Portugu&ecirc;s, English, Espa&ntilde;ol).<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">MAIS INFORMAÇÕES</a></p>
+						</div>
+						<div class="acabamento"></div>
+					</div>
+					<div class="banners">
+						
+					</div>
+				</div>
+				
+				<div class="conteudo hiddenInViewSource">
+						<div class="conteudo">
+			<h1 class="cor_setor_inicio">NOTÍCIAS</h1>
+		
+	<div class="secundaria">
+		<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual suspende bailes carnavalescos dos clubes Municipal e Santa Luzia </h1>
+			<div class="data">22.01.2016 - 19:47</div>
+                                
+                        
+                               
+                        
+                        
+                                					<div class="imagem margin_right_20 margin_bottom_20" >
+						<div class="moldura"></div>
+						
+						<img id="foto" height="187.750791975" border="0" width="280" title="" alt="site_1453499227.93.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/site_1453499227.93.jpg" />						
+					</div>
+								
+				<br />
+	O Procon Estadual, ligado &agrave; SecretariadeEstadodeProte&ccedil;&atilde;o e Defesa do Consumidor, realizou uma nova Opera&ccedil;&atilde;o visando o Carnaval 2016 nesta sexta-feira (22/01). A Opera&ccedil;&atilde;o Esquentando os Tamborins fiscalizou clubes que realizar&atilde;o Bailes de Carnaval. Os fiscais vistoriaram estabelecimentos na cidade do Rio, em Niter&oacute;i e em S&atilde;o Gon&ccedil;alo. O baile carnavalesco do Clube Municipal que aconteceria neste s&aacute;bado (23/01) foi suspenso.<br />
+<br />
+	O Clube Santa Luzia, no Centro do Rio, al&eacute;m de ter suspenso o baile inicialmente marcado tamb&eacute;m para este s&aacute;bado (23/01), foi interditado. Outros tr&ecirc;s locais foram autuados:Ribalta (Avenida das Am&eacute;ricas, 9.650 &ndash; Barra da Tijuca),Espa&ccedil;o Don (Estrada dos Bandeirantes, 23.641 - Vargem Grande) e Vitrinni (Avenida Armando Lombardi, 421, Barra da Tijuca). Em dez dos locais vistoriados, os fiscais deram um prazo de at&eacute; 72 horasdos bailes carnavalescos para apresentara documenta&ccedil;&atilde;o necess&aacute;ria para realizar os eventos de carnaval. Ao todo, 16 locais foram fiscalizados e apenas dois n&atilde;o apresentaram problemas: oVivo Rio (Avenida Infante Dom Henrique, 85, Parque do Flamengo) e o Sacadura 154 (Rua Sacadura Cabral, 154, Centro).<br />
+<br />
+	O Clube Santa Luzia, onde estava programada para este s&aacute;bado a festa de pr&eacute;-Carnaval Sapucapeta e Samba do Xox&oacute;, foi interditado. O estabelecimento, localizado na Avenida Almirante S&iacute;lvio de Noronha, no Centro, n&atilde;o apresentou alvar&aacute; de funcionamento, certificado do Corpo de Bombeiros, certificado de autoriza&ccedil;&atilde;o para o evento a ser realizado nesta sexta-feira e ainda n&atilde;o contava com exemplar do Livro de Reclama&ccedil;&otilde;es. At&eacute; a apresenta&ccedil;&atilde;o dos documentos, o local n&atilde;o poder&aacute; realizar eventos. O Clube Municipal, que fica na Rua Haddock Lobo, 359, na Tijuca, teve suspenso o evento programado para este s&aacute;bado (23/01), pois ele n&atilde;o tinha a autoriza&ccedil;&atilde;o do Corpo de Bombeiros para ser realizado.<br />
+<br />
+	Em Niter&oacute;i, o Clube Naval, localizado na Avenida Carlos Ermelindo Marins, 70, Jurujuba, foi um dos clubes que n&atilde;o tinham o certificado do Corpo de Bombeiros e que devem apresent&aacute;-lo ao Procon Estadual em at&eacute; 72 horas antes das datas de seus bailes carnavalescos programados. Al&eacute;m deste, outros sete clubes tamb&eacute;m n&atilde;o tinham o certificado e receberam o mesmo prazo para apresent&aacute;-lo &agrave; autarquia. S&atilde;o eles: Clube dos Cai&ccedil;aras (Avenida Epit&aacute;cio Pessoa, s/n&ordm; &ndash; Lagoa); Fabrika (Estrada Das Furnas, 1.805 - Alto Da Boa Vista); Marun (Rua do Catete, 124); Armaz&eacute;m Utopia (Cais do Porto, 6 - Centro); Clube Naval (Avenida Carlos Ermelindo Marins, 70 &ndash; Niter&oacute;i); Itacoatiara Pampo Clube (Avenida Beira-Mar, 205, Itacoatiara, Niter&oacute;i) e Leffie (Rua da Carioca, 62 - Centro).<br />
+<br />
+	<strong>Balan&ccedil;o da Opera&ccedil;&atilde;o Esquentando os Tamborins: </strong><br />
+<br />
+	1 &ndash; Ribalta (Avenida das Am&eacute;ricas, 9.650 &ndash; Barra da Tijuca): Aus&ecirc;ncia do Livro de Reclama&ccedil;&otilde;es. Aus&ecirc;ncia da autoriza&ccedil;&atilde;odo Corpo de Bombeiros. Prazo de 72 horas antecedentes ao evento para apresenta&ccedil;&atilde;o.<br />
+<br />
+	2 - Clube Municipal da Tijuca (Rua Haddock Lobo, 359 &ndash; Tijuca): Suspenso o evento deste s&aacute;bado at&eacute; a obten&ccedil;&atilde;o de autoriza&ccedil;&atilde;o do Corpo de Bombeiros, sob pena, em caso de descumprimento, de incorrer no crime de desobedi&ecirc;ncia do Artigo 330 do C&oacute;digo Penal. Foi emitido um auto de constata&ccedil;&atilde;o.<br />
+<br />
+	3 - Scala (Avenida 13 de Maio, 23 - Centro): Estabelecimento fechado para obras e, quando solicitado o alvar&aacute; de funcionamento e o certificado do Corpo de Bombeiros, os documentos n&atilde;o foram apresentados. Os fiscais deram um prazo de 48 horas para apresenta&ccedil;&atilde;o junto ao Procon-RJ, tendo em vista a informa&ccedil;&atilde;o de que os documentos existem. Como o local estava fechado, foi emitido um auto de constata&ccedil;&atilde;o.<br />
+<br />
+	4 - Clube Santa Luzia (Avenida Almirante S&iacute;lvio De Noronha, 300 - Centro): Aus&ecirc;ncia de alvar&aacute; de funcionamento, certificado do Corpo de Bombeiros, certificado de autoriza&ccedil;&atilde;o para evento a ser realizado nesta sexta-feira e aus&ecirc;ncia de Livro de Reclama&ccedil;&otilde;es. Interditado at&eacute; apresenta&ccedil;&atilde;o dos documentos.<br />
+<br />
+	5 - Espa&ccedil;o Don (Estrada dos Bandeirantes, 23.641 - Vargem Grande): Reclama&ccedil;&atilde;o registrada no Livro de Reclama&ccedil;&otilde;es n&atilde;o enviada no prazo legal. Prazo de 72 horas antes do evento para apresentar certificado de registro v&aacute;lido ou autoriza&ccedil;&atilde;o do Corpo de Bombeiros sob pena de impedimento da realiza&ccedil;&atilde;o.<br />
+<br />
+	6 - Vitrinni (Avenida Armando Lombardi, 421, Barra da Tijuca): Aus&ecirc;ncia do certificado de aprova&ccedil;&atilde;o do Corpo de Bombeiros. Os fiscais deram um prazo de 48 horas para a apresenta&ccedil;&atilde;o, sob pena de interdi&ccedil;&atilde;o.At&eacute; 72 horas antes do evento de carnaval, os respons&aacute;veis pela boate devem apresentar o certificado de registro ou a autoriza&ccedil;&atilde;o do Departamento de Divers&otilde;es P&uacute;blicas (DDP) do Corpo de Bombeiros.<br />
+		 	
+			
+		</div>
+            <div class="noticia margin_bottom_30">
+                                
+            </div>
+             
+            
+	</div>
+
+	<div class="acoes">
+		<div class="botao voltar">
+			<a href="<div style="border:1px solid #990000;padding-left:20px;margin:0 0 10px 0;">
+
+<h4>A PHP Error was encountered</h4>
+
+<p>Severity: Notice</p>
+<p>Message:  Undefined index: HTTP_REFERER</p>
+<p>Filename: publicacao/detalhe.php</p>
+<p>Line Number: 44</p>
+
+</div>">
+				<img src="http://www.procon.rj.gov.br/procon/assets/imagens//icone_voltar.png" width="15" height="13" border="0">VOLTAR
+			</a>
+		</div>
+	</div>
+</div>
+		
+				
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="base">
+			<div class="proderj">Tecnologia PRODERJ - Todos os direitos reservados</div>
+			<div class="direitos">
+            	<div class="logotipo"><a href="#">Saiba Mais sobre Creative Commons</a></div>
+                <div class="texto">Esta obra é licenciada sob uma licença Creative Commons Atribuio 2.0 Brasil</div>
+			</div>
+			<div class="acabamento">
+			</div>
+		</div>
+		
+	</div>
+	
+
+	
+	
+
+ 
+
+
+</body>
+</html>
+
+
+
+
+

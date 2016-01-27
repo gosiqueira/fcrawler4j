@@ -1,0 +1,410 @@
+title=PROCON
+url=http://www.procon.rj.gov.br/index.php/publicacao/listar/1/1
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>PROCON</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://www.procon.rj.gov.br/procon/assets/css/style_site.css" />
+
+	<script type="text/javascript">	
+		var site_url = "http://www.procon.rj.gov.br/index.php/";
+		var base_url = "http://www.procon.rj.gov.br/";
+		var js_url	 = "http://www.procon.rj.gov.br/procon/assets/js/";
+		var img_url  = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var css_url  = "http://www.procon.rj.gov.br/procon/assets/css/";
+		var url_img = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var url_css = "http://www.procon.rj.gov.br/procon/assets/css/";
+	</script>
+	
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.ui.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/menu.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/acessibilidade.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/plugins/mi.js"></script>
+
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/scripts/site/banners.js"></script>
+
+      <script>
+         function confirmDelete(delUrl) {
+	     
+            msg = "Você está sendo redirecionado para fora do PROCON, deseja continuar?";
+            if (confirm(msg)) {
+               document.location = delUrl;
+            }
+        }
+		
+		           
+        </script>
+
+	
+</head>
+<body>
+<noscript></noscript>
+
+	<div class="governo">
+		<div class="conteudo">
+			<a target="_blank" href="http://www.rj.gov.br/web/guest">
+				<div class="logotipo">Governo do Estado do Rio de Janeiro</div>
+			</a>
+			<div class="secretaria">SECRETARIA DE ESTADO DE PROTEÇÃO DE DEFESA DO CONSUMIDOR</div>
+			<!--<div class="topo_menu">
+				<ul>
+					<li>
+						<a href="http://www.rj.gov.br/web/informacaopublica/">INFORMAÇÃO PÚBLICA</a>
+					</li>
+				</ul>
+			</div>-->
+			
+			<div class="acessibilidade">
+				<ul>
+					<li class="aumentar_fonte divisao"><a href="#" rel="nofollow">Aumentar fonte do texto</a></li>
+					<li class="diminuir_fonte divisao"><a href="#" rel="nofollow">Diminuir fonte do texto</a></li>
+					<li class="normalizar_fonte divisao"><a href="#" rel="nofollow">Voltar para tamanho original da fonte do texto</a></li>
+					<li class="altocontraste_fonte"><a href="#" rel="nofollow">Ativar Alto contraste</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class="geral">
+		
+		<div class="menu fundo_inicio">
+			<a href="http://www.procon.rj.gov.br/index.php"><div class="logotipo">Procon RJ</div></a>
+			<div class="conteudo">
+            	<div class="titulo">MENU</div>
+				<ul>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao">INÍCIO</a></li>
+					<li class="selecionado corfundo_setor_inicio"><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/1">NOTÍCIAS</a></li>
+					<li ><a href="#">INSTITUCIONAL</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/historico">histórico</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/objetivo">objetivo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/estrutura">estrutura</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/telefones">telefones</a></li>
+						</ul>
+					</li>
+					<li ><a href="javascript:;">CONSUMIDOR</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">dicas ao consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">educação para o consumo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/1">recall</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">código de defesa do consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/6/1">cartilhas e folders</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">LEGISLAÇÃO</a>
+					    <ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/1/1">Leis Federais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/2/1">Leis Estaduais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/3/1">Leis Municipais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/4/1">Portarias Procon</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/5/1">Outras</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">IMPRENSA</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/fato_foto">fatos e fotos</a></li>
+							<!--<li><a href="http://www.procon.rj.gov.br/index.php/informativo">informativo</a></li>-->
+							<li><a href="http://www.procon.rj.gov.br/index.php/clipping">clipping</a></li>
+                            <li><a href="http://www.procon.rj.gov.br/index.php/main/contato">contato</a></li>
+							<li><a href="javascript:proconNaMidia();">v&iacute;deos</a></li>
+						</ul>
+					</li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/link_util">LINKS</a></li>
+					<li ><a href="#">ATENDIMENTO</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/posto_atendimento">postos de atendimento</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/agenda_procon_movel">agenda procon móvel</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/expressinho">procon expressinho</a></li>
+                           				<li><a href="http://www.procon.rj.gov.br/index.php/main/disque151">disque procon 151</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/ouvidoria">ouvidoria</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div>
+                     <div class="redesSociais">
+			     <a href="javascript:confirmDelete('http://www.facebook.com/ProconRJ')"><div class="redesSociaisFacebook">.</div></a>
+     			     <a href="javascript:confirmDelete('https://twitter.com/ProconRJ')"><div class="redessociais_twitter">.</div></a>
+                     </div>
+		</div>
+		
+		<div class="principal">
+		
+	<div class="suporte">
+				<div class="busca">	
+						
+					<div class="superior"></div>
+					<div class="conteudo">
+						<label for="txtBusca" style="display:none;"></label>
+						<input maxlength="100" name="txtBusca" id="txtBusca" type="text" value="Buscar..."/>
+						<div class="botao">
+							<a id="btnBuscar" href="javascript:;">
+								<img src="http://www.procon.rj.gov.br/procon/assets/imagens/icone_detalhar.png" alt="Buscar" title="Buscar" width="19" height="19" border="0"/>Buscar
+							</a>
+						</div>
+					</div>	
+							
+					<div class="inferior"></div>
+				</div>
+					
+				<div class="texto">Para DENÚNCIAS e ORIENTAÇÕES ligue para 151 e o horário de funcionamento é de segunda à sexta de 07:00 às 19:00.</div>
+			</div>
+			
+		
+			<div class="acabamento"></div>
+			<div class="palco">
+			
+				<div class="apoio">
+					<div class="instrucoes margin_bottom_20">
+						<div class="titulo">
+							<h1>EDUCAÇÃO<br />PARA O CONSUMO</h1>
+						</div>
+						<div class="instrucoes_conteudo">
+							<p class="margin_bottom_20">Saiba o que determina o Código de Defesa do Consumidor e aprenda a usar os seus direitos.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">ENTENDA MAIS</a></p>
+							<p class="margin_bottom_20">Veja como o PROCON orienta de maneira simples e clara o consumidor, antes de realizar as compras ou adquirir serviços.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">VER DICAS</a></p>
+							<p>Conhe&ccedil;a o C&oacute;digo de Defesa do Consumidor (Portugu&ecirc;s, English, Espa&ntilde;ol).<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">MAIS INFORMAÇÕES</a></p>
+						</div>
+						<div class="acabamento"></div>
+					</div>
+					<div class="banners">
+						
+					</div>
+				</div>
+				
+				<div class="conteudo hiddenInViewSource">
+						<input type="hidden" value="" id="linkAnterior"/>
+<input type="hidden" value="1" id="temPublicacoes"/>
+<input type="hidden" value="1" id="tipos"/>
+<div class="conteudo">
+	
+			<h1 class="cor_setor_inicio">NOTÍCIAS</h1>
+		
+		<div class="secundaria">
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual interdita restaurante em Copacabana</h1>
+
+			<div class="data">25.01.2016 - 18:06</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="157.145612343" border="0" width="280" title="" alt="IMG_20160125_123234458_HDRedt_1453752399.79.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/IMG_20160125_123234458_HDRedt_1453752399.79.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Ao todo 14 restaurantres foram autuados. A Cantina Sanremese foi interditada por n&atilde;o apresentar documenta&ccedil;&atilde;o b&aacute;sica e possuir 25 litros de chope vencidos</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2343">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual entra com a&ccedil;&atilde;o para bancos devolverem dinheiro pago em boletos fraudados</h1>
+
+			<div class="data">25.01.2016 - 16:39</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="150" border="0" width="339.953271028" title="" alt="boletobancarioedt_1453747298.51.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/boletobancarioedt_1453747298.51.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Em fraudes comprovadas, as institui&ccedil;&otilde;es ter&atilde;o at&eacute; 24 horas para restituir o consumidor</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2342">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual suspende bailes carnavalescos dos clubes Municipal e Santa Luzia </h1>
+
+			<div class="data">22.01.2016 - 19:47</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="187.750791975" border="0" width="280" title="" alt="site_1453499227.93.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/site_1453499227.93.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Eventos ocorreriam neste s&aacute;bado (23/01). Clube Santa Luzia, no Centro do Rio, foi interditado por n&atilde;o ter alvar&aacute; de funcionamento </p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2341">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual interdita duas lojas no Bossa Nova Mall e autua sete no Mercad&atilde;o de Madureira</h1>
+
+			<div class="data">19.01.2016 - 17:34</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="157.5" border="0" width="280" title="" alt="WP_20160119_11_52_52_Pro_1453232072.99.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/WP_20160119_11_52_52_Pro_1453232072.99.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Apenas dois estabelecimentos do Bossa Nova Mall, no aeroporto Santos Dumont, n&atilde;o foram autuadas</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2340">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual fiscaliza t&aacute;xis no Aeroporto Santos Dumont e na Rodovi&aacute;ria</h1>
+
+			<div class="data">18.01.2016 - 18:09</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="150" border="0" width="375.284090909" title="" alt="20160118_142148EDT_1453147754.56.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/20160118_142148EDT_1453147754.56.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Taxista foi autuado por recusar corrida at&eacute; a Pra&ccedil;a Mau&aacute;</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2339">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual n&atilde;o encontra em locadoras ve&iacute;culos adaptados para pessoas com necessidades especiais</h1>
+
+			<div class="data">15.01.2016 - 16:44</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="150" border="0" width="289.189189189" title="" alt="20160115_115025edt_1452883459.89.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/20160115_115025edt_1452883459.89.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">As 12 locadoras de autom&oacute;veis fiscalizadas no Rio e em Caxias n&atilde;o cumprem as leis Estadual e Federal e s&atilde;o autuadas</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2338">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Posto do Procon Estadual em Bangu volta a funcionar nesta sexta-feira</h1>
+
+			<div class="data">15.01.2016 - 09:25</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="156.916666667" border="0" width="280" title="" alt="Poupa_Tempo_-_Bangu_a_1452857087.57.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/Poupa_Tempo_-_Bangu_a_1452857087.57.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">A unidade do Rio Poupa Tempo do Bangu Shopping, onde o posto funciona, havia sido fechada na quinta-feira (14/01) por problemas causados pela chuva</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2337">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual fiscalizou camel&oacute;dromo da Uruguaiana nesta quinta-feira</h1>
+
+			<div class="data">14.01.2016 - 17:17</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="157.552998183" border="0" width="280" title="" alt="20160114_101004edt_1452799040.98.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/20160114_101004edt_1452799040.98.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">A&ccedil;&atilde;o ocorreu em apoio &agrave; Secretaria Municipal de Ordem P&uacute;blica</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2336">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Posto do Procon Estadual em Bangu est&aacute; fechado</h1>
+
+			<div class="data">14.01.2016 - 10:09</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="156.916666667" border="0" width="280" title="" alt="Poupa_Tempo_-_Bangu_a_1452774248.12.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/Poupa_Tempo_-_Bangu_a_1452774248.12.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Chuva interdita o Rio Poupa Tempo do Bangu Shopping</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2334">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Procon Estadual autua Shopping Tijuca por queda de teto</h1>
+
+			<div class="data">13.01.2016 - 18:25</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="150" border="0" width="317.016806723" title="" alt="Shopping_Tijuca_1452716729.05.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/Shopping_Tijuca_1452716729.05.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Acidente foi causado por problema em um cano</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2333">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				</div>
+	
+	 		 <div class="paginacao">
+			 <ul><li class="nolink"><<</li><li class="nolink"><</li><li class="nolink selecionado">1</li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/2">2</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/3">3</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/4">4</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/5">5</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/2">></a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/117">>></a></li></ul>		</div>	
+ 		</div>
+
+	</div>
+
+		
+				
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="base">
+			<div class="proderj">Tecnologia PRODERJ - Todos os direitos reservados</div>
+			<div class="direitos">
+            	<div class="logotipo"><a href="#">Saiba Mais sobre Creative Commons</a></div>
+                <div class="texto">Esta obra é licenciada sob uma licença Creative Commons Atribuio 2.0 Brasil</div>
+			</div>
+			<div class="acabamento">
+			</div>
+		</div>
+		
+	</div>
+	
+
+	
+	
+
+ 
+
+
+</body>
+</html>
+
+
+
+
+

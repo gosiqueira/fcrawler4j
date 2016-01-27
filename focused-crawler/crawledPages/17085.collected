@@ -1,0 +1,641 @@
+title=Főtaxi.hu - Üdvözöljük!
+url=http://www.fotaxi.hu/
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>Főtaxi.hu - Üdvözöljük!</title>
+        <link rel="shortcut icon" type="image/x-icon" href="http://www.fotaxi.hu/favicon.ico" />
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <link type="text/css" rel="stylesheet" href="http://www.fotaxi.hu/Layout/Default/Style.css?1" />
+        <link type="text/css" rel="stylesheet" href="http://www.fotaxi.hu/Layout/Default/Style-global.css" />
+        <link type="text/css" rel="stylesheet" href="http://www.fotaxi.hu/Layout/Default/jquery.fancybox-1.3.4.css" />
+        <scrip src="https://ajax.googleapis.com/ajax/libs/prototype/1.7.1.0/prototype.js" type="text/javascript"></scrip>
+        <script src="http://www.fotaxi.hu/Layout/Default/jquery.min.js" type="text/javascript"></script>
+        <script src="http://www.fotaxi.hu/Layout/Default/jquery.fancybox-1.3.4.pack.js" type="text/javascript"></script>
+        <script src="http://www.fotaxi.hu/Layout/Default/Core.js" type="text/javascript"></script>
+
+        <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyBxNyXNNwtEyPxRJmgvVcBNkNf2ZXrQpyo&sensor=false&libraries=places"></script>
+                <script type="text/javascript">
+            $(document).ready(function () {
+                $(".facebook").mouseenter(function () {
+                    if ($(this).css("left") >= $(window).width() + "px") {
+                        $(".facebook").animate(
+                                {"left": "-=300px"}, {queue: false, duration: 100}
+                        , 500);
+                    }
+                }).mouseleave(function () {
+                    if ($(this).css("left") <= $(window).width() - 300 + "px") {
+                        $(".facebook").animate(
+                                {"left": "+=300px"}, {queue: false, duration: 100}
+                        , 500);
+
+                    }
+                });
+            });
+        </script>
+        <script type="text/javascript">
+
+            function google() {
+                if (confirm("Üdvözöljük!" + "\n" + "Töltse le egyetlen gombnyomással taxirendelő applikációnkat!") == true) {
+                    window.open('https://play.google.com/store/apps/details?id=com.nerddevelopments.taxidriver.orderapp&hl=hu', '_blank');
+                }
+            }
+            function apple() {
+                if (confirm("Üdvözöljük!" + "\n" + "Töltse le egyetlen gombnyomással taxirendelő applikációnkat!") == true) {
+                    window.open('https://itunes.apple.com/hu/app/fotaxi-budapest/id794447291?mt=8', '_blank');
+                }
+            }
+        </script>
+        <script type="text/javascript">
+            $(document).ready(function () {
+                var time = Math.floor(new Date().getTime() / 1000);
+                var hour = 60 * 60;
+                var day = 24 * hour;
+                var month = 30 * day;
+                var expMonth = 3 * month;
+                var expTime = time + expMonth;
+                var expDate = new Date(expTime * 1000);
+                doPopup();
+                $("#accept-cookie").click(function () {
+                    document.cookie = "fotaxi-cookie-accepted=1; expires=" + expDate.toString();
+                    $("#cookie-popup").hide();
+                })
+
+                function checkAccepted() {
+                    var cookies = document.cookie;
+                    var cookiesArray = cookies.split(';');
+                    var accepted = false;
+                    for (var i = 0; i < cookiesArray.length; i++) {
+                        var trimmed = cookiesArray[i].trim();
+                        var cookieKeyPairs = trimmed.split("=");
+
+                        if (cookieKeyPairs[0] == "fotaxi-cookie-accepted" && cookieKeyPairs[1] == 1) {
+                            accepted = true;
+                            break;
+                        }
+                    }
+                    return accepted;
+                }
+                function doPopup() {
+                    if (!checkAccepted()) {
+                        $("#cookie-popup").show();
+                    }
+                }
+            })
+        </script>
+        <style type="text/css">
+            #cookie-popup{
+                background-color: rgba(0, 0, 0, 0.5);
+                height: 100%;
+                position: fixed;
+                width: 100%;
+                z-index: 9999;
+            }
+            #cookie-container{
+                background-color: white;
+                border-radius: 10px;
+                left: 35%;
+                margin-left: auto;
+                margin-right: auto;
+                position: absolute;
+                top: 30%;
+                width: 30%;
+                z-index: 9999;
+            }
+            #context{
+                padding-bottom: 15px;
+                padding-left: 10px;
+                padding-top: 15px;
+                width: 100%;
+            }
+            #context p{
+                font-size: 18px;
+                font-weight: bold;
+            }
+            #accept-cookie{
+                background-color: red;
+                border-radius: 5px;
+                color: white;
+                font-size: 18px;
+                font-weight: bold;
+                left: 40%;
+                padding: 5px;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="cookie-popup" style="display: none">
+            <div id="cookie-container">
+                <div id="context">
+                    <p>Az oldalon történő látogatása során cookie-kat (“sütiket”) használunk. Ezen fájlok információkat szolgáltatnak számunkra a felhasználó oldallátogatási szokásairól, de nem tárolnak személyes információkat. Az oldalon történő továbblépéssel elfogadja a cookie-k használatát.</p>
+                    <a href="#" id="accept-cookie">Elfogadom</a>
+                </div>
+            </div>
+        </div>
+        <div id="fb-root"></div>
+        <script>(function (d, s, id) {
+                        var js, fjs = d.getElementsByTagName(s)[0];
+                        if (d.getElementById(id))
+                            return;
+                        js = d.createElement(s);
+                        js.id = id;
+                        js.src = "//connect.facebook.net/hu_HU/sdk.js#xfbml=1&appId=127010554024802&version=v2.0";
+                        fjs.parentNode.insertBefore(js, fjs);
+                    }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="facebook">
+            <div class="fb-label" id="fb-anim-trigger"><p>Facebook</p></div>
+            <div class="fb-like-box" id="likebox" data-href="https://www.facebook.com/fotaxi?fref=ts" data-width="300" data-height="600" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="true" data-show-border="true"></div>
+        </div>
+        <div id="container">
+
+            <div id="header">
+
+                <div style="height: 130px; padding-top: 10px; background: url('http://www.fotaxi.hu/Layout/Default/Images/header.png');">
+                    <div id="lang">
+                     <a style="padding:0px;" href="http://www.fotaxi.hu/?Language=hu"><img src="http://www.fotaxi.hu/Layout/Default/Images/Flags/hu.png" alt="Magyar" /></a><a style="padding:0px;" href="http://www.fotaxi.hu/?Language=de"><img src="http://www.fotaxi.hu/Layout/Default/Images/Flags/de.png" alt="német" /></a><a style="padding:0px;" href="http://www.fotaxi.hu/?Language=en"><img src="http://www.fotaxi.hu/Layout/Default/Images/Flags/en.png" alt="Angol" /></a>                    </div>
+                    <a href="http://www.fotaxi.hu/" style="display: block; width: 120px; height: 100px;">&nbsp;</a>
+                </div>
+                <div style="padding: 10px 15px; line-height: 28px; padding-right: 15px;">
+                    
+                    <form action="#" method="get" onsubmit="document.location = 'http://www.fotaxi.hu/Search/' + this.getElementsByTagName('input')[1].value;
+                            return false;">
+                        <input type="submit" value="Keresőszó" style="float: right;" />
+                        <input placeholder="Keresés" style="float: right;" />
+                    </form>
+
+                    <div style="float: right; margin-right: 15px;">
+                        <a href="https://play.google.com/store/apps/details?id=com.nerddevelopments.taxidriver.orderapp&hl=hu" target="_blank"><img style="width: auto; height: 24px;" src="http://www.fotaxi.hu/Layout/Default/Images/google_play.png"></a>
+                        <a href="https://itunes.apple.com/hu/app/fotaxi-budapest/id794447291?mt=8" target="_blank"><img style="height: 24px; width: auto" src="http://www.fotaxi.hu/Layout/Default/Images/app_store.png"></a>
+                        <a href="https://www.microsoft.com/hu-hu/store/apps/f%C5%91taxi-taxi-rendel%C5%91/9nblgggz5zmm"><img style="height: 24px; width: auto;" src="http://www.fotaxi.hu/Layout/Default/Images/windows-phone-logo.jpg" /></a>
+
+                        
+
+                        <script type="text/javascript">
+                            window.___gcfg = {lang: 'hu'};
+
+                            (function () {
+                                var po = document.createElement('script');
+                                po.type = 'text/javascript';
+                                po.async = true;
+                                po.src = 'https://apis.google.com/js/plusone.js';
+                                var s = document.getElementsByTagName('script')[0];
+                                s.parentNode.insertBefore(po, s);
+                            })();
+                        </script>
+                                            </div>
+
+                    <a href="http://fotaxi.hu/">Főoldal</a><a href="http://fotaxi.hu/List/82/hirek">Hírek</a><a href="http://fotaxi.hu/Complaints.php">Panaszkezelés</a>                </div>
+
+            </div>
+
+            <div id="slider">
+                <ul id="sliderUl">
+                                            <li>
+                            <a href="">
+                                                                <img src="Images/4/fotaxi_windows-phone.png" alt="" />
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="">
+                                                                <img src="Images/4/fotaxi_taximagazin_januar_slide.png" alt="" />
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="">
+                                                                <img src="Images/4/fotaxi_altalanos_slide_22.png" alt="" />
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="">
+                                                                <img src="Images/4/fotaxi_szuperhos_slide.png" alt="" />
+                            </a>
+                        </li>
+                                            <li>
+                            <a href="">
+                                                                <img src="Images/4/fotaxi_altalanos_slide_11.png" alt="" />
+                            </a>
+                        </li>
+                                    </ul>
+                <div id="positionUl">
+                                            <span onclick="slideHere(0);"><div></div></span>
+                                                <span onclick="slideHere(1);"><div></div></span>
+                                                <span onclick="slideHere(2);"><div></div></span>
+                                                <span onclick="slideHere(3);"><div></div></span>
+                                                <span onclick="slideHere(4);"><div></div></span>
+                                        </div>
+            </div>
+            <script type="text/javascript">
+                var sliderLi = $("#sliderUl li");
+                var positionLi = $("#positionUl span");
+                sliderLi.eq(0).show();
+                positionLi.eq(0).find("div").show();
+            </script>
+
+            <div id="main-menu">
+                <div class="spacer"></div><span><a href="javascript:void(0);">Rólunk</a><ul><li><a href="http://www.fotaxi.hu/Read/124/Cégtörténet">Cégtörténet</a></li><li><a href="http://www.fotaxi.hu/Read/125/Minőségbiztosítás">Minőségbiztosítás</a></li><li><a href="http://www.fotaxi.hu/Read/126/Autópark">Autópark</a></li><li><a href="http://www.fotaxi.hu/Read/127/Diszpécserközpont">Diszpécserközpont</a></li></ul></span><div class="spacer"></div><span><a href="javascript:void(0);">Szolgáltatások</a><ul><li><a href="http://www.fotaxi.hu/Read/134/Főtaxi reklám">Főtaxi reklám</a></li></ul></span><div class="spacer"></div><span><a href="javascript:void(0);">Partnerprogram</a><ul><li><a href="http://www.fotaxi.hu/Read/272/Prepaid kártya">Prepaid kártya</a></li><li><a href="http://www.fotaxi.hu/Read/300/Postpaid kártya">Postpaid kártya</a></li><li><a href="http://www.fotaxi.hu/Read/209/VIP program">VIP program</a></li><li><a href="http://www.fotaxi.hu/Read/222/Partnereink">Partnereink</a></li></ul></span><div class="spacer"></div><span><a href="javascript:void(0);">Árak</a><ul><li><a href="http://www.fotaxi.hu/Read/142/Tarifatábla">Tarifatábla</a></li><li><a href="http://www.fotaxi.hu/Read/141/Repülőtér">Repülőtér</a></li></ul></span><div class="spacer"></div><span><a href="http://fotaxi.hu/Rendeles#main-menu">Taxirendelés</a><ul><li><a href="http://www.fotaxi.hu/Read/274/Főtaxi Taxirendelő Applikáció">Főtaxi Taxirendelő Applikáció</a></li></ul></span><div class="spacer"></div><span><a href="/Read/146/Elerhetesogek#main-menu">Elérhetőségek</a></span><div class="spacer"></div><span><a href="/Read/143">Munkalehetőség</a><ul><li><a href="http://www.fotaxi.hu/Read/143/Taxis felvétel">Taxis felvétel</a></li><li><a href="http://www.fotaxi.hu/Read/228/Telefonos operátor">Telefonos operátor</a></li></ul></span><div class="spacer"></div><span><a href="javascript:void(0);"> Játék</a><ul><li><a href="http://www.fotaxi.hu/Read/340/Aktuális nyereményjáték">Aktuális nyereményjáték</a></li><li><a href="http://www.fotaxi.hu/Read/339/Archívum">Archívum</a></li></ul></span>                <script type="text/javascript">
+                    var w = 0;
+                    var wResult = document.getElementById('main-menu').offsetWidth;
+                    var tagS = document.getElementById('main-menu').getElementsByTagName('span');
+                    for (var i = 0; i < tagS.length; i++)
+                    {
+                        w += tagS[i].offsetWidth + 1;
+                    }
+                    wResult = Math.round((wResult - w) / tagS.length - 1);
+                    for (var i = 0; i < tagS.length; i++)
+                    {
+                        tagS[i].style.width = tagS[i].offsetWidth + wResult + 'px';
+                    }
+
+                    $(document).ready(function () {
+                        if (document.location != 'http://www.fotaxi.hu/')
+                        {
+                            document.location = '#main-menu';
+                        }
+                    });
+                </script>
+            </div>
+
+            <div id="secund-menu">
+                <table class="nopadding nospacing" style="width: 100%;">
+                    <tr>
+                        <td><a href="/Rendeles">On-line taxirendelés</a></td><td><a href="/Kalkulator">Tarifa kalkulátor</a></td><td><a href="/Read/274/F%C5%91taxi%20taxirendel%C5%91%20applik%C3%A1ci%C3%B3#main-menu%C3%A1ci%C3%B3#main-menu">Taxirendelő applikáció </a></td>                    </tr>
+                </table>
+            </div><div>
+
+
+<div id="right-panel" style="width: 300px;">
+    <div>
+        <div id="right-panel-scrollable" style="padding-top: 29px;">
+            <table class="nopadding nospacing news">
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>.</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/tel_h_pos_3d_4cp_200mm.jpg" alt="" />                            </div>
+                            Kommunik&aacute;ci&oacute;s partner&uuml;nk a Telenor.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/286/." style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Macskajáték???</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/aaaaa_WPzwMwh58g.jpg" alt="" />                            </div>
+                            A FŐTAXI applik&aacute;ci&oacute; pofonegyszerű. Győződj&ouml;n meg r&oacute;la &Ouml;n is!                            <br />
+                            <a href="http://www.fotaxi.hu/Read/355/Macskajáték???" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>A TV2 a FŐTAXI Székházban!</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/20151210_080809.jpg" alt="" />                            </div>
+                            K&aacute;r&aacute;sz Robi &eacute;lőben tesztelte, hogy műk&ouml;dik a taxisok sz&aacute;m&aacute;ra kifejlesztett p&aacute;nikgomb.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/352/A TV2 a FŐTAXI Székházban!" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Elekromos autó történelem</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/n3.jpg" alt="" />                            </div>
+                            &Uacute;t a Nissan Leaf-ig...Magyar fejleszt&eacute;sek, csod&aacute;s tal&aacute;lm&aacute;nyok a hőskorban.                             <br />
+                            <a href="http://www.fotaxi.hu/Read/351/Elekromos autó történelem" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>A Nissan Leaf akkumulátorról</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/nis.jpg" alt="" />                            </div>
+                            Milyen gyorsan t&ouml;ltődik az akkumul&aacute;tor? Mennyi r&aacute; a garancia?                            <br />
+                            <a href="http://www.fotaxi.hu/Read/350/A Nissan Leaf akkumulátorról" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Fogyasztás vs.kilométerek</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/20151117_131157.jpg" alt="" />                            </div>
+                            Igaz, hogy elektromos aut&oacute;kkal csak &aacute;tlagosan 150 km tehető meg egy t&ouml;lt&eacute;ssel?                            <br />
+                            <a href="http://www.fotaxi.hu/Read/348/Fogyasztás vs.kilométerek" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Gyorstöltő a FŐTAXI székházban</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/20151116_121846.jpg" alt="" />                            </div>
+                            2014 decembere &oacute;ta &uuml;zemel a Kerepesi &uacute;ton a Nissan LEAF gyorst&ouml;ltő.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/349/Gyorstöltő a FŐTAXI székházban" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Számoljunk utána...</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/20151116_121719.jpg" alt="" />                            </div>
+                            Szunom&aacute;r Tibor vez&eacute;rigazgat&oacute;: "A taxisok j&ouml;vőj&eacute;t meghat&aacute;rozza az elektromos aut&oacute;k k&ouml;lts&eacute;ge."                            <br />
+                            <a href="http://www.fotaxi.hu/Read/347/Számoljunk utána..." style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Villámtöltő kisokos</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/20151117_130743.jpg" alt="" />                            </div>
+                            Jelentős k&uuml;l&ouml;nbs&eacute;g van az elektromos t&ouml;ltők k&ouml;z&ouml;tt &eacute;s mi el&aacute;ruljuk, hogy mi az...                            <br />
+                            <a href="http://www.fotaxi.hu/Read/346/Villámtöltő kisokos" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Szunomár Tibor vezérigazgató:</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/elso.jpg" alt="" />                            </div>
+                            A Főtaxi &ndash; Nissan egy&uuml;ttműk&ouml;d&eacute;sről                            <br />
+                            <a href="http://www.fotaxi.hu/Read/345/Szunomár Tibor vezérigazgató:" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>NYEREMÉNYJÁTÉK</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/fotaxi-nezokep-07-hr.jpg" alt="" />                            </div>
+                            A Főtaxi &bdquo;Sz&oacute;rakoz&oacute;helyi drosztok nyerem&eacute;ny&rdquo; akci&oacute; nyertese&nbsp;Havasi Tam&aacute;s.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/344/NYEREMÉNYJÁTÉK" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Interjú Fehérvári Csabával </h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/11.jpg" alt="" />                            </div>
+                            A Historic Hobbycar koml&oacute;i győztes&eacute;vel k&eacute;sz&uuml;lt interj&uacute; a DuEn.hu-n.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/338/Interjú Fehérvári Csabával " style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXIS NAP: Rövidfilm sorozat</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/csucsu.jpg" alt="" />                            </div>
+                            A 2015-ben megrendezett Főtaxis nap leg&eacute;rdekesebb programjair&oacute;l r&ouml;vidfilm-sorozat k&eacute;sz&uuml;lt.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/326/FŐTAXIS NAP: Rövidfilm sorozat" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXIS NAP - VIDEÓ!</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/k1.jpg" alt="" />                            </div>
+                            Az id&eacute;n is vide&oacute; &ouml;sszefoglal&oacute;val kedvesked&uuml;nk azoknak a taxis koll&eacute;g&aacute;knak, akik&nbsp; r&eacute;szt vettek a FŐTAXI Csal&aacute;di Napon.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/325/FŐTAXIS NAP - VIDEÓ!" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXIS NAP rallys szemmel</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/duen_fotaxicsaladinap_032-749x415.jpg" alt="" />                            </div>
+                            Egy Csal&aacute;di nap az aut&oacute;z&aacute;s jegy&eacute;ben...                            <br />
+                            <a href="http://www.fotaxi.hu/Read/324/FŐTAXIS NAP rallys szemmel" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXIS NAP - FOTÓALBUM </h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/7.jpg" alt="" />                            </div>
+                            Szunom&aacute;r Tibor, a Főtaxi vez&eacute;rigazgat&oacute;ja jelk&eacute;pesen szuperhős elismer&eacute;sben r&eacute;szes&iacute;tette minden taxis&aacute;t a c&eacute;g ny&aacute;ri rendezv&eacute;ny&eacute;n.                             <br />
+                            <a href="http://www.fotaxi.hu/Read/323/FŐTAXIS NAP - FOTÓALBUM " style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXIS NAP - BESZÁMOLÓ</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/fotaxi2015-1778.jpg" alt="" />                            </div>
+                            J&uacute;nius 20-&aacute;n rendezt&uuml;k meg a Főtaxi csal&aacute;di napot az FTC N&eacute;pligeti Sporttelep&eacute;n.&nbsp;                             <br />
+                            <a href="http://www.fotaxi.hu/Read/322/FŐTAXIS NAP - BESZÁMOLÓ" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Fehérvári Csaba győzött!</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/sub.jpg" alt="" />                            </div>
+                            Csab&aacute;&eacute;k Sz&eacute;kesfeh&eacute;rv&aacute;ron, a Historic Kup&aacute;ban az első helyez&eacute;st &eacute;rt&eacute;k el!                            <br />
+                            <a href="http://www.fotaxi.hu/Read/321/Fehérvári Csaba győzött!" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXIS NAP: Együtt a Csapat</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/fotaxi_taxisokvilaga_1p1_csaladi-nap_v4.jpg" alt="" />                            </div>
+                            Minden FŐTAXIS munkat&aacute;rsra sz&aacute;m&iacute;tunk j&uacute;nius 20-&aacute;n A FŐTAXIS Csal&aacute;di Napon!                            <br />
+                            <a href="http://www.fotaxi.hu/Read/320/FŐTAXIS NAP: Együtt a Csapat" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Összefogással a gyermekekért</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/a2.jpg" alt="" />                            </div>
+                            A h&aacute;tr&aacute;nyos helyzetű gyerekek &eacute;s k&iacute;s&eacute;rőik sz&aacute;ll&iacute;t&aacute;s&aacute;t B&uuml;kf&uuml;rdőre, a Főtaxi a Luxury Limousine Service Kft-vel k&ouml;z&ouml;sen biztos&iacute;tja.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/319/Összefogással a gyermekekért" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Ajándék kávé a Főtaxisoknak!</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/fttt_ihcenX5Gd4.jpg" alt="" />                            </div>
+                            Minden Főtaxis koll&eacute;ga, aki az al&aacute;bbi &eacute;jjel &ndash; nappali boltok valamelyik&eacute;ben v&aacute;s&aacute;rol &eacute;s bemutatja a taxis igazolv&aacute;ny&aacute;t, aj&aacute;nd&eacute;k k&aacute;v&eacute;t kap.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/318/Ajándék kávé a Főtaxisoknak!" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>Videó a Miskolc Rally-ról</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/fcs2.jpg" alt="" />                            </div>
+                            Feh&eacute;rv&aacute;ri Csaba - Bencsik D&aacute;niel kettős kiv&aacute;l&oacute;an szerepelt a Miskolc Rallyn                            <br />
+                            <a href="http://www.fotaxi.hu/Read/317/Videó a Miskolc Rally-ról" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXI már Windows phone-on is</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/logo-windows-phone-8.png" alt="" />                            </div>
+                            M&aacute;t&oacute;l a FŐTAXI taxirendelő applik&aacute;ci&oacute; let&ouml;lthető windows oper&aacute;ci&oacute;s rendszerű k&eacute;sz&uuml;l&eacute;kekre!                            <br />
+                            <a href="http://www.fotaxi.hu/Read/316/FŐTAXI már Windows phone-on is" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>...nem csak a Föld napján....</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/fotaxi-ellenor-auto.jpg" alt="" />                            </div>
+                            Főtaxi elektromos ellenőri aut&oacute; a k&ouml;rnyezettudatoss&aacute;g jegy&eacute;ben!                            <br />
+                            <a href="http://www.fotaxi.hu/Read/315/...nem csak a Föld napján...." style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                                    <tr>
+                        <td style="padding-bottom: 24px;">
+                            <h2>FŐTAXI Családi Nap!</h2>
+                            <div style="width: 100px; height: 75px; margin-right: 7px; float: left;">
+                                <img src="Images/2/csaladi.jpg" alt="" />                            </div>
+                            Időpont: j&uacute;nius 20. (szombat) 9:00-16:00 k&ouml;z&ouml;tt.                            <br />
+                            <a href="http://www.fotaxi.hu/Read/314/FŐTAXI Családi Nap!" style="display: block; margin-left: 107px;">► bővebben</a>
+                            <div style="clear: both;"></div>
+                        </td>
+                    </tr>
+                            </table>
+        </div>
+
+        <div class="pager" style="text-align: left; margin-left: 30px;">
+            <a href="javascript:" onclick="$('#right-panel-scrollable').animate({scrollTop : '-=125'},500);">▲ előző</a> | 
+            <a href="javascript:void();" onclick="$('#right-panel-scrollable').animate({scrollTop : '+=125'},500);">következő ▼</a>
+        </div>
+    </div>
+</div>
+    <div class="content" style="width: 560px; margin-left: 27px; padding-top: 29px; min-height: 320px;">
+        <h2>Üdvözöljük! </h2>
+<p>A Főtaxi az 1913-ban alap&iacute;tott Aut&oacute;taxi Rt. jogut&oacute;dja, &iacute;gy t&ouml;bb mint 100 &eacute;ves hagyom&aacute;nyokkal rendelkezik.</p><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p><p><span style="color: #ee1c23;"><strong><span style="font-size: 18px;">Miben egyed&uuml;l&aacute;ll&oacute; a Főtaxi?</span></strong></span></p><ul><li><strong>T&ouml;bb mint 1000 aut&oacute;j&aacute;val</strong> a Főtaxi rendelkezik a legnagyobb flott&aacute;val Budapesten.</li></ul><ul><li>2010 &oacute;ta a Főtaxi a <strong>Liszt Ferenc Rep&uuml;lőt&eacute;r hivatalos szerződ&ouml;tt partnere.</strong></li></ul><ul><li>2013-ban a Főtaxi kapta meg elsők&eacute;nt a &bdquo;<strong>Minős&iacute;tett Fuvarszervező</strong>&rdquo; igazol&aacute;st.</li></ul><ul><li>Kiv&aacute;lasztott sofőrjeink 2014-ben a zs&aacute;mb&eacute;ki Driving Camp vezet&eacute;stechnikai tr&eacute;ningj&eacute;n pr&oacute;b&aacute;lhatt&aacute;k ki a rendk&iacute;v&uuml;li v&eacute;szhelyzetekben t&ouml;rt&eacute;nő vezet&eacute;stechnik&aacute;t.</li></ul><ul><li>2014-ben &aacute;tad&aacute;sra ker&uuml;lt a Főtaxi <strong>&uacute;j, akad&aacute;lymentes&iacute;tett diszp&eacute;cserk&ouml;zpontja</strong>, amely mozg&aacute;ss&eacute;r&uuml;ltek sz&aacute;m&aacute;ra is biztos&iacute;t munkahelyeket.</li></ul><ul><li>2015-ben a TEVA &eacute;s a Főtaxi &ouml;sszefog&aacute;s&aacute;nak k&ouml;sz&ouml;nhetően, k&ouml;zel 1000 sofőr vesz r&eacute;szt <strong>&uacute;jra&eacute;leszt&eacute;si alapk&eacute;pz&eacute;sen</strong>, hogy az esetlegesen felmer&uuml;lő v&eacute;szhelyzeteket rutinszerűen tudj&aacute;k kezelni</li></ul><ul><li>2015-ben forgalomba ker&uuml;lt az első <strong>elektromos, k&ouml;rnyezetbar&aacute;t</strong> ellenőri aut&oacute;nk, egy Nissan Leaf.</li></ul><ul><li>A Főtaxi - InnoMax k&uuml;l&ouml;nd&iacute;jjal jutalmazott - <strong>One Touch Order taxirendelő mobilapplik&aacute;ci&oacute;j&aacute;val</strong> ak&aacute;r egy mozdulattal is rendelhető taxi. Az applik&aacute;ci&oacute; el&eacute;rhető <a href="https://play.google.com/store/apps/details?id=com.nerddevelopments.taxidriver.orderapp&amp;hl=hu">Android</a>, <a href="https://itunes.apple.com/hu/app/id794447291?mt=8&amp;affId=1860684">IOS</a> &eacute;s <a href="https://www.microsoft.com/hu-hu/store/apps/fotaxi-taxi-rendelo/9nblgggz5zmm">Windows Phone</a> platformon is.Telefonos rendel&eacute;s: <span style="color: #ee1c23; font-size: 16px;"><strong>222 2 222</strong></span></li></ul><p>&nbsp;</p><p>&nbsp;</p><p>-----------------------------------------------------------------------------------------------------------------------------------</p><p><span style="font-size: 11px;"><strong><span style="color: #ee1c23;">Főtaxi Aut&oacute;k&ouml;zleked&eacute;si &eacute;s Szolg&aacute;ltat&oacute; Z&aacute;rtk&ouml;rűen Műk&ouml;dő R&eacute;szv&eacute;nyt&aacute;rsas&aacute;g</span></strong></span></p><ul><li><span style="font-size: 11px;"><img style="float: right; margin-left: 18px; margin-right: 0px;" src="/Manager/Images/0/fotaxi_logo_uj.jpg" alt="" width="119" height="96" />R&ouml;vid&iacute;tett n&eacute;v: Főtaxi Zrt.</span></li><li><span style="font-size: 11px;">Telefonsz&aacute;m (k&ouml;zponti titk&aacute;rs&aacute;g, NEM taxirendel&eacute;s): + 36 1 422 21 04</span></li><li><span style="font-size: 11px;">A v&aacute;llalkoz&aacute;s v&eacute;djegyoltalom alatt &aacute;ll&oacute; c&eacute;glog&oacute;ja: &nbsp; &nbsp;</span></li><li><span style="font-size: 11px;">Ad&oacute;sz&aacute;m: 10873498-2-42</span></li><li><span style="font-size: 11px;">Sz&eacute;khely: 1087 Budapest, Kerepesi &uacute;t 15.</span></li><li><span style="font-size: 11px;">Telephely: 1151 Budapest, Mogyor&oacute;d &uacute;tja 42.</span></li><li><span style="font-size: 11px;">Szakmai ir&aacute;ny&iacute;t&oacute; / &Uuml;gyvezető neve, el&eacute;rhetős&eacute;ge: Szunom&aacute;r Tibor vez&eacute;rigazgat&oacute; + 36 1 422 21 04&nbsp;&nbsp;&nbsp;</span></li><li><span style="font-size: 10px;">&Ouml;n&aacute;ll&oacute; diszp&eacute;cserszolg&aacute;lati enged&eacute;ly sz&aacute;ma, időbeli hat&aacute;lya, ter&uuml;leti kiterjeszt&eacute;se:</span><em></em><span style="font-size: 10px;"><strong><span style="color: #454545;"><em>[enged&eacute;lyez&eacute;s folyamatban]</em></span></strong> <br /></span></li><li><span style="font-size: 11px;">Elk&uuml;l&ouml;n&iacute;tett vagyoni biztos&iacute;t&eacute;k: 20.000.000 Ft</span></li><li><span style="font-size: 11px;">Szerződ&ouml;tt g&eacute;pkocsik sz&aacute;ma: 998 (2015.augusztus 28.)</span></li><li><span style="font-size: 11px;">Adatkezel&eacute;s nyilv&aacute;ntart&aacute;si sz&aacute;ma: <strong>NAIH-88735/2015</strong></span></li><li><span style="font-size: 11px;"><span style="color: #ee1c23;"><span style="color: #6e6e6e;">Taxirendel&eacute;s:</span><strong> 222 2 222</strong></span><br /></span></li></ul><p><span style="font-size: 11px;"><strong><span style="color: #ee1c23;"><a href="/Read/343/Fel%C3%BCgyeleti%20szervek#main-menu"><span style="color: #ee1c23;">Fel&uuml;gyeleti szervek</span></a></span> &nbsp; &nbsp; &nbsp;&nbsp; <span style="color: #ee1c23;"><a title="Panaszkezel&eacute;s" href="/Complaints.php" target="_self"><span style="color: #ee1c23;">Panaszkezel&eacute;s</span></a></span> &nbsp; &nbsp; &nbsp;&nbsp; <span style="color: #ee1c23;"><a href="/Read/334#main-menu"><span style="color: #ee1c23;">&Aacute;ltal&aacute;nos Szerződ&eacute;si Felt&eacute;telek</span></a></span></strong></span>&nbsp;&nbsp;</p><p>&nbsp;</p>    </div>
+
+</div>
+
+<div style="clear: both;"></div>
+
+<div id="footer">
+
+    <a href="https://plus.google.com/107999801519814421336" target="new" style="float: right;"><img src="http://www.fotaxi.hu/Layout/Default/Images/google-plus-icon.png" alt="" /></a>
+    <a href="http://www.facebook.com/fotaxi" target="new" style="float: right; margin-right: 7px;"><img src="http://www.fotaxi.hu/Layout/Default/Images/Facebook.png" alt="" /></a>
+    <div style="width: 150px;"><img src="http://elsosegely.webbeteg.hu/css/images/kepajanlo.jpg" style="float:none;  margin-left: auto; margin-right: auto;" align="left" border="0" vspace="5"><p><a style="color: #0DBAD8;font-family: Arial,Helvetica,sans-serif; text-align: center; font-size: 12px; font-weight: bold;" href="http://elsosegely.webbeteg.hu/" target="_blank" title="Elsősegély">Defibrillátor Kereső</a></p></div>
+
+    <a href="http://www.fotaxi.hu/Rss.php?Language=hu" target="new" style="float: right; margin-right: 7px;"><img src="http://www.fotaxi.hu/Layout/Default/Images/Rss.png" alt="" /></a>
+    <p style="text-align: center; margin: 5px 0px;">
+
+        © 2011 Főtaxi Zrt.. Minden jog fenntartva.        <strong>
+             | <a href="http://fotaxi.hu/aszf/">ÁSZF</a> | <a href="http://fotaxi.hu/Complaints.php#main-menu">Panaszkezelés</a> | <a href="http://intranet.fotaxi.hu/">INTRANET FŐTAXISOKNAK</a> | <a href="http://www.fotaxi.hu/Read/94">Impresszum</a> | <a href="http://www.fotaxi.hu/Read/354">Jogi nyilatkozat</a> | <a href="http://www.fotaxi.hu/Read/342">Felügyeleti szervek</a> | <a href="http://www.fotaxi.hu/Read/333">Adatkezelési Szabályzat</a>        </strong>
+        <br />
+        <strong></strong><strong>Taxirendel&eacute;s:</strong> +36 1 222 2222 &bull; +36 20/222 2222 &bull; +36 30/222 2222 &bull; +36 70/222 2222 &bull;<strong> <strong><br /> </strong><strong></strong><strong></strong></strong>&bull;&nbsp;<strong>e-mail:</strong> <a title="rendel@fotaxi.hu" href="mailto:rendel@fotaxi.hu">rendel@fotaxi.hu</a> &bull; <a href="/Read/134"><strong>Taxi rekl&aacute;m<br /></strong></a>    </p>
+</div>
+
+</div>
+
+<div id="shadow" style="display: none;" onclick="hidePopUp();"></div>
+<div id="popup" style="display: none;"></div>
+
+<script type="text/javascript">
+    messageHandler([]);
+</script>
+<!--<script>
+
+    (function (i, s, o, g, r, a, m) {
+
+        i['GoogleAnalyticsObject'] = r;
+
+        i[r] = i[r] || function () {
+
+            (i[r].q = i[r].q || []).push(arguments)
+
+        }, i[r].l = 1 * new Date();
+
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+
+        a.async = 1;
+
+        a.src = g;
+
+        m.parentNode.insertBefore(a, m)
+
+    })(window, document, 'script', '// www.google-analytics.com/analytics.js ', 'ga');
+
+    ga('create', 'UA-30326467-2', 'auto');
+
+    ga('send', 'pageview');
+
+</script>-->
+
+
+<!-- Google Code for Kapcsolat Conversion Page --> 
+
+<!--<script type="text/javascript">
+
+    /* <![CDATA[ */
+
+    var google_conversion_id = 987981506;
+
+    var google_conversion_language = "en";
+
+    var google_conversion_format = "3";
+
+    var google_conversion_color = "ffffff";
+
+    var google_conversion_label = "ldEXCJautgQQws2N1wM";
+
+    var google_conversion_value = 1.00;
+
+    var google_conversion_currency = "HUF";
+
+    var google_remarketing_only = false;
+
+    /* ]]> */
+
+</script> 
+
+<script type="text/javascript" src="// www.googleadservices.com/pagead/conversion.js ">
+
+
+</script> -->
+
+<!--<noscript> 
+
+<div style="display:inline;"> 
+
+    <img height="1" width="1" style="border-style:none;" alt="" src="// www.googleadservices.com/pagead/conversion/987981506/?value=1.00&amp;currency_code=HUF&amp;label=ldEXCJautgQQws2N1wM&amp;guid=ON&amp;script=0 "/> 
+
+</div> 
+
+</noscript> -->
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KCMVQN"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KCMVQN');</script>
+<!-- End Google Tag Manager -->
+</body>
+</html>

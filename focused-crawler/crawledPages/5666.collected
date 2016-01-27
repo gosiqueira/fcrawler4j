@@ -1,0 +1,450 @@
+title=null
+url=https://www.expedia.com.br/pub/agent.dll?qscr=litn
+html= 
+
+
+   
+
+
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+	
+	
+	
+
+
+	
+ 
+	
+ 
+ 
+
+
+	
+	
+	
+	
+
+	
+	
+	
+	
+
+
+	
+	
+
+
+	
+	
+
+
+
+
+
+	
+	
+	<DIV ID="ttDiv" STYLE="position:absolute; visibility:hidden; z-index:1000;"></DIV>
+	
+	
+	
+	<script type="text/javascript">
+	<!--
+	
+
+var g_TTSticky;
+var g_ttox = 10; 
+var g_ttoy = 15; 
+var g_ttw = 220;	
+var g_ttfx = -1; 
+var g_ttfy = -1; 
+var g_ttvp = 35; 
+var g_tthp = 36;	
+var g_ttah = 20; 
+var g_ttf = self;	
+var g_ttam = 0; 
+var g_tthauto = 1;	
+var g_ttvauto = 1; 
+var g_ttdl = 0;	
+var g_ttsh = 0;	
+var g_ttsw = 0;	
+
+var g_ttx = 0;
+var g_tty = 0;
+
+
+
+
+
+
+var g_ttlyr = null;
+var g_divref = null;
+
+
+
+
+
+
+
+
+
+
+
+
+var g_SeatGuruTT = false;
+
+
+
+
+var g_TTTitle="";
+var g_TTText="";
+var g_lclink="";
+var g_SavePrintBtn = "";
+function GetClink()
+{
+	if (typeof(PrintSaveBtn) != 'undefined')
+	{
+	g_SavePrintBtn="<TD ALIGN=LEFT valign=top><A HREF=\"javascript:window.print()\"><IMG src=/Pubspec/eta/ico_prn.gif ALIGN=TOP BORDER=0 HSPACE=3 vspace=2 WIDTH=12 HEIGHT=12><FONT style=\"font-size:11px;font-family:Arial, Helvetica, Sans Serif;\"><B>Imprimir</B></FONT></A></TD><TD ALIGN=LEFT valign=top><A HREF=\"javascript:window.document.execCommand('SaveAs', true, 'Rules_and_Restrictions.txt');window.parent.cClick()\"><IMG src=/Pubspec/eta/ico_sav.gif ALIGN=TOP BORDER=0 HSPACE=3 vspace=2 WIDTH=12 HEIGHT=12><FONT style=\"font-size:11px;font-family:Arial, Helvetica, Sans Serif;\"><B>Economize</B></FONT></A></TD>";
+	}
+	return "<TABLE CELLPADDING=0 CELLSPACING=0 WIDTH='100%' style='margin-bottom:-2;'><TR><TD height=4></TD></TR><TR><TD BGCOLOR=#666666 colspan=4><IMG src=/eta/spaceit.gif></TD></TR><TR><TR><TD height=3></TD></TR><TD ALIGN=left><FONT style=\"font-size:11px;font-family:Arial, Helvetica, Sans Serif;\">" +
+	g_lclink +
+	"</FONT></TD>"+
+	g_SavePrintBtn +
+	"<TD ALIGN=RIGHT valign=top><A HREF=\"javascript:window.parent.cClick()\"><IMG src=/Pubspec/Eta/btn_sec_small.gif ALIGN=TOP BORDER=0 HSPACE=3 vspace=2 WIDTH=12 HEIGHT=12><FONT style=\"font-size:11px;font-family:Arial, Helvetica, Sans Serif;\"><B>Fechar janela</B></FONT></A></TD></TR></TABLE>";
+}
+function HandleTTLoad(table,title,text,cl,lstyl)
+{
+	table.style.width = g_ttw;
+	title.innerHTML = g_TTTitle;
+	text.innerHTML = g_TTText;
+	if(g_TTSticky)
+	{
+	cl.innerHTML=GetClink();
+	}
+	if(lstyl)
+	{
+	lstyl.color="#333399";
+	}
+}
+function HandleTTTextSize(w,h)
+{
+	var DocTTFrame = document.getElementById('TTFrame');
+	if (DocTTFrame)
+	{
+	DocTTFrame.style.width = w;
+	DocTTFrame.style.height = h;
+	}
+	
+	
+	
+	DISPTT();
+	
+}
+
+g_UDfltP = true; 
+g_CTX = 0;
+g_CTY = 0;
+function CT(tl,t,rgll,rglt,w,sh,sw,rfrr,x,y,rgat)
+{
+	var rgLnks = new Array();
+	for( var i=0; i<rgll.length; i++ )
+	{
+	var lnk;
+	if (rgat != null)
+	lnk = '<a href="#" onclick="'+ rgll[i].split("javascript:").join("") +';parent.HTT();" ID="' + rgat[i] + '">';
+	else
+	lnk = '<a href="#" onclick="'+ rgll[i].split("javascript:").join("") +';parent.HTT();">';
+	
+	rgLnks[i] = lnk +'<img border=0 src=/eta/btn';
+	rgLnks[i] += (i < (rgll.length-1)) ? "_sec" : "";
+	rgLnks[i] += "_small.gif></a>&nbsp;"+ lnk + rglt[i] +"</a>";
+	}
+	var sOut = "<hr style='height:1px' color=#666666><table border=0 cellspacing=0 cellpadding=0><tr><td width='100%'></td><td><nobr>"+ rgLnks.join("</nobr></td><td width=7><img src=/eta/spaceit.gif width=7px border=0></td><td><nobr>") +"</nobr></td></tr></table>";
+
+	g_UDfltP = true;
+	if( null != x && null != y )
+	{
+	g_CTX = x;
+	g_CTY = y;
+	}
+ TT(tl, t + sOut, false, w, sh, sw, rfrr );
+}
+
+
+
+g_YTT = false; 
+function YTT(t,s,sh,sw,rfrr,ll) {
+	TT('', t, s, 8, sh, sw, rfrr, ll, true);
+}
+
+function TT(tl,t,s,w,sh,sw,rfrr,ll,yt) {
+	
+	if(rfrr)
+	RegisterClick(rfrr);
+	
+	if(sh || sw)
+	{ 
+	szDiv = "<DIV STYLE='overflow:auto";
+	if(sh)
+	szDiv += ";height:" + sh;
+	else
+	szDiv += ";overflow-y:hidden";
+	if(sw)
+	szDiv += ";width:" + sw;
+	else
+	szDiv += ";overflow-x:hidden";
+	t = szDiv + "'>" + t + "</DIV>";
+	}
+	
+	g_YTT = yt;
+	g_TTTitle = tl;
+ g_TTText = t;
+	g_TTSticky = s;
+	if(w)	
+	g_ttw = w;	
+	g_ttsh = sh;
+	g_ttsw = sw;
+	g_lclink = (ll == null) ? "" : ll;
+ 
+ 
+ g_divref = g_ttlyr ;
+ clearTimeout(g_ttdl);
+ g_ttdl = setTimeout("TTD()",100);
+ return;
+}
+
+
+function HTT() {
+	clearTimeout(g_ttdl);
+	
+ return true;
+}
+
+function TTD() {
+	
+	var l;
+ l = g_content_simple(g_TTTitle, g_TTText);
+ if (g_TTSticky) {
+ g_TTSticky = 1;
+ }
+ TTLW(l);
+ 
+ g_ttam = 0;
+	
+	
+
+ 
+ 
+ if (g_TTSticky) {
+ g_ttam = 0;
+ return false;
+ } else {
+ return true;
+ }
+}
+
+
+function g_content_simple(tl, t) {
+
+	
+	if(g_YTT)
+	txt = "<IFRAME SRC=\"/eta/ytooltip.htm\" NORESIZE FRAMEBORDER=0 SCROLLING=NO ID=TTFrame MARGINHEIGHT=0 MARGINWIDTH=0 ALLOWTRANSPARENCY=\"true\"></IFRAME>";
+	else if(g_SeatGuruTT)
+	txt = "<IFRAME SRC=\"/eta/seatgurutooltip.htm\" NORESIZE FRAMEBORDER=0 SCROLLING=NO ID=TTFrame MARGINHEIGHT=0 MARGINWIDTH=0 ALLOWTRANSPARENCY=\"true\"></IFRAME>";
+	else
+	txt = "<IFRAME SRC=\"/eta/tooltip.htm\" NORESIZE FRAMEBORDER=0 SCROLLING=NO ID=TTFrame MARGINHEIGHT=0 MARGINWIDTH=0 ALLOWTRANSPARENCY=\"true\"></IFRAME>";
+
+	
+	
+	return txt;
+}
+
+function DISPTT() {
+	
+}
+
+
+var g_UDfltP = false;
+function TTPL() {
+	if( g_UDfltP ) {
+	g_UDfltP = false; 
+	TTAPL();
+	return;
+	}
+
+ var X, Y;
+ 
+ 
+ if (g_ttfx > -1) {
+ 
+ X = g_ttfx;
+ } else {
+ 
+ 
+ wo = g_ttf.pageXOffset;
+ 
+ 
+
+ if (g_tthauto == 1) {
+ 
+	if ( (g_ttx - wo) > ( (eval(cttwidth)) - g_ttw) ) {
+ g_tthp = 7;
+ } else {
+ g_tthp = 8;
+ }
+ }
+ if (g_tthp == 8) { 
+ X = g_ttx+g_ttox;
+ if ( (eval(X) + eval(g_ttw)) > (wo + cttwidth) ) {
+ X = cttwidth + wo - g_ttw;
+ if (X < 0) X = 0;
+ }
+ }
+ if (g_tthp == 7) { 
+ X = g_ttx-g_ttox-g_ttw;
+ if (X < wo) X = wo;
+ }
+ }
+
+ 
+ 
+	if (g_ttfy > -1) {
+	Y = g_ttfy;
+	} else {	
+	scrolloffset = g_ttf.pageYOffset ;	
+	
+	
+	iheight = (eval(iheight)) / 2;
+	if ( (g_tty - scrolloffset) > iheight) {
+	var aboveheight = g_divref.offsetHeight;
+	Y = g_tty - (g_ttoy + aboveheight);
+	if (Y < scrolloffset) Y = scrolloffset;	
+	} else {
+	Y = g_tty + g_ttoy;
+	}
+	}
+ 
+ 
+ TTML(g_ttlyr, X, Y);
+}
+
+
+function TTAPL()
+{
+	var X = g_ttx - (g_divref.offsetWidth - g_CTX);
+	if( X < 0 ) { X = 0; }
+	var Y = g_tty - (g_divref.offsetHeight - g_CTY);
+	if( Y < 0 ) { Y = 0; }
+ 
+
+ 
+ TTML(g_ttlyr, X, Y);
+}
+
+
+
+
+function mouseMove(e) {
+	
+	var evnt = e? e:event;
+	
+	g_ttx=evnt.pageX? evnt.pageX : (evnt.clientX+(g_ttf.pageXOffset?g_ttf.pageXOffset:g_ttf.document.body.scrollLeft)); 
+	g_tty=evnt.pageY? evnt.pageY : (evnt.clientY+(g_ttf.pageYOffset?g_ttf.pageYOffset:g_ttf.document.body.scrollTop));
+	if (g_ttam == 1) {
+ TTPL();
+ }
+}
+
+
+function cClick() {
+	TTHO(g_ttlyr);
+	
+ g_TTSticky = 0;
+}
+
+
+
+function TTCF(f) { 
+
+ return true;
+}
+
+
+function TTLW(t)
+{
+
+}
+
+
+function TTSO(o)
+{
+	
+	
+	
+}
+
+
+function TTHO(o)
+{
+	
+	
+	
+ if (g_ttdl > 0) clearTimeout(g_ttdl);
+ g_ttdl = 0;
+ 
+ self.status = "";
+}
+
+
+function TTML(o,x,y) {
+ 
+}
+
+
+
+
+
+
+	//-->
+	</SCRIPT>
+	
+
+
+
+
+
+
+
+<script type="text/javascript">
+<!--
+	function E3LoginRedirect()
+	{
+	var f=document.E3LoginRedir;
+	f.submit();
+	}
+	window.onload=function(){E3LoginRedirect()};
+//-->
+</SCRIPT>
+<form method=post name="E3LoginRedir" action="/user/login">
+	<input type="hidden" name=qscr value="logi">
+	<input type="hidden" name=uurl value="qscr=litn&">
+	<input type="hidden" name=uact value="3">
+	<input type="hidden" name=lmde value="25">
+	<input type="hidden" name=itlo value="0">
+</form>
+
+

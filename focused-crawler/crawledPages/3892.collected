@@ -1,0 +1,1545 @@
+title=Logitravel Reise-App für iOS, iPhone, iPad
+url=http://www.logitravel.de/apps/
+html=
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="DE" lang="DE" xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE" />
+<title>Logitravel Reise-App f&#252;r iOS, iPhone, iPad</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+<meta name="description" content="Mit der neuen Logitravel App haben Sie jetzt Zugriff auf alle Fl&#252;ge, Hotels, Z&#252;ge, F&#228;hren und Mietwagen. Logitravel, eine ganze Welt im Taschenformat." />
+<meta name="keywords" content="Logitravel, App, Apple, iPhone, iOS, iPad, Anwendung, herunterladen, iPod touch" />
+<meta name="title" content="Logitravel Reise-App f&#252;r iOS, iPhone, iPad" />
+<meta http-equiv="title" content="Logitravel Reise-App f&#252;r iOS, iPhone, iPad" />
+<meta property="fb:admins" content="100002031649350" />
+
+<meta property="fb:app_id" content="185777208187450" />
+<meta http-equiv="pragma" content="no-cache" />
+<meta http-equiv="Expires" content="never" />
+<meta name="google" content="notranslate" />
+    <meta name="robots" content="index,follow" />
+
+<meta name='apple-itunes-app' content='app-id=820411473, affiliate-data=at=10lJDC&ct=SmartAppBanner&pt=492790, app-argument=logitravel://home/?sesion=' /><meta name='google-play-app' content='app-id=com.logitravel.logitravel' />
+
+
+<link rel="shortcut icon" href="http://cdn.logitravel.de/logitravelde/images/favicon.ico">
+<!--[if lt IE 9]>
+    <script src="http://cdn.logitravel.de/responsive/common/js/common/html5.js"></script>
+<![endif]-->
+<!-- Google Fonts -->
+
+    <link href="http://cdn.logitravel.de/responsive/assets/css/app/fonts.css?301120151333" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/responsive/assets/css/app/vendors.css?010620151748" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/responsive/assets/css/logitravel/main.css?220120160924" rel="stylesheet" type="text/css" />
+<!--[if lt IE 10]><link href="http://cdn.logitravel.de/responsive/assets/css/logitravel/ie-9-main.css?141020150938" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.de/responsive/assets/css/logitravel/de.css?250820150833" rel="stylesheet" type="text/css" />
+<!--[if lt IE 9]><link href="http://cdn.logitravel.de/responsive/common/css/bootstrap/ie-non-responsive.css?031220131704" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if lt IE 9]><link href="http://cdn.logitravel.de/responsive/logitravelde/css/style-ie-8.css?121220141054" rel="stylesheet" type="text/css" /><![endif]-->
+<link href="http://cdn.logitravel.de/responsive/logitravelde/css/app/app.css?310320141638" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/responsive/logitravelde/css/app/app-responsive.css?310320141638" rel="stylesheet" type="text/css" />
+<link href="http://cdn.logitravel.de/responsive/logitravelde/css/owl.carousel.min.css?070120151601" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+
+    <script type="text/javascript">
+    var setCookie = function (cookieName, cookieValue, nDays) {
+        var today = new Date();
+        var expire = new Date();
+        if (nDays == null || nDays == 0) nDays = 1;
+        expire.setTime(today.getTime() + 3600000 * 24 * nDays);
+        document.cookie = cookieName + '=' + cookieValue + ';expires=' + expire.toGMTString() + ';path=/';
+    }
+    var getCookie = function (name) {
+        var c_value = document.cookie
+        var c_start = c_value.indexOf(" " + name + "=");
+        if (c_start == -1) {
+            c_start = c_value.indexOf(name + "=");
+        }
+        if (c_start == -1) {
+            c_value = null;
+        } else {
+            c_start = c_value.indexOf("=", c_start) + 1;
+            var c_end = c_value.indexOf(";", c_start);
+            if (c_end == -1) {
+                c_end = c_value.length;
+            }
+            c_value = (c_value.substring(c_start, c_end));
+        }
+        return c_value;
+    }
+    function enviapintado(idpixel, ok) {
+        $.ajax({
+            url: urlCierre + '/estadoPixel.ashx',
+            data: { codPixel: idpixel, estado: ok },
+            async: true
+        });
+    }
+
+</script>
+
+<script type="text/javascript">
+dataLayer=[{
+		product_id: "", //ID del producto. Formato estandarizado: linea de negocio + codigo de producto
+		productName: "", //Nombre del producto
+		productURL: "", //Url del producto
+		productImgURL: "", //Imagen del producto
+		productDesc: "#productDesc#", //Descripcion del producto
+		productTypeName: "home", //Tipo de producto. Formato estandarizado por linea de negocio
+		categoryItem1: "", //Primer item para categorizar
+		categoryItem2: "", //Segundo item para categorizar
+		categoryItem3: "", //Tercer item para categorizar
+		categoryItem4: "", //Cuarto item para categorizar
+		categoryItem5: "", //Quinto item para categorizar
+		categoryName: "home", //Linea de negocio estandarizada
+		pageTypeName: "home", //Nombre de la pagina en el flujo de venta (estandarizado)
+		pageName: "DE/apps", //Nombre semantico de la pagina Formato Google Analytics
+		webCode: "logitravelde", //Codigo de aplicacion web
+		anuncio: "2458491", // Codigo de anuncio (interno)
+		userCode: "32557934196", //Codigo de usuario (interno)
+		customerID: "", //Codigo de cliente (interno)
+		localizador: "", //Localizador de la reserva (interno)
+		totalAmount: "0.00", //Precio con decimales y punto
+		currency: "", //Moneda de venta
+		revenue: "0.00", //Beneficio de la reserva con decimales y punto
+		numPeople: "0", //Suma del total de pasajeros
+		numAdults: "0", //No adultos
+		numKids: "0", //No ninos (no bebes)
+		numInfants: "0", //No bebes
+		numRooms: "0", //No habitaciones
+		productCity: "", //Ciudad del producto
+		productZone: "", //Zona del producto
+		productCountry: "", //Pais del producto
+		codDeparture: "", //Codigo de origen (aeropuerto/tren/puerto)
+		codArrival: "", //Codigo de destino (aeropuerto/tren/puerto)
+		checkInDMY: "01/01/0001", //Fecha inicio formato DD/MM/YYYY
+		checkOutDMY: "01/01/0001", //Fecha fin formato DD/MM/YYYY
+		numNights: "0", //No de noches
+		tduid: "", //Identificador partner Treadedoubler
+		tduid2: "", //Identificador partner Tradedoubler2
+		partnerID: "", //Identificador partner Zanox
+		externalID: "", //Identificador externaldID
+		ReviewStr: "name%3dlogitravelIT%26email%3djose.miguel%40logitravel.com", //Sring de verificacion
+		checksum: "v04492f948808daf55a3f9e7ddd3694f546", //String para validacion TradeDoubler
+		deviceType: "desktop",
+		MD5Email: ""
+	}];
+</script>
+
+
+        <header class="header clearfix hidden-retina newHeader" id="newHeader">
+        <div class="container">
+    <section class="header-top">
+        <div class="row">
+            <div class="col-md-4 col-lg-4 col-xl-3">
+                <div class="logo contEllipsis">
+                    <a href="http://www.logitravel.de/" title="Logitravel"><img src="http://cdn.logitravel.de/logitravelde/images/permanentes/logo_positivo@2x.png" alt="Reisen" /></a>
+                    <h1 class="hidden-phone">Logitravel Reise-App f&#252;r iOS, iPhone, iPad</h1>
+                </div>
+            </div>
+            <div class="col-md-8 col-lg-8 col-xl-9">
+
+<div id="buscadorDesktop" class="buscadorDesktop boton-header ">
+    <label class="caption" for="textoIrA"></label>
+    <input type="text" 
+           aria-haspopup="true" 
+           aria-autocomplete="list" 
+           role="textbox" 
+           autocomplete="off" 
+           class="textoIrACab ui-autocomplete-input ac_input"
+           id="textoIrA" 
+           name="textoIrA" 
+           value="Suchen..." 
+           onfocus="if ($(this).val() == 'Suchen...') $(this).val('');"
+           onblur="if ($(this).val() == '') { $(this).val('Suchen...'); $('#buscar').hide(); }">
+    <div class="styled-select">
+        <span class="selectorBuscador" id="selectorBuscador"></span>
+        <select id="selectLinea">
+            <option value="IRA0">Alle Reisen</option>
+            <option value="IRA8">Hotel</option>
+            <option value="IRA12">Fl&#252;ge</option>
+            <option value="IRA13">Mietwagen</option>
+            <option value="IRA1">Reisen</option>
+            <option value="IRA4">Kreuzfahrten</option>
+            <option value="IRA14">Bahn-Flug</option>
+        </select>
+    </div>
+</div>
+                        <div id="botonOrigenes" class="selectOrigen boton-header">
+                    <a href="#" data-toggle="modal">
+                        <span class="label-origen">Standort</span>
+                        <strong class="origen" id="originCity">Frankfurt</strong>
+                    </a>
+                </div>
+
+                
+
+
+<div class="boton-header lastSearches">
+    <span id="LoadLastSearches">Suchanfragen</span>
+    <div class="dropdown">
+        <div class="infoLastSearches">
+            <h3>Letzte Suchanfragen</h3>
+            <p>Hier speichern wir Ihre Suchanfragen die Sie auf unserer Webseite gemacht haben, damit Sie da weitermachen k&#246;nnen wo Sie aufgeh&#246;rt haben. </p>
+            <a href="/contents/LastSearch/Index" target="_parent">Alle Suchergebnisse anzeigen</a>           
+        </div>
+        <div class="listLastSearches" id="listLastSearches">
+            <div id="waitHomeLastSearch" class="loader-ajax unbordered searches"><span>Suchanfragen laden</span></div>
+        </div>
+    </div>
+</div>                <div id="userSesion" class="userSesion boton-header" data-message-call="False">
+        <span id="enlaceIniSesion" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+            <strong>Mein Konto</strong>
+        </span>
+    <ul id="user-menu" class="user-menu dropdown-menu">
+        <li>
+            <a id="enlacePerfil" class="enlacePerfil listedLink">
+                <i class="ico-user ico-lg"></i><span id="usuario" class="user">Registrieren Sie sich</span>
+            </a>
+        </li>
+        <li>
+            <div class="separadorBottom"></div>
+            <a id="enlaceMensajes" class="enlaceMensajes">
+                <i class="icon-envelope icon-lg fa fa-envelope fa-lg"></i>
+                <span class="numMensajes" id="numMsg">0</span>Nachrichten
+            </a>
+        </li>
+
+        <li>
+            <a class="enlaceMisReservas">
+                <i class="icon-suitcase icon-lg fa fa-suitcase fa-lg"></i>Meine Reservierungen
+            </a>
+        </li>
+            <li class="separadorTop">
+                <a class="enlaceContacto visible-lg" href="/kontaktieren-sie-uns/">
+                    <span class="principal">
+                        <i class="fa fa-phone"></i>
+                        National:
+                    </span>
+                    <span class="phoneNumber">0800 118 1191</span>
+                    <span class="visible telfContacto mt-5">
+                        (geb&#252;hrenfreie Nummer f&#252;r Deutschland)
+                    </span>
+                </a>
+            </li>
+            <li class="separadorTop">
+                <a class="enlaceContacto" href="/kontaktieren-sie-uns/">
+                    <span class="principal">
+                        <i class="fa fa-phone"></i>
+                        International:
+                    </span>
+                    <span class="phoneNumber">+491806806661</span>
+                    <span class="visible telfContacto mt-5">
+                        F&#252;r Anrufe aus dem Ausland gilt der Auslandspreis Ihres Tarifs. Bitte informieren Sie sich bei Ihrem Anbieter.
+                    </span>
+                </a>
+            </li>
+    </ul>
+
+</div>
+
+                
+                
+    <div id="contactUs" class="contactUs boton-header">
+        <a class="phoneNum markerToolTip" data-phone="0800 118 1191" href="http://www.logitravel.de/kontaktieren-sie-uns/" data-original-title="&lt;div&gt;
+            &lt;div class=&quot;separadorBottom pb-10&quot;&gt;
+                &lt;span class=&quot;title&quot;&gt;National:&lt;/span&gt;
+                &lt;a class=&quot;txtGrande ml-10 normal&quot; data-phone=&quot;08001181191&quot; href=&quot;/kontaktieren-sie-uns/&quot;&gt;0800 118 1191&lt;/a&gt;
+                &lt;p class=&quot;txtPeque&quot;&gt;(geb&#252;hrenfreie Nummer f&#252;r Deutschland)&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;separadorBottom pv-10&quot;&gt;
+                &lt;span class=&quot;title&quot;&gt;International:&lt;/span&gt;
+                &lt;a class=&quot;txtGrande ml-10 normal&quot; data-phone=&quot;+491806806661&quot; href=&quot;/kontaktieren-sie-uns/&quot;&gt;+491806806661 &lt;/a&gt;
+                &lt;p class=&quot;txtPeque&quot;&gt;F&#252;r Anrufe aus dem Ausland gilt der Auslandspreis Ihres Tarifs. Bitte informieren Sie sich bei Ihrem Anbieter.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class=&quot;pv-10&quot;&gt;
+                &lt;span class=&quot;txtMedio visible mb-5 principal&quot;&gt;&#214;ffnungszeiten des Kundenservice&lt;/span&gt;
+                &lt;p&gt;Ihre Hotline f&#252;r Urlaub und Reisen: Montag-Freitag, 9:00-21:00 Uhr, Samstag 9:30-13:30 Uhr. An Sonn-und Feiertagen haben wir geschlossen.&lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;" data-placement="bottom">Kontakt</a>
+    </div> 
+
+
+                
+                
+
+    <div id="certificados" class="certificados de">
+        <a class="travelLogo markerToolTip visible-lg" data-original-title="&lt;span class=&#39;title&#39;&gt;Logitravel.de&lt;/span&gt; &lt;p&gt;ist T&#220;V-gepr&#252;ft auf Sicherheit, Qualit&#228;t und Transparenz&lt;/p&gt;" data-placement="bottom" target="_blank" href="http://www.safer-shopping.de/zertifikat/Logitravel-de.html">
+            <img class="lazy tuv" alt="tuv" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/logitravelde/images2012/tuv_cabecera.png" />
+        </a>
+        <a class="travelLogo markerToolTip visible-lg" data-original-title="&lt;span class=&#39;title&#39;&gt;Logitravel.de&lt;/span&gt; &lt;p&gt;ist Trusted Shopgepr&#252;ft&lt;br&gt;&lt;strong&gt;Zertifizierter Shop&lt;/strong&gt; Unsere Experten haben &#252;ber 100 Qualit&#228;tskriterien gepr&#252;ft! &lt;strong&gt;K&#228;uferschutz bis 2.500 EUR&lt;/strong&gt; Abgesichert f&#252;r 30 Tage durch Geld-z&#252;ruck-Garantie!&lt;/p&gt;" data-placement="bottom" target="_blank" href="https://www.trustedshops.com/shop/certificate.php?shop_id=X54D980C730471F3A2B989D12E4B9F5FC">
+            <img class="lazy trusted" alt="trusted shop" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/logitravelde/images2012/trustedShop_cabecera.png" />
+        </a>
+    </div>
+
+            </div>
+        </div>
+    </section>
+</div>
+        <nav class="navegacion hidden-phone hidden-xs">
+    <div class="container">
+        <ul class="nav navPrincipal">
+                <li class="dropdown masterTab">
+
+                    <a title="Alle  Reisen" href="#" data-target="#"
+                       data-hover="dropdown" role="button" class="dropdown-toggle">
+                        <span class="icon-angle-down fa fa-angle-down masterIcon"></span>Alle  <strong>Reisen</strong>
+                    </a>
+
+                    <ul class="dropdown-menu masterMenu hidden">
+                                <li class="dropdown-submenu">
+                                    <a title="Stadthotels" href="http://www.logitravel.de/hotel/"  data-menu-track="hoteles">
+                                        <span class="ico-hotel mr-10"></span>
+                                        Hotel
+                                    </a>
+                                    <ul class="dropdown-menu masterSubmenu">
+                                        <li class="tituloMenu"><span class="ico-hotel mr-10"></span>Hotel</li>
+                                            <li>
+                                                <a title="Nur Hotel" href="http://www.logitravel.de/hotel/"  data-menu-track="hoteles">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Nur Hotel
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Flug + Hotel" href="http://www.logitravel.de/reisen/"  data-menu-track="vuelo_hotel">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Flug + Hotel
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Bahn + Hotel" href="http://www.logitravel.de/bahn/"  data-menu-track="tren_hotel">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Bahn + Hotel
+                                                </a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a title="Fl&#252;ge" href="http://www.logitravel.de/fluge/"  data-menu-track="vuelos">
+                                        <span class="ico-vuelo mr-10"></span>
+                                        Fl&#252;ge
+                                    </a>
+                                    <ul class="dropdown-menu masterSubmenu">
+                                        <li class="tituloMenu"><span class="ico-vuelo mr-10"></span>Fl&#252;ge</li>
+                                            <li>
+                                                <a title="Linien-, Billig und Charterfl&#252;ge" href="http://www.logitravel.de/fluge/"  data-menu-track="vuelos">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Linien-, Billig und Charterfl&#252;ge
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Flug + Hotel" href="http://www.logitravel.de/reisen/"  data-menu-track="vuelo_hotel">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Flug + Hotel
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fl&#252;ge Berlin" href="http://www.logitravel.de/fluge/fluege-berlin-1608046.html"  data-menu-track="vuelos_berlin">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Berlin
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fl&#252;ge Frankfurt" href="http://www.logitravel.de/fluge/fluege-frankfurt-1608182.html"  data-menu-track="vuelos_frankfurt">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Frankfurt
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fl&#252;ge M&#252;nchen" href="http://www.logitravel.de/fluge/fluege-munchen-1608382.html"  data-menu-track="vuelos_munich">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    M&#252;nchen
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fl&#252;ge Hamburg" href="http://www.logitravel.de/fluge/fluege-hamburg-1608212.html"  data-menu-track="vuelos_hamburgo">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Hamburg
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fl&#252;ge London" href="http://www.logitravel.de/fluge/fluege-london-1608309.html"  data-menu-track="vuelos_londres">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    London
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fl&#252;ge Madrid" href="http://www.logitravel.de/fluge/fluege-madrid-1666975.html"  data-menu-track="vuelos_madrid">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Madrid
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fl&#252;ge Paris" href="http://www.logitravel.de/fluge/fluege-paris-1608431.html"  data-menu-track="vuelos_paris">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Paris
+                                                </a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a title="" href="http://www.logitravel.de/autos/"  data-menu-track="coches">
+                                        <span class="ico-coche mr-10"></span>
+                                        Mietwagen
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a title="Flug+Hotel" href="http://www.logitravel.de/reisen/"  data-menu-track="paquetes">
+                                        <span class="ico-maleta mr-10"></span>
+                                        Pauschalreisen
+                                    </a>
+                                    <ul class="dropdown-menu masterSubmenu">
+                                        <li class="tituloMenu"><span class="ico-maleta mr-10"></span>Pauschalreisen</li>
+                                            <li>
+                                                <a title="Sommerurlaub" href="http://www.logitravel.de/reisen/sommerurlaub-11482417.html"  data-menu-track="sommerurlaub">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Sommerurlaub
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Herbstferien" href="http://www.logitravel.de/reisen/herbstferien-16179065.html"  data-menu-track="herbstferien">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Herbstferien
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Weihnachtsurlaub" href="http://www.logitravel.de/bruckentage/weihnachten-und-silvester-10862436.html"  data-menu-track="weihnachtsurlaub">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Weihnachtsurlaub
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Silvesterreisen" href="http://www.logitravel.de/reisen/silvester-16176533.html"  data-menu-track="silvester">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Silvesterreisen
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Wochenende" href="http://www.logitravel.de/wochenende/"  data-menu-track="fines_de_semana">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Wochenendreisen 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="All Inclusive" href="http://www.logitravel.de/reisen/all-inclusive-urlaub-16061563.html"  data-menu-track="todo_incluido">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    All Inclusive
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fr&#252;hbucher Angebote" href="http://www.logitravel.de/reisen/fruhbucher-angebote-16179472.html"  data-menu-track="venta_anticipada">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Fr&#252;hbucher Angebote
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Last Minute" href="http://www.logitravel.de/reisen/last-minute-16036202.html"  data-menu-track="last_minute">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Last Minute
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Wochenende" href="http://www.logitravel.de/wochenende/"  data-menu-track="fines_de_semana">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Wochenendreisen 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Flug + Hotel Mixen" href="http://www.logitravel.de/reisen/"  data-menu-track="vuelo_hotel">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Flug + Hotel Mixen
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Bahn + Hotel" href="http://www.logitravel.de/bahn/"  data-menu-track="tren_hotel">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Bahn + Hotel
+                                                </a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a title="Urlaubsreisen" href="http://www.logitravel.de/reisen/besondere-gelegenheiten-10555530.html"  data-menu-track="paquetes">
+                                        <span class="ico-circuito mr-10"></span>
+                                        Urlaubsreisen
+                                    </a>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a title="Urlaubsziele " href="http://www.logitravel.de/reisen/"  data-menu-track="paquete">
+                                        <span class="ico-playas mr-10"></span>
+                                        Urlaubsziele 
+                                    </a>
+                                    <ul class="dropdown-menu masterSubmenu">
+                                        <li class="tituloMenu"><span class="ico-playas mr-10"></span>Urlaubsziele </li>
+                                            <li>
+                                                <a title="Balearen" href="http://www.logitravel.de/reisen-balearen/"  data-menu-track="baleares">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Balearen
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Kanaren" href="http://www.logitravel.de/reisen/kanaren-und-madeira-15991797.html"  data-menu-track="canarias">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Kanaren
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="T&#252;rkei " href="http://www.logitravel.de/reisen/turkei-kuste-16064398.html"  data-menu-track="turquia">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    T&#252;rkei 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Griechische Inseln " href="http://www.logitravel.de/reisen-griechischeinseln/"  data-menu-track="islas griegas">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Griechische Inseln 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Flug+Hotel" href="http://www.logitravel.de/reisen-stadtereisen/"  data-menu-track="capitales">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    St&#228;dtereisen
+                                                </a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a title="" href="http://www.logitravel.de/kreuzfahrten/"  data-menu-track="cruceros">
+                                        <span class="ico-crucero mr-10"></span>
+                                        Kreuzfahrten
+                                    </a>
+                                    <ul class="dropdown-menu masterSubmenu">
+                                        <li class="tituloMenu"><span class="ico-crucero mr-10"></span>Kreuzfahrten</li>
+                                            <li>
+                                                <a title="Alle Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/"  data-menu-track="cruceros_todos">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Alle Kreuzfahrten
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Fr&#252;hbucher Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/fruhbucher-angebote-16188107.html"  data-menu-track="cruceros_anticipada">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Fr&#252;hbucher Kreuzfahrten
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Mittelmeer Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/mittelmeer-kreuzfahrten-2364708.html"  data-menu-track="cruceros_mediterraneo">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Mittelmeer Kreuzfahrten
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Kreuzfahrten Karibik" href="http://www.logitravel.de/kreuzfahrten/karibik-2363326.html"  data-menu-track="cruceros_caribe">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Kreuzfahrten Karibik
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Kreuzfahrten Nordeuropa" href="http://www.logitravel.de/kreuzfahrten/nordeuropa-2363323.html"  data-menu-track="cruceros_norteeuropa">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Kreuzfahrten Nordeuropa
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Kreuzfahrten Kanaren" href="http://www.logitravel.de/kreuzfahrten/kanaren-2363319.html"  data-menu-track="cruceros_canarias">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Kreuzfahrten Kanaren
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Orient" href="http://www.logitravel.de/kreuzfahrten/mittlerer-osten-9484833.html"  data-menu-track="cruceros_oriente">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Orient
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Kreuzfahrten ab Deutschland" href="http://www.logitravel.de/kreuzfahrten/kreuzfahrten-ab-deutschland-11494417.html"  data-menu-track="cruceros_desdealemania">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Kreuzfahrten ab Deutschland
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Luxus Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/luxus-kreuzfahrten-2364694.html "  data-menu-track="cruceros_lujo">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Luxus Kreuzfahrten
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Kreuzfahrten im Winter" href="http://www.logitravel.de/kreuzfahrten/kreuzfahrten-im-winter-15805812.html"  data-menu-track="cruceros_otoño">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Kreuzfahrten im Winter
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Weihnachten und Silvester" href="http://www.logitravel.de/kreuzfahrten/kreuzfahrten-weihnachten-und-silvester-10868392.html"  data-menu-track="cruceros_navidad">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Weihnachten und Silvester
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Winterferien" href="http://www.logitravel.de/kreuzfahrten/kreuzfahrten-winterferien-11505217.html"  data-menu-track="cruceros_invierno">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Winterferien
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Oster Kreuzfahrten" href="http://www.logitravel.de/kreuzfahrten/oster-kreuzfahrten-11501976.html "  data-menu-track="cruceros_lujo">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Oster Kreuzfahrten
+                                                </a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li class="dropdown-submenu">
+                                    <a title="TOP-Angebote" href="http://www.logitravel.de/reisen-schnappchen/"  data-menu-track="chollos">
+                                        <span class="ico-chollos mr-10"></span>
+                                        Specials
+                                    </a>
+                                    <ul class="dropdown-menu masterSubmenu">
+                                        <li class="tituloMenu"><span class="ico-chollos mr-10"></span>Specials</li>
+                                            <li>
+                                                <a title="Logi Super Deal" href="http://www.logitravel.de/reisen-schnappchen/"  data-menu-track="chollos">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Logi Super Deal
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Br&#252;cken- und Feiertage" href="http://www.logitravel.de/reisen/besondere-gelegenheiten-10555530.html"  data-menu-track="puentes">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Br&#252;cken- und Feiertage
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Wochenende" href="http://www.logitravel.de/wochenende/"  data-menu-track="fines_de_semana">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Wochenendreisen 
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Sommerurlaub" href="http://www.logitravel.de/reisen/sommerurlaub-11482417.html"  data-menu-track="verano">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Sommerurlaub
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a title="Urlaub in Deutschland" href="http://www.logitravel.de/reisen-stadtereisen/deutschland-2128462.html"  data-menu-track="viajes_alemania">
+                                                    <span class="icoLineaSubMenu  mr-10"></span>
+                                                    Urlaub in Deutschland
+                                                </a>
+                                            </li>
+
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a title="Bahn" href="http://www.logitravel.de/bahn/"  data-menu-track="trenes">
+                                        <span class="ico-tren mr-10"></span>
+                                        Bahn-Flug
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Reisen Versicherungen" href="http://www.logitravel.de/reiseversicherungen/"  data-menu-track="Seguros">
+                                        <span class="ico-seguros mr-10"></span>
+                                        Versicherungen
+                                    </a>
+                                </li>
+                                <li>
+                                    <a title="Ski" href="http://www.logitravel.de/ski/"  data-menu-track="ski">
+                                        <span class=" mr-10"></span>
+                                        Ski
+                                    </a>
+                                </li>
+                    </ul>
+                </li>
+                            <li class="">
+                    <a title="Flug+Hotel"
+                       href="http://www.logitravel.de/reisen/"  data-menu-track="paquetes">
+                        Urlaubsreisen
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Stadthotels"
+                       href="http://www.logitravel.de/hotel/"  data-menu-track="hoteles">
+                        Hotel
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Fl&#252;ge"
+                       href="http://www.logitravel.de/fluege/"  data-menu-track="vuelos">
+                        Fl&#252;ge
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Flug+Hotel"
+                       href="http://www.logitravel.de/reisen-stadtereisen/"  data-menu-track="paquetes">
+                        St&#228;dtereisen
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Kreuzfahrten"
+                       href="http://www.logitravel.de/kreuzfahrten/"  data-menu-track="cruceros">
+                        Kreuzfahrten
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="Bahn"
+                       href="http://www.logitravel.de/bahn/"  data-menu-track="trenes">
+                        Bahn+Hotel
+
+                    </a>
+                </li>
+                <li class="hidden-tablet hidden-sm">
+                    <a title="Autovermietung"
+                       href="http://www.logitravel.de/autos/"  data-menu-track="coches">
+                        Mietwagen
+
+                    </a>
+                </li>
+                <li class="hidden-tablet hidden-sm">
+                    <a title="Super Deal"
+                       href="http://www.logitravel.de/reisen-schnappchen/"  data-menu-track="chollos">
+                        Super Deal
+
+                    </a>
+                </li>
+                <li class="">
+                    <a title="ski"
+                       href="http://www.logitravel.de/ski/"  data-menu-track="ski">
+                        Ski
+
+                    </a>
+                </li>
+                
+        </ul>
+        
+    </div>
+</nav>
+    </header>
+    
+<header id="mobile-header" class="mobile-header visible-retina">
+    <div id="btn-mobile" class="btn-mobile prueba"><i class="icon-reorder fa fa-reorder fa-bars"></i></div>
+    <div class="logo">
+        <a href="http://www.logitravel.de" title="Logitravel">
+            <img src="http://cdn.logitravel.de/logitravelde/images/permanentes/logo_negativo@2x.png" alt="Reisen"/>
+        </a>
+    </div>
+
+    
+    <a id="btn-phoneMobile" class="btn-phoneMobile visible-xs" title="Anrufen" href="tel:08001181191"><i class="icon-phone fa fa-phone"></i></a>
+   
+    
+    <div id="btn-buscadorMobile" class="btn-buscadorMobile hidden-xs"><i class="icon-search fa fa-search"></i></div>
+    <div id="buscadorMobile" class="buscadorMobile scrollableSearch input-group">
+        <input type="text" aria-haspopup="true" aria-autocomplete="list" role="textbox" autocomplete="off" class="textoIrACabMobile m-0" id="textoIrAMobile" name="textoIrA"
+                value="Zielland, Stadt, Hotel,..." 
+               onfocus="if ($(this).val() == 'Zielland, Stadt, Hotel,...') $(this).val('');"
+                onblur="if ($(this).val() == '') { $(this).val('Zielland, Stadt, Hotel,...'); $('#buscar').hide(); }">
+        <a id="clearSearch" class="input-group-addon transparent mr-10 mt-10 mt-xs-5">
+            <i class="icon-times icon-2x fa fa-times fa-2x"></i>
+        </a>
+    </div>
+</header>
+
+<div id="mobile-menu" class="mobile-menu visible-retina scrollable">
+    <div class="phoneMenuSection user-mobile-menu">
+        <div class="seccionMenuPhone">Profil</div>
+            <div class="enlacePerfil" id="enlacePerfilMobile" data-toggle=" collapse" data-target="#user-details" data-parent=".user-mobile-menu">
+                <i class="ico-user ico-lg user-photo"></i>
+                <div class="user-info contellipsis"><span class="ellipsis"><strong class="user">Sitzung starten</strong></span></div>
+            </div>
+        
+        
+    </div>
+    <div class="phoneMenuSection originMenu selectOrigen">
+        <div class="seccionMenuPhone">
+            Standort
+        </div>
+        <ul class="nav mb-0">
+            <li><a href="#" data-toggle="modal"><i class="icon-plane icon-lg fa fa-plane fa-lg"></i>Frankfurt</a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection masterMenu">
+        <div class="seccionMenuPhone">
+            Buchen Sie jetzt...
+        </div>
+        <ul class="nav mb-0">
+                <li><a href="http://www.logitravel.de/hotel/"  data-menu-track="hoteles" ><i class="ico-hotel"></i>Hotel</a></li>
+                <li><a href="http://www.logitravel.de/fluge/"  data-menu-track="vuelos" ><i class="ico-vuelo"></i>Fl&#252;ge</a></li>
+                <li><a href="http://www.logitravel.de/autos/"  data-menu-track="coches" ><i class="ico-coche"></i>Mietwagen</a></li>
+                <li><a href="http://www.logitravel.de/reisen/"  data-menu-track="paquetes" ><i class="ico-maleta"></i>Pauschalreisen</a></li>
+                <li><a href="http://www.logitravel.de/reisen/besondere-gelegenheiten-10555530.html"  data-menu-track="paquetes" ><i class="ico-circuito"></i>Urlaubsreisen</a></li>
+                <li><a href="http://www.logitravel.de/reisen/"  data-menu-track="paquete" ><i class="ico-playas"></i>Urlaubsziele </a></li>
+                <li><a href="http://www.logitravel.de/kreuzfahrten/"  data-menu-track="cruceros" ><i class="ico-crucero"></i>Kreuzfahrten</a></li>
+                <li><a href="http://www.logitravel.de/reisen-schnappchen/"  data-menu-track="chollos" ><i class="ico-chollos"></i>Specials</a></li>
+                <li><a href="http://www.logitravel.de/bahn/"  data-menu-track="trenes" ><i class="ico-tren"></i>Bahn-Flug</a></li>
+                <li><a href="http://www.logitravel.de/reiseversicherungen/"  data-menu-track="Seguros" ><i class="ico-seguros"></i>Versicherungen</a></li>
+                <li><a href="http://www.logitravel.de/ski/"  data-menu-track="ski" ><i class=""></i>Ski</a></li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection soporteMenu">
+        <div class="seccionMenuPhone">
+            Soporte...
+        </div>
+        <ul class="nav mb-0">
+            <li class="llamada visible-xs visible-sm">
+                <a id="llamar" href="tel:08001181191" title="Anrufen" class="boton boton-peque boton-azul pt-7 mt-3">
+                    <i class="icon-phone icon-lg fa fa-phone fa-lg blanco mr-5"></i>
+                    08001181191</a>
+            </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection socialMenu">
+        <div class="seccionMenuPhone">
+           Sozial...
+        </div>
+        <ul class="nav mb-0">
+                        <li>
+                            <a href="https://www.facebook.com/LogitravelDE" title="Logitravel auf Facebook " target="_blank"
+                               class="facebook">
+                                <span class="icon-facebook fa fa-facebook"></span>Facebook
+                            </a>
+                        </li>
+                    <li>
+                        <a href="http://twitter.com/logitravelde" title="Logitravel auf Twitter " target="_blank"
+                           class="twitter">
+                            <span class="icon-twitter fa fa-twitter"></span>Twitter
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://plus.google.com/+LogitravelDE" title="Logitravel auf Google+ " target="_blank"
+                           class="google">
+                            <span class="icon-google-plus fa fa-google-plus"></span>Google+
+                        </a>
+                    </li>
+        </ul>
+    </div>
+    <div class="phoneMenuSection paisMenu">
+        <div class="seccionMenuPhone">Land &#228;ndern...</div>
+        <div id="cambioPais" class="enlaceIdioma collapsed" data-toggle="collapse" data-target="#user-idioma" data-parent=".paisMenu">
+            <span class="flagDE ml-10 mt-5 mr-20"></span>Deutschland
+        </div>
+        <ul id="user-idioma" class="user-idioma collapse">
+                <li><a href="http://www.logitravel.es">
+                        <span class="flagES mt-15 ml-5 mr-20"></span>Spanien
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.it">
+                        <span class="flagIT mt-15 ml-5 mr-20"></span>Italien
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.pt">
+                        <span class="flagPT mt-15 ml-5 mr-20"></span>Portugal
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.com.br">
+                        <span class="flagBR mt-15 ml-5 mr-20"></span>Brasilien
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.fr">
+                        <span class="flagFR mt-15 ml-5 mr-20"></span>Frankreich
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.co.uk">
+                        <span class="flagUK mt-15 ml-5 mr-20"></span>Grossbritannien
+                    </a>
+                </li>
+                <li><a href="http://www.logitravel.fi">
+                        <span class="flagFI mt-15 ml-5 mr-20"></span>Finnland
+                    </a>
+                </li>
+            
+        </ul>
+    </div>
+</div>
+
+
+
+
+    
+
+    
+    
+
+    
+<div class="contenido p-0">
+    <!-- Presentacion Aplicacion -->
+    <div id="presentacion" class="presentacion bg-grisPalido pt-sm-50 mt-sm-10 pt-xs-20">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-sm-offset-2 col-md-8 col-md-offset-0">
+                    <!-- Descripcion Principal -->
+                    <article class="descripcion text-center-sm text-center-xs mt-50 mt-sm-40 mt-xs-0 mb-sm-20 mb-xs-50 ph-lg-30 ph-xs-25">
+                        <h2>Neue Logitravel App</h2>
+                        <p class="txtGrande normal x3 mb-25">
+							Mit der neuen Logitravel App haben Sie jetzt Zugriff auf alle Fl&#252;ge, Hotels, Z&#252;ge, F&#228;hren und Mietwagen. Logitravel, eine ganze Welt im Taschenformat.
+                        </p>
+    
+						<div class="row row-narrow">
+							<div class="col-xxs-12 col-xs-7 col-sm-7 col-md-7 mb-xs-10">
+                                <a class="top-download pv-12" href="https://geo.itunes.apple.com/DE/app/logitravel/id820411473?mt=8&amp;at=10lJDC&amp;ls=1&amp;pt=492790&amp;ct=LandingApps" data-app-menu-track="AppStore" >
+                                    <img src="http://cdn.logitravel.de/comun/images/moviles/badges/appstore/appstore_de.png" alt="Logitravel App Store Download" />
+                                    <!--<i class="fa fa-apple fa-2x blanco shadow-black mr-10"></i><span class="titulo blanco shadow-black">App Store</span>-->
+                                </a>
+							</div>
+							<div class="col-xxs-12 col-xs-5 col-sm-5 col-md-5 mb-xs-10">
+                                <a class="top-download pv-12" href="https://play.google.com/store/apps/details?id=com.logitravel.logitravel&amp;referrer=utm_source=logitravel&amp;utm_medium=landing&amp;utm_campaign=LandingApps" data-app-menu-track="GooglePlay" >
+                                    <img src="http://cdn.logitravel.de/comun/images/moviles/badges/playstore/googleplay_de.png" alt="Logitravel Play Store Download" />
+                                    <!--<i class="fa fa-android fa-2x blanco shadow-black mr-10"></i><span class="subtitulo blanco shadow-black">Google Play</span>-->
+                                </a>
+							</div>
+						</div>
+
+                    </article>
+                </div>
+
+                    
+                <div class="col-xxs-12 col-xs-10 col-xs-offset-2 col-sm-7 col-sm-offset-4 col-md-5 col-md-offset-0 col-lg-4">
+                    <div class="phone-holder relative" id="phone-holder">
+                        <figure>
+                            <img class="lazy" alt="#" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/comun/images/moviles/phone-in-hand.png" />
+							<noscript><img alt="#" src="http://cdn.logitravel.de/comun/images/moviles/phone-in-hand.png"></noscript>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hightlights -->
+    <section id="hightlights" class="hightlights bg-normal pv-50 text-center">
+        <div class="container">
+            <figure>
+				<img class="lazy" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/comun/images/moviles/icoApp2014.png" alt="App Logitravel" />
+            </figure>
+            <h1 class="blanco shadow-black mt-0 mb-30">Ihre Reisen aus einer Hand</h1>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Suchen</span>
+						<p class="blanco shadow-black txtGrande x2">Die besten Reiseangebote aus einer Hand erreichbar</p>
+						<i class="fa fa-search fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Vergleichen</span>
+						<p class="blanco shadow-black txtGrande x2">Weil wir f&#252;r jede Art von Produkt viele Optionen haben</p>
+						<i class="fa fa-thumbs-o-up fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Buchen</span>
+						<p class="blanco shadow-black txtGrande x2">Buchen Sie einfach und bequem von Ihrem Handy aus</p>
+						<i class="fa ico-maleta fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Reisef&#252;hrer </span>
+						<p class="blanco shadow-black txtGrande x2">Inkludiert GRATIS Reisef&#252;hrer f&#252;r mehr als 350 Reiseziele</p>
+						<i class="fa fa-book fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Teilen</span>
+						<p class="blanco shadow-black txtGrande x2">Reisen teilen mit Ihren Freunden auf Facebook und Twitter</p>
+						<i class="fa fa-share-square-o fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Alle Landkarten</span>
+						<p class="blanco shadow-black txtGrande x2">Ihr Reiseziel auf der Landkarte in jedem Moment finden</p>
+						<i class="fa fa-globe fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Zauberei</span>
+						<p class="blanco shadow-black txtGrande x2">Die besten Optionen anhand Ihrer Position anzeigen, wie von Zauberhand</p>
+						<i class="fa fa-magic fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Nachrichten</span>
+						<p class="blanco shadow-black txtGrande x2">Nachrichten &#252;ber Ihre Buchungen und die besten Angebote erhalten</p>
+						<i class="fa fa-bell fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                <div class="col-sm-4">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15 box transparent unbordered br5">
+                        <span class="tituloB x2 likeHtag mb-10 visible">Kalender</span>
+						<p class="blanco shadow-black txtGrande x2">Ihre Reisedaten automatisch zu Ihrem Kalender zuf&#252;gen</p>
+						<i class="fa fa-calendar fa-8x visible mt-15 blanco shadow-black visible"></i>
+                    </div>
+				</div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Lineas de Negocio -->
+    <div class="lineasNegocio pv-50 p-xs-0">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-5 col-md-3 col-md-offset-1 hidden-xs">
+                    <div class="module carouselPantallas relative">
+                        <!-- Phone Mockup -->
+                        <div class="cont-phone">
+                            <img class="img-responsive" id="phone-mockup" src="http://cdn.logitravel.de/comun/images/moviles/phone-mockup.png" alt="iPhone Mockup" />
+                        </div>
+                        <!-- Carousel de Pantallas -->
+                        <div class="cont-owl-extra">
+                            <div class="cont-owl relative hidden-xs">
+					            <div class="loading-owl height400 text-center">
+						            <i class="fa fa-spinner fa-spin colorPrincipal fa-3x"></i> 
+					            </div>
+                                <div id="carouselPantallas" class="owl-carousel owl-theme no-pagination" data-items="1-1-1-1-1">
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/comun/images/moviles/pantalla-vuelos.png" alt="Fl&#252;ge mit Rabatt" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/comun/images/moviles/pantalla-hotel.jpg" alt="Die g&#252;nstigsten Hotels" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/comun/images/moviles/pantalla-cruceros.png" alt="Alle Kreuzfahrten" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/comun/images/moviles/pantalla-trenes.png" alt="Bahntickets im gleichen Moment" />
+                                        </div>
+                                        <div class="item p-0">
+                                            <img class="lazy img-responsive" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/comun/images/moviles/pantalla-coches.jpg" alt="Mieten Sie den besten Mietwagen" />
+                                        </div>
+                             
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <figure class="text-center mb-20 visible-xs">
+                        <img class="lazy" alt="#" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://placehold.it/390x620" />
+						<noscript><img alt="#" src="http://placehold.it/390x620"></noscript>
+                    </figure>
+                </div>
+                <div class="col-sm-7 col-md-5 col-md-offset-2 col-lg-6">
+                    <div class="panel-group pv-10" id="accordionProducts">
+
+                            <div id="product-1" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-1"><i class="ico-vuelo ico-lg valignMiddle mr-15 pb-3"></i>Fl&#252;ge mit Rabatt</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-1" class="panel-collapse collapse in">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Ausser dass wir alle herk&#246;mmlichen Fluggesellschaften anbieten:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Verf&#252;gen wir &#252;ber alle LOW COST Fluggesellschaften</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Vergleichen wir alle und bieten Ihnen den besten Preis an</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Wenden wir den Residentenrabatt an</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-2" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-2"><i class="ico-hotel ico-lg valignMiddle mr-15 pb-3"></i>Die g&#252;nstigsten Hotels</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-2" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Ausser den g&#252;nstigsten Hotels, verf&#252;gen wir &#252;ber einzigartige Angebote in einem Grossteil der ausgew&#228;hlten Hotels:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Leisten Sie eine Anzahlung und den Rest wenn Sie die Reise antreten</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Kinder gratis</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Ohne Stornierungsgeb&#252;hren</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-3" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-3"><i class="ico-vuelo ico-lg valignMiddle mr-15 pb-3"></i>Alle Kreuzfahrten</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-3" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">ALLES KREUZFAHRTEN der Welt in Ihrer Hand!</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Mehr als 5.500 Kreuzfahrten</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Bester Preis garantiert</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Exklusive Promotionen und Rabatte von Logitravel</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Kontaktieren Sie kostenlos unsere spezialisierten Berater</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-4" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-4"><i class="ico-tren ico-lg valignMiddle mr-15 pb-3"></i>Bahntickets im gleichen Moment</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-4" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Wir zeigen Ihnen den schnellsten und einfachsten Weg um Bahntickets zu kaufen:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>In nur zwei Schritten</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Sie k&#246;nnen Ihre Kundenkarten nutzen</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Erhalten Sie das E-Ticket auf Ihr Handy</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="product-5" class="panel panel-default">
+                                <div class="panel-heading bg-grisFondo">
+                                    <h3 class="panel-title">
+                                        <a data-toggle="collapse" data-parent="#accordionProducts" href="#collapse-5"><i class="ico-coche ico-lg valignMiddle mr-15 pb-3"></i>Mieten Sie den besten Mietwagen</a>
+                                    </h3>
+                                </div>
+                               
+                                 <div id="collapse-5" class="panel-collapse collapse ">
+                               
+                                    <div class="panel-body bg-grisFondo">
+                                        <p class="txtGrande">Wo Sie bei anderen Webseiten in einem Spielzeugauto fahren m&#252;ssen, erhalten Sie bei Logitravel zum gleichen Preis ein grosses Auto:</p>
+                                        <ul class="fa-ul txtGrande pl-25 mt-10">
+                                                <li><i class="fa fa-li fa-check success"></i>Mit der Garantie der besten Mietwagenfirmen</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Sie k&#246;nnen den Mietwagen an einem anderen Ort zur&#252;ckgeben</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Geben Sie Ihre Flugnummer ein (wenn Sie per Flugzeug anreisen)</li>
+                                                <li><i class="fa fa-li fa-check success"></i>Buchen Sie in nur zwei Schritten</li>
+                                        </ul> 
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+	<!-- Datos numéricos -->
+	<div id="numeros" class="numeros bg-debil pv-30 mt-25 text-center">
+		<div class="container">
+            <div class="row row-narrow">
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-apple fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+721K</span>
+                        <p class="normal txtGrande x2">iOS-Downloads</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-android fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+91K</span>
+                        <p class="normal txtGrande x2">Android-Downloads</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-user fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">9M</span>
+                        <p class="normal txtGrande x2">Kunden</p>
+                    </div>
+                    </div>                         
+                    <div class="col-xxs-12 col-xs-6 col-sm-3">
+                    <div class="p-40 p-sm-30 p-xs-20 mb-xs-15">
+                        <i class="fa fa-star-o fa-4x principal mr-10 mr-sm-0"></i><br class="visible-sm" /><span class="titularDestacado x2">+690</span>
+                        <p class="normal txtGrande x2">Bewertungen</p>
+                    </div>
+                    </div>                         
+            </div>
+        </div>
+	</div>
+
+	<!-- Enviar enlace -->
+	<section id="enviarEnlace" class="enviarEnlace text-center">
+		<div class="container">
+			<h3 class="titulo x2 likeHtag mb-20">Wir senden den Link auf Ihr Handy!</h3>
+			<div class="row">
+				<form id="signup" role="form" class="form-inline">
+					<div class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-5 mt-5">
+						<label for="NewsletterEmail" class="sr-only">E-Mail</label>
+						<input type="email" placeholder="E-Mail Adresse" id="NewsletterEmail" class="form-control p-0 large">
+					</div>
+					<div class="col-xxs-12 col-xs-4 col-sm-3 col-md-2 col-lg-2">
+                        <a id="btnEnviarEnlace" class="btn btn-default btn-block pv-12" data-app-menu-track="SendMail"><span class="subtitulo blanco shadow-black">Senden</span></a>
+					</div>
+                    <div id="legalInfoMsgNewsletterEmail" style="font-size:115%;" class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-10">Bei absenden des Formulars, erkläre ich, dass ich die <a href="http://cdn.logitravel.de/logitravelde/htm/de/AGB.htm" target="_blank">Allgemeinen Geschäftsbedingungen</a> und die <a href="http://cdn.logitravel.de/logitravelde/htm/de/privacidad.htm" target="_blank"> Datenschutzbestimmungen</a> der Webseite gelesen und akzeptiert habe.  </div>
+                    <div id="msgTextNewsletterEmail" class="col-xxs-12 col-xs-8 col-sm-offset-1 col-sm-7 col-md-6 col-md-offset-2 col-lg-6 col-lg-offset-2 mb-10"></div>
+				</form>
+			</div>	
+		</div>
+	</section>
+
+	<!-- Botones sociales -->
+	<div class="btnSociales">
+        <a title="Compartir en Google Plus" href="https://plus.google.com/share?url=http://www.logitravel.de/apps" target="_blank" data-app-menu-track="GooglePlus" ><i class="fa fa-google-plus-square fa-3x"></i></a>
+        <a title="Compartir en Twitter" href="http://twitter.com/home?status=Reisen leicht gemacht mit der neuen Logitravel App http://www.logitravel.de/apps" target="_blank" data-app-menu-track="Twitter" ><i class="fa fa-twitter-square fa-3x"></i></a>
+        <a title="Compartir en Facebook" href="http://www.facebook.com/sharer.php?s=100&amp;p[url]=http%3a%2f%2fwww.logitravel.de%2fapps&amp;p[images][0]=http%3a%2f%2fcdn.logitravel.de%2fcomun%2fimages%2fmoviles%2fphone-in-hand.png&amp;p[title]=Neue+Logitravel+App&amp;p[summary]=Reisen+leicht+gemacht+mit+der+neuen+Logitravel+App" target="_blank" data-app-menu-track="Facebook" ><i class="fa fa-facebook-square fa-3x"></i></a>
+    </div>
+</div>
+
+
+<!-- MODAL REMOTE -->
+<div class="modal fade lg" id="modalRemote" tabindex="-1" data-backdrop="static" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+				<span class="titularDestacado" id="titleModal"></span>
+			</div>
+			<div class="modal-body bg-grisFondo"></div>
+            <div class="modal-footer">
+				<button id="#" data-dismiss="modal" class="btn btn-success pull-right" type="button">Schliessen</button>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+    
+<div class="modal fade lg" id="playVideo" tabindex="-1" data-keyboard="true"  role="dialog" aria-labelledby="addFlightModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-body p-0">
+				<div class="flex-video vimeo">
+						<iframe allowfullscreen="" src="//www.youtube.com/embed/PVxWJe6iVgw" frameborder="0"></iframe>
+				</div>
+			</div>
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<button id="goTo" class="hidden"></button>
+
+
+
+    <div class="modal modal-home fade xlg " id="modalRemoteLogin" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-login" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Zur&#252;ckkehren
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal modal-home fade xlg " id="modalRemoteGeo" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <a id="volver-principal" href="#principal-page" class="txtGrande pv-15 pointer" style="display: none;">
+                    <i class="fa fa-angle-left fa-lg icon-angle-left icon-lg mr-10 grisMedio "></i>
+                    Zur&#252;ckkehren
+                </a>
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+
+<div class="modal modal-home fade xlg " id="modalRemoteAirports" tabindex="-1" data-keyboard="true" role="dialog" aria-labelledby="modalRemoteLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            </div>
+            <div class="modal-body"></div>
+        </div>
+    </div>
+</div>
+<div class="modal md fade full-width" id="modalContacto" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                <div class="titularDestacado" id="titleModal"></div>
+            </div>
+            <div class="modal-body"></div>
+            <div class="modal-footer">
+                <span class="txtGrande normal visible text-left"><strong></strong> </span>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal lg fade" id="modal-createAnswhere" tabindex="-1" role="dialog" aria-labelledby="modal-createAnswhereLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">x</span></button>
+                <h2 class="modal-title grisMedio" id="modal-FlightRatesLabel">Crea tu alerta</h2>
+                <div class="modal-body">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+<footer class="condensed">
+    <div class="container">
+        <!-- Links -->
+                <div class="wrapperLinks hidden-xs hidden-phone">
+                        <h6>Infos und Hilfe</h6>
+                    <ul class="linksInfo unstyled list-unstyled">
+                                <li>
+                                    <a href="/faq/" title="FAQ" target="_blank">FAQ</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.de/logitravelde/htm/de/AGB.htm" title="AGB" target="_blank">AGB</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.de/logitravelde/htm/de/agbextern.htm" title="AGB&#39;S Extern" target="_blank">AGB&#39;S Extern</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.de/logitravelde/htm/de/impressum.htm" title="Impressum" target="_blank">Impressum</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.de/logitravelde/htm/de/Datenschutz.htm" title="Datenschutz" target="_blank">Datenschutz</a>
+                                </li>
+                                <li>
+                                    <a href="http://cdn.logitravel.de/logitravelde/htm/de/Verfahrensverzeichnis.htm" title="Verfahrensverzeichnis" target="_blank">Verfahrensverzeichnis</a>
+                                </li>
+                                <li>
+                                    <a href="/Kontaktieren-Sie-uns/" title="Kontakt" target="_blank">Kontakt</a>
+                                </li>
+                                <li>
+                                    <a href="/apps/" title="Handy App" target="_blank">Handy App</a>
+                                </li>
+                                <li>
+                                    <a href="/affiliate/home.aspx" title="Affiliate" target="_blank">Affiliate</a>
+                                </li>
+                                <li>
+                                    <a href="/uber-uns/home.aspx" title="Uber Uns" target="_blank">Uber Uns</a>
+                                </li>
+                                <li>
+                                    <a href="http://www.logitravel.de/arbeit" title="Arbeit" target="_blank">Arbeit</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="wrapperComunidad hidden-xs hidden-phone">
+                        <h6>Reisen und Urlaub</h6>
+                    <ul class="linksComunidad unstyled list-unstyled">
+                                <li>
+                                    <a href="/reiseberichte/" title="Reisef&#252;hrer" target="_blank">Reisef&#252;hrer</a>
+                                </li>
+                                <li>
+                                    <a href="/hotel/pension-2774557.html" title="Pensionen" target="_blank">Pensionen</a>
+                                </li>
+                                <li>
+                                    <a href="/hotel/unterkunft-2761478.html" title="Unterkunft" target="_blank">Unterkunft</a>
+                                </li>
+                                <li>
+                                    <a href="/fluge/billigfluege-1612508.html" title="Billigfl&#252;ge" target="_blank">Billigfl&#252;ge</a>
+                                </li>
+                                <li>
+                                    <a href="/hotel/hotelketten-5000167.html" title="Hotelketten" target="_blank">Hotelketten</a>
+                                </li>
+                                <li>
+                                    <a href="/reiseversicherungen/" title="Reiseversicherungen" target="_blank">Reiseversicherungen</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="wrapperInternacional hidden-xs hidden-phone">
+                        <h6>International</h6>
+                    <ul class="linksInternacional unstyled list-unstyled">
+                                <li>
+                                    <span class="flagES"></span>
+                                
+                                    <a href="http://www.logitravel.es" title="Spanien" rel="nofollow" target="_blank">Spanien</a>
+                                </li>
+                                <li>
+                                    <span class="flagIT"></span>
+                                
+                                    <a href="http://www.logitravel.it" title="Italien" rel="nofollow" target="_blank">Italien</a>
+                                </li>
+                                <li>
+                                    <span class="flagPT"></span>
+                                
+                                    <a href="http://www.logitravel.pt" title="Portugal" rel="nofollow" target="_blank">Portugal</a>
+                                </li>
+                                <li>
+                                    <span class="flagBR"></span>
+                                
+                                    <a href="http://www.logitravel.com.br" title="Brasilien" rel="nofollow" target="_blank">Brasilien</a>
+                                </li>
+                                <li>
+                                    <span class="flagFR"></span>
+                                
+                                    <a href="http://www.logitravel.fr" title="Frankreich" rel="nofollow" target="_blank">Frankreich</a>
+                                </li>
+                                <li>
+                                    <span class="flagUK"></span>
+                                
+                                    <a href="http://www.logitravel.co.uk" title="Grossbritannien" rel="nofollow" target="_blank">Grossbritannien</a>
+                                </li>
+                                <li>
+                                    <span class="flagFI"></span>
+                                
+                                    <a href="http://www.logitravel.fi" title="Finnland" rel="nofollow" target="_blank">Finnland</a>
+                                </li>
+                    </ul>
+                </div>
+                <div class="legal">
+    <div class="copyRight">
+        <p>
+            Logitravel GmbH
+- Handelsregister: Amtsgericht Stuttgart, HRB 737384 USt-IDNr: DE 277849632        </p>
+    </div>
+</div>
+
+    </div>
+
+<div id="certificadosDE" class="hidden-phone hidden-xs">
+	<div class="container">
+
+
+		<div class="row-fluid row hidden-phone hidden-xs">
+				<div class="TUV span3 col-sm-3 col-md-3 text-center">
+					<a target="_blank" href="http://www.safer-shopping.de/zertifikat/Logitravel-de.html">
+						<img alt="T&#220;V Zertifikat" src="http://cdn.logitravel.de/logitravelde/images2012/tuv_pie.png" />
+						<span class="txtMini grisMedio visible pt-10">Logitravel.de ist T&#220;V-gepr&#252;ft auf Sicherheit, Qualit&#228;t und Transparenz</span>
+					</a>
+				</div>
+									    <div class="DRV span3 col-sm-3 col-md-3 text-center">
+                    <a target="_blank" href="http://www.drv.de/drv/der-verband.html">
+                        <img alt="Deutschen Reiseverband" src="http://cdn.logitravel.de/logitravelde/images2012/drv_pie.png" />
+                        <span class="txtMini grisMedio visible pt-10">Logitravel.de ist Mitglied im Deutschen Reiseverband</span>
+                    </a>
+                </div>
+									    <div class="IATA span3 col-sm-3 col-md-3 text-center">
+                    <a target="_blank" href="http://www.iata.org/pressroom/facts_figures/fact_sheets/Pages/agency.aspx">
+                        <img alt="International AirTransport Association" src="http://cdn.logitravel.de/logitravelde/images2012/iata_pie.png" />
+                        <span class="txtMini grisMedio visible pt-10">Logitravel.de ist Mitglied der International Air Transport Association</span>
+                    </a>
+                </div>
+										<div class="trustedShop span3 col-sm-3 col-md-3 text-center">
+					<a target="_blank" href="https://www.trustedshops.com/shop/certificate.php?shop_id=X54D980C730471F3A2B989D12E4B9F5FC">
+						<img alt="Trusted Shop" src="http://cdn.logitravel.de/logitravelde/images2012/trustedShop_pie.png" />
+						<span class="txtMini grisMedio visible pt-10">Logitravel.de ist Trusted Shopsgepr&#252;ft</span>
+					</a>
+				</div>
+		</div>
+	</div>
+</div>
+    <div id="divPieVerif" class="divPieVerif hidden-phone hidden-xs hidden-sm hidden-tablet">
+        <!--POP-UP VERIFICACION VERISIGN -->
+        <img class="lazy" src="http://cdn.logitravel.de/comun/images/shim.gif" data-original="http://cdn.logitravel.de/logitravelde/images2012/pieIconos.png"
+             alt="Footer" usemap="#Map_verisign" />
+        <map name="Map_verisign" id="Map_verisign">
+            <area shape="rect" coords="5,1,67,24" href="https://sealinfo.thawte.com/thawtesplash?form_file=fdf/thawtesplash.fdf&dn=ssl.logitravel.de&lang=de"
+                  target="_blank" alt="Thawte" />
+        </map>
+    </div>
+</footer>
+
+    <script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/jquery/jquery.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/jquery/jqueryui.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/bootstrap/bootstrap.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/bootstrap/bootstrap-dropdown-hover.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/jquery/jquery.lazyload.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/onerror.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/channels/applicationchannels.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/modalremote.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/bindings.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/visuals.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/cookies.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/tracking.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/geolocation.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/hacks/detectmobilebrowser.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/hacks/placeholders-ie-lt9.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://www.logitravel.de/commoncomponents/globalsjs?application=logitravelde"></script>
+<script type="text/javascript" language="javascript" src="http://autocomplete.logitravel.com/static/js/borg_jquery.js"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/topheader/gotopage.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/topheader/originselector.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/topheader/account.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/crossdomain.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/helpers/dynamicloader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/topheader/maintopheader.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/topheader/menu.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/topheader/lastsearch.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/topheader/setlanguagecurrency.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/common/jquery/owl.carousel.min.js?140120161730" crossorigin="anonymous"></script>
+<script type="text/javascript" language="javascript" src="http://cdn.logitravel.de/resources/javascript/mobile/appslanding/landing.js?020720151753" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        var aplicacion='logitravelde';
+var dominioCDN='http://cdn.logitravel.de';
+var idioma='de';
+var _glPr='1';
+var geolocalizar=false;
+var urlCompletaAnu='http://www.logitravel.de';
+var entradaMedioOk='';
+var newHeaderActive='1';
+var GlobalValue='http://www.logitravel.de/operativalogi/';
+var toolfactory=toolfactory || {};
+toolfactory.Common=toolfactory.Common || {};
+toolfactory.Common.Helpers=toolfactory.Common.Helpers || {};
+toolfactory.Common.Helpers.Onerror=toolfactory.Common.Helpers.Onerror || {};
+toolfactory.Common.Helpers.Onerror.reportJavascriptEnabled=false;
+toolfactory.Common.Helpers.Onerror.reportControllerUrl='';
+
+var cookie='tokenlogitravelde';
+var messageExpires=60000;
+var usuarioWebCookie='32557934196';
+var pathAccount='https://api.logitravel.com/account';
+var sessionCode='c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c';
+var sesion='c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c';
+var withoutMessages='Sie haben keine Nachricht';
+var urlHTTPS='https://ssl.logitravel.de';
+var litMessage='Nachrichten';
+var litUnRead='(ungelesen)';
+var litMessageFrom='Nachricht ';
+var litMessageTo='bis';
+var litAllMessages='Alle Nachrichten ansehen';
+var urlOperativa='http://www.logitravel.de/operativaLogi';
+var litMisBusquedas='Ihre letzten Suchen...';
+var SearchExpires='300000';
+var idioma='de';
+var USW_codigo='32557934196';
+var litSinBusqueda='Sie haben noch keine Suche durchgeführt';
+var litBuscando='Suche läuft ';
+var GoogleAnalytics='UA-43699062-1';
+
+
+var paramsAnuncio='';
+
+var sessionCode='c8f93d3f-9bdd-47ad-ae3d-eb7f9f57193c';
+appsLiterals=new Array();
+appsLiterals[0]='E-Mail wird gesendet...';
+appsLiterals[1]='E-Mail wurde korrekt versendet';
+appsLiterals[2]='Es ist ein Fehler beim Senden der E-Mail aufgetreten. Bitte versuchen Sie es erneut.';
+var geolocalizar=false;
+
+    </script>
+    
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+title=:: Editora Abril - Widget Assinaturas ::
+url=http://barrasassine.abril.com.br/novabarra/national/index.html
+html=<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Widget Assinaturas" />
+		<meta name="keywords" content="National, assinatura" />
+		<meta name="author" content="Editora Abril | Designer: Érika" />
+		<meta name="viewport" content="width=device-width,initial-scale=1" />
+		<link rel="icon" type="image/x-icon" href="favicon.ico" />
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+		<link rel="stylesheet" type="text/css" href="http://barrasassine.abril.com.br/minicupom/901/widget/901.css" />
+		<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<title>:: Editora Abril - Widget Assinaturas ::</title>
+	</head>
+	<body>
+		<div id="barra_assinaturas">
+			<div class="assinaturas">
+				<div class="text">
+				<span class="title">ASSINATURAS</span><br><br>
+				Veja outras assinaturas,
+				<a href="http://www.assine.abril.com.br/portal/categoriasDestaquesRevista!listarCategoria.action?codCategoria=32&origem=sr_ng_ba_novabarra&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_novabarra" target="_blank">clique aqui.</a>
+				</div>
+				<div class="logos">
+					<div class="linha1">
+						<a href="http://abr.ai/1ESmc4v" target="_blank"><img class="logo_iba" src="images/logo_iba.png" height="auto" width="40%" alt="Abril Sac"></a>
+						<div class="divisor_50"></div>
+						<a href="http://www.abril.com.br/" target="_blank"><img class="logo_abrilcom" src="images/logo_abrilcom.png" height="auto" width="30%" alt=""></a>
+						<div class="divisor_50 middle_logos"></div>
+					</div>
+					<div class="linha2">
+						<a href="https://www.sac.abril.com.br/" target="_blank"><img class="logo_sac" src="images/logo_sac.png" height="auto" width="30%" alt="Abril Sac"></a>
+						<div class="divisor_50"></div>
+						<a href="https://www.clubedoassinante.abril.com.br/clube/index.action" target="_blank"><img class="logo_clube" src="images/logo_clube.png" height="auto" width="35%" alt="Clube do Assinante">
+					</div>
+					</a>
+				</div>
+			</div>
+			<div class="divisor_250"></div>
+			<div class="AssineAbril">
+				<span class="title"><a href="http://www.assine.abril.com.br/portal/categoriasDestaquesRevista!listarCategoria.action?codCategoria=32&origem=sr_ng_ba_novabarra&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_novabarra" target="_blank">AssineAbril.com</a></span>
+				<div class="content_revistas">
+					<!-- Revista 1 -->
+					<div class="AssineRevista national">
+						<a href="http://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=926&form.item[0].qtdEdicoesVigencia=14&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="https://www.assine.abril.com.br/imagem/AssineAbril/novo/capa3n_national.jpg" alt="Assine NATIONAL GEOGRAPHIC" width="75%" height="auto"></a><br>
+						<span class="nome_revista"><br>NATIONAL</span><br><span class="oferta_especial">Oferta Especial!</span><br>8 x R$ 33,25<br>
+						<a href="http://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=926&form.item[0].qtdEdicoesVigencia=14&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="images/bt_assine.jpg" height="auto" width="80%" alt=""></a>
+					</div>
+					<div class="divisor_215"></div>
+					<!-- Revista 2 -->
+					<div class="AssineRevista super">
+						<a href="http://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=970&form.item[0].qtdEdicoesVigencia=21&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="https://www.assine.abril.com.br/imagem/AssineAbril/novo/capa3n_super.jpg" alt="Assine SUPERINTERESSANTE" width="75%" height="auto"></a><br>
+						<span class="nome_revista"><br>SUPERINTERESSANTE</span><br><span class="oferta_especial">+ 6 meses grátis</span><br>10 x R$ 21,00<br>
+						<a href="http://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=970&form.item[0].qtdEdicoesVigencia=21&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="images/bt_assine.jpg" height="auto" width="80%" alt=""></a>
+					</div>
+					<div class="divisor_215"></div>
+					<!-- Revista 3 -->
+					<div class="AssineRevista viagem">
+						<a href="http://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=959&form.item[0].qtdEdicoesVigencia=12&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="https://www.assine.abril.com.br/imagem/AssineAbril/novo/capa3n_viagem.jpg" alt="Assine VIAGEM" width="75%" height="auto"></a><br>
+						<span class="nome_revista"><br>VIAGEM E TURISMO</span><br><span class="oferta_especial">Oferta Especial</span><br>8 x R$ 22,50<br>
+						<a href="http://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=959&form.item[0].qtdEdicoesVigencia=12&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="images/bt_assine.jpg" height="auto" width="80%" alt=""></a>
+					</div>
+					<div class="divisor_215"></div>
+					<!-- Revista 4 -->
+					<div class="AssineRevista quatrorodas">
+						<a href="https://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=921&form.item[0].qtdEdicoesVigencia=21&form.item[0].qtdParcelas=10&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="https://www.assine.abril.com.br/imagem/AssineAbril/novo/capa3n_4rodas.jpg" alt="Assine QUATRO RODAS" width="75%" height="auto"></a><br>
+						<span class="nome_revista"><br>QUATRO RODAS</span><br><span class="oferta_especial">+ 6 meses grátis</span><br>10 x R$ 21,00<br>
+						<a href="https://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=921&form.item[0].qtdEdicoesVigencia=21&form.item[0].qtdParcelas=10&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="images/bt_assine.jpg" height="auto" width="80%" alt=""></a>
+					</div>
+					<div class="divisor_215 middle"></div>
+					<!-- Revista 5 -->
+					<div class="AssineRevista mundo">
+						<a href="https://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=946&form.item[0].qtdEdicoesVigencia=21&form.item[0].qtdParcelas=10&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="https://www.assine.abril.com.br/imagem/AssineAbril/novo/capa3n_mundo.jpg" alt="Assine MUNDO ESTRANHO" width="75%" height="auto"></a><br>
+						<span class="nome_revista"><br>MUNDO ESTRANHO</span><br><span class="oferta_especial">+ 6 meses grátis</span><br>10 x R$ 18,20<br>
+						<a href="https://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=946&form.item[0].qtdEdicoesVigencia=21&form.item[0].qtdParcelas=10&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="images/bt_assine.jpg" height="auto" width="80%" alt=""></a>
+					</div>
+					<div class="divisor_215 middle"></div>
+					<!-- Revista 6 -->
+					<div class="AssineRevista vip">
+						<a href="https://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=987&form.item[0].qtdEdicoesVigencia=12&form.item[0].qtdParcelas=8&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="https://www.assine.abril.com.br/imagem/AssineAbril/novo/capa3n_vip.jpg" alt="Assine VIP" width="75%" height="auto"></a><br>
+						<span class="nome_revista"><br>VIP</span><br><span class="oferta_especial">Oferta Especial</span><br>8 x R$ 21,00<br>
+						<a href="https://www.assine.abril.com.br/portal/carrinho!adicionarProdutoRedirect.action?form.item[0].codCampanha=F6XR&form.item[0].codProjeto=987&form.item[0].qtdEdicoesVigencia=12&form.item[0].qtdParcelas=8&origem=sr_ng_ba&utm_source=editoriais&utm_medium=sites_editoriais&utm_campaign=sr_ng_ba" target="_blank"><img src="images/bt_assine.jpg" height="auto" width="80%" alt=""></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

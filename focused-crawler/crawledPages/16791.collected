@@ -1,0 +1,1098 @@
+title=Meeru Island Resort & Spa | North Male' Atoll | Maldives | 4.5 Star Resort
+url=http://www.meeru.com/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="ontent-type" content="text/html; charset=utf-8" />
+<title>Meeru Island Resort &amp; Spa | North Male' Atoll | Maldives | 4.5 Star Resort</title>
+<meta name="description" content="Meeru Island Resort &amp; Spa" />
+<meta name="author" content="pro.NET Communications" />
+<meta http-equiv="cleartype" content="on" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<!-- <link rel="shortcut icon" href="favicon.ico" /> -->
+<link rel="icon" type="image/png" href="images/apple-touch-icon.png" />
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
+<script type="text/javascript" language="javascript" src="js/jquery.tools.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="calendar/jquery-ui-1.8.21.custom.css" />
+<script type="text/javascript" src="calendar/jquery-ui-1.8.21.custom.min.js"></script>
+
+<link rel="stylesheet" href="css/styles_screen.css" media="screen" />
+
+<!-- Added to force <strong> tags to render bold as per KG's requests Jan 20/13 -->
+<style type="text/css">
+	strong {
+		font-weight: bold;
+	}
+</style>
+
+<!-- Added to force page breaks on print at specified locations Jan 27/14 -->
+<style>
+	.break {
+		page-break-before: always;
+	}
+</style>
+
+<!-- Added to force trailing page breaks as a function of browser window height Jan 28/14 -->
+<style>
+	.trailing_breaks {
+	}
+</style>
+
+<script type="text/javascript" src="fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+<link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+
+<link rel="stylesheet" href="css/styles_print.css" media="print" />
+<!-- Using Raleway from Google WebFonts & Entypo (icons) from  http://www.entypo.com/ by Daniel Bruce -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,300,200,100' rel='stylesheet' type='text/css' />
+<!--[if (lt IE 9) & (!IEMobile)]>
+<link rel="stylesheet" href="css/layout.css" media="all">
+<![endif]-->
+<script type="text/javascript" language="javascript" src="js/jquery.js"></script>
+<script type="text/javascript" language="javascript" src="js/js_functions.js"></script>
+
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+jQuery(document).ready(function($) {
+   $(".fancylink").fancybox();
+
+//   if ($(location).attr('pathname') == "/promotions.php") {
+   if ($(location).attr('pathname').indexOf("promotions.php") > 0) {
+      var ch = parseInt($("#contentbox").height()) + 120;
+      $('#div_content').height(ch);
+	  var ch2 = ch - 40;
+	  $('#div_promo_content').height(ch2);
+   }
+   if ($(location).attr('pathname').indexOf("booking_3.php") > 0) {
+//      var ch = parseInt($("#contentbox").height()) + 320;
+//      $('#div_content').height(ch);
+//	  var ch2 = ch - 40;
+//	  $('#div_booking_3_content').height(ch2);
+   }
+   if ($(location).attr('pathname').indexOf("booking_4.php") > 0) {
+//      var ch = parseInt($("#contentbox").height()) + 320;
+//      $('#div_content').height(ch);
+//	  var ch2 = ch - 40;
+//	  $('#div_booking_4_content').height(ch2);
+   }
+
+   if ($(location).attr('pathname').indexOf("careers.php") > 0) {
+//      var ch = parseInt($("#contentbox").height()) + 150;
+//      $('#div_content').height(ch);
+//	  var ch2 = ch - 63;
+//	  $('#div_careers_content').height(ch2);
+   }
+
+   if ($(location).attr('pathname').indexOf("blog.php") > 0) {
+//      var ch = parseInt($("#contentbox").height()) + parseInt($("#div_news").height()) + 320;
+//      $('#div_content').height(ch);
+//	  var ch2 = ch - 63;
+//	  $('#div_news_content').height(ch2);
+   }
+
+
+   if ($('#div_media').length){
+//      $('#div_media').hide();
+   }
+
+   $(function() {
+	  
+      $('#check_in_date').datepicker({
+	     inline:true,
+		 changeMonth:true,
+		 changeYear:true
+	  });
+	  $('#check_out_date').datepicker({
+	     inline:true,
+		 changeMonth:true,
+		 changeYear:true
+	  });
+
+	  $("#img_cal_1").click(function () {
+   	     $('#check_in_date').focus();
+      });
+	  $("#img_cal_2").click(function () {
+   	     $('#check_out_date').focus();
+      });
+   });
+
+   old_height = parseInt($('#div_content').height());
+   old_top = parseInt($('#fc').position().top);
+   var d = parseInt($('#div2').height()) - 22;
+   var dh = parseInt($('#div2').height());
+   
+   var t = parseInt($('#booking').position().top) + d;
+   if ((navigator.userAgent.match(/safari/gi)) || (navigator.userAgent.match(/firefox/gi))) {
+      var t2 = parseInt(parseInt($(window).height()) * 0.87);
+   }
+   else {
+      var t2 = parseInt(parseInt($(window).height()) * 0.82);
+   }
+   
+   t2 = t2 - 100;   
+   var sh = parseInt($('#div1').height()) + parseInt ($('#booking').height());
+
+   var dd = t2 + sh;
+   
+   $('#div_title').hide();
+   $('#div_sh').click(function(e) {
+      if ($(':animated').length) {
+         return false;
+      }
+      if ( $('#img_sh').attr('src').match(/collapse/g)) {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", 0); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+         $('#fc').fadeOut(''); 
+         $('#booking').fadeOut('slow'); 
+         $('#div1').fadeOut('slow'); 
+         $('#div2').fadeOut('slow'); 
+         $("#div1").animate({top: "+=" + t2 + "px" }, 0);
+         $("#booking").animate({top: "+=" + t2 + "px" }, 0);
+         $('#div1').fadeIn('slow'); 
+         $('#booking').fadeIn('slow'); 
+         $('#img_sh').fadeOut('slow', function() {
+            $('#img_sh').attr('src', 'images/expand_text.png');
+            $('#img_sh').fadeIn('slow');
+         });
+		 $('#div_title').fadeIn(1750);
+		 
+		 var tfc = t2 + sh;
+		 var tfc2 = tfc + 100;
+		 		 		 
+         $("#fc").animate({top: tfc}, 0);
+		 $("#fc").css({position: 'fixed'});
+		 $("#fc").animate({top: tfc2 }, 0);
+		 $('#fc').fadeIn('slow');
+		 $('#div_prev_next_container').height(tfc2);
+      }
+      else {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", -1); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+		 var dd = t2 + sh;
+         $('#div_content').height(old_height);
+         $("#fc").css({position: 'absolute'});		 
+		 
+         if (navigator.userAgent.match(/safari/gi)) {
+		    if (navigator.userAgent.match(/macintosh/gi)) {
+		       $("#fc").animate({top: old_top}, 1750); 
+			}
+			else {
+		       $("#fc").animate({top: old_top}, 1750); 
+			}
+	     }
+		 else {
+		    $("#fc").animate({top: old_top}, 1750);
+	     }
+         var t = parseInt($('#booking').position().top);
+         $('#booking').fadeOut('slow'); 
+         $('#div1').fadeOut('slow'); 	
+/*         $("#div1").animate({top: "0px" }, 0); */
+         $("#div1").animate({top: "100px" }, 0);
+         $("#booking").animate({top: "0px" }, 0);
+         $('#img_sh').fadeOut('slow', function() {
+            $('#img_sh').attr('src', 'images/collapse_text.png');
+            $('#img_sh').fadeIn('slow');
+         });
+		 $('#div_title').fadeOut('slow');
+         $('#div1').fadeIn('slow'); 
+         $('#booking').fadeIn('slow'); 
+         $('#div2').fadeIn(1750); 
+      }
+   });
+   
+   $(".dropdown_menu").hide();
+   $('#div_stripe').hide();
+   $("#menu li").hover(
+      function() {
+         var ddn = this.id.replace (/li/, 'dd');
+         if ($("[id=" + ddn + "]").css("left")) {
+            $("[id=" + ddn + "]").css("left","-152px");
+            $("[id=" + ddn + "]").stop(false, true).fadeIn('slow'); 
+		    $('#div_stripe').stop(false, true).fadeIn('slow');
+		 }
+		 else {
+		    $('#div_stripe').stop(false, true).fadeOut('slow');
+		 }
+      },
+      function() {
+         var ddn = this.id.replace (/li/, 'dd');
+         if ($("[id=" + ddn + "]").css("left")) {
+            $("[id=" + ddn + "]").stop(false, true).fadeOut('slow'); 
+		 }
+      }
+   );
+
+   $("#menu").hover(
+      function() {
+      },
+      function() {
+	     $('#div_stripe').stop(false, true).fadeOut('slow');
+      }
+   );
+
+   $('#div_left_arrow_hover').css({ opacity: 0 });
+   $('#div_right_arrow_hover').css({ opacity: 0 });
+
+   $(".div_container_photos").hover(
+      function(e) {
+        var offset = $(this).offset();
+        var d_left = parseInt(e.clientX - offset.left);
+		var d_top = parseInt(e.clientY - offset.top);
+		if (d_left <= 480) {		   
+	       $('#div_left_arrow_hover').stop().animate({"opacity": "1"}, "slow");
+	       $('#div_left_arrow').stop().animate({"opacity": "0"}, "slow");
+        }
+		else {
+	       $('#div_right_arrow_hover').stop().animate({"opacity": "1"}, "slow");
+	       $('#div_right_arrow').stop().animate({"opacity": "0"}, "slow");
+		}
+      },
+      function() {
+	    $('#div_left_arrow').stop().animate({"opacity": "1"}, "");
+	    $('#div_left_arrow_hover').stop().animate({"opacity": "0"}, "");
+	    $('#div_right_arrow').stop().animate({"opacity": "1"}, "");
+	    $('#div_right_arrow_hover').stop().animate({"opacity": "0"}, "");
+      }
+   );
+  
+
+  $(".div_container_photos").mousemove(
+     function(e) {
+        var offset = $(this).offset();
+        var d_left = parseInt(e.clientX - offset.left);
+		var d_top = parseInt(e.clientY - offset.top);
+		if (d_left <= 480) {		   
+	       $('#div_left_arrow_hover').stop().animate({"opacity": "1"}, "");
+	       $('#div_left_arrow').stop().animate({"opacity": "0"}, "");
+	       $('#div_right_arrow').stop().animate({"opacity": "1"}, "");
+	       $('#div_right_arrow_hover').stop().animate({"opacity": "0"}, "");
+        }
+		else {
+	       $('#div_left_arrow').stop().animate({"opacity": "1"}, "");
+	       $('#div_left_arrow_hover').stop().animate({"opacity": "0"}, "");
+	       $('#div_right_arrow_hover').stop().animate({"opacity": "1"}, "");
+	       $('#div_right_arrow').stop().animate({"opacity": "0"}, "");
+		}
+     }
+   )
+  
+   var crt_pic = 0;
+   $(".div_container_photos").click(
+     function(e) {
+	    var this_id = $(this).attr('id');
+
+        var offset = $(this).offset();
+        var d_left = parseInt(e.clientX - offset.left);
+		var d_top = parseInt(e.clientY - offset.top);
+		
+		var pic_arr = Array();
+		var caption_arr = Array();
+		var description_arr = Array();
+		var nrp = parseInt($("#nr_pics").val());
+
+		for (i = 0; i < nrp; i++) {
+		   var cn = "hgp" + i;
+		   var cn2 = "hcaption" + i;
+		   pic_arr[i] = $("#" + cn).val();
+		   caption_arr[i] = $("#" + cn2).val();
+		   var cn3 = "hdescription" + i;
+		   description_arr[i] = $("#" + cn3).val();
+		}
+		
+		$('#div_pic_caption').hide();
+		$('#div_pic_description').hide();
+							
+        if ($('#div_current_pic').css('display') == "block") {
+		   if (d_left > 480) {
+		      $('#div_right_arrow').css({ opacity: 0 });
+		      $('#div_right_arrow_hover').css({ opacity: 1 });
+
+		      crt_pic = crt_pic + 1;
+			  if (crt_pic == nrp) {
+			     crt_pic = 0;
+			  }
+			  if (this_id == "div_container_photos_g") {
+			     $('#div_next_pic').css('background-image', 'url(images_library/960/' + pic_arr[crt_pic] + ')');
+		      }
+			  else {
+			     $('#div_next_pic').css('background-image', 'url(images/family_experience/' + pic_arr[crt_pic] + ')');
+			  }
+		   }
+		   else {
+		      $('#div_left_arrow').css({ opacity: 0 });
+		      $('#div_left_arrow_hover').css({ opacity: 1 });
+
+		      crt_pic = crt_pic - 1;
+			  if (crt_pic < 0) {
+			     crt_pic = nrp - 1;
+			  }
+			  if (this_id == "div_container_photos_g") {
+			     $('#div_next_pic').css('background-image', 'url(images_library/960/' + pic_arr[crt_pic] + ')');
+		      }
+			  else {
+			     $('#div_next_pic').css('background-image', 'url(images/family_experience/' + pic_arr[crt_pic] + ')');
+			  }
+		   }
+		   
+		   $('#div_pic_caption').html(caption_arr[crt_pic]);
+		   $('#div_pic_description').html(description_arr[crt_pic]);
+           $('#div_current_pic').fadeOut();
+           $('#div_next_pic').fadeIn();
+		   $('#div_pic_caption').fadeIn();
+		   $('#div_pic_description').fadeIn();
+        }
+		else {
+		   if (d_left > 480) {
+		      $('#div_right_arrow').css({ opacity: 0 });
+		      $('#div_right_arrow_hover').css({ opacity: 1 });
+
+		      crt_pic = crt_pic + 1;
+			  if (crt_pic == nrp) {
+			     crt_pic = 0;
+			  }
+			  if (this_id == "div_container_photos_g") {
+			     $('#div_current_pic').css('background-image', 'url(images_library/960/' + pic_arr[crt_pic] + ')');
+		      }
+			  else {
+			     $('#div_current_pic').css('background-image', 'url(images/family_experience/' + pic_arr[crt_pic] + ')');
+			  }
+		   }
+		   else {
+		      $('#div_left_arrow').css({ opacity: 0 });
+		      $('#div_left_arrow_hover').css({ opacity: 1 });
+
+		      crt_pic = crt_pic - 1;
+			  if (crt_pic < 0) {
+			     crt_pic = nrp - 1;
+			  }
+			  if (this_id == "div_container_photos_g") {
+			     $('#div_current_pic').css('background-image', 'url(images_library/960/' + pic_arr[crt_pic] + ')');
+		      }
+			  else {
+			     $('#div_current_pic').css('background-image', 'url(images/family_experience/' + pic_arr[crt_pic] + ')');
+			  }
+		   }
+
+           $('#div_pic_caption').html(caption_arr[crt_pic]);
+		   $('#div_pic_description').html(description_arr[crt_pic]);;
+           $('#div_next_pic').fadeOut();
+           $('#div_current_pic').fadeIn();		   		   
+		   $('#div_pic_caption').fadeIn();
+		   $('#div_pic_description').fadeIn();
+		}
+     }
+   )   
+   
+   /*
+   $("#div_my_prev").hover(
+      function(e) {
+	     $('#my_prev').stop(false, true).fadeIn(); 
+      },
+      function() {
+	     $('#my_prev').stop(false, true).fadeOut(); 
+      }
+   );
+
+   $("#div_my_next").hover(
+      function(e) {
+	     $('#my_next').stop(false, true).fadeIn(); 
+      },
+      function() {
+	     $('#my_next').stop(false, true).fadeOut(); 
+      }
+   );
+   */
+
+   $("#div_prev_next_container").hover(   
+      function () {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", 1); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+	     $('.promo').css("z-index", 1);
+	     $('#my_prev').stop(false, true).fadeIn(); 
+	     $('#my_next').stop(false, true).fadeIn(); 
+      }, 
+      function () {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", 0); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+	     $('#my_prev').stop(false, true).fadeOut(); 
+	     $('#my_next').stop(false, true).fadeOut(); 
+      }
+   );
+
+   $(".promo").hover(   
+      function () {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", 1); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+	     $('#my_prev').stop(false, true).fadeIn(); 
+	     $('#my_next').stop(false, true).fadeIn(); 
+      }, 
+      function () {
+      }
+   );
+
+   $("#booking").hover(   
+      function () {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", 0); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+	     $('#my_prev').stop(false, true).fadeOut(); 
+	     $('#my_next').stop(false, true).fadeOut(); 
+      }, 
+      function () {
+      }
+   );
+
+   $("#div_my_prev").hover(   
+      function () {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", 1); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+	     $('#my_prev').stop(false, true).fadeIn(); 
+	     $('#my_next').stop(false, true).fadeIn(); 
+      }, 
+      function () {
+      }
+   );
+
+   $("#div_my_next").hover(   
+      function () {
+
+/* Adjusted Jan 21/14 */
+/*	     $('#div_prev_next_container').css("z-index", 1); */
+	     $('#div_prev_next_container').css("z-index", 99);
+
+	     $('#my_prev').stop(false, true).fadeIn(); 
+	     $('#my_next').stop(false, true).fadeIn(); 
+      }, 
+      function () {
+      }
+   );
+
+   
+   $("#div_prev_next_container").mouseenter(
+     function() {
+	     $('#my_prev').stop(false, true).fadeIn(); 
+	 }
+   );
+   $("#div_prev_next_container").mousemove(
+     function() {
+	     $('#my_prev').stop(false, true).fadeIn(); 
+	 }
+   );
+
+   
+   $("#div_prev_next_container").mouseleave(
+      function() {
+//	     $('#my_prev').stop(false, true).fadeOut(); 
+//	     $('#my_next').stop(false, true).fadeOut(); 
+      }
+   );      
+
+   // Adjustment to dynamically insert trailing break tags on page load as a function of browser window height Jan 27/14
+   var h = $(window).height();
+   var j = 0;
+   if (h < 1200 ) {
+     j =  parseInt((1200 - h) / 24);
+   }
+   if (j > 0) {
+	 for (var i = 0; i < (j+1); i++) {
+//	   $( ".regular_content_div" ).append( "<br />" );
+	   $( ".trailing_breaks" ).append( "<br />" );
+	   
+	 }
+   }
+
+});
+//]]>
+</script>
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44413255-1', 'meeru.com');
+  ga('send', 'pageview');
+
+</script>
+
+<meta name="google-site-verification" content="raFYj-zFNTwtNU_H6Wg3meR0zUteCABMvRkaqbToLH4" />
+
+</head>
+<body> 
+   <div style="position: fixed; top: 0px; left: 0px; text-align: center; width: 100%; z-index: 500">
+      <header>
+         <div id="div_header" >
+            <div style="float: left; width: 198px; padding-top: 6px;">
+               <a href="index"><img src="images/meeru_logo5.png" alt="Meeru Island Resort &amp; Spa" title="Meeru Island Resort &amp; Spa" width="175" height="56" border="0" style="float: left"/></a>
+            </div>
+            <!--<div style="float: left; height: 37px; width: 390px; text-align:right">-->
+               <!-- Meeru Island Resort &amp; Spa -->
+            <!--</div>-->
+            <div style="float: right; width: 390px; text-align:right; padding-top: 10px;">
+                 <!--<a href="https://gc.synxis.com/rez.aspx?Hotel=62255&Chain=14463"><img src="images/book_now_top.png" alt="Book Now" title="Book Now" border="0" hspace="20"/></a>-->
+                 <a href="reservations"><img src="images/book_now_top.png" alt="Book Now" title="Book Now" border="0" hspace="20"/></a>
+
+                  <a href="chinese"><img src="images/menu_new/flag_chinese.png" alt="" border="0"/></a>
+            </div>
+
+<!-- Languages / flags ul block was here -->
+
+        	<ul id="menu" >
+               <li id="li1" style="font-size: 16px;padding-left: 115px"><a href="overview-island">Overview</a>
+                  <div id="dd1" class="dropdown_menu" style="padding-top: 4px; z-index: 500;">
+                     <div style="width: 100%; height: 8px;"></div>
+                     <div style="padding-left: 145px;">
+                     <div style="height: 26px;">
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='overview-island'"><div style="float: left; height: 1px; width: 102px; text-align: center">The Island</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='overview-map'"><div style="float: left; height: 1px; width: 102px; text-align: center">Map</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='overview-facilities'"><div style="float: left; height: 1px; width: 102px; text-align: center">Facilities</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='overview-family-experience'"><div style="float: left; height: 1px; width: 102px; text-align: center">Family Experience</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='overview-awards'"><div style="float: left; height: 1px; width: 102px; text-align: center">Awards</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='overview-faq'"><div style="float: left; height: 1px; width: 102px; text-align: center">FAQ</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="clear: both"></div>
+                   </div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='overview-island'"><img src="images/menu_new/menu_1_pic_1.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='overview-map'"><img src="images/menu_new/menu_1_pic_2.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='overview-facilities'"><img src="images/menu_new/menu_1_pic_3.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='overview-family-experience'"><img src="images/menu_new/menu_1_pic_4.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='overview-awards'"><img src="images/menu_new/menu_1_pic_5.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 102px; text-align: left; cursor: pointer;" onclick="location.href='overview-faq'"><img src="images/menu_new/menu_1_pic_6.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="clear: both"></div>
+                     </div>
+                  </div>
+               </li>
+               <li id="li2" style="font-size: 16px;"><a href="rooms-garden-rooms">Rooms</a>
+                  <div id="dd2" class="dropdown_menu" style="padding-top: 4px; z-index: 500;">
+                     <div style="width: 100%; height: 8px;"></div>
+                     <div style="padding-left: 145px;">
+                     <div style="height: 26px;">
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 72px;  color: #ffffff; text-align: center; " ><div style="float: left; height: 1px; width: 102px; text-align: center"></div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 138px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='rooms-garden-rooms'"><div style="float: left; height: 1px; width: 102px; text-align: center">Garden Rooms</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 148px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='rooms-beach-villas'"><div style="float: left; height: 1px; width: 115px; text-align: center">Beach Villas</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 138px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='rooms-jacuzzi-beach-villas'"><div style="float: left; height: 1px; width: 102px; text-align: center">Jacuzzi Beach Villas</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='rooms-water-villas'"><div style="float: left; height: 1px; width: 112px; text-align: center">Water Villas</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='rooms-jacuzzi-water-villas'"><div style="float: left; height: 1px; width: 110px; text-align: center">Jacuzzi Water Villas</div><div style="float: left; width: 38px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="clear: both"></div>
+                   </div>
+                        <div style="float: left; padding: 0; width: 72px; text-align: left; " ></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='rooms-garden-rooms'"><img src="images/menu_new/menu_2_pic_2.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='rooms-beach-villas'"><img src="images/menu_new/menu_2_pic_3.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='rooms-jacuzzi-beach-villas'"><img src="images/menu_new/menu_2_pic_4.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='rooms-water-villas'"><img src="images/menu_new/menu_2_pic_5.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 102px; text-align: left; cursor: pointer;" onclick="location.href='rooms-jacuzzi-water-villas'"><img src="images/menu_new/menu_2_pic_6.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="clear: both"></div>
+                     </div>
+                  </div>
+               </li>
+               <li id="li3" style="font-size: 16px;"><a href="dining-buffet">Dining</a>
+                  <div id="dd3" class="dropdown_menu" style="padding-top: 4px; z-index: 500;">
+                     <div style="width: 100%; height: 8px;"></div>
+                     <div style="padding-left: 145px;">
+                     <div style="height: 26px;">
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 128px;  color: #ffffff; text-align: left; cursor: pointer;" onclick="location.href='dining-buffet'"><div style="float: left; height: 1px; width: 128px; text-align: left">Buffet Restaurants</div><div style="float: left; width: 0px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 158px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='dining-a-la-carte'"><div style="float: left; height: 1px; width: 133px; text-align: center">&Agrave; La Carte Restaurants</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 123px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='dining-bars'"><div style="float: left; height: 1px; width: 102px; text-align: center">Bars</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='dining-all-inclusive'"><div style="float: left; height: 1px; width: 143px; text-align: center">All Inclusive Plus Package</div><div style="float: left; width: 0px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 140px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='dining-dinner-on-the-beach'"><div style="float: left; height: 1px; width: 138px; text-align: center">Dinner On The Beach</div><div style="float: left; width: 2px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 145px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='dining-room-service'"><div style="float: left; height: 1px; width: 145px; text-align: center">Room Service</div><div style="float: left; width: 0px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="clear: both"></div>
+                   </div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='dining-buffet'"><img src="images/menu_new/menu_3_pic_1.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='dining-a-la-carte'"><img src="images/menu_new/menu_3_pic_2.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='dining-bars'"><img src="images/menu_new/menu_3_pic_3.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='dining-all-inclusive'"><img src="images/menu_new/menu_3_pic_4.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='dining-dinner-on-the-beach'"><img src="images/menu_new/menu_3_pic_5.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 102px; text-align: left; cursor: pointer;" onclick="location.href='dining-room-service'"><img src="images/menu_new/menu_3_pic_6.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="clear: both"></div>
+                     </div>
+                  </div>
+               </li>
+               <li id="li4" style="font-size: 16px;"><a href="recreation-snorkeling">Activities &amp; Recreation</a>
+                  <div id="dd4" class="dropdown_menu" style="padding-top: 4px; z-index: 500;">
+                     <div style="width: 100%; height: 8px;"></div>
+                     <div style="padding-left: 145px;">
+                     <div style="height: 26px;">
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 0px;  color: #ffffff; text-align: center; " ><div style="float: left; height: 1px; width: 102px; text-align: center"></div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='recreation-snorkeling'"><div style="float: left; height: 1px; width: 102px; text-align: center">Snorkeling</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='recreation-scuba'"><div style="float: left; height: 1px; width: 102px; text-align: center">Scuba Diving</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='recreation-water'"><div style="float: left; height: 1px; width: 102px; text-align: center">Water Sports</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='recreation-land'"><div style="float: left; height: 1px; width: 102px; text-align: center">Land Sports</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='activities-excursions'"><div style="float: left; height: 1px; width: 102px; text-align: center">Excursions</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='activities-entertainment'"><div style="float: left; height: 1px; width: 102px; text-align: center">Entertainment</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="clear: both"></div>
+                   </div>
+                        <div style="float: left; padding: 0; width: 0px; text-align: left; " ></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='recreation-snorkeling'"><img src="images/menu_new/menu_4_pic_2.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='recreation-scuba'"><img src="images/menu_new/menu_4_pic_3.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='recreation-water'"><img src="images/menu_new/menu_4_pic_4.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='recreation-land'"><img src="images/menu_new/menu_4_pic_5.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='activities-excursions'"><img src="images/menu_new/menu_4_pic_6.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 102px; text-align: left; cursor: pointer;" onclick="location.href='activities-entertainment'"><img src="images/menu_new/menu_4_pic_7.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="clear: both"></div>
+                     </div>
+                  </div>
+               </li>
+               <li id="li5" style="font-size: 16px;"><a href="romance-honeymoon">Romance</a>
+                  <div id="dd5" class="dropdown_menu" style="padding-top: 4px; z-index: 500;">
+                     <div style="width: 100%; height: 8px;"></div>
+                     <div style="padding-left: 145px;">
+                     <div style="height: 26px;">
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 72px;  color: #ffffff; text-align: center; " ><div style="float: left; height: 1px; width: 102px; text-align: center"></div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 132px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='romance-honeymoon'"><div style="float: left; height: 1px; width: 102px; text-align: center">Honeymoon</div><div style="float: left; width: 30px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 128px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='romance-ceremony'"><div style="float: left; height: 1px; width: 123px; text-align: center">Wedding Ceremony</div><div style="float: left; width: 5px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 166px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='romance-renewal-of-vows'"><div style="float: left; height: 1px; width: 160px; text-align: center">Renewal Of Vows Ceremony</div><div style="float: left; width: 6px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='romance-gift-registry'"><div style="float: left; height: 1px; width: 102px; text-align: center">Gift Registry</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='romance-romantic-options'"><div style="float: left; height: 1px; width: 102px; text-align: center">Romantic Options</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="clear: both"></div>
+                   </div>
+                        <div style="float: left; padding: 0; width: 72px; text-align: left; " ></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='romance-honeymoon'"><img src="images/menu_new/menu_5_pic_2.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='romance-ceremony'"><img src="images/menu_new/menu_5_pic_3.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='romance-renewal-of-vows'"><img src="images/menu_new/menu_5_pic_4.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='romance-gift-registry'"><img src="images/menu_new/menu_5_pic_5.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 102px; text-align: left; cursor: pointer;" onclick="location.href='romance-romantic-options'"><img src="images/menu_new/menu_5_pic_6.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="clear: both"></div>
+                     </div>
+                  </div>
+               </li>
+               <li id="li6" style="font-size: 16px;"><a href="spa-about">Spa</a>
+                  <div id="dd6" class="dropdown_menu" style="padding-top: 4px; z-index: 500;">
+                     <div style="width: 100%; height: 8px;"></div>
+                     <div style="padding-left: 145px;">
+                     <div style="height: 26px;">
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 217px;  color: #ffffff; text-align: center; " ><div style="float: left; height: 1px; width: 102px; text-align: center"></div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='spa-about'"><div style="float: left; height: 1px; width: 102px; text-align: center">About The Spa</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='spa-treatments'"><div style="float: left; height: 1px; width: 102px; text-align: center">Treatments</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='spa-how-to'"><div style="float: left; height: 1px; width: 102px; text-align: center">How To Spa</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="clear: both"></div>
+                   </div>
+                        <div style="float: left; padding: 0; width: 217px; text-align: left; " ></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='spa-about'"><img src="images/menu_new/menu_6_pic_2.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='spa-treatments'"><img src="images/menu_new/menu_6_pic_3.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 102px; text-align: left; cursor: pointer;" onclick="location.href='spa-how-to'"><img src="images/menu_new/menu_6_pic_4.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="clear: both"></div>
+                     </div>
+                  </div>
+               </li>
+               <li id="li7" style="font-size: 16px;"><a href="social-media">Social Media</a>
+                  <div id="dd7" class="dropdown_menu" style="padding-top: 4px; z-index: 500;">
+                     <div style="width: 100%; height: 8px;"></div>
+                     <div style="padding-left: 145px;">
+                     <div style="height: 26px;">
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 217px;  color: #ffffff; text-align: center; " ><div style="float: left; height: 1px; width: 102px; text-align: center"></div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='social-media'"><div style="float: left; height: 1px; width: 102px; text-align: center">Social Media</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='social-reviews'"><div style="float: left; height: 1px; width: 102px; text-align: center">Reviews</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="float: left; padding: 0; font-weight: 500; height: 26px; width: 143px;  color: #ffffff; text-align: center; cursor: pointer;" onclick="location.href='blog/meeru-cooking-class'"><div style="float: left; height: 1px; width: 102px; text-align: center">Blog</div><div style="float: left; width: 41px"></div><div style="clear: both"></div>
+                        </div>
+                        <div style="clear: both"></div>
+                   </div>
+                        <div style="float: left; padding: 0; width: 217px; text-align: left; " ></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='social-media'"><img src="images/menu_new/menu_7_pic_2.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 143px; text-align: left; cursor: pointer;" onclick="location.href='social-reviews'"><img src="images/menu_new/menu_7_pic_3.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="float: left; padding: 0; width: 102px; text-align: left; cursor: pointer;" onclick="location.href='blog/meeru-cooking-class'"><img src="images/menu_new/menu_7_pic_4.png" border="0" width="102" height="53" alt="" style="padding: 0; margin: 0; float: none"/></div>
+                        <div style="clear: both"></div>
+                     </div>
+                  </div>
+               </li>
+            	<li style="font-size: 16px;"><a href="all-galleries">Gallery</a></li> 
+            	<li style="font-size: 16px;"><a href="contact">Contact</a></li> 
+    		</ul>
+   	    </div>
+      </header>
+
+      <div id="div_stripe" style="position:absolute; top: 72px; left: 0px; z-index:0; display: inline; width: 100%; height: 97px; background-color:#222222; display: none"></div>
+      <div id="div_header_print">
+         <div style="float: left">
+            <img src="images/meeru_logo_print2.jpg" width="204" height="61" alt=""/>
+         </div>
+         <div style="float: left; padding-left: 80px; text-align: left">
+            Phone: +960 664 3457  Fax: +960 664 5946
+            <br />
+            Email: <script type="text/javascript" language="javascript">write_email("reservations", "meeru", "com");</script>
+            <br />
+            Website: www.meeru.com
+         </div>
+         <div style="clear: both"></div>         
+      </div>
+   </div>
+   <div id="div_slider">
+      <div style="position: absolute; top: 0px;">
+<link rel="stylesheet" type="text/css" href="http://www.meeru.com/css/default/wunderslider-min.css" />
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="http://www.meeru.com/css/default/wunderslider-ie-min.css" />
+<![endif]-->
+<div id="wunderslider"   class="wunderslider-container" ></div><script type="text/javascript" src="http://www.meeru.com/js/wunderslider-min.js"></script>
+<script type="text/javascript">(function($) {$(window).load(function(){var parent = document.getElementById("wunderslider");var wunderSlider = new itthinx.WunderSlider(parent,[{"url":"images_library\/nlz6xsnbmy.jpg","title":"<div style='padding-left: 13px; padding-top: 13px;'>Meeru Island Fresh Water Swimming Pool<\/div>","description":"<div style='padding-left: 13px; padding-bottom: 10px'><div style='width: 180px; float: left; line-height: 1.5'>Enjoy a great day in the fresh water swimming pools on the beach, next to the Dhoni Bar.<\/div><div style='float: left; width: 65px; height: 31px; background-image: url(images\/arrow_bg_promo.png)'><\/div><div style='clear: both'><\/div><\/div>"},{"url":"images_library\/MeeruWaterVillasExterior2_20160107100042.jpg"},{"url":"images_library\/htse2jgkag.jpg","title":"<div style='padding-left: 13px; padding-top: 13px;'>Meeru Islands White Sandy Beach<\/div>","description":"<div style='padding-left: 13px; padding-bottom: 10px'><div style='width: 180px; float: left; line-height: 1.5'>Meeru Island Resort & Spa is surrounded by a beautiful lagoon and long stretches of white, sandy beach, North Male' Atoll, Maldives.<\/div><div style='float: left; width: 65px; height: 31px; background-image: url(images\/arrow_bg_promo.png)'><\/div><div style='clear: both'><\/div><\/div>"},{"url":"images_library\/vicjskxgdg.jpg","title":"<div style='padding-left: 13px; padding-top: 13px;'>Honeymoon in the Maldives<\/div>","description":"<div style='padding-left: 13px; padding-bottom: 10px'><div style='width: 180px; float: left; line-height: 1.5'>Meeru Island Resort & Spa welcomes newlyweds to celebrate their very special Honeymoon at one of the most beautiful and romantic places in the world, the Maldives.<\/div><div style='float: left; width: 65px; height: 31px; background-image: url(images\/arrow_bg_promo.png)'><\/div><div style='clear: both'><\/div><\/div>"},{"url":"images_library\/IMG_4448Lo_20141129130624.jpg","title":"<div style='padding-left: 13px; padding-top: 13px;'>Meeru Island Resort & Spa Maldives<\/div>","description":"<div style='padding-left: 13px; padding-bottom: 10px'><div style='width: 180px; float: left; line-height: 1.5'>Meeru Island Resort & Spa is the only Resort on the island of Meerufenfushi, North Male' Atoll. It is 1200 meters long by 350 meters wide, about 90 acres.\u00ad<\/div><div style='float: left; width: 65px; height: 31px; background-image: url(images\/arrow_bg_promo.png)'><\/div><div style='clear: both'><\/div><\/div>"}],{"display":"fill","mode":"proportional","overlay":"stripes","clickable":true,"useFlick":true});});})(jQuery);</script>
+      </div>
+   </div>
+      <!-- z-index setting (99, previously -1) makes arrows visible and activates gallery on additional pages -->
+<!--
+      <div id="div_prev_next_container" style="width: 100%; height: 60%; position: fixed; top: ?php echo $top_pnc; ?px; z-index: 99<li></li>;">
+-->
+      <div id="div_prev_next_container" style="width: 100%; height: 20px! important; position: fixed; top: 80px; z-index: 99<li></li>;">
+         <div id="div_my_prev" style="width: 100px; float: left; text-align: center;">
+            <img id="my_prev" src="images/paddle_previous.png" alt="Prev" title="Prev" style="display: none; cursor: pointer"/>
+         </div>
+         <div id="dummy" style="float: left;">
+            &nbsp;
+         </div>
+         <div id="div_my_next" style="width: 100px; float: right; text-align: center;">
+            <img id="my_next" src="images/paddle_next.png" alt="Next" title="zzNext" style="display: none; cursor: pointer"/>
+         </div>
+         <div style="clear: both"></div>
+         <input type="hidden" id="my_div" />
+      </div>
+<div class="promo" style="z-index: 99;">
+   <div style="height: 95px; width: 400px; float: right;">
+      <div id="pc1" style="float: right; height: 95px; width: 260px; background-image: url(images/special_offer_bg_x.png); background-repeat: repeat-x; display: none;">
+         <div class="promo_title" onclick="location.href='social-reviews'">
+Highly Recommended         </div>
+         <div style="clear: both"></div>
+         <div class="promo_description" onclick="location.href='social-reviews'">
+            <div style='width: 180px; float: left; line-height: 1.5'>
+Check out the most recent TripAdvisor and HolidayCheck reviews from our guests...<br />            </div>
+            <div style='float: left; width: 65px; height: 31px; background-image: url(images/arrow_bg_promo.png)'></div>
+            <div style='clear: both'></div>
+         </div>
+      </div>
+      <div style="float: right; cursor: pointer; width: 51px; height: 95px;" onclick="var dpc = 'pc1'; if ($('#' + dpc).css('display') == 'block') { $('#' + dpc).hide('slide') } else { $('#' + dpc).show('slide') } ">
+
+      	<img src="
+images/reviews_arrow.png" alt=""/>
+
+      </div>
+      <div style="clear: both;"></div>
+   </div>
+   <div style="clear: both; height: 10px"></div>
+   <div style="height: 95px; width: 400px; float: right;">
+      <div id="pc2" style="float: right; height: 95px; width: 260px; background-image: url(images/special_offer_bg_x.png); background-repeat: repeat-x; display: none;">
+         <div class="promo_title" onclick="location.href='overview-awards'">
+Award Winning Resort         </div>
+         <div style="clear: both"></div>
+         <div class="promo_description" onclick="location.href='overview-awards'">
+            <div style='width: 180px; float: left; line-height: 1.5'>
+Renowned magazines and travel associations select the best hotels in the world...<br />            </div>
+            <div style='float: left; width: 65px; height: 31px; background-image: url(images/arrow_bg_promo.png)'></div>
+            <div style='clear: both'></div>
+         </div>
+      </div>
+      <div style="float: right; cursor: pointer; width: 51px; height: 95px;" onclick="var dpc = 'pc2'; if ($('#' + dpc).css('display') == 'block') { $('#' + dpc).hide('slide') } else { $('#' + dpc).show('slide') } ">
+
+      	<img src="
+images/awards_arrow.png" alt=""/>
+
+      </div>
+      <div style="clear: both;"></div>
+   </div>
+   <div style="clear: both; height: 10px"></div>
+<!--
+   <div style="position: absolute; top: 15%; float: left; height: 200px; width: 311px;">
+-->
+   <div style="position: absolute; top: 0%; float: left; height: 200px; width: 311px;">
+
+      <div id="div_sign_up_form" style="float: left; width: 260px; height: 200px; background-image: url(images/sign_up_bg.png); display: none">
+         <div style="text-align: left; color: #ffffff; padding-top: 15px; padding-left: 10px;">
+            <div style="padding-bottom: 10px; padding-left: 12px">
+            Get all the Meeru News
+            </div>
+            <div style="float: left; text-align: right; width: 94px; padding-right: 10px">
+               First Name: 
+            </div>
+            <div style="float: left; padding-right: 12px">
+               <input type="text" id="newsletter_first_name" name="newsletter_first_name" style="width: 120px;"/>
+            </div>
+            <div style="clear: both; height: 10px;"></div>  
+            <div style="float: left; text-align: right; width: 94px; padding-right: 10px">
+               Last Name: 
+            </div>
+            <div style="float: left; padding-right: 12px">
+               <input type="text" id="newsletter_last_name" name="newsletter_last_name" style="width: 120px;"/>
+            </div>
+            <div style="clear: both; height: 10px;"></div>  
+            <div style="float: left; text-align: right; width: 94px; padding-right: 10px">
+               Email: 
+            </div>
+            <div style="float: left; padding-right: 12px">
+               <input type="text" id="newsletter_email" name="newsletter_email" style="width: 120px;"/>
+            </div>
+            <div style="clear: both; height: 10px;"></div>  
+            <div style="float: left; width: 94px; height: 1px; padding-right: 10px">
+            </div>
+            <div style="float: left; padding-right: 12px">
+               <input type="image" src="images/button_sign_up.png" onclick="insert_email();"/>
+            </div>    
+            <div style="clear: both;"></div>  
+         </div>
+      </div>
+      <div style="float: left; width: 51px; height: 200px; cursor: pointer;" onclick="if ($('#div_sign_up_form').css('display') == 'block') { $('#div_sign_up_form').hide('slide') } else { $('#div_sign_up_form').show('slide') } ">
+         <img src="images/sign_up_arrow.png" alt=""/>
+      </div>
+      <div style="clear: both"></div>
+   </div>
+   <div style="clear: both"></div>
+</div>
+<div style="clear: both"></div>
+   <div style="position: fixed; bottom: 50px; width: 100%">
+      <div id="booking" style="z-index: 499; position: relative; ">
+         <!--<form method="get" action="" onsubmit="check_booking_dates('3', '2017-04-30'); return false;">-->
+            <div style="width: 870px; text-align: left; font-size: 10pt; display: none;">
+               <div style="float: left; text-align: left; padding-right: 18px;">
+                  <div style="float: left; font-weight: bold;">Check-In <input type="text" name="check_in_date" id="check_in_date" class="form" size="11" /> </div>
+                  <div style="float: left; padding-left: 3px; padding-top: 3px"><img id="img_cal_1" src="images/icon_calendar.png" alt="" style="cursor: pointer"/></div>
+                  <div style="clear: both"></div>
+               </div>
+               <div style="float: left; text-align: left; padding-right: 8px;">
+                  <div style="float: left; font-weight: bold;">Check-Out <input type="text" name="check_out_date" id="check_out_date" class="form" size="11"/> </div>
+                  <div style="float: left; padding-left: 3px; padding-top: 3px"><img id="img_cal_2" src="images/icon_calendar.png" alt="" style="cursor: pointer"/></div>
+                  <div style="clear: both"></div>
+               </div>
+               <div style="float: left; font-weight: bold;"> 
+                  <span class="smaller">Rooms </span>
+                  <select name="rooms" id="rooms">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  </select> 
+               </div>
+               <div style="float: left; font-weight: bold;"> 
+                  <span class="smaller">Adults </span>
+                  <select name="adults" id="adults">
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  <option value="21">21</option>
+                  <option value="22">22</option>
+                  <option value="23">23</option>
+                  <option value="24">24</option>
+                  <option value="25">25</option>
+                  <option value="26">26</option>
+                  <option value="27">27</option>
+                  <option value="28">28</option>
+                  <option value="29">29</option>
+                  <option value="30">30</option>
+                  </select> 
+               </div>
+               <div style="float: left; font-weight: bold;">
+                  <span class="smaller">Children </span>
+                  <select name="children" id="children">
+                  <option value="0">0</option>
+                  <option value="1">1</option>
+                  <option value="2">2</option>
+                  <option value="3">3</option>
+                  <option value="4">4</option>
+                  <option value="5">5</option>
+                  <option value="6">6</option>
+                  <option value="7">7</option>
+                  <option value="8">8</option>
+                  <option value="9">9</option>
+                  <option value="10">10</option>
+                  <option value="11">11</option>
+                  <option value="12">12</option>
+                  <option value="13">13</option>
+                  <option value="14">14</option>
+                  <option value="15">15</option>
+                  <option value="16">16</option>
+                  <option value="17">17</option>
+                  <option value="18">18</option>
+                  <option value="19">19</option>
+                  <option value="20">20</option>
+                  </select>                  
+               </div>
+               <div style="float: left; padding-left: 18px">
+                  <input type="image" src="images/button_book_now.png" onclick="check_booking_dates()"/> 
+               </div>
+               <!--
+               <div style="float: left; padding-left: 18px">
+                  <span class="link_so"><a href="special_offers.php">See Our Special Offers</a></span>
+               </div>
+               -->
+               <div style="clear: both"></div>
+            </div>
+            <input type="hidden" name="min_stay" id="min_stay" value="" />
+         <!--</form> -->
+      </div>
+      <footer id="fc" style="position: absolute; height: 50px; z-index: 499;">
+         <div id="footerbox">
+            <div id="rightfooter" style="font-size: 0.79em;">
+               <div style="width: 100%; text-align: center; font-weight: 600">
+                  
+                    <div style="width: 700px; float: right">
+                       <div style="float: left">
+                          <div style="float: left">
+                             <div id="div_about_us" style="position: absolute; display: inline; visibility: hidden; top: -15px; left: 240px; width: 470px; height: 29px; background-image:url(images/footer_about_bg.png)" onmouseover="$('#div_about_us').css('visibility', 'visible');" onmouseout="$('#div_about_us').css('visibility', 'hidden');">
+                                <div style="float: left; padding-left: 40px;">
+                                   <a href="management">Meeru Management</a>
+                                </div>
+                                <div style="float: left; padding-left: 15px; padding-right: 15px;">|</div>
+                                <div style="float: left">
+                                   <a href="careers">Careers</a>
+                                </div>
+                                <div style="float: left; padding-left: 15px; padding-right: 15px;">|</div>
+                                <div style="float: left">
+                                   <a href="crownandchamparesorts">Crown &amp; Champa Resorts</a>
+                                </div>
+                                <div style="clear: both;"></div>
+                             </div>
+                             <div onmouseover="$('#div_about_us').css('visibility', 'visible');" onmouseout="$('#div_about_us').css('visibility', 'hidden');">
+                                <a href="javascript://">About Us</a>
+                             </div>
+                          </div>
+                          <div style="float: left; padding-left: 15px; padding-right: 15px;">|</div>
+                          <div style="float: left">
+                             <a href="travel-agents">Travel Agents</a>
+                          </div>
+                          <div style="float: left; padding-left: 15px; padding-right: 15px;">|</div>
+                          <div style="float: left">
+                             <a href="privacy-policy">Privacy Policy</a>
+                          </div>
+                          <div style="float: left; padding-left: 15px; padding-right: 15px;">|</div>
+                          <div style="float: left">
+                             <a href="terms-of-use">Terms of Use</a>
+                          </div>
+                       </div>
+                       <div style="float: right; color: #ffffff;">
+                          <div style="float: left; text-align: center; padding-right: 20px;">
+                             <div style="line-height: 1; font-size: 14pt; font-weight: 400;">
+11:14               
+                             </div>
+                             <div style="line-height: 2; font-size: 6pt; font-weight: 400;">
+                                LOCAL TIME           
+                             </div>
+                          </div>
+                          <div style="float: left; text-align: center; padding-right: 20px;">
+                             <div style="line-height: 1; font-size: 14pt; font-weight: 400;">
+                                <div id="div_temp_c" style="float: left;"></div>
+                                <div style="float: left;">&deg;C</div>
+                                <div id="div_temp_f" style="float: left; padding-left: 15px;"></div>
+                                <div style="float: left;">&deg;F</div>
+                                <div style="clear: both;"></div>
+                             </div>
+                             <div style="line-height: 2; font-size: 6pt; font-weight: 400;">
+                                LOCAL TEMPERATURE
+                             </div>                          
+                          </div>
+                          <div style="float: left; padding-top: 5px;">
+                             <img id="free_wifi" src="images/meeru_freewifi.png" alt="Free Wifi"/>
+                          </div>
+                          <div style="clear: both"></div>   
+                       </div>
+                       <div style="clear: both"></div>      
+                    </div>
+                    <div style="clear: both"></div>      
+           </div>         
+        </div>
+      </footer>
+<script type="text/javascript">
+function weather(o){
+   var tf = o.query.results.channel.item.condition.temp;
+   var tc = (tf - 32) * (5 / 9);
+   tc = tc.toFixed(0);
+   $('#div_temp_c').html(tc);
+   $('#div_temp_f').html(tf);
+}
+</script>
+
+
+<script type="text/javascript" src="https://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20weather.forecast%20where%20woeid%20in%20(select%20woeid%20from%20geo.places(1)%20where%20text%3D%22maldives%22)&format=json&callback=weather">
+</script>
+   </div>
+<script type="text/javascript" language="javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44413255-1', 'auto');
+  ga('create', 'UA-48523805-1', 'auto', {'name': 'newTracker'});
+  ga('send', 'pageview');
+  ga('newTracker.send', 'pageview');
+</script>
+</body>
+</html>

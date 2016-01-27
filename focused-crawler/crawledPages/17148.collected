@@ -1,0 +1,1473 @@
+title=Destemperados - Home
+url=http://www.destemperados.com.br/
+html=<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="pt-BR" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="pt-BR" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="pt-BR" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="pt-BR" class="no-js"> <!--<![endif]-->
+    <head>
+            <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><script type="text/javascript">window.NREUM||(NREUM={}),__nr_require=function(e,n,t){function r(t){if(!n[t]){var o=n[t]={exports:{}};e[t][0].call(o.exports,function(n){var o=e[t][1][n];return r(o||n)},o,o.exports)}return n[t].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<t.length;o++)r(t[o]);return r}({QJf3ax:[function(e,n){function t(e){function n(n,t,a){e&&e(n,t,a),a||(a={});for(var u=c(n),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,t);return s}function a(e,n){f[e]=c(e).concat(n)}function c(e){return f[e]||[]}function u(){return t(n)}var f={};return{on:a,emit:n,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=e("gos");n.exports=t()},{gos:"7eSDFh"}],ee:[function(e,n){n.exports=e("QJf3ax")},{}],3:[function(e,n){function t(e){return function(){r(e,[(new Date).getTime()].concat(i(arguments)))}}var r=e("handle"),o=e(1),i=e(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(e,n){window.NREUM[n]=t("api-"+n)}),n.exports=window.NREUM},{1:12,2:13,handle:"D5DuLP"}],gos:[function(e,n){n.exports=e("7eSDFh")},{}],"7eSDFh":[function(e,n){function t(e,n,t){if(r.call(e,n))return e[n];var o=t();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(e,n,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return e[n]=o,o}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],D5DuLP:[function(e,n){function t(e,n,t){return r.listeners(e).length?r.emit(e,n,t):void(r.q&&(r.q[e]||(r.q[e]=[]),r.q[e].push(n)))}var r=e("ee").create();n.exports=t,t.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(e,n){n.exports=e("D5DuLP")},{}],XL7HBI:[function(e,n){function t(e){var n=typeof e;return!e||"object"!==n&&"function"!==n?-1:e===window?0:i(e,o,function(){return r++})}var r=1,o="nr@id",i=e("gos");n.exports=t},{gos:"7eSDFh"}],id:[function(e,n){n.exports=e("XL7HBI")},{}],G9z0Bl:[function(e,n){function t(){var e=d.info=NREUM.info,n=f.getElementsByTagName("script")[0];if(e&&e.licenseKey&&e.applicationID&&n){c(p,function(n,t){n in e||(e[n]=t)});var t="https"===s.split(":")[0]||e.sslForHttp;d.proto=t?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=d.proto+e.agent,n.parentNode.insertBefore(r,n)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=e("handle"),c=e(1),u=window,f=u.document;e(2);var s=(""+location).split("?")[0],p={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},d=n.exports={offset:i(),origin:s,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),u.addEventListener("load",t,!1)):(f.attachEvent("onreadystatechange",r),u.attachEvent("onload",t)),a("mark",["firstbyte",i()])},{1:12,2:3,handle:"D5DuLP"}],loader:[function(e,n){n.exports=e("G9z0Bl")},{}],12:[function(e,n){function t(e,n){var t=[],o="",i=0;for(o in e)r.call(e,o)&&(t[i]=n(o,e[o]),i+=1);return t}var r=Object.prototype.hasOwnProperty;n.exports=t},{}],13:[function(e,n){function t(e,n,t){n||(n=0),"undefined"==typeof t&&(t=e?e.length:0);for(var r=-1,o=t-n||0,i=Array(0>o?0:o);++r<o;)i[r]=e[n+r];return i}n.exports=t},{}]},{},["G9z0Bl"]);</script>
+    <title>Destemperados - Home</title>
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimal-ui">
+
+        <meta name="description" content="Destemperados" />
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        <meta name="author" content="Máqina Internet" />
+        <meta name="author" content="Copyright © 2013" />
+        <meta name="publisher" content="Máqina Internet" />
+        <meta name="owner" content="Máqina Internet" />
+        <meta name="rating" content="general" />
+
+        <!--[if IE]>
+        <meta name="mssmarttagspreventparsing" content="true" />
+        <meta http-equiv="imagetoolbar" content="no" />
+        <![endif]-->
+        <meta name="DC.title" content="Destemperados - Home" />
+        <meta name="DC.description" content="Destemperados" />
+        <meta name="DC.creator " content="Máqina Internet" />
+        <meta name="DC.creator.address" content="contato@maqina.com.br" />
+        <meta name="DC.publisher" content="Máqina Internet" />
+        <meta name="DC.custodian" content="Máqina Internet" />
+        <meta name="DC.identifier" scheme="DCTERMS.URI" content="http://www.destemperados.com.br/" />
+        <base href="http://www.destemperados.com.br/" />
+        <link rel="shortcut icon" href="http://www.destemperados.com.br/favicon.ico" type="image/x-icon" />
+        <link rel="author" href="http://www.maqina.com.br" title="Máqina Internet" />
+        <link rel="home" href="http://www.destemperados.com.br/" title="Destemperados" />
+
+    <!-- Icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://www.destemperados.com.br/aplicativos/site/assets/img/touch/apple-touch-icon-144x144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://www.destemperados.com.br/aplicativos/site/assets/img/touch/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://www.destemperados.com.br/aplicativos/site/assets/img/touch/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="http://www.destemperados.com.br/aplicativos/site/assets/img/touch/apple-touch-icon-57x57-precomposed.png">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+
+    <meta name="msapplication-TileImage" content="http://www.destemperados.com.br/aplicativos/site/assets/img/touch/apple-touch-icon-144x144-precomposed.png">
+    <meta name="msapplication-TileColor" content="#222222">
+
+    <!-- iOS Web Apps -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="">
+
+    <!-- Facebook -->
+    
+   
+    
+    <meta property="og:title" content="Destemperados - Home">
+    <meta property="og:site_name" content="Destemperados">
+    <meta property="og:url" content="http://www.destemperados.com.br/">
+        <meta property="og:description" content="Destemperados">
+    
+
+        <link rel="stylesheet" type="text/css" href="http://www.destemperados.com.br/comum/jquery/ui/jquery-ui.min.css?versao=17" />
+<link rel="stylesheet" type="text/css" href="http://www.destemperados.com.br/comum/jquery/ui/jquery-ui.structure.min.css?versao=17" />
+<link rel="stylesheet" type="text/css" href="http://www.destemperados.com.br/comum/jquery/ui/jquery-ui.theme.min.css?versao=17" />
+<link rel="stylesheet" type="text/css" href="http://www.destemperados.com.br/aplicativos/site/assets/css/index.css?versao=17" />
+
+        <script id="navegg" src="//tag.navdmp.com/tm23955.js"></script>
+<script src="http://www.destemperados.com.br/aplicativos/site/assets/js/vendor/modernizr.js"></script>
+
+        <script type="text/javascript">
+    sas_tmstp=Math.round(Math.random()*10000000000);
+sas_pageid='62565/(capa)';		// Page : Destemperados/capa
+var sas_formatids = '9252,9250';
+sas_target='';			// Targeting
+document.write('<scr'+'ipt  src="http://ww488.smartadserver.com/call2/pubjall/' + sas_pageid + '/' + sas_formatids + '/' + sas_tmstp + '/' + escape(sas_target) + '?"></scr'+'ipt>');    
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 10]>
+            <p class="browsehappy">Você está usando um navegador <strong>desatualizado</strong>. Por favor, <a href="http://browsehappy.com/">atualize seu navegador</a> para uma melhor experiência.</p>
+        <![endif]-->
+
+        <header id="header" role="banner">
+    <div class="box-publicity">
+        <script type="text/javascript">
+        if (typeof sas_manager != 'undefined') {
+                sas_manager.render(9250);
+        }
+        </script>
+    </div>
+
+    <div class="content-header">
+        <h1 id="logo">
+            <a class="ir" href="http://www.destemperados.com.br/" title="Destemperados">Destemperados</a>
+        </h1>
+    </div>
+
+    <div class="content-form">
+        <span class="blt-show-form ir bts-icones">Show Form</span>
+        <span class="blt-close-form ir bts-icones">Close Form</span>
+        <form id="formSearch" class="formSearch" action="javascript:void(0);" method="Post">
+            <fieldset>
+                <input class="txtSearch" placeholder="Buscar no site" type="text" name="txtSearch"/>
+                <div class="select-container-search experiences-filters">
+                    <select class="type chosen-select" name="tipo" id="slcTipo">
+                        <option value="">Tipo</option>
+                                                    <option value="5">Experiencia</option>
+                                                    <option value="11">Bebida</option>
+                                                    <option value="12">Receita</option>
+                                                    <option value="8">Tendencia</option>
+                                                    <option value="7">Entrevista</option>
+                                                    <option value="6">Hot List</option>
+                                                    <option value="15">Drink Experience</option>
+                                            </select>
+                </div>
+                <div class="select-container-search experiences-filters">
+                    <select class="region chosen-select" name="regiao" id="slcRegiaoSearch">
+                        <option value="">Região</option>
+                                                    <option value="AM">AM</option>
+                                                    <option value="AR">AR</option>
+                                                    <option value="BA">BA</option>
+                                                    <option value="CE">CE</option>
+                                                    <option value="DESTEMPERADINHOS">Destemperadinhos</option>
+                                                    <option value="DF">DF</option>
+                                                    <option value="ES">ES</option>
+                                                    <option value="FREE PASS">Free Pass</option>
+                                                    <option value="GO">GO</option>
+                                                    <option value="HOT LIST">Hot List</option>
+                                                    <option value="LITTLE ITALY">Little Italy</option>
+                                                    <option value="MG">MG</option>
+                                                    <option value="MT">MT</option>
+                                                    <option value="PA">PA</option>
+                                                    <option value="PE">PE</option>
+                                                    <option value="PR">PR</option>
+                                                    <option value="RJ">RJ</option>
+                                                    <option value="RN">RN</option>
+                                                    <option value="RS">RS</option>
+                                                    <option value="SC">SC</option>
+                                                    <option value="SP">SP</option>
+                                                    <option value="UR">UR</option>
+                                            </select>
+                </div>
+                <input type="submit" class="magnifier bts-icones" name="buscar" value=""/>
+                <button class="btn-pattern btn-search" type="submit">Buscar</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <nav id="nav-global" class="nav-collapse">
+        <ul class="nav-menu">
+            <li>
+                <a href="http://www.destemperados.com.br/destemperados" title="Destemperados">Destemperados</a>
+            </li>
+            <li>
+                <a href="http://www.destemperados.com.br/eventos" title="Eventos">Eventos</a>
+            </li>
+            <li>
+                <a href="http://www.destemperados.com.br/casa-destemperados" title="Casa destemperados">Casa Destemperados</a>
+            </li>
+            <li>
+                <a href="http://www.destemperados.com.br/tendencias" title="Tendências">Tendências</a>
+            </li>
+            <li>
+                <a href="http://www.destemperados.com.br/hot-lists" title="Hot Lists">Hot Lists</a>
+            </li>
+            <li>
+                <a href="http://www.destemperados.com.br/viva-a-carne" title="Viva a Carne">Viva a Carne</a>
+            </li>
+            <li>
+                <a href="http://www.destemperados.com.br/contato" title="Contato">Contato</a>
+            </li>
+        </ul>
+    </nav>
+
+    <ul class="others-links">
+        <li class="btn-experience">
+            <a href="http://www.destemperados.com.br/experiencias" title="Experiências"><span class="bts-icones">Experiências</span></a>
+        </li>
+        <li class="btn-revenue">
+            <a href="http://www.destemperados.com.br/receitas" title="Receitas"><span class="bts-icones">Receitas</span></a>
+        </li>
+        <li class="btn-drinks">
+            <a href="http://www.destemperados.com.br/bebidas" title="Bebidas"><span class="bts-icones">Bebidas</span></a>
+        </li>
+    </ul>
+</header>
+
+        <div class="content-main">
+            <main id="main" role="main">
+                <section class="box-news" data-news="1">
+                    <span class="bts-categorias categorias cat-1 ir">Categorias</span>
+                    <ul class="box-slider">
+                                                    <li>
+                                <div class="content-image">
+                                    <a href="http://www.destemperados.com.br/experiencias/sabor-de-infancia-na-primavera" title="Sabor de infância na Primavera">
+                                                                                    <span class="uf ">RS</span>
+                                                                                <img src="https://destemperados.s3.amazonaws.com/arquivos/experiencia/846_564/img_60362894.jpg" alt="Sabor de infância na Primavera">
+                                    </a>
+                                </div>
+                                <div class="content-tenor">
+                                    <span class="tt-date">26/01/2016</span>
+                                    <strong class="tt-news">
+                                        <a href="http://www.destemperados.com.br/experiencias/sabor-de-infancia-na-primavera" title="Sabor de infância na Primavera">Sabor de infância na Primavera</a>
+                                    </strong>
+                                </div>
+                            </li>
+                                                    <li>
+                                <div class="content-image">
+                                    <a href="http://www.destemperados.com.br/experiencias/geiko-san-o-artista-do-sushi" title="Geiko-San: o artista do sushi">
+                                                                                    <span class="uf ">SP</span>
+                                                                                <img src="https://destemperados.s3.amazonaws.com/arquivos/experiencia/846_564/oscar_45617946.jpg" alt="Geiko-San: o artista do sushi">
+                                    </a>
+                                </div>
+                                <div class="content-tenor">
+                                    <span class="tt-date">26/01/2016</span>
+                                    <strong class="tt-news">
+                                        <a href="http://www.destemperados.com.br/experiencias/geiko-san-o-artista-do-sushi" title="Geiko-San: o artista do sushi">Geiko-San: o artista do sushi</a>
+                                    </strong>
+                                </div>
+                            </li>
+                                                    <li>
+                                <div class="content-image">
+                                    <a href="http://www.destemperados.com.br/experiencias/cota-200-jantar-com-a-mais-linda-vista-do-rj" title="Cota 200: jantar com a mais linda vista do RJ">
+                                                                                    <span class="uf ">RJ</span>
+                                                                                <img src="https://destemperados.s3.amazonaws.com/arquivos/experiencia/846_564/babi_68662999.jpg" alt="Cota 200: jantar com a mais linda vista do RJ">
+                                    </a>
+                                </div>
+                                <div class="content-tenor">
+                                    <span class="tt-date">26/01/2016</span>
+                                    <strong class="tt-news">
+                                        <a href="http://www.destemperados.com.br/experiencias/cota-200-jantar-com-a-mais-linda-vista-do-rj" title="Cota 200: jantar com a mais linda vista do RJ">Cota 200: jantar com a mais linda vista do RJ</a>
+                                    </strong>
+                                </div>
+                            </li>
+                                                    <li>
+                                <div class="content-image">
+                                    <a href="http://www.destemperados.com.br/experiencias/10-lugares-para-comer-bem-em-aspen-e-snowmass" title="10 lugares para comer bem em Aspen e Snowmass">
+                                                                                    <span class="uf  free-pass ">Free Pass</span>
+                                                                                <img src="https://destemperados.s3.amazonaws.com/arquivos/experiencia/846_564/01_aspen_snowmass_29606982.jpg" alt="10 lugares para comer bem em Aspen e Snowmass">
+                                    </a>
+                                </div>
+                                <div class="content-tenor">
+                                    <span class="tt-date">25/01/2016</span>
+                                    <strong class="tt-news">
+                                        <a href="http://www.destemperados.com.br/experiencias/10-lugares-para-comer-bem-em-aspen-e-snowmass" title="10 lugares para comer bem em Aspen e Snowmass">10 lugares para comer bem em Aspen e Snowmass</a>
+                                    </strong>
+                                </div>
+                            </li>
+                                            </ul>
+                </section>
+
+                <section class="box-sub-news" data-news="2">
+                    <span class="bts-categorias categorias cat-3 ir">Categorias</span>
+                    <ul class="box-sub-slider">
+                        <li>
+                            <div class="content-sub-img">
+                                <a href="http://www.destemperados.com.br/receitas/cestinhas-de-frango-para-petiscar" title="Cestinhas de frango para petiscar">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/receita/846_564/00b62ff9_59812037.jpg" alt="Cestinhas de frango para petiscar">
+                                </a>
+                            </div>
+                            <div class="content-sub-infos">
+                                <div class="align-infos">
+                                    <span class="tt-date">26/01/2016</span>
+                                    <strong class="tt-news">
+                                        <a href="http://www.destemperados.com.br/receitas/cestinhas-de-frango-para-petiscar" title="Cestinhas de frango para petiscar">Cestinhas de frango para petiscar</a>
+                                    </strong>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="box-sub-news sub-grey" data-news="3">
+                    <span class="bts-categorias categorias cat-2 ir">Categorias</span>
+                    <ul class="box-sub-slider">
+                        <li>
+                            <div class="content-sub-img">
+                                <a href="http://www.destemperados.com.br/bebidas/6-sucos-para-provar-em-porto-alegre" title="6 sucos para provar em Porto Alegre">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/bebida/846_564/suco06_73835011.jpg" alt="6 sucos para provar em Porto Alegre">
+                                </a>
+                            </div>
+                            <div class="content-sub-infos">
+                                <div class="align-infos">
+                                    <span class="tt-date">22/01/2016</span>
+                                    <strong class="tt-news">
+                                        <a href="http://www.destemperados.com.br/bebidas/6-sucos-para-provar-em-porto-alegre" title="6 sucos para provar em Porto Alegre">6 sucos para provar em Porto Alegre</a>
+                                    </strong>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="categories clearfix">
+                    <ul class="categories-list">
+
+                        <li class="categories-item experiences fade-it-one">
+    <div class="content-experiences">
+        <a class="tt-categories" href="experiencias"><span class="bts-icones icon-experiences"></span>Experiências</a>
+        <form id="filtroExperiencia" action="javascript:void(0);" method="Post">
+            <select class="chosen-select" name="regiao" id="slcRegiao">
+                <option value="">Região</option>
+                                    <option value="24">AM</option>
+                                    <option value="29">AR</option>
+                                    <option value="23">BA</option>
+                                    <option value="21">CE</option>
+                                    <option value="20">DF</option>
+                                    <option value="37">ES</option>
+                                    <option value="11">Free Pass</option>
+                                    <option value="36">GO</option>
+                                    <option value="32">Hot List</option>
+                                    <option value="26">Little Italy</option>
+                                    <option value="17">MG</option>
+                                    <option value="15">MT</option>
+                                    <option value="35">PA</option>
+                                    <option value="13">PE</option>
+                                    <option value="25">PR</option>
+                                    <option value="22">RJ</option>
+                                    <option value="19">RN</option>
+                                    <option value="18">RS</option>
+                                    <option value="16">SC</option>
+                                    <option value="14">SP</option>
+                                    <option value="30">UR</option>
+                            </select>
+            <select class="chosen-select" name="cidade" id="slcCidade">
+                <option value="">Cidade</option>
+                                    <option class="regiao_14 cidade" value="292"> Monte Alegre do Sul</option>
+                                    <option class="regiao_18 cidade" value="274">Aceguá</option>
+                                    <option class="regiao_14 cidade" value="310">Americana</option>
+                                    <option class="regiao_14 cidade" value="305">Amparo</option>
+                                    <option class="regiao_11 cidade" value="74">Amsterdam</option>
+                                    <option class="regiao_22 cidade" value="107">Angra dos Reis</option>
+                                    <option class="regiao_25 cidade" value="277">Antonina</option>
+                                    <option class="regiao_14 cidade" value="262">Araçariguama</option>
+                                    <option class="regiao_22 cidade" value="180">Arraial do Cabo</option>
+                                    <option class="regiao_11 cidade" value="316">Aspen</option>
+                                    <option class="regiao_18 cidade" value="256">Atlântida</option>
+                                    <option class="regiao_11 cidade" value="315">Austin</option>
+                                    <option class="regiao_27 cidade" value="141">Bagé</option>
+                                    <option class="regiao_18 cidade" value="270">Bagé</option>
+                                    <option class="regiao_16 cidade" value="33">Bal. Camboriú</option>
+                                    <option class="regiao_14 cidade" value="286">Bálsamo</option>
+                                    <option class="regiao_11 cidade" value="60">Barcelona</option>
+                                    <option class="regiao_29 cidade" value="98">Bariloche</option>
+                                    <option class="regiao_27 cidade" value="225">Bariloche</option>
+                                    <option class="regiao_35 cidade" value="199">Belém</option>
+                                    <option class="regiao_17 cidade" value="40">Belo Horizonte</option>
+                                    <option class="regiao_18 cidade" value="25">Bento Gonçalves</option>
+                                    <option class="regiao_27 cidade" value="134">Bento Gonçalves</option>
+                                    <option class="regiao_11 cidade" value="62">Berlim</option>
+                                    <option class="regiao_16 cidade" value="213">Biguaçu</option>
+                                    <option class="regiao_16 cidade" value="123">Blumenau</option>
+                                    <option class="regiao_11 cidade" value="104">Bogotá</option>
+                                    <option class="regiao_27 cidade" value="232">Bologna</option>
+                                    <option class="regiao_16 cidade" value="203">Bombas</option>
+                                    <option class="regiao_16 cidade" value="220">Bombinhas</option>
+                                    <option class="regiao_11 cidade" value="86">Brasil</option>
+                                    <option class="regiao_20 cidade" value="36">Brasília</option>
+                                    <option class="regiao_17 cidade" value="41">Brumadinho</option>
+                                    <option class="regiao_11 cidade" value="92">Bruxelas</option>
+                                    <option class="regiao_27 cidade" value="140">Buenos Aires</option>
+                                    <option class="regiao_29 cidade" value="94">Buenos Aires</option>
+                                    <option class="regiao_22 cidade" value="229">Búzios</option>
+                                    <option class="regiao_13 cidade" value="85">Cabo de Santo Agostinho</option>
+                                    <option class="regiao_23 cidade" value="282">Cachoeira</option>
+                                    <option class="regiao_17 cidade" value="254">Cachoeira do Campo</option>
+                                    <option class="regiao_11 cidade" value="287">Cadaqués</option>
+                                    <option class="regiao_13 cidade" value="189">Camaragibe</option>
+                                    <option class="regiao_18 cidade" value="268">Cambará do Sul</option>
+                                    <option class="regiao_14 cidade" value="111">Campinas</option>
+                                    <option class="regiao_14 cidade" value="214">Campos do Jordão</option>
+                                    <option class="regiao_11 cidade" value="197">Cancun</option>
+                                    <option class="regiao_18 cidade" value="24">Canela</option>
+                                    <option class="regiao_27 cidade" value="142">Canela</option>
+                                    <option class="regiao_18 cidade" value="255">Capão da Canoa</option>
+                                    <option class="regiao_11 cidade" value="71">Cape Town</option>
+                                    <option class="regiao_27 cidade" value="247">Carambeí</option>
+                                    <option class="regiao_13 cidade" value="117">Caruaru</option>
+                                    <option class="regiao_11 cidade" value="202">Cascais</option>
+                                    <option class="regiao_18 cidade" value="20">Caxias do Sul</option>
+                                    <option class="regiao_27 cidade" value="153">Caxias do Sul</option>
+                                    <option class="regiao_15 cidade" value="116">Chapada dos Guimarães</option>
+                                    <option class="regiao_27 cidade" value="148">Chuy</option>
+                                    <option class="regiao_36 cidade" value="231">Cidade de Goiás</option>
+                                    <option class="regiao_11 cidade" value="278">Cidade do México</option>
+                                    <option class="regiao_11 cidade" value="260">Cidade do Panamá</option>
+                                    <option class="regiao_17 cidade" value="109">Contagem</option>
+                                    <option class="regiao_14 cidade" value="204">Cotia</option>
+                                    <option class="regiao_15 cidade" value="72">Cuiabá</option>
+                                    <option class="regiao_21 cidade" value="113">Cumbuco</option>
+                                    <option class="regiao_14 cidade" value="306">Cunha</option>
+                                    <option class="regiao_25 cidade" value="35">Curitiba</option>
+                                    <option class="regiao_18 cidade" value="217">Dois Irmãos</option>
+                                    <option class="regiao_27 cidade" value="219">Dom Pedrito</option>
+                                    <option class="regiao_11 cidade" value="299">Épernay</option>
+                                    <option class="regiao_11 cidade" value="240">Erbusco</option>
+                                    <option class="regiao_11 cidade" value="103">Espanha</option>
+                                    <option class="regiao_18 cidade" value="308">Estância Velha</option>
+                                    <option class="regiao_18 cidade" value="21">Farroupilha</option>
+                                    <option class="regiao_26 cidade" value="121">Florença</option>
+                                    <option class="regiao_18 cidade" value="108">Flores da Cunha</option>
+                                    <option class="regiao_27 cidade" value="159">Florianópolis</option>
+                                    <option class="regiao_16 cidade" value="30">Florianópolis</option>
+                                    <option class="regiao_21 cidade" value="48">Fortaleza</option>
+                                    <option class="regiao_27 cidade" value="145">Foz do Iguaçu</option>
+                                    <option class="regiao_18 cidade" value="27">Garibaldi</option>
+                                    <option class="regiao_16 cidade" value="32">Garopaba</option>
+                                    <option class="regiao_27 cidade" value="131">Garopaba</option>
+                                    <option class="regiao_30 cidade" value="249">Garzón</option>
+                                    <option class="regiao_11 cidade" value="119">Goiânia</option>
+                                    <option class="regiao_36 cidade" value="230">Goiânia</option>
+                                    <option class="regiao_11 cidade" value="288">Gordes</option>
+                                    <option class="regiao_27 cidade" value="138">Gramado</option>
+                                    <option class="regiao_18 cidade" value="23">Gramado</option>
+                                    <option class="regiao_16 cidade" value="163">Guabiruba</option>
+                                    <option class="regiao_18 cidade" value="267">Guaíba</option>
+                                    <option class="regiao_20 cidade" value="198">Guará</option>
+                                    <option class="regiao_37 cidade" value="246">Guarapari</option>
+                                    <option class="regiao_25 cidade" value="129">Guaraqueçaba</option>
+                                    <option class="regiao_25 cidade" value="284">Guaratuba</option>
+                                    <option class="regiao_14 cidade" value="252">Guarujá</option>
+                                    <option class="regiao_14 cidade" value="139">Guarulhos</option>
+                                    <option class="regiao_14 cidade" value="179">Holambra</option>
+                                    <option class="regiao_32 cidade" value="175">Hot List</option>
+                                    <option class="regiao_27 cidade" value="154">Igrejinha</option>
+                                    <option class="regiao_14 cidade" value="187">Ilhabela</option>
+                                    <option class="regiao_23 cidade" value="143">Ilhéus</option>
+                                    <option class="regiao_17 cidade" value="43">Itabirito</option>
+                                    <option class="regiao_23 cidade" value="165">Itacaré</option>
+                                    <option class="regiao_22 cidade" value="178">Itaipava</option>
+                                    <option class="regiao_27 cidade" value="205">Itália</option>
+                                    <option class="regiao_23 cidade" value="273">Itaparica</option>
+                                    <option class="regiao_16 cidade" value="194">Itapema</option>
+                                    <option class="regiao_22 cidade" value="110">Itatiaia</option>
+                                    <option class="regiao_36 cidade" value="253">Itauçú</option>
+                                    <option class="regiao_18 cidade" value="269">Ivoti</option>
+                                    <option class="regiao_13 cidade" value="84">Jaboatão dos Guararapes</option>
+                                    <option class="regiao_27 cidade" value="149">Jaguarão</option>
+                                    <option class="regiao_21 cidade" value="83">Jericoacoara</option>
+                                    <option class="regiao_30 cidade" value="100">José Ignacio</option>
+                                    <option class="regiao_16 cidade" value="272">Jurerê Internacional</option>
+                                    <option class="regiao_11 cidade" value="75">Kingston</option>
+                                    <option class="regiao_27 cidade" value="184">La Paloma</option>
+                                    <option class="regiao_16 cidade" value="296">Laguna</option>
+                                    <option class="regiao_18 cidade" value="201">Lajeado</option>
+                                    <option class="regiao_23 cidade" value="243">Lauro de Freitas</option>
+                                    <option class="regiao_11 cidade" value="56">Lima</option>
+                                    <option class="regiao_11 cidade" value="207">Lisboa</option>
+                                    <option class="regiao_18 cidade" value="22">Litoral Gaúcho</option>
+                                    <option class="regiao_27 cidade" value="132">Litoral Gaúcho</option>
+                                    <option class="regiao_11 cidade" value="57">Londres</option>
+                                    <option class="regiao_25 cidade" value="135">Londrina</option>
+                                    <option class="regiao_27 cidade" value="136">Los Angeles</option>
+                                    <option class="regiao_11 cidade" value="248">Maceió</option>
+                                    <option class="regiao_11 cidade" value="63">Madrid</option>
+                                    <option class="regiao_14 cidade" value="172">Mairiporã</option>
+                                    <option class="regiao_30 cidade" value="101">Maldonado</option>
+                                    <option class="regiao_24 cidade" value="49">Manaus</option>
+                                    <option class="regiao_11 cidade" value="275">Marechal Deodoro</option>
+                                    <option class="regiao_29 cidade" value="97">Mendoza</option>
+                                    <option class="regiao_11 cidade" value="81">Miami</option>
+                                    <option class="regiao_27 cidade" value="122">Miami</option>
+                                    <option class="regiao_11 cidade" value="59">Milão</option>
+                                    <option class="regiao_30 cidade" value="96">Montevidéu</option>
+                                    <option class="regiao_11 cidade" value="238">Montreal</option>
+                                    <option class="regiao_25 cidade" value="280">Morretes</option>
+                                    <option class="regiao_18 cidade" value="245">Morro Reuter</option>
+                                    <option class="regiao_27 cidade" value="161">Morro Reuter</option>
+                                    <option class="regiao_11 cidade" value="105">Mugaritz</option>
+                                    <option class="regiao_11 cidade" value="239">Nápoles</option>
+                                    <option class="regiao_19 cidade" value="73">Natal</option>
+                                    <option class="regiao_16 cidade" value="211">Navegantes</option>
+                                    <option class="regiao_27 cidade" value="155">New York</option>
+                                    <option class="regiao_19 cidade" value="242">Nísia Floresta</option>
+                                    <option class="regiao_22 cidade" value="114">Niterói</option>
+                                    <option class="regiao_17 cidade" value="164">Nova Lima</option>
+                                    <option class="regiao_18 cidade" value="39">Nova Pádua</option>
+                                    <option class="regiao_27 cidade" value="176">Nova Pádua</option>
+                                    <option class="regiao_18 cidade" value="233">Nova Petrópolis</option>
+                                    <option class="regiao_27 cidade" value="126">Nova Petrópolis</option>
+                                    <option class="regiao_11 cidade" value="80">Nova York</option>
+                                    <option class="regiao_18 cidade" value="67">Novo Hamburgo</option>
+                                    <option class="regiao_13 cidade" value="82">Olinda</option>
+                                    <option class="regiao_27 cidade" value="124">Orlando</option>
+                                    <option class="regiao_18 cidade" value="279">Osório</option>
+                                    <option class="regiao_27 cidade" value="160">Osório</option>
+                                    <option class="regiao_17 cidade" value="42">Ouro Preto</option>
+                                    <option class="regiao_16 cidade" value="309">Palhoça</option>
+                                    <option class="regiao_22 cidade" value="181">Paraty</option>
+                                    <option class="regiao_11 cidade" value="66">Paris</option>
+                                    <option class="regiao_11 cidade" value="263">Pedra de Fogo</option>
+                                    <option class="regiao_14 cidade" value="297">Pedreira</option>
+                                    <option class="regiao_27 cidade" value="226">Pelotas</option>
+                                    <option class="regiao_18 cidade" value="212">Pelotas</option>
+                                    <option class="regiao_13 cidade" value="128">Petrolina</option>
+                                    <option class="regiao_22 cidade" value="112">Petrópolis</option>
+                                    <option class="regiao_11 cidade" value="120">Piemonte</option>
+                                    <option class="regiao_18 cidade" value="311">Pinto Bandeira</option>
+                                    <option class="regiao_14 cidade" value="237">Piracicaba</option>
+                                    <option class="regiao_22 cidade" value="210">Piraí</option>
+                                    <option class="regiao_36 cidade" value="304">Pirenópolis</option>
+                                    <option class="regiao_11 cidade" value="200">Pirenópolis</option>
+                                    <option class="regiao_11 cidade" value="276">Playa del Carmen</option>
+                                    <option class="regiao_17 cidade" value="295">Poços de Caldas</option>
+                                    <option class="regiao_19 cidade" value="156">Ponta Negra</option>
+                                    <option class="regiao_27 cidade" value="158">Portillo</option>
+                                    <option class="regiao_18 cidade" value="17">Porto Alegre</option>
+                                    <option class="regiao_27 cidade" value="127">Porto Alegre</option>
+                                    <option class="regiao_16 cidade" value="196">Porto Belo</option>
+                                    <option class="regiao_13 cidade" value="222">Porto de Galinhas</option>
+                                    <option class="regiao_22 cidade" value="195">Porto Real</option>
+                                    <option class="regiao_23 cidade" value="291">Porto Seguro</option>
+                                    <option class="regiao_18 cidade" value="307">Pouso Novo</option>
+                                    <option class="regiao_11 cidade" value="76">Praga</option>
+                                    <option class="regiao_19 cidade" value="169">Praia de Pipa</option>
+                                    <option class="regiao_16 cidade" value="106">Praia do Rosa</option>
+                                    <option class="regiao_30 cidade" value="95">Punta del Este</option>
+                                    <option class="regiao_27 cidade" value="133">Punta del Este</option>
+                                    <option class="regiao_16 cidade" value="261">Quatro Ilhas</option>
+                                    <option class="regiao_16 cidade" value="221">Rancho Queimado</option>
+                                    <option class="regiao_27 cidade" value="188">Receitas </option>
+                                    <option class="regiao_13 cidade" value="47">Recife</option>
+                                    <option class="regiao_11 cidade" value="298">Reims</option>
+                                    <option class="regiao_22 cidade" value="191">Resende</option>
+                                    <option class="regiao_14 cidade" value="157">Ribeirão Preto</option>
+                                    <option class="regiao_27 cidade" value="137">Rio de Janeiro</option>
+                                    <option class="regiao_22 cidade" value="44">Rio de Janeiro</option>
+                                    <option class="regiao_18 cidade" value="285">Rio Grande</option>
+                                    <option class="regiao_18 cidade" value="313">Rio Pardo</option>
+                                    <option class="regiao_11 cidade" value="301">Riposto</option>
+                                    <option class="regiao_30 cidade" value="300">Rivera</option>
+                                    <option class="regiao_27 cidade" value="147">Rivera</option>
+                                    <option class="regiao_11 cidade" value="58">Roma</option>
+                                    <option class="regiao_11 cidade" value="79">Saint Paul de Vence</option>
+                                    <option class="regiao_11 cidade" value="289">Saint-Rémy-de-Provence</option>
+                                    <option class="regiao_29 cidade" value="218">Salta</option>
+                                    <option class="regiao_23 cidade" value="46">Salvador</option>
+                                    <option class="regiao_11 cidade" value="61">San Andrés</option>
+                                    <option class="regiao_29 cidade" value="99">San Martin de los Andes</option>
+                                    <option class="regiao_18 cidade" value="293">Santa Cruz do Sul</option>
+                                    <option class="regiao_11 cidade" value="78">Santa Margherita Ligure</option>
+                                    <option class="regiao_11 cidade" value="53">Santiago</option>
+                                    <option class="regiao_27 cidade" value="146">Santiago do Chile</option>
+                                    <option class="regiao_16 cidade" value="271">Santo Amaro da Imperatriz</option>
+                                    <option class="regiao_14 cidade" value="264">Santo André</option>
+                                    <option class="regiao_14 cidade" value="192">Santos</option>
+                                    <option class="regiao_14 cidade" value="244">São Bento do Sapucaí</option>
+                                    <option class="regiao_18 cidade" value="209">São Francisco de Paula</option>
+                                    <option class="regiao_16 cidade" value="174">São Francisco do Sul</option>
+                                    <option class="regiao_16 cidade" value="34">São José</option>
+                                    <option class="regiao_13 cidade" value="258">São José da Coroa Grande</option>
+                                    <option class="regiao_14 cidade" value="281">São José do Rio Preto</option>
+                                    <option class="regiao_18 cidade" value="68">São Leopoldo</option>
+                                    <option class="regiao_11 cidade" value="177">São Miguel dos Milagres</option>
+                                    <option class="regiao_14 cidade" value="45">São Paulo</option>
+                                    <option class="regiao_27 cidade" value="168">São Paulo</option>
+                                    <option class="regiao_14 cidade" value="171">São Sebastião</option>
+                                    <option class="regiao_14 cidade" value="223">São Vicente</option>
+                                    <option class="regiao_13 cidade" value="206">Serinhanhém</option>
+                                    <option class="regiao_18 cidade" value="29">Serra Gaúcha</option>
+                                    <option class="regiao_14 cidade" value="294">Serra Negra</option>
+                                    <option class="regiao_11 cidade" value="64">Sevilla</option>
+                                    <option class="regiao_20 cidade" value="37">Sobradinho</option>
+                                    <option class="regiao_11 cidade" value="167">Sydney</option>
+                                    <option class="regiao_18 cidade" value="170">Tainhas</option>
+                                    <option class="regiao_11 cidade" value="250">Tampa</option>
+                                    <option class="regiao_22 cidade" value="193">Teresópolis</option>
+                                    <option class="regiao_19 cidade" value="259">Tibau do Sul</option>
+                                    <option class="regiao_17 cidade" value="166">Tiradentes</option>
+                                    <option class="regiao_18 cidade" value="38">Três Coroas</option>
+                                    <option class="regiao_14 cidade" value="235">Ubatuba</option>
+                                    <option class="regiao_17 cidade" value="162">Uberlândia</option>
+                                    <option class="regiao_18 cidade" value="19">Vale dos Vinhedos</option>
+                                    <option class="regiao_11 cidade" value="227">Valladolid</option>
+                                    <option class="regiao_27 cidade" value="236">Valle Nevado</option>
+                                    <option class="regiao_11 cidade" value="69">Vancouver</option>
+                                    <option class="regiao_27 cidade" value="224">Vancouver</option>
+                                    <option class="regiao_15 cidade" value="182">Várzea Grande</option>
+                                    <option class="regiao_18 cidade" value="283">Veranópolis</option>
+                                    <option class="regiao_11 cidade" value="266">Versailles</option>
+                                    <option class="regiao_17 cidade" value="314">Viçosa</option>
+                                    <option class="regiao_37 cidade" value="257">Vila Velha</option>
+                                    <option class="regiao_22 cidade" value="118">Visconde de Mauá</option>
+                                    <option class="regiao_37 cidade" value="234">Vitória</option>
+                                    <option class="regiao_11 cidade" value="190">Vitória</option>
+                            </select>
+            <select class="chosen-select" name="culinaria" id="slcCulinaria">
+                <option value="">Culinária</option>
+                                    <option value="7847">Africana</option>
+                                    <option value="25">Alemã</option>
+                                    <option value="2897">Americana</option>
+                                    <option value="27">Árabe</option>
+                                    <option value="16653">Argentina</option>
+                                    <option value="5575">Asiática</option>
+                                    <option value="15007">Baiana</option>
+                                    <option value="3207">Bares & Botecos</option>
+                                    <option value="6799">Boliviana</option>
+                                    <option value="28">Brasileira</option>
+                                    <option value="16843">Brigadeiro</option>
+                                    <option value="6720">Búlgara</option>
+                                    <option value="18051">Café colonial</option>
+                                    <option value="2912">Cafés</option>
+                                    <option value="30">Caribenha</option>
+                                    <option value="31">Carnes</option>
+                                    <option value="12298">Cervejas</option>
+                                    <option value="10719">Chás</option>
+                                    <option value="5599">Chilena</option>
+                                    <option value="32">Chinesa</option>
+                                    <option value="7821">Colombiana</option>
+                                    <option value="5341">Colonial</option>
+                                    <option value="22486">Confeitaria</option>
+                                    <option value="35">Contemporânea</option>
+                                    <option value="3341">Coreana</option>
+                                    <option value="1">Doces Tentações</option>
+                                    <option value="2">Drinks</option>
+                                    <option value="4415">Egípcia</option>
+                                    <option value="3">Espanhola</option>
+                                    <option value="13900">Frances</option>
+                                    <option value="4">Francesa</option>
+                                    <option value="5">Frutos do Mar</option>
+                                    <option value="9876">Gaulesa</option>
+                                    <option value="5735">Grega</option>
+                                    <option value="6">Hamburgueria</option>
+                                    <option value="3206">Havaiana</option>
+                                    <option value="7">Have a Nice Beer</option>
+                                    <option value="11778">Holandesa</option>
+                                    <option value="8">Indiana</option>
+                                    <option value="9">Internacional</option>
+                                    <option value="15472">Italiana</option>
+                                    <option value="10">Italiana</option>
+                                    <option value="11">Japonesa</option>
+                                    <option value="4935">Judaica</option>
+                                    <option value="12">Junk Food</option>
+                                    <option value="3684">Lanches</option>
+                                    <option value="15043">Latina</option>
+                                    <option value="5777">Marroquina</option>
+                                    <option value="13">Mediterrânea</option>
+                                    <option value="14">Mexicana</option>
+                                    <option value="5883">Mineira</option>
+                                    <option value="3314">Natural</option>
+                                    <option value="5023">Natureba</option>
+                                    <option value="15008">Nordestina</option>
+                                    <option value="3690">Orgânica</option>
+                                    <option value="15">Oriente Médio</option>
+                                    <option value="10148">Padaria</option>
+                                    <option value="15405">Pães</option>
+                                    <option value="16109">Pastelaria</option>
+                                    <option value="16">Peruana</option>
+                                    <option value="17">Pizzaria</option>
+                                    <option value="3952">Polonesa</option>
+                                    <option value="18">Portuguesa</option>
+                                    <option value="19">Regional</option>
+                                    <option value="6766">Russa</option>
+                                    <option value="7393">Sorveteria</option>
+                                    <option value="24586">Sucos</option>
+                                    <option value="3046">Suíça</option>
+                                    <option value="20">Tailandesa</option>
+                                    <option value="4460">Taiwanesa</option>
+                                    <option value="3034">Tibetana</option>
+                                    <option value="3801">Uruguaia</option>
+                                    <option value="21">Vegetariana</option>
+                                    <option value="22">Vietnamita</option>
+                            </select>
+            <select class="chosen-select" name="programa" id="slcPrograma">
+                <option value="">Programa</option>
+                                    <option value="23">A dois</option>
+                                    <option value="24">A qualquer hora</option>
+                                    <option value="26">Almoço de firma</option>
+                                    <option value="29">Business</option>
+                                    <option value="33">Com a família</option>
+                                    <option value="34">Com os amigos</option>
+                                    <option value="36">Happy hour</option>
+                            </select>
+            <button type="sybmit" class="btn-filter">Buscar</button>
+        </form>
+    </div>
+</li>
+
+                        <li class="categories-item recipe fade-it-two">
+    <div class="content-experiences">
+        <a class="tt-categories" href=""><span class="bts-icones icon-recipe"></span>Receitas</a>
+
+        <form id="filtroReceita" action="javascript:void(0);" method="Post">
+            <select class="region chosen-select" name="tipo" ><option value="" >Tipo</option><option value="14835" >Acompanhamentos</option><option value="14850" >Aves</option><option value="22740" >Bebidas</option><option value="14972" >Biscoitos</option><option value="14810" >Bolos</option><option value="17525" >Café da manhã</option><option value="14817" >Carnes</option><option value="14779" >Doces</option><option value="14788" >Doces e bolos</option><option value="15382" >Embutidos</option><option value="17934" >Entradas</option><option value="15748" >Frutos do mar</option><option value="18036" >Hamburguer</option><option value="16593" >Hambúrguer vegetariano</option><option value="14819" >Lanches</option><option value="14825" >Massas</option><option value="19724" >Molhos</option><option value="16142" >Nhoque</option><option value="17422" >Ovo</option><option value="14841" >Pães</option><option value="15467" >Peixes</option><option value="16547" >Petiscos</option><option value="20922" >Pizza</option><option value="18486" >Porco</option><option value="15320" >Risotos</option><option value="14834" >Saladas</option><option value="18041" >Sanduiches</option><option value="20825" >Sopas e Cremes</option><option value="19505" >Sorvete</option><option value="17505" >Sucos</option><option value="22033" >Tempero</option><option value="16896" >Tramontina</option><option value="19559" >Truque</option><option value="16592" >Vegetariano</option></select>
+            <select class="chosen-select city" name="ingrediente" ><option value="" >Ingrediente</option><option value="17922" >Abacate</option><option value="17507" >Abacaxi</option><option value="17629" >Abóbora</option><option value="17619" >Abóbora cabotiá</option><option value="17530" >Abobrinha</option><option value="17509" >Acerola</option><option value="14974" >Açúcar</option><option value="16131" >Adoçante em pó</option><option value="24239" >Agrião</option><option value="15018" >Aipim</option><option value="15321" >Alcachofra</option><option value="15469" >Alcaparra</option><option value="19337" >Alcatra</option><option value="23922" >Alcatra</option><option value="18200" >Alecrim</option><option value="24493" >Alecrim</option><option value="24398" >Alface</option><option value="24403" >Alho poró</option><option value="24318" >Alho poró</option><option value="16858" >Alho poró</option><option value="24056" >Alho poró</option><option value="24108" >Ameixa</option><option value="24204" >Ameixa</option><option value="24218" >Amêndoa</option><option value="24112" >Amêndoa</option><option value="24244" >Amêndoa</option><option value="24044" >Amêndoas</option><option value="23903" >Amendoim</option><option value="24094" >Amora</option><option value="24407" >Amora</option><option value="24461" >Amora</option><option value="24514" >Amora</option><option value="24211" >Amora</option><option value="20461" >Anchova</option><option value="23978" >Anis</option><option value="24321" >Arroz</option><option value="24206" >Arroz</option><option value="18152" >Arroz</option><option value="24215" >Arroz arbóreo</option><option value="16597" >Arroz integral</option><option value="24111" >Arroz vermelho</option><option value="24229" >Atum</option><option value="17720" >Atum</option><option value="24261" >Azeite</option><option value="15012" >Azeite de dendê</option><option value="24233" >Azeitona</option><option value="18525" >Azeitona</option><option value="24196" >Azeitona</option><option value="24230" >Bacalhau</option><option value="15743" >Bacalhau</option><option value="23943" >Bacon</option><option value="14829" >Bacon</option><option value="19553" >Badejo</option><option value="15009" >Banana</option><option value="14832" >Batata</option><option value="18566" >Batata-doce</option><option value="24498" >Baunilha</option><option value="20116" >Baunilha</option><option value="15999" >Berbigão</option><option value="20115" >Bergamota</option><option value="14837" >Berinjela</option><option value="16596" >Beterraba</option><option value="23919" >Bife</option><option value="24116" >Biscoito champanhe</option><option value="16549" >Bolinho de feijão</option><option value="17459" >Brócolis</option><option value="24320" >Brócolis</option><option value="24333" >Brócolis</option><option value="24486" >Brócolis</option><option value="24392" >Brócolis</option><option value="15182" >Cacau</option><option value="15019" >Cachaça</option><option value="24228" >Café</option><option value="24214" >Café</option><option value="23901" >Café</option><option value="19531" >Café</option><option value="17508" >Caju</option><option value="18496" >Calabresa</option><option value="24040" >Caldo de legumes</option><option value="24319" >Camarão</option><option value="23910" >Camarão</option><option value="24390" >Camarão</option><option value="15753" >Camarão</option><option value="24055" >Camarão</option><option value="18490" >Canela</option><option value="24322" >Canela</option><option value="19019" >Canjica</option><option value="15766" >Capim santo</option><option value="20189" >Caqui</option><option value="18526" >Caranguejo</option><option value="14820" >Carne</option><option value="16548" >Carne de sol</option><option value="14979" >Carne moída</option><option value="24488" >Carne suína</option><option value="14849" >Castanha</option><option value="18497" >Castanha de caju</option><option value="24113" >Castanha de caju</option><option value="17522" >Cebola</option><option value="23923" >Cebola</option><option value="23920" >Cebola caramelada</option><option value="24265" >Cebola roxa</option><option value="24332" >Cenoura</option><option value="24245" >Cenoura</option><option value="14833" >Cenoura</option><option value="24039" >Cenoura</option><option value="24393" >Cenoura</option><option value="15183" >Cereja em calda</option><option value="16013" >Cerveja</option><option value="16601" >Cevada</option><option value="24262" >Cevadinha</option><option value="19564" >Charque</option><option value="24101" >Chester</option><option value="24202" >Chester</option><option value="23902" >Chocolate</option><option value="14811" >Chocolate</option><option value="24469" >Chocolate meio amargo</option><option value="24208" >Coco</option><option value="24402" >Cogumelo</option><option value="24102" >Cogumelo</option><option value="24391" >Cogumelo</option><option value="16598" >Cogumelos</option><option value="14830" >Cordeiro</option><option value="24267" >Cordeiro</option><option value="18498" >Costela de porco</option><option value="16551" >Couve</option><option value="23941" >Coxão de dentro</option><option value="23979" >Cravo</option><option value="16545" >Cream cheese</option><option value="24212" >Cream cheese</option><option value="23974" >Creme de leite</option><option value="24500" >Creme de leite</option><option value="23913" >Creme de leite fresco</option><option value="16332" >Croissant</option><option value="19612" >Cupuaçu</option><option value="17620" >Curry</option><option value="14812" >Doce de leite</option><option value="24105" >Eia de natal</option><option value="24263" >Erva doce</option><option value="20212" >Erva-mate</option><option value="17644" >Ervas</option><option value="17647" >Ervas finas</option><option value="23911" >Ervilha torta</option><option value="15744" >Ervilhas</option><option value="24054" >Espinafre</option><option value="18153" >Espinafre</option><option value="24205" >Espumante</option><option value="14783" >Essência de baunilha</option><option value="16602" >Falafel</option><option value="16126" >Farinha de linhaça</option><option value="18495" >Farinha de mandioca</option><option value="14886" >Farinha de sêmola</option><option value="14844" >Farinha de trigo</option><option value="24650" >Farinha de trigo integral</option><option value="14838" >Feijão</option><option value="24323" >Fermento</option><option value="24387" >Figo</option><option value="24216" >Filé</option><option value="16335" >Filé mignon</option><option value="23933" >Filé mignon</option><option value="23939" >Filé mignon</option><option value="24406" >Framboesa</option><option value="23976" >Framboesa</option><option value="16546" >Framboesa</option><option value="24210" >Framboesa</option><option value="24516" >Framboesa</option><option value="23966" >Frango</option><option value="24221" >Frango</option><option value="24654" >Frango</option><option value="24487" >Frango</option><option value="24368" >Frango</option><option value="24053" >Frango</option><option value="14855" >Frango</option><option value="24652" >Frutas</option><option value="17927" >Frutas</option><option value="23909" >Frutos do mar</option><option value="18414" >Fubá</option><option value="19607" >Galinha</option><option value="24243" >Gengibre</option><option value="19161" >Gengibre</option><option value="24032" >Gengibre</option><option value="24035" >Gengibre</option><option value="24038" >Gengibre</option><option value="24043" >Gengibre</option><option value="20129" >Gergelim</option><option value="24268" >Goiaba</option><option value="16588" >Gorgonzola</option><option value="16125" >Granola</option><option value="14836" >Grão-de-bico</option><option value="18038" >Hamburguer</option><option value="17943" >Hidromel</option><option value="23977" >Hortelã</option><option value="24303" >Hortelã</option><option value="24106" >Idana spassini</option><option value="23921" >Idana spassini</option><option value="18196" >Inhame</option><option value="23895" >Iogurte</option><option value="24463" >Iogurte</option><option value="14815" >Iogurte</option><option value="24197" >Kani</option><option value="24309" >Kani</option><option value="24612" >Laranja</option><option value="24238" >Laranja</option><option value="14823" >Laranja</option><option value="24491" >Laranja</option><option value="24237" >Legumes</option><option value="14782" >Leite</option><option value="24324" >Leite</option><option value="24499" >Leite</option><option value="14780" >Leite condensado</option><option value="23896" >Leite condensado</option><option value="15010" >Leite de coco</option><option value="15757" >Leite de Tigre</option><option value="17626" >Lentilha</option><option value="24517" >Limão</option><option value="14814" >Limão</option><option value="24622" >Limão</option><option value="24260" >Limão</option><option value="24492" >Limão</option><option value="24526" >Limão siciliano</option><option value="23897" >Limão siciliano</option><option value="14816" >Limão siciliano</option><option value="24624" >Limão siciliano</option><option value="17379" >Língua</option><option value="24258" >Linguado</option><option value="15383" >Linguiça</option><option value="24649" >Linhaça</option><option value="16857" >Lombo suíno</option><option value="24494" >Louro</option><option value="15770" >Lula</option><option value="24613" >Maçã</option><option value="17527" >Maçã</option><option value="24240" >Maçã</option><option value="24336" >Maçã</option><option value="24036" >Maçã verde</option><option value="15384" >Maionese</option><option value="24610" >Mamão</option><option value="24334" >Mandioquinha</option><option value="24611" >Manga</option><option value="24246" >Manga</option><option value="24034" >Manga</option><option value="24198" >Manga</option><option value="17523" >Manjericão</option><option value="24619" >Manjericão</option><option value="23935" >Manjericão</option><option value="14975" >Manteiga</option><option value="23904" >Manteira de amendoim</option><option value="14822" >Maracujá</option><option value="24209" >Maracujá</option><option value="24213" >Mascarpone</option><option value="23972" >Massa</option><option value="23908" >Massa</option><option value="17651" >Massa</option><option value="24052" >Massa</option><option value="15431" >Massa de lasanha</option><option value="23968" >Mel</option><option value="24462" >Mel</option><option value="17378" >Mel nativo</option><option value="14843" >Melado</option><option value="24617" >Melancia</option><option value="17506" >Melão</option><option value="14857" >Milho</option><option value="24405" >Mirtilo</option><option value="17911" >Mirtilo</option><option value="24515" >Mirtilo</option><option value="15754" >Molho de ostras</option><option value="23942" >Molho de tomate</option><option value="16539" >Morango</option><option value="24194" >Mortadela</option><option value="23967" >Mostarda</option><option value="24222" >Mostarda</option><option value="16010" >Mostarda dijon</option><option value="15433" >Muçarela</option><option value="24325" >Mussarela</option><option value="23934" >Mussarela</option><option value="23937" >Mussarela</option><option value="24104" >Natal</option><option value="24114" >Noz</option><option value="24470" >Noz pecan</option><option value="24264" >Nozes</option><option value="16603" >Nozes</option><option value="24483" >óleo de soja</option><option value="19557" >Ostra</option><option value="24231" >Ovo</option><option value="24327" >Ovo</option><option value="24623" >Ovo</option><option value="24400" >Ovo de codorna</option><option value="14781" >Ovos</option><option value="23905" >Ovos</option><option value="18037" >Pão de hamburguer</option><option value="24234" >Pão francês</option><option value="24219" >Parma</option><option value="17531" >Parmesão</option><option value="24369" >Parmesão</option><option value="14851" >Pato</option><option value="15756" >Peixe branco</option><option value="24223" >Penne</option><option value="15385" >Pepino</option><option value="24308" >Pepino</option><option value="19608" >Pequi</option><option value="24103" >Pera</option><option value="16589" >Pera</option><option value="24203" >Pera</option><option value="24093" >Peru</option><option value="24217" >Peru</option><option value="24201" >Peru</option><option value="24615" >Pêssego</option><option value="16012" >Picanha</option><option value="23962" >Pimenta</option><option value="24037" >Pimenta</option><option value="24330" >Pimenta cambuci</option><option value="24329" >Pimenta camuci</option><option value="24331" >Pimenta rosa</option><option value="24328" >Pimenta verde</option><option value="19306" >Pimenta-do-reino</option><option value="24232" >Pimentão</option><option value="17521" >Pimentão</option><option value="24484" >Pimentão</option><option value="19549" >Pinhão</option><option value="14842" >Pipoca</option><option value="14973" >Polvilho</option><option value="15749" >Polvo</option><option value="23938" >Presunto</option><option value="24401" >Presunto cru</option><option value="23964" >Presunto parma</option><option value="23975" >Prosecco</option><option value="24266" >Proteína de soja</option><option value="24057" >Queijo</option><option value="18666" >Queijo</option><option value="17526" >Queijo brie</option><option value="18668" >Queijo canastra</option><option value="24618" >Queijo de cabra</option><option value="20464" >Queijo minas</option><option value="24305" >Queijo minas</option><option value="16595" >Quinoa</option><option value="17648" >Ravióli de frango</option><option value="24335" >Repolho roxo</option><option value="14848" >Requeijão</option><option value="24388" >Ricota</option><option value="23965" >Rúcula</option><option value="24220" >Rúcula</option><option value="16333" >Rúcula</option><option value="24195" >Rúcula</option><option value="24399" >Rúcula</option><option value="24225" >Sagu</option><option value="24317" >Salmão</option><option value="23973" >Salmão</option><option value="24224" >Salmão</option><option value="24259" >Salmão</option><option value="15468" >Salmão</option><option value="19305" >Salsa</option><option value="16600" >Shitake</option><option value="24485" >Shoyu</option><option value="19604" >Siri</option><option value="24408" >Sorvete</option><option value="24439" >Sorvete</option><option value="24468" >Sorvete de chocolate</option><option value="24471" >Sorvete de creme</option><option value="24490" >Suco de laranja</option><option value="19986" >Tainha</option><option value="24107" >Tender</option><option value="18950" >Tilápia</option><option value="24241" >Tofu</option><option value="15773" >Tomate</option><option value="23912" >Tomate cereja</option><option value="16336" >Tomate seco</option><option value="24235" >Tomilho</option><option value="17630" >Tortéi</option><option value="14854" >Trigo</option><option value="24614" >Uva</option><option value="17418" >Uva passa</option><option value="24655" >Uva passa</option><option value="17935" >Vegetais</option><option value="15763" >Vieiras</option><option value="14831" >Vinho</option><option value="23969" >Vinho branco</option><option value="15322" >Vinho branco</option><option value="24489" >Vinho branco</option><option value="23924" >Vinho branco</option><option value="24041" >Vinho branco</option><option value="24394" >Vinho branco</option></select>
+            <select class="chosen-select culinary" name="culinaria" ><option value="" >Culinária</option><option value="25" >Alemã</option><option value="2897" >Americana</option><option value="27" >Árabe</option><option value="16653" >Argentina</option><option value="5575" >Asiática</option><option value="3207" >Bares & Botecos</option><option value="28" >Brasileira</option><option value="15406" >Café da Manhã</option><option value="31" >Carnes</option><option value="32" >Chinesa</option><option value="4353" >Comida caseira</option><option value="35" >Contemporânea</option><option value="5736" >Doces e sorvetes</option><option value="1" >Doces Tentações</option><option value="2" >Drinks</option><option value="4" >Francesa</option><option value="5" >Frutos do Mar</option><option value="8" >Indiana</option><option value="21419" >Inglesa</option><option value="9" >Internacional</option><option value="10" >Italiana</option><option value="3684" >Lanches</option><option value="13" >Mediterrânea</option><option value="3314" >Natural</option><option value="15008" >Nordestina</option><option value="10148" >Padaria</option><option value="16" >Peruana</option><option value="18" >Portuguesa</option><option value="7393" >Sorveteria</option><option value="20" >Tailandesa</option><option value="18702" >Tropeira</option><option value="3801" >Uruguaia</option><option value="16594" >Vegana</option><option value="21" >Vegetariana</option></select>
+            <select class="chosen-select program" name="ocasiao" ><option value="" >Ocasião</option><option value="14803" >Com os amigos</option><option value="15181" >Dia das crianças</option><option value="14893" >Para beber a qualquer hora</option><option value="14818" >Para impressionar</option><option value="14813" >Para o dia a dia</option><option value="14821" >Para sair da rotina</option></select>
+            <button type="submit" class="btn-filter">Buscar</button>
+        </form>
+    </div>
+</li>
+
+                        <li class="categories-item drink fade-it-three">
+    <div class="content-experiences">
+        <a class="tt-categories" href=""><span class="bts-icones icon-drink"></span>Bebidas</a>
+
+        <form id="filtroBebida" action="javascript:void(0);" method="Post">
+            <select class="region chosen-select" name="tipo" id="slcTipo">
+                <option value="">Tipo</option>
+                                    <option  value="17009">Água</option>
+                                    <option  value="19172">Cachaça</option>
+                                    <option  value="14887">Café</option>
+                                    <option  value="14786">Cerveja</option>
+                                    <option  value="14970">Chá</option>
+                                    <option  value="19313">Champanhe</option>
+                                    <option  value="20258">Chimarrão</option>
+                                    <option  value="19913">Chocolate</option>
+                                    <option  value="14890">Drink</option>
+                                    <option  value="15742">Espumante</option>
+                                    <option  value="17318">Gim</option>
+                                    <option  value="15328">Gin</option>
+                                    <option  value="17938">Hidromel</option>
+                                    <option  value="22375">Leite</option>
+                                    <option  value="16325">Milkshake</option>
+                                    <option  value="24046">Refresco</option>
+                                    <option  value="16863">Saquê</option>
+                                    <option  value="14884">Suco</option>
+                                    <option  value="20630">Uísque</option>
+                                    <option  value="22374">Uísque</option>
+                                    <option  value="14785">Vinho</option>
+                                    <option  value="15327">Vodka</option>
+                            </select>
+            <select class="city chosen-select" name="procedencia" id="slcProcedencia">
+                <option value="">Procedência</option>
+                                    <option  value="14880">Alemanha</option>
+                                    <option  value="14805">Argentina</option>
+                                    <option  value="21428">Austrália</option>
+                                    <option  value="14881">Bélgica</option>
+                                    <option  value="14885">Brasil</option>
+                                    <option  value="14789">Brasil</option>
+                                    <option  value="14804">Chile</option>
+                                    <option  value="20631">Escócia</option>
+                                    <option  value="14878">Espanha</option>
+                                    <option  value="14891">Estados Unidos</option>
+                                    <option  value="14971">Europa</option>
+                                    <option  value="16018">França</option>
+                                    <option  value="15329">Holanda</option>
+                                    <option  value="14806">Hungria</option>
+                                    <option  value="15330">Inglaterra</option>
+                                    <option  value="20632">Irlanda</option>
+                                    <option  value="18392">Israel</option>
+                                    <option  value="15440">Itália</option>
+                                    <option  value="16864">Japão</option>
+                                    <option  value="18391">Libano</option>
+                                    <option  value="20435">Minas Gerais</option>
+                                    <option  value="16565">Nova Zelândia</option>
+                                    <option  value="16031">Paraguai</option>
+                                    <option  value="14882">Portugal</option>
+                                    <option  value="14883">República Tcheca</option>
+                                    <option  value="16032">Uruguai</option>
+                            </select>
+            <select class="culinary chosen-select" name="formato" id="slcFormato">
+                <option value="">Formato</option>
+                                    <option  value="14808">Dica do especialista</option>
+                                    <option  value="14790">Dicas</option>
+                                    <option  value="15358">Drink experiences</option>
+                                    <option  value="15025">Experiência</option>
+                                    <option  value="14807">Harmonização</option>
+                                    <option  value="22376">Hotlist</option>
+                                    <option  value="14892">Receita</option>
+                                    <option  value="20431">Reportagem</option>
+                            </select>
+            <select class="program chosen-select" name="ocasiao" id="slcOcasiao">
+                <option value="">Ocasião</option>
+                                    <option  value="14803">Com os amigos</option>
+                                    <option  value="14879">Dia dos Pais</option>
+                                    <option  value="14893">Para beber a qualquer hora</option>
+                                    <option  value="14889">Para beber com a família</option>
+                                    <option  value="14888">Para beber com os amigos</option>
+                                    <option  value="14813">Para o dia a dia</option>
+                                    <option  value="14821">Para sair da rotina</option>
+                            </select>
+            <button type="sybmit" class="btn-filter">Buscar</button>
+        </form>
+    </div>
+</li>
+
+                    </ul>
+                </section>
+
+                <section class="home-highlights">
+
+                    <ul class="list-highlights">
+
+                        <li class="less-emphasis viva-carne">
+                            <span class="bts-categorias categorias cat-5 ir">Categorias</span>
+
+                            <div class="content-img">
+                                <a href="http://www.destemperados.com.br/experiencias/cortes-o-charme-da-brasa-de-origem-genuina" title="Cortés: o charme da brasa de origem genuína ">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/experiencia/846_564/destaque_50234458.jpg" alt="Cortés: o charme da brasa de origem genuína ">
+                                </a>
+                            </div>
+                            <div class="content-infos">
+                                <div class="align-infos">
+                                    <span class="tt-cat">Viva a Carne</span>
+                                    <strong class="tt-news">
+                                        <a href="http://www.destemperados.com.br/experiencias/cortes-o-charme-da-brasa-de-origem-genuina" title="">Cortés: o charme da brasa de origem genuína </a>
+                                    </strong>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="house-destemperados">
+                            <span class="bts-categorias categorias cat-4 ir">Categorias</span>
+                            <ul class="box-slider">
+                                                            <li>
+                                    <div class="content-image">
+                                        <a href="http://www.destemperados.com.br/eventos/agenda-xavier-gamez-ensina-comida-espanhola-na-casa-destemperados" title="AGENDA: Xavier Gamez ensina comida espanhola na Casa Destemperados">
+                                            <img src="https://destemperados.s3.amazonaws.com/arquivos/entrevista/846_564/xaviercapa_65537631.jpg" alt="AGENDA: Xavier Gamez ensina comida espanhola na Casa Destemperados">
+                                        </a>
+                                    </div>
+                                    <div class="content-tenor">
+                                        <span class="tt-cat">Casa Destemperados</span>
+                                        <strong class="tt-news">
+                                            <a href="http://www.destemperados.com.br/eventos/agenda-xavier-gamez-ensina-comida-espanhola-na-casa-destemperados" title="AGENDA: Xavier Gamez ensina comida espanhola na Casa Destemperados">AGENDA: Xavier Gamez ensina comida espanhola na Casa Destemperados</a>
+                                        </strong>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="content-image">
+                                        <a href="http://www.destemperados.com.br/eventos/digg-coloca-todo-mundo-para-fazer-burguers-na-casa-destemperados" title="Digg coloca todo mundo para fazer burguers na Casa Destemperados">
+                                            <img src="https://destemperados.s3.amazonaws.com/arquivos/entrevista/846_564/capa_53926252.jpg" alt="Digg coloca todo mundo para fazer burguers na Casa Destemperados">
+                                        </a>
+                                    </div>
+                                    <div class="content-tenor">
+                                        <span class="tt-cat">Casa Destemperados</span>
+                                        <strong class="tt-news">
+                                            <a href="http://www.destemperados.com.br/eventos/digg-coloca-todo-mundo-para-fazer-burguers-na-casa-destemperados" title="Digg coloca todo mundo para fazer burguers na Casa Destemperados">Digg coloca todo mundo para fazer burguers na Casa Destemperados</a>
+                                        </strong>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="content-image">
+                                        <a href="http://www.destemperados.com.br/receitas/friands-de-nescafe-e-cardamomo-para-o-lanche-da-tarde" title="Friands de NESCAFÉ® e cardamomo para o lanche da tarde">
+                                            <img src="https://destemperados.s3.amazonaws.com/arquivos/receita/846_564/capa_44605098.jpg" alt="Friands de NESCAFÉ® e cardamomo para o lanche da tarde">
+                                        </a>
+                                    </div>
+                                    <div class="content-tenor">
+                                        <span class="tt-cat">Casa Destemperados</span>
+                                        <strong class="tt-news">
+                                            <a href="http://www.destemperados.com.br/receitas/friands-de-nescafe-e-cardamomo-para-o-lanche-da-tarde" title="Friands de NESCAFÉ® e cardamomo para o lanche da tarde">Friands de NESCAFÉ® e cardamomo para o lanche da tarde</a>
+                                        </strong>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <div class="content-image">
+                                        <a href="http://www.destemperados.com.br/eventos/clima-de-verao-no-primeiro-open-house-de-2016-na-casa-destemperados" title="Clima de verão no primeiro Open House de 2016 na Casa Destemperados">
+                                            <img src="https://destemperados.s3.amazonaws.com/arquivos/entrevista/846_564/capa_49981982.jpg" alt="Clima de verão no primeiro Open House de 2016 na Casa Destemperados">
+                                        </a>
+                                    </div>
+                                    <div class="content-tenor">
+                                        <span class="tt-cat">Casa Destemperados</span>
+                                        <strong class="tt-news">
+                                            <a href="http://www.destemperados.com.br/eventos/clima-de-verao-no-primeiro-open-house-de-2016-na-casa-destemperados" title="Clima de verão no primeiro Open House de 2016 na Casa Destemperados">Clima de verão no primeiro Open House de 2016 na Casa Destemperados</a>
+                                        </strong>
+                                    </div>
+                                </li>
+                                                        </ul>
+                        </li>
+
+                        <li class="less-emphasis drink-experiences">
+                            <div class="content-img">
+                                <a href="http://www.destemperados.com.br/experiencias/guia-30-por-30-30-experiencias-por-ate-30-dolares-em-nova-york" title="Guia 30 por 30 NY | 30 experiências por até 30 dólares em Nova York">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/experiencia/846_564/30x30_ny_13466897.jpg" alt="Guia 30 por 30 NY | 30 experiências por até 30 dólares em Nova York">
+                                </a>
+                            </div>
+                            <div class="content-infos">
+                                <div class="align-infos">
+                                    <span class="tt-cat">Guia 30 por 30 NY </span>
+                                    <p class="tt-news">
+                                        <strong>
+                                            <a href="http://www.destemperados.com.br/experiencias/guia-30-por-30-30-experiencias-por-ate-30-dolares-em-nova-york" title="Guia 30 por 30 NY | 30 experiências por até 30 dólares em Nova York"> 30 experiências por até 30 dólares em Nova York</a>
+                                        </strong>
+                                    </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </section>
+
+                <section class="featured-news clearfix fade-it">
+                    <ul class="featured-news-list clearfix">
+                        <li class="banner fade-it-four">
+                            <script type="text/javascript">
+                            if (typeof sas_manager != 'undefined') {
+                                    sas_manager.render(9252);
+                            }
+                            </script>
+                        </li>
+                         <li class="food-hunters fade-it-five box-slider-hunters">
+                            
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/claudia-maximino">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1045/claudiamaximino.jpg" alt="Claudia Maximino">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Claudia Maximino</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/ligia-ghizi">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1055/ligiaghizi.JPG" alt="Ligia Ghizi">
+                                    <span class="uf ">RJ</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Ligia Ghizi</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/ana-leticia">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1169/foto_metida_a_gourmet.JPG" alt="Ana Letícia Nogueira">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Ana Letícia Nogueira</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/fernanda-volkerling">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1143/fotofernanda.jpg" alt="Fernanda Volkerling">
+                                    <span class="uf ">SC</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Fernanda Volkerling</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/andrea-alcantara">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1075/andreaalcantara.jpg" alt="Andréa Alcantara">
+                                    <span class="uf ">RN</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Andréa Alcantara</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/mariana-marimon">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1025/11760072_10206125023678332_7338599234989245339_n.jpg" alt="Mariana Marimon">
+                                    <span class="uf ">RS</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Mariana Marimon</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/nathalia-sifuentes">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1023/nathaliasifuentes.JPG" alt="Nathalia Sifuentes">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Nathalia Sifuentes</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/danilo-pupe">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1070/danilopupe.JPG" alt="Danilo Pupe">
+                                    <span class="uf ">DF</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Danilo Pupe</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/felipe-sakai-sp">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1111/11295689_909422042432384_4616768628450191618_n.jpg" alt="Felipe Sakai">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Felipe Sakai</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/stephany-grey">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1163/dest.jpg" alt="Stephany Grey">
+                                    <span class="uf ">RJ</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Stephany Grey</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/luna-pizzato">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1098/lunapizzato.JPG" alt="Luna Pizzato">
+                                    <span class="uf ">RJ</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Luna Pizzato</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/paulo-cabral">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1080/foto_perfil.jpg" alt="Paulo Cabral">
+                                    <span class="uf ">PE</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Paulo Cabral</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/livania-lima">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1123/1235270_10151613793846235_1046570748_n.jpg" alt="Livânia Lima">
+                                    <span class="uf ">CE</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Livânia Lima</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/anna-terra">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1181/anna_terra.jpg" alt="Anna Terra">
+                                    <span class="uf ">PE</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Anna Terra</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/tatiane-ribeiro">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1170/tatiane.jpg" alt="Tatiane Ribeiro">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Tatiane Ribeiro</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/ingrid-kellen">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1071/ingridkellen.JPG" alt="Ingrid Kellen">
+                                    <span class="uf ">CE</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Ingrid Kellen</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/bianca-smaniotto-netto">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1190/Bianca.jpg" alt="Bianca Smaniotto Netto">
+                                    <span class="uf ">RS</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Bianca Smaniotto Netto</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/graciela-reis">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1128/graciela.jpg" alt="Graciela Reis">
+                                    <span class="uf ">ES</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Graciela Reis</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/marcos-medici">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1119/medici.jpg" alt="Marcos Médici">
+                                    <span class="uf ">PA</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Marcos Médici</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/camila-mazzini">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1030/camilamazzini.jpg" alt="Camila Mazzini">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Camila Mazzini</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/roberta-freitas">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1162/robertafreitas2.jpg" alt="Roberta Freitas">
+                                    <span class="uf ">RJ</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Roberta Freitas</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/gustavo-iazpeck">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1032/gustavoiazpeck.jpg" alt="Gustavo Iazpeck">
+                                    <span class="uf ">RJ</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Gustavo Iazpeck</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/lilia-carvalho">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1019/liliacarvalho.JPG" alt="Lilia Carvalho">
+                                    <span class="uf ">PE</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Lilia Carvalho</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/rafael-crisafulli">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1054/rafaelcrisafulli.jpg" alt="Rafael Crisafulli">
+                                    <span class="uf ">RJ</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Rafael Crisafulli</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/bruno-brunan">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1157/IMG_8329.JPG" alt="Bruno Brunan">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Bruno Brunan</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/leticia-lass">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1018/le_lass.jpg" alt="Leticia Lass">
+                                    <span class="uf ">PR</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Leticia Lass</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/amanda-mormito">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1029/Amanda.jpg" alt="Amanda Mormito">
+                                    <span class="uf ">SP</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Amanda Mormito</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/tamiris-berlink">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1125/IMG_1852_Copia_2.JPG" alt="Tamiris Berlink">
+                                    <span class="uf ">BA</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Tamiris Berlink</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/sofia-prodanov">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1184/Sofia.JPG" alt="Sofia Prodanov">
+                                    <span class="uf ">RS</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Sofia Prodanov</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                            <div>
+                                <a class="slide-hnt" href="http://www.destemperados.com.br/food-hunters/bruno-palma-e-silva">
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/gerenciador_avatar/1010/brunopalma.jpg" alt="Bruno Palma e Silva">
+                                    <span class="uf ">PR</span>
+                                    <figcaption>
+                                        <span class="content-figcaption">
+                                            <span class="icon-food-hunter"></span>
+                                            <p>Bruno Palma e Silva</p>
+                                        </span>
+                                    </figcaption>
+                                </a>
+                                </div>
+                                                       
+                            <a class="btn-pattern" href="http://www.destemperados.com.br/food-hunters">Conheça todos os Food Hunters</a>
+                            
+                        </li>
+
+                                                    <li class="highlights fade-it-six">
+                                <a href="http://www.destemperados.com.br/tendencias/semana-do-siri-no-destemperados" >
+                                    <img src="https://destemperados.s3.amazonaws.com/arquivos/banner/300_250/semana_siri_site_43888599.jpg" alt="Semana do Siri">
+                                </a>
+                                <a class="btn-pattern" href="http://www.destemperados.com.br/tendencias/semana-do-siri-no-destemperados">Saiba mais</a>
+                            </li>
+                                            </ul>
+                </section>
+            </main>
+        </div>
+
+        <footer class="footer" id="footer" role="contentinfo"> 
+    
+    <div class="footer-center clearfix footer-newsletter">
+        <ul class="news-message">
+            <p>Quer receber nosso conteúdo e a agenda da Casa Destemperados?</p>
+        </ul>
+        <ul class="news-form">
+            <form id="formNewsletter" class="formNewsletter" action="javascript:void(0);" method="Post">
+                <input class="inputfooter nomeNewsletter" type="text" name="nome" placeholder="Nome">
+                <input class="inputfooter mailNewsletter" type="email" name="email" placeholder="E-mail">
+                <button class="btn-submit enviaNewsletter" type="submit">Assinar</button>
+            </form>
+            <p class="msgSucess">
+                Cadastro efetuado com sucesso!
+            </p>
+            <p class="msgError">
+                Preencha seu nome e e-mail corretamente!
+            </p>
+        </ul>
+    </div>
+    
+    <div class="footer-center clearfix">
+        <ul class="shared-list">
+            <li>
+                <p class="shared-tooltip">
+                    Facebook
+                    <span class="arrow"></span>
+                </p>
+                <a class="shared facebook" href="https://www.facebook.com/destemperados" target="_blank"></a>
+            </li>
+            <li>
+                <p class="shared-tooltip">
+                    Instagram
+                    <span class="arrow"></span>
+                </p>
+                <a class="shared instagram" href="http://instagram.com/destemperados" target="_blank" ></a>
+            </li>
+            <li>
+                <p class="shared-tooltip">
+                    Twitter
+                    <span class="arrow"></span>
+                </p>
+                <a class="shared twitter" href="https://twitter.com/Destemperados" target="_blank"></a>
+            </li>
+            <li>
+                <p class="shared-tooltip">
+                    Pinterest
+                    <span class="arrow"></span>
+                </p>
+                <a class="shared pinterest" href="http://br.pinterest.com/destemperados/" target="_blank"></a>
+            </li>
+            <li>
+                <p class="shared-tooltip">
+                    Foursquare
+                    <span class="arrow"></span>
+                </p>
+                <a class="shared foursquare" href="https://pt.foursquare.com/destemperados" target="_blank"></a>
+            </li>
+            <li class="last">
+                <p class="shared-tooltip">
+                    Google+
+                    <span class="arrow"></span>
+                </p>
+                <a class="shared google-plus" href="https://plus.google.com/+destemperados/posts" target="_blank"></a>
+            </li>
+        </ul>
+
+        <ul class="other-blogs">
+            <li class="other"><a class="first">Outros Blogs:</a></li>
+             <li><a target="_blank" class="first destemperadinhos" href="http://www.destemperados.com.br/destemperadinhos">Destemperadinhos</a>|</li>
+            <li><a target="_blank" class="last marketing" href="http://marketingnacozinha.com.br/">Marketing na Cozinha</a></li>
+        </ul>
+    </div>
+    <div class="content-building">
+        <img class="grid-building" src="http://www.destemperados.com.br/aplicativos/site/assets/img/contents/destemperados-footer.png" alt="Um produto destemperados e ZH - Vida e Estilo.">
+    </div>
+    <a href="http://www.maqina.com.br/" target="_blank" class="logo-maqina"></a>
+</footer>
+
+<!-- IVC TAG ClicRBS -->
+
+                <script type="text/javascript">
+
+                               var jsUrl = ("https:" == document.location.protocol ? "https://datpdpmej1fn2.cloudfront.net/" :
+
+                              "http://ivccftag.ivcbrasil.org.br/") + "ivc.js";
+
+                              ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalIvcNamespace=p.GlobalIvcNamespace||[];
+
+                               p.GlobalIvcNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+
+                              };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+
+                              n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script",jsUrl,"ivc"));
+
+                              window.ivc('newTracker', 'cf', 'ivccf.ivcbrasil.org.br', {
+
+                                idWeb: '21'
+
+                              });
+
+                              window.ivc('trackPageView');
+
+                </script>
+
+<!-- End IVC TAG ClicRBS -->
+
+ 
+
+<!-- IVC TAG Jornal Zero Hora -->
+
+                <script type="text/javascript">
+
+                              var jsUrl = ("https:" == document.location.protocol ? "https://datpdpmej1fn2.cloudfront.net/" :
+
+                              "http://ivccftag.ivcbrasil.org.br/") + "ivc.js";
+
+                              ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalIvcNamespace=p.GlobalIvcNamespace||[];
+
+                              p.GlobalIvcNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+
+                              };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+
+                              n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script",jsUrl,"ivc2"));
+
+                              window.ivc2('newTracker', 'cf', 'ivccf.ivcbrasil.org.br', {
+
+                                idWeb: '23'
+
+                              });
+
+                              window.ivc2('trackPageView');
+
+                </script>
+
+<!-- End IVC TAG Jornal Zero Hora -->
+
+ 
+
+<!-- IVC TAG Jornal Diário Catarinense -->
+
+            <script type="text/javascript">
+
+                          var jsUrl = ("https:" == document.location.protocol ? "https://datpdpmej1fn2.cloudfront.net/" :
+
+                          "http://ivccftag.ivcbrasil.org.br/") + "ivc.js";
+
+                          ;(function(p,l,o,w,i,n,g){if(!p[i]){p.GlobalIvcNamespace=p.GlobalIvcNamespace||[];
+
+                           p.GlobalIvcNamespace.push(i);p[i]=function(){(p[i].q=p[i].q||[]).push(arguments)
+
+                          };p[i].q=p[i].q||[];n=l.createElement(o);g=l.getElementsByTagName(o)[0];n.async=1;
+
+                          n.src=w;g.parentNode.insertBefore(n,g)}}(window,document,"script",jsUrl,"ivc3"));
+
+                          window.ivc3('newTracker', 'cf', 'ivccf.ivcbrasil.org.br', {
+
+                            idWeb: '17'
+
+                          });
+
+                          window.ivc3('trackPageView');
+
+            </script>
+
+<!-- End IVC TAG Jornal Diário Catarinense -->﻿
+
+
+
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src=\"http://www.destemperados.com.br/aplicativos/site/assets/js/vendor/jquery.js\"><\/script>')</script>
+<script src="//google.com/recaptcha/api/js/recaptcha_ajax.js"></script>
+<script src="http://www.destemperados.com.br/site/jsphpvars.php?nc=1453788134.7824"></script>
+<script src="http://www.destemperados.com.br/comum/maqina/maqina.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/comum/moment/moment.min.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/comum/moment/moment-ptbr-es.min.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/aplicativos/site/assets/js/vendor/plugins.min.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/aplicativos/site/assets/js/vendor/plugins/head.min.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/aplicativos/site/assets/js/vendor/chosen.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/comum/jquery/ui/jquery-ui.min.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/aplicativos/site/assets/js/_basico.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/aplicativos/site/assets/js/site.js?versao=17"></script>
+<script src="http://www.destemperados.com.br/aplicativos/site/assets/js/index.js?versao=17"></script>
+<script>var _gaq = _gaq || [];
+                _gaq.push(['_setAccount','UA-15357242-31']);_gaq.push(['_trackPageview']);_gaq.push(['clicrbs._setAccount', 'UA-3469445-1']);_gaq.push(['clicrbs._trackPageview']);(function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+                })();</script>
+
+        <script type="text/javascript">
+            document.write('<img class="hide hidden" src="http://www.destemperados.com.br/acao/rota/contador-acesso?rota-id=17&referer=" />');
+        </script>
+    <script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"beacon":"bam.nr-data.net","licenseKey":"0a581f3b39","applicationID":"3918307","transactionName":"ZQBSMUpSWBBTUxJYWVxKZRdRHF8NVlUeH0ZaFQ==","queueTime":0,"applicationTime":246,"atts":"SUdRRwJISx4=","errorBeacon":"bam.nr-data.net","agent":"js-agent.newrelic.com\/nr-768.min.js"}</script></body>
+</html>

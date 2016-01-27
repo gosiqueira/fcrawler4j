@@ -1,0 +1,1955 @@
+title=Expedia Travel: Vacations, Cheap Flights, Airline Tickets & Airfares
+url=https://www.expedia.com/
+html=
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js" data-version="v2.45.3.1c73da6e67025811c62655351eaf756a56194797" data-language="es_ES" lang="es">
+    
+        
+        
+        
+            <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta charset="UTF-8" />
+  
+  <link rel="dns-prefetch" href="//a.intentmedia.net"/>
+  <link rel="dns-prefetch" href="//images.trvl-media.com"/>
+  <link rel="dns-prefetch" href="//a.travel-assets.com/"/>
+  <link rel="dns-prefetch" href="//b.travel-assets.com/"/>
+  <link rel="dns-prefetch" href="//c.travel-assets.com/"/>
+  
+  
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  
+
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" sizes="16x16 32x32" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico"  sizes="16x16 32x32" />
+
+  
+  
+  
+
+  
+  <script src="//b.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/js/uitk-lib-nolabjs-bundle-min.js"></script>
+
+  
+  <!--[if lt IE 8]>
+    <script src="//b.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/js/uitk-ltie8-bundle-min.js"></script>
+
+  <![endif]-->
+  <!--[if IE 8]>
+    <script src="//b.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/js/uitk-ie8-bundle-min.js"></script>
+
+  <![endif]-->
+
+  
+  
+
+  
+  
+    <link rel='stylesheet' type='text/css' href='//a.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/minifiedCss/brands/exp-responsive.css'/>
+<!--[if IE 8]>
+    <link rel='stylesheet' type='text/css' href='//a.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/minifiedCss/brands/exp-ie8.css'/>
+<![endif]-->
+
+  
+
+  
+  
+    <link rel="stylesheet" href="/globalcontrols/content/c2427b4093f9f3703a39e12a52c61ceca2f91181/1/v/homepage.css">
+
+
+  
+  
+    
+  <script async defer src="//b.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/js/uitk-slim-jstemplate-bundle-min.js"></script>
+
+  <script async defer src="//a.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/js/uitk-core-bundle-min.js"></script>
+
+
+
+
+  
+
+
+  
+
+  
+  
+    <script>window.start_of_document= +new Date();window.initialLaunchView = '';</script>
+      
+        
+          
+            
+            
+              <script src="/globalcontrols/content/c2427b4093f9f3703a39e12a52c61ceca2f91181/1/v/homepagewiz.js"></script>
+            
+          
+        
+        
+      
+    <script>
+    define('appVersion', function() {
+      appVersion = "c2427b4093f9f3703a39e12a52c61ceca2f91181";
+      return appVersion;
+    });
+    if(typeof calc != "undefined" && typeof tracker != "undefined"){
+        calc.headerLoadTime = +new Date();
+        tracker.triggerOneEvent("headerPainted");
+    }
+    </script>
+
+
+
+                
+
+
+<title>Expedia Travel: Vacations, Cheap Flights, Airline Tickets &amp; Airfares</title>
+
+
+<!-- Facebook_App_Links_iOS9_App_Search -->
+<meta property="al:ios:app_name" content="Expedia">
+<meta property="al:ios:app_store_id" content="427916203">
+<!-- Facebook_App_Links_iOS9_App_Search_Deeplink -->
+<meta property="al:ios:url" content="expda://home?brandcid=iOS.SpotlightSearch">
+<meta name="fragment" content="!">
+
+
+
+
+
+<link rel="stylesheet" href="//a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/styles/1/es_MX/globalcontrols-min.css"/>
+
+
+
+
+
+
+    <script>
+        window.expads = window.expads || {};
+        window.expads.configuration = window.expads.configuration || {};
+        window.expads.configuration.targeting = window.expads.configuration.targeting || {};
+        window.expads.configuration.pageName = 'homepage';
+        window.expads.configuration.collapseEmptyDivs = false;
+        window.expads.configuration.isExpAdsToDownloadGpt = false;
+    </script>
+    <script src="//a.travel-assets.com/ads/2.0/3de69957332957aa830a34f579d75c1d014e4bc0/expads-min.js"></script>
+
+<script>
+
+define('marqueeAds', ['expads'], function (expads) {
+    expads.mapRouteToAd = function(route) {
+        var marqueeAdMap = {
+            'home': 'DEFAULT-MARQUEE',
+            'package': 'PACKAGES-MARQUEE',
+            'flight': 'FLIGHTS-MARQUEE',
+            'hotel': 'HOTELS-MARQUEE',
+            'car': 'CARS-MARQUEE',
+            'cruise': 'CRUISES-MARQUEE',
+            'activity': 'ACTIVITIES-MARQUEE'
+        };
+        return marqueeAdMap[(route === '') ? 'home' : route];
+    };
+
+    require([ 'uitk' ], function(uitk) {
+        uitk.mediaquery.register("(min-width: 1660px)", "(min-width: 1660px)");
+        uitk.mediaquery.register("(min-width: 1034px)", "(min-width: 1034px)");
+        uitk.mediaquery.register("(min-width: 925px) and (max-width: 1033px)","ads_homepage_textads_max");
+        uitk.mediaquery.register("(min-width: 790px) and (max-width: 924px)", "ads_homepage_textads_min");
+        uitk.mediaquery.register("(min-width: 532px) and (max-width: 789px)", "(min-width: 532px) and (max-width: 789px)");
+        uitk.mediaquery.register("(min-width: 1566px)", "(min-width: 1566px)");
+        uitk.mediaquery.register("(min-width: 1280px) and (max-width: 1659px)", "(min-width: 1280px) and (max-width: 1659px)");
+        uitk.mediaquery.register("(min-width: 960px) and (max-width: 1279px)", "(min-width: 960px) and (max-width: 1279px)");
+        uitk.mediaquery.register("(min-width: 726px) and (max-width: 959px)", "(min-width: 726px) and (max-width: 959px)");
+        uitk.mediaquery.register("(min-width: 601px) and (max-width: 725px)", "(min-width: 601px) and (max-width: 725px)");
+        uitk.mediaquery.register("(min-width: 1280px)", "(min-width: 1280px)");
+        uitk.mediaquery.register("(min-width: 492px) and (max-width: 725px)", "(min-width: 492px) and (max-width: 725px)");
+        uitk.mediaquery.register("(min-width: 960px)", "(min-width: 960px)");
+    });
+
+    return {"adDefault":{"adCalls":{"ACTIVITIES-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","altText":"Advertisement","useClickThroughUrl":true},"COREW5":{"selector":"#COREW5","altText":"Advertisement","useClickThroughUrl":true},"SKIN":{"selector":"#WizardHero :first-child","url":"//images.trvl-media.com/media/content/expus/graphics/launch/activity1320x742.jpg","altText":"Advertisement","useClickThroughUrl":false},"COREW1":{"selector":"#COREW1","altText":"Advertisement","useClickThroughUrl":true},"COREW2":{"selector":"#COREW2","altText":"Advertisement","useClickThroughUrl":true},"COREW3":{"selector":"#COREW3","altText":"Advertisement","useClickThroughUrl":true}}},"HOTELS-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","altText":"Advertisement","useClickThroughUrl":true},"COREW5":{"selector":"#COREW5","altText":"Advertisement","useClickThroughUrl":true},"SKIN":{"selector":"#WizardHero :first-child","url":"//images.trvl-media.com/media/content/expus/graphics/launch/hotel1320x742.jpg","altText":"Advertisement","useClickThroughUrl":false},"COREW1":{"selector":"#COREW1","altText":"Advertisement","useClickThroughUrl":true},"COREW2":{"selector":"#COREW2","altText":"Advertisement","useClickThroughUrl":true},"COREW3":{"selector":"#COREW3","altText":"Advertisement","useClickThroughUrl":true}}},"PACKAGES-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","altText":"Advertisement","useClickThroughUrl":true},"COREW5":{"selector":"#COREW5","altText":"Advertisement","useClickThroughUrl":true},"SKIN":{"selector":"#WizardHero :first-child","url":"//images.trvl-media.com/media/content/expus/graphics/launch/package1320x742.jpg","altText":"Advertisement","useClickThroughUrl":false},"COREW1":{"selector":"#COREW1","altText":"Advertisement","useClickThroughUrl":true},"COREW2":{"selector":"#COREW2","altText":"Advertisement","useClickThroughUrl":true},"COREW3":{"selector":"#COREW3","altText":"Advertisement","useClickThroughUrl":true}}},"FLIGHTS-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","altText":"Advertisement","useClickThroughUrl":true},"COREW5":{"selector":"#COREW5","altText":"Advertisement","useClickThroughUrl":true},"SKIN":{"selector":"#WizardHero :first-child","url":"//images.trvl-media.com/media/content/expus/graphics/launch/flight1320x742.jpg","altText":"Advertisement","useClickThroughUrl":false},"COREW1":{"selector":"#COREW1","altText":"Advertisement","useClickThroughUrl":true},"COREW2":{"selector":"#COREW2","altText":"Advertisement","useClickThroughUrl":true},"COREW3":{"selector":"#COREW3","altText":"Advertisement","useClickThroughUrl":true}}},"CRUISES-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","altText":"Advertisement","useClickThroughUrl":true},"COREW5":{"selector":"#COREW5","altText":"Advertisement","useClickThroughUrl":true},"SKIN":{"selector":"#WizardHero :first-child","url":"//images.trvl-media.com/media/content/expus/graphics/launch/cruise1320x742.jpg","altText":"Advertisement","useClickThroughUrl":false},"COREW1":{"selector":"#COREW1","altText":"Advertisement","useClickThroughUrl":true},"COREW2":{"selector":"#COREW2","altText":"Advertisement","useClickThroughUrl":true},"COREW3":{"selector":"#COREW3","altText":"Advertisement","useClickThroughUrl":true}}},"CARS-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","altText":"Advertisement","useClickThroughUrl":true},"COREW5":{"selector":"#COREW5","altText":"Advertisement","useClickThroughUrl":true},"SKIN":{"selector":"#WizardHero :first-child","url":"//images.trvl-media.com/media/content/expus/graphics/launch/car1320x742.jpg","altText":"Advertisement","useClickThroughUrl":false},"COREW1":{"selector":"#COREW1","altText":"Advertisement","useClickThroughUrl":true},"COREW2":{"selector":"#COREW2","altText":"Advertisement","useClickThroughUrl":true},"COREW3":{"selector":"#COREW3","altText":"Advertisement","useClickThroughUrl":true}}},"DEFAULT-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","altText":"Advertisement","useClickThroughUrl":true},"COREW5":{"selector":"#COREW5","altText":"Advertisement","useClickThroughUrl":true},"SKIN":{"selector":"#WizardHero :first-child","url":"//images.trvl-media.com/media/content/expus/graphics/launch/home/default_desktop_expedia.jpg","altText":"Advertisement","useClickThroughUrl":false},"COREW1":{"selector":"#COREW1","altText":"Advertisement","useClickThroughUrl":true},"COREW2":{"selector":"#COREW2","altText":"Advertisement","useClickThroughUrl":true},"COREW3":{"selector":"#COREW3","altText":"Advertisement","useClickThroughUrl":true}}}}},"adCalls":{"ACTIVITIES-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","useClickThroughURL":true},"COREW5":{"selector":"#COREW5","useClickThroughURL":true},"SKIN":{"selector":"#WizardHero :first-child","useClickThroughURL":false},"COREW1":{"selector":"#COREW1","useClickThroughURL":true},"COREW2":{"selector":"#COREW2","useClickThroughURL":true},"COREW3":{"selector":"#COREW3","useClickThroughURL":true}},"path":"/23171577/expedia.us_es/activities/search/MARQUEE","url":"//pubads.g.doubleclick.net/gampad/adx?iu\u003d/23171577/expedia.us_es/activities/search/MARQUEE\u0026sz\u003d1320x742\u0026c\u003d1427817191804\u0026m\u003dtext/javascript"},"HOTELS-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","useClickThroughURL":true},"COREW5":{"selector":"#COREW5","useClickThroughURL":true},"SKIN":{"selector":"#WizardHero :first-child","useClickThroughURL":false},"COREW1":{"selector":"#COREW1","useClickThroughURL":true},"COREW2":{"selector":"#COREW2","useClickThroughURL":true},"COREW3":{"selector":"#COREW3","useClickThroughURL":true}},"path":"/23171577/expedia.us_es/hotels/search/MARQUEE","url":"//pubads.g.doubleclick.net/gampad/adx?iu\u003d/23171577/expedia.us_es/hotels/search/MARQUEE\u0026sz\u003d1320x742\u0026c\u003d1427817191804\u0026m\u003dtext/javascript"},"PACKAGES-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","useClickThroughURL":true},"COREW5":{"selector":"#COREW5","useClickThroughURL":true},"SKIN":{"selector":"#WizardHero :first-child","useClickThroughURL":false},"COREW1":{"selector":"#COREW1","useClickThroughURL":true},"COREW2":{"selector":"#COREW2","useClickThroughURL":true},"COREW3":{"selector":"#COREW3","useClickThroughURL":true}},"path":"/23171577/expedia.us_es/packages/search/MARQUEE","url":"//pubads.g.doubleclick.net/gampad/adx?iu\u003d/23171577/expedia.us_es/packages/search/MARQUEE\u0026sz\u003d1320x742\u0026c\u003d1427817191804\u0026m\u003dtext/javascript"},"FLIGHTS-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","useClickThroughURL":true},"COREW5":{"selector":"#COREW5","useClickThroughURL":true},"SKIN":{"selector":"#WizardHero :first-child","useClickThroughURL":false},"COREW1":{"selector":"#COREW1","useClickThroughURL":true},"COREW2":{"selector":"#COREW2","useClickThroughURL":true},"COREW3":{"selector":"#COREW3","useClickThroughURL":true}},"path":"/23171577/expedia.us_es/flights/search/MARQUEE","url":"//pubads.g.doubleclick.net/gampad/adx?iu\u003d/23171577/expedia.us_es/flights/search/MARQUEE\u0026sz\u003d1320x742\u0026c\u003d1427817191804\u0026m\u003dtext/javascript"},"CRUISES-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","useClickThroughURL":true},"COREW5":{"selector":"#COREW5","useClickThroughURL":true},"SKIN":{"selector":"#WizardHero :first-child","useClickThroughURL":false},"COREW1":{"selector":"#COREW1","useClickThroughURL":true},"COREW2":{"selector":"#COREW2","useClickThroughURL":true},"COREW3":{"selector":"#COREW3","useClickThroughURL":true}},"path":"/23171577/expedia.us_es/cruises/search/MARQUEE","url":"//pubads.g.doubleclick.net/gampad/adx?iu\u003d/23171577/expedia.us_es/cruises/search/MARQUEE\u0026sz\u003d1320x742\u0026c\u003d1427817191804\u0026m\u003dtext/javascript"},"CARS-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","useClickThroughURL":true},"COREW5":{"selector":"#COREW5","useClickThroughURL":true},"SKIN":{"selector":"#WizardHero :first-child","useClickThroughURL":false},"COREW1":{"selector":"#COREW1","useClickThroughURL":true},"COREW2":{"selector":"#COREW2","useClickThroughURL":true},"COREW3":{"selector":"#COREW3","useClickThroughURL":true}},"path":"/23171577/expedia.us_es/cars/search/MARQUEE","url":"//pubads.g.doubleclick.net/gampad/adx?iu\u003d/23171577/expedia.us_es/cars/search/MARQUEE\u0026sz\u003d1320x742\u0026c\u003d1427817191804\u0026m\u003dtext/javascript"},"DEFAULT-MARQUEE":{"slots":{"COREW4":{"selector":"#COREW4","useClickThroughURL":true},"COREW5":{"selector":"#COREW5","useClickThroughURL":true},"SKIN":{"selector":"#WizardHero :first-child","useClickThroughURL":false},"COREW1":{"selector":"#COREW1","useClickThroughURL":true},"COREW2":{"selector":"#COREW2","useClickThroughURL":true},"COREW3":{"selector":"#COREW3","useClickThroughURL":true}},"path":"/23171577/expedia.us_es/home/all/MARQUEE","url":"//pubads.g.doubleclick.net/gampad/adx?iu\u003d/23171577/expedia.us_es/home/all/MARQUEE\u0026sz\u003d1320x742\u0026c\u003d1427817191804\u0026m\u003dtext/javascript"}}};
+});
+
+</script>
+
+
+    <script async="true" src="//www.googletagservices.com/tag/js/gpt.js"></script>
+
+
+
+            </head>
+
+        
+    
+    <body class="wrap cf ">
+  
+
+  
+  
+        <div class="hidden">
+            <input type="hidden" id="pageId" value="aws_Homepage" />
+        </div>
+        <div data-global-control='header' id='header-container' data-tab=''><!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/header.html --><!-- NEW_EXPEDIA_HEADER -->
+<style>
+    .cobranded{
+        width: 100%;
+        display: none;
+    }
+</style>
+
+<div class="skip-nav" id="skipNav">
+  <a href="#skip-nav-anchor">skipNavContent</a>
+</div>
+
+<div role="banner" class="site_1 es_US ">
+    <div id="cobranded-header" class="cobranded">Cobranded header here </div>
+    <style>
+    
+    
+    
+    </style>
+
+        <div id="header-alert-banner" class="alert alert-banner secondary hidden">
+                <div id="travel-arranger" class="cf">
+                    <div class="message">arrangeeMessage</div>
+                    <a class="close" target="_top" href="/user/travelarranger/end">doneArrangingText</a>
+                </div>
+        </div>
+
+    <div class="site-header site-header-primary" role="navigation">
+        <div class="cols-row">
+            <!-- login status: false -->
+            <!-- isShowLoyaltyInfoLogo: false -->
+            <!-- isShowLoyaltyInfoMenu: false -->
+            <!-- loyalty points: Model not present -->
+            <!-- loyalty tier name: Model not present -->
+            <a id="header-logo" data-tid="header-logo" href="/" target="_top" data-omniture-id="Header.ExpediaLogo">
+              <img itemprop="image" alt="www.expedia.com" src="//www.expedia.com/_dms/header/logo.svg?locale=&amp;siteid=" onerror="this.src='//www.expedia.com/_dms/header/logo.png?locale=&amp;siteid=';this.onerror='';this.style='';" style="font-size:0;" border="0">
+            </a>
+            <ul class="mobile-language-links cf">
+            </ul>
+            <div class="top-menu-container">
+              <!-- Responsive Menu Toggle -->
+              <button aria-controls="globalSiteNavigation" id="mobile-toggle-header-link" class="btn off-canvas-btn menu-toggle-btn">
+              <span class="visuallyhidden">Show Menu</span>
+              <span class="icon icon-offcanvas" id="header-mobile-toggle" aria-hidden="true"></span>
+              </button>
+              <!-- / End Responsive Menu Toggle -->
+              <div class="site-navigation cf" id="globalSiteNavigation">
+
+                  <ul class="utility-nav below726 nav-group cf">
+                      <li id="shop-menu">
+                          <a id="header-shop-menu"
+                          data-tid="header-shop-menu"
+                          href="#shop-menu"
+                          class="nav-tab"
+                          data-control="menu"> 
+                              Shop Travel<span class="icon icon-toggle180" aria-hidden="true"></span>
+                          </a>
+                          <div class="menu">
+                              <ul>
+                  
+                                      <li>
+                                          <a id="sub-menu-header-shop-home"
+                                              target="_top"
+                                              href="//www.expedia.com/"
+                                              data-omniture-id="Header.ExpediaLogo">
+                                                  PÃ¡gina principal
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-package"
+                                              target="_top"
+                                              href="//www.expedia.com/es/Vacaciones"
+                                              data-omniture-id="Header.VacationPackages">
+                                                  Paquetes
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-hotel"
+                                              target="_top"
+                                              href="//www.expedia.com/es/Hoteles"
+                                              data-omniture-id="Header.Hotels">
+                                                  Hoteles
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-car"
+                                              target="_top"
+                                              href="//www.expedia.com/es/renta-de-autos-economicos"
+                                              data-omniture-id="Header.Cars">
+                                                  Renta de autos
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-flight"
+                                              target="_top"
+                                              href="//www.expedia.com/es/Vuelos"
+                                              data-omniture-id="Header.Flights">
+                                                  Vuelos
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-cruise"
+                                              target="_top"
+                                              href="//www.expedia.com/es/Cruceros"
+                                              data-omniture-id="Header.Cruises">
+                                                  Cruceros
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-activity"
+                                              target="_top"
+                                              href="//www.expedia.com/es/Actividades"
+                                              data-omniture-id="Header.ThingsToDo">
+                                                  Actividades
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-deals"
+                                              target="_top"
+                                              href="//www.expedia.com/g/c/deals"
+                                              data-omniture-id="Header.Deals">
+                                                  OFERTAS
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-rewards"
+                                              target="_top"
+                                              href="//www.expedia.com/user/expediarewards"
+                                              data-omniture-id="Header.Rewards">
+                                                  Expedia+
+                                          </a>
+                                      </li>
+                                      <li>
+                                          <a id="sub-menu-header-shop-mobile"
+                                              target="_top"
+                                              href="//www.expedia.com/app"
+                                              data-omniture-id="Header.MobileApp">
+                                                  MÃ³viles
+                                          </a>
+                                      </li>
+                  
+                              </ul>
+                          </div>
+                      </li>
+                  </ul>
+
+                  <ul class="shop-nav nav-group cf">
+                  
+                  
+                          <li id="account-menu">
+                              <a id="header-account-menu"
+                                  data-tid="header-account-menu"
+                                  href="#"
+                                  class="nav-tab "
+                                  data-control="menu"
+                                  rel="nofollow" 
+                                  data-onclick="">
+                                      Mi cuenta 
+                                      <span class="icon icon-toggle180" aria-hidden="true"></span>
+                              </a>
+                              <div class="menu">
+                                  <ul>
+                                          <li>
+                                              <a id="account-signin"
+                                                  target="_top"
+                                                  href="/user/signin?ckoflag=0 "
+                                                data-onclick="appendRedirectionUrl(this);  return false;"
+                                                  rel="nofollow">
+                                                      Iniciar sesiÃ³n
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a id="account-register"
+                                                  target="_top"
+                                                  href="/user/createaccount? "
+                                                data-onclick="appendRedirectionUrl(this);  return false;"
+                                                  rel="nofollow">
+                                                      Crear una cuenta
+                                              </a>
+                                          </li>
+                                  </ul>
+                              </div>
+                          </li>
+                      
+                          <li id="account-menu-signed-in">
+                              <a id="header-account-menu-signed-in"
+                                  data-tid="header-account-menu-signed-in"
+                                  href="#"
+                                  class="nav-tab hidden"
+                                  data-control="menu"
+                                  rel="nofollow" 
+                                  data-onclick="">
+                                      Hola, <span id='userGreetingName'></span>
+                                      <span class="icon icon-toggle180" aria-hidden="true"></span>
+                              </a>
+                              <div class="menu">
+                                  <ul>
+                                          <li>
+                                              <a id="account-myaccount"
+                                                  target="_top"
+                                                  href="/user/account"
+                                                data-onclick=""
+                                                  rel="nofollow">
+                                                      Mi cuenta
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a id="account-signout"
+                                                  target="_top"
+                                                  href="/user/logout"
+                                                data-onclick="appendRedirectionUrl(this);  return false;"
+                                                  rel="nofollow">
+                                                      Cerrar sesiÃ³n
+                                              </a>
+                                          </li>
+                                  </ul>
+                              </div>
+                          </li>
+                  
+                      
+                      <li class="user-history-tab">
+                          <a id="header-history" target="_top" href="/scratchpad?rfrr=SP.Tray.SP" class="nav-tab" rel="nofollow">Mi Scratchpad</a>
+                      </li>
+                  
+                      <li id="utility-link">
+                        <a id="header-itineraries"
+                           data-tid="header-itineraries"
+                           target="_top"
+                           href="/trips "
+                           class="nav-tab"
+                           rel="nofollow"
+                           data-omniture-id="Header.MyItineraries');">
+                          Mis viajes
+                      	</a>
+                      </li>
+                  
+                          <li id="support-menu">
+                              <a id="header-support-menu"
+                                  data-tid="header-support-menu"
+                                  href="#"
+                                  class="nav-tab "
+                                  data-control="menu"
+                                  rel="nofollow" 
+                                  data-onclick="">
+                                      Ayuda
+                                      <span class="icon icon-toggle180" aria-hidden="true"></span>
+                              </a>
+                              <div class="menu">
+                                  <ul>
+                                          <li>
+                                              <a id="support-cs"
+                                                  target="_top"
+                                                  href="/service/"
+                                                data-onclick=""
+                                                  rel="nofollow">
+                                                      Servicio de atenciÃ³n a clientes
+                                              </a>
+                                          </li>
+                                          <li>
+                                              <a id="support-feedback"
+                                                  target="_top"
+                                                  href="/p/info-other/feedback.htm"
+                                                data-onclick="headerFeedback();return false;"
+                                                  rel="nofollow">
+                                                      Comentarios
+                                              </a>
+                                          </li>
+                                  </ul>
+                              </div>
+                          </li>
+                  
+                        <li id="language-link-1033" >
+                          <a id="header-language-1033"
+                            target="_top"
+                            href="//www.expedia.com/?langid=1033"
+                            class="nav-tab"
+                            rel="nofollow"
+                            data-onclick="xp.nav.trackAnalyticsLanguageLinkWithLangID('Header.LanguageLink','1033');langRedirectionUrl(this);return false;">
+                              English
+                          </a>
+                        </li>
+                        <li id="language-link-2052" class="hidden">
+                          <a id="header-language-2052"
+                            target="_top"
+                            href="//www.expedia.com/?langid=2052"
+                            class="nav-tab"
+                            rel="nofollow"
+                            data-onclick="xp.nav.trackAnalyticsLanguageLinkWithLangID('Header.LanguageLink','2052');langRedirectionUrl(this);return false;">
+                              ç®ä½ä¸­æ
+                          </a>
+                        </li>
+                  
+                        <li id="email-capture-us-chinese" class="hidden">
+                          <a id="header-language-"
+                            target="_top"
+                            href="/p/info-other/expedia-chinese"
+                            class="nav-tab"
+                            rel="nofollow"
+                              data-onclick="xp.nav.trackAnalytics(this,'a','Header.LanguageLink');">
+                              ç®ä½ä¸­æ
+                          </a>
+                        </li>
+                  
+                  </ul>
+              </div>
+              <!-- /.site-navigation -->
+            </div>
+        </div>
+        <!-- /.cols-row role="banner" -->
+        <span class="visuallyhidden">For customer service, call us toll-free at 1-800-397-3342. For customers outside the US, please call 1-404-728-8787. International calling rates will apply.</span>
+    </div>
+    <!-- /.site-header -->
+    <div class="site-header site-header-secondary site_1 es_US " role="navigation">
+        <div class="cols-row">
+            <!-- home -->
+            <div class="site-navigation all-in cf">
+
+              <ul class="utility-nav nav-group cf">
+              
+                    <li id="all-in-home-header-link"
+                        
+                        >
+                            <a id="primary-header-home"
+                                target="_top"
+                                href="//www.expedia.com/"
+                                data-route="/"
+              		  data-omniture-id="Header.ExpediaLogo">
+                                    PÃ¡gina principal
+                            </a>
+                    </li>
+                    <li id="all-in-package-header-link"
+                        
+                        >
+                            <a id="primary-header-package"
+                                target="_top"
+                                href="//www.expedia.com/es/Vacaciones"
+                                data-route="/es/Vacaciones"
+              		  data-omniture-id="Header.VacationPackages">
+                                    Paquetes
+                            </a>
+                    </li>
+                    <li id="all-in-hotel-header-link"
+                        
+                        >
+                            <a id="primary-header-hotel"
+                                target="_top"
+                                href="//www.expedia.com/es/Hoteles"
+                                data-route="/es/Hoteles"
+              		  data-omniture-id="Header.Hotels">
+                                    Hoteles
+                            </a>
+                    </li>
+                    <li id="all-in-car-header-link"
+                        
+                        >
+                            <a id="primary-header-car"
+                                target="_top"
+                                href="//www.expedia.com/es/renta-de-autos-economicos"
+                                data-route="/es/renta-de-autos-economicos"
+              		  data-omniture-id="Header.Cars">
+                                    Renta de autos
+                            </a>
+                    </li>
+                    <li id="all-in-flight-header-link"
+                        
+                        >
+                            <a id="primary-header-flight"
+                                target="_top"
+                                href="//www.expedia.com/es/Vuelos"
+                                data-route="/es/Vuelos"
+              		  data-omniture-id="Header.Flights">
+                                    Vuelos
+                            </a>
+                    </li>
+                    <li id="all-in-cruise-header-link"
+                        
+                        >
+                            <a id="primary-header-cruise"
+                                target="_top"
+                                href="//www.expedia.com/es/Cruceros"
+                                data-route="/es/Cruceros"
+              		  data-omniture-id="Header.Cruises">
+                                    Cruceros
+                            </a>
+                    </li>
+                    <li id="all-in-activity-header-link"
+                        
+                        >
+                            <a id="primary-header-activity"
+                                target="_top"
+                                href="//www.expedia.com/es/Actividades"
+                                data-route="/es/Actividades"
+              		  data-omniture-id="Header.ThingsToDo">
+                                    Actividades
+                            </a>
+                    </li>
+                    <li id="all-in-deals-header-link"
+                        
+                        class="all-in-full">
+                            <a id="primary-header-deals"
+                                target="_top"
+                                href="//www.expedia.com/g/c/deals"
+                                data-route="/g/c/deals"
+              		  data-omniture-id="Header.Deals">
+                                    OFERTAS
+                            </a>
+                    </li>
+                    <li id="all-in-rewards-header-link"
+                        
+                        class="all-in-full">
+                            <a id="primary-header-rewards"
+                                target="_top"
+                                href="//www.expedia.com/user/expediarewards"
+                                data-route="/user/expediarewards"
+              		  data-omniture-id="Header.Rewards">
+                                    Expedia+
+                            </a>
+                    </li>
+                    <li id="all-in-mobile-header-link"
+                        
+                        class="all-in-full">
+                            <a id="primary-header-mobile"
+                                target="_top"
+                                href="//www.expedia.com/app"
+                                data-route="/app"
+              		  data-omniture-id="Header.MobileApp">
+                                    MÃ³viles
+                            </a>
+                    </li>
+              
+                  <li id="all-in-shop-menu-link" class="all-in-collapsed">
+                      <a id="all-in-header-shop-menu" data-tid="header-shop-menu" target="_top" href="#more-shop-menu" class="nav-tab" data-control="menu" data-onclick="return false;">
+                      More<span class="icon icon-toggle180"></span>
+                      </a>
+                      <div class="menu">
+                          <ul>
+              
+                                  <li>
+                                      <a id="header-account-deals-more-menu"
+                                      target="_top"
+                                      href="//www.expedia.com/g/c/deals"
+              			data-omniture-id="Header.Deals">
+                                          OFERTAS
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a id="header-account-rewards-more-menu"
+                                      target="_top"
+                                      href="//www.expedia.com/user/expediarewards"
+              			data-omniture-id="Header.Rewards">
+                                          Expedia+
+                                      </a>
+                                  </li>
+                                  <li>
+                                      <a id="header-account-mobile-more-menu"
+                                      target="_top"
+                                      href="//www.expedia.com/app"
+              			data-omniture-id="Header.MobileApp">
+                                          MÃ³viles
+                                      </a>
+                                  </li>
+              
+                          </ul>
+                      </div>
+                  </li>
+              </ul>
+
+            </div>
+            <!-- /.site-navigation all-in -->
+            <!-- end if block for !model.isBlank -->
+        </div>
+        <!-- /.cols-row role="banner" -->
+    </div>
+    <!-- /.site-header -->
+</div>
+<div id="skip-nav-anchor" class="visuallyhidden">beginMainContent</div>
+
+<script>define('env', function() {return {"locale":"en_US","version":"79cc728174defcc63e415dc27b214cfdedf4f4a2","siteId":"1","prefix":"http://a.travel-assets.com/globalcontrols-service"}});</script></div>
+
+        
+            
+            
+                <!--TODO: make sure this span below is set only for expedia once we add in travelocity and wotif -->
+<span class="visuallyhidden" role="heading" aria-level="1">Travel with Expedia</span>
+<section id="WizardHero" class="hero-banner-wrap background d-col-ads core-wizard-loaded">
+	<div class="hero-banner background" id="hero-banner" style="background-image: url(//images.trvl-media.com/ads/dcfc.gif)">
+		<div class="hero-banner-gradient">
+			<div class="cols-row hero-banner-inner">
+				<div class="hero-banner-box cf">
+					<input type="text" id="back-button-model" class="visuallyhidden" aria-hidden="true" tabindex="-1" >
+          <div id="COREW2" class="ad" style="overflow:hidden;width:180px;height:362px;margin-left:auto;margin-right:auto;"></div>
+          <input type="hidden" id="wizard-default-lob" value='{"tab": "flight", "packages": {"flight":false, "hotel":false, "car":false}}'>
+          <section class="hero-form siteid-1 langid-en_US">
+    				<h2 class="visuallyhidden">Search for a Trip</h2>
+    				<div class="search-wrapper" id="new-homepage-search-wizard" data-wizard-action="search-wrapper">
+						  <div>
+
+
+    <div class="cols-row search theme-inverse-pills" id="wizard-theme-wrapper" data-tid="region">
+
+
+
+    <!-- tabs - pills -->
+
+    <ul class="tabs cf col" role="tablist" data-tid="wizard-tablist">
+
+            <li class="tab" role="presentation">
+    <a role="tab" href="javascript:void(0)" data-tab="flight" data-wizard-action="{&quot;tab&quot; : &quot;flight&quot;, &quot;packages.flight&quot; : false, &quot;packages.hotel&quot; : false, &quot;packages.car&quot; : false, &quot;packages.train&quot; : false }" id="tab-flight-tab" class="" aria-selected="false" data-tracking="tab">
+        <span class="icon icon-flights" aria-hidden="true"></span>
+        <span class="visuallyhidden">Search for </span><span class="tab-label">Flights</span>
+    </a>
+</li>
+
+
+            <li class="tab" role="presentation">
+    <a role="tab" href="javascript:void(0)" data-tab="hotel" data-wizard-action="{&quot;tab&quot; : &quot;hotel&quot;, &quot;packages.flight&quot; : false, &quot;packages.hotel&quot; : false, &quot;packages.car&quot; : false, &quot;packages.train&quot; : false }" id="tab-hotel-tab" class="" aria-selected="false" data-tracking="tab">
+        <span class="icon icon-hotels" aria-hidden="true"></span>
+        <span class="visuallyhidden">Search for </span><span class="tab-label">Hotels</span>
+    </a>
+</li>
+
+
+            <li class="tab" role="presentation">
+    <a role="tab" href="javascript:void(0)" data-tab="package" data-wizard-action="{}" id="tab-package-tab" class="on" aria-selected="true" data-tracking="tab">
+        <span class="icon icon-packages" aria-hidden="true"></span>
+        <span class="visuallyhidden">Search for </span><span class="tab-label"><span class="desktop-only">Package Deals</span><span class="tablet-only">Flight + Hotel</span></span>
+    </a>
+</li>
+
+
+            <li class="tab" role="presentation">
+    <a role="tab" href="javascript:void(0)" data-tab="car" data-wizard-action="{&quot;tab&quot; : &quot;car&quot;, &quot;packages.flight&quot; : false, &quot;packages.hotel&quot; : false, &quot;packages.car&quot; : false, &quot;packages.train&quot; : false }" id="tab-car-tab" class="" aria-selected="false" data-tracking="tab">
+        <span class="icon icon-cars" aria-hidden="true"></span>
+        <span class="visuallyhidden">Search for </span><span class="tab-label">Cars</span>
+    </a>
+</li>
+
+
+            <li class="tab" role="presentation">
+    <a role="tab" href="javascript:void(0)" data-tab="cruise" data-wizard-action="{&quot;tab&quot; : &quot;cruise&quot;, &quot;packages.flight&quot; : false, &quot;packages.hotel&quot; : false, &quot;packages.car&quot; : false, &quot;packages.train&quot; : false }" id="tab-cruise-tab" class="" aria-selected="false" data-tracking="tab">
+        <span class="icon icon-cruise" aria-hidden="true"></span>
+        <span class="visuallyhidden">Search for </span><span class="tab-label">Cruises</span>
+    </a>
+</li>
+
+
+            <li class="tab" role="presentation">
+    <a role="tab" href="javascript:void(0)" data-tab="activity" data-wizard-action="{&quot;tab&quot; : &quot;activity&quot;, &quot;packages.flight&quot; : false, &quot;packages.hotel&quot; : false, &quot;packages.car&quot; : false, &quot;packages.train&quot; : false }" id="tab-activity-tab" class="" aria-selected="false" data-tracking="tab">
+        <span class="icon icon-activities" aria-hidden="true"></span>
+        <span class="visuallyhidden">Search for </span><span class="tab-label">Things to Do</span>
+    </a>
+</li>
+
+
+    </ul>
+
+    <!-- tabs -->
+
+    <div class="col forms tabs-container" data-tid="tab-container">
+        <form autocomplete="off">
+            <div data-wizard-action="form-wrapper">
+            <h2 class="sub-600">Search Vacation Packages</h2>
+
+<section class="tab-pane on" id="tab-package">
+
+
+  <div id="package">
+
+
+
+        <fieldset class="radio-set tablet-only">
+
+
+    <label name="fh" id="package-fh-label" class="check col">
+        <input type="radio" id="package-fh" data-wizard-action="{&quot;packages.flight&quot; : $value1, &quot;packages.hotel&quot; : $value2, &quot;packages.car&quot; : $value3, &quot;packages.train&quot; : $value4}" checked="" name="package-lob" value="true:true:false:false" data-tracking="packageLob" class="checked">
+        <span class="inline-label">Flight + Hotel</span>
+    </label>
+
+
+
+    <label name="fhc" id="package-fhc-label" class="check col">
+        <input type="radio" id="package-fhc" data-wizard-action="{&quot;packages.flight&quot; : $value1, &quot;packages.hotel&quot; : $value2, &quot;packages.car&quot; : $value3, &quot;packages.train&quot; : $value4}" name="package-lob" value="true:true:true:false" data-tracking="packageLob">
+        <span class="inline-label">Flight + Hotel + Car</span>
+    </label>
+
+
+
+    <label name="fc" id="package-fc-label" class="check col">
+        <input type="radio" id="package-fc" data-wizard-action="{&quot;packages.flight&quot; : $value1, &quot;packages.hotel&quot; : $value2, &quot;packages.car&quot; : $value3, &quot;packages.train&quot; : $value4}" name="package-lob" value="true:false:true:false" data-tracking="packageLob">
+        <span class="inline-label">Flight + Car</span>
+    </label>
+
+
+
+    <label name="hc" id="package-hc-label" class="check col">
+        <input type="radio" id="package-hc" data-wizard-action="{&quot;packages.flight&quot; : $value1, &quot;packages.hotel&quot; : $value2, &quot;packages.car&quot; : $value3, &quot;packages.train&quot; : $value4}" name="package-lob" value="false:true:true:false" data-tracking="packageLob">
+        <span class="inline-label">Hotel + Car</span>
+    </label>
+
+
+</fieldset>
+
+
+
+
+  <fieldset class="origin-destination typeahead-container cols-nested">
+
+<div class="container-ta-package">
+    <label class="text icon-before col " id="package-origin-label">
+      <span class="label">Flying from <span class="visuallyhidden">city or airport</span></span>
+      <input type="text" id="package-origin" data-js-theme="typeahead" data-provide="typeahead" aria-autocomplete="list" autocomplete="off" spellcheck="false" data-ta-key="package_origin" data-tooltip-id="typeahead-list" aria-owns="typeahead-list" data-wizard-action="{&quot;origin&quot; : &quot;$value1&quot;}" data-autoselect="touch" value="" data-lob="FLIGHTS" placeholder="City or airport" aria-required="true">
+        <span class="icon icon-location" aria-hidden="true"></span>
+    </label>
+    <span class="icon icon-close visuallyhidden clear-search"></span>
+</div>
+
+
+
+
+
+      <div class="container-ta-package">
+    <label class="text icon-before col " id="package-destination-label">
+      <span class="label">Flying to <span class="visuallyhidden">city or airport</span></span>
+      <input type="text" id="package-destination" data-js-theme="typeahead" data-provide="typeahead" aria-autocomplete="list" autocomplete="off" spellcheck="false" data-ta-key="package_dest" data-tooltip-id="typeahead-list" aria-owns="typeahead-list" data-wizard-action="{&quot;destination&quot; : &quot;$value1&quot;}" data-autoselect="touch" value="" data-lob="FLIGHTS" placeholder="City or airport" aria-required="true">
+        <span class="icon icon-location" aria-hidden="true"></span>
+    </label>
+    <span class="icon icon-close visuallyhidden clear-search"></span>
+</div>
+
+
+
+  </fieldset>
+
+
+
+    <fieldset class="cols-nested">
+
+
+
+    <label class="text calendar departing icon-before col " id="package-departing-label">
+        <span class="label">Departing <span class="visuallyhidden">date, in MM/DD/YYYY format</span></span>
+        <input type="text" id="package-departing" data-wizard-action="{&quot;startDate&quot; : &quot;$value1&quot;}" class=" " data-end-date="#package-returning" data-control="calendar" placeholder="mm/dd/yyyy" data-cal-version="touch-keyboard" data-max-booking-length="26" data-last-valid-date="09/16/2016" data-min-booking-length="1" data-tid="flight-departing" value="" aria-required="true">
+        <span class="icon icon-calendar" aria-hidden="true"></span>
+    </label>
+
+
+
+
+
+    <label class="text calendar returning icon-before col " id="package-returning-label">
+        <span class="label">Returning <span class="visuallyhidden">date, in MM/DD/YYYY format</span></span>
+        <input type="text" id="package-returning" data-wizard-action="{&quot;endDate&quot; : &quot;$value1&quot;}" class=" " data-start-date="#package-departing" data-control="calendar" placeholder="mm/dd/yyyy" data-cal-version="touch-keyboard" value="" aria-required="true" data-max-booking-length="26">
+        <span class="icon icon-calendar" aria-hidden="true"></span>
+    </label>
+
+
+
+
+
+
+
+
+
+
+          <div class="package-3292-fix package-1-children">
+
+    <label id="package-rooms-label" class="select icon col icon-toggle180 ">
+      <span class="label">Rooms</span>
+      <select id="package-rooms" data-wizard-action="{&quot;roomCount&quot; : $value1}" class="" data-select-value="1" data-wizard-owner="package" aria-required="true">
+
+
+          <option selected="selected" value="1">
+              1
+          </option>
+
+
+
+          <option value="2">
+              2
+          </option>
+
+
+
+          <option value="3">
+              3
+          </option>
+
+
+      </select>
+    </label>
+
+
+              <div class="rooms-container total-rooms-1 total-room-1-children-0" id="package-rooms" data-id-prefix="package" data-highest-tnum="0" data-wizard-owner="package">
+
+<div class="cols-row hotel-room room-count-1 total-children-0" id="package-1" data-number="1" data-wizard-owner="package" tabindex="-1">
+    <fieldset class="cols-nested col occupants-select">
+    <legend class="room-count-legend">Room 1</legend>
+
+
+    <label id="package-1-adults-label" class="select icon col icon-toggle180 ">
+      <span class="label">Adults (18+)</span>
+      <select id="package-1-adults" data-wizard-action="{&quot;rooms[0].adults&quot; : $value1}" class="" data-select-value="2" data-wizard-owner="adults">
+
+
+          <option value="1">
+              1
+          </option>
+
+
+
+          <option selected="selected" value="2">
+              2
+          </option>
+
+
+
+          <option value="3">
+              3
+          </option>
+
+
+
+          <option value="4">
+              4
+          </option>
+
+
+
+          <option value="5">
+              5
+          </option>
+
+
+
+          <option value="6">
+              6
+          </option>
+
+
+      </select>
+    </label>
+
+
+
+    <label id="package-1-children-label" class="select icon col icon-toggle180 ">
+      <span class="label">Children (0-17)</span>
+      <select id="package-1-children" data-wizard-action="{&quot;rooms[0].childCount&quot; : $value1}" class="children-select number-of-travellers" data-children-fieldset="package-1" data-redraw="true" data-select-value="0" data-wizard-owner="children">
+
+
+          <option selected="selected" value="0">
+              0
+          </option>
+
+
+
+          <option value="1">
+              1
+          </option>
+
+
+
+          <option value="2">
+              2
+          </option>
+
+
+
+          <option value="3">
+              3
+          </option>
+
+
+
+          <option value="4">
+              4
+          </option>
+
+
+
+          <option value="5">
+              5
+          </option>
+
+
+
+          <option value="6">
+              6
+          </option>
+
+
+      </select>
+    </label>
+
+  </fieldset>
+
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+
+          </div>
+
+
+        <fieldset class="partial-stay cols-nested">
+
+
+
+
+    <label class="check" id="partialHotelBooking-label">
+        <input type="checkbox" id="partialHotelBooking" data-wizard-action="{&quot;isPartialStay&quot; : $value1}">
+        <span class="inline-label">I only need a hotel for part of my stay</span>
+    </label>
+
+
+
+        </fieldset>
+
+
+
+
+
+
+
+          <div class="advanced-options col">
+    <a href="#advanced-options-fields" role="button" id="advanced-options" aria-controls="advanced-options-fields" aria-expanded="false" aria-pressed="false" class="toggle-trigger viewed" data-wizard-action="{&quot;showFlightOptions&quot; : true }">
+        Advanced options<span class="icon icon-expand"></span>
+    </a>
+
+
+</div>
+
+
+
+
+
+    </fieldset>
+
+  </div>
+</section>
+
+            </div>
+            <fieldset class="cols submit-and-mixin-fieldset">
+                <label class="col search-btn-col">
+                    <button type="submit" data-wizard-action="{submit:true}" class="btn-action btn-primary" id="search-button" data-tid="search-button">
+                        <span class="btn-label">Search</span>
+                    </button>
+                </label>
+
+
+
+
+            </fieldset>
+        </form>
+    </div><!-- .tab-content -->
+
+
+
+</div><!-- .search -->
+</div>
+
+					  </div><!-- .search-wrapper -->
+    				<div id="COREW1" class="ad" style="overflow:hidden;width:260px;height:362px;margin-left:auto;margin-right:auto;"></div>
+					</section>
+				</div>
+				<div class="extended-below-wizard-ads">
+    			<div id="COREW3" class="ad" style="overflow:hidden;width:912px;height:48px;margin-left:auto;margin-right:auto;"></div>
+				</div>
+				<div id="COREW4" class="ad" style="overflow:hidden;width:678px;height:48px;margin-left:auto;margin-right:auto;"></div>
+				<div id="COREW5" class="ad" style="overflow:hidden;width:552px;height:48px;margin-left:auto;margin-right:auto;"></div>
+			</div>
+		</div>
+	</div>
+</section>
+<script>
+additionalAdPlacementImageLoaded([$('#COREW1')[0],$('#COREW2')[0],$('#COREW3')[0],$('#COREW4')[0],$('#COREW5')[0]], additionalAdSuccess, additionalAdSuccess, additionalAdFail, 6000);
+backgroundImageLoaded($('#hero-banner')[0], marqueeImageSuccess, marqueeImageFail, 6000);
+
+require(['core', 'uitk'], function(core, uitk) {
+    core.init();
+    calc.wizardLoadTime = +new Date();
+    tracker.triggerOneEvent("wizardPainted");
+
+    define.amd.uitk = true;
+    core.uitkLoaded(uitk);
+});
+
+// Note that expads is loaded synchronously - if it is not defined, that means it was blocked, and we need to define a
+//  version to handle the ad block scenario
+if (typeof window.expads === 'undefined' || typeof window.expads.initialize === 'undefined') {
+    define('expads', [], function() {
+        var displayFallbackImage = function(slotConfig) {
+                var element = $(slotConfig.selector).first();
+                if (typeof slotConfig.url === 'undefined' || slotConfig.url.length === 0) {
+                    element.removeData('src').css('background-image', 'none');
+                } else if (element.css('background-image') === 'none' || element.css('background-image').indexOf(slotConfig.url === -1)) {
+                    element.data('src', slotConfig.url)
+                            .css('background-image', 'url(' + slotConfig.url + ')')
+                            .css('background-repeat', 'no-repeat')
+                            .css('background-size', '100%')
+                            .attr('alt', slotConfig.altText);
+                }
+            },
+            loadActiveMarquee = function() {
+                var slots = window.expads.slots.MARQUEE.adDefault.adCalls[expads.slots.MARQUEE.adToLoad].slots,
+                    slotKey;
+                for (slotKey in slots) {
+                    if (slots.hasOwnProperty(slotKey)) {
+                        displayFallbackImage(slots[slotKey]);
+                    }
+                }
+            };
+
+
+        window.expads = window.expads || {};
+        window.expads.initialize = window.expads.initialize || loadActiveMarquee;
+        window.expads.refresh = window.expads.refresh || function (targetingObject, adToLoad) {
+            window.expads.slots.MARQUEE.adToLoad = adToLoad;
+            loadActiveMarquee();
+        };
+        return window.expads;
+    });
+}
+
+require(['expads', 'marqueeAds'], function (expads, marqueeAds) {
+    expads.slots = expads.slots || {};
+    expads.slots.MARQUEE = marqueeAds;
+    expads.slots.MARQUEE.adToLoad = expads.mapRouteToAd(window.initialLaunchView);
+    expads.initialize();
+});
+</script>
+
+            
+        
+
+        <div class="site-content-wrap">
+            <div class="module-wrapper">
+                <article id="reasons-to-believe-container" class="reasons-to-believe-container"></article>
+
+<script>
+locale = "es_MX";
+</script>
+                 
+                
+
+
+<div class="banner-ads-wrapper">
+    <div id="CT1">
+        <div id="DEFAULT-CT1" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="PACKAGES-CT1" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="HOTELS-CT1" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CARS-CT1" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="FLIGHTS-CT1" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CRUISES-CT1" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="ACTIVITIES-CT1" class="ad-container" aria-label="Advertisement"></div>
+
+    </div>
+    <div id="CT2">
+        <div id="DEFAULT-CT2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="PACKAGES-CT2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="HOTELS-CT2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CARS-CT2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="FLIGHTS-CT2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CRUISES-CT2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="ACTIVITIES-CT2" class="ad-container" aria-label="Advertisement"></div>
+
+    </div>
+    <div id="CT3">
+        <div id="DEFAULT-CT3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="PACKAGES-CT3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="HOTELS-CT3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CARS-CT3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="FLIGHTS-CT3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CRUISES-CT3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="ACTIVITIES-CT3" class="ad-container" aria-label="Advertisement"></div>
+
+    </div>
+</div>
+
+                
+                <article class="rv-container" id="rv-container"></article>
+<article class="recommender-container" id="recommender-container"></article>
+
+
+<script type="text/javascript">
+    var recentlyViewed = recentlyViewed || {};
+    //recentlyViewed.UAD = {"searchedFlights":[{"origin":{"code":"SEA","name":"SEA","city":"SEA","metroCode":"","latitude":0,"longitude":0,"longName":"SEA(SEA)","isMinorAirport":false,"isProhibitedAirport":true,"countryCode":"SEA","identicalMetroCode":false,"isMetroCode":false,"airportID":-1,"localName":"SEA","airportCityCode":"SEA(SEA)"},"originTLA":"SEA","destination":{"code":"SFO","name":"SFO","city":"SFO","metroCode":"","latitude":0,"longitude":0,"longName":"SFO(SFO)","isMinorAirport":false,"isProhibitedAirport":true,"countryCode":"SFO","identicalMetroCode":false,"isMetroCode":false,"airportID":-1,"localName":"SFO","airportCityCode":"SFO(SFO)"},"destinationTLA":"SFO","departureDate":"Feb 3, 2016 6:02:00 AM","returnDate":"Feb 5, 2016 6:02:00 AM","travelerUnit":{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":false,"childAges":[]},"price":"$196","expiresDate":"Feb 3, 2016 12:00:00 AM","flightType":"ROUND_TRIP","searchUrl":"/Flights-Search?trip=roundtrip&leg1=from:SEA,to:SFO,departure:2%2F3%2F2016TANYT&leg2=from:SFO,to:SEA,departure:2%2F5%2F2016TANYT&passengers=children:0,adults:1,seniors:0,infantinlap:N&mode=search","cacheKey":"1-dcae2d26-fe23-4904-9acb-54ab8288ee65-SEA-SFO-ROUND_TRIP-2016-02-03-2016-02-05"}],"searchedHotels":[{"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":false,"childAges":[]}],"destination":"Las Vegas (and vicinity), Nevada, United States of America","searchType":"UNDEFINED","numRooms":1,"numNights":0,"checkinDate":"Jan 22, 2016 12:00:00 AM","checkoutDate":"Jan 24, 2016 12:00:00 AM"}],"viewedHotels":[{"hotelId":"13220099","hotelName":"Thunderbird Hotel","localizedPageUrl":"/Hotels-Thunderbird-Hotel.h13220099.Hotel-Information?chkin=1%2F22%2F2016&chkout=1%2F24%2F2016&rm1=a1&srid=178276","thumbnail":"/hotels/14000000/13230000/13220100/13220099/13220099_3_s.jpg","starRating":"2.5","regionLongName":"","multicityRegionId":0,"latitude":36.155836,"longitude":-115.149429,"checkInDate":"Jan 22, 2016 12:00:00 AM","checkOutDate":"Jan 24, 2016 12:00:00 AM","price":{"amount":145,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":false,"childAges":[]}],"viewedCount":0,"freeCancellation":false,"numberOfRoomsLeft":0,"interactionId":"1-dcae2d26-fe23-4904-9acb-54ab8288ee65-hotels-detail-13220099-2907072000000"},{"hotelId":"15117","hotelName":"Planet Hollywood Resort & Casino","localizedPageUrl":"/The-Strip-Hotels-Planet-Hollywood-Resort-Casino.h15117.Hotel-Information?chkin=1%2F22%2F2016&chkout=1%2F24%2F2016&rm1=a1&srid=178276","thumbnail":"/hotels/1000000/20000/15200/15117/15117_306_s.jpg","starRating":"4.0","regionLongName":"Las Vegas","multicityRegionId":0,"latitude":36.110415,"longitude":-115.172851,"checkInDate":"Jan 22, 2016 12:00:00 AM","checkOutDate":"Jan 24, 2016 12:00:00 AM","price":{"amount":214,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":false,"childAges":[]}],"viewedCount":0,"freeCancellation":false,"numberOfRoomsLeft":0,"interactionId":"1-dcae2d26-fe23-4904-9acb-54ab8288ee65-hotels-detail-15117-2907072000000"},{"hotelId":"1443","hotelName":"The Venetian Resort Hotel & Casino","localizedPageUrl":"/The-Strip-Hotels-The-Venetian-Resort-Hotel-Casino.h1443.Hotel-Information?chkin=1%2F22%2F2016&chkout=1%2F24%2F2016&rm1=a1&srid=178276","thumbnail":"/hotels/1000000/10000/1500/1443/1443_364_s.jpg","starRating":"5.0","regionLongName":"Las Vegas","multicityRegionId":0,"latitude":36.12209,"longitude":-115.17139,"checkInDate":"Jan 22, 2016 12:00:00 AM","checkOutDate":"Jan 24, 2016 12:00:00 AM","price":{"amount":229,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":false,"childAges":[]}],"viewedCount":0,"freeCancellation":false,"numberOfRoomsLeft":0,"interactionId":"1-dcae2d26-fe23-4904-9acb-54ab8288ee65-hotels-detail-1443-2907072000000"}],"viewedPackages":[],"searchedPackages":[],"bookedFlights":[],"hasExtraHotelData":true,"semKeywords":[],"maskedHotelIds":[],"multiDestEnabled":false,"lastStatus":0};
+    recentlyViewed.UAD = {"searchedFlights":[{"origin":{"code":"SEA","name":"Seattle (SEA)","city":"Seattle","latitude":47.44363,"longitude":-122.30175,"longName":"Seattle, WA (SEA-Seattle - Tacoma Intl.)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":false,"isMetroCode":false,"airportID":4277587,"localName":"Seattle - Tacoma Intl.","airportCityCode":"Seattle, WA (SEA)"},"originTLA":"SEA","destination":{"code":"IAD","name":"Washington (IAD)","city":"Washington","metroCode":"WAS","latitude":38.953231,"longitude":-77.447805,"longName":"Washington, DC (IAD-Washington Dulles Intl.)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":false,"isMetroCode":false,"airportID":4473161,"localName":"Washington Dulles Intl.","airportCityCode":"Washington, DC (IAD)"},"destinationTLA":"IAD","departureDate":"Feb 17, 2016 6:02:00 AM","returnDate":"Feb 19, 2016 6:02:00 AM","travelerUnit":{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":true,"childAges":[]},"airline":"","expiresDate":"Feb 7, 2016 12:00:00 AM","searchedDate":"Jan 8, 2016 11:09:52 AM","flightType":"ROUND_TRIP","searchUrl":"/Flights-Search?trip=roundtrip&leg1=from:SEA,to:IAD,departure:2%2F17%2F2016TANYT&leg2=from:IAD,to:SEA,departure:2%2F19%2F2016TANYT&passengers=children:0,adults:1,seniors:0,infantinlap:Y&mode=search","cacheKey":"ROUND_TRIPSEAIAD2016021720160219"},{"origin":{"code":"SEA","name":"Seattle (SEA)","city":"Seattle","latitude":47.44363,"longitude":-122.30175,"longName":"Seattle, WA (SEA-Seattle - Tacoma Intl.)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":false,"isMetroCode":false,"airportID":4277587,"localName":"Seattle - Tacoma Intl.","airportCityCode":"Seattle, WA (SEA)"},"originTLA":"SEA","destination":{"code":"CHS","name":"Charleston (CHS)","city":"Charleston","latitude":32.884191,"longitude":-80.037031,"longName":"Charleston, SC (CHS-Charleston Intl.)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":false,"isMetroCode":false,"airportID":5457987,"localName":"Charleston Intl.","airportCityCode":"Charleston, SC (CHS)"},"destinationTLA":"CHS","departureDate":"Mar 23, 2016 6:02:00 AM","returnDate":"Mar 28, 2016 6:02:00 AM","travelerUnit":{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":true,"childAges":[]},"airline":"","price":"$352","expiresDate":"Feb 6, 2016 12:00:00 AM","searchedDate":"Jan 7, 2016 10:57:25 AM","flightType":"ROUND_TRIP","searchUrl":"/Flights-Search?trip=roundtrip&leg1=from:SEA,to:CHS,departure:3%2F23%2F2016TANYT&leg2=from:CHS,to:SEA,departure:3%2F28%2F2016TANYT&passengers=children:0,adults:1,seniors:0,infantinlap:Y&mode=search","cacheKey":"ROUND_TRIPSEACHS2016032320160328"}],"searchedHotels":[],"viewedHotels":[{"hotelId":"23816","hotelName":"Bristol Hotel","localizedPageUrl":"https://www.expedia.com/San-Diego-Hotels-Bristol-Hotel.h23816.Hotel-InformaÃ¢ÂÂ¦b13f8-e7e3-4b11-ae77-359e6918620a&chkin=1/22/2016&chkout=1/25/2016&rm1=a1&","thumbnail":"/hotels/1000000/30000/23900/23816/23816_41_t.jpg","starRating":"3.5","regionLongName":"San Diego","multicityRegionId":178304,"latitude":32.7262272877207,"longitude":-117.153159731252,"checkInDate":"Jan 22, 2016 12:00:00 AM","checkOutDate":"Jan 25, 2016 12:00:00 AM","price":{"amount":149.03,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":true,"childAges":[]}],"expiresDate":"Jan 22, 2016 12:00:00 AM","viewedDate":"Jan 14, 2016 2:20:23 PM","viewedCount":1,"freeCancellation":false,"numberOfRoomsLeft":0,"interactionId":""},{"hotelId":"2816688","hotelName":"Best Western Plus Marina Gateway Hotel","localizedPageUrl":"https://www.expedia.com/San-Diego-Hotels-Best-Western-Plus-Marina-Gateway-HÃ¢ÂÂ¦845c8-9ae4-4ec6-8311-918609c4410f&chkin=1/22/2016&chkout=1/25/2016&rm1=a1&","thumbnail":"/hotels/3000000/2820000/2816700/2816688/2816688_69_t.jpg","starRating":"3.0","regionLongName":"San Diego","multicityRegionId":178304,"latitude":32.6099740696111,"longitude":-117.059271257912,"checkInDate":"Jan 22, 2016 12:00:00 AM","checkOutDate":"Jan 25, 2016 12:00:00 AM","price":{"amount":116.99,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":true,"childAges":[]}],"expiresDate":"Jan 22, 2016 12:00:00 AM","viewedDate":"Jan 14, 2016 2:20:16 PM","viewedCount":1,"freeCancellation":false,"numberOfRoomsLeft":0,"interactionId":""},{"hotelId":"1731557","hotelName":"Hard Rock Hotel San Diego","localizedPageUrl":"https://www.expedia.com/San-Diego-Hotels-Hard-Rock-Hotel-San-Diego.h1731557Ã¢ÂÂ¦aee03-011f-4e52-9c3b-9e3befdfa2df&chkin=1/22/2016&chkout=1/25/2016&rm1=a1&","thumbnail":"/hotels/2000000/1740000/1731600/1731557/1731557_195_t.jpg","starRating":"4.0","regionLongName":"San Diego","multicityRegionId":178304,"latitude":32.7262272877207,"longitude":-117.153159731252,"checkInDate":"Jan 22, 2016 12:00:00 AM","checkOutDate":"Jan 25, 2016 12:00:00 AM","price":{"amount":195.68,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":true,"childAges":[]}],"expiresDate":"Jan 22, 2016 12:00:00 AM","viewedDate":"Jan 14, 2016 2:20:11 PM","viewedCount":1,"freeCancellation":false,"numberOfRoomsLeft":0,"interactionId":""}],"viewedPackages":[{"origin":{"code":"SEA","name":"Seattle (SEA)","city":"Seattle","latitude":47.44363,"longitude":-122.30175,"longName":"Seattle, WA (SEA-Seattle - Tacoma Intl.)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":false,"isMetroCode":false,"airportID":4277587,"localName":"Seattle - Tacoma Intl.","airportCityCode":"Seattle, WA (SEA)"},"originTLA":"SEA","destination":{"code":"LAS","name":"Las Vegas (McCarran Intl.)","city":"Las Vegas","metroCode":"LAS","latitude":36.085393,"longitude":-115.150098,"longName":"Las Vegas (LAS-All Airports)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":true,"isMetroCode":false,"airportID":5456204,"localName":"McCarran Intl.","airportCityCode":"Las Vegas, NV (LAS)"},"destinationTLA":"LAS","destinationId":"178276","packagePrice":{"amount":546.38,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"packagePricePerPerson":{"amount":546.38,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"packageSavings":{"amount":156.11,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"hotelId":"12628","hotelName":"MGM Grand Hotel & Casino","localizedPageUrl":"https://www.expedia.com/Las-Vegas-Hotels-MGM-Grand-Hotel-Casino.h12628.HoteÃ¢ÂÂ¦41f5-1&packageType=fh&prices=546.38&toDate=01%2F25%2F2016&ttla=LAS&usePS=1","thumbnail":"/hotels/1000000/20000/12700/12628/12628_164_t.jpg","starRating":"4.0","regionLongName":"Las Vegas","multicityRegionId":178276,"latitude":36.1095982359662,"longitude":-115.169329134102,"checkInDate":"Jan 22, 2016 12:00:00 AM","checkOutDate":"Jan 25, 2016 12:00:00 AM","price":{"amount":195.75,"currency":{"currencyCode":"USD"},"uCurrency":{"isoCode":"USD"}},"travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":false,"childAges":[]},{"numberOfAdults":2,"numberOfSeniors":0,"infantInLap":true,"childAges":[]}],"expiresDate":"Jan 22, 2016 12:00:00 AM","viewedDate":"Jan 14, 2016 2:14:30 PM","viewedCount":0,"freeCancellation":false,"numberOfRoomsLeft":0,"interactionId":""}],"searchedPackages":[{"origin":{"code":"SEA","name":"Seattle (SEA)","city":"Seattle","latitude":47.44363,"longitude":-122.30175,"longName":"Seattle, WA (SEA-Seattle - Tacoma Intl.)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":false,"isMetroCode":false,"airportID":4277587,"localName":"Seattle - Tacoma Intl.","airportCityCode":"Seattle, WA (SEA)"},"originTLA":"SEA","originRegion":{"tla":"SEA","majorCity":{"province":{"country":{"twoLetterCountryCode":"","threeLetterCountryCode":"","id":6000578,"name":" United States ","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"COUNTRY","airports":[]},"abbreviation":"","id":6000578,"name":" WA","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"PROVINCESTATE","airports":[]},"id":6000578,"name":"Seattle","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"MAJORCITY","airports":[]},"id":6000578,"name":"SEA-Seattle - Tacoma Intl.","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"AIRPORTSHADOW","airports":[]},"originRegionId":6000578,"destination":{"code":"LAS","name":"Las Vegas (McCarran Intl.)","city":"Las Vegas","metroCode":"LAS","latitude":36.085393,"longitude":-115.150098,"longName":"Las Vegas (LAS-All Airports)","isMinorAirport":false,"isProhibitedAirport":false,"countryCode":"USA","identicalMetroCode":true,"isMetroCode":false,"airportID":5456204,"localName":"McCarran Intl.","airportCityCode":"Las Vegas, NV (LAS)"},"destinationTLA":"LAS","destinationRegion":{"majorCities":[],"airports":[],"majorCity":{"province":{"country":{"twoLetterCountryCode":"","threeLetterCountryCode":"","id":178276,"name":" United States of America","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"COUNTRY","airports":[]},"abbreviation":"","id":178276,"name":" Nevada","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"PROVINCESTATE","airports":[]},"id":178276,"name":"Las Vegas (and vicinity)","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"MAJORCITY","airports":[]},"id":178276,"name":"Las Vegas (and vicinity)","latLong":{"latitude":0,"longitude":0},"description":"","isPackageable":false,"type":"MULTICITYVICINITY"},"destinationRegionId":178276,"departureDate":"Jan 22, 2016 12:00:00 AM","returnDate":"Jan 25, 2016 12:00:00 AM","travelerUnits":[{"numberOfAdults":1,"numberOfSeniors":0,"infantInLap":false,"childAges":[]}],"expiresDate":"Jan 22, 2016 12:00:00 AM","searchedDate":"Jan 14, 2016 2:08:50 PM","cacheKey":"SEA;6000578;LAS;178276;20160122;20160125;"}],"bookedFlights":[],"hasExtraHotelData":false,"semKeywords":[],"maskedHotelIds":[],"multiDestEnabled":false,"lastStatus":0};
+    recentlyViewed.config = {"pricePerNightOrTotalRate":"PN","RVPackageDiscountMessageEnabled":true,"recHBookedF":true,"recSF":true,"mediumDateFormat":"MMM dd","shortDateFormat":"MM/dd/yyyy","numberSeparator":",","fullDateFormat":"ddd MMM dd","useAverageDailyHotelPrice":true,"recVH":true};
+    recentlyViewed.config.currencySymbol = '$';
+    recentlyViewed.config.isUseNewFlexCard = false;
+    recentlyViewed.lbi = {"destinationAirport":"","adultCount":0,"childCount":0};
+    locale = "es_MX";
+</script>
+
+                <div id="mobile-download-banner-container" class="mobile-download-banner-container"></div>
+
+                <div id="promo-container-deals"></div>
+            </div>
+        </div>
+         
+            
+
+
+<div class="ads-wrapper">
+    <div id="CM2">
+        <div id="DEFAULT-CM2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="PACKAGES-CM2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="HOTELS-CM2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CARS-CM2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="FLIGHTS-CM2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CRUISES-CM2" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="ACTIVITIES-CM2" class="ad-container" aria-label="Advertisement"></div>
+
+    </div>
+    <div id="CM3">
+        <div id="DEFAULT-CM3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="PACKAGES-CM3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="HOTELS-CM3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CARS-CM3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="FLIGHTS-CM3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CRUISES-CM3" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="ACTIVITIES-CM3" class="ad-container" aria-label="Advertisement"></div>
+
+    </div>
+    <div id="CM4">
+        <div id="DEFAULT-CM4" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="PACKAGES-CM4" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="HOTELS-CM4" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CARS-CM4" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="FLIGHTS-CM4" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CRUISES-CM4" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="ACTIVITIES-CM4" class="ad-container" aria-label="Advertisement"></div>
+
+    </div>
+    <div id="CM5">
+        <div id="DEFAULT-CM5" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="PACKAGES-CM5" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="HOTELS-CM5" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CARS-CM5" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="FLIGHTS-CM5" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="CRUISES-CM5" class="ad-container" aria-label="Advertisement"></div>
+
+        <div id="ACTIVITIES-CM5" class="ad-container" aria-label="Advertisement"></div>
+
+    </div>
+</div>
+
+        
+
+        <!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/footer-wrap-open.html --><div data-global-control="footer" id="site-footer-background" class="site-footer-background">
+  <div id="site-footer-wrap" class="site-footer-wrap cols-nested">
+
+<!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/trip-planning.html -->    <ul class="segmented-list trip-planning cf">
+        <li class="toggle open">
+            <a href="#tripPlanning" aria-controls="tripPlanning" class="toggle-trigger open" data-control="toggle">PlanificaciÃ³n del viaje<span class="icon icon-expand"></span></a>
+            <div id="tripPlanning" class="toggle-pane open" role="region" aria-expanded="true">
+                <div class="toggle-inner">
+                    <div class="trip-planning-links">
+                            <div id="featured-hotel" class="cf">
+                                <div class="links-description">
+                                    <h5>Hotels</h5>
+                                </div>
+                                <div class="links-list">
+                                    <ul class="cf">
+                                            <li><a href="/Sydney-Hotels.d178312.Travel-Guide-Hotels">Sydney Hotels</a></li>
+                                            <li><a href="/Boston-Hotels.d178239.Travel-Guide-Hotels">Boston Hotels</a></li>
+                                            <li><a href="/Walt-Disney-World-Orlando-Hotels.0-n6034436-0.Travel-Guide-Filter-Hotels">Walt Disney World Area Hotels</a></li>
+                                            <li><a href="/Las-Vegas-Hotels.d178276.Travel-Guide-Hotels">Las Vegas Hotels</a></li>
+                                            <li><a href="/Maui-Island-Hotels.d180073.Travel-Guide-Hotels">Maui Hotels</a></li>
+                                            <li><a href="/New-York-Hotels.d178293.Travel-Guide-Hotels">New York Hotels</a></li>
+                                            <li><a href="/San-Francisco-Hotels.d178305.Travel-Guide-Hotels">San Francisco Hotels</a></li>
+                                            <li><a href="/Grand-Canyon-Hotels.d6140738.Travel-Guide-Hotels">Grand Canyon Hotels</a></li>
+                                            <li><a href="/London-Hotels.d178279.Travel-Guide-Hotels">London Hotels</a></li>
+                                            <li><a href="/Paris-Hotels.d179898.Travel-Guide-Hotels">Paris Hotels</a></li>
+                                            <li><a href="/Cancun-Hotels.d179995.Travel-Guide-Hotels">Cancun Hotels</a></li>
+                                            <li><a href="/Playa-Del-Carmen-Riviera-Maya-Hotels.0-n9369-0.Travel-Guide-Filter-Hotels">Playa Del Carmen Hotels</a></li>
+                                    </ul>
+                                </div>
+                            
+                            </div>
+                            <div id="top-flight-destinations" class="cf">
+                                <div class="links-description">
+                                    <h5>Flights</h5>
+                                </div>
+                                <div class="links-list">
+                                    <ul class="cf">
+                                            <li><a href="/Cheap-Flights-To-New-York.d178293.Travel-Guide-Flights">Flights to New York</a></li>
+                                            <li><a href="/Cheap-Flights-To-Las-Vegas.d178276.Travel-Guide-Flights">Flights to Las Vegas</a></li>
+                                            <li><a href="/Cheap-Flights-To-Los-Angeles.d178280.Travel-Guide-Flights">Flights to Los Angeles</a></li>
+                                            <li><a href="/Cheap-Flights-To-Orlando.d178294.Travel-Guide-Flights">Flights to Orlando</a></li>
+                                            <li><a href="/Cheap-Flights-To-Miami.d178286.Travel-Guide-Flights">Flights to Miami</a></li>
+                                            <li><a href="/Cheap-Flights-To-San-Francisco.d178305.Travel-Guide-Flights">Flights to San Francisco</a></li>
+                                            <li><a href="/Cheap-Flights-To-Chicago.d178248.Travel-Guide-Flights">Flights to Chicago</a></li>
+                                            <li><a href="/Cheap-Flights-To-Boston.d178239.Travel-Guide-Flights">Flights to Boston</a></li>
+                                            <li><a href="/Cheap-Flights-To-Vancouver.d178315.Travel-Guide-Flights">Flights to Vancouver</a></li>
+                                    </ul>
+                                </div>
+                            
+                            </div>
+                            <div id="top-rental-car-locations" class="cf">
+                                <div class="links-description">
+                                    <h5>General</h5>
+                                </div>
+                                <div class="links-list">
+                                    <ul class="cf">
+                                            <li><a href="/Car-Rentals-In-Toronto.d178314.Car-Rental-Guide">Toronto Car Rental</a></li>
+                                            <li><a href="/Car-Rentals-In-Vancouver.d178315.Car-Rental-Guide">Vancouver Car Rental</a></li>
+                                            <li><a href="/Car-Rentals-In-Denver.d178254.Car-Rental-Guide">Denver Car Rental</a></li>
+                                            <li><a href="/Car-Rentals-In-New-York.d178293.Car-Rental-Guide">New York Car Rental</a></li>
+                                            <li><a href="/Car-Rentals-In-Honolulu.d1488.Car-Rental-Guide">Honolulu Car Rental</a></li>
+                                            <li><a href="/daily/cars/dallas-car-rental.asp">Dallas Car Rental</a></li>
+                                            <li><a href="/daily/cars/New-Orleans-car-rental.asp">New Orleans Car Rental</a></li>
+                                            <li><a href="/Car-Rentals-In-Reno.d602688.Car-Rental-Guide">Reno Car Rental</a></li>
+                                            <li><a href="/Car-Rentals-In-San-Antonio.d178303.Car-Rental-Guide">San Antonio Car Rental</a></li>
+                                    </ul>
+                                </div>
+                            
+                            </div>
+                            <div id="popular-vacation-destinations" class="cf">
+                                <div class="links-description">
+                                    <h5>Vacation Packages</h5>
+                                </div>
+                                <div class="links-list">
+                                    <ul class="cf">
+                                            <li><a href="/Las-Vegas.d178276.Destination-Travel-Guides">Las Vegas Vacations</a></li>
+                                            <li><a href="/Orlando.d178294.Destination-Travel-Guides">Orlando Vacations</a></li>
+                                            <li><a href="/New-York.d178293.Destination-Travel-Guides">New York Vacations</a></li>
+                                            <li><a href="/Miami.d178286.Destination-Travel-Guides">Miami Vacations</a></li>
+                                            <li><a href="/San-Diego.d178304.Destination-Travel-Guides">San Diego Vacations</a></li>
+                                            <li><a href="/San-Francisco.d178305.Destination-Travel-Guides">San Francisco Vacations</a></li>
+                                            <li><a href="/Los-Angeles.d178280.Destination-Travel-Guides">Los Angeles Vacations</a></li>
+                                            <li><a href="/New-Orleans.d178292.Destination-Travel-Guides">New Orleans Vacations</a></li>
+                                            <li><a href="/Vancouver.d178315.Destination-Travel-Guides">Vancouver Vacations</a></li>
+                                            <li><a href="/Boston.d178239.Destination-Travel-Guides">Boston Vacations</a></li>
+                                            <li><a href="/Seattle.d178307.Destination-Travel-Guides">Seattle Vacations</a></li>
+                                            <li><a href="/Honolulu.d1488.Destination-Travel-Guides">Honolulu Vacations</a></li>
+                                    </ul>
+                                </div>
+                            
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+
+<!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/explore.html -->    <div class="site-footer cf sub-footer" role="contentinfo">
+        <!-- begin show bot optimized footer -->
+        <section class="segmented-list toggle open">
+            <a href="#exploreMore" ariacontrols="exploreMore" class="toggle-trigger open" data-control="toggle">Ver mÃ¡s<span class="icon icon-expand"></span></a>
+            <div id="exploreMore" class="toggle-pane open" role="region" aria-expanded="true">
+                <div class="toggle-inner">
+                        <div class="cf">
+                            <div id="expedia-expedia-header" class="links-description">
+                                <h5>Expedia</h5>
+                            </div>
+                            <div class="links-list">
+                                <ul id="expedia-expedia-links" class="expedia-links">
+                                        <li>
+                                            <a href="/about"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >Acerca de Expedia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.lifeatexpedia.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >Empleos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://ir.expediainc.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >Relaciones con los inversionistas</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.advertising.expedia.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >Publicidad</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://viewfinder.expedia.com/news"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >Sala de prensa</a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);"
+                                                data-onclick="window.open(&#x27;http://www.expedia.com/daily/service/aboutourads.asp&#x27;,&#x27;AboutOurAds&#x27;,&#x27;scrollbars=yes,status=no,toolbar=yes,resizable=yes,width=480,height=620&#x27;);xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;);return false;"
+                                                
+                                                 >Acerca de nuestra publicidad</a>
+                                        </li>
+                                        <li>
+                                            <a href="/privacy"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >PolÃ­tica de privacidad</a>
+                                        </li>
+                                        <li>
+                                            <a href="/terms"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >TÃ©rminos de uso</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/p/info-other/sitemap"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.CorporateLink&#x27;)"
+                                                
+                                                 >Mapa del sitio</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        
+                        </div>                        <div class="cf">
+                            <div id="expedia-vÃ­nculos-de-expedia-header" class="links-description">
+                                <h5>VÃ­nculos de Expedia</h5>
+                            </div>
+                            <div class="links-list">
+                                <ul id="expedia-vÃ­nculos-de-expedia-links" class="expedia-links">
+                                        <li>
+                                            <a href="http://flights.expedia.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.losCostFlights&#x27;)"
+                                                
+                                                 >Vuelos de bajo costo</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://hotels.expedia.com/resorts/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.resorts&#x27;)"
+                                                
+                                                 >Hoteles resort</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://hotels.expedia.com/motels/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.motels&#x27;)"
+                                                
+                                                 >Moteles</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://hotels.expedia.com/lodges/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Lodges&#x27;)"
+                                                
+                                                 >Lodges</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://rental-cars.expedia.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.rentalCarFinder&#x27;)"
+                                                
+                                                 >Buscador de autos de alquiler</a>
+                                        </li>
+                                        <li>
+                                            <a href="/user/expediarewards"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.expediaRewards&#x27;)"
+                                                
+                                                 >Expedia Rewards</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://viewfinder.expedia.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.viewFinderBlog&#x27;)"
+                                                
+                                                 >Blog de Viewfinder</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/g/u/newhotels"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.newHotels&#x27;)"
+                                                
+                                                 >Hoteles nuevos</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        
+                        </div>                        <div class="cf">
+                            <div id="expedia-mapas-del-sitio-de-expedia-header" class="links-description">
+                                <h5>Mapas del sitio de Expedia</h5>
+                            </div>
+                            <div class="links-list">
+                                <ul id="expedia-mapas-del-sitio-de-expedia-links" class="expedia-links">
+                                        <li>
+                                            <a href="http://www.expedia.com/Destinations-In-United-States-Of-America.d201.Hotel-Destinations"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.hotelsSitemap&#x27;)"
+                                                
+                                                 >Mapa del sitio de hoteles</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/Destinations-In-United-States-Of-America.d201.Flight-Destinations"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.flightsSitemap&#x27;)"
+                                                
+                                                 >Mapa del sitio de vuelos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/United-States-Of-America.d201.Destination-Travel-Guide"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.vacationsSitemap&#x27;)"
+                                                
+                                                 >Mapa del sitio de vacaciones</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/Destinations-In-United-States-Of-America.d201.Car-Rental-Destinations"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.rentalCarsSitemap&#x27;)"
+                                                
+                                                 >Mapa del sitio de la renta de autos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://cruise.expedia.com/USCruises.aspx"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.cruisesSitemap&#x27;)"
+                                                
+                                                 >Mapa del sitio de cruceros</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://thingstodo.expedia.com/usa-activities/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.thingsToDoSitemap&#x27;)"
+                                                
+                                                 >Mapa del sitio de Actividades</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        
+                        </div>                        <div class="cf">
+                            <div id="expedia-servicios-de-socios-proveedores-header" class="links-description">
+                                <h5>Servicios de socios proveedores</h5>
+                            </div>
+                            <div class="links-list">
+                                <ul id="expedia-servicios-de-socios-proveedores-links" class="expedia-links">
+                                        <li>
+                                            <a href="https://www.expediapartnercentral.com/Setting/RequestChangeLanguage?lang=3082&amp;callback=https://www.expediapartnercentral.com/Account/Logon"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Expedia Partner Central</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://join.expediapartnercentral.com/home/index"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Agregar un hotel</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://join.localexpertpartnercentral.com"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Agregar una actividad</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/p/network-affiliate"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >ConviÃ©rtete en un afiliado</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/TAAP-LearnMore"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Programa de afiliaciÃ³n de agencias de viajes</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expediaaffiliate.com/affiliate-program"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Expedia Private Label</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com/rewards/credit_card?lytid=cb.link.footer&amp;citiCode=3PT&amp;rfrr=site.footer.CCOffer"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Expedia MasterCard</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expediafranchise.com"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Franquicia de Expedia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.joinecsc.com"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.PartnerService&#x27;)"
+                                                
+                                                 >Agente de Expedia CentrodeCruceros</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        
+                        </div>                        <div class="cf">
+                            <div id="expedia-global-sites-header" class="links-description">
+                                <h5>Sitios web globales</h5>
+                            </div>
+                            <div class="links-list">
+                                <ul id="expedia-global-sites-links" class="expedia-links">
+                                        <li>
+                                            <a href="http://www.expedia.de"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.de"
+                                                 class="flag de" >Alemania</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.ar"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.ar"
+                                                 class="flag ar" >Argentina</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.au"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.au"
+                                                 class="flag au" >Australia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.at"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.at"
+                                                 class="flag at" >Austria</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.be"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.be"
+                                                 class="flag be" >BÃ©lgica</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.br"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.br"
+                                                 class="flag br" >Brasil</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.ca"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.ca"
+                                                 class="flag ca" >CanadÃ¡</a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.expedia.cn"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.cn"
+                                                 class="flag cn" >China</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.co.kr"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.co.kr"
+                                                 class="flag kr" >Corea</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.dk"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.dk"
+                                                 class="flag dk" >Dinamarca</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.es"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.es"
+                                                 class="flag es" >EspaÃ±a</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com"
+                                                 class="flag us" >Estados Unidos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.fi"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.fi"
+                                                 class="flag fi" >Finlandia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.fr"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.fr"
+                                                 class="flag fr" >Francia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.hk"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.hk"
+                                                 class="flag hk" >Hong Kong</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.co.in"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.co.in"
+                                                 class="flag in" >India</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.co.id"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.co.id"
+                                                 class="flag ind" >Indonesia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.ie"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.ie"
+                                                 class="flag ie" >Irlanda</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.it"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.it"
+                                                 class="flag it" >Italia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.co.jp"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.co.jp"
+                                                 class="flag jp" >JapÃ³n</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.ph"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.ph"
+                                                 class="flag ph" >Las Filipinas</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.my"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.my"
+                                                 class="flag my" >Malasia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.mx"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.mx"
+                                                 class="flag mx" >MÃ©xico</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.no"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.no"
+                                                 class="flag no" >Noruega</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.co.nz"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.co.nz"
+                                                 class="flag nz" >Nueva Zelanda</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.nl"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.nl"
+                                                 class="flag nl" >PaÃ­ses Bajos</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.co.uk"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.co.uk"
+                                                 class="flag uk" >Reino Unido</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.sg"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.sg"
+                                                 class="flag sg" >Singapur</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.se"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.se"
+                                                 class="flag se" >Suecia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.ch"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.ch"
+                                                 class="flag ch" >Suiza</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.co.th"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.co.th"
+                                                 class="flag th" >Tailandia</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.tw"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.tw"
+                                                 class="flag tw" >TaiwÃ¡n</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.expedia.com.vn"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.AllSites&#x27;)"
+                                                 title="Expedia.com.vn"
+                                                 class="flag vn" >Vietnam</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        
+                        </div>                        <div class="cf">
+                            <div id="expedia-socios-de-expedia-header" class="links-description">
+                                <h5>Socios de Expedia</h5>
+                            </div>
+                            <div class="links-list">
+                                <ul id="expedia-socios-de-expedia-links" class="expedia-links">
+                                        <li>
+                                            <a href="http://egencia.com/en/why-egencia/understanding-business-travel-management/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >Egencia Business Travel</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.hotels.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >Hotels.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.venere.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >Venere</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.hotwire.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >Hotwire</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.citysearch.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >CitySearch</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.hsn.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >Online Shopping</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.homeadvisor.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >HomeAdvisor</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.shoebuy.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >Shoebuy.com</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.ticketweb.com/"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >TicketWeb</a>
+                                        </li>
+                                        <li>
+                                            <a href="http://www.cruiseshipcenters.com/es-PR/corporate/home"
+                                                data-onclick="xp.nav.trackAnalytics(this,&#x27;a&#x27;,&#x27;Footer.Epartners&#x27;); window.open(this.href,&#x27;_blank&#x27;); return false;"
+                                                
+                                                 >Expedia CruiseShipCenters</a>
+                                        </li>
+                                </ul>
+                            </div>
+                        
+                        </div>                </div>
+            </div>
+        </section>
+    </div>
+
+<!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/legal.html -->    <div class="legal">
+    Expedia, Inc. no es responsable del contenido en sitios web externos. Â© 2016 Expedia, Inc. Todos los derechos reservados.</div>
+
+<!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/badges.html -->
+<!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/copyrights.html -->
+<!-- http://a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/htmls/1/es_MX/footer-wrap-close.html -->  </div>
+</div>
+
+        <script type="text/javascript" async defer src="//a.travel-assets.com/globalcontrols-service/content/7292efabe259ff2ce878d0286c9a05e8b124c109/scripts/1/es_MX/globalcontrols-min.js"></script>
+
+
+        
+    
+    
+      <script async defer src="//b.travel-assets.com/uitoolkit/2-45/1c73da6e67025811c62655351eaf756a56194797/core/js/ads-targeting-bundle-min.js"></script>
+
+<script>
+require(['ad_info'], function(AdInfo) {
+    var expads = window.expads || {};
+    expads.configuration = expads.configuration || {};
+    var adInfo = new AdInfo('/adinfo', expads.configuration.pageName), adsCallback = function(adInfo) {
+        require(['expads'], function (expads) {
+            expads.slots = (adInfo && adInfo.slots) || expads.slots;
+            expads.targeting = (adInfo && adInfo.targeting) || expads.targeting;
+            expads.initialize();
+        });
+    };
+    adInfo.load(adsCallback, expads.configuration.targeting || {});
+});
+</script>
+<script async defer src="//a.travel-assets.com/ads/2.0/3de69957332957aa830a34f579d75c1d014e4bc0/expads-min.js"></script>
+
+    
+
+    
+    
+
+    <script>
+      define('uitk_domReady', function(){
+        return true;
+      });
+    </script>
+    <div id="uitk-live-announce" class="visuallyhidden" aria-live="assertive"></div>
+</body>
+
+</html>

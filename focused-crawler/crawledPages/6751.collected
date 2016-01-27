@@ -1,0 +1,935 @@
+title=Destinos
+url=http://www.tamviagens.com.br/destinos.html
+html=<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Destinos</title>
+<meta name="title" content="Destinos">
+<meta name="subtitle" content="Os melhores destinos desta época do ano">
+<link rel="icon" href="/static/images/favicon/TAMViagens/favicon.ico" type="image/x-icon"/>
+<link rel="stylesheet" href="/apps/xumakbase/components/base/clientlibs.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/designs/tamviagensApp/clientlibs/design/all.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/designs/tamviagensApp/clientlibs/all.css" type="text/css"/>
+<link rel="stylesheet" href="/etc/designs/tamviagensApp/clientlibs/destinos.css" type="text/css"/>
+<script>var pagePath='/content/latam/tam-viagens/destinos'</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.0/underscore-min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.string/2.3.3/underscore.string.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.2.15/angular-resource.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.8/angular-ui-router.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/restangular/1.3.1/restangular.min.js"></script>
+<script type="text/javascript" src="https://maps.google.com/maps/api/js?sensor=false"></script>
+<script src="/apps/xumakbase/components/base/clientlibs.js"></script>
+<script src="/etc/designs/tamviagensApp/clientlibs/all.js"></script>
+<script src="/etc/designs/tamviagensApp/clientlibs/destinos.js"></script>
+</head>
+<body ng-app="tamviagensApp" class="template-generic destinos">
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TFQ4M8" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TFQ4M8');</script>
+<div id="main">
+<div xk-section-styles="xk-component xk-section-base "></div>
+<div id="background-cabecalho2">
+<div id="background-top" class="index1">
+<img class="icon-lampada" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAcAAAAJBAMAAAAMdiuQAAAAKlBMVEUAAAD///////////////////////////////////////////////////+Gu8ovAAAADXRSTlMAECAwQFBgcICPn7/Pngqt2gAAADNJREFUCNdjYKyexMDAneCjwGDFwFrAoMXAVsDAbSAjwMC0II2BgeHuFSBx9iKQsAhgAACw0wh7JFqQbQAAAABJRU5ErkJggg==" alt=""/>
+<div id="text-top-1">
+<p> Diferenciais TAM Viagens</p>
+</div>
+<div id="text-top-2">
+<ul id="slide">
+<li>
+<p> Viagem com cobertura completa</p><strong><a class="saiba-mais" href="#">Saiba Mais</a></strong>
+</li>
+<li>
+<p>Fale com a TAM Viagens</p><strong><a class="saiba-mais" href="#">Saiba Mais</a></strong>
+</li>
+</ul>
+</div>
+<div id="text-top-4">
+<ul>
+<li>&nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</li>
+<li>
+<latam-link linkinfo="{&quot;path&quot;:&quot;/lojas.html&quot;,&quot;title&quot;:&quot;Nossas Lojas&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}"></latam-link>
+</li>
+<li>&nbsp; &nbsp; &nbsp; | &nbsp; &nbsp; &nbsp;</li>
+<li>
+<latam-link linkinfo="{&quot;path&quot;:&quot;/contato.html&quot;,&quot;title&quot;:&quot;Contato&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}"></latam-link>
+</li>
+</ul>
+</div>
+</div>
+<div id="vantagens-tam-viagens">
+<div class="vtv-left">
+<div class="anuncio">
+<div class="icone">
+<img alt="" src="/etc/designs/latam-app/tam-viagens-app/_jcr_content/global/secondimage.asset.spool/xhome_conteudo_mais_vendidos_foto_1.png.pagespeed.gp+jp+pj+js+rj+rp+rw+ri+cp+md.ic.cRNmSq0GjG.jpg"/>
+</div>
+<div class="informacoes">
+<br/>
+<div class="titulo">Diferenciais TAM Viagens</div>
+<div class="texto">A TAM Viagens oferece as melhores opções de roteiros nacionais e internacionais, trazendo momentos únicos a seus clientes. E para que tudo seja perfeito, disponibiliza atendimento especializado que apoia passageiros durante suas viagens. Embarque nessa viagem exclusiva por um mundo de vantagens. </div>
+</div>
+</div>
+</div>
+<div class="vtv-right">
+<input class="btn-fechar" type="button" value="">
+<div class="anuncio">
+<div class="icone">
+<img alt="Help Center" src="/etc/designs/latam-app/tam-viagens-app/_jcr_content/global/fourthimage.asset.spool/x2helpcenter.jpg.pagespeed.gp+jp+pj+js+rj+rp+rw+ri+cp+md.ic.izTbW9kvtC.jpg" class="img2"/>
+</div>
+<div class="informacoes">
+<br/>
+<div class="titulo2">Fale com a TAM Viagens</div>
+<div class="texto2">Temos uma central de atendimento pronta para te ajudar dentro ou fora do país...</div>
+</div>
+</div>
+<div class="anuncio">
+<div class="icone">
+<img alt="cobertura_completa_peq" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAUDBAQEAwUEBAQFBQUGBwwIBwcHBw8LCwkMEQ8SEhEPERETFhwXExQaFRERGCEYGh0dHx8fExciJCIeJBweHx7/2wBDAQUFBQcGBw4ICA4eFBEUHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh4eHh7/wAARCAAsAEADASIAAhEBAxEB/8QAGgAAAgMBAQAAAAAAAAAAAAAABQYEBwgDAf/EADUQAAICAAUBBQUHBAMAAAAAAAECAwQABQYREiEHExQxYSIyUXGBFUFCYoKRoRYjM8FScnP/xAAaAQACAgMAAAAAAAAAAAAAAAACBAADAQUG/8QAJBEAAgEEAgIBBQAAAAAAAAAAAQIAAwQhMQURElGBFTJBcaH/2gAMAwEAAhEDEQA/ANJf0hN+GZW/Ttj2PRsx9+aJV9MGo8yXljt9oflxtDc3HuaJbG19RcsaMkC7pMjYiNo+5x96JR6tthosXW48gvIfeOW38jAjL8+yrMOK1/akMC2ODseXBiQrfI7HBLe1lwTmR+Mt2HYGIGtaTMSsZrUCehbAe5klNGZWuK4/IvXDtNJQPUwr9euFbXmb0Mi0zmGa8eTxRHuVC9Wkboigf9iMMLeVApLGJnjabsFQD+xFhy+nNnWZW5Y5ZYI3FWsUYe0qjd2PrzJX9GI+ZVqa/wCOiuw+8sSW/wBYcMry2tlWn6VCWTnNFEO+fiN3lbq7En4sScDLlaM8uUkS/NsO2NUqg8tnfzEORVjWPhoYH6GBIXjLcNpIXymfZ135iRNl67be9grVS1LCkvh2TmoOxmUFd/1YY4/AOu/iIvTbc8v2GOrVouWy/wDLp7JH+sce3Iv6ncLxtKJGoLfhIXh5MzlTyVLCk9ADxA36lt+mETSs12/rb7SijzFIArR7yNxj5bSEKoA8wcF+0LJ8y1BJmFPKMwyTTmYyqI3nnWQS7qWAZJFHTkp2J88RezHSfaDpBu6zWbLszyvxXfwLWbvSrcGQqNyrncHfpjK1ajMX/PXUse0RAEIxuO3965wYWl3KEuY7BLIwG4VgOm5wg9qVl62oMiyN8w8RXktQz2ZeTiNOJ3VTyHnvscWLa1Np94Xy1I6eW2J1ZJfE8q7Rbjz4yKvJuvQb9cZ90jcoUMyqW782bNJYvWHszW+93FbosSAkcZGHVuJ6b/LBLVrMp7gijbo4PUui1lj+1z1Fcb/zruT/ACwwEuZU55cs2z1vgUpny+r4MZDrbLMysNXuXll7uLvGNS0jNKQxBUINt/LfZfa+Aw1Rw5DerpNUsVbCSMEXvJDvyP4SCdw3pir6jX9zL8RRTryTcY6ZlKq4Vu5RPdHx3646+Ds2ePORljj5AOYxu3y26bfTEapfnjhaRQpdYeQJB89/2weqSmatDaZF7wxjy32G+2EBncfONSsO1js31LqWGvf01qqXKrtTlIK81dWhsE/c/TkP5GKUzbOe0HRjFdXaNuJBF71rLuNiBfzFOvH542ICJqoMigllO/niLdy6lZrEWa8cwUkDko3A3+I6jFqErqElY/bMTZh2nZDmMayvmUULnqHmheKT9wOuIecdp9W5cq2LGuLjLW6xLBGA2594lypJ39cX92w9mWhrMgmsadpyTWG4tKF7uRfUMmzE/MnGb+1ns303piCnLly2nNljyEzqQu3w2UH9ycX0653JXCMOvAdfM619c6LnvNalr3Ls3UyPNccBz8eO4B+gw66oneHS+n9Q08rymOrbzGqpmqzPJLXVj0eTY7cl8tiSd8Z+sZRThRJIwwJ9RsMEcjt3oN60GYXIoWG7RpMyqxB3G4GDZiwxFhVZj4sdT//Z" class="img1"/>
+</div>
+<div class="informacoes">
+<br/>
+<div class="titulo">Viagem com cobertura completa</div>
+<div class="texto">Nossos roteiros incluem passagens aéreas, acomodação, traslados e passeios...</div>
+</div>
+</div>
+<input class="btn-conheca-vantagens" type="button" onClick="parent.location='/content/latam/tam-viagens/diferenciais.html'" value="CONHEÇA TODAS AS VANTAGENS">
+</div>
+</div>
+</div>
+<div id="header">
+<div id="background-cabecalho">
+<div id="cabecalho_fundo">
+<div>
+<img src="/content/latam/tam-viagens/destinos/_jcr_content/image.asset.spool/fundo_destinos_cabecalho.jpg" alt=""/>
+</div>
+</div>
+<div class="header-area">
+<div xk-section-styles="xk-component xk-section-base "></div>
+<div class="header-area">
+<div class="logo-tam-viagens">
+<latam-link-transclude linkinfo="{&quot;path&quot;:&quot;/&quot;,&quot;title&quot;:&quot;&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}">
+<img title="Tam Viagens" src="/etc/designs/latam-app/tam-viagens-app/_jcr_content/global.asset.spool/xlogo-home-site-tv_branco.png.pagespeed.gp+jp+pj+js+rj+rp+rw+ri+cp+md.ic.ya8384n9X3.png">
+</latam-link-transclude>
+</div>
+</div>
+<div xk-section="v1" class="parbase base breadcrumb">
+<div xk-section-styles="xk-component xk-section-base "></div>
+<span class="destino_pais_migalha">
+<a href="/">Home</a>
+&nbsp;&nbsp;|&nbsp;&nbsp
+Destinos
+</span>
+</div>
+</div>
+</div>
+</div>
+<div class="conteudo">
+<div class="centro">
+<div xk-section="v1" class="parbase base mapadestinos">
+<div xk-section-styles="xk-component xk-section-base "></div>
+<div class="mapa_mundi"></div>
+<div class='countries'>
+<div class='br'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_br.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='us'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_us.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='ve'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_ve.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='uy'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_uy.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='pe'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_pe.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='py'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_py.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='co'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_co.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='cl'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_cl.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='ar'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_ar.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='mx'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_mx.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='tr'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_tr.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='ch'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_ch.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='cz'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_cz.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='pt'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_pt.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='it'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_it.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='gb'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_ie.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='nl'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_nl.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='gr'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_gr.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='fr'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_fr.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='es'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_es.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='be'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_be.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='at'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_at.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='de'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_de.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='au'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_au.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='nz'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_nz.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='cu'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_cu.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='do'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_do.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='bo'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_bo.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='pf'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_pf.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='ukk'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_ukk.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='ukm'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_gb.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+<div class='ec'>
+<div class="label_show_borderLeft"></div>
+<div class="label_show">
+<img alt="" src="/static/images/generico/destinos_labels/label_show_equa.png"/>
+</div>
+<div class="label_show_borderRigh"></div>
+</div>
+</div>
+</div>
+<div class="texto_melhores_destinos_epoca">Os melhores destinos desta época do ano</div>
+<div class="clearfix" style="height: 500px">
+<div xk-section="v1" class="parbase contprincpromociones base contenedorPrincipal1"><xk-client-enabled xk-path="129c80903115b1d0f37983a494544408"></xk-client-enabled>
+<div xk-section-styles="xk-component xk-section-base "></div>
+<div class='comp_melhores_destinos comp_melhores_destinos_subtitulo '>
+<div class="borda_superior_esquerda"></div>
+<div class="borda_superior_centro"></div>
+<div class="borda_superior_direita"></div>
+<div class="hide listSize">1</div>
+<div id="melhor_destino_1" class="div_melhor_destino caixa_fundo">
+<p class='titulo_pais font_sharp'>Última Chamada</p>
+<p class='subtitulo_pais font_crisp'>Os melhores preços para viagens finalizadas até 21/01</p>
+<div xk-section="v1" class="parbase base promoTab1 tabscontprincpromociones"><xk-client-enabled xk-path="faa302fb8a3ae0bc8188eb9c26b2064d"></xk-client-enabled>
+<div xk-section-styles="latam_class xk-component xk-section-base "></div>
+<div id="contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1" class="hide">
+<p><b>Última Chamada </b>- As melhores tarifas para viagens finalizadas até 04 de fevereiro de 2016.<br>
+</p>
+</div>
+<div class="hide" id="contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1">
+<p><b>O que inclui:</b> Aéreo ida e volta, hospedagem com regime mencionado e Pontos Multiplus.</p>
+</div>
+<div class="cidade cidade_1">
+<div class='imagem_cidade'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Brasília' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='88,38' data-valortotal='883,85' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/brasilia-4449/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4449' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<p class='titulo_cidade'>
+Brasília
+</p>
+</a>
+<a class='inline' href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Brasília' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='88,38' data-valortotal='883,85' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/brasilia-4449/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4449' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<img alt="null" src="/content/configuraciones/tamviagens/promociones/ultima-chamada/brasilia-4449/_jcr_content/configPar/promociones/mediumimage.asset.spool/ultima_chamada_205x94.jpg"/>
+</a>
+</div>
+<div class='info_periodo_valor'>
+<div class='info_periodo'>
+<p class='destaque_dias'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Brasília' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='88,38' data-valortotal='883,85' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/brasilia-4449/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4449' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>4 dias</a>
+</p>
+<p>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Brasília' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='88,38' data-valortotal='883,85' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/brasilia-4449/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4449' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>e 3 noites</a>
+</p>
+</div>
+<div class='info_valor'>
+<p class="destaque_valor">
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Brasília' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='88,38' data-valortotal='883,85' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/brasilia-4449/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4449' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>a partir de R$ 883,85 </a>
+</p>
+<p>
+<span class='destaque_valor_parcelado'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Brasília' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_1' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='88,38' data-valortotal='883,85' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/brasilia-4449/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4449' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+10x de
+88,38
+</a>
+</span>
+<span class='destaque_valor_parcelado destaque_valor_asterisco'>*</span>
+</p>
+</div>
+</div>
+</div>
+<div id="contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2" class="hide">
+<p><b>Última Chamada </b>- As melhores tarifas para viagens finalizadas até 04 de fevereiro de 2016.<br>
+</p>
+</div>
+<div class="hide" id="contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2">
+<p><b>O que inclui:</b> Aéreo ida e volta, hospedagem com regime mencionado e Pontos Multiplus.</p>
+</div>
+<div class="cidade cidade_2">
+<div class='imagem_cidade'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Belo Horizonte' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='70,86' data-valortotal='708,63' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/belo-horizonte-4450/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4450' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<p class='titulo_cidade'>
+Belo Horizonte
+</p>
+</a>
+<a class='inline' href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Belo Horizonte' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='70,86' data-valortotal='708,63' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/belo-horizonte-4450/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4450' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<img alt="null" src="/content/configuraciones/tamviagens/promociones/ultima-chamada/belo-horizonte-4450/_jcr_content/configPar/promociones/mediumimage.asset.spool/ultima_chamada_205x94.jpg"/>
+</a>
+</div>
+<div class='info_periodo_valor'>
+<div class='info_periodo'>
+<p class='destaque_dias'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Belo Horizonte' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='70,86' data-valortotal='708,63' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/belo-horizonte-4450/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4450' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>4 dias</a>
+</p>
+<p>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Belo Horizonte' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='70,86' data-valortotal='708,63' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/belo-horizonte-4450/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4450' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>e 3 noites</a>
+</p>
+</div>
+<div class='info_valor'>
+<p class="destaque_valor">
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Belo Horizonte' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='70,86' data-valortotal='708,63' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/belo-horizonte-4450/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4450' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>a partir de R$ 708,63 </a>
+</p>
+<p>
+<span class='destaque_valor_parcelado'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Belo Horizonte' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_2' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='70,86' data-valortotal='708,63' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/belo-horizonte-4450/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4450' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+10x de
+70,86
+</a>
+</span>
+<span class='destaque_valor_parcelado destaque_valor_asterisco'>*</span>
+</p>
+</div>
+</div>
+</div>
+<div id="contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3" class="hide">
+<p><b>Última Chamada </b>- As melhores tarifas para viagens finalizadas até 04 de fevereiro de 2016.<br>
+</p>
+</div>
+<div class="hide" id="contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3">
+<p><b>O que inclui:</b> Aéreo ida e volta, hospedagem com regime mencionado e Pontos Multiplus.</p>
+</div>
+<div class="cidade cidade_3">
+<div class='imagem_cidade'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Rio de Janeiro' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='117,00' data-valortotal='1.170,06' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/rio-de-janeiro-3481/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3481' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<p class='titulo_cidade'>
+Rio de Janeiro
+</p>
+</a>
+<a class='inline' href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Rio de Janeiro' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='117,00' data-valortotal='1.170,06' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/rio-de-janeiro-3481/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3481' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<img alt="null" src="/content/configuraciones/tamviagens/promociones/ultima-chamada/rio-de-janeiro-3481/_jcr_content/configPar/promociones/mediumimage.asset.spool/ultima_chamada_205x94.jpg"/>
+</a>
+</div>
+<div class='info_periodo_valor'>
+<div class='info_periodo'>
+<p class='destaque_dias'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Rio de Janeiro' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='117,00' data-valortotal='1.170,06' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/rio-de-janeiro-3481/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3481' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>4 dias</a>
+</p>
+<p>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Rio de Janeiro' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='117,00' data-valortotal='1.170,06' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/rio-de-janeiro-3481/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3481' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>e 3 noites</a>
+</p>
+</div>
+<div class='info_valor'>
+<p class="destaque_valor">
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Rio de Janeiro' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='117,00' data-valortotal='1.170,06' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/rio-de-janeiro-3481/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3481' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>a partir de R$ 1.170,06 </a>
+</p>
+<p>
+<span class='destaque_valor_parcelado'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Rio de Janeiro' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='117,00' data-valortotal='1.170,06' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/rio-de-janeiro-3481/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3481' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas de São Paulo. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+10x de
+117,00
+</a>
+</span>
+<span class='destaque_valor_parcelado destaque_valor_asterisco'>*</span>
+</p>
+</div>
+</div>
+</div>
+<div id="contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4" class="hide">
+<p><b>Última Chamada </b>- As melhores tarifas para viagens finalizadas até 04 de fevereiro de 2016.<br>
+</p>
+</div>
+<div class="hide" id="contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4">
+<p><b>O que inclui:</b> Aéreo ida e volta, hospedagem com regime mencionado e Pontos Multiplus.</p>
+</div>
+<div class="cidade cidade_4">
+<div class='imagem_cidade'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='São Paulo' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='90,05' data-valortotal='900,52' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/sao-paulo-3476/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3476' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas do Rio de Janeiro. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<p class='titulo_cidade'>
+São Paulo
+</p>
+</a>
+<a class='inline' href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='São Paulo' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='90,05' data-valortotal='900,52' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/sao-paulo-3476/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3476' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas do Rio de Janeiro. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+<img alt="null" src="/content/configuraciones/tamviagens/promociones/ultima-chamada/sao-paulo-3476/_jcr_content/configPar/promociones/mediumimage.asset.spool/ultima_chamada_205x94.jpg"/>
+</a>
+</div>
+<div class='info_periodo_valor'>
+<div class='info_periodo'>
+<p class='destaque_dias'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='São Paulo' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='90,05' data-valortotal='900,52' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/sao-paulo-3476/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3476' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas do Rio de Janeiro. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>4 dias</a>
+</p>
+<p>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='São Paulo' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='90,05' data-valortotal='900,52' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/sao-paulo-3476/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3476' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas do Rio de Janeiro. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>e 3 noites</a>
+</p>
+</div>
+<div class='info_valor'>
+<p class="destaque_valor">
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='São Paulo' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='90,05' data-valortotal='900,52' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/sao-paulo-3476/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3476' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas do Rio de Janeiro. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>a partir de R$ 900,52 </a>
+</p>
+<p>
+<span class='destaque_valor_parcelado'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='São Paulo' data-descricao='contentDescriHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-descricaoconteudo='contentDescriConteudoHidden_faa302fb8a3ae0bc8188eb9c26b2064d_4' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='90,05' data-valortotal='900,52' data-pathimagem='/content/configuraciones/tamviagens/promociones/ultima-chamada/sao-paulo-3476/jcr:content/configPar/promociones/modalimage.asset.spool/ultima_chamada_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='' data-simbolomonetarioestrangeiro='' data-valorcotacaomoedaestrageira='' data-datavalorcotacao='' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=3476' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço por pessoa, em apartamento duplo com saídas do Rio de Janeiro. Valores válidos para viagens de ida e volta em voos operados pela TAM, para viagens com permanência mínima de 3 dias ou uma noite de sábado para domingo no destino, sujeitos à disponibilidade de assentos, regras e restrições específicas de cada tarifa. &amp;nbsp;&lt;/p&gt;
+'>
+10x de
+90,05
+</a>
+</span>
+<span class='destaque_valor_parcelado destaque_valor_asterisco'>*</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div xk-section="v1" class="contenedorsec2dest parbase contprincpromociones base contsecpromociones"><xk-client-enabled xk-path="269df0b6429c71820ae5beafce76a70e"></xk-client-enabled>
+<div xk-section-styles="xk-component xk-section-base "></div>
+<div class='comp_melhores_destinos comp_melhores_destinos_subtitulo comp_melhores_destinos_2 '>
+<div class="borda_superior_esquerda"></div>
+<div class="borda_superior_centro"></div>
+<div class="borda_superior_direita"></div>
+<div class="caixa_fundo">
+<p class='titulo_pais'>Destinos Internacionais</p>
+<p class='subtitulo_pais'>Aproveite nossas ofertas pelo mundo !</p>
+<div xk-section="v1" class="parbase base secondTab tabscontprincpromociones"><xk-client-enabled xk-path="a2986a738c9fb69a1d932c199fd0fb79"></xk-client-enabled>
+<div xk-section-styles="latam_class xk-component xk-section-base "></div>
+<div id="contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_1" class="hide">
+<p>Aproveite os valiosos benefícios dos <b>Hotéis Resort Disney</b> concebidos para proporcionar férias eficientes, práticas e cheias de diversão. Os hóspedes de Hotéis Resort Disney desfrutam de: <b>Horas Mágicas</b>, <b>transporte e estacionamento grátis</b> por todo o Walt Disney World Resort e acesso a comodidades e entretenimentos em Hotéis Resort Disney<br>
+</p>
+</div>
+<div class="hide" id="contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_1">
+<p><b>O roteiro inclui:</b> Aéreo ida e volta; hospedagem regular no Complexo Disney com regime mencionado; cupom de Desconto Macy's e Pontos Multiplus.<br>
+</p>
+</div>
+<div class="cidade cidade_1">
+<div class='imagem_cidade'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Disney 5 noites' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-quantidadedias='6' data-quantidadenoites='5' data-quantidadeparcelas='10' data-valorparcela='420,37' data-valortotal='4.203,73' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/disney/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/disney_modal_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='968,60' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4305' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades, não abrangendo períodos de feriados, congressos, feiras e eventos. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento. Os preços em dólar americano serão convertidos para real pelo câmbio do dia da compra.&lt;/p&gt;
+'>
+<p class='titulo_cidade'>
+Disney 5 noites
+</p>
+</a>
+<a class='inline' href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Disney 5 noites' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-quantidadedias='6' data-quantidadenoites='5' data-quantidadeparcelas='10' data-valorparcela='420,37' data-valortotal='4.203,73' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/disney/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/disney_modal_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='968,60' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4305' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades, não abrangendo períodos de feriados, congressos, feiras e eventos. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento. Os preços em dólar americano serão convertidos para real pelo câmbio do dia da compra.&lt;/p&gt;
+'>
+<img alt="null" src="/content/configuraciones/tamviagens/promociones/internacionais/disney/preset-fixo/_jcr_content/configPar/promociones/mediumimage.asset.spool/xdisney_media_205x94.jpg.pagespeed.gp+jp+pj+js+rj+rp+rw+ri+cp+md.ic.kRGkh6RZdQ.jpg"/>
+</a>
+</div>
+<div class='info_periodo_valor'>
+<div class='info_periodo'>
+<p class='destaque_dias'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Disney 5 noites' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-quantidadedias='6' data-quantidadenoites='5' data-quantidadeparcelas='10' data-valorparcela='420,37' data-valortotal='4.203,73' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/disney/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/disney_modal_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='968,60' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4305' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades, não abrangendo períodos de feriados, congressos, feiras e eventos. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento. Os preços em dólar americano serão convertidos para real pelo câmbio do dia da compra.&lt;/p&gt;
+'>6 dias</a>
+</p>
+<p>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Disney 5 noites' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-quantidadedias='6' data-quantidadenoites='5' data-quantidadeparcelas='10' data-valorparcela='420,37' data-valortotal='4.203,73' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/disney/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/disney_modal_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='968,60' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4305' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades, não abrangendo períodos de feriados, congressos, feiras e eventos. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento. Os preços em dólar americano serão convertidos para real pelo câmbio do dia da compra.&lt;/p&gt;
+'>e 5 noites</a>
+</p>
+</div>
+<div class='info_valor'>
+<p class="destaque_valor">
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Disney 5 noites' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-quantidadedias='6' data-quantidadenoites='5' data-quantidadeparcelas='10' data-valorparcela='420,37' data-valortotal='4.203,73' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/disney/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/disney_modal_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='968,60' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4305' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades, não abrangendo períodos de feriados, congressos, feiras e eventos. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento. Os preços em dólar americano serão convertidos para real pelo câmbio do dia da compra.&lt;/p&gt;
+'>a partir de R$ 4.203,73 </a>
+</p>
+<p>
+<span class='destaque_valor_parcelado'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Disney 5 noites' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_1' data-quantidadedias='6' data-quantidadenoites='5' data-quantidadeparcelas='10' data-valorparcela='420,37' data-valortotal='4.203,73' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/disney/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/disney_modal_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='968,60' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=4305' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades, não abrangendo períodos de feriados, congressos, feiras e eventos. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento. Os preços em dólar americano serão convertidos para real pelo câmbio do dia da compra.&lt;/p&gt;
+'>
+10x de
+420,37
+</a>
+</span>
+<span class='destaque_valor_parcelado destaque_valor_asterisco'>*</span>
+</p>
+</div>
+</div>
+</div>
+<div id="contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_3" class="hide">
+<p><b>3 NOITES – SANTIAGO</b></p>
+<p>&nbsp;</p>
+</div>
+<div class="hide" id="contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_3">
+<p><b>O roteiro inlcui:</b> Aéreo ida e volta, hospedagem no hotel escolhido com regime mencionado&nbsp;e Pontos Multiplus.</p>
+</div>
+<div class="cidade cidade_3">
+<div class='imagem_cidade'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Santiago' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='176,72' data-valortotal='1.767,19' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/santiago/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/Santiago_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='407,19' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=2835' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento.&lt;/p&gt;
+'>
+<p class='titulo_cidade'>
+Santiago
+</p>
+</a>
+<a class='inline' href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Santiago' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='176,72' data-valortotal='1.767,19' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/santiago/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/Santiago_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='407,19' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=2835' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento.&lt;/p&gt;
+'>
+<img alt="null" src="/content/configuraciones/tamviagens/promociones/internacionais/santiago/preset-fixo/_jcr_content/configPar/promociones/mediumimage.asset.spool/xSantiago_205x94.jpg.pagespeed.gp+jp+pj+js+rj+rp+rw+ri+cp+md.ic.c0fL3Kg80Z.jpg"/>
+</a>
+</div>
+<div class='info_periodo_valor'>
+<div class='info_periodo'>
+<p class='destaque_dias'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Santiago' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='176,72' data-valortotal='1.767,19' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/santiago/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/Santiago_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='407,19' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=2835' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento.&lt;/p&gt;
+'>4 dias</a>
+</p>
+<p>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Santiago' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='176,72' data-valortotal='1.767,19' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/santiago/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/Santiago_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='407,19' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=2835' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento.&lt;/p&gt;
+'>e 3 noites</a>
+</p>
+</div>
+<div class='info_valor'>
+<p class="destaque_valor">
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Santiago' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='176,72' data-valortotal='1.767,19' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/santiago/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/Santiago_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='407,19' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=2835' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento.&lt;/p&gt;
+'>a partir de R$ 1.767,19 </a>
+</p>
+<p>
+<span class='destaque_valor_parcelado'>
+<a class="inline" href=".inline_content" onclick="lightBoxUpdateHiddenObj(this)" data-titulo='Santiago' data-descricao='contentDescriHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-descricaoconteudo='contentDescriConteudoHidden_a2986a738c9fb69a1d932c199fd0fb79_3' data-quantidadedias='4' data-quantidadenoites='3' data-quantidadeparcelas='10' data-valorparcela='176,72' data-valortotal='1.767,19' data-pathimagem='/content/configuraciones/tamviagens/promociones/internacionais/santiago/preset-fixo/jcr:content/configPar/promociones/modalimage.asset.spool/Santiago_242x182.jpg' data-altimagem='null' data-simbolomonetario='R$' data-valortotalestrangeiro='407,19' data-simbolomonetarioestrangeiro='US$' data-valorcotacaomoedaestrageira='4,34' data-datavalorcotacao='22/01/2016' data-pathlink='https://b2c.tamviagens.com.br/travel/specials.cfm?specialid=2835' data-exibitbotaocomprar='true' data-exibirtelefone='true' data-exibitbotaolojas='true' data-target='_blank' data-textcambio='Câmbio' data-textdateseparator=' em' data-textvista='Total' data-textdays='dias' data-textnight='noites' data-andtext='e' data-textolegal='&lt;p&gt;Preço referencial por pessoa, em apartamento duplo com saídas de São Paulo. Os preços são baseados nos voos nas rotas da TAM e LAN Linhas Aéreas de menor tarifa entre as cidades. Reservas sujeitas à disponibilidade do produto anunciado. Preços válidos para viagens de ida e volta. Consulte nossa política de financiamento.&lt;/p&gt;
+'>
+10x de
+176,72
+</a>
+</span>
+<span class='destaque_valor_parcelado destaque_valor_asterisco'>*</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="borda_inferior_esquerda"></div>
+<div class="borda_inferior_centro"></div>
+<div class="borda_inferior_direita"></div>
+</div>
+</div>
+</div>
+<div class="parsys contentParsys">
+</div>
+</div>
+</div>
+<div xk-section-styles="xk-component xk-section-base "></div>
+<div class="footer">
+<div class="left">&nbsp;</div>
+<div class="left_center">&nbsp;</div>
+<div class="center">
+<div class="line_1a">
+<ul class="column_2a">
+<li>
+<div class="title font_crisp">Veja também</div>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;http://www.segurviaje.com.br/TAMVIAGENS&quot;,&quot;title&quot;:&quot;Seguro Viagem&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}"></latam-link>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;http://www.unidas.com.br/tam&quot;,&quot;title&quot;:&quot;Unidas&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}"></latam-link>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;/destinos/feriados.html&quot;,&quot;title&quot;:&quot;Feriados&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}"></latam-link>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;/menu-viajante.html&quot;,&quot;title&quot;:&quot;Menu Viajante&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}"></latam-link>
+</li>
+</ul>
+<ul class="column_3a">
+<li>
+<div class="title font_crisp">Institucional</div>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;/termos-legais.html&quot;,&quot;title&quot;:&quot;Condições Específicas de Produtos&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_blank&quot;}"></latam-link>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;https://www.elancers.net/frames/tamviagens/frame_geral.asp&quot;,&quot;title&quot;:&quot;Trabalhe Conosco&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_blank&quot;}"></latam-link>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;http://www.tam.com.br/b2c/vgn/v/index.jsp?vgnextoid=47b1aea92908a210VgnVCM1000009508020aRCRD&amp;utm_source=TAMVIAGENS&amp;utm_medium=CROSSLINK_RODAPE&amp;utm_term=&amp;utm_content=&amp;utm_campaign=CROSSLINK_TAMVIAGENS&quot;,&quot;title&quot;:&quot;Serviços TAM&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_blank&quot;}"></latam-link>
+</li>
+<li>
+<latam-link className="font_crisp" linkinfo="{&quot;path&quot;:&quot;http://www.tamvacations.com/landings/sustentabilidade/&quot;,&quot;title&quot;:&quot;Sustentabilidade&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_blank&quot;}"></latam-link>
+</li>
+</ul>
+<ul class="column_1a">
+<li></li>
+</ul>
+<div class="column_4a">
+<div class="line_1b">
+<div class="title font_crisp">Telefones</div>
+</div>
+<div class="line_2b">
+<div class="column_1b">
+<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAABbUlEQVQoz43SzyuDcRzA8dlY2GG1Wi4OSuPkrCwRDhTSthQJ8XakXCkO2k05KH+AiwMiSTm5kB9FwoVcHERkTDEzPD77Pj+2PU3pc3g+38/z6vt8P5/v49Ac/wsrwUeRehawgMYTG/Tgt0GamGGXKG7JXYyzz6VgjRNasyC9JFX5i7Cxu5NywixJLcFIBp4plo413HiZk+hUew+Skk3aTZi04D0VVPGu8gvq5V2/OkCZDh8t+EONrIOMsS2rGEFZLUrWp8Nlgz1LS15rCpN8c06hNJpiU4ddBjzMnRwrUmuWtq6J69DHgYJvZocGHJZalBL20Mw5DsjpdNqdBRu4ZUqeo8ybsJR14/NxOrJoAI/tCqmUk+g0RkhVPDQSyHfXddwZ9JUhWc/K2G7YIWKD8qqNB4N+cioXqucfTOPMgUJbuLKGn4mt9Eltfx3VVluZmLB92qDFMqzjLPZCbV6osJ8Iq9JMgiNCuP6E+eIX8tydvnoqrNEAAAAASUVORK5CYII="/>
+</div>
+<div class="column_2b">
+<div class="line_1c font_crisp">São Paulo e Localidades</div>
+<div class="line_2c font_crisp">11 3274 1313</div>
+</div>
+</div>
+<div class="line_3b">
+<div class="title font_crisp">Newsletter</div>
+</div>
+<a name="suscNewsletter"></a>
+<form action="/destinos.footer.sendEmail.html" name="newsLetterForm" class="jNice" method="post">
+<input type="hidden" name="footerNewsletterSuccessMessage" value="E-mail cadastrado com sucesso.">
+<input type="hidden" name="footerNewsletterFailureMessage" value="Não foi possível realizar o cadastro. Por favor, tente novamente.">
+<input type="hidden" name="_charset_" value="UTF-8">
+<div class="line_4b">
+<div class="column_1b">
+<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAAVCAMAAACeyVWkAAAAjVBMVEX///9kZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRww89PAAAALnRSTlMAAwUGDxAdHiwtMDIzOUBFTF5scHFyjY+Qnqyur7Cys8LExs7S4OPm8PP1/P3+6d/wGQAAAJdJREFUGNOt0ccWAVEABNGSMyPHkXOo//88C4OHw0qt+txtw8+y8WmSfcfCWl0XXrGyU3VXCTE6eusYPbF19t65lViqb1g/BZCJfS3OAD079bCOPWBvGYDuoAtA2T2gNQA2bgCoKaDbiOpodvEyHVWJtonqOF+cq4tSfqwP9dBON5fNdPtgqLpq5BqrZD817C86/MDhl7uujmMqtcyPAPUAAAAASUVORK5CYII="/>
+</div>
+<div class="column_2b">
+<div class="line_1c">
+<div class="column_1c">
+<!--[if lt IE 9]><div class="column_1c_ie"><![endif]-->
+<input class="input_email font_crisp" name="email" type="text" placeholder="Digite seu email" value=""/>
+<!--[if lt IE 9]></div><![endif]-->
+<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAQAAAA+y+ezAAAAj0lEQVQI10XOMQrCYBCE0VXwAhZWpvvBQhCJVSCCnecQPo8TQdA0IdcI2KUxhYiVZzGFxrVY1rDVPJZhhAV7YhU/YceDnEkPWxo6MidhyIaGNwcjUVEh4cbHvgwGrKl5cWT2byfhTkvZw5InHbnHFRUtJ+YWY2q+lEQqwoiUK0rB2HYELigFUx8WOJMRvPwHjohgeTabE+0AAAAASUVORK5CYII=" class="newsletter_fechado"/>
+</div>
+</div>
+<div class="line_1c newsletter_aberto">
+<div class="column_1c">
+<!--[if lt IE 9]><div class="column_1c_ie"><![endif]-->
+<input class="input_nome font_crisp" name="name" type="text" placeholder="Digite seu nome" value=""/>
+<!--[if lt IE 9]></div><![endif]-->
+<a href="#suscNewsletter">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAANCAQAAAA+y+ezAAAAj0lEQVQI10XOMQrCYBCE0VXwAhZWpvvBQhCJVSCCnecQPo8TQdA0IdcI2KUxhYiVZzGFxrVY1rDVPJZhhAV7YhU/YceDnEkPWxo6MidhyIaGNwcjUVEh4cbHvgwGrKl5cWT2byfhTkvZw5InHbnHFRUtJ+YWY2q+lEQqwoiUK0rB2HYELigFUx8WOJMRvPwHjohgeTabE+0AAAAASUVORK5CYII=" onclick="submitNewsLetter();">
+</a>
+</div>
+</div>
+<div class="line_3c font_crisp">e receba novidades TAM Viagens</div>
+</div>
+</div>
+<input type="hidden" id="url" name="url" value="">
+<input type="hidden" id="enviadoNL" name="enviadoNL" value="1">
+</form>
+</div>
+<div class="column_5a">
+<div class="line_1b">
+<div class="title"></div>
+</div>
+<div class="line_2b">
+<div class="column_1b">
+<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAABbUlEQVQoz43SzyuDcRzA8dlY2GG1Wi4OSuPkrCwRDhTSthQJ8XakXCkO2k05KH+AiwMiSTm5kB9FwoVcHERkTDEzPD77Pj+2PU3pc3g+38/z6vt8P5/v49Ac/wsrwUeRehawgMYTG/Tgt0GamGGXKG7JXYyzz6VgjRNasyC9JFX5i7Cxu5NywixJLcFIBp4plo413HiZk+hUew+Skk3aTZi04D0VVPGu8gvq5V2/OkCZDh8t+EONrIOMsS2rGEFZLUrWp8Nlgz1LS15rCpN8c06hNJpiU4ddBjzMnRwrUmuWtq6J69DHgYJvZocGHJZalBL20Mw5DsjpdNqdBRu4ZUqeo8ybsJR14/NxOrJoAI/tCqmUk+g0RkhVPDQSyHfXddwZ9JUhWc/K2G7YIWKD8qqNB4N+cioXqucfTOPMgUJbuLKGn4mt9Eltfx3VVluZmLB92qDFMqzjLPZCbV6osJ8Iq9JMgiNCuP6E+eIX8tydvnoqrNEAAAAASUVORK5CYII="/>
+</div>
+<div class="column_2b">
+<div class="line_1c font_crisp">Demais Localidades</div>
+<div class="line_2c font_crisp">0300 777 2000</div>
+</div>
+</div>
+<div class="line_3b">
+<div class="title font_crisp">Envie suas fotos</div>
+</div>
+<div class="line_4b">
+<div class="column_1b">
+<img alt="" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABoAAAAWCAMAAADpVnyHAAAAh1BMVEX///9kZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGRkZGTQ/yN1AAAALHRSTlMAAQMKDA8ZHCEkMEFFUFhkcHh/g4iVmZqcoKGkpb7EycrQ1OPl6u/w9vv8/V+IK9sAAAChSURBVCjPfdLZEoIwDAXQUncRBFRwQXYQNP//fYYSnSkN3Kd0TqdJOxViNnYJo5Q2UQJGEqIcor2WCPI/eXoHb0zh47idoBP2uPB0QNrwtHx/IF2xJM7rJ9x5EmJx3U0RM3yoXzn8kazMh6qkIheYuL1YBUeFheQAGwcpo7p9qbS0zJAaOkHSUHR+g7U/lF18U4m7Ye3324La7FQHcu7LfAE5Wy2mhDkgWQAAAABJRU5ErkJggg=="/>
+</div>
+<div class="column_2b font_crisp">
+<p>
+<latam-link-transclude linkinfo="{&quot;path&quot;:&quot;http://www.tamviagens.com.br/fototrip&quot;,&quot;title&quot;:&quot;Envie suas fotos&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}">
+Você gosta de tirar fotos dos destinos visitados? Envie suas fotos e participe da campanha.
+</latam-link-transclude>
+</p>
+</div>
+</div>
+</div>
+<div class="index0 column_5b">
+<div class="index0 line_1b">
+<div class="index0 title"></div>
+</div>
+<div class="index0 line_2b">
+<latam-link linkinfo="{&quot;path&quot;:&quot;http://www.procon.rj.gov.br&quot;,&quot;title&quot;:&quot;PROCON-RJ&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}" className="div_proc"></latam-link>
+</div>
+</div>
+</div>
+<div class="line_2a">
+<latam-link-transclude linkinfo="">
+<img class="column" src="" width="29" height="29"/>
+</latam-link-transclude>
+<latam-link-transclude linkinfo="">
+<img class="column" src="" width="29" height="29"/>
+</latam-link-transclude>
+<latam-link-transclude linkinfo="">
+<img class="column" src="" width="29" height="29"/>
+</latam-link-transclude>
+</div>
+<div class="line_3a">
+<div class="column_1a font_crisp">*</div>
+<div class="column_2a font_crisp"><p>Todos os preços divulgados são em Reais (R$) e válidos somente para compras no site www.tamviagens.com.br. A TAM Viagens reserva o direito de fazer alterações sem o aviso prévio.</p>
+</div>
+<div class="column_3a">
+<img alt="nome" src="/etc/designs/latam-app/tam-viagens-app/_jcr_content/global/footerFirstDisclaimerImage.asset.spool/xrodape_cartoes2.png.pagespeed.gp+jp+pj+js+rj+rp+rw+ri+cp+md.ic.P1dDyYz62F.png"/>
+</div>
+<img alt="" class="column_4a" src="data:image/png;base64,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"/>
+</div>
+<div class="line_4a">
+<div class="column_1a">
+<img alt="" src="/etc/designs/latam-app/tam-viagens-app/_jcr_content/global/footerLogo.asset.spool/xLogo,P20TV,P20rodape,P20201x21.png.pagespeed.gp+jp+pj+js+rj+rp+rw+ri+cp+md.ic.6A52j1vHCz.png"/>
+</div>
+<div class="column_2a">
+<latam-link linkinfo="{&quot;path&quot;:&quot;/responsabilidade-operacional.html&quot;,&quot;title&quot;:&quot;Responsabilidade operacional&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}" className="font_crisp"></latam-link>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<latam-link linkinfo="{&quot;path&quot;:&quot;/termos-e-condicoes.html&quot;,&quot;title&quot;:&quot;Termos e condições &quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}" className="font_crisp"></latam-link>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;
+<latam-link linkinfo="{&quot;path&quot;:&quot;/politica-de-privacidade.html&quot;,&quot;title&quot;:&quot;Política de privacidade&quot;,&quot;alttext&quot;:&quot;&quot;,&quot;target&quot;:&quot;_self&quot;}" className="font_crisp"></latam-link>
+</div>
+</div>
+</div>
+<div class="center_right">&nbsp;</div>
+<div class="right">&nbsp;</div>
+</div>
+<div xk-section="v1" class="ventanamodalpromociones parbase global base ventanamodal">
+<div xk-section-styles="xk-component xk-page xk-section-base "></div>
+<div class="light-box hide">
+<div class="inline_content">
+<div class="container">
+<div>
+<img src="data:image/png;base64,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"/>
+</div>
+<div class="leftUp">
+</div>
+<div id="lb_descricao" class="rightUp">
+</div>
+<div class="leftDown">
+<h2 id="titulo"></h2>
+<br/>
+<h3 id="qtdDiasNoites"></h3>
+<br/>
+<div id="lb_descricaoCont"></div>
+</div>
+<div class="rightDown">
+<div class="innerLeftDown">
+<p>a partir de </p>
+</div>
+<div class="innerRightDown">
+<span class="priceDivided"></span>
+<span class="destaque_valor_parcelado destaque_valor_asterisco">*</span>
+<p class="priceView"></p>
+<p class="euro"></p>
+<p class="exchange"></p>
+<p class="buy">
+<a href="javascript:;"></a>
+</p>
+<form class="jNice formMultiplus" action="#">
+<input id="checkBoxMultiplus" type="checkbox" name="checkbox"></input>
+<p class="multiplus">Comprar com pontos Multiplus</p>
+</form>
+</div>
+</div>
+<div class="footerObs">
+</div>
+<div>
+<div class="footerCenter">
+<div class="footerCenterHeaderLeft">
+<div class="titulo">Central de Vendas e Relacionamento</div>
+<div class="footerCenterLeftPhone">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAABbUlEQVQoz43SzyuDcRzA8dlY2GG1Wi4OSuPkrCwRDhTSthQJ8XakXCkO2k05KH+AiwMiSTm5kB9FwoVcHERkTDEzPD77Pj+2PU3pc3g+38/z6vt8P5/v49Ac/wsrwUeRehawgMYTG/Tgt0GamGGXKG7JXYyzz6VgjRNasyC9JFX5i7Cxu5NywixJLcFIBp4plo413HiZk+hUew+Skk3aTZi04D0VVPGu8gvq5V2/OkCZDh8t+EONrIOMsS2rGEFZLUrWp8Nlgz1LS15rCpN8c06hNJpiU4ddBjzMnRwrUmuWtq6J69DHgYJvZocGHJZalBL20Mw5DsjpdNqdBRu4ZUqeo8ybsJR14/NxOrJoAI/tCqmUk+g0RkhVPDQSyHfXddwZ9JUhWc/K2G7YIWKD8qqNB4N+cioXqucfTOPMgUJbuLKGn4mt9Eltfx3VVluZmLB92qDFMqzjLPZCbV6osJ8Iq9JMgiNCuP6E+eIX8tydvnoqrNEAAAAASUVORK5CYII="/>
+</div>
+<div class="footerCenterLeft">
+<div class="conteudo">S&atilde;o Paulo e Localidades</div>
+<p>DDD 11 3274 1313</p>
+</div>
+<div class="footerCenterRightPhone">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAQAAAAngNWGAAABbUlEQVQoz43SzyuDcRzA8dlY2GG1Wi4OSuPkrCwRDhTSthQJ8XakXCkO2k05KH+AiwMiSTm5kB9FwoVcHERkTDEzPD77Pj+2PU3pc3g+38/z6vt8P5/v49Ac/wsrwUeRehawgMYTG/Tgt0GamGGXKG7JXYyzz6VgjRNasyC9JFX5i7Cxu5NywixJLcFIBp4plo413HiZk+hUew+Skk3aTZi04D0VVPGu8gvq5V2/OkCZDh8t+EONrIOMsS2rGEFZLUrWp8Nlgz1LS15rCpN8c06hNJpiU4ddBjzMnRwrUmuWtq6J69DHgYJvZocGHJZalBL20Mw5DsjpdNqdBRu4ZUqeo8ybsJR14/NxOrJoAI/tCqmUk+g0RkhVPDQSyHfXddwZ9JUhWc/K2G7YIWKD8qqNB4N+cioXqucfTOPMgUJbuLKGn4mt9Eltfx3VVluZmLB92qDFMqzjLPZCbV6osJ8Iq9JMgiNCuP6E+eIX8tydvnoqrNEAAAAASUVORK5CYII="/>
+</div>
+<div class="footerCenterRight">
+<div class="conteudo">Demais Localidades</div>
+<p> 0300 777 2000</p>
+</div>
+</div>
+<div>
+<p class="footerCenterHeaderRight">
+<a href="/lojas.html"></a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,76 @@
+title=LOGITRAVELFR
+url=http://cdn.logitravel.fr/logitravelfr/htm/fr/mentionsLegales.htm
+html=ï»¿<html>
+<head>
+	<title>LOGITRAVELFR</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+	<link href="/logitravelfr/css2012/default.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript">
+	    function guardarComo() {
+	        if (navigator.appName == 'Netscape') {
+	            alert('Para guardar el documento:Boton Derecho,Guardar como...');
+	        } else {
+	            window.document.execCommand('saveAs', true, 'mentionsLegales.htm');
+	        }
+	    }
+	</script>
+	<style>
+		p {margin: 0 0 8px; line-height: 15px;}
+		p span.txt14azulbold {line-height: 17px;}
+	</style>
+</head>
+
+<body>
+	<div style="width: 650px; margin: 15px">
+		<div class="caja_basica">
+			<div class="rotuloazul">
+				<div style="width: 400px; float: left;">
+					<h2>Mentions LÃ©gales</h2>
+				</div>
+				<div style="width: 175px; margin: 10px 10px 0 0; float: right;">
+					<span class="txt12blancobold" style="cursor: pointer; text-decoration: underline; padding-right: 30px;" onclick="javascript:window.print();">Imprimer</span> 
+					<span class="txt12blancobold" onclick="javascript:guardarComo()" style="cursor: pointer; text-decoration: underline;">Sauvegarder</span>
+				</div>
+			</div>
+			<div class="contenido10 txt12negro">
+                <p>
+					<span class="txt14azulbold">Editeur du site</span>
+				</p>
+                <ul style="list-style: none; padding: 0; margin: -3px 0 15px">
+                    <li>Raison sociale: Travelsteps</li>
+                    <li>Forme juridique: sociÃ©tÃ© Ã  responsabilitÃ© limitÃ©e</li>
+                    <li>Capital social: 60.000 euros</li>
+                    <li>SiÃ¨ge social: 57, Rue dâAmsterdam - 75008 Paris</li>
+                    <li>RCS Paris: 750 358 004</li>
+                    <li>TÃ©l: +34 0825 213 401</li>
+                    <li>NumÃ©ro de TVA intracommunautaire: FR6875035800400018</li>
+                    <li>Directeur de la publication: Laura AndrÃ©s, Ana SÃ¡nchez</li>
+                </ul>
+                <p>
+					<span class="txt14azulbold">HÃ©bergeur du site</span>
+				</p>
+                <ul style="list-style: none; padding: 0; margin: -3px 0 15px">
+                    <li>VODAFONE ESPAÃA S.A.U.</li>
+                    <li>A-80907397</li>
+                    <li>Lagoas, Marcosende. Campus Universitario de Vigo, parcela 32</li>
+                    <li>36310 Vigo (Pontevedra)</li>
+                    <li>Espagne</li>
+                    <li>TÃ©l: +34 986 902 300</li>
+                </ul>
+                <p>
+					<span class="txt14azulbold">Immatriculation au registre des opÃ©rateurs de voyages et de sÃ©jours:</span><br />
+                    IM 075120333
+				</p>
+                <p>
+					<span class="txt14azulbold">Garant:</span><br />
+                    BNP Paribas, 16 boulevard des Italiens, 75009 Paris, France
+				</p>
+                <p>
+					<span class="txt14azulbold">Assureur:</span><br />
+                    Hiscox, 19 rue Louis le Grand, 75002 Paris, France
+				</p>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

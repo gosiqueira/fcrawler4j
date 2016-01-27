@@ -1,0 +1,190 @@
+title=Red De Afiliados | Despegar
+url=https://an.decolar.com/
+html=
+<html>
+	<head>
+		<title>Red De Afiliados | Despegar</title>
+		<link rel="stylesheet" type="text/css" href="/assets/stylesheets/pages/a9a670c496b286aa8bf812bec97c9bf1-newHome.min.css">
+		<link rel="stylesheet" type="text/css" href="/assets/stylesheets/commons/8pxplease/9463166b78acbaddaddcf314b024e611-epp.min.css">
+	</head>
+
+	<body ng-app="HomeApp">
+		<div ng-cloak ng-controller="HomeCtrl" ng-init="init()" class="home-wrapper epp-ctn epp-cl-1">
+			<div id="mobileMenuBackground" ng-show="mobileMenu" ng-click="closeMobileMenu()">
+					&nbsp;
+			</div>
+			<div ng-click="closeModal()" ng-cloak align="center" id="modalWrapper" ng-if="modal">
+				<div id="modal" class="epp-ctn epp-cl-1">
+					<a id="modalClose">X</a>
+					<img ng-src="/assets/images/home/{{netLogo}}" height="100px" />
+					<div ng-if="modalNet" class="epp-cl-1">
+						<p ng-bind="netDescription" class="network-text epp-cl-1"></p>
+						<p class="redirect-text epp-cl-1">Al seleccionar esta red, te enviaremos a su sitio web para que completes el proceso de registro. ¡Muchas gracias por confiar en Despegar.com!</p>
+						<a ng-href="{{netUrl}}" target="_blank" class="epp-cl-1 blue-button">Regístrate</a>
+					</div>
+				</div>
+			</div>
+			<div align="center" class="epp-cl-1 epp-ctn nav-wrapper hidden-in-ph">
+				<div class="epp-cl-1 epp-ctn navs">
+					<div align="left" class="icon-menu-hamburger epp-cl-1-8 hidden-in-dt">
+						<a ng-click="openMobileMenu()" href="#mobile-menu"><img src="/assets/images/home/0a46fe53f6a8b7cdaf75dd94fc7a0e7b-menu-mobile.png" height="40px"></a>
+					</div>
+					<div class="epp-ctn epp-cl-1 epp-air-16" align="left" id="mobile-menu" ng-show="mobileMenu">
+						<a href="#" class="epp-cl-1 close-mobile-menu" ng-click="closeMobileMenu()"><span>X</span></a>
+						<ul>
+							<li><a href="#headerId" du-smooth-scroll du-scrollspy ng-click="closeMobileMenu()">Inicio</a></li>
+							<li><a href="#networksId" offset="60" du-smooth-scroll du-scrollspy ng-click="closeMobileMenu()">Regístrate</a></li>
+							<li><a href="#faqId" offset="60" du-smooth-scroll du-scrollspy ng-click="closeMobileMenu()">¿Cómo funciona?</a></li>
+							<li><a href="#contactId" offset="60" du-smooth-scroll du-scrollspy ng-click="closeMobileMenu()">Contacto</a></li>
+						</ul>
+					</div>
+					<div align="left" class="epp-cl-1-3 epp-cl-1--ph logo">
+						<img src="/assets/images/home/fb93a13689463f8dc4b487ef5b0af572-Despegar_RedAfiliados.png" height="40px">
+					</div>
+					<div du-spy-context align="right" class="epp-cl-2-3 buttons epp-ctn">
+						<div align="center" class="epp-cl-1-5">
+							<a href="#headerId" class="epp-cl-1" du-smooth-scroll du-scrollspy ng-click="toTopSection()">Inicio</a>
+						</div>
+						<div align="center" class="epp-cl-1-5">
+							<a href="#networksId" offset="60" class="epp-cl-1" du-smooth-scroll du-scrollspy>Regístrate</a>
+						</div>
+						<div align="center" class="epp-cl-1-5">
+							<a href="#faqId" offset="60" class="epp-cl-1" du-smooth-scroll du-scrollspy ng-click="toFaqSection()">¿Cómo funciona?</a>
+						</div>
+						<div align="center" class="epp-cl-1-5">
+							<a href="#contactId" offset="60" class="epp-cl-1" du-smooth-scroll du-scrollspy ng-click="toContactSection()">Contacto</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="headerId" align="center" class="header-wrapper epp-cl-1 epp-ctn">
+				<div class="epp-cl-1 epp-ctn-xs header epp-air-16">
+					<h2 class="epp-cl-1 epp-cl--tb-1 epp-cl--ph--1">Empieza a ganar dinero ahora mismo</h2>
+					<p class="epp-cl-1 epp-cl--tb-1 epp-cl--ph--1">
+					Despegar.com, la agencia de viajes número uno de latinoamérica, le ofrece la posibilidad de generar nuevos ingresos en su sitio publicitando los mejores productos de turismo
+					</p>
+					<div class="epp-cl-1">
+						<a href="#networksId" offset="60" ng-click="toNetworkSection()" du-smooth-scroll du-scrollspy class="blue-button epp-cl-1">¡Empieza ahora!</a>
+					</div>
+				</div>
+			</div>
+			<div align="center" id="networksId" class="epp-cl-1 epp-ctn networks-wrapper">
+				<div class="epp-ctn networks">
+					<p class="epp-cl-1 instructions">Regístrate en nuestras redes</p>
+					<p class="epp-cl-1">Te ofrecemos un amplio abanico de redes para que puedas elegir</p>
+					<div ng-cloak ng-repeat="network in availableNetworks" ng-class="setDivisionClass()" class="epp-cl-1-2--tb epp-cl-1--ph epp-air-top-24">
+						<div ng-mouseover="mouseOver[network.username] = true" ng-mouseleave="mouseOver[network.username] = false" id="{{network.username}}" class="network">
+							<div ng-if="mouseOver[network.username]" class="over"><a ng-click="enterNetwork(network.username)" class="green-button epp-cl-1-2">VER MÁS</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="faqId" align="center" class="epp-cl-1 epp-ctn faq-wrapper">
+				<div class="epp-cl-1 epp-ctn faq epp-air-16">
+					<h2 class="epp-cl-1">¿Cómo funciona?</h2>
+					<p class="epp-cl-1">Sigue los siguientes pasos y comienza a ganar dinero en forma rápido y fácil</p>
+					<div class="epp-ctn epp-cl-1 steps-wrapper">
+						<div class="epp-cl-1-4 epp-ctn epp-cl-1-2--tb epp-cl-1--ph epp-air-top-16">
+							<img src="/assets/images/home/f4bc6edab62e1eec2e75e3f31e9d11de-Step01.png" height="128px" width="164px"/>
+							<p class="epp-cl-1 steps-tittle">1. Elige una red</p>
+							<p class="epp-cl-1">Te ofrecemos una cartera de redes para que puedas elegir</p>
+						</div>
+						<div class="epp-cl-1-4 epp-ctn epp-cl-1-2--tb epp-cl-1--ph epp-air-top-16">
+							<img src="/assets/images/home/6de3cae894f3e1016b2218c773111a63-Step02.png" height="128px" width="164px"/>
+							<p class="epp-cl-1 steps-tittle">2. Regístrate</p>
+							<p class="epp-cl-1">Una vez elegida la red, tienes que registrarte con un usuario</p>
+						</div>
+						<div class="epp-cl-1-4 epp-ctn epp-cl-1-2--tb epp-cl-1--ph epp-air-top-16">
+							<img src="/assets/images/home/e01f47c91808797b63e46dd274e2771a-Step03.png" height="128px" width="164px"/>
+							<p class="epp-cl-1 steps-tittle">3. Copia el código</p>
+							<p class="epp-cl-1">La red te proporcionará un código que debes pegarlo en tu sitio</p>
+						</div>
+						<div class="epp-cl-1-4 epp-ctn epp-cl-1-2--tb epp-cl-1--ph epp-air-top-16">
+							<img src="/assets/images/home/5913c6cc3bbd2b6e0c58415416b61eff-Step04.png" height="128px" width="164px"/>
+							<p class="epp-cl-1 steps-tittle">4. Obten nuevos ingresos</p>
+							<p class="epp-cl-1">¡Listo! Ahora podrás obtener dinero fácilmente con nuestra publicidad</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div align="center" id="contactId" class="epp-cl-1 epp-ctn contact-wrapper">
+				<div class="epp-cl-1 epp-ctn contact epp-air-16">
+					<h2 class="epp-cl-1">Obtén más información</h2>
+					<p class="epp-cl-1">Ponte en contacto con las redes que trabajan con nosotros</p>
+					<div class="epp-ctn list-wrapper">
+						<div ng-cloak ng-repeat="network in availableNetworks" ng-class="setDivisionClass()" class="epp-cl-1-2--tb epp-cl-1--ph epp-air-8">
+							<ul>
+								<li><img ng-src="/assets/images/home/{{network.username}}.png" height="50px"></li>
+								<li class="contact-tittle">Puedes comunicarte con nosotros al siguiente email</li>
+								<li id="networkEmail{{network.username}}" set-messages="{{network.username}}"></li>
+								<li><a target="_blank" href="" set-messages="{{network.username}}"
+									id="networkUrl{{network.username}}"></a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="epp-cl-1 epp-ctn footer-wrapper">
+				<footer class="epp-ctn epp-ctn--xl epp-air-16 epp-air-8--ph epp-space-top-8">
+					<div class="epp-cl-1">
+						<a class="footer-links epp-air-right-8" href=http://comercial.despegar.com/ar/confidentiality/ target="_blank">Politicas de privacidad</a>
+						<a class="footer-links epp-air-right-8" href=http://www.despegar.com.ar/hoteles/hl/advertiseHotel target="_blank">Anuncia tu hotel</a>
+						<a class="footer-links epp-air-right-8" href=https://www.despegar.com.ar/cars-sara-bo/commercial/advertisement?lang=es target="_blank">Suma tu flota</a>
+						<a class="footer-links epp-air-right-8" href=http://www.dtravelconnection.com/ target="_blank">Publicidad en Despegar.com</a>
+						<a class="footer-links epp-air-right-8" href=mailto:prensa@@despegar.com target="_blank">Contacto para la prensa</a>
+					</div>
+					<div class="epp-cl-1 epp-ctn">
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.ar/" target="_blank">Argentina</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.bo/" target="_blank">Bolivia</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.decolar.com/" target="_blank">Brasil</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.cl/" target="_blank">Chile</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.co/" target="_blank">Colombia</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.co.cr/" target="_blank">Costa Rica</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.ec/" target="_blank">Ecuador</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.sv/" target="_blank">Salvador</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.gt/" target="_blank">Guatemala</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.hn/" target="_blank">Honduras</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.mx/" target="_blank">México</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.ni/" target="_blank">Nicaragua</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.pa/" target="_blank">Panamá</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.py/" target="_blank">Paraguay</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.pe/" target="_blank">Perú</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.pr/" target="_blank">Puerto Rico</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.do/" target="_blank">Rep. Dominicada</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.despegar.com.uy/" target="_blank">Uruguay</a>
+						<a class="footer-links epp-cl-1-32 epp-air-right-8" href="http://www.us.despegar.com/" target="_blank">USA</a>
+						<a class="footer-links epp-cl-1-32" href="http://www.despegar.com.ve/" target="_blank">Venezuela</a>
+					</div>
+					<div class="footer-legal epp-cl-1 epp-ctn">
+						<div class="iata-logo">&nbsp;</div>
+						<p>1999-2015,Travel Reservations S.R.L. All rights reserved.</p>
+					</div>
+				</footer>
+			</div>
+		</div>
+
+		<script type="text/javascript">
+			var routing = {};
+			routing.page = {
+			affiliates: {
+				path: '/cp/affiliates/me',
+				method: 'get'
+			},
+			networks:{
+				path: '/cp/api/affiliates/networks',
+				method: 'get'
+			}
+		};
+		</script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+		<script>window._ || document.write('<script src="/assets/javascripts/commons/underscore/d863cb21f20501f8edf81bf9fbe2ded5-underscore.min.js">\x3C/script>')</script>
+		<script type="text/javascript" src="/assets/javascripts/commons/angular/17d1d77a7d0621815853ac3b7f0534d7-angular.min.js"></script>
+		<script>window.angular || document.write('<script src="/assets/javascripts/commons/angular/17d1d77a7d0621815853ac3b7f0534d7-angular.min.js">\x3C/script>')</script>
+		<script type="text/javascript" src="/assets/javascripts/commons/angular/extensions/angular-scroll/7edfb1de301fbaa5919652e86836656c-angular-scroll.min.js"></script>
+		<script type="text/javascript" src="/assets/javascripts/commons/angular/extensions/ngDialog/ff8d4e1f57ee73172482d411d6a2b759-ngDialog.min.js"></script>
+		<script type="text/javascript" src="/assets/javascripts/commons/angular/extensions/angular-underscore-module/2204176f9ee6b9095728a19c9f3502ba-angular-underscore-module.min.js"></script>
+		<script type="text/javascript" src="/assets/javascripts/app/build/7491e5e72a4b4ed430a0cb1efd0435f6-home.min.js"></script>
+		<script type="text/javascript" src="/an/messages.js"></script>
+	</body>
+</html>
+

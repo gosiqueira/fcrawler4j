@@ -1,0 +1,90 @@
+title=Despegar Extranet
+url=https://www.decolar.com/cars-sara-v2/web/
+html=<!DOCTYPE html>
+<html ng-app="CarsSaraBo">
+<head>
+	<title>Despegar Extranet</title>
+	
+	<link href='https://fonts.googleapis.com/css?family=Open Sans:300,500,600' rel='stylesheet' type='text/css'>
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="assets/bootstrap/dist/css/bootstrap.min.css">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="assets/animate-css/animate.min.css">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+
+	<!-- Bootstrap -->
+	<link rel="stylesheet" href="assets/styles.css">
+		
+	<!-- Configuration -->
+	<script src="assets/components.js" charset="UTF-8" ></script>
+	<script src="assets/jspdf.min.js"></script>
+	<script src="assets/script.js" charset="UTF-8"></script>
+	
+	
+	
+</head>
+<body ng-controller="ApplicationController" >
+	
+	<div class="loading" ng-show="loading">
+		<img src="assets/loading.gif">
+	</div>
+
+	<div class="container-fluid main-container">
+	
+		<div class="alert alert-danger alert-dismissible main-alert animated fadeInRight pull-right" ng-show="notificationErrorDetails != null" role="alert">
+		  <i ng-repeat="detail in notificationErrorDetails" class="fa fa-exclamation">
+			  	{{detail | translate}}
+		  </i>
+		</div>
+			
+		<div class="alert alert-danger alert-dismissible main-alert animated fadeInRight pull-right" ng-show="notificationError != null && notificationErrorDetails == null" role="alert">
+		  <i class="fa fa-exclamation"></i> {{notificationError}}
+		</div>
+	
+		<div class="alert alert-success alert-dismissible main-alert animated fadeInRight pull-right" ng-show="notificationInfo != null" role="alert">
+		  <i class="fa fa-check"></i> {{notificationInfo}}
+		</div>
+	
+	
+		<div class="row">
+			
+			<!--<div class = " col-xs-3 sidebar hidden" ng-class="{hidden: !session, bounceInLeft: sidebarVisible, bounceOutLeft: !sidebarVisible}">-->
+			<div class = "col-xs-2 sidebar nopadding" ng-show="sidebarVisible">
+				<ng-include src="'templates/partial/sidebar.html'"></ng-include>
+			</div>
+			<div class="animated fadeIn nopadding" ng-class="{'main-view': session != null,'col-xs-10 page-bar': sidebarVisible, 'col-xs-12': !sidebarVisible}">
+				<div ng-view autoscroll="true"></div>
+			   	<div ng-show="showLoading" class="loadingBackground" ng-init="showLoading=false">
+					<img class="loading"  src="assets/loading.gif">
+				</div>
+			</div>	
+		</div>
+	</div>
+	
+	<div class="modal animated fadeInDown" ng-show="modalVisible()" qadata="modalDialog">
+	  <div class="modal-dialog">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        <button type="button" class="close" data-dismiss="modal">&times;</button>
+	        <h4 class="modal-title">{{ "modal." + modal.title | translate }}</h4>
+	      </div>
+	      <div class="modal-body">
+	        <p>{{ "modal." + modal.description | translate }}</p>
+	      </div>
+	      <div class="modal-footer">
+			<button type="button" class="btn btn-danger" ng-click="hideModal(false)" qadata="cancelModalButton">{{"common.CANCEL" | translate}}</button>
+			<button type="button" class="btn btn-default" ng-click="hideModal(true)" qadata="acceptModalButton">{{"common.ACCEPT" | translate}}</button>
+	      </div>
+	    </div>
+	
+	  </div>
+	</div>
+	
+		<script src="//maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+</body>
+</html>

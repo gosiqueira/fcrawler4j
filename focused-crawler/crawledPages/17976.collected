@@ -1,0 +1,1071 @@
+title=Parc des Buttes-Chaumont - Paris.fr
+url=http://equipement.paris.fr/parc-des-buttes-chaumont-1757
+html=
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+    <head>
+        <title>Parc des Buttes-Chaumont - Paris.fr</title>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <link href="http://equipement.paris.fr/application/views/ressources/css/core/layout.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/jquery.lightbox-0.5.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/modal.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/modal-hours.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/allHours.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/services.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/labels.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/avis.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/leaflet/leaflet.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/leaflet/leaflet.label.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+<link href="http://equipement.paris.fr/application/views/ressources/css/front/autocomplete.css?t=1453791675" rel="stylesheet" type="text/css" media="all" />
+
+        <link href="https://connect.paris.fr/css" rel="stylesheet" type="text/css" media="all" />
+        <script type="text/javascript" src="http://equipement.paris.fr/application/views/ressources/js/jquery-1.7.1.min.js"></script>
+        <script type="text/javascript" src="http://equipement.paris.fr/application/views/ressources/js/core/head.js"></script>
+        <script type="text/javascript" src="http://equipement.paris.fr/application/views/ressources/js/core/cookieLaw.js"></script>
+        <script language="javascript" type="text/javascript" charset="utf-8">
+			var base_url_specific = "";
+		</script>
+        <script type="text/javascript">
+            var params = {
+                category : '7'
+            };
+            head.js(
+                //'http://maps.googleapis.com/maps/api/js?key=AIzaSyBQyM05EfMH1LosMRfttthaJLp7QO_8cNg&sensor=false&callback=mapReady',
+                'http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js',
+                'http://equipement.paris.fr/application/views/ressources/js/core/leaflet/leaflet.label.js',
+                'http://equipement.paris.fr/application/views/ressources/js/core/leaflet/leaflet.markercluster.js',
+                'http://equipement.paris.fr/application/views/ressources/js/core/app.js',
+                'http://equipement.paris.fr/application/views/ressources/js/core/gmap/infobubble.js',
+                'http://equipement.paris.fr/application/views/ressources/js/jquery.lightbox-0.5.js'
+            );
+        </script>
+    </head>
+<body>
+
+<script language="javascript" type="text/javascript" charset="utf-8">
+var domain = '';
+</script>
+
+<div id="pc_toolbar"></div>
+
+<NOSCRIPT>
+	<style type="text/css" media="screen">
+		.activite_hours{
+			display: block!important;
+		}
+
+		.more_activity{
+			display: block!important;
+		}
+
+		.hours_inactive, .hours_active, .hours_active_special, .hours_inactive_special{
+			background: none;
+			width: 0px;
+		}
+
+		.actif_js{
+			display:none!important;
+		}
+
+		.inactive_js{
+			display:block!important;
+		}
+	</style>
+</NOSCRIPT>
+
+<div id="wrapper" itemscope itemtype="http://schema.org/ItemPage">
+	<div class="clearfix activites" id="mainContent">
+		<div id="shadow"></div>
+
+		<div id="header">
+			<div id="overlay"></div>
+			<h1 itemprop="isPartOf" itemscope itemtype="http://schema.org/CollectionPage">
+		<div class="mobileView"  style='width:360px!important;'>
+					   <div class="ouvert_ferme_connect"><span style="padding:10px;">Ouvert / fermé ? <span class="tous_lieux_ferme_ouvert"><span style="font-size: 18px;">&raquo;</span> <a alt="Accès au site meslieux" href="http://meslieux.paris.fr" target="_blank">Tous les lieux</a></span>
+			</span></div>
+					  <a href='http://m.equipement.paris.fr/parc-des-buttes-chaumont-1757'>
+			Version Mobile
+		  </a> | <span class="version_standard">Standard</span>
+		</div>
+		<a itemprop="URL" href="http://equipement.paris.fr/?tid=7" style="top: 12px;position: relative;color:#11ABC5;">
+			Principaux parcs, jardins et squares		</a>
+		</h1>
+			
+<NOSCRIPT>
+    <style type="text/css" media="screen">
+        #choix_3{
+            display: none;
+        }
+
+        #gmap{
+            display:none;
+        }
+        
+        .search_block_js{
+            display:none!important;
+        }
+        .search_block_nojs{
+           display:block!important;
+        }
+
+        #section-search_nojs{
+            display: block!important;
+        }
+
+        .search_block{
+            display: block;
+            min-height:70px;
+        }
+
+        #keyword-search{
+            display: block!important;
+        }
+
+        #hours-search, #section-search{
+            display: none;
+        }
+
+        #header .search{
+            height: 140px;
+        }
+
+        #overlay-content{
+            display: block;
+        }
+
+        #hours-search{
+            display: none!important;
+        }
+
+        #prox-search{
+            display: block!important;
+        }
+
+    </style>
+</NOSCRIPT>   
+<script type="text/javascript">
+    $(".li_choix_nojs").hide();
+    $(".search_block_nojs").hide();
+    $("#section-search_nojs").hide(); 
+</script> 
+        <div class="search">
+            <div class="filtre">
+                <label>Précisez votre recherche :</label>
+                <ul class="choix">
+                    <!-- nom -->
+                    <li class="li_choix " style="width: 170px;" id="choix_1">
+                        <span class="titre"><label for="keyword-input">par nom</label></span>
+                        <div class="lastResult"></div>
+                        <div id="keyword-search" class="search_block" style="width: 160px;display:none;">
+                            <form method="GET" action="http://equipement.paris.fr/search">
+                                <input title="Rechercher par nom" type="text" name="s" id="keyword-input" />
+                                <input type="submit" value="OK" />
+                                <input type="hidden" name="category" value="7" />
+                            </form>
+                            <ul class="autocomplete-result"></ul>
+                          </div>
+                    </li>      
+                                         
+                     
+                    <!-- Section -->
+                    <li class="li_choix " style="width: 170px; display:none;" id="choix_5">
+                        <span class="titre"><label for="section-input-nojs">Section</label></span>
+                        <span class="titre li_choix_nojs" style="display:none;"><label for="section-input-js">Section</label></span>
+                        <div class="lastResult"></div>
+                         <div id="section-search_nojs" class="search_block search_block_nojs" style="display:none;width: 160px;">
+                            <form method="GET" action="http://equipement.paris.fr/search">
+                                <select title="Rechercher par nom" style="width:160px;" name="section" id="section-input-nojs" >
+                                    <option value="Adulte">Adulte</option>
+                                    <option value="Jeunesse">Jeunesse</option>
+                                    <option value="Discothèques">Discothèques</option>
+                                    <option value="Vidéothèques">Vidéothèques</option>
+                                    <option value="Pôles musique et langues">Pôles musique et langues</option>
+                                    <option value="Fonds thématiques">Fonds thématiques</option> 
+                                </select>
+                                <input type="submit" value="OK" />
+                                <input type="hidden" name="category" value="7" />
+                            </form>
+                            <ul class="autocomplete-result"></ul>
+                        </div>      
+                    </li>
+                                        
+                     <!-- proximite -->
+                    <li class="li_choix " style="width: 170px;" id="choix_2">
+                        <span class="titre"><label for="prox-input">&agrave; proximit&eacute; de</label></span>
+                        <div class="lastResult"></div>
+                        <div id="prox-search" class="search_block" style="width: 160px;display:none;">
+                            <form method="get" action="/search">
+                                <span style="color: black;font-size: 12px;font-weight: normal;text-transform: none;">Saisissez ici l'adresse ...</span><br />
+                                <input title="Rechercher à proximité de" type="text" value="" name="address" id="prox-input" class="field">
+                                <input type="submit" value="OK" class="submit">
+                                <input type="hidden" name="category" value="7"> 
+                            </form>
+                       </div>
+                    </li>
+                                    </ul>
+                <div class="clear"></div>
+            </div>
+        </div>
+	    <div id="overlay-content">
+            <!-- Section JS -->
+                            <div id="hours-search" class="search_block choix_3" style="display:none;">
+                    <table id="horaires" style="text-transform: none;">
+                        <thead><tr><td style="color: #11abc5">Disponibilit&eacute;</td><td width="40">lun.</td><td width="40">mar.</td><td width="40">mer.</td><td width="40">jeu.</td><td width="40">ven.</td><td width="40">sam.</td><td width="40">dim.</td></tr></thead>
+
+                        <tbody style="color: black;font-size: 12px;font-weight: normal;">
+                            <tr><td class="titre">Matin&eacute;e (7h-12h)</td>
+                                <td id="1_7_12" ></td>
+                                <td id="2_7_12" ></td>
+                                <td id="3_7_12" ></td>
+                                <td id="4_7_12" ></td>
+                                <td id="5_7_12" ></td>
+                                <td id="6_7_12" ></td>
+                                
+                                <td id="0_7_12" ></td></tr>
+                            <tr><td class="titre">Midi (12h-14h)</td>
+                                <td id="1_12_14" ></td>
+                                <td id="2_12_14" ></td>
+                                <td id="3_12_14" ></td>
+                                <td id="4_12_14" ></td>
+                                <td id="5_12_14" ></td>
+                                <td id="6_12_14" ></td>
+
+                                <td id="0_12_14" ></td></tr>
+                            <tr><td class="titre">Apr&egrave;s-midi (14h-18h)</td>
+                                <td id="1_14_18" ></td>
+                                <td id="2_14_18" ></td>
+                                <td id="3_14_18" ></td>
+                                <td id="4_14_18" ></td>
+                                <td id="5_14_18" ></td>
+                                <td id="6_14_18" ></td>
+
+                                <td id="0_14_18" ></td></tr>
+                            <tr><td class="titre">Soir&eacute;e (18h-22h)</td>
+                                <td id="1_18_22" ></td>
+                                <td id="2_18_22" ></td>
+                                <td id="3_18_22" ></td>
+                                <td id="4_18_22" ></td>
+                                <td id="5_18_22" ></td>
+                                <td id="6_18_22" ></td>
+
+                                <td id="0_18_22" ></td></tr>
+                        </tbody>
+                    </table>
+                    <input type="hidden" name="hor" id="hor" value="" /><br/>
+                    <span style="color: black;font-size: 12px;font-weight: normal;text-transform: none;">Cliquez sur les cases pour choisir vos horaires disponibles</span><input class="submit submit_horaire" style="float: right;" type="submit" value="OK" />
+                    <div class="clear"></div>
+
+                    <!--<span>0 ans</span><span style="margin-left: 63px;">100 ans</span>-->
+                </div>
+                                 
+                <div id="section-search" class="search_block" style="display:none!important; width: 180px;">
+                    <form method="GET" action="http://equipement.paris.fr/search">
+                        <select title="Rechercher par type de section" name="section" id="section-input-js" >
+                            <option value="Adulte">Adulte</option>
+                            <option value="Jeunesse">Jeunesse</option>
+                            <option value="Discothèques">Discothèques</option>
+                            <option value="Vidéothèques">Vidéothèques</option>
+                            <option value="Pôles musique et langues">Pôles musique et langues</option>
+                            <option value="Fonds thématiques">Fonds thématiques</option> 
+                        </select>
+                        <input type="submit" value="OK" />
+                        <input type="hidden" name="category" value="7" />
+                    </form>
+                    <ul class="autocomplete-result"></ul>
+                </div>     
+
+	    </div>
+<!-- fin search -->
+		</div>
+
+		<div class="intro-container">
+			<div class="intro">Des Buttes-Chaumont au parc de Bercy, découvrez ici quelques uns des plus grands parcs parisiens...</div>
+		</div>
+
+		<div id="content">
+			<div id="content-left" itemprop="mainContentOfPage" itemscope itemtype="http://schema.org/LocalBusiness">
+				<div class="gestion_favoris">
+
+											<div class="text_gestion_favoris equipement-favorite"><span class="actif_js">Ajouter à mes favoris</span><a style="display:none;float: left;text-align: center;width: 138px;" class="inactive_js" href="http://equipement.paris.fr//addToFavorite/7/1757/add">Ajouter à mes favoris</a><img alt='Ajouter l\'équipement de mes favoris' style='float:right;' src='http://equipement.paris.fr//application/views/ressources/pics/front/favoris_retire.png'></div>
+									</div>
+				<h2 class="fiche" itemprop="name">
+					Parc des Buttes-Chaumont					<span style="float:right;">
+				</h2>
+									<div id="credits">
+						<img itemprop="image" alt="Photo de l'équipement Parc des Buttes-Chaumont" src="http://filer.paris.fr/equipements/upload/2011/03/07/original/1299493371_butteschaumontpanorama.jpg" class="piscine credits" width="720"/>
+											</div>
+								<div style="width:720px; height: 19px; text-align:right; clear:both;">
+											<a class="box" style="color:#11ABC5; text-decoration:none;" title="" href="http://filer.paris.fr/equipements/upload/2011/03/07/original/1299493371_butteschaumontpanorama.jpg">
+							voir le diaporama
+						</a>
+									</div>
+
+									<div class="services">
+						<div class="bar">
+							<h3 style="float:left;">SERVICES</h3>
+						</div>
+						<div class="clear"></div>
+						<div class="img">
+							<ul>
+																	<li>
+										<img title="Manèges" alt="Manèges" src="http://filer.paris.fr/equipements/pictos/manege.png" />
+										<div class="label">1</div>
+									</li>
+																	<li>
+										<img title="Promenade à poney " alt="Promenade à poney " src="http://filer.paris.fr/equipements/pictos/poney.png" />
+										<div class="label">2</div>
+									</li>
+																	<li>
+										<img title="Restaurant" alt="Restaurant" src="http://filer.paris.fr/equipements/pictos/restau.png" />
+										<div class="label">3</div>
+									</li>
+																	<li>
+										<img title="Snack buvette Vente à emporter" alt="Snack buvette Vente à emporter" src="http://filer.paris.fr/equipements/pictos/snack.png" />
+										<div class="label">2</div>
+									</li>
+																	<li>
+										<img title="Toilettes publiques" alt="Toilettes publiques" src="http://filer.paris.fr/equipements/pictos/toilettes.png" />
+										<div class="label">3</div>
+									</li>
+																	<li>
+										<img title="Wi-fi" alt="Wi-fi" src="http://filer.paris.fr/equipements/pictos/wifi.png" />
+										<div class="label">3</div>
+									</li>
+																	<li>
+										<img title="Chiens admis" alt="Chiens admis" src="http://filer.paris.fr/equipements/pictos/chiens-admis.png" />
+										<div class="label">1</div>
+									</li>
+																	<li>
+										<img title="Points d'eau" alt="Points d'eau" src="http://filer.paris.fr/equipements/pictos/pointdeau.png" />
+										<div class="label">6</div>
+									</li>
+																	<li>
+										<img title="Guignol" alt="Guignol" src="http://filer.paris.fr/equipements/pictos/guignol.png" />
+										<div class="label">2</div>
+									</li>
+																	<li>
+										<img title="Label QualiPARIS" alt="Label QualiPARIS" src="http://filer.paris.fr/equipements/picto/2014/01/10/36x36_1389347827_36x361360248594vignette100x130labelqualiparis.jpg" />
+										<div class="label">1</div>
+									</li>
+																	<li>
+										<img title="Aire de jeux" alt="Aire de jeux" src="http://filer.paris.fr/equipements/picto/2014/01/27/36x36_1390840258_airedejeux.png" />
+										<div class="label">3</div>
+									</li>
+																	<li>
+										<img title="Bacs à sable" alt="Bacs à sable" src="http://filer.paris.fr/equipements/picto/2014/04/14/36x36_1397492246_bacsable.png" />
+										<div class="label">2</div>
+									</li>
+															</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+								
+				
+				
+				
+				<div class="subcontent-left">
+
+					
+					<h3>Accès</h3>
+					<div class="informations">
+						<div class="information">
+							<div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+<span itemprop="streetAddress">1 rue Botzaris</span> <span itemprop="postalCode">75019</span> <span itemprop="addressLocality">Paris</span><meta itemprop="addressCountry" content="FR" /></div>
+							1-7 rue Botzaris, 2-6b rue Manin, 55 rue de Crimée, 42 avenue Simon-Bolivar<br />
+							
+													</div>
+
+												<div class="information">
+							<span class="float"></span>
+									<ul>
+																			<li>
+											<img title="handicap" alt="handicap" src="http://filer.paris.fr/equipements/picto/2013/02/15/36x36_1360923933_logohandicapmoteur.jpg" /> Espace vert dont l’accessibilité pour les personnes à mobilité réduite est limitée à certaines zones.										</li>
+
+																	</ul>
+							<div class="clear"></div>
+						</div>
+						
+												<div class="information">
+							<span class="float">Métro</span>
+								<ul>
+																		M° Buttes Chaumont, ligne 7bis																	</ul>
+							<div class="clear"></div>
+						</div>
+						
+						
+												<div class="information last">
+							<span class="float">Velib'</span>
+								<ul>
+																		<li>Station N° 19024, 28 / 30 rue botzaris</li>
+																		<li>Station N° 19023, face 1 rue manin</li>
+																		<li>Station N° 19101, 36 avenue simon bolivar</li>
+																	</ul>
+							<div class="clear"></div>
+						</div>
+						
+						<div id="vnav">
+							<div id="equipement-map-container">
+								<div id="eqp-map" style="width:395px; height:395px"></div>
+							</div>
+							<div class="derouler" id="tooglePlan">
+								<span>&gt;</span><a href="javascript://">Déplier le plan</a>
+							</div>
+						</div>
+					</div>
+				</div>
+
+									<div class="subcontent-right">
+
+																														
+						
+						
+																											   <h3>Horaires</h3>
+						   <!-- <font color="red"><b>Tous les équipements de la ville de Paris sont exceptionnellement fermés.</b></font> -->
+																													<div class="informations">
+																	
+																																																																						
+																																<div class="information" style="height: 30px;">
+											   <span class="float big">Aujourd'hui <br/><small>(Mardi)</small></span>
+											   <ul>
+																																																					<li>07h00 à 20h00</li>
+																																																		   </ul>
+											</div>
+																						<div class="information" style="height: 30px;">
+											   <span class="float big">Demain <br/><small>(Mercredi)</small></span>
+											   <ul>
+																																																					<li>07h00 à 20h00</li>
+																																																		   </ul>
+											</div>
+																						<div class="information" style="height: 30px;">
+											   <span class="float big">Jeudi</span>
+											   <ul>
+																																																					<li>07h00 à 20h00</li>
+																																																		   </ul>
+											</div>
+																					   									   
+										
+									   																												<div class="horaires">
+											<span>></span>
+											<a style="cursor: pointer;" href="#local-calendar" class="littleHours" alt="Tous les horaires">Tous les horaires (vacances comprises)</a>
+										</div>
+																																																										<div class="comment" style="padding-top:10px;">
+																							</div>
+																																				<div id="local-calendar" class="simplemodal-data">
+										<div style="height:20px; border-bottom:1px solid #E8E8E8;">
+											<h3><strong>Horaires</strong></h3>
+										</div>
+										
+																						<p style="font-weight:bold;">Du 25 octobre 2015 au 29 février 2016</p>
+												       
+        <p>
+            Lundi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Mardi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Mercredi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Jeudi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Vendredi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Samedi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+    
+    
+    
+       
+        <p>
+            Dimanche                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+            
+
+												<br />
+										
+										
+
+																					<br />
+											<p style="font-weight:bold;">Du 01 mars 2016 au 26 mars 2016</p>
+											       
+        <p>
+            Lundi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Mardi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Mercredi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Jeudi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Vendredi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+       
+        <p>
+            Samedi                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+    
+    
+    
+       
+        <p>
+            Dimanche                            de
+                07h00 à 
+                20h00            
+                                </p>
+    
+            
+
+																					<br />
+											<p style="font-weight:bold;">Du 27 mars 2016 au 30 avril 2016</p>
+											       
+        <p>
+            Lundi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Mardi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Mercredi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Jeudi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Vendredi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Samedi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+    
+    
+    
+       
+        <p>
+            Dimanche                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+            
+
+																					<br />
+											<p style="font-weight:bold;">Du 01 mai 2016 au 31 août 2016</p>
+											       
+        <p>
+            Lundi                            de
+                07h00 à 
+                22h00            
+                                </p>
+    
+       
+        <p>
+            Mardi                            de
+                07h00 à 
+                22h00            
+                                </p>
+    
+       
+        <p>
+            Mercredi                            de
+                07h00 à 
+                22h00            
+                                </p>
+    
+       
+        <p>
+            Jeudi                            de
+                07h00 à 
+                22h00            
+                                </p>
+    
+       
+        <p>
+            Vendredi                            de
+                07h00 à 
+                22h00            
+                                </p>
+    
+       
+        <p>
+            Samedi                            de
+                07h00 à 
+                22h00            
+                                </p>
+    
+    
+    
+    
+       
+        <p>
+            Dimanche                            de
+                07h00 à 
+                22h00            
+                                </p>
+    
+            
+
+																					<br />
+											<p style="font-weight:bold;">Du 01 septembre 2016 au 30 septembre 2016</p>
+											       
+        <p>
+            Lundi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Mardi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Mercredi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Jeudi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Vendredi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+       
+        <p>
+            Samedi                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+    
+    
+    
+       
+        <p>
+            Dimanche                            de
+                07h00 à 
+                21h00            
+                                </p>
+    
+            
+
+																			</div>
+
+																<div>
+																	</div>
+															</div>
+														
+																								<h3>Tarifs
+															</h3>
+							<div id="price" class="informations">
+
+																											<div class="information">
+											<span class="float big" style="width:250px;">Gratuit</span>
+											<ul>
+												<li>0.00 €</li>
+											</ul>
+										</div>
+																									
+															</div>
+													
+					</div>
+				
+				<div class="clear"></div>
+								<!-- bassin -->
+				<div id="metadata" class="informations">
+																			</div>
+								<!-- Bloc evenements que faire -->
+			   				<br />
+				<div class="clear"></div>
+				<!-- Fin bloc evenements que faire -->
+
+				<!-- Début bloc activités que faire -->
+			   
+				<!-- Fin bloc activités que faire -->
+
+				<div class="descriptifs">
+											<!-- tout sur -->
+						<div class="descriptif">
+							<h3 class="desc_btn">
+								<label for="tout_sur_piscine_table">Tout sur...</label>
+								<img class="tout-sur-la-piscine" src="http://equipement.paris.fr//application/views/ressources/pics/front/fleche-fiche.png" alt="fleche"/>
+							</h3>
+							<div id="arrow_tout_sur_piscine_table" class="fleche_bas tout_sur_piscine_table" style="display: block; "></div>
+						</div>
+
+						<!-- end tout sur -->
+					
+									</div>
+				<div class="clear"></div>
+								<!-- description/photo -->
+				<div id="tout_sur_piscine_table" class="descriptif_content_block" style="display:block;">
+					<div id="fiche-content-left">
+
+						 
+					   
+						<div itemprop="description" id="descriptionTxt">
+							<meta content="Retrouvez toutes les infos sur le Parc. Horaires d'ouverture, liste des activités, plan d'accès, tarifs, présentation du Parc des Buttes-Chaumont, avis des visiteurs et photos." name="description" />
+<p style="text-align: justify">
+	<strong style="color: rgb(255,0,0)">Sites ferm&eacute;s par mesure de s&eacute;curit&eacute;:</strong><br />
+	<br />
+	<br />
+	<strong style="color: rgb(255, 0, 0);">&nbsp; &nbsp;-&nbsp;</strong><strong style="color: rgb(255, 0, 0);">SUITE A UN EFFONDREMENT L&#39;ACCES AU TEMPLE DE LA SIBYLLE EST FERME, des sondages sont actuellement en cours.</strong><br />
+	<strong style="color: rgb(255,0,0)">&nbsp;&nbsp; -&nbsp;</strong><strong style="color: rgb(255,0,0)">l&#39;abri public situ&eacute; avenue Jacques de Liniers est ferm&eacute;.</strong><br />
+	&nbsp;&nbsp;<span style="color: #f00"> - dans l&#39;attente&nbsp;d&#39;une&nbsp;r&eacute;novation compl&egrave;te, la grotte vient d&#39;&ecirc;tre s&eacute;curis&eacute;e par la pose d&#39;un filet et&nbsp;est &agrave; nouveau ouverte au public&nbsp;(La grande cascade est actuellement &agrave; l&#39;arr&ecirc;t)</span><br />
+	<br />
+	&nbsp; &nbsp;<strong>&nbsp;</strong><br />
+	<br />
+	<strong><span style="color: rgb(255,0,0)">INFO TRAVAUX : </span></strong><br />
+	<br />
+	<span style="color: rgb(255,0,0)">Depuis novembre 2012, le parc fait l&#39;objet&nbsp;d&#39;importants </span><strong><span style="color: rgb(255,0,0)">travaux de r&eacute;novation.&nbsp;</span></strong><br />
+	<span style="color: rgb(255,0,0)">Panneaux de pr&eacute;sentation du projet (&agrave; <a href="https://w81-adminparis.apps.paris.fr/portailadmin/viewadminmultimediadocument?multimediadocument-id=152356">t&eacute;l&eacute;charger </a>au format pdf)&nbsp;</span><br />
+	<br />
+	<span style="color: rgb(255,0,0)">Le </span><strong><span style="color: rgb(255,0,0)">r&eacute;seau hydraulique</span></strong><span style="color: rgb(255,0,0)">&nbsp;en eau non potable du parc qui alimente cascade, rivi&egrave;re et arrosage du parc a &eacute;t&eacute;&nbsp;revu pour &eacute;conomiser l&#39;eau.<br />
+	Lors&nbsp;d&#39;une premi&egrave;re phase de travaux, les all&eacute;es de la partie centrale du parc&nbsp;ont &eacute;t&eacute;&nbsp;r&eacute;nov&eacute;es en restituant au parc sa qualit&eacute; paysag&egrave;re.<br />
+	Panneaux de pr&eacute;sentation&nbsp;</span><span style="color: rgb(255,0,0)">(au format pdf)&nbsp;</span><span style="color: rgb(255,0,0)">:</span><strong><span style="color: rgb(255,0,0)">&nbsp;</span></strong><a href="http://bit.ly/1wMpiAR" target="_blank">http://bit.ly/1wMpiAR</a>&nbsp;<br />
+	<span style="color: rgb(255,0,0)">Les travaux de </span><strong><span style="color: rgb(255,0,0)">r&eacute;novation des all&eacute;es</span></strong><span style="color: rgb(255,0,0)"> et de leurs abords se&nbsp;poursuivent jusqu&#39;en mai 2016&nbsp;pour les parties Est et Ouest du parc.</span><br />
+	<span style="color: rgb(255,0,0)">Panneaux de pr&eacute;sentation (au format pdf) :&nbsp;</span><a href="http://bit.ly/1Dymlsl" target="_blank">http://bit.ly/1Dymlsl</a>&nbsp;<br />
+	<br />
+	<strong><span class="pucevdp"><strong><span class="pucevdp">Se promener</span></strong></span></strong></p>
+<p>
+	<span class="pucevdp">Le parc des Buttes-Chaumont est le plus escarp&eacute; et le plus grand des 470 jardins de Paris, &agrave; l&#39;exception du jardin des Tuileries et du parc de La Villette. C&#39;est un parc paysager, une forme &eacute;volu&eacute;e du jardin anglo-chinois, dont la conception irr&eacute;guli&egrave;re s&#39;oppose au genre r&eacute;gulier des jardins dits &quot; &agrave; la fran&ccedil;aise &quot;. Il offre aux regard des plus avertis une juxtaposition de tableaux s&#39;inspirant des paysages de Fragonard, et surtout d&#39;Hubert Robert, peintre des jardins de Rome.</span></p>
+<p>
+	<span class="pucevdp">Par les effets de surprise, de couleurs, et la disposition des v&eacute;g&eacute;taux certains pourraient m&ecirc;me y remarquer l&#39;influence de Jean-Jacques Rousseau.</span></p>
+<p>
+	<span class="pucevdp">Une &icirc;le rocheuse se dresse au centre de son c&eacute;l&egrave;bre lac (1,5 hectare) , et d&eacute;voile un romantique petit temple de la Sybille, qui occupe l&#39;emplacement exacte de l&#39;ancienne carri&egrave;re &agrave; ciel ouvert, tandis que la grotte se situe &agrave; l&#39;entr&eacute;e d&#39;une carri&egrave;re souterraine.</span></p>
+<p>
+<script type="text/javascript" src="http://www.ina.fr/js/global/controle/ogp_player_embed.js"></script><script type="text/javascript" src="http://www.ina.fr/player/embed/w/320/h/240/id_notice/2564769001038/id_utilisateur/911404/hash/9b13fcabe396a3053b57c3e10cdebff4"></script></p>
+<div align="center" style="background-color: #000; width: 320px; font: 11px/18px arial, helvetica, verdana, sans-serif; color: #b4d2fe">
+	retrouver ce m&eacute;dia sur <a href="http://www.ina.fr/economie-et-societe/environnement-et-urbanisme/video/2564769001038/buttes-chaumont.fr.html" style="color: #b4d2fe; font-weight: bold" target="_blank">www.ina.fr</a></div>
+<span class="pucevdp">Une grande cascade culminant &agrave;&nbsp;32 m&egrave;tres&nbsp;conduit jusqu&#39;&agrave; la grotte (20 m&egrave;tres) qui est&nbsp;d&eacute;cor&eacute;e de fausses stalactites dont les plus grandes atteignent 8 m&egrave;tres.<br />
+<br />
+Le temple de la Sybille est une r&eacute;plique du temple de Tivoli (Rome). Il est n&eacute; du talent de l&#39;architecte Davioud en 1869, qui utilisa un style composite, ionique et corinthien (feuilles d&#39;acanthes, fruits et t&ecirc;tes de lions), comportant 8 colonnes et un soubassement en pierre du Jura. Vous y acc&egrave;dez par la passerelle suspendue (65 m&egrave;tres de haut), &agrave; ne pas confondre avec le pont Eiffel et le pont de briques.</span>
+<p>
+	<br />
+	Cette promenade ravira les bons marcheurs qui pourront allier exercice physique, en raison de son fort d&eacute;nivel&eacute;, et beaut&eacute; paysag&egrave;re.</p>
+<p>
+	<br />
+	<span class="pucevdp">Il abrite de belles essences d&#39;arbres exotiques et indig&egrave;nes, qui s&#39;accrochent aux flanc de la butte, tant&ocirc;t sur un chemin, tant&ocirc;t sur une pelouse &agrave; la pente vertigineuse.<br />
+	<br />
+	Remarquez&nbsp;le sophora dont les branches tordues semblent irr&eacute;sistiblement attir&eacute;es vers les eaux du lac. Sa ramure et son feuillage appr&eacute;cient particuli&egrave;rement cet espace d&eacute;gag&eacute;, car il s&#39;&eacute;panouit gr&acirc;ce &agrave; la lumi&egrave;re. Mais aussi un platane d&#39;Orient plant&eacute; en 1862, dont la circonf&eacute;rence de 6,35m vous aidera &agrave; le reconna&icirc;tre ! Une visite guid&eacute;e s&#39;impose si vous d&eacute;sirez en savoir davantage sur le f&eacute;vier d&#39;Am&eacute;rique, le noisetier de Byzance, les deux ginkgos bilobas, l&#39;Orme de Sib&eacute;rie ou le c&egrave;dre du Liban plant&eacute; en 1880...<br />
+	<br />
+	Une multitude d&#39;oiseaux se partagent le territoire convoit&eacute; de la butte, mouettes rieuses, poules d&#39;eau,&nbsp;canards colverts, qui appr&eacute;cient ses hauteurs et la fra&icirc;cheur du lac. De l&#39;automne au printemps, vous remarquerez la bergeronnette des ruisseaux au plumage jaune et gris. Voletant et trottinant nerveusement pour capturer des insectes, elle agite sans cesse sa longue queue, ce qui lui a valu le surnom de hochequeue</span><br />
+	<br />
+	<strong><span class="pucevdp">Un peu d&#39;histoire</span></strong></p>
+<p>
+	Les marcheurs seront ravis d&#39;arpenter son relief pentu, les fl&acirc;neurs de s&#39;allonger sur les pelouses... ce parc paysager est le plus escarp&eacute; et le plus grand des jardins publics de Paris.</p>
+<p>
+	<br />
+	D&egrave;s l&#39;Antiquit&eacute;, le sous-sol parisien &eacute;tait exploit&eacute; pour ses carri&egrave;res de gypse, qui donn&egrave;rent &agrave; la capitale son surnom de &quot; Lut&egrave;ce la blanche &quot;. Les Romains avaient d&eacute;couvert qu&#39;il se transformait en pl&acirc;tre une fois port&eacute; &agrave; une temp&eacute;rature de 120&deg;C.<br />
+	<br />
+	Le creusement des carri&egrave;res sur la Butte Chaumont commen&ccedil;a apr&egrave;s la R&eacute;volution, ce qui changea consid&eacute;rablement sa physionomie. Au 19e si&egrave;cle, la pr&eacute;cieuse mati&egrave;re &eacute;tait achemin&eacute;e jusqu&#39;aux Etats-Unis, ce qui a valu au quartier son nom de &quot; quartier d&#39;Am&eacute;rique &quot;. Elle s&#39;&eacute;levait &agrave; une hauteur de 45 m&egrave;tres et &eacute;tait divis&eacute;e en trois galeries superpos&eacute;es d&#39;environ 15 m&egrave;tres de hauteur.<br />
+	<br />
+	Vous remarquerez peut-&ecirc;tre, au cours de votre promenade, la rue des Chaufourniers, au voisinage du parc. Le gypse y &eacute;tait achemin&eacute; pour &ecirc;tre chauff&eacute; dans les fours &agrave; chaux, qui ont laiss&eacute; leur nom &agrave; la rue.</p>
+<p>
+	<br />
+	Ce lieu escarp&eacute; et inculte servait aussi de bassin d&#39;&eacute;puration, o&ugrave; l&#39;on faisait s&eacute;cher les mati&egrave;res recueillies, qui &eacute;taient utilis&eacute;es pour la fabrication d&#39;un engrais. Ce n&#39;&eacute;tait pas le seul attrait de la butte, puisqu&#39;elle permettait aussi de se d&eacute;barrasser des cadavres de chevaux. Cette d&eacute;charge &agrave; ciel ouvert &eacute;tait tol&eacute;r&eacute;e, car elle se situait encore en-dehors des limites de la ville de Paris... A sa disparition, l&#39;habitude restera d&#39;y jeter toutes sortes d&#39;ordures. Les carri&egrave;res furent exploit&eacute;es jusqu&#39;en 1860.<br />
+	<br />
+	Au Second Empire, les carri&egrave;res ferm&eacute;es, Napol&eacute;on III d&eacute;cida de transformer la colline d&eacute;sol&eacute;e en somptueux jardin. L&#39;Etat acquit le terrain en 1863 et les premiers coups de pioche furent donn&eacute;s en 1864. Trois ans furent n&eacute;cessaires pour r&eacute;aliser les travaux titanesques de terrassement et cr&eacute;er les am&eacute;nagements paysagers qui agr&eacute;mentent le parc. Cette prouesse n&eacute;cessita l&#39;aide de 1 000 ouvriers, une centaine de chevaux, 450 wagonnets sur 39 km de rails, 2 machines &agrave; vapeur, et l&#39;utilisation de dynamite pour faire sauter la roche. 200 000 m3 de terre v&eacute;g&eacute;tale et 800 000m3 de terrassement furent utilis&eacute;s, et 14 212 barreaux verticaux vinrent habiller la grille de 2 475 m&egrave;tres de longueur, comprenant 6 grands portails et 9 entr&eacute;es secondaires.</p>
+<p>
+	<br />
+	Le parc fut inaugur&eacute; le 1er avril 1867, en m&ecirc;me temps que l&#39;Exposition Universelle du Champ-de-Mars. Assist&eacute; du jardinier Barillet- Deschamps, de l&#39;architecte Davioud, et de l&#39;ing&eacute;nieur Belgrand, Jean-Charles Alphand m&eacute;tamorphosa les anciennes carri&egrave;res, creusant un lac et une grotte orn&eacute;e de fausses stalactites, faisant jaillir des cascades et des ruisseaux. Davioud r&eacute;alisa &eacute;galement une partie de la mairie du 19e arrondissement (1869), situ&eacute;e en face de l&#39;entr&eacute;e principale du parc.<br />
+	<br />
+	Le parc prit alors le nom de la butte. &quot; Chaumont &quot; viendrait, selon toute hypoth&egrave;se, de la contraction des mots &quot; chauve &quot; (calvus en latin) et &quot; mont &quot; (mons en latin).<br />
+	<br />
+	<strong>Accessibilit&eacute;</strong><br />
+	<span face="">L&rsquo;accessibilit&eacute; pour les personnes &agrave; mobilit&eacute; r&eacute;duite est limit&eacute;e &agrave; certaines zones.</span><br />
+	&nbsp;</p>
+<p>
+	<img alt="QUALIPARIS" src="http://filer.paris.fr/equipements/picto/2013/02/07/36x36_1360248594_vignette100x130labelqualiparis.jpg" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px" /><span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">&nbsp;Ce jardin a re&ccedil;u le label QualiPARIS. Il est d&eacute;cern&eacute; par un organisme de&nbsp;</span><font face="Arial, Helvetica, sans-serif" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px"><span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; font-style: inherit; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">cert</span></font><font face="Arial, Helvetica, sans-serif" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px"><span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; font-style: inherit; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">ification</span></font><span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">&nbsp;ind&eacute;pendant et repose sur des engagements concrets et v&eacute;rifiables en mati&egrave;re :</span><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">- d&rsquo;accueil</span><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">- d&rsquo;&eacute;coute</span><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">- d&rsquo;acc&egrave;s</span><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">- d&rsquo;information&nbsp;</span><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">&nbsp;</span><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<a href="http://www.paris.fr/viewmultimediadocument?multimediadocument-id=133381" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; text-decoration: none; padding-top: 0px">D&eacute;couvrez les engagements qualit&eacute;</a><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<span style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; padding-top: 0px">&nbsp;</span><br style="line-height: 19px; font-family: arial, helvetica, sans-serif; color: rgb(102,102,102); font-size: 13px" />
+	<a href="http://www.paris.fr/qualiparis" style="border-bottom: 0px; border-left: 0px; padding-bottom: 0px; line-height: 19px; margin: 0px; outline-style: none; outline-color: invert; padding-left: 0px; outline-width: 0px; padding-right: 0px; font-family: arial, helvetica, sans-serif; font-size: 13px; vertical-align: baseline; border-top: 0px; border-right: 0px; text-decoration: none; padding-top: 0px">Pour en savoir sur la d&eacute;marche qualit&eacute; de la Ville</a></p>						</div>
+						<p>&nbsp;</p>
+															
+					</div>
+										<div id="fiche-content-right">
+						<div class="block-right">
+							<span class="titre-block">photo</span>
+							<div class="content-block">
+								<ul>
+									<li class="content">
+																				   <div class="img_princ" style="text-align:center; padding: 5px 0;" >
+												<a href="http://filer.paris.fr/equipements/upload/2011/03/07/original/1299493371_butteschaumontpanorama.jpg" title="" class="box2">
+													<img src="http://filer.paris.fr/equipements/upload/2011/03/07/original/1299493371_butteschaumontpanorama.jpg" alt="" style="width:220px"/>
+												</a>
+										   </div>
+																				<div class="vignettes">
+											<ul class="vignettes-princ">
+																																												<li>
+																										<a href="http://filer.paris.fr/equipements/uploads/zoomolocal/d/de/dea/dead/dead567a9bdacd14c76404c9025e029e.png" title="" class="box box2">
+															<img src="http://filer.paris.fr/equipements/uploads/zoomolocal/d/de/dea/dead/dead567a9bdacd14c76404c9025e029e.png" alt="" style="width:54px"/>
+														</a>
+																							</li>
+																																	<li>
+																										<a href="http://filer.paris.fr/equipements/uploads/zoomolocal/a/af/af4/af42/af426fcb1b17227d79b743c2c86bde4f.png" title="" class="box box2">
+															<img src="http://filer.paris.fr/equipements/uploads/zoomolocal/a/af/af4/af42/af426fcb1b17227d79b743c2c86bde4f.png" alt="" style="width:54px"/>
+														</a>
+																							</li>
+																																	<li>
+																										<a href="http://filer.paris.fr/equipements/uploads/zoomolocal/5/56/566/5669/56698114308c3f8b18e84f40172ddd08.png" title="" class="box box2">
+															<img src="http://filer.paris.fr/equipements/uploads/zoomolocal/5/56/566/5669/56698114308c3f8b18e84f40172ddd08.png" alt="" style="width:54px"/>
+														</a>
+																							</li>
+																																	<li>
+																										<a href="http://filer.paris.fr/equipements/uploads/zoomolocal/7/77/770/7702/7702af2e80712be01f7ac471957ba445.png" title="" class="box box2">
+															<img src="http://filer.paris.fr/equipements/uploads/zoomolocal/7/77/770/7702/7702af2e80712be01f7ac471957ba445.png" alt="" style="width:54px"/>
+														</a>
+																							</li>
+																																	<li>
+																										<a href="http://filer.paris.fr/equipements/uploads/zoomolocal/b/bc/bc5/bc52/bc5259d5e3b1a139a6a13312cea71b15.png" title="" class="box box2">
+															<img src="http://filer.paris.fr/equipements/uploads/zoomolocal/b/bc/bc5/bc52/bc5259d5e3b1a139a6a13312cea71b15.png" alt="" style="width:54px"/>
+														</a>
+																							</li>
+																																	<li>
+																										<a href="http://filer.paris.fr/equipements/uploads/zoomolocal/4/43/43f/43f8/43f825bfe1c22ae6d208a9caa146f33e.png" title="" class="box box2">
+															<img src="http://filer.paris.fr/equipements/uploads/zoomolocal/4/43/43f/43f8/43f825bfe1c22ae6d208a9caa146f33e.png" alt="" style="width:54px"/>
+														</a>
+																							</li>
+																																	<li>
+																										<a href="http://filer.paris.fr/equipements/uploads/zoomolocal/3/3b/3b8/3b8b/3b8b33681e5a2d3b0eb3d5c298c2e4df.png" title="" class="box box2">
+															<img src="http://filer.paris.fr/equipements/uploads/zoomolocal/3/3b/3b8/3b8b/3b8b33681e5a2d3b0eb3d5c298c2e4df.png" alt="" style="width:54px"/>
+														</a>
+																							</li>
+																																	<li>
+																							</li>
+																						<ul>
+										</div>
+										<div class="clear"></div>
+										<div class="blanc"> </div>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+									</div>
+				<!-- end description/photo -->
+
+
+				<!-- "Bloc Avis" -->
+									<!--<iframe name="CadrePoserUneQuestion" title="Cadre permettant de poser une question à ma ville" src="https://connect.paris.fr/ogc/avis3b.php?url=http://equipement.paris.fr/parc-des-buttes-chaumont-1757" width="100%" height="600" border="0">
+								&lt;a href="https://connect.paris.fr/ogc/avis3.php?"&gt;Et maintenant c'est &amp;agrave; vous&lt;/a&gt;
+					</iframe> -->
+								<!-- End "Bloc Avis" -->
+		</div>
+		<div id="content-right">
+							           <div class="horaires">
+                <div class="horaires_text" style="cursor: pointer; ">
+                    <a href="javascript://" id="open-allHours"><span class="title">Tous les horaires</span><br>en un coupd d'oeil, par ici &gt;&gt; </a>
+                </div>
+                <div class="img_horaires">
+                    <a><img src="application/views/ressources/pics/front/picto_horloge.png" alt="Accèder à tous les horaires"></a>
+                </div>
+                <div class="show-horaires" style="color:black;display:none;z-index: 3003;">
+                                    <div class="planning">
+                        <div id="planning-content" class="table_planning">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <script type="text/javascript">
+        var positionElementInPage = $('.piscine_alerte_top').offset().top;
+        $(window).scroll(
+            function() {
+                if ($(window).scrollTop() >= 220) {
+                    // fixed
+                    $('.piscine_alerte_top').addClass("floatable");
+                } else {
+                    // relative
+                    $('.piscine_alerte_top').removeClass("floatable");
+                }
+            }
+        );
+    </script>
+					</div>
+
+		</div>
+	</div>
+
+</div>
+
+<script type="text/javascript">
+	var equipMap;
+	var mapConfig;
+	head.ready(function() {
+		equipMap = new EquipementMap(48.8769645, 2.38113139999996);
+					equipMap.addVelib({"name":"19024 - BUTTES CHAUMONT","number":"19024","fullAddress":"28 \/ 30 rue botzaris - 75019 paris","lat":"48.8777858957825","lng":"2.38144272078998","distance":"94.1303631812108"});
+					equipMap.addVelib({"name":"19023 - MANIN SIMON BOLIVAR","number":"19023","fullAddress":"face 1 rue manin - 75019 paris","lat":"48.8763395190536","lng":"2.37986095449642","distance":"116.024713493919"});
+					equipMap.addVelib({"name":"19101 - SIMON BOLIVAR","number":"19101","fullAddress":"36 avenue simon bolivar - 75019 paris","lat":"48.875107249385","lng":"2.38259855968357","distance":"232.728020083515"});
+		
+			mapConfig = new MapConfig();
+
+			equipMap.addVelib({ name : "Parc des Buttes-Chaumont",
+			picto : "http:\/\/filer.paris.fr\/equipements\/uploads\/pictos\/2010\/06\/10\/41x53\/1276182930_marker32.png",
+			lat : "48.8769645",
+			lng : "2.3811314",
+			fullAddress : '1 rue Botzaris - 75019'    });
+
+			$('#eqp-map').trigger('map-infobulle-loaded');
+	});
+
+</script>
+<script type="text/javascript" src="/application/views/ressources/js/front/activites.js?t=1453791675"></script>
+<script type="text/javascript" src="/application/views/ressources/js/front/littleHours.js?t=1453791675"></script>
+<script type="text/javascript" src="/application/views/ressources/js/front/jquery.simplemodal.js?t=1453791675"></script>
+<script type="text/javascript" src="/application/views/ressources/js/front/avis.js?t=1453791675"></script>
+<script type="text/javascript" src="/application/views/ressources/js/front/equipement.js?t=1453791675"></script>
+<script type="text/javascript" src="/application/views/ressources/js/front/activites_hours.js?t=1453791675"></script>
+<script type="text/javascript" src="https://connect.paris.fr/js?t=1453791675"></script>
+
+<script language="javascript">
+$().ready(function () {
+$('.text_gestion_favoris').click(function() {
+				$('.equipement-favorite img').show();
+				var addOrRemove = 'add';
+				if ($(this).hasClass('favorite')) {
+					addOrRemove = 'remove';
+			}
+			if (addOrRemove == 'remove') {
+				$('.equipement-favorite').removeClass('favorite');
+				$('.equipement-favorite').html('Ajouter à mes favoris<img style=\'float:right;\' src=\'http://equipement.paris.fr//application/views/ressources/pics/front/favoris_retire.png\'>');
+			} else {
+				$('.equipement-favorite').addClass('favorite');
+				$('.equipement-favorite').html('Retirer de mes favoris<img style=\'float:right;\' src=\'http://equipement.paris.fr//application/views/ressources/pics/front/favoris_ajoute.png\'>');
+			}
+
+			var url ='http://equipement.paris.fr/addToFavorite/7/1757/'+addOrRemove;
+
+			$.ajax({
+				type: 'POST',
+				url: url,
+				dataType: 'json',
+				data: {ajax: 1},
+				success: function (data) {
+					if (data.status == 'error') {
+						window.location.href = data.message;
+					}
+				},
+				error: function() {
+					//alert('Pas de connexion à internet');
+				}
+			});
+
+			return false;
+		});	
+var oConnect = new Paris_connect('dabab6f43d34f4bafd8228827f384638'); 
+var tb_features = {'returnUrl':'http://equipement.paris.fr//parc-des-buttes-chaumont-1757'}; 
+oConnect.get_toolbar('pc_toolbar',tb_features, '', true, false);
+});
+</script>
+
+<script type="text/javascript" src="https://connect.paris.fr/3975"></script>
+<script type="text/javascript">
+	// if(getCookie('complianceCookie') === 'on') {
+	// 	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	//       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	//       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	//       })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	//       ga('create', 'UA-1961755-2', 'paris.fr');
+	//       ga('send', 'pageview');
+	// }
+</script>
+</body>
+</html>

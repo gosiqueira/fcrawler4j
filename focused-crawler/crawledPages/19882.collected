@@ -1,0 +1,1752 @@
+title=Paris Otelleri - TripAdvisor
+url=http://www.tripadvisor.com.tr/AllLocations-g187147-c1-Hotels-Paris_Ile_de_France.html
+html=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html xmlns:fb="http://www.facebook.com/2008/fbml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+<link rel="icon" id="favicon" href="http://static.tacdn.com/favicon.ico" type="image/x-icon"/>
+<link rel="mask-icon" sizes="any" href="http://static.tacdn.com/img2/icons/ta_square.svg" color="#589442"/>
+<script type='text/javascript'>
+window.onerror = function onErrorFunc(msg, url, line, colno, error) {
+if(!window.ta || !ta.has('ta.js_error_array.processed')) {
+if(typeof js_error_array == 'undefined') {
+js_error_array = [];
+}
+var err = error;
+js_error_array[js_error_array.length] = {'msg': msg, 'error_script': url, 'line': line, 'column': colno, 'error': err, 'ready_state': document.readyState};
+return true;
+}
+else {
+if(window.ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record(error, 'error post load:: ' + msg, null, {'error_script': url, 'line': line, 'column': colno, 'ready_state': document.readyState});
+}
+}
+};
+</script>
+<script>(function(){
+var q={d:[],r:[],c:[],t:[],v:[]};
+var r = window.require = function() {q.r.push(arguments);};
+r.config = function() {q.c.push(arguments);}
+r.taConfig = function() {q.t.push(arguments);}
+r.taVer = function(v) {q.v.push(v);}
+window.getRequireJSQueue = function() {return q;}
+})();</script>
+<script type="text/javascript">
+</script>
+<meta http-equiv="imagetoolbar" content="no"/>
+<title>Paris Otelleri - TripAdvisor</title>
+<meta http-equiv="pragma" content="no-cache"/>
+<meta http-equiv="cache-control" content="no-cache,must-revalidate"/>
+<meta http-equiv="expires" content="0"/>
+<meta name="robots" content="noindex">
+<meta property="og:image" content="http://static.tacdn.com/img2/postimg.jpg" height="150px" width="150px"/>
+<meta name="keywords" content="Paris accommodations, Ile-de-France, Paris konaklama, Paris otelleri, Paris tatil köyü, Paris Oda ve Kahvaltı, Paris Oda ve Kahvaltı, Paris inns, tüm Paris bölgesi otelleri, tüm Paris bölgesi tatil köyleri, tüm Paris bölgesi konukevleri, Paris bölgesindeki konaklamalar"/>
+<meta name="description" content="Paris bölgesindeki konaklamalar: Paris bölgesindeki tüm otellerin, oda ve Kahvaltın, tatil köylerinin, konukevlerinin ve diğer konaklamaların TripAdvisor listesini görün."/>
+<script type="text/javascript">
+(function () {
+if (typeof console == "undefined") console = {};
+var funcs = ["log", "error", "warn"];
+for (var i = 0; i < funcs.length; i++) {
+if (console[funcs[i]] == undefined) {
+console[funcs[i]] = function () {};
+}
+}
+})();
+var pageInit = new Date();
+var hideOnLoad = new Array();
+</script>
+<script type="text/javascript">
+var jsGlobalMonths =     new Array("Ocak","Şubat","Mart","Nisan","Mayıs","Haziran","Temmuz","Ağustos","Eylül","Ekim","Kasım","Aralık");
+var jsGlobalMonthsAbbrev =     new Array("Oca","Şub","Mar","Nis","Mayıs","Haz","Tem","Ağu","Eyl","Eki","Kas","Ara");
+var jsGlobalDaysAbbrev =     new Array("Pzts","Sal","Çar","Per","Cum","Cts","Paz");
+var jsGlobalDaysShort =     new Array("P","S","Ç","P","C","C","P");
+var jsGlobalDaysFull =     new Array("Pazar","Pazartesi","Salı","Çarşamba","Perşembe","Cuma","Cumartesi");
+var sInvalidDates = "Girdiğiniz tarihler geçersizdir. Lütfen tarihlerinizi düzeltin ve tekrar arayın.";
+var sSelectDeparture = "Lütfen bir gidiş havaalanı seçin.";
+var DATE_FORMAT_MMM_YYYY = "MMM YYYY";
+var DATE_PICKER_CLASSIC_FORMAT = "dd.MM.yyyy";
+var DATE_PICKER_SHORT_FORMAT = "dd.MM";
+var DATE_PICKER_META_FORMAT = "d MMM EEE";
+var jsGlobalDayOffset = 2 - 1;
+var DATE_FORMAT = { pattern: /(\d{1,2})\.(\d{1,2})\.(\d{2,4})/, month: 2, date: 1, year: 3 };
+var formatDate = function(d, m, y) { if (d < 10) d = "0" + d; if (++m < 10) m = "0" + m; return [d,m,y].join('.');};
+var cal_month_header = function(month, year) {return cal_months[month]+"&nbsp;"+year;};
+</script>
+<script type="text/javascript">
+var currencySymbol = new Array();
+var cur_prefix = false;
+var cur_postfix = true;
+var curs=[,'CHF','SEK','DKK','NOK','PLN','AED','AFN','ALL','AMD','ANG','AOA','ARS','AWG','AZN','BAM','BBD','BDT','BGN','BHD','BIF','BMD','BND','BOB','BSD','BTN','BWP','BYR','BZD','CDF','CLP','COP','CRC','CVE','CZK','DJF','DOP','DZD','EGP','ERN','ETB','FJD','FKP','GEL','GHS','GIP','GMD','GNF','GTQ','GYD','HNL','HRK','HTG','HUF','IDR','IQD','IRR','ISK','JMD','JOD','KES','KGS','KHR','KMF','KWD','KYD','KZT','LAK','LBP','LKR','LRD','LSL','LYD','MAD','MDL','MGA','MKD','MNT','MOP','MRO','MUR','MVR','MWK','MYR','MZN','NAD','NGN','NIO','NPR','OMR','PAB','PEN','PGK','PHP','PKR','PYG','QAR','RON','RSD','RUB','RWF','SAR','SBD','SCR','SGD','SHP','SLL','SOS','SRD','STD','SZL','TJS','TMT','TND','TOP','TTD','TZS','UAH','UGX','UYU','UZS','VEF','VUV','WST','YER','ZAR','CUP','KPW','MMK','SDG','SYP'];
+for(var i=1;i<curs.length;i++){currencySymbol[curs[i]]=new Array(curs[i],false);}
+var curs = [,'USD','GBP','EUR','CAD','AUD','JPY','RMB','INR','BRL','TRY','MXN','TWD','HKD','ILS','KRW','NZD','THB','VND','XAF','XCD','XOF','XPF']
+var curs2 = [,'$','£','€','CA$','AU$','¥','CN¥','₹','R$','₺','MX$','NT$','HK$','₪','₩','NZ$','฿','₫','FCFA','EC$','CFA','CFPF']
+for(var i=1;i<curs.length;i++){currencySymbol[curs[i]]=new Array(curs2[i],false);}
+var groupingSize = 3;
+var groupingSeparator = ",";
+var JS_location_not_found = "Konumunuz bulunamadı.";
+var JS_click_to_expand = "Genişletmek için tıklayın";
+var JS_choose_valid_city = "Lütfen listeden geçerli bir şehir seçin.";
+var JS_select_a_cruise_line = "Lütfen bir deniz yolu seçin.";
+var JS_loading = "Yükleniyor...";
+var JS_Ajax_failed="Üzgünüz, ancak içeriği almaya çalışırken bir sorun oluştu. Lütfen birkaç dakika içinde tekrar kontrol edin.";
+var JS_maintenance="\u015eu an sitemizde bak\u0131m yap\u0131l\u0131yor.  Verdi\u011fimiz rahats\u0131zl\u0131ktan dolay\u0131 \u00f6z\u00fcr dileriz... K\u0131sa bir s\u00fcre sonra hizmetinizde olaca\u011f\u0131z.";
+var JS_Stop_search = "aramayı durdur";
+var JS_Resume_search = "Aramaya devam et";
+var JS_Thankyou = "Teşekkür ederiz";
+var JS_DateFormat = "gg.aa.yyyy";
+var JS_review_lost = "Yorumunuz kaybedilecek.";
+var JS_coppa_sorry = "Özür dileriz....";
+var JS_coppa_privacy = "Gönderdiğiniz bilgilere göre, TripAdvisor hesabınız <a href='/pages/privacy.html'>Gizlilik Politikamızın</a> şartlarına uygun değil.";
+var JS_coppa_deleted = "Hesabınız silindi.";
+var JS_close = "Kapat";
+var JS_close_image = "http://static.tacdn.com/img2/langs/tr/buttons/closeButton.gif";
+var JS_CHANGES_SAVED = "Değişiklikler kaydedildi";
+var JS_community_on = "Topluluk etkinleştirildi";
+var lang_Close = JS_close;
+var JS_UpdatingYourResults = "Sonuçlarınız güncelleniyor &#8230;";
+var JS_OwnerPhoto_heading = "Talebinizi TripAdvisor'a gönderdiğiniz için teşekkür ederiz.";
+var JS_OwnerPhoto_subheading = "Çoğu sıralama ve değişiklikleri 5 iş günü içerisinde işleme alıyoruz.";
+var JS_OwnerPhoto_more = "İşletme kaydınıza daha fazla resim ekleyin";
+var JS_OwnerPhoto_return = "İşletme Sahibi'nin Merkezine Dönün";
+var JS_NMN_Timeout_title = "Denemeye devam etmek istiyor musunuz?";
+var JS_NMN_Timeout_msg = "Lokasyonunuzu almak beklenenden uzun sürüyor.";
+var JS_NMN_Error_title = "Lokasyon hatası";
+var JS_NMN_Error_msg   = "Lokasyonunuzu belirlemeye çalışırken hata oluştu";
+var JS_KeepTrying = "Denemeye Devam Et";
+var JS_TryAgain   = "Tekrar Dene";
+var js_0001 = "Lütfen listeden en az bir satıcı seçin."; var js_0002 = "Lütfen gelecek tarihleri girin."; var js_0003 = "Lütfen check-in tarihinizden en az bir gün sonra olacak şekilde bir check-out tarihi seçin."; var js_0004 = "Lütfen en fazla 330 gün sonrasına kadar bir tarih girin.";   var js_0005 = "Fiyatlar aranıyor ... bu birkaç dakika sürebilir"; var js_0006 = "Seçimleriniz değişmedi."; var js_0010 = "İlgili pencereyi açmak için lütfen tekrar tıklayın veya açılır pencere engelleyicilerini devre dışı bırakmak için tarayıcı ayarlarını yapın."; var js_0011 = "Güncelle"; var js_0012 = "Bir sonraki fırsatı göster"; var js_0013 = "İlgili pencereyi açmak için lütfen yukarıdaki \"Fiyatları Gör!\" butonuna tıklayın."; var js_0014 = 'Her fırsat yeni bir pencerede açılacak. Lütfen açılır pencere engelleyicilerini devre dışı bırakın.';
+var js_0015 = 'Fiyatları karşılaştır';
+var js_invalid_dates_text = "Girdiğiniz tarihler geçersizdir. Lütfen tarihlerinizi düzeltin ve tekrar arayın."; var js_invalid_dates_text_new = "Lütfen fiyatları görmek için tarihleri girin"; var js_invalid_dates_text_new2 = "Fiyatları göstermek için lütfen tarihleri girin";
+var qcErrorImage = '<center><img src="http://static.tacdn.com/img/langs/tr/action_required_blinking.gif" /></center>';
+var selectedHotelName = ""; var cr_loc_vend = 'http://static.tacdn.com/img2/langs/tr/checkrates/cr.gif';
+var cr_loc_vend_ch = 'http://static.tacdn.com/img2/langs/tr/checkrates/cr_check.gif';
+var cr_loc_logo = 'http://static.tacdn.com/img2/checkrates/logo.gif';
+var cd_loc_vend = 'http://static.tacdn.com/img2/langs/tr/checkrates/cd.png';
+var cd_loc_vend_ch = 'http://static.tacdn.com/img2/langs/tr/checkrates/cd_check.png';
+var JS_Any_Date = "Any Date";
+var JS_Update_List = "Update List";
+var sNexusTitleMissing = "The title must be populated";
+var JS_Challenge="Challenge";
+var JS_TIQ_Level="Level";
+var JS_TIQ="Travel IQ";
+var JS_TIQ_Pts="pts";
+var RATING_STRINGS = [
+"Oylamak için tıklayın",
+"Berbat",
+"Kötü",
+"Ortalama",
+"Çok İyi",
+"Mükemmel"
+];
+var overlayLightbox = false;
+if("" != "")
+{
+overlayLightbox = true;
+}
+var isTakeOver = false;
+var overlayOptions = "";
+var overlayBackupLoc = "7182695";
+var gmapDomain = "maps.google.com";
+var mapChannel = "ta.desktop";
+var bingMapsLang = "tr".toLowerCase();
+var bingMapsCountry = "".toLowerCase();
+var bingMapsBaseUrl = "http://www.bing.com/maps/default.aspx?cc=tr&";
+var googleMapsBaseUrl = "http://maps.google.com/?";
+var yandexMapsBaseUrl = "http://maps.yandex.com.tr";
+var serverPool = "B";
+var reg_overhaul = true;
+var posLocale = "tr";
+var cssPhotoViewerAsset = "http://static.tacdn.com/css2/photos_with_inline_review-v21686674533b.css";
+var cssAlbumViewerAsset = "http://static.tacdn.com/css2/photo_albums-v23765369189b.css";
+var jsPhotoViewerAsset = 'http://static.tacdn.com/js3/src/ta/photos/Viewer-v22429591760b.js';
+var jsAlbumViewerAsset = ["http://static.tacdn.com/js3/album_viewer-c-v21755102550b.js"];
+var jsAlbumViewerExtendedAsset = ["http://static.tacdn.com/js3/album_viewer_extended-c-v23547086677b.js"];
+var jsDesktopBackboneAsset = ["http://static.tacdn.com/js3/desktop_modules_backbone-c-v22601866853b.js"];
+var jsScrollingTabsAsset = 'http://static.tacdn.com/js3/src/ta/widgets/ScrollingTabs-v2491278589b.js';
+var jsPhotoViewerTALSOAsset = 'http://static.tacdn.com/js3/src/TALSO-v2188162152b.js';
+var jsJWPlayerHelperAsset = 'http://static.tacdn.com/js3/src/ta/media/player/JwPlayer-v2250836624b.js';
+var taJwplayerVersion6 = true;
+var hasRequiredFlashPlayer = function() {
+return ta.media.JWPlayer.hasRequiredFlashPlayer();
+};
+</script>
+<script type="text/javascript">
+var IS_DEBUG = false;
+var CDNHOST = "http://static.tacdn.com";
+var cdnHost = CDNHOST;
+var MEDIA_HTTP_BASE = "http://media-cdn.tripadvisor.com/media/";
+var POINT_OF_SALE = "tr";
+var WINDOW_EVENT_OBJ = window.Event;
+</script>
+<script type="text/javascript">
+var VERSION_MAP = {
+"ta-widgets-typeahead.js": "http://static.tacdn.com/js3/ta-widgets-typeahead-c-v23529258534b.js"
+,
+"ta-media.js": "http://static.tacdn.com/js3/ta-media-c-v2144566242b.js"
+,
+"ta-overlays.js": "http://static.tacdn.com/js3/ta-overlays-c-v2311153032b.js"
+,
+"ta-mapsv2.js": "http://static.tacdn.com/js3/ta-mapsv2-gmaps3-c-v21334863859b.js"
+};
+</script>
+<script type="text/javascript">
+var cookieDomain = ".tripadvisor.com.tr";
+var modelLocaleCountry = "";
+var ipCountryId = "294280";
+var pageServlet = "AllLocations";
+var crPageServlet = "AllLocations";
+var arrowLeft     = "http://static.tacdn.com/img/saves/saveIconArrowLeft.gif";
+var arrow         = "http://static.tacdn.com/img/saves/saveIconArrow.gif";
+var example       = "http://static.tacdn.com/img/saves/saveButtonExample.gif";
+var save          = "http://static.tacdn.com/img/saves/folderSave.gif";
+var closedSub     = "http://static.tacdn.com/img/saves/closedForSubfolder.gif";
+var closedFolder  = "http://static.tacdn.com/img/saves/closedFolder.gif";
+var openFolder    = "http://static.tacdn.com/img/saves/openFolder.gif";
+var add           = "http://static.tacdn.com/img/saves/addFolder.gif";
+var userLoggedIn = false;
+</script>
+<script type="text/javascript">
+var migrationMember = false;
+var savesEnable = true;
+var savesJS = 'http://static.tacdn.com/js3/src/saves-v21445131811b.js';
+var flagsUrl = '/AllLocations-g187147-c1-Hotels-Paris_Ile_de_France.html';
+var noPopClass = "no_cpu";
+var flagsSettings = [
+];
+var isIPad = false;
+var isTabletOnFullSite = false;
+var tabletOnFullSite = false;
+var lang_Close  = "Kapat";
+var isSmartdealBlueChevron = false;
+var img_loop    = "http://static.tacdn.com/img2/generic/site/loop.gif";
+var communityEnabled = true
+var footerFlagFormat = "all_loc_flag_hotel_ffffe1a6";
+var modelLocId = "187147";
+var modelGeoId = "187147";
+var gClient = 'gme-tripadvisorinc';
+var gKey = '';
+var gLang = '&language=tr_TR';
+var mapsJs = 'http://static.tacdn.com/js3/ta-maps-gmaps3-c-v2517161971b.js';
+var mapsJsLite = 'http://static.tacdn.com/js3/lib/TAMap-v22716202300b.js';
+var memoverlayCSS = 'http://static.tacdn.com/css2/pages/memberoverlay-v2735825778b.css';
+var flagsFlyoutCSS = 'http://static.tacdn.com/css2/overlays/flags/flags_flyout-v2178661648b.css';
+var globalCurrencyPickerCSS = 'http://static.tacdn.com/css2/overlays/global_currency_picker-v24284795853b.css';
+var emailHotelCSS = 'http://static.tacdn.com/css2/t4b/emailhotel-v22741496419b.css';
+var passportStampsCSS = 'http://static.tacdn.com/css2/modules/passport_stamps-v21996473260b.css';
+var autocompleteCss = "http://static.tacdn.com/css2/modules/autocomplete-v22296357173b.css";
+var globalTypeAheadCss = "http://static.tacdn.com/css2/global_typeahead-v23388826953b.css";
+var globalTypeAheadFontCss = "http://static.tacdn.com/css2/proxima_nova-v21536367270b.css";
+var wiFriHasMember =  false  ;
+var JS_SECURITY_TOKEN = "AAABUnzzZGiJ1iApiquRuuVFAkU19TZ6XbaunQ==";
+var addOverlayCloseClass = "";
+var isOverlayServlet = "";
+var IS_OVERLAY_DEBUG = "false";
+</script>
+<script type='text/javascript' crossorigin='anonymous' src='http://static.tacdn.com/js3/tripadvisor-c-v21041090719b.js'></script>
+<script type="text/javascript">var taSecureToken = "AAABUnzzZGiJ1iApiquRuuVFAkU19TZ6XbaunQ==";</script>
+<script type="text/javascript">
+if(window.ta && ta.store) {
+ta.store('photo.viewer.localization.videoError', '\u00dczg\u00fcn\u00fcz, video oynat\u0131c\u0131 y\u00fcklenemedi');     }
+</script>
+<script type="text/javascript">
+var taEarlyRoyBattyStatus = 0;
+(function(){
+var taSecureToken = "AAABUnzzZGiJ1iApiquRuuVFAkU19TZ6XbaunQ==";
+var cookieDomain = ".tripadvisor.com.tr";
+try {
+if (taSecureToken && navigator.userAgent.indexOf('MSIE 10.0')<0) {
+var val = taSecureToken+",1";
+val = encodeURIComponent(val);
+if (cookieDomain) {
+val += "; domain=" + cookieDomain;
+}
+document.cookie = "roybatty="+val+"; path=/";
+var url="/CookiePingback?early=true";
+var xhr = null;
+try {
+xhr = new XMLHttpRequest();
+} catch (e1) {
+try {
+xhr = new ActiveXObject('MSXML2.XMLHTTP');
+} catch (e2) {
+try {
+xhr = new ActiveXObject('Microsoft.XMLHTTP');
+} catch (e3) {
+}
+}
+}
+if (xhr != null) {
+var seth = function(name, val) {
+try {xhr.setRequestHeader(name, val)}
+catch(e){}
+};
+xhr.open("POST", url, true);
+seth('Content-type', 'application/x-www-form-urlencoded; charset=utf-8');
+seth('X-Requested-With', 'XMLHttpRequest');
+seth('Accept', 'text/javascript, text/html, application/xml, text/xml, */*');
+xhr.send('');
+taEarlyRoyBattyStatus = 2;
+}
+}
+} catch(err) {
+}
+})();
+</script>
+<script type="text/javascript">
+var geoParam = "&geo=187147";
+</script>
+<link rel='stylesheet' type='text/css' media='screen, print' href='http://static.tacdn.com/css2/universal_new-tr-v22405452955b.css'/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css2/modules/checkrates_2col-v24065976836b.css"/>
+<link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css/brandCompat.css"/>
+<!--[if IE 6]>
+    <link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css2/winIE6-v22820092551b.css" />
+        <![endif]-->
+<!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" media="screen, print" href="http://static.tacdn.com/css2/winIE7-v22702072199b.css" />
+        <![endif]-->
+<style type="text/css"><!--
+DIV.ppr_rup.ppr_priv_ibex_nav_recent_searches_control .content {
+display: none;
+}
+--></style>
+<script type="text/javascript" src="http://static.tacdn.com/js/tripcompat.js"></script>
+<script type="text/javascript">
+function showCascadeSearch(sHotelID, bFromPop, sLinkType, sArea) {
+if(sHotelID == null || sHotelID == '') {return;}
+var tgtUrl = "/HotelDateSearch?d=" + sHotelID + "&returnTo=http%3A__2F____2F__www__2E__tripadvisor__2E__com__2E__tr__2F__AllLocations__2D__g187147__2D__c1__2D__Hotels__2D__Paris__5F__Ile__5F__de__5F__France__2E__html&fromPop=" + bFromPop;
+tgtUrl = tgtUrl + "&area=" + sArea;
+var sFromSource = "AllLocations";
+if(sFromSource !="") {
+if(sLinkType && sLinkType != "") {sFromSource += sLinkType;}
+tgtUrl += "&from=" + sFromSource;
+}
+var w = window.open ( tgtUrl, "CascadeSearch", "toolbar=0,resizable=1,menubar=0,location=0,status=0,scrollbars=1,width=245,height=610,screenX=5,screenY=5,left=5,top=5");
+if (w != null) {
+w.opener = self;
+w.focus();
+}
+}
+</script>
+<style type="text/css">
+body{}
+@media all and (min-width: 983px) {
+#GUTTER_CONTAINER{ overflow-x: hidden; }
+}
+.flat_buttons.sitewide .overlay .offer.premium { height:57px; line-height:54px;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock { right:-1px;}
+.flat_buttons.sitewide .overlay .crBtn { margin-top:8px;}
+.flat_buttons.sitewide .overlay .offer.premium,
+.flat_buttons #BODYCON .offer.premium { box-shadow:1px 1px 0 0 rgba(0,0,0,.15); -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock,
+.flat_buttons #BODYCON .offer.premium .priceBlock { border-color:#fc0 #e4a000 #e4a000 #fc0; background:none; background-color:#fc0; filter:none;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock:not(.lte_ie8):after,
+.flat_buttons #BODYCON .offer.premium .priceBlock:not(.lte_ie8):after { border-color:#000; position:absolute; top:50%; right:13px; width:7px; height:7px; margin-top:-4px; border-width:0 2px 2px 0; border-style:solid; content:""; -ms-transform:rotate(-45deg); -sand-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.flat_buttons.sitewide .overlay .offer.premium:hover .priceBlock,
+.flat_buttons #BODYCON .offer.premium:hover .priceBlock { border-color:#ffb300 #e4a000 #e4a000 #ffb300; background-color:#ffb300;}
+.flat_buttons.sitewide .overlay .offer.premium:active .priceBlock,
+.flat_buttons #BODYCON .offer.premium:active .priceBlock { background-color:#f5ac00; border-color:#f5ac00;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock,
+.flat_buttons #BODYCON .offer.premium .priceBlock,
+.flat_buttons.sitewide .overlay .offer.premium .viewDealText,
+.flat_buttons #BODYCON .offer.premium .viewDealText { text-shadow:none;}
+.flat_buttons.sitewide .overlay .offer.premium .priceBlock .checkSite,
+.flat_buttons #BODYCON .offer.premium .priceBlock .checkSite { font-size:16px;}
+.flat_buttons.sitewide .overlay .offer.premium img.chevron,
+.flat_buttons #BODYCON .offer.premium img.chevron { display:none;}
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState .partnerImg,
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState .priceAndNights { border-color:#ffb300 #e4a000 #e4a000 #ffb300;}
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState:active .partnerImg,
+.flat_buttons .metaPriceInfo .partnerAndPrices.viewDeal.hoverState:active .priceAndNights { border-color:#f5ac00;}
+.rtl.flat_buttons.sitewide .overlay .offer.premium,
+.rtl.flat_buttons #BODYCON .offer.premium { box-shadow:-1px 1px 0 0 rgba(0,0,0,.15);}
+.rtl.flat_buttons.sitewide .overlay .offer.premium .priceBlock,
+.rtl.flat_buttons #BODYCON .offer.premium .priceBlock { border-radius:3px 0 0 3px; border-color:#fc0 #fc0 #e4a000 #e4a000;}
+.rtl.flat_buttons.sitewide .overlay .offer.premium .priceBlock:not(.lte_ie8):after,
+.rtl.flat_buttons #BODYCON .offer.premium .priceBlock:not(.lte_ie8):after { position:absolute; top:50%; right:auto; left:13px; margin-top:-4px; border-width:0 0 2px 2px; border-style:solid; content:""; -ms-transform:rotate(45deg); -sand-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg);}
+.flat_buttons.sitewide #HSCS .crOverlayButton { width:auto; float:left;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal img.chevron { display:none;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron { padding:11px 15px; border-color:#fc0 #e4a000 #e4a000 #fc0; border-radius:0 3px 3px 0; background:none; background-color:#fc0; background-clip:padding-box; color:#000; filter:none;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal:hover .viewDealChevron { text-decoration:none; border-color:#ffb300 #e4a000 #e4a000 #ffb300; background-color:#ffb300;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal:active .viewDealChevron { background-color:#f5ac00; border-color:#f5ac00; box-shadow:none;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron:not(.lte_ie8) { padding-right:36px;}
+.flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron:not(.lte_ie8):after { position:absolute; top:50%; right:13px; width:6px; height:6px; margin-top:-4px; border-width:0 2px 2px 0; border-style:solid; content:""; -ms-transform:rotate(-45deg); -webkit-transform:rotate(-45deg); transform:rotate(-45deg);}
+.rtl .flat_buttons.sitewide .mapsv2-chevron.viewDeal .viewDealChevron:not(.lte_ie8):after { -ms-transform:rotate(45deg); -webkit-transform:rotate(45deg); transform:rotate(45deg);}
+.flat_buttons.sitewide #meta_on_photo_viewer .hacForm .original { width:155px; margin:6px 10px 12px;}
+.flat_buttons.sitewide .nfoBbl .crOverlayButton { width:auto;}
+.flat_buttons.sitewide .ShowUserReviews #HR_HACKATHON_CONTENT .offer.premium .priceBlock { right:-1px; height:57px; background-image:none; border-color:#fc0 #e4a000 #e4a000 #fc0; background-color:#fc0; line-height:inherit;}
+.flat_buttons.sitewide .ShowUserReviews #HR_HACKATHON_CONTENT .offer.premium:hover .priceBlock { border-color:#ffb300 #e4a000 #e4a000 #ffb300; background-color:#ffb300;}
+.flat_buttons.sitewide .ShowUserReviews #HR_HACKATHON_CONTENT .offer.premium:active .priceBlock { background-color:#f5ac00; border-color:#f5ac00;}
+.flat_buttons.sitewide .photos_lb_update #HR_HACKATHON_CONTENT .offer.premium .priceBlock { background-image:none; font-weight:bold;}
+.flat_buttons.sitewide .inter_module .im_hotel { height:166px;}
+</style>
+<!-- web578b.b.tripadvisor.com -->
+<!-- PRODUCTION -->
+<!-- PRODUCTION -->
+<script type="text/javascript" src="http://static.tacdn.com/js3/src/trsupp-v23584999669b.js"></script>
+
+                  <script type="text/javascript">
+                    var AKSB=AKSB||{};AKSB.q=[];AKSB.mark=function(c,a){AKSB.q.push(["mark",c,a||(new Date).getTime()])};AKSB.measure=function(c,a,b){AKSB.q.push(["measure",c,a,b||(new Date).getTime()])};AKSB.done=function(c){AKSB.q.push(["done",c])};AKSB.mark("firstbyte",(new Date).getTime());
+                    AKSB.prof={custid:"136988",ustr:"fs",originlat:0,clientrtt:38,ghostip:"72.246.216.148",ipv6:false,pct:10,xhrtest:false,clientip:"187.1.61.26",requestid:"282d6a51",protocol:"",blver:2,akM:"b",akN:"ae",akTT:"O",akTX:"1",
+                    akTI:"282d6a51"};
+                    (function(c){var a=document.createElement("iframe");a.src="javascript:false";(a.frameElement||a).style.cssText="width: 0; height: 0; border: 0; display: none";var b=document.getElementsByTagName("script"),b=b[b.length-1];b.parentNode.insertBefore(a,b);a=a.contentWindow.document;b=String.fromCharCode;c=b(60)+"body onload=\"var js = document.createElement('script');js.id = 'aksb-ifr';js.src = '"+c+"';document.body.appendChild(js);\""+b(62);a.open().write(c);a.close()})(("https:"===document.location.protocol?
+                    "https:":"http:")+"//ds-aksb-a.akamaihd.net/aksb.min.js");
+                  </script>
+                  </head>
+<body class="ltr domn_tr lang_tr globalNav2011_reset css_commerce_buttons flat_buttons sitewide xo_pin_user_review_to_top track_back" data-scroll='OVERVIEW' data-navArea-metaType="QC_Meta_Mini" data-navArea-placement="Unknown">
+<div id="fb-root"></div>
+<script type="text/javascript">
+function initSaves()
+{
+SV_DEFAULT_FOLDER_NAME = "My Paris Trip";
+var savesWidgetNewFolder = ta.id('savesWidgetNewFolder');
+if (savesWidgetNewFolder && SV_DEFAULT_FOLDER_NAME.length > savesWidgetNewFolder.maxLength) {
+SV_DEFAULT_FOLDER_NAME = "My Trip";
+}
+SV_IS_POPUP = 0;
+}
+</script>
+<div id="iframediv"></div>
+<div id="PAGE" class=" non_hotels_like desktop scopedSearch">
+<div class="cartFocus hidden">
+<img src="http://static.tacdn.com/img2/branding/white-drawn-ollie.png" class="whiteOllie" alt="white ollie">
+<div class="title">
+Rezervasyon yaptırmaya hazır değil misiniz?
+</div>
+<div class="description">
+No rush. We've <span class="numHotels">saved this trip in your cart
+</span> so you can come back any time, compare prices, and complete your booking.
+</div>
+<img src="http://static.tacdn.com/img2/generic/white-drawn-close.png" class="closeBtn" alt="close button">
+</div>
+<img src="http://static.tacdn.com/img2/arrows/white-drawn-arrow-right.png" class="cartFocusUpArrow hidden" alt="up arrow">
+<div class="focusMask hidden"></div>
+<div id="HEAD" class="">
+<div class="masthead  masthead_notification_enabled  ">
+<div class="container">
+<div class="brandArea">
+<span class="topLogo">
+<a class="logoWrap" onClick="setPID(5045);ta.setEvtCookie('TopNav', 'click', 'TAlogo', 0, this.href);" href="/"><img class="svg-taLogo" src="http://static.tacdn.com/img2/langs/tr/branding/trip_logo.svg" width="197" height="35" alt="Otellerin, Uçak Biletlerinin ve Kiralık Yerlerin Yorumları"/></a>
+</span>
+<h1 class="header   ">Paris Otelleri</h1>
+</div>
+<div id="USER_PREFS" class="prfs">
+<ul class="options">
+<li class="masthead_notification">
+</li>
+<li id="register" onclick="ta.setEvtCookie('TopNav', 'open', 'Join', 0, '/Register');ta.util.cookie.setPIDCookie(427);ta.store('registration.ga_module', 'Masthead');  return ta.registration.register({product: 'MASTHEAD', action: 'SIGNUP', data: function () { return { pid: 427 }; } } ); "><span class="link no_cpu">KATIL</span></li>
+<li class="login" onclick="ta.setEvtCookie('TopNav', 'open', 'Login', 0, '/Register');ta.util.cookie.setPIDCookie(429);ta.store('registration.ga_module', 'Masthead'); return ta.registration.register({product: 'MASTHEAD', data: function () { return { pid: 429 }; } } ); "><span class="link no_cpu">OTURUM AÇ</span></li>
+<script type='text/javascript'> ta.store('currency_format_using_icu4j_cldr.featureEnabled', 'true'); </script>
+<li id="CURRENCYPOP" class="optitem link" onclick="ta.call('ta.overlays.Factory.currencyPickerPopup', event, this, '')">
+<span class="link">
+R$
+<img src="http://static.tacdn.com/img2/x.gif" class="arrow_dropdown_gry sprite-arrow_dropdown_gry_refresh" alt="" width="9" height="7">
+</span>
+</span>
+</li>
+<script type='text/javascript'> ta.store('flag_flyout_link_fixing.featureEnabled', 'false'); </script>
+<li id="INTLPOP" class=" no_cpu " onclick="ta.call('ta.overlays.Factory.intlPopup', event, this)">
+<span class="link">
+<img class="flag" src="http://static.tacdn.com/img2/langs/tr/flags/flag.gif" alt="Uluslararası Siteler" title="Uluslararası Siteler" width="16" height="11">
+<img src="http://static.tacdn.com/img2/x.gif" class="arrow_dropdown_gry sprite-arrow_dropdown_gry_refresh" alt="" width="9" height="7">
+</span>
+</li>
+<li class="optItem last" id="RECENT_SEARCHES">
+<!--trkP:ibex_nav_recent_searches_control-->
+<!-- PLACEMENT ibex_nav_recent_searches_control -->
+<DIV ID="taplc_ibex_nav_recent_searches_control_0" class="ppr_rup ppr_priv_ibex_nav_recent_searches_control">
+<script type="text/javascript">window.addEventListener('load', function(event) {ta.plc_ibex_nav_recent_searches_control_0_handlers.fireTracking(false,false,false,true);});</script></DIV>
+<!--etk-->
+</li>
+</ul>
+</div>
+</div>
+<div class="tabsBar">
+<ul class="tabs" onclick="">
+<li class="tabItem dropDown jsNavMenu hvrIE6" onmouseenter="ta.call('ta.overlays.Factory.createEmptyOverlay', event, this, false)">
+<a href="/Tourism-g187147-Paris_Ile_de_France-Vacations.html" class="tabLink arwLink geoLink" onclick="ta.util.cookie.setPIDCookie(4964); ta.setEvtCookie('TopNav', 'click', 'Tourism', 0, this.href)">
+<span class="geoName">Paris</span><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht_refresh" src="http://static.tacdn.com/img2/x.gif" alt="" width="9" height="7">
+</a>
+<ul class="subNav">
+<li class="subItem">
+<a class="subLink " href="/Tourism-g187147-Paris_Ile_de_France-Vacations.html" onclick="ta.util.cookie.setPIDCookie(4971);">
+Paris Seyahat
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Hotels-g187147-Paris_Ile_de_France-Hotels.html" onclick="ta.util.cookie.setPIDCookie(4972);" onmousedown="ta.common.header.addClearParam(this);">
+Paris Otelleri
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Hotels-g187147-c2-Paris_Ile_de_France-Hotels.html">
+Paris Pansiyonları
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/VacationRentals-g187147-Reviews-Paris_Ile_de_France-Vacation_Rentals.html" onclick="ta.util.cookie.setPIDCookie(4975);">
+Paris Devremülk
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Vacation_Packages-g187147-Paris_Ile_de_France-Vacations.html">
+Paris Tatil Paketleri
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Flights-g187147-Paris_Ile_de_France-Cheap_Discount_Airfares.html" onclick="ta.util.cookie.setPIDCookie(4973);">
+Paris Uçak Bileti
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Restaurants-g187147-Paris_Ile_de_France.html" onclick="ta.util.cookie.setPIDCookie(4974);" onmousedown="ta.common.header.addClearParam(this);">
+Paris Restoran
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/Attractions-g187147-Activities-Paris_Ile_de_France.html" onclick="ta.util.cookie.setPIDCookie(4977);">
+Paris Gezilecek Yerler
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/LocationPhotos-g187147-Paris_Ile_de_France.html" onclick="ta.util.cookie.setPIDCookie(4979);">
+Paris Resimleri
+</a>
+</li>
+<li class="subItem">
+<a class="subLink " href="/LocalMaps-g187147-Paris-Area.html" onclick="ta.util.cookie.setPIDCookie(4978);">
+Paris Haritası
+</a>
+</li>
+</ul>
+</li>
+<li class="tabItem dropDown jsNavMenu hvrIE6">
+<a class="tabLink arwLink" onclick="ta.util.cookie.setPIDCookie(4965); ta.setEvtCookie('TopNav', 'click', 'Hotels', 0, this.href);" onmousedown="ta.common.header.addClearParam(this);" href="/Hotels-g187147-Paris_Ile_de_France-Hotels.html"><span class="arrow_text">Oteller</span><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht_refresh" src="http://static.tacdn.com/img2/x.gif" alt="" width="9" height="7"></a>
+<ul class="subNav">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-Paris_Ile_de_France-Hotels.html" onmousedown="ta.common.header.addClearParam(this);">Tüm Paris Otelleri</a> </li>
+<li class="subItem">
+<a class="subLink" href="/SmartDeals-g187147-Paris_Ile_de_France-Hotel-Deals.html">Paris Uygun Otel Fiyatları</a> </li>
+<li class="subItem">
+<a class="subLink" href="/LastMinute-g187147-Paris_Ile_de_France-Hotels.html">Son Dakika Paris</a>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink">Otel Türüne Göre
+</span>
+<ul class="secondSubNav" style="top:-0.125em">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zff6-Paris_Ile_de_France-Hotels.html">En İyi Fiyatlı Paris Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zff3-Paris_Ile_de_France-Hotels.html">Romantik Paris Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zff12-Paris_Ile_de_France-Hotels.html">Paris Lüks Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zff4-Paris_Ile_de_France-Hotels.html">Paris Sınırlarındaki En İyi Aile Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zff7-Paris_Ile_de_France-Hotels.html">Paris İş Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zff13-Paris_Ile_de_France-Hotels.html">En iyi spalar</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zff24-Paris_Ile_de_France-Hotels.html">Paris Eko Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-c3-zff26-Paris_Ile_de_France-Hotels.html">Paris Hostelleri</a>
+</li>
+</ul>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink">Otel Sınıfına Göre
+</span>
+<ul class="secondSubNav" style="top:-0.125em;">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfc5-Paris_Ile_de_France-Hotels.html">Paris bölgesindeki 5-yıldızlı Oteller</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfc4-Paris_Ile_de_France-Hotels.html">Paris bölgesindeki 4-yıldızlı Oteller</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfc3-Paris_Ile_de_France-Hotels.html">Paris bölgesindeki 3-yıldızlı Oteller</a>
+</li>
+</ul>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink">Popüler Tesis Olanakları
+</span>
+<ul class="secondSubNav" style="top:-0.125em">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfa9-Paris_Ile_de_France-Hotels.html">Paris Evcil Hayvanlara İzin Veren Oteller</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfa3-Paris_Ile_de_France-Hotels.html">Paris Yüzme Havuzuna Sahip Oteller</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfa7-Paris_Ile_de_France-Hotels.html">Paris Ücretsiz Otopark İmkanına Sahip Oteller</a>
+</li>
+</ul>
+</li>
+<li class="expandSubItem">
+<span class="expandSubLink">Yakın Çevredeki Popüler Yerler
+</span>
+<ul class="secondSubNav" style="top:-0.125em;">
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7236769-Paris_Ile_de_France-Hotels.html">Opéra / Bourse Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7239103-Paris_Ile_de_France-Hotels.html">Montparnasse Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7236768-Paris_Ile_de_France-Hotels.html">Montmartre Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7236770-Paris_Ile_de_France-Hotels.html">Champs-Élysées Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn17585-Paris_Ile_de_France-Hotels.html">Batignolles-Monceau Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7236767-Paris_Ile_de_France-Hotels.html">Tour Eiffel / Invalides Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7236765-Paris_Ile_de_France-Hotels.html">Quartier Latin Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7236762-Paris_Ile_de_France-Hotels.html">Louvre / Palais-Royal Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn7236766-Paris_Ile_de_France-Hotels.html">Saint-Germain-des-Prés Otelleri</a>
+</li>
+<li class="subItem">
+<a class="subLink" href="/Hotels-g187147-zfn17626-Paris_Ile_de_France-Hotels.html">Entrepôt Otelleri</a>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Flights', 0, this.href);" href="/Flights-g187147-Paris_Ile_de_France-Cheap_Discount_Airfares.html" class="tabLink  pid4966">
+Uçak Bileti
+</a>
+</li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'VacationRentals', 0, this.href)" href="/VacationRentals-g187147-Reviews-Paris_Ile_de_France-Vacation_Rentals.html" class="tabLink  pid2795">
+Kiralık Yazlıklar
+</a>
+</li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'Restaurants', 0, this.href);" onmousedown="ta.common.header.addClearParam(this);" href="/Restaurants-g187147-Paris_Ile_de_France.html" class="tabLink  pid4967">
+Restoranlar
+</a>
+</li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'ThingsToDo', 0, this.href)" href="/Attractions-g187147-Activities-Paris_Ile_de_France.html" class="tabLink  pid4969">
+Gezilecek Yerler
+</a>
+</li>
+<li class="tabItem  hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'TravelersChoice', 0, this.href)" href="/TravelersChoice" class="tabLink  pid5087">
+2016 - En İyiler
+</a>
+</li>
+<li id="FRIENDSTAB" class="tabItem tooltip hvrIE6"><a onclick="ta.setEvtCookie('TopNav', 'click', 'YourFriends', 0, this.href);ta.call('ta.common.header.adjustFriendsLink', event, this);" href="/Friends-rnauth" class="tabLink tooltip pid18784">
+Arkadaşlarınız <span id="FBL" class="sprite-facebook15x15"></span>
+</a>
+<div class='overlayContents'><div class='inner2'><div class='help'><div class='hdr'>Seyahatler arkadaşlarla daha da güzelleşir.</div><div class='ttbody'>Arkadaşlarınız size esin kaynağı olsun ve seyahat planlarınızı paylaşın. <a href='/Friends-rnauth' onclick="return ta.call('ta.common.header.adjustFriendsLink', event, this);">Ayrıntılı bilgi</a></div></div></div></div>
+</li>
+<li class="tabItem dropDown jsNavMenu hvrIE6 ">
+<span class="tabLink arwLink"><span class="arrow_text">Daha fazlası</span><img class="arrow_dropdown_wht sprite-arrow_dropdown_wht_refresh" src="http://static.tacdn.com/img2/x.gif" alt="" width="9" height="7"></span>
+<ul class="subNav">
+<li class="subItem ">
+<a href="/apps" onclick="ta.setEvtCookie('TopNav', 'click', 'Apps', 0, this.href)" class="subLink pid18876">Uygulamalar
+</a>
+</li>
+<li class="subItem ">
+<a href="/GreenLeaders" onclick="ta.setEvtCookie('TopNav', 'click', 'GreenLeaders', 0, this.href)" class="subLink pid34563">Eko Liderler
+</a>
+</li>
+<li class="subItem ">
+<a href="#" onclick="ta.call('ta.overlays.Factory.helpCenterLB', event)" class="subLink ">Yardım&nbsp;Merkezi
+</a>
+</li>
+</ul>
+</li>
+<li class="tabItem altItem dropDown warLink">
+<a class="tabLink arwLink" onclick="ta.setEvtCookie('WarGlobalNav', 'ClickLink', '', '0', '/UserReviewRedesign');" href="https://www.tripadvisor.com.tr/UserReview-ehttp%3A__2F____2F__www__2E__tripadvisor__2E__com__2E__tr__2F__AllLocations__2D__g187147__2D__c1__2D__Hotels__2D__Paris__5F__Ile__5F__de__5F__France__2E__html">
+<span class="arrow_text">
+Bir Yorum Yazın <div id="WAR_NOTIFICATION_FLAG" class="lsJewelCounter">
+1+
+</div>
+</span>
+<img class="arrow_dropdown_wht sprite-arrow_dropdown_wht_refresh" src="http://static.tacdn.com/img2/x.gif" alt="" width="9" height="7">
+</a>
+<div class="subNav">
+<div id="WAR_TO_DO_LIST">
+<div id="WAR_ANOTHER_POI" class="warAnotherPOI">
+<div class="warLoc subItem" onclick="ta.setEvtCookie('WAR', 'WAR_PROJECT_GLOBAL_NAV_DROP_DOWN', 'PICK_ANOTHER_POI', '39392', '/UserReviewRedesign');ta.util.cookie.setPIDCookie(39392);location.href='https://www.tripadvisor.com.tr/UserReview-ehttp%3A__2F____2F__www__2E__tripadvisor__2E__com__2E__tr__2F__AllLocations__2D__g187147__2D__c1__2D__Hotels__2D__Paris__5F__Ile__5F__de__5F__France__2E__html'">
+<div class="warLocImg">
+<div class="nophoto thumbNail">
+<img id='lazyload_-71236342_0' class='lodge' src='http://static.tacdn.com/img2/x.gif'/>
+</div>
+</div>
+<div class="warLocDetail">
+<span>
+Gittiğiniz bir yer hakkında yorum yazın </span>
+</div>
+</div>
+</div>
+<div id="WAR_TODO_LOADING">
+<img src="http://static.tacdn.com/img2/spinner.gif"/>
+</div>
+</div>
+</div>
+</li>
+<script>ta.common.header.createNavMenu(ta.find('.warLink'), { initFn: function() { ta.run('ta.overlays.Factory.createWARToDoListOverlay'); }});</script>
+</ul> </div>
+<script>ta.common.header.createNavMenu(ta.select('.jsNavMenu'));</script>
+</div> </div>
+<div id="SECONDARY_NAV_BAR" class="secondaryNavBar scopedSearch">
+<div class="crumbs dark">
+<script type='text/javascript'>
+ta.store('typeahead_closed_label', 'KAPALI'); // CLOSED
+ta.store('typeahead_moved_label', 'TA\u015eINDI'); // MOVED
+ta.store('typeahead_new_location_label', 'YEN\u0130 KONUM'); // NEW LOCATION
+ta.store('typeahead.scoped.all_of_trip', 'D\u00fcnya \u00e7ap\u0131nda');
+ta.store('typeahead.scoped.poi_default_text', 'Aradığınız kategori hangisi?');
+ta.store('typeahead.masthead_options', {showHistory:true, integrateHistory:true,
+focusAction:'history',
+minChars:3, defaultValue:'Ara',
+nextField:false, injectNeighborhoods:true,
+injectNewLocation:true})
+var get_scoped_typeahead = function(evt, element){
+var scopedSearch = ta.retrieve('ta_scoped_typeahead_search');
+if(scopedSearch){
+return scopedSearch;
+}
+var staticTypeAheadOptions = ta.retrieve('typeahead.masthead_options');
+var scopedSearch = ta.call('ta.common.dualsearch.createScopedSearch', evt, element, options={geoID:'187147',
+swapped: false,
+bypassSearch:true,
+staticTypeAheadOptions:staticTypeAheadOptions});
+if(!scopedSearch) {
+return;         }
+scopedSearch.setGeoInfo(187147, 'Paris', 'Ile-de-France, Fransa', {
+GEO:{url:'/Tourism-g187147-Paris_Ile_de_France-Vacations.html'},
+HOTEL:{url:'/Hotels-g187147-Paris_Ile_de_France-Hotels.html'},
+VACATION_RENTAL:{url:'/VacationRentals-g187147-Reviews-Paris_Ile_de_France-Vacation_Rentals.html'},
+ATTRACTION:{url:'/Attractions-g187147-Activities-Paris_Ile_de_France.html'},
+EATERY:{url:'/Restaurants-g187147-Paris_Ile_de_France.html'},
+FLIGHTS_TO:{url:'/Flights-g187147-Paris_Ile_de_France-Cheap_Discount_Airfares.html'},
+NEIGHBORHOOD:{url: ''},
+TRAVEL_GUIDE: {url: ''}});
+scopedSearch.saveGeoInfo();
+return scopedSearch;
+}
+</script>
+<div class="globalSearch"> <div class="navSrch  no_cpu ">
+<form method="get" action="/Search" onsubmit="
+                                    return ta.call('ta.common.dualsearch.scopedSearchSubmitValidate', event, this, '')" id="global_nav_search_form">
+<div id="GEO_SCOPE_CONTAINER" class="geoScopeContainer ">
+<label id="GEO_SCOPED_SEARCH_LABEL" class="text geoScopeLabel" for="GEO_SCOPED_SEARCH_INPUT"></label>
+<input id="GEO_SCOPED_SEARCH_INPUT" type="text" class="text searchInputWide geoScopeInput " onfocus="
+                    var scopedSearch = get_scoped_typeahead(event, this);
+                    if(scopedSearch){
+                      scopedSearch.stopStaticSearch();
+                      scopedSearch.startGeoSearch(false);
+                    }" value="Paris, Ile-de-France, Fransa" placeholder="Gideceğiniz destinasyon neresi?"/>
+</div>
+<span id="MAIN_SEARCH_CONTAINER" class="mainSearchContainer ">
+<label id="STATIC_SEARCH_LABEL" class="text staticSearchLabel" for="mainSearch"></label>
+<input id="mainSearch" type="text" name="q" class="text searchInputWide  focusClear" autocomplete="off" onBlur="if(this.value.trim() == ''){
+                            this.addClass('focusClear');
+                         }" onfocus="if (ta && ta.common) {
+             ta.removeClass(this, 'focusClear');
+                                         ta.trackEventOnPage('TopNav_search', 'focus', '');
+                 var scopedSearch = get_scoped_typeahead(event, this);
+                 if(scopedSearch){
+                  scopedSearch.stopGeoSearch();
+                  scopedSearch.startStaticSearch(false);
+                  var geoInfo = scopedSearch.geoInfo;
+                  if (geoInfo && geoInfo.categories && geoInfo.categories['TRAVEL_GUIDE']) {
+                     ta.trackEventOnPage('TravelGuides_SearchBar', 'impression', geoInfo.geoID, 0, true);
+                  }
+                 }
+
+                                  }" onkeydown="if (ta && (event.keyCode || event.which) === 13){ta.setEvtCookie('TopNav_Search', 'Action', 'Hit_Enter_toSRP', 0, '/Search');}" placeholder="Aradığınız kategori hangisi?"/>
+</span>
+<button id="SEARCH_BUTTON" class="search_button " type="submit" onclick=" if (event.clientY) { ta.id('global_nav_search_form').elements['pid'].value=3825; }" name="sub-search">
+<div class="inner ">Ara</div>
+</button>
+<input id="TYPEAHEAD_GEO_ID" type="hidden" name="geo" value="187147">
+<input type="hidden" name="pid" value="3826">
+<input id="TYPEAHEAD_REDIRECT" type="hidden" name="typeaheadRedirect" value="">
+<input id="TOURISM_REDIRECT" type="hidden" name="redirect" value="">
+<input id="MASTAHEAD_TYPEAHEAD_START_TIME" type="hidden" name="startTime" value="">
+<input id="MASTAHEAD_TYPEAHEAD_UI_ORIGIN" type="hidden" name="uiOrigin" value="">
+<input type="hidden" name="returnTo" value="http%3A__2F____2F__www__2E__tripadvisor__2E__com__2E__tr__2F__AllLocations__2D__g187147__2D__c1__2D__Hotels__2D__Paris__5F__Ile__5F__de__5F__France__2E__html">
+</form>
+</div>
+</div>
+</div> <div class="easyClear"></div>
+</div>
+<div class="breadCrumbBackground blue ">
+<div class="breadCrumbContainer scopedSearch ">
+<ul class="breadcrumbs" id="BREADCRUMBS">
+<li class="breadcrumb_item "><a class="breadcrumb_link" href="/Tourism-g4-Europe-Vacations.html" onclick="ta.setEvtCookie('Breadcrumbs', 'click', 'Continent', 1, this.href); ">Avrupa</a><span class="separator">›</span></li> <li class="breadcrumb_item "><a class="breadcrumb_link" href="/Tourism-g187070-France-Vacations.html" onclick="ta.setEvtCookie('Breadcrumbs', 'click', 'Country', 2, this.href); ">Fransa</a><span class="separator">›</span></li> <li class="breadcrumb_item "><a class="breadcrumb_link" href="/Tourism-g187144-Ile_de_France-Vacations.html" onclick="ta.setEvtCookie('Breadcrumbs', 'click', 'Region', 3, this.href); ">Ile-de-France</a><span class="separator">›</span></li> <li class="breadcrumb_item "><a class="breadcrumb_link" href="/Tourism-g187147-Paris_Ile_de_France-Vacations.html" onclick="ta.setEvtCookie('Breadcrumbs', 'click', 'City', 4, this.href); ">Paris</a></li>
+</ul>
+</div>
+</div>
+<div id="MAINWRAP" class=" ">
+<div id="MAIN" class="AllLocations
+         prodp13n_jfy_overflow_visible
+    ">
+<div id="LEFTNAV" class="col">
+<h2 class="geoHeader">Paris</h2>
+<div class="lhnHigh onShow">
+<ul>
+<li class="firstItem">
+<a class="k_overview" href="/Tourism-g187147-Paris_Ile_de_France-Vacations.html">
+Paris Seyahat
+</a>
+</li>
+<li>
+<a class="k_hotels" href="/Hotels-g187147-Paris_Ile_de_France-Hotels.html">
+Paris Otelleri
+</a>
+</li>
+<li>
+<a class="k_vacation_rentals pid35933" href="/VacationRentals-g187147-Reviews-Paris_Ile_de_France-Vacation_Rentals.html">
+Kiralık Yazlıklar
+</a>
+</li>
+<li>
+<a class="k_vacation_packages" href="/Vacation_Packages-g187147-Paris_Ile_de_France-Vacations.html">
+Paris Tatil Paketleri
+</a>
+</li>
+<li>
+<a class="k_flights" href="/Flights-g187147-Paris_Ile_de_France-Cheap_Discount_Airfares.html">
+Paris Uçak Bileti
+</a>
+</li>
+<li>
+<a class="k_deals" href="/SmartDeals-g187147-Paris_Ile_de_France-Hotel-Deals.html">
+Paris Otel Fiyatları
+</a>
+</li>
+<li class=" navTitle">
+Paris hakkında daha fazlası
+</li>
+<li>
+<a class="k_dining" href="/Restaurants-g187147-Paris_Ile_de_France.html" onclick="setOneTimeCookie('mcreset','true')">
+Restoranlar
+</a>
+</li>
+<li>
+<a class="k_things_to_do" href="/Attractions-g187147-Activities-Paris_Ile_de_France.html">
+Gezilecek Yerler
+</a>
+</li>
+<li>
+<a class="u_/LocationPhotos-g187147-Paris_Ile_de_France.html k_photos_and_videos" href="/LocationPhotos-g187147-Paris_Ile_de_France.html" onclick="return ta.call('ta.overlays.Factory.photosLB', event, this);">
+Resimler ve Videolar
+</a>
+</li>
+<li>
+<a class="js_popup k_maps" href="/LocalMaps-g187147-Paris-Area.html">
+Harita
+</a>
+</li>
+<li class=" navTitle">
+Paris Fırsatları
+</li>
+<li>
+<a class="k_packages" href="/Packages-g187147-Vacation-Package-Discount-Paris_Ile_de_France.html">
+Tatil Paketleri
+</a>
+</li>
+</ul>
+</div>
+<div id="CMSPOLLBOX" class="bx cmsPoll">
+</div>
+<div class="bx01 deals sidebar_s_nav  ">
+<h3 class="deals_title">Paris için diğer bilgi kaynakları:</h3>
+<ul>
+<li class="deals_item">
+<a href="/Hotels-g187147-c2-Paris_Ile_de_France-Hotels.html">Paris Oda ve Kahvaltı</a>
+</li>
+<li class="deals_item">
+<a href="/LocalMaps-g187147-Paris-Area.html">Paris Harita</a>
+</li>
+</ul>
+</div>
+</div>
+<div id="BODYCON" class="col poolB adjust_padding new_meta_chevron_v2">
+<div class="wrpHeader">
+</div>
+<p style="margin-top: 20px;">
+<b>Paris Otelleri</b>
+| <a href="/AllLocations-g187147-c7-HotelsFilters-Paris_Ile_de_France.html">Paris bölgesinde Türe göre Oteller</a>
+| <a href="/AllLocations-g187147-c11-HotelsNeighborhood-Paris_Ile_de_France.html">Bölgeye göre Paris Otelleri</a>
+| <a href="/AllLocations-g187147-c12-HotelsTypeNeighborhood-Paris_Ile_de_France.html">Türe ve Bölgeye Göre Paris Otelleri</a>
+| <a href="/AllLocations-g187147-c2-Attractions-Paris_Ile_de_France.html">Paris Gezilecek Yerler</a>
+| <a href="/AllLocations-g187147-c6-AttractionsFilters-Paris_Ile_de_France.html">Paris bölgesinde türe göre gezilecek yerler</a>
+| <a href="/AllLocations-g187147-c15-AttractionsNeighborhood-Paris_Ile_de_France.html">Paris Gezilecek Yer (Yakın Çevreye Göre)</a>
+| <a href="/AllLocations-g187147-c18-AttractionsTypeNeighborhood-Paris_Ile_de_France.html">Paris Gezilecek Yer Türü (Yakın Çevreye Göre)</a>
+| <a href="/AllLocations-g187147-c3-Restaurants-Paris_Ile_de_France.html">Paris Restoran</a>
+| <a href="/AllLocations-g187147-c5-RestaurantsFilters-Paris_Ile_de_France.html">Şu Türdeki Paris Restoranları</a>
+| <a href="/AllLocations-g187147-c13-DishPages-Paris_Ile_de_France.html">Paris Yemek Sayfaları</a>
+| <a href="/AllLocations-g187147-c9-RestaurantNeighbourhood-Paris_Ile_de_France.html">Yakın Çevredeki Paris Restoranları</a>
+| <a href="/AllLocations-g187147-c8-RestaurantDiningOptions-Paris_Ile_de_France.html">Paris bölgesinde Yemek Seçeneklerine Göre Restoranlar</a>
+| <a href="/AllLocations-g187147-c16-Places-Paris_Ile_de_France.html">Paris bölgesindeki kaynakların yakınlarındaki restoranlar</a>
+| <a href="/AllLocations-g187147-c17-Places-Paris_Ile_de_France.html">Paris bölgesindeki kaynakların yakınlarındaki gezilecek yerler</a>
+| <a href="/AllLocations-g187147-c10-VacationRentals-Paris_Ile_de_France.html">Kiralık Yazlıklar</a>
+| <a href="/pages/site_map_flights.html">Uçak Bileti</a>
+| <a href="/pages/site_map_tripadvisor.html">TripAdvisor sayfaları</a>
+</p>
+<p style="font-size: small">
+Bir seviye üste: <a href="/AllLocations-g187144-c1-Hotels-Ile_de_France.html">Ile-de-France</a>
+</p>
+<h1><a href="/Hotels-g187147-Paris_Ile_de_France-Hotels.html">Paris Otelleri</a></h1>
+<div style="margin-left: 25px; margin-top: 10px;text-align:center">
+Daha Fazla Konaklama:
+<strong>1</strong>
+| <a href="/AllLocations-g187147-c1-o100-Hotels-Paris_Ile_de_France.html">2</a>
+| <a href="/AllLocations-g187147-c1-o200-Hotels-Paris_Ile_de_France.html">3</a>
+| <a href="/AllLocations-g187147-c1-o300-Hotels-Paris_Ile_de_France.html">4</a>
+| <a href="/AllLocations-g187147-c1-o400-Hotels-Paris_Ile_de_France.html">5</a>
+| <a href="/AllLocations-g187147-c1-o500-Hotels-Paris_Ile_de_France.html">6</a>
+| <a href="/AllLocations-g187147-c1-o600-Hotels-Paris_Ile_de_France.html">7</a>
+| <a href="/AllLocations-g187147-c1-o700-Hotels-Paris_Ile_de_France.html">8</a>
+| <a href="/AllLocations-g187147-c1-o800-Hotels-Paris_Ile_de_France.html">9</a>
+| <a href="/AllLocations-g187147-c1-o900-Hotels-Paris_Ile_de_France.html">10</a>
+| <a href="/AllLocations-g187147-c1-o1000-Hotels-Paris_Ile_de_France.html">11</a>
+| <a href="/AllLocations-g187147-c1-o1100-Hotels-Paris_Ile_de_France.html">12</a>
+| <a href="/AllLocations-g187147-c1-o1200-Hotels-Paris_Ile_de_France.html">13</a>
+| <a href="/AllLocations-g187147-c1-o1300-Hotels-Paris_Ile_de_France.html">14</a>
+| <a href="/AllLocations-g187147-c1-o1400-Hotels-Paris_Ile_de_France.html">15</a>
+| <a href="/AllLocations-g187147-c1-o1500-Hotels-Paris_Ile_de_France.html">16</a>
+| <a href="/AllLocations-g187147-c1-o1600-Hotels-Paris_Ile_de_France.html">17</a>
+| <a href="/AllLocations-g187147-c1-o1700-Hotels-Paris_Ile_de_France.html">18</a>
+| <a href="/AllLocations-g187147-c1-o1800-Hotels-Paris_Ile_de_France.html">19</a>
+| <a href="/AllLocations-g187147-c1-o1900-Hotels-Paris_Ile_de_France.html">20</a>
+| <a href="/AllLocations-g187147-c1-o2000-Hotels-Paris_Ile_de_France.html">21</a>
+</div>
+<br/><br/>
+<table style="width:100%">
+<tr>
+<td style="vertical-align: top; width: 50%;">
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1813721-Reviews-121_Hotel_Paris-Paris_Ile_de_France.html">121 Hotel Paris</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d472236-Reviews-1K_Paris-Paris_Ile_de_France.html">1K Paris</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197498-Reviews-3_Crowns_Etoile_Hotel-Paris_Ile_de_France.html">3 Crowns Etoile Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d286337-Reviews-3_Ducks_Hostel-Paris_Ile_de_France.html">3 Ducks Hostel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d588215-Reviews-3_Rooms-Paris_Ile_de_France.html">3 Rooms</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197618-Reviews-9HOTEL_MONTPARNASSE-Paris_Ile_de_France.html">9HOTEL MONTPARNASSE</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d664226-Reviews-9HOTEL_OPERA-Paris_Ile_de_France.html">9HOTEL OPERA</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d229579-Reviews-9HOTEL_REPUBLIQUE-Paris_Ile_de_France.html">9HOTEL REPUBLIQUE</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1547787-Reviews-A_Paris_BNB-Paris_Ile_de_France.html">A Paris BNB</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d613301-Reviews-A_Room_in_Paris-Paris_Ile_de_France.html">A Room in Paris</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d6612756-Reviews-AC_Hotel_Paris_Porte_Maillot-Paris_Ile_de_France.html">AC Hotel Paris Porte Maillot</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d274657-Reviews-AMADEUS_Hotel-Paris_Ile_de_France.html">AMADEUS Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1145362-Reviews-ATN-Paris_Ile_de_France.html">ATN</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d239629-Reviews-Aberotel_Montparnasse-Paris_Ile_de_France.html">Aberotel Montparnasse</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d653109-Reviews-Abotel_Beaune_Saint_Germain-Paris_Ile_de_France.html">Abotel Beaune Saint Germain</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197460-Reviews-Abotel_Bouquet_De_Longchamp-Paris_Ile_de_France.html">Abotel Bouquet De Longchamp</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1161348-Reviews-Abotel_Crown_Elysees_Hotel-Paris_Ile_de_France.html">Abotel Crown Elysees Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197612-Reviews-Abotel_Transcontinental-Paris_Ile_de_France.html">Abotel Transcontinental</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d232547-Reviews-Abrial_Hotel-Paris_Ile_de_France.html">Abrial Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d232543-Reviews-Abricotel_Hotel-Paris_Ile_de_France.html">Abricotel Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d535057-Reviews-Absolute_Hotel-Paris_Ile_de_France.html">Absolute Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d274973-Reviews-Acacias_Etoile_Hotel-Paris_Ile_de_France.html">Acacias Etoile Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d228770-Reviews-Acacias_Hotel_De_Ville-Paris_Ile_de_France.html">Acacias Hotel De Ville</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1115210-Reviews-Adagio_Access_Paris_Bastille-Paris_Ile_de_France.html">Adagio Access Paris Bastille</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d289321-Reviews-Adagio_Access_Paris_La_Villette-Paris_Ile_de_France.html">Adagio Access Paris La Villette</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d559408-Reviews-Adagio_Access_Paris_Philippe_Auguste-Paris_Ile_de_France.html">Adagio Access Paris Philippe Auguste</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d483114-Reviews-Adagio_Access_Paris_Tilsitt_Champs_Elysees_ex_Citea-Paris_Ile_de_France.html">Adagio Access Paris Tilsitt Champs Elysees - ex-Citea</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d578345-Reviews-Adagio_Access_Paris_Tour_Eiffel_Saint_Charles-Paris_Ile_de_France.html">Adagio Access Paris Tour Eiffel Saint Charles</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1142855-Reviews-Adagio_Paris_Bercy_Village-Paris_Ile_de_France.html">Adagio Paris Bercy Village</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d233799-Reviews-Adagio_Paris_Buttes_Chaumont-Paris_Ile_de_France.html">Adagio Paris Buttes Chaumont</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197536-Reviews-Adagio_Paris_Haussmann_Champs_Elysees-Paris_Ile_de_France.html">Adagio Paris Haussmann Champs-Elysees</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197570-Reviews-Adagio_Paris_Montmartre-Paris_Ile_de_France.html">Adagio Paris Montmartre</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1141316-Reviews-Adagio_Paris_Opera-Paris_Ile_de_France.html">Adagio Paris Opera</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197664-Reviews-Adagio_Paris_Tour_Eiffel-Paris_Ile_de_France.html">Adagio Paris Tour Eiffel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d248401-Reviews-Adagio_Paris_XV-Paris_Ile_de_France.html">Adagio Paris XV</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d3914332-Reviews-Adveniat_Paris-Paris_Ile_de_France.html">Adveniat Paris</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1443611-Reviews-Aero_Hotel-Paris_Ile_de_France.html">Aero Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d649872-Reviews-Agate_Hotel-Paris_Ile_de_France.html">Agate Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d222912-Reviews-Agora_Saint_Germain-Paris_Ile_de_France.html">Agora Saint Germain</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d232541-Reviews-Aiglon_Hotel-Paris_Ile_de_France.html">Aiglon Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d489086-Reviews-Alane_Hotel-Paris_Ile_de_France.html">Alane Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d483697-Reviews-Alba_Opera_Hotel-Paris_Ile_de_France.html">Alba Opera Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197643-Reviews-Albert_1er-Paris_Ile_de_France.html">Albert 1er</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1167829-Reviews-Albert_Premier-Paris_Ile_de_France.html">Albert Premier</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d272410-Reviews-Alexandrine_Opera-Paris_Ile_de_France.html">Alexandrine Opera</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1509142-Reviews-Alfa_Hotel_Nation-Paris_Ile_de_France.html">Alfa Hotel Nation</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d233389-Reviews-Alison_Madeleine_St_Honore_Hotel-Paris_Ile_de_France.html">Alison Madeleine St. Honore Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1196902-Reviews-All_Suite_Eiffel_Tower_Flatotel-Paris_Ile_de_France.html">All Suite Eiffel Tower Flatotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d649873-Reviews-Allety_Hotel-Paris_Ile_de_France.html">Allety Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d2040032-Reviews-Alliance_Hotel-Paris_Ile_de_France.html">Alliance Hotel</a> </div>
+</td>
+<td style="vertical-align: top; width: 50%;">
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d228018-Reviews-Alliance_Hotel_Paris_Place_d_Italie-Paris_Ile_de_France.html">Alliance Hotel Paris Place d'Italie</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d286331-Reviews-Aloha_Hostel-Paris_Ile_de_France.html">Aloha Hostel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1192614-Reviews-Alyss_Saphir_Cambronne_Eiffel-Paris_Ile_de_France.html">Alyss Saphir Cambronne Eiffel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d274975-Reviews-Amarante_Beau_Manoir_Hotel-Paris_Ile_de_France.html">Amarante Beau Manoir Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d229534-Reviews-Amarante_Champs_Elysees-Paris_Ile_de_France.html">Amarante Champs-Elysées</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197620-Reviews-Ambassade_Hotel-Paris_Ile_de_France.html">Ambassade Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d233385-Reviews-Ambassadeur_Hotel-Paris_Ile_de_France.html">Ambassadeur Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d613104-Reviews-Amhotel_Italie-Paris_Ile_de_France.html">Amhotel Italie</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d581059-Reviews-Amiot_Hotel-Paris_Ile_de_France.html">Amiot Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d251733-Reviews-Ampere_Hotel-Paris_Ile_de_France.html">Ampere Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d2578452-Reviews-Angely_Hotel-Paris_Ile_de_France.html">Angely Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d2334226-Reviews-Anya_Hotel-Paris_Ile_de_France.html">Anya Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d5040938-Reviews-Aparthotel_Adagio_Access_Paris_Reuilly-Paris_Ile_de_France.html">Aparthotel Adagio Access Paris Reuilly</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d3513066-Reviews-Aparthotel_L_Empire-Paris_Ile_de_France.html">Aparthotel L'Empire</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1146514-Reviews-Apartments_Trocadero_Upper_16TH-Paris_Ile_de_France.html">Apartments Trocadero Upper 16TH</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d233386-Reviews-Apollo_Opera_Paris-Paris_Ile_de_France.html">Apollo Opera Paris</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1234406-Reviews-Apostrophe_Hotel-Paris_Ile_de_France.html">Apostrophe Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1142187-Reviews-Appart_Valley_Les_Jardins_Du_Roy-Paris_Ile_de_France.html">Appart Valley Les Jardins Du Roy</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d530491-Reviews-Appart_City_Paris_La_Villette-Paris_Ile_de_France.html">Appart'City Paris La Villette</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1901621-Reviews-Appart_hotel_Inn_City-Paris_Ile_de_France.html">Appart'hotel Inn City</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d5889047-Reviews-Appartement_Butte_Montmartre-Paris_Ile_de_France.html">Appartement Butte Montmartre</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d2686946-Reviews-Appartement_Montmartre-Paris_Ile_de_France.html">Appartement Montmartre</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d6428384-Reviews-Appartement_Passy-Paris_Ile_de_France.html">Appartement Passy</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1582602-Reviews-Appartement_d_hotes_Folie_Mericourt-Paris_Ile_de_France.html">Appartement d'hotes Folie Mericourt</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d6393360-Reviews-Appartements_Arc_de_Triomphe-Paris_Ile_de_France.html">Appartements Arc de Triomphe</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d2236433-Reviews-Appartements_Premium_Montmartre-Paris_Ile_de_France.html">Appartements Premium Montmartre</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d596303-Reviews-Appi_Hotel-Paris_Ile_de_France.html">Appi Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d269341-Reviews-Appia_la_Fayette_Hotel-Paris_Ile_de_France.html">Appia la Fayette Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d282309-Reviews-Apt_Dragon_St_Germain_des_Pres-Paris_Ile_de_France.html">Apt Dragon St Germain des Pres</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d264541-Reviews-Arcadie_Montparnasse-Paris_Ile_de_France.html">Arcadie Montparnasse</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d563087-Reviews-Arcantis_Hotel_Royal_Bel_Air-Paris_Ile_de_France.html">Arcantis Hotel Royal Bel Air</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d282151-Reviews-Art_Hotel-Paris_Ile_de_France.html">Art Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1875252-Reviews-Art_Hotel_Batignolles-Paris_Ile_de_France.html">Art Hotel Batignolles</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1829737-Reviews-Art_Hotel_Congres-Paris_Ile_de_France.html">Art Hotel Congres</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d4079389-Reviews-Art_Hotel_Eiffel-Paris_Ile_de_France.html">Art Hotel Eiffel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d194278-Reviews-Artus_Hotel-Paris_Ile_de_France.html">Artus Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d634666-Reviews-Arty_Paris-Paris_Ile_de_France.html">Arty Paris</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d228765-Reviews-Aston_Hotel_Paris-Paris_Ile_de_France.html">Aston Hotel Paris</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d231045-Reviews-Atel_Alcyon-Paris_Ile_de_France.html">Atel Alcyon</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d231046-Reviews-Atel_Avenir-Paris_Ile_de_France.html">Atel Avenir</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d233457-Reviews-Atel_De_France-Paris_Ile_de_France.html">Atel De France</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d233510-Reviews-Atel_Prince_Hotel_Forum-Paris_Ile_de_France.html">Atel Prince Hotel Forum</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1209486-Reviews-Atel_de_Paris_Nord-Paris_Ile_de_France.html">Atel de Paris Nord</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d233383-Reviews-Atelier_Montparnasse-Paris_Ile_de_France.html">Atelier Montparnasse</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d235548-Reviews-Atelier_Saint_Germain-Paris_Ile_de_France.html">Atelier Saint-Germain</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d197968-Reviews-Atlantic_Hotel-Paris_Ile_de_France.html">Atlantic Hotel</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d207574-Reviews-Au_Manoir_Saint_Germain_De_Pres-Paris_Ile_de_France.html">Au Manoir Saint Germain De Pres</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d499946-Reviews-Au_Palais_Gourmand-Paris_Ile_de_France.html">Au Palais Gourmand</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d2454554-Reviews-Au_Royal_Mad-Paris_Ile_de_France.html">Au Royal Mad</a> </div>
+<div style="margin-bottom: 10px;"><a href="/Hotel_Review-g187147-d1056120-Reviews-Au_Sourire_de_Montmartre-Paris_Ile_de_France.html">Au Sourire de Montmartre</a> </div>
+</td>
+</tr>
+</table>
+<br/> <br/>
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: '2', c2: '6036461', c3: '', c4: '' });
+var _csload = function() {
+var s = document.createElement('script'), el = document.getElementsByTagName('script')[0]; s.async = true;
+s.src = (document.location.protocol == 'https:' ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+el.parentNode.insertBefore(s, el);
+};
+ta.queueForLoad(_csload, 5, 'comscore');
+</script>
+<noscript>
+<img class='tracking' height='1' width='1' src='http://b.scorecardresearch.com/p?c1=2&c2=6036461&c3=&c4=&c5=&c6=&c15=&cv=2.0&cj=1'/>
+</noscript>
+</div>
+</div> </div>
+<div id="FOOT_CONTAINER">
+<div id="FOOT">
+<div class="corporate wrap">
+<div class="col balance">
+<div class="block">
+<dl class="sep brand">
+<dt>
+<img width='132' alt='TripAdvisor' id='lazyload_-71236342_1' src='http://static.tacdn.com/img2/x.gif'/>
+</dt>
+<dd class="meta">
+Mükemmel gezinizi planlayıp rezervasyon yaptırabilmeniz için oteller, tatil köyleri, uçuşlar, kiralık yazlıklar, seyahat paketleri ve daha fazlasıyla ilgili yorumlar ve öneriler!
+</dd>
+</dl>
+<div class="sep internal">
+<span><a class="taLnk" href="/pages/about_us.html">Hakkımızda</a></span>
+| <span class="taLnk" onclick="return ta.call('ta.overlays.Factory.helpCenterLB', event);">Yardım&nbsp;Merkezi <img alt='' width='14' id='lazyload_-71236342_2' height='10' src='http://static.tacdn.com/img2/x.gif'/></span> </div>
+<div class="sep legal">
+<div class="copyright">
+© 2016 TripAdvisor LLC Tüm hakları saklıdır. TripAdvisor <a href="/pages/terms.html">Kullanım Koşulları</a> ve <a href="/pages/privacy.html">Gizlilik Politikası</a>.
+</div>
+<div class="vfm_disclaimer">
+</div>
+<div id="PDISCLAIMER" class="disclaimer">
+* TripAdvisor LLC bir rezervasyon acentesi değildir ve sitemizin kullanıcılarından herhangi bir hizmet bedeli talep etmez... (<span id="TERMS" class="taLnk hvrIE6" onclick="getFullDisclaimerText()">diğer</span>) </div>
+<div class="disclaimer">TripAdvisor LLC başka internet sitelerinin içeriğinden sorumlu değildir. Fiyat içeriğine vergi ve ücretler dahil değildir.</div>
+</div>
+</div> </div> </div>
+</div> </div>
+</div>
+<script type="text/javascript">
+ta.queueForReady( function() {
+ta.localStorage && ta.localStorage.updateSessionId('B9356E0CBE0B3DB5832BC7A1AC5B8EF4');
+}, 1, "reset localStorage session id");
+</script>
+<script type="text/javascript">
+ta.store('ta.commerce.suppress_commerce_impressions.enabled', true);
+</script>
+<script type="text/javascript">
+ta.store('typeahead.typeahead2_mixed_ui', true);
+ta.store('typeahead.elasticsearch_include_geo_pages', true);
+ta.store('typeahead.typeahead2_geo_segmented_ui', true);
+ta.store('typeahead.integrate_recently_viewed', true);
+ta.store('typeahead.destination_icons', "http://static.tacdn.com/img2/langs/tr/icons/typeahead/destination_icons.png");
+ta.store('typeahead.geoArea', 'Paris bölgesi');       ta.store('typeahead.worldwide', 'Dünya Çapında');       ta.store('typeahead.noResultsFound', 'Sonuç bulunamadı.');       ta.store('typeahead.searchForPrompt', "Aranan");
+ta.store('typeahead.location', "Yer");                  ta.store('typeahead.restaurant', "Restoran");           ta.store('typeahead.attraction', "Gezilecek Yer");           ta.store('typeahead.hotel', "Otel");
+ta.store('typeahead.restaurant_list', "Restoranlar");         ta.store('typeahead.attraction_list', "Gözde mekanlar");         ta.store('typeahead.things_to_do', "Gezilecek Yerler");                   ta.store('typeahead.hotel_list', "Oteller");                   ta.store('typeahead.vacation_rental_list', "Kiralık Yazlıklar");
+ta.store('typeahead.scoped.static_local_label', '% bölgesi');       ta.store('typeahead.scoped.result_title_text', 'Yazmaya başlayın veya şu tavsiyelerden birini deneyin...');       ta.store('typeahead.scoped.poi_overview_geo', '% Hakkında <span class="poi_overview_item">Genel Bilgi</span>');       ta.store('typeahead.scoped.poi_hotels_geo', '% içindeki <span class="poi_overview_item">Oteller</span>');       ta.store('typeahead.scoped.poi_vr_geo', '% içindeki <span class="poi_overview_item">Kiralık Yazlıklar</span>');       ta.store('typeahead.scoped.poi_attractions_geo', '% içinde <span class="poi_overview_item">Yapılacak Şeyler</span>');       ta.store('typeahead.scoped.poi_eat_geo', '% içindeki <span class="poi_overview_item">Restoranlar</span>');       ta.store('typeahead.scoped.poi_flights_geo', '% için <span class="poi_overview_item">Uçak Biletleri</span>');       ta.store('typeahead.scoped.poi_nbrhd_geo', '% ilinin <span class="poi_overview_item">yakın çevresindekiler</span>');       ta.store('typeahead.scoped.poi_travel_guides_geo', '% bölgesindeki <span class="poi_overview_item">Seyahat Rehberleri</span>');
+ta.store('typeahead.scoped.overview', 'Genel Bakış');       ta.store('typeahead.scoped.flights', 'Uçak Bileti');       ta.store('typeahead.scoped.neighborhoods', 'Yakın Çevredekiler');       ta.store('typeahead.scoped.travel_guides', 'Seyahat Rehberleri');
+ta.store('typeahead.scoped.geo_area_template', '% bölgesi');
+ta.store('typeahead.searchMore', '"%" için daha fazla sonuç bul');
+ta.store('typeahead.history', "Son incelenenler");       ta.store('typeahead.history.all_caps', "SON GÖRÜNTÜLENENLER");       ta.store('typeahead.popular_destinations', "POPÜLER DESTİNASYONLAR");
+ta.store('typeahead.recentHistoryList', [{"war_url":"https:\/\/www.tripadvisor.com.tr\/UserReview-g187147-d7182695-Maison_Souquet-Paris_Ile_de_France.html","normalized_name":"maison souquet","type":"HOTEL","title":"Oteller","is_vr":false,"url":"\/Hotel_Review-g187147-d7182695-Reviews-Maison_Souquet-Paris_Ile_de_France.html","urls":[{"url_type":"hotel","name":"Maison Souquet, Paris, Ile-de-France, Fransa","type":"HOTEL","url":"\/Hotel_Review-g187147-d7182695-Reviews-Maison_Souquet-Paris_Ile_de_France.html"}],"is_broad":false,"scope":"global","name":"Maison Souquet, Paris, Ile-de-France, Fransa","data_type":"LOCATION","details":{"parent_name":"Paris","grandparent_name":"Fransa","name":"Maison Souquet","parent_ids":[187147,187144,187070,4,1],"geo_name":"Paris, Ile-de-France, Fransa"},"value":7182695},{"lookbackServlet":null,"normalized_name":"paris","title":"Varış Noktaları","type":"GEO","is_vr":true,"url":"\/Tourism-g187147-Paris_Ile_de_France-Vacations.html","urls":[{"url_type":"geo","name":"Paris Turizmi","type":"GEO","url":"\/Tourism-g187147-Paris_Ile_de_France-Vacations.html"},{"url_type":"vr","name":"Paris Devremülk","type":"VACATION_RENTAL","url":"\/VacationRentals-g187147-Reviews-Paris_Ile_de_France-Vacation_Rentals.html"},{"url_type":"eat","name":"Paris Restoran","type":"EATERY","url":"\/Restaurants-g187147-Paris_Ile_de_France.html"},{"url_type":"attr","name":"Paris Gözde Mekan","type":"ATTRACTION","url":"\/Attractions-g187147-Activities-Paris_Ile_de_France.html"},{"url_type":"hotel","name":"Paris Otelleri","type":"HOTEL","url":"\/Hotels-g187147-Paris_Ile_de_France-Hotels.html"},{"url_type":"flights_to","name":"Paris bölgesine uçuşlar","type":"FLIGHTS_TO","url":"\/Flights-g187147-Paris_Ile_de_France-Cheap_Discount_Airfares.html"}],"is_broad":false,"scope":"global","name":"Paris, Ile-de-France, Fransa","data_type":"LOCATION","details":{"parent_name":"Fransa","grandparent_name":"Avrupa","rac_enabled":true,"name":"Paris","parent_ids":[187144,187070,4,1],"geo_name":"Ile-de-France, Fransa"},"value":187147,"coords":"48.857037,2.349401"},{"lookbackServlet":null,"normalized_name":"fransa","title":"Varış Noktaları","type":"GEO","is_vr":true,"url":"\/Tourism-g187070-France-Vacations.html","urls":[{"url_type":"geo","name":"Fransa Turizmi","type":"GEO","url":"\/Tourism-g187070-France-Vacations.html"},{"url_type":"vr","name":"Fransa Devremülk","type":"VACATION_RENTAL","url":"\/VacationRentals-g187070-Reviews-France-Vacation_Rentals.html"},{"url_type":"eat","name":"Fransa Restoran","type":"EATERY","url":"\/Restaurants-g187070-France.html"},{"url_type":"attr","name":"Fransa Gözde Mekan","type":"ATTRACTION","url":"\/Attractions-g187070-Activities-France.html"},{"url_type":"hotel","name":"Fransa Otelleri","type":"HOTEL","url":"\/Hotels-g187070-France-Hotels.html"},{"url_type":"flights_to","name":"Fransa bölgesine uçuşlar","type":"FLIGHTS_TO","url":"\/Flights-g187070-France-Cheap_Discount_Airfares.html"}],"is_broad":true,"scope":"global","name":"Fransa, Avrupa","data_type":"LOCATION","details":{"parent_name":"Avrupa","grandparent_name":"Dünya","rac_enabled":true,"name":"Fransa","parent_ids":[4,1],"geo_name":"Avrupa"},"value":187070,"coords":"48.864765,2.343772"},{"lookbackServlet":null,"normalized_name":"avrupa","title":"Varış Noktaları","type":"GEO","is_vr":true,"url":"\/Tourism-g4-Europe-Vacations.html","urls":[{"url_type":"geo","name":"Avrupa Turizmi","type":"GEO","url":"\/Tourism-g4-Europe-Vacations.html"},{"url_type":"vr","name":"Avrupa Devremülk","type":"VACATION_RENTAL","url":"\/VacationRentals-g4-Reviews-Europe-Vacation_Rentals.html"},{"url_type":"eat","name":"Avrupa Restoran","type":"EATERY","url":"\/Restaurants-g4-Europe.html"},{"url_type":"attr","name":"Avrupa Gözde Mekan","type":"ATTRACTION","url":"\/Attractions-g4-Activities-Europe.html"},{"url_type":"hotel","name":"Avrupa Otelleri","type":"HOTEL","url":"\/Hotels-g4-Europe-Hotels.html"},{"url_type":"flights_to","name":"Avrupa bölgesine uçuşlar","type":"FLIGHTS_TO","url":"\/Flights-g4-Europe-Cheap_Discount_Airfares.html"}],"is_broad":true,"scope":"global","name":"Avrupa, Dünya","data_type":"LOCATION","details":{"rac_enabled":true,"name":"Avrupa","parent_ids":[1],"geo_name":"Dünya"},"value":4,"coords":"49.496674,7.822266"}]);
+</script>
+<script type="text/javascript">
+ta.store('metaCheckRatesUpdateDivInline', 'PROVIDER_BLOCK_INLINE');
+ta.store('metaInlineGeoId', '');
+ta.store('meta.session_dates', true);
+</script>
+<script>
+</script>
+<script type="text/javascript">
+ta.store('meta.session_dates', true);
+ta.store('metaCheckRatesUpdateDiv', 'PROVIDER_BLOCK');
+ta.store('checkrates.meta_ui_sk_box_v3', true)
+ta.store('checkrates.one_second_xsell', true);
+</script>
+<script>
+ta.store("lightbox_improvements", true);
+ta.store("checkrates.hr_bc_see_all_click.lb", true);
+</script>
+<script type="text/javascript">
+ta.store("hotels_meta_focus", 4);
+</script>
+<script type="text/javascript">
+var metaCheckRatesCSS = 'http://static.tacdn.com/css2/meta_ui_sk_box_chevron-v2980097277b.css';
+ta.store('metaCheckRatesFeatureEnabled', true);
+</script>
+<script type="text/javascript">
+ta.store('mapProviderFeature.maps_api','ta-maps-gmaps3');
+</script>
+<script type="text/javascript">
+var dropdownMetaCSS = "http://static.tacdn.com/css2/meta_drop_down_overlay-tr-v21045000880b.css";
+</script>
+<script type="text/javascript">
+ta.store('metaDatePickerEnabled', true);
+var common_skip_dates = "Belirli bir tarih olmadan ara";
+ta.store('multiDP.skipDates', "Belirli bir tarih olmadan ara");         ta.store('multiDP.inDate', "2016 1 26");
+ta.store('multiDP.outDate', "2016 1 27");
+ta.store('multiDP.multiNightsText', "2 gece");         ta.store('multiDP.singleNightText', "1 gece");         ta.store('calendar.preDateText', "gg.aa.yyyy");
+ta.store('multiDP.adultsCount', "2");
+ta.store('multiDP.singleAdultsText', "1 konuk");         ta.store('multiDP.multiAdultsText', "2 konuk");         ta.store('multiDP.enterDatesText', "Tarihleri girin");                 ta.store('multiDP.checkIn', "Check-in");         ta.store('multiDP.checkOut', "Check-out");         ta.store('multiDP.isMondayFirstDayOfWeek', true);
+ta.store('multiDP.dateSeparator', " - ");
+ta.store('multiDP.dateRangeEllipsis', "Arıyor: %%%...");
+ta.store('multiDP.abbrevMonthList', ["Oca", "Şub", "Mar", "Nis", "Mayıs", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]);
+ta.store('multiDP.checkIn', "gg.aa.yyyy");           ta.store('multiDP.checkOut', "gg.aa.yyyy");               </script>
+<script type="text/javascript">
+(function(window,ta,undefined){
+try {
+ta = window.ta = window.ta || {};
+ta.uid = 'VqcnxwoQLnQAAjUM62EAAAAR';
+ta.userLoggedIn = false;
+ta.userSecurelyLoggedIn = false;
+}
+catch (e) {
+if(ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record(e,'global_ga.vm');
+}
+}
+}(window,ta));
+</script>
+<script type="text/javascript">
+(function(window,ta,undefined){
+try {
+ta = window.ta = window.ta || {};
+ta.uid = 'VqcnxwoQLnQAAjUM62EAAAAR';
+ta.userLoggedIn = false;
+ta.userSecurelyLoggedIn = false;
+if (ta.prerender && ta.prerender._init){
+ta.prerender._init(true);
+}
+var _gaq = window._gaq = window._gaq || []
+, pageDataStack = ta.analytics.pageData = ta.analytics.pageData || []
+, pageData
+;
+window._gaq.push = function(){};
+pageData=ta.analytics._JSON_parse('{\"cv\":[[\"_deleteCustomVar\",1],[\"_deleteCustomVar\",47],[\"_setCustomVar\",12,\"Country\",\"France-187070\",3],[\"_setCustomVar\",19,\"Region\",\"Ile-de-France-187144\",3],[\"_setCustomVar\",25,\"Continent\",\"Europe-4\",3],[\"_setCustomVar\",13,\"Geo\",\"Paris-187147\",3],[\"_setCustomVar\",20,\"PP\",\"-274-251-281-279-\",3],[\"_deleteCustomVar\",11],[\"_deleteCustomVar\",14],[\"_deleteCustomVar\",8],[\"_deleteCustomVar\",10]],\"url\":\"/AllLocations\"}');
+pageDataStack.push(pageData);
+if(ta.keep){
+ta.keep("partials.pageProperties","274-251-281-279");
+}
+if(ta.store){
+ta.store("gaMemberState","-");
+}
+}
+catch (e) {
+if(ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record(e,'global_ga.vm');
+}
+}
+}(window,ta));
+</script>
+<script type="text/javascript">
+var lazyImgs = [
+{"data":"http://static.tacdn.com/img2/generic/site/pencil.png","scroll":false,"tagType":"img","id":"lazyload_-71236342_0","priority":100,"logerror":false}
+,   {"data":"http://static.tacdn.com/img2/langs/tr/branding/trip_logo_footer@2x.png","scroll":true,"tagType":"img","id":"lazyload_-71236342_1","priority":100,"logerror":false}
+,   {"data":"http://static.tacdn.com/img2/icons/bell.png","scroll":true,"tagType":"img","id":"lazyload_-71236342_2","priority":100,"logerror":false}
+];
+var lazyHtml = [
+];
+ta.queueForLoad( function() {
+window.setupLazyLoad();
+}, 'lazy load images');
+</script>
+<script type="text/javascript">
+ta.keep('startOffset', '');
+ta.store('page.geo', "187147");
+ta.store('page.location', "187147");
+ta.store('page.urlSafe', "http%3A__2F____2F__www__2E__tripadvisor__2E__com__2E__tr__2F__AllLocations__2D__g187147__2D__c1__2D__Hotels__2D__Paris__5F__Ile__5F__de__5F__France__2E__html");
+ta.store('facebook.disableLogin', false);
+ta.store('facebook.apiKey', "f1e687a58f0cdac60b7af2317a5febb3");
+ta.store('facebook.appId', "162729813767876");
+ta.store('facebook.appName', "tripadvisor");
+ta.store('facebook.taServerTime', "1453795271");
+ta.store('facebook.skip.session.check',"false");
+ta.store('facebook.apiVersion', "v2.2");
+ta.store("facebook.invalidFBCreds", true);
+window.fbAsyncInit = ta.support.Facebook.init;
+ta.queueForLoad(function(){
+new Asset.javascript("//connect.facebook.net/en_US/sdk.js");
+}, 0, 'LoadFBJS');
+function ip_adjustHeader() {
+// check for overlap
+var prefs = ta.id('USER_PREFS');
+var head = ta.id('HEAD');
+if (!prefs || !head) {
+return;
+}
+var logo = head.getElement('.topLogo');
+if (logo) {
+var c = prefs.getCoordinates();
+if (c.left - logo.getCoordinates().right < 10) {
+head.setStyle('padding-top', 5);
+}
+}
+}
+ta.queueForLoad(ip_adjustHeader, 'ip_adjustHeader');
+ta.store('fb.name', "");
+ta.store('fb.icon', "");
+ta.keep('facebook.data.request', [
+'IP_HEADER'       ]);
+ta.keep('facebook.data.request', ['ACTIVITY_COUNT']);
+ta.queueForLoad( function() { Cookie.writeSession('FBH', sniffFacebook() ? 1 : 2); }, 'SniffFB' );
+ta.store('ads.reverseScroll', true);
+ta.store('ads.disableEventRefresh', true);
+ta.store('ads.deferEnabled', true);
+if( ta.common && ta.common.ads ) {
+ta.store('scrollAd.enableScroll',  false  );
+ta.store('scrollAd.sbElem', document.getElement('.gridA>.sidebar') || document.getElement('.gridR>.sidebar'));
+(function() {
+var ads = [];
+var sky = ta.id('ad160X600');
+if(sky) {
+ads.push(sky);
+}
+var topBox = ta.id('ad300X250');
+if(topBox) {
+var bHacStyleAd = ta.id('STYLE_RHS_AD');
+if(!bHacStyleAd) {
+ads.push(topBox);
+}
+}
+var btmBox = ta.id('ad300X250-bottom');
+if(btmBox) {
+ads.push(btmBox);
+}
+if(ads.length > 0) {
+ta.store('deferAds.ads', ads);
+window.ta_handleAdDefer = ta.common.ads.deferAds;
+window.addEvent('scroll', window.ta_handleAdDefer );
+}
+})();
+}
+var avlb_hero_photos = "http://static.tacdn.com/css2/modules/avlb_hero_photos-v23950307902b.css";
+var regflowCss = "http://static.tacdn.com/css2/registration-v22849831835b.css";
+var floatingMapCSS = "http://static.tacdn.com/css2/modules/floating_map-v22419345840b.css";
+var t4bSlideshowCSS = "http://static.tacdn.com/css2/modules/t4b_slideshow-v24112077699b.css";
+var dhtml_cr_redesign_png24 = "http://static.tacdn.com/css2/overlays/cr_flyout-v22544950678b.css";
+ta.store('checkrates.check_more_re',true);
+ta.store('checkrates.check_more_re_center_large_hero_photos',true);
+ta.store('checkrates.check_more_hero_photos',true);
+ta.store('checkrates.center_overlay',true);
+ta.store('popunder.similar_hotels', true);
+ta.store('popunder.similar_hotels_new_rules', true);
+ta.store('popunder.suppress_half_day', true);
+ta.store('p13n_client_tracking_tree',true);
+ta.store('useHotelsFilterState', true);
+ta.store('similar_hotels_exit_window_chevron', true);
+ta.store('fall_2013_masthead_refresh', true);
+ta.store( 'hotel_highlight_sd_style_disclaimer', true);
+ta.store('ta.media.uploader.cssAsset', 'http://static.tacdn.com/css2/overlays/media_uploader-v22065344501b.css')
+ta.meta && ta.meta.linkTracking && ta.queueForLoad(function() { ta.meta.linkTracking.setup(); }, 'setup meta link tracking event');
+ta.store('sem_provider_availability_sort', true);
+ta.store('sem_provider_availability_sort_respects_autobroadening', true);
+ta.queueForLoad(function() {
+if(typeof js_error_array != "undefined") {
+Array.each(js_error_array, function onErrorFuncPost(js_error) {
+if(js_error && js_error.msg) {
+var jsMsg = js_error.msg;
+delete js_error['msg'];
+var jsErr = null;
+if(js_error.error) {
+jsErr = js_error.error;
+delete js_error['error'];
+}
+var isTaNotDefinedError =
+jsMsg &&
+typeof jsMsg === 'string' &&
+jsMsg.indexOf('ta is not defined') >= 0;
+if(!isTaNotDefinedError) {
+ta.util.error.record(jsErr, "window.onerror:: " + jsMsg, null, js_error);
+}
+}
+});
+ta.store('ta.onload.errors', true);
+}
+ta.store('ta.js_error_array.processed', true);
+}, 'record onload errors');
+try {
+if(true || false) {
+if (window.ta && ta.common && ta.common.dmp && ta.common.dmp.store) {
+ta.common.dmp.store.storeValue("dmpEnabled", true);
+ta.common.dmp.store.storeValue("dmpBlueKaiEnabled", true);
+ta.common.dmp.store.storeValue("dmpPerfLoggingEnabled", false);
+ta.common.dmp.store.storeValue("dmpConsoleDebugEnabled", false);
+ta.common.dmp.store.storeValue("dmpMetaExposedEnabled", false);
+ta.common.dmp.store.storeValue("dmpGARecordWhitelistEnabled", true);
+ta.common.dmp.store.storeValue("dmpBlueKaiEnableMultipleIframes", true);
+if (ta.common && ta.common.dmp && ta.common.dmp.bluekai) {
+ta.common.dmp.store.setActiveDMP( ta.common.dmp.bluekai);
+}
+else if (ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record.apply(this, [null, "DMP JavaScript not found"]);
+}
+ta.common.dmp.store.storeValue("taUUID", "c0ZFmapRSSemnADYPFiGfpNu8RKgqBDYbgWztbWBJBw=");
+ta.common.dmp.store.setBehaviors({
+"ServletName" : [
+"AllLocations"
+]
+,  "POS" : [
+"br"
+]
+,  "GeoID" : [
+"187147"
+]
+});
+}
+if (ta.common && ta.common.dmp && ta.common.dmp.store) {
+ta.common.dmp.store.storeValue('dmpMeasureTest', false);
+ta.common.dmp.store.storeValue('dmpReviewReadTest', false);
+}
+if (ta.queueForLoad) {
+ta.queueForLoad(function() {
+if (ta.common && ta.common.dmp) {
+ta.common.dmp.init();
+}
+},"initialize DMP framework");
+}
+}
+}
+catch(e) {
+if (window.ta && ta.util && ta.util.error && ta.util.error.record) {
+ta.util.error.record.apply(this, [e, "generic exception in ads_dmp_js.vm"]);
+}
+}
+;
+ta.store('access_control_headers', true);
+ta.store('secure_registration.enabled',true);
+ta.store( 'meta.disclaimerLinkText', 'Feragatname' );
+ta.store('restaurant_reserve_ui',true);
+ta.store('hotels_placements_short_cells', true);
+ta.store('hotels_placements_short_cells.overlaysCss', "http://static.tacdn.com/css2/hotels_list_short_cells_overlays-v22724604168b.css" );
+</script>
+<script class="allowAbsoluteUrls" type="text/javascript">
+ta.store('ta.registration.currentUrlDefaults', {'url' : 'http%3A__2F____2F__www__2E__tripadvisor__2E__com__2E__tr__2F__AllLocations__2D__g187147__2D__c1__2D__Hotels__2D__Paris__5F__Ile__5F__de__5F__France__2E__html','partnerKey' : '1','urlKey' : 'fe0222baf417daa2f'} );
+</script>
+<script type="text/javascript">
+ta.store('ta.isIE11orHigher', false);
+</script>
+<script type='text/javascript'>
+ta.store('hac_timezone_awareness', true);
+ta.store('ta.hac.locationTimezoneOffset', 3600000);
+</script>
+<script type='text/javascript'>
+ta.store("calendar.serverTime", 1453795271763);
+</script>
+<script type="text/javascript">
+ta.store("commerce_clicks_in_new_tab.isEnabled", true);
+</script>
+<script type="text/javascript">
+ta.store('meta.meta_chevron_module_2014', true);
+</script>
+<script type="text/javascript">
+ta.store('assisted_booking_desktop_entry', false);
+ta.store('ibdm_impression_tracking', true);
+ta.store('assisted_booking_desktop_entry.logTreePoll', true);
+ta.store('isTrackTreeFresh', true);
+</script>
+<script type="text/javascript">
+ta.queueForLoad(function() {
+if( ta.common.header ) {
+ta.common.header.getWARNotificationFlag();
+}
+}, 'load notification flag if needed');
+</script>
+<script type="text/javascript">
+</script>
+<script type="text/javascript">
+ta.localStorage && ta.localStorage.set('latestPageServlet', 'AllLocations');
+</script>
+<script type="text/javascript">
+ta.queueForLoad(function() {
+if(!ta.overlays || !ta.overlays.Factory) {
+ta.load('ta-overlays');
+}
+}, 'preload ta-overlays');
+</script>
+<script type="text/javascript">
+ta.store("ib_flyout_more_rooms", true);
+</script>
+<script type="text/javascript">
+try {
+ta.queueForLoad(function () {
+// Delay showing the display for a moment to let other overlays decide what to do
+setTimeout(function () {
+var lastVisitTS, dayMs, monthMs, curTS;
+// Test for functional local storage
+// NOTE: Not using ta.localStorage as it's not available in all scopes. This usage is simple and for a test.
+try {
+if (!window.localStorage) {
+return;
+}
+// Confirm we can store and retrieve values.
+window.localStorage.setItem('testtest', 'testtest');
+if ('testtest' !== window.localStorage.getItem('testtest')) {
+return;
+}
+window.localStorage.removeItem('testtest');
+dayMs = 1000 * 60 * 60 * 24;
+monthMs = 30 * dayMs;
+curTS = new Date().getTime();
+// Get last visit date from local storage if we can
+// NOTE: keep this above any gating logic!!
+lastVisitTS = +window.localStorage.getItem('overlay_registration_repeat_visit');
+// Store a new last visited date in local storage regardless of display if 0
+if (lastVisitTS < 1) {
+window.localStorage.setItem('overlay_registration_repeat_visit', '' + curTS);
+}
+} catch (e) {
+// ignore, localStorage failures probably
+}
+if (ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent()) {
+return;
+}
+// Do not display if meta focus is showing
+if (ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) {
+return;
+}
+// NOTE: This logic should live in fetchRepeatVisitDisplayConfig() so it's in a central location
+// However, without making that an ajax request, there's no way to get local storage values to that method.
+// In the future, avoid local storage to enable IE7, and have centralized logic.
+// Do not display if the member's last visit was less than 24 hours ago
+if ((lastVisitTS + dayMs) > curTS) {
+return;
+}
+// Do not display if the member's last visit was more than 30 days ago.
+if ((lastVisitTS + monthMs) < curTS) {
+return;
+}
+}, 250); // setTimeout, delay for display
+});
+} catch (e) {
+ta.util.error.record(e, 'Error with overlay registration display logic.');
+}
+</script>
+<script type="text/javascript">
+try {
+ta.queueForLoad(function () {
+// Delay showing the display for a moment to let other overlays decide what to do
+setTimeout(function () {
+// Do not display if another overlay is showing
+if (ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent()) {
+return;
+}
+// Do not display if meta focus (meta smoke-out) is showing
+if (ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) {
+return;
+}
+// Do not display on world- or non-geo- forums pages
+}, 250); // setTimeout, delay for display
+});
+} catch (e) {
+ta.util.error.record(e, 'Error with Viator overlay registration display logic.');
+}
+</script>
+<script type="text/javascript">
+try {
+ta.queueForLoad(function () {
+// Delay showing the display for a moment to let other overlays decide what to do
+setTimeout(function () {
+// Do not display if another overlay is showing
+if (ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent()) {
+return;
+}
+// Do not display if meta focus (meta smoke-out) is showing
+if (ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) {
+return;
+}
+}, 250); // setTimeout, delay for display
+});
+} catch (e) {
+ta.util.error.record(e, 'Error with ShowTopic sideways overlay registration display logic.');
+}
+</script>
+<script type="text/javascript">
+ta.store('meta_focus_no_servlet_in_key', true);
+ta.store('meta_focus_seen_timeout', 259200 * 1000);           </script>
+<script type='text/javascript'>
+ta.store('feature.flat_buttons_sitewide', true);
+</script>
+<script type='text/javascript'>
+new Asset.javascript("http://static.tacdn.com/js3/src/modules/component/BounceUserTracking-v2957112044b.js");
+</script>
+<script type="text/javascript">
+/* <![CDATA[ */
+(function(){
+var define = ta.p13n.placements.define.bind(ta.p13n.placements,'ibex_nav_recent_searches_control','handlers.js');
+/*
+* Handler for the control state of recent searches nav functionality. Handlers firing tracking for
+* events that would have caused the recent searches nav menu to open automatically if it was
+* displayed.
+*/
+define(["placement"], function(placement) {
+var EXIT_INTERRUPTOR_SHOWN_KEY = 'rsExitInterruptShown'
+, EXIT_INTERRUPTOR_OCCURRENCES = 'rsExitInterruptOccurrences'
+, WELCOME_DISABLED_KEY = 'rs_welcome_disabled'
+, RS_SESSION_TTL_KEY = "rs_session_ttl" //LS key to track TTL for session-based recent searches values.
+, RS_SESSION_TTL = 2 //in hours, how long should we keep around RS session data.
+, EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD = 2 //number of time the exit interruptor can appear for users during the threshold period
+, EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD_PERIOD = 7 //number of days used to limit exit interruptor appearances
+, EXIT_INTERRUPTOR_HR_VIEWS_KEY = 'rsHrViews'
+, EXIT_INTERRUPTOR_MIN_HR_VIEWS = 3
+, EXIT_INTERRUPTOR_MIN_HR_VIEWS_WITH_FILTER = 1
+, _interruptDisabled = false
+/*
+* Fires any tracking for the control version of recent searches
+*/
+, _fireTracking = function(initialSave, welcomeBack, hasValidExitSearch, requireEmailEntry) {
+_handleTTL();
+if(initialSave) {
+_trackingActions("INITIAL");
+}
+else if(welcomeBack &&
+_welcomeMessagingEnabled()) {
+_trackingActions("WELCOME");
+_disableInterrupt();
+}
+_trackHRViews();
+//welcome back messaging should always be disabled after the first page view
+_disableWelcomeMessaging();
+_enableExitInterruptorTracking(hasValidExitSearch, requireEmailEntry);
+}
+, _enableExitInterruptorTracking = function(hasValidExitSearch, requireEmailEntry) {
+if(!_localStorageEnabled()) {
+return;
+}
+(new Elements([document]))["addListener"]("mouseout", function(evt) {
+if (evt.toElement == null && evt.relatedTarget == null) {
+_triggerExitInterruptor(hasValidExitSearch, requireEmailEntry);
+}
+});
+_interruptDisabled = ta.has("interruptShown") ? ta.retrieve("interruptShown") : false;
+ta.on("interruptShown", _disableInterrupt);
+}
+, _disableInterrupt = function() {
+_interruptDisabled = true;
+}
+, _triggerExitInterruptor = function(hasValidExitSearch, requireEmailEntry) {
+if(!_exitInterruptorCanShow(hasValidExitSearch)) {
+return;
+}
+_flagInterruptorAsShown();
+var trackingAttributes = [];
+if(requireEmailEntry) {
+trackingAttributes.push("emailSignup");
+}
+else {
+trackingAttributes.push("emailExisting");
+}
+ta.trk(placement.name + "_EXIT_INTERRUPT_OPEN", false, ta.select("#" + placement.id)[0], trackingAttributes);
+}
+, _exitInterruptorCanShow = function(hasValidExitSearch) {
+return !_interruptDisabled &&
+!_exitInterruptorAlreadyShown() &&
+!_exitInterruptorBlockedByOverlay() &&
+!_exitInterruptorExceedsFrequencyThreshold() &&
+_userMeetsInterruptSearchCriteria(hasValidExitSearch) &&
+_isNavigationVisible();
+}
+, _isNavigationVisible = function() {
+var yPos = ta.id('HEAD').getPosition().y;
+yPos += ta.id('HEAD').offsetHeight;
+return window.scrollY < yPos;
+}
+, _userMeetsInterruptSearchCriteria = function(hasValidExitSearch) {
+//Disable if the user does not have dates set
+if(!window.ta || !ta.widgets || !ta.widgets.calendar || !ta.widgets.calendar.hasPageDates())
+{
+return false;
+}
+var hrViews = ta.localStorage.getSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY);
+hrViews = hrViews ? parseInt(hrViews) : 0;
+if(hasValidExitSearch &&
+hrViews >= EXIT_INTERRUPTOR_MIN_HR_VIEWS_WITH_FILTER) {
+return true;
+}
+return hrViews >= EXIT_INTERRUPTOR_MIN_HR_VIEWS;
+}
+, _trackHRViews = function() {
+if(!_localStorageEnabled()) {
+return;
+}
+if(window.pageServlet != "Hotel_Review" || !ta.widgets || !ta.widgets.calendar || !ta.widgets.calendar.hasPageDates()) {
+return;
+}
+var hrViews = ta.localStorage.getSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY);
+hrViews = hrViews ? parseInt(hrViews) + 1 : 1;
+ta.localStorage.setSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY, hrViews);
+}
+, _exitInterruptorAlreadyShown = function() {
+return !_localStorageEnabled() ||
+ta.localStorage.getSessionKey(EXIT_INTERRUPTOR_SHOWN_KEY);
+}
+, _exitInterruptorExceedsFrequencyThreshold = function() {
+if(!_localStorageEnabled()) {
+return true;
+}
+var previousOccurrences = _getPreviousExitInterruptOccurrences();
+return previousOccurrences && previousOccurrences.length >= EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD;
+}
+/**
+* block exit interruptor if there is another overlay appearing.
+*/
+, _exitInterruptorBlockedByOverlay = function() {
+return (ta && ta.metaFocus && ta.metaFocus.utils && ta.metaFocus.utils.isShowing()) ||
+(ta.overlays && ta.overlays.getCurrent && ta.overlays.getCurrent());
+}
+, _getPreviousExitInterruptOccurrences = function() {
+if(!_localStorageEnabled()) {
+return [];
+}
+var pastOccurrences = ta.localStorage.get(EXIT_INTERRUPTOR_OCCURRENCES)
+, cleanedOccurrences = []
+, currentTime = new Date()
+, thresholdDiffMs = EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD_PERIOD * 24 * 60 * 60 * 1000
+, thresholdPeriodStart = new Date(currentTime.getTime() - thresholdDiffMs)
+;
+if(!pastOccurrences || !pastOccurrences.length) {
+return [];
+}
+pastOccurrences = pastOccurrences.split(',');
+//clean up any irrelevant occurrences
+for(var i = 0; i < pastOccurrences.length; i++) {
+var occurrenceDate = new Date(pastOccurrences[i]);
+if(occurrenceDate > thresholdPeriodStart) {
+cleanedOccurrences.push(occurrenceDate);
+}
+}
+return cleanedOccurrences;
+}
+, _flagInterruptorAsShown = function() {
+if(!_localStorageEnabled()) {
+return;
+}
+ta.localStorage.setSessionKey(EXIT_INTERRUPTOR_SHOWN_KEY, true);
+var pastOccurrences = _getPreviousExitInterruptOccurrences()
+, currentTime = new Date()
+, thresholdDiffMs = EXIT_INTERRUPTOR_OCCURRENCE_THRESHOLD_PERIOD * 24 * 60 * 60 * 1000
+;
+pastOccurrences.push(currentTime);
+ta.localStorage.set(EXIT_INTERRUPTOR_OCCURRENCES, pastOccurrences, thresholdDiffMs);
+}
+, _localStorageEnabled = function() {
+return ta && ta.localStorage && ta.localStorage.enabled;
+}
+/*
+* Actions needed for each of the tracking events
+*/
+, _trackingActions = function(openType) {
+ta.trk(placement.name + "_AUTO_OPEN_" + openType, false, ta.id(placement.id));
+}
+/*
+* Determines if the welcome message can fire. Checks local storage to see
+* if it has already fire or has been disabled (i.e. beyond the first page view).
+*/
+, _welcomeMessagingEnabled = function () {
+if(!_localStorageEnabled()) {
+return false;
+}
+if(!ta.localStorage.getSessionKey(WELCOME_DISABLED_KEY)) {
+return true;
+}
+}
+/*
+* Disables the welcome back messaging so it cannot fire multiple times during a session
+*/
+, _disableWelcomeMessaging = function() {
+if(_localStorageEnabled()) {
+ta.localStorage.setSessionKey(WELCOME_DISABLED_KEY, true);
+}
+}
+, _handleTTL = function() {
+if(!_localStorageEnabled()) {
+return;
+}
+var ttlValue = ta.localStorage.getSessionKey(RS_SESSION_TTL_KEY)
+, ttlExpired = !ttlValue || (new Date(ttlValue) < new Date())
+;
+if(ttlExpired) {
+ta.localStorage.removeSessionKey(WELCOME_DISABLED_KEY);
+ta.localStorage.removeSessionKey(EXIT_INTERRUPTOR_SHOWN_KEY);
+ta.localStorage.removeSessionKey(EXIT_INTERRUPTOR_HR_VIEWS_KEY);
+}
+var now = new Date()
+, expiration = new Date(now.getTime() + RS_SESSION_TTL * 60 * 60 * 1000)
+;
+ta.localStorage.setSessionKey(RS_SESSION_TTL_KEY, expiration);
+}
+;
+return {
+fireTracking : _fireTracking,
+enableExitInterruptorTracking : _enableExitInterruptorTracking
+};
+});
+})();
+ta.plc_ibex_nav_recent_searches_control_0_handlers = ta.p13n.placements.load('ibex_nav_recent_searches_control','handlers.js', { 'name': 'ibex_nav_recent_searches_control', 'occurrence': 0, 'id': 'taplc_ibex_nav_recent_searches_control_0', 'location_id': 187147, 'servletClass': 'com.TripResearch.servlet.alllocations.AllLocationsServlet', 'servletName': 'AllLocations', 'params': {}});
+if (ta.prwidgets) {
+ta.prwidgets.initWidgets(document);
+}
+/* ]]> */
+</script>
+<div id="IP_IFRAME_HOLDER"></div>
+</body>
+<!-- st: 226 dc: 0 sc: 3 -->
+<!-- uid: VqcnxwoQLnQAAjUM62EAAAAR -->
+</html>

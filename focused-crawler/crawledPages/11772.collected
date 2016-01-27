@@ -1,0 +1,515 @@
+title=null
+url=http://www.sabatourism.com/gettosaba.html
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<META name="description" Content="Travel information to and from the island of Saba in the Dutch Caribbean - Brought to you by Saba Tourist Bureau.">
+
+<meta name="Keywords" content="Travel, Saba, Caribbean, Edge Ferry, Dawn II, Winair, Princess Juliana International Airport, St. Maarten, Windward Island Express Airways" />
+
+<script language="JavaScript1.2" type="text/javascript" src="mm_css_menu.js"></script>
+<style type="text/css" media="screen">
+	@import url("./stb_travel_style.css");
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+.style3 {font-size: 14px}
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"></head>
+
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<script>
+
+var imageCount = 3;
+var changeSpeed = 7;
+var fadeSpeed = 0.5;
+var fps = 25;
+
+var topImgID
+var changeInterval
+function $(id){
+ return(document.getElementById(id));
+}
+function changeOpac(obj, opacity) {
+ obj = obj.style; 
+ obj.opacity = (opacity / 100);
+ obj.MozOpacity = (opacity / 100);
+ obj.KhtmlOpacity = (opacity / 100);
+ obj.filter = "alpha(opacity=" + opacity + ")";
+}
+function changeImage(){
+ var nextImgID = ( topImgID+1 <= imageCount ? topImgID+1 : 1 );
+ var nextImg = $('banner'+nextImgID);
+ var lastImg = $('banner'+topImgID);
+ var opac = 0;
+ changeOpac( nextImg, opac)
+ lastImg.style.zIndex = 2;
+ nextImg.style.zIndex = 3;
+ var fadeInterval = setInterval(function(){
+  if(opac < 100){//continue fade:
+   opac += Math.ceil(100/(fadeSpeed*fps));
+   changeOpac(nextImg, opac);
+  }else{
+   lastImg.style.zIndex = 1;
+   clearInterval(fadeInterval);
+  }
+ }, 1000/fps)
+ topImgID = nextImgID; 
+}
+function startBanner(firstImageID){
+ topImgID = (firstImageID==undefined ? 1+Math.floor(Math.random()*(imageCount)) : firstImageID);
+ $('banner'+topImgID).style.zIndex = 2;
+ changeInterval = setInterval(changeImage, changeSpeed*1000);
+}
+</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-43945897-1', 'sabatourism.com');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body onLoad="startBanner(1)">
+<div align="center">
+  <div id="FWTableContainer1264297935">
+    <table border="0" cellpadding="0" cellspacing="0" width="1000">
+
+      <tr>
+        <td><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527101941_0', 'MMMenu0527101941_0',0,30,'about_button');"><img name="about_button" src="nav_images/about_button.png" width="142" height="30" border="0" id="about_button" alt="" /></a></td>
+        <td colspan="4"><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527102430_1', 'MMMenu0527102430_1',0,30,'news_button');"><img name="news_button" src="nav_images/news_button.png" width="99" height="30" border="0" id="news_button" alt="" /></a></td>
+        <td colspan="6"><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527102823_2', 'MMMenu0527102823_2',0,30,'stb_style_r1_c6');"><img name="About_saba" src="nav_images/about_saba.png" width="138" height="30" border="0" id="stb_style_r1_c6" alt="" /></a></td>
+        <td><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527103346_3', 'MMMenu0527103346_3',0,30,'diving_button');"><img name="diving_button" src="nav_images/diving_button.png" width="95" height="30" border="0" id="diving_button" alt="" /></a></td>
+        <td colspan="2"><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527103617_4', 'MMMenu0527103617_4',0,30,'hiking_button');"><img name="hiking_button" src="nav_images/hiking_button.png" width="106" height="30" border="0" id="hiking_button" alt="" /></a></td>
+        <td colspan="2"><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527103833_5', 'MMMenu0527103833_5',0,30,'out_button');"><img name="out_button" src="nav_images/out_button.png" width="145" height="30" border="0" id="out_button" alt="" /></a></td>
+        <td><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527104051_6', 'MMMenu0527104051_6',0,30,'links_button');"><img name="links_button" src="nav_images/links_button.png" width="140" height="30" border="0" id="links_button" alt="" /></a></td>
+        <td colspan="2"><a href="javascript:;" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuShowMenu('MMMenuContainer0527104305_7', 'MMMenu0527104305_7',0,30,'cottact_button');"><img name="cottact_button" src="nav_images/cottact_button.png" width="135" height="30" border="0" id="cottact_button" alt="" /></a></td>
+        <td><img src="nav_images/spacer.gif" width="1" height="30" border="0" alt="" /></td>
+      </tr>
+    </table>
+    <div id="MMMenuContainer0527101941_0">
+      <div id="MMMenu0527101941_0" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+	  <a href="aboutSTB.html" id="MMMenu0527101941_0_Item_0" class="MMMIFVStyleMMMenu0527101941_0" onmouseover=      "MM_menuOverMenuItem('MMMenu0527101941_0');"> Saba&nbsp;Tourist&nbsp;Bureau </a> 
+	  <a href="meettheteam.html" id="MMMenu0527101941_0_Item_1" class="MMMIVStyleMMMenu0527101941_0" onMouseOver="MM_menuOverMenuItem('MMMenu0527101941_0');"> Meet&nbsp;The&nbsp;Team </a> 
+	  <a href="contactus.html" id="MMMenu0527101941_0_Item_2" class="MMMIVStyleMMMenu0527101941_0" onMouseOver="MM_menuOverMenuItem('MMMenu0527101941_0');"> Contact&nbsp;Us </a> 
+	  <a href="downloads.html" id="MMMenu0527101941_0_Item_3" class="MMMIVStyleMMMenu0527101941_0" onMouseOver="MM_menuOverMenuItem('MMMenu0527101941_0');"> Downloads </a> </div>
+    </div>
+	
+    <div id="MMMenuContainer0527102430_1">
+      <div id="MMMenu0527102430_1" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+<a href="tourismnews.html" id="MMMenu0527102430_1_Item_0" class="MMMIFVStyleMMMenu0527102430_1" onMouseOver="MM_menuOverMenuItem('MMMenu0527102430_1');"> Tourism&nbsp;Updates 
+</a> 
+<a href="tourismevents.html" id="MMMenu0527102430_1_Item_1" class="MMMIVStyleMMMenu0527102430_1" onMouseOver="MM_menuOverMenuItem('MMMenu0527102430_1');"> Latest&nbsp;Events 
+</a> 
+<a href="conservationnews.html" id="MMMenu0527102430_1_Item_2" class="MMMIVStyleMMMenu0527102430_1" onMouseOver="MM_menuOverMenuItem('MMMenu0527102430_1');"> Conservation&nbsp;News </a>
+<a href="lions_club_saba.html" id="MMMenu0527102430_1_Item_3" class="MMMIVStyleMMMenu0527102430_1" onMouseOver="MM_menuOverMenuItem('MMMenu0527102430_1');"> Lions&nbsp;Club&nbsp;Saba</a>
+<a href="sea_and_learn_saba.html" id="MMMenu0527102430_1_Item_4" class="MMMIVStyleMMMenu0527102430_1" onMouseOver="MM_menuOverMenuItem('MMMenu0527102430_1');"> Sea&nbsp;&amp;&nbsp;Learn</a></div>
+    </div>
+	
+	
+    <div id="MMMenuContainer0527102823_2">
+      <div id="MMMenu0527102823_2" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+	  <a href="whereissaba.html" id="MMMenu0527102823_2_Item_0" class="MMMIFVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> Where&nbsp;is&nbsp;Saba? </a> 
+	  <a href="gettosaba.html" id="MMMenu0527102823_2_Item_1" class="MMMIVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> Travel&nbsp;Info </a> 
+	  <a href="history.html" id="MMMenu0527102823_2_Item_2" class="MMMIVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> History&nbsp;&amp;&nbsp;Culture </a> 
+	  <a href="sabasairport.html" id="MMMenu0527102823_2_Item_3" class="MMMIVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> Saba's&nbsp;Airport </a> 
+	  <a href="sabasroad.html" id="MMMenu0527102823_2_Item_4" class="MMMIVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> Saba's&nbsp;Road </a> 
+	  <a href="sabasport.html" id="MMMenu0527102823_2_Item_5" class="MMMIVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> Saba's&nbsp;Port </a> 
+	  <a href="generalinfo.html" id="MMMenu0527102823_2_Item_6" class="MMMIVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> General&nbsp;Info </a> 
+	  <a href="realestate.html" id="MMMenu0527102823_2_Item_7" class="MMMIVStyleMMMenu0527102823_2" onMouseOver="MM_menuOverMenuItem('MMMenu0527102823_2');"> Real&nbsp;Estate </a></div>
+    </div>
+    <br />
+	
+	
+    <div id="MMMenuContainer0527103346_3">
+      <div id="MMMenu0527103346_3" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+	  <a href="dive.html" id="MMMenu0527103346_3_Item_0" class="MMMIFVStyleMMMenu0527103346_3" onMouseOver="MM_menuOverMenuItem('MMMenu0527103346_3');"> Below&nbsp;The&nbsp;Surface </a> 
+	  <a href="marinepark.html" id="MMMenu0527103346_3_Item_1" class="MMMIVStyleMMMenu0527103346_3" onMouseOver="MM_menuOverMenuItem('MMMenu0527103346_3');"> Saba&nbsp;Marine&nbsp;Park </a> 
+	  <a href="diveoperators.html" id="MMMenu0527103346_3_Item_2" class="MMMIVStyleMMMenu0527103346_3" onMouseOver="MM_menuOverMenuItem('MMMenu0527103346_3');"> Dive&nbsp;Operators </a> 
+	  <a href="divemap.html" id="MMMenu0527103346_3_Item_3" class="MMMIVStyleMMMenu0527103346_3" onMouseOver="MM_menuOverMenuItem('MMMenu0527103346_3');"> Dive&nbsp;Map </a> 
+	  <a href="divegallery.html" id="MMMenu0527103346_3_Item_4" class="MMMIVStyleMMMenu0527103346_3" onMouseOver="MM_menuOverMenuItem('MMMenu0527103346_3');"> Photo&nbsp;Gallery </a></div>
+    </div>
+	
+    <div id="MMMenuContainer0527103617_4">
+      <div id="MMMenu0527103617_4" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+<a href="hike.html" id="MMMenu0527103617_4_Item_0" class="MMMIFVStyleMMMenu0527103617_4" onMouseOver="MM_menuOverMenuItem('MMMenu0527103617_4');"> Above&nbsp;&amp;&nbsp;Beyond </a> 
+<a href="sabavillages.html" id="MMMenu0527103617_4_Item_1" class="MMMIVStyleMMMenu0527103617_4" onMouseOver="MM_menuOverMenuItem('MMMenu0527103617_4');"> Saban&nbsp;Villages </a> 
+<a href="trailshop.html" id="MMMenu0527103617_4_Item_2" class="MMMIVStyleMMMenu0527103617_4" onMouseOver="MM_menuOverMenuItem('MMMenu0527103617_4');"> The&nbsp;Trail&nbsp;Shop </a> 
+<a href="trailmap.html" id="MMMenu0527103617_4_Item_3" class="MMMIVStyleMMMenu0527103617_4" onMouseOver="MM_menuOverMenuItem('MMMenu0527103617_4');"> Trail&nbsp;Map </a> 
+<a href="hikegallery.html" id="MMMenu0527103617_4_Item_4" class="MMMIVStyleMMMenu0527103617_4" onMouseOver="MM_menuOverMenuItem('MMMenu0527103617_4');"> Photo&nbsp;Gallery </a></div>
+    </div>
+	
+    <div id="MMMenuContainer0527103833_5">
+      <div id="MMMenu0527103833_5" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+	  <a href="stay.html" id="MMMenu0527103833_5_Item_0" class="MMMIFVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Where&nbsp;To&nbsp;Stay </a> 
+	  <a href="restaurants.html" id="MMMenu0527103833_5_Item_1" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Where&nbsp;To&nbsp;Eat </a> 
+	  <a href="shopping.html" id="MMMenu0527103833_5_Item_2" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Shopping </a> 
+	  <a href="art_home.html" id="MMMenu0527103833_5_Item_3" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Arts&nbsp;&amp;&nbsp;Crafts </a> 
+	  <a href="wellness.html" id="MMMenu0527103833_5_Item_4" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Wellness </a> 
+	  <a href="weddings.html" id="MMMenu0527103833_5_Item_5" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Weddings </a>
+	  <a href="meetsabans.html" id="MMMenu0527103833_5_Item_6" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Meet&nbsp;The&nbspSabans </a> 
+	  <a href="carnival.html" id="MMMenu0527103833_5_Item_7" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Carnival </a> 
+	  <a href="taxitours.html" id="MMMenu0527103833_5_Item_8" class="MMMIVStyleMMMenu0527103833_5" onMouseOver="MM_menuOverMenuItem('MMMenu0527103833_5');"> Taxi&nbsp;Tours </a> </div>
+    </div>
+	
+    <div id="MMMenuContainer0527104051_6">
+      <div id="MMMenu0527104051_6" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+	  <a href="gettosaba.html" id="MMMenu0527104051_6_Item_0" class="MMMIFVStyleMMMenu0527104051_6" onMouseOver="MM_menuOverMenuItem('MMMenu0527104051_6');"> Travel </a> 
+	  <a href="touroperators.html" id="MMMenu0527104051_6_Item_1" class="MMMIFVStyleMMMenu0527104051_6" onMouseOver="MM_menuOverMenuItem('MMMenu0527104051_6');"> Tour&nbsp;Operators </a> 
+	  <a href="stay.html" id="MMMenu0527104051_6_Item_2" class="MMMIVStyleMMMenu0527104051_6" onMouseOver="MM_menuOverMenuItem('MMMenu0527104051_6');"> Accommodations </a> 
+	  <a href="restaurants.html" id="MMMenu0527104051_6_Item_3" class="MMMIVStyleMMMenu0527104051_6" onMouseOver="MM_menuOverMenuItem('MMMenu0527104051_6');"> Restaurants </a> 
+	  <a href="diveoperators.html" id="MMMenu0527104051_6_Item_4" class="MMMIVStyleMMMenu0527104051_6" onMouseOver="MM_menuOverMenuItem('MMMenu0527104051_6');"> Diving </a> 
+	  <a href="generalinfo.html" id="MMMenu0527104051_6_Item_5" class="MMMIVStyleMMMenu0527104051_6" onMouseOver="MM_menuOverMenuItem('MMMenu0527104051_6');"> General </a></div>
+    </div>
+	
+    <div id="MMMenuContainer0527104305_7">
+      <div id="MMMenu0527104305_7" onMouseOut="MM_menuStartTimeout(1000);" onMouseOver="MM_menuResetTimeout();"> 
+	  <a href="mailto:tourism@sabagov.nl" id="MMMenu0527104305_7_Item_0" class="MMMIFVStyleMMMenu0527104305_7" onMouseOver="MM_menuOverMenuItem('MMMenu0527104305_7');"> Direct&nbsp;Email </a> 
+	  <a href="contactus.html" id="MMMenu0527104305_7_Item_1" class="MMMIVStyleMMMenu0527104305_7" onMouseOver="MM_menuOverMenuItem('MMMenu0527104305_7');"> Address&nbsp;Details </a></div>
+    </div>
+  </div>
+  
+  <table width="1004" border="0" cellspacing="0" cellpadding="0">
+    <tr>
+      <td width="1004" colspan="4" align="left"><table width="917" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="196" rowspan="4"><a href="http://sabatourism.com/"><img src="nav_images/saba_logo.png" alt="Saba Island Logo" width="196" height="120" border="0" /></a></td>
+          <td height="19" colspan="2"><img src="nav_images/spacer.gif" width="305" height="30" /></td>
+          <td width="79" rowspan="4" align="left"><img src="nav_images/spacer.gif" width="79" height="120" border="0" alt="" /></td>
+          <td width="336" rowspan="4" valign="top"><img src="nav_images/twin_otter.png" alt="Winair Twin Otter" width="334" height="120" /></td>
+          </tr>
+        <tr>
+          <td height="19" colspan="2"><div align="right"><img src="nav_images/tag_line.png" width="295" height="38" /></div></td>
+        </tr>
+        <tr>
+          <td width="7" rowspan="2"><img src="nav_images/spacer.gif" width="6" height="52"></td>
+          <td width="299" valign="top"><table width="180" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="32"><img name="language_active" src="nav_images/language_active.png" width="32" height="16" border="0" id="language_active" alt="Language Selected" /></td>
+              <td width="16" rowspan="2"><img src="nav_images/spacer.gif" width="16" height="34" /></td>
+              <td width="32"><img src="nav_images/spacer.gif" width="32" height="16" /></td>
+              <td width="16" rowspan="2"><img src="nav_images/spacer.gif" width="16" height="34" /></td>
+              <td width="32"><img src="nav_images/spacer.gif" width="32" height="16" /></td>
+              <td width="16" rowspan="2"><img src="nav_images/spacer.gif" width="16" height="34" /></td>
+              <td><img src="nav_images/spacer.gif" width="32" height="16" /></td>
+            </tr>
+            <tr>
+              <td><a href="index.html"><img name="gb_flag" src="nav_images/gb_flag.png" width="32" height="18" border="0" id="gb_flag" alt="GB Flag" /></a></td>
+              <td><a href="foreign_dut.html"><img src="nav_images/nl_flag.png" alt="NL Flag" width="32" height="18" border="0" /></a></td>
+              <td><a href="foreign_ger.html"><img src="nav_images/de_flag.png" width="32" height="18" border="0" /></a></td>
+              <td><a href="foreign_fre.html"><img src="nav_images/fr_flag.png" width="32" height="18" border="0" /></a></td>
+            </tr>
+          </table></td>
+        </tr>
+        <tr>
+          <td height="18" valign="top"><img src="nav_images/spacer.gif" width="299" height="18"></td>
+        </tr>
+      </table>
+          <table width="1004" height="100" border="0" cellpadding="0" cellspacing="0" background="nav_images/40trans_shim.png">
+            <tr>
+              <td colspan="5"><img src="nav_images/spacer.gif" width="1004" height="15" /></td>
+            </tr>
+            <tr>
+              <td align="left">	  		  </td>
+              <td colspan="3" align="center">
+			  
+              <div id="banner1" class="banner">
+              <h1><table border="0" cellpadding="0" cellspacing="0" width="970">
+
+  <tr>
+   <td><img src="nav_images/spacer.gif" width="750" height="1" border="0" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="220" height="1" border="0" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+
+  <tr>
+   <td rowspan="2"><img name="replace1" src="nav_images/spacer.gif" width="750" height="380" border="0" id="replace1" alt="" /></td>
+   <td><img name="replace2" src="nav_images/spacer.gif" width="220" height="350" border="0" id="replace2" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="1" height="350" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td>
+   
+   
+  <a href="http://www.sabaflights.com" target="_blank" onClick="
+ window.open(this.href, this.target, 'scrollbars=yes, addressbar=no, left=300, width=400, top=0, status=yes,resizable=no');
+ return false;"><img src="nav_images/travel_slidebutton.png" width="220" height="30" border="0"></a>   </td>
+   <td><img src="nav_images/spacer.gif" width="1" height="30" border="0" alt="" /></td>
+  </tr>
+</table></h1>
+              </div>
+			  
+			  <div id="banner2" class="banner">
+              <h1><table border="0" cellpadding="0" cellspacing="0" width="970">
+
+  <tr>
+   <td><img src="nav_images/spacer.gif" width="750" height="1" border="0" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="220" height="1" border="0" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+
+  <tr>
+   <td rowspan="2"><img name="replace1" src="nav_images/spacer.gif" width="750" height="380" border="0" id="replace1" alt="" /></td>
+   <td><img name="replace2" src="nav_images/spacer.gif" width="220" height="350" border="0" id="replace2" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="1" height="350" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td><<a href="http://www.sabactransport.com" target="_blank" onClick="
+ window.open(this.href, this.target, 'scrollbars=yes, addressbar=no, left=300,  width=400, top=0, status=yes,resizable=no');
+ return false;"><img src="nav_images/travel_slidebutton.png" width="220" height="30" border="0"></a></td>
+   <td><img src="nav_images/spacer.gif" width="1" height="30" border="0" alt="" /></td>
+  </tr>
+</table></h1>
+              </div>
+
+
+              <div id="banner3" class="banner">
+              <h1><table border="0" cellpadding="0" cellspacing="0" width="970">
+
+  <tr>
+   <td><img src="nav_images/spacer.gif" width="750" height="1" border="0" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="220" height="1" border="0" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="1" height="1" border="0" alt="" /></td>
+  </tr>
+
+  <tr>
+   <td rowspan="2"><img name="replace1" src="nav_images/spacer.gif" width="750" height="380" border="0" id="replace1" alt="" /></td>
+   <td><img name="replace2" src="nav_images/spacer.gif" width="220" height="350" border="0" id="replace2" alt="" /></td>
+   <td><img src="nav_images/spacer.gif" width="1" height="350" border="0" alt="" /></td>
+  </tr>
+  <tr>
+   <td><br>
+     <a href="http://www.stmaarten-activities.com/index.php/trips-tours/3-saba" target="_blank" onClick="
+ window.open(this.href, this.target, 'scrollbars=yes, addressbar=no, left=300,  width=400, top=0, status=yes,resizable=no');
+ return false;"><img src="nav_images/travel_slidebutton.png" width="220" height="30" border="0"></a>   </td>
+   <td><img src="nav_images/spacer.gif" width="1" height="30" border="0" alt="" /></td>
+  </tr>
+</table></h1>
+              </div>
+			  
+			  
+			  <img src="nav_images/spacer.gif" width="970" height="380" /></td>
+              <td align="center">&nbsp;</td>
+            </tr>
+            <tr>
+              <td colspan="5">&nbsp;</td>
+            </tr>
+            <tr>
+              <td width="17" rowspan="6" valign="top"><img src="nav_images/spacer.gif" width="17" height="10" /></td>
+              <td width="622" rowspan="6" valign="top"><table width="622" border="0" align="left" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="10"><img src="nav_images/top_left.png" width="10" height="10" /></td>
+                  <td colspan="3" valign="top" bgcolor="#FFFFFF"><img src="nav_images/top_line.png" width="600" height="3" /></td>
+                  <td width="10"><img src="nav_images/top_right.png" width="10" height="10" /></td>
+                </tr>
+                <tr>
+                  <td background="nav_images/left_line.png">&nbsp;</td>
+                  <td colspan="3" valign="top" bgcolor="#FFFFFF"><img src="images/sxm_airport.jpg" alt="Princess Juliana International Airport on St. Maarten (SXM)" width="310" height="200" align="right" /><img src="nav_images/header_travel_info.gif" alt="Where is Saba?" width="153" height="31" /><span class="standard">All travel to Saba connects in St. Maarten.<br />
+                            <br />
+                    Several major airlines from North America, Europe and South America   carry daily flights into St. Maarten's Princess Juliana International Airport (SXM).  Special charter flights   are also available from major cities during the winter season.  There are currently two airlines and two ferry services that operate schedules to Saba's shores from her international hub.<br /><br>
+<b>Departure Tax: An Airport and Harbor departure tax fee of $10.00 is payable when departing Saba. There are no ATM's at the airport and harbor.</b>
+                    <br /><br>
+                      </span><span class="sub_header">By Air from St. Maarten</span><span class="standard">:<br />
+                      <img src="nav_images/bottom_line.png" width="600" height="3" /><br />
+                      </span><span class="sub_header"><a href="http://www.fly-winair.com" target="_blank">Winair</a></span><span class="standard"><br />
+                        (Windward   Islands Airways) makes four or more flights each day to Saba to Juancho   E. Yrausquin Airport.   Inter-island flights can be arranged, some are   scheduled weekly. <br />
+                        <br />
+                        <strong>Book On-line: </strong>Passengers   and travel agents can now make their Winair booking for any destination   online and will receive an e-ticket for their travel. Go to <a href="http://www.fly-winair.com" target="_blank">www.fly-winair.com</a> for online reservations and ticketing.<br />
+                        <br />
+                      </span><span class="sub_header">Johnson's Travel Services (On-Island Winair Agent) </span><span class="standard"><br />
+                        Located on Saba, Johnson's Travel Services can answer your   questions about prices, schedules and provide other helpful   information about traveling to Saba with WINAIR. Whether planning a   vacation or just a day trip to Saba contact: <br />
+                        <br />
+                      </span><span class="sub_header">Johnson's Travel Services</span><span class="standard"><br />
+                        Juancho E. Yrausquin Airport <br />
+                        Flat Point<br />
+                        Saba<br />
+                        Dutch Caribbean<br />
+                        Tel: +599 416-2255 <br />
+                        Email: <a href="mailto:winairsab@gmail.com">winairsab@gmail.com</a>. <br />
+                   <br>
+						
+						
+ </span><span class="sub_header">Windward Express Airways (Private Air Charters)</span><span class="standard"><br />
+                        Established in 2000 Windward Express Airways has become a leader in the private charter travel industry.
+
+Flying to client's schedule and destinations on time while avoiding air terminal check-in, line-ups and lost huggage. From a short flight to a personal itinerary, Windward Express Airways provides direct full access to international, regional and restricted airports (Saba, St. Barths, Baillif, Le Saints).  Check with Windward Express Airways first.<br />
+ Web: <a href="http://www.windwardexpress.com/" target="_blank">windwardexpress.com</a><br /><br>
+                       			
+						
+								
+                      </span><span class="sub_header">By Sea from St. Maarten </span><span class="standard"><br />
+                      <img src="nav_images/bottom_line.png" width="600" height="3" /></span><span class="sub_header"><a href="http://www.sabactransport.com" target="_blank">Dawn II</a></span><span class="standard"><br />
+                        Dawn II is based at Fort Bay, Saba, traveling three times a week to Dock Maarten Marina, Great Bay, Philipsburg, Sint Maarten.<br />
+                        <br />
+                        <strong>Tuesdays, Thursdays, &amp; Saturdays</strong><br />
+                        Departs Saba at 7:00 am ~ Arrives Dock Maarten at 8:30 am<br />
+                        Departs Dock Maarten at 4:30 pm ~ Arrives Saba at 6:00 pm<br />
+                        Reservations Recommended. Check-in at least 30 mins. prior to departure to clear immigration.<br />
+                        <br />
+                        The Dawn II features a fully air conditioned passenger cabin with comfortably padded seats inside, seating outside to enjoy the cool caribbean breeze andlots of space for luggage and dive gear!<br />
+                        <br />
+                        Dawn II is available for private charters for private groups or island hopping.<br />
+                        <br />
+                        Please contact Saba C-Transport, N.V. to make reservations or for additional information:<br />
+                        <br />
+                        <strong>DAWN II ~ The Saba Ferry</strong><br />
+                        Saba C-Transport, N.V.<br />
+                        Windwardside<br />
+                        Saba, Dutch Caribbean<br />
+                        Tel: +599-416-2299 Reservations<br />
+                        Tel:+599-416-6051 Emergency contact<br />
+                        Direct from the USA: (607) 8-GO-SABA<br />
+                        Web: <a href="http://www.sabactransport.com" target="_blank">sabactransport.com </a><br />
+                        Email: <a href="mailto:info@sabactransport.com">info@sabactransport.com</a><br />
+                        Find Us on Facebook: <a href="https://www.facebook.com/sabactransport" target="_blank">sabactransport</a><br />
+                        Follow us on Twitter: <a href="https://twitter.com/sabactransport" target="_blank">sabactransport</a><br />
+                        Skype Name: sabactransport<br />
+                        <br />
+                        <strong>Agents for &amp; DAWN II ~ The Saba Ferry &amp; Mutty's Pride cargo vessel contact us for all your shipping needs!</strong><br />
+                      </span><span class="sub_header"><br />
+                      <strong>The Edge</strong> (Wednesday, Friday, Sunday) </span><span class="standard"><br />
+                        Travels to Saba from Sint Maarten (from Simpson Bay/Pelican Marina) on Wednesday, Friday and Sunday,  departing Sint Maarten at 9:00 a.m. for the 1 hour 20 minute trip and returns from  Saba, departing Fort Bay harbor at 3:30 p.m., arriving back on Sint Maarten  at 5:00 p.m.<br />
+                        <br />
+                        This means of transportation is good for travellers who overnight on Sint  Maarten.</span><span class="standard"><br />
+                        <br />
+                        Prices: Daytrip is $80 per person. One way $55 per person. Children are half price. Check in is at 8:15 a.m.  on SXM and departs sharp at 9 a.m.<br />
+                        <br />
+                        Charters are also available for private groups.  Capacity is 62 passengers. <br />
+                        <br />
+                        Email: <a href="mailto:aquamania@sintmaarten.net">aquamania@sintmaarten.net</a><br />
+                        <em>Website:</em> <a href="http://www.stmaarten-activities.com" target="_blank">www.stmaarten-activities.com</a> <br />
+                        <strong><br />
+                        Please note prices and schedules do change, check with the operator before your trip. </strong><br />
+                        <br />
+                      </span><span class="sub_header">Getting Around on Saba</span><span class="standard"><br />
+                      <img src="nav_images/bottom_line.png" width="600" height="3" />Transportation on and around the island is made easy  by our <a href="taxitours.html">taxi drivers</a>. Sit back and enjoy the ride and let your driver be your guide.<br />
+                      <br />
+                        Taxis are readily available on Saba. <a href="pdf/Taxirates2012.zip" target="_blank">Click here</a> for taxi rates. </span></p>
+                      <p class="standard"><span class="sub_header">Car Rental</span><img src="nav_images/bottom_line.png" width="600" height="3" /><span class="sub_header">Morgan Car Rental</span><br />
+                        Reliable, professional car rental on Saba<br />
+                        conveniently located at Saba's one and only Shopping Mall: the Breadline Plaza<br />
+                        Tel: 416 2881 0r 416 5893<br />
+                        email: <a href="mailto:info@icssaba.com">info@icssaba.com</a></p>
+                    <p><span class="standard">Price: $55 &amp; $65 per day, special rates for weekly and monthly rentals.</span><span class="standard"><br />
+                            <br />
+                            <br />
+                    </span></p></td>
+                  <td background="nav_images/right_line.png">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom"><img src="nav_images/bottom_left.png" width="10" height="10" /></td>
+                  <td colspan="3" valign="bottom" bgcolor="#FFFFFF"><img src="nav_images/bottom_line.png" width="600" height="3" /></td>
+                  <td valign="bottom"><img src="nav_images/bottom_right.png" width="10" height="10" /></td>
+                </tr>
+              </table></td>
+              <td width="13" rowspan="6" valign="top"><img src="nav_images/spacer.gif" width="13" height="10" /></td>
+              <td width="335" height="39" valign="top"><table width="325" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td width="10"><img src="nav_images/top_left.png" width="10" height="10" /></td>
+                  <td colspan="9" valign="top" bgcolor="#FFFFFF"><img src="nav_images/top_line.png" width="315" height="3" /></td>
+                  <td width="10"><img src="nav_images/top_right.png" width="10" height="10" /></td>
+                </tr>
+                <tr>
+                  <td background="nav_images/left_line.png">&nbsp;</td>
+                  <td width="185" valign="middle" bgcolor="#FFFFFF"><img src="nav_images/follow.png" alt="Follow us on Facebook, Twitter, Pinterest &amp; Youtube" width="185" height="25" /></td>
+                  <td width="10" bgcolor="#FFFFFF"><img src="nav_images/spacer.gif" width="10" height="24" /></td>
+                  <td width="24" bgcolor="#FFFFFF"><a href="https://www.facebook.com/SabaTourismBureau" target="_blank" onclick=" 
+					window.open(this.href, this.target, 'scrollbars=yes, addressbar=no, left=200, top=0, status=yes,resizable=no'); return false;"> <img src="nav_images/facebook_icon.jpg" alt="Saba Facebook Page" width="24" height="25" border="0" /></a> </td>
+                  <td width="8" bgcolor="#FFFFFF"><img src="nav_images/spacer.gif" width="8" height="25" /></td>
+                  <td width="24" bgcolor="#FFFFFF"><a href="https://twitter.com/SabaTourism" target="_blank" onclick=" 
+					window.open(this.href, this.target, 'scrollbars=yes, addressbar=no, left=200, top=0, status=yes,resizable=no'); return false;"> <img src="nav_images/twitter_icon.jpg" alt="Saba on Twitter" width="24" height="25" border="0" /></a> </td>
+                  <td width="8" bgcolor="#FFFFFF"><img src="nav_images/spacer.gif" width="8" height="25" /></td>
+                  <td width="24" bgcolor="#FFFFFF"><a href="https://www.youtube.com/channel/UCVXmJnuobMpx0q9gSAxvIeg" target="_blank" onclick=" 
+					window.open(this.href, this.target, 'scrollbars=yes, addressbar=no, left=200, top=0, status=yes,resizable=no'); return false;"> <img src="nav_images/youtube_logo.jpg" alt="Saba Youtube Channel" width="24" height="25" border="0" /></a> </td>
+                  <td width="8" bgcolor="#FFFFFF"><img src="nav_images/spacer.gif" width="8" height="25" /></td>
+                  <td width="24" bgcolor="#FFFFFF"><a href="http://pinterest.com/sabatourism/" target="_blank" onclick=" 
+					window.open(this.href, this.target, 'scrollbars=yes, addressbar=no, left=200, top=0, status=yes,resizable=no'); return false;"> <img src="nav_images/pinterest_icon.jpg" alt="Saba Pinterest Page" width="24" height="25" border="0" /></a> </td>
+                  <td background="nav_images/right_line.png">&nbsp;</td>
+                </tr>
+                <tr>
+                  <td valign="bottom"><img src="nav_images/bottom_left.png" width="10" height="10" /></td>
+                  <td colspan="9" valign="bottom" bgcolor="#FFFFFF"><img src="nav_images/bottom_line.png" width="315" height="3" /></td>
+                  <td valign="bottom"><img src="nav_images/bottom_right.png" width="10" height="10" /></td>
+                </tr>
+              </table></td>
+              <td width="17" rowspan="6" valign="top"><img src="nav_images/spacer.gif" width="17" height="10" /></td>
+            </tr>
+            <tr>
+              <td valign="top"><img src="nav_images/spacer.gif" width="335" height="10" /></td>
+            </tr>
+            
+            <tr>
+              <td valign="top"><table width="335" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td colspan="2" valign="top" background="nav_images/fb_back.png"><div align="center"><span class="sub_header"><img src="nav_images/other_pages.png" alt="Other pages in this section" width="335" height="27" /></span><span class="sub_header"> </span></div></td>
+                </tr>
+                <tr>
+                  <td colspan="2" valign="top" background="nav_images/events_back.gif"><img src="nav_images/spacer.gif" width="335" height="6" /></td>
+                </tr>
+                <tr>
+                  <td width="5" valign="top" background="nav_images/events_back.gif"><img src="nav_images/spacer.gif" width="7" height="10" /></td>
+                  <td width="330" valign="top" background="nav_images/events_back.gif"><a href="whereissaba.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" /><span class="section_link">Where is Saba? </span></a><span class="sub_header"><br />
+                        <img src="nav_images/spacer.gif" width="20" height="5" /></span><span class="style1"><a href="meettheteam.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" /></a></span><span class="section_link style3"><a href="gettosaba.html">Travel Info </a></span><span class="sub_header"><br />
+                        <img src="nav_images/spacer.gif" width="20" height="5" /></span><a href="history.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" />History &amp; Culture</a><span class="sub_header"><br />
+                        <img src="nav_images/spacer.gif" width="20" height="5" /></span><span class="style1"><a href="sabasairport.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" />Saba's Airport </a></span><span class="sub_header"><br />
+                        <img src="nav_images/spacer.gif" width="20" height="5" /><span class="style1"><a href="sabasroad.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" />Saba's Road </a></span><br />
+                        <img src="nav_images/spacer.gif" width="20" height="5" /></span><span class="style1"><a href="sabasport.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" />Saba's Port </a><br />
+                        <span class="sub_header"><img src="nav_images/spacer.gif" width="20" height="5" /></span><a href="generalinfo.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" />General Info </a></span><span class="sub_header"><img src="nav_images/spacer.gif" width="20" height="5" /></span><span class="style1"><a href="realestate.html"><img src="nav_images/bullet_point.jpg" width="20" height="18" border="0" align="left" />Real Estate </a></span></td>
+                </tr>
+                <tr>
+                  <td colspan="2"><img src="nav_images/fb_bottom.png" width="335" height="6" /></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td valign="top"><img src="nav_images/spacer.gif" width="335" height="10" /></td>
+            </tr>
+            <tr>
+              <td valign="top"><table width="320" border="0" cellspacing="0" cellpadding="0">
+                <tr>
+                  <td valign="top"><img src="nav_images/video_clip_header.png" alt="Video Clip" width="335" height="27" /></td>
+                </tr>
+                <tr>
+                  <td valign="top" background="nav_images/youtube_back.png" bgcolor="#000000"><div align="center">
+                      <iframe width="333" height="190" src="//www.youtube.com/embed/dDFz1XS2nQc" frameborder="0" allowfullscreen></iframe>
+                  </div></td>
+                </tr>
+                <tr>
+                  <td><img src="nav_images/video_bottom.png" width="335" height="6" /></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td valign="top"><img src="nav_images/spacer.gif" width="20" height="1064" /></td>
+            </tr>
+            
+            
+            <tr>
+              <td valign="top">&nbsp;</td>
+              <td colspan="3" valign="top"><div align="left"><span class="style3"><img src="nav_images/spacer.gif" width="5" height="5" /><span class="footer">&copy; Copyright 1996-2014 Saba Tourist Bureau. Credits... Site hosted by: Turquoise Interactive <a href="http://www.turq.com" target="_blank"></a></span></span> 
+                      
+              </div></td>
+              <td valign="top">&nbsp;</td>
+            </tr>
+      </table></td>
+    </tr>
+  </table>
+
+</div>
+</body>
+</html>

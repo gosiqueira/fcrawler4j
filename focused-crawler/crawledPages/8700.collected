@@ -1,0 +1,363 @@
+title=Login dos utilizadores - eDreams
+url=http://www.edreams.pt/engine/users/;$sessionid$FZSRIR1QV2X01QFISYPRVQWAVCLC0IV0
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">                                 <html xmlns="http://www.w3.org/1999/xhtml"> <head>        <title>Login dos utilizadores - eDreams</title>        <!--[if IE 8]><meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"/><![endif]--> <!--[if IE 9]><meta http-equiv="X-UA-Compatible" content="IE=9;FF=3;OtherUA=4"/><![endif]--> <!--[if IE 10]><meta http-equiv="X-UA-Compatible" content="IE=10;FF=3;OtherUA=4"/><![endif]-->                                        <!-- Analytics Google Setup: Tracking Code start -->                                        <script type="text/javascript">
+                    var _gaq = _gaq || [];
+                    _gaq.push(['_setAccount', 'UA-229605-3']);
+                    _gaq.push(['_setDomainName','edreams.pt']);
+                    _gaq.push(['_setAllowLinker',true]);
+                    _gaq.push(['_setCampaignCookieTimeout',2592000000]);
+                      
+                    _gaq.push(['_setCustomVar', 3, 'UserType', 'anonymous', 2]);
+                    _gaq.push(['_setCustomVar', 4, 'Hostname', '9f51d6222c1254db4b88fa0ce5887840', 2]);
+                    _gaq.push(['_trackPageview','/edreams/login/']);
+                    _gaq.push(['_trackPageLoadTime']);
+                </script>        <script type="text/javascript"> 
+        function trackGApageView(step, type) {
+            var trackingProductTypeMap = {
+                vuelos : 'flights',
+                hoteles: 'hotels',
+                dynpack: 'dynpack',
+                trenes: 'trains',
+                trainsClickout: 'trainsClickout',
+                offersForm: 'flights',
+                multidestino: 'flights',
+                vuelosDesambiguacion: 'flights'
+            };
+            var gaProduct = 'flights';
+            if (trackingProductTypeMap.hasOwnProperty(type)) {
+                gaProduct = trackingProductTypeMap[type];
+            }
+            var gaStep =  step.substr(4);
+            _gaq.push(
+                    ['b._set', 'page', '/BF/L_'+$('#lang').text()+'/C_'+$('#webSite').text()+'/' + gaProduct + '/waiting/' + gaStep + '/'], // Insert virtual pageview. See value in the Excel provided to replace XXXXX
+                    ['b._trackPageview']
+            );
+        }
+         
+        var gaPage = document.location.pathname + document.location.search;
+         
+        var _gaq = _gaq || [];
+        _gaq.push(
+            ['b._setAccount', 'UA-41469069-1'],
+            ['b._setDomainName', 'edreams.pt'], // Subdomain tracking
+            ['b._setAllowLinker', true], // Cross domain tracking
+            ['b._setCampaignCookieTimeout', 2592000000], // 30 day campaign cookie
+            ['b._set', 'page', '/L_pt/C_PT'+gaPage], // Insert virtual pageview. See value in the Excel provided to replace XXXXX
+            ['b._trackPageview']
+             
+        );
+    
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script> <!-- Analytics Google Setup: Tracking Code end --> <!-- Tracking Social Media Buttons -->        <script type="text/javascript" src= "http://www.edreams.pt/edreams/shared/seo/social/ga_social_tracking.js"></script> <script type="text/javascript">
+    var gaPage = document.location.pathname + document.location.search;
+    
+    var opt_pagePath = '/L_pt/C_PT'+ gaPage;
+    var opt_target = 133698203331950;
+</script> <!-- / Tracking Social Media Buttons end -->                <link rel="stylesheet" type="text/css" href="/engine/static-content/2cf1afe791a13c0e/css/base.css" />  <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/colors-min2.css'/>  <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/pt/colors-min2.css'/>  <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/pt/PT/colors-min2.css'/>  <link rel="stylesheet" type="text/css" href="/engine/static-content/2cf1afe791a13c0e/css/position-min2.css" />   <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/colors2.css'/>  <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/pt/colors2.css'/>  <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/pt/PT/colors2.css'/>   <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/position2.css'/>  <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/pt/position2.css'/>  <link type='text/css' rel='stylesheet' href='/engine/static-content/2cf1afe791a13c0e/css/pt/PT/position2.css'/>     <!--[if lte IE 7]> <link href="/engine/static-content/2cf1afe791a13c0e/css/IE-position.css" rel="stylesheet" type="text/css"/> <![endif]--> <!--[if IE 7]><link type="text/css" rel="stylesheet" href="/engine/static-content/2cf1afe791a13c0e/css/ie7.css" /><![endif]-->  <!--[if IE 6]><link type="text/css" rel="stylesheet" href="/engine/static-content/2cf1afe791a13c0e/css/ie6.css" /><![endif]-->     <script>window.isAutocompleteWithImages = true;</script> <script type="text/javascript" src="/engine/static-content/unversioned/jquery/jquery-1.7.2.min.js"></script>  <script type='text/javascript' src='/engine/static-content/2cf1afe791a13c0e/js/alerts/pt/alerts.js'></script>  <script type='text/javascript' src='/engine/static-content/2cf1afe791a13c0e/js/alerts/pt/PT/alerts.js'></script>  <script type="text/javascript" src="/engine/static-content/2cf1afe791a13c0e/js/eDreams-min2.js"></script> <script type="text/javascript" src="/engine/static-content/unversioned/jquery/jquery-ui-1.10.min.js"></script> <script type="text/javascript" src="/engine/static-content/2cf1afe791a13c0e/js/tracking/eDreams-trackingEvents.js"></script>     <script type="text/javascript" src="/engine/static-content/2cf1afe791a13c0e/js/eDreamsCommon2.js"></script>              </head> <body> <div id="ifForgotBox" class="tips tipsFrame"> <div id="ifForgotBoxWait" class="ifWait whiteBg"> Esperando dados <div class="loaderImg"></div> </div> <div id="ifForgotBoxOk"></div> </div>  <!-- wait page -->                           <div class="displayNone"> <span id="lang">pt</span> <span id="webSite">pt</span> <span id="step"></span> </div> <span id="imgPubliParams"
+      data-base-url="https://pubads.g.doubleclick.net/gampad"
+      data-iu="/4121/pt_sites/edreams.pt/flights/results"
+      data-img-url="/ad?"
+      data-img-href="/jump?"
+      data-sz="300x250"
+      data-c="0-453626316"
+      data-tile="1"
+      data-pos="wait"
+      data-site-version="A"
+      data-is-wl="false"
+      data-mkt-portal="EDR_PT"
+      data-search-form-id=""
+        ></span>           <!--[if IE 8]><meta http-equiv="X-UA-Compatible" content="IE=8;FF=3;OtherUA=4"/><![endif]--> <!--[if IE 9]><meta http-equiv="X-UA-Compatible" content="IE=9;FF=3;OtherUA=4"/><![endif]--> <!--[if IE 10]><meta http-equiv="X-UA-Compatible" content="IE=10;FF=3;OtherUA=4"/><![endif]-->                   <script type="text/javascript" src="/engine/static-content/2cf1afe791a13c0e/js/waitPage/waitPage.js"></script>      <style type="text/css">
+
+#waitScreen {
+    font-family: arial;
+    width: 960px;
+    padding-bottom: 0;
+
+}
+
+#waitScreenContent {
+    padding-top: 0;
+}
+
+#waitScreenContent .headerSections .headerMiddleSection,
+#waitScreenContent .headerSections .headerMiddleSectionLeft,
+#waitScreenContent .headerSections .headerMiddleSectionRight {
+    height: 55px;
+}
+
+#waitScreenContent .headerSections {
+    height: auto;
+}
+
+.waitMessage {
+    margin-top: 32px;
+    font-size: 24px;
+}
+
+.waitMessageConfirmation {
+    margin-top: 65px;
+    font-size: 24px;
+}
+
+.waitMessage .grey {
+    color: #999;
+}
+
+.waitMessage .blue {
+    color: #039;
+}
+
+.waitSearchInfoPanel {
+    margin: 30px auto 0 auto;
+    display: table;
+}
+
+.waitSearchInfoPanel .panel {
+    display: table-row;
+}
+
+.waitSearchInfoPanel .panel .first-child {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    padding-left: 24px;
+}
+
+.waitSearchInfoPanel .panel .last-child {
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    padding-right: 24px;
+}
+
+.waitSearchInfoPanel .panel div {
+    background-color: #ffc900;
+    line-height: 30px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    display: table-cell;
+}
+
+.waitSearchInfoPanel .city {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+}
+
+.waitSearchInfoPanel .date {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.waitSearchInfoPanel .to {
+    font-size: 10px;
+    color: #666;
+    padding:  0 12px;
+}
+
+.waitSearchInfoPanel .travellers {
+    font-size: 18px;
+    color: #333;
+}
+
+.waitSearchInfoPanel .separator > div{
+    width: 1px;
+    background: white;
+    position: relative;
+    height: 30px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    top: 7px;
+}
+
+.waitSearchInfoPanel .separator{
+    padding: 0 21px;
+}
+
+.flyingAirplane {
+    margin-top: 35px;
+    text-align: center;
+}
+
+.flyingAirplaneConfirmation {
+    margin-top: 55px;
+    text-align: center;
+}
+
+.bestPrice,
+.bestService,
+.connectingCombining {
+    margin: 40px auto 0 auto;
+    display: table;
+}
+
+.bestPrice .group,
+.bestService .group,
+.connectingCombining .group {
+    display: table-row;
+}
+
+.bestService .group div,
+.bestPrice .group > div,
+.connectingCombining .group > div {
+    display: table-cell;
+    vertical-align: top;
+}
+
+.connectingCombining .group > div > .title {
+    font-family: Arial;
+    font-size: 18px;
+    color: #666;
+    display: block;
+    clear: both;
+    padding-left: 0px;
+}
+
+#slidingCos {
+    display: block;
+    clear: both;
+    width: 178px;
+    height: 29px;
+    background-image: url("/images/shared/new/WaitingVisor.png");
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-family: Arial;
+    font-size: 18px;
+    color: #039;
+    font-weight: bold;
+    padding-top: 8px;
+}
+
+.connectingCombining .group .separator {
+    width: 115px;
+    display: table-cell;
+}
+
+.bestService,
+.bestPrice {
+    margin-top: 75px
+}
+
+.bestService .separator,
+.bestPrice .separator {
+    width: 145px;
+    text-align: center;
+}
+
+.getBestService,
+.thousandFlighsBooked,
+.escape,
+.getBestPrice {
+    width: 300px;
+    text-align: right;
+    font-family: Arial;
+    font-size: 20px;
+    color: #666;
+}
+
+.thousandFlighsBooked,
+.escape {
+    text-align: left;
+}
+
+.thousandFlighsBooked .title,
+.escape .title {
+    font-size: 20px;
+    color: #039;
+    display: block;
+    padding: 0;
+    margin: 0;
+    height: auto;
+}
+
+.thousandFlighsBooked .subtitle,
+.escape .subtitle {
+    font-size: 16px;
+    color: #333;
+    display: block;
+}
+
+.processingBooking {
+    font-family: Arial;
+    font-size: 20px;
+    color: #999;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.processingBookingConfirmation {
+    font-family: Arial;
+    font-size: 20px;
+    color: #999;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+
+.waitingAds {
+    margin-top: 45px;
+    padding-top: 45px;
+    background: url('/images/shared/new/WaitingGradient.png') top center no-repeat;
+    min-height: 102px;
+    width: 100%;
+    text-align: center;
+}
+
+.waitingAds div {
+    margin: 0 auto;
+}
+
+</style> <div id="waitScreen">    <div id="waitScreenContent">                                                           <div class="floatLeft headerSections"> <div class="floatLeft headerUpperSection">  </div> <div class="floatLeft headerMiddleSection">   <div class="floatLeft headerMiddleSectionLeft preloadBackgroundImage">    <div class="floatLeft headerMiddleSectionLogo preloadBackgroundImage"></div>   </div> <div class="floatLeft headerMiddleSectionRight preloadBackgroundImage"> <div class="floatRight headerMiddleSectionSubtitle preloadBackgroundImage"> </div> </div> </div> <div class="clearBoth"></div>  </div> <div class="clearBoth"></div>        </div> </div> <div id="edreamsScreen">                 <div id="ifInfoNewsLetterBox" class="tips tipsFrame"> <div id="ifInfoNewsLetterBoxWait" class="ifWait whiteBg"> Esperando dados <div class="loaderImg"></div> </div> <div id="ifInfoNewsLetterBoxOk"></div> </div> <div id="ifForgotBox" class="tips tipsFrame"> <div style="width:350px" id="ifForgotBoxWait" class="ifWait whiteBg"> Esperando dados <div class="loaderImg"></div> </div> <div id="ifForgotBoxOk"> <iframe id="ifForgotBoxFR" src="/engine/static-content/unversioned/html/blank.html" allowtransparency="allowtransparency" marginheight="0" marginwidth="0" border="0" frameborder="0" scrolling="no" allowtransparency="allowtransparency" width="400px" height="175px"></iframe> </div> </div>      <div id="header">                                                                      <div class="floatLeft headerSections"> <div class="floatLeft headerUpperSection">      <div class="headerFlags floatRight">  <div id="displayCountriesDivLink" class="pointerCursor marginTop6px">   <div class="textEnDesplegable" id="displayedFlag"> <div class="flagEnDespleglableHeader marginLeft2px spriteIcons ptEnDesplegableB"></div>  <span class="headerCountryArrow headerCountryArrowDown marginLeft4px" id="headerCountryArrowId"></span>  </div>   </div>  </div>   <div class="floatRight headerSectionSeprator"></div>       <div class="floatRight marginTop8px"> <a class="headerUserZoneText" href="https://www.edreams.pt/engine/users/" target="_top">Login</a> </div> <div class="headerUserZone floatRight marginTop3px"></div>    <div class="floatRight headerSectionSeprator"></div>   <div class="floatRight marginTop8px"> <a class="headerHelpText" href="http://www.edreams.pt/engine/call_center/eptica/" target="_top" title="Apoio ao cliente">Ajuda</a> </div> <div class="floatRight marginTop3px"><span class="headerHelp" title="Apoio ao cliente"></span></div>    <div class="floatRight headerSectionSeprator"></div>  <div class="floatRight marginTop3px">                                                          <div class="floatRight"> <span class="floatLeft headerTel">      <div class="headerPhoneNormal">
+                            707<span style="display:none">_</span> 782<span style="display:none">_</span> 829
+                        </div>             </span> </div> </div>  <div class="floatRight headerSectionsTelephone marginTop3px"> </div>    <div class="clearBoth"></div>                 <div id="countriesDiv" class="displayNone floatLeft countriesSectionDiv"> <div class="countriesDivHeader"> <span class="countriesDivHeaderText blockDisplay"></span> </div> <ul class="textEnDesplegable clearfix marginTop5px marginBottom5px">   <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons arEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.com.ar/">Argentina ($ ARS)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons esEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.es/">España (€)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons nlEnDesplegableB"></span> <a class="inlineBlock" href="http://nl.edreams.com/">Nederland (€)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons zaEnDesplegableB"></span> <a class="inlineBlock" href="http://za.edreams.com/">South Africa (R)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons auEnDesplegableB"></span> <a class="inlineBlock" href="http://au.edreams.com/">Australia (AU$)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons frEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.fr/">France (€)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons nzEnDesplegableB"></span> <a class="inlineBlock" href="http://nz.edreams.com/">New Zealand (NZ$)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons thEnDesplegableB"></span> <a class="inlineBlock" href="http://th.edreams.com/">Thailand (฿)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons brEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.com.br/">Brasil (R$)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons grEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.gr/">Ελλάδα (€)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons peEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.pe/">Perú (S/.)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons trEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.com.tr/">Türkiye (TL)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons caEnDesplegableB"></span> <a class="inlineBlock" href="http://ca.edreams.com/">Canada En (C$)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons hkEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.hk/">Hong Kong (HK$)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons phEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.ph/">Phillipines (₱)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons aeEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.ae/">UAE (AED)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons caEnDesplegableB"></span> <a class="inlineBlock" href="http://ca.edreams.com/fr/">Canada Fr (C$)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons idEnDesplegableB"></span> <a class="inlineBlock" href="http://id.edreams.com/">Indonesia (Rp)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons ptEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.pt/">Portugal (€)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons ukEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.co.uk/">United Kingdom (£)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons clEnDesplegableB"></span> <a class="inlineBlock" href="http://cl.edreams.com/">Chile ($ CLP)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons inEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.in/">India (Rs)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons ruEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.com.ru/">Россия (RUB)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons usEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.net/">United States (US$)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons cnEnDesplegableB"></span> <a class="inlineBlock" href="http://cn.edreams.com/">中国 (¥)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons itEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.it/">Italia (€)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons chEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.ch/">Schweiz (SFr.)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons usEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.net/es/">Estados Unidos (US$)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons coEnDesplegableB"></span> <a class="inlineBlock" href="http://co.edreams.com/">Colombia ($ COP)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons jpEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.jp/travel/">日本 (¥)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons chEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.ch/fr/">Suisse (SFr.)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons veEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.com.ve/">Venezuela (Bs.F)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons deEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.de/">Deutschland (€)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons maEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.ma/">Maroc (Dh)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons chEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.ch/it/">Svizzera (SFr.)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons enEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.com/">Rest of World (€)</a>   </li>    <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons egEnDesplegableB"></span> <a class="inlineBlock" href="http://eg.edreams.com/">Egypt (E£)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons mxEnDesplegableB"></span> <a class="inlineBlock" href="http://www.edreams.com.mx/">México ($ MXN)</a>   </li>  <li class="floatLeft">       <span class="flagEnDespleglableHeader spriteIcons sgEnDesplegableB"></span> <a class="inlineBlock" href="http://sg.edreams.com/">Singapore (S$)</a>   </li>  <li class="floatLeft">  </li>   </ul> </div>   </div> <div class="floatLeft headerMiddleSection">     <div class="floatLeft headerMiddleSectionLeft preloadBackgroundImage">   <a target="_top" href="http://www.edreams.pt/" id="eDreamsHomeLink" title="eDreams" class="floatLeft headerMiddleSectionLogo preloadBackgroundImage"></a>    </div> <div class="floatLeft headerMiddleSectionRight preloadBackgroundImage"> <div class="floatRight headerMiddleSectionSubtitle preloadBackgroundImage"> </div> </div> </div> <div class="clearBoth"></div>   <div id="headerSectionTabs">                                        <div class="floatLeft headerTabs spriteButtons"> <ul class="subMenuB">                                   <li class="tab active">     <span class="displayNone" id="tabHomeTrack">home</span>                     <a href="http://www.edreams.pt/" 
+                               class="headerTabLink tabTrackingJS" id="tabHome" target="_top" title="Home">
+                                Home
+                            </a>              </li>                  <li class="tab ">     <span class="displayNone" id="tabFlightsTrack">flights</span>                     <a href="http://www.edreams.pt/voos/" 
+                               class="headerTabLink tabTrackingJS" id="tabFlights" target="_top" title="Voos">
+                                Voos
+                            </a>              </li>                  <li class="tab ">     <span class="displayNone" id="tabHotelsTrack">hotels</span>                       <a href="http://hotels.edreams.pt/?aid=348317&selected_currency=EUR&lang=pt&label=edr-xmlvswl-pt-searches" rel="nofollow"
+                               class="headerTabLink tabTrackingJS" id="tabHotels" target="_top" title="Hotéis">
+                                Hotéis
+                            </a>              </li>                  <li class="tab ">     <span class="displayNone" id="tabDynpackTrack">dynpack</span>                     <a href="http://www.edreams.pt/voo-hotel/" 
+                               class="headerTabLink tabTrackingJS" id="tabDynpack" target="_top" title="Voo+Hotel">
+                                Voo+Hotel
+                            </a>              </li>                  <li class="tab ">     <span class="displayNone" id="tabCarsTrack">carsPT</span>                     <a href="http://www.edreams.pt/rent-a-car/" 
+                               class="headerTabLink tabTrackingJS" id="tabCars" target="_top" title="Rent-a-car">
+                                Rent-a-car
+                            </a>              </li>                <li class="tab ">                       <a href="http://www.homeaway.pt/info/edreams" 
+                               class="headerTabLink " id="tabHomeway" target="_top" title="Casas de férias">
+                                Casas de férias
+                            </a>              </li>                  <li class="tab ">     <span class="displayNone" id="tabDestinosTrack">tab_destinos</span>                     <a href="http://www.edreams.pt/engine/campaigns/?pageName=destinos" 
+                               class="headerTabLink tabTrackingJS" id="tabDestinos" target="_top" title="Destinos">
+                                Destinos
+                            </a>           <ul class="subHeaderB">  <span class="icoArrow spriteIcons floatLeft"></span> <div class="clearBoth"></div>        <li>       <span class="displayNone" id="tabMacauTrack">tab_macau</span>              <a href="http://www.edreams.pt/oficina/turismo/turismomacau"  class="tabTrackingJS" id="tabMacau" title="T. Macau">
+                                                    T. Macau
+                                                </a> </li>   </ul>        </li>                  <li class="tab ">     <span class="displayNone" id="tabCreditoFeriasTrack">tab_creditoferias</span>                     <a href="https://www.cetelem.pt/credito/outros-projetos.html" 
+                               class="headerTabLink tabTrackingJS" id="tabCreditoFerias" target="_top" title="Crédito Férias">
+                                Crédito Férias
+                            </a>              </li>                    <li class="tab last">     <span class="displayNone" id="tabDisneyTrack">tab_disneylandparis</span>                     <a href="http://www.edreams.pt/oficina/turismo/disneylandparis/" 
+                               class="headerTabLink tabTrackingJS" id="tabDisney" target="_top" title="Disney">
+                                Disney
+                            </a>              </li>    </ul>  </div>  </div> <div class="clearBoth"></div>   </div> <div class="clearBoth"></div>      </div>                                       <a name="content-error-formerrorAnchor"></a>     <div id="content-error-form" class="content-error displayNone width100PC"> <div class="logoError"></div> <div id="content-error-form-text" class="textError redText floatLeft bold width870"><ul></ul></div> <div class="clearBoth">&nbsp;</div> </div> <div class="clearBoth"></div>         <div class="marginTop10px marginBottom10px"> <div class="floatLeft height30px width30 marginRight10px loginTitle"></div> <div class="floatLeft defaultBlueText marginTop2px font24 bold">Login dos utilizadores</div> <div class="clearBoth"></div> </div>   <div class="width960"> <div class="yellowBox960Top"></div> <div class="yellowBoxRight960"> <div class="padding10px font12"> <div id="datosObligatorios" class="alignRight floatRight"> * Dados obrigatórios</div> <ul class="resident-list"> <li> <span class="defaultBlueText sectionSubTit bold">Já está registado?</span> </li> </ul> <div id="loginFormDiv" class="loginFormDiv"> <form id="login" action="http://www.edreams.pt/engine/user/login" method="post"> <input type="hidden" name="hasInputField" id="hasInputField" value="true"/> <input type="hidden" name="urlId" value="DEFAULT_LOGIN"/>   <div class="width33PC floatLeft"> <div class="height20px"> <label for="loginEmail">Endereço e-mail
+                                *</label></div> <input type="text" id="loginEmail" name="loginEmail" maxlength="64" class="font12 width150 inputField bInputField" tabindex="1"/> <div class="height20px font11"> <a href="#" id="forgotLink"> Esqueceu a sua password? </a> </div> </div> <div id="loginPassDiv" class="floatLeft"> <div class="height20px">       <label for="loginPassword">A sua password eDreams *</label></div> <input type="password" id="loginPassword" name="loginPassword" maxlength="35" class="font12 width150 inputField bInputField" tabindex="2"/> <div class="height20px font11"> (Campo sensível a maíusculas e minúsculas)</div> </div> <div id="loginSubmitDiv" class="floatLeft"> <input type="submit" class="buttonContinue borderZero height29px pointerCursor" value="" title="Continuar" tabindex="3"/> </div> </form> </div> <div class="clearBoth">&nbsp;</div> <div class="width100PC" id="loginHr"> <hr class="greyText width100PC"/> </div> <ul class="resident-list"> <li> <span class="defaultBlueText sectionSubTit bold">Ainda não está registado?</span> </li> </ul> <div id="registerFormDiv" class="loginFormDiv"> <form action="/engine/user/register" id="register" method="post"> <input type="hidden" name="hasInputField" id="hasInputField" value="true"/> <input type="hidden" name="urlId" value="REGISTER"/>   <input type="hidden" name="gender" value="3"/> <div class="width100PC marginBottom10px"> <span class="defaultBlueText bold font15">Dados pessoais</span> </div> <div class="height50px marginBottom10px"> <div class="width25PC floatLeft"> <div class="height20px"> <label for="name">Primeiro Nome *</label> </div> <input type="text" id="name" name="name" class="font12 width150 inputField bInputField" maxlength="30" tabindex="4"/> </div> <div class="width25PC floatLeft"> <div class="height20px"> <label for="lastName">Último Nome *</label> </div> <input type="text" id="lastName" name="lastName" class="font12 width150 inputField bInputField" maxlength="30" tabindex="5"/> </div> <div class="width50percent floatLeft">  <div class="height20px"> <label for="idCardNumber">Número de identidade *</label> </div> <input type="text" id="idCardNumber" name="idCardNumber" class="font12 width150 inputField bInputField" maxlength="20" tabindex="6"/>  </div> </div> <div class="height50px marginBottom10px"> <div class="width25PC floatLeft"> <div class="height20px"> <label for="mobileNumber">Telemóvel *</label> </div> <input type="text" id="mobileNumber" name="mobileNumber" class="font12 width150 inputField bInputField" maxlength="21" tabindex="7"/> </div> <div class="width75percent floatLeft"> <div class="height20px"> <label for="phoneNumber">Telefone</label> </div> <input type="text" id="phoneNumber" name="phoneNumber" class="font12 width150 inputField bInputField" maxlength="21" tabindex="8"/> </div> </div> <div class="height50px marginBottom10px"> <div class="width25PC floatLeft"> <div class="height20px"> <label for="address">Morada *</label> </div> <input type="text" id="address" name="address" class="font12 width150 inputField bInputField" maxlength="50" tabindex="9"/> </div> <div class="width25PC floatLeft"> <div class="height20px"> <label for="city">Cidade *</label> </div> <input type="text" id="city" name="city" class="font12 width150 inputField bInputField" maxlength="21" tabindex="10"/> </div> <div class="width25PC floatLeft"> <div class="height20px"> <label for="zipCode">Código postal *</label> </div> <input type="text" id="zipCode" name="zipCode" class="font12 width150 inputField bInputField" maxlength="10" tabindex="11"/> </div> <div class="width25PC floatLeft"> <div class="height20px"> <label for="region">Província/Distrito *</label> </div> <input type="text" id="region" name="region" class="font12 width150 inputField bInputField" maxlength="21" tabindex="12"/> </div> </div> <div class="width100PC marginBottom10px"> <span class="defaultBlueText bold font15">Dados de acesso à eDreams</span> </div> <div class="height50px marginBottom10px"> <div class="width25PC floatLeft"> <div class="height20px"> <label for="email">Endereço e-mail *</label> </div> <input type="text" id="email" name="email" class="font12 width150 inputField bInputField" maxlength="64" tabindex="13"/> </div> <div class="floatLeft"> <div class="height20px"> <label for="email2">Escreva novamente o seu endereço de e-mail *</label> </div> <input type="text" id="email2" name="email2" class="font12 width150 inputField bInputField" maxlength="64" tabindex="14"/> </div> </div> <div class="height50px marginBottom10px"> <div class="width25PC floatLeft"> <div class="height20px"> <label for="password">Password *</label> </div> <input type="password" id="password" name="password" class="font12 width150 inputField bInputField" maxlength="35" tabindex="15"/> </div> <div class="floatLeft"> <div class="height20px"> <label for="password2">Escreva novamente a sua password *</label> </div> <input type="password" id="password2" name="password2" class="font12 width150 inputField bInputField" maxlength="35" tabindex="16"/> </div> </div> <div id="registerQuestionsDiv" class="height100"> <div id="conditionsDiv" class="width100PC marginBottom20px"> <input type="checkbox" id="acceptedGeneralConditions" name="acceptedGeneralConditions" title="" tabindex="17"/>&nbsp;
+                             <label for="acceptedGeneralConditions">Aceito a <a href="http://www.edreams.pt/images/shared/pdf/PT/lortad-pt.pdf" target="_blank">Política de Protecção de Dados</a> e as <a href="http://www.edreams.pt/edreams/portuguese/conditions/general-conditions-pt.pdf" target="_blank">Condições Gerais</a> da eDreams.</label> </div>    <div id="registerNLQuestionDiv" class="floatLeft marginBottom10px"> <span class="defaultBlueText bold font15">¿Deseja receber o nosso boletim de ofertas?</span> </div> <div class="clearBoth"></div> <div class="marginBottom10px"> <input type="checkbox" id="acceptedNewsletter" name="acceptedNewsletter" title=""  tabindex="18"/>&nbsp;
+                            <label for="acceptedNewsletter">Sim, desejo receber o boletim de ofertas da eDreams <span class="lightBlueLink underlined font12 pointerCursor" id="infoNewsLetterLink">Condições</span>.</label> </div> <div class="marginBottom20px"> <input type="checkbox" id="mailOffers" name="mailOffers" title=""  tabindex="19"/>&nbsp;
+                                <label for="mailOffers">Sim, desejo receber informação sobre os diferentes produtos e/ou serviços de empresas colaboradoras de eDreams <span class="lightBlueLink underlined font12 pointerCursor" id="infoNewsLetterPLink">Condições</span>.</label> </div>    <div id="registerSubmitDiv" class="floatLeft alignRight width100PC"> <input type="submit" class="buttonContinue borderZero height29px pointerCursor" value="" title="Continuar" tabindex="20"/> </div> <div class="clearBoth">&nbsp;</div> </div> </form> </div> </div> <p class="nobottomgap">&nbsp;</p> </div> <div class="yellowBox960Bottom"></div> </div>  <!-- Footer -->                   <div class="clearBoth"></div>  <div id="footer" class="footer floatLeft" >           <div id="links" class="cl footer_links">          <h4>Links de viagem</h4> <ul class="footerLinksList">   <li> <a href="http://www.edreams.pt/voos/baratos/ " target="_top">Voos baratos </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/voos/lowcost/ " target="_top"> Voos Low Cost </a> </li>  <li> <a href=" http://www.edreams.pt/voos/motores-busca/ofertas/ " target="_top"> Ofertas voos </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/voos/companhia/ " target="_top"> Companhias Aéreas </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/voos/companhia/TP/tap-air-portugal/ " target="_top"> TAP Portugal </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/voos/companhia/U2/easyjet/ " target="_top"> EasyJet </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/voos/companhia/FR/ryanair/ " target="_top"> Ryanair </a> </li>  <li> <a href=" http://www.edreams.pt/voos/internacionais/ " target="_top"> Voos Internacionais </a> </li>  <li> <a href=" http://www.edreams.pt/voos/porto/OPO/ " target="_top"> Voos Porto </a> </li>  <li> <a href=" http://www.edreams.pt/voos/lisboa/LIS/ " target="_top"> Voos Lisboa </a> </li>  <li> <a href=" http://www.edreams.pt/voos/paris/PAR/ " target="_top"> Voos Paris </a> </li>  <li> <a href=" http://www.edreams.pt/voos/londres/LON/ " target="_top"> Voos Londres </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/hoteis/ " target="_top"> Ofertas hoteis </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/hoteis-cidade/1/europa/11620/PT/portugal/1347/porto/ " target="_top"> Hoteis Porto </a> </li>  <li> <a href=" http://www.edreams.pt/ofertas/hoteis-cidade/1/europa/11620/PT/portugal/0942/lisboa/ " target="_top"> Hoteis Lisboa </a> </li>  <li> <a href=" http://www.edreams.pt/voos/aeroportos/ " target="_top"> Aeroportos </a> </li>  <li> <a href=" http://dreamguides.edreams.pt/" target="_top"> Guia de viagens</a> </li>  </ul> <div class="clearBoth">&nbsp;</div>  <h4>Links eDreams</h4> <ul class="footerLinksList">    <li> <a href="http://www.edreams.pt/engine/call_center/eptica/?id=23084 " target="_top">Quem somos </a> </li>  <li> <a href=" http://www.edreams.pt/engine/call_center/eptica/ " target="_top"> Ajuda </a> </li>  <li> <a href=" http://www.edreams.pt/engine/campaigns/?pageName=advertisement_introduction " target="_top"> Publicidade </a> </li>  <li> <a href=" http://www.edreams.pt/corporate/job-opportunities/ " target="_top"> Trabalho </a> </li>  <li> <a href=" http://www.edreams.pt/static/pt_PT/twitter-facebook.html " target="_top"> Twitter e Facebook </a> </li>  <li> <a href=" http://blog.edreams.pt/" target="_top"> Blog de viagens</a> </li>  </ul> <div class="clearBoth">&nbsp;</div> </div> <div id="interlogo" class="logoInt spriteBigIcons floatLeft"></div> <div class="clearBoth"></div>     <p>  &#169; 1999
+                                - 25/01/2016&nbsp;eDreams. Todos os direitos reservados. <span id="footer_terms"><a href="/engine/call_center/eptica/?id=23083" target="_top">Termos e Condições de uso da página web</a></span>&nbsp;
+                                   e <a href="/engine/campaigns/?pageName=cookies" target="_blank" class="underlined">Política sobre cookies</a>   Vacaciones eDreams, S.L. Sociedade unipessoal. com CIF B-61965778. Inscrito no Registo Mercantil de Barcelona, Tomo 31.908, F&oacute;lio 69, Folha B200.680, Inscri&ccedil;&atilde;o 1. Licen&ccedil;a de Ag&ecirc;ncia de Viagens GC88MD. 601 World Trade Center N, 08039 Barcelona - Espanha </p> <div id="legal"> <div class="legal-container">   <ul><li id="legal-iata" class="spriteIcons"></li><li id="legal-vi" class="spriteIcons"></li><li id="legal-ma" class="spriteIcons"></li><li id="legal-ax" class="spriteIcons"></li><li id="legal-dc" class="spriteIcons"></li><li id="legal-vb" class="spriteIcons"></li><li id="legal-thaw" class="spriteBigIcons"></li><li id="legal-aece" class="spriteIcons"></li></ul>    </div> </div>       </div> <div class="displayNone"> <span id="lang">pt</span> <span id="site">pt</span> <span id="initPageFunction">initUserPage</span> </div> </div>        <!-- page.name = login user profile --> <!-- page.type = user -->        <div class="displayNone">                  <span id="trackingOriginPage">/edreams/login/</span>  </div> <script type="text/javascript">window.onerror=function(m,u,l){_gaq.push(['_trackEvent','js error log',m,u+'_'+l]);return false};</script>  </body> </html>

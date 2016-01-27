@@ -1,0 +1,659 @@
+title=Bibliothèque nationale de France
+url=http://www.bnf.fr/fr/acc/x.accueil.html
+html=
+<script>
+window.location.href = "/fr/m/m_accueil.html";
+</script>
+<!doctype html>
+<!--[if (lte IE 7)	!(IEMobile)]> <html lang="fr" class="ie7 old-ie no-js"> <![endif]-->
+<!--[if (IE 8)&!(IEMobile)]> <html lang="fr" class="ie8 old-ie no-js"> <![endif]-->
+<!--[if (gt IE 8)&!(IEMobile)]><!-->
+<html lang="fr" class="no-js">
+<!--<![endif]--> 
+<head>
+<meta charset="utf-8"/>
+<link rel="schema.dcterms" href="http://purl.org/dc/terms/">
+<title>Bibliothèque nationale de France</title>
+<script>document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/,'js');	</script>
+<meta content="Site internet de la Bibliothèque nationale de France" name="dcterms.title"/>
+<meta name="dcterms.Creator" content="Bibliothèque nationale de France">
+<meta name="dcterms.Publisher" content="Bibliothèque nationale de France">
+<meta name="dcterms.Rights" content="Bibliothèque nationale de France">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" type="image/x-icon" href="/bnf_dev/icono/favicon.ico">
+<!--[if !IE]><!--><link rel="stylesheet" href="/bnf_dev/css/styles.min.css"><!--<![endif]-->
+<!--[if IE]><link rel="stylesheet" href="/bnf_dev/css/styles-ie.min.css"><![endif]-->
+<link rel="stylesheet" media="print" href="/bnf_dev/css/print.min.css">
+<link rel="stylesheet" media="screen" href="/bnf_dev/js/magnific/magnific-popup.css">
+</head>
+<body>
+<div id="conteneur" class="accueil">
+<ul class="invisible">
+<li><a href="/fr/evenements_et_culture/a.passe_bnf.html#contenu" accesskey="s">Accès au contenu [Accesskey 's']</a></li>
+<li><a href="/fr/evenements_et_culture/a.passe_bnf.html#complements">Accès aux compléments au contenu </a></li>
+<li><a href="/fr/evenements_et_culture/a.passe_bnf.html#menu">Accès au menu </a></li>
+<li><a href="/fr/evenements_et_culture/a.passe_bnf.html#recherche" accesskey="4">Recherche [Accesskey '4']</a></li>
+<li><a href="/fr/acces_dedies/publics_handicapes/s.accueil_personnes_handicapees.html?first_Art=oui">Publics handicapés [Accesskey '5']</a></li>
+<li><a href="/fr/outils/a.aide.html#raccourcisclavier">Raccourcis clavier </a></li>
+<li><a href="/fr/outils/lsp.plan_du_site.html" accesskey="3">Plan du site [Accesskey '3']</a></li>
+<li><a href="/fr/outils/a.ecrire.html" accesskey="7">Écrire à la BnF [Accesskey '7']</a></li>
+</ul>
+<div id="entete">
+<h1><img id="logo" src="/bnf_dev/icono/bnf.png" alt="Bibliothèque nationale de France" /></h1>
+<ul id="utilitaires">
+<li class="prem">
+<a href="/fr/acces_dedies/publics_handicapes/s.accueil_personnes_handicapees.html?first_Art=oui" accesskey="5">Publics handicapés</a></li>
+<li class="prem"><a lang="en" href="/en/tools/a.welcome_to_the_bnf.html">English </a></li>
+<li><a lang="es" href="/es/instrumentos/a.bienvenida_a_la_bnf.html">Español</a></li>
+<li><a lang="de" hreflang="de" href="/fr/outils/a.willkommen_in_der_bnf.html">Deutsch</a></li>
+<li><a lang="it" hreflang="it" href="/fr/outils/a.benvenuti_alla_bnf.html">Italiano</a></li>
+<li><a lang="pt" hreflang="pt" href="/fr/outils/a.bem-vindo_a_bnf.html">Português</a></li>
+<li><a lang="ru" hreflang="ru" href="/fr/outils/a.bienvenue_a_la_bnf_ru.html">Русский</a></li>
+<li dir="rtl"><a lang="ar" hreflang="ar" href="/fr/outils/a.bienvenue_a_la_bnf_ar.html">عربي</a></li>
+<li><a lang="zh" hreflang="zh" href="/fr/outils/a.bienvenue_a_la_bnf_zh.html">中文</a></li>
+<li><a lang="ja" hreflang="ja" href="/fr/outils/a.bienvenue_a_la_bnf_ja.html">日本語</a></li>
+<li class="prem"><a href="/fr/outils/a.aide.html" accesskey="6">Aide</a></li>
+<li><a href="/fr/outils/lsp.plan_du_site.html" accesskey="3">Plan du site </a></li>
+<li><a href="/fr/outils/a.ecrire.html" accesskey="7">Écrire à la BnF</a></li>
+<li><a href="/fr/outils/a.acceo.html"><img src="/bnf_dev/icono/acceo.png" alt="Service de traduction LSF/TIP Acceo" /></a></li>
+<li class="prem"><a href="http://espacepersonnel.bnf.fr" id="espace_personnel">Espace personnel</a></li>
+</ul>
+<a id="mobile" href="http://m.bnf.fr"><img src="/bnf_dev/icono/mobile.png" alt="Version mobile" title="Afficher le site en version mobile"></a>
+<a id="soutien" href="/fr/acces_dedies/mecenat_partenariat.html">Soutenez <span>la</span> BnF</a>
+<form id="recherche" action="/fr/outils/lr.resultats_recherche_simple.html" method="get">
+<fieldset>
+<legend>Formulaire de recherche</legend>
+<label for="rechercheInput" accesskey="4">Recherche</label>
+<div id="rechercheInputs">
+<input name="query" id="rechercheInput" type="text" placeholder="Recherche">
+<input type="image" src="/bnf_dev/icono/validerRecherche.png" id="validerRecherche" title="valider" alt="lancer la recherche">
+</div>
+</fieldset>
+</form>
+<div id="menu">
+<ol>
+<li><a href='/fr/la_bnf.html'>La BnF</a>
+<ol>
+<li><a href='/fr/la_bnf/actualites_bibliotheque.html'>Actualités de la BnF</a></li>
+<li class='parent'><a href='/fr/la_bnf/bnf_pratique.html'>BnF pratique</a>
+<ol>
+<li><a href='/fr/la_bnf/adresses_transports.html'>Adresses et transports</a></li>
+<li><a href='/fr/la_bnf/contacts.html'>Contacts</a></li>
+<li><a href='/fr/la_bnf/horaires_salles_lecture.html'>Horaires des salles de lecture</a></li>
+<li><a href='/fr/la_bnf/plans_et_salles_lecture.html'>Plans</a></li>
+<li><a href='/fr/la_bnf/conditions_acces_tarifs.html'>Conditions d'accès et tarifs</a></li>
+<li><a href='/fr/la_bnf/bnf_pratique/a.renouvellement_cartes_a_distance.html'>Renouveler sa carte en ligne</a></li>
+<li><a href='/fr/la_bnf/horaires_expositions.html'>Horaires des expositions</a></li>
+<li><a href='/fr/la_bnf/bnf_pratique/a.tarifs_expositions.html'>Tarifs des expositions</a></li>
+<li><a href='/fr/la_bnf/bnf_pratique/a.tarifs_preferentiels_partenaires_bnf.html'>Offres partenaires</a></li>
+<li><a href='/fr/la_bnf/boutiques_et_restauration.html'>Boutiques et restauration</a></li>
+</ol></li>
+<li><a href='/fr/la_bnf/bibliotheque_haut-de-jardin.html'>Bibliothèque du Haut-de-jardin</a></li>
+<li class='parent'><a href='/fr/la_bnf/connaitre_bnf.html'>Connaître la BnF</a>
+<ol>
+<li><a href='/fr/la_bnf/histoire_de_la_bnf.html'>Histoire de la BnF</a></li>
+<li><a href='/fr/la_bnf/missions_bnf.html'>Missions et projets</a></li>
+<li><a href='/fr/la_bnf/sites.html'>Les sites</a></li>
+<li><a href='http://webapp.bnf.fr/rapport/index.html'>Rapport d'activité</a></li>
+<li><a href='/fr/la_bnf/pro_publics_sur_place_et_distance.html'>Connaissance des publics</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/la_bnf/dpts.html'>Départements de collections</a>
+<ol>
+<li><a href='/fr/la_bnf/dpt_ars.html'>Bibliothèque de l'Arsenal</a></li>
+<li><a href='/fr/la_bnf/dpt_asp.html'>Département des Arts du spectacle</a></li>
+<li><a href='/fr/la_bnf/dpt_aud.html'>Département de l'Audiovisuel</a></li>
+<li><a href='/fr/la_bnf/dpt_cpl.html'>Département des Cartes et plans</a></li>
+<li><a href='/fr/la_bnf/dpt_dep.html'>Département Droit, économie, politique</a></li>
+<li><a href='/fr/la_bnf/dpt_est.html'>Département des Estampes et de la photographie</a></li>
+<li><a href='/fr/la_bnf/dpt_mjv.html'>Maison Jean Vilar</a></li>
+<li><a href='/fr/la_bnf/dpt_lla.html'>Département Littérature et art</a></li>
+<li><a href='/fr/la_bnf/dpt_mss.html'>Département des Manuscrits</a></li>
+<li><a href='/fr/la_bnf/dpt_mma.html'>Département des Monnaies, médailles et antiques</a></li>
+<li><a href='/fr/la_bnf/dpt_mus.html'>Département de la Musique</a></li>
+<li><a href='/fr/la_bnf/dpt_bmo.html'>Bibliothèque-musée de l'Opéra</a></li>
+<li><a href='/fr/la_bnf/dpt_orb.html'>Dpt de l'Orientation et de la recherche bibliographique</a></li>
+<li><a href='/fr/la_bnf/dpt_phs.html'>Département Philosophie, histoire, sc. de l'homme</a></li>
+<li><a href='/fr/la_bnf/dpt_rlr.html'>Réserve des livres rares</a></li>
+<li><a href='/fr/la_bnf/dpt_sct.html'>Département Sciences et techniques</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/la_bnf/visites_et_ateliers.html'>Visites et ateliers</a>
+<ol>
+<li><a href='/fr/la_bnf/visites_ateliers_pour_adultes.html'>Adultes</a></li>
+<li><a href='/fr/la_bnf/visites_ateliers_jeune_public.html'>Jeune public</a></li>
+<li><a href='/fr/la_bnf/visites_et_ateliers/a.scolaires_et_enseignants.html'>Scolaires et enseignants</a></li>
+<li><a href='/fr/la_bnf/visites_ateliers_pour_etudiants.html'>Étudiants</a></li>
+<li><a href='/fr/la_bnf/visites_ateliers_pour_professionnels.html'>Professionnels</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/la_bnf/renovation_richelieu.html'>Rénovation de Richelieu </a>
+<ol>
+<li><a href='/fr/la_bnf/renovation_richelieu/a.communication_differee_collections_richelieu.html'>Consulter à Richelieu</a></li>
+<li><a href='/fr/la_bnf/renovation_richelieu/a.images_renovation_richelieu.html'>La rénovation de Richelieu en images et en chiffres</a></li>
+<li><a href='/fr/la_bnf/renovation_richelieu/a.pourquoi_renovation_Richelieu.html'>Pourquoi cette rénovation</a></li>
+<li><a href='/fr/la_bnf/renovation_richelieu/a.etapes_renovation_Richelieu.html'>Les étapes de la rénovation</a></li>
+<li><a href='/fr/la_bnf/renovation_richelieu/a.acteurs_renovation_richelieu.html'>Les acteurs du projet de rénovation</a></li>
+<li><a href='/fr/la_bnf/renovation_richelieu/a.renovation_richelieu_riverains.html'>La rénovation de Richelieu pour les riverains</a></li>
+</ol></li>
+<li><a href='http://actions-recherche.bnf.fr/bnf/anirw3.nsf/IX02/accueil'>Programmes de recherche</a></li>
+<li><a href='/fr/la_bnf/dons.html'>Dons de documents</a></li>
+<li><a href='http://emploi.bnf.fr/'>Offres d'emploi</a></li>
+</ol></li>
+<li><a href='/fr/collections_et_services.html'>Collections et services</a>
+<ol>
+<li class='parent'><a href='/fr/collections_et_services/catalogues.html'>Catalogues</a>
+<ol>
+<li><a href='http://catalogue.bnf.fr/'>Accès au catalogue général de la BnF</a></li>
+<li><a href='http://ccfr.bnf.fr/'>Accès au CCFr</a></li>
+<li><a href='http://archivesetmanuscrits.bnf.fr/'>Accès à BnF archives et manuscrits</a></li>
+<li><a href='http://mandragore.bnf.fr/'>Accès à Mandragore</a></li>
+<li><a href='http://reliures.bnf.fr/'>Accès à reliures.bnf.fr</a></li>
+<li><a href='http://medaillesetantiques.bnf.fr'>Accès au catalogue des médailles et antiques</a></li>
+<li><a href='http://lajoieparleslivres.bnf.fr/masc/portal.asp?INSTANCE=joie&#38;PORTAL_ID=JPL_CATAl_tous.xml'>Accès au catalogue de La Joie par les livres</a></li>
+<li><a href='http://bp16.bnf.fr/'>Accès à BP16, bibliographie des éditions parisiennes du 16e </a></li>
+<li><a href='/fr/collections_et_services/informations_catalogues.html'>Informations sur les catalogues</a></li>
+<li><a href='/fr/collections_et_services/acces_aux_catalogues_numerises.html'>Accès aux catalogues numérisés</a></li>
+<li><a href='/fr/collections_et_services/catalogues/a.repertoire_manuscrits_xxe_siecle.html'>Répertoire des manuscrits du XXe siècle</a></li>
+</ol></li>
+<li><a href='/fr/collections_et_services/a.ressources_electroniques.html'>Ressources électroniques</a></li>
+<li class='parent'><a href='/fr/collections_et_services/collections_departements.html'>Collections par thèmes</a>
+<ol>
+<li><a href='/fr/collections_et_services/arts.html'>Arts</a></li>
+<li><a href='/fr/collections_et_services/droit_economie_politique.html'>Droit, économie et politique </a></li>
+<li><a href='/fr/collections_et_services/langues_litteratures.html'>Langues et littératures </a></li>
+<li><a href='/fr/collections_et_services/livre_presse_medias.html'>Livre, presse et médias</a></li>
+<li><a href='/fr/collections_et_services/sciences_et_techniques.html'>Sciences et techniques</a></li>
+<li><a href='/fr/collections_et_services/sc_humaines_philo_religions.html'>Sciences humaines, philosophie et religions</a></li>
+<li><a href='/fr/collections_et_services/sciences_sociales.html'>Sciences sociales</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/collections_et_services/aides_recherche_documentaire.html'>Aides à la recherche documentaire</a>
+<ol>
+<li><a href='/fr/collections_et_services/poser_une_question_a_bibliothecaire.html'>Poser une question à un bibliothécaire (SINDBAD)</a></li>
+<li><a href='http://bnf.libguides.com/chercher_trouver'>Chercher & trouver</a></li>
+<li><a href='/fr/collections_et_services/bibliographies.html'>Bibliographies</a></li>
+<li><a href='http://data.bnf.fr/'>Fiches sur les auteurs et les œuvres (data.bnf.fr) </a></li>
+<li><a href='http://signets.bnf.fr/'>Les Signets de la BnF</a></li>
+<li><a href='/fr/collections_et_services/portails_guides_thematiques.html'>Portails et guides thématiques</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/collections_et_services/bibliotheques_numeriques_gallica.html'>Gallica - la bibliothèque numérique de la BnF</a>
+<ol>
+<li><a href='http://gallica.bnf.fr/'>Accès à la Bibliothèque numérique Gallica</a></li>
+<li><a href='/fr/collections_et_services/bibliotheques_numeriques_gallica/a.gallica_bibliotheque_numerique_bnf.html'>Gallica, la Bibliothèque numérique de la BnF</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/collections_et_services/bibliotheques_num_internationales.html'>Bibliothèques numériques internationales</a>
+<ol>
+<li><a href='/fr/collections_et_services/bibliotheques_num_internationales/a.europeana_bib_num.html'>Europeana, le patrimoine de l'Europe en ligne</a></li>
+<li><a href='/fr/collections_et_services/bibliotheques_num_internationales/a.portail_reseau_francophone_numerique.html'>Le Réseau francophone numérique | RFN</a></li>
+<li><a href='/fr/collections_et_services/bibliotheques_num_internationales/a.bibliotheque_numerique_mondiale_wdl.html'>La Bibliothèque numérique mondiale | WDL</a></li>
+<li><a href='/fr/collections_et_services/programmes_internationaux_num_partagee.html'>Les programmes internationaux de numérisation partagée</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/collections_et_services/reproductions_document.html'>Reproduction des documents</a>
+<ol>
+<li><a href='/fr/collections_et_services/reproductions_document/a.reproduction_document_tarifs.html'>Produits et tarifs de reproduction</a></li>
+<li><a href='/fr/collections_et_services/reproduction_document_modalites_commande.html'>Comment commander</a></li>
+<li><a href='/fr/collections_et_services/reproductions_document/a.repro_reutilisation_documents.html'>Procédure et tarifs d'utilisation des documents</a></li>
+<li><a href='http://images.bnf.fr/jsp/index.jsp'>Banque d'images</a></li>
+<li><a href='/fr/collections_et_services/reproductions_document/a.reproduction_pour_professionnels.html'>Pour les professionnels</a></li>
+<li><a href='/fr/collections_et_services/reproductions_document/a.reproduction_documents_contacts.html'>Contacts et liens utiles</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/collections_et_services/services_lecteurs.html'>Services aux lecteurs</a>
+<ol>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.utiliser_ordinateurs_internet.html'>Utiliser des ordinateurs et internet</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.photocopies_impression_donnees.html'>Photocopie, impression, photographie</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.reservation_places_documents.html'>Réservation de place et de documents</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.travailler_seul_ou_en_groupe.html'>Travailler seul ou en groupe</a></li>
+<li><a href='/fr/collections_et_services/audiovisuel_consulter_creer.html'>Audiovisuel : consulter et créer</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.accueil_familles.html'>Accueil des familles</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.laboratoire_francais_langue_etrangere.html'>Laboratoire de français langue étrangère</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.carte_pro.html'>Carte Pro</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs/a.fourniture_documents_a_distance.html'>Prêt inter-bibliothèques (PIB)</a></li>
+</ol></li>
+</ol></li>
+<li><a href='/fr/evenements_et_culture.html'>Événements et culture</a>
+<ol>
+<li class='parent'><a href='/fr/evenements_et_culture/conferences.html'>Conférences</a>
+<ol>
+<li><a href='/fr/evenements_et_culture/auditoriums.html'>Programme des conférences</a></li>
+<li><a href='/fr/evenements_et_culture/conferences_en_ligne.html'>Revoir les conférences</a></li>
+<li><a href='/fr/evenements_et_culture/conferences/a.cercle_litteraire.html'>Le Cercle littéraire de la BnF</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/evenements_et_culture/expositions.html'>Expositions</a>
+<ol>
+<li><a href='/fr/evenements_et_culture/calendrier_expositions.html'>Programme des expositions</a></li>
+<li><a href='http://expositions.bnf.fr/'>Expositions virtuelles</a></li>
+</ol></li>
+<li><a href='http://editions.bnf.fr/'>Éditions de la BnF</a></li>
+<li><a href='/fr/evenements_et_culture/a.chroniques.html'>Le magazine <em>Chroniques</em></a></li>
+<li><a href='/fr/evenements_et_culture/a.passe_bnf.html'>Ça s'est passé à la BnF…</a></li>
+<li><a href='/fr/evenements_et_culture/a.videos.html'>Toutes nos vidéos</a></li>
+</ol></li>
+<li><a href='/fr/professionnels.html'>Pour les professionnels</a>
+<ol>
+<li><a href='/fr/professionnels/pro_actualites.html'>Actualités professionnelles</a></li>
+<li class='parent'><a href='/fr/professionnels/formations_journees_professionnelles.html'>Formation et journées d'étude</a>
+<ol>
+<li><a href='/fr/professionnels/agenda_professionnel.html'>Agenda professionnel</a></li>
+<li><a href='/fr/professionnels/formations_journees_professionnelles/a.pro_formations_visites.html'>Formation</a></li>
+<li><a href='/fr/professionnels/journees_etude_actes.html'>Actes des journées professionnelles</a></li>
+<li><a href='/fr/professionnels/videos_professionnelles.html'>Vidéos</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/innovation_numerique.html'>Innovation numérique</a>
+<ol>
+<li><a href='/fr/professionnels/innov_num_dl_internet.html'>Dépôt légal de l'internet</a></li>
+<li><a href='/fr/professionnels/innov_num_gallica.html'>Gallica, creuset d'innovation</a></li>
+<li><a href='/fr/professionnels/innov_num_numerisation.html'>Numérisation</a></li>
+<li><a href='/fr/professionnels/innov_num_preservation_numerique.html'>Préservation numérique</a></li>
+<li><a href='/fr/professionnels/innovation_numerique/a.records_management.html'>Records management</a></li>
+<li><a href='/fr/professionnels/innov_num_web_donnees.html'>Web de données</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/depot_legal.html'>Dépôt légal</a>
+<ol>
+<li><a href='/fr/professionnels/depot_legal_definition.html'>Qu'est-ce que le dépôt légal ?</a></li>
+<li><a href='/fr/professionnels/dl_comment_declarer.html'>Comment déclarer ?</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_livres_mod.html'>Livres</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_periodiques_mod.html'>Périodiques</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_doc_carto_mod.html'>Documents cartographiques</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_musique_mod.html'>Musique imprimée</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_doc_son_mod.html'>Documents sonores</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_videos_mod.html'>Vidéogrammes</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_doc_multimedia_mod.html'>Documents multimédias, logiciels, bases de données</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_estampes_mod.html'>Documents iconographiques</a></li>
+<li><a href='/fr/professionnels/depot_legal/a.dl_sites_web_mod.html'>Sites web</a></li>
+</ol></li>
+<li><a href='http://bibliographienationale.bnf.fr/'>Site de la Bibliographie nationale française</a></li>
+<li class='parent'><a href='/fr/professionnels/issn_isbn_autres_numeros.html'>ISBN, ISSN, ISNI, ARK</a>
+<ol>
+<li><a href='/fr/professionnels/s_informer_obtenir_isbn.html'>S'informer et obtenir un ISBN</a></li>
+<li><a href='/fr/professionnels/s_informer_obtenir_issn.html'>S'informer et obtenir un ISSN</a></li>
+<li><a href='/fr/professionnels/isni_informer.html'>S'informer sur l'ISNI</a></li>
+<li><a href='/fr/professionnels/issn_isbn_autres_numeros/a.ark.html'>S'informer sur l'ARK</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/catalogage_indexation.html'>Catalogage et indexation </a>
+<ol>
+<li><a href='/fr/professionnels/normes_catalogage_intles.html'>Description et accès : règles internationales</a></li>
+<li><a href='/fr/professionnels/modelisation_ontologies.html'>Modélisation et ontologies</a></li>
+<li><a href='/fr/professionnels/normes_catalogage_francaises.html'>Description et accès : règles françaises</a></li>
+<li><a href='/fr/professionnels/protocoles_echange_donnees.html'>Protocoles d'échange de données</a></li>
+<li><a href='/fr/professionnels/catalogage_pratiques_bnf.html'>Description et accès : règles appliquées par la BnF</a></li>
+<li><a href='/fr/professionnels/donnees_autorites.html'>Autorités </a></li>
+<li><a href='/fr/professionnels/formats_catalogage.html'>Formats, encodage</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/recuperation_donnees_bnf.html'>Récupération des données de la BnF</a>
+<ol>
+<li><a href='/fr/professionnels/recuperation_donnees_bnf/a.recuperation_donnees_actualites.html'>Actualités sur la diffusion des données</a></li>
+<li><a href='/fr/professionnels/recuperation_donnees_bnf_boite_outils.html'>Outils pour la récupération des données</a></li>
+<li><a href='/fr/professionnels/donnees_bnf_recuperables.html'>Informations sur les jeux de données BnF</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/conservation.html'>Conservation</a>
+<ol>
+<li><a href='/fr/professionnels/conservation_a_la_bnf.html'>La conservation à la BnF</a></li>
+<li><a href='/fr/professionnels/plan_urgence.html'>Plan d'urgence</a></li>
+<li><a href='/fr/professionnels/conservation_services_expertises.html'>Expertise et prestations</a></li>
+<li><a href='/fr/professionnels/conservation_fiches_pratiques.html'>Fiches pratiques</a></li>
+<li><a href='/fr/professionnels/conservation_ressources_documentaires.html'>Centre de documentation</a></li>
+<li><a href='/fr/professionnels/conservation_formation.html'>Offre de formation</a></li>
+<li><a href='/fr/professionnels/conservation/a.programme_international_ifla-pac.html'>Programme international PAC de l'IFLA</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/cooperation_nationale.html'>Coopération nationale</a>
+<ol>
+<li><a href='/fr/professionnels/cooperation_nationale/a.reseau_national_cooperation.html'>Réseau national de coopération</a></li>
+<li><a href='/fr/professionnels/cooperation_nationale/a.poles_associes_depot_legal.html'>Pôles associés de dépôt légal</a></li>
+<li><a href='/fr/professionnels/signalement_collections.html'>CCFr et signalement des collections</a></li>
+<li><a href='/fr/professionnels/cooperation_nationale/a.cooperation_regionale.html'>Coopération régionale et action territoriale</a></li>
+<li><a href='/fr/professionnels/cooperation_nationale/a.gallica_numerisation_partagee.html'>Gallica et la numérisation concertée</a></li>
+<li><a href='/fr/professionnels/appels_initiatives_numerisation.html'>Appels à initiatives de numérisation</a></li>
+<li><a href='/fr/professionnels/po_formation.html'>Formations</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/action_internationale.html'>Action internationale</a>
+<ol>
+<li><a href='/fr/professionnels/profession_culture.html'>« Profession Culture »</a></li>
+<li><a href='/fr/professionnels/accueils_et_stages_internationaux.html'>Accueils et stages internationaux</a></li>
+<li><a href='/fr/professionnels/instances_internationales_partenariats.html'>Instances internationales et partenariats</a></li>
+<li><a href='/fr/professionnels/cooperation_europeenne.html'>Coopération européenne</a></li>
+<li><a href='/fr/professionnels/action_internationale/a.partenariats_francophonie.html'>Francophonie</a></li>
+<li><a href='/fr/professionnels/cooperation_amerique_asie.html'>Coopération : Amériques, Asie</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/professionnels/droit_auteur.html'>Droit d'auteur</a>
+<ol>
+<li><a href='/fr/professionnels/principes_droit_auteur.html'>Principes du droit d'auteur </a></li>
+<li><a href='/fr/professionnels/droit_auteur_types_documents.html'>Particularités du droit d'auteur par catégories d'œuvres</a></li>
+</ol></li>
+</ol></li>
+<li><a href='/fr/acces_dedies.html'>Accès dédiés </a>
+<ol>
+<li class='parent'><a href='/fr/acces_dedies/enseignants_jeunesse.html'>Enseignants et jeunesse</a>
+<ol>
+<li><a href='http://classes.bnf.fr/rendezvous/'>Action pédagogique</a></li>
+<li><a href='http://lajoieparleslivres.bnf.fr/'>Centre national de la littérature pour la jeunesse</a></li>
+<li><a href='http://enfants.bnf.fr/'>Bibliothèque numérique des enFants</a></li>
+</ol></li>
+<li class='parent'><a href='/fr/acces_dedies/acteurs_sociaux.html'>Acteurs sociaux</a>
+<ol>
+<li><a href='/fr/acces_dedies/acteurs_sociaux/a.publics_du_champ_social.html'>Accueil des publics du champ social</a></li>
+<li><a href='/fr/acces_dedies/acteurs_sociaux/a.edition_adaptee_pmeh.html'>Exception handicap pour l'édition adaptée</a></li>
+</ol></li>
+<li><a href='/fr/acces_dedies/publics_handicapes.html'>Publics handicapés</a></li>
+<li><a href='/fr/acces_dedies/a.acces_editeurs.html'>Éditeurs</a></li>
+<li class='parent'><a href='/fr/acces_dedies/relation_presse.html'>Presse</a>
+<ol>
+<li><a href='/fr/acces_dedies/presse_com_institutionelle.html'>Communication institutionnelle</a></li>
+<li><a href='/fr/acces_dedies/presse_dons_acquisitions.html'>Dons et acquisitions</a></li>
+<li><a href='/fr/acces_dedies/presse_bnf_editions.html'>BnF Éditions</a></li>
+<li><a href='/fr/acces_dedies/presse_expositions.html'>Expositions</a></li>
+<li><a href='/fr/acces_dedies/presse_manifestations.html'>Auditoriums</a></li>
+</ol></li>
+<li><a href='/fr/acces_dedies/mecenat_partenariat.html'>Mécénat</a></li>
+<li class='parent'><a href='/fr/acces_dedies/entreprises.html'>Entreprises</a>
+<ol>
+<li><a href='https://marchespublics.bnf.fr/'>Appels d'offres</a></li>
+<li><a href='/fr/acces_dedies/tournage_et_location.html'>Location d'espaces et tournages</a></li>
+<li><a href='/fr/acces_dedies/bnf_partenariats.html'>BnF-Partenariats</a></li>
+</ol></li>
+</ol></li>
+</ol>
+</div>
+</div>	
+<div id="conteneurPrincipal">
+<ul id="reseaux_sociaux">
+<li><a class="rss" title="Flux RSS de la BnF" href="/fr/outils/lrss.rss.html"><span>RSS</span></a></li>
+<li><a class="blog" title="Les Blogs de la BnF" href="/fr/outils/a.blogs.html"><span>Blog</span></a></li>
+<li><a class="info" title="Les lettres d'informations de la BnF" href="/fr/outils/a.lettres.html"><span>Lettres d'informations</span></a></li>
+<li><a class="fb" title="Retrouvez la BnF sur Facebook" href="https://www.facebook.com/bibliothequebnf"><span>Compte Facebook</span></a></li>
+<li><a class="multi-fb" title="Les pages Facebook de la BnF" href="http://www.bnf.fr/fr/outils/a.facebook.html"><span>Pages Facebook</span></a></li>
+<li><a class="tt" title="Retrouvez la BnF sur Twitter" href="https://twitter.com/ActuBnF"><span>Compte Twitter</span></a></li>
+<li><a class="multi-tt" title="Les pages Twitter de la BnF" href="http://www.bnf.fr/fr/outils/a.twitter.html"><span>Pages Twitter</span></a></li>
+<li><a class="dm" title="Les vidéos de la BnF sur Dailymotion" href="http://www.dailymotion.com/BNF"><span>Compte Dailymotion</span></a></li>
+<li><a class="yt" title="Les vidéos de la BnF sur Youtube" href="https://www.youtube.com/user/BibliothequeBnF"><span>Compte Youtube</span></a></li>
+<li><a class="it" title="La BnF sur iTunes" href="https://itunes.apple.com/fr/institution/bibliotheque-nationale-france/id503892438"><span>Compte iTunes</span></a></li>
+<li><a class="ig" title="La BnF sur Instagram" href="https://instagram.com/bibliothequebnf/"><span>Compte Instagram</span></a></li>
+</ul>
+<h2 class="titre_cache">Mises en avant</h2>
+<div id="slider_wrapper">
+<div class="slider_controle"></div>
+<ul id="slider">
+<li><img src="/bnf_dev/acc/carrousel/nouveau_catalogue.jpg" alt="" />
+<div class="legende"><span class="type">Nouveau</span>
+<span class="lieu"></span>
+<a href="http://catalogue.bnf.fr/"><span class="titre">Découvrez le nouveau catalogue général</span></a><br />
+</div>
+</li>
+<li><img src="/bnf_dev/acc/carrousel/kieffer.jpg" alt="" />
+<div class="legende"><a class="open-popup-link picto_video" href="#popup-5" title="Bande annonce de l'exposition Anselm Kiefer, l’alchimie du livre"><img src="/bnf_dev/icono/picto_video_2.png" alt="vidéo" /> </a><span class="type">Exposition</span>
+<span class="lieu">François-Mitterrand
+<br />jusqu'au 7 février 2016</span>
+<a href="/fr/evenements_et_culture/anx_expositions/f.kiefer_alchimie.html"><span class="titre">Anselm Kiefer, l’alchimie du livre</span></a>
+</div>
+</li>
+<li><img src="/bnf_dev/acc/carrousel/bourse_talent_2015.jpg" alt="" title="Mädchenland, le royaume des filles © Karolin Klueppel" />
+<div class="legende"><span class="type">Exposition</span>
+<span class="lieu">François-Mitterrand
+<br />jusqu'au 7 février 2016</span>
+<a href="/fr/evenements_et_culture/anx_expositions/f.bourse_talent_2015.html"><span class="titre">Bourse du Talent 2015</span></a>
+</div>
+</li>
+<li><img src="/bnf_dev/acc/carrousel/images_grand_siecle.jpg" alt="" />
+<div class="legende"><a class="open-popup-link picto_video" href="#popup-4" title="Bande annonce de l'exposition Images du Grand Siècle"><img src="/bnf_dev/icono/picto_video_2.png" alt="vidéo" /></a><span class="type">Exposition</span>
+<span class="lieu">François-Mitterrand
+<br />jusqu'au 31 janvier 2016</span>
+<a href="/fr/evenements_et_culture/anx_expositions/f.images_grand_siecle.html"><span class="titre">Images du Grand Siècle<br /><span style="font-size:80%">l’estampe française au temps de Louis XIV</span></span></a>
+</div>
+</li>
+<li><img src="/bnf_dev/acc/carrousel/rouge_noir.jpg" alt="" />
+<div class="legende"><span class="type">Exposition</span>
+<span class="lieu">Richelieu
+<br />jusqu'au 1<sup>er</sup> mars 2016</span>
+<a href="/fr/evenements_et_culture/anx_expositions/f.vases_grecs.html"><span class="titre">De Rouge et de Noir.<br />Les vases grecs de la collection de Luynes</span></a>
+</div>
+</li>
+</ul>
+</div>
+<div id="acces_rapide">
+<h2>Accès directs</h2>
+<ul>
+<li><a href="http://catalogue.bnf.fr">Catalogue général</a></li>
+<li><a href="http://gallica.bnf.fr">Gallica, la bibliothèque numérique</a></li>
+<li><a href="/fr/collections_et_services/a.ressources_electroniques.html" onclick="xt_med('C','28','ressources_electroniques','N')">Ressources électroniques</a></li>
+<li><a href="http://reservation.bnf.fr">Réserver une place</a></li>
+<li><a href="/fr/collections_et_services/poser_une_question_a_bibliothecaire/s.sindbad_votre_question.html">Poser une question à un bibliothécaire</a></li></ul>
+<ul><li><a href="/fr/la_bnf/bnf_pratique.html">BnF Pratique</a></li>
+<li><a href="/fr/la_bnf/conditions_acces_tarifs/s.conditions_acces_bib_etude.html">Conditions d’accès et tarifs</a></li>
+<li><a href="/fr/la_bnf/renovation_richelieu/a.communication_differee_collections_richelieu.html">Consulter à Richelieu</a></li></ul>
+<ul><li class="actu"><a href="/fr/la_bnf/actualites_bibliotheque.html">Actualités de la bibliothèque</a></li>
+<li><a href="/fr/professionnels/pro_actualites.html">Actualités professionnelles</a></li>
+<li><a href="/fr/evenements_et_culture/calendrier_expositions.html">Programme des expositions</a></li>
+<li><a href="/fr/evenements_et_culture/auditoriums.html">Programme des conférences</a></li>
+</ul>
+</div><!-- #acces_rapide -->
+<div id="actualite">
+<div class="image first">
+<h2>Conférence</h2>
+<div class="div_cliquable">
+<img src="/bnf_dev/acc/img/160126_a_pleine_voix.jpg" alt="" />
+<h3><a href="/fr/evenements_et_culture/auditoriums/f.a_pleine_voix.html?seance=1223923353744"><span>À pleine voix</span><br />La voix médiatisée</a></h3>
+<p><span class="non_cliquable"><strong>mardi 26 janvier 2016 – 18h30-20h<br />François-Mitterrand</strong><br />
+Au cours de ce nouveau cycle, de l’opéra à la chanson en passant par le beatbox et le scat, tout ce qui « fait chant » sera exploré. 
+<br /></span><span class="detail">Plus de détails</span></p>
+</div>
+</div>
+<div class="image">
+<h2>Découvrir</h2>
+<div class="div_cliquable">
+<img src="/bnf_dev/acc/img/soc_debat_patrimoine_danger.jpg" alt="" />
+<h3><a href="http://bnf.libguides.com/societesendebats/alaune/patrimoine_danger#&panel1-7">Patrimoine en danger – Un nouveau dossier du portail Sociétés en débats</a></h3>
+<p><span class="non_cliquable">Sélection de ressources documentaires et de sites web pour mettre en perspective la question du patrimoine en situation de guerre et les réponses pour sa protection, son étude et sa pérennisation.</span>
+<br /><span class="detail" title="Poser une question (plus de détails)">Plus de détails</span></p>
+</div>
+</div>
+<!--<div class="video first">
+<h2>Revoir les conférences</h2>
+<ul>
+<li><a class="open-popup-link" href="#popup-6" onclick="xt_med('C','28','video_151209_philo','N')"><img src="/bnf_dev/acc/img/video_151209_philo.jpg" alt="Le Voyage de Gênes" /></a>
+<a class="open-popup-link" href="#popup-7" onclick="xt_med('C','28','video_151209_philo','N')">La bonne cause</a>
+<p>par Martin Rueff<br />Durée : 87 min</p></li>
+<li><a class="open-popup-link" href="#popup-7" onclick="xt_med('C','28','video_151208_einstein','N')"><img src="/bnf_dev/acc/img/video_151208_einstein.jpg" alt="La Chasse au Nègre" /></a>
+<a class="open-popup-link" href="#popup-7" onclick="xt_med('C','28','video_151208_einstein','N')">La relativité générale aujourd'hui, demain et après-demain</a>
+<p>par Thibault Damour <br />Durée : 53 min<br /> <br /> </p>
+<p><a href="/fr/evenements_et_culture/conferences_en_ligne/a.conferences_dernieres.html" class="detail">Voir les 9 nouvelles vidéos de conférences</a></p></li>
+</ul>
+</div>-->
+<!--<div class="image">
+<h2>Nouveau</h2>
+<a href="/fr/la_bnf/anx_richelieu/a.lettre_richelieu.html" tabindex="-1" aria-hidden="true"><img src="/bnf_dev/acc/img/richelieu_labrouste.jpg" alt="Lettre d'information - Richelieu en projets" /></a>
+<h3><a href="/fr/la_bnf/anx_richelieu/a.lettre_richelieu.html">Lettre d'information - Richelieu en projets</a></h3>
+<p>Le site historique de la BnF fait peau neuve. La lettre électronique « Richelieu en projets » vous tiendra informés trois fois par an des évolutions du chantier de rénovation.<br /><a href="http://lettre.bnf.fr/nwl/registration.nsf/regie2?openForm&c=90" class="souligne">Abonnez-vous !</a>
+<br /><a href="/fr/la_bnf/anx_richelieu/a.lettre_richelieu.html" class="detail" title="Lettre d'information - Richelieu en projets (plus de détails)" tabindex="-1" aria-hidden="true">Plus de détails</a></p>
+</div>-->
+<!---<div class="video">
+<h2>Vidéos</h2>
+<ul>
+<li><div class="div_cliquable"><img src="/bnf_dev/acc/img/expo_kiefer.jpg" alt="" />
+<a class="open-popup-link" href="#popup-5" onclick="xt_med('C','28','video_kiefer','N')"><em>Anselm Kiefer, l’alchimie du livre</em></a>
+<p>Bande annonce<br />Durée : 23 s</p></div></li>
+<li><div class="div_cliquable"><img src="/bnf_dev/acc/img/video_images_grand_siecle.jpg" alt="" /></a>
+<a class="open-popup-link" href="#popup-4" onclick="xt_med('C','28','video_images_grand_siecle','N')"><em>Images du Grand Siècle, l'estampe française au temps de Louis XIV</em></a>
+<p class="non_cliquable">Bande annonce<br />Durée : 1 min 25 s</p></div></li>
+</ul>
+</div>-->
+<!--<div class="image first">
+<h2>Bon plan partenaire</h2>
+<a href="/fr/la_bnf/anx_info_pra/a.partenariat_pompidou.html" tabindex="-1"><img src="/bnf_dev/acc/img/pompidou_kiefer.jpg" alt="Centre Pompidou - Exposition Anselm Kiefer" /></a>
+<h3><a href="/fr/la_bnf/anx_info_pra/a.partenariat_pompidou.html">Centre Pompidou - Exposition <em>Anselm Kiefer</em></a></h3>
+<p><strong>du 16 décembre 2015 au 18 avril 2016<br />Centre Pompidou</strong><br />
+Tarif réduit (11 € au lieu de 14 €) pour les porteurs d'une carte Duo, Haut ou Rez-de-Jardin.
+<br /><a href="/fr/la_bnf/anx_info_pra/a.partenariat_pompidou.html" class="detail" tabindex="-1" title="Centre Pompidou - Exposition Anselm Kiefer (plus de détails)">Plus de détails</a></p>
+</div>-->
+<div class="image first">
+<h2>Fil twitter de la BnF</h2>
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/ActuBnF" data-widget-id="576037949298622464">Tweets de @ActuBnF</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</div><!-- .image -->
+<div class="liste">
+<h2>En bref</h2>
+<ul>
+<li><a href="/fr/la_bnf/anx_actu_bib/a.plan_vigipirate.html"><img src="/bnf_dev/acc/img/vigipirate_pt.png" alt="" />Plan Vigipirate niveau « alerte attentat »</a>
+<br />Pièce d'identité obligatoire – Accès au site François-Mitterrand uniquement par l'entrée Est – Aucun bagage (à l'exception des petits sacs à dos) accepté sur les sites de la BnF</li>
+</ul>
+</div><!-- .liste -->
+<div class="video">
+<h2>Plan d'accès</h2>
+<h3><a href="/fr/la_bnf/adresses_transports.html"><span>Site François-Mitterrand</span></a></h3>
+<a href="/documents/acces_site_mitterrand.pdf"><img src="/bnf_dev/acc/img/acces_bnf.png" alt="Plan d'accès au site François-Mitterrand [fichier pdf - 302ko - 1p]" style="margin-bottom:2em" /></a>
+</div>
+</div><!-- #actualite -->
+</div><!-- #conteneurprincipal -->
+<div class="pied-page">
+<ul>
+<li><a href='/fr/la_bnf.html'>La BnF</a>
+<ul>
+<li><a href='/fr/la_bnf/actualites_bibliotheque.html'>Actualités de la BnF</a></li>
+<li><a href='/fr/la_bnf/bnf_pratique.html'>BnF pratique</a></li>
+<li><a href='/fr/la_bnf/bibliotheque_haut-de-jardin.html'>Bibliothèque du Haut-de-jardin</a></li>
+<li><a href='/fr/la_bnf/connaitre_bnf.html'>Connaître la BnF</a></li>
+<li><a href='/fr/la_bnf/dpts.html'>Départements de collections</a></li>
+<li><a href='/fr/la_bnf/visites_et_ateliers.html'>Visites et ateliers</a></li>
+<li><a href='/fr/la_bnf/renovation_richelieu.html'>Rénovation de Richelieu</a></li>
+<li><a href='http://actions-recherche.bnf.fr/bnf/anirw3.nsf/IX02/accueil'>Programmes de recherche</a></li>
+<li><a href='/fr/la_bnf/dons.html'>Dons de documents</a></li>
+<li><a href='http://emploi.bnf.fr/'>Offres d'emploi</a></li>
+</ul></li>
+<li><a href='/fr/collections_et_services.html'>Collections et services</a>
+<ul>
+<li><a href='/fr/collections_et_services/catalogues.html'>Catalogues</a></li>
+<li><a href='/fr/collections_et_services/a.ressources_electroniques.html'>Ressources électroniques</a></li>
+<li><a href='/fr/collections_et_services/collections_departements.html'>Collections par thèmes</a></li>
+<li><a href='/fr/collections_et_services/aides_recherche_documentaire.html'>Aides à la recherche documentaire</a></li>
+<li><a href='/fr/collections_et_services/bibliotheques_numeriques_gallica.html'>Gallica - la bibliothèque numérique de la BnF</a></li>
+<li><a href='/fr/collections_et_services/bibliotheques_num_internationales.html'>Bibliothèques numériques internationales</a></li>
+<li><a href='/fr/collections_et_services/reproductions_document.html'>Reproduction des documents</a></li>
+<li><a href='/fr/collections_et_services/services_lecteurs.html'>Services aux lecteurs</a></li>
+</ul></li>
+<li><a href='/fr/evenements_et_culture.html'>Événements et culture</a>
+<ul>
+<li><a href='/fr/evenements_et_culture/conferences.html'>Conférences</a></li>
+<li><a href='/fr/evenements_et_culture/expositions.html'>Expositions</a></li>
+<li><a href='http://editions.bnf.fr/'>Éditions de la BnF</a></li>
+<li><a href='/fr/evenements_et_culture/a.chroniques.html'>Le magazine <em>Chroniques</em></a></li>
+<li><a href='/fr/evenements_et_culture/a.passe_bnf.html'>Ça s'est passé à la BnF…</a></li>
+<li><a href='/fr/evenements_et_culture/a.videos.html'>Toutes nos vidéos</a></li>
+</ul></li>
+<li><a href='/fr/professionnels.html'>Pour les professionnels</a>
+<ul>
+<li><a href='/fr/professionnels/pro_actualites.html'>Actualités professionnelles</a></li>
+<li><a href='/fr/professionnels/formations_journees_professionnelles.html'>Formation et journées d'étude</a></li>
+<li><a href='/fr/professionnels/innovation_numerique.html'>Innovation numérique</a></li>
+<li><a href='/fr/professionnels/depot_legal.html'>Dépôt légal</a></li>
+<li><a href='http://bibliographienationale.bnf.fr/'>Site de la Bibliographie nationale française</a></li>
+<li><a href='/fr/professionnels/issn_isbn_autres_numeros.html'>ISBN, ISSN, ISNI, ARK</a></li>
+<li><a href='/fr/professionnels/catalogage_indexation.html'>Catalogage et indexation</a></li>
+<li><a href='/fr/professionnels/recuperation_donnees_bnf.html'>Récupération des données de la BnF</a></li>
+<li><a href='/fr/professionnels/conservation.html'>Conservation</a></li>
+<li><a href='/fr/professionnels/cooperation_nationale.html'>Coopération nationale</a></li>
+<li><a href='/fr/professionnels/action_internationale.html'>Action internationale</a></li>
+<li><a href='/fr/professionnels/droit_auteur.html'>Droit d'auteur</a></li>
+</ul></li>
+<li><a href='/fr/acces_dedies.html'>Accès dédiés </a>
+<ul>
+<li><a href='/fr/acces_dedies/enseignants_jeunesse.html'>Enseignants et jeunesse</a></li>
+<li><a href='/fr/acces_dedies/acteurs_sociaux.html'>Acteurs sociaux</a></li>
+<li><a href='/fr/acces_dedies/publics_handicapes.html'>Publics handicapés</a></li>
+<li><a href='/fr/acces_dedies/a.acces_editeurs.html'>Éditeurs</a></li>
+<li><a href='/fr/acces_dedies/relation_presse.html'>Presse</a></li>
+<li><a href='/fr/acces_dedies/mecenat_partenariat.html'>Mécénat</a></li>
+<li><a href='/fr/acces_dedies/entreprises.html'>Entreprises</a></li>
+</ul></li>
+</ul>
+</div>
+<div id="partenaire"><ul>
+<li class="gallica"><a href="http://gallica.bnf.fr/"><span>Gallica, bibliothèque numérique</span></a></li>
+<!--<li class="catalogue"><a href="http://catalogue.bnf.fr/" title="Catalogue général de la BnF"><span>Catalogue général de la BnF</span></a></li>-->
+<li class="ccfr"><a href="http://ccfr.bnf.fr/"><span>CCFr</span></a></li>
+<li class="data"><a href="http://data.bnf.fr/"><span>data.bnf.fr</span></a></li>
+<li class="relire"><a href="http://relire.bnf.fr/"><span>relire.bnf.fr</span></a></li>
+<li class="ministere"><a href="http://www.culturecommunication.gouv.fr/" title="Ministère de la culture"><span>Ministère de la culture</span></a></li>
+<li class="culture"><a href="http://www.culture.fr/"><span>Culture.fr</span></a></li>
+<li class="europeana"><a href="http://www.europeana.eu/"><span>Europeana</span></a></li>
+</ul>
+</div>
+</div><!--conteneur-->
+<h2 class="titre_cache">Liens vers les vidéos</h2>
+<div id="popup-2" class="popup-video mfp-hide">
+<h3>Présentation du bréviaire de Saint-Louis de Poissy </h3>
+<video width="720" height="404" preload="none" controls="" poster="http://multimedia.bnf.fr/video/bnf_mecenat_saint_louis.jpg" src="http://multimedia.bnf.fr/video/bnf_mecenat_saint_louis.mp4"></video>
+<p class="lien">En savoir plus<br /><a href="/fr/acces_dedies/mecenat_partenariat/s.mecenat_saint_louis.html?first_Art=oui">Acquisition d’un Trésor national – Le bréviaire royal de Saint-Louis de Poissy</a></p>
+</div><!--Modal-->
+<div id="popup-4" class="popup-video mfp-hide">
+<h3>Bande annonce de l'exposition <em>Images du Grand Siècle, l'estampe française au temps de Louis XIV </em></h3>
+<video width="720" height="404" src="http://multimedia.bnf.fr/video/expo_images_grand_siecle.mp4" poster="http://multimedia.bnf.fr/video/expo_images_grand_siecle.jpg" controls="" preload="none"></video>
+<p class="lien"><a href="/fr/evenements_et_culture/anx_expositions/f.images_grand_siecle.html">En savoir plus sur cette exposition</a></p>
+</div><!--Modal-->
+<div id="popup-5" class="popup-video mfp-hide">
+<h3>Bande annonce de l'exposition <em>Anselm Kiefer, l’alchimie du livre</em></h3>
+<video width="720" height="404" src="http://multimedia.bnf.fr/video/expo_kiefer.mp4" poster="http://multimedia.bnf.fr/video/expo_kiefer.jpg" controls="" preload="none"></video>
+<p class="lien"><a href="/fr/evenements_et_culture/anx_expositions/f.kiefer_alchimie.html">En savoir plus sur cette exposition</a></p>
+</div><!--Modal-->
+<div id="popup-6" class="popup-video mfp-hide">
+<h3>La bonne cause</h3>
+<h4>Martin Rueff</h4>
+<video width="720" height="404" preload="none" controls="" poster="http://multimedia.bnf.fr/conferences/151209_philo.jpg" src="http://multimedia.bnf.fr/conferences/151209_philo.mp4"></video>
+<p class="lien"><a href="/fr/evenements_et_culture/conferences_en_ligne/a.conferences_dernieres.html">Voir les 9 nouvelles vidéos de conférences</a></p>
+</div><!--Modal-->
+<div id="popup-7" class="popup-video mfp-hide">
+<h3>La relativité générale aujourd'hui, demain et après-demain</h3>
+<h4>Thibault Damour</h4>
+<video width="720" height="404" preload="none" controls="" poster="http://multimedia.bnf.fr/conferences/151208_einstein.jpg" src="http://multimedia.bnf.fr/conferences/151208_einstein.mp4"></video>
+<p class="lien"><a href="/fr/evenements_et_culture/conferences_en_ligne/a.conferences_dernieres.html">Voir les 9 nouvelles vidéos de conférences</a></p>
+</div><!--Modal-->
+<div id="popup-8" class="popup-video mfp-hide">
+<h3>L'aventure de la numérisation</h3>
+<h4>L'Heure joyeuse</h4>
+<video width="720" height="404" preload="none" controls="" poster="http://multimedia.bnf.fr/gallica/bnf_gallica_heure_joyeuse.jpg" src="http://multimedia.bnf.fr/gallica/bnf_gallica_heure_joyeuse.mp4"></video>
+<p class="lien"><a href="/fr/collections_et_services/anx_bib_num/a.gallica_videos.html">Voir les autres vidéos sur l'aventure de la numérisation - Les partenaires de Gallica</a></p>
+</div><!--Modal-->
+<script src="/bnf_dev/js/scripts.min.js"></script>
+<script src="/bnf_dev/js/responsiveslides.min.js"></script>
+<script src='/bnf_dev/js/magnific/jquery.magnific-popup.min.js'></script>
+<script src="https://api.html5media.info/1.1.8/html5media.min.js"></script>
+<script>
+$(function () {
+$("#slider").responsiveSlides({
+auto: true,
+speed: 500,
+timeout: 5000,
+pager: true,
+nav: true,
+prevText: "Élément précédent",
+nextText: "Élément suivant",
+btnPlayPause: true,
+btnPlayText: "Démarrer",
+btnPauseText: "Arrêter",
+navContainer: ".slider_controle"
+});
+});
+</script>
+<script>
+$('.open-popup-link').magnificPopup({
+type:'inline',
+tClose:'Fermer (Échap)',
+midClick: true
+});
+</script>
+<script>
+<!--
+xtnv = document; //parent.document or top.document or document
+xtsd = "http://logp";
+xtsite = "18798";
+xtn2 = "28"; // level 2 site ID
+xtpage = "BnF_accueil"; //page name (with the use of :: to create chapters)
+xtdi = ""; //implication degree
+xt_multc = "";	//all the xi indicators (like "&x1=...&x2=....&x3=...")
+xt_an = ""; //user ID
+xt_ac = ""; //category ID
+//do not modify below
+if (window.xtparam!=null){window.xtparam+="&ac="+xt_ac+"&an="+xt_an+xt_multc;}
+else{window.xtparam="&ac="+xt_ac+"&an="+xt_an+xt_multc;};
+//-->
+</script>
+<script type="text/javascript" src="/xtcore.js"></script>
+<noscript>
+<div><img width="1" height="1" alt="" src="http://logp.xiti.com/hit.xiti?s=18798&amp;s2=28&amp;p=BnF_accueil" /></div>
+</noscript>
+</body>
+</html>

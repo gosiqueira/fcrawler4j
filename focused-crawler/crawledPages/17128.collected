@@ -1,0 +1,636 @@
+title=Calendário 2016 e 2015 - Feriados 2016 e 2015, Municipais, Estaduais e Nacionais
+url=http://www.calendario.com.br/2015
+html=<!-- Estado: -->
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<!--www.calendario.com.br/2015--><head>
+<meta name="google-site-verification" content="aqks9KwbaYWzmzem48Am30YEHqLstfuRW-pA2QmMdAo" />
+<meta name="google-site-verification" content="zyzljRQpddCwvulo5dI1rbTx_N0VqtjjIkbm_drgAvQ" />
+<meta name="google-site-verification" content="TsTBa1SSPxyliZVQSMTD0k0BnUlXPSHnGGAFltCEEQ8" />
+<meta name="google-site-verification" content="lCW4rlfRQsbsBhXt0meYBZuWMzK4DtCAD61m9rlVYO8" />
+<meta name="google-site-verification" content="jeXR16E8nbgH9ON8Rpcj_PcKgkSFqYFScl5luaWFudk" />
+<meta name="google-site-verification" content="b-3VZb4iNLNvmDwpNKHFBjzKqoFoy1B-GbZYeVO3Pwc" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="pt-br" />
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1" />
+<META NAME="ROBOTS" CONTENT="NOODP" />
+
+<meta name="keywords" content="calendario, feriados, 2016, 2015, feriado" >
+<title>Calend&aacute;rio 2016 e 2015 - Feriados 2016 e 2015, Municipais, Estaduais e Nacionais</title> 
+<meta name="Description" content="Calend&aacute;rio 2015 e 2016 - com feriados de todas as cidades do Brasil. Feriados municipais, estaduais e nacionais." >	
+<link rel="image_src" href="http://www.calendario.com.br/figs/calendar_pic.png">
+<link rel="canonical" href="http://www.Calendario.com.br">
+<meta property="fb:app_id" content="343208982411859"/>
+<meta property="fb:admins" content="731741918" />
+
+
+<!--<link href="index_style.css" rel="stylesheet" type="text/css">-->
+<!-- Coloquei aqui pois fica mais facil pra desenvolver... depois posso voltar pro css-->
+<style type="text/css">
+<!--
+
+a:link, a:visited {
+  text-decoration: none;
+	color:#444
+}
+a:hover {
+  text-decoration: none;
+  color: #444
+}
+a:active {
+  text-decoration: none;
+  color:#444
+}
+
+h1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:38px;
+	text-shadow: 3px 3px 0.1em black, -1px -1px 0.2em gray;
+	color: #FFFFFF;
+	margin:0;
+}
+
+h2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:16px;
+	text-shadow: 2px 2px 0.1em black, -1px -1px 0.2em gray;
+	color: #FFFFFF;
+	margin: 0px;
+}
+
+h3 {	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	font-size:14px;
+	color: #444;
+	margin:0;
+}
+h3:first-letter{
+	text-transform:capitalize;
+}
+
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-weight: bold;
+	color: #444;
+	margin: 0px;
+	padding:0;
+	line-height: 0%;
+}
+
+
+.style5  {font-size: 24px}
+.style6  {font-family: Verdana, Arial, Helvetica, sans-serif; font-weight: bold; font-size:38px;	color: #333333;}
+.style7  {font-size: 24px; color: #333333; }
+.style8  {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #444; }
+.style9  {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; font-weight: bold; color: #444; }
+.style11 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 10px; font-weight: bold; color: #FFFFFF; }
+.style12 {font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 12px; color: #444; }
+
+.style_legenda {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #333333;
+	font-weight:bold;
+}
+
+.style_holidaystable {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color: #333333;
+}
+
+
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color: #FFFFFF;
+}
+
+#top_bar {
+	position:absolute;
+	width:100%;
+	height:53px;
+	z-index:0;
+}
+
+#calendar_pic {
+	position:absolute;
+	width:75px;
+	height:75px;
+	top:3px;
+	left:3px;
+	z-index:100;
+}
+
+#main_box {
+	position:relative;
+	width:1024px;
+	height:940px;
+	z-index:0;
+}
+
+
+#menu_direito {
+	position:absolute;
+	left:722px;
+	top:55px;
+	width:275px;
+	height:auto;
+	overflow:hidden;
+	z-index:20;
+}
+
+#googlead_728x90 {
+	position:absolute;
+	top:59px;
+	left:-8px;
+	width:728px;
+	height:90px;
+	z-index:4;
+}
+
+#calendar {
+	position:absolute;
+	left:4px;
+	top:207px;
+	width:728px;
+	height:800px;
+	z-index:4;
+	margin: -53px 0px 0px -16px;
+}
+
+#legenda {
+	position:absolute;
+	left:0px;
+	top:960px;
+	width:100%;
+	height:25px;
+	z-index:4;
+	margin:0;
+}
+
+
+#logo {
+	position:absolute;
+	left:90px;
+	top:0px;
+	z-index:8;
+}
+
+#local {
+	position:absolute;
+	left:600px;
+	width:430px;
+	top:5px;
+	z-index:8;
+}
+
+#div_2015 {
+	position:absolute;
+	left:550px;
+	width:50px;
+	top:1px;
+	z-index:8;
+}
+
+#facebook {
+	position:absolute;
+	left:5px;
+	top:155px;
+	z-index:8;
+}
+
+#logo_shadow { /* for IE Shadow */
+	position:absolute;
+	left:90px;
+	top:3px;
+	z-index:7;
+}
+
+#wait_icon{
+	position:absolute;
+	left:0px;
+	top:280px;
+	width:700px;
+	z-index:0;
+}
+
+
+-->
+</style>
+
+</head>
+
+
+<body>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.balloon.min.js"></script>
+<script type="text/javascript" src="js/spin.js"></script>
+<script type="text/javascript" src="js/colorbox/jquery.colorbox-min.js"></script>
+<script type="text/javascript" src="js/my_library.js"></script>
+<link rel="stylesheet" href="js/colorbox/colorbox.css" />
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/all.js#xfbml=1&appId=206151539520163";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div id="top_bar">
+<table width="100%" border="0" height="53px" bgcolor="#5c7fbc" background="figs/degrade_top_bar.png">
+  <tr>
+    <td>&nbsp;</td>
+  </tr>
+</table>
+</div>
+
+<div align="center">
+<div id="main_box"> <!-- box principal, centralizado na pagina -->
+
+<div id="calendar_pic">
+<img src="figs/calendar_pic.png" border="0" />
+</div>
+
+<div id="wait_icon">
+<script language="javascript">
+	//cria waiting icon embaixo do calendario
+	var spin_opts = {lines: 10, length: 0, width: 15, radius: 25, corners: 1, rotate: 0, direction: 1, color: '#456baf', speed: 1.6, trail: 95, shadow: false, hwaccel: false, className: 'spinner', zIndex: 5, top: 'auto', left: 'auto' };	var target = document.getElementById('wait_icon'); var spinner = new Spinner(spin_opts).spin(target);
+</script>
+</div>
+
+<div align="center" id="googlead_728x90">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Calendario 728x90 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-4670805497454443"
+     data-ad-slot="3196598709"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+<div id="calendar">
+<!--ajustar posicionamento para IE-->
+<!--[if IE]>
+<script type="text/javascript">
+//document.getElementById("calendar").style.margin="-48px 0px 0px -14px;";
+</script>
+<![endif]-->
+<iframe id="calendar_frame" style="z-index=2" onload="$('#calendar_frame').fadeIn(1000);" width="733px" height="800" frameborder="0" allowtransparency="allowtransparency" src="calendar/samples/03_extensions/meu.php?&ano=2015"></iframe>
+</div>
+
+<script type="text/javascript"><!--
+  var tipMiniCalendar = 0;
+
+
+setTimeout("$('#location_info').showBalloon({css:{opacity: '1', backgroundColor: '#fff960', color:'#333333'}, position: 'left', offsetX:20, contents: 'Feriados em  -  ?'})",2000); setTimeout("$('#location_info').hideBalloon()",5000);
+setTimeout("$('#seu_site').showBalloon({css:{opacity: '1', backgroundColor: '#fff960', color:'#333333'}, position: 'left', offsetX:20, contents:'Que tal um Mini-Calend&aacute;rio com todos os feriados <br/> em seu Site ou em seu Blog?'})",15000); setTimeout("$('#seu_site').hideBalloon()",19000);
+	
+//--></script>
+
+
+
+<div id="menu_direito" align="left">
+<table width="100%" border="0" height="100%">
+<!--<tr height="28px"><td align="center" background="figs/degrade_div.png">
+<h4>Personalize seu Calend&aacute;rio</h4>
+</td></tr>
+<tr><td align="center">
+<iframe id="login_frame" src="login/login_frame.php" width="200px" height="60px" frameborder="0" scrolling="no"></iframe>
+</td></tr>-->
+
+<tr height="28px"><td align="center" background="figs/degrade_div.png">
+<h4>Visualizar Feriados em:</h4>
+</td></tr>
+
+<tr><td align="center">
+<h3><div id="location_info">Escolha uma Cidade</div></h3>
+</td></tr>
+
+<tr> <td height="70px"> <div align="left">
+<form id="form1" name="form1" method="post" action="">
+<label for="estado"><span class="style9">&nbsp;&nbsp;&nbsp;Feriados do Estado de: </span></label>
+<select name="estado" size="1" id="estado" style="font-size:11px;">
+<option value="NONE">Escolher</option>
+<option value="ALL">Todos</option>
+<option value="AC">AC</option>
+<option value="AL">AL</option>
+<option value="AM">AM</option>
+<option value="AP">AP</option>
+<option value="BA">BA</option>
+<option value="CE">CE</option>
+<option value="DF">DF</option>
+<option value="ES">ES</option>
+<option value="GO">GO</option>
+<option value="MA">MA</option>
+<option value="MG">MG</option>
+<option value="MS">MS</option>
+<option value="MT">MT</option>
+<option value="PA">PA</option>
+<option value="PB">PB</option>
+<option value="PE">PE</option>
+<option value="PI">PI</option>
+<option value="PR">PR</option>
+<option value="RJ">RJ</option>
+<option value="RN">RN</option>
+<option value="RO">RO</option>
+<option value="RR">RR</option>
+<option value="RS">RS</option>
+<option value="SC">SC</option>
+<option value="SE">SE</option>
+<option value="SP">SP</option>
+<option value="TO">TO</option>
+</select>
+<br />
+<label for="cidade"><span class="style9">&nbsp;&nbsp;&nbsp;Cidade:</span></label>
+<select name="cidade" size="1" id="cidade" style="font-size:11px;">
+<option value="0">Antes Escolha um Estado</option>
+</select>
+</form>
+</div>
+<br />
+
+<script language="javascript">
+function save_pdf(){
+	var year=document.getElementById('calendar_frame').contentWindow.returnYear();
+	var save_pdf_url = 'pdf_generate/pdf_generate.php?url='+encodeURIComponent('http://www.calendario.com.br/pdf_generate/page_header.php?print=1&ano='+year+'&cidade='+$("#cidade").val()+'&estado='+$("#estado").val())+'&filename=calendario-'+$("#cidade").val()+'-'+$("#estado").val()+'-'+year;
+	window.open(save_pdf_url);
+}
+
+function fotocalendario(){
+	$.colorbox({iframe:true, width:"620px", height:"550px", scrolling: false, href:"fotocalendario/customize.php?print=1&ano=2015&cidade="+$("#cidade").val()+"&estado="+$("#estado").val()});
+}
+
+</script>
+
+<div align="center">
+<table width="100%" style="border-style:1px dotted black;"><tr>
+<td onMouseover="this.bgColor='#EEEEEE';this.style.cursor='pointer'" onMouseout="this.bgColor='#FFFFFF'" onclick="save_pdf();">
+<div align="center"> 
+  <img src="figs/imprimir.png" /><br /> <span class="style8">Salvar / Imprimir</span> 
+</div>
+</td>
+<td onMouseover="this.bgColor='#EEEEEE';this.style.cursor='pointer'" onMouseout="this.bgColor='#FFFFFF'" onclick="fotocalendario();">
+<div align="center"> 
+  <img src="figs/picture.png" /><br /> <span class="style8">&nbsp;Foto-Calendário&nbsp;</span> 
+</div>
+</td></tr></table>
+</div>
+<br />
+</td></tr>
+
+
+<!--API Calendario
+<tr height="28px"><td background="figs/degrade_div.png">
+<div id="seu_site" align="center"><h4>Calend&aacute;rio em seu Software</h4></div>
+</td></tr>
+<tr><td align="center">
+<br />
+<span class="style9">Embarque um calend&aacute;rio em seus aplicativos, usando nossa API.</span>
+<br /><br /> 
+</td></tr>-->
+
+
+<!--Mini Calendario-->
+<tr height="28px"><td background="figs/degrade_div.png">
+<div id="seu_site" align="center"><h4>Calend&aacute;rio no seu Site ou Blog</h4></div>
+</td></tr>
+<tr><td align="center">
+<br />
+<table height="195px"><tr><td bgcolor="#FFFF55"><!-- soh pra fica amarelo -->
+<iframe id="cb_iframe" width="180" height="200" frameborder="0" scrolling="no" src="calendario_peq/calendario_peq.php"></iframe><br />
+</td></tr></table>
+<button onclick='$.colorbox({iframe:true, width:"600px", height:"290px", href:"em_seu_site.php"});' onmouseover="this.style.cursor='pointer';">Gerar Calend&aacute;rio</button>
+<br /><br /> 
+</td></tr>
+
+<!-- ADSense -->
+<tr height="28px"><td background="figs/degrade_div.png">
+<div align="center"><h4>Patroc&iacute;nio</h4></div>
+</td></tr>
+<tr><td>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Calendario 250x250 -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:250px;height:250px"
+     data-ad-client="ca-pub-4670805497454443"
+     data-ad-slot="7581269106"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br /><br />
+</td></tr>
+
+</table>
+</div><!-- menu_direito -->
+
+
+<div id="logo">
+  <a href="http://www.calendario.com.br" target="_self">
+  <h1 style="display:inline">Calend&aacute;rio<span class="style5">.com.br</span></h1>&nbsp;&nbsp;
+  </a>
+</div>
+<!-- O IE nao aceita Text-Shadow e logo fica muito alto-->
+<!--[if IE]>
+<div id="logo_shadow">
+  <h1><span class="style6">Calend&aacute;rio</span><span class="style7">.com.br</span></h1>
+</div>
+<script>
+//document.getElementById("logo").style.top="10px";
+//document.getElementById("logo_shadow").style.top="13px";
+</script>
+<![endif]-->
+
+<div id="div_2015">
+<h2><table width="100%" height="40px" border="0">
+<tr><td valign="middle"><div align="center"><a style="color:#FFFFFF" href="http://www.calendario.com.br/2015">2015</a></div></td></tr>
+<tr><td valign="middle"><div align="center"><a style="color:#FFFFFF" href="http://www.calendario.com.br/2016">2016</a></div></td></tr>
+</table></h2>
+</div>
+
+<div id="local">
+<h2><table width="100%" height="40px" border="0"><tr><td valign="middle"><div align="center" id="location_header">Escolha uma cidade para Feriados Municipais</div></td></tr></table></h2>
+</div>
+
+<div id="facebook">
+	<div class="fb-like" data-href="http://www.calendario.com.br" data-layout="button_count" data-action="like" data-show-faces="false" data-share="false"></div>  
+</div>
+
+
+<div id="legenda">
+
+<table width="100%" height="20px" border="0">
+  <tr>
+    <td width="20px" bgcolor="#FF0000">&nbsp;</td><td align="left"><span class="style_legenda">Feriados Nacionais</span></td>
+    <td width="20px" bgcolor="#f57b32">&nbsp;</td><td align="left"><span class="style_legenda">Feriados Estaduais</span></td>
+    <td width="20px" bgcolor="#389aff">&nbsp;</td><td align="left"><span class="style_legenda">Feriados Municipais</span></td>
+    <td width="20px" bgcolor="#ffc13c">&nbsp;</td><td align="left"><span class="style_legenda">Ponto Facultativo</span></td>
+    <td width="20px" style="background-color:#0000CC; background-image: repeating-linear-gradient(-45deg, transparent, transparent 4px, rgba(255,255,255,.3) 4px, rgba(255,255,255,.3) 8px);">&nbsp;</td><td align="left"><span class="style_legenda">M&uacute;ltiplos Eventos</span></td>
+    <td width="20px" bgcolor="#d0d0d0">&nbsp;</td><td align="left"><span class="style_legenda">Eventos Diversos</span></td>    <td width="20px" bgcolor="#54FF54">&nbsp;</td><td align="left"><span class="style_legenda">Hoje</span></td>  </tr>
+</table>
+ 
+</div>
+
+
+
+<script>
+/* Inicializacoes        */
+/*                       */
+
+$(document).ready(function(){
+	$('#calendar_frame').fadeOut(0); //some com calendario pra aparecer quando carregar
+
+//Boxes pra escolher cidade e estado de acordo com localizacao inicial
+	
+
+  $("#estado").change(function(){
+		if ($("#estado").val()=='ALL') {  //selecionou Todos
+			$("#cidade").html('<option value="">Antes Escolha um Estado</option>'); 
+			$('#calendar_frame').fadeOut(500, function(){
+				$('#calendar_frame').attr('src','calendar/samples/03_extensions/meu.php?&ano=2015&estado=ALL');
+			});
+			$("#location_info").text('Todos Feriados Estaduais');
+			createCookie('estado','ALL',360);	
+			eraseCookie('cidade');		
+		}
+		else
+		if (($("#estado").val()!='') && ($("#estado").val()!='NONE')) {
+      $("#cidade").html('<option value="0">Carregando...</option>');
+      $.post("cidades.php",{estado:$(this).val()}, function(valor){
+         $("#cidade").html(valor);
+			})
+			$('#calendar_frame').fadeOut(500, function(){
+				$('#calendar_frame').attr('src','calendar/samples/03_extensions/meu.php?&ano=2015&estado='+$("#estado").val());
+			});
+			$("#location_info").text($("#estado").val());
+			$("#location_header").text('Feriados em ' + $("#estado").val());
+			document.title = 'Feriados em ' + $("#estado").val();
+			createCookie('estado',$("#estado").val(),360);
+			//$('#cidade').load('cidades.php?estado='+$('#estado').val()); //via GET
+		} else { //nenhum
+			$("#cidade").html('<option value="">Antes Escolha um Estado</option>'); 
+		}
+	});
+	
+	$("#cidade").change(function(){
+		if ($("#cidade").val()!='') {
+			var est = $("#estado").val();
+			var cid = $("#cidade").val();
+			$('#calendar_frame').fadeOut(500, function(){
+				$('#calendar_frame').attr('src','calendar/samples/03_extensions/meu.php?&ano=2015&estado='+est.toLowerCase()+'&cidade='+cid.toLowerCase());
+			});
+			$("#location_info").text(cid+" - "+est);
+			$("#location_header").text('Feriados em '+cid+" - "+est);
+			document.title = 'Feriados em '+cid+" - "+est;
+			createCookie('estado',est,360);
+			createCookie('cidade',cid,360);
+		}
+	});  
+	
+});
+</script>
+
+</div> <!--main_box-->
+</div>
+
+<br />
+<br />
+<br />
+
+
+
+<div align="center">
+<div align="center" style="width:1024px">
+<hr /><br />
+<h4>Lista de Datas Comemorativas e Feriados</h4><br />
+<div id='holidays_table_div'>&nbsp;</div>
+<br /><hr />
+</div></div>
+
+<script language="javascript">
+function updateHolidaysTable(){
+	var html = '<h4>'+$("#location_info").text()+'</h4><br /><br/>';
+	try { //as vezes ainda esta carregando e a funcao nao existe
+		var table = document.getElementById('calendar_frame').contentWindow.holidaysTable(3);
+		$('#holidays_table_div').html(html+table);
+	} catch(e) {
+	}
+	setTimeout("updateHolidaysTable();",1000);
+}
+
+setTimeout("updateHolidaysTable();",2000); //espera carregar 
+
+</script>
+
+<div align="center">
+<!-- Detalhes Feriados -->
+<div id="div_detalhes" style="width:1024px"> 
+<table width="100%"><tr height="28px"><td background="figs/degrade_div.png" align="center" onclick="clickOnHolidaysDetails();" onmouseover="this.style.cursor='pointer';"><h4>
+<div id="titulo_detalhes">[-] Esconder detalhes dos Feriados Nacionais e Feriados Estaduais - Calend&aacute; 2015</div></h4>
+</td></tr>
+<tr><td><br /><span class="style12">
+<div id="div_detalhes_texto">
+<b>CARNAVAL: </b>Com excesão para o Rio de Janeiro, Carnaval NÃO é um feriado oficial, é Ponto Facultativo, ou seja, cabe às empresas decidirem se trabalharão ou não.<br><br><b>CARNAVAL: </b>Com exceção para o Rio de Janeiro, Carnaval NÃO é um feriado oficial, é Ponto Facultativo, ou seja, cabe às empresas decidirem se trabalharão ou não.<br><br><b>Sexta-Feira Santa: </b>Também chamada de "Sexta Feira da Paixão" é a sexta-feira que ocorre antes do domingo de Páscoa, e é o dia que os cristãos lembram da crucificação de Cristo.<br><br><b>Sexta-Feira Santa: </b>Também chamada de "Sexta Feira da Paixão" é a sexta-feira que ocorre antes do domingo de Páscoa, e é o dia que os cristãos lembram da crucificação de Cristo.<br><br><b>Páscoa: </b>A Páscoa é um evento religioso cristão, normalmente considerado pelas igrejas ligadas a esta corrente religiosa como a maior e a mais importante festa da Cristandade. Na Páscoa os cristãos celebram a Ressurreição de Jesus Cristo depois da sua morte.<br><br><b>Páscoa: </b>A Páscoa é um evento religioso cristão, normalmente considerado pelas igrejas ligadas a esta corrente religiosa como a maior e a mais importante festa da Cristandade. Na Páscoa os cristãos celebram a Ressurreição de Jesus Cristo depois da sua morte.<br><br><b>Corpus Christi: </b>Ponto Facultativo no País, mas Feriado Municipal em algumas cidades.. Corpus Christi, expressão latina que significa Corpo de Cristo, é uma festa Cristã realizada na quinta-feira seguinte ao domingo da Santíssima Trindade.<br><br><b>Corpus Christi (Facultativo): </b>Ponto Facultativo no País, mas Feriado Municipal em algumas cidades.. Corpus Christi, expressão latina que significa Corpo de Cristo, é uma festa Cristã realizada na quinta-feira seguinte ao domingo da Santíssima Trindade.<br><br><b>Jogo do Brasil: </b>Jogo do Brasil na Copa do Mundo de 2014: Brasil x Croácia (17h) nesse dia, a Presidenta poderá decretar feriado, segunda a Lei Geral da Copa, http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/Lei/L12663.htm<br><br><b>Jogo do Brasil: </b>Jogo do Brasil na Copa do Mundo de 2014: Brasil x México (16h) nesse dia, a Presidenta poderá decretar feriado, segunda a Lei Geral da Copa, http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/Lei/L12663.htm<br><br><b>Jogo do Brasil: </b>Jogo do Brasil na Copa do Mundo de 2014: Camarões x Brasil (17h) nesse dia, a Presidenta poderá decretar feriado, segunda a Lei Geral da Copa, http://www.planalto.gov.br/ccivil_03/_ato2011-2014/2012/Lei/L12663.htm<br><br></div></span>
+</td></tr></table>
+</div>
+<script language="javascript">
+var HolidaysDetailsShown = 1;
+function clickOnHolidaysDetails(){
+	if (HolidaysDetailsShown) hideHolidaysDetails();
+	else showHolidaysDetails();
+}
+
+function showHolidaysDetails(){
+	$('#div_detalhes_texto').slideDown(500);
+	$('#titulo_detalhes').text('[-] Esconder detalhes dos Feriados Nacionais e Feriados Estaduais - Calendario 2015');
+	HolidaysDetailsShown = 1;
+}
+
+function hideHolidaysDetails(){
+	$('#div_detalhes_texto').slideUp(500, function(){
+		$('#titulo_detalhes').text('[+] Mostrar detalhes dos Feriados Nacionais e Feriados Estaduais - Calendario 2015');	
+	});
+	HolidaysDetailsShown = 0;
+}
+ 
+</script>
+<!-- Fim Detalhes-->
+
+
+
+<div align="right" style="width:1024px"> <a href="gen_sitemap.php?html=1" target="_blank"> <span class="style9">Sitemap</span></a></div>
+</div>
+<br />
+
+<div align="center"> <span class="style9">Algum feriado de sua cidade est&aacute; desatualizado? Comunique a nossa equipe!<br /><br />D&uacute;vidas, problemas ou sugest&otilde;es: <a href="mailto:calendario@calendario.com.br">calendario@calendario.com.br</a></span></div>
+
+<br />
+<br />
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-57968225-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+
+<!--Fim da Pagina-->

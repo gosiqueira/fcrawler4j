@@ -1,0 +1,416 @@
+title=Experiencia Colombia - Impuestos de salida y de entrada a Colombia
+url=http://www.experienciacolombia.com/impuestos-turisticos.php?Colombia
+html=
+		
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title> Experiencia Colombia - Impuestos de salida y de entrada a Colombia</title>
+<link rel="shortcut icon" href="imagenes/Favicon.ico" />
+<meta name="keywords" content=", "/>
+<meta name="description" content=" "/>
+<meta name="robots" content="index/follow"/>
+
+<link href="template/css/general.css" rel="stylesheet" type="text/css" />
+<link href="template/css/textos.css" rel="stylesheet" type="text/css" />
+<link href="template/css/menu1.css" rel="stylesheet" type="text/css" />
+<link href="template/css/menu2.css" rel="stylesheet" type="text/css" />
+<link href="template/css/menu3.css" rel="stylesheet" type="text/css" />
+<link href="template/css/sub-menu.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript">
+function EnviarForm(){document.formulario.submit();}
+function ResetForm(){document.formulario.reset();}
+</script>
+	
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-4320420-1']);
+  _gaq.push(['_trackPageview']);
+  setTimeout('_gaq.push([\'_trackEvent\', \'NoBounce\', \'Over 20 seconds\'])',20000);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+	
+<!-- SEXY LIGHTBOX-->
+<link rel="stylesheet" href="http://www.ideowebs.com/Global/source/scripts/sexy-lightbox/sexylightbox.css" type="text/css" media="all" />
+<script type="text/javascript" src="http://www.ideowebs.com/Global/source/scripts/sexy-lightbox/mootools-yui-compressed.js"></script>
+<script type="text/javascript" src="http://www.ideowebs.com/Global/source/scripts/sexy-lightbox/sexylightbox.v2.1.mootools.js"></script>
+<script type="text/javascript">
+  window.addEvent('domready', function(){
+    SexyLightbox = new SexyLightBox();
+  });
+</script>
+<!-- SEXY LIGHTBOX-->
+	
+	
+<link href="http://www.experienciacolombia.com/template/css/menu-Directorio.css" rel="stylesheet" type="text/css" />
+<link href="http://www.experienciacolombia.com/template/css/general.css" rel="stylesheet" type="text/css" />
+<link href="http://www.experienciacolombia.com/template/css/menu1.css" rel="stylesheet" type="text/css" />
+<link href="http://www.experienciacolombia.com/template/css/menu2.css" rel="stylesheet" type="text/css" />
+<link href="http://www.experienciacolombia.com/template/css/textos.css" rel="stylesheet" type="text/css" />
+<link href="http://www.experienciacolombia.com/template/css/color-Colombia.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+
+<body onload="MM_preloadImages('template/images/Mapa-Region-Central.png','template/images/Mapa-Region-Norte.png','template/images/Mapa-Region-Occidental.png','template/images/Mapa-Region-Oriental.png','template/images/Mapa-Region-Sur.png')">
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"/></script>
+<script type="text/javascript">!window.jQuery && document.write('<script type="text/javascript" src="jquery-1.4.3.min.js"/><\/script>');</script>
+<script type="text/javascript" src="includes2/JQuery/Fancybox/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+<script type="text/javascript" src="includes2/JQuery/Fancybox/fancybox/jquery.fancybox-1.3.4.pack.js"/></script>
+<link rel="stylesheet" type="text/css" href="includes2/JQuery/Fancybox/fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$("a[rel=Image_Group]").fancybox({
+		'padding'		: 5,
+		'autoScale'		: true,
+		'centerOnScroll': true,
+		'overlayShow'	: true,
+		'overlayColor'	: '#000',
+		'overlayOpacity': 0.9,
+		'transitionIn'	: 'elastic',
+		'transitionOut'	: 'elastic',
+		'titlePosition'	: 'over',
+		'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
+			return '<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:url(http://www.experienciacolombia.com/template/images/FondoOpacoOscuro.png);"><tr><td align="center" style="padding:5px; color:#FFFFFF; background:url(http://www.experienciacolombia.com/template/images/FondoOpacoOscuro.png);">'+title+'</td></tr><tr><td align="center" valign="top" style="background-color:#FFFFFF; border-top:solid 2px #8D8D8D;"><img src="http://www.experienciacolombia.com/includes2/Pauta/banners/Fotos-FancyBox.jpg" alt="Canon" style="width:100%; max-width:310px; max-height:35px;" /></td></tr></table>';
+		}
+	});
+
+	$("a[rel=Video_Group]").fancybox({
+		'padding'		: 5,
+		'autoScale'		: false,
+		'centerOnScroll': false,
+		'overlayShow'	: true,
+		'overlayColor'	: '#000',
+		'overlayOpacity': 0.9,
+		'transitionIn'	: 'elastic',
+		'transitionOut'	: 'elastic',
+		'titlePosition'	: 'inside',
+		'titleFormat'	: function(title, currentArray, currentIndex, currentOpts) {
+			return '<table width="100%" border="0" cellspacing="0" cellpadding="0" style="background:url(http://www.experienciacolombia.com/template/images/FondoOpacoOscuro.png);"><tr><td align="center" style="padding:5px; color:#FFFFFF; background:url(http://www.experienciacolombia.com/template/images/FondoOpacoOscuro.png);">'+title+'</td></tr><tr><td align="center" valign="top" style="background-color:#FFFFFF; border-top:solid 2px #8D8D8D;"><img src="http://www.experienciacolombia.com/includes2/Pauta/banners/Fotos-FancyBox.jpg" alt="Canon" style="width:100%; max-width:310px; max-height:35px;" /></td></tr></table>';
+		},
+		'type' : 'swf',
+		'swf'  : {'wmode':'transparent','allowfullscreen':'true'}
+	});
+});
+</script>
+<script type="text/JavaScript">
+function MapOver(Region){
+	 document.images["Mapa"].src = 'http://www.experienciacolombia.com/template/images/Mapa-'+Region+'.png';
+}
+function MapOut(){
+	 document.images["Mapa"].src = 'http://www.experienciacolombia.com/template/images/Mapa-Colombia.png';
+}
+</script>
+
+<script type="text/JavaScript">
+function Limpiar(string){
+	var string = string.replace("'''","-");
+	var string = string.replace("''","-");
+	var string = string.replace("'","-");
+	var string = string.replace("\'","-");
+	var string = string.replace('"""','-');
+	var string = string.replace('""','-');
+	var string = string.replace('"','-');
+	var string = string.replace('\"','-');
+	var string = string.replace(" ","-");
+	var string = string.replace(" ","-");
+	var string = string.replace(" ","-");
+	var string = string.replace(" ","-");
+	var string = string.replace(" -","-");
+	var string = string.replace("- ","-");
+	var string = string.replace("-----","-");
+	var string = string.replace("----","-");
+	var string = string.replace("---","-");
+	var string = string.replace("--","-");
+	
+	return string;
+}
+function Busqueda(){
+	var buscar = document.getElementById('buscar').value;
+	var buscar = Limpiar(buscar);
+	var buscar = Limpiar(buscar);
+	var buscar = Limpiar(buscar);
+	var buscar = Limpiar(buscar);
+	var buscar = Limpiar(buscar);
+	document.location.href= 'busqueda.php?b='+buscar;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+</script>
+
+
+
+
+<!-- HEADER AREA -->
+<div align="right" id="HeaderArea">
+  <table width="340" border="0" cellpadding="0" cellspacing="3">
+	<tr>
+	  <td width="105" align="left" valign="bottom"><a href="http://www.experienciacolombia.com/index.php?Colombia&amp;" target="_self"><img src="http://www.experienciacolombia.com/template/images/home-icon.png" alt="Inicio" title="Inicio" width="25" height="35" hspace="5" border="0"/></a><a href="http://www.experienciacolombia.com/contacto.php?Colombia&amp;" target="_self"><img src="http://www.experienciacolombia.com/template/images/contacto-icon.png" alt="Contacto" title="Contacto" width="39" height="31" hspace="5" border="0" /></a></td>
+	  <td width="59" align="right">Buscar:</td>
+	  <td width="144"><input type="text" name="buscar" id="buscar" value=""/></td>
+	  <td width="27"><img id="Boton" src="http://www.experienciacolombia.com/template/images/buscar.jpg" alt="Buscar" title="Buscar" width="21" height="21" onclick="Busqueda();" style="cursor:pointer"/></td>
+	</tr>
+	<tr>
+	  <td align="left" valign="middle">&nbsp;</td>
+	  <td align="right">&nbsp;</td>
+	  <td align="center" style="height:47px;">&nbsp;</td>
+	  <td>&nbsp;</td>
+    </tr>
+  </table>
+  
+	<table border="0" cellpadding="0" cellspacing="0" id="MenuWrap">
+		<tr>
+			<td nowrap="nowrap"><div id="Menu2" align="right"><ul>
+				<li><a href="destinos.php?Colombia" ><span >Destinos</span></a></li>
+				<li><a href="fotos.php?Colombia" ><span >Fotos</span></a></li>
+				<li><a href="videos.php?Colombia" ><span >Videos</span></a></li></ul></div></td>
+		  	<td nowrap="nowrap"><div id="Menu1" align="right"><ul class="MenuDesplegable"><li class="top"><a href="colombia.php?Colombia" class="top_link" ><span class="down" >Colombia</span></a></li><li class="top"><a href="#" class="top_link"><span class="down">Información útil</span>
+	<!--[if gte IE 7]><!--></a><!--<![endif]-->
+	<!--[if lte IE 6]><table><tr><td><![endif]-->
+	<ul class="sub">
+							<li><a href="puntos-de-informacion-turistica.php?Colombia" ><span >Puntos de información turística</span></a></li>
+							<li><a href="moneda-y-tipos-de-cambio.php?Colombia" ><span >Moneda y tipos de cambio</span></a></li>
+							<li><a href="embajadas-y-consulados.php?Colombia" ><span >Embajadas y Consulados</span></a></li>
+							<li><a href="impuestos-turisticos.php?Colombia" id="current3"><span id="currentspan3">Impuestos turisticos</span></a></li>
+							<li><a href="visas-y-permisos.php?Colombia" ><span >Visas y permisos</span></a></li></ul>
+		<!--[if lte IE 6]></td></tr></table></a><![endif]-->
+	</li><li class="top"><a href="noticias.php?Colombia" class="top_link" ><span class="down" >Noticias</span></a></li><li class="top"><a href="enlaces.php?Colombia" class="top_link" ><span class="down" >Enlaces</span></a></li></ul></div></td>
+		</tr>
+	</table>
+
+</div>
+<!-- END / HEADER AREA-->
+
+
+<!-- WRAP AREA -->
+<div align="center" id="WrapArea">
+  <table width="1000" border="0" cellspacing="3" cellpadding="0">
+	<tr>
+	  <td align="center" valign="top" id="LateralArea"><table width="150" id="LateralAreaInside" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+          <td width="161" align="center">
+			<img src="http://www.experienciacolombia.com/template/images/Mapa-Colombia.png" name="Mapa" width="120" height="160" border="0" alt="Colombia" usemap="#MapaMap" id="Mapa"/>
+			<map name="MapaMap" id="MapaMap">
+			<area shape="poly" coords="27,36,15,32,2,24,0,1,16,1,37,4,67,0,97,1,98,20,81,40,71,51,66,54,58,50,51,48,47,53,44,45,37,47,32,50,27,49,30,40,26,35" href="/impuestos-turisticos.php?Region-Norte" alt="Region Norte" style="cursor:pointer;" onmouseover="MapOver('Region-Norte');" onmouseout="MapOut();" title="Region Norte"/>
+			<area shape="poly" coords="71,53,66,60,64,68,58,77,50,80,45,89,45,97,52,104,59,108,65,110,73,109,79,102,86,101,93,104,107,108,117,110,119,98,119,55,118,37,100,36,71,52" href="/impuestos-turisticos.php?Region-Oriental" alt="Region Oriental" style="cursor:pointer;" onmouseover="MapOver('Region-Oriental');" onmouseout="MapOut();" title="Region Oriental"/>
+			<area shape="poly" coords="27,37,24,44,20,41,23,49,23,57,28,63,31,68,32,74,33,80,32,89,30,96,26,101,30,104,40,93,45,87,50,79,57,77,61,68,68,56,62,54,54,50,48,53,44,51,43,46,37,48,31,51,26,49,28,42,27,37" href="/impuestos-turisticos.php?Region-Central" alt="Region Central" style="cursor:pointer;" onmouseover="MapOver('Region-Central');" onmouseout="MapOut();" title="Region Central"/>
+			<area shape="poly" coords="30,105,29,109,23,108,22,114,17,131,31,143,61,153,85,157,101,150,97,119,100,108,88,103,81,103,77,108,70,112,57,110,48,103,44,96,42,91,37,101,31,104" href="/impuestos-turisticos.php?Region-Sur" alt="Region Sur" style="cursor:pointer;" onmouseover="MapOver('Region-Sur');" onmouseout="MapOut();" title="Region Sur"/>
+			<area shape="poly" coords="3,141,14,130,20,119,22,110,29,107,24,101,27,95,30,85,30,71,26,62,21,46,16,42,10,38,1,38,0,82,0,137,1,141" href="/impuestos-turisticos.php?Region-Occidental" alt="Region Occidental" style="cursor:pointer;" onmouseover="MapOver('Region-Occidental');" onmouseout="MapOut();" title="Region Occidental"/>
+			</map>
+		</td>
+        </tr>
+        <tr>
+          <td align="center">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center" id="RegionTitle">Colombia</td>
+        </tr>
+        <tr>
+          <td align="left" class="Textos">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left" class="Textos">
+		  <div  id="MenuLateral">
+		  	
+
+
+<!--<script src="includes2/JQuery/AccordionMenu/jquery-1.2.1.min.js" type="text/javascript"></script>-->
+<script src="includes2/JQuery/AccordionMenu/menu.js" type="text/javascript"></script>
+<!--[if lt IE 8]>
+<style type="text/css">
+li a {display:inline-block;}
+li a {display:block;}
+</style>
+<![endif]-->
+
+<ul id="MenuAccordion">
+	<li><a href="#">Alojamiento</a><ul><li><a href="directorio.php?Colombia&amp;Alojamiento=Alojamientos-Campestres">Alojamientos campestres</a></li><li><a href="directorio.php?Colombia&amp;Alojamiento=Apartamentos-Turisticos">Apartamentos turísticos</a></li><li><a href="directorio.php?Colombia&amp;Alojamiento=Centros-Vacacionales">Centros vacacionales</a></li><li><a href="directorio.php?Colombia&amp;Alojamiento=Fincas-Y-Cabanas">Fincas y cabañas</a></li><li><a href="directorio.php?Colombia&amp;Alojamiento=Hostales">Hostales</a></li><li><a href="directorio.php?Colombia&amp;Alojamiento=Hoteles">Hoteles</a></li><li><a href="directorio.php?Colombia&amp;Alojamiento=Posadas-Turisticas">Posadas turísticas</a></li><li><a href="directorio.php?Colombia&amp;Alojamiento=Zonas-De-Camping">Zonas de camping</a></li></ul></li><li><a href="#">Entretenimiento</a><ul><li><a href="directorio.php?Colombia&amp;Entretenimiento=Bares-Y-Discotecas">Bares y Discotecas</a></li><li><a href="directorio.php?Colombia&amp;Entretenimiento=Cafes-Y-Heladerias">Cafes y Heladerias</a></li><li><a href="directorio.php?Colombia&amp;Entretenimiento=Casinos">Casinos</a></li><li><a href="directorio.php?Colombia&amp;Entretenimiento=Centros-De-Eventos">Centros de Eventos</a></li><li><a href="directorio.php?Colombia&amp;Entretenimiento=Cines">Cines</a></li><li><a href="directorio.php?Colombia&amp;Entretenimiento=Compras">Compras</a></li><li><a href="directorio.php?Colombia&amp;Entretenimiento=Culturales">Culturales</a></li><li><a href="directorio.php?Colombia&amp;Entretenimiento=Parques-Tematicos">Parques temáticos</a></li></ul></li><li><a href="#">Restaurantes</a><ul><li><a href="directorio.php?Colombia&amp;Restaurantes=Cocina-Internacional">Cocina internacional</a></li><li><a href="directorio.php?Colombia&amp;Restaurantes=Comida-Tipica">Comida típica</a></li><li><a href="directorio.php?Colombia&amp;Restaurantes=Comidas-Rapidas">Comidas rápidas</a></li></ul></li><li><a href="#">Transporte</a><ul><li><a href="directorio.php?Colombia&amp;Transporte=Aerolineas">Aerolineas</a></li><li><a href="directorio.php?Colombia&amp;Transporte=Alquiler-De-Autos">Alquiler de autos</a></li><li><a href="directorio.php?Colombia&amp;Transporte=Barcos-Y-Lanchas">Barcos y Lanchas</a></li><li><a href="directorio.php?Colombia&amp;Transporte=Buses-Y-Taxis">Buses y Taxis</a></li></ul></li><li><a href="#">Salud y Belleza</a><ul><li><a href="directorio.php?Colombia&amp;Salud-Y-Belleza=Centros-De-Estetica-Y-Spa">Centros de estetica y spa</a></li><li><a href="directorio.php?Colombia&amp;Salud-Y-Belleza=Especialistas">Especialistas</a></li></ul></li><li><a href="#">Guias y Tours</a><ul><li><a href="directorio.php?Colombia&amp;Guias-Y-Tours=Deporte-Y-Aventura">Deporte y Aventura</a></li><li><a href="directorio.php?Colombia&amp;Guias-Y-Tours=Guia-Turistico">Guia Turistico</a></li><li><a href="directorio.php?Colombia&amp;Guias-Y-Tours=Tours">Tours</a></li></ul></li></ul>
+<div style="width:100%; text-align:center">
+	<div style="width:120px; height:600px; background:#CCC; margin:auto; margin-top:20px;">
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+        <!-- Lateral IZQ 120 x 600 -->
+        <ins class="adsbygoogle"
+             style="display:inline-block;width:120px;height:600px"
+             data-ad-client="ca-pub-7694294087001329"
+             data-ad-slot="3717360275"></ins>
+        <script>
+        (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+	</div>
+</div>		  </div>
+		</td>
+        </tr>
+        <tr>
+          <td align="left">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="left">&nbsp;</td>
+        </tr>
+        <tr>
+          <td align="center">&nbsp;</td>
+        </tr>
+      </table></td>
+	  <td align="center" valign="top" id="ContentArea"><table width="800" border="0" cellspacing="0" cellpadding="0">
+	  <tr>
+          <td align="center" valign="top"></td>
+        </tr>
+        <tr>
+          <td align="center" valign="top"><script type="text/javascript" src="includes2/js/Ajax-Select-Dependientes.js"></script>
+<script type="text/JavaScript">
+function FiltrarResultado(){
+	var Nombre = document.getElementById('NombreCampo').value.replace(" ","-");
+	var Departamento = document.getElementById('DepartamentoSelect').value;
+	var Municipio = document.getElementById('MunicipioSelect').value;
+	
+	if(Departamento != ""){
+		var Departamento = Departamento.split("_");///Dividimos el ID del Nombre del departamento seleccionado
+		var Departamento = '('+Departamento[1]+')';
+	}
+	
+	if(Nombre != ""){
+		var And = '&';
+		var NombreVar = 'n=';
+		var Nombre = And+NombreVar+Nombre;
+	}
+
+	var UrlFile = '/impuestos-turisticos.php';///Detecta la seccion en la que nos encontramos.
+	var Region = 'Colombia=';/// Detecta la Region en la que estamos
+	var CategoriaDirectorio = '';/// Detecta la Region en la que estamos
+	
+	var LinkFiltro = UrlFile+'?'+Region+Municipio+Departamento+CategoriaDirectorio+Nombre;
+	document.location.href= LinkFiltro;
+}
+function LimpiarResultado(){
+	var UrlFile = '/impuestos-turisticos.php';///Detecta la seccion en la que nos encontramos.
+	var Region = 'Colombia=';/// Detecta la Region en la que estamos
+	var CategoriaDirectorio = '';/// Detecta la Region en la que estamos
+	document.location.href= UrlFile+'?'+Region+CategoriaDirectorio;
+}
+
+</script>
+
+
+</td>
+        </tr>
+        <tr>
+          <td align="right" valign="top"><!--TweetButton--><a href="http://twitter.com/share" class="twitter-share-button" data-url="http://www.experienciacolombia.com" data-text="Visita Experiencia Colombia." data-count="horizontal" data-via="SienteColombia" data-lang="es">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script><!--TweetButton--></td>
+        </tr>
+        <tr>
+          <td align="left" valign="middle" class="Titulos">Impuestos turisticos</td>
+        </tr>
+		  <tr>
+          <td align="left" valign="top" class="GrisSubTitulos">Colombia</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td class="Textos"><div style="text-align: justify; width: 770px;">
+<p>El impuesto de salida de Colombia tiene el valor de US $66, aplicable a todas las salidas internacionales, para los ciudadanos colombianos y extranjeros que permanecieron en el territorio de Colombia por m&aacute;s de 2 meses. En caso de una estad&iacute;a m&aacute;s corta que dos meses, el valor del impuesto de salida para los extranjeros es de 33 USD. Algunas aerol&iacute;neas, como Air France, American Airlines y Avianca, dependiendo de la ruta en la cual operan, incluyen este impuesto en el precio del tiquete a&eacute;reo.<br /><br />El impuesto de salida se debe consignar a la salida del pa&iacute;s en el aeropuerto en efectivo y en una sola moneda (pesos colombianos o d&oacute;lares, excluyendo los billetes de US $100).</p>
+<p class="orginal-minisubtitle"><strong>Exentos de impuesto de salida son los nacionales colombianos que:</strong></p>
+<ul type="disc">
+<li>Sean empleados o funcionarios del servicio del Gobierno Central o del sector descentralizado, cuando viajen en misi&oacute;n oficial, previa presentaci&oacute;n de la autorizaci&oacute;n de Gobierno. </li>
+<li>Adelanten estudios en el exterior con becas o pr&eacute;stamos del Instituto Colombiano de Cr&eacute;dito Educativo y estudios t&eacute;cnicos en el exterior y los estudiantes que viajen por cuenta de universidades reconocidas por el Ministerio de Educaci&oacute;n Nacional. </li>
+<li>Sean funcionarios y trabajadores de empresas de transporte internacional terrestre, mar&iacute;timo y a&eacute;reo que por raz&oacute;n de su oficio viajen al exterior, siempre que la empresa acredite la prestaci&oacute;n del servicio de transporte internacional y el funcionario o trabajador, que presente ante la Aeron&aacute;utica Civil la certificaci&oacute;n del jefe del personal de la empresa donde conste el cargo ocupado y el objeto del viaje. </li>
+<li>Sean residentes en el archipi&eacute;lago de San Andr&eacute;s y Providencia cuando viajen a un pa&iacute;s centroamericano por un t&eacute;rmino no mayor a diez d&iacute;as. </li>
+<li>Sean delegaciones deportivas oficiales acreditadas por el gobierno nacional. </li>
+<li>Sean residentes en el exterior de visita o tr&aacute;nsito en Colombia cuando la permanencia en el pa&iacute;s no exceda de 180 d&iacute;as. </li>
+<li>Viajen con pasaporte diplom&aacute;tico. </li>
+<li>Sean menores de cinco a&ntilde;os de edad. </li>
+<li>Sean las tripulaciones regulares de nave y aeronaves de empresas colombianas de transporte mar&iacute;timo y a&eacute;reo. </li>
+</ul>
+<p class="orginal-minisubtitle"><strong>Exentos de impuesto de salida son los turistas extranjeros:</strong></p>
+<ul type="disc">
+<li>De visita o tr&aacute;nsito en Colombia, cuando la permanencia en el pa&iacute;s no exceda los sesenta d&iacute;as. </li>
+<li>Los pasajeros en tr&aacute;nsito. </li>
+<li>Los que efect&uacute;en tr&aacute;fico dentro de las zonas fronterizas legalmente definidas como tales, siempre que se sometan a las reglamentaciones aduaneras. </li>
+<li>Las valijas diplom&aacute;ticas y los instrumentos musicales que ocupen silla en aeronave. </li>
+</ul>
+<p>&nbsp;</p>
+<strong><span class="orginal-subtitle">M&aacute;s sobre impuestos de salida</span></strong> 
+<ul type="disc">
+<li>Sitio de Internet de la DIAN, web www.dian.gov.co y consultar el cap&iacute;tulo de Viajeros del Decreto 2685 de 1999. </li>
+<li>Oficinas de la Direcci&oacute;n de Impuestos y Aduanas Nacionales DIAN en los tel&eacute;fonos (+571) 4251000 Ext. 2681. </li>
+<li>En el Aeropuerto El Dorado, Oficina de la DIAN para Atenci&oacute;n a los Viajeros ubicada en el muelle de pasajeros Internacional, entrada 7.</li>
+</ul>
+<p>&nbsp;</p>
+<strong><span class="orginal-subtitle">Salida de mercanc&iacute;as y art&iacute;culos especializados </span></strong>
+<p>Para la salida de mercanc&iacute;as del pa&iacute;s hay un cupo m&aacute;ximo que est&aacute; sujeto a cambios peri&oacute;dicos. Se pueden llevar art&iacute;culos como filmadoras, equipos de uso profesional y otras mercanc&iacute;as de valor que el viajero utilizar&aacute; en el exterior.<br />Para traerlas de nuevo al pa&iacute;s, libres de impuestos, las debe presentar a la Oficina de Aduana del Aeropuerto y diligenciar la Declaraci&oacute;n de Exportaci&oacute;n Temporal de tales art&iacute;culos.<br />Especies protegidas de fauna y flora silvestre <br />Las leyes colombianas proh&iacute;ben y sancionan la extracci&oacute;n, transporte, comercializaci&oacute;n y exportaci&oacute;n de cualquier especie de flora o fauna silvestre, viva o muerta.<br />Patrimonio arqueol&oacute;gico o hist&oacute;rico <br />Las leyes colombianas proh&iacute;ben y sancionan la comercializaci&oacute;n y exportaci&oacute;n de piezas originales del patrimonio cultural nacional. Abst&eacute;ngase de comprarlas. Si est&aacute; interesado en llevar a su pa&iacute;s muestras del arte prehisp&aacute;nico o colonial colombiano, puede adquirir r&eacute;plicas de las mismas.</p>
+<p><span class="orginal-subtitle">Importaci&oacute;n temporal</span><br /><strong>Los viajeros no residentes en Colombia, tienen el derecho a introducir temporalmente y libre de impuestos:</strong></p>
+<ul type="disc">
+<li>Los art&iacute;culos para uso personal, profesional o bienes que se vayan a usar durante la estad&iacute;a en el pa&iacute;s. </li>
+<li>Dichos art&iacute;culos o bienes deben ser mencionados en el formulario de Declaraci&oacute;n de Equipaje y Dinero. </li>
+<li>Al finalizar la estancia en Colombia, los art&iacute;culos o bienes deber&aacute;n ser sacados del pa&iacute;s por el viajero. </li>
+</ul>
+<p>Tomado de: <a href="http://www.colombia.travel/es/turista-internacional/informacion-practica" target="_blank">http://www.colombia.travel/es/turista-internacional/informacion-practica</a></p>
+</div></td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+        </tr>
+      </table></td>
+    </tr>
+	<tr>
+	  <td colspan="2" align="center" valign="top" id="FooterArea"><table style="width: 100%;" border="0" cellspacing="5" cellpadding="0">
+<tbody>
+<tr>
+<td align="center" valign="top"><div style="width:100%; text-align:center; margin-bottom:20px;">
+	<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- Footer 970 x 90 -->
+    <ins class="adsbygoogle"
+         style="display:inline-block;width:970px;height:90px"
+         data-ad-client="ca-pub-7694294087001329"
+         data-ad-slot="6670826676"></ins>
+    <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+    </script>
+</div>
+<span style="font-size: xx-small;">Copyright &copy; 2015 <strong>Experiencia Colombia</strong>. Todos los derechos reservados.<br /><br /><br /><br /></span></td>
+</tr>
+</tbody>
+</table></td>
+	</tr>
+  </table>
+</div>
+<!-- END / WRAP AREA-->
+
+
+</body>
+
+</html>

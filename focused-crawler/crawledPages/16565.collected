@@ -1,0 +1,1042 @@
+title=Taxi Fare Calculator
+url=http://www.worldtaximeter.com/
+html=﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta name="description" content="Calculate the fare of your taxi ride. Just enter your origin and destination and the taxi fare calculator will give you an accurate estimate." />
+<meta name="keywords" content="taxi, cab, taxicab, ride, fare, cost, calculator, estimator, estimate" />
+<meta name="author" content="worldtaximeter" />
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<!--[if lte IE 8]>
+<link href="/stylesheets/cache/home-css-old-ie.6.2.0.css?1.0.0" media="screen" rel="stylesheet" type="text/css" /><![endif]-->
+<!--[if gt IE 8]><!-->
+<link href="/stylesheets/cache/home-css.6.2.0.css?1.0.0" media="screen" rel="stylesheet" type="text/css" /><!--<![endif]-->
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<style>
+    #header {
+        height: 112px;
+        background-image: url(/images/band-32px.png);
+        background-position: top left;
+        background-repeat: repeat-y;
+    }
+
+    #header a {
+        padding-left: 45px;
+    }
+
+    #header h1 {
+        padding-left: 45px;
+        margin-top: 5px;
+        color: lightyellow;
+        position: relative;
+    }
+    #taximeter {
+        float: right;
+        padding-right: 1em;
+    }
+
+    #logo {
+        margin-top: 20px;
+    }
+
+    @media screen and (min-width: 0px) and (max-width: 768px) {
+        #taximeter {
+            display: none;
+        }
+        #logo {
+            width: 260px;
+            height: 27px;
+        }
+        #header {
+            height: 96px;
+        }
+        #header h1 {
+            font-size: 1em;
+        }
+
+    }
+</style>
+
+
+<script src="/javascripts/cache/base.6.2.0.js?1.0.0" type="text/javascript"></script>
+
+<meta name=viewport content="width=device-width, initial-scale=1">
+
+<title>Taxi Fare Calculator</title>
+
+  
+<!-- Google Analytics -->
+<script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-3041782-1', 'auto');
+    ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+<!-- Begin Cookie Consent plugin by Silktide - http://silktide.com/cookieconsent -->
+<script type="text/javascript">
+    window.cookieconsent_options = {"message":"This website uses cookies to ensure you get the best experience on our website","dismiss":"Got it!","learnMore":"More info","link":"http://www.worldtaximeter.com/privacy-policy","theme":"dark-bottom"};
+</script>
+
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/1.0.9/cookieconsent.min.js"></script>
+<!-- End Cookie Consent plugin -->
+
+
+
+</head>
+<body>
+
+<div id="container" class="pure-g">
+
+  <div id="header" class="pure-u-1-1 margin-top-1x wtm-colored">
+  <img id="taximeter" src="/images/taximeter.png" alt="Taximeter" height="120" width="175"/>
+  <a href="http://www.worldtaximeter.com/"><img id="logo" src="/images/logo-full.png" alt="Worldtaximeter.com logo" height="43" width="416"></a>
+  <h1>INTERNATIONAL TAXI FARE CALCULATOR</h1>
+</div>
+
+
+
+
+
+<div id="form" class="pure-u-1-1 margin-top-1x">
+  <form class="pure-form pure-form-aligned" id="homefrm">
+
+    <input type="hidden" id="selectedCity" value="">
+
+    <fieldset>
+      <div class="pure-control-group">
+        <label for="city">City</label>
+          <select id="city" name="city" tabindex="2">
+            
+                <option value="aberdeen"
+                        data-address-from="Union Street"
+                        data-address-to="Dyce Airport"
+                        data-country-iso2="gb"
+                        data-latitude="57.149769"
+                        data-longitude="-2.124769"
+                         >
+                  Aberdeen
+                </option>
+            
+                <option value="amsterdam"
+                        data-address-from="Amsterdam Airport Schiphol"
+                        data-address-to="Borneolaan"
+                        data-country-iso2="nl"
+                        data-latitude="52.3737"
+                        data-longitude="4.8909"
+                         >
+                  Amsterdam
+                </option>
+            
+                <option value="atlanta"
+                        data-address-from="1 Coca Cola Plaza"
+                        data-address-to="1800 Peachtree Street, N.W."
+                        data-country-iso2="us"
+                        data-latitude="33.7496"
+                        data-longitude="-84.3882"
+                         >
+                  Atlanta
+                </option>
+            
+                <option value="austin"
+                        data-address-from="1400 North Congress Avenue"
+                        data-address-to="919 East 32nd Street"
+                        data-country-iso2="us"
+                        data-latitude="30.2846"
+                        data-longitude="-97.7433"
+                         >
+                  Austin
+                </option>
+            
+                <option value="baltimore"
+                        data-address-from="1 West Pratt Street"
+                        data-address-to="401 East Pratt Street"
+                        data-country-iso2="us"
+                        data-latitude="39.3031"
+                        data-longitude="-76.614"
+                         >
+                  Baltimore
+                </option>
+            
+                <option value="barcelona"
+                        data-address-from="Muntaner 250"
+                        data-address-to="Calle Mallorca 401"
+                        data-country-iso2="es"
+                        data-latitude="41.383333"
+                        data-longitude="2.183333"
+                         >
+                  Barcelona
+                </option>
+            
+                <option value="berlin"
+                        data-address-from="Invalidenstraße 12"
+                        data-address-to="Straße des 17. Juni"
+                        data-country-iso2="de"
+                        data-latitude="52.523298"
+                        data-longitude="13.411603"
+                         >
+                  Berlin
+                </option>
+            
+                <option value="boston"
+                        data-address-from="4 Yawkey Way"
+                        data-address-to="City Hall Plaza"
+                        data-country-iso2="us"
+                        data-latitude="42.3574"
+                        data-longitude="-71.0562"
+                         >
+                  Boston
+                </option>
+            
+                <option value="chicago"
+                        data-address-from="S State St."
+                        data-address-to="E Madison St."
+                        data-country-iso2="us"
+                        data-latitude="41.881944"
+                        data-longitude="-87.627778"
+                         >
+                  Chicago
+                </option>
+            
+                <option value="dublin"
+                        data-address-from="Kings Street"
+                        data-address-to="Grafton Street"
+                        data-country-iso2="ie"
+                        data-latitude="53.344089"
+                        data-longitude="-6.267464"
+                         >
+                  Dublin
+                </option>
+            
+                <option value="edinburgh"
+                        data-address-from="1 Princes St."
+                        data-address-to="Glenlockhart Rd."
+                        data-country-iso2="gb"
+                        data-latitude="55.949444"
+                        data-longitude="-3.160278"
+                         >
+                  Edinburgh
+                </option>
+            
+                <option value="houston"
+                        data-address-from="600 Travis Street"
+                        data-address-to="Bush Intercontinental airport"
+                        data-country-iso2="us"
+                        data-latitude="29.762778"
+                        data-longitude="-95.383056"
+                         >
+                  Houston
+                </option>
+            
+                <option value="ibiza"
+                        data-address-from="Carrer de Joan Carles I, 2"
+                        data-address-to="Hotel Montesol"
+                        data-country-iso2="es"
+                        data-latitude="38.90876"
+                        data-longitude="1.43238"
+                         >
+                  Ibiza
+                </option>
+            
+                <option value="las-vegas"
+                        data-address-from="3655 Las Vegas Boulevard South"
+                        data-address-to="3186 South Maryland Parkway"
+                        data-country-iso2="us"
+                        data-latitude="36.143"
+                        data-longitude="-115.177"
+                         >
+                  Las Vegas
+                </option>
+            
+                <option value="london"
+                        data-address-from="10 Downing St."
+                        data-address-to="Waterloo Station"
+                        data-country-iso2="gb"
+                        data-latitude="51.5"
+                        data-longitude="-0.116667"
+                        selected >
+                  London
+                </option>
+            
+                <option value="los-angeles"
+                        data-address-from="Tom Bradley Blvd"
+                        data-address-to="Maple St, Santa Monica"
+                        data-country-iso2="us"
+                        data-latitude="34.051358"
+                        data-longitude="-118.24585"
+                         >
+                  Los Angeles
+                </option>
+            
+                <option value="madrid"
+                        data-address-from="Plaza de Las Cortes, 2"
+                        data-address-to="Alcalá, 237"
+                        data-country-iso2="es"
+                        data-latitude="40.4"
+                        data-longitude="-3.6833333"
+                         >
+                  Madrid
+                </option>
+            
+                <option value="malaga"
+                        data-address-from="Alameda Principal, 4"
+                        data-address-to="Paseo Parque, 1"
+                        data-country-iso2="es"
+                        data-latitude="36.719646"
+                        data-longitude="-4.420019"
+                         >
+                  Malaga
+                </option>
+            
+                <option value="mallorca"
+                        data-address-from="Plaza Cort, 1"
+                        data-address-to="Calle dels Caputxins, 2"
+                        data-country-iso2="es"
+                        data-latitude="39.569506"
+                        data-longitude="2.649966"
+                         >
+                  Mallorca
+                </option>
+            
+                <option value="manchester"
+                        data-address-from="Manchester International Airport"
+                        data-address-to="Denmark Rd 12"
+                        data-country-iso2="gb"
+                        data-latitude="53.480691"
+                        data-longitude="-2.234688"
+                         >
+                  Manchester
+                </option>
+            
+                <option value="melbourne"
+                        data-address-from="Docklands"
+                        data-address-to="Woodside St"
+                        data-country-iso2="au"
+                        data-latitude="-37.813611"
+                        data-longitude="144.963056"
+                         >
+                  Melbourne
+                </option>
+            
+                <option value="minneapolis"
+                        data-address-from="Kirby Puckett Pl"
+                        data-address-to="22 9th St N"
+                        data-country-iso2="us"
+                        data-latitude="44.9801"
+                        data-longitude="-93.251867"
+                         >
+                  Minneapolis
+                </option>
+            
+                <option value="montreal"
+                        data-address-from="475 Pine Avenue West"
+                        data-address-to="350 Place Royale"
+                        data-country-iso2="ca"
+                        data-latitude="45.51027"
+                        data-longitude="-73.5543"
+                         >
+                  Montreal
+                </option>
+            
+                <option value="new-delhi"
+                        data-address-from="Bagh"
+                        data-address-to="Saraswati Marg"
+                        data-country-iso2="in"
+                        data-latitude="28.613889"
+                        data-longitude="77.208889"
+                         >
+                  New Delhi
+                </option>
+            
+                <option value="new-york"
+                        data-address-from="4 Pennsylvania Plaza"
+                        data-address-to="760 United Nations Plaza"
+                        data-country-iso2="us"
+                        data-latitude="40.71417"
+                        data-longitude="-74.00639"
+                         >
+                  New York
+                </option>
+            
+                <option value="paris"
+                        data-address-from="Champs Elysées"
+                        data-address-to="Quai d'Orsay"
+                        data-country-iso2="fr"
+                        data-latitude="48.855"
+                        data-longitude="2.35"
+                         >
+                  Paris
+                </option>
+            
+                <option value="prague"
+                        data-address-from="Pražský hrad"
+                        data-address-to="B?l?hradská"
+                        data-country-iso2="cz"
+                        data-latitude="50.083333"
+                        data-longitude="14.466667"
+                         >
+                  Prague
+                </option>
+            
+                <option value="richmond-va"
+                        data-address-from="Union Hill"
+                        data-address-to="Leigh St"
+                        data-country-iso2="us"
+                        data-latitude="37.533"
+                        data-longitude="-77.467"
+                         >
+                  Richmond, VA
+                </option>
+            
+                <option value="rome"
+                        data-address-from="Piazza del Sant'Uffizio, 11, 00193"
+                        data-address-to="Via Velletri 19, 00198"
+                        data-country-iso2="it"
+                        data-latitude="41.9"
+                        data-longitude="12.483333"
+                         >
+                  Rome
+                </option>
+            
+                <option value="san-diego"
+                        data-address-from="1350 El Prado"
+                        data-address-to="610 W. Ash St"
+                        data-country-iso2="us"
+                        data-latitude="32.715"
+                        data-longitude="-117.1625"
+                         >
+                  San Diego
+                </option>
+            
+                <option value="san-francisco"
+                        data-address-from="120 King St."
+                        data-address-to="3038 Fulton St."
+                        data-country-iso2="us"
+                        data-latitude="37.775"
+                        data-longitude="-122.41833"
+                         >
+                  San Francisco
+                </option>
+            
+                <option value="san-jose"
+                        data-address-from="525 West Santa Clara Street"
+                        data-address-to="2200 Mission College Boulevard"
+                        data-country-iso2="us"
+                        data-latitude="37.3523"
+                        data-longitude="-121.8969"
+                         >
+                  San Jose
+                </option>
+            
+                <option value="seattle"
+                        data-address-from="2220 Westlake Ave"
+                        data-address-to="Sea-Tac airport"
+                        data-country-iso2="us"
+                        data-latitude="47.620894"
+                        data-longitude="-122.347355"
+                         >
+                  Seattle
+                </option>
+            
+                <option value="singapore"
+                        data-address-from="151 Lorong Chuan"
+                        data-address-to="106 Neythal Road, Jurong Town"
+                        data-country-iso2="sg"
+                        data-latitude="1.28951"
+                        data-longitude="103.849661"
+                         >
+                  Singapore
+                </option>
+            
+                <option value="sydney"
+                        data-address-from="N Steyne"
+                        data-address-to="Macquarie St"
+                        data-country-iso2="au"
+                        data-latitude="-33.859972"
+                        data-longitude="151.211111"
+                         >
+                  Sydney
+                </option>
+            
+                <option value="toronto"
+                        data-address-from="King St"
+                        data-address-to="Leuty Ave"
+                        data-country-iso2="ca"
+                        data-latitude="43.6485"
+                        data-longitude="-79.3853"
+                         >
+                  Toronto
+                </option>
+            
+                <option value="vancouver"
+                        data-address-from="Burrard St"
+                        data-address-to="West King Edward Avenue"
+                        data-country-iso2="ca"
+                        data-latitude="49.263588"
+                        data-longitude="-123.138565"
+                         >
+                  Vancouver
+                </option>
+            
+                <option value="washington-dc"
+                        data-address-from="1600 Pennsylvania Avenue Northwest"
+                        data-address-to="White House"
+                        data-country-iso2="us"
+                        data-latitude="38.895112"
+                        data-longitude="-77.036366"
+                         >
+                  Washington, DC
+                </option>
+            
+                <option value="zurich"
+                        data-address-from="Zürich Airport"
+                        data-address-to="Brandschenkestrasse 110"
+                        data-country-iso2="ch"
+                        data-latitude="47.366667"
+                        data-longitude="8.55"
+                         >
+                  Zurich
+                </option>
+            
+          </select>
+      </div>
+
+      <div class="pure-control-group">
+        <label for="daddr">From</label>
+        <input type="text" id="daddr" name="daddr" title="Start address" tabindex="3" maxlength="2048" autocomplete="on" type="text" value="" class="pure-u-1-1 pure-u-md-1-2" placeholder="f.e.: Westminster, London" required/>
+      </div>
+
+      <div class="pure-control-group">
+        <label for="saddr">To</label>
+        <input type="text" id="saddr" name="saddr" title="End address" tabindex="4" maxlength="2048" autocomplete="on" type="text" value="" class="pure-u-1-1 pure-u-md-1-2" placeholder="f.e.: London Heathrow Airport " required/>
+      </div>
+
+      <div class="pure-control-group">
+        <label for="when">When</label>
+        <select name="hh" id="hh" tabindex="5">
+          
+              <option>00</option>
+          
+              <option>01</option>
+          
+              <option>02</option>
+          
+              <option>03</option>
+          
+              <option>04</option>
+          
+              <option>05</option>
+          
+              <option>06</option>
+          
+              <option>07</option>
+          
+              <option>08</option>
+          
+              <option>09</option>
+          
+              <option>10</option>
+          
+              <option>11</option>
+          
+              <option>12</option>
+          
+              <option>13</option>
+          
+              <option>14</option>
+          
+              <option>15</option>
+          
+              <option>16</option>
+          
+              <option>17</option>
+          
+              <option>18</option>
+          
+              <option>19</option>
+          
+              <option>20</option>
+          
+              <option>21</option>
+          
+              <option>22</option>
+          
+              <option>23</option>
+          
+        </select>
+        <select name="mm" id="mm" tabindex="6">
+          
+              <option>00</option>
+          
+              <option>01</option>
+          
+              <option>02</option>
+          
+              <option>03</option>
+          
+              <option>04</option>
+          
+              <option>05</option>
+          
+              <option>06</option>
+          
+              <option>07</option>
+          
+              <option>08</option>
+          
+              <option>09</option>
+          
+              <option>10</option>
+          
+              <option>11</option>
+          
+              <option>12</option>
+          
+              <option>13</option>
+          
+              <option>14</option>
+          
+              <option>15</option>
+          
+              <option>16</option>
+          
+              <option>17</option>
+          
+              <option>18</option>
+          
+              <option>19</option>
+          
+              <option>20</option>
+          
+              <option>21</option>
+          
+              <option>22</option>
+          
+              <option>23</option>
+          
+              <option>24</option>
+          
+              <option>25</option>
+          
+              <option>26</option>
+          
+              <option>27</option>
+          
+              <option>28</option>
+          
+              <option>29</option>
+          
+              <option>30</option>
+          
+              <option>31</option>
+          
+              <option>32</option>
+          
+              <option>33</option>
+          
+              <option>34</option>
+          
+              <option>35</option>
+          
+              <option>36</option>
+          
+              <option>37</option>
+          
+              <option>38</option>
+          
+              <option>39</option>
+          
+              <option>40</option>
+          
+              <option>41</option>
+          
+              <option>42</option>
+          
+              <option>43</option>
+          
+              <option>44</option>
+          
+              <option>45</option>
+          
+              <option>46</option>
+          
+              <option>47</option>
+          
+              <option>48</option>
+          
+              <option>49</option>
+          
+              <option>50</option>
+          
+              <option>51</option>
+          
+              <option>52</option>
+          
+              <option>53</option>
+          
+              <option>54</option>
+          
+              <option>55</option>
+          
+              <option>56</option>
+          
+              <option>57</option>
+          
+              <option>58</option>
+          
+              <option>59</option>
+          
+        </select>
+      </div>
+
+      <div class="pure-control-group">
+        <label></label>
+        <input id="phone_booking" name="phone_booking" type="checkbox" value="by-phone" />
+        I plan to arrange it by phone
+      </div>
+
+      <div class="pure-control-group">
+        <label></label>
+        <button id="d_sub" name="btnG" tabindex="7" class="pure-button" type="submit">Calculate my Fare!</button>
+      </div>
+
+    </fieldset>
+  </form>
+</div>
+
+<div class="pure-u-1-1 margin-top-1x">
+  <h3 class="text-big-2x text-center">Get a clear idea about the cost of your next taxi ride</h3>
+  <p class="text-big">
+    Not sure if you have enough money for a taxi ride?
+    Planning your next trip to Europe and want to know how much is a taxi from the airport?
+    Paying taxi trips for your employees and want to anticipate the costs?<br/>
+    Those are just few samples of what World Taximeter can do for you!
+  </p>
+  <p class="text-big">
+    World Taximeter provides you an <strong>estimation</strong>, yet pretty accurate, of the fare of a taxi ride in cities around the globe.
+  </p>
+  <p class="text-big">
+    Currently we support a bunch of cities like 
+    Aberdeen, Amsterdam, Atlanta, Austin, Baltimore, Barcelona, Berlin, Boston, Chicago, Dublin, Edinburgh, Houston, Ibiza, Las Vegas, London, Los Angeles, Madrid, Malaga, Mallorca, Manchester, Melbourne, Minneapolis, Montreal, New Delhi, New York, Paris, Prague, Richmond, VA, Rome, San Diego, San Francisco, San Jose, Seattle, Singapore, Sydney, Toronto, Vancouver, Washington, DC and Zurich.
+  </p>
+</div>
+
+
+<div class="pure-u-1-1 margin-top-1x infobox wtm-border-top-white">
+  <a name="allcities"></a>
+
+  <div class="infobox-title">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square fa-stack-2x"></i>
+          <i class="fa fa-map-marker fa-stack-1x"></i>
+        </span>
+    <h5>Popular cities</h5>
+  </div>
+  <div class="pure-g clear-both">
+
+    
+    
+        <div class="pure-u-1-1 pure-u-md-1-4">
+          <ul>
+            
+            <li ><a href="/aberdeen" title="Taxi fare calculator in Aberdeen">Aberdeen</a></li>
+            
+            <li ><a href="/amsterdam" title="Taxi fare calculator in Amsterdam">Amsterdam</a></li>
+            
+            <li ><a href="/atlanta" title="Taxi fare calculator in Atlanta">Atlanta</a></li>
+            
+            <li ><a href="/austin" title="Taxi fare calculator in Austin">Austin</a></li>
+            
+            <li ><a href="/baltimore" title="Taxi fare calculator in Baltimore">Baltimore</a></li>
+            
+            <li ><a href="/barcelona" title="Taxi fare calculator in Barcelona">Barcelona</a></li>
+            
+            <li ><a href="/berlin" title="Taxi fare calculator in Berlin">Berlin</a></li>
+            
+            <li class="popular"><a href="/boston" title="Taxi fare calculator in Boston">Boston</a></li>
+            
+            <li class="popular"><a href="/chicago" title="Taxi fare calculator in Chicago">Chicago</a></li>
+            
+            <li class="popular"><a href="/dublin" title="Taxi fare calculator in Dublin">Dublin</a></li>
+            
+          </ul>
+        </div>
+    
+        <div class="pure-u-1-1 pure-u-md-1-4">
+          <ul>
+            
+            <li ><a href="/edinburgh" title="Taxi fare calculator in Edinburgh">Edinburgh</a></li>
+            
+            <li ><a href="/houston" title="Taxi fare calculator in Houston">Houston</a></li>
+            
+            <li ><a href="/ibiza" title="Taxi fare calculator in Ibiza">Ibiza</a></li>
+            
+            <li ><a href="/las-vegas" title="Taxi fare calculator in Las Vegas">Las Vegas</a></li>
+            
+            <li class="popular"><a href="/london" title="Taxi fare calculator in London">London</a></li>
+            
+            <li class="popular"><a href="/los-angeles" title="Taxi fare calculator in Los Angeles">Los Angeles</a></li>
+            
+            <li ><a href="/madrid" title="Taxi fare calculator in Madrid">Madrid</a></li>
+            
+            <li ><a href="/malaga" title="Taxi fare calculator in Malaga">Malaga</a></li>
+            
+            <li ><a href="/mallorca" title="Taxi fare calculator in Mallorca">Mallorca</a></li>
+            
+            <li class="popular"><a href="/manchester" title="Taxi fare calculator in Manchester">Manchester</a></li>
+            
+          </ul>
+        </div>
+    
+        <div class="pure-u-1-1 pure-u-md-1-4">
+          <ul>
+            
+            <li class="popular"><a href="/melbourne" title="Taxi fare calculator in Melbourne">Melbourne</a></li>
+            
+            <li ><a href="/minneapolis" title="Taxi fare calculator in Minneapolis">Minneapolis</a></li>
+            
+            <li ><a href="/montreal" title="Taxi fare calculator in Montreal">Montreal</a></li>
+            
+            <li ><a href="/new-delhi" title="Taxi fare calculator in New Delhi">New Delhi</a></li>
+            
+            <li class="popular"><a href="/new-york" title="Taxi fare calculator in New York">New York</a></li>
+            
+            <li class="popular"><a href="/paris" title="Taxi fare calculator in Paris">Paris</a></li>
+            
+            <li ><a href="/prague" title="Taxi fare calculator in Prague">Prague</a></li>
+            
+            <li ><a href="/richmond-va" title="Taxi fare calculator in Richmond, VA">Richmond, VA</a></li>
+            
+            <li class="popular"><a href="/rome" title="Taxi fare calculator in Rome">Rome</a></li>
+            
+            <li ><a href="/san-diego" title="Taxi fare calculator in San Diego">San Diego</a></li>
+            
+          </ul>
+        </div>
+    
+        <div class="pure-u-1-1 pure-u-md-1-4">
+          <ul>
+            
+            <li class="popular"><a href="/san-francisco" title="Taxi fare calculator in San Francisco">San Francisco</a></li>
+            
+            <li ><a href="/san-jose" title="Taxi fare calculator in San Jose">San Jose</a></li>
+            
+            <li class="popular"><a href="/seattle" title="Taxi fare calculator in Seattle">Seattle</a></li>
+            
+            <li class="popular"><a href="/singapore" title="Taxi fare calculator in Singapore">Singapore</a></li>
+            
+            <li class="popular"><a href="/sydney" title="Taxi fare calculator in Sydney">Sydney</a></li>
+            
+            <li class="popular"><a href="/toronto" title="Taxi fare calculator in Toronto">Toronto</a></li>
+            
+            <li ><a href="/vancouver" title="Taxi fare calculator in Vancouver">Vancouver</a></li>
+            
+            <li class="popular"><a href="/washington-dc" title="Taxi fare calculator in Washington, DC">Washington, DC</a></li>
+            
+            <li ><a href="/zurich" title="Taxi fare calculator in Zurich">Zurich</a></li>
+            
+          </ul>
+        </div>
+    
+    <div class="pure-u-1-1">
+      <ul>
+        <li><a href="http://www.worldtaximeter.com/all-cities" class="see-all-link">See all available cities</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+<div class="pure-u-1-1 pure-u-md-11-24 margin-top-1x infobox wtm-border-top-white">
+
+  <div class="infobox-title">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square fa-stack-2x"></i>
+      <i class="fa fa-line-chart fa-stack-1x"></i>
+    </span>
+    <h5>Popular taxicab trips worldwide</h5>
+  </div>
+  <ul class="clear-both">
+    
+        <li><h3><a href="http://www.worldtaximeter.com/dublin/dublin+airport/city+centre" title="Dublin, from Dublin Airport to City Centre">Dublin, from Dublin Airport to City Centre</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/london/London+Paddington+Station/Kings+Cross%252FSt+Pancras+station" title="London, from London Paddington Station to Kings Cross/st Pancras Station">London, from London Paddington Station to Kings Cross/st Pancras Station</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/new-york/JFK/Brooklyn" title="New York, from Jfk to Brooklyn">New York, from Jfk to Brooklyn</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/new-york/la+guardia/manhattan" title="New York, from La Guardia to Manhattan">New York, from La Guardia to Manhattan</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/chicago/downtown+chicago/O%E2%80%99Hare+Airport" title="Chicago, from Downtown Chicago to O’hare Airport">Chicago, from Downtown Chicago to O’hare Airport</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/edinburgh/edinburgh+city+centre/edinburgh+airport" title="Edinburgh, from Edinburgh City Centre to Edinburgh Airport">Edinburgh, from Edinburgh City Centre to Edinburgh Airport</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/new-york/newark+airport/manhattan" title="New York, from Newark Airport to Manhattan">New York, from Newark Airport to Manhattan</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/london/London+euston/London+victoria" title="London, from London Euston to London Victoria">London, from London Euston to London Victoria</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/manila/NAIA+airport/Victory+Liner+Terminal+Pasay" title="Manila, from Naia Airport to Victory Liner Terminal Pasay">Manila, from Naia Airport to Victory Liner Terminal Pasay</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/melbourne/tullamarine+airport/melbourne+city" title="Melbourne, from Tullamarine Airport to Melbourne City">Melbourne, from Tullamarine Airport to Melbourne City</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/new-york/JFK+Airport/bronx" title="New York, from Jfk Airport to Bronx">New York, from Jfk Airport to Bronx</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/new-york/jfk/manhattan" title="New York, from Jfk to Manhattan">New York, from Jfk to Manhattan</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/berlin/berlin+Schoenefeld+Airport/berlin+City+Center" title="Berlin, from Berlin Schoenefeld Airport to Berlin City Center">Berlin, from Berlin Schoenefeld Airport to Berlin City Center</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/melbourne/Avalon+airport/Melbourne+cbd" title="Melbourne, from Avalon Airport to Melbourne Cbd">Melbourne, from Avalon Airport to Melbourne Cbd</a></h3></li>
+    
+    
+  </ul>
+
+</div>
+<div class="pure-u-md-2-24"></div>
+<div class="pure-u-1-1 pure-u-md-11-24 margin-top-1x infobox wtm-border-top-white">
+
+  <div class="infobox-title">
+        <span class="fa-stack fa-lg">
+          <i class="fa fa-square fa-stack-2x"></i>
+          <i class="fa fa-clock-o fa-stack-1x"></i>
+        </span>
+    <h5>Latest taxi services calculated worldwide</h5>
+  </div>
+
+  <ul class="clear-both">
+    
+        <li><h3><a href="http://www.worldtaximeter.com/melbourne/avalon+airport/geelong+train+station" title="Melbourne, from Avalon Airport to Geelong Train Station">Melbourne, from Avalon Airport to Geelong Train Station</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/lisbon/Lisbon/evora" title="Lisbon, from Lisbon to Evora">Lisbon, from Lisbon to Evora</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/london/paddington+station/Highgate%2C+London%2C+United+Kingdom" title="London, from Paddington Station to Highgate">London, from Paddington Station to Highgate</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/birmingham-united-kingdom/birmingham+new+street+station/Malmaison+Birmingham%2C+The+Mailbox%2C+Wharfside+St%2C+Birmingham+B1+2JR%2C+United+Kingdom" title="Birmingham, from Birmingham New Street Station to Malmaison Birmingham">Birmingham, from Birmingham New Street Station to Malmaison Birmingham</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/los-angeles/World+cruise+center++San+Pedro%2C+CA+90731/Long+Beach+airport" title="Los Angeles, from World Cruise Center San Pedro to Long Beach Airport">Los Angeles, from World Cruise Center San Pedro to Long Beach Airport</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/london/paddington+station/1+Avenue+Road%2C+London%2C+United+Kingdom" title="London, from Paddington Station to 1 Avenue Road">London, from Paddington Station to 1 Avenue Road</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/birmingham-united-kingdom/birmingham+new+street+station/Ladypool+road+" title="Birmingham, from Birmingham New Street Station to Ladypool Road">Birmingham, from Birmingham New Street Station to Ladypool Road</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/london/Heathrow+Airport/Euston+station" title="London, from Heathrow Airport to Euston Station">London, from Heathrow Airport to Euston Station</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/london/charing+cross/Heathrow+Airport" title="London, from Charing Cross to Heathrow Airport">London, from Charing Cross to Heathrow Airport</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/singapore/Boundary+Road+Singapore/SIM+Global+Education%2C+461+Clementi+Rd%2C+Singapore+599491" title="Singapore, from Boundary Road Singapore to Sim Global Education">Singapore, from Boundary Road Singapore to Sim Global Education</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/singapore/112+East+Coast+Road+Singapore/Cathay+Cineplex%2C+8+Grange+Road%2C+Levels+4%2C+5%2C+6+%26+9+Cathay+Cineleisure+Orchard%2C+Singapore+239695" title="Singapore, from 112 East Coast Road Singapore to Cathay Cineplex">Singapore, from 112 East Coast Road Singapore to Cathay Cineplex</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/malaga/Med+Playa+Hotel+Villasol%2C+Av%3B%3B+Antonio+Machado%2C+43%2C+29630+Benalm%C3%A1dena%2C+M%C3%A1laga%2C+Spain/university+marbella" title="Malaga, from Med Playa Hotel Villasol to University Marbella">Malaga, from Med Playa Hotel Villasol to University Marbella</a></h3></li>
+    
+        <li><h3><a href="http://www.worldtaximeter.com/singapore/Joo+Koon+MRT%2C+Singapore/49+Gul+Road+Singapore" title="Singapore, from Joo Koon Mrt to 49 Gul Road Singapore">Singapore, from Joo Koon Mrt to 49 Gul Road Singapore</a></h3></li>
+    
+  </ul>
+</div>
+
+<div class="block" style="display:none;">
+<form id="callCityRoute">
+	<input type="hidden" id="ccr_to" name="to" />
+	<input type="hidden" id="ccr_from" name="from" />
+	<input type="hidden" id="ccr_time" name="time" />
+	<input type="hidden" id="ccr_phone" name="phone_booking" />
+</form>
+</div>
+
+
+<div class="pure-u-1-1 ads margin-top-1x text-center">
+  
+
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Responsivo -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3657839390109895"
+     data-ad-slot="5955527133"
+     data-ad-format="auto"></ins>
+<script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
+
+<div class="pure-u-1-1 margin-top-1x infobox wtm-border-top-white" id="user_searches">
+
+  <div class="infobox-title">
+    <span class="fa-stack fa-lg">
+      <i class="fa fa-square fa-stack-2x"></i>
+      <i class="fa fa-plane fa-stack-1x"></i>
+    </span>
+    <h5>Direct airport searches</h5>
+  </div>
+
+  <div class="pure-g clear-both">
+    <div class="pure-u-1-1 pure-u-md-1-3">
+      <ul>
+        <li><a href="http://www.worldtaximeter.com/atlanta/airport/Atlanta-International-Airport">Taxi to Atlanta Hartsfield-Jackson Intl. Airport (ATL)</a></li>
+        <li><a href="http://www.worldtaximeter.com/barcelona/airport/aeropuerto-de-el-prat">Taxi to Barcelona, El Prat (BCN)</a></li>
+        <li><a href="http://www.worldtaximeter.com/boston/airport/Logan-Airport">Taxi to Boston Logan Intl Airport (BOS)</a></li>
+        <li><a href="http://www.worldtaximeter.com/chicago/airport/Chicago-O-Hare-International-Airport">Taxi to Chicago O’Hare Intl. Airport (ORD)</a></li>
+        <li><a href="http://www.worldtaximeter.com/chicago/airport/Chicago-Midway-Airport">Taxi to Chicago Midway Intl. Airport (MDW)</a></li>
+        <li><a href="http://www.worldtaximeter.com/las-vegas/airport/McCarran">Taxi to Las Vegas, McCarran Intl Airport (LAS)</a></li>
+        <li><a href="http://www.worldtaximeter.com/london/airport/London-Heathrow-Airport">Taxi to London Heathrow Airport (LHR)</a></li>
+        <li><a href="http://www.worldtaximeter.com/london/airport/London-Gatwick-Airport">Taxi to London-Gatwick Airport (LGW)</a></li>
+      </ul>
+    </div>
+    <div class="pure-u-1-1 pure-u-md-1-3">
+      <ul>
+        <li><a href="http://www.worldtaximeter.com/london/airport/Stansted-Airport">Taxi to London-Stansted Airport (STN)</a></li>
+        <li><a href="http://www.worldtaximeter.com/los-angeles/airport/Los-Angeles-International">Taxi to Los Angeles Intl. Airport (LAX)</a></li>
+        <li><a href="http://www.worldtaximeter.com/madrid/airport/aeropuerto-madrid-barajas-t1">Taxi to Madrid Barajas - Adolfo Suárez (MAD)</a></li>
+        <li><a href="http://www.worldtaximeter.com/mallorca/airport/Palma-de-Mallorca-Airport-(PMI)">Taxi to Palma de Mallorca Airport (PMI)</a></li>
+        <li><a href="http://www.worldtaximeter.com/new-delhi/airport/Indira-Gandhi-airport">Taxi to New Delhi, Indira Gandhi Airport (DEL)</a></li>
+        <li><a href="http://www.worldtaximeter.com/new-york/airport/JFK-John-F-Kennedy-Intl-Airport">Taxi to NYC, John F. Kennedy Intl (JFK)</a></li>
+        <li><a href="http://www.worldtaximeter.com/new-york/airport/LaGuardia-Airport">Taxi to NYC, La Guardia (LGA)</a></li>
+        <li><a href="http://www.worldtaximeter.com/paris/airport/Aeroport-de-Paris-Roissy-Charles-de-Gaulle">Taxi to Paris, Roissy - Charles de Gaulle (CDG)</a></li>
+      </ul>
+    </div>
+    <div class="pure-u-1-1 pure-u-md-1-3">
+      <ul>
+        <li><a href="http://www.worldtaximeter.com/paris/airport/Aeroport-de-Paris-Orly-France">Taxi to Paris-Orly Airport (ORY)</a></li>
+        <li><a href="http://www.worldtaximeter.com/rome/airport/Aeroporto-Fiumicino">Taxi to Rome, Fiumicino - da Vinci Airport (FCO)</a></li>
+        <li><a href="http://www.worldtaximeter.com/rome/airport/Rome-Ciampino">Taxi to Rome, Ciampino Airport (CIA)</a></li>
+        <li><a href="http://www.worldtaximeter.com/seattle/airport/sea-tac-airport">Taxi to Seattle, Sea-Tac Intl. Aiport (SEA)</a></li>
+        <li><a href="http://www.worldtaximeter.com/singapore/airport/Airport-Singapore">Taxi to Singapore, Changi Airport (SIN)</a></li>
+        <li><a href="http://www.worldtaximeter.com/toronto/airport/Pearson-Airport">Taxi to Toronto Pearson (YYZ)</a></li>
+        <li><a href="http://www.worldtaximeter.com/washington-dc/airport/ronald-reagan-airport">Taxi to Washington DC, R. Reagan Airport (DCA)</a></li>
+        <li><a href="http://www.worldtaximeter.com/zurich/airport/zurich-airport">Taxi to Zurich Intl. Airport (ZRH)</a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="pure-u-1-1 margin-top-1x margin-bottom-1x" id="footer">
+  <div class="wtm-border-top breathe wtm-colored">
+    <ul>
+      
+      <li><a href="/about-us" rel="nofollow">About us</a></li>
+        
+      <li><a href="/sitemap">Sitemap</a></li>
+      <li><a href="/disclaimer" rel="nofollow">Disclaimer</a></li>
+      <li><a href="/privacy-policy" rel="nofollow">Privacy policy</a></li>
+       <!--
+        <a href="/for-taxi-companies">For taxi companies</a>
+        -->
+    </ul>
+    <div class="text-center breathe">
+      &copy; worldtaximeter.com 2008-2016
+    </div>
+  </div>
+</div>
+
+</div><!-- lContainer -->
+
+<script type="text/javascript">var GMAPS_KEY = 'AIzaSyB1RbcpdFJAXEFYptODFbLEoxTmBPLSDZc';</script>
+<script src="/javascripts/cache/home.6.2.0.js?1.0.0" type="text/javascript"></script>
+
+</body>
+</html>

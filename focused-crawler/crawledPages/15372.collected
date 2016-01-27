@@ -1,0 +1,163 @@
+title=Canvas Webhouse
+url=http://canvas.com.br/contato.html
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Canvas Webhouse</title>
+<link href="css/reset.css" rel="stylesheet" type="text/css" />
+<link href="css/estrutura.css" rel="stylesheet" type="text/css" />
+<link href="css/geral.css" rel="stylesheet" type="text/css" />
+<link href="css/menu.css" rel="stylesheet" type="text/css" />
+<link href="css/contatos.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="font/stylesheet.css" type="text/css" charset="utf-8" />
+
+
+<style type="text/css">
+
+</style>
+
+</head>
+
+<body>
+<div id="container">
+	<div id="header">
+        <div id="logo">
+        	<img src="imgs/canvas_logo.png" alt="Canvas Webhouse">
+        </div>
+        <div id="tel_email">
+        	<p><span>canvas@canvas.com.br</span></p>
+        </div>
+    </div>
+	<div id="content">
+        <div id="latEsq">
+        	<ul id="menu">
+            	<li><a class="home" href="index.html">HOME</a></li>
+                <li><a class="clientes" href="clientes_portfolio.html">CLIENTES &amp; PORTF&Oacute;LIO</a></li>
+                <li><a class="expertise" href="expertise.html">EXPERTISE</a></li>
+                <li><a class="contatos"  href="contato.html">CONTATOS</a></li>
+                <!--<li><a class="blog"  href="blog.html">BLOG</a></li>-->
+            </ul>
+            <div id="social_media"> <a href="#"><img src="imgs/media_facebook.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_twitter.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_flikr.gif" width="36" height="35"></a>
+            	<a href="#"><img src="imgs/media_delicious.gif" width="36" height="35"></a>
+            </div>
+        </div>
+        <div id="latDir">
+        <!-- -->
+        <h1 class="titContatos">contatos</h1>
+        <h2>Fale conosco</h2>
+          <div id="stylized" class="myform">
+            <form id="form" name="form" method="post" action="/">
+            
+            <div class="campo_form">
+                <label>nome</label>
+                <input type="text" name="name" id="name" class="nome" />
+            </div>
+            
+            <div class="campo_form">
+            <label>e-mail</label>
+            <input type="text" name="email" id="email" class="email" />
+            </div>
+            
+            <div class="campo_form">
+            <label>telefone</label>
+            <input type="text" name="telefone" id="telefone" class="telefone" />
+            </div>
+            
+            <div class="campo_form">
+            <label>empresa</label>
+            <input type="text" name="empresa" id="empresa" class="empresa" />
+            </div>
+            
+            <div class="campo_form_textarea">
+            <!--<label>mensagem</label>-->
+            <textarea name="mensagem" id="mensagem" class="mensagem"></textarea>
+            </div>
+
+            <p class="txtObs">desejo ser contactado por <input type="checkbox" name="checkbox" id="checkbox" class="bordaVerde checkbox"> <span>telefone</span> <input type="checkbox" name="checkbox" id="checkbox"> <span>e-mail</span></p>
+            
+            <input type="image" src="imgs/contatos/bt_enviar1_on.gif" width="180" height="50" id="enviar1" />
+
+            </form>
+            
+            <h2>envie seu curriculo</h2>
+            <input type="text" name="empresa" id="empresa" class="curriculo" />&nbsp;<input type="image" src="imgs/contatos/bt_procurar_on.gif" width="98" height="34" id="procurar" />
+            
+            <p class="txtObs">(curr&iacute;culos ser&atilde;o aceitos apenas em formato <img src="imgs/icon_pdf.gif" width="17" height="19" alt="PDF"><span class="txtVerm" style=" color:#F00;">&nbsp;PDF</span> e devem conter as redes sociais do candidato. Tamanho máximo do arquivo 1Mb.)</p>
+            <input type="image" src="imgs/contatos/bt_enviar2_on.gif" width="115" height="37" id="enviar2" />
+            
+            </div>
+                    
+        <!-- -->	
+        </div>
+    </div>
+</div>
+	<div id="footer">
+  <div id="footer_cont">
+            <div class="det_footer">
+            <p class="frase"><span>Prouldly powered by ourselves</span></p>
+            <!--<p class="numero">+55 21 <span>2245.9248</span></p>-->
+            </div>
+            
+            <hr /> 
+                    
+                <div class="container_footer"> 
+                   
+                    <div class="float">
+                    <ul>
+                        <li>HOME</li>
+                        <li class="clientes">CLIENTES &amp; PORTF&Oacute;LIO
+                            <ul>
+                                <li>Cria&ccedil;&atilde;o&nbsp;&middot;</li>
+                                <li>Tecnologia&nbsp;&nbsp;&nbsp;</li>
+                                <li>Estrat&eacute;gia	&nbsp;&middot;</li>
+                                <li>Conte&uacute;do&nbsp;&nbsp;&nbsp;</li>
+                                <li>Corporativo</li>
+                            </ul>
+                        </li>
+                        <li>CONTATOS</li>
+                        <li>BLOG</li>
+                    </ul>
+                    </div>
+                    
+                    <div class="float">
+                    <!--<ul>
+                        <li>SIGA-NOS
+                            <ul>
+                                <li><img src="imgs/footer/facebook.png" width="19" height="19" alt="Facebook">&nbsp;FACEBOOK</li>
+                                <li><img src="imgs/footer/twitter.png" width="19" height="19" alt="Twitter">&nbsp;TWITTER</li>
+                                <li><img src="imgs/footer/flickr.png" width="19" height="19" alt="Flickr">&nbsp;FLICKR</li>
+                                <li><img src="imgs/footer/delicious.png" width="19" height="19" alt="Delicious">&nbsp;DELICIOUS</li>
+                            </ul>
+                         </li>   
+                    </ul>-->
+            </div>
+                    
+                    <div class="float">
+                    <ul>
+                        <li>ENDERE&Ccedil;O
+                            <p class="footer_endereco">
+                                Rua do Catete, 311 / cobertura 09<br />
+                                Flamengo - Rio do Janeiro - RJ<br />
+                                CEP 22220-901 - Brasil
+                            </p>
+                        </li>
+                    </ul>
+          </div>
+        
+                    <div class="float">
+                    	<img src="imgs/footer/mapa.gif" width="233" height="116" alt="Mapa">
+                    </div>
+                 
+                 </div>   
+                    
+            <hr /> 
+			<p class="footer_assinatura left">Pol&iacute;ticas de privacidade &#8226; Termos de Uso</p>
+      		<p class="footer_assinatura right">&copy; 2011 Canvas Webhouse. Todos os direitos reservados. All rights reserved.</p>
+    	</div>
+    </div>
+</body>
+</html>

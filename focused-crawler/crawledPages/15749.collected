@@ -1,0 +1,286 @@
+title=Point do Açai
+url=http://www.pointdoacai.net/
+html=<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!--<![endif]-->
+<head>
+
+<!-- Basic Page Needs ================================================== 
+================================================== -->
+
+<meta charset="utf-8">
+<title>Point do Açai</title>
+<meta name="description" content="Place to put your description text">
+<meta name="Point do Açaí" content="">
+<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+<!-- Mobile Specific Metas ================================================== 
+================================================== -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+<!-- CSS ==================================================
+================================================== -->
+
+<link rel="stylesheet" href="css/base.css">
+<link rel="stylesheet" href="css/skeleton.css">
+<link rel="stylesheet" href="css/screen.css">
+<link rel="stylesheet" href="css/prettyPhoto.css" type="text/css" media="screen" />
+
+<!-- Favicons ==================================================
+================================================== -->
+
+<link rel="shortcut icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="72x72" href="images/favicon.ico">
+<link rel="apple-touch-icon" sizes="114x114" href="images/favicon.ico">
+
+<!-- Google Fonts ==================================================
+================================================== -->
+
+<link href='http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1"><body bgcolor="#FFFFFF" background="images/bg.png">
+
+<!-- Home - Content Part ==================================================
+================================================== -->
+<div id="header">
+  <div class="container header"> 
+    <!-- Header | Logo, Menu
+		================================================== -->
+    <header>
+      <div class="logo"><a href="index.html"><img src="images/logo.jpg" alt="" /></a></div>
+      <div class="mainmenu">
+        <div id="mainmenu">
+          <ul class="sf-menu">
+            
+          <li><a href="index.html" id="visited"><span class="home"><img src="images/home.png" alt="" /></span><font size="2">Home</font></a></li>
+            
+          <li><a href="acai.html"><span class="home"><img src="images/about.png" alt="" /></span><font size="2">O Açaí</font></a> 
+            <ul>
+             
+             <li><a href="lenda.html">A LENDA</a></li>
+              <li><a href="economia.html">NA ECONÔMIA</a></li>
+              <li><a href="nutricional.html">COMPOSIÇÃO NUTRICIONAL DO AÇAÍ</a></li>
+            </ul>
+          </li>
+			
+		  <li><a href=""><span class="home"><img src="images/about.png" alt="" /></span><font size="2">Restaurante</font></a> 
+		<ul>
+			 <li><a href="restaurante_veigacabral.html">POINT VEIGA</a></li>
+              <li><a href="restaurante_presidentevargas.html">POINT BOULEVARD</a></li>
+              <li><a href="central.html">CENTRAL</a></li>
+			
+              
+            </ul>
+          </li>
+            
+          <li><a href="cardapio\index.html" target="_blank"><span class="home"><img src="images/portfolio.png" alt="" /></span><font size="2">Cardápio</font></a> 
+          </li>
+           
+            </li>
+           
+          <li><a href="eventos.html"><span class="home"><img src="images/portfolio.png" alt="" /></span><font size="2">Eventos</font></a> 
+          </li>
+          
+          <li><a href="delivery.html"><span class="home"><img src="images/portfolio.png" alt="" /></span><font size="2">Delivery</font></a> 
+          </li>
+            
+          <li><a href="contatos.html"><span class="home"><img src="images/contact.png" alt="" /></span><font size="2">Contatos</font></a></li>
+          </ul>
+        </div>
+        
+        <!-- Responsive Menu -->
+        
+        <form id="responsive-menu" action="#" method="post">
+          <select>
+            <option value="">Menu</option>
+            <option value="index.html">Home</option>
+            <option value="acai.html">O Açaí</option>
+            <option value="restaurante.html">Restaurante</option>
+            <option value="cardapio.html">Cardápio</option>
+            <option value="eventos.html">Eventos</option>
+            <option value="delivery.html">Delivery</option>
+            <option value="contatos.html">Contatos</option>
+          </select>
+        </form>
+      </div>
+    </header>
+  </div>
+</div>
+<!-- Home Content Part - Slider ==================================================
+================================================== -->
+<div class="flexslider"> 
+  <ul class="slides">
+    <li> <img src="images/flexslider/2.jpg" alt=""/> </li>
+    <li> <img src="images/flexslider/5.jpg" alt=""/></li>
+    <li> <img src="images/flexslider/6.jpg" alt="" /> </li>
+    <li> <img src="images/flexslider/1.jpg" alt="" /> </li>
+    <li> <img src="images/flexslider/4.jpg" alt="" /> </li>
+    <li> <img src="images/flexslider/3.jpg" alt="" /> </li>
+    <li> <img src="images/flexslider/7.jpg" alt="" /> </li>
+  </ul>
+</div>
+<!-- Home Content Part - Box One ==================================================
+================================================== -->
+<div class="blankSeparator"></div>
+<div class="container"> 
+  <div class="info"> 
+    <div class="one_third"> 
+      <h2>O Point do Açai</h2>
+      <p>O Restaurante Point do Açaí é como a cozinha de nossa casa... aqui, os 
+        clientes encontram a culinária típicas da região com aquele gostinho que 
+        lembra a casa de nossos pais, avós ou daqueles tios do interior... gó, 
+        pratiqueira, pirarucu, filhote, charque e camarão, acompanhados de açaí 
+        preto, branco ou bacaba..</p>
+      <a href="restaurante.html" title="" class="buttonhome">&rarr; Leia mais</a> 
+    </div>
+    <div class="two_third lastcolumn"> 
+      <div class="one_half"> 
+        <h2>Eventos</h2>
+        <p>Faça seu evento no Restaurante Point do Açaí, conheça o cardápio variado 
+          com açaí ou sem açaí! O restaurante Point do Açaí possui total segurança, 
+          monitorado por câmeras internas e externas, para que seu evento seja 
+          o mais tranquilo possível.</p>
+        <a href="eventos.html" title="" class="buttonhome">&rarr; Saiba mais</a> 
+      </div>
+      <div class="one_half lastcolumn"> 
+        <h2>Delivery</h2>
+        <p>O Restaurante Point do Açaí oferece aos seus clientes o Disk-entrega. 
+          É só ligar e receber em sua casa um açaí geladinho com diversos pratos 
+          regionais.</p>
+        <a href="delivery.html" title="" class="buttonhome">&rarr; Saiba mais</a> 
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Home Content Part - Box Three ==================================================
+================================================== -->
+<div class="container boxthree">
+  <div class="sepContainer1"><!-- --></div>
+  <div class="blankSeparator"></div>
+   <div class="one_third">
+    <section class="boxthreecenter"> <img src="images/home/2.png" alt=""/>
+      <h3><font color="#0000">Point Veiga</h3>
+      <li>Serviços: Restaurante, Delivery e Eventos</li>
+      <li>Segunda ao Domingo de 11:00 às 16:00  </li>
+      <li>Rua Veiga Cabral nº 450, esquina com a Tv Bom Jardim - Cidade Velha</li>
+      <li>Fone: (91) 3225-4647 | 3230-3162 </li>
+<br>
+      <a class ="simple" href="restaurante_veigacabral.html">+ Conheça o Point </a> </section>
+  </div>
+
+  <!-- one-third column ends here -->
+ <div class="one_third">
+    <section class="boxthreeleft"> <img src="images/home/1.png" alt=""/>
+      <h3>Point Boulevard</h3>
+     <li>Serviços: Restaurante e Eventos</li>
+      <li>Domingo e Segunda: 11:00 as 16:00 somente almoço.</li>
+      <li>terça à Sábado: 11:00 as 22:30 almoço e jantar.</li>
+      <li>Av Boulevard Castilhos frança nº 744, esquina com a Av. Presidente Vargas</li>
+      <li>Fone:(91) 3212-2168</li>
+      <a class ="simple" href="restaurante_presidentevargas.html">+ Conheça o Point</a> </section>
+  </div>
+  <!-- one-third column ends here -->
+  <div class="one_third lastcolumn">
+    <section class="boxthreeright"> <img src="images/home/3.png" alt=""/>
+      <h3><font color="#0000">Central de Processamento e Distribuição</h3>
+      <p><font color="#0000">Rua Óbidos, 206 Cidade Velha </p>
+	<p><font color="#0000">(91) 3241-4917</p>
+<p><font color="#0000">Domingo e Segunda - 07:30 as 16:00 / Terça a Sábado - 07:30 às 20:30 </p> 
+      <a class ="simple" href="central.html">+ Conheça o Point</a> </section>
+  </div>
+  <!-- one-third column ends here --> 
+</div>
+<!-- container ends here -->
+<div class="blankSeparator1"></div>
+<!-- container ends here --> 
+<!-- Home Content Part - Box Two ==================================================
+================================================== -->
+
+<!-- end container --> 
+<!--Footer ==================================================
+================================================== -->
+<div id="footer">
+  <div class="container footer">
+    <div class="one_fourth">
+     
+       <h2><font color="#FFFFFF">Mapa do Site</font></h2>
+      <ul>
+         <li class="lines"><a href="index.html" title="">Home</a></li>
+        <li class="lines"><a href="acai.html" class="">O Açaí</a></li>
+        <li class="lines"><a href="restaurante.html" class="">Restaurante</a></li>
+        <li class="lines"><a href="cardapio/index.html" class=""> Cardápio</a></li>
+        <li class="lines"><a href="eventos.html" class="">Eventos</a></li>
+      </ul>
+    </div>
+    <div class="one_fourth">
+        <ul>
+         <li class="lines"><a href="delivery.html" class=""> Delivery</a></li>        
+        <li class="lines"><a href="central.html" class=""> Central de processamento</a></li>
+        <li class="lines"><a href="contatos.html" class="">Contato</a></li>
+      </ul>
+    </div>
+    <div class="one_fourth">
+      
+   
+    </div>
+    <div class="one_fourth lastcolumn">
+      <h2><font color="#FFFFFF">Delivery</font></h2>
+      <p>O Restaurante Point do Açaí oferece aos seus clientes o Disk-entrega. É só ligar e receber em sua casa um açaí geladinho com diversos pratos regionais.</p>
+      <p><font size="3">(91) 3230-3162 / 3225-4647</font></p>
+    </div>
+  </div>
+  <!-- container ends here --> 
+</div>
+<!-- footer ends here --> 
+<!-- Copyright ==================================================
+================================================== -->
+<div id="copyright">
+  <div class="container"> 
+    <div class="eleven columns alpha"> 
+      <p class="copyright">&copy; Copyright 2014 - Todos os direitos reservados 
+        ao Pointe do Açaí | Desenvolvido por <a href="http://www.lifesocialweb.com.br/" target="_blank" rel="nofollow">Life 
+        Social Web</a>. </p>
+    </div>
+    <div class="five columns omega"> <section class="socials"> 
+      <ul class="socials fr">
+        <li><a href="http://instagram.com/pointdoacaibelem" target="_blank"><img src="images/socials/twitter.png" class="poshytip" title="Instagram"  alt="" /></a></li>
+        <li><a href="https://www.facebook.com/pointdoacaifan" target="_blank"><img src="images/socials/facebook.png" class="poshytip" title="Facebook" alt="" /></a></li>
+      
+      </ul>
+      </section> </div>
+  </div>
+  <!-- container ends here --> 
+</div>
+<!-- copyright ends here --> 
+<!-- End Document
+================================================== --> 
+<!-- Scripts ==================================================
+================================================== --> 
+<script src="js/jquery-1.8.0.min.js" type="text/javascript"></script> 
+<!-- Main js files --> 
+<script src="js/screen.js" type="text/javascript"></script> 
+<!-- Tooltip --> 
+<script src="js/poshytip-1.0/src/jquery.poshytip.min.js" type="text/javascript"></script> 
+<!-- Tabs --> 
+<script src="js/tabs.js" type="text/javascript"></script> 
+<!-- Tweets --> 
+<script src="js/jquery.tweetable.js" type="text/javascript"></script> 
+<!-- Include prettyPhoto --> 
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script> 
+<!-- Include Superfish --> 
+<script src="js/superfish.js" type="text/javascript"></script> 
+<script src="js/hoverIntent.js" type="text/javascript"></script> 
+<!-- Flexslider --> 
+<script src="js/jquery.flexslider-min.js" type="text/javascript"></script> 
+<script type="text/javascript" src="js/modernizr.custom.29473.js"></script>
+</head>
+</body>
+</html>

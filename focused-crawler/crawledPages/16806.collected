@@ -1,0 +1,359 @@
+title=Bocas del Toro, Panama - Home
+url=http://www.bocas.com/
+html=<!--
+	* Name: 						index.html
+	* Description:					Bocas del Toro - Home
+	* Author: 						ANGEL GONZALEZ
+	* For:							VISUAL ADVENTURES
+	* Date last update:				07/01/2016
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+		<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<meta name="google-site-verification" content="ou6hVsuzSeIWPJqLT5cAQEZXNNAYokqw2LXOEwSE73c" />
+		<meta name="Description" content="Official Portal of Bocas del Toro Tourism for more than 16 years.">
+		<meta name="Keywords" content="Panama, Bocas del Toro, Bocas, Bastimentos, Almirante, Changuinola, Chiriqui Grande, Carenero, Coral Cay, Boca del Drago, Stars Beach, Playa Estrellas, Caribbean, Caribe, videos, pictures, photos, fotos, discover, visit, culture, turismo, tourism, ecoturismo, ecotourism, community, comunitario, teribe, guaymi, ngobe, ngabe, naso, tjerdi, bugle, indians, indigenas, surf, scuba diving, snorkelling, trekking, trails, kayaking, fishing, rafting, pesca, buceo, properties, real estate, vacations, vacaciones, holidays, for sale, rentals, hostels, hotels, inns, resorts, cabins, lodges, hoteles, hostales, restaurants, bars, tours, excursiones, travel, viajes, sea, rainforest, coral reefs, beaches, national parks, natural reserves, mar, islas, islands, mangroves, manglares, arrecifes, coral.">
+		<meta name="content" content=" Bocas del Toro - Portal of the Tourism"> 
+		<meta name="GOOGLEBOT" content="index,follow "> 
+		<meta name="robots" content="index, follow"> 
+		<meta name="revisit-after" content="7 days"> 
+		<meta name="norton-safeweb-site-verification" content="xesshpu7gxs1mok77ofd24p1wlh5al49jdqs7bguf566mp0putyqynrek11quv9j97hkogh75au95qi4i0fucb8x6v5z12fe6sxuo122l3jpmfv7cdhb6sbtxmkjtp6s" />
+		<meta name="language" content="English, Spanish, Portuguese"> 
+        <meta name="author" content="Visual Adventures Panama">
+		
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
+        <title>Bocas del Toro, Panama - Home</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Font Awesome CSS -->
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+		
+		<!-- Custom CSS -->
+        <link href="css/animate.css" rel="stylesheet">
+
+        <!-- Custom CSS -->
+        <link href="css/style3.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		
+
+        <!-- Custom Fonts -->
+        <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+
+
+        <!-- Template js -->
+        <script src="js/jquery-2.1.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <script src="js/jquery.appear.js"></script>
+        <script src="js/contact_me.js"></script>
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/modernizr.custom.js"></script>
+        <script src="js/script.js"></script>
+
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+    
+    <body>
+        <!-- Comienza Sección Logo -->
+        <section id="logo-section" class="text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="logo"><br>
+							<img src="images/since.png" alt="" class="img-responsive">
+							<img src="images/official tourism portal.png" alt="" class="img-responsive"><br>
+                            <img src="images/bocasdeltoro.png" class="img-responsive" alt=""><br>
+							<img src="images/portal oficial espanol.png" class="img-responsive" alt="">
+							<img src="images/desde.png" alt="" class="img-responsive"><br>
+							<img src="images/bocascom.png" alt="" class="img-responsive">
+                        </div>
+                    </div>
+					<div class="col-md-6">
+						<div class="publicity1"><br>
+							<a href="http://www.hotelplayatortuga.com/" target="_blank">
+								<img src="images/bn-playatortuga2014-ing.gif" alt="" class="img-responsive">
+							</a>
+							<a href="http://www.redfrogbeach.com/" target="_blank">
+								<img src="images/bn-redfrogrentals.jpg" alt="" class="img-responsive">
+							</a>	
+							<a href="http://www.tropical-suites.com/" target="_blank">
+								<img src="images/bn-tropicalsuites.jpg" class="img-responsive">
+							</a>	
+							<a href="http://www.palmaroyale.com/" target="_blank">
+								<img src="images/bn-palmaroyale.jpg" class="img-responsive" alt="">
+							</a>
+						</div>
+					</div>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Seccion Logo -->
+		
+		<!-- Comienza Seccion Carousel -->
+		<div class="home-slider">
+			<div id="main-slide" class="carousel slide" data-ride="carousel">
+			
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#main-slide" data-slide-to="0" class="active"></li>
+                    <li data-target="#main-slide" data-slide-to="1"></li>
+                    <li data-target="#main-slide" data-slide-to="2"></li>
+					<li data-target="#main-slide" data-slide-to="3"></li>
+                    <li data-target="#main-slide" data-slide-to="4"></li>
+                    <li data-target="#main-slide" data-slide-to="5"></li>
+				</ol>
+				
+				<!-- Carousel inner -->
+                <div class="carousel-inner">
+				
+                    <div class="item active">
+                        <img class="img-responsive" src="images/about-01.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h2 class="animated7 black">
+                        			<span>Welcome to BOCAS DEL TORO,</span>
+                        		</h2>
+                                <h3 class="animated8 black"><br>
+                            		<span>Bienvenidos a BOCAS DEL TORO,</span>
+                            	</h3>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img class="img-responsive" src="images/about-02.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h2 class="animated7 yellow">
+                                	<span>the tourism PARADISE.</span>
+                            	</h2>
+                                <h3 class="animated8 yellow"><br>
+                            		<span>el paraíso del TURISMO.</span>
+                            	</h3>	
+                            </div>
+                        </div>
+                    </div>
+
+					<div class="item">
+                        <img class="img-responsive" src="images/about-03.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h2 class="animated7 lime">
+                                	<span>Our ECOLOGY richness,...</span>
+                            	</h2>
+                                <h3 class="animated8 lime"><br>
+                            		<span>Nuestra riqueza ECOLOGICA,...</span>
+                           	 	</h3>	
+                            </div>
+                        </div>
+					</div>
+					
+					<div class="item">
+                        <img class="img-responsive" src="images/about-04.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h2 class="animated7 yellow">
+                                	<span>...our CULTURAL diversity and...</span>
+                            	</h2>
+                                <h3 class="animated8 yellow"><br><br>
+                            		<span>...nuestra diversidad CULTURAL y...</span>
+                           	 	</h3>	
+                            </div>
+                        </div>
+                    </div>
+                    
+					<div class="item">
+                        <img class="img-responsive" src="images/about-05.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h2 class="animated7 lime">
+                                	<span>...our amazing VIEWS,...</span>
+                            	</h2>
+                                <h3 class="animated8 lime"><br><br>
+                            		<span>...nuestros asombrosos PAISAJES,...</span>
+                           	 	</h3>	
+                            </div>
+                        </div>
+                    </div>
+					
+					<div class="item">
+                        <img class="img-responsive" src="images/about-06.jpg" alt="slider">
+                        <div class="slider-content">
+                            <div class="col-md-12 text-center">
+                                <h2 class="animated7 yellow">
+                                	<span>are our way to SUCCESS.</span>
+                            	</h2>
+                                <h3 class="animated8 yellow"><br><br>
+                            		<span>son nuestro camino al EXITO.</span>
+                           	 	</h3>	
+                            </div>
+                        </div>
+                    </div>
+					
+					<!-- Controls -->
+                	<a class="left carousel-control" href="#main-slide" data-slide="prev">
+                    	<span><i class="fa fa-angle-left"></i></span>
+                	</a>
+                	<a class="right carousel-control" href="#main-slide" data-slide="next">
+                    	<span><i class="fa fa-angle-right"></i></span>
+                	</a>
+                </div>
+                <!-- Carousel inner end-->
+			</div>
+		</div><!-- Fin Seccion Carousel -->
+		
+		<!-- Comienza Seccion Publicidad destacada 2 -->
+        <section id="mainbody-section" class="text-center">
+		
+			<!--<div class="container"><br>
+				<div class="row">
+					<div class="col-md-4">
+						<a href=""><img src="images/happy holidays.jpg" alt="" class="img-responsive"></a>
+					</div>
+					<div class="col-md-4">
+						
+					</div>
+					<div class="col-md-4">
+						<a href=""><img src="images/felices fiestas.jpg" alt="" class="img-responsive"></a>
+					</div>
+				</div><br>
+				<hr>
+			</div>-->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12"><br>
+						<a href="ingles/indexing.html"><img src="images/flag usa.png" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="espanol/indexesp.html"><img src="images/flag spain.png" alt=""></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+						<a href="portugues/indexpor.html"><img src="images/flag brasil.png" alt=""></a><br>
+						
+						<hr><br>
+					</div>
+				</div>
+			</div>
+			
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+					<a href="http://www.ferrybocas.com/" target="_blank">
+						<img src="images/bn-ferrybocas-english.gif" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>
+					</div>
+					<div class="col-md-4">
+					<a href="http://www.bluffbeachandforest.bocas.com/" target="_blank">
+						<img src="images/bn-bluffbeachandforest-eng.gif" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+					<div class="col-md-4">
+					<a href="http://www.careeningcay.com/" target="_blank">
+						<img src="images/bn-careeningresort.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>
+					</div>
+				</div>
+               
+				<div class="row">
+					<div class="col-md-4">
+					<a href="http://www.popaparadisebeachresort.com/" target="_blank">
+						<img src="images/bn-popaparadise.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+					<div class="col-md-4">
+					<a href="http://tungara.com/" target="_blank">
+						<img src="images/bn-tungara.gif" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+					<div class="col-md-4">
+					<a href="http://www.bestbocasrealestate.com/" target="_blank">
+						<img src="images/bn-buenavista.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+					<a href="http://www.coralcoastcristobal.com/" target="_blank">
+						<img src="images/bn-coralcoastcristobal.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+					<div class="col-md-4">
+					<a href="http://www.spanishatlocations.com/" target="_blank">
+						<img src="images/bn-spanishbythesea.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+					<div class="col-md-4">
+					<a href="http://www.redfrogbeach.com/bocas-del-toro-zipline.html" target="_blank">
+						<img src="images/bn-zipline.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+					<a href="http://www.palmartentlodge.com/" target="_blank">
+						<img src="images/bn-palmartent.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+					<div class="col-md-4">
+					<a href="http://www.hotelagunazulpanama.com/" target="_blank">
+						<img src="images/bn-lagunaazul.jpg" alt="" class="img-responsive">&nbsp;&nbsp;
+					</a>	
+					</div>
+				</div><hr><br>
+			</div>
+		</div><!-- Fin Seccion Publicidad Destacada 2 -->
+		
+        <!-- Comienza Sección Pie y Contador -->
+		
+        <div class="copyright text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+						
+						<script type="text/javascript">
+							var sc_project=8347969; 
+							var sc_invisible=0; 
+							var sc_security="b0ac54fd"; 
+						</script>
+						
+						<script type="text/javascript"
+							src="http://www.statcounter.com/counter/counter.js">
+						</script>
+						
+						<noscript>
+							<div class="statcounter">
+								<a title="free hit counter" href="http://statcounter.com/free-hit-counter/" target="_blank">
+								<img class="statcounter" src="http://c.statcounter.com/8347969/0/b0ac54fd/0/" alt="free hit counter"></a>
+							</div>
+						</noscript>
+						<br><br>
+                        <div>
+							All images, text and content <i class="fa fa-copyright"></i>&nbsp;<a href="http://www.visualadventurespanama.com">Visual Adventures Panama.</a><br>
+							Please send all questions and comments to the</font>
+							<A href="/cdn-cgi/l/email-protection#4e2f20292b222c212d2f3d0e372f262121602d2123"><font color="yellow">Webmaster</font></A>.<br>
+							Is a Visual Adventures Production, 1997/2015.<br><br>
+							<a href="http://www.dreamhost.com/green.cgi">
+								<img border="0" alt="Green Web Hosting! This site hosted by DreamHost."
+									src="https://secure.newdream.net/green1.gif" height="32" width="100" />
+							</a>
+						</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Sección Pie -->
+        
+    <script type="text/javascript">
+/* <![CDATA[ */
+(function(){try{var s,a,i,j,r,c,l=document.getElementsByTagName("a"),t=document.createElement("textarea");for(i=0;l.length-i;i++){try{a=l[i].getAttribute("href");if(a&&a.indexOf("/cdn-cgi/l/email-protection") > -1  && (a.length > 28)){s='';j=27+ 1 + a.indexOf("/cdn-cgi/l/email-protection");if (a.length > j) {r=parseInt(a.substr(j,2),16);for(j+=2;a.length>j&&a.substr(j,1)!='X';j+=2){c=parseInt(a.substr(j,2),16)^r;s+=String.fromCharCode(c);}j+=1;s+=a.substr(j,a.length-j);}t.innerHTML=s.replace(/</g,"&lt;").replace(/>/g,"&gt;");l[i].setAttribute("href","mailto:"+t.value);}}catch(e){}}}catch(e){}})();
+/* ]]> */
+</script>
+</body>
+    
+</html>

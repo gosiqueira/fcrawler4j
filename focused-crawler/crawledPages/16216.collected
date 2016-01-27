@@ -1,0 +1,22 @@
+title=null
+url=https://www.google.com/maps/embed?pb=%211m18%211m12%211m3%211d31885875.753270067%212d-61.818920258618206%213d-12.69260214699681%212m3%211f0%212f0%213f0%213m2%211i1024%212i768%214f13.1%213m3%211m2%211s0x8e4428ef4e52dddb%3A0x722fd6c39270ac72%212sMedell%C3%ADn%2C%2BAntioquia%215e0%213m2%211spt-BR%212sbr%214v1391694892650
+html=<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html, body, #mapDiv {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+    <script src="https://maps.googleapis.com/maps/api/js?client=google-maps-embed&amp;libraries=geometry,search&amp;v=3.exp&amp;language=en_US&amp;region=br"></script>
+    <script src="https://maps.gstatic.com/maps-api-v3/embed/js/23/5/init_embed.js"></script>
+    <script>
+      initEmbed([null,null,null,null,null,[[[2,"spotlight",null,null,null,null,null,[null,["0x8e4428ef4e52dddb:0x722fd6c39270ac72","Medellín,+Antioquia",null,[null,null,6.244203,-75.5812119],1,1],null,null,null,null,null,null,null,null,11,null,[null,null,null,null,null,null,null,null,null,null,null,null,null,1]]]],[[52,[["entity_class","1"]]]]],null,["en_US","br"],[null,"/maps/api/js/ApplicationService.UpdateStarring","//accounts.google.com/ServiceLogin?continue=https://www.google.com/maps/api/js/ApplicationService.AuthSuccess","/maps/api/js/ApplicationService.GetEntityDetails","/maps/embed/upgrade204",null,"/maps/embed/record204","/maps/api/js/ApplicationService.Search","/maps/api/js/ApplicationService.SendToDevice"],null,null,null,null,null,null,null,null,"lQmnVpDeJoPrjgTcoJuIBA",null,null,null,[[[31885875.75327007,-75.59639199999999,6.268678],[0,0,0],null,13.10000038146973],null,0,[["0x8e4428ef4e52dddb:0x722fd6c39270ac72","Medellin, Antioquia, Colombia",[6.244203,-75.5812119]],"Medellin, Antioquia",["Colombia"],null,null,null,null,null,null,null,null,null,null,"Medellin, Antioquia, Colombia",null,null,null,null,null,null,null,null,null,null,null,null,null,"ChIJ291STu8oRI4RcqxwksPWL3I"]],null,null,[null,null,null,null,null,null,null,null,null,[0,0],null,[0]],0]);
+    </script>
+  </head>
+  <body>
+    <div id="mapDiv"></div>
+  </body>
+</html>

@@ -1,0 +1,1098 @@
+title=Conheça o regulamento dos sorteios E-bit e concorra a prêmios incríveis!
+url=http://www.ebit.com.br/concorra-premios/regulamento
+html=
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Conheça o regulamento dos sorteios E-bit e concorra a prêmios incríveis!</title>
+	<meta name="description" content="Veja as Regras para participar do sorteio. Você ganhará bits quando responder as pesquisas E-bit. Troque esses bits por cupons e concorra a diversos prêmios!">
+    <meta name="keywords" content="regulamento, regras, premio, premiacao, concorra, concorrer, sorteio, sorteios">
+	
+	
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/fonts.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="//imgs.ebit.com.br/Site-ebit/css/jquery/jquery-ui.css" />
+
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="/js/css3-mediaqueries.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/ie.css" media="all" />
+<![endif]-->
+
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery.js"></script> 
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery.livequery.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-modal.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-typeahead.js"></script>
+
+<script type="text/javascript" src="/js/slideBlock.min.js"></script>
+<script type="text/javascript" src="/js/fadeBlock.min.js"></script>
+<script type="text/javascript" src="/js/autocomplete.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap-tooltip.min.js"></script>
+<script type="text/javascript" src="/js/analytics.min.js"></script>
+
+<script id="navegg" type="text/javascript" src="//d1070b8a575b8m.cloudfront.net/tm12525.js"></script>
+<script type="text/javascript" >$.ajaxSetup({async: true});</script>
+
+<script>
+	$(document).ready(function() {
+
+			$('#searchStore').click(function(){
+				if($('#searchStore').val() == "Digite o nome da loja"){
+					$('#searchStore').val('');	
+				}
+			});
+
+			$('#searchStore').blur(function(){
+				if($('#searchStore').val() == ""){
+					$('#searchStore').val('Digite o nome da loja');	
+				}
+			});
+
+			function handleImageError(obj, label) {
+				$(obj).remove();
+				$('#'+label).show();
+			}
+	});
+</script>
+	
+	<link rel="stylesheet" type="text/css" href="/css/concorra-premios.min.css" media="all">
+
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<link rel="stylesheet" media="all" type="text/css" href="css/ie.css">
+	<![endif]-->
+</head>
+
+<body>
+	<section id="wrapper">
+		
+			<div class="banner">
+			<span>Publicidade</span>
+				<!-- "Ebit_ConcorraPremios_728x90" (section "Concorra A Prêmios") -->
+				<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- "Ebit_ConcorraPremios_728x90" (section "Concorra A PrÃªmios") -->
+			</div>
+		
+
+
+
+
+<header>
+	<a href="/">
+		<strong class="logo" id="logo-ebit">ebit A certificação dos consumidores null</strong>
+	</a>
+	<div class="search">
+		<fieldset>
+			<input type="text" value="Digite o nome da loja" class="text" id="searchStore" name="searchStore" data-provide="typeahead">
+			<input type="hidden" value="Digite o nome da loja" id="placeholder">
+			<input type="button" class="submit" id="submitSearch" value="search" alt='Digite o nome da loja' >
+		</fieldset>
+	</div>
+	<nav>
+		<ul>
+			<li><a  href='/avaliacao-lojas'>Reputação das lojas</a></li>
+			<li><a  href='/concorra-premios/regulamento'>Concorra a prêmios</a></li>
+			
+				
+				
+					<li><a  href='/cadastro'>Cadastre-se</a></li>
+				
+			
+			
+		</ul>
+	</nav>
+
+<!-- Begin comScore Tag -->
+	<script>
+		  var _comscore = _comscore || [];
+		  _comscore.push({ c1: "2", c2: "9976088" });
+		  (function() {
+		    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		    el.parentNode.insertBefore(s, el);
+		  })();
+	</script>
+	<noscript>
+		<img src="http://b.scorecardresearch.com/p?c1=2&c2=9976088&cv=2.0&cj=1" />
+	</noscript>
+<!-- End comScore Tag -->
+	
+</header>
+   		<section id="main">
+		 <!-- conteudo geral -->
+			<div id="conteudo-concorra">
+            	<span class="bread">Para você  >>  Regulamento</span>
+            	<h1>Veja o regulamento e participe dos sorteios </h1>
+                <p class="chamadaParticipar">Veja como é fácil participar :</p>           
+	            <ul id="steps">
+	            	<li id="step1" class="step">
+	            	   <span class="icon"></span>
+	            	   <strong>1. Cadastre-se na E-bit</strong>
+	            	   <p>É grátis e rápido. </p>
+	            	</li>
+	            	<li id="step2" class="step">
+	                   <span class="icon"></span>
+	                   <strong>2. Opine!</strong>
+	                   <p>Ao comprar em lojas cadastradas na<br /> E-bit, você tem acesso às pesquisas de satisfação para avaliar a loja. Usuários E-bit também são convidados a participar de pesquisas de mercado.</p>
+	                </li>
+	                <li id="step3" class="step">
+	                   <span class="icon"></span>
+	                   <strong>3. É fácil concorrer!</strong>
+	                   <p>Ao responder uma pesquisa E-bit ou concluir o preenchimento do seu perfil, você automaticamente ganhará um cupom para concorrer a um prêmio!</p>
+	                </li>
+	            </ul>            
+        	</div>
+            <div class="concorra-tabs">
+                <ul class="tabs">
+
+                	
+                	<li class="selected">Regulamento</li>
+                	<li><a href="/concorra-premios/ultimos-ganhadores">Veja quem ganhou</a></li>
+                </ul>
+                <div class="regulamento-concorra">
+	                <p><strong>Regulamento Internet</strong></p>
+					<p>1 - BUSCAP&Eacute; COMPANY INFORMA&Ccedil;&Atilde;O E TECNOLOGIA LTDA.<br />
+					  Av Paulista, 287 16.&ordm; andar &ndash; Bela Vista &ndash; S&atilde;o Paulo/SP<br />
+					  CNPJ n.&ordm; 09.419.682/0001-46 </p>
+					<p><strong>DESCRI&Ccedil;&Atilde;O DO  PROCESSO DO SORTEIO</strong></p>
+					<p>2 - Est&atilde;o aptas  a participar da promo&ccedil;&atilde;o &ldquo;Campanha 2015&rdquo;, no per&iacute;odo de 22/04/2015 a 19/04/2016 as pessoas residentes e domiciliadas  em territ&oacute;rio nacional que realizarem as seguintes a&ccedil;&otilde;es no site <a href="http://www.ebit.com.br/">www.ebit.com.br</a>: </p>
+					<p>I  - Realizar pesquisas comuns, que avaliam as compras das lojas conveniadas,  todos que responderem e se associarem a E-bit ou j&aacute; forem cadastrados na E-bit,  ganha 01 (um) cupom para concorrer a um iPad na s&eacute;rie A.</p>
+					<p>II - Realizar pesquisas pontuais ou para  estimular atualiza&ccedil;&atilde;o de cadastro, o usu&aacute;rio cadastrado que responder e/ou  completar, ganhar&aacute; 01 (um) cupom para concorrer a um iPhone na s&eacute;rie B.</p>
+					<p>3 - Ap&oacute;s a  sua identifica&ccedil;&atilde;o no site da E-bit, informando seu e-mail e sua senha de  acesso, o associado estar&aacute; apto a realizar as a&ccedil;&otilde;es descritas no item 2 para  concorrer a pr&ecirc;mios. </p>
+					<p>4  - O associado  poder&aacute; ser impactado pela pesquisa opcional da E-bit no final do processo de compra em  lojas, e/ou receber as pesquisas atrav&eacute;s do e-mail cadastrado.</p>
+					<p>5 - Os cupons dever&atilde;o ser obtidos at&eacute; &agrave;s 23:59 horas do dia anterior a  data do sorteio da Loteria Federal, ou seja, para um pr&ecirc;mio que concorrer&aacute; pela  Loteria Federal do dia 06/05/2015, a data limite para obten&ccedil;&atilde;o de cupom ser&aacute; &agrave;s  23:59 horas do dia 05/05/2015.</p>
+					<p>6 - O &ldquo;Extrato de cupons&rdquo; ser&aacute; disponibilizado ao usu&aacute;rio na &aacute;rea  logada do site, correspondente aos &uacute;ltimos 5 dias.&nbsp; </p>
+					<p><strong>7 &ndash; N&uacute;meros da Sorte:</strong></p>
+					<p><u>S&eacute;rie&nbsp;A</u><br />
+					  Para  as pesquisas comuns, que avaliam as compras das lojas conveniadas, todos que  responderem e se associarem a E-bit ou j&aacute; forem cadastrados na E-bit, ganha 01  (um) cupom para concorrer a um iPad na s&eacute;rie A.</p>
+					<p><u>S&eacute;rie&nbsp;B</u><br />
+					  Para pesquisas pontuais ou para estimular  atualiza&ccedil;&atilde;o de cadastro, o usu&aacute;rio cadastrado que responder e/ou completar,  ganha um cupom para concorrer a um iPhone na s&eacute;rie B.</p>
+					<p>I - Cada  s&eacute;rie de 100.000 cupons ser&aacute; numerada entre 00.000 e 99.999.</p>
+					<p>II - Para  cada a&ccedil;&atilde;o realizada conforme item 2, o associado receber&aacute; 01 (um) cupom  numerado da respectiva s&eacute;rie para participar do Sorteio da Loteria Federal.  Essa numera&ccedil;&atilde;o ser&aacute; apresentada de forma aleat&oacute;ria, respeitando o n&uacute;mero m&iacute;nimo  (00.000) e o n&uacute;mero m&aacute;ximo (99.999) de cada s&eacute;rie, sem repeti&ccedil;&atilde;o.</p>
+					<p>III - Os  cupons ser&atilde;o apresentados para os associados na &aacute;rea logada do site da E-bit,  onde ser&aacute; poss&iacute;vel visualizar todos os n&uacute;meros  e datas de cada extra&ccedil;&atilde;o recebidos ao longo deste plano.</p>
+					<p>8 - <u>Forma de atribui&ccedil;&atilde;o dos pr&ecirc;mios</u>: Os pr&ecirc;mios ser&atilde;o distribu&iacute;dos de acordo com os  resultados da Loteria Federal, realizados nos dias previamente estabelecidos no item 10 deste regulamento.</p>
+					<p>I - Ser&aacute;  contemplado o portador do cupom cujo n&uacute;mero seja formado pelas unidades do 1&ordm;  ao 5&ordm; pr&ecirc;mio da Loteria Federal, lidos verticalmente de cima para baixo,  conforme segue: </p>
+					<table class="first">
+					  <tr>
+					    <th>Prêmio</th>
+					    <th>Bilhete</th>
+					  </tr>
+					  <tr>
+					    <td>1o.</td>
+					    <td>00.56 <strong>3</strong></td>
+					  </tr>
+					  <tr>
+					    <td>2o.</td>
+					    <td>22.98 <strong>0</strong></td>
+					  </tr>
+					  <tr>
+					    <td>3o.</td>
+					    <td>27.06 <strong>9</strong></td>
+					  </tr>
+					  <tr>
+					    <td>4o.</td>
+					    <td>12.95 <strong>9</strong></td>
+					  </tr>
+					  <tr>
+					    <td>5o.</td>
+					    <td>65.81 <strong>8</strong></td>
+					  </tr>
+					</table>
+					<p>II  - Ex: O pr&ecirc;mio  caber&aacute; ao portador do n&uacute;mero 30998, de acordo com o crit&eacute;rio adotado.</p>
+					<p>III - Informamos que, na eventualidade do n&uacute;mero sorteado n&atilde;o ter sido  distribu&iacute;do, dar-se-&aacute; a entrega do pr&ecirc;mio ao portador do cupom distribu&iacute;do  imediatamente superior, ou na falta deste, ao imediatamente inferior.</p>
+					<p>IV - A E-bit  manter&aacute; no seu site um link para que os  participantes possam acessar diretamente o site da Caixa Econ&ocirc;mica  Federal e verificar os resultados dos sorteios da Loteria Federal.</p>
+					<p>V - Em cada  apura&ccedil;&atilde;o os participantes concorrer&atilde;o dentro do universo de 100 mil n&uacute;meros da sorte dispon&iacute;veis, na qual cada um ser&aacute; identificado entre &ldquo;00.000&ldquo; e &ldquo;99.999&ldquo;.</p>
+					<p>VI - Cada pr&ecirc;mio  equivale a uma s&eacute;rie, portanto, ser&atilde;o emitidas 60 s&eacute;ries no total, sendo 48  series A numeradas de &ldquo;01&rdquo; a &ldquo;48&rdquo; e 12 series B numeradas de &ldquo;49&rdquo; a &ldquo;60&rdquo;. O  resultado do sorteio da Loteria Federal ser&aacute; v&aacute;lido para s&eacute;rie concorrente no  dia.</p>
+					<p>VII - A  empresa promotora n&atilde;o assume responsabilidades por v&iacute;cios e/ou defeitos  t&eacute;cnicos apresentados pelos pr&ecirc;mios e nem pela garantia ou assist&ecirc;ncia t&eacute;cnica,  cabendo aos participantes sorteados acionarem os respectivos fabricantes e/ou  prestadores de servi&ccedil;o. Os pr&ecirc;mios ser&atilde;o entregues e distribu&iacute;dos na forma como  listados e anunciados, n&atilde;o se comprometendo a E-bit a troc&aacute;-los ou adapta-los  em nenhuma circunst&acirc;ncia. Os pr&ecirc;mios s&atilde;o intransfer&iacute;veis e n&atilde;o poder&atilde;o ser  convertidos em dinheiro, n&atilde;o poder&atilde;o ser trocados por qualquer outro produto.</p>
+					<p><strong>9 - Restri&ccedil;&otilde;es</strong></p>
+					<p>I  - N&atilde;o poder&atilde;o participar da promo&ccedil;&atilde;o funcion&aacute;rios da BUSCAP&Eacute; COMPANY INFORMA&Ccedil;&Atilde;O E TECNOLOGIA LTDA., empresas da requerente. O cumprimento desta  clausula ser&aacute; de responsabilidade da empresa promotora antes da entrega do  cupom utilizando o banco de dados dos funcion&aacute;rios da empresa requerente.</p>
+					<p>II - Ser&aacute;  sumariamente desclassificado todo e qualquer participante cujo cadastro e/ou o  processo de obten&ccedil;&atilde;o de cupons impossibilite a verifica&ccedil;&atilde;o de autenticidade ou,  ainda, que tenha sido reproduzido com o objetivo de burlar as disposi&ccedil;&otilde;es deste  evento.</p>
+					<p>
+						<strong>10 - Per&iacute;odo de participa&ccedil;&atilde;o,  Extra&ccedil;&atilde;o da Loteria Federal. </strong><strong>Descri&ccedil;&atilde;o,  Discrimina&ccedil;&atilde;o, Valor unit&aacute;rio e total dos pr&ecirc;mios a distribuir</strong></p>
+					<table class="second">
+					  <tr>
+					    <th>S&eacute;rie</th>
+					    <th>N&uacute;mero da s&eacute;rie</th>
+					    <th>Data limite para participar</th>
+					    <th>Sorteio da Loteria Federal</th>
+					    <th>Divulga&ccedil;&atilde;o do ganhador no site</th>
+					    <th>Pr&ecirc;mios</th>
+					    <th>Modelo</th>
+					    <th>Marca</th>
+					    <th>Valor</th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>1</td>
+					    <td>28/04/2015</td>
+					    <td>29/04/2015</td>
+					    <td>30/04/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00 </td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">abr/15</th>
+					  	<th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>2</td>
+					    <td>05/05/2015</td>
+					    <td>06/05/2015</td>
+					    <td>07/05/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>3</td>
+					    <td>12/05/2015</td>
+					    <td>13/05/2015</td>
+					    <td>14/05/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>4</td>
+					    <td>19/05/2015</td>
+					    <td>20/05/2015</td>
+					    <td>21/05/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>5</td>
+					    <td>26/05/2015</td>
+					    <td>27/05/2015</td>
+					    <td>28/05/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>49</td>
+					    <td>26/05/2015</td>
+					    <td>27/05/2015</td>
+					    <td>28/05/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Mai/15</th>
+					   <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>6</td>
+					    <td>02/06/2015</td>
+					    <td>03/06/2015</td>
+					    <td>04/06/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>7</td>
+					    <td>09/06/2015</td>
+					    <td>10/06/2015</td>
+					    <td>11/06/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>8</td>
+					    <td>16/06/2015</td>
+					    <td>17/06/2015</td>
+					    <td>18/06/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>9</td>
+					    <td>30/06/2015</td>
+					    <td>01/07/2015</td>
+					    <td>02/07/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>50</td>
+					    <td>30/06/2015</td>
+					    <td>01/07/2015</td>
+					    <td>02/07/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Jun/15</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>10</td>
+					    <td>07/07/2015</td>
+					    <td>08/07/2015</td>
+					    <td>09/07/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>11</td>
+					    <td>14/07/2015</td>
+					    <td>15/07/2015</td>
+					    <td>16/07/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>12</td>
+					    <td>21/07/2015</td>
+					    <td>22/07/2015</td>
+					    <td>23/07/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>13</td>
+					    <td>28/07/2015</td>
+					    <td>29/07/2015</td>
+					    <td>30/07/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>51</td>
+					    <td>28/07/2015</td>
+					    <td>29/07/2015</td>
+					    <td>30/07/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Jul/15</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>14</td>
+					    <td>04/08/2015</td>
+					    <td>05/08/2015</td>
+					    <td>06/08/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>15</td>
+					    <td>11/08/2015</td>
+					    <td>12/08/2015</td>
+					    <td>13/08/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>16</td>
+					    <td>18/08/2015</td>
+					    <td>19/08/2015</td>
+					    <td>20/08/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>17</td>
+					    <td>25/08/2015</td>
+					    <td>26/08/2015</td>
+					    <td>27/08/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>52</td>
+					    <td>25/08/2015</td>
+					    <td>26/08/2015</td>
+					    <td>27/08/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Ago/15</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>18</td>
+					    <td>01/09/2015</td>
+					    <td>02/09/2015</td>
+					    <td>03/09/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>19</td>
+					    <td>08/09/2015</td>
+					    <td>09/09/2015</td>
+					    <td>10/09/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>20</td>
+					    <td>15/09/2015</td>
+					    <td>16/09/2015</td>
+					    <td>17/09/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>21</td>
+					    <td>29/09/2015</td>
+					    <td>30/09/2015</td>
+					    <td>01/10/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					  <!-- AGUARDAR UMA RESOLUÇÃO PARA ESSE PONTO -->
+					    <th>B</th>
+					    <td>53</td>
+					    <td>29/09/2015</td>
+					    <td>30/09/2015</td>
+					    <td>01/10/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Set/15</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>22</td>
+					    <td>06/10/2015</td>
+					    <td>07/10/2015</td>
+					    <td>08/10/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>23</td>
+					    <td>13/10/2015</td>
+					    <td>14/10/2015</td>
+					    <td>15/10/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>24</td>
+					    <td>20/10/2015</td>
+					    <td>21/10/2015</td>
+					    <td>22/10/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>25</td>
+					    <td>27/10/2015</td>
+					    <td>28/10/2015</td>
+					    <td>29/10/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>54</td>
+					    <td>27/10/2015</td>
+					    <td>28/10/2015</td>
+					    <td>29/10/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Out/15</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>26</td>
+					    <td>03/11/2015</td>
+					    <td>04/11/2015</td>
+					    <td>05/11/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>27</td>
+					    <td>10/11/2015</td>
+					    <td>11/11/2015</td>
+					    <td>12/11/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>28</td>
+					    <td>17/11/2015</td>
+					    <td>18/11/2015</td>
+					    <td>29/11/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>29</td>
+					    <td>24/11/2015</td>
+					    <td>25/11/2015</td>
+					    <td>26/11/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>55</td>
+					    <td>24/11/2015</td>
+					    <td>25/11/2015</td>
+					    <td>26/11/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Nov/15</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>30</td>
+					    <td>01/12/2015</td>
+					    <td>02/12/2015</td>
+					    <td>03/12/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>31</td>
+					    <td>08/12/2015</td>
+					    <td>09/12/2015</td>
+					    <td>10/12/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>32</td>
+					    <td>15/12/2015</td>
+					    <td>16/12/2015</td>
+					    <td>17/12/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>33</td>
+					    <td>29/12/2015</td>
+					    <td>30/12/2015</td>
+					    <td>31/12/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>56</td>
+					    <td>29/12/2015</td>
+					    <td>30/12/2015</td>
+					    <td>31/12/2015</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Dez/15</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>34</td>
+					    <td>05/01/2016</td>
+					    <td>06/01/2016</td>
+					    <td>07/01/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>35</td>
+					    <td>12/01/2016</td>
+					    <td>13/01/2016</td>
+					    <td>14/01/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>36</td>
+					    <td>19/01/2016</td>
+					    <td>20/01/2016</td>
+					    <td>21/01/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>37</td>
+					    <td>26/01/2016</td>
+					    <td>27/01/2016</td>
+					    <td>28/01/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>57</td>
+					    <td>26/01/2016</td>
+					    <td>27/01/2016</td>
+					    <td>28/01/2016</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Jan/16</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>38</td>
+					    <td>02/02/2016</td>
+					    <td>03/02/2016</td>
+					    <td>04/02/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>39</td>
+					    <td>09/02/2015</td>
+					    <td>10/02/2015</td>
+					    <td>11/02/2015</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>40</td>
+					    <td>16/02/2016</td>
+					    <td>17/02/2016</td>
+					    <td>18/02/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>41</td>
+					    <td>23/02/2016</td>
+					    <td>24/02/2016</td>
+					    <td>25/02/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>58</td>
+					    <td>23/02/2016</td>
+					    <td>24/02/2016</td>
+					    <td>25/02/2016</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Fev/16</th>
+                        <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>42</td>
+					    <td>01/03/2016</td>
+					    <td>02/03/2016</td>
+					    <td>03/03/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>43</td>
+					    <td>08/03/2016</td>
+					    <td>09/03/2016</td>
+					    <td>10/03/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>44</td>
+					    <td>15/03/2016</td>
+					    <td>16/03/2016</td>
+					    <td>17/03/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>45</td>
+					    <td>29/03/2016</td>
+					    <td>30/03/2016</td>
+					    <td>31/03/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>59</td>
+					    <td>29/03/2016</td>
+					    <td>30/03/2016</td>
+					    <td>31/03/2016</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Mar/16</th>
+                        <th></th>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>46</td>
+					    <td>05/04/2016</td>
+					    <td>06/04/2016</td>
+					    <td>07/04/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>47</td>
+					    <td>12/04/2016</td>
+					    <td>13/04/2016</td>
+					    <td>14/04/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>A</th>
+					    <td>48</td>
+					    <td>19/04/2016</td>
+					    <td>20/04/2016</td>
+					    <td>21/04/2016</td>
+					    <td>iPad</td>
+					    <td>iPad Air 16GB</td>
+					    <td>Apple</td>
+					    <td>R$ 1.600,00</td>
+					  </tr>
+					  <tr>
+					    <th>B</th>
+					    <td>60</td>
+					    <td>19/04/2016</td>
+					    <td>20/04/2016</td>
+					    <td>21/04/2016</td>
+					    <td>iPhone</td>
+					    <td>iPhone 6</td>
+					    <td>Apple</td>
+					    <td>R$ 2.880,00</td>
+					  </tr>
+					  <tr>
+					    <th colspan="8">Abr/16</th>
+					    <th></th>
+					  </tr>
+					  <tr>
+					    <th colspan="8">60 Pr&ecirc;mios</th>
+					    <th>R$ 111.360,00</th>
+					  </tr>
+					</table>
+					<p><strong>11 - Data(s)  da(s) extra&ccedil;&atilde;o(&otilde;es)</strong></p>
+					<p>A confer&ecirc;ncia  dos resultados do sorteio com o resultado da Loteria Federal realizados sempre &agrave;s quartas-feiras e s&aacute;bados e conseq&uuml;ente  apura&ccedil;&atilde;o dos ganhadores ser&aacute; realizada sempre no dia &uacute;til subseq&uuml;ente ao  sorteio da Loteria Federal, sendo assim, a primeira apura&ccedil;&atilde;o ocorrer&aacute; no dia  29/04/2015 e assim consecutivamente at&eacute; a &uacute;ltima apura&ccedil;&atilde;o que ocorrer&aacute; no dia  20/04/2016 (conforme item 10).</p>
+					<p>I - Importante: Os dias &uacute;teis  ser&atilde;o considerados respeitando o calend&aacute;rio oficial Federal, do Estado de S&atilde;o  Paulo e do Munic&iacute;pio de S&atilde;o Paulo.</p>
+					<p>II - Por exemplo, o pr&ecirc;mio com  data limite de participa&ccedil;&atilde;o no dia 05/05/2015 (ter&ccedil;a-feira) ter&aacute; a sua  confer&ecirc;ncia realizada no dia 06/05/2015 (quarta-feira).</p>
+					<p>III - Caso n&atilde;o haja extra&ccedil;&atilde;o da Loteria Federal na data prevista para o sorteio, valer&aacute; o sorteio imediatamente posterior.</p>	
+					<p>IV - A rela&ccedil;&atilde;o  de pr&ecirc;mios descrita no item 10 possui a data limite para concorrer e a data de  apura&ccedil;&atilde;o do ganhador.</p>
+					<p>V - A divulga&ccedil;&atilde;o dos resultados dos sorteios com os resultados da  Loteria Federal e conseq&uuml;ente apura&ccedil;&atilde;o dos ganhadores ser&aacute; realizada na filial  E-bit, &agrave; Av. Paulista,  287 &ndash; 16&ordm; Andar - S&atilde;o Paulo/SP, nas datas previstas para os sorteios com  livre acesso aos interessados. Vale ressaltar que, por quest&otilde;es de seguran&ccedil;a e  regras de condom&iacute;nio, os interessados dever&atilde;o identificar-se na portaria do  pr&eacute;dio e serem anunciados para visitarem a E-bit.</p>
+					<p>12 - A prescri&ccedil;&atilde;o do direito aos  pr&ecirc;mios ocorrer&aacute; num prazo de at&eacute; 180 dias ap&oacute;s a data de cada sorteio, de  acordo com o Decreto 70951/72 &ndash; Artigo 6o. Ap&oacute;s o qual o ganhador decair&aacute; de  seu direito de receb&ecirc;-lo, sendo o pr&ecirc;mio n&atilde;o reclamado recolhido ao Tesouro  Nacional, nos termos da lei. A reclama&ccedil;&atilde;o do pr&ecirc;mio poder&aacute; se dar por qualquer  meio de comunica&ccedil;&atilde;o, tais como telefone, via postal ou eletronicamente, por  e-mail.</p>
+					<p>12.1 - N&atilde;o havendo participante  habilitado a concorrer a algum dos pr&ecirc;mios em qualquer das apura&ccedil;&otilde;es, n&atilde;o  sendo, portanto o mesmo distribu&iacute;do, o valor correspondente a este ser&aacute;  recolhido ao Tesouro Nacional, como renda da Uni&atilde;o, na forma prevista na  legisla&ccedil;&atilde;o.</p>
+					<p>13 - Local da  exibi&ccedil;&atilde;o do(s) pr&ecirc;mio(s): Os pr&ecirc;mios ser&atilde;o exibidos na filial E-bit &agrave; Av.  Paulista, 287 &ndash; 16&ordm; Andar - S&atilde;o Paulo/SP e de acordo com o Decreto 70951/72 &ndash;  Artigo 15 &ndash; par&aacute;grafo 1&ordm;, a empresa comprovar&aacute; a propriedade dos pr&ecirc;mios at&eacute; 8 (oito) dias antes da data marcada para  o sorteio. A exibi&ccedil;&atilde;o dos pr&ecirc;mios &eacute; realizada na filial E-bit, em S&atilde;o Paulo, pois &eacute; onde  est&aacute; situada a &aacute;rea respons&aacute;vel pelos pr&ecirc;mios e apura&ccedil;&otilde;es. Vale ressaltar que,  por quest&otilde;es de seguran&ccedil;a e regras de condom&iacute;nio, os interessados dever&atilde;o  identificar-se na portaria do pr&eacute;dio e serem anunciados para visitarem a E-bit.</p>
+					<p>14 - Local da  entrega do(s) pr&ecirc;mio(s): A entrega dos pr&ecirc;mios ser&aacute; realizada na filial E-bit &agrave;  Av. Paulista, 287 &ndash; 16&ordm; Andar - S&atilde;o Paulo/SP ou ainda no domic&iacute;lio dos  contemplados at&eacute; 30 dias a contar da data de cada sorteio de acordo com o  Decreto 70951/72 &ndash; Artigo 5&ordm;.</p>
+					<p>14.1 - Os pr&ecirc;mios  distribu&iacute;dos dever&atilde;o ser livres e desembara&ccedil;ados de qualquer &ocirc;nus para os  contemplados.</p>
+					<p>15 - Os resultados  dos sorteios ser&atilde;o divulgados e os contemplados notificados pela empresa, no  dia da confer&ecirc;ncia dos ganhadores pela E-bit, atrav&eacute;s de um telefonema e/ou uma  mensagem no e-mail cadastrado do contemplado e a publica&ccedil;&atilde;o do nome do mesmo e  n&uacute;mero do cupom sorteado no site <a href="http://www.ebit.com.br/">www.ebit.com.br</a>.</p>
+					<p>16 - Os contemplados  estar&atilde;o sujeitos a ceder seu nome &agrave; empresa, de forma gratuita, com o prop&oacute;sito  de refor&ccedil;o da m&iacute;dia publicit&aacute;ria e divulga&ccedil;&atilde;o do evento pelo per&iacute;odo de at&eacute; 01  (um) ano ap&oacute;s cada sorteio.</p>
+					<p>17 - A E-bit regularmente autorizada nos termos da Lei n&ordm;. 5.768, de 1971, &eacute; deferida a forma&ccedil;&atilde;o de cadastro e/ou banco de dados com as informa&ccedil;&otilde;es coletadas em promo&ccedil;&otilde;es comerciais, sendo expressamente vedada a comercializa&ccedil;&atilde;o ou a cess&atilde;o, ainda que a t&iacute;tulo gratuito, desses dados.</p>
+					<p>18 - As d&uacute;vidas  e controv&eacute;rsias oriundas de reclama&ccedil;&otilde;es dos consumidores participantes da  promo&ccedil;&atilde;o dever&atilde;o ser preliminarmente, dirimidas pelos seus respectivos  organizadores e, posteriormente, submetidas &agrave; CAIXA/CEPCO. O PROCON local, bem  como os &oacute;rg&atilde;os conveniados, em cada jurisdi&ccedil;&atilde;o receber&atilde;o as reclama&ccedil;&otilde;es  devidamente fundamentadas, dos consumidores participantes.</p>
+					<p>19 - Fica, desde j&aacute;, eleito o foro central  da Comarca do participante para solu&ccedil;&atilde;o de quaisquer quest&otilde;es referentes ao  Regulamento da presente Promo&ccedil;&atilde;o.<strong> </strong></p>
+					<p><strong>20 &ndash; Certificado de Autoriza&ccedil;&atilde;o Caixa n&ordm;. 1-0513/2015  &ndash; Distribui&ccedil;&atilde;o Gratuita </strong></p>
+				</div>
+            </div>
+        </section>
+
+		
+<footer>
+	<h4>
+		<a href="/premio-ebit-2015">Vote na loja mais querida 
+		<span>Prêmio E-bit 2015 Melhores Lojas do E-commerce</span></a>
+	</h4>
+	<div class="holder">
+		<div class="box">
+			<h5>E-bit Você</h5>
+			<ul>
+				<li><a href="/avaliacao-lojas" >Reputação de Lojas</a></li>
+				<li><a href="/concorra-premios">Concorra a prêmios</a></li>
+				<li><a href="http://www.romerorodrigues.com/">Empreendedorismo e Poder ao Consumidor</a></li>
+			</ul>
+		</div>
+		<div class="box-2">
+			<h5>E-bit Empresa</h5>
+			<ul>
+				<li><a href="http://www.ebitempresa.com.br/quem.asp" target="_blank">E-bit em Detalhes</a></li>
+				<li><a href="http://www.ebitempresa.com.br/produtos-servicos.asp" target="_blank">Produtos e Serviços</a></li>
+				<li><a href="/cadastre-sua-loja" >Cadastre sua loja</a></li>
+				<li><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-e-bit/">Pesquisa Parametrizada</a></li>
+			</ul>
+		</div>
+		<div class="box-3">
+			<h5>E-bit Imprensa</h5>
+			<ul>
+				<li><a href="http://www.ebitempresa.com.br/e-bit-informa-2010.asp" target="_blank">E-bit Informa</a></li>
+				<li><a href="http://www.ebitempresa.com.br/web-shoppers.asp" target="_blank">Webshoppers</a></li>
+				<li><a href="http://www.ebitempresa.com.br/imprensa.asp" target="_blank">Imprensa</a></li>
+				<li><a href="http://www.ebitempresa.com.br/parceiros-ebit.asp" target="_blank">Parceiros</a></li>
+			</ul>
+		</div>
+		<div class="box-4">
+			<h5>E-bit Informações Institucionais</h5>
+			<div class="frame">
+				<ul>
+					<li><a href="/conheca-ebit">Conheça a E-bit</a></li>
+					<li><a href="/faq-duvidas-frequentes">Dúvidas Frequentes</a></li>
+					<li><a href="/contato">Fale Conosco</a></li>
+					<li><a href="/lojas-virtuais-irregulares">Lojas irregulares</a></li>
+				</ul>
+				<ul>
+					<li><a href="/dicas-compra-segura-internet">Dicas para comprar Online</a></li>
+					<li><a href="http://www.buscape.com.br/buscape-protege" target="_blank">Buscapé Protege</a></li>
+					<li><a href="/aspectos-legais">Aspectos Legais</a></li>
+					<li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="social">
+			<h5>siga-nos<br /> nossas redes sociais</h5>
+			<ul>
+				<li><a class="facebook" href="https://www.facebook.com/oficialebit" target="_blank">Viu, curtiu, compartilhou</a></li>
+				<li><a class="twitter" href="https://twitter.com/ebitoficial" target="_blank">Notícias atualizadas</a></li>
+				<li><a class="youtube" href="https://www.youtube.com/user/ebitImprensa" target="_blank">O canal da E-bit é aqui</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<section class="bottom-bar">
+	<strong class="logo"><a href="http://www.buscapecompany.com/" target="_blank">buscape company</a></strong>
+	<ul class="nav">
+		<li><a href="http://www.quebarato.com.br/" target="_blank">QueBarato!</a></li>
+		<li><a href="http://www.bondfaro.com.br/" target="_blank">Bondfaro</a></li>
+		<li><a href="http://www.ebit.com.br" target="_blank">E-bit</a></li>
+		<li><a href="http://www.cortacontas.com.br/" target="_blank">CortaContas</a></li>
+		<li><a href="http://www.saveme.com.br/" target="_blank">SaveMe</a></li>
+		<li><a href="http://www.confiometro.com.br/" target="_blank">Confiômetro</a></li>
+		<li><a href="http://www.unibuscapecompany.com/?utm_source=ebit&utm_medium=footer&utm_content=home&utm_campaign=unibuscapecompany" target="_blank">Universidade Buscapé</a></li>
+	</ul>
+</section>
+
+<!-- LOGIN ÚNICO -->
+
+
+
+<script type="text/javascript">
+			var HOST = location.host;
+			var PROTOCOL = location.protocol;
+
+		    SessionBarConfig = {
+		            url: 'https://sso.buscapecompany.com/portal/barra.js?',
+		            login: encodeURIComponent(PROTOCOL+'//'+HOST+'/loggedIn?redirect='+encodeURIComponent(PROTOCOL+'//'+HOST)),
+		            logout: encodeURIComponent(PROTOCOL+'//'+HOST+'/logout?redirect='+encodeURIComponent(PROTOCOL+'//'+HOST)),
+		            businessUnit: 'e-bit-consumidor',
+		            area: '10',
+		            sessionToken: ''
+		        };
+		    
+	        var sc = document.createElement('script');
+
+	        sc.type = 'text/javascript';
+
+	        sc.src = SessionBarConfig.url
+	            + 'redir=' + SessionBarConfig.login
+	            + '&logout=' + SessionBarConfig.logout
+	            + '&businessUnit=' + SessionBarConfig.businessUnit
+	            + '&area=' + SessionBarConfig.area
+	            + '&t=' + SessionBarConfig.sessionToken
+	            + '&c=BR&method=GET';
+	        
+	        document.body.appendChild(sc);
+</script>
+
+
+
+<!-- crazy egg -->
+<script type="text/javascript">
+	setTimeout(function() {
+		var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0006/4532.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;
+		a.type="text/javascript";
+		b.parentNode.insertBefore(a,b)
+		} , 
+	1);
+</script>
+	</section>
+	
+</body>
+</html>

@@ -1,0 +1,2004 @@
+title=Aluguel de carros em Florianópolis | Decolar.com
+url=http://www.decolar.com/carros/c-fln/aluguel-de-carros-em-florianopolis
+html=<!DOCTYPE html>
+<!--[if IE 9]>			<html class="ie9" xmlns:ng="http://angularjs.org" id="ng-app" ng-app="CarsResults" ng-strict-di>	<![endif]-->
+<!--[if gt IE 9]><!-->	<html ng-app="CarsResults" ng-strict-di>			<!--<![endif]-->
+
+<head>
+	<!-- ClickTale Top part -->
+	<script type="text/javascript">
+		var WRInitTime=(new Date()).getTime();
+	</script>
+	<!-- ClickTale end of Top part -->	
+	
+	<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1">
+
+<meta name="robots" content="index,follow" />
+<meta name="robots" content="noodp" />
+<meta name="robots" content="noydir" />
+<meta http-equiv="content-language" content="pt-BR" />
+	
+<meta name="description" content="Encontre aluguel de carros baratos em Florianópolis no Decolar.com. Garanta o melhor pre&ccedil;o em Florianópolis e reserve j&aacute;!" />
+
+<link rel="canonical" href="http://www.decolar.com/carros/c-fln/aluguel-de-carros-em-florianopolis" />
+
+<title>Aluguel de carros em Florianópolis | Decolar.com</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+	<script type="text/javascript">
+    	
+		var createCookieFromTrackerId = function(trackerId) {
+			var date = new Date;
+			date.setTime(date.getTime() + 31536000000); //one year un ms
+            var expires = "; expires=" + date.toGMTString();
+			document.cookie = "trackerid=" + trackerId + expires + "; path=/"
+		};
+		
+		var getTrackerIdFromCookie = function() {
+			var nameEQ = "trackerid=";
+			var ca = document.cookie.split(";");
+			for (var i = 0; i < ca.length; i++) {
+				var c = ca[i];
+				while (c.charAt(0) == " ") {
+					c = c.substring(1, c.length)
+				}
+				if (c.indexOf(nameEQ) == 0) {
+					return c.substring(nameEQ.length, c.length)
+				}
+			}
+			return null
+		};
+		
+		if(!getTrackerIdFromCookie()) {
+			createCookieFromTrackerId("37925bdb-564d-40f4-925b-db564d20f4e9");
+		}
+
+	</script>
+
+
+
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"VwMGWFdUGwEEXFhQAQQ="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script>
+
+<!-- Console.Log fix on ie5/ie7 -->
+<script type="text/javascript">
+	var debugging = true;
+	if (typeof console == "undefined") var console = { log: function() {} };
+	else if (!debugging || typeof console.log == "undefined") console.log = function() {};
+</script>
+
+
+
+
+
+
+
+
+
+
+<!--searching-animation-css-->
+
+<link type="text/css" rel="stylesheet" href="http://br.staticontent.com/nibbler-versioned/1.5.35/Nibbler/Searching-animation/css/despegar/pkg/searching-animation.css"/>
+
+<!--searching-animation-css END-->
+
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/nevo/resources/css-versioned/1.1.16/common/reset.css">
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/sresources/css-versioned/2.3.4/pkg/login-modal.css">
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/sresources/css-versioned/2.3.4/pkg/network.css">
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/help-static/1.6.16/help-modal.css">
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/nevo/resources/css-versioned/1.1.16/pkg/header.css">
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/me/subscriptions-ui/staticui/release/1.16.05/footer/css/mailOffers.eva.css">
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/me/subscriptions-ui/staticui/release/1.16.05/footer/css/mailOffers.css">
+
+	<link type="text/css" rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/nevo/resources/css-versioned/1.1.16/pkg/footer.css">
+
+
+<link type="text/css" rel="stylesheet" href="http://br.staticontent.com/cars-gui-static/css-versioned/20.40.6/out/common.css">
+
+    <link type="text/css" rel="stylesheet" href="http://br.staticontent.com/cars-gui-static/css-versioned/20.40.6/out/results.css" />
+
+
+<link type="text/css" rel="stylesheet" href="http://br.staticontent.com/cars-gui-static/css-versioned/20.40.6/out/landing.css" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--socialmedia-css-->
+
+	<link type="text/css" rel="stylesheet" href="http://br.staticontent.com/nibbler-versioned/1.5.35/Nibbler/Social/css/despegar/pkg/socialmedia.css"/>
+
+<!--socialmedia-css END-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<meta property="og:title" content="Florianópolis, encontre o melhor carro para conhecer a cidade em Decolar.com"/>
+	<meta property="og:type" content="article"/>
+	<meta property="og:url" content="http://www.decolar.com/carros/c-fln/aluguel-de-carros-em-florianopolis"/>
+	<meta property="og:image" content=" http://br.staticontent.com/nibbler-versioned/1.5.35/Nibbler/Social/img/pt/autos1.jpg "/>
+	<meta property="og:site_name" content="decolar.com"/>
+	<meta property="og:description" content="Para percorrer Florianópolis, nada melhor que alugar um carro. Garantia do melhor preço, apenas no Decolar.com!"/>
+	<meta property="fb:admins" content="100002558370345, 100003502565006" />
+
+
+
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/jslibs/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/jslibs/jquery.tmpl-beta1.0.0.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/cars-gui-static/js-versioned/20.40.6/common/angular-1.4.7/angular.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/cars-gui-static/js-versioned/20.40.6/common/angular-1.4.7/angular-cookies.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/cars-gui-static/js-versioned/20.40.6/common/angular-1.4.7/angular-touch.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/cars-gui-static/js-versioned/20.40.6/common/angular-1.4.7/angular-sanitize.min.js"></script>
+
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/jslibs/amplify-1.1.0.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/jslibs/require-2.1.8.min.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/jslibs/mcreqjs-1.1.0.min.js"></script>
+
+
+<link rel="stylesheet" href="http://br.staticontent.com/sbox/static/1.33.3/boxes.module/css/main.css"/>
+<link rel="stylesheet" href="//a248.e.akamai.net/css.despegar.com/autocomplete/resources/css-versioned/1.1.0/autocomplete.css" type="text/css"/>
+<script type="text/javascript">mcReqJs.register({
+    "id":"sbox",
+    "baseUrl":"http://br.staticontent.com/sbox/static/1.33.3",
+    "paths":{
+        "jquery-private":"http://br.staticontent.com/jslibs/jquery-1.11.1.min",
+        "underscore-private": "http://br.staticontent.com/jslibs/underscore-1.7.0.min",
+        "backbone.epoxy": "http://br.staticontent.com/jslibs/backbone.epoxy-1.3.2.min",
+        "backbone-private": "http://br.staticontent.com/jslibs/backbone-1.1.2.min",
+        "localstorage": "http://br.staticontent.com/jslibs/backbone.localStorage-1.1.14.min",
+        "q": "http://br.staticontent.com/jslibs/q-1.0.0",
+        "text": "http://br.staticontent.com/jslibs/text-2.0.12",
+        "noConflictLoader":'common.module/js/noConflictLoader',
+        "jquery-noconflict":'common.module/js/jquery-noconflict',
+        "underscore-noconflict":'common.module/js/underscore-noconflict',
+        "backbone-noconflict":'common.module/js/backbone-noconflict',
+        "geo-autocomplete":'//a248.e.akamai.net/js.despegar.com/autocomplete/resources/js/1.1.0/autocomplete.js?locale=pt-BR'
+    },
+
+    "shim":{
+        "geo-autocomplete":{
+        "exports": "AutocompleteDespegarComponent"
+        }
+    },
+
+    "config": {
+        "text":{
+            "useXhr":function(){return true;}
+        }
+    },
+    "waitSeconds":60,
+    "map": {
+        '*': {
+            'jquery': 'jquery-noconflict',
+            'underscore': 'underscore-noconflict',
+            'backbone': 'backbone-noconflict'
+        },
+        "jquery-noconflict": {"jquery": "jquery"},
+        "underscore-noconflict": {"underscore": "underscore"},
+        "backbone-noconflict": {"backbone": "backbone"}
+    }
+});</script>
+
+<script type="text/javascript">
+    var searchBoxData = {
+        "origin_description": "Florianópolis",
+        "origin_type": "c",
+        "origin_code": "FLN",
+        "destination_description": "Florianópolis",
+        "destination_type": "c",
+        "destination_code": "FLN"
+    };
+</script>
+<script type="text/javascript">
+    var searchBoxInitScript = "&lt;script type=&quot;text/javascript&quot;&gt;(function(){    if(!window.__sbox_time_tracking__preload_queue__) window.__sbox_time_tracking__preload_queue__ = [];    window.__sbox_time_tracking__preload_queue__.push({&quot;action&quot;:&quot;start&quot;,&quot;box&quot;:&quot;bundle&quot;,&quot;variable&quot;:&quot;requirejs-dependencies-loading&quot;,&quot;startTime&quot;:(new Date()).getTime()});    var mainLoader = function(){        mcReqJs.load({            &quot;projectId&quot;:&quot;sbox&quot;,            &quot;modules&quot;: [&quot;boxes/core.module/js/app&quot;,&quot;sbox.handlers&quot;,&quot;common.module/js/deepExtend&quot;],            &quot;callback&quot;: function(searchbox, searchBoxHandlers,deepExtend) {                window.__sbox_time_tracking__preload_queue__.push({&quot;action&quot;:&quot;end&quot;,&quot;box&quot;:&quot;bundle&quot;,&quot;variable&quot;:&quot;requirejs-dependencies-loading&quot;,&quot;endTime&quot;:(new Date()).getTime()});                window.__sbox_time_tracking__preload_queue__.push({&quot;action&quot;:&quot;send&quot;,&quot;box&quot;:&quot;bundle&quot;,&quot;variable&quot;:&quot;requirejs-dependencies-loading&quot;});                if(!(searchBoxHandlers instanceof Array)) searchBoxHandlers = [searchBoxHandlers];                for(var searchBoxHandlerIndex = 0; searchBoxHandlerIndex &lt; searchBoxHandlers.length; searchBoxHandlerIndex ++){                    var boxesConfig = {&quot;cars&quot;:{&quot;config&quot;:{&quot;container&quot;:&quot;.sbox-cars-container&quot;,&quot;timein_default&quot;:660,&quot;timeout_default&quot;:660,&quot;time_interval_minutes&quot;:30,&quot;currentDate&quot;:&quot;2016-01-25&quot;,&quot;firstAvailableDay&quot;:&quot;2016-01-25&quot;,&quot;maxReservationDays&quot;:30,&quot;minReservationDays&quot;:0,&quot;maxAvailableDays&quot;:366,&quot;extendMaxAvailableDays&quot;:false,&quot;category&quot;:&quot;&quot;,&quot;hosts&quot;:{&quot;es&quot;:&quot;//www.decolar.com&quot;,&quot;en&quot;:&quot;//www.decolar.com&quot;,&quot;pt&quot;:&quot;//www.decolar.com&quot;},&quot;params&quot;:{&quot;country&quot;:&quot;BR&quot;,&quot;language&quot;:&quot;pt&quot;,&quot;channel&quot;:&quot;site&quot;,&quot;site&quot;:&quot;BR&quot;}},&quot;init&quot;:{}}};                    for(var box in boxesConfig) {                        if(                            searchBoxHandlers === undefined ||                            searchBoxHandlers[searchBoxHandlerIndex] === undefined ||                            searchBoxHandlers[searchBoxHandlerIndex].boxes === undefined ||                            searchBoxHandlers[searchBoxHandlerIndex].boxes[box] === undefined                        ) delete boxesConfig[box];                    }                    var searchBoxHandler = deepExtend(                        {                            &quot;boxes&quot;: boxesConfig,                            &quot;config&quot;:{}                        }, searchBoxHandlers[searchBoxHandlerIndex]                    );                    searchBoxHandler.sboxVersion = &quot;1.33.3&quot;;                    searchbox(searchBoxHandler).done(                        function(searchBoxHandler){                            return function(searchBox){                                if(typeof searchBoxHandler.callback === &quot;function&quot;) searchBoxHandler.callback(null,searchBox);                            }                        }(searchBoxHandler),                        function(error) {                            if(typeof searchBoxHandler.callback === &quot;function&quot;) searchBoxHandler.callback(error);                        }                    );                }            },            &quot;config&quot;:{&quot;boxes/cars.module/js/main&quot;:{&quot;container&quot;:&quot;.sbox-cars-container&quot;,&quot;timein_default&quot;:660,&quot;timeout_default&quot;:660,&quot;time_interval_minutes&quot;:30,&quot;currentDate&quot;:&quot;2016-01-25&quot;,&quot;firstAvailableDay&quot;:&quot;2016-01-25&quot;,&quot;maxReservationDays&quot;:30,&quot;minReservationDays&quot;:0,&quot;maxAvailableDays&quot;:366,&quot;extendMaxAvailableDays&quot;:false,&quot;category&quot;:&quot;&quot;,&quot;hosts&quot;:{&quot;es&quot;:&quot;//www.decolar.com&quot;,&quot;en&quot;:&quot;//www.decolar.com&quot;,&quot;pt&quot;:&quot;//www.decolar.com&quot;},&quot;params&quot;:{&quot;country&quot;:&quot;BR&quot;,&quot;language&quot;:&quot;pt&quot;,&quot;channel&quot;:&quot;site&quot;,&quot;site&quot;:&quot;BR&quot;}}}        });    };    mcReqJs.load({        &quot;projectId&quot;:&quot;sbox&quot;,        &quot;modules&quot;:&quot;boxes.package/js/cars&quot;,        &quot;callback&quot;:function() {            mainLoader();        }    });})()&lt;/script&gt;";
+</script>
+
+<script>
+	var abtestCars = "9_L_B";
+</script>
+
+
+	
+	<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/js-versioned/1.55.0/FrameworkJS/base.js"></script>
+</head>
+<body ng-controller="MainController as mainCtrl" class="landing results despegar ux-common-responsive ux-common-responsive-large BR">
+
+	<div id="header" class="header" ng-hide="mainCtrl.smallFiltersVisibility || mainCtrl.mobileSorterVisible">
+		<!-- Google Tag Manager --> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-TC2WJC" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-TC2WJC');</script> <!-- End Google Tag Manager --> <!-- Google Tag Manager --> <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-KSCT7Q" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript> <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0], j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src= '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f); })(window,document,'script','dataLayer','GTM-KSCT7Q');</script> <!-- End Google Tag Manager --> <div class="nevo-header"><!--">--> <div class="nevo-header-main"> <div class="nevo-header-inner"> <a class="nevo-header-logo" title="Decolar.com" href="http://www.decolar.com"> <img class="nevo--despegar-svg" src="//a248.e.akamai.net/media.despegar.com/nevo/resources/images/header/decolar.svg" alt="Decolar.com" /> <!--[if IE 8]> <img src="//a248.e.akamai.net/media.despegar.com/nevo/resources/images/header/decolar.gif" alt="Decolar.com" /> <![endif]--> <span class="nevo-header-icon-self-service"></span> </a><ul class="nevo-header-user-menu"> <li id="nevo-header-notlogged" class="nevo-header-user-menu-item nevo--selfservice-button" style="display: none;"> <a> <span class="nevo-header-user-menu-icon"> <span class="nevo-header-icon-person"></span> </span> <span class="nevo-header-user-menu-text nevo-header-user-menu-name"> <span class="nevo-header-user-menu-text-name">Iniciar Sess&atilde;o</span> <span class="nevo-header-user-menu-selfservice">Minha Conta</span> </span> </a> </li><li class="nevo-header-user-menu-item nevo--selfservice-logged-button" style="display: none;"> <a> <span class="nevo-header-user-menu-text nevo-header-user-menu-name"> <span class="nevo-header-user-menu-text-name"></span> <span class="nevo-header-user-menu-selfservice">Minha Conta</span> </span> <span id="nevo-header-avatar" class="nevo-header-user-menu-icon nevo-header-user-menu-icon-avatar" style="display:none"> <span class="nevo-header-user-menu-icon-notifications" style="display:none"></span> </span> <span id="nevo-header-genericavatar" class="nevo-header-user-menu-icon"> <span class="nevo-header-icon-person"></span> <span class="nevo-header-user-menu-icon-notifications"></span> </span> </a> <div class="nevo-header-popup nevo-header-popup-selfservice-logged"> <div class="nevo-header-popup-inner"> <a class="nevo-header-popup-close-mobile nevo-header-icon-remove"></a> <div class="nevo-header-popup-title nevo--title-only-mobile"> <h3>Minha Conta</h3> </div> <div class="nevo-header-popup-selfservice-menu"> <ul> <li> <a href="https://www.decolar.com/me/account">Meus dados</a> </li> <li> <a href="https://www.decolar.com/me/bookings">Minhas reservas</a> </li> <li> <a href="https://www.decolar.com/me/wishlist">Favoritos</a> </li> <li> <a href="https://www.decolar.com/me/reviews">Opiniões</a> </li> <li> <a href="https://www.decolar.com/me/subscriptions-ui/list">E-mails e alertas</a> </li> <li> <a href="https://www.decolar.com/me/inbox"><span class="nevo-header-user-menu-icon-notifications"></span>Notificações</a> </li> <li> <a href="https://www.decolar.com/me/trips">Organizador de viagens</a> </li> <li> <a href="https://www.decolar.com/me/preferences">Personalizar</a> </li> <li class="nevo-header-popup-selfservice-logout"> <a>Sair</a> </li> <li class="nevo-header-popup-selfservice-phone"> <p>Brasil</p> <p><strong>0800 721 6527</strong></p> </li> </ul> </div> </div> </div> </li><li class="nevo-header-user-menu-item nevo--reservation-button" style="display: none;"> <a> <span class="nevo-header-user-menu-icon"> <span class="nevo-header-icon-reservation"></span> </span> <span class="nevo-header-user-menu-text">Minha Reserva</span> </a> <div class="nevo-header-popup nevo-header-popup-reservations"> <div class="nevo-header-popup-inner"> <a class="nevo-header-popup-close-mobile nevo-header-icon-remove"></a> <div class="nevo-header-popup-title"> <h3>Você tem uma reserva?</h3> </div> <div class="nevo-header-popup-body"> <div class="nevo-header-message nevo-header-message-error nevo-header-message-small"> <div class="nevo-header-message-figure nevo-header-message-figure-info"> <span class="nevo-header-icon-remove"></span> </div> <div class="nevo-header-message-content"> <p class="nevo-header-message-font-small nevo-error nevo-error-number-valueMissing">Digite o número de solicitação da compra</p> <p class="nevo-header-message-font-small nevo-error nevo-error-number-patternMismatch">Digite apenas números</p> <p class="nevo-header-message-font-small nevo-error nevo-error-email-valueMissing">Digite o e-mail utilizado na compra</p> <p class="nevo-header-message-font-small nevo-error nevo-error-email-typeMismatch">O e-mail não é válido</p> <p class="nevo-header-message-font-small nevo-error nevo-error-40001">A reserva foi encontrada, mas não é possível gerenciar o pós-venda através do Minha Conta. Por favor, entre em contato com um de nossos atendentes telefônicos</p> <p class="nevo-header-message-font-small nevo-error nevo-error-40102">O número de solicitação de compra ou e-mail são inexistentes. Verifique o número e o e-mail de compra e tente novamente.</p> <p class="nevo-header-message-font-small nevo-error nevo-error-40103">O número de solicitação de compra ou e-mail são inexistentes. Verifique o número e o e-mail de compra e tente novamente. </p> <p class="nevo-header-message-font-small nevo-error nevo-error-500">Erro inesperado. Não pode ser concluído o acesso a Minha Reserva. Tente mais tarde.</p> </div> </div> <div class="nevo-header-grid-row"> <div class="nevo-header-grid-col6 nevo-header-grid-col12-small"> <form class="nevo-header-login" novalidate onsubmit="return false;"> <label class="nevo-header-login-input-icon"> <input class="nevo-header-input nevo-header-input-booking" type="text" id="ux--reservation-booking" name="number" placeholder="N° de solicitação de compra"> <span class="nevo-header-icon-file"></span> </label> <label class="nevo-header-login-input-icon"> <input class="nevo-header-input nevo-header-input-email" type="email" id="ux--reservation-email" name="email" placeholder="Digite o e-mail da compra"> <span class="nevo-header-icon-msg"></span> </label> <ul class="nevo-header-login-actions"> <li> <button type= "submit" class="nevo-header-button primary">Entrar</button> </li> </ul> </form> <div class="nevo-header-split"><span>ou</span></div> <div class="nevo-header-social"> <!--Facebook--> <a class="social-comp-common-button social-comp-common-button-large social-facebook social-network-button reservation_login"> <span class="social-comp-common-icon-facebook"></span> <span class="text">Entre com Facebook</span> </a> <span class="social-disclaimer">Isso não permite que o aplicativo publique no Facebook.</span> <!--Google--> <a class="social-comp-common-button social-comp-common-button-large social-gmail social-google social-network-button reservation_login" data-gapiattached="true"> <span class="social-comp-common-icon-google"><span class="path1"></span><span class="path2"></span><span class="path3"></span><span class="path4"></span><span class="path5"></span></span> <span class="text">Entre com Google+</span> </a> </div> <p class="nevo-header-login-disclaimer">Já tem uma conta? <a>Entre aqui</a></p> </div> <div class="nevo-header-grid-col6 nevo-header-grid-col12-small nevo-header-grid-first-small"> <div class="nevo-header-benefits"> <span class="nevo-header-benefits-title">No Minha Reserva você pode:</span> <ul> <li><span class="nevo-header-icon-thick"></span>Consultar o estado de sua reserva</li> <li><span class="nevo-header-icon-thick"></span>Solicitar alterações</li> <li><span class="nevo-header-icon-thick"></span>Solicitar cancelamentos</li> <li><span class="nevo-header-icon-thick"></span>Reenviar vouchers e bilhetes</li> <li><span class="nevo-header-icon-thick"></span>Fazer o download do seu recibo</li> </ul> </div> </div> </div> </div> </div> </div> </li> <li class="nevo-header-user-menu-item nevo--activities-button"> <a> <span class="nevo-header-user-menu-icon"> <span class="nevo-header-icon nevo-header-icon-favourites"></span> </span> <span class="nevo-header-user-menu-text">Minha Atividade</span> </a> <div class="nevo-header-popup nevo-header-popup-activities"> <div class="nevo-header-popup-inner"> <a class="nevo-header-popup-close-mobile nevo-header-icon nevo-header-icon-remove"></a> <div class="nevo-header-popup-title"> <h3>Minha atividade recente</h3> </div> <ul class="nevo-header-popup-submenu"> <li class="nevo-header-popup-favourites-button nevo--active"> <a>Favoritos</a> </li> <li class="nevo-header-popup-history-button"> <a>Histórico</a> </li> </ul> <div class="nevo-header-popup-activities-list-container nevo--favourites-active"> <div class="nevo-header-popup-activities-list nevo-header-popup-favourites"> <div class="nevo-header-popup-activities-empty"> <div class="nevo-header-popup-activities-icon nevo--activity-icon-favourites"> <span class="nevo-header-icon nevo-header-icon-favourites"></span> </div> <p>Faça suas pesquisas e salve os voos, hotéis e pacotes mais interessantes clicando no coração</p> <a href="http://www.decolar.com/me/wishlist" class="nevo-header-button primary">Ver meus favoritos</a> </div> <div class="nevo-header-popup-history-list"> <ul class="nevo-activities-list"></ul> <div class="nevo-header-popup-activities-footer"> <a href="https://www.decolar.com/me/wishlist" class="nevo-header-popup-activities-see-all"> <span class="nevo-header-icon nevo-header-icon-see"></span> Ver mais </a> <a class="nevo-header-popup-activities-delete-all"> <span class="nevo-header-icon nevo-header-icon-remove"></span> Deletar tudo (<span class="action-counter nevo-activities-count"></span>) </a> </div> </div> </div> <div class="nevo-header-popup-activities-list nevo-header-popup-history"> <div class="nevo-header-popup-history-list"> <ul class="nevo-activities-list"></ul> <div class="nevo-header-popup-activities-footer"> <a class="nevo-header-popup-activities-see-all"> <span class="nevo-header-icon nevo-header-icon-see"></span> Ver todo </a> <a class="nevo-header-popup-activities-delete-all"> <span class="nevo-header-icon nevo-header-icon-remove"></span> Deletar tudo (<span class="action-counter"></span>) </a> </div> </div> <div class="nevo-header-popup-activities-empty"> <div class="nevo-header-popup-activities-icon nevo--activity-icon-history"> <span class="nevo-header-icon nevo-header-icon-time"></span> </div> <p>Veja aqui o histórico das pesquisas realizadas</p> </div> </div> </div> </div> </div> </li> <li class="nevo-header-user-menu-item nevo--faq-button"> <a class="help-modal-faq-icon" href="http://www.decolar.com/help/" id="help-modal-faq-icon" target="_blank"> <span class="nibbler-header-user-menu-icon nevo-header-user-menu-icon"> <span class="help-faq"></span> </span> </a> </li> </ul> <div title="Melhor preço garantido" class="nevo-header-bestprice"> <span> <img class="nevo--bestprice-svg" src="//a248.e.akamai.net/media.despegar.com/nevo/resources/images/header/best-price-pt.svg" alt="Melhor preço garantido"> <!--[if IE 8]> <img src="//a248.e.akamai.net/media.despegar.com/nevo/resources/images/header/best-price-pt.png" alt="Melhor preço garantido"> <![endif]--> </span> <div class="nevo-header-popup nevo-header-popup-bestprice nevo--popup-left"> <div class="nevo-header-popup-inner"> <a class="nevo-header-popup-close-mobile nevo-common-icon-remove"></a> <div class="nevo-header-popup-title"> <h3>Melhor preço garantido</h3> </div> <div class="nevo-header-popup-content"> <p>O Decolar.com ajuda seus clientes a economizar tempo e dinheiro. Por isso, garantimos que através do nosso site você consiga as melhores tarifas disponíveis no mercado. Caso você encontre o mesmo produto mais barato em outro lugar, em até 24h da sua reserva, o Decolar.com devolve a diferença.</p> <a href="http://comercial.decolar.com/br/betterprice/" target="_blank">Melhor preço garantido</a> </div> </div> </div> </div> </div> </div> <div class="nevo-header-navigation"> <div class="nevo-header-inner"> <ul class="nevo-header-navigation-menu"> <li data-code="HOTELS" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/hoteis"> <span class="nevo-header-icon-hotels"></span><span class="nevo-header-navigation-menu-text">Hotéis</span> </a> </li> <li data-code="FLIGHTS" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/passagens-aereas"> <span class="nevo-header-icon-flights"></span><span class="nevo-header-navigation-menu-text">Passagens</span> </a> </li> <li data-code="PACKAGES" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/pacotes"> <span class="nevo-header-icon-packages"></span><span class="nevo-header-navigation-menu-text">Pacotes</span> </a> </li> <li data-code="DS" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/atracoes-turisticas"> <span class="nevo-header-icon-activities"></span><span class="nevo-header-navigation-menu-text">Tickets e Transfers</span> </a> </li> <li data-code="CARS" class="nevo-header-navigation-menu-item nevo-js-header-menu-item nevo--active"> <a href="http://www.decolar.com/carros"> <span class="nevo-header-icon-cars"></span><span class="nevo-header-navigation-menu-text">Carros</span> </a> </li> <li data-code="CRUISES" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/cruzeiros"> <span class="nevo-header-icon-cruises"></span><span class="nevo-header-navigation-menu-text">Cruzeiros</span> </a> </li> <li data-code="VR" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/alugueis-para-temporadas"> <span class="nevo-header-icon-home"></span><span class="nevo-header-navigation-menu-text">Aluguéis</span> </a> </li> <li data-code="IN" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/seguros-viagem"> <span class="nevo-header-icon-assistance"></span><span class="nevo-header-navigation-menu-text">Seguros</span> </a> </li> <li data-code="BUSES" class="nevo-header-navigation-menu-item nevo-js-header-menu-item"> <a href="http://www.decolar.com/passagens-de-onibus"> <span class="nevo-header-icon-bus"></span><span class="nevo-header-navigation-menu-text">Ônibus</span> </a> </li> </ul> </div> <a class="nevo-header-navigation-next"><span>&rsaquo;</span></a> </div> </div>
+	</div>
+
+	
+
+	<div id="mainContainer" class="ux-common-main">
+	
+		<div class="ux-common-grid-row">
+	<div class="ux-common-grid-col9 ux-common-grid-col12-medium ux-common-grid-col12-small ux-common-results-header">
+		<div class="ux-common-results-title">
+			<h1 id="title-module" d-popup-container="resultsTitle" ng-attr-class="down move-right">
+				Aluguel de Carros em Florianópolis
+				
+					<a class="best-price" d-popup-open>com melhor pre&ccedil;o garantido</a>
+					<div ng-cloak d-popup d-popup-header="Decolar.com: Ag&ecirc;ncia N&ordm;1 no pre&ccedil;o">
+	                    
+						<p class="popupBestServiceText">Trabalhamos todos os dias para ajud&aacute;-lo a economizar tempo e dinheiro em suas compras de viagem. Portanto, n&oacute;s garantimos que voc&ecirc; vai encontrar em Despegar.com as melhores tarifas dispon&iacute;veis no mercado. No caso de voc&ecirc; encontrar uma tarifa menor para o mesmo produto dentro de 24 horas ap&oacute;s a sua reserva, n&oacute;s devolvemos a diferen&ccedil;a.</p><p><a target="_blank" href="http://comercial.decolar.com/br/betterprice/?l=pt">Melhor pre&ccedil;o garantido</a></p>
+	                </div>
+				
+			</h1>
+		</div>
+	</div>
+	
+	<div id="social-module" class="ux-common-grid-col3 ux-common-grid-col0-medium ux-common-grid-col0-small ux-common-results-socialmedia">
+		
+
+
+
+<!--socialmedia-html-->
+
+<ul class="socialMedia">	
+   <li class="fb">
+      <a target="_blank" href="http://www.facebook.com/sharer/sharer.php?u=http://www.decolar.com/carros/c-fln/aluguel-de-carros-em-florianopolis"><span class="picture"></span></a>
+   </li>	
+	<li class="tw">
+	  <a target="_blank" href="https://twitter.com/intent/tweet?source=despegar.com&amp;text=%20Encontre%20o%20melhor%20veículo%20para%20percorrer%20Florianópolis%20no%20%23Decolar&amp;url=http://www.decolar.com/carros/c-fln/aluguel-de-carros-em-florianopolis"><span class="picture"></span></a>
+	</li> 
+	<!--[if !lt IE 8]><![IGNORE[--><!--[IGNORE[]]-->
+		<li class="gp">
+				<div class="g-plusone" data-size="medium" data-href="http://www.decolar.com/carros/c-fln/aluguel-de-carros-em-florianopolis"></div>
+		</li>
+	 <!--<![endif]-->
+</ul>
+
+<script type="text/javascript">
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<!--socialmedia-html END-->
+
+	</div>
+</div>
+		
+		
+
+
+
+		<div class="ux-common-grid-row">
+
+			<!-- Modulos de la Izquierda -->
+			<div id="left-content" class="ux-common-grid-col3 ux-common-grid-col12-medium ux-common-grid-col12-small ux-common-results-aside">
+			
+				<!-- Caja de Búsqueda -->
+				
+					<div class="ux-search">
+						<div class="ux-searchbar" ng-click="toggleSearchBox()">
+	<!-- box | destinos -->
+	<div class="ux-column-places ux-noresult">
+		<div>
+			<span class="ux-common-icon-marker"></span>
+			
+				<span>FLN</span>
+            
+		</div>
+		
+	</div>
+	<!-- box | Fechas -->
+    
+	<!-- boton -->
+	<div class="ux-searchbar-button"></div>
+</div>
+						<div id="search-box-module" class="ux-searchbox" data-sbox-re-search>
+							<div style="min-width:235px;" class="sbox-cars-container"><div class="sbox-ui sbox-cars-main sbox-ui-cars"><h2 class="sbox-ui-title">Aluguel de carros</h2><div class="sbox-ui-form-row"><div class="sbox-ui-common-grid-row"><div class="sbox-ui-common-grid-col6 sbox-ui-common-grid-col12-small"><div class="sbox-ui-form-title"><label data-for="sbox-cars-origin" class="sbox-ui-label sbox-label-pickup">Onde deseja retirá-lo?</label></div><div><input type="text" placeholder="Informe uma cidade ou aeroporto" class="sbox-cars-origin sbox-ui-input sbox-ui-event-show-autocomplete sbox-destination"/></div></div><div class="sbox-ui-common-grid-col6 sbox-ui-common-grid-col12-small sbox-ui-common-grid-first-small"><label data-for="sbox-cars-destination" class="sbox-ui-checkbox sbox-ui-date-action"><input type="checkbox" class="sbox-cars-destination sbox-devolution-check"/>Devolvê-lo em outro destino</label></div></div><p class="sbox-ui-error-msg sbox-destination-error">Por favor, insira o lugar de retirada do veículo.</p></div><div class="sbox-ui-cars-devolution-city"><div class="sbox-ui-form-row"><div class="sbox-ui-common-grid-row"><div class="sbox-ui-common-grid-col6 sbox-ui-common-grid-col12-small sbox-ui-common-grid-first-small"><div class="sbox-ui-form-title"><label data-for="sbox-cars-destination-selected" class="sbox-ui-label sbox-label-return">Onde deseja devolvê-lo?</label></div><input type="text" placeholder="Informe uma cidade ou aeroporto" class="sbox-cars-destination-selected sbox-ui-input sbox-devolution"/><p class="sbox-ui-error-msg sbox-devolution-error">Por favor, insira o lugar de devolução do veículo.</p></div></div></div></div><div class="sbox-ui-form-row"><div class="sbox-ui-form-title"><label class="sbox-ui-label sbox-label-start-date">Data de retirada</label></div><div class="sbox-ui-common-grid-row"><div class="sbox-ui-common-grid-col3 sbox-ui-common-grid-col6-small sbox-ui-common-grid-first-small sbox-checkin-date-picker"><div class="sbox-ui-input-icon sbox-checkin-cars"><input id="cars-start-date" type="text" placeholder="Início" readonly="" class="sbox-ui-input sbox-checkin"/><span class="sbox-icon-calendar"></span></div></div><div class="sbox-ui-common-grid-col3 sbox-ui-common-grid-col6-small"><div class="sbox-ui-form-select hour-picker"><select id="cars-start-hour" class="sbox-ui-select sbox-timein"></select></div></div></div><p class="sbox-ui-error-msg sbox-checkin-error">Por favor, insira uma data de início.</p></div><div class="sbox-ui-form-row"><div class="sbox-ui-form-title"><label class="sbox-ui-label sbox-label-end-date">Data de devolução</label></div><div class="sbox-ui-common-grid-row"><div class="sbox-ui-common-grid-col3 sbox-ui-common-grid-col6-small sbox-ui-common-grid-first-small sbox-checkout-date-picker"><div class="sbox-ui-input-icon sbox-checkout-cars"><input id="cars-end-date" type="text" placeholder="Término" readonly="" class="sbox-ui-input sbox-checkout"/><span class="sbox-icon-calendar"></span></div></div><div class="sbox-ui-common-grid-col3 sbox-ui-common-grid-col6-small"><div class="sbox-ui-form-select hour-picker"><select id="cars-end-hour" class="sbox-ui-select sbox-timeout"></select></div></div></div><p class="sbox-ui-error-msg sbox-checkout-error">Por favor, insira uma data de término.</p><p class="sbox-ui-error-msg sbox-dateproblem-error">O término deve ser pelo menos uma hora depois do início.</p></div><div class="sbox-ui-form-row"><div class="sbox-ui-common-grid-row"><div class="sbox-ui-common-grid-col6 sbox-ui-common-grid-col12-small"><div class="sbox-ui-form-title"><label data-for="sbox-cars-categories" class="sbox-ui-label sbox-label-categories">Categoria</label></div><div class="sbox-ui-form-select"><select class="sbox-categories sbox-cars-categories sbox-ui-select"><option value="">Todas as categorias</option><option value="compact">Carro Compacto</option><option value="economic">Carro Econômico</option><option value="standard">Carro Grande</option><option value="intermediate">Carro Médio</option><option value="sport">Esportivo e Conversível</option><option value="luxury">Luxo</option><option value="pickup">Pickup</option><option value="big-pickups">Pickup Grande</option><option value="fullsize">SUV</option><option value="big-fullsize">SUV Grande</option><option value="minivan">Van e Minivan</option></select></div></div></div></div><div class="sbox-ui-actions"><a class="sbox-ui-button secondary sbox-ui-search large">Procurar</a><span class="sbox-ui-motto">O melhor preço garantido</span></div></div></div>
+							<div ng-if="searchBoxData" inject-searchbox-preinit></div>
+							<div ng-if="searchBoxData" inject-searchbox-init></div>
+						</div>
+					</div>
+				
+				
+				<div class="ux-common-grid-col0-medium ux-common-grid-col0-small">
+					<!-- Mapa -->
+					<div ng-if="initialize.postResults" id="map-module">
+						
+	 
+		<div class="ux-common-map" ng-cloak>
+			<div class="ux-common-map" ng-controller="OpenMapController">
+				
+				<img border="0" ng-src="http://maps.google.com/maps/api/staticmap?key=AIzaSyDecXGJMFmFR408KqEyk3zdHY8s5ctPCfM&center=-27.597,-48.5496&zoom=10&size=512x512&maptype=roadmap{{getMarkers()}}&sensor=false&language=pt-BR" width="100%">
+				<div style="cursor:pointer" id="ux-common-map-zoom-button" class="ux-common-map-zoom ux-common-results-icon-big-map" d-modal-open="categories-map" ng-click="showMap('map-container', {&quot;latitude&quot;	: 	-27.597,&quot;longitude&quot;	:	-48.5496});trackOpenMap('general');">
+					<span></span>
+					Ampliar o mapa
+				</div>
+			</div>
+		</div>
+ 
+						
+	
+	<div class="map-text-search" ng-controller="TextMapController" ng-init="mapTextData = null; showError = false" ng-mouseover="onFilter = true" ng-mouseleave="onFilter = false"  ng-cloak>
+		
+		<div class="ux-cars-search-content" id = "place-search" ng-cloak >
+			<h3>Refine sua pesquisa</h3>
+			<p>Pesquisar locadoras perto de um Endereço, ponto de refer&ecirc;ncia ou um nome de empresa</p>
+			<input placeholder='Insira um local'  type="text" id = "textMap" value ="" class="textMap" ng-model="locationText" ng-focus="showError = true; initializeText({&quot;latitude&quot;	: 	-27.597,&quot;longitude&quot;	:	-48.5496})"  ng-blur="blurInput(onFilter); showError = false">
+		</div>
+		<div id="warning-no-result-text-map" class="com-autocomplete com-autocomplete-maps msg-blank msg-blank-maps" ng-if="showError == true && locationText.length > 3" style="display:block;">
+			 <ul> </ul>
+			 <p class="msg-blank">
+				 N&atilde;o foram encontradas cidades que contenham:<span>{{locationText}}</span>
+			 </p>
+		 </div>
+	</div>
+ 	
+
+					</div>
+				</div>
+				
+				<div ng-init="mainCtrl.mobileSorterVisible = false; mainCtrl.smallFiltersVisibility = false;">
+					<div class="ux-common-grid-col12">
+						
+<div ng-if="initialize.filters" id="ux-cars-filters" ng-controller="FiltersController" ng-cloak
+     class="cars-filters ux-common-filters ux-cars-filters" ng-class='{ "active" : mainCtrl.smallFiltersVisibility }' >
+    <h3>Refine sua pesquisa<span class="ux-common-icon-remove" ng-click="mainCtrl.smallFiltersVisibility=!mainCtrl.smallFiltersVisibility;"></span></h3>
+
+	<!-- Filtro de pasajeros -->
+    
+<div ng-if="false && filters.passengers.length>1" ng-class='{ "expanded" : !passengersVisibility, "ux-common-filter-active" : !noPassengersSelected()}'  class="ux-common-filter-section">
+
+    <div class="ux-common-filter-header" ng-click="passengersVisibility = !passengersVisibility ">
+        <h4>Quantidade de pessoas</h4>
+        <span class="ux-common-filter-toggle"></span>
+    </div>
+
+    <div class="ux-common-filter-body" ng-class='{ "filters-hide" : passengersVisibility }'>
+        <div class="filter-passenger" >
+            <select ng-model="selectedPassengerFilterIndex" >
+            	<option value="" disabled selected>Selecione uma op&ccedil;&atilde;o</option>
+            	<option value="all">Todas as op&ccedil;&otilde;es</option>
+            	<option value="{{$index}}" ng-repeat="passenger in filters.passengers | filter:filterIsActive">{{passenger.name}}</option>
+            </select>
+            <a class="ux-button secondary small" ng-click="passengersChanged(selectedPassengerFilterIndex);">Aplicar</a>
+        </div>
+    </div>
+</div>
+
+
+	<!-- Filtro de categorias -->
+    
+<div ng-if="filters.categories.length>1" ng-class='{ "expanded" : !categoriesVisibility, "ux-common-filter-active" : !noCategorySelected() }'  class="ux-common-filter-section ux-common-filter-categories ux-cars-filter-categories">
+
+    <div class="ux-common-filter-header" ng-click="categoriesVisibility = !categoriesVisibility">
+        <h4>Categorias</h4>
+        <span class="ux-common-filter-toggle"></span>
+    </div>
+
+    <div class="ux-common-filter-body" ng-class='{ "filters-hide" : !categoriesVisibility }'>
+        <div class="ux-common-filter-options" ng-class="{'expanded': visibleCategoriesAmount > DEFAULT_AMOUNT_OF_VISIBLE_FILTRES }">
+            <ul>
+                <li>
+                    <label for="categories_all" ng-click="noCategoryChanged()" ng-class='{"ux-common-filter-disabled": noCategorySelected()}' class="ux-common-filter-all ux-common-filter-selected">
+                        <input id="categories_all" type="checkbox"  ng-checked="noCategorySelected()" ng-disabled="noCategorySelected()" ng-click="showAllCategories();categoriesChanged();closeAllPopups()" value="all" name="categories_all">
+                        <span class="ux-common-filter-name">Todas as categorias</span>
+                    </label>
+                </li>
+                <li ng-repeat="category in filters.categories | limitTo: visibleCategoriesAmount " ng-assign="{{total = getCarsCount(category)}}">
+                    <label for="category_{{category.name}}" ng-class='{"ux-common-filter-disabled": total == 0 }'>
+                        <input ng-disabled="total == 0" id="category_{{category.name}}" type="checkbox" ng-model="category.isSelected" ng-change="categoriesChanged(category);closeAllPopups()" value="{{category.name}}" name="category_{{category.name}}" >
+                        <span class="ux-common-filter-name">{{category.name}}</span>
+                    </label>
+                </li>
+            </ul>
+	        <span class="ux-common-filter-expand" ng-show="filters.categories.length > DEFAULT_AMOUNT_OF_VISIBLE_FILTRES">
+				Mostrando&nbsp;{{visibleCategoriesAmount}} de {{filters.categories.length}} categorias
+				<a ng-show="visibleCategoriesAmount == DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visibleCategoriesAmount = filters.categories.length" >
+					Ver tudo
+				</a>
+				<a ng-show="visibleCategoriesAmount != DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visibleCategoriesAmount = DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" >
+					Esconder
+				</a>
+	   	    </span>
+        </div>
+    </div>
+</div>
+
+	<!-- Filtro de Rentadoras -->
+    
+<div class="ux-common-filter-section ux-cars-filter-agencies" ng-class='{ "expanded" : !carProvidersVisibility, "ux-common-filter-active" : !noCarProviderSelected() }' >
+    <div class="ux-common-filter-header" ng-click="carProvidersVisibility = !carProvidersVisibility">
+        <h4>Locadoras</h4>
+        <span class="ux-common-filter-toggle"></span>
+    </div>
+    <div class="ux-common-filter-body" ng-class='{ "filters-hide" : !carProvidersVisibility }'>
+        <ul class="ux-common-filter-options" ng-class="{'expanded': visibleProvidersAmount >  DEFAULT_AMOUNT_OF_VISIBLE_FILTRES }">
+            <li>
+                <label for="carProvider_all" ng-click="noProviderChanged()" class="ux-common-filter-option ux-common-filter-all" ng-class='{ "ux-common-filter-disabled" : noCarProviderSelected() }'>
+                    <input type="checkbox" id="carProvider_all" ng-checked="noCarProviderSelected()" ng-disabled="noCarProviderSelected()" ng-click="showAllCarProviders();carProvidersChanged();closeAllPopups()" value="all" name="carProvider_all" />
+                    <span class="ux-common-filter-name">Todas as locadoras</span>
+                </label>
+            </li>
+            <li ng-repeat="carProvider in showedProviders = (filters.carProviders | filter:filterCarProvidersFilters) | limitTo: visibleProvidersAmount " ng-assign="{{total = getCarsCount(carProvider)}}" class="ux-common-filter-option">
+                <label for="carProvider_{{carProvider.code}}_{{carProvider.name}}">
+                    <input id="carProvider_{{carProvider.code}}_{{carProvider.name}}"  ng-model="carProvider.isSelected" ng-change="carProvidersChanged(carProvider);closeAllPopups()" type="checkbox" value="{{carProvider.name}}" name="carProvider_{{carProvider.name}}" />
+                    <img class="ux-cars-common-agency-icon agency-external-logo" ng-src="{{carProvider.logoUrl}}" title="{{carProvider.name}}" alt="{{carProvider.name}}">
+                </label>
+            </li>
+	        <span class="ux-common-filter-expand" ng-show="showedProviders.length > DEFAULT_AMOUNT_OF_VISIBLE_FILTRES">
+				Mostrando&nbsp;{{visibleProvidersAmount}} de {{showedProviders.length}} locadoras
+				<a ng-show="visibleProvidersAmount == DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visibleProvidersAmount = showedProviders.length" >
+					Ver tudo
+				</a>
+				<a ng-show="visibleProvidersAmount != DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visibleProvidersAmount = DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" >
+					Esconder
+				</a>
+	        </span>
+        </ul>
+    </div>
+</div>
+
+    <!-- Filtro tipo de pago -->
+    
+<div ng-if="filters.paymentMethods.length>1" ng-class='{ "expanded" : !paymentMethodsVisibility, "ux-common-filter-active" : !noPaymentMethodSelected() }'  class="ux-common-filter-section ux-cars-filter-payments">
+
+    <div class="ux-common-filter-header" ng-click="paymentMethodsVisibility = !paymentMethodsVisibility">
+        <h4>Formas de pagamento</h4>
+        <span class="ux-common-filter-toggle"></span>
+    </div>
+
+    <div class="ux-common-filter-body" ng-class='{ "filters-hide" : !paymentMethodsVisibility }'>
+        <div class="ux-common-filter-options">
+            <ul>
+				<li>
+					<label for="paymentMethod_all" class="ux-common-filter-all" ng-class='{ "ux-common-filter-disabled ux-common-filter-selected" : noPaymentMethodSelected() }'>
+						<input  type="checkbox" name="all" id="paymentMethod_all" value="all"  ng-checked="noPaymentMethodSelected()" ng-disabled="noPaymentMethodSelected()" ng-click="noPaymentMethodsChanged()" >
+						<span>Todas as formas</span>
+					</label>
+				</li>
+                <li id="pm_{{paymentMethod.code}}" ng-repeat="paymentMethod in filters.paymentMethods" ng-assign="{{total = getCarsCount(paymentMethod)}}">
+                    <label for="paymentMethod_{{paymentMethod.code}}" ng-class='{"ux-common-filter-disabled": total == 0, "ux-common-filter-selected" : paymentMethod.isSelected }'>
+                        <input ng-disabled="total == 0" id="paymentMethod_{{paymentMethod.code}}" type="checkbox" ng-model="paymentMethod.isSelected" ng-change="paymentMethodsChanged(paymentMethod);" >
+                        <span>{{paymentMethod.name}}</span>
+                    </label>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Filtro Caracteristicas del vehiculo -->
+    
+<div ng-if="filters.airConditioners.length>1 || filters.transmissions.length>1" ng-class='{ "expanded" : !carFeaturesVisibility, "ux-common-filter-active" : !noCarFeatureSelected() }'  class="ux-common-filter-section ux-cars-filter-car-features">
+
+    <div class="ux-common-filter-header" ng-click="carFeaturesVisibility = !carFeaturesVisibility">
+        <h4>Caracter&iacute;sticas do carro</h4>
+        <span class="ux-common-filter-toggle"></span>
+    </div>
+
+    <div class="ux-common-filter-body" ng-class='{ "filters-hide" : !carFeaturesVisibility }'>
+        <div class="ux-common-filter-options">
+            <ul>
+				<li>
+					<label for="carFeature_all" class="ux-common-filter-all" ng-class='{ "ux-common-filter-disabled ux-common-filter-selected" : noCarFeatureSelected() }'>
+						<input  type="checkbox" name="all" id="carFeature_all" value="all"  ng-checked="noCarFeatureSelected()" ng-disabled="noCarFeatureSelected()" ng-click="noCarFeaturesChanged()" >
+						<span class="ux-common-filter-name">Todos as caracter&iacute;sticas</span>
+					</label>
+				</li>
+                <li ng-if="filters.airConditioners.length>1" ng-repeat="airConditioner in filters.airConditioners" ng-assign="{{total = getCarsCount(airConditioner)}}">
+                    <label for="airConditioner_{{airConditioner.code}}" ng-class='{"ux-common-filter-disabled": total == 0, "ux-common-filter-selected" : airConditioner.isSelected }'>
+                        <input ng-disabled="total == 0" id="airConditioner_{{airConditioner.code}}" type="checkbox" ng-model="airConditioner.isSelected" ng-change="airConditionersChanged(airConditioner);" >
+                        <span>{{airConditioner.name}}</span>
+                    </label>
+                </li>
+                <li ng-if="filters.transmissions.length>1" ng-repeat="transmission in filters.transmissions" ng-assign="{{total = getCarsCount(transmission)}}">
+                    <label for="transmission_{{transmission.code}}" ng-class='{"ux-common-filter-disabled": total == 0, "ux-common-filter-selected" : transmission.isSelected }'>
+                        <input ng-disabled="total == 0" id="transmission_{{transmission.code}}" type="checkbox" ng-model="transmission.isSelected" ng-change="transmissionsChanged(transmission);" >
+                        <span>{{transmission.name}}</span>
+                    </label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Filtro de PickUps -->
+    
+<div>
+	<div ng-if='isCity' ng-init="airportsExpanded=true; zonesExpanded=true;" class="ux-common-filter-section ux-cars-filter-places" ng-class='{ "expanded" : !pickUpVisibility, "ux-common-filter-active" : !noPickUpsSelected() }' >
+		<div class="ux-common-filter-header" ng-click="pickUpVisibility = !pickUpVisibility">
+			<h4>Locais de retirada</h4>
+			<span class="ux-common-filter-toggle"></span>
+		</div>
+		<div class="ux-common-filter-body" ng-class='{ "filters-hide" : !pickUpVisibility }'>
+			<ul class="ux-common-filter-options">
+				<li>
+					<label for="pickUp_all" class="ux-common-filter-all ux-common-filter-option" ng-class='{ "ux-common-filter-disabled ux-common-filter-selected" : noPickUpsSelected() }'>
+						<input  type="checkbox" name="all" id="pickUp_all" value="all"  ng-checked="noPickUpsSelected()" ng-disabled="noPickUpsSelected()" ng-click="noPickUpsChanged()" >
+						<span>Todos os locais de retirada</span>
+						<span class="ux-common-filter-total">{{getHeaderOfficesCount(['airports', 'zones'])}}</span>
+					</label>
+				</li>
+				<li id="filter-airports" ng-show="filters.airports.length > 0" class="ux-common-filter-tree" ng-class="{'expanded': visiblePickUpsFiltresAmount >  DEFAULT_AMOUNT_OF_VISIBLE_FILTRES }" >
+					<label class="ux-common-filter-option ux-common-filter-parent" ng-assign="{{totalHeaderAirport = getHeaderOfficesCount(['airports'])}}" ng-class='{ "ux-common-filter-disabled" : totalHeaderAirport == 0, "ux-common-filter-selected" : allSelected("airports") }'>
+						<input type="checkbox" ng-disabled="totalHeaderAirport == 0" ng-checked="allSelected('airports')" ng-click="allAirportsClicked($event)" >
+						<span class="ux-common-filter-name">Todos os aeroportos</span>
+						<span class="ux-common-filter-total" ng-if="totalHeaderAirport > 0">{{totalHeaderAirport}}</span>
+					</label>
+					<ul class="ux-common-filter-suboptions">
+						<li ng-repeat='airport in filters.airports track by $index' ng-show="airportsExpanded" ng-assign="{{total = getCarsCount(airport); officesCount = getOfficesCount(airport)}}"  class="ux-common-filter-suboption" ng-class="{'hide': $index > 3}">
+							<label for="airport_{{airport.code}}" ng-class='{ "ux-common-filter-disabled" : total == 0, "ux-common-filter-selected" : airport.isSelected }'>
+								<input id="airport_{{airport.code}}" ng-disabled="total == 0" type="checkbox" ng-model="airport.isSelected" ng-change="airportsChanged();">
+								<span class="ux-common-filter-name">{{airport.name}}</span>
+								<span class="ux-common-filter-total" ng-if="officesCount > 0">{{officesCount}}</span>
+							</label>
+						</li>
+					</ul>
+			        <span class="ux-common-filter-expand" ng-show="filters.airports.length > DEFAULT_AMOUNT_OF_VISIBLE_FILTRES">
+						Mostrando&nbsp;{{visiblePickUpsFiltresAmount}} de {{filters.airports.length}} aeroportos
+						<a ng-show="visiblePickUpsFiltresAmount  == DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visiblePickUpsFiltresAmount  = filters.airports.length" >
+							Ver tudo
+						</a>
+						<a ng-show="visiblePickUpsFiltresAmount  != DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visiblePickUpsFiltresAmount  = DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" >
+							Esconder
+						</a>
+		    	    </span>
+				</li>
+				<li id="filter-zones" ng-show="filters.zones.length > 1 || (filters.zones.length == 1 && !filters.zones[0].unclassified)" class="ux-common-filter-tree" ng-class="{'expanded': visiblePickUpsFiltresAmount >  DEFAULT_AMOUNT_OF_VISIBLE_FILTRES }" >
+					<label class="ux-common-filter-option ux-common-filter-parent" ng-assign="{{totalHeaderZones = getHeaderOfficesCount(['zones'])}}" ng-class='{ "ux-common-filter-disabled" : totalHeaderZones == 0, "ux-common-filter-selected" : allSelected("zones") }'>
+						<input type="checkbox" ng-disabled="totalHeaderZones == 0" ng-checked="allSelected('zones')" ng-click="allZonesClicked($event)">
+						<span class="ux-common-filter-name">Todos os bairros</span>
+						<span class="ux-common-filter-total" ng-if="totalHeaderZones > 0">{{totalHeaderZones}}</span>
+					</label>
+					<ul class="ux-common-filter-suboptions">
+						<li ng-repeat='zone in filters.zones track by $index' ng-show="zonesExpanded" ng-assign="{{total = getCarsCount(zone); officesCount = getOfficesCount(zone)}}" class="ux-common-filter-suboption" ng-class="{'hide': $index > 3}">
+							<label for="zone_{{zone.code}}" ng-class='{ "ux-common-filter-disabled" : total == 0, "ux-common-filter-selected" : zone.isSelected }'>
+								<input id="zone_{{zone.code}}" ng-disabled="total == 0" type="checkbox" ng-model="zone.isSelected" ng-change="zonesChanged();">
+								<span class="ux-common-filter-name">{{zone.name}}</span>
+								<span class="ux-common-filter-total" ng-if="officesCount  > 0">{{officesCount}}</span>
+							</label>
+						</li>
+					</ul>
+			        <span class="ux-common-filter-expand" ng-show="filters.zones.length > DEFAULT_AMOUNT_OF_VISIBLE_FILTRES">
+						Mostrando&nbsp;{{visiblePickUpsFiltresAmount}} de {{filters.zones.length}} zonas
+						<a ng-show="visiblePickUpsFiltresAmount == DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visiblePickUpsFiltresAmount = filters.zones.length" >
+							Ver tudo
+						</a>
+						<a ng-show="visiblePickUpsFiltresAmount != DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" ng-click="visiblePickUpsFiltresAmount = DEFAULT_AMOUNT_OF_VISIBLE_FILTRES" >
+							Esconder
+						</a>
+		    	    </span>
+				</li>
+				<li id="filter-zones" ng-if="filters.zones.length == 1 && filters.zones[0].unclassified" ng-repeat='zone in filters.zones' ng-assign="{{total = getCarsCount(zone)}}" class="ux-common-filter-tree">
+					<label for="zone_{{zone.code}}" ng-class='{ "ux-common-filter-disabled" : total == 0, "ux-common-filter-selected" : zone.isSelected }'>
+						<input id="zone_{{zone.code}}" ng-disabled="total == 0" type="checkbox" ng-model="zone.isSelected" ng-change="zonesChanged();">
+						<span class="ux-common-filter-name">{{zone.name}}</span>
+						<span class="ux-common-filter-total" ng-assign="{{officesCount = getOfficesCount(airport)}}" ng-if="officesCount  > 0">{{officesCount}}</span>
+					</label>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+</div>
+
+<div ng-cloak ng-show="initialize.results" ng-if="initialize.search && !initialize.filters && !initialize.filtersError" class="cars-filters ux-common-filters ux-cars-filters ux-common-filters-hide common-cars-loading-parent">
+	<div id="page-loader" class="common-cars-loading">
+		<div class="common-cars-loading-overlay" ></div>
+		<img class="common-cars-loading-spinner" src="http://br.staticontent.com/cars-gui-static/img-versioned/20.40.6/common/spinner-white-bg.gif">
+	</div>
+	<h3>Filtrar por</h3>
+	
+	<div class="ux-common-filter-section ux-common-filter-close">
+		<div class="ux-common-filter-header" ng-click="pickUpVisibility = !pickUpVisibility">
+			<h4>Categorias</h4>
+			<span class="ux-common-filter-toggle"></span>
+		</div>
+	</div>
+	<div class="ux-common-filter-section ux-common-filter-close">
+		<div class="ux-common-filter-header" ng-click="pickUpVisibility = !pickUpVisibility">
+			<h4>Locadoras</h4>
+			<span class="ux-common-filter-toggle"></span>
+		</div>
+	</div>
+	<div class="ux-common-filter-section ux-common-filter-close">
+		<div class="ux-common-filter-header" ng-click="pickUpVisibility = !pickUpVisibility">
+			<h4>Formas de pagamento</h4>
+			<span class="ux-common-filter-toggle"></span>
+		</div>
+	</div>
+	<div class="ux-common-filter-section ux-common-filter-close">
+		<div class="ux-common-filter-header" ng-click="pickUpVisibility = !pickUpVisibility">
+			<h4>Caracter&iacute;sticas do carro</h4>
+			<span class="ux-common-filter-toggle"></span>
+		</div>
+	</div>
+	
+	<div class="ux-common-filter-section ux-common-filter-close">
+		<div class="ux-common-filter-header" ng-click="pickUpVisibility = !pickUpVisibility">
+			<h4>Locais de retirada</h4>
+			<span class="ux-common-filter-toggle"></span>
+		</div>
+	</div>
+	
+</div>
+
+					</div>
+					
+	<div class="cars-sorter-mobile-only"  ng-class='{"active": mainCtrl.mobileSorterVisible}' ng-controller="ResultsOptionsController">
+		<h3>Ordenar&nbsp;por :<span class="ux-common-icon-remove" ng-click="mainCtrl.mobileSorterVisible=false"></span></h3>
+		<label ng-repeat="option in orderData.options track by $index" class="cars-sorter-option" for="results-option-{{$index}}">
+			<input name="sorter" type="radio" ng-model="orderData.selected" ng-value="option" id="results-option-{{$index}}" ng-change="orderChanged()">
+			<span ng-bind-html="option.name"></span>
+		</label>
+	</div>
+	<div class="cars-sorter-mobile-only" ng-class='{"active": mainCtrl.mobileCurrencyVisible}'>
+        <h3>Moeda :<span class="ux-common-icon-remove" ng-click="mainCtrl.mobileCurrencyVisible=false"></span></h3>
+        <div>
+            <label class="cars-sorter-option" ng-repeat="currency in currencies.available track by currency.code" for="currency-option-{{currency.code}}">
+                <input id="currency-option-{{currency.code}}" name="sorter-currency" type="radio" ng-model="currencies.selected" ng-value="currency" ng-change="onCurrencyChange()">
+				{{currency.description}}
+            </label>
+        </div>
+	</div>
+	<div ng-cloak ng-show="initialize.results && !mainCtrl.mobileSorterVisible && !mainCtrl.smallFiltersVisibility" class="cars-filters-mobile-only">
+        <div class="cars-filters-mobile-only-container cars-filters-mobile-only-options">
+            <a id="sorter-order" ng-click="mainCtrl.mobileSorterVisible=true;">Ordenar</a>
+            <a>
+                <span ng-show="initialize.filters" ng-click="mainCtrl.smallFiltersVisibility=true;">Filtrar</span>
+            </a>
+            <a id="sorter-currency" ng-click="mainCtrl.mobileCurrencyVisible=true;" ng-show="currencies.available.length > 1">Moeda</a>
+        </div>
+        
+	</div>
+
+
+				</div>
+				<div ng-if="initialize.results" class="ux-common-grid-col12 ux-common-grid-col0-medium ux-common-grid-col0-small">
+					
+<div ng-cloak class="ux-common-grid-col0-medium ux-common-grid-col0-small" ng-controller="SocialController" ng-init="getFriends('37925bdb-564d-40f4-925b-db564d20f4e9','FLN')">
+	<div ng-if="friends.length > 0 && initialize.results == true" class="ux-common-facebookfriends ux-common-facebookfriends-small">
+		<div class="ux-common-facebookfriends-header">
+			<div class="ux-common-facebookfriends-header-icon">
+				<span class="ux-common-icon-person"></span>
+			</div>
+			<div class="ux-common-facebookfriends-header-content" ng-init="quantityText='e {0} amigos'">
+				<p>
+					<span>{{friends[0].name}}</span>
+					<span ng-if="friends.length>1">, {{friends[1].name}}</span> 
+					<span ng-if="friends.length>2">{{quantityText.replace("{0}", friends.length - 2)}}</span>
+					<span ng-if="friends.length>1">visitaram a</span>
+					<span ng-if="friends.length==1">visitou</span> 
+					<b>Florianópolis</b>
+				</p>
+			
+			</div>
+		</div>
+		<div class="ux-common-facebookfriends-body">
+			<ul>
+				<li ng-repeat="friend in friends">
+					<img class="friendImage" height="32" ng-src="{{friend.picture}}" alt="{{friend.name}}" title="{{friend.name}}" onerror="this.className = this.className + ' badLink';this.src='http://br.staticontent.com/cars-gui-static/img-versioned/20.40.6/common/default-social.png'" >
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+				</div>
+				
+				<div id="left-content-bottom" class="ux-common-grid-col12" ng-cloak ng-if="!initialize.preloader">				
+					
+					<!---->
+					
+					<div id="seo-boxes" class="row-col ux-common-results ux-common-grid-col0-medium ux-common-grid-col0-small">
+						
+                            <div id="seo-texts" ng-cloak ng-include="'/cars/services/seo-texts/2261/?iataType=city&iataCode=FLN&categoryName=&providerName='"></div>
+						
+						
+	<div class="ux-common-results-box">
+		<h3 class="ux-common-results-title">Pontua&ccedil;&atilde;o geral para Carros em Florianópolis</h3>
+		<div class="ux-common-score-container">
+			
+			<span class="ux-common-score">Muito bom</span>
+			<div class="ux-common-score-detail">
+				<span>79 coment&aacute;rios</span>
+				<span class="ux-common-score-bar-container"><span class="ux-common-score-bar" style="width: 80.0%"></span></span>
+				<span class="ux-common-score-rate">8.0 / 10 pontos</span>
+			</div>
+		</div>
+	</div>
+
+						
+	<div class="ux-common-results-box">
+		<h2 class="ux-common-results-title">Opini&otilde;es de viajantes</h2>
+		<div class="common-comment-box">
+	
+		<div class="ux-common-comment">
+	
+			<div class="ux-common-comment-description">
+				<p class="ux-common-comment-type">
+					Recomendo!!
+					
+					
+				</p>
+			</div>
+		
+			<div class="ux-common-comment-profile">	
+					
+					<span class="ux-common-comment-profile-icon ux-common-icon-person"></span>
+				
+				
+				<div class="ux-common-comment-profile-info">
+					<span class="ux-common-comment-name"> Vicente Padrenosso</span><img class="ux-common-comment-flag flagIcon flag-br icon">
+					<p>Comprou: carro em Florianópolis - 04 jan 2016</p>
+				</div>
+			</div>
+	
+		</div>
+	
+		<div class="ux-common-comment">
+	
+			<div class="ux-common-comment-description">
+				<p class="ux-common-comment-type">
+					Facil
+					
+					
+				</p>
+			</div>
+		
+			<div class="ux-common-comment-profile">	
+					
+					<span class="ux-common-comment-profile-icon ux-common-icon-person"></span>
+				
+				
+				<div class="ux-common-comment-profile-info">
+					<span class="ux-common-comment-name"> Ricardo Lanzetta Haack</span><img class="ux-common-comment-flag flagIcon flag-br icon">
+					<p>Comprou: carro em Florianópolis - 10 jan 2016</p>
+				</div>
+			</div>
+	
+		</div>
+	
+</div>
+	</div>
+
+					</div>
+				</div>
+			</div>
+
+			<!-- Modulos de Contenido -->
+			<div id="right-content" class="ux-common-grid-col9 ux-common-grid-first-small ux-common-grid-col12-medium ux-common-grid-col12-small ux-common-grid-first-medium ux-common-results-main" ng-hide="mainCtrl.smallFiltersVisibility || mainCtrl.mobileSorterVisible">
+				
+				<div id="loading" class="row-col loader-container" ng-show="initialize.preloader">
+					
+
+
+
+
+
+
+
+
+
+
+
+<!--searching-animation-html-->
+
+<div class="loader" style="height:230px;">
+
+	<div class="nibbler-col-left">
+		<div class="nibbler-fade-container">
+			<h1 class="nibbler-iterated-text">
+				<span class="nibbler-iterated-text-description"></span>
+				<span class="nibbler-susp-points"></span>
+				<span class="nibbler-space-points">&nbsp;&nbsp;&nbsp;</span>
+			</h1>
+			<div class="nibbler-best-price-container">
+				<h2>Melhor preço encontrado!</h2>
+					<span class="commonSprite nibbler-cuca-best-price littleBestPricelogo_pt"></span>
+			</div>
+		</div>
+
+		<div class="nibbler-second-text">
+			<div class="nibbler-second-text-image"><img alt="Second Text Image"></div>
+			<span class="nibbler-second-text-description"></span>
+		</div>
+
+	</div>
+
+	<div class="nibbler-col-right">
+	</div>
+
+
+</div>
+
+<!--searching-animation-html END-->
+
+
+
+
+
+
+
+
+
+
+
+<!--searching-animation-js-->
+
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/nibbler-versioned/1.5.35/pkg/searching-animation.js"></script>
+
+<!--searching-animation-js END-->
+
+
+<script type="text/javascript" charset="utf-8">
+	// Inicializador de animacion
+	
+	
+	var searchAnimationMessages = {
+		iteratedText:	 		"Procurando carros",
+		auxLoaderText:	 		"Junte-se &agrave; nova forma de alugar o seu carro!<br/>Escolha entre mais de 30 empresas em 30.000 locais!"
+	};
+	
+	/* searching-animation-init */
+
+var options = null; 
+
+var optionSearching={
+	jsonInit		: {
+						iteratedText:[{msg:'Procurando melhor preço'}],
+						secondText:{msg:'Aproveite esta nova forma de comprar a sua viagem!</br>12 milhões de pessoas já compraram e aprovaram!'},
+						delay:900
+					},
+	customOptions	: { iteratedText:[{msg: searchAnimationMessages.iteratedText}], secondText:{msg: searchAnimationMessages.auxLoaderText} }
+	
+}
+
+
+var ChargeOffers= new Nibbler.SearchingAnimation.js.searchingAnimation(optionSearching);
+ChargeOffers.init();
+/* searching-animation-init END */
+</script>
+				</div>
+                
+				<div ng-cloak ng-if="initialize.results">
+					
+
+				</div>
+				
+				<div ng-if="!initialize.preloader">
+					
+<div ng-cloak class="row-col" ng-controller="MessagesController">
+	<div class="errors" ng-if="messages.visible">
+		
+		<div ng-repeat="message in messages.warnings">
+		
+			<div id="{{message.id}}" ng-cloak ng-if="message.visibility" class="ux-common-message ux-common-message-warning">
+	
+				<div class="ux-common-message-figure">
+					<span class="ux-common-icon-calendar"></span>
+				</div>
+			
+				<div class="ux-common-message-content">
+					<p ng-bind-html="message.text" class="ux-common-message-font-large"></p>
+					<p ng-bind-html="message.help" class="ux-common-message-font-medium"></p>
+				</div>
+	
+			</div>
+		</div>
+		
+		<div id="error-no-results" ng-cloak ng-if="messages.noResults.visibility" class="ux-common-message ux-common-message-warning">
+
+			<div class="ux-common-message-figure">
+				<span class="ux-common-icon-calendar"></span>
+			</div>
+		
+			<div class="ux-common-message-content">
+				<p class="ux-common-message-font-large">N&atilde;o h&aacute; nenhuma oferta</p>
+				<p class="ux-common-message-font-medium">Lamentamos, mas o destino escolhido tem essa data ou hora para nenhuma disponibilidade. Se preferir, voc&ecirc; pode realizar uma nova pesquisa.</p>
+			</div>
+
+		</div>
+		
+		<div ng-if="messages.resultErrors.visibility" class="ux-common-message ux-common-message-error">
+
+			<div class="ux-common-message-figure ux-common-message-figure-info">
+				<span class="ux-common-icon-remove"></span>
+			</div>
+		
+			<div class="ux-common-message-content">
+				<p class="ux-common-message-font-large">Desculpe-nos pelo inconveniente, mas a p&aacute;gina que voc&ecirc; deseja acessar n&acirc;o se encontra dispon&iacute;vel</p>
+				<p class="ux-common-message-font-medium">Estamos trabalhando para melhorar sua experiencia de compra.</p>
+			</div>
+		
+		</div>
+			
+	</div>	
+</div>
+
+				</div>
+				
+				
+
+<div class="sorter cars-white-label-grid-sorter" ng-cloak ng-if="initialize.postResults" >
+	<div ng-controller="ResultsOptionsController">
+		<div class="sorter-content ux-common-grid-col0-medium">
+	        <label for="select-order" class="select-label">
+	            Ordenar&nbsp;por
+	        </label>
+	        <div>
+				<select id="order-combo-results" ng-model="orderData.selected" ng-options="htmlDecode(order.name) for order in orderData.options" ng-change="orderChanged();closeAllPopups()" >
+				</select>
+	        </div>
+		</div>
+		<div class="sorter-content" ng-if="currencies.available.length > 1">
+			<label for="select-currency" class="select-label">Moeda</label>
+	        <div>
+				<select id="currency-combo-results" ng-model="currencies.selected" ng-options="currency.description for currency in currencies.available track by currency.code" ng-change="onCurrencyChange()">
+				</select>
+			</div>
+		</div>
+	
+		
+	</div>
+</div>
+<div class="sorter cars-white-label-grid-sorter" ng-cloak ng-if="initialize.results && !initialize.postResults"></div>
+
+
+				
+				<div>
+					<div ng-if="initialize.search" class="ng-cloak" id="clusters">
+	
+<div id="cluster-list" ng-if="initialize.results" class="ux-cars-results-clusters-container" ng-controller="CategoryListController as categoryListCtrl">
+    <div class='ux-cars-results-clusters ' ng-repeat="item in results.items | filter:filterClusters" ng-class="{ 'discount' : selectedCar(item).prices[currencies.selected.code].grossAmount }">
+        <div sticky stick-in-resolution="small" sticky-bottom-padding="84" class="ux-cars-results-header" ng-click='categoryListCtrl.showLoading = item; buyFromCluster(item, currencies.selected.code);'>
+        <div class="ux-cars-results-car-category">
+            <div class="ux-cars-results-header-image" bindonce>
+                <img bo-src="item.category.picture" bo-title="item.category.name" bo-alt="item.category.name"/>
+                <span class="ux-cars-results-header-illustrative-image">Imagem ilustrativa</span>
+            </div>
+            <div class="ux-cars-results-description" bindonce>
+                <div class="ux-cars-results-description-title" bo-text="item.category.name"></div>
+                <div ng-if="selectedCar(item).fullyRefundableText != ''" class="ux-cars-results-description-subtitle">{{selectedCar(item).fullyRefundableText}}</div>
+                <div class="ux-cars-results-description-icons">
+                    <ul>
+                        <li id="cr_passengers"><span class="ux-common-icon-person"></span>x<span bo-text="item.category.passengers"></span></li>
+                        <li id="cr_big_bags" bo-if="item.category.bigBags > 0"><span class="ux-common-icon-packages"></span>x<span bo-text="item.category.bigBags"></span></li>
+                        <li id="cr_small_bags" bo-if="item.category.smallBags > 0"><span class="ux-common-icon-packages ux-cars-results-descrpition-icon-small"></span>x<span bo-text="item.category.smallBags"></span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="ux-cars-results-header-pricebox">
+            <div>
+                <div class="ux-cars-results-header-pricebox-label gui-price-label">
+                    
+                    Total a pagar ({{rentalDaysText}})
+                </div>
+                <div class="ux-cars-results-header-pricebox-price">
+                    <div class="ux-common-price-container">
+                        <div class="ux-price-linethrough-container">
+	                        	<span ng-if="selectedCar(item).prices[currencies.selected.code].grossAmount" class="ux-common-price-linethrough">
+									<em>{{selectedCar(item).prices[currencies.selected.code].currencyMask}}</em> {{selectedCar(item).prices[currencies.selected.code].grossAmount  | localizedNum}}
+                                    <span class="strikethrough"></span>
+								</span>
+                        </div>
+							<span class="ux-common-price">
+								<em>{{currencies.selected.mask}}</em> {{selectedCar(item).prices[currencies.selected.code].amount | localizedNum}}
+							</span>
+                    </div>
+                </div>
+            </div>
+            <div class="ux-cars-results-button-buy-container">
+                <a class="ux-button primary ux-cars-results-button-buy"  >
+                Comprar
+                <div ng-show="categoryListCtrl.showLoading == item" class="loading-contanier show-loading">
+                    <div class="loading-content">
+                        <span class="loading-content-spinner"></span>
+                    </div>
+                </div>
+                </a>
+            </div>
+            <div ng-if="getMaxInstallments()"  class="ux-cars-results-header-pricebox-pay">
+                <span ng-if="selectedCar(item).paymentOptions.prePayment && getMaxInstallments() > 0 ">
+                    <span ng-if="selectedCar(item).paymentOptions.paymentAtDestination" class="ux-cars-results-header-pricebox-pay">
+                        
+                            <span ng-if="getMaxInstallments() != 1" ng-init="installmentText='Em at&eacute; {0} vezes agora o pague ao retirar!'" class="ux-cars-results-header-pricebox-pay-installments">
+                                {{installmentText.replace("{0}", getMaxInstallments())}}
+                            </span>
+                            <span ng-if="getMaxInstallments() == 1" class="ux-cars-results-header-pricebox-pay-installments">
+                                Pagamento com cart&atilde;o agora <br />o pague ao retirar!
+                            </span>
+                        
+                    </span>
+                </span>
+                <span ng-if="!selectedCar(item).paymentOptions.paymentAtDestination"  class="ux-cars-results-header-pricebox-pay">
+                    
+                        <span ng-if="getMaxInstallments() != 1" ng-init="installmentText='Em at&eacute; {0} vezes!'" class="ux-cars-results-header-pricebox-pay-installments">
+                            {{installmentText.replace("{0}", getMaxInstallments())}}
+                        </span>
+                        <span ng-if="getMaxInstallments() == 1" class="ux-cars-results-header-pricebox-pay-installments">
+                            Pagamento com cart&atilde;o!
+                        </span>
+                    
+                </span>
+                <span ng-if="selectedCar(item).paymentOptions.paymentAtDestination && (getMaxInstallments() <= 0 || !selectedCar(item).paymentOptions.prePayment) " class="ux-cars-results-header-pricebox-pay">
+                    <span class="ux-cars-results-header-pricebox-pay-installments" ng-if="!selectedCar(item).paymentOptions.padWithCommission">
+                        Pague ao retirar!
+                    </span>
+                    <span class="ux-cars-results-header-pricebox-pay-installments" ng-if="selectedCar(item).paymentOptions.padWithCommission">
+                        Reserve com cart&atilde;o!
+                    </span>
+                </span>
+            </div>
+            <div class="ux-cars-results-price-discount" ng-if="selectedCar(item).prices[currencies.selected.code].discountPercentage != 0">
+                -{{selectedCar(item).prices[currencies.selected.code].discountPercentage}}%
+            </div>
+        </div>
+    </div>
+    <div ng-init="categoryExpanded = mustShowAllProviders; visibleCarsAmount = DEFAULT_AMOUNT_OF_VISIBLE_CARS; item.selectedCar = 0;" class="ux-cars-results-companies-list">
+
+        <div bindonce="item.cars" ng-repeat="car in item.cars | filter:filterCarProviders | orderBy:orderData.selected.predicates | limitTo:getVisibleCarsAmount(item, visibleCarsAmount) track by $index" class="ux-cars-results-company">
+            <div class="ux-cars-results-company-title" bo-class="{ 'ux-cars-results-company-title recommended' : car.isRecommended }">
+                <label for="selectedCarHash_{{car.itemHash}}">
+						<span class="ux-cars-results-company-radio">
+							<div class="iradio_square-blue" style="position: relative;" ng-class="{'checked' : $index == item.selectedCar}">
+                                <input class="iCheck-helper" id="selectedCarHash_{{car.itemHash}}" type="radio" name="{{item.category.name}}" ng-model="item.selectedCar" ng-value="$index" data-prepayment="{{car.paymentOptions.prePayment}}" data-payment-at-destination="{{car.paymentOptions.paymentAtDestination}}" >
+                                <ins class="iCheck-helper"></ins>
+                            </div>
+						</span>
+						<span bindonce class="ux-cars-results-company-logo" ng-assign="{{provider = getProvider(car.providerCode)}}">
+							<img ng-src="{{provider.logoUrl}}" title="{{provider.name}}" alt="{{provider.name}}">
+						</span>
+						<span bindonce class="ux-cars-results-company-score">
+	                        <a d-modal-open="view-provider-score" ng-if="provider.review != null && provider.review.ratingsLength > 0" ng-click="selectProvider(provider,$event);">
+                                <div bo-text="messages['score'+provider.review.reviewValoration]"></div>
+                                <div>
+                                    <span bo-text="getProvider(car.providerCode).review.reviewValorationScore"></span>
+                                    pontos
+                                </div>
+                            </a>
+	                        <div bo-if="getProvider(car.providerCode).review != null && getProvider(car.providerCode).review.ratingsLength == 0" class="no-review-valoration">
+                                <div bo-text="messages['score'+provider.review.reviewValoration]"></div>
+                                <div>
+                                    <span bo-text="provider.review.reviewValorationScore"></span>
+                                    pontos
+                                </div>
+                            </div>
+						</span>
+
+                        <span id="car-model_{{car.itemHash}}" class="ux-cars-results-company-car-type-container">
+                            <span class="ux-cars-results-company-car-type">{{car.model}} (ou semelhante)</span>
+                        </span>
+
+						<span class="ux-cars-results-company-offices" bindonce>
+	                        
+	                            
+	                            <a d-modal-open="categories-map" ng-click="trackOpenMap('rent');showMap('map-container', {&quot;latitude&quot; :-27.597,&quot;longitude&quot; :-48.5496}, item, false, car.providerCode);" bo-if="carWithGeoPositionedOffices(car)">
+	                                <span>
+	                                    <span bo-text="car.officesData.officesCount"></span>
+                                        <span bo-if="car.officesData.officesCount > 1">
+	                                        lojas
+	                                    </span>
+	                                    <span bo-if="car.officesData.officesCount == 1">
+	                                        loja
+	                                    </span>
+	                                </span>
+                                </a>
+	                            <span bo-if="!carWithGeoPositionedOffices(car)">
+	                                <span bo-text="car.officesData.officesCount"></span>
+                                    <span bo-if="car.officesData.officesCount > 1">
+	                                    lojas
+	                                </span>
+	                                <span bo-if="car.officesData.officesCount == 1">
+	                                    loja
+	                                </span>
+	                            </span>
+	                        
+						</span>
+						<span class="ux-cars-results-company-highlight">
+							
+								<span class="ux-common-label" ng-if="car.isHotSale && !car.isRecommended">Oferta</span>
+							
+							<span class="ux-common-label" ng-if="car.isRecommended">Recomendado</span>
+						</span>
+
+						<span class="ux-cars-results-company-price-par">
+							<span ng-if="car.prices[currencies.selected.code].grossAmount" class="ux-common-price-linethrough">
+								<em>{{car.prices[currencies.selected.code].currencyMask}}</em> {{car.prices[currencies.selected.code].grossAmount  | localizedNum}}
+                                <span class="strikethrough"></span>
+							</span>
+							<span class="ux-cars-results-company-price" ng-click="">
+								<a ng-click='buyFromClusterPriceLanding(car, item, currencies.selected.code)'  >
+								<span>
+                                    {{car.prices[currencies.selected.code].currencyMask}}
+                                </span>
+                                {{car.prices[currencies.selected.code].amount | localizedNum}}
+                                </a>
+							</span>
+                            <input id="daily-price_{{car.itemHash}}" type="hidden" value="{{car.prices[currencies.selected.code].dailyPrice | localizedNum}}">
+						</span>
+                </label>
+					<span class="ux-cars-results-company-view-full-description"  ng-class="{ 'ux--expanded' : car.expanded }" ng-click="trackViewInfoCluster(item.category.name, getProvider(car.providerCode).name, car.expanded);car.expanded = !car.expanded;">
+						<span class="ux-cars-results-company-view-full-description-icon"></span>
+					</span>
+            </div>
+            <div ng-if="car.expanded" class="ux-cars-results-company-description" bindonce>
+                <dl id="car-office-info" bo-if="showOfficeInfo(car)" class="ux-cars-results-company-description-list">
+                    <dt class="ux-cars-results-company-description-list-delivery-type">Tipo de Entrega</dt>
+                    <dd class="ux-cars-results-company-description-list-delivery-type-description" bo-bind-text="car.officesData.officeInfo"><span></span></dd>
+                </dl>
+                <dl id="car-features" class="ux-cars-results-company-description-list">
+                    <dt>Caracter&iacute;sticas do carro</dt>
+                    <dd>
+                        <ul class="ux-cars-results-company-description-car-features">
+                            <li id="cf_distance">
+                                <span bo-class="{'ux-common-icon-unlimited-km': car.specifications.unlimitedDistance, 'ux-common-icon-limited-km': !car.specifications.unlimitedDistance }"></span>
+									<span bo-if="car.specifications.unlimitedDistance" class="ux-cars-results-company-description-car-features-text">
+                                        Quilometragem ilimitada
+                                    </span>
+                                <span bo-if="!car.specifications.unlimitedDistance" class="ux-cars-results-company-description-car-features-text" bo-text="car.specifications.distance"></span>
+                            </li>
+                            <li id="cf_transmission">
+                                <span bo-class="'ux-common-icon-transmission-' + car.specifications.transmissionType.toLowerCase()"></span>
+                                <span bo-if="car.specifications.transmissionType == 'A'" class="ux-cars-results-company-description-car-features-text">Câmbio Automático</span>
+                                <span bo-if="car.specifications.transmissionType == 'M'" class="ux-cars-results-company-description-car-features-text">Câmbio Manual
+</span>
+                            </li>
+                            <li id="cf_air_aconditioning" bo-if="car.specifications.airConditioner">
+                                <span class="ux-common-icon-air"></span>
+                                <span class="ux-cars-results-company-description-car-features-text">Ar-condicionado</span>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl id="car-insurances" bo-if="car.insurances.length > 0" class="ux-cars-results-company-description-list">
+                    <dt>Seguros inclu&iacute;dos</dt>
+                    <dd>
+                        <ul class="ux-cars-results-company-description-insurance-included">
+                            <li ng-repeat="insurance in car.insurances">
+                                <span class="ux-common-icon-thick"></span><span bo-text="results.inclusions[insurance].title"></span>
+                            </li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl id="car-additionals" bo-if="car.aditionals.length > 0" class="ux-cars-results-company-description-list">
+                    <dt>Adicionais inclu&iacute;dos</dt>
+                    <dd>
+                        <ul class="ux-cars-results-company-description-additionals">
+                            <ul class="ux-cars-results-company-description-insurance-included">
+                                <li ng-repeat="aditional in car.aditionals">
+                                    <span class="ux-common-icon-thick"></span><span bo-text="results.inclusions[aditional].title"></span>
+                                </li>
+                            </ul>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+
+        <div class="ux-cars-results-see-more-options">
+            <div ng-click="categoryExpanded = true; visibleCarsAmount = item.cars.length; toggleClustersVisibility(item, categoryExpanded)" ng-show="!categoryExpanded && (item.cars | filter:filterCarProviders).length > DEFAULT_AMOUNT_OF_VISIBLE_CARS && !mustShowAllProviders" class="ux-cars-results-see-more-deals">
+                Ver mais locadoras
+            </div>
+            <div ng-click="categoryExpanded = false; visibleCarsAmount = DEFAULT_AMOUNT_OF_VISIBLE_CARS; toggleClustersVisibility(item, categoryExpanded)" ng-show="categoryExpanded && (item.cars | filter:filterCarProviders).length > DEFAULT_AMOUNT_OF_VISIBLE_CARS && !mustShowAllProviders" class="ux-cars-results-see-less-deals">
+                Ver menos locadoras
+            </div>
+            
+            <div class="ux-cars-results-see-deals-on-the-map" d-modal-open="categories-map" ng-click="trackOpenMap('categoria');showMap('map-container', {&quot;latitude&quot; :-27.597,&quot;longitude&quot; :-48.5496}, item);" ng-if="itemWithGeoPositionedOffices(item)">
+                <span class="ux-common-icon-marker"></span> Ver no mapa
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+<div d-modal-container ng-if="initialize.results">
+    <div d-modal="view-provider-score" id="view-provider-score"  class="ux-common-overlay-container">
+        <div class="ux-common-overlay-header">
+            <h4 class="detail-header-title">
+                <span class="ux-cars-common-agency-icon ux-cars-common-agency-icon">
+                    <img class="ux-cars-common-agency-icon agency-external-logo" ng-src="{{selectedProvider.logoUrl}}" title="{{selectedProvider.name}}" alt="{{selectedProvider.name}}" style="margin-top:-1px;"/>
+                </span>
+                Pontua&ccedil;&atilde;o em Florianópolis
+            </h4>
+            <span class="ux-common-icon-remove" d-modal-close="view-provider-score"></span>
+        </div>
+        <div class="ux-common-overlay-body">
+            <div class="popup-body">
+                <div class="ux-cars-rent-popup">
+                    <div class="ux-common-review">
+                        <div class="ux-common-grid-row">
+                            <div class="ux-common-grid-col5">
+                                <div class="ux-cars-rent-rank">
+                                    <div class="ux-cars-rent-rank-box">
+                                        <em>{{selectedProvider.review.reviewValorationScore}}</em>
+                                        <div class="ux-cars-rent-rank-box-keywork">pontos</div>
+                                    </div>
+                                    <div class="ux-cars-rent-line"></div>
+                                    <div class="ux-cars-rent-rank-info">
+                                        <div class="ux-cars-rent-rank-rate">{{messages["score"+selectedProvider.review.reviewValoration]}}</div>
+                                        <div class="ux-cars-rent-rank-based">
+                                            Baseado em {{selectedProvider.review.numberOfReviews}} coment&aacute;rios para os &uacute;ltimos 6 meses
+                                        </div>
+                                    </div>
+                                    <div style="clear:both;"></div>
+                                </div>
+                            </div>
+                            <div class="ux-common-grid-col7 ux-common-review-detail">
+                                <div class="ux-cars-rent-about">
+                                    <ul>
+                                        <li ng-repeat="(key, value) in selectedProvider.review.ratings">
+                                            <span class="ux-common-review-detail-name" ng-bind-html="messages['score'+key]"></span>
+                                            <span class="ux-common-review-detail-score">{{value}}</span>
+                                            <span class="ux-common-review-detail-bar"><span style="width: {{value * 10}}%;"></span></span>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+</div>
+
+				</div>
+				<div ng-cloak ng-if="!initialize.preloader" class="ux-cars-join-your-fleet-link">
+					<a target="_blank" href="https://www.decolar.com/cars-sara-v2/web/#/companyRequest/new?lang=pt">Cadastre sua locadora</a>
+				</div>
+			</div>
+		</div>
+		
+		
+ 
+<div ng-if="initialize.postResults" ng-cloak d-modal-container>
+	<div id="categories-map" class="popup-body" d-modal="categories-map" d-modal-no-padding="true" d-modal-mobile-title='Locadoras'>
+		<div class="ux-common-overlay-container">
+            <div class="ux-common-overlay-body">
+                <div class="ux-common-grid-row ux-cars-map-overlay"  ng-init="itemsToShow = 0"  ng-controller ="MapController as mapCtrl">
+                    <div ng-if="initialize.filters" ng-controller="MapFiltersController" ng-hide="!categoriesInMap.initialized || categoriesInMap.hideMapFilters" ng-init="carProvidersVisibility = true" class="ux-cars-filters ux-common-grid-col0-small" ng-class='{ "filters-active" : carProvidersVisibility }'>
+                        <h4 ng-click="carProvidersVisibility = !carProvidersVisibility">
+                            <span>Filtrar locadoras </span>
+                        </h4>
+                        <div class="ux-common-filter-body" ng-class='{ "filters-hide" : !carProvidersVisibility }'>
+                            <ul class="ux-common-filter-options">
+                                <li>
+                                    <label for="carProvider_all" class="ux-common-filter-all" ng-class='{ "ux-common-filter-disabled" : noCarProviderSelected() }'>
+                                        <input type="checkbox" id="carProvider_all" ng-checked="noCarProviderSelected()" ng-disabled="noCarProviderSelected()" ng-click="showAllCarProviders();carProvidersChanged();  showMap('map-container', {&quot;latitude&quot; :-27.597,&quot;longitude&quot; :-48.5496}, categoriesInMap.selectedCategory, true)" value="all" name="all" />
+                                        <span class="maps-allRentals">Todas</span>
+                                    </label>
+                                </li>
+                                <li ng-repeat="carProvider in getProviders()">
+                                    <label>
+                                        <input class="maps-input" id="carProvider_{{carProvider.name}}_{{$index}}" ng-change="carProvidersChanged(carProvider); showMap('map-container', {&quot;latitude&quot; :-27.597,&quot;longitude&quot; :-48.5496}, categoriesInMap.selectedCategory, true)" ng-model="carProvider.isSelected" type="checkbox" value="{{carProvider.name}}" name="car-provider" />
+                                        <img class="ux-cars-common-agency-icon agency-external-logo" ng-src="{{carProvider.logoUrl}}" title="{{carProvider.name}}" alt="{{carProvider.name}}">
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="ux-common-grid-row" ng-show="categoriesInMap.initialized">
+                        <div class="ux-common-grid-col12" ng-show="categoriesInMap.initialized">
+                            <h4>
+                                <span class="detail-header-title">Locadoras</span>
+                                <span class="ux-common-icon-remove" d-modal-close="categories-map"></span>
+                            </h4>
+                        </div>
+                    </div>
+                    <div class="ux-cars-detail-header ux-common-grid-col0-small" ng-show="categoriesInMap.initialized">
+                        <div class="ux-common-grid-row">
+                            <div class="ux-common-grid-col12">
+                                <label for="">
+                                    <span>Ver carros</span>
+                                    <select id="category-combo-map" ng-change='showMap("map-container", {&quot;latitude&quot; :-27.597,&quot;longitude&quot; :-48.5496}, categoriesInMap.selectedCategory, true)' ng-model="categoriesInMap.selectedCategory" ng-options="selectedCategory.category.name for selectedCategory in (categoriesInMap.items | filter:filterCategory) track by selectedCategory.category.code"></select>
+                                </label>
+                            </div>
+                            <div class="ux-common-grid-col12">
+                                <ul>
+                                    <li>
+                                        <span class="ux-common-icon-person"></span> {{categoriesInMap.selectedCategory.category.passengers}} pessoas
+                                    </li>
+                                    <li ng-if="categoriesInMap.selectedCategory">
+                                        <span class="ux-common-icon-kilometers"></span> {{getDistanceLimitMessage()}}
+                                    </li>
+                                    <li>
+                                        <span ng-if="categoriesInMap.selectedCategory.category.bigBags > 0" class="ux-common-icon-packages"></span>
+                                        <span class="characteristic-description" ng-if="categoriesInMap.selectedCategory.category.bigBags > 1">
+                                            {{categoriesInMap.selectedCategory.category.bigBags}} bagagens grandes
+                                        </span>
+                                        <span class="characteristic-description" ng-if="categoriesInMap.selectedCategory.category.bigBags == 1">
+                                            {{categoriesInMap.selectedCategory.category.bigBags}} bagagem grande
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span ng-if="categoriesInMap.selectedCategory.category.smallBags > 0" class="ux-common-icon-packages"></span>
+                                        <span class="characteristic-description" ng-if="categoriesInMap.selectedCategory.category.smallBags > 1">
+                                            {{categoriesInMap.selectedCategory.category.smallBags}} bagagens pequenas
+                                        </span>
+                                        <span class="characteristic-description" ng-if="categoriesInMap.selectedCategory.category.smallBags == 1">
+                                            {{categoriesInMap.selectedCategory.category.smallBags}} bagagem pequena
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ux-common-grid-row">
+                        <div class="ux-common-grid-col12">
+                            <div id="map-container" class="ux-cars-map-container" ng-show="categoriesInMap.initialized" style="width:100%"></div>
+                            <div id="map-loading" class="ux-cars-map-container" ng-hide="categoriesInMap.initialized">
+                                <span class="ux-common-message ux-common-message-loading">
+                                    <div class="ux-common-message-figure">
+                                        <span class="ux-common-message-loading-icon"></span>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+		</div>
+
+        <script id="car-detail-template" type="text/car-template">
+
+
+	<div class="ux-cars-detail-slider simple-cars">
+      	  <div class="ux-cars-results-map-overlay-single-company simple-car" ng-if="!rentalLocationData.airport" >
+	        	<div>
+					<div class="ux-cars-results-map-overlay-single-company-title">
+						<span class="ux-common-icon-city"></span>
+						<div class="ux-cars-results-map-overlay-single-company-title-ellipsis">
+							<p>{{rentalLocationData.address}} <span ng-if="rentalLocationData.zone">({{rentalLocationData.zone}})</span></p>
+						</div>			
+					</div>
+					<div class="ux-cars-results-map-overlay-single-company-description">
+						<div class="ux-cars-results-map-overlay-single-company-description-image-icons">
+							<div class="ux-cars-results-map-overlay-single-company-description-image">
+								<img ng-src="{{rentalLocationData.officeCarData.carPicture}}" alt="">
+							</div>
+							<div class="ux-cars-results-map-overlay-single-company-description-icons">
+								<span class="ux-cars-results-map-overlay-single-company-description-icons-tooltip-container">
+									<span ng-class="{'ux-common-icon-unlimited-km': rentalLocationData.carSpecifications.unlimitedDistance, 'ux-common-icon-limited-km': !rentalLocationData.carSpecifications.unlimitedDistance }"></span>
+									<span ng-if="rentalLocationData.carSpecifications.unlimitedDistance" class="ux-view-tooltip">Quilometragem ilimitada</span>
+									<span ng-if="!rentalLocationData.carSpecifications.unlimitedDistance" class="ux-view-tooltip">{{rentalLocationData.carSpecifications.distance}}</span>
+								</span>
+								<span class="ux-cars-results-map-overlay-single-company-description-icons-tooltip-container">
+									<span ng-class="{'ux-common-icon-transmission-a' : rentalLocationData.carSpecifications.transmissionType == 'A', 'ux-common-icon-transmission-m' : rentalLocationData.carSpecifications.transmissionType == 'M'}"></span>
+									<span ng-if="rentalLocationData.carSpecifications.transmissionType == 'A'" class="ux-view-tooltip ux--left">Câmbio Automático</span>
+									<span ng-if="rentalLocationData.carSpecifications.transmissionType == 'M'" class="ux-view-tooltip ux--left">Câmbio Manual
+</span>
+								</span>
+								<span ng-if="rentalLocationData.carSpecifications.airConditioner" class="ux-cars-results-map-overlay-single-company-description-icons-tooltip-container">
+									<span class="ux-common-icon-air"></span>
+									<span class="ux-view-tooltip ux--left">Ar-condicionado</span>
+								</span>
+							</div>
+						</div>
+						<div class="ux-cars-results-map-overlay-single-company-description-text">{{rentalLocationData.officeCarData.carModel}} ou semelhante</div>
+					</div>
+					<div class="ux-cars-results-map-overlay-single-company-price-box" ng-click='buyCarAtCityButtonClick(rentalLocationData.officeCarData.prices["USD"].totalPrice,categoriesInMap.selectedCategory.category.name);mapCtrl.showLoading=true'>
+                        <div ng-if="rentalLocationData.officeCarData.prices[currencies.selected.code].discountPercentage != 0" class="ux-cars-results-map-overlay-slider-pricebox-ribbon">
+							-{{rentalLocationData.officeCarData.prices[currencies.selected.code].discountPercentage}}%
+						</div>
+						<div class="ux-cars-results-map-overlay-single-company-price-box-conditions">
+							<span class="ux-cars-results-map-overlay-single-company-price-box-conditions-price-description">
+								
+									Total a pagar
+								
+							</span>
+						</div>
+						<span class="ux-cars-results-map-overlay-single-company-price">
+							<span class="ux-cars-results-map-overlay-slider-pricebox-button"></span>
+							<span ng-if="rentalLocationData.officeCarData.prices[currencies.selected.code].grossAmount"  class="ux-common-price-linethrough">
+								<div>
+									<em>{{currencies.selected.mask}}</em>{{rentalLocationData.officeCarData.prices[currencies.selected.code].grossAmount }}
+                                    <span class="strikethrough"></span>
+								</div>
+							</span>
+							<span class="ux-cars-results-map-overlay-single-company-total-price">
+								<em>{{currencies.selected.mask}}</em>
+								{{rentalLocationData.officeCarData.prices[currencies.selected.code].amount }}
+							</span>
+						</span>
+						<span ng-show="rentalLocationData.fullyRefundableText != ''" class="ux-cars-results-map-overlay-single-company-cancel">
+							{{rentalLocationData.fullyRefundableText}}
+						</span>
+                        <div ng-show="mapCtrl.showLoading" class="loading-contanier show-loading">
+                            <div class="loading-content">
+                                <span class="loading-content-spinner"></span>
+                            </div>
+                        </div>
+					</div>
+					</div>
+					<a class="ux--close" ng-click="closeAllInfoBox();mapCtrl.showLoading=false">×</a>
+				</div>
+			</div>
+	</div>
+
+</script>
+        
+<script id="airport-detail-template" type="text/airport-template">
+    <div class="ux-cars-detail-slider" id="airport-popup" ng-controller="MapController as mapCtrl">
+        <div class="ux-cars-detail-overlay-slider" ng-class="{'two-offices':totalCarsAtAirport < 3}">
+            <div class="ux-cars-detail-overlay-slider-title">
+                <h4>
+                    <span class="ux-common-icon-flights"></span>
+                    <span class="ux-cars-detail-overlay-slider-title-place">{{rentalLocationData.description}}</span>
+                    <span class="ux-cars-detail-overlay-slider-title-rental-number" ng-if="totalCarsAtAirport == 1">({{totalCarsAtAirport}} loja)</span>
+                    <span class="ux-cars-detail-overlay-slider-title-rental-number" ng-if="totalCarsAtAirport != 1">({{totalCarsAtAirport}} lojas)</span>
+                </h4>
+            </div>
+            <div class="ux-cars-results-map-overlay-slider-container">
+                <ul class="ux-cars-results-map-overlay-slider">
+                    <li ng-repeat="carAtAirport in carsAtAirport | orderBy: orderBySelectedPrice">
+                        <div class="ux-cars-results-map-overlay-slider-car-description">
+                            <img ng-src="{{carAtAirport.officeCarData.rentalLogoUrl}}" title="{{carAtAirport.officeCarData.carProviderName}}" alt="{{carAtAirport.officeCarData.carProviderName}}">
+                            <div class="ux-cars-results-map-overlay-slider-car-description-icons">
+                            <span class="ux-cars-results-map-overlay-slider-car-description-icons-tooltip-container">
+								<span ng-class="{'ux-common-icon-unlimited-km': carAtAirport.carSpecifications.unlimitedDistance, 'ux-common-icon-limited-km': !carAtAirport.carSpecifications.unlimitedDistance }"></span>
+								<span ng-if="carAtAirport.carSpecifications.unlimitedDistance" class="ux-view-tooltip" ng-class="{'ux--right': $index % itemsPerPage == 0}">Quilometragem ilimitada</span>
+                                <span ng-if="!carAtAirport.carSpecifications.unlimitedDistance" class="ux-view-tooltip" ng-class="{'ux--right': $index % itemsPerPage == 0}">{{carAtAirport.carSpecifications.distance}}</span>
+                            </span>
+                            <span class="ux-cars-results-map-overlay-slider-car-description-icons-tooltip-container">
+                                <span ng-class="{'ux-common-icon-transmission-a' : carAtAirport.carSpecifications.transmissionType == 'A', 'ux-common-icon-transmission-m' : carAtAirport.carSpecifications.transmissionType == 'M'}"></span>
+                                <span ng-if="carAtAirport.carSpecifications.transmissionType == 'A'" class="ux-view-tooltip" ng-class="{'ux--right': $index % itemsPerPage == 0, 'ux--left': $index % itemsPerPage == itemsPerPage -1}">Câmbio Automático</span>
+								<span ng-if="carAtAirport.carSpecifications.transmissionType == 'M'" class="ux-view-tooltip" ng-class="{'ux--right': $index % itemsPerPage == 0, 'ux--left': $index % itemsPerPage == itemsPerPage -1}">Câmbio Manual
+</span>
+                            </span>
+                            <span ng-if="carAtAirport.carSpecifications.airConditioner" class="ux-cars-results-map-overlay-slider-car-description-icons-tooltip-container">
+                                <span class="ux-common-icon-air"></span>
+                                <span class="ux-view-tooltip" ng-class="{'ux--left': $index % itemsPerPage == itemsPerPage -1}">Ar-condicionado</span>
+                            </span>
+                            </div>
+                            <p>{{carAtAirport.officeCarData.carModel}} ou semelhante</p>
+                        </div>
+                        <div class="ux-cars-results-map-overlay-slider-pricebox" ng-click='mapCtrl.showLoading = carAtAirport;buyCarAtAirportButtonClick(categoriesInMap.selectedCategory.category.name, carAtAirport)'>
+							<span class="ux-cars-results-map-overlay-slider-pricebox-price-description">
+								
+									Total a pagar
+								
+							</span>
+                            <div ng-if="carAtAirport.officeCarData.prices[currencies.selected.code].discountPercentage != 0" class="ux-cars-results-map-overlay-slider-pricebox-ribbon  ">-{{carAtAirport.officeCarData.prices[currencies.selected.code].discountPercentage}}%</div>
+                            <span class="ux-cars-results-map-overlay-slider-pricebox-price">
+                                <span class="ux-cars-results-map-overlay-slider-pricebox-button"></span>
+                                <span ng-if="carAtAirport.officeCarData.prices[currencies.selected.code].grossAmount" class="ux-cars-results-map-overlay-slider-pricebox-price-discount">
+                                    <span class="ux-common-price-linethrough">
+                                        <em>{{currencies.selected.mask}}</em>
+                                            {{carAtAirport.officeCarData.prices[currencies.selected.code].grossAmount }}
+                                        <span class="strikethrough"></span>
+                                    </span>
+                                </span>
+                                <span class="ux-cars-results-map-overlay-slider-pricebox-total-price">
+                                    <em>{{currencies.selected.mask}}</em>
+                                    {{carAtAirport.officeCarData.prices[currencies.selected.code].amount }}
+                                </span>
+                            </span>
+                            <span ng-show="carAtAirport.fullyRefundableText != ''" class="cancel">{{carAtAirport.fullyRefundableText}}</span>
+                            <div ng-show="mapCtrl.showLoading == carAtAirport" class="loading-contanier show-loading">
+                                <div class="loading-content">
+                                    <span class="loading-content-spinner"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <a class="ux--close" ng-click="closeAllInfoBox()">×</a>
+            <div class="ux-cars-results-map-overlay-slider-controls">
+                <a class="ux-cars-results-map-overlay-slider-controls-prev" ng-show="mustShowPreviousButton()" ng-click="previousCar('airport-popup');">‹</a>
+                <a class="ux-cars-results-map-overlay-slider-controls-next" ng-show="mustShowNextButton()" ng-click="nextCar('airport-popup');">›</a>
+            </div>
+        </div>
+    </div>
+</script>
+
+
+	</div>
+</div>
+ 
+
+        
+        <div class="row-col ux-common-results" id="seo-destiny-offers" ng-cloak ng-if="!initialize.preloader" ng-include="'/cars/services/frequent-destinations'"></div>
+	</div>
+
+	<div id="footer" class="footer" ng-hide="mainCtrl.smallFiltersVisibility">
+		<div class="mail-offer-footer"> <div class="subscriptions-footer mailOffers-grid mail-offers-container"> <div class="mailOffers-row mail-offers-form"> <!-- Informative mesagge --> <div class="mail-offers-message hide"> <div class="mailOffers-message -info"> <div class="message-header"> <div class="message-icon"><i class="mailOffers-icon-info"></i> </div> <div class="message-close"><i class="mailOffers-icon-close"></i> <!--[if IE 8]> <span>&#215;</span> <![endif]--> </div> <span class="-h5 mail-offer-mail-sended hidden">Obrigado por inscrever-se a decolar.com!</span> <span class="-h5 mail-offer-already-subscribed hidden">Já estava inscrito em nossas ofertas</span> <span class="-h5 mail-offer-error hidden">Ops!</span> </div> <div class="message-body"> <p class="mail-offer-mail-sended hidden"> Confirme sua inscri&ccedil;&atilde;o pelo e-mail enviado a <b>{email}</b>}. Se voc&ecirc; n&atilde;o encontrar este e-mail verifique a Caixa de Spam. </p> <p class="mail-offer-already-subscribed hidden"> O endere&ccedil;o de e-mail <b>{email}</b> j&aacute; est&aacute; inscrito em nossas ofertas. J&aacute; revisou a Caixa de Spam? </p> <p class="mail-offer-error hidden"> N&atilde;o foi poss&iacute;vel realizar sua inscri&ccedil;&atilde;o. Por favor, tente novamente mais tarde. </p> </div> </div> </div> <div class="-sm-12 -md-5 mail-offers-title"> <div class="mail-offers-icons"> <span class="mail-offers-icon-msg"></span> <span class="mail-offers-icon-star"></span> </div> <h4>Ofertas exclusivas no seu e-mail</h4> </div> <div class="-sm-12 -md-5 mail-offers-input"> <div class="mailOffers-input -md -validate -bottom-left"> <div class="subsc"> <input type="text" placeholder="Insira seu e-mail" id="input-medium"/> <span class="info-msg">Por favor, insira um e-mail v&aacute;lido</span> </div> </div> </div> <div class="-sm-12 -md-2 mail-offers-button"> <a class="mailOffers-btn -secondary -md -loader subscribe-button"> <em>Receber</em> <span>Salvando</span> </a> </div> </div> <div class="mailOffers-row mail-offers-legal"> <div class="-sm-12"> Voc&ecirc; receber&aacute; e-mails promocionais do Decolar.com e seus dados pessoais n&atilde;o ser&atilde;o compartilhados com terceiros. Para mais informa&ccedil;&otilde;es, consulte as <a href="http://comercial.decolar.com/br/confidentiality/" target="_blank" rel="nofollow">pol&iacute;ticas de privacidade</a>. </div> </div> </div> </div> <div id="nevo-common-footer" class="nevo-common-footer"> <div class="nevo-common-footer-sitemap"> <div class="nevo-common-footer-container"> <ul id="about-list"> <li class="item"><a href="http://comercial.decolar.com/br/confidentiality/" target="_blank" rel="nofollow">Política de privacidade</a></li><li class="item"><a href="http://comercial.decolar.com/br/betterprice/" target="_blank" rel="nofollow">Melhor preço garantido</a></li><li class="item"><a href="http://comercial.decolar.com/br/politica-de-uso/" target="_blank" rel="nofollow">Termos e condições</a></li><li class="item"><a href="http://www.decolar.com/hoteis/hl/advertiseHotel" target="_blank" rel="nofollow">Anuncie seu hotel</a></li><li class="item"><a href="https://www.decolar.com/cars-sara-v2/web/#/companyRequest/new?lang=pt" target="_blank" rel="nofollow">Cadastre sua locadora</a></li><li class="item"><a href="http://www.decolar.com/corporate/" target="_blank" rel="nofollow">Viagens a Negócios</a></li><li class="item"><a href="http://www.dtravelconnection.com/" target="_blank" rel="nofollow">Publicidade no Decolar</a></li><li class="item"><a href="http://www.decolar.com/carreiras/" target="_blank" rel="nofollow">Carreiras</a></li><li class="item nevo-footer-popup-container nevo-press-popup"><a target="_self" rel="nofollow">Contacto para a imprensa</a><div class="nevo-footer-popup"><div class="nevo-footer-popup-inner"><div class="nevo-footer-popup-body">Para consultas relacionadas a assuntos de imprensa, entre em contato pelo e-mail <a href="mailto:press@despegar.com?subject=Contacto de prensa">press@despegar.com</a></div></div></div></li><li><a href="https://www.decolar.com/comunidadeafiliados/home/index" target="_blank" >Programa de Agências</a></li><li><a href="https://an.decolar.com/" target="_blank" >Programa Rede de Afiliados</a></li><li><a href="http://comercial.decolar.com/br/beneficios/" target="_blank" >Aplicações mobile</a></li><li><a href="http://www.decolar.com/blog/" target="_blank" >Blog do Decolar</a></li><li class="item"><a href="http://www.decolar.com/turismo/" target="_blank" rel="nofollow">Turismo</a></li> </ul> </div> </div> <div class="nevo-common-footer-countries"> <div class="nevo-common-footer-container"> <ul> <li> <a href="http://www.despegar.com.ar" >Argentina</a> </li> <li> <a href="http://www.despegar.com.bo" >Bolívia</a> </li> <li> <a href="http://www.decolar.com" >Brasil</a> </li> <li> <a href="http://www.despegar.cl" >Chile</a> </li> <li> <a href="http://www.despegar.com.co" >Colômbia</a> </li> <li> <a href="http://www.despegar.co.cr" >Costa Rica</a> </li> <li> <a href="http://www.despegar.com.sv" >El Salvador</a> </li> <li> <a href="http://www.despegar.com.ec" >Equador</a> </li> <li> <a href="http://www.es.despegar.com" >Espanha</a> </li> <li> <a href="http://www.us.despegar.com" >Estados Unidos</a> </li> <li> <a href="http://www.despegar.com.gt" >Guatemala</a> </li> <li> <a href="http://www.despegar.hn" >Honduras</a> </li> <li> <a href="http://www.despegar.com.mx" >México</a> </li> <li> <a href="http://www.despegar.com.ni" >Nicarágua</a> </li> <li> <a href="http://www.despegar.com.pa" >Panamá</a> </li> <li> <a href="http://www.despegar.com.py" >Paraguai</a> </li> <li> <a href="http://www.despegar.com.pe" >Peru</a> </li> <li> <a href="http://www.despegar.com.pr" >Porto Rico</a> </li> <li> <a href="http://www.despegar.com.do" >República Dominicana</a> </li> <li> <a href="http://www.despegar.com.uy" >Uruguai</a> </li> <li> <a href="http://www.despegar.com.ve" >Venezuela</a> </li> </ul> </div> </div> <div class="nevo-common-footer-legals"> <div class="nevo-common-footer-container"> <ul> <li class="nevo-common-footer-iata"><span>IATA</span></li> <li class="nevo-common-footer-text"> <p> DECOLAR.COM - Ministério do Turismo - Cadastur 26.012747.10.0001-6 / 26.012747.10.0002-3 Copyright 1999-2016, Decolar.com Ltda. Todos os direitos reservados.<br/><br/>Av. Dr. Timóteo Penteado, 1578, Vila Hulda, CEP 07094-000 - Guarulhos/SP . CNPJ: 03.563.689/0002-31 </p> </li> </ul> </div> </div> </div>
+	</div>
+
+	<div id="loading-update" ng-show="loading" class="results-update  ng-cloak">
+		<img src="http://br.staticontent.com/cars-gui-static/img-versioned/20.40.6/cars-result/despegar/images/brand_logo_pt.gif" class="logo">
+		<p>Atualizando informa&ccedil;&acirc;o</p>
+		<img src="http://br.staticontent.com/cars-gui-static/img-versioned/20.40.6/cars-result/despegar/images/loader.gif" class="modal-loader">
+	</div>
+
+	<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/js-versioned/1.55.0/FrameworkJS/pkg/main.js"></script>
+
+	<script> window.prerenderReady = false; </script>
+<script type="text/javascript">
+
+	// Genero objeto con Data para el Buscador
+	var searchParameters = {"pickUpIataType":"city","pickUpIataCode":"FLN","dropOffIataType":"city","dropOffIataCode":"FLN","language":"pt","validationToken":"Y2l0eUZMTmNpdHlGTE4="}
+	searchParameters.cssProjectPath = "http://br.staticontent.com/cars-gui-static/css-versioned/20.40.6";
+	searchParameters.imgProjectPath = "http://br.staticontent.com/cars-gui-static/img-versioned/20.40.6";
+    searchParameters.pickUpCountryCode = "BR";
+    searchParameters.landing = true; 
+    
+    var locale = "pt-BR";
+	
+    var priceViewMode = "ONLY_TOTAL";
+    
+    var rentalDaysText = "{0} dias";
+    rentalDaysText = rentalDaysText.replace("{0}", "7");
+    
+	// Genero objeto con los Mensajes. No requiere pasarse al Init
+	// Este objeto es GLOBAL y se accede desde cualquier lugar
+    
+    
+    var messages = {
+		title: 					"Filtrar por",
+		carprovidercodeAll:		"Todas as locadoras",
+		facilitiesAll:	 		"Todas as caracter&iacute;sticas",
+		doorsAll: 				"Todas as portas",
+		agenciesAll:			"Todas as locadoras",
+		price: 					"Pre&ccedil;o em",
+		distancetypeAll:		"Todos",
+		carcategoryAll:			"Todas as categorias",
+		paymentTypeAll:			"Todas as formas",
+		passengersquantityAll:	"Todas as quantidades",
+		clear: 					"Eliminar filtro",
+		to: 					"at&eacute;",
+		from: 					"Desde",
+		apply:		 			"Aplicar",
+		nonNumericValues:	 	"Deve inserir valores num&eacute;ricos",
+		maxPriceMustBeHighest: 	"A tarifa m&iacute;nima ao inserir deve ser menor que a m&aacute;xima",
+		instVar:			 	"Em at&eacute; <span class='max'>maxInstallments</span> vezes!",
+		instVarWithPayAtDest: 	"Em at&eacute; <span class='max'>maxInstallments</span> vezes agora <br />o pague ao retirar!",
+		instOne:		 		"Pagamento com cart&atilde;o!",
+		instOneWithPayAtDest:	"Pagamento com cart&atilde;o agora <br />o pague ao retirar!",
+		payAtDestWithoutInst:	"Pague ao retirar!",
+		kilometer:	 			"km",
+		miles:		 			"mi",
+		suggestedResultsTitle:	"N&atilde;o h&aacute; nenhuma oferta",
+		suggestedResultsMessage:"Lamentamos, mas o destino escolhido tem essa data ou hora para nenhuma disponibilidade. Sugerimos pesquisar en <a href='#{link}'>#{name}</a>.",
+		fewResultsTitle:		"H&aacute; uma disponibilidade limitada para suas datas escolhidas. Reserve j&aacute;! ",
+		fewResultsMessage:		"Devido &agrave; alta demanda, a oferta dispon&iacute;vel para esta data ou hora pode ser limitada. Fa&ccedil;a j&aacute; sua reserva, ou se preferir, fa&ccedil;a uma nova pesquisa datas pr&oacute;ximas. ",
+		noProvidersTitle:		"N&atilde;o promo&ccedil;&otilde;es encontrados para&nbsp;&nbsp;em&nbsp;Florianópolis",
+        noProvidersMessage:		"N&oacute;s mostramos op&ccedil;&otilde;es de outras empresas.",
+		noCategoryTitle:		"N&atilde;o h&aacute; disponibilidade para a categoria selecionada.",
+		noCategoryMessage:		"Mostramos op&ccedil;&otilde;es de outras Categorias que podem ser &uacute;teis.",
+		more: 					"Ver mais »",
+		less: 					"Ver menos locadoras",
+		scoreBAD: 				"Regular",
+		scoreREGULAR: 			"Regular",
+		scoreGOOD: 				"Bom",
+		scoreVERY_GOOD: 		"Muito bom",
+		scoreEXCELENT: 			"Excelente",
+		scoreVEHICLE_CONDITIONS:"Condi&ccedil;&atilde;o do ve&iacute;culo",
+		scoreATTENTION:			"Atendimento ao cliente",
+		scoreVEHICLE_OPERATION:	"A opera&ccedil;&atilde;o do ve&iacute;culo",
+		scoreWAITING_TIME:		"O tempo de espera na ag&ecirc;ncia",
+		scoreCOMPLIANCE_WITH_CONDITIONS:"Cumprimento das condi&ccedil;&otilde;es",
+		scoreSERVICE_INFORMATION:"Informa&ccedil;&otilde;es do servi&ccedil;o",
+		scoreRENTAL_LOCATION:	"Fácil localização da agência",
+		limitedMileage:			"Limitada",
+		unlimitedMileage:		"Ilimitada",
+		carForUrl:		 		"carros",
+		resultMapAirportMarker:  "loja.",
+		titleResultsDefault: 	"Carros em Florianópolis",
+		titleResultsAirport: 	"Carros em {0} ({1}) com melhor pre&ccedil;o garantido",
+		titleResultsAirports: 	"Carros em {0} (Aeroportos) com melhor pre&ccedil;o garantido",
+		buyButtonText:			"Comprar"
+	};
+</script>
+
+<script type="text/javascript">
+	/* <![CDATA[ */
+		var google_conversion_id = 1043149754;
+		var google_conversion_label = "dwqECKCu7AIQuue08QM";
+		var google_remarketing_only = true;
+		var google_custom_params = {
+			CustomA: 'BR',
+			CustomB: 'D',
+			CustomC: '6',
+			CustomD: '4',
+			CustomCD: '6-4',
+			CustomE: 'FLN',
+			CustomF: 'FLN'
+			};
+	/* ]]> */
+	var hostProtocol = (("https:" == document.location.protocol) ? "https" : "http");
+	document.write('<scr' + 'ipt type="text/javascript" src="' + hostProtocol + '://www.googleadservices.com/pagead/conversion.js"></scr' + 'ipt>');
+</script>
+<noscript>
+	<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="http://googleads.g.doubleclick.net/pagead/viewthroughconversion/1043149754/?value=0&label=dwqECKCu7AIQuue08QM&guid=ON&script=0"/>
+	</div>
+</noscript>
+
+
+
+<script type="text/javascript" charset="utf-8">
+    var custom_googleAnalytics_extra_data = {
+        dropOffIataCode: 'FLN',
+        pickUpDropOffStatus : 'round',
+    	iataTypes: 'city'
+    };   
+    dataLayer.push({
+        'event': 'system-action',
+        'eventCategory': 'cars-landings',
+        'eventAction': 'PV',
+        'eventLabel': custom_googleAnalytics_extra_data.pickUpDropOffStatus + '|' + custom_googleAnalytics_extra_data.iataTypes
+    });
+</script>
+
+<script id="/popup-container.html" type="text/ng-template">
+    <div class="ux-cars-popOver-container" ng-class="{ 'show-popOver' : showPopup }" ng-transclude></div>
+</script>
+<script id="/popup.html" type="text/ng-template">
+    <div class="ux-cars-popOver">
+		<div class="ux-cars-popOver-title-mobile" ng-bind-html="(dPopupHeader || dPopupMobileTitle) | unsafe"></div>
+        <div class="ux-cars-popOver-icon-close" ng-click="close()">
+            <p class="close">X</p>
+        </div>
+        <div class="ux-cars-popOver-content">
+            <div class="ux-cars-popOver-content-header ux-common-grid-col0-small" ng-if="dPopupHeader" ng-bind-html="dPopupHeader | unsafe"></div>
+            <div class="ux-cars-popOver-content-body" ng-class="{'noPadding': dPopupNoPadding}" ng-transclude></div>
+        </div>
+    </div>
+</script>
+<script id="/modal-container.html" type="text/ng-template">
+    <div class="cars-modal" ng-show="showModal">
+        <div ng-transclude></div>
+    </div>
+</script>
+<script id="/modal.html" type="text/ng-template">
+        <div class="modal-content" ng-class="dModal">
+            <div ng-transclude></div>
+        </div>
+</script>
+
+<!-- Results Startup -->
+
+<!--[if lte IE 8]>
+	<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/cars-gui-static/js-versioned/20.40.6/common/json3.js"></script>
+<![endif]-->
+
+<!-- Begin: Groovinads Behavioral-->
+		<img src="http://ads01.groovinads.com/grv/track/bhpx.os?idc=81&sku={SKU}&idcategory={IDCATEGORY}" height="1">
+<!--End: Groovinads Behavioral -->
+
+<script type="text/javascript" charset="utf-8" src="https://maps.google.com/maps/api/js?key=AIzaSyDecXGJMFmFR408KqEyk3zdHY8s5ctPCfM&libraries=places&sensor=true&language=pt-BR"></script>
+
+<script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/cars-gui-static/js-versioned/20.40.6/common/wurfl.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+
+	function getCookie(name) {
+        var re = new RegExp(name + "=([^;]+)");
+        var value = re.exec(document.cookie);
+        return (value != null) ? unescape(value[1]) : null;
+    }
+	
+    var contextData = {
+        'device': WURFL.is_mobile && typeof window.orientation !== "undefined"? WURFL.form_factor == "Smartphone" || WURFL.form_factor == "Feature Phone" || WURFL.form_factor == "Other Mobile"? "m" : "t" : navigator.userAgent.match(/Android|iPhone|iPad|iPod|IEMobile/i)? "m" : "d",
+        'trackingId': getCookie("trackerid"),
+        'cityOrigin': "FLN",
+        'cityDestination': "FLN",
+        'product': "cars",
+        'category': "D",
+        'countryCode': "BR",
+        'brand': "D",
+        'flow': "landing",
+        'osType': typeof window.orientation !== "undefined" ? navigator.userAgent.match(/Android/i) ? "Android" : navigator.userAgent.match(/iPhone|iPad|iPod/i) ? "iOS" : navigator.userAgent.match(/IEMobile/i) ? "WP" : "Otros" : "Otros"
+    };
+    
+    var app = angular.module('CarsResults', ['ngCookies', 'ngSanitize', 'Utils', 'DModal', 'DPopup', 'ngTouch', 'pasvaz.bindonce']);
+    
+	app.config(['$compileProvider', function ($compileProvider) {
+		$compileProvider.debugInfoEnabled(false);
+	}]);
+
+
+app.config(['$httpProvider', function ($httpProvider) {
+	$httpProvider.defaults.headers.common = {
+		'X-UOW' : "cars-gui-prod-02-40028"
+	}
+}]);    
+    
+    var customPriceBoxMessageValues = {
+		
+	};
+    
+	app.config(['$provide', function ($provide) {
+		$provide.constant('initialFilters', {
+			providers :  null ,
+			categories :  null 
+		});
+		$provide.constant('hasToProfileTime', false);
+        $provide.constant('sortingOptions', {"options":[{"name":"Recomendado","sortingTypeMode":"RECOMMENDED_LANDING","predicates":["orderData.recommendedLandingWithoutFormula","-orderData.review","orderData.officesQuantity","orderData.name"]},{"name":"Menor pre&ccedil;o","sortingTypeMode":"PRICE","predicates":["orderData.price","-orderData.review","orderData.officesQuantity","orderData.name"]},{"name":"Melhor pontua&ccedil;&atilde;o","sortingTypeMode":"REVIEW","predicates":["-orderData.review","orderData.price","orderData.officesQuantity","orderData.name"]}],"selectedIndex":1});
+        $provide.constant('customPriceBoxMessageValues', customPriceBoxMessageValues);
+        $provide.constant('abTestingValues', [{"key":"9","values":[{"variable":"destination-type","value":"L","saveCookie":false},{"variable":"fee-percentage","value":"B","saveCookie":false}]}]);
+        $provide.constant('channel', 'site');
+    }]);
+    
+</script>
+
+
+    <script type="text/javascript" charset="utf-8" src="http://br.staticontent.com/cars-gui-static/js-versioned/20.40.6/out/landing.js"></script>
+
+
+
+
+
+	<script type="text/javascript" charset="utf-8" src="//a248.e.akamai.net/js.despegar.com/nevo/resources/js-versioned/1.1.16/pkg/upa.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="//a248.e.akamai.net/js.despegar.com/sresources/2.3.4/login-modal.js?locale=pt_BR&tracking_code=HEADER"></script>
+
+	<script type="text/javascript" charset="utf-8" src="//a248.e.akamai.net/js.despegar.com/sresources/2.3.4/network.js?locale=pt_BR"></script>
+
+	<script type="text/javascript" charset="utf-8" src="//a248.e.akamai.net/js.despegar.com/help-modal-static/1.6.16/BR/pt-BR/help-modal.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="//a248.e.akamai.net/js.despegar.com/nevo/resources/1.1.16/header/api.js?locale=pt_BR"></script>
+
+	<script type="text/javascript" charset="utf-8" src="//www.trackeame.com/sem-tracker-web/static/js/trackeame-0.0.11.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="//a248.e.akamai.net/js.despegar.com/me/subscriptions-ui/staticui/release/1.16.05/footer/js/footer.js"></script>
+
+	<script type="text/javascript" charset="utf-8" src="//a248.e.akamai.net/js.despegar.com/nevo/resources/1.1.16/footer/api.js?locale=pt_BR"></script>
+
+
+
+
+
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"errorBeacon":"bam.nr-data.net","licenseKey":"38db3edf74","agent":"js-agent.newrelic.com\/nr-768.min.js","beacon":"bam.nr-data.net","applicationTime":2486,"applicationID":"2489265","transactionName":"Z1NSZUQDXkUEAhUIDl4ZY0FEC15RJg4PFRNfWlxURE1TVxcSTg0AXlJZX1FNUkQKFhIEEx9NWVBCA2RPFQQcThpZV0RQdQ1UUxhBSSYkZB8=","queueTime":0}</script>
+	<!-- Omniture tracking -->
+<script type="text/javascript" charset="utf-8">
+	var pageName = {"flow":"cars","section":"search","page": "landing"};
+	var pickUp = "";
+	pickUp = pickUp.split(".");
+	var dropOff = "";
+	dropOff = dropOff.split(".");
+	
+	var specificOmnitureData = {
+		pageName: pageName,
+		type: "car search results",
+		codigoOrigenBusqueda: "FLN",
+		codigoDestinoBusqueda: "FLN",
+		itinerario: "FLN_FLN",
+		fechaIda: pickUp[0],
+		horaIda: pickUp[1],
+		fechaVuelta: dropOff[0],
+		horaVuelta: dropOff[1],
+		events:[
+			"setProductSearches",
+			"setSearches"
+		]
+	}
+	
+</script>
+
+<script type="text/javascript" charset="utf-8">
+	var omnitureData = {};
+	if(typeof specificOmnitureData != 'undefined'){
+		omnitureData = specificOmnitureData;
+	}
+	omnitureData.domain = "www.decolar.com";
+	omnitureData.server = "cars-gui-prod-02";
+	omnitureData.codigoPais = "BR";
+	omnitureData.tipoProducto = "car";
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<!--OMNITURE-->
+<script type="text/javascript" src="http://br.staticontent.com/nibbler-versioned/1.5.35/pkg/trackers.js"></script>
+
+<!-- SiteCatalyst code version: H.22.1.
+Copyright 1996-2010 Adobe, Inc. All Rights Reserved
+More info available at http://www.omniture.com -->
+
+
+<script type="text/javascript">//<![CDATA[
+/*Omniture: recoleccion de datos*/
+if (omnitureData){
+
+	//Colección común de datos a trackear.
+
+	omnitureData = $.extend( true, omnitureData, { 
+
+		'idioma': 'pt'
+
+	} );
+
+	var omnitureDataCollector = new Nibbler.Common.js.OmnitureDataCollector();
+	omnitureDataCollector.omnitureDataFromHashes();
+	omnitureDataCollector.setVariables(omnitureData);
+	/* You may give each page an identifying name, server, and channel on
+	the next lines. */
+		var existOmnitureDataCollector = false;
+	try {
+		existOmnitureDataCollector = omnitureDataCollector.isAviable();
+	}
+	catch (e) { /*Do nothing*/ }
+	if (existOmnitureDataCollector) {
+		omnitureDataCollector.beforeApply(s);
+		s = omnitureDataCollector.applyData(s);
+		omnitureDataCollector.afterApply(s);
+	}
+}
+
+/*********** DO NOT ALTER ANYTHING BELOW THIS LINE ! **************/
+var gbRegex=/Googlebot/i;
+
+if( navigator && navigator.userAgent && typeof navigator.userAgent === "string" && !gbRegex.test( navigator.userAgent ) )
+{
+	s.t();
+}
+//]]></script>
+<!-- End SiteCatalyst code version: H.22.1. -->
+
+
+
+
+
+
+
+
+<!-- End Omniture tracking -->
+
+
+<!-- UPA tracking -->
+<div id="upa-data-tracker" style="display: none;">
+    <script type="text/javascript">
+
+        if(typeof UpaDataTracker != 'undefined') {
+            var upaCarsData = {
+            	
+	ab: "9|destination-type_L|fee-percentage_B",
+	id: "37925bdb-564d-40f4-925b-db564d20f4e9",
+
+                "pr": "cars",
+                "fl": "landing",
+                "lan": "PT",
+                "ref": document.referrer,
+                "url": document.URL,
+                "channel-id": "site",
+                
+               	
+                "tt": "true",
+                "pul": "FLN",
+                "pultype": "city",
+                "dol": "FLN",
+                "doltype": "city",
+                "dt": null,
+                "rett": null,
+                "ip": "187.1.61.26",
+                "cc": "BR",
+                "dn": "www.decolar.com",
+                "pg": "",
+                "cur": "BRL",
+                "days": null,
+                "so": "asc_Price",
+                "ltype": "autos en ciudad",
+                "lname": "aluguel de carros em florianopolis"
+            };
+        }
+    </script>
+    
+        
+        	<script type="text/javascript">
+        		
+	        		
+	        			
+        			
+	        			
+        			
+        		
+        	</script>
+        
+    
+</div>
+<!-- End UPA tracking -->
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	<div style="display: none;">
+        <div id="loading-content" class="loading-modal update-message modal-popup">
+    <div class="popup-body">
+        <div id="update-message-template" class="update-message">
+            <div class="ux-common-message ux-common-message-loading loading-message">
+                <div class="ux-common-message-figure ux-common-message-figure-info">
+                    <span class="ux-common-message-loading-icon"></span>
+                </div>
+                <div class="ux-common-message-content">
+                    <p>Atualizando informa&ccedil;&acirc;o</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+	
+	<!-- ClickTale Bottom part -->
+	<script type='text/javascript'>
+		// enable XHR wrapper
+		window.ClickTaleSettings = { XHRWrapper: { Enable: true} };
+	</script>
+	
+	<div id="ClickTaleDiv" style="display: none;"></div>
+	<script type='text/javascript'>		
+		document.write(unescape("%3Cscript%20src='"+
+		(document.location.protocol=='https:'?
+		'https://clicktale.pantherssl.com/':
+		'http://s.clicktale.net/')+
+		"WRd.js'%20type='text/javascript'%3E%3C/script%3E"));
+	
+		var ClickTaleSSL=1;
+		if(typeof ClickTale=='function') ClickTale(1672,1.63,"www14");
+	
+		document.write(unescape("%3Cscript%20src='"+
+		(document.location.protocol == 'https:'?
+		'https://clicktale.pantherssl.com/':
+		'http://s.clicktale.net/')+
+		"XHRWrapper.js'%20type='text/javascript'%3E%3C/script%3E"));
+	</script>
+</body>
+</html>

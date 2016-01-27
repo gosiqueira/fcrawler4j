@@ -1,0 +1,231 @@
+title=PROCON
+url=http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>PROCON</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://www.procon.rj.gov.br/procon/assets/css/style_site.css" />
+
+	<script type="text/javascript">	
+		var site_url = "http://www.procon.rj.gov.br/index.php/";
+		var base_url = "http://www.procon.rj.gov.br/";
+		var js_url	 = "http://www.procon.rj.gov.br/procon/assets/js/";
+		var img_url  = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var css_url  = "http://www.procon.rj.gov.br/procon/assets/css/";
+		var url_img = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var url_css = "http://www.procon.rj.gov.br/procon/assets/css/";
+	</script>
+	
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.ui.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/menu.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/acessibilidade.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/plugins/mi.js"></script>
+
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/scripts/site/banners.js"></script>
+
+      <script>
+         function confirmDelete(delUrl) {
+	     
+            msg = "Você está sendo redirecionado para fora do PROCON, deseja continuar?";
+            if (confirm(msg)) {
+               document.location = delUrl;
+            }
+        }
+		
+		           
+        </script>
+
+	
+</head>
+<body>
+<noscript></noscript>
+
+	<div class="governo">
+		<div class="conteudo">
+			<a target="_blank" href="http://www.rj.gov.br/web/guest">
+				<div class="logotipo">Governo do Estado do Rio de Janeiro</div>
+			</a>
+			<div class="secretaria">SECRETARIA DE ESTADO DE PROTEÇÃO DE DEFESA DO CONSUMIDOR</div>
+			<!--<div class="topo_menu">
+				<ul>
+					<li>
+						<a href="http://www.rj.gov.br/web/informacaopublica/">INFORMAÇÃO PÚBLICA</a>
+					</li>
+				</ul>
+			</div>-->
+			
+			<div class="acessibilidade">
+				<ul>
+					<li class="aumentar_fonte divisao"><a href="#" rel="nofollow">Aumentar fonte do texto</a></li>
+					<li class="diminuir_fonte divisao"><a href="#" rel="nofollow">Diminuir fonte do texto</a></li>
+					<li class="normalizar_fonte divisao"><a href="#" rel="nofollow">Voltar para tamanho original da fonte do texto</a></li>
+					<li class="altocontraste_fonte"><a href="#" rel="nofollow">Ativar Alto contraste</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class="geral">
+		
+		<div class="menu fundo_consumidor">
+			<a href="http://www.procon.rj.gov.br/index.php"><div class="logotipo">Procon RJ</div></a>
+			<div class="conteudo">
+            	<div class="titulo">MENU</div>
+				<ul>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao">INÍCIO</a></li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/1">NOTÍCIAS</a></li>
+					<li ><a href="#">INSTITUCIONAL</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/historico">histórico</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/objetivo">objetivo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/estrutura">estrutura</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/telefones">telefones</a></li>
+						</ul>
+					</li>
+					<li class="selecionado corfundo_setor_consumidor"><a href="javascript:;">CONSUMIDOR</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">dicas ao consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">educação para o consumo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/1">recall</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">código de defesa do consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/6/1">cartilhas e folders</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">LEGISLAÇÃO</a>
+					    <ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/1/1">Leis Federais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/2/1">Leis Estaduais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/3/1">Leis Municipais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/4/1">Portarias Procon</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/5/1">Outras</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">IMPRENSA</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/fato_foto">fatos e fotos</a></li>
+							<!--<li><a href="http://www.procon.rj.gov.br/index.php/informativo">informativo</a></li>-->
+							<li><a href="http://www.procon.rj.gov.br/index.php/clipping">clipping</a></li>
+                            <li><a href="http://www.procon.rj.gov.br/index.php/main/contato">contato</a></li>
+							<li><a href="javascript:proconNaMidia();">v&iacute;deos</a></li>
+						</ul>
+					</li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/link_util">LINKS</a></li>
+					<li ><a href="#">ATENDIMENTO</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/posto_atendimento">postos de atendimento</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/agenda_procon_movel">agenda procon móvel</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/expressinho">procon expressinho</a></li>
+                           				<li><a href="http://www.procon.rj.gov.br/index.php/main/disque151">disque procon 151</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/ouvidoria">ouvidoria</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div>
+                     <div class="redesSociais">
+			     <a href="javascript:confirmDelete('http://www.facebook.com/ProconRJ')"><div class="redesSociaisFacebook">.</div></a>
+     			     <a href="javascript:confirmDelete('https://twitter.com/ProconRJ')"><div class="redessociais_twitter">.</div></a>
+                     </div>
+		</div>
+		
+		<div class="principal">
+		
+	<div class="suporte">
+				<div class="busca">	
+						
+					<div class="superior"></div>
+					<div class="conteudo">
+						<label for="txtBusca" style="display:none;"></label>
+						<input maxlength="100" name="txtBusca" id="txtBusca" type="text" value="Buscar..."/>
+						<div class="botao">
+							<a id="btnBuscar" href="javascript:;">
+								<img src="http://www.procon.rj.gov.br/procon/assets/imagens/icone_detalhar.png" alt="Buscar" title="Buscar" width="19" height="19" border="0"/>Buscar
+							</a>
+						</div>
+					</div>	
+							
+					<div class="inferior"></div>
+				</div>
+					
+				<div class="texto">Para DENÚNCIAS e ORIENTAÇÕES ligue para 151 e o horário de funcionamento é de segunda à sexta de 07:00 às 19:00.</div>
+			</div>
+			
+		
+			<div class="acabamento"></div>
+			<div class="palco">
+			
+				<div class="apoio">
+					<div class="instrucoes margin_bottom_20">
+						<div class="titulo">
+							<h1>EDUCAÇÃO<br />PARA O CONSUMO</h1>
+						</div>
+						<div class="instrucoes_conteudo">
+							<p class="margin_bottom_20">Saiba o que determina o Código de Defesa do Consumidor e aprenda a usar os seus direitos.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">ENTENDA MAIS</a></p>
+							<p class="margin_bottom_20">Veja como o PROCON orienta de maneira simples e clara o consumidor, antes de realizar as compras ou adquirir serviços.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">VER DICAS</a></p>
+							<p>Conhe&ccedil;a o C&oacute;digo de Defesa do Consumidor (Portugu&ecirc;s, English, Espa&ntilde;ol).<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">MAIS INFORMAÇÕES</a></p>
+						</div>
+						<div class="acabamento"></div>
+					</div>
+					<div class="banners">
+						
+					</div>
+				</div>
+				
+				<div class="conteudo hiddenInViewSource">
+						<input type="hidden" value="" id="linkAnterior"/>
+<input type="hidden" value="0" id="temPublicacoes"/>
+<input type="hidden" value="5" id="tipos"/>
+<div class="conteudo">
+	
+			<h1 class="cor_setor_consumidor">CONSUMIDOR
+			<span class="font_size_20">  / código de defesa do consumidor</span>
+			
+			
+		</h1>
+		
+		
+	<p class="font_size_16">
+				<p class="font_size_16"><a href="http://www.procon.rj.gov.br/procon/assets/arquivos/arquivos/CDC_Novembro_2014_Portugues.pdf"  target="_blank">Código de Defesa do Consumidor -      Português - 416kb</a><br><br></p>
+				<a href="http://www.procon.rj.gov.br/procon/assets/arquivos/arquivos/CDC_Novembro_2014_Ingles.pdf"  target="_blank">CODE OF CONSUMER DEFENSE AND PROTECTION - Inglês - 408kb</a><br><br></p>
+				<p class="font_size_16"><a href="http://www.procon.rj.gov.br/procon/assets/arquivos/arquivos/CDC_Novembro_2014_Espanhol.pdf"  target="_blank">CÓDIGO DE PROTECCIÓN Y DEFENSA DEL CONSUMIDOR  - Espanhol - 420kb</a></p></div>
+
+		
+				
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="base">
+			<div class="proderj">Tecnologia PRODERJ - Todos os direitos reservados</div>
+			<div class="direitos">
+            	<div class="logotipo"><a href="#">Saiba Mais sobre Creative Commons</a></div>
+                <div class="texto">Esta obra é licenciada sob uma licença Creative Commons Atribuio 2.0 Brasil</div>
+			</div>
+			<div class="acabamento">
+			</div>
+		</div>
+		
+	</div>
+	
+
+	
+	
+
+ 
+
+
+</body>
+</html>
+
+
+
+
+

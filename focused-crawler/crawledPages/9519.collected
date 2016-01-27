@@ -1,0 +1,674 @@
+title=Timetables for your shuttle between Charles de Gaulle and Disneyland® Paris
+url=http://magicalshuttle.co.uk/timetables-prices/charles-de-gaulle-shuttle-schedules/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>
+Timetables for your shuttle between Charles de Gaulle and Disneyland® Paris</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="description" content="Find all schedules and fares for regular connections between airports and Disneyland® Paris brought by Magical Shuttle. Timetables for your shuttle between Charles de Gaulle and Disneyland® Paris" /><link rel="stylesheet" type="text/css" media="screen" href="http://magicalshuttle.co.uk/wp-content/themes/vea-en/css/jquery-ui-1.8.22.custom.css" />
+<link rel="stylesheet" type="text/css" media="screen" href="http://magicalshuttle.co.uk/wp-content/themes/vea-en/style.css" />
+<!--[if IE 8]>
+<link rel="stylesheet" type="text/css" media="all" href="http://magicalshuttle.co.uk/wp-content/themes/vea-en/style-ie8.css" />
+<![endif]-->
+<!--[if IE 9]>
+<link rel="stylesheet" type="text/css" media="all" href="http://magicalshuttle.co.uk/wp-content/themes/vea-en/style-ie9.css" />
+<![endif]-->
+<link rel="stylesheet" type="text/css" media="screen" href="http://magicalshuttle.co.uk/wp-content/themes/vea-en/css/validationEngine.jquery.css" />
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/jquery-1.7.2.js"></script>
+<script type="text/javascript">
+$(document).ready(function()
+{
+	// Vérification du support
+	if(jQuery.browser.mobile == true)
+	{
+		var desk = window.location.search.replace("?", "");
+		if(desk != 'desk')
+			document.location.href = "http://m.magicalshuttle.co.uk";
+	}
+});
+</script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/jquery-ui-1.8.22.custom.min.js"></script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/jquery-ui-datepicker-en.js"></script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/jquery.validationEngine.js"></script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/jquery.validationEngine-en.js"></script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/slides.min.jquery.js"></script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/jquery.browser.mobile.js"></script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/jquery.realperson.min.js"></script>
+<script type="text/javascript">
+var $timeout = true;
+var $lang = 'EN';
+var $tplurl = 'http://magicalshuttle.co.uk/wp-content/themes/vea-en';
+var $baseurl = 'http://magicalshuttle.co.uk';
+</script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/lang.js"></script>
+<script type="text/javascript" src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/js/vea.js"></script>
+</head>
+<body itemscope itemtype="http://schema.org/WebPage" class="magical">
+    <div style="display:none;" id="bgwait"><div id="wait"><img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/ajax-loader.gif" /><br /><br /><p>We are handling your request.<br />Thank you for waiting.</p></div><!-- /#wait --></div><!-- /#bgwait -->
+	<div id="page">
+    <div id="sidebar">
+    <p class="section">Choose<br />your journey</p>
+    <form action="http://magicalshuttle.co.uk/booking" method="post">
+        <div class="bloc">
+            <div>
+            	<label>Leaving from:</label>
+                <select id="lieuDepart" name="lieuDepart">
+                    <option value="">Please select a departure...</option>
+                    <optgroup id="dep_airport" label="Airports">
+                        <option value="CDG">Charles De Gaulle</option><option value="ORY">Orly</option>                    </optgroup>
+                    <optgroup id="dep_busstation" label="Bus stations">
+                        <option value="ChesG">Chessy Gare Routière (Parc Disney)</option><option value="DLP">Disneyland Paris</option><option value="SeriG">Serris gare routière (Val d'Europe)</option>                    </optgroup>
+                    <optgroup id="dep_hotel" label="Hotels">
+                        <option value="AcoMx">Acostel Meaux</option><option value="ADAGI">Hotel Adagio Val d'Europe</option><option value="AdagioTorcy">Adagio Torcy</option><option value="AFF">Séjours Affaires Apparthotel</option><option value="BalladinTorcy">Balladins Torcy</option><option value="BestWestBussy">Best Western Bussy St Georges</option><option value="BnBBussy">BnB Bussy</option><option value="BnBNoisy">BnB Noisy le Grand</option><option value="busferlonoitor">Bussy.Ferriere.Lognes.Noisy le Grand.Noisiel.Torcy hôtels</option><option value="CampaBussy">Campanile Bussy</option><option value="CampaMx">Campanile Meaux</option><option value="CampaTorcy">Campanile Torcy</option><option value="CHY">Disney's hôtel Cheyenne</option><option value="CiteaBussy">Citéa Bussy</option><option value="ConfMx">Confort Meaux</option><option value="DeuParcNoisiel">Deux Parcs Noisiel</option><option value="DLH">Disneyland hôtel</option><option value="Dream">Dream Castle hôtel</option><option value="ELY">Elysée Val d'Europe</option><option value="EuroparcLognes">Europarc Lognes</option><option value="Explo">Explorer hôtel</option><option value="F1Noisy">Formule 1 Noisy le Grand</option><option value="GoldTulipBussy">Golden Tulip Bussy</option><option value="Hipar">Hipark hotel</option><option value="HipotelNoisiel">Hipotel Noisiel</option><option value="HNY">Disney's hôtel New York</option><option value="HolidayNoisy">Holiday Inn Noisy le grand</option><option value="HSF">Disney's hôtel Santa fe</option><option value="HSQL">Disney's hôtel Sequoia Lodge</option><option value="Ibis">Ibis Val d'Europe</option><option value="IbisMx">Ibis Meaux</option><option value="IbisNoisy">Ibis Noisy le Grand</option><option value="KyrMlh">Kyriad Magny le Hongre</option><option value="KyrMx">Kyriad Meaux</option><option value="KyrNoisy">Kyriad Noisy le Grand</option><option value="KyrTorcy">Kyriad Torcy</option><option value="Magic">Magic Circus hôtel</option><option value="Meaux">Meaux hôtels</option><option value="MisterBedTorcy">Mister Bed Torcy</option><option value="NovoNoisy">Novotel Noisy le Grand</option><option value="NovoTorcy">Novotel Torcy</option><option value="NPBC">Disney's hôtel Newport Bay Club</option><option value="ParksuiteelegLo">Park Suite Elegance Lognes</option><option value="PaxtonFer">Paxton Ferrière</option><option value="PécheurNoisiel">Pécheur Noisiel</option><option value="PremclasBussy">Première Classe Bussy</option><option value="PremclasNoisy">Première Classe Noisy le Grand</option><option value="PremclasTorcy">Première Classe Torcy</option><option value="Rehom">Resid'home</option><option value="RSPA">Relais SPA</option><option value="Selec">Hotels Selected</option><option value="VALEURVALFRANCE">Val d'Europe Magny le Hongre hôtels</option><option value="VALVIL">Vallée Village</option><option value="VilaBelaBussy">Villa Bella Bussy</option>                        <option value="autreshotels">Other hotels</option>
+                    </optgroup>
+                    <optgroup label="Paris"><option value="pariscentre">Paris centre</option></optgroup>
+                </select>
+            </div>
+            <div>
+               <label>Going to:</label>
+                <select id="lieuDestination" name="lieuDestination">
+                    <option value="">Please select an arrival...</option>
+                </select>
+            </div>
+        </div><!-- /.bloc -->
+        <div class="bloc" id="msgAlertSidebar">
+        	<p>Do you need a shuttle outside the hours covered by the Magical Shuttle shuttle service (from 7 pm to 6 am)? Or to a destination in Paris from the Paris airports? Discover the offer <a title="Discover the offer SuperShuttle" target="_blank" href="http://en.supershuttle.fr/?GC=VEAPA">SuperShuttle</a></p>
+        </div>
+        <div class="sideHideForm">
+            <div class="bloc">
+                <p class="titre">Outward</p>
+                <div>
+                    <input type="checkbox" id="allerRetourSidebar" name="allerRetourSidebar" checked="checked" />
+                    <label class="checkbox">Outward and return</label>
+                </div>
+                <div>
+                    <label>Date:</label>
+                    <input type="text" id="dateDepartSidebar" name="dateDepartSidebar" class="datepicker" />
+                </div>
+                <div class="alerteSidebar">
+                    <div class="horaireVolSidebar">
+                        <label>Flight timetable:</label>
+                        <select id="horaireSidebarVolAller" class="validate[required]"></select>
+                    </div>
+                    <div id="msgAlertSidebarAller"></div>
+                </div><!-- /.alerteSidebar -->
+                <div class="clr"></div>
+            </div><!-- /.bloc -->
+            <div class="bloc" id="divDateRetourSidebar">
+                <p class="titre">Return</p>
+                <div>
+                    <label>Date:</label>
+                    <input type="text" id="dateRetourSidebar" name="dateRetourSidebar" class="datepicker" />
+                </div>
+                <div class="alerteSidebar">
+                    <div class="horaireVolSidebar">
+                        <label>Flight timetable:</label>
+                        <select id="horaireSidebarVolRetour" class="validate[required]"></select>
+                    </div>
+                    <div id="msgAlertSidebarRetour"></div>
+                </div><!-- /.alerteSidebar -->
+                <div class="clr"></div>
+            </div><!-- /.bloc --><!-- /#divDateRetourSidebar -->
+            <div class="bloc">
+               <p class="titre">Passengers</p>
+                <div id="passagersSidebar">
+                                    <div>
+                    <label>Adulte</label><br />
+                    <input type="text" maxlength="2" id="side_ADULT" name="nbside_ADULT" class="nombre" />
+                    <input type="button" id="side_plusADULT" class="plus" />
+                    <input type="button" id="side_moinsADULT" class="moins" />
+                    </div>
+                                    <div>
+                    <label>Enfant de moins de 6 ans</label><br />
+                    <input type="text" maxlength="2" id="side_CHILD" name="nbside_CHILD" class="nombre" />
+                    <input type="button" id="side_plusCHILD" class="plus" />
+                    <input type="button" id="side_moinsCHILD" class="moins" />
+                    </div>
+                                    <div>
+                    <label>Enfant de moins de 3 ans</label><br />
+                    <input type="text" maxlength="2" id="side_INFANT" name="nbside_INFANT" class="nombre" />
+                    <input type="button" id="side_plusINFANT" class="plus" />
+                    <input type="button" id="side_moinsINFANT" class="moins" />
+                    </div>
+                                </div><!-- /#passagersSidebar -->
+                <div class="clr"></div>
+                <a href="http://magicalshuttle.co.uk/faq" title="Informations for passengers with reduced mobilitye">Informations for passengers with reduced mobilitye</a>
+                <div class="clr"></div>
+            </div><!-- /.bloc -->
+            <div class="bloc">
+                <label>Promo code: </label>
+                <input type="text" id="code_promoSidebar" name="code_promoSidebar" />
+            </div><!-- /.bloc -->
+         </div><!-- /.sideHideForm -->
+        <div id="submitSidebar"><input type="submit" class="voirBilletsTarifs" value="Voir Billets & Tarifs" /></div>
+    </form>
+</div><!-- /#sidebar -->    <div id="main">
+		<div id="header">
+            <div id="block_header">
+                <div id="logo">
+                    <a href="http://magicalshuttle.co.uk" title="Home - Magical Shuttle">
+                        <img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/logo_magical.png" width="322" height="196" border="0" alt="Magical Shuttle shuttle bus service between airports and disneyland paris" />
+                    </a>
+                </div><!-- /#logo -->
+                <div id="description">
+                    <h1>VEA <span>becomes</span> <strong>MAGICAL SHUTTLE</strong></h1>
+                    <h2>Shuttles airports<br /> Disneyland<sup>&reg;</sup> Paris Hotels</h2>
+                    <h3>Airport Approved Carrier</h3>
+                </div><!-- /#description -->
+                <div id="lang">
+                	<a  href="http://magicalshuttle.fr" title="Français">
+                		<img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/fr.png" title="Français" alt="Français" />
+                    </a>
+                    <a  href="http://magicalshuttle.co.uk" title="English">
+                		<img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/en.png" title="English" alt="English" />
+                    </a>
+                    <a  href="http://magicalshuttle.it" title="Italiano">
+                		<img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/it.png" title="Italiano" alt="Italiano" />
+                    </a>
+                    <a href="http://magicalshuttle.es" title="Espa&ntilde;ol">
+                		<img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/es.png" title="Espa&ntilde;ol" alt="Espa&ntilde;ol" />
+                    </a>
+                    <a href="http://magicalshuttle.de" title="Deutsche">
+                		<img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/de.png" title="Deutsche" alt="Deutsche" />
+                    </a>
+                </div><!-- /#lang -->
+            </div><!-- /#block_header -->
+            <div class="clr"></div>
+            <div id="menu_resize">
+                <div id="menu">
+                    <ul>
+                        <li class="first "><a href="http://magicalshuttle.co.uk" title="Home - Magical Shuttle">Home</a></li>
+                        <li id="reserver" ><a href="http://magicalshuttle.co.uk/booking" title="Book now! - Magical Shuttle">Booking</a></li>
+                        <li id="horaires" class="active"><a href="#" title="Timetables/ Prices - Magical Shuttle">Timetables<br />and Prices</a>
+                        	<div id="sub_menu_horaires">
+                                <ul>
+                                								<li>
+									<a href="http://magicalshuttle.co.uk/timetables-prices/la-vallee-village/" title="La Vallée Village - Magical Shuttle - Airport Approved Carrier"><span>La Vallée Village</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/timetables-prices/night-shuttles-schedules/" title="Night Shuttles schedules - Magical Shuttle - Airport Approved Carrier"><span>Night Shuttles schedules</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/timetables-prices/paris-shuttle-schedules/" title="Paris shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Paris shuttle schedules</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/timetables-prices/charles-de-gaulle-shuttle-schedules/" title="Charles-de-Gaulle shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Charles-de-Gaulle shuttle schedules</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/timetables-prices/orly-shuttle-schedules/" title="Orly shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Orly shuttle schedules</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/timetables-prices/beauvais-shuttle-schedules/" title="Beauvais shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Beauvais shuttle schedules</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/timetables-prices/horaires-navettes-cdg-val-deurope-selected/" title="CDG &#8211; Val d&rsquo;Europe &#8211; Selected shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>CDG &#8211; Val d&rsquo;Europe &#8211; Selected shuttle schedules</span></a>
+								</li>
+								                                </ul>
+                            </div><!-- /#sub_menu_parcs -->
+                        </li>
+                        <li id="decouvrir" ><a href="#" title="About Magical Shuttle - Magical Shuttle">About<br /> Magical Shuttle</a>
+                        	<div id="sub_menu_decouvrir">
+                                <ul>
+                                								<li>
+									<a href="http://magicalshuttle.co.uk/about-magicalshuttle/new-counter-magicalshuttle/" title="New counter Magical Shuttle - Magical Shuttle - Airport Approved Carrier"><span>New counter Magical Shuttle</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/about-magicalshuttle/the-visual-group/" title="The Visual group - Magical Shuttle - Airport Approved Carrier"><span>The Visual group</span></a>
+								</li>
+								                                </ul>
+                            </div>
+                        </li>
+                        <li id="parcs" ><a href="#" title="Special offers - Magical Shuttle">Special<br />offers</a>
+                        	<div id="sub_menu_parcs">
+                                <ul>
+                                								<li>
+									<a href="http://magicalshuttle.co.uk/special-offers/shuttle-pack-entrance-for-1-day-2-parks/" title="Shuttle pack + Entrance for 1 day / 1 Park - Magical Shuttle - Airport Approved Carrier"><span>Shuttle pack + Entrance for 1 day / 1 Park</span></a>
+								</li>
+								                                </ul>
+                            </div><!-- /#sub_menu_parcs -->
+                        </li>
+                        <li id="hotels" ><a href="#" title="Partner hotels - Magical Shuttle">Partner<br />hotels</a>
+                        	<div id="sub_menu_hotels">
+                                <ul>
+                                								<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-hotel-new-york/" title="Disney&rsquo;s Hotel New York<sup>®</sup> - Magical Shuttle - Airport Approved Carrier"><span>Disney&rsquo;s Hotel New York<sup>®</sup></span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-hotel/" title="Disneyland<sup>®</sup> Hôtel - Magical Shuttle - Airport Approved Carrier"><span>Disneyland<sup>®</sup> Hôtel</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-hotel-cheyenne/" title="Disney’s Hotel Cheyenne<sup>®</sup> - Magical Shuttle - Airport Approved Carrier"><span>Disney’s Hotel Cheyenne<sup>®</sup></span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-hotel-santa-fe/" title="Disney’s Hotel Santa Fe<sup>®</sup> - Magical Shuttle - Airport Approved Carrier"><span>Disney’s Hotel Santa Fe<sup>®</sup></span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-newport-bay-club/" title="Disney’s Newport Bay Club<sup>®</sup> - Magical Shuttle - Airport Approved Carrier"><span>Disney’s Newport Bay Club<sup>®</sup></span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-sequoia-lodge/" title="Disney’s Sequoia Lodge<sup>®</sup> - Magical Shuttle - Airport Approved Carrier"><span>Disney’s Sequoia Lodge<sup>®</sup></span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-dream-castle-hotel/" title="Dream Castle Hotel - Magical Shuttle - Airport Approved Carrier"><span>Dream Castle Hotel</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/disneyland-explorers-hotel/" title="Explorers Hôtel - Magical Shuttle - Airport Approved Carrier"><span>Explorers Hôtel</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/hotel-kyriad/" title="Kyriad Hotel - Magical Shuttle - Airport Approved Carrier"><span>Kyriad Hotel</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/hotel-magic-circus/" title="Magic Circus Hotel - Magical Shuttle - Airport Approved Carrier"><span>Magic Circus Hotel</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/adagio/" title="Adagio - Magical Shuttle - Airport Approved Carrier"><span>Adagio</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/elysee-val-deurope/" title="Élysée Val d&rsquo;Europe - Magical Shuttle - Airport Approved Carrier"><span>Élysée Val d&rsquo;Europe</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/ibis/" title="Ibis - Magical Shuttle - Airport Approved Carrier"><span>Ibis</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/relais-spa/" title="Relais Spa - Magical Shuttle - Airport Approved Carrier"><span>Relais Spa</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/partner-hotels/sejours-affaires-apparthotel/" title="Séjours &#038; Affaires Apparthotel - Magical Shuttle - Airport Approved Carrier"><span>Séjours &#038; Affaires Apparthotel</span></a>
+								</li>
+								                                </ul>
+                            </div><!-- /#sub_menu_hotels -->
+                        </li>
+                        <li id="contact" ><a href="http://magicalshuttle.co.uk/contact" title="Contact - Magical Shuttle">Contact</a>
+                        	<div id="sub_menu_contact">
+                                <ul>
+                                								<li>
+									<a href="http://magicalshuttle.co.uk/contact/request-for-information/" title="Request for information - Magical Shuttle - Airport Approved Carrier"><span>Request for information</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/contact/give-us-your-opinion/" title="Give us your opinion - Magical Shuttle - Airport Approved Carrier"><span>Give us your opinion</span></a>
+								</li>
+																<li>
+									<a href="http://magicalshuttle.co.uk/contact/claims/" title="Claims - Magical Shuttle - Airport Approved Carrier"><span>Claims</span></a>
+								</li>
+								                                </ul>
+                            </div><!-- /#sub_menu_contact -->
+                        </li>
+                        <li class="last "><a href="http://lopenvea.com" title="Pros - Magical Shuttle">Pros</a></li>
+                    </ul>
+                </div><!-- /#menu -->
+        	</div><!-- /#menu_resize -->
+        </div><!-- /#header -->
+        <div class="clr"></div><div class="content">
+    <div class="breadcrumb" itemprop="breadcrumb">
+        <a href="http://magicalshuttle.co.uk" title="Home">Magical Shuttle</a>&nbsp;&nbsp;&gt;&nbsp;&nbsp;<strong>Charles-de-Gaulle shuttle schedules</strong>
+    </div><!-- /.breadcrumb -->
+            <a href="http://magicalshuttle.co.uk/booking" title="Book now !">
+                <div class="banner" style="background:url(http://magicalshuttle.co.uk/wp-content/blogs.dir/2/files/2015/07/CDG-GB.jpg) no-repeat; height:250; width:710">
+        </div><!-- /.banner -->
+        </a>
+        <div class="horaire">
+        <h1>Charles-de-Gaulle shuttle schedules</h1>
+        <p><strong>Magical Shuttle offers a number of direct connections</strong> between Disneyland® Paris and Roissy-Charles-de-Gaulle on a daily basis.  In 2012, they carried more than 61 million passengers, making them the second largest platform in Europe.</p>
+<p><strong>Book your tickets now and enjoy attractive rates and impeccable service.</strong></p>
+<p>&nbsp;</p>
+<h6>Price per person per trip</h6>
+<table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th>Rates</th>
+<th>Adults</th>
+<th>Children<br />
+<em>(3/6 years old)<br />
+</em></th>
+<th>Infants<br />
+<em>(-3 years)</em></th>
+</tr>
+<tr>
+<td>CDG &#8211; DISNEY</td>
+<td style="text-align: center;">20 €</td>
+<td style="text-align: center;">16 €</td>
+<td style="text-align: center;">Free</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<h6>Shuttle timetables</h6>
+<p><em> * Theoretical schedules </em></p>
+        <br />
+        <table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="5">CDG 2E/2F > HOTELS DISNEYLAND<sup>®</sup></th>
+</tr>
+<tr>
+<td>9h00</td>
+<td>11h15</td>
+<td>13h30</td>
+<td>15h45</td>
+<td>18h30</td>
+</tr>
+<tr>
+<td>9h45</td>
+<td>12h00</td>
+<td>14h15</td>
+<td>16h25</td>
+<td>19h45</td>
+</tr>
+<tr>
+<td>10h30</td>
+<td>12h45</td>
+<td>15h00</td>
+<td>17h30</td>
+</tr>
+</tbody>
+</table>        <br />
+        <table border="1" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<th colspan="8">HOTELS DISNEYLAND<sup>®</sup> > CDG 2E/2F</th>
+</tr>
+<tr>
+<tr>
+<th>Disneyland<sup>®</sup> Hotel</th>
+<th>Disneyland<sup>®</sup> Paris / Chessy gare routière</th>
+<th>Disney's Hotel New York<sup>®</sup></th>
+<th>Disney's Hotel Cheyenne<sup>®</sup></th>
+<th>Disney's Hotel Sante Fe<sup>®</sup></th>
+<th>Disney's Hotel Sequoia Lodge<sup>®</sup></th>
+<th>Disney's Hotel Newport Bay Club<sup>®</sup></th>
+<th>Estimated Time of Arrival</th>
+</tr>
+<tr>
+<td>06h30</td>
+<td>06h35</td>
+<td>06h40</td>
+<td>06h45</td>
+<td>06h55</td>
+<td>07h00</td>
+<td>07h05</td>
+<td>08h05</td>
+</tr>
+<tr>
+<td>08h30</td>
+<td>08h35</td>
+<td>08h40</td>
+<td>08h45</td>
+<td>08h55</td>
+<td>09h00</td>
+<td>09h05</td>
+<td>10h05</td>
+</tr>
+<tr>
+<td>10h00</td>
+<td>10h05</td>
+<td>10h10</td>
+<td>10h15</td>
+<td>10h25</td>
+<td>10h30</td>
+<td>10h35</td>
+<td>11h35</td>
+</tr>
+<tr>
+<td>11h00</td>
+<td>11h05</td>
+<td>11h10</td>
+<td>11h15</td>
+<td>11h25</td>
+<td>11h30</td>
+<td>11h35</td>
+<td>12h35</td>
+</tr>
+<tr>
+<td>12h00</td>
+<td>12h05</td>
+<td>12h10</td>
+<td>12h15</td>
+<td>12h25</td>
+<td>12h30</td>
+<td>12h35</td>
+<td>13h35</td>
+</tr>
+<tr>
+<td>13h00</td>
+<td>13h05</td>
+<td>13h10</td>
+<td>13h15</td>
+<td>13h25</td>
+<td>13h30</td>
+<td>13h35</td>
+<td>14h35</td>
+</tr>
+<tr>
+<td>14h00</td>
+<td>14h05</td>
+<td>14h10</td>
+<td>14h15</td>
+<td>14h25</td>
+<td>14h30</td>
+<td>14h35</td>
+<td>15h35</td>
+</tr>
+<tr>
+<td>15h00</td>
+<td>15h05</td>
+<td>15h10</td>
+<td>15h15</td>
+<td>15h25</td>
+<td>15h30</td>
+<td>15h35</td>
+<td>16h35</td>
+</tr>
+<tr>
+<td>15h45</td>
+<td>15h50</td>
+<td>15h55</td>
+<td>16h00</td>
+<td>16h10</td>
+<td>16h15</td>
+<td>16h20</td>
+<td>17h20</td>
+</tr>
+<tr>
+<td>16h30</td>
+<td>16h35</td>
+<td>16h40</td>
+<td>16h45</td>
+<td>16h55</td>
+<td>17h00</td>
+<td>17h05</td>
+<td>18h05</td>
+</tr>
+<tr>
+<td>17h15</td>
+<td>17h20</td>
+<td>17h25</td>
+<td>17h30</td>
+<td>17h40</td>
+<td>17h45</td>
+<td>17h50</td>
+<td>18h50</td>
+</tr>
+<tr>
+<td>18h00</td>
+<td>18h05</td>
+<td>18h10</td>
+<td>18h15</td>
+<td>18h25</td>
+<td>18h30</td>
+<td>18h35</td>
+<td>19h35</td>
+</tr>
+<tr>
+<td>19h00</td>
+<td>19h05</td>
+<td>19h10</td>
+<td>19h15</td>
+<td>19h25</td>
+<td>19h30</td>
+<td>19h35</td>
+<td>20h35</td>
+</tr>
+</tbody>
+</table>        <br />
+        <p>Magical Shuttle's <strong>spacious and comfortable</strong> shuttles are waiting for you at Terminal 2F. You can access the information on your e-ticket or in the instructions below.<br/>
+<br/>
+<span style="text-decoration: underline;"><strong>From Terminal 1 :</strong></span><br/>
+Follow Terminal 2 and CDGVAL then Terminal 2F, arrivals and take the corridor down to door 8.<br/>
+<br/>
+<span style="text-decoration: underline;"><strong><strong>From </strong>Terminal 2 :</strong></span><br/>
+<span style="text-decoration: underline;">2A :</span> Follow Terminal 2C and then Terminal 2E, Arrivals, and take the corridor down to door 8.<br/>
+<span style="text-decoration: underline;">2B/2D :</span> Follow Terminal 2F, arrivals and take the corridor down to door 8.<br/>
+<span style="text-decoration: underline;">2C :</span> Follow arrivals level Terminal 2E; take the corridor down to door 8.<br/>
+<span style="text-decoration: underline;">2G :</span> Take the bus to Terminal 2F, go down to the arrivals level and take the corridor to door 8.<br/>
+<span style="text-decoration: underline;">Terminals 2A/B/C/D :</span> take the bus and alight at Terminal 2E, head to arrivals and take the corridor to door 8.<br/>
+<br/>
+<span style="text-decoration: underline;"><strong><strong>From </strong>Terminal 3 :</strong></span><br/>
+Follow Terminal 2 then CDGVAL and then Terminal 2F arrivals, take the corridor to door 8.<br/>
+<br/>
+<span style="text-decoration: underline;"><strong>NOTE :</strong></span> For your return journey, we recommend that you schedule your shuttle departure at least 2:30 before check in at Roissy CDG airport.</p>	</div><!-- /.horaire -->
+        <hr class="hr">
+    <div class="pushs">
+                        <div class="push">
+            <p><a href="http://magicalshuttle.co.uk/wp-content/blogs.dir/2/files/2015/07/PUSHS-HOME-NAVETTE-PARCS.jpg"><img class="aligncenter wp-image-816 size-full" src="http://magicalshuttle.co.uk/wp-content/blogs.dir/2/files/2015/07/PUSHS-HOME-NAVETTE-PARCS.jpg" alt="" width="210" height="152" /></a></p>
+<h2>Shuttle pack + entrance for 1 day / 1 park</h2>
+<p><strong>WEB EXCLUSIVE</strong></p>
+<p>&nbsp;</p>
+<p>Adult at a child price : 101€</p>
+<p>&nbsp;</p>
+<p><a title="Pack shuttle and park" href="http://magicalshuttle.co.uk/special-offers/shuttle-pack-entrance-for-1-day-2-parks/">&gt; Find out more</a><br />
+<a class="reserver" title="Book Now" href="http://magicalshuttle.co.uk/booking">Book Now</a></p>
+        </div><!-- /.push -->
+                <div class="push">
+            <p><img class="aligncenter size-full wp-image-237" title="CDG and Orly shuttle buses" src="http://magicalshuttle.co.uk/wp-content/blogs.dir/2/files/2015/07/PUSHS-HOME-ORLY-CDG.jpg" alt="CDG and Orly shuttle buses" width="210" height="152" /></p>
+<h2>CDG and Orly<br />
+shuttle buses</h2>
+<p><strong>from</strong><br />
+16 €</p>
+<p>Magical Shuttle offers attractive rates on Roissy-CDG and Orly shuttle buses.</p>
+<p>&nbsp;</p>
+<p><a title="Charles-de-Gaulle shuttle schedules" href="http://magicalshuttle.co.uk/timetables-prices/charles-de-gaulle-shuttle-schedules/">&gt; Find out more</a><br />
+<a class="reserver" title="Booking" href="http://magicalshuttle.co.uk/booking/">Book Now</a></p>
+        </div><!-- /.push -->
+            </div><!-- /.pushs -->
+    <div class="clr"></div>
+
+</div><!-- /.content -->
+<div class="clr"></div>
+ 
+    <div id="footer">
+        <div id="sitemap">
+            <ul>
+            	<li class="first"><a href="http://magicalshuttle.co.uk/booking" title="Booking - Magical Shuttle"><p class="sitemap_title">Booking</p></a></li>
+                <li><a href="#" title="Timetables/ Prices - Magical Shuttle"><p class="sitemap_title">Timetables/ Prices</p></a>
+                    <ul>
+                    					<li>
+						<a href="http://magicalshuttle.co.uk/timetables-prices/la-vallee-village/" title="La Vallée Village - Magical Shuttle - Airport Approved Carrier"><span>La Vallée Village</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/timetables-prices/night-shuttles-schedules/" title="Night Shuttles schedules - Magical Shuttle - Airport Approved Carrier"><span>Night Shuttles schedules</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/timetables-prices/paris-shuttle-schedules/" title="Paris shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Paris shuttle schedules</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/timetables-prices/charles-de-gaulle-shuttle-schedules/" title="Charles-de-Gaulle shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Charles-de-Gaulle shuttle schedules</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/timetables-prices/orly-shuttle-schedules/" title="Orly shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Orly shuttle schedules</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/timetables-prices/beauvais-shuttle-schedules/" title="Beauvais shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>Beauvais shuttle schedules</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/timetables-prices/horaires-navettes-cdg-val-deurope-selected/" title="CDG &#8211; Val d&rsquo;Europe &#8211; Selected shuttle schedules - Magical Shuttle - Airport Approved Carrier"><span>CDG &#8211; Val d&rsquo;Europe &#8211; Selected shuttle schedules</span></a>
+					</li>
+					                    </ul>
+            	</li>
+                <li><a href="http://magicalshuttle.co.uk/about-magicalshuttle" title="About Magical Shuttle - Magical Shuttle"><p class="sitemap_title">About Magical Shuttle</p></a>
+                	<ul>
+                        <li><a href="http://vad-vea.netc-es.com/index.php" title="Pros - Magical Shuttle"><p class="sitemap_title">Pros</p></a></li>
+                        <li><a href="http://magicalshuttle.co.uk/wp-content/themes/vea-en/cgv/cgv-int.pdf" target="_blank" title="General Sales Conditions - Magical Shuttle"><p class="sitemap_title">GSC</p></a></li>
+                        <li><a href="http://magicalshuttle.co.uk/credits" title="Credits - Magical Shuttle"><p class="sitemap_title">Credits</p></a></li>
+                        <li><a href="http://magicalshuttle.co.uk/faq" title="FAQ - Magical Shuttle"><p class="sitemap_title">FAQ</p></a></li>
+                    </ul>
+                </li>
+                <li><a href="#" title="Parks and hotels - Magical Shuttle"><p class="sitemap_title">Parks and hotels</p></a>
+                    <ul>
+                    					<li>
+						<a href="http://magicalshuttle.co.uk/special-offers/shuttle-pack-entrance-for-1-day-2-parks/" title="Shuttle pack + Entrance for 1 day / 1 Park - Magical Shuttle - Airport Approved Carrier"><span>Shuttle pack + Entrance for 1 day / 1 Park</span></a>
+					</li>
+					                    </ul>
+            	</li>
+                <li><a href="http://magicalshuttle.co.uk/contact" title="Contact - Magical Shuttle"><p class="sitemap_title">Contact</p></a>
+                    <ul>
+                    					<li>
+						<a href="http://magicalshuttle.co.uk/contact/request-for-information/" title="Request for information - Magical Shuttle - Airport Approved Carrier"><span>Request for information</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/contact/give-us-your-opinion/" title="Give us your opinion - Magical Shuttle - Airport Approved Carrier"><span>Give us your opinion</span></a>
+					</li>
+										<li>
+						<a href="http://magicalshuttle.co.uk/contact/claims/" title="Claims - Magical Shuttle - Airport Approved Carrier"><span>Claims</span></a>
+					</li>
+					                    <li>Conception : <a href="http://www.idsource.fr" title="Agence de communication Paris" target="_blank">ID Source</a></li>
+                    </ul>
+                </li>
+                
+            </ul>
+        </div><!-- /#sitemap -->
+        <div id="subfooter">
+            <p>&copy; Magical Shuttle. All rights reserved.</p>
+            <a href="" title="Transdev">
+                <img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/logo_transdev.jpg" title="Transdev" width="145" height="40" />
+            </a>
+            <a href="" title="Disneyland Paris">
+                <img src="http://magicalshuttle.co.uk/wp-content/themes/vea-en/images/logo_disney.png" title="Disneyland Paris" width="99" height="29" />
+            </a>
+        </div><!-- /#subfooter -->
+    </div><!-- /#footer -->
+	</div><!-- /#main -->
+</div><!-- /#page -->
+<script type="text/javascript">
+	var IDcommande = '';
+	var ammount = '';
+	var quantity = '';
+	var productName = '';
+	var price = '';
+	
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-35730921-2']);
+	_gaq.push(['_trackPageview']);
+
+	// transaction details
+	_gaq.push(['_addTrans',
+		IDcommande,       // order ID
+		'VEA Anglais',  // store
+		ammount,      // total
+		'0',       // tax
+		'0',       // shipping
+		'N/C',    // city
+		'N/C',   // state
+		'France'         // country
+	]);
+	
+	// item 1
+	_gaq.push(['_addItem',
+		IDcommande,          // order ID
+		'VEA',        // SKU/code
+		productName,      // product name
+		'Achat en ligne', // category or variation
+		price,          // unit price
+		quantity             // quantity
+	]);
+	// track transaction
+	_gaq.push(['_trackTrans']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>

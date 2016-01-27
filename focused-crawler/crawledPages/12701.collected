@@ -1,0 +1,413 @@
+title=YouTube
+url=https://www.youtube.com/testtube
+html=
+<!DOCTYPE html>
+  <html lang="pt" dir="ltr" >
+
+<head>
+<style name="www-roboto">@font-face{font-family:'Roboto';font-style:normal;font-weight:500;src:local('Roboto Medium'),local('Roboto-Medium'),url(//fonts.gstatic.com/s/roboto/v15/RxZJdnzeo3R5zSexge8UUaCWcynf_cDxXwCLxiixG1c.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:normal;font-weight:400;src:local('Roboto Regular'),local('Roboto-Regular'),url(//fonts.gstatic.com/s/roboto/v15/zN7GBFwfMP4uA6AR0HCoLQ.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:500;src:local('Roboto Medium Italic'),local('Roboto-MediumItalic'),url(//fonts.gstatic.com/s/roboto/v15/OLffGBTaF0XFOW1gnuHF0Z0EAVxt0G0biEntp43Qt6E.ttf)format('truetype');}@font-face{font-family:'Roboto';font-style:italic;font-weight:400;src:local('Roboto Italic'),local('Roboto-Italic'),url(//fonts.gstatic.com/s/roboto/v15/W4wDsBUluyw0tK3tykhXEfesZW2xOQ-xsNqO47m55DA.ttf)format('truetype');}</style><script name="www-roboto">if (document.fonts && document.fonts.load) {document.fonts.load("400 10pt Roboto", "P");document.fonts.load("500 10pt Roboto", "P");}</script>  <script>var ytcsi = {gt: function(n) {n = (n || '') + 'data_';return ytcsi[n] || (ytcsi[n] = {tick: {},span: {},info: {}});},tick: function(l, t, n) {ytcsi.gt(n).tick[l] = t || +new Date();},span: function(l, s, e, n) {ytcsi.gt(n).span[l] = (e ? e : +new Date()) - ytcsi.gt(n).tick[s];},setSpan: function(l, s, n) {ytcsi.gt(n).span[l] = s;},info: function(k, v, n) {ytcsi.gt(n).info[k] = v;},setStart: function(s, t, n) {ytcsi.info('yt_sts', s, n);ytcsi.tick('_start', t, n);}};(function(w, d) {ytcsi.perf = w.performance || w.mozPerformance ||w.msPerformance || w.webkitPerformance;ytcsi.setStart('dhs', ytcsi.perf ? ytcsi.perf.timing.responseStart : null);var isPrerender = (d.visibilityState || d.webkitVisibilityState) == 'prerender';var vName = d.webkitVisibilityState ? 'webkitvisibilitychange' : 'visibilitychange';if (isPrerender) {ytcsi.info('prerender', 1);var startTick = function() {ytcsi.setStart('dhs');d.removeEventListener(vName, startTick);};d.addEventListener(vName, startTick, false);}if (d.addEventListener) {d.addEventListener(vName, function() {ytcsi.tick('vc');}, false);}})(window, document);</script>
+  <script>var ytcfg = {d: function() {return (window.yt && yt.config_) || ytcfg.data_ || (ytcfg.data_ = {});},get: function(k, o) {return (k in ytcfg.d()) ? ytcfg.d()[k] : o;},set: function() {var a = arguments;if (a.length > 1) {ytcfg.d()[a[0]] = a[1];} else {for (var k in a[0]) {ytcfg.d()[k] = a[0][k];}}}};</script>
+  
+<title>YouTube</title><link rel="search" type="application/opensearchdescription+xml" href="https://www.youtube.com/opensearch?locale=pt_BR" title="Pesquisa de vídeos do YouTube"><link rel="icon" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico" type="image/x-icon"><link rel="shortcut icon" href="https://s.ytimg.com/yts/img/favicon-vflz7uhzw.ico" type="image/x-icon">   <link rel="icon" href="//s.ytimg.com/yts/img/favicon_32-vfl8NGn4k.png" sizes="32x32"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_48-vfl1s0rGh.png" sizes="48x48"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_96-vfldSA3ca.png" sizes="96x96"><link rel="icon" href="//s.ytimg.com/yts/img/favicon_144-vflWmzoXw.png" sizes="144x144"><meta name="theme-color" content="#e62117">  <meta name="description" content="Compartilhe seus vídeos com seus amigos, com sua família e com o mundo">
+  <meta name="keywords" content="vídeo, compartilhamento, celular com câmera, videofone, gratuito, upload">
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-core-vfl56kZpg.css" name="www-core">
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-pageframe-vflUA8MqU.css" name="www-pageframe">
+  <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-the-rest-vflDnl7Oj.css" name="www-the-rest">
+    <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-static-vfljPiYzK.css" name="www-static">
+
+    <link rel="stylesheet" href="//s.ytimg.com/yts/cssbin/www-testtube-vflKPsMPk.css" name="www-testtube">
+
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:300" rel="stylesheet" type="text/css">
+</head>
+
+
+
+
+  <body id="" class="date-20160122 pt_BR ltr  exp-responsive exp-scrollable-guide   site-center-aligned site-as-giant-card  not-yt-legacy-css " dir="ltr">
+
+  <div id="body-container">
+    <form name="logoutForm" method="POST" action="/logout">
+      <input type="hidden" name="action_logout" value="1">
+    </form>
+
+    
+
+    
+
+    <!-- begin page -->
+          <div id="yt-masthead-container" class="clearfix yt-base-gutter">  <button id="a11y-skip-nav" class="skip-nav" data-target-id="main" tabindex="3">
+Pular navegação
+  </button>
+<div id="yt-masthead"><div class="yt-masthead-logo-container ">    <a id="logo-container" href="/" title="Página inicial do YouTube" class=" spf-link  masthead-logo-renderer yt-uix-sessionlink" data-sessionlink=""><span title="Página inicial do YouTube" class="logo masthead-logo-renderer-logo yt-sprite"></span><span class="content-region">BR</span></a>
+</div><div id="yt-masthead-signin"><a href="//www.youtube.com/upload" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=7-amVoTcE8ai-AXIj4mIBw&amp;feature=mhsb" id="upload-btn"><span class="yt-uix-button-content">Enviar</span></a><div class="signin-container "><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-primary" type="button" onclick=";window.location.href=this.getAttribute(&#39;href&#39;);return false;" href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Dpt%26feature%3Dsign_in_button%26action_handle_signin%3Dtrue%26next%3D%252Ftesttube&amp;hl=pt-BR&amp;passive=true" role="link"><span class="yt-uix-button-content">Fazer login</span></button></div></div><div id="yt-masthead-content"><form id="masthead-search" class="search-form consolidated-form" action="/results" onsubmit="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false;" data-clicktracking=""><button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default search-btn-component search-button" type="submit" onclick="if (document.getElementById(&#39;masthead-search-term&#39;).value == &#39;&#39;) return false; document.getElementById(&#39;masthead-search&#39;).submit(); return false;;return true;" dir="ltr" tabindex="2" id="search-btn"><span class="yt-uix-button-content">Pesquisar</span></button><div id="masthead-search-terms" class="masthead-search-terms-border" dir="ltr"><input id="masthead-search-term" autocomplete="off"  onkeydown="if (!this.value &amp;&amp; (event.keyCode == 40 || event.keyCode == 32 || event.keyCode == 34)) {this.onkeydown = null; this.blur();}" class="search-term masthead-search-renderer-input yt-uix-form-input-bidi" name="search_query" value="" type="text" tabindex="1" placeholder="" title="Pesquisar"></div></form></div></div></div>
+      <div id="masthead-subnav" class="yt-nav yt-nav-dark">
+    <ul>
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/about/pt-BR/">
+        Sobre
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/press/pt-BR/">
+        Imprensa e blogs
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/copyright/pt-BR/">
+        Direitos Autorais
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/policyandsafety/pt-BR/">
+        Segurança
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/creators/pt-BR/">
+        Criadores e parceiros
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/advertise/pt-BR/">
+        Publicidade
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//www.youtube.com/yt/dev/pt-BR/">
+        Desenvolvedores
+    </a>
+  </li>
+
+      
+  <li>
+    <a class="yt-nav-item" href="//support.google.com/youtube/?hl=pt-BR">
+        Ajuda
+    </a>
+  </li>
+
+    </ul>
+  </div>
+
+
+
+  <div id="alerts" class="content-alignment about-pages">
+    
+  </div>
+
+  <div id="page-container">
+    <div id="page" class="page-default about-pages">
+      <div id="content" class="content-alignment">
+        <div class="yt-testtube-page">
+  <div class="yt-card yt-testtube-card-light yt-testtube-same-card-height yt-testtube-intro-card">
+    <div class="yt-testtube-intro-card-content-container">
+      <div class="yt-testtube-card-title">
+TestTube
+      </div>
+      <div class="yt-testtube-card-content">
+Bem-vindo ao TestTube, nossa incubadora de ideias. Teste recursos experimentais inventados pelos cientistas malucos do YouTube e diga o que acha deles.
+      </div>
+    </div>
+    <div class="yt-testtube-intro-card-img">
+      <img src="//s.ytimg.com/yts/img/testtube/testtube-intro-card-img-vflIwLdGn.png" alt="Test tube illustration">
+    </div>
+  </div>
+  <div class="yt-testtube-same-card-height yt-testtube-card-divider">&nbsp;</div>
+  <div class="yt-card yt-testtube-card-dark yt-testtube-same-card-height yt-testtube-participate-card">
+    <div class="yt-testtube-card-title">
+Ajude-nos a melhorar
+    </div>
+    <div class="yt-testtube-card-content">
+      <div class="yt-testtube-signup-text">
+Inscreva-se para participar de estudos sobre pesquisa de experiência do usuário e ganhe recompensas.
+      </div>
+      <div class="yt-testtube-signup-btn-container">
+          <a href="https://www.google.com/usability/survey.html?reserved=0&amp;pType=0&amp;productTag=yout&amp;campaignType=ghc&amp;campaignDate=may15&amp;labelTag=0&amp;referral_code=YUTBX0_TT" class="yt-uix-button   yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default" data-sessionlink="ei=7-amVoTcE8ai-AXIj4mIBw"><span class="yt-uix-button-content">Inscreva-se
+</span></a>
+
+      </div>
+    </div>
+  </div>
+
+
+    <div class="yt-card yt-testtube-card-light yt-testtube-experiment-card ytg-wide">
+    <div class="yt-testtube-experiment-card-content-container right">
+      <div class="yt-testtube-card-title">O YouTube nunca foi melhor</div>
+      <div class="yt-testtube-card-content">
+        <div>
+Veja vídeos em resolução 4K ultra HD, agora exibidos no YouTube. Esses vídeos são transmitidos em até 2160p. Por isso, eles oferecem nitidez e detalhes impressionantes, não importa se você está vendo vídeos do Minecraft ou de maquiagem. Para encontrar vídeos em 4K, faça uma pesquisa no YouTube e clique em <strong>Filtros &gt; 4K</strong> ou veja <a href="//www.youtube.com/watch?v=YvihaDU0ZEs&amp;list=PLyqf6gJt7KuEtjkT-oK4v7AIINtup4bBC">esta playlist com nossos vídeos em 4K favoritos</a>.
+
+  <p>
+Se reproduzir vídeos em 4K a 3840x2160 não for o suficiente para derreter seu dispositivo, tente reproduzir a 60 quadros por segundo. Combinamos esses dois recursos de ponta em alguns vídeos <a href="//www.youtube.com/watch?v=-iSFM-T-F_0&amp;list=PLyqf6gJt7KuHCoYaGNWPx8vkHlClmbO9u">nesta playlist</a>. Esse recurso pode não funcionar em todos os dispositivos, mas, se você tiver um equipamento poderoso, teste!
+  </p>
+</div>
+      </div>
+    </div>
+    <div class="yt-testtube-experiment-card-img left">
+      <img src="//s.ytimg.com/yts/img/testtube/4k60-vflV-c9JP.png" alt="4K!">
+    </div>
+  </div>
+
+
+    <div class="yt-card yt-testtube-card-light yt-testtube-experiment-card ytg-wide">
+    <div class="yt-testtube-experiment-card-content-container right">
+      <div class="yt-testtube-card-title">Teste o novo design do player do YouTube</div>
+      <div class="yt-testtube-card-content">
+        <div>  <p>
+O novo design do player é mais refinado, é ocultado quando você reproduz vídeos e é dimensionado para qualquer tamanho de tela ou de incorporação. Faça o teste enquanto continuamos a adicionar recursos e a aprimorar a aparência.
+  </p>
+</div>
+      </div>
+    </div>
+    <div class="yt-testtube-experiment-card-img left">
+      <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiIHN0YW5kYWxvbmU9Im5vIj8+Cjxzdmcgd2lkdGg9IjE4MCIgaGVpZ2h0PSIxODAiIHZpZXdCb3g9IjAgMCA4NSA2MCIgdmVyc2lvbj0iMS4xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj4KICA8cGF0aCBkPSJNMC44MTgzMDA0MjYsNDYuMjQ1MzgyMyBDMC44MTgzMDA0MjYsNDYuMjQ1MzgyMyAxLjYzODA2MjEsNTIuMDI2MTkxOCA0LjE1NzI1ODQyLDU0LjU3MTU3MTYgQzcuMzUzNzQ0NDYsNTcuOTEyNDA1NCAxMS41NTE5MTc5LDU3LjgwNzM2NjEgMTMuNDIxOTUzNiw1OC4xNTcxMzI0IEMyMC4xMzk4MTc1LDU4LjgwMDQ5MDUgNDEuOTYzNzY0LDU4Ljk5OTc2OTQgNDEuOTg5MDQwNSw1OSBDNDEuOTk5MzAxMyw1OC45OTk5ODQ1IDU5LjY0NzY1NDUsNTguOTczMTI4OSA3MS40MDIxOTE5LDU4LjEyNTAzNzEgQzczLjA0NDI3MjQsNTcuOTI5MTgyNSA3Ni42MjU3OTgsNTcuOTEyNDA1NCA3OS44MjA4MjI4LDU0LjU3MTU3MTYgQzgyLjM0MDAxOTEsNTIuMDI2MTkxOCA4My4xNjA4NzY4LDQ2LjI0NTM4MjMgODMuMTYwODc2OCw0Ni4yNDUzODIzIEM4My4xNjA4NzY4LDQ2LjI0NTM4MjMgODQsMzkuNDU3MjE2NSA4NCwzMi42Njg2ODYgTDg0LDI2LjMwNDY4OTQgQzg0LDE5LjUxNjUyMzcgODMuMTYwODc2OCwxMi43MjgzNTc5IDgzLjE2MDg3NjgsMTIuNzI4MzU3OSBDODMuMTYwODc2OCwxMi43MjgzNTc5IDgyLjM0MDAxOTEsNi45NDc1NDgzNCA3OS44MjA4MjI4LDQuNDAxODAzODIgQzc2LjYyNTc5OCwxLjA2MDYwNTMxIDczLjA0NDI3MjQsMS4wNDQxOTI5MiA3MS40MDIxOTE5LDAuODQ4NzAzMDgxIEM1OS42NDQyMzc2LDAgNDIuMDA3MzA2MywwIDQyLjAwNzMwNjMsMCBDNDEuOTcwNzc1LDAgMjQuMzM0MjA4OSwwIDEyLjU3NTg4OTQsMC44NDg3MDMwODEgQzEwLjkzMzgwODgsMS4wNDQxOTI5MiA3LjM1Mzc0NDQ2LDEuMDYwNjA1MzEgNC4xNTcyNTg0Miw0LjQwMTgwMzgyIEMxLjYzODA2MjEsNi45NDc1NDgzNCAwLjgxODMwMDQyNiwxMi43MjgzNTc5IDAuODE4MzAwNDI2LDEyLjcyODM1NzkgQzAuODE4MzAwNDI2LDEyLjcyODM1NzkgMC4xMzIyNjY2NzUsMTguMjcwODUzMSAwLDI0LjM0NzY0MjMgTDEuMDI5MTU1NmUtMTUsMzQuNjI1ODI4OCBDMC4xMzIyNjY2NzUsNDAuNzAyODg3MSAwLjgxODMwMDQyNiw0Ni4yNDUzODIzIDAuODE4MzAwNDI2LDQ2LjI0NTM4MjMgWiBNMzMuMzEwNjcyMywxNi44MTEzOTY2IEw1Ni4wMTQxMjU0LDI4LjYzNzA3MjggTDMzLjMxNDY5MDgsNDAuMzgwNjg3MiBMMzMuMzEwNjcyMywxNi44MTEzOTY2IFoiIGNsYXNzPSJ5dHAtbGFyZ2UtcGxheS1idXR0b24tYmciPjwvcGF0aD4KICA8cGF0aCBkPSJNMzMuMzEwNjcyMywxNi44MTEzOTY2IEw1Ni4wMTQxMjU0LDI4LjYzNzA3MjggTDMzLjMxNDY5MDgsNDAuMzgwNjg3MiBMMzMuMzEwNjcyMywxNi44MTEzOTY2IFoiIGZpbGw9IiNGRkZGRkYiPjwvcGF0aD4KICA8cGF0aCBkPSJNNTUuNjIyNzc3NCwyOC44Mzk1Mzc4IEw1NS45OTIyMDgzLDI4LjYyNTY1NjggTDMzLjMxMDY3MjMsMTYuODExMzk2NiBMMzMuMzEwNjcyOSwxNi44MTQ4NzA0IEw1My41MTY5Mjk1LDI5LjkyOTAwMzkgTDU1LjYyMjc3NzQsMjguODM5NTM3OCBaIiBmaWxsPSIjQ0NDQ0NDIj48L3BhdGg+Cjwvc3ZnPgo=" alt="Play button">
+    </div>
+  </div>
+
+
+
+</div>
+
+      </div>
+    </div>
+  </div>
+
+        <div id="shared-addto-watch-later-login" class="hid">
+      <a href="https://accounts.google.com/ServiceLogin?service=youtube&amp;uilel=3&amp;continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Dpt%26feature%3Dplaylist%26action_handle_signin%3Dtrue%26next%3D%252Ftesttube&amp;hl=pt-BR&amp;passive=true" class="sign-in-link">Faça login</a> para adicionar este vídeo à playlist &quot;Assistir mais tarde&quot;
+
+    </div>
+
+
+        <div class="yt-dialog hid " id="feed-privacy-lb">
+    <div class="yt-dialog-base">
+      <span class="yt-dialog-align"></span>
+      <div class="yt-dialog-fg" role="dialog">
+        <div class="yt-dialog-fg-content">
+          <div class="yt-dialog-loading">
+              <div class="yt-dialog-waiting-content">
+      <p class="yt-spinner ">
+        <span title="Carregando ícone" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Carregando...
+    </span>
+  </p>
+
+  </div>
+
+          </div>
+          <div class="yt-dialog-content">
+              <div id="feed-privacy-dialog">
+  </div>
+
+          </div>
+          <div class="yt-dialog-working">
+              <div class="yt-dialog-working-overlay"></div>
+  <div class="yt-dialog-working-bubble">
+    <div class="yt-dialog-waiting-content">
+        <p class="yt-spinner ">
+        <span title="Carregando ícone" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+        Processando...
+    </span>
+  </p>
+
+      </div>
+  </div>
+
+          </div>
+        </div>
+        <div class="yt-dialog-focus-trap" tabindex="0"></div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+    <!-- end page -->
+  </div>
+
+    <div id="footer-container" class="yt-base-gutter"><div id="footer"><div id="footer-main"><div id="footer-logo"><a href="/" id="footer-logo-link" title="Página inicial do YouTube"><span class="footer-logo-icon yt-sprite"></span></a></div>  <ul class="pickers yt-uix-button-group" data-button-toggle-group="optional">
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon" type="button" onclick=";return false;" id="yt-picker-language-button" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-picker-key="language" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-language yt-sprite"></span></span><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Idioma:
+  </span>
+  Português
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-country-button" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-picker-key="country" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+País:
+  </span>
+  Brasil
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+      <li>
+            <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default" type="button" onclick=";return false;" id="yt-picker-safetymode-button" data-button-action="yt.www.picker.load" data-button-menu-id="arrow-display" data-picker-key="safetymode" data-picker-position="footer" data-button-toggle="true"><span class="yt-uix-button-content">  <span class="yt-picker-button-label">
+Modo restrito:
+  </span>
+Desativado
+</span><span class="yt-uix-button-arrow yt-sprite"></span></button>
+
+
+      </li>
+  </ul>
+<a href="/feed/history" class="yt-uix-button  footer-history yt-uix-sessionlink yt-uix-button-default yt-uix-button-size-default yt-uix-button-has-icon" data-sessionlink="ei=7-amVoTcE8ai-AXIj4mIBw"><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-footer-history yt-sprite"></span></span><span class="yt-uix-button-content">Histórico</span></a>    <button class="yt-uix-button yt-uix-button-size-default yt-uix-button-default yt-uix-button-has-icon yt-uix-button-reverse yt-google-help-link inq-no-click " type="button" onclick=";return false;" data-ghelp-anchor="google-help" id="google-help" data-ghelp-tracking-param="" data-load-chat-support=""><span class="yt-uix-button-icon-wrapper"><span class="yt-uix-button-icon yt-uix-button-icon-questionmark yt-sprite"></span></span><span class="yt-uix-button-content">Ajuda
+</span></button>
+      <div id="yt-picker-language-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span title="Carregando ícone" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Carregando...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-country-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span title="Carregando ícone" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Carregando...
+    </span>
+  </p>
+
+  </div>
+
+      <div id="yt-picker-safetymode-footer" class="yt-picker" style="display: none">
+      <p class="yt-spinner ">
+        <span title="Carregando ícone" class="yt-spinner-img  yt-sprite"></span>
+
+    <span class="yt-spinner-message">
+Carregando...
+    </span>
+  </p>
+
+  </div>
+
+</div><div id="footer-links"><ul id="footer-links-primary">  <li><a href="//www.youtube.com/yt/about/pt-BR/">Sobre</a></li>
+  <li><a href="//www.youtube.com/yt/press/pt-BR/">
+Imprensa
+  </a></li>
+  <li><a href="//www.youtube.com/yt/copyright/pt-BR/">Direitos autorais</a></li>
+  <li><a href="//www.youtube.com/yt/creators/pt-BR/">
+Criadores de conteúdo
+  </a></li>
+  <li><a href="//www.youtube.com/yt/advertise/pt-BR/">
+Publicidade
+  </a></li>
+  <li><a href="//www.youtube.com/yt/dev/pt-BR/">Desenvolvedores</a></li>
+  <li><a href="https://plus.google.com/+youtube" dir="ltr">+YouTube</a></li>
+</ul><ul id="footer-links-secondary">  <li><a href="/t/terms">Termos</a></li>
+  <li><a href="https://www.google.com.br/intl/pt-BR/policies/privacy/">Privacidade</a></li>
+  <li><a href="//www.youtube.com/yt/policyandsafety/pt-BR/">
+Política e Segurança
+  </a></li>
+  <li><a href="//support.google.com/youtube/?hl=pt-BR" onclick="return yt.www.feedback.start(59);" class="reportbug">Enviar feedback</a></li>
+  <li><a href="/testtube">Tente algo novo!</a></li>
+  <li></li>
+</ul></div></div></div>
+
+
+      <script src="//s.ytimg.com/yts/jsbin/www-core-vflsiUn3P/www-core.js" type="text/javascript" name="www-core/www-core"></script>
+  <script>var ytspf = ytspf || {};ytspf.enabled = true;ytspf.config = {'reload-identifier': 'spfreload'};ytspf.config['cache-max'] = 50;ytspf.config['navigate-limit'] = 50;ytspf.config['navigate-lifetime'] = 64800000;</script>
+  <script src="//s.ytimg.com/yts/jsbin/spf-vfljW6yZb/spf.js" type="text/javascript" name="spf/spf"></script>
+<script>  yt.setConfig({
+      'XSRF_TOKEN': 'QUFFLUhqa0o5M2l6cmRQZ0RTNGRqdDZOcW1sQzI1UThCUXxBQ3Jtc0tuYVN4ajE2RjdSNXNFSW91cllRVmczU1l5Q05NRnN4TG1ETG9CNzJBM1VPd1VhVjJQVVZCMHRONzRaaTVody1OSXZmWl94Zll0WGhkWkJVOVpJTnRJTlJBX3BJbV83TDRtZHp2Y1pMdjdRdnZiLW1IcWhMcDdLTjV4WkFHbUo1Rlk1dUg1eHp6SU5zZDlKZTVxZEg5NmRjWGp1bVE=',
+      'XSRF_FIELD_NAME': 'session_token',
+
+      'XSRF_REDIRECT_TOKEN': 'fkE3hcVAOS20CUZr6SnPsZaBXct8MTQ1Mzg2NTA3MUAxNDUzNzc4Njcx'
+  });
+yt.setConfig({'EVENT_ID': "7-amVoTcE8ai-AXIj4mIBw",'PAGE_NAME': "testtube",'PAGEFRAME_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-pageframe-vflkZN5_9\/www-pageframe.js",'PAGE_FRAME_DELAYLOADED_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-pageframedelayloaded-vflWd3pQq.css",'LOGGED_IN': false,'SESSION_INDEX': null,'DELEGATED_SESSION_ID': null,'GAPI_HOST': "https:\/\/apis.google.com",'GAPI_HINT_PARAMS': "m;\/_\/scs\/abc-static\/_\/js\/k=gapi.gapi.en.031mdWrIyGE.O\/m=__features__\/am=AAQ\/rt=j\/d=1\/rs=AHpOoo9LVH8q4HIB6ymfgTF00d12dbkTeA",'GOOGLEPLUS_HOST': "https:\/\/plus.google.com",'GAPI_LOCALE': "pt_BR",'ONE_PICK_URL': "",'UNIVERSAL_HOVERCARDS': true,'SAFETY_MODE_PENDING': false,'I18N_PLURAL_RULES': function(n) { return (n == 1) ? 'one' : 'other'; },'PAGE_CL': 112815225,'PAGE_BUILD_TIMESTAMP': "Fri Jan 22 14:33:17 2016 (1453501997)",'VARIANTS_CHECKSUM': "98713d9b64d559322452eb14e7963dae",'ANIMATED_THUMBS_PING_ONLY': true,'FEEDBACK_BUCKET_ID': "Other",'FEEDBACK_LOCALE_LANGUAGE': "pt",'FEEDBACK_LOCALE_EXTRAS': {"is_partner":"","accept_language":null,"experiments":"9407190,9408209,9408255,9408509,9412901,9413431,9415049,9415297,9415398,9415575,9416038,9416126,9416475,9417035,9417097,9417482,9417664,9417755,9418141,9418543,9418755,9419543,9419979,9420240,9420289,9420304,9420452,9420790,9420949,9420951,9421162,9421226,9421392,9421404,9421625,9422250,9422376,9422425,9422523,9422575,9422596,9422800,9422849,9422852,9422928,9422971,9422972,9423033,9423052,9423057,9423119,9423155,9423185,9423272,9423465,9423553,9423555,9423649,9423661,9423662,9423704,9423769,9423832,9423911,9423990,9423994,9424039,9424105,9424159,9424225,9424255,9424262,9424666,9424672,9424678,9424702,9424730,9424781,9424786,9424796,9424900,9424903,9425033,9425121,9425330,9425333,9425413,9425485,9425553,9425882,9425892,9425931,9425947,9426022,9426095,9426110,9426154,9426466,9426504,9426543,9426652,9426733,9426994,9427068,9427234,9427236,9427294,9427388,9427492,9427694","logged_in":false}});  yt.setConfig({
+    'GUIDED_HELP_LOCALE': "pt_BR",
+    'GUIDED_HELP_ENVIRONMENT': "prod"
+  });
+    yt.setConfig({
+    'XSRF_TOKEN': "QUFFLUhqa0o5M2l6cmRQZ0RTNGRqdDZOcW1sQzI1UThCUXxBQ3Jtc0tuYVN4ajE2RjdSNXNFSW91cllRVmczU1l5Q05NRnN4TG1ETG9CNzJBM1VPd1VhVjJQVVZCMHRONzRaaTVody1OSXZmWl94Zll0WGhkWkJVOVpJTnRJTlJBX3BJbV83TDRtZHp2Y1pMdjdRdnZiLW1IcWhMcDdLTjV4WkFHbUo1Rlk1dUg1eHp6SU5zZDlKZTVxZEg5NmRjWGp1bVE=",
+    'XSRF_REDIRECT_TOKEN': "fkE3hcVAOS20CUZr6SnPsZaBXct8MTQ1Mzg2NTA3MUAxNDUzNzc4Njcx",
+    'XSRF_FIELD_NAME': "session_token"
+  });
+
+  yt.setConfig({
+    'YPC_LOADER_JS': "\/\/s.ytimg.com\/yts\/jsbin\/www-ypc-vflboiPTi\/www-ypc.js",
+    'YPC_LOADER_CSS': "\/\/s.ytimg.com\/yts\/cssbin\/www-ypc-vfl0csEwI.css",
+    'YPC_SIGNIN_URL': "https:\/\/accounts.google.com\/ServiceLogin?service=youtube\u0026uilel=3\u0026continue=http%3A%2F%2Fwww.youtube.com%2Fsignin%3Fapp%3Ddesktop%26hl%3Dpt%26action_handle_signin%3Dtrue%26next%3D%252F\u0026hl=pt-BR\u0026passive=true",
+    'DBLCLK_ADVERTISER_ID': "2542116",
+    'DBLCLK_YPC_ACTIVITY_GROUP': "youtu444",
+    'SUBSCRIPTION_URL': "\/subscription_ajax",
+    'YPC_SWITCH_URL': "\/signin?skip_identity_prompt=True\u0026next=%2F\u0026action_handle_signin=true\u0026feature=purchases",
+    'YPC_GB_LANGUAGE': "pt_BR",
+    'YPC_GB_URL': "https:\/\/checkout.google.com\/inapp\/lib\/buy.js",
+    'YPC_TRANSACTION_URL': "\/transaction_handler",
+    'YPC_SUBSCRIPTION_URL': "\/ypc_subscription_ajax",
+    'YPC_POST_PURCHASE_URL': "\/ypc_post_purchase_ajax"
+  });
+  yt.setMsg({
+    'YPC_OFFER_OVERLAY': "  \n",
+    'YPC_UNSUBSCRIBE_OVERLAY': "  \n"
+  });
+</script>
+  <script>if (window.ytcsi) {window.ytcsi.tick("je", null, '');}</script>  
+  
+  <script>
+    ytcsi.setSpan('st', 15);yt.setConfig({'CSI_LOG_WITH_YT': false,'CSI_SERVICE_NAME': "youtube",'TIMING_ACTION': "",'TIMING_INFO': {"yt_err":0,"e":"9407190,9408209,9408255,9408509,9416126,9417097,9419543,9420452,9422596,9422971,9423662,9425121,9426504,9426652","c":"WEB","cver":"1.20160121","yt_lt":"cold","yt_li":0,"yt_spf":0,"ei":"7-amVoTcE8ai-AXIj4mIBw"}});
+
+      yt.setConfig('THUMB_DELAY_LOAD_BUFFER', 0);
+
+
+
+
+
+
+    yt.setConfig({'SBOX_JS_URL': "\/\/s.ytimg.com\/yts\/jsbin\/www-searchbox-legacy-vflS2cDyd\/www-searchbox-legacy.js",'SBOX_SETTINGS': {"EXPERIMENT_ID":-1,"REQUEST_LANGUAGE":"pt","PSUGGEST_TOKEN":null,"SESSION_INDEX":null,"REQUEST_DOMAIN":"br","PQ":"","IS_FUSION":false,"EXPERIMENT_STR":"","HAS_ON_SCREEN_KEYBOARD":true},'SBOX_LABELS': {"SUGGESTION_DISMISS_LABEL":"Remover","SUGGESTION_DISMISSED_LABEL":"Sugestão dispensada"}});
+
+
+
+
+      yt.setConfig('FEED_PRIVACY_CSS_URL', "\/\/s.ytimg.com\/yts\/cssbin\/www-feedprivacydialog-vflFtw76j.css");
+
+  yt.setConfig('FEED_PRIVACY_LIGHTBOX_ENABLED', true);
+
+
+
+    yt.setMsg({
+      'ADDTO_WATCH_LATER': "Watch Later",
+      'ADDTO_WATCH_LATER_ADDED': "Adicionado",
+      'ADDTO_WATCH_LATER_ERROR': "Erro",
+      'ERROR_OCCURRED': "Desculpe, ocorreu um erro."
+    });
+
+      yt.setConfig('GOOGLE_HELP_CONTEXT', "default");
+
+  </script>
+
+
+  
+
+  <script>if (window.ytcsi) {window.ytcsi.tick("jl", null, '');}</script>
+
+  
+
+</body>
+</html>
+

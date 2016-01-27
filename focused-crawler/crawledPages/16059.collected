@@ -1,0 +1,584 @@
+title=Paleologos Travel Booking Engine
+url=http://paleologos.forth-crs.gr/english/npgres.exe?PM=BR
+html=<!DOCTYPE html public "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+<title>Paleologos Travel Booking Engine</title>
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1252" />
+<meta content="Paleologos Travel Booking Engine" name="description" />
+<meta http-equiv="cache-control" content="max-age=0" />
+<meta http-equiv="cache-control" content="no-cache" />
+<meta http-equiv="expires" content="0" />
+<meta http-equiv="expires" content="Tue, 01 Jan 1980 1:00:00 GMT" />
+<meta http-equiv="pragma" content="no-cache" />
+
+<script type="text/javascript">
+var IFrameWidth = 720;
+var IFrameHeight = 550;
+var enablecopy = true;
+
+if ( (navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPad/i)) || (navigator.userAgent.match(/Android/i))) {
+	location.replace("https://mobilews.forth-crs.gr/mobilepaleo/MobileSeas1.html?lang=en");
+}
+</script>
+<script type="text/javascript" src="_includes/display_error.js"></script>
+<script type="text/javascript" src="_includes/date.js"></script>
+<script type="text/javascript" src="_includes/setup.js"></script>
+<script type="text/javascript" src="_includes/step1.js"></script>
+<script type="text/javascript" src="_includes/routebot.js"></script>
+<script type="text/javascript" src="_includes/fValConfig.js"></script>
+<script type="text/javascript" src="_includes/fValidate.js"></script>
+<script type="text/javascript" src="_includes/macromedia.js"></script>
+<script type="text/javascript" src="_includes/same_day.js"></script>
+<script type="text/javascript" src="_Includes/layers.js"></script>
+<script type="text/javascript" src="_popups/full_year.asp"></script>
+<script type="text/javascript" src="_Includes/jquery.js"></script>
+<script type="text/javascript" src="_includes/jCalendar.js"></script>
+<script type="text/javascript" src="_includes/ui.core.js"></script>
+<script type="text/javascript" src="_includes/ui.datepicker.js"></script>
+<script type="text/javascript" src="_includes/i18n/jquery.ui.datepicker-en-GB.js"></script>
+<script type="text/javascript" src="_Includes/public_stations.js"></script>
+<script type="text/javascript">getSelectedCSS();</script>
+<link href="boat.ico" type="image/icon" rel="icon">
+<link href="boat.ico" type="image/icon" rel="shortcut icon">
+<link type="text/css" rel="stylesheet" href="_styles/ui.all.css" />
+
+<script type="text/javascript">
+$1(document).ready(function() {
+	if (showpanoramio) {
+		$1("#Leg1ii").change(function() {
+			$1('#panoramioframe3').attr("src", 'panoramio.php?lat=' + retPortLat(document.getElementById('Leg1ii').options[document.getElementById("Leg1ii").selectedIndex].value)
+												 + '&lon=' + retPortLong(document.getElementById('Leg1ii').options[document.getElementById("Leg1ii").selectedIndex].value)
+												 + '&desc=' + document.getElementById('Leg1ii').options[document.getElementById("Leg1ii").selectedIndex].text
+												 + '&framenum=3');
+		});
+
+		$1("#Leg1i").change(function() {
+			$1('#panoramioframe4').attr("src", 'panoramio.php?lat=' + retPortLat(document.getElementById('Leg1i').options[document.getElementById("Leg1i").selectedIndex].value)
+												 + '&lon=' + retPortLong(document.getElementById('Leg1i').options[document.getElementById("Leg1i").selectedIndex].value)
+												 + '&desc=' + document.getElementById('Leg1i').options[document.getElementById("Leg1i").selectedIndex].text
+												 + '&framenum=4');
+		});
+
+		$1("#Leg2ii").change(function() {
+			$1('#panoramioframe4').attr("src", 'panoramio.php?lat=' + retPortLat(document.getElementById('Leg2ii').options[document.getElementById("Leg2ii").selectedIndex].value)
+												 + '&lon=' + retPortLong(document.getElementById('Leg2ii').options[document.getElementById("Leg2ii").selectedIndex].value)
+												 + '&desc=' + document.getElementById('Leg2ii').options[document.getElementById("Leg2ii").selectedIndex].text
+												 + '&framenum=4');
+		});
+	}
+
+});
+
+function MM_openBrWindow(theURL, winName, features) { //v2.0
+	window.open(theURL, winName, features);
+}
+
+// Calendar
+$1(function() {
+	$1.datepicker.setDefaults({
+		dateFormat: 'D dd MM, yy',
+		showOn: 'both',
+		buttonImage: '_images/cal.gif',
+		buttonImageOnly: true,
+		numberOfMonths: 2,
+		changeMonth: true,
+		showButtonPanel: true,
+		maxDate: '+1Y',
+		buttonText: error[114]
+	});
+
+	$1("#DTLeg1Date").datepicker({
+		minDate: rvDaysGap + 'D',
+		altFormat: 'dd/mm/yy',
+		altField: '#Leg1Date',
+		changeFirstDay: false,
+		onSelect: Insert1DayLeg2
+	});
+
+	$1("#DTLeg2Date").datepicker({
+		altFormat: 'dd/mm/yy',
+		altField: '#Leg2Date',
+		changeFirstDay: false,
+		beforeShow: StartDayLeg2
+	});
+});
+</script>
+</head>
+
+<body class="mainBG" onload="browserAndOSCheck();">
+<input type="HIDDEN" name="RDFROM" id="RDFROM" value="">
+<input type="HIDDEN" name="RDTO" id="RDTO" value="">
+<input type="HIDDEN" name="RDPAX" id="RDPAX" value="">
+<input type="HIDDEN" name="RDVEH" id="RDVEH" value="">
+<input type="HIDDEN" name="RDDATE" id="RDDATE" value="">
+<input type="HIDDEN" name="RDDATE2" id="RDDATE2" value="">
+
+<script type="text/javascript">
+var havePOST= false;
+var firsttimeone;
+var firsttimeround;
+
+if (document.getElementById("RDFROM").value != "" && document.getElementById("RDTO").value != "" && document.getElementById("RDDATE").value != "" && document.getElementById("RDDATE2").value != "") {
+	havePOST = true;
+
+	var d1= document.getElementById("RDDATE").value;
+	var time1= d1.split(';');
+	var yr1= time1[0];
+	var mt1= time1[1] - 1;
+	var dy1= time1[2];
+	dateFromTT= new Date(yr1, mt1, dy1);
+	dateFromTTF= formatDate(dateFromTT, "dd/MM/yyyy");
+
+	var d2= document.getElementById("RDDATE2").value;
+	var time2= d2.split(';');
+	var yr2= time2[0];
+	var mt2= time2[1] - 1;
+	var dy2= time2[2];
+	dateToTT= new Date(yr2, mt2, dy2);
+	dateToTTF= formatDate(dateToTT, "dd/MM/yyyy");
+
+	firsttimeone= true;
+	firsttimeround= true;
+}
+else {
+	firsttimeone= false;
+	firsttimeround= false;
+}
+</script>
+
+<table border="0" width="784" cellpadding="0" cellspacing="0" align="center">
+<tr>
+	<!--- Start of Logo --->
+	<td><script type="text/javascript">document.write(headerLogo);</script></td>
+	<!--- End of Logo --->
+</tr>
+<tr>
+	<td>
+		<table width="784" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="54" valign="top"><img src="_images/tabs0_step1.gif" width="54" height="350" alt="" border="0"></td>
+				<td class="mainBG2Color" valign="top">
+					<!--opa-->
+					<table width="100%" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td colspan="4" height="40" class="mainBG0Color">
+								<table cellspacing="0" cellpadding="0" width="730" border="0">
+									<tr>
+										<td class="mainTitle" style="padding-left: 10px; padding-top: 10px"><b>Step 1: Itinerary Selection</b></td>
+									</tr>
+									<tr>
+										<td class="subTitleLight2" colspan="2" style="padding: 10px; font-size: 11px;">Please select your itinerary departure dates along with the number of passengers and vehicles travelling. Afterwards click on the "Search Departures" button to see departure arrival dates time along with the vessel in service.</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr class="mainBg2Color">
+							<td>
+								<table border="0" cellspacing="0" cellpadding="0">
+									<form name="SailingSelection" action="npgres.exe" target="ViewAllRoutes">
+									<input type="hidden" value="TT" name="func">
+									<tr class="mainBg2Color">
+										<td valign="middle" align="center" width="100" class="mainBg1Color" height="40">
+											<table cellspacing="9" cellpadding="0" border="0">
+												<tr>
+													<td class="mainNumberingLight" align="center">
+														<img src="_images/ico_reservtype.png" class="iconStyle"><br>
+														Reservation Type
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td class="mainTextDark" colspan="4" width="630">
+											<table class="mainTextDark" cellpadding="2" cellspacing="5">
+												<tr>
+													<td>
+														<input id="oneway" onclick="window.location.href = 'npgres.exe?PM=BO';" type="radio" name="ReservationType" value="npgres.exe?PM=BO">
+														<label for="oneway">One Way<img src="_images/ico_oneway.png" border="0" style="margin-left: 5px;" alt="One Way" align="middle"></label>
+													</td>
+													<td>
+														<input id="roundtrip" onclick="window.location.href = 'npgres.exe?PM=BR';" type="radio" name="ReservationType" value="npgres.exe?PM=BR" checked>
+														<label for="roundtrip">Round trip<img src="_images/ico_roundtrip.png" border="0" style="margin-left: 5px;" alt="Round trip" align="middle"></label>
+													</td>
+
+													<script type="text/javascript">
+														if (multiLegEngine) {
+															document.write("<TD><input id=\"multi\" onclick=\"window.location.href = 'npgres.exe?PM=BM';\" type=\"radio\" name=\"ReservationType\" value=\"npgres.exe?PM=BR\">"
+															+ "<label for=\"multi\">Multi Leg <img src=\"_images/ico_multileg.png\" border=\"0\" style=\"margin-left: 5px;\" alt=\"Multi Leg\" align=\"middle\"></label></TD>");
+														}
+													</script>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr class="mainBg0Color">
+										<td background="_images/_blank.gif" colspan="4"><IMG height="1" alt="" src="_images/_blank.gif" width="727" border="0"></td>
+									</tr>
+									<tr class="mainBg2Color">
+										<td valign="middle" align="center" width="100" class="mainBg1Color" height="40">
+											<table cellspacing="9" cellpadding="0" border="0">
+												<tr>
+													<td class="mainNumberingLight" align="center">
+														<img src="_images/ico_outgoing.png" class="iconStyle"><br>
+														Outgoing
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td colspan="4" width="630">
+											<table border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td width="260">
+														<table cellspacing="6" cellpadding="0" border="0">
+															<!-- Start of Leg 1  -->
+															<tr>
+																<td align="right" class="mainTextDark"><b>From:</b></td>
+																<td class="mainTextDark" colspan="2">
+																	<select class="inputSelect" onblur="clearStyle(this);" style="width: 150px" onchange="RTfrom1(this);"
+																		name="Leg1i" id="Leg1i" errormessage="Select Departure Port!" validatethis="select">
+																		<option value="0" selected>Select Departure Port</option>
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<td align="right" class="mainTextDark"><b>To:</b></td>
+																<td class="mainTextDark">
+																	<select name="Leg1ii" id="Leg1ii" style="width: 150px;" class="inputSelect" onchange="RTto1(this);"
+																		validatethis="select" errormessage="Select Arrival Port!" onblur="clearStyle(this);">
+																		<option value="0" selected>Select Arrival Port</option>
+																	</select>
+																</td>
+
+																<script type="text/javascript">
+																	if (showweather) document.write('<TD align="right" id="weather1"></TD>'); else
+																		if (showpanoramio) document.write('<TD align="left" id="panoramio1"></TD>');
+																</script>
+															</tr>
+															<tr>
+																<td class="mainTextDark"><b>Date:</b></td>
+																<td>
+																	<input type="text" id="DTLeg1Date" readonly="true" class="inputDate" value="Select Date">
+																	<input type="hidden" id="Leg1Date" name="Leg1Date">
+
+																	<script>
+																		//gia ta autopost
+																		if (firsttimeone) {
+																			document.getElementById('Leg1Date').value = dateFromTTF;
+																			document.getElementById('DTLeg1Date').value = dateFromTTF;
+																		} else {
+																			firsttimeone = true;
+																		}
+																	</script>
+																</td>
+																<td valign="bottom" align="right">&nbsp;</td>
+															</tr>
+															<!-- End of Leg 1  -->
+														</table>
+													</td>
+													<td class="mainBg1Color" valign="middle" align="center" width="100">
+														<table cellspacing="9" cellpadding="0" border="0">
+															<tr>
+																<td class="mainNumberingLight" align="center">
+																	<img src="_images/ico_incoming.png" class="iconStyle"><br>
+																	Incoming
+																</td>
+															</tr>
+														</table>
+													</td>
+													<td>
+														<table cellspacing="6" cellpadding="0" border="0">
+															<!-- Start of Leg 2  -->
+															<tr>
+																<td align="right" class="mainTextDark"><b>From:</b></td>
+																<td class="mainTextDark" colspan="2">
+																	<select name="Leg2i" id="Leg2i" style="width: 150px;" onchange="RTfrom2(this);" class="inputSelect">
+																		<option value="0" selected>Select Departure Port</option>
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<td align="right" class="mainTextDark"><b>To:</b></td>
+																<td class="mainTextDark">
+																	<select name="Leg2ii" id="Leg2ii" style="width: 150px;" class="inputSelect">
+																		<option value="0" selected>Select Arrival Port</option>
+																	</select>
+																</td>
+
+																<script type="text/javascript">
+																	if (showweather) document.write('<TD align="right" id="weather2"></TD>'); else
+																	if (showpanoramio) document.write('<TD align="left" id="panoramio2"></TD>');
+																</script>
+															</tr>
+															<tr>
+																<td class="mainTextDark"><b>Date:</b></td>
+																<td>
+																	<input type="text" id="DTLeg2Date" readonly="true" class="inputDate" value="Select Date">
+																	<input type="hidden" id="Leg2Date" name="Leg2Date">
+																	<script>
+																		//gia ta autopost
+																		if (firsttimeround) {
+																			document.getElementById('Leg2Date').value = dateToTTF;
+																			document.getElementById('DTLeg2Date').value = dateToTTF;
+																		} else {
+																			firsttimeround = true;
+																		}
+																	</script>
+																</td>
+																<td valign="bottom" align="right">&nbsp;</td>
+															</tr>
+															<!-- End of Leg 2  -->
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+									<tr class="mainBg0Color">
+										<td background="_images/_blank.gif" colspan="4"><IMG height="1" alt="" src="_images/_blank.gif" width="727" border="0"></td>
+									</tr>
+									<tr class="mainBg2Color">
+										<td valign="middle" align="center" width="100" class="mainBg1Color" height="40">
+											<table cellspacing="9" cellpadding="0" border="0">
+												<tr>
+													<td class="mainNumberingLight" align="center">
+														<img src="_images/ico_passengers.png" class="iconStyle"><br>
+														Passengers
+													</td>
+												</tr>
+											</table>
+										</td>
+										<td colspan="3" width="630" class="mainBg2Color">
+											<table border="0" cellspacing="0" cellpadding="0">
+												<tr>
+													<td id="passengerSelect" width="260">
+														<table cellspacing="10" cellpadding="0" border="0">
+															<tr>
+																<td class="mainTextDark"><b>maximum passengers*&nbsp;<script>getTotPass();</script>: </b></td>
+																<td class="mainTextDark">
+																	<select class="inputSelect" name="TotalPassengers" id="TotalPassengers">
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<td colspan="2" class="mainTextDark">* Please select the exact number of passengers, including children &amp; infants.</td>
+															</tr>
+														</table>
+													</td>
+													<td class="mainBg1Color" valign="middle" align="center" width="100" id="vehicleSelect1">
+														<table cellspacing="9" cellpadding="0" border="0">
+															<tr>
+																<td class="mainNumberingLight" align="center">
+																	<img src="_images/ico_vehicles.png" class="iconStyle"><br>
+																	Vehicles
+																</td>
+															</tr>
+														</table>
+													</td>
+													<td id="vehicleSelect2" width="266">
+														<table cellspacing="10" cellpadding="0" border="0">
+															<tr>
+																<td class="mainTextDark"><b>maximum vehicles**&nbsp;<script>getTotVeh();</script>: </b></td>
+																<td class="mainTextDark">
+																	<select class="inputSelect" name="TotalVehicles" id="TotalVehicles">
+																	</select>
+																</td>
+															</tr>
+															<tr>
+																<td colspan="2" class="mainTextDark">** Please select the exact number of vehicles, including baggage &amp; boat trailers.</td>
+															</tr>
+														</table>
+													</td>
+												</tr>
+											</table>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+					<!--end opa-->
+				</td>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<table width="784" cellspacing="0" cellpadding="0" border="0">
+						<tr>
+							<td width="54">&nbsp;&nbsp;</td>
+							<td class="mainBG2Color" align="left">
+								<table width="728" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td>
+											<div style="float:right; padding:15px">
+												<div class="btnGrey" onclick="goOn();" style="background: url(_images/button_searchdepartures.png) no-repeat; height:40px; width:170px; cursor:pointer;"></div>
+											</div>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+					</table>
+				</td>
+				</FORM>
+			</tr>
+			<tr>
+				<td colspan="4">
+					<table width="784" border="0" cellspacing="0" cellpadding="0">
+						<tr>
+							<td width="54">&nbsp;&nbsp;</td>
+							<td align="center" class="mainBG2Color" colspan="4">
+								<a name="RoutesTable">
+									<div id="MB_Routes" style="z-index:1; visibility:hidden; overflow:hidden; position:inherit; height:1px">
+										<iframe name="ViewAllRoutes" id="RouteFrame" marginwidth="0" marginheight="0" src="null.php" frameborder="0" width="720" scrolling="no" height="100"></iframe>
+									</div>
+								</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td>
+		<table width="784" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td width="54">&nbsp;&nbsp;</td>
+				<td width="730">
+					<table width="730" border="0" cellspacing="0" cellpadding="0" class="mainBG2Color pageRadius">
+						<tr>
+							<td class="disclaimer" style="padding: 15px;">
+								<a href="javascript:popupwindow('http://hosting.forth-crs.gr/share/powered.html','Powered',660,430,0,0,0,1,1)">
+								<img alt="Powered by FORTHcrs Web Booking Engine" border="0" src="_images/powered.png"></a>
+								<br>&copy;&nbsp;<span id="yrd"></span> All Rights Reserved.
+								<a href="javascript:popupwindow('https://hosting.forth-crs.gr/share/disclaimer.htm','Disclaimer',660,570,0,0,0,1,1)" style="font-size: 10px;">Disclaimer</a>.
+								<br>Powered by FORTHcrs Web Booking Engine.
+							</td>
+						</tr>
+						<tr >
+							<td class="contact"><b>Contact Details:</b><br>Paleologos S.A. Shipping & Travel Enterprises<br>Telephone: (+30) 2810 346185, e-mail: info@paleologos.gr</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+<!--- Start of Footer --->
+<tr>
+	<td><script type="text/javascript">document.write(footerlogo);</script></td>
+</tr>
+<!--- End of Footer --->
+</table>
+
+<script type="text/javascript">
+fillPassengers();
+fillVehicles();
+BuildOneWayBox('Leg1i');
+BuildOneWayBox('Leg2i');
+setIFrameDims();
+
+if (showVehicleSelect) {
+	document.getElementById('vehicleSelect1').style.display = '';
+	document.getElementById('vehicleSelect2').style.display = '';
+} else {
+	document.getElementById('passengerSelect').colSpan = 3;
+	document.getElementById('vehicleSelect1').style.display = 'none';
+	document.getElementById('vehicleSelect2').style.display = 'none';
+}
+
+if (havePOST) {
+	pass= document.getElementById("RDPAX").value;
+	veh= document.getElementById("RDVEH").value;
+
+	//gia to autopost
+	pass = pass - 1;
+	doDefaultPort(document.forms[0].Leg1i, document.getElementById('RDFROM').value);
+	RTfrom1 (document.forms[0].Leg1i);
+	doDefaultPort(document.forms[0].Leg1ii, document.getElementById('RDTO').value);
+	RTto1 (document.forms[0].Leg1ii);
+	if (roundtrip != 'R') {
+		doDefaultPort(document.forms[0].Leg2i, document.getElementById('RDTO').value);
+		doDefaultPort(document.forms[0].Leg2ii, document.getElementById('RDFROM').value);
+	}
+
+	document.getElementById("TotalPassengers").options[parseInt(pass)].selected = true;
+	document.getElementById("TotalVehicles").options[parseInt(veh)].selected = true;
+
+	goOn();
+}
+
+// must be onsubmit of form
+function goOn() {
+	document.getElementById("MB_Routes").style.height = IFrameHeight + 'px';
+	document.getElementById("RouteFrame").style.height = IFrameHeight + 'px';
+	document.getElementById("RouteFrame").src = "null.php";
+
+	if (validateDates(document.forms[0].elements['Leg1Date'].value, document.forms[0].elements['Leg2Date'].value, dtValidErrMessage) && validateForm(document.SailingSelection,1,0,0,0)) {
+		setTimeout('document.forms[0].submit()',1000);
+		location.href = "#RoutesTable";
+	}
+}
+var Leg0= document.getElementById("Leg1i").style.width=cbmDimension;
+var leg1= document.getElementById("Leg1ii").style.width=cbmDimension;
+var leg2= document.getElementById("Leg2i").style.width=cbmDimension;
+var leg3= document.getElementById("Leg2ii").style.width=cbmDimension;
+
+document.getElementById("yrd").innerHTML=serverdatetime[0];
+//autoSelectDay("Leg1Date","Leg2Date");
+//day2("Leg2Date");
+
+if (showweather) {
+	var weatherDate1 = document.getElementById('Leg1Date').value.substring(6,10) + '-' +
+					   document.getElementById('Leg1Date').value.substring(3,5) + '-' +
+					   document.getElementById('Leg1Date').value.substring(0,2);
+	var coords1 = retPortLat(document.getElementById('Leg1ii').value) + ',' + retPortLong(document.getElementById('Leg1ii').value);
+	loadLayer("weather1","topbar1","loc1","frm1",weatherDate1,1,false,coords1);
+	var weatherDate2 = document.getElementById('Leg2Date').value.substring(6,10) + '-' +
+					   document.getElementById('Leg2Date').value.substring(3,5) + '-' +
+					   document.getElementById('Leg2Date').value.substring(0,2);
+	var coords2 = retPortLat(document.getElementById('Leg2ii').value) + ',' + retPortLong(document.getElementById('Leg2ii').value);
+	loadLayer("weather2","topbar2","loc2","frm2",weatherDate2,2,false,coords2);
+
+	document.getElementById("Leg2ii").onchange= function(){
+		var weatherDate2 = document.getElementById('Leg2Date').value.substring(6,10) + '-' +
+						   document.getElementById('Leg2Date').value.substring(3,5) + '-' +
+						   document.getElementById('Leg2Date').value.substring(0,2);
+		var coords2 = retPortLat(document.getElementById('Leg2ii').value) + ',' + retPortLong(document.getElementById('Leg2ii').value);
+
+		if ( haveweatherData(weatherDate1, coords1) ) {
+			//alert('Have data leg2ii');
+		} else {
+			/* TODO: Empty msgbox */
+			//alert('No data leg2ii');
+		}
+	};
+}else if (showpanoramio) {
+	loadPanoramio("panoramio1", "topbar3", "37.942730", "23.647369", "PIRAEUS", 3);
+	loadPanoramio("panoramio2", "topbar4", "37.942730", "23.647369", "PIRAEUS", 4);
+}
+
+if(freeports){
+	document.getElementById("Leg1ii").removeAttribute("OnChange");
+	document.getElementById("Leg2i").setAttribute('ValidateThis', 'select');
+	document.getElementById("Leg2i").setAttribute('ErrorMessage', 'Select Departure Port!');
+	document.getElementById("Leg2ii").setAttribute('ValidateThis', 'select');
+	document.getElementById("Leg2ii").setAttribute('ErrorMessage', 'Select Arrival Port!');
+}
+
+function weatherEvent( leg ) {
+	var weatherDate1 = document.getElementById('Leg'+leg+'Date_hidd').value.substring(6,10) + '-' +
+					   document.getElementById('Leg'+leg+'Date_hidd').value.substring(3,5) + '-' +
+					   document.getElementById('Leg'+leg+'Date_hidd').value.substring(0,2);
+	var coords1 = retPortLat(document.getElementById('Leg'+leg+'ii').value) + ',' + retPortLong(document.getElementById('Leg'+leg+'ii').value);
+	if ( haveweatherData(weatherDate1, coords1) ) {
+		//alert('Have data leg1ii');
+	} else {
+		/* TODO: Empty msgbox */
+		//alert('No data leg1ii');
+	}
+}
+</script>
+
+</body>
+</html>

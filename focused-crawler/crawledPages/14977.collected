@@ -1,0 +1,245 @@
+title=Amadeo Travel • Home Page
+url=http://www.amadeotravel.com/lin_long_island_wineries
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Cache-Control" content="max-age=3600, must-revalidate" />
+    <title>Amadeo Travel • Home Page</title>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="distribution" content="Global" />
+    <meta name="google-site-verification" content="H9CCSwRBKwlQZEGCwTjaktUWaKxuITSVqvbAxawcNOA" />
+    <base href="https://www.amadeotravel.com/" />
+    <link rel="stylesheet" href="css/ui-lightness/jquery-ui-1.8.16.custom.css" />
+    <link rel="stylesheet" href="css/styles.css" type="text/css"/>
+    <link rel="stylesheet" href="css/print.css" media="print"/>
+    <script type="text/javascript">
+    function load_js() {
+        var element = document.createElement("script");
+        element.src = "scripts/jquery.js";
+        document.body.appendChild(element);
+        var jquery_onload = window.setInterval(function(){
+            try{
+                if($()){
+                    window.clearInterval(jquery_onload);
+                    var element = document.createElement("script");
+                    element.src = "scripts/flash.js";
+                    document.body.appendChild(element);
+                    var element = document.createElement("script");
+                    element.src = "scripts/init.js";
+                    document.body.appendChild(element);
+                        var element = document.createElement("script");
+                        element.charset="UTF-8";
+                        element.type="text/javascript";
+                        element.src = "scripts/cpoint.js.php";
+                        document.body.appendChild(element);
+                        var load_cpoint = window.setInterval(function(){
+                            try{
+                                if(cpoint){
+                                    window.clearInterval(load_cpoint);
+                                    cpoint.email = "fit AT amadeotravel.com";
+                                    cpoint.lang = "en";
+                                    cpoint.side = "left";
+                                    cpoint.print('green');
+                                    $('#cpoint_form').attr('action','http://dgate.co.il/web2mail_utf8.asp');
+                                }
+                            }catch(err){}
+                        },10);
+                }
+            }catch(err){}
+        },10);
+    }
+    if(window.addEventListener)
+        window.addEventListener("load",load_js,false);
+    else if(window.attachEvent)
+        window.attachEvent("onload",load_js);
+    else
+        window.onload = load_js;
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-4491444-52']);
+        _gaq.push(['_trackPageview']);
+
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+    </script>
+</head>
+<body>
+    <div class="shadow">
+        
+        <div class="main">
+            <div class="content">
+
+<div class="left">
+    <div class="cube">
+        <div class="title">
+            Welcome&nbsp;to&nbsp;Amadeo Travel
+            <span class="corner_left"></span>
+            <span class="corner_right"></span>
+        </div>
+        <div class="shadow"><div class="txt"><p>
+	Winner of the <span style="color:#ff8c00;"><strong>&ldquo;Export Achievement Award&rdquo;</strong></span><strong> </strong>awarded to companies who excel globally,by the United States Department of Commerce.</p>
+<p>
+	Amadeo Travel Solutions is America&#39;s premier Mini Tour operator, we create, design and operate tours from 1 day to 5 days with, daily guaranteed departures from <span style="color:#ff8c00;"><strong>New York, Los Angeles</strong></span><strong> </strong>and <strong><span style="color:#ff8c00;">Las Vegas</span></strong> to the interesting sights in America.</p>
+<p>
+	We make touring easy and fun.</p>
+<p>
+	All our tours are <strong><span style="color:#ff8c00;">GUARANTEED</span></strong> for departure and are guided by live guides in English, Italian, Spanish, Portuguese, French and German.</p>
+<p>
+	&nbsp;</p>
+<p>
+	<span style="color:#ff8c00;">Click on the links, explore our site and enjoy authentic videos and pictures, experienced by hundreds of thousands of satisfied travelers.</span></p>
+</div></div>
+    </div>
+</div>
+<div class="left trips_preview">
+    <div>
+    <p class="subtitle">East Coast Tours<!-- - From New York --></p>
+        <div class="left" style="margin-left:15px;">
+            <div class="cube small">
+                <div class="title">
+                    The Hamptons &…
+                    <span class="corner_left"></span>
+                    <span class="corner_right"></span>
+                </div>
+                <div class="shadow">
+                    <div class="txt">
+                        <a href="./trips/" style="background-image:URL(uploads/LIS/120_STA60170.JPG);" class="pic_link">The Hamptons &…</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left" style="margin-left:15px;">
+            <div class="cube small">
+                <div class="title">
+                    Washington DC …
+                    <span class="corner_left"></span>
+                    <span class="corner_right"></span>
+                </div>
+                <div class="shadow">
+                    <div class="txt">
+                        <a href="./trips/" style="background-image:URL(uploads/DC1/120_IMG_1175.jpg);" class="pic_link">Washington DC …</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="clear:both;text-align:center;margin-bottom:10px;"><a href="./trips/?D=E" class="more_info" style="font-size:24px;">More trip packages &raquo;</a></div>
+    <p class="subtitle">West Coast Tours<!-- - From Los Angeles--></p>
+        <div class="left" style="margin-left:15px;">
+            <div class="cube small">
+                <div class="title">
+                    Western Deserts
+                    <span class="corner_left"></span>
+                    <span class="corner_right"></span>
+                </div>
+                <div class="shadow">
+                    <div class="txt">
+                        <a href="./trips/" style="background-image:URL(uploads/WDL/120_grand%20canyon%202.jpg);" class="pic_link">Western Deserts</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="left" style="margin-left:15px;">
+            <div class="cube small">
+                <div class="title">
+                    Wild West
+                    <span class="corner_left"></span>
+                    <span class="corner_right"></span>
+                </div>
+                <div class="shadow">
+                    <div class="txt">
+                        <a href="./trips/" style="background-image:URL(uploads/WES/120_1544105_low.jpg);" class="pic_link">Wild West</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div style="text-align:center;clear:both;"><a href="./trips/?D=W" class="more_info" style="font-size:24px;">More trip packages &raquo;</a></div>
+</div>
+<div class="left">
+    <div class="cube">
+        <div class="title">
+            Tour destinations by Day of the week
+            <span class="corner_left"></span>
+            <span class="corner_right"></span>
+        </div>
+        <div class="shadow">
+            <div class="txt">
+                Click on the calendar below to find which tour depart on the days you want to travel<br/>
+                <div id="datepicker"></div>
+                <a href="/tours_departure_list/" class="ui-corner-all ui-state-highlight button">Display all week</a>
+            </div>
+        </div>
+    </div>
+    <div class="cube" style="margin-top:13px">
+        <div class="title">
+            Accreditations
+            <span class="corner_left"></span>
+            <span class="corner_right"></span>
+        </div>
+        <div class="shadow">
+            <div class="txt">
+                <a class="_blank bbb left" title="Click for the Business Review of Amadeo Travel Solutions/Motti Tours/Empire Vacations Inc., a Tours - Operators & Promoters in Verona NJ" href="http://www.bbb.org/new-jersey/business-reviews/tours-operators-and-promoters/amadeo-travel-solutions-motti-tours-empire-vacations-inc-in-verona-nj-90033972#sealclick"><img alt="Click for the BBB Business Review of this Tours - Operators & Promoters in Verona NJ" style="border: 0;" src="https://seal-newjersey.bbb.org/seals/blue-seal-200-42-amadeotravelsolutionsmottitoursempirevacationsinc-90033972.png" /></a>
+                <span class="rsa left"></span>
+                <span class="us_travel left"></span>
+                <span class="nyc-company left"></span>
+                <div style="clear:both;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bottom"></div>
+			</div>
+			<div class="top">
+				<div class="head"></div>
+				<div class="menu">
+						<span class="separator">|</span>
+							<a href="./">Home Page</a>
+						<span class="separator">|</span>
+							<a href="./trips/">Trip Packages</a>
+						<span class="separator">|</span>
+							<a href="./about/">About</a>
+						<span class="separator">|</span>
+							<a href="./contact/">Contact</a>
+						<span class="separator">|</span>
+							<a href="./tours_departure_list/">Tour Departure List</a>
+						<div class="right">
+									<span class="separator">|</span>
+									<a href="french/"><img src="uploads/French.png" height="12" width="20" alt="French" /></a>
+									<span class="separator">|</span>
+									<a href="spanish/"><img src="uploads/Spanish.png" height="12" width="20" alt="Spanish" /></a>
+									<span class="separator">|</span>
+									<a href="italian/"><img src="uploads/Italian.png" height="12" width="20" alt="Italian" /></a>
+									<span class="separator">|</span>
+									<a href="portuguese/"><img src="uploads/Portuguese.png" height="12" width="20" alt="Portuguese" /></a>
+						</div>
+				</div>
+				<div id="flash" class="_homepage"></div>
+			</div>
+		</div>
+		<div class="print_version_title">Amadeo Travel</div>
+	</div>
+	<div class="footer">
+		<div>
+					<a href="./">Home Page</a>
+					<a href="./trips/">Trip Packages</a>
+					<a href="./about/">About</a>
+					<a href="./contact/">Contact</a>
+					<a href="./hotel_list/">Hotel list</a>
+					<a href="./terms_and_conditions/">Terms and conditions</a>
+					<a href="./tours_departure_list/">Tour Departure List</a>
+			<a href="./Privacy_Policy/">Privacy Policy</a>
+		</div>
+		<div><p>
+	All rights reserved 2011 &copy; Amadeo Travel Solutions (Division of EVI).</p>
+<p>
+	Tel: 1-212-642-0915</p>
+<p><a href="http://www.smsite.co.il/english.asp" class="external_link no_border">SMSITE Internet Solutions</a></p></div>
+	</div>
+    <a href="https://www.facebook.com/pages/Amadeo-Travel/87521248356" class="facebook" id="facebook"><img src="images/facebook.png" width="150" height="45" /></a>
+</body>
+</html>

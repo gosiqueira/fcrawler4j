@@ -1,0 +1,151 @@
+title=Tarifas
+url=http://www.taxiezeiza.com.ar/spa/tarifas
+html=<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tarifas</title>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css" />	<!--[if lt IE 9]>
+	<script type="text/javascript" src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>	<![endif]-->
+</head>
+<!--[if lt IE 7 ]> <body class="ie internal fares spa"> <![endif]-->
+<!--[if IE 7 ]> <body class="ie7 internal fares spa"> <![endif]-->
+<!--[if IE 8 ]> <body class="ie8 internal fares spa"> <![endif]-->
+<!--[if IE 9 ]> <body class="ie9 internal fares spa"> <![endif]-->
+<!--[if !IE ]><!--> <body class="internal fares spa"> <!--<![endif]-->
+		<header>
+		<h1>Taxi Ezeiza</h1>
+<div class="wrapper">
+	<a href="/" id="logo" title="TaxiEzeiza"><img src="/img/logo.png" alt="TaxiEzeiza" /></a>	<nav>
+		<ul>
+			<li>
+				<a href="/spa" title="Inicio"><span><span><span class="normal">Inicio</span><span class="hover">Inicio</span></span></span></a>			</li>
+			<li>
+				<a href="/spa/reservas" title="Reservas"><span><span><span class="normal">Reservas</span><span class="hover">Reservas</span></span></span></a>			</li>
+			<li>
+				<a href="/spa/servicios" title="Servicios"><span><span><span class="normal">Servicios</span><span class="hover">Servicios</span></span></span></a>			</li>
+			<li class="active">
+				<a href="/spa/tarifas" title="Tarifas"><span><span><span class="normal">Tarifas</span><span class="hover">Tarifas</span></span></span></a>			</li>
+			<li>
+				<a href="/spa/flota" title="Nuestra Flota"><span><span><span class="normal">Nuestra Flota</span><span class="hover">Nuestra Flota</span></span></span></a>			</li>
+			<li>
+				<a href="/spa/recomendaciones" title="Recomendaciones"><span><span><span class="normal">Comentarios</span><span class="hover">Comentarios</span></span></span></a>			</li>
+			<li>
+				<a href="/spa/contacto" title="Contacto"><span><span><span class="normal">Contacto</span><span class="hover">Contacto</span></span></span></a>			</li>
+		</ul>
+	</nav>
+	<div id="language-selector">
+		<strong>Idioma:</strong>
+		<ul>
+			<li class="spa">
+				<a href="/spa/" title="Español">Español</a>			</li>
+			<li class="eng">
+				<a href="/eng/" title="Inglés">Inglés</a>			</li>
+			<li class="por">
+				<a href="/por/" title="Portugués">Portugués</a>			</li>
+		</ul>
+	</div>
+</div>	</header>
+		<div id="content-wrapper">
+	<section id="content" class="wrapper">
+		<div class="top"></div>
+		<div class="middle">
+			<div class="column">
+				<h1>Tarifas</h1>
+				<table>
+					<thead>
+						<tr>
+							<th>Destino</th>
+							<th>Precio</th>
+						</tr>
+					</thead>
+					<tbody>
+												<tr>
+							<td>
+																Centro							</td>
+							<td class="price">$500.-</td>
+						</tr>
+												<tr>
+							<td>
+																Aeroparque							</td>
+							<td class="price">$520.-</td>
+						</tr>
+												<tr>
+							<td>
+																Avellaneda							</td>
+							<td class="price">$510.-</td>
+						</tr>
+												<tr>
+							<td>
+																Lomas de Zamora							</td>
+							<td class="price">$450.-</td>
+						</tr>
+												<tr>
+							<td>
+																San Isidro							</td>
+							<td class="price">$560.-</td>
+						</tr>
+												<tr class="promo">
+							<td>
+																<strong>Promoción</strong> - 
+																Retorno desde Centro hacia Aeropuerto							</td>
+							<td class="price">$400.-</td>
+						</tr>
+											</tbody>
+				</table>
+			</div>
+			<div class="column promo">
+				<h2>Promoción</h2>
+				<div class="content">
+					<p>Desde cualquier punto<br />de Capital Federal,<br /><strong>retorno</strong> hacia Aeropuerto Ezeiza</p>
+					<p class="price">
+						<strong>$400.-</strong>
+						<em>Todo Incluído!</em>
+					</p>
+				</div>
+			</div>
+		</div>
+		<div class="bottom"></div>
+	</section>
+</div>	<footer>
+		<div class="wrapper">
+	<section id="footer-contact">
+	<h1>Atención Telefónica</h1>
+	<p>5480-0066</p>
+</section><section id="footer-promo">
+	<h1>Promoción</h1>
+	<p class="description">Desde cualquier punto de Capital. Retorno a Aeropuerto Ezeiza.<br /><strong>Todo Incluido.</strong></p>
+	<p class="price">
+		<span>$400.-</span>
+		<em>Todo Incluido</em>
+	</p>
+	<a href="http://www.taxiezeiza.com.ar/spa/reservas" class="btn" title="Reservar TAXI">Reservar TAXI</a></section>	
+		<div id="socialmedia">
+		<a href="http://www.facebook.com/#!/ctta.taxiezeiza" title="Facebook" class="facebook">Facebook</a>	</div>
+		<ul id="footer-logos">
+		<li class="aeropuertos-argentina"><a href="http://www.aa2000.com.ar/" title="Aeropuertos Argentina 2000">Aeropuertos Argentina 2000</a></li>
+		<li class="argentina-turismo"><a href="http://www.turismo.gov.ar/" title="Argentina Turismo">Argentina Turismo</a></li>
+		<li class="argentina"><a href="http://www.argentina.gov.ar/argentina/portal/paginas.dhtml?pagina=356" title="Argentina">Argentina</a></li>
+		<li class="municipalidad-ezeiza"><a href="http://www.muniezeiza.gob.ar/" title="Municipalidad de Ezeiza">Municipalidad de Ezeiza</a></li>
+	</ul>
+	<ul id="footer-nav">
+		<li class="first">
+			<a href="/spa" title="Inicio">Inicio</a>		</li>
+		<li>
+			<a href="/spa/reservas" title="Reservas">Reservas</a>		</li>
+		<li>
+			<a href="/spa/servicios" title="Servicios">Servicios</a>		</li>
+		<li class="active">
+			<a href="/spa/tarifas" title="Tarifas">Tarifas</a>		</li>
+		<li>
+			<a href="/spa/flota" title="Nuestra Flota">Nuestra Flota</a>		</li>
+		<li>
+			<a href="/spa/recomendaciones" title="Recomendaciones">Recomendaciones</a>		</li>
+		<li class="last">
+			<a href="/spa/contacto" title="Contacto">Contacto</a>		</li>
+	</ul>
+	<p id="copyright">Copyright 2011 - TaxiEzeiza C.T.T.A. - Todos los derechos reservados</p>
+</div>	</footer>
+		
+		<script type="text/javascript" src="/js/jquery-1.6.1.min.js"></script><script type="text/javascript" src="/js/queryLoader.js"></script><script type="text/javascript" src="/js/cufon-yui.js"></script><script type="text/javascript" src="/js/Swis721_BT_400-Swis721_BT_700.font.js"></script><script type="text/javascript" src="/js/Swis721_Cn_BT_400.font.js"></script><script type="text/javascript" src="/js/scripts.js"></script>	</body>
+</html>

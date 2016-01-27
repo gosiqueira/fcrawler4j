@@ -1,0 +1,167 @@
+title=Moulin Rouge - Booking
+url=https://www.moulinrouge.fr/reservations
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head profile="http://gmpg.org/xfn/11">
+		<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1.0, user-scalable=0" />
+		<title>Moulin Rouge - Booking</title>
+		<meta name="description" content="Moulin Rouge - Booking" />
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js" type="text/javascript"></script>
+		<link type="text/css" href="/style.css" rel="stylesheet">
+		<!--[if IE 8]>
+			<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body class="en">
+		
+<div id="page-wrap" class="small-wrapper">
+	<header id="header" class="big-header">
+		<a href="http://www.moulinrouge.com/" title="Back to the Website" class="back-to-site">Back to the Website</a>
+		<h1><img src="/images/moulin-rouge-logo.png" alt="Moulin Rouge" /></h1>
+		<a href="?lang=fr" title="Français" class="switch-language">Français</a>
+	</header>
+	<div id="content">
+		<div id="home-top-content">
+			<img src="/images/reservation-en-ligne-en.png" alt="Booking online" />
+			<h2>Welcome!</h2>
+			<p>You can book your evening online. (Attention, prepaying booking is mendatory)</p>
+		</div>
+		
+		<div id="home-form-wrapper">
+			<form id="home-form" name="home-form" action="/reservations/step-2" method="post">
+				<div id="date-participants-wrapper">
+					<div id="date-button-wrapper">
+						<a href="#" title="Choose your date" class="uppercase">Date</a>
+						<input id="date" type="hidden" name="date" value="" />
+					</div>
+					<div id="participants-select-wrapper">
+					
+						<!-- Ici on cree en JS une fausse liste deroulante a la place de celle ci, avec un input type="hidden" avec pour name="participants" -->
+						<select class="uppercase turnintodropdown">
+							<option value="0">Seats</option>
+							<option value="1">1</option><option value="2">2</option><option value="3">3</option><option value="4">4</option><option value="5">5</option><option value="6">6</option><option value="7">7</option><option value="8">8</option><option value="9">9</option><option value="10">10</option>						</select>
+					</div>
+				</div>
+				<div id="validation-wrapper">
+					<div id="validation-impossible" class="uppercase">
+						Validate					</div>
+					<input type="submit" value="Validate" id="home-validation" class="uppercase" />
+				</div>
+			</form>
+		</div>
+		
+
+		
+		<div id="mentions">
+			<div id="mentions-content">
+          		<h2 class="uppercase">Other informations</h2>
+				<p>
+					It is forbidden to take pictures, to film or to record the show and to take pictures of the hall.<br />Kids accepted starting 6 years old. Discounted rate on the show for kids less than 12 years old. Please contact us.				</p>
+				<p>
+					Correct clothing required. Jacket and tie appreciated. Shorts, bermudas, sport clothes and shoes are not allowed. Arrival: 30 minutes before the show. Consumptions and service are interupted while the show is going on.				</p>
+				<p class="uppercase">
+					ABUSE OF ALCOHOL IS DANGEROUS TO YOUR HEALTH. CONSUME WITH CARE.				</p>
+				<p>
+					We inform you that the Moulin Rouge is a non-smoking place: entrance, hall, showroom...				</p>
+				<p>
+					If you wish to book your tickets with "gift checks" (not working for formulas without drinks),<br />please contact directly our booking service at:<br />Telephone: +33 (0)1 53 09 82 82 - Email: <a href="mailto:reservation@moulinrouge.fr" title="Contact booking service">Booking service</a>				</p>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="lightbox">
+	<div id="datepicker-wrapper">
+		<a href="#" title="Close" class="uppercase close-lightbox">Close</a>
+		<div id="datepicker">		
+		</div>
+	</div>
+</div>
+<script src="/js/home.select.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+
+	/***
+		Ici la gestion du calendrier via le datepicker de jQuery UI
+
+		Pour creer des evenements sur le calendrier, il faut passer dans le tableau eventDates des dates
+		au format (annee, mois, jour) sachant que janvier = 0 et decembre = 12.
+		
+		En cas de gestion bilingue du site, on peut creer des options de traductions du calendrier
+		comme avec $.datepicker.regional['fr']
+	***/
+	var eventDates = [new Date(2014, 5, 4), new Date(2014, 5, 18), new Date(2014, 5, 16), new Date(2014, 6, 16), new Date(2014, 6, 17), new Date(2014, 6, 18)];
+
+	
+	datepickerTextes = {
+		dayNames: [ "Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday" ],
+		dayNamesMin: [ "Su", "Mo", "Tu", "We", "Th", "Fr", "Sa" ],
+		firstDay: 1,
+		monthNames: ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"],
+		monthNamesShort: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sept", "Oct", "Nov", "Dec"]
+	}
+	
+	$.datepicker.setDefaults(datepickerTextes);
+	
+	$('#datepicker').datepicker({
+		dateFormat: "DD dd M yy",
+		altField  : '#date',
+		altFormat : 'yy-mm-dd',
+		minDate: 0,
+		beforeShowDay: function(date) {
+			for (var i = 0; i < eventDates.length; i++) {
+				if (date.getTime() == eventDates[i].getTime()) {
+					return [true, 'event'];
+				}
+			}
+			return [true, ''];
+		},
+		onSelect: function(dateText, inst) {			
+			if($(window).width() <= 480) {
+				dateText = $.datepicker.formatDate("D dd M yy", $(this).datepicker("getDate"),{
+					dayNamesShort: [ "Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat" ]
+				});
+			}				
+			$('#date-button-wrapper a').empty().append(dateText);
+			if($('#input-participants').val() != 0) {
+				// on peut afficher le bouton de validation
+				$('#validation-impossible').hide();
+				$('#home-validation').show();
+			}
+			$('#lightbox').fadeOut(400);
+		}
+	});
+});
+</script>		<div id="footer">
+			<a href="http://www.moulinrouge.fr/legal-notice?lang=en" target="_blank">Legal notice</a>
+			| <a href="http://www.moulinrouge.fr/reservations/legal/pcgb.htm" target="_blank">Privacy policy</a>
+			| <a href="http://www.moulinrouge.fr/reservations/legal/cgugb.htm" target="_blank">General Terms and Conditions of Use</a>
+			| <a href="http://www.moulinrouge.fr/reservations/legal/cgvgb.htm" target="_blank">General Terms of Sales </a>
+		</div>
+
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-20231532-1', 'auto');
+            ga('require', 'displayfeatures');
+            ga('require', 'ec');
+
+            ga('set', 'dimension1', 'Réservations');
+            ga('set', 'dimension2', '');
+            ga('set', 'dimension3', 'Tunnel de réservation - étape 1');
+            ga('set', 'dimension4', 'Anglais');
+	                    ga('ec:setAction','checkout', {"step":1});
+                
+            ga('send', 'pageview');
+
+        </script>
+        <!-- End Google Analytics -->
+
+        
+    </body>
+</html>

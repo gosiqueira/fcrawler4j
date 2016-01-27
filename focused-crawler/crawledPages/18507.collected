@@ -1,0 +1,1372 @@
+title=Appelez l'international avec votre carte SIM |Lebara Mobile
+url=http://www.lebara.fr/
+html=<!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--[if lt IE 7]><html lang="fr" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]><html lang="fr" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]><html lang="fr" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+
+<html lang="fr" class="no-js"><!--<![endif]-->
+
+<head>
+    <title>Appelez l'international avec votre carte SIM |Lebara Mobile</title> 
+<meta name="title" content="Appelez l'international avec votre carte SIM |Lebara Mobile"/> 
+<meta name="keywords" content="appels internationaux, carte SIM, Lebara, pre-payé, appels nationaux"/> 
+<meta name="description" content="Appels Nationaux et Internationaux à prix low cost avec la carte SIM Lebara Mobile. Profitez de nos offres dès aujourd'hui."/> 
+
+	
+ 
+
+
+
+
+<script type="text/javascript">
+var isTopupInfoExists =  'false';
+
+var price='';
+var pageNameFromURL= 'http://www.lebara.fr/pages/responsive/pt_li_generic_empty_main_responsive.jsp';
+var splitPageName=pageNameFromURL.split("/");
+var pageLabel='';
+var pageName=splitPageName[splitPageName.length-1];
+var orderValue = '';
+var productPrice = '';
+var amount = '0';
+var navigationType = '';
+var MerchantReferenceNumber = '';
+var isocode = 'FR'
+if(isocode == 'GB')
+{
+	if(price!=null || price!="") {
+		var currencySymbolRemoved= price.substr(1,price.length);
+		orderValue = currencySymbolRemoved;
+		productPrice = currencySymbolRemoved;
+	}
+}
+if(isocode == 'DE' || isocode == 'ES' || isocode == 'FR' || isocode == 'NL')
+{
+	if(price!=null || price!="") {
+		var currencySymbolRemoved= price.substr(0,price.length-1);
+		orderValue = currencySymbolRemoved;
+		productPrice = currencySymbolRemoved;
+	}
+}
+if(isocode == 'PL')
+{
+	if(price!=null && price!="") {
+		var currencySymbolRemoved= price.substr(0,price.length-2);
+		orderValue = currencySymbolRemoved;
+		productPrice = currencySymbolRemoved;
+	}
+}
+if(isocode == 'DK')
+{
+	if(price!=null && price!="") {
+		var currencySymbolRemoved= price.substr(0,price.length-2);
+		orderValue = currencySymbolRemoved;
+		productPrice = currencySymbolRemoved;
+	}
+}
+var pageURL = location.href;
+var productId = '';
+var productSKU = '';
+var productName = '';
+var simSelected = 	'';
+if(isocode == 'FR' || isocode == 'GB');
+{
+	if( productName == 'Topup')
+	{
+	 	productName = 'Registered';		
+	}
+	else if (simSelected.toString() == 'true' && productName == 'UnregisteredTopup') 
+	{
+		productName = 'PaidSim'	;
+	}
+}
+var orderNumber = '';                                        
+var productCategory = '';
+var quantity = '1';
+var searchTerm = '';
+var topupType = '';
+var loggedIn;
+var customerAccountId =''; //email id
+var voucherCode =''; // promotion code
+var taxAmount = ''; // always empty for lebara
+var purchaseType=''; // not yet decided
+var voucherCode = '';
+
+if(customerAccountId == null || customerAccountId ==''){
+	loggedIn = "no";
+}else{
+	loggedIn = "yes";
+}
+
+if(isocode == 'DK') {
+	/*DK Specific Parameters Free SIM*/
+ 	orderNumber = '';
+ 	
+ 	/*Check for other orderNumber in PRCC */
+ 	if(!(orderNumber != "")) {
+ 		orderNumber='';
+ 	}
+ 	
+ 	/*DK Specific Parameters Free SIM*/
+ 	if('false'=='true'){
+ 	if('false'=='true' && 'false'=='true') {
+ 	   if(''!='FREE'){
+ 	 	  productCategory = 'paid_sim';
+ 	 	  productPrice = '';
+ 	 	  orderValue = '';
+ 	 	  productId='';
+ 	 	 productName='';
+ 	 	} 
+ 	   else{
+ 	      productCategory = 'free_sim';
+ 	 	  productPrice = '0';
+ 	 	  orderValue = '0';
+ 	 	  productId='sim_2';
+ 	 	  productName='Free';
+ 	   }
+ 	}
+ 	}
+
+ 	  else if(''=="instantTopup"){
+ 	      productCategory = 'instantTopup';
+ 	 	  productPrice = '';
+ 	 	  orderValue =  '';
+ 	 	 productId= '';
+ 	 	 productName='';
+ 	   }
+ 	  else if(''=="autoTopup"){
+ 	     productCategory = 'autoTopup';
+ 	    productPrice = '';
+	 	  orderValue =  '';
+	 	 productId= '';
+	 	 productName='';
+ 	  }
+ 	  else  if(''!=null && ''=="MBB"){
+ 	 	    productCategory = 'data';
+ 	 	    productPrice = '49';
+ 		 	  orderValue =  '49';
+ 		 	 productId= '49_lebaraMobileData';
+ 		 	 productName='49_lebaraMobileData';
+ 	 	 }
+ 	 else  if(''!=null && ''=="TakeAway"){
+	 	    productCategory = 'Take_Away';
+	 	    productPrice = '49';
+		 	  orderValue =  '49';
+		 	 productId= '49_lebaraMobileData';
+		 	 productName='49_lebaraMobileData';
+	 	 }
+ 	 else  if(''!=null && ''=="Roaming"){
+	 	    productCategory = 'Roaming';
+	 	    productPrice = '';
+		 	orderValue =  '';
+		    productId= 'roaming_49';
+		 	productName='roaming_49';
+		 	orderNumber='';
+	 	 }
+	else {
+		 
+		 }
+ 	
+ 	/*Check for other productPrice in DK PRCC */
+	if(productPrice == "") {
+		orderValue = amount;
+		productPrice = amount;
+	}
+	voucherCode = '';
+	quantity = '1' ;
+	
+	
+	var talkCountryCode = '';
+	var talkCurrencyCode = '';
+	
+}
+</script>
+
+    <!-- gtrs01 START -->
+<!-- START li_optimizely_snippet -->
+<script src="//cdn.optimizely.com/js/2226730319.js"></script>
+<!-- END li_optimizely_snippet --> 
+<script src="//www.assets.lebara.com/assets/global/js-responsive/gtrs01.v1.0.0.js" type="text/javascript"></script>
+<!-- gtrs01 END -->
+
+
+	 <!--Start : Modal PopUp section -->
+	
+	<!--Start : Modal PopUp section -->
+
+<script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UgECVVJXGwcBVlNaBQI="};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({QJf3ax:[function(t,e){function n(t){function e(e,n,a){t&&t(e,n,a),a||(a={});for(var c=s(e),f=c.length,u=i(a,o,r),d=0;f>d;d++)c[d].apply(u,n);return u}function a(t,e){f[t]=s(t).concat(e)}function s(t){return f[t]||[]}function c(){return n(e)}var f={};return{on:a,emit:e,create:c,listeners:s,_events:f}}function r(){return{}}var o="nr@context",i=t("gos");e.exports=n()},{gos:"7eSDFh"}],ee:[function(t,e){e.exports=t("QJf3ax")},{}],3:[function(t){function e(t){try{i.console&&console.log(t)}catch(e){}}var n,r=t("ee"),o=t(1),i={};try{n=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(i.console=!0,-1!==n.indexOf("dev")&&(i.dev=!0),-1!==n.indexOf("nr_dev")&&(i.nrDev=!0))}catch(a){}i.nrDev&&r.on("internal-error",function(t){e(t.stack)}),i.dev&&r.on("fn-err",function(t,n,r){e(r.stack)}),i.dev&&(e("NR AGENT IN DEVELOPMENT MODE"),e("flags: "+o(i,function(t){return t}).join(", ")))},{1:24,ee:"QJf3ax"}],4:[function(t){function e(t,e,n,i,s){try{c?c-=1:r("err",[s||new UncaughtException(t,e,n)])}catch(f){try{r("ierr",[f,(new Date).getTime(),!0])}catch(u){}}return"function"==typeof a?a.apply(this,o(arguments)):!1}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function n(t){r("err",[t,(new Date).getTime()])}var r=t("handle"),o=t(6),i=t("ee"),a=window.onerror,s=!1,c=0;t("loader").features.err=!0,t(5),window.onerror=e;try{throw new Error}catch(f){"stack"in f&&(t(1),t(2),"addEventListener"in window&&t(3),window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)&&t(4),s=!0)}i.on("fn-start",function(){s&&(c+=1)}),i.on("fn-err",function(t,e,r){s&&(this.thrown=!0,n(r))}),i.on("fn-end",function(){s&&!this.thrown&&c>0&&(c-=1)}),i.on("internal-error",function(t){r("ierr",[t,(new Date).getTime(),!0])})},{1:11,2:10,3:8,4:12,5:3,6:25,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],5:[function(t){if(window.addEventListener){var e=t("handle"),n=t("ee");t(1),window.addEventListener("click",function(){e("inc",["ck"])},!1),window.addEventListener("hashchange",function(){e("inc",["hc"])},!1),n.on("pushState-start",function(){e("inc",["ps"])})}},{1:9,ee:"QJf3ax",handle:"D5DuLP"}],6:[function(t){t("loader").features.ins=!0},{loader:"G9z0Bl"}],7:[function(t){function e(){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var n=t("ee"),r=t("handle"),o=t(1),i=t(2);t("loader").features.stn=!0,t(3);var a=Event;n.on("fn-start",function(t){var e=t[0];e instanceof a&&(this.bstStart=Date.now())}),n.on("fn-end",function(t,e){var n=t[0];n instanceof a&&r("bst",[n,e,this.bstStart,Date.now()])}),o.on("fn-start",function(t,e,n){this.bstStart=Date.now(),this.bstType=n}),o.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),this.bstType])}),i.on("fn-start",function(){this.bstStart=Date.now()}),i.on("fn-end",function(t,e){r("bstTimer",[e,this.bstStart,Date.now(),"requestAnimationFrame"])}),n.on("pushState-start",function(){this.time=Date.now(),this.startPath=location.pathname+location.hash}),n.on("pushState-end",function(){r("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),"addEventListener"in window.performance&&(window.performance.addEventListener("webkitresourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.webkitClearResourceTimings()},!1),window.performance.addEventListener("resourcetimingbufferfull",function(){r("bstResource",[window.performance.getEntriesByType("resource")]),window.performance.clearResourceTimings()},!1)),document.addEventListener("scroll",e,!1),document.addEventListener("keypress",e,!1),document.addEventListener("click",e,!1)}},{1:11,2:10,3:9,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],8:[function(t,e){function n(t){i.inPlace(t,["addEventListener","removeEventListener"],"-",r)}function r(t){return t[1]}var o=t("ee").create(),i=t(1)(o),a=t("gos");if(e.exports=o,n(window),"getPrototypeOf"in Object){for(var s=document;s&&!s.hasOwnProperty("addEventListener");)s=Object.getPrototypeOf(s);s&&n(s);for(var c=XMLHttpRequest.prototype;c&&!c.hasOwnProperty("addEventListener");)c=Object.getPrototypeOf(c);c&&n(c)}else XMLHttpRequest.prototype.hasOwnProperty("addEventListener")&&n(XMLHttpRequest.prototype);o.on("addEventListener-start",function(t,e){function n(){return s}if(t[1]){var r=t[1];if("function"==typeof r){var s=a(r,"nr@wrapped",function(){return i(r,"fn-",n,r.name||"anonymous")});this.wrapped=t[1]=s,o.emit("initEventContext",[t,e],this.wrapped)}else"function"==typeof r.handleEvent&&i.inPlace(r,["handleEvent"],"fn-")}}),o.on("removeEventListener-start",function(t){var e=this.wrapped;e&&(t[1]=e)})},{1:26,ee:"QJf3ax",gos:"7eSDFh"}],9:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window.history,["pushState","replaceState"],"-")},{1:26,ee:"QJf3ax"}],10:[function(t,e){var n=t("ee").create(),r=t(1)(n);e.exports=n,r.inPlace(window,["requestAnimationFrame","mozRequestAnimationFrame","webkitRequestAnimationFrame","msRequestAnimationFrame"],"raf-"),n.on("raf-start",function(t){t[0]=r(t[0],"fn-")})},{1:26,ee:"QJf3ax"}],11:[function(t,e){function n(t,e,n){t[0]=i(t[0],"fn-",null,n)}function r(t,e,n){function r(){return a}this.ctx={};var a={"nr@context":this.ctx};o.emit("initTimerContext",[t,n],a),t[0]=i(t[0],"fn-",r,n)}var o=t("ee").create(),i=t(1)(o);e.exports=o,i.inPlace(window,["setTimeout","setImmediate"],"setTimer-"),i.inPlace(window,["setInterval"],"setInterval-"),i.inPlace(window,["clearTimeout","clearImmediate"],"clearTimeout-"),o.on("setInterval-start",n),o.on("setTimer-start",r)},{1:26,ee:"QJf3ax"}],12:[function(t,e){function n(){f.inPlace(this,p,"fn-",o)}function r(t,e){f.inPlace(e,["onreadystatechange"],"fn-")}function o(t,e){return e}function i(t,e){for(var n in t)e[n]=t[n];return e}var a=t("ee").create(),s=t(1),c=t(2),f=c(a),u=c(s),d=window.XMLHttpRequest,p=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"];e.exports=a,window.XMLHttpRequest=function(t){var e=new d(t);try{a.emit("new-xhr",[],e),e.hasOwnProperty("addEventListener")&&u.inPlace(e,["addEventListener","removeEventListener"],"-",o),e.addEventListener("readystatechange",n,!1)}catch(r){try{a.emit("internal-error",[r])}catch(i){}}return e},i(d,XMLHttpRequest),XMLHttpRequest.prototype=d.prototype,f.inPlace(XMLHttpRequest.prototype,["open","send"],"-xhr-",o),a.on("send-xhr-start",r),a.on("open-xhr-start",r)},{1:8,2:26,ee:"QJf3ax"}],13:[function(t){function e(t){var e=this.params,r=this.metrics;if(!this.ended){this.ended=!0;for(var i=0;c>i;i++)t.removeEventListener(s[i],this.listener,!1);if(!e.aborted){if(r.duration=(new Date).getTime()-this.startTime,4===t.readyState){e.status=t.status;var a=t.responseType,f="arraybuffer"===a||"blob"===a||"json"===a?t.response:t.responseText,u=n(f);if(u&&(r.rxSize=u),this.sameOrigin){var d=t.getResponseHeader("X-NewRelic-App-Data");d&&(e.cat=d.split(", ").pop())}}else e.status=0;r.cbTime=this.cbTime,o("xhr",[e,r,this.startTime])}}}function n(t){if("string"==typeof t&&t.length)return t.length;if("object"!=typeof t)return void 0;if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if("undefined"!=typeof FormData&&t instanceof FormData)return void 0;try{return JSON.stringify(t).length}catch(e){return void 0}}function r(t,e){var n=i(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.sameOrigin=n.sameOrigin}if(window.XMLHttpRequest&&XMLHttpRequest.prototype&&XMLHttpRequest.prototype.addEventListener&&!/CriOS/.test(navigator.userAgent)){t("loader").features.xhr=!0;var o=t("handle"),i=t(2),a=t("ee"),s=["load","error","abort","timeout"],c=s.length,f=t(1),u=window.XMLHttpRequest;t(4),t(3),a.on("new-xhr",function(){this.totalCbs=0,this.called=0,this.cbTime=0,this.end=e,this.ended=!1,this.xhrGuids={}}),a.on("open-xhr-start",function(t){this.params={method:t[0]},r(this,t[1]),this.metrics={}}),a.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid)}),a.on("send-xhr-start",function(t,e){var r=this.metrics,o=t[0],i=this;if(r&&o){var f=n(o);f&&(r.txSize=f)}this.startTime=(new Date).getTime(),this.listener=function(t){try{"abort"===t.type&&(i.params.aborted=!0),("load"!==t.type||i.called===i.totalCbs&&(i.onloadCalled||"function"!=typeof e.onload))&&i.end(e)}catch(n){try{a.emit("internal-error",[n])}catch(r){}}};for(var u=0;c>u;u++)e.addEventListener(s[u],this.listener,!1)}),a.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),a.on("xhr-load-added",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),a.on("xhr-load-removed",function(t,e){var n=""+f(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),a.on("addEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-added",[t[1],t[2]],e)}),a.on("removeEventListener-end",function(t,e){e instanceof u&&"load"===t[0]&&a.emit("xhr-load-removed",[t[1],t[2]],e)}),a.on("fn-start",function(t,e,n){e instanceof u&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=(new Date).getTime()))}),a.on("fn-end",function(t,e){this.xhrCbStart&&a.emit("xhr-cb-time",[(new Date).getTime()-this.xhrCbStart,this.onload,e],e)})}},{1:"XL7HBI",2:14,3:12,4:8,ee:"QJf3ax",handle:"D5DuLP",loader:"G9z0Bl"}],14:[function(t,e){e.exports=function(t){var e=document.createElement("a"),n=window.location,r={};e.href=t,r.port=e.port;var o=e.href.split("://");return!r.port&&o[1]&&(r.port=o[1].split("/")[0].split("@").pop().split(":")[1]),r.port&&"0"!==r.port||(r.port="https"===o[0]?"443":"80"),r.hostname=e.hostname||n.hostname,r.pathname=e.pathname,r.protocol=o[0],"/"!==r.pathname.charAt(0)&&(r.pathname="/"+r.pathname),r.sameOrigin=!e.hostname||e.hostname===document.domain&&e.port===n.port&&e.protocol===n.protocol,r}},{}],15:[function(t,e){function n(t){return function(){r(t,[(new Date).getTime()].concat(i(arguments)))}}var r=t("handle"),o=t(1),i=t(2);"undefined"==typeof window.newrelic&&(newrelic=window.NREUM);var a=["setPageViewName","addPageAction","setCustomAttribute","finished","addToTrace","inlineHit","noticeError"];o(a,function(t,e){window.NREUM[e]=n("api-"+e)}),e.exports=window.NREUM},{1:24,2:25,handle:"D5DuLP"}],gos:[function(t,e){e.exports=t("7eSDFh")},{}],"7eSDFh":[function(t,e){function n(t,e,n){if(r.call(t,e))return t[e];var o=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return t[e]=o,o}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],D5DuLP:[function(t,e){function n(t,e,n){return r.listeners(t).length?r.emit(t,e,n):void(r.q&&(r.q[t]||(r.q[t]=[]),r.q[t].push(e)))}var r=t("ee").create();e.exports=n,n.ee=r,r.q={}},{ee:"QJf3ax"}],handle:[function(t,e){e.exports=t("D5DuLP")},{}],XL7HBI:[function(t,e){function n(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:i(t,o,function(){return r++})}var r=1,o="nr@id",i=t("gos");e.exports=n},{gos:"7eSDFh"}],id:[function(t,e){e.exports=t("XL7HBI")},{}],G9z0Bl:[function(t,e){function n(){var t=p.info=NREUM.info,e=f.getElementsByTagName("script")[0];if(t&&t.licenseKey&&t.applicationID&&e){s(d,function(e,n){e in t||(t[e]=n)});var n="https"===u.split(":")[0]||t.sslForHttp;p.proto=n?"https://":"http://",a("mark",["onload",i()]);var r=f.createElement("script");r.src=p.proto+t.agent,e.parentNode.insertBefore(r,e)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=t("handle"),s=t(1),c=window,f=c.document;t(2);var u=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-768.min.js"},p=e.exports={offset:i(),origin:u,features:{}};f.addEventListener?(f.addEventListener("DOMContentLoaded",o,!1),c.addEventListener("load",n,!1)):(f.attachEvent("onreadystatechange",r),c.attachEvent("onload",n)),a("mark",["firstbyte",i()])},{1:24,2:15,handle:"D5DuLP"}],loader:[function(t,e){e.exports=t("G9z0Bl")},{}],24:[function(t,e){function n(t,e){var n=[],o="",i=0;for(o in t)r.call(t,o)&&(n[i]=e(o,t[o]),i+=1);return n}var r=Object.prototype.hasOwnProperty;e.exports=n},{}],25:[function(t,e){function n(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(0>o?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=n},{}],26:[function(t,e){function n(t){return!(t&&"function"==typeof t&&t.apply&&!t[i])}var r=t("ee"),o=t(1),i="nr@original",a=Object.prototype.hasOwnProperty;e.exports=function(t){function e(t,e,r,a){function nrWrapper(){var n,i,s,f;try{i=this,n=o(arguments),s=r&&r(n,i)||{}}catch(d){u([d,"",[n,i,a],s])}c(e+"start",[n,i,a],s);try{return f=t.apply(i,n)}catch(p){throw c(e+"err",[n,i,p],s),p}finally{c(e+"end",[n,i,f],s)}}return n(t)?t:(e||(e=""),nrWrapper[i]=t,f(t,nrWrapper),nrWrapper)}function s(t,r,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<r.length;c++)s=r[c],a=t[s],n(a)||(t[s]=e(a,f?s+o:o,i,s))}function c(e,n,r){try{t.emit(e,n,r)}catch(o){u([o,e,n,r])}}function f(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){u([r])}for(var o in t)a.call(t,o)&&(e[o]=t[o]);return e}function u(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=r),e.inPlace=s,e.flag=i,e}},{1:25,ee:"QJf3ax"}]},{},["G9z0Bl",4,13,7,6,5]);</script></head>
+<script type="text/javascript">
+ function getCurrentPageLocation(url){
+   if (url != "") {
+   		if(parent.notifyIframeAboutUrlChanage){
+       	parent.notifyIframeAboutUrlChanage(url);
+ 	  	}
+   }
+}
+</script>
+<body onload="getCurrentPageLocation(window.location.href)">
+    <!-- gtrs02 START-->
+
+<!--[if lt IE 9]>
+<div class="no-browser">
+<p>Sorry, we don't look so hot in this browser. If you want to see us at our very best then how about upgrading? We're worth it…</p>
+<p>Here are the instructions <a href="http://whatbrowser.org/" target=_blank data-track="header|click|browser">how to upgrade your web browser</a>.</p>
+<p>If you're using Internet Explorer, 'compatibility mode' can also affect the way this site looks.</p>
+<p>Please follow these instructions <a href="http://windows.microsoft.com/en-GB/internet-explorer/products/ie-9/features/compatibility-view" target=_blank data-track="header|click|compatibility">how to switch compatibility mode off</a>.</p>
+</div>
+<![endif]-->
+
+<!—GTM Datalayer Start  -->
+
+<script>
+function getCookiePX(cname)
+{ var name = cname + "="; var ca = document.cookie.split(';'); for(var i=0; i<ca.length; i++) { var c = ca[i]; while (c.charAt(0)==' ') c = c.substring(1); if (c.indexOf(name) != -1) return c.substring(name.length, c.length); }
+return "";
+}
+function setCookiePX(cname, cvalue, exminutes)
+{ var d = new Date(); d.setTime(d.getTime() + (exminutes*60*1000)); var expires = "expires="+d.toUTCString(); document.cookie = cname + "=" + cvalue + "; " + expires+"; path=/"; } var previousPage = getCookiePX("ga_page_logger"); var paymentPagePrevious = getCookiePX("ga_payment_referrer"); </script> <script> dataLayer = [ { 'lebaraGTMOrderID': orderNumber, 'lebaraGTMOrderValue': orderValue, 'lebaraproductID': productId, 'lebaraproductName': productName, 'lebaraproductPrice': productPrice, 'lebaracustomerAccountId': customerAccountId, 'lebaraproductCategory': productCategory, 'lebaravoucherCode': voucherCode }
+];
+</script>
+<script>
+dataLayer.push(
+{ 'page_type': 'generic', 'logged_in': loggedIn, 'sim_selected': simSelected, 'product_id': productId, 'product_name': productName, 'product_category': productCategory, 'product_price': productPrice, 'referringURL': document.referrer, 'transactionId': orderNumber, 'transactionTotal': orderValue, 'transactionProducts': [ { 'sku': productId, 'name': productName, 'category': productCategory, 'price': productPrice, 'quantity': quantity }
+],'event': 'fireTags',
+'eventCallback' : function()
+{ //console.log("Callback function"); if((location.href.indexOf("/view/PaymentRequestComponentController?payment=true&navigationType=") != -1) && (previousPage.indexOf("/view/PaymentRequestComponentController?payment=true&navigationType=") == -1)) { setCookiePX('ga_payment_referrer', previousPage, 60); }
+setCookiePX("ga_page_logger", location.href, 30);
+}
+});
+</script>
+
+<!—GTM Datalayer End  -->
+
+<!-- Google Tag Manager Start -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PF9KL5"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PF9KL5');</script>
+<!-- Google Tag Manager End -->
+
+
+
+
+<!-- Universal GA script Start  -->
+<script>
+function getCookiePX(cname) {
+    var name = cname + "=";
+    var ca = document.cookie.split(';');
+    for(var i=0; i<ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0)==' ') c = c.substring(1);
+        if (c.indexOf(name) != -1) return c.substring(name.length, c.length);
+    }
+    return "";
+}
+
+function setCookiePX(cname, cvalue, exminutes) {
+                                var d = new Date();
+                                d.setTime(d.getTime() + (exminutes*60*1000));
+                                var expires = "expires="+d.toUTCString();
+                                document.cookie = cname + "=" + cvalue + "; " + expires+"; path=/";
+}
+
+//The following two variables should be specified each time the tag is set up:
+var UANumberCountry = "UA-52226329-6"; //Site-specific tracker
+var UANumberRollup = "UA-52226329-2"; //Rollup tracker, depending on whether the site is a desktop site or mobile site
+//The following variables are gathered from the data layer sent from the page: 
+var page_type = "generic"; //Tagman page type
+var logged_in = loggedIn; //Whether or not the user is logged in
+var product_id = productId; //product ID
+var product_name = productName; //product name
+var product_category = productCategory; //product category
+var product_price = productPrice; //product price, as a number without commas, without currency symbol
+var voucherCode = voucherCode; //voucher code
+var referringURL = document.referrer;
+var previousPage = getCookiePX("ga_page_logger");
+var paymentPagePrevious = getCookiePX("ga_payment_referrer");
+
+var payment_page_referrer = "";
+if(location.href.indexOf("/view/PaymentRequestComponentController?payment=true&navigationType=") != -1){
+payment_page_referrer = "page: "+location.href+" &referrer: "+document.referrer;
+}
+
+var merchant_reference_number="";
+if(typeof MerchantReferenceNumber !="undefined"){
+merchant_reference_number= MerchantReferenceNumber; //Merchant reference number
+}
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', UANumberCountry, 'auto', {'name': 'firstOnpageTracker'});
+  ga('firstOnpageTracker.require', 'linkid', 'linkid.js');
+  if(logged_in !== "no"){ga('firstOnpageTracker.set', {'dimension4':'yes', 'dimension3':logged_in})};
+  if(payment_page_referrer != ""){ga('firstOnpageTracker.set', {'dimension12':payment_page_referrer})};
+  ga('firstOnpageTracker.set', {'dimension1':page_type, 'dimension2':logged_in, 'dimension5':product_id, 'dimension6':product_name, 'dimension7':product_category, 'dimension8':product_price, 'dimension9':voucherCode, 'dimension10':merchant_reference_number, 'dimension11':referringURL, 'dimension13':previousPage, 'dimension14':paymentPagePrevious});
+
+  // Optimizely Universal Analytics Integration
+window.optimizely = window.optimizely || [];
+window.optimizely.push("activateUniversalAnalytics");
+
+  ga('firstOnpageTracker.send', 'pageview');
+  
+  ga('create', UANumberRollup, 'auto', {'name': 'secondOnpageTracker'});  
+  ga('secondOnpageTracker.require', 'linkid', 'linkid.js');
+  if(logged_in !== "no"){ga('secondOnpageTracker.set', {'dimension4':'yes', 'dimension3':logged_in})};
+  if(payment_page_referrer != ""){ga('secondOnpageTracker.set', {'dimension12':payment_page_referrer})};
+  ga('secondOnpageTracker.set', {'dimension1':page_type, 'dimension2':logged_in, 'dimension5':product_id, 'dimension6':product_name, 'dimension7':product_category, 'dimension8':product_price, 'dimension9':voucherCode, 'dimension10':merchant_reference_number, 'dimension11':referringURL, 'dimension13':previousPage, 'dimension14':paymentPagePrevious});
+  ga('secondOnpageTracker.send', 'pageview');
+  
+  if((location.href.indexOf("/view/PaymentRequestComponentController?payment=true&navigationType=") != -1) && (previousPage.indexOf("/view/PaymentRequestComponentController?payment=true&navigationType=") == -1)){
+  setCookiePX('ga_payment_referrer', previousPage, 60);
+  }
+  setCookiePX("ga_page_logger", location.href, 30);
+</script>
+<!-- Universal GA script End -->
+
+<!—Classic Google Analytics Code - Start-->  
+<script>
+var _gaq = _gaq || [];
+
+_gaq.push(['_setAccount', 'UA-32329194-9']);
+_gaq.push(['_setDomainName', 'lebara.fr']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_setSiteSpeedSampleRate', 10]);
+_gaq.push(['_trackPageview']);
+_gaq.push(['t2._setAccount', 'UA-32329194-2']);
+_gaq.push(['t2._setDomainName', 'lebara.fr']);
+_gaq.push(['t2._setAllowLinker', true]);
+_gaq.push(['t2._setSiteSpeedSampleRate', 10]);
+_gaq.push(['t2._trackPageview']);
+
+
+(function() {
+var ga = document.createElement('script');
+ga.type = 'text/javascript';
+ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })();
+</script>  <!-- end of Script-->     
+<!—Classic Google Analytics Code - END-->
+
+
+<!-- Start TagMan DataLayer -->
+                                                                                <script>
+                                                                                window.tmParam = {
+                                                                                page_type : 'homepage', // REQ
+                                                                                page_url : pageURL, // REQ
+                                                                                page_name : 'homepage', // REQ
+                                                                                customer_account_id : customerAccountId, // OPT
+                                                                                logged_in : loggedIn // REQ
+                                                                                };
+                                                                                </script>
+                                                                                <!-- End TagMan DataLayer -->
+
+<!-- Start TagMan code -->
+
+                                                                                <script>
+                                                                                  (function(d,s){
+                                                                                    var client = 'lebaragroup';
+                                                                                    var siteId = 76;
+
+                                                                                    //  do not edit
+                                                                                    var a=d.createElement(s),b=d.getElementsByTagName(s)[0];
+                                                                                    a.async=true;a.type='text/javascript';
+                                                                                    a.src='//sec.levexis.com/clients/'+client+'/'+siteId+'.js';
+                                                                                    a.tagman='st='+(+new Date())+'&c='+client+'&sid='+siteId;
+                                                                                    b.parentNode.insertBefore(a,b);
+                                                                                  })(document,'script');
+                                                                                </script>
+                                                                                <!-- End TagMan code -->
+
+
+<script>
+
+$(document).ready(function(){
+
+$('.navbar-header a').css({
+    float: 'left',
+    height: '50px',
+    width: '50px',
+    background: "url('http://www.assets.lebara.com/assets/global/img-responsive/logo.png') no-repeat"
+});
+
+$('.navbar-header a').css('background-size', "contain");
+});
+
+</script>
+
+<!-- gtrs02 END-->
+
+
+    <!--Start : Header section -->
+	    
+	        
+
+
+
+
+
+
+<style>
+.main-menu .dropdown-menu {
+  width:500px;
+  }
+
+</style>
+<script>
+
+    $(document).ready(function () {
+
+/* var languageUrl=; */
+        $.ajax({
+            url: '/view/LanguageSelectorComponentController',
+            dataType: "html",
+            type: "GET",
+            success: function (data) {            	
+                $("#desktopdropdown").append(data);
+            },
+            error: function () {
+            }
+        });      
+        
+        $.ajax({
+            url: '/view/LanguageSelectorComponentController?tabs',
+            dataType: "html",
+            type: "GET",
+            success: function (data) {            	
+                $("#tabsdropdown").append(data);
+            },
+            error: function () {
+            }
+        });    
+        
+        $('.dropmenu .haschildren').each(function () {
+            widthh = $(this).width() + 8;
+            liWidth = $(this).find('.submenu .listIcon').width();
+            if (liWidth < widthh) {
+                $(this).find('.submenu .listIcon').css('width', widthh);
+            }
+        });
+
+        $('ul.submenu').each(function () {
+            var widthh = 0;
+            $(this).find('li.listIcon').each(function () {
+                if (widthh < $(this).width()) {
+                    widthh = $(this).width();
+                }
+            });
+            $(this).find('li.listIcon').css('width', widthh);
+        });
+
+    });
+    
+    
+</script>
+
+<!-- Include DOM Templates -->
+    <div class="dom-templates">
+    <!-- Modal dialog -->
+     <div id="modalOne" class="modal fade" style="display: none;" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                <p>Merci de contacter le service clientèle de Lebara.</p>
+					<p>Votre message a été envoyé et un de nos conseillers s’en chargera.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="/help-main" type="button" class="btn btn-default">Fermer</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<header>
+ <!-- Include Masthead 1 -->
+    <section class="container masthead-1 hidden-xs">
+   <div class="row">
+      <div class="col-xs-5">
+         <!-- Include Culture Picker -->
+         <!-- #START sapoLangSelector -->
+        	
+                    <nav class="navbar yamm culture-picker" role="navigation">
+			    	<ul class="nav navbar-nav">
+			        <li class="dropdown" id="desktopdropdown">
+                                <a title="" data-toggle="dropdown" class="dropdown-toggle" href="#">
+                                    <span id="leb-selected-culture">France (Français) / € (EUR) </span>
+                                    <span class="caret"></span>
+                                    <div class="arrow"></div>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                                
+        </div>
+      <!-- /.col-xs-6 -->
+      <div class="col-xs-7">
+         <div class="row">
+	            <!-- Include Lebara Login -->
+	            <div class="col-xs-12">
+				    <!-- #START my_lebara_login -->
+				    <ul class="list-inline my-lebara pull-right">
+				    
+				    
+				     				    	
+
+                            
+                                
+                                    <li>
+                                        
+                                            
+                                            
+											<a id="cmp_identity_action_link_top1" href="/instant-login" target="_self">Connexion</a>
+                                                   
+                                            
+                                        
+                                    </li>
+                                    
+                                
+                                
+                            
+
+                        
+
+                            
+                                
+                                    <li>
+                                        
+                                            
+                                            
+											<a id="cmp_identity_action_link_top5" href="/activer-sim" target="_self">Activer</a>
+                                                   
+                                            
+                                        
+                                    </li>
+                                    
+                                
+                                
+                            
+
+                        
+
+                            
+                                
+                                    <li>
+                                        
+                                            
+                                            
+											<a id="cmp_identity_action_link_top2" href="/li-Signup" target="_self">S’inscrire</a>
+                                                   
+                                            
+                                        
+                                    </li>
+                                    
+                                
+                                
+                            
+
+                        
+                      
+                      
+                      
+				    </ul>
+				    <div class="input-group input-group-md search-wrap ">
+				        <input id="leb-search-qry" type="text" class="form-control col-xs-6">
+				        <span class="input-group-btn">
+				            <button id="leb-search-go" class="btn btn-default" type="button">
+				                <span class="glyphicon glyphicon-search"></span>
+				            </button>
+				        </span>
+				    </div>
+				    <!-- #END my_lebara_login -->
+				</div>         
+			</div>
+      </div>
+      <!-- /.col-xs-6 -->
+   </div>
+   <!-- /.row -->
+</section>
+<!-- /.container masterhead-1 desktop-menu -->
+
+
+<!-- Include Masthead 2 -->
+    <section class="masthead-2">
+    <div class="container fixedwidth-page hidden-xs hidden-sm">
+        <div class="row">
+            <!-- #START TP28_header -->
+            <div class="col-xs-3">
+            
+                <div class="logo"><a href="/"><img src="/assets/images/identity/logo.png" border="0" alt="Lebara Mobile" /></a></div>
+             
+              
+            </div><!-- #END TP28_header -->
+            <!-- #START redesign_navigation -->
+
+            <div class="col-xs-9">
+                <div id="nav-menu">
+                    <ul class="main-menu">
+                    
+                    	<li>
+                    	<a id="cmp_li_main1_link_topup" href="/instant-select" target="_self"
+								
+								title>Recharger 
+							</a>                       
+                                     
+                     
+                    	<li>
+                    	<a id="cmp_li_main2_link_shop" href="/boutique" target="_self"
+								  class="dropdown-toggle"
+								title>Boutique 
+									
+							</a>     
+							
+							             
+                              <ul class="dropdown-menu col-xs-12 list-unstyled  ">
+										
+
+
+
+											
+
+												
+												
+													<div class="col-xs-4">
+														
+															<li class="heading">Commencez</li>
+															
+																<li><a id="cmp_li_main2_1_link_get-started-link-freesim" href="/sim-gratuite"
+																	target="_self">SIM Gratuite</a></li>
+															
+																<li><a id="cmp_li_main2_1_link_get-started-link-payg" href="/prepaye-accueil"
+																	target="_self">Carte Prépayée</a></li>
+															
+																<li><a id="cmp_li_main2_1_link_get-started-link-transfert" href="/boutique/transfert"
+																	target="_self">Transfert de crédit</a></li>
+															
+														
+														
+													</div>
+												
+
+											
+
+
+										
+
+
+
+											
+
+												
+												
+													<div class="col-xs-4">
+														
+															<li class="heading">National</li>
+															
+																<li><a id="cmp_li_main2_link_unlimited" href="/boutique/illimite"
+																	target="_self">Illimité</a></li>
+															
+														
+														
+													</div>
+												
+
+											
+
+
+										
+
+
+
+											
+
+												
+												
+													<div class="col-xs-4">
+														
+															<li class="heading">International</li>
+															
+																<li><a id="cmp_li_main2_1_link_international_link_allinone" href="/boutique/allinone"
+																	target="_self">Tout En Un</a></li>
+															
+																<li><a id="cmp_li_main2_1_link_international_link_international" href="/boutique/international"
+																	target="_self">International</a></li>
+															
+														
+														
+													</div>
+												
+
+											
+
+
+										
+
+
+
+											
+
+												
+												
+													<div class="col-xs-4">
+														
+															<li class="heading">Promotions</li>
+															
+																<li><a id="cmp_li_main2_1_link_offers_link_alloffers" href="/boutique/promo"
+																	target="_self">Offres</a></li>
+															
+														
+														
+													</div>
+												
+
+											
+
+
+										
+
+
+
+											
+
+												
+												
+													<div class="col-xs-4">
+														
+															<li class="heading">Data</li>
+															
+																<li><a id="cmp_li_main2_1_link_data-link-internet" href="/boutique/internet"
+																	target="_self">Forfaits Internet</a></li>
+															
+														
+														
+													</div>
+												
+
+											
+
+
+										
+									</ul>
+                                               
+                                     
+                     
+                    	<li>
+                    	<a id="cmp_li_main1_tariff" href="/prepaye/tarifs" target="_self"
+								
+								title>Tarifs 
+							</a>                       
+                                     
+                     
+                    	<li>
+                    	<a id="cmp_li_main5_link_mylebara" href="/dashboard" target="_self"
+								  class="dropdown-toggle"
+								title>MyLebara 
+									
+							</a>     
+							
+							
+                                        
+                                                 
+                              <ul class="dropdown-menu col-xs-12 list-unstyled pull-right ">
+										
+
+
+
+											
+
+												
+												
+													<div class="col-xs-4">
+														
+														
+															<li><a id="cmp_li_main5_link_child1_dashboard"
+																href="/Dashboard" target="_self">Tableau de bord</a>
+															</li>
+														
+													</div>
+												
+
+											
+
+
+										
+
+
+
+											
+
+												
+												
+													<div class="col-xs-4">
+														
+														
+															<li><a id="cmp_li_main5_link_child5_profilesettings"
+																href="/li-user-profile" target="_self">Profil et réglages</a>
+															</li>
+														
+													</div>
+												
+
+											
+
+
+										
+									</ul>
+                                               
+                                     
+                     
+                    	<li>
+                    	<a id="cmp_li_main4_link_Help" href="http://aide.lebara.fr" target="_self"
+								
+								title>Aide 
+							</a>                       
+                                     
+                     
+                    </ul>
+                </div>
+            </div><!-- #END redesign_navigation -->
+        </div><!-- /.row -->
+    </div><!-- /.container fixedwidth-page -->
+    <div class="container fixedwidth-page visible-xs visible-sm">
+        <div class="row">
+            
+            <!-- #START TP28_header -->
+            <div class="navbar-header col-xs-12">
+                <a href="/"><img src="/assets/images/identity/logo.png" border="0" alt="Lebara Mobile" /></a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#leb-mobilemenu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            
+            <div class="collapse navbar-collapse navbar-nav-container col-xs-12" id="leb-mobilemenu">
+                 <div id="nav-menu">
+                    <ul class="main-menu navbar-nav">                       
+                        
+                        
+                                                
+                            
+                                
+                                    <li>
+                                        
+                                            
+                                            
+											<a id="cmp_identity_action_link_top1" href="/instant-login" target="_self">Connexion</a>                                                  
+                                            
+                                        
+                                    </li>
+                                    
+                                
+                                
+                            
+                                                
+                            
+                                
+                                    <li>
+                                        
+                                            
+                                            
+											<a id="cmp_identity_action_link_top5" href="/activer-sim" target="_self">Activer</a>                                                  
+                                            
+                                        
+                                    </li>
+                                    
+                                
+                                
+                            
+                                                
+                            
+                                
+                                    <li>
+                                        
+                                            
+                                            
+											<a id="cmp_identity_action_link_top2" href="/li-Signup" target="_self">S’inscrire</a>                                                  
+                                            
+                                        
+                                    </li>
+                                    
+                                
+                                
+                            
+                        
+                        
+                        
+                    		<li ><a id="cmp_li_main1_link_topup" href="/instant-select" target="_self"  title>Recharger   </a>
+	                                               
+                             </li>                
+                     	
+                    		<li ><a id="cmp_li_main2_link_shop" href="/boutique" target="_self"   class="dropdown-toggle" title>Boutique  <b class="caret"></b>   </a>
+	                                          
+	                              <ul class="dropdown-menu  col-xs-12 list-unstyled">
+	                              	
+		                                 
+		                                 	<li class="heading">Commencez</li>
+		                                	
+		                                		<li><a id="cmp_li_main2_1_link_get-started-link-freesim" href="/sim-gratuite" target="_self">SIM Gratuite</a></li> 
+		                                	
+		                                		<li><a id="cmp_li_main2_1_link_get-started-link-payg" href="/prepaye-accueil" target="_self">Carte Prépayée</a></li> 
+		                                	
+		                                		<li><a id="cmp_li_main2_1_link_get-started-link-transfert" href="/boutique/transfert" target="_self">Transfert de crédit</a></li> 
+		                                	
+		                                  
+		                                   
+		                            
+		                                 
+		                                 	<li class="heading">National</li>
+		                                	
+		                                		<li><a id="cmp_li_main2_link_unlimited" href="/boutique/illimite" target="_self">Illimité</a></li> 
+		                                	
+		                                  
+		                                   
+		                            
+		                                 
+		                                 	<li class="heading">International</li>
+		                                	
+		                                		<li><a id="cmp_li_main2_1_link_international_link_allinone" href="/boutique/allinone" target="_self">Tout En Un</a></li> 
+		                                	
+		                                		<li><a id="cmp_li_main2_1_link_international_link_international" href="/boutique/international" target="_self">International</a></li> 
+		                                	
+		                                  
+		                                   
+		                            
+		                                 
+		                                 	<li class="heading">Promotions</li>
+		                                	
+		                                		<li><a id="cmp_li_main2_1_link_offers_link_alloffers" href="/boutique/promo" target="_self">Offres</a></li> 
+		                                	
+		                                  
+		                                   
+		                            
+		                                 
+		                                 	<li class="heading">Data</li>
+		                                	
+		                                		<li><a id="cmp_li_main2_1_link_data-link-internet" href="/boutique/internet" target="_self">Forfaits Internet</a></li> 
+		                                	
+		                                  
+		                                   
+		                            
+	                              </ul>
+	                                               
+                             </li>                
+                     	
+                    		<li ><a id="cmp_li_main1_tariff" href="/prepaye/tarifs" target="_self"  title>Tarifs   </a>
+	                                               
+                             </li>                
+                     	
+                    		<li ><a id="cmp_li_main5_link_mylebara" href="/dashboard" target="_self"   class="dropdown-toggle" title>MyLebara  <b class="caret"></b>   </a>
+	                                          
+	                              <ul class="dropdown-menu  col-xs-12 list-unstyled">
+	                              	
+		                                  
+		                                 
+		                                 	<li>
+		                                 	<a id="cmp_li_main5_link_child1_dashboard"  href="/Dashboard" target="_self">Tableau de bord</a>
+		                                    </li>
+		                                   
+		                            
+		                                  
+		                                 
+		                                 	<li>
+		                                 	<a id="cmp_li_main5_link_child5_profilesettings"  href="/li-user-profile" target="_self">Profil et réglages</a>
+		                                    </li>
+		                                   
+		                            
+	                              </ul>
+	                                               
+                             </li>                
+                     	
+                    		<li ><a id="cmp_li_main4_link_Help" href="http://aide.lebara.fr" target="_self"  title>Aide   </a>
+	                                               
+                             </li>                
+                     	
+                        
+                        
+                        
+							<li class="dropdown" id="tabsdropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle" title="">
+							Langage<b class="caret"></b>
+							</a>
+							</li>
+						
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+  </header>  
+ 
+	    
+    <!--End : Header section -->
+    <section class="container fixedwidth-page">
+        <!--Start : Main Area section -->
+	    
+	        <script type="text/javascript">
+  var primaryBannerData = [{"bgImgSmall":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_01a_Hero_S","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hb0/h2b/8923161034782.jpg"},"cta3Url":"/activate-sim","bgImgMedium":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_01a_Hero_M","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hae/h2b/8923160969246.jpg"},"bgImgLarge":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_01a_Hero_L","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hac/h2b/8923160903710.jpg"},"header":"<strong>Offre exclusive :</strong></br>3Go d'internet</br>19,99€ au lieu de 29,99€","cta3Text":"Activer une SIM","ctaHeading":null,"buttonUrl":"/boutique/internet","cta2Text":"Recharger","cta2Url":"/instant-select","bgImgExtraSmall":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_01a_Hero_XS","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hb2/h2b/8923161100318.jpg"},"buttonText":"J'en profite !","cta1Text":"Obtenir une SIM","cta1Url":"/sim-gratuite"}];
+</script>
+<script type="text/javascript" id="primaryBannerCtrl">templateController("primaryBanner");</script>
+	    
+	        <script type="text/javascript">
+  var primaryImgPanelsData = [{"buttonRightText":"Je le veux","textLeft":"Jusqu'à -80% sur nos tarifs 24h/24","buttonRightUrl":"/boutique/allinone","textRight":"Vers 40 destinations</br>A partir de 9,99€","buttonLeftUrl":"/boutique/promo","buttonLeftText":"J'en profite","titleLeft":"Prix cassés !","titleRight":"Forfait Tout En Un","imageRightMedium":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_04a_Secondary_Responsive_S3","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hbe/h2b/8923161493534.jpg"},"imageLeftLarge":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_03a_Secondary_Responsive_L2","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hb4/h2b/8923161165854.jpg"},"imageRightLarge":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_04a_Secondary_Responsive_L3","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hbc/h2b/8923161427998.jpg"},"imageLeftMedium":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD8212D_FR_03a_Secondary_Responsive_S2","sessionID":null,"sessionType":null,"url":"/medias/sys_master/hb6/h2b/8923161231390.jpg"}}];
+</script>
+<script type="text/javascript" id="primaryImgPanelsCtrl">templateController("primaryImgPanels");</script>
+	    
+	        <table width="100%" cellspacing="0" cellpadding="0" class="table-dump">     <tbody>         <tr>             <th width="25%" rowspan="2"><strong>Destination</strong></th>             <th width="25%" colspan="3"><strong>Promo Rate (22h-6h)</strong></th>             <th width="25%" colspan="3"><strong>Promo Rate (6h-22h)</strong></th>             <th width="25%" colspan="3"><strong>Tarifs Standards</strong></th>         </tr>         <tr>             <th width="12%"><strong>Fixe (&euro;/min)</strong></th>             <th width="12%"><strong>Mobile (&euro;/min)</strong></th>             <th width="12%"><strong>SMS (Chacun)</strong></th>             <th width="12%"><strong>Fixe (&euro;/min)</strong></th>             <th width="12%"><strong>Mobile (&euro;/min)</strong></th>             <th width="12%"><strong>SMS (Chacun)</strong></th>             <th width="12%"><strong>Fixe (&euro;/min)</strong></th>             <th width="12%"><strong>Mobile (&euro;/min)</strong></th>             <th width="12%"><strong>SMS (Chacun)</strong></th>         </tr>         <tr>             <td>Afghanistan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Afrique du Sud</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Albanie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Alg&eacute;rie</td>             <td>1ct</td>             <td>19ct</td>             <td>15ct</td>             <td>1ct</td>             <td>29ct</td>             <td>15ct</td>             <td>7ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Alg&eacute;rie Wataniya</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Allemagne</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Andorre</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Angola</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>4ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Anguilla</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>27ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Antarctique</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.99&euro;</td>             <td>1.99&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Antigua et Barbuda</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Antilles N&eacute;erlandaises</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Arabie Saoudite</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Argentine</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>18ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Armenie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Aruba</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Australie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Autriche</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Azerbaijan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bahamas</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>12ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bahrain</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bangladesh</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>5ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Barbade</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Belgique</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Belize</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>B&eacute;nin</td>             <td>19ct</td>             <td>15ct</td>             <td>15ct</td>             <td>19ct</td>             <td>15ct</td>             <td>15ct</td>             <td>19ct</td>             <td>22ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bermuda</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bhoutan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bielorussie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Birmanie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bolivie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>24ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bolivie rurale</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>24ct</td>             <td>24ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bosnie Herzegovine</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Botswana</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Br&eacute;sil</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Brunei Darussalam</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Bulgarie</td>             <td>1ct</td>             <td>1ct</td>             <td>15ct</td>             <td>1ct</td>             <td>1ct</td>             <td>15ct</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Burkina Faso</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Burundi</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>45ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Cambodge</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>4ct</td>             <td>7ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Cameroun</td>             <td>9ct</td>             <td>15ct</td>             <td>15ct</td>             <td>9ct</td>             <td>25ct</td>             <td>15ct</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Canada</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>5ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Cap Vert</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Chili</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>18ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Chili Rural</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Chine</td>             <td>1ct</td>             <td>1ct</td>             <td>15ct</td>             <td>1ct</td>             <td>1ct</td>             <td>15ct</td>             <td>1ct</td>             <td>5ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Chypre</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>31ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Chypre du Nord</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Colombie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Colombie Rurale</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Comores</td>             <td>15ct</td>             <td>19ct</td>             <td>15ct</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>             <td>19ct</td>             <td>32ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Congo</td>             <td>15ct</td>             <td>29ct</td>             <td>15ct</td>             <td>15ct</td>             <td>39ct</td>             <td>15ct</td>             <td>15ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Cor&eacute;e du Nord</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>67ct</td>             <td>67ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Cor&eacute;e du Sud</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>7ct</td>             <td>8ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Costa Rica</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>13ct</td>             <td>15ct</td>         </tr>         <tr>             <td>C&ocirc;te d'Ivoire</td>             <td>15ct</td>             <td>19ct</td>             <td>15ct</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>             <td>19ct</td>             <td>32ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Croatie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Cuba</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.49&euro;</td>             <td>1.49&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Danemark</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Diego Garcia</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.99&euro;</td>             <td>1.99&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Djibouti</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Dominique</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Egypte</td>             <td>2ct</td>             <td>5ct</td>             <td>15ct</td>             <td>2ct</td>             <td>5ct</td>             <td>15ct</td>             <td>2ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Emirats des Arabes Unis</td>             <td>15ct</td>             <td>7ct</td>             <td>15ct</td>             <td>15ct</td>             <td>12ct</td>             <td>15ct</td>             <td>15ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Equateur</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Erythr&eacute;e</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Espagne</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Estonie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Etats Unis</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>5ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ethiopie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Fidji</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Finlande</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Gabon</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Gambie</td>             <td>59ct</td>             <td>39ct</td>             <td>15ct</td>             <td>59ct</td>             <td>59ct</td>             <td>15ct</td>             <td>59ct</td>             <td>59ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Georgie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ghana</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>             <td>19ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Gibraltar</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Gr&egrave;ce</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Grenade</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Groenland</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>49ct</td>             <td>65ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guadeloupe</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>5ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guam</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>12ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guatemala</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guin&eacute;e</td>             <td>19ct</td>             <td>25ct</td>             <td>15ct</td>             <td>19ct</td>             <td>25ct</td>             <td>15ct</td>             <td>19ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guin&eacute;e Bissau</td>             <td>39ct</td>             <td>29ct</td>             <td>15ct</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>             <td>39ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guin&eacute;e Equatoriale</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guyana</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Guyane</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Haiti</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Honduras</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>24ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Hong Kong</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>6ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Hongrie</td>             <td>1ct</td>             <td>5ct</td>             <td>15ct</td>             <td>1ct</td>             <td>5ct</td>             <td>15ct</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ile Maurice</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Cayman</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>&icirc;les Chatham</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Cook</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles de l'Ascension</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles F&eacute;ro&eacute;</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>33ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Malouines</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Mariannes</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>35ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Marshall</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>49ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Norfolk</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.49&euro;</td>             <td>1.49&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Salomon</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.49&euro;</td>             <td>1.49&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Turques et Ca&iuml;ques</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Vierges Am&eacute;ricaines</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iles Vierges Britanniques</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Inde</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>4ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Indonesie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Irak</td>             <td>9ct</td>             <td>9ct</td>             <td>15ct</td>             <td>9ct</td>             <td>9ct</td>             <td>15ct</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Iran</td>             <td>9ct</td>             <td>5ct</td>             <td>15ct</td>             <td>9ct</td>             <td>5ct</td>             <td>15ct</td>             <td>9ct</td>             <td>12ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Irlande</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Islande</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Isra&euml;l</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Italie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Jama&iuml;que</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>17ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Japon</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Jordanie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>17ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Kazakhstan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Kenya</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>12ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Kiribati</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>67ct</td>             <td>67ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Kosovo</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Koweit</td>             <td>9ct</td>             <td>9ct</td>             <td>15ct</td>             <td>9ct</td>             <td>9ct</td>             <td>15ct</td>             <td>9ct</td>             <td>17ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Kyrgyzstan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>La R&eacute;union</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>11ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Laos</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>6ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Lesotho</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Lettonie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Liban</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Liberia</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>32ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Libye</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Liechtenstein</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Lithuanie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Luxembourg</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Macao</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>6ct</td>             <td>6ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mac&eacute;doine</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>33ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Madagascar</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>55ct</td>             <td>55ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Malaisie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>6ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Malawi</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Maldives</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>59ct</td>             <td>59ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mali Ikatel Orange</td>             <td>-</td>             <td>5ct</td>             <td>15ct</td>             <td>-</td>             <td>5ct</td>             <td>15ct</td>             <td>-</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mali</td>             <td>15ct</td>             <td>19ct</td>             <td>15ct</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>             <td>19ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Malte</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Maroc</td>             <td>1ct</td>             <td>19ct</td>             <td>15ct</td>             <td>1ct</td>             <td>29ct</td>             <td>15ct</td>             <td>5ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Maroc WANA</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>             <td>35ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Martinique</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>5ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mauritanie</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>             <td>29ct</td>             <td>42ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mayotte</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mexique</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>16ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Micron&eacute;sie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>33ct</td>             <td>33ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Moldavie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Monaco</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mongolie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mont&eacute;n&eacute;gro</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Montserrat</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>27ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Mozambique</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Namibie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Nauru</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>N&eacute;pal</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Nicaragua</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Niger</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>24ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Nig&eacute;ria</td>             <td>1ct</td>             <td>1ct</td>             <td>15ct</td>             <td>1ct</td>             <td>1ct</td>             <td>15ct</td>             <td>5ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Niue</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>89ct</td>             <td>89ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Norv&egrave;ge</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Nouvelle Cal&eacute;donie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>27ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Nouvelle Z&eacute;lande</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Oman</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ouganda</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ouzbekistan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>17ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Pakistan</td>             <td>1ct</td>             <td>1.5ct</td>             <td>15ct</td>             <td>1ct</td>             <td>1.5ct</td>             <td>15ct</td>             <td>9ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Palau</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>45ct</td>             <td>45ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Palestine</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Panama</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Papouasie Nouvelle Guin&eacute;e</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Paraguay</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Pays Bas</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>P&eacute;rou</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>4ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>P&eacute;rou rural</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>18ct</td>             <td>18ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Philippines</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>8ct</td>             <td>17ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Pologne</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Polyn&eacute;sie Fran&ccedil;aise</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Porto Rico</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Portugal</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Qatar</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>27ct</td>             <td>15ct</td>         </tr>         <tr>             <td>RDC</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>             <td>29ct</td>             <td>15ct</td>             <td>15ct</td>             <td>35ct</td>             <td>15ct</td>         </tr>         <tr>             <td>R&eacute;publique Centrafricaine</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>42ct</td>             <td>15ct</td>         </tr>         <tr>             <td>R&eacute;publique Dominicaine</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>R&eacute;publique Tch&egrave;que</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Roumanie</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>2ct</td>             <td>15ct</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Royaume Uni</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Russie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Rwanda</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>32ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Saint Christophe et Ni&eacute;v&egrave;s</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>49ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Saint Marin</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Salvador</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>24ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Samoa Am&eacute;ricaines</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Sao Tome et Principe</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.99&euro;</td>             <td>1.99&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>S&eacute;n&eacute;gal</td>             <td>15ct</td>             <td>19ct</td>             <td>15ct</td>             <td>15ct</td>             <td>29ct</td>             <td>15ct</td>             <td>19ct</td>             <td>32ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Serbie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Seychelles</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>17ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Sierra Leone</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Singapour</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>6ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Slovaquie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Slov&eacute;nie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Somalie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Soudan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Soudan du Sud</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>25ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Sri Lanka</td>             <td>9ct</td>             <td>7ct</td>             <td>15ct</td>             <td>9ct</td>             <td>7ct</td>             <td>15ct</td>             <td>9ct</td>             <td>12ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Sri Lanka Dialog</td>             <td>9ct</td>             <td>7ct</td>             <td>15ct</td>             <td>9ct</td>             <td>7ct</td>             <td>15ct</td>             <td>9ct</td>             <td>12ct</td>             <td>15ct</td>         </tr>         <tr>             <td>St. Maarten</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>St. Pierre and Miquelon</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>St. Vincent et les Grenadines</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>39ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ste H&eacute;l&egrave;ne</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ste. Lucie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>39ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Su&egrave;de</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Suisse</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Suriname</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>25ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Swaziland</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Syrie</td>             <td>5ct</td>             <td>10ct</td>             <td>15ct</td>             <td>5ct</td>             <td>10ct</td>             <td>15ct</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Tadjikistan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ta&iuml;wan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>17ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Tanzanie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Tchad</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>55ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Tha&iuml;lande</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Timor Oriental</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.49&euro;</td>             <td>1.49&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Togo</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>29ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Tokelau</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.49&euro;</td>             <td>1.49&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Tonga</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>69ct</td>             <td>69ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Trinidad et Tobago</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>15ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Tunisie</td>             <td>15ct</td>             <td>29ct</td>             <td>15ct</td>             <td>15ct</td>             <td>39ct</td>             <td>15ct</td>             <td>29ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Turkm&eacute;nistan</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Turquie</td>             <td>5ct</td>             <td>5ct</td>             <td>15ct</td>             <td>5ct</td>             <td>5ct</td>             <td>15ct</td>             <td>5ct</td>             <td>15ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Tuvalu</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>69ct</td>             <td>69ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Ukraine</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>10ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Uruguay</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>5ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Vanuatu</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>99ct</td>             <td>99ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Vatican</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>9ct</td>             <td>15ct</td>         </tr>         <tr>             <td>V&eacute;n&eacute;zuela</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Vietnam</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>7ct</td>             <td>7ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Wallis and Futuna Islands</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>1.49&euro;</td>             <td>1.49&euro;</td>             <td>15ct</td>         </tr>         <tr>             <td>Western Samoa</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>49ct</td>             <td>49ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Y&eacute;men</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>19ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Zambie</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>9ct</td>             <td>19ct</td>             <td>15ct</td>         </tr>         <tr>             <td>Zimbabwe</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>-</td>             <td>12ct</td>             <td>29ct</td>             <td>15ct</td>         </tr>     </tbody> </table>
+	    
+	        <script type="text/javascript">
+  var primaryRatesData = [{"pleaseSelectText":"Merci de saisir une destination","product1RatesLinkUrl":"/prepaye/tarifs#promo","product2RatesLinkUrl":"/prepaye/tarifs#promo","product1RatesTitle":"Tarifs promo <small><strong>22h-6h</strong></small><br><small>Coût de connexion 15ct/appel</small>","mobileTitle":"Mobile (€/min)","product3RatesTitle":"Tarifs Standards <br><small>Coût de connexion 15ct/appel</small>","landlineTitle":"Fixe (€/min)","header":"Consultez nos tarifs","smsTitle":"SMS (Chacun)","product3RatesLinkUrl":"/instant-select","product2RatesLinkText":"<u>Plus d'info</u>","product2RatesTitle":"Tarifs promo <small><strong>6h-22h</strong></small><br><small>Coût de connexion 15ct/appel</small>","cta2Text":"Recharger","cta2Url":"/instant-select","product1RatesLinkText":"<u>Plus d'info</u>","product3RatesLinkText":"<u>Recharger</u>","cta1Text":"Obtenir une SIM","cta1Url":"/sim-gratuite"}];
+</script>
+<script type="text/javascript" id="primaryRatesCtrl">templateController("primaryRates");</script>
+	    
+	        <script type="text/javascript">
+  var primaryCalloutsData = [{"callout1Title":"Forfaits tout-En-Un","callout3Title":"Nos Promotions","callout2CtaLeftText":null,"callout4CtaRightText":"Plus d'info","callout2CtaRightText":"Plus d'info","callout3CtaLeftText":null,"callout4CtaRightUrl":"/boutique/transfert","callout3CtaRightText":"Plus d'info","callout1Img":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD7012D_02a_footer_HP_1.jpg","sessionID":null,"sessionType":null,"url":"/medias/sys_master/h8f/h90/8917564751902.jpg"},"callout3Img":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD7012D_02a_footer_HP_3.jpg","sessionID":null,"sessionType":null,"url":"/medias/sys_master/h95/h90/8917564948510.jpg"},"callout1CtaLeftText":null,"callout3Text":"Nos <strong>meilleurs deals</strong> sur une <strong>période limitée</strong>","callout2Text":"Surfez à prix cadeaux:<br>nos forfaits à partir de 6,99€","callout4Text":"Découvrez comment effectuer un transfert de crédit d'appel","callout2CtaRightUrl":"/boutique/internet","callout2Img":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD7012D_02a_footer_HP_2.jpg","sessionID":null,"sessionType":null,"url":"/medias/sys_master/h92/h90/8917564850206.jpg"},"callout4Title":"Transférer du crédit  ","callout3CtaLeftUrl":null,"callout4Img":{"altText":null,"class":"com.lebara.data.MediaData","code":"LD7012D_02a_footer_HP_4.jpg","sessionID":null,"sessionType":null,"url":"/medias/sys_master/h98/h90/8917565046814.jpg"},"callout4CtaLeftUrl":null,"callout4CtaLeftText":null,"callout3CtaRightUrl":"/boutique/promo","callout2Title":"Forfait Internet","callout1CtaLeftUrl":null,"callout1Text":"<strong>200min</strong> et <strong>200 Mo</strong> inclus pour seulement <strong>9,99€</strong>","callout1CtaRightUrl":"/boutique/allinone","callout1CtaRightText":"Plus d'info","callout2CtaLeftUrl":null}];
+</script>
+<script type="text/javascript" id="primaryCalloutsCtrl">templateController("primaryCallouts");</script>
+	    
+    <!--End : Main Area section -->
+    </section>
+    <!--Start : Footer Area -->
+	    
+	        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <!--Start of SBR 101-->
+<script>
+$(document).ready(function(){ 
+    var thirdULinDE=$("ul.footer_nav_list:eq(2)");
+	var firstLI=thirdULinDE.children('li').eq('0');
+	var aLengthGreaterThanTwo=firstLI.children('a').length;
+	if(aLengthGreaterThanTwo > 1) {
+	   var secondATag=firstLI.children('a').eq('1');
+	   var secondATagText=secondATag.text();
+	   var secondATagHref=secondATag.attr('href');
+	   firstLI.replaceWith("<li><a href='"+secondATagHref+"'><span>"+secondATagText+"</span></a></li>");  
+	}
+});
+</script>
+ <!--End of SBR 101-->
+
+
+	
+<div class="blue-border"></div>	
+<footer>
+<section class="container fixedwidth-page footer-nav hidden-xs">	
+	<div class="row">
+		
+			
+				
+					
+					<div class="col-xs-2">
+
+						<ul class="list-unstyled">
+						<li class="nav-heading">
+							
+								<a href="/commencer" target="_self"><span>Commencez</span></a>
+							
+							
+								
+									<li><a href="/sim-gratuite" target="_self">SIM Gratuite</a></li>
+								
+									<li><a href="/activate-sim" target="_self">Activer Votre SIM</a></li>
+								
+									<li><a href="/instant-select" target="_self">Recharger</a></li>
+								
+									<li><a href="/boutique" target="_self">Forfaits</a></li>
+								
+									<li><a href="/instant-login" target="_self">Connexion</a></li>
+								
+									<li><a href="/li-Signup" target="_self">S’inscrire</a></li>
+								
+							
+						</li>
+						</ul>
+						</div>
+					
+					<div class="col-xs-2">
+
+						<ul class="list-unstyled">
+						<li class="nav-heading">
+							
+								<a href="/boutique" target="_self"><span>Boutique</span></a>
+							
+							
+								
+									<li><a href="/prepaye-accueil" target="_self">Carte Prépayée</a></li>
+								
+									<li><a href="/boutique/illimite" target="_self">Illimité</a></li>
+								
+									<li><a href="/boutique/allinone" target="_self">Tout en Un</a></li>
+								
+									<li><a href="/boutique/international" target="_self">International</a></li>
+								
+									<li><a href="/boutique/internet" target="_self">Internet</a></li>
+								
+									<li><a href="/boutique/promo" target="_self">Promotions</a></li>
+								
+									<li><a href="/boutique/transfert" target="_self">Transfert de crédit</a></li>
+								
+							
+						</li>
+						</ul>
+						</div>
+					
+					<div class="col-xs-2">
+
+						<ul class="list-unstyled">
+						<li class="nav-heading">
+							
+								<a href="/prepaye/tarifs" target="_self"><span>Tarifs</span></a>
+							
+							
+								
+									<li><a href="/prepaye/tarifs" target="_self">Comparer Tarifs</a></li>
+								
+							
+						</li>
+						</ul>
+						</div>
+					
+					<div class="col-xs-2">
+
+						<ul class="list-unstyled">
+						<li class="nav-heading">
+							
+								<a href="http://www.lebara.fr" target="_self"><span>À Propos</span></a>
+							
+							
+								
+									<li><a href="https://www.lebara.com/fr/fr/who-is-lebara/about-us" target="_self">À Propos De Lebara</a></li>
+								
+									<li><a href="https://www.lebara.com/fr/fr/supported-charities/lebara-foundation" target="_self">Lebara Foundation</a></li>
+								
+									<li><a href="https://www.lebara.com/fr/fr/opportunities/careers" target="_self">Carrières</a></li>
+								
+							
+						</li>
+						</ul>
+						</div>
+					
+					<div class="col-xs-2">
+
+						<ul class="list-unstyled">
+						<li class="nav-heading">
+							
+								<a href="/contact" target="_self"><span>Assistance</span></a>
+							
+							
+								
+									<li><a href="/help-main" target="_self">Aide</a></li>
+								
+									<li><a href="/view/content/pl_li_resellers?viewType=contactUsResellersView" target="_self">Revendeur</a></li>
+								
+									<li><a href="/view/content/pl_li_events" target="_self">Evénements & Parrainages</a></li>
+								
+									<li><a href="/contact" target="_self">Contactez Nous</a></li>
+								
+							
+						</li>
+						</ul>
+						</div>
+					
+				
+				
+			
+	</div>
+</section>
+		
+<section class="footer-sitemap hidden-xs">
+			<div class="container fixedwidth-page">
+				<div class="row">
+				<div class="col-xs-9 col-sm-8 footerlinks ellipsis">
+				 
+				
+					
+						<!--  Start of SBR -101 -->
+					     
+                           
+								<a href="/plan-du-site" target="_self">Plan Du Site</a>
+							|
+						
+						
+						
+							
+					
+						<!--  Start of SBR -101 -->
+					     
+                           
+								<a href="/politique-de-confidentialite" target="_self">Politique De Confidentialité & Cookies</a>
+							|
+						
+						
+						
+							
+					
+						<!--  Start of SBR -101 -->
+					     
+                           
+								<a href="/mentions-legales" target="_self">Mentions Légales</a>
+							|
+						
+						
+						
+							
+					
+						<!--  Start of SBR -101 -->
+					     
+                           
+								<a href="/conditions-generales" target="_self">Conditions Générales</a>
+							|
+						
+						
+						
+							
+					
+						<!--  Start of SBR -101 -->
+					     
+                           
+								<a href="/conditions-generales-offrem" target="_self">Conditions De L'offre</a>
+							|
+						
+						
+						
+							
+					
+						<!--  Start of SBR -101 -->
+					    
+						
+						 
+                           	
+								<a href="/contact" target="_self">Nous Contacter</a>
+							
+						
+							
+					
+				</div>
+				<div class="col-xs-3 col-sm-4 social-icons">
+				
+				    <div class="col-xs-6 copyright">
+				        <font color="#ffffff"><span style="font-size: 12px; line-height: 17.142839431762695px; background-color: #00a1e4;">2015 &copy; Lebara</span></font>
+					 </div>	
+					 <div class="col-xs-6">
+					 	<a href="https://twitter.com/lebaramobile" target="_blank">
+					     <a href="http://www.twitter.com/lebarafr" target="_blank"><img src="/assets/images/identity/twitter.png" border="0" alt="Twitter" /></a>
+					     </a>
+					     <a href="http://www.facebook.com/LebaraMobile" target="_blank">
+						     		<a href="https://www.facebook.com/LebaraFR" target="_blank"><img src="/assets/images/identity/facebook.png" border="0" alt="Facebook" /></a>
+						 </a>
+					<!-- fb n twitter -->
+					
+						</div>
+		       </div>
+			</div>
+			</div>
+</section>
+
+<section class="footer-sitemap visible-xs">
+			<div class="container fixedwidth-page">
+				<div class="row">
+				<div class="col-xs-9 footerlinks">
+				 
+				
+					
+				</div>
+				<div class="col-xs-12 footerlinks">
+					
+						
+						                            	
+								<a href="/plan-du-site" class="pull-left" target="_self">Plan Du Site</a>							
+						
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+						
+						
+						
+					
+				
+				    
+					 <div class="pull-right">
+					 	<a href="https://twitter.com/lebaramobile" target="_blank">
+					     <a href="http://www.twitter.com/lebarafr" target="_blank"><img src="/assets/images/identity/twitter.png" border="0" alt="Twitter" /></a>
+					     </a>
+					     <a href="http://www.facebook.com/LebaraMobile" target="_blank">
+						     		<a href="https://www.facebook.com/LebaraFR" target="_blank"><img src="/assets/images/identity/facebook.png" border="0" alt="Facebook" /></a>
+						 </a>
+					<!-- fb n twitter -->
+					
+						</div>
+						<div class="copyright pull-right">
+				        	<font color="#ffffff"><span style="font-size: 12px; line-height: 17.142839431762695px; background-color: #00a1e4;">2015 &copy; Lebara</span></font>
+					 	</div>	
+		       </div>
+			</div>
+			</div>
+</section>
+
+</footer>
+	    
+    <!--End : Footer Area -->
+
+    <!-- gtrs03 START -->
+<script src="//www.assets.lebara.com/assets/global/js-responsive/gtrs03.js" type="text/javascript"></script>
+<!-- gtrs03 END -->
+
+  
+</body>
+<!-- -->
+
+
+<script type="text/javascript">window.NREUM||(NREUM={});NREUM.info={"applicationID":"4122823","applicationTime":156,"beacon":"bam.nr-data.net","queueTime":0,"licenseKey":"293ba7b33d","transactionName":"NQQBMBYFXRUAUEBYWQxOMBQWDV0BIlxaRUQNDQ8BFkt7AwBXUUN1DQwTCwoBXRIiXFpFRA0NDwEWS1QDFXtRUFIHEw==","agent":"js-agent.newrelic.com\/nr-768.min.js","errorBeacon":"bam.nr-data.net"}</script></html>

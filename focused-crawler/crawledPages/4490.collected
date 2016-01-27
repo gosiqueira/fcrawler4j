@@ -1,0 +1,2010 @@
+title=Compras online com mais segurança ao consumidor - E-bit
+url=http://www.ebit.com.br/
+html=
+
+
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	
+	<title>Compras online com mais segurança ao consumidor - E-bit</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="A E-bit avalia a satisfação de consumidores em suas compras nas Lojas Online. Consulte informações sobre as lojas e compre com segurança na internet.">
+	<meta name="keywords" content="compre, seguranca, loja, online, virtual, certificado, pesquisa, e-commerce, ebit"> 
+
+	<link rel="stylesheet" type="text/css" href="/css/map.min.css" media="all">
+	<link rel="stylesheet" type="text/css" href="/css/mobile.min.css" media="all">
+
+	
+
+
+
+<link rel="stylesheet" type="text/css" href="/css/styles.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="/css/fonts.min.css" media="all">
+<link rel="stylesheet" type="text/css" href="//imgs.ebit.com.br/Site-ebit/css/jquery/jquery-ui.css" />
+
+<!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <script src="/js/css3-mediaqueries.js"></script>
+    <link rel="stylesheet" type="text/css" href="/css/ie.css" media="all" />
+<![endif]-->
+
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery.js"></script> 
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery-ui.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/jquery/jquery.livequery.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-modal.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-dropdown.js"></script>
+<script type="text/javascript" src="//imgs.ebit.com.br/Site-ebit/js/bootstrap/bootstrap-typeahead.js"></script>
+
+<script type="text/javascript" src="/js/slideBlock.min.js"></script>
+<script type="text/javascript" src="/js/fadeBlock.min.js"></script>
+<script type="text/javascript" src="/js/autocomplete.min.js"></script>
+<script type="text/javascript" src="/js/bootstrap-tooltip.min.js"></script>
+<script type="text/javascript" src="/js/analytics.min.js"></script>
+
+<script id="navegg" type="text/javascript" src="//d1070b8a575b8m.cloudfront.net/tm12525.js"></script>
+<script type="text/javascript" >$.ajaxSetup({async: true});</script>
+
+<script>
+	$(document).ready(function() {
+
+			$('#searchStore').click(function(){
+				if($('#searchStore').val() == "Digite o nome da loja"){
+					$('#searchStore').val('');	
+				}
+			});
+
+			$('#searchStore').blur(function(){
+				if($('#searchStore').val() == ""){
+					$('#searchStore').val('Digite o nome da loja');	
+				}
+			});
+
+			function handleImageError(obj, label) {
+				$(obj).remove();
+				$('#'+label).show();
+			}
+	});
+</script>
+</head>
+<body>
+	<section id="wrapper">
+		<div class="banner">
+			<span>Publicidade</span>
+			<!-- "Ebit_Home_728x90" (section "Home") -->
+			<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- "Ebit_Home_728x90" (section "Home") -->
+		</div>
+
+		
+
+
+
+
+<header>
+	<a href="/">
+		<strong class="logo" id="logo-ebit">ebit A certificação dos consumidores null</strong>
+	</a>
+	<div class="search">
+		<fieldset>
+			<input type="text" value="Digite o nome da loja" class="text" id="searchStore" name="searchStore" data-provide="typeahead">
+			<input type="hidden" value="Digite o nome da loja" id="placeholder">
+			<input type="button" class="submit" id="submitSearch" value="search" alt='Digite o nome da loja' >
+		</fieldset>
+	</div>
+	<nav>
+		<ul>
+			<li><a  href='/avaliacao-lojas'>Reputação das lojas</a></li>
+			<li><a  href='/concorra-premios/regulamento'>Concorra a prêmios</a></li>
+			
+				
+				
+					<li><a  href='/cadastro'>Cadastre-se</a></li>
+				
+			
+			
+		</ul>
+	</nav>
+
+<!-- Begin comScore Tag -->
+	<script>
+		  var _comscore = _comscore || [];
+		  _comscore.push({ c1: "2", c2: "9976088" });
+		  (function() {
+		    var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		    s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		    el.parentNode.insertBefore(s, el);
+		  })();
+	</script>
+	<noscript>
+		<img src="http://b.scorecardresearch.com/p?c1=2&c2=9976088&cv=2.0&cj=1" />
+	</noscript>
+<!-- End comScore Tag -->
+	
+</header>
+
+		<section class="map">
+		
+	<div class="holder">
+		<div class="block">
+			<div class="frame">
+				<strong class="title">Estão comprando agora</strong>
+			</div>
+		</div>
+		<a href="#" class="open-close" id="mapoc">open-close</a>
+	
+		<div class="map-holder">
+			<div id="status"><img src="http://img.ebit.com.br/Site-ebit/images/loader1.gif" /></div>
+			<div id="map"></div>
+		</div>
+	</div>
+</section>
+
+		<section id="main" class="main-home">
+		
+			
+
+<div id="content-medals">
+	<h1>Conheça a certificação E-bit e compre com mais segurança</h1>
+	<p>A certificação E-bit reflete a satisfação de consumidores que
+		realmente compraram nas lojas cadastradas.</p>
+	
+	<div class="medals fade-block">
+		<p>
+			<strong>Conheça as medalhas E-bit</strong>
+		</p>
+	
+		<ul class="medals-list">
+			<li><a href="/medalhas-e-bit" alt="diamante" ><img src="http://img.ebit.com.br/Site-ebit/images/med-diamante-gnd.png" width="61" height="62" alt="#"><br /> DIAMANTE</a><span>Excelente</span></li>
+			<li><a href="/medalhas-e-bit" alt="ouro"><img src="http://img.ebit.com.br/Site-ebit/images/med-ouro-gnd.png" width="61" height="62" alt="#"><br /> OURO</a><span>Ótima</span></li>
+			<li><a href="/medalhas-e-bit" alt="prata"><img src="http://img.ebit.com.br/Site-ebit/images/med-prata-gnd.png" width="61" height="62" alt="#"><br /> PRATA</a><span>Boa</span></li>
+			<li><a href="/medalhas-e-bit" alt="bronze"><img src="http://img.ebit.com.br/Site-ebit/images/med-bronze-gnd.png" width="61" height="62" alt="#"><br /> BRONZE</a><span>Regular</span></li>
+			<li><a href="/medalhas-e-bit" alt="nova"><img src="http://img.ebit.com.br/Site-ebit/images/med-nova-gnd.png" width="61" height="62" alt="#"><br /> EM AVALIAÇÃO</a></li>
+		</ul>
+	
+		<a href="/medalhas-e-bit" class="bt-redirect"
+			alt="Saiba mais a respeito de como a E-bit te ajuda  comprar online com mais segurança.">open-close
+		</a>
+		
+	</div>
+</div>
+
+			
+<div class="block-contador">
+	<h3>
+		<img src="http://img.ebit.com.br/Site-ebit/images/Vemos-acontencendo.png" alt="vemos o e-commerce acontencendo" />
+	</h3>
+	<ul>
+		<li>Lojas avaliadas pelos consumidores
+			<span id="CounterLoja">0</span>
+		</li>
+		<li>Pedidos realizados neste mês
+			<span id="CounterPedidos">0</span>
+		</li>
+		<li>Total de pesquisas respondidas neste mês
+			<span id="CounterPesquisa">0</span>
+		</li>
+	</ul>
+</div>
+
+
+			<section id="content">
+				
+
+
+
+<script>
+	function rankImageError(obj, label) {
+		$(obj).remove();
+		$('#'+label).show();
+	}
+</script>
+
+<div class="content-h2">
+	<h2>Ranking de lojas </h2>
+	<a href="/entenda-rankings" target="_blank"><strong class="currentMes">December/2015</strong></a>
+</div>
+<div class="ratings fade-block">
+	<div class="columns">
+		<div class="column" id="c1">
+			<h3>As melhores avaliadas</h3>
+			
+			
+			
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/sorte-online"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_5159.gif"
+				width="148" height="23" alt="Opinião sobre Sorte Online" title="Opinião sobre Sorte Online" 
+				onerror="rankImageError(this, 'BestEvaluated5159')" />
+			
+			<p id="BestEvaluated5159" class="storeTitle" >Sorte Online</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/sorte-online">Sorte Online</a> Loterias e Apostas</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 10.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+				
+			
+			
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/wine"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_827.gif"
+				width="148" height="23" alt="Opinião sobre Wine.com.br" title="Opinião sobre Wine.com.br" 
+				onerror="rankImageError(this, 'BestEvaluated827')" />
+			
+			<p id="BestEvaluated827" class="storeTitle" >Wine.com.br</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/wine">Wine.com.br</a> Alimentos e Bebidas</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 1.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+				
+			
+			
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">3<span>°</span></strong> 
+		<a href="/katy-calcados-e-esportes"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_10996.gif"
+				width="148" height="23" alt="Opinião sobre Katy Calçados e Esportes" title="Opinião sobre Katy Calçados e Esportes" 
+				onerror="rankImageError(this, 'BestEvaluated10996')" />
+			
+			<p id="BestEvaluated10996" class="storeTitle" >Katy Calçados e Esportes</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/katy-calcados-e-esportes">Katy Calçados e Esportes</a> Artigos esportivos, Moda e Acessórios</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 1.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+				
+			
+			
+		</div>
+		
+		
+		<div class="column" id="c2">
+			<h3 class="ttl-2">As mais indicadas para amigos</h3>
+			
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/oculos-shop"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_5097.gif"
+				width="148" height="23" alt="Opinião sobre Óculos Shop" title="Opinião sobre Óculos Shop" 
+				onerror="rankImageError(this, 'RecommendationFriends5097')" />
+			
+			<p id="RecommendationFriends5097" class="storeTitle" >Óculos Shop</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/oculos-shop">Óculos Shop</a> Moda e Acessórios, Saúde</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+			
+			
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/katy-calcados-e-esportes"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_10996.gif"
+				width="148" height="23" alt="Opinião sobre Katy Calçados e Esportes" title="Opinião sobre Katy Calçados e Esportes" 
+				onerror="rankImageError(this, 'RecommendationFriends10996')" />
+			
+			<p id="RecommendationFriends10996" class="storeTitle" >Katy Calçados e Esportes</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/katy-calcados-e-esportes">Katy Calçados e Esportes</a> Artigos esportivos, Moda e Acessórios</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 1.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+			
+			
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">3<span>°</span></strong> 
+		<a href="/epoca-cosmeticos"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_5354.gif"
+				width="148" height="23" alt="Opinião sobre Época Cosméticos" title="Opinião sobre Época Cosméticos" 
+				onerror="rankImageError(this, 'RecommendationFriends5354')" />
+			
+			<p id="RecommendationFriends5354" class="storeTitle" >Época Cosméticos</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/epoca-cosmeticos">Época Cosméticos</a> Cosméticos e Perfumaria, Cuidados Pessoais</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 1.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+			
+			
+			
+		</div>
+		
+		<div class="column" id="c3">
+			<h3 class="ttl-3">As melhores em entrega no prazo</h3>
+			
+			
+
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/katy-calcados-e-esportes"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_10996.gif"
+				width="148" height="23" alt="Opinião sobre Katy Calçados e Esportes" title="Opinião sobre Katy Calçados e Esportes" 
+				onerror="rankImageError(this, 'OntimeDelivery10996')" />
+			
+			<p id="OntimeDelivery10996" class="storeTitle" >Katy Calçados e Esportes</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/katy-calcados-e-esportes">Katy Calçados e Esportes</a> Artigos esportivos, Moda e Acessórios</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 1.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+			
+			
+
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/taqi"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_3384.gif"
+				width="148" height="23" alt="Opinião sobre Taqi" title="Opinião sobre Taqi" 
+				onerror="rankImageError(this, 'OntimeDelivery3384')" />
+			
+			<p id="OntimeDelivery3384" class="storeTitle" >Taqi</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/taqi">Taqi</a> Eletrodomésticos, Construção e Ferramentas</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 1.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+			
+			
+
+				
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">3<span>°</span></strong> 
+		<a href="/posthaus"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_6364.gif"
+				width="148" height="23" alt="Opinião sobre Posthaus" title="Opinião sobre Posthaus" 
+				onerror="rankImageError(this, 'OntimeDelivery6364')" />
+			
+			<p id="OntimeDelivery6364" class="storeTitle" >Posthaus</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="diamante"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-diamante-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/posthaus">Posthaus</a> Moda e Acessórios</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 10.000 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+			
+			
+		</div>
+	
+		<!-- columns -->
+		<div class="block-rank">
+			<div class="block">
+				<div class="columns">
+				
+					<div class="column">
+						
+						
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/viso-store"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_29475.gif"
+				width="148" height="23" alt="Opinião sobre Visostore" title="Opinião sobre Visostore" 
+				onerror="rankImageError(this, 'BestEvaluatedTop29475')" />
+			
+			<p id="BestEvaluatedTop29475" class="storeTitle" >Visostore</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/viso-store">Visostore</a> Moda e Acessórios, Joalheria</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+						
+						
+						
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/plantei"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_51864.gif"
+				width="148" height="23" alt="Opinião sobre Plantei" title="Opinião sobre Plantei" 
+				onerror="rankImageError(this, 'BestEvaluatedTop51864')" />
+			
+			<p id="BestEvaluatedTop51864" class="storeTitle" >Plantei</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/plantei">Plantei</a> Casa e Decoração, Flores,Cestas e Presentes</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
+0 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+						
+						
+						
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">3<span>°</span></strong> 
+		<a href="/musculos-na-web"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_41087.gif"
+				width="148" height="23" alt="Opinião sobre MUSCULOS NA WEB" title="Opinião sobre MUSCULOS NA WEB" 
+				onerror="rankImageError(this, 'BestEvaluatedTop41087')" />
+			
+			<p id="BestEvaluatedTop41087" class="storeTitle" >MUSCULOS NA WEB</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/musculos-na-web">MUSCULOS NA WEB</a> Site de venda de suplementos alimentares</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+						
+							
+					</div>
+					
+					<div class="column">
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/viso-store"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_29475.gif"
+				width="148" height="23" alt="Opinião sobre Visostore" title="Opinião sobre Visostore" 
+				onerror="rankImageError(this, 'RecommendationFriendsTop29475')" />
+			
+			<p id="RecommendationFriendsTop29475" class="storeTitle" >Visostore</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/viso-store">Visostore</a> Moda e Acessórios, Joalheria</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/pet-patao-shop"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_13060.gif"
+				width="148" height="23" alt="Opinião sobre Pet Patão Shop" title="Opinião sobre Pet Patão Shop" 
+				onerror="rankImageError(this, 'RecommendationFriendsTop13060')" />
+			
+			<p id="RecommendationFriendsTop13060" class="storeTitle" >Pet Patão Shop</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/pet-patao-shop">Pet Patão Shop</a> Pet Shop</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">3<span>°</span></strong> 
+		<a href="/br-lentes"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif"
+				width="148" height="23" alt="Opinião sobre BR Lentes" title="Opinião sobre BR Lentes" 
+				onerror="rankImageError(this, 'RecommendationFriendsTop49727')" />
+			
+			<p id="RecommendationFriendsTop49727" class="storeTitle" >BR Lentes</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/br-lentes">BR Lentes</a> Lentes de contato</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 10 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+							
+					</div>
+					
+					<div class="column">
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/viso-store"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_29475.gif"
+				width="148" height="23" alt="Opinião sobre Visostore" title="Opinião sobre Visostore" 
+				onerror="rankImageError(this, 'OntimeDeliveryTop29475')" />
+			
+			<p id="OntimeDeliveryTop29475" class="storeTitle" >Visostore</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/viso-store">Visostore</a> Moda e Acessórios, Joalheria</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/plantei"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_51864.gif"
+				width="148" height="23" alt="Opinião sobre Plantei" title="Opinião sobre Plantei" 
+				onerror="rankImageError(this, 'OntimeDeliveryTop51864')" />
+			
+			<p id="OntimeDeliveryTop51864" class="storeTitle" >Plantei</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/plantei">Plantei</a> Casa e Decoração, Flores,Cestas e Presentes</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
+0 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">3<span>°</span></strong> 
+		<a href="/musculos-na-web"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_41087.gif"
+				width="148" height="23" alt="Opinião sobre MUSCULOS NA WEB" title="Opinião sobre MUSCULOS NA WEB" 
+				onerror="rankImageError(this, 'OntimeDeliveryTop41087')" />
+			
+			<p id="OntimeDeliveryTop41087" class="storeTitle" >MUSCULOS NA WEB</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="ouro"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-ouro-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/musculos-na-web">MUSCULOS NA WEB</a> Site de venda de suplementos alimentares</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					</div>	
+													
+				</div>
+				<div class="columns">
+				
+					<div class="column">
+						
+						
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/o-sapo-e-a-princesa"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_42935.gif"
+				width="148" height="23" alt="Opinião sobre O sapo e a princesa" title="Opinião sobre O sapo e a princesa" 
+				onerror="rankImageError(this, 'BestEvaluatedTop42935')" />
+			
+			<p id="BestEvaluatedTop42935" class="storeTitle" >O sapo e a princesa</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="prata"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-prata-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/o-sapo-e-a-princesa">O sapo e a princesa</a> Loja virtual de produtos infantis</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
+0 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+						
+						
+						
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/galpao-do-inox"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_41914.gif"
+				width="148" height="23" alt="Opinião sobre Galpão do Inox" title="Opinião sobre Galpão do Inox" 
+				onerror="rankImageError(this, 'BestEvaluatedTop41914')" />
+			
+			<p id="BestEvaluatedTop41914" class="storeTitle" >Galpão do Inox</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="prata"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-prata-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/galpao-do-inox">Galpão do Inox</a> Casa e Decoração, Construção e Ferramentas</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+						
+							
+					</div>
+					
+					<div class="column">
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/o-sapo-e-a-princesa"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_42935.gif"
+				width="148" height="23" alt="Opinião sobre O sapo e a princesa" title="Opinião sobre O sapo e a princesa" 
+				onerror="rankImageError(this, 'RecommendationFriendsTop42935')" />
+			
+			<p id="RecommendationFriendsTop42935" class="storeTitle" >O sapo e a princesa</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="prata"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-prata-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/o-sapo-e-a-princesa">O sapo e a princesa</a> Loja virtual de produtos infantis</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
+0 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/shop-beleza-e-cia"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_34514.gif"
+				width="148" height="23" alt="Opinião sobre shop beleza e cia" title="Opinião sobre shop beleza e cia" 
+				onerror="rankImageError(this, 'RecommendationFriendsTop34514')" />
+			
+			<p id="RecommendationFriendsTop34514" class="storeTitle" >shop beleza e cia</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="prata"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-prata-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/shop-beleza-e-cia">shop beleza e cia</a> Cosméticos e Perfumaria, Cuidados Pessoais</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
+0 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+							
+					</div>
+					
+					<div class="column">
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/o-sapo-e-a-princesa"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_42935.gif"
+				width="148" height="23" alt="Opinião sobre O sapo e a princesa" title="Opinião sobre O sapo e a princesa" 
+				onerror="rankImageError(this, 'OntimeDeliveryTop42935')" />
+			
+			<p id="OntimeDeliveryTop42935" class="storeTitle" >O sapo e a princesa</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="prata"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-prata-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/o-sapo-e-a-princesa">O sapo e a princesa</a> Loja virtual de produtos infantis</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
+0 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/galpao-do-inox"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_41914.gif"
+				width="148" height="23" alt="Opinião sobre Galpão do Inox" title="Opinião sobre Galpão do Inox" 
+				onerror="rankImageError(this, 'OntimeDeliveryTop41914')" />
+			
+			<p id="OntimeDeliveryTop41914" class="storeTitle" >Galpão do Inox</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="prata"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-prata-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/galpao-do-inox">Galpão do Inox</a> Casa e Decoração, Construção e Ferramentas</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					</div>	
+													
+				</div>
+				
+				<div class="columns">
+				
+					<div class="column">
+						
+						
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/bebemagazine"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_12337.gif"
+				width="148" height="23" alt="Opinião sobre Bebemagazine" title="Opinião sobre Bebemagazine" 
+				onerror="rankImageError(this, 'BestEvaluatedTop12337')" />
+			
+			<p id="BestEvaluatedTop12337" class="storeTitle" >Bebemagazine</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="bronze"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-bronze-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/bebemagazine">Bebemagazine</a> Bebês e Cia</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 10 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+						
+						
+						
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/sanner-ltda"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_31424.gif"
+				width="148" height="23" alt="Opinião sobre Sanner Ltda" title="Opinião sobre Sanner Ltda" 
+				onerror="rankImageError(this, 'BestEvaluatedTop31424')" />
+			
+			<p id="BestEvaluatedTop31424" class="storeTitle" >Sanner Ltda</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="bronze"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-bronze-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/sanner-ltda">Sanner Ltda</a> Produtos Antifurto McGard Roda e Estepe</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
+0 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+						
+							
+					</div>
+					
+					<div class="column">
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/xmundo"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif"
+				width="148" height="23" alt="Opinião sobre Xmundo" title="Opinião sobre Xmundo" 
+				onerror="rankImageError(this, 'RecommendationFriendsTop35955')" />
+			
+			<p id="RecommendationFriendsTop35955" class="storeTitle" >Xmundo</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="bronze"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-bronze-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/xmundo">Xmundo</a> Loja Virtual de Eletrônico</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 10 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/yco-eletronicos"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_48248.gif"
+				width="148" height="23" alt="Opinião sobre YCO ELETRONICOS" title="Opinião sobre YCO ELETRONICOS" 
+				onerror="rankImageError(this, 'RecommendationFriendsTop48248')" />
+			
+			<p id="RecommendationFriendsTop48248" class="storeTitle" >YCO ELETRONICOS</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="bronze"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-bronze-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/yco-eletronicos">YCO ELETRONICOS</a> Eletrônicos, Fotografia</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+							
+					</div>
+					
+					<div class="column">
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">1<span>°</span></strong> 
+		<a href="/xmundo"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/img_ndisp.gif"
+				width="148" height="23" alt="Opinião sobre Xmundo" title="Opinião sobre Xmundo" 
+				onerror="rankImageError(this, 'OntimeDeliveryTop35955')" />
+			
+			<p id="OntimeDeliveryTop35955" class="storeTitle" >Xmundo</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="bronze"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-bronze-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/xmundo">Xmundo</a> Loja Virtual de Eletrônico</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 10 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					
+							
+
+
+
+
+<div class="box">
+	<div class="title">
+		<strong class="number">2<span>°</span></strong> 
+		<a href="/yco-eletronicos"	class="logo" >
+			
+			<img src="http://img.ebit.com.br/ebitBR/imagens/big-logo-lojas/logo_48248.gif"
+				width="148" height="23" alt="Opinião sobre YCO ELETRONICOS" title="Opinião sobre YCO ELETRONICOS" 
+				onerror="rankImageError(this, 'OntimeDeliveryTop48248')" />
+			
+			<p id="OntimeDeliveryTop48248" class="storeTitle" >YCO ELETRONICOS</p>
+		</a>
+		
+
+
+
+
+
+
+
+
+<img alt="bronze"
+	 src="http://img.ebit.com.br/Site-ebit/images/med-bronze-pqn.png" 
+	 style="vertical-align:middle" >
+
+
+	</div>
+	<ul>
+		<li><a href="/yco-eletronicos">YCO ELETRONICOS</a> Eletrônicos, Fotografia</li>
+		<li><img
+				src="http://img.ebit.com.br/Site-ebit/images/ico-04.gif"
+				width="23" height="15" alt="#">
+				<strong>
+					
+
+
+
+
++ 100 
+				</strong> Avaliações em nosso site</li>
+		<li>
+           	
+		</li>
+	</ul>
+</div>
+					
+						
+					</div>	
+													
+				</div>
+			</div>
+		</div>
+		<a href="#" class="open-close">open-close</a>
+	</div>
+</div>
+ 			</section>
+
+			<aside id="sidebar">
+	
+	<div class="banner">
+		<!-- "Ebit_Home_180x150" (section "Home") -->
+		<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<!-- "Ebit_Home_180x150" (section "Home") -->
+	</div>
+
+	<div>	
+		<a href="/nps-net-promoter-score-e-bit">
+			<img alt="" src="/img/nps/bannerNPS.gif">
+		</a>
+	</div>
+
+	<h3>News E-bit</h3>
+	<ul class="news">
+		<li>
+			<h4>
+				<a href="http://www.ebitempresa.com.br/clip.asp?cod_noticia=3958&pi=1">31ª edição WebShoppers</a>
+			</h4>
+			<p>O ano de 2014 apresentou resultado bastante positivo no comércio eletrônico brasileiro, 
+			tendo superado mais uma vez a expectativa inicial para o faturamento do setor e registrado 
+			crescimento de 24% em relação a 2013. Leia mais... </p>
+		</li>
+		<li>
+			<h4>
+				<a href="http://www.ebitempresa.com.br/clip.asp?cod_noticia=3956&pi=1">Lojas virtuais recebem prêmio da<br/> E-bit por reconhecimento de consumidores</a>
+			</h4>
+			<p>A E-bit anunciou no dia 13 de agosto os vencedores da 11ª edição do Prêmio Excelência em Qualidade Comércio Eletrônico B2C. Leia mais ... </p>
+		</li>
+		
+	</ul>
+	
+</aside>
+
+
+		</section>
+
+		
+<footer>
+	<h4>
+		<a href="/premio-ebit-2015">Vote na loja mais querida 
+		<span>Prêmio E-bit 2015 Melhores Lojas do E-commerce</span></a>
+	</h4>
+	<div class="holder">
+		<div class="box">
+			<h5>E-bit Você</h5>
+			<ul>
+				<li><a href="/avaliacao-lojas" >Reputação de Lojas</a></li>
+				<li><a href="/concorra-premios">Concorra a prêmios</a></li>
+				<li><a href="http://www.romerorodrigues.com/">Empreendedorismo e Poder ao Consumidor</a></li>
+			</ul>
+		</div>
+		<div class="box-2">
+			<h5>E-bit Empresa</h5>
+			<ul>
+				<li><a href="http://www.ebitempresa.com.br/quem.asp" target="_blank">E-bit em Detalhes</a></li>
+				<li><a href="http://www.ebitempresa.com.br/produtos-servicos.asp" target="_blank">Produtos e Serviços</a></li>
+				<li><a href="/cadastre-sua-loja" >Cadastre sua loja</a></li>
+				<li><a href="http://developer.buscape.com.br/portal/developer/documentacao/integracao-lojista/integracao-e-bit/">Pesquisa Parametrizada</a></li>
+			</ul>
+		</div>
+		<div class="box-3">
+			<h5>E-bit Imprensa</h5>
+			<ul>
+				<li><a href="http://www.ebitempresa.com.br/e-bit-informa-2010.asp" target="_blank">E-bit Informa</a></li>
+				<li><a href="http://www.ebitempresa.com.br/web-shoppers.asp" target="_blank">Webshoppers</a></li>
+				<li><a href="http://www.ebitempresa.com.br/imprensa.asp" target="_blank">Imprensa</a></li>
+				<li><a href="http://www.ebitempresa.com.br/parceiros-ebit.asp" target="_blank">Parceiros</a></li>
+			</ul>
+		</div>
+		<div class="box-4">
+			<h5>E-bit Informações Institucionais</h5>
+			<div class="frame">
+				<ul>
+					<li><a href="/conheca-ebit">Conheça a E-bit</a></li>
+					<li><a href="/faq-duvidas-frequentes">Dúvidas Frequentes</a></li>
+					<li><a href="/contato">Fale Conosco</a></li>
+					<li><a href="/lojas-virtuais-irregulares">Lojas irregulares</a></li>
+				</ul>
+				<ul>
+					<li><a href="/dicas-compra-segura-internet">Dicas para comprar Online</a></li>
+					<li><a href="http://www.buscape.com.br/buscape-protege" target="_blank">Buscapé Protege</a></li>
+					<li><a href="/aspectos-legais">Aspectos Legais</a></li>
+					<li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="social">
+			<h5>siga-nos<br /> nossas redes sociais</h5>
+			<ul>
+				<li><a class="facebook" href="https://www.facebook.com/oficialebit" target="_blank">Viu, curtiu, compartilhou</a></li>
+				<li><a class="twitter" href="https://twitter.com/ebitoficial" target="_blank">Notícias atualizadas</a></li>
+				<li><a class="youtube" href="https://www.youtube.com/user/ebitImprensa" target="_blank">O canal da E-bit é aqui</a></li>
+			</ul>
+		</div>
+	</div>
+</footer>
+<section class="bottom-bar">
+	<strong class="logo"><a href="http://www.buscapecompany.com/" target="_blank">buscape company</a></strong>
+	<ul class="nav">
+		<li><a href="http://www.quebarato.com.br/" target="_blank">QueBarato!</a></li>
+		<li><a href="http://www.bondfaro.com.br/" target="_blank">Bondfaro</a></li>
+		<li><a href="http://www.ebit.com.br" target="_blank">E-bit</a></li>
+		<li><a href="http://www.cortacontas.com.br/" target="_blank">CortaContas</a></li>
+		<li><a href="http://www.saveme.com.br/" target="_blank">SaveMe</a></li>
+		<li><a href="http://www.confiometro.com.br/" target="_blank">Confiômetro</a></li>
+		<li><a href="http://www.unibuscapecompany.com/?utm_source=ebit&utm_medium=footer&utm_content=home&utm_campaign=unibuscapecompany" target="_blank">Universidade Buscapé</a></li>
+	</ul>
+</section>
+
+<!-- LOGIN ÚNICO -->
+
+
+
+<script type="text/javascript">
+			var HOST = location.host;
+			var PROTOCOL = location.protocol;
+
+		    SessionBarConfig = {
+		            url: 'https://sso.buscapecompany.com/portal/barra.js?',
+		            login: encodeURIComponent(PROTOCOL+'//'+HOST+'/loggedIn?redirect='+encodeURIComponent(PROTOCOL+'//'+HOST)),
+		            logout: encodeURIComponent(PROTOCOL+'//'+HOST+'/logout?redirect='+encodeURIComponent(PROTOCOL+'//'+HOST)),
+		            businessUnit: 'e-bit-consumidor',
+		            area: '10',
+		            sessionToken: ''
+		        };
+		    
+	        var sc = document.createElement('script');
+
+	        sc.type = 'text/javascript';
+
+	        sc.src = SessionBarConfig.url
+	            + 'redir=' + SessionBarConfig.login
+	            + '&logout=' + SessionBarConfig.logout
+	            + '&businessUnit=' + SessionBarConfig.businessUnit
+	            + '&area=' + SessionBarConfig.area
+	            + '&t=' + SessionBarConfig.sessionToken
+	            + '&c=BR&method=GET';
+	        
+	        document.body.appendChild(sc);
+</script>
+
+
+
+<!-- crazy egg -->
+<script type="text/javascript">
+	setTimeout(function() {
+		var a=document.createElement("script");
+		var b=document.getElementsByTagName("script")[0];
+		a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0006/4532.js?"+Math.floor(new Date().getTime()/3600000);
+		a.async=true;
+		a.type="text/javascript";
+		b.parentNode.insertBefore(a,b)
+		} , 
+	1);
+</script>	
+	</section>
+
+	<script type="text/javascript" src="/js/counters.min.js"></script>
+	<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+	<script type="text/javascript" src="/js/map.min.js"></script>
+	<script type="text/javascript" src="/js/infobox.min.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,147 @@
+title=DFTRANS -  DF NO PONTO -      
+	Sistema de busca de linhas de ônibus
+url=http://www.sistemas.dftrans.df.gov.br/horarios/src/mapas/index
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<html class="no-js multiview">
+    <head>
+        
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+
+
+  <title>DFTRANS -  DF NO PONTO -      
+	Sistema de busca de linhas de ônibus </title>
+        
+            <link rel="stylesheet" href="" />
+            
+            
+            <link href="http://www.sistemas.dftrans.df.gov.br/horarios/src/_css/bootstrap.css" type="text/css" rel="stylesheet" />
+	<link href="http://www.sistemas.dftrans.df.gov.br/horarios/src/_css/bootstrap-responsive.css" type="text/css" rel="stylesheet" />
+	<link href="http://www.sistemas.dftrans.df.gov.br/horarios/src/_css/layout-default-latest.css" type="text/css" rel="stylesheet" />
+	<link href="http://www.sistemas.dftrans.df.gov.br/horarios/src/_css/jquery-ui.css" type="text/css" rel="stylesheet" />
+	<link href="http://www.sistemas.dftrans.df.gov.br/horarios/src/_css/style.css" type="text/css" rel="stylesheet" />
+      
+            
+	<script src="http://www.openlayers.org/api/2.13/OpenLayers.js"></script>
+            
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/jquery-latest.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/jquery-ui-latest.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/jquery.layout-latest.min.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/jquery.layout.slideOffscreen-1.1.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/jquery.layout.resizeTabLayout-latest.min.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/jquery.layout.resizePaneAccordions-latest.min.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/html2canvas.js"></script>
+	<script type="text/javascript" src="http://www.sistemas.dftrans.df.gov.br/horarios/src/extras/mapa.js"></script>
+
+
+    </head>
+    <body> 
+    
+            
+    		    	<div class="ui-widget-header">
+		<center>
+			<h3>DF NO PONTO - Sistema de busca de linhas de ônibus.</h3>
+		</center>
+	</div>
+<div id="container">
+<div class="ui-layout-west">
+    <div class="ui-layout-north">
+            <div class="ui-widget-header ui-corner-top">Buscador de Linha</div>
+            <div class="ui-widget-content" style="font-size:x-medium;">
+                <br/>
+                <div  style="text-align: center;"><img src="../_img/Logo_DFTrans2.png" /></div>
+                <br/><br/>
+                <div style="text-align: center;">
+                    <i><b>Tipo de Consulta</b></i><br/><br/>
+                    <input type='radio' id='tipoBusca1' name="tipoBusca" value='1'/> Por Linha
+                    <input type='radio' id='tipoBusca2' name="tipoBusca" value='2' checked='true' /> Origem/Destino                            
+                </div>
+                <div id='buscaLinha' style="text-align: center;">
+                    <center>
+                    <label style="text-align: center;">
+                    <input type= "text" name="refLinha" id="refLinha" style='width:250px;'/>
+                    <div id="refLinhaList" class="suggestions"></div>
+                    </label>                    
+                    </center>
+                    <input type= "hidden" name="refLinhaVal" id="refLinhaVal"/>
+                    <input type= "hidden" name="refLinhaTipoPesquisa" id="refLinhaTipoPesquisa"/>
+                </div>                
+                <div id='origemBusca' style="text-align: center;">
+                    <center>
+                    <label style="text-align: center;">
+                    <input type= "text" name="refOrigem" id="refOrigem" style='width:250px;'/>
+                    <div id="refOrigemList" class="suggestions"></div>
+                    </label>                    
+                    </center>
+                    <input type= "hidden" name="refOrigemVal" id="refOrigemVal"/>
+                    <input type= "hidden" name="refOrigemTipoPesquisa" id="refOrigemTipoPesquisa"/>
+                </div>
+                <div id='destinoBusca' style="text-align: center;">
+                    <center>
+                    <label style="text-align: center;">                    
+                    <input type= "text" name="refDestino" id="refDestino" style='width:250px;'/>
+                    <div id="refDestinoList" class="suggestions"></div>
+                    </label>                    
+                    </center>                    
+                    <input type= "hidden" name="refDestinoVal" id="refDestinoVal"/>
+                    <input type= "hidden" name="refDestinoTipoPesquisa" id="refDestinoTipoPesquisa"/>
+                </div>
+                <div id='mostrarParadas' style="text-align: center;">
+                    <input type= "checkbox" name="allParadas[]" id="allParadas" value="" />&nbsp;<b>Mostrar Todas Paradas ?</b>                            
+                </div>
+            <br />                
+            <div style="text-align: center;">
+                    <input type="button" class="btn btn-warning" value="Procurar"
+                            id="buscar" onclick="carregaComboLinhaOrigDest()" />
+            </div>		
+            <br />      
+            </div> 
+    </div>
+    <div class="ui-layout-center">
+        <div class="ui-widget-header ui-corner-top">Linhas</div>
+        <div class="ui-widget-content" id="linhas_conteudo" style="font-size:x-medium;">Não há dados.</div>
+    </div>
+</div>
+<div class="ui-layout-east">
+	<div class="ui-layout-north">
+		<div class="ui-widget-header ui-corner-top">Informações da Linha</div>
+		<div class="ui-widget-content" style="font-size:x-medium;" id="mostraCabecalhoAlvo"></div>
+	</div>
+	<div class="ui-layout-center">
+		<div class="ui-widget-header ui-corner-top">Horários nos Pontos Terminais</div>
+		<div class="ui-widget-content" style="font-size:x-medium;" id="mostraHorariosAlvo"></div>
+	</div>
+    <!--
+	<div class="ui-layout-south">
+		<div class="ui-widget-header ui-corner-top">Itinerários</div>
+		<div class="ui-widget-content" style="font-size:x-medium;" id="mostraItinerariosAlvo"></div>
+	</div>
+    -->
+</div>
+
+<div class="ui-layout-center">
+	<div class="col2">
+		<div class="ui-widget-header ui-corner-top">Mapa do Distrito
+			Federal</div>
+		<div id="map"></div>		
+	</div>
+	
+	<div id="mostraTerminais" style="display: none;"
+		title="Informações dos Terminais">
+		<div class="modal-header">
+			<div id="mostraTerminaisAlvoSaem" style="height: 100px; font-size:12px;"></div>
+		</div>
+	</div>	
+
+	<div id="mostraParadas" style="display: none;"
+		title="Informações da Parada">
+		<div class="modal-header">
+			<div id="mostraParadasCabecalho" style="height: 100px; font-size:12px;"></div>
+			<!--<div id="mostraParadasAlvoSaem" style="height: 150px; font-size:12px;"></div>-->
+		</div>
+	</div>
+</div>
+</div></body>
+</html>
+    

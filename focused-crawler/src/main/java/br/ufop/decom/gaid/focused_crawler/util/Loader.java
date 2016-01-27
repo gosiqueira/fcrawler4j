@@ -6,7 +6,9 @@ import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import java.util.Properties;
 
 import org.apache.xmlbeans.impl.xb.ltgfmt.Code.Factory;
@@ -27,6 +29,8 @@ public class Loader {
 	private String workingDirectory;
 	private String genreTermsFile;
 	private String contentTermsFile;
+	private String templateFile;
+	private String tableFile;
 
 	private Loader() {
 		this.initialized = false;
@@ -51,6 +55,8 @@ public class Loader {
 				this.workingDirectory = prop.getProperty("working_directory");
 				this.genreTermsFile = prop.getProperty("genre_terms_file");
 				this.contentTermsFile = prop.getProperty("content_terms_file");
+				this.templateFile = prop.getProperty("template_file");
+				this.tableFile = prop.getProperty("similarity_table_file");
 
 				this.initialized = true;
 			} catch (IOException e) {
@@ -102,6 +108,52 @@ public class Loader {
 		}
 	}
 
+	public Map<String, String> loadTemplate() {
+		synchronized (classLock) {
+			Map<String, String> template = new HashMap<>();
+			
+			try {
+				BufferedReader br = new BufferedReader(new FileReader(new File(workingDirectory + templateFile)));
+
+				while (br.ready()) {
+					String fileLine = br.readLine();
+					String[] keyValue = fileLine.split(";");
+					template.put(keyValue[0], keyValue[1]);
+				}
+				
+				br.close();
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			return template;
+		}
+	}
+	
+	public Map<String, Double> loadSimilarityTable() {
+		synchronized (classLock) {
+			Map<String, Double> template = new HashMap<>();
+			
+			try {
+				BufferedReader br = new BufferedReader(new FileReader(new File(workingDirectory + tableFile)));
+
+				while (br.ready()) {
+					String fileLine = br.readLine();
+					String[] keyValue = fileLine.split(";");
+					template.put(keyValue[1], Double.parseDouble(keyValue[2]));
+				}
+				
+				br.close();
+				
+			} catch (IOException e) {
+				e.printStackTrace();
+			}
+			
+			return template;
+		}
+	}
+	
 	public String getWorkingDirectory() {
 		return workingDirectory;
 	}

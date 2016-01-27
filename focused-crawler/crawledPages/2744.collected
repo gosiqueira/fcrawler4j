@@ -1,0 +1,415 @@
+title=PROCON
+url=http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="pt-br">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>PROCON</title>
+	
+	<link rel="stylesheet" type="text/css" href="http://www.procon.rj.gov.br/procon/assets/css/style_site.css" />
+
+	<script type="text/javascript">	
+		var site_url = "http://www.procon.rj.gov.br/index.php/";
+		var base_url = "http://www.procon.rj.gov.br/";
+		var js_url	 = "http://www.procon.rj.gov.br/procon/assets/js/";
+		var img_url  = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var css_url  = "http://www.procon.rj.gov.br/procon/assets/css/";
+		var url_img = "http://www.procon.rj.gov.br/procon/assets/imagens/";
+		var url_css = "http://www.procon.rj.gov.br/procon/assets/css/";
+	</script>
+	
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.ui.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.browser.min.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/menu.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/jquery.cookie.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/libs/acessibilidade.js"></script>
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/plugins/mi.js"></script>
+
+	<script type="text/javascript" src="http://www.procon.rj.gov.br/procon/assets/js/scripts/site/banners.js"></script>
+
+      <script>
+         function confirmDelete(delUrl) {
+	     
+            msg = "Você está sendo redirecionado para fora do PROCON, deseja continuar?";
+            if (confirm(msg)) {
+               document.location = delUrl;
+            }
+        }
+		
+		           
+        </script>
+
+	
+</head>
+<body>
+<noscript></noscript>
+
+	<div class="governo">
+		<div class="conteudo">
+			<a target="_blank" href="http://www.rj.gov.br/web/guest">
+				<div class="logotipo">Governo do Estado do Rio de Janeiro</div>
+			</a>
+			<div class="secretaria">SECRETARIA DE ESTADO DE PROTEÇÃO DE DEFESA DO CONSUMIDOR</div>
+			<!--<div class="topo_menu">
+				<ul>
+					<li>
+						<a href="http://www.rj.gov.br/web/informacaopublica/">INFORMAÇÃO PÚBLICA</a>
+					</li>
+				</ul>
+			</div>-->
+			
+			<div class="acessibilidade">
+				<ul>
+					<li class="aumentar_fonte divisao"><a href="#" rel="nofollow">Aumentar fonte do texto</a></li>
+					<li class="diminuir_fonte divisao"><a href="#" rel="nofollow">Diminuir fonte do texto</a></li>
+					<li class="normalizar_fonte divisao"><a href="#" rel="nofollow">Voltar para tamanho original da fonte do texto</a></li>
+					<li class="altocontraste_fonte"><a href="#" rel="nofollow">Ativar Alto contraste</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+		<div class="geral">
+		
+		<div class="menu fundo_consumidor">
+			<a href="http://www.procon.rj.gov.br/index.php"><div class="logotipo">Procon RJ</div></a>
+			<div class="conteudo">
+            	<div class="titulo">MENU</div>
+				<ul>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao">INÍCIO</a></li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/1/1">NOTÍCIAS</a></li>
+					<li ><a href="#">INSTITUCIONAL</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/historico">histórico</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/objetivo">objetivo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/estrutura">estrutura</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/telefones">telefones</a></li>
+						</ul>
+					</li>
+					<li class="selecionado corfundo_setor_consumidor"><a href="javascript:;">CONSUMIDOR</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">dicas ao consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">educação para o consumo</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/4/1">recall</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">código de defesa do consumidor</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/6/1">cartilhas e folders</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">LEGISLAÇÃO</a>
+					    <ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/1/1">Leis Federais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/2/1">Leis Estaduais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/3/1">Leis Municipais</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/4/1">Portarias Procon</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/legislacao/listar/5/1">Outras</a></li>
+						</ul>
+					</li>
+					<li ><a href="#">IMPRENSA</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/fato_foto">fatos e fotos</a></li>
+							<!--<li><a href="http://www.procon.rj.gov.br/index.php/informativo">informativo</a></li>-->
+							<li><a href="http://www.procon.rj.gov.br/index.php/clipping">clipping</a></li>
+                            <li><a href="http://www.procon.rj.gov.br/index.php/main/contato">contato</a></li>
+							<li><a href="javascript:proconNaMidia();">v&iacute;deos</a></li>
+						</ul>
+					</li>
+					<li ><a href="http://www.procon.rj.gov.br/index.php/link_util">LINKS</a></li>
+					<li ><a href="#">ATENDIMENTO</a>
+						<ul class="submenu">
+							<li><a href="http://www.procon.rj.gov.br/index.php/posto_atendimento">postos de atendimento</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/agenda_procon_movel">agenda procon móvel</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/expressinho">procon expressinho</a></li>
+                           				<li><a href="http://www.procon.rj.gov.br/index.php/main/disque151">disque procon 151</a></li>
+							<li><a href="http://www.procon.rj.gov.br/index.php/main/ouvidoria">ouvidoria</a></li>
+						</ul>
+					</li>
+				</ul>
+			
+			</div>
+                     <div class="redesSociais">
+			     <a href="javascript:confirmDelete('http://www.facebook.com/ProconRJ')"><div class="redesSociaisFacebook">.</div></a>
+     			     <a href="javascript:confirmDelete('https://twitter.com/ProconRJ')"><div class="redessociais_twitter">.</div></a>
+                     </div>
+		</div>
+		
+		<div class="principal">
+		
+	<div class="suporte">
+				<div class="busca">	
+						
+					<div class="superior"></div>
+					<div class="conteudo">
+						<label for="txtBusca" style="display:none;"></label>
+						<input maxlength="100" name="txtBusca" id="txtBusca" type="text" value="Buscar..."/>
+						<div class="botao">
+							<a id="btnBuscar" href="javascript:;">
+								<img src="http://www.procon.rj.gov.br/procon/assets/imagens/icone_detalhar.png" alt="Buscar" title="Buscar" width="19" height="19" border="0"/>Buscar
+							</a>
+						</div>
+					</div>	
+							
+					<div class="inferior"></div>
+				</div>
+					
+				<div class="texto">Para DENÚNCIAS e ORIENTAÇÕES ligue para 151 e o horário de funcionamento é de segunda à sexta de 07:00 às 19:00.</div>
+			</div>
+			
+		
+			<div class="acabamento"></div>
+			<div class="palco">
+			
+				<div class="apoio">
+					<div class="instrucoes margin_bottom_20">
+						<div class="titulo">
+							<h1>EDUCAÇÃO<br />PARA O CONSUMO</h1>
+						</div>
+						<div class="instrucoes_conteudo">
+							<p class="margin_bottom_20">Saiba o que determina o Código de Defesa do Consumidor e aprenda a usar os seus direitos.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/3/1">ENTENDA MAIS</a></p>
+							<p class="margin_bottom_20">Veja como o PROCON orienta de maneira simples e clara o consumidor, antes de realizar as compras ou adquirir serviços.<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/1">VER DICAS</a></p>
+							<p>Conhe&ccedil;a o C&oacute;digo de Defesa do Consumidor (Portugu&ecirc;s, English, Espa&ntilde;ol).<br />
+							<a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/5/1">MAIS INFORMAÇÕES</a></p>
+						</div>
+						<div class="acabamento"></div>
+					</div>
+					<div class="banners">
+						
+					</div>
+				</div>
+				
+				<div class="conteudo hiddenInViewSource">
+						<input type="hidden" value="" id="linkAnterior"/>
+<input type="hidden" value="1" id="temPublicacoes"/>
+<input type="hidden" value="2" id="tipos"/>
+<div class="conteudo">
+	
+			<h1 class="cor_setor_consumidor">CONSUMIDOR
+			<span class="font_size_20">  / dicas ao consumidor</span>
+			
+			
+		</h1>
+		
+		
+		<div class="secundaria">
+				<div class="noticia margin_bottom_30">
+			<h1>Confira as dicas do Procon Estadual para as compras de Natal</h1>
+
+			<div class="data">17.12.2015 - 19:05</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="186.064516129" border="0" width="280" title="" alt="15900728_1450386091.85.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/15900728_1450386091.85.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Exigir a nota fiscal e testar equipamentos antes de lev&aacute;-los podem evitar dores de cabe&ccedil;a no futuro</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/2292">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Garantia legal e Garantia contratual</h1>
+
+			<div class="data">14.09.2012 - 12:44</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="166.4604811" border="0" width="280" title="" alt="garantia-estendida1_1349890655.99.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/garantia-estendida1_1349890655.99.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">A garantia legal independe de termo escrito, pois j&aacute; est&aacute; prevista em lei, sendo imperativa, obrigat&oacute;ria, total, incondicional e inegoci&aacute;vel. O in&iacute;cio da contagem do prazo para reivindica&ccedil;&atilde;o come&ccedil;a no mesmo dia da aquisi&ccedil;&atilde;o do produto ou do servi&ccedil;o pelo consumidor. J&aacute; a gara...</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/399">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Produto impr&oacute;prio para o consumo</h1>
+
+			<div class="data">14.09.2012 - 12:38</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="210" border="0" width="280" title="" alt="Produto-vencido-ha-quase-um-ano-foi-encontrado-por-policiais-no-estabelecimentoReproducaoTV-Globo_1347637082.66.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/Produto-vencido-ha-quase-um-ano-foi-encontrado-por-policiais-no-estabelecimentoReproducaoTV-Globo_1347637082.66.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Quando o consumidor compra produtos impr&oacute;prios para o consumo, os fornecedores t&ecirc;m prazo de 30 dias para resolver o problema. Se a falha n&atilde;o for de f&aacute;cil visualiza&ccedil;&atilde;o, o prazo para o consumidor reclamar come&ccedil;a quando ele detecta o problema. Vale ressaltar que, a repara&ccedil;&atilde;o dos d...</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/398">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Cuidados com a festa de casamento </h1>
+
+			<div class="data">14.09.2012 - 12:30</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="215.444444444" border="0" width="280" title="" alt="untitled_1347636609.93.png" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/untitled_1347636609.93.png" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Algumas dicas e cuidados importantes para os futuros noivos n&atilde;o terem dor de cabe&ccedil;a, uma vez que planejar uma festa de casamento n&atilde;o &eacute; tarefa simples e requer: tempo, trabalho e cautela na hora de contratar os servi&ccedil;os. O Buffet &eacute; um dos servi&ccedil;os importantes dessa comemora&ccedil;&atilde;o, ...</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/397">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Cuidado com o cr&eacute;dito f&aacute;cil</h1>
+
+			<div class="data">14.09.2012 - 12:19</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="199.733333333" border="0" width="280" title="" alt="credito-facil-pessoal_1347635951.81.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/credito-facil-pessoal_1347635951.81.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Antes era preciso conversar com o gerente, esperar dias pela an&aacute;lise de cr&eacute;dito e ainda correr o risco de ter o pedido negado. Com o cen&aacute;rio econ&ocirc;mico favor&aacute;vel, tomar um empr&eacute;stimo ficou t&atilde;o f&aacute;cil que nem &eacute; mais preciso ir ao banco. Quem nunca recebeu a oferta de um cart&atilde;o de...</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/396">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Mandamentos da seguran&ccedil;a banc&aacute;ria</h1>
+
+			<div class="data">14.09.2012 - 12:08</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="210" border="0" width="280" title="" alt="caixa-eletronico_1347635472.38.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/caixa-eletronico_1347635472.38.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Confira os mandamentos da seguran&ccedil;a banc&aacute;ria.</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/395">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Em casos de apag&atilde;o saiba a quem recorrer</h1>
+
+			<div class="data">13.09.2012 - 14:59</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="199.469026549" border="0" width="280" title="" alt="091112092329_apagao_226ap_1347633398.45.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/091112092329_apagao_226ap_1347633398.45.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Pela resolu&ccedil;&atilde;o da Aneel (Ag&ecirc;ncia Nacional de Energia El&eacute;trica) n&ordm; 360, de 14 de abril de 2009, os consumidores t&ecirc;m prazo de at&eacute; 90 dias corridos para encaminhar queixa &agrave; concession&aacute;ria, em caso de dano em aparelhos el&eacute;tricos - mas o CDC (C&oacute;digo de Defesa do Consumidor) diz qu...</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/381">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Troca de mercadoria</h1>
+
+			<div class="data">18.07.2012 - 13:02</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="179.2" border="0" width="280" title="" alt="NOT-conheca-seus-direitos-em-relacao-a-troca-de-presentes1324821825_400_256_1347634084.66.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/NOT-conheca-seus-direitos-em-relacao-a-troca-de-presentes1324821825_400_256_1347634084.66.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">A lei s&oacute; obriga aos lojistas a realizarem trocas de produtos defeituosos, n&atilde;o havendo dever legal de que seja trocado produto em virtude de arrependimento do comprador quanto &agrave; cor, tamanho ou modelo e qualquer outra hip&oacute;tese. </p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/28">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>O amadurecimento do Com&eacute;rcio Eletr&ocirc;nico</h1>
+
+			<div class="data">18.07.2012 - 12:55</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="199.5" border="0" width="280" title="" alt="comercio-eletronico_1347633020.62.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/comercio-eletronico_1347633020.62.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">O surgimento da internet propiciou o surgimento do &quot;Com&eacute;rcio Eletr&ocirc;nico&quot;, ou &quot;E-commerce&quot;, o qual vem trazendo diversas mudan&ccedil;as em todo o ramo comercial. No in&iacute;cio a comercializa&ccedil;&atilde;o on-line era realizada especificamente com livros, cds e produtos palp&aacute;veis, de caracter&iacute;sticas t...</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/27">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				<div class="noticia margin_bottom_30">
+			<h1>Da oferta - Liquida&ccedil;&otilde;es</h1>
+
+			<div class="data">17.07.2012 - 12:01</div>
+
+						<div class="imagem">
+				<div class="moldura"></div>				
+				<img id="foto" height="168" border="0" width="280" title="" alt="liquidacao_1342537257.6.jpg" src="http://www.procon.rj.gov.br/procon/assets/arquivos/imagens/liquidacao_1342537257.6.jpg" />				
+			</div>
+
+			
+			<div class="conteudo">	
+							<p class="margin_bottom_20">Caso o baixo pre&ccedil;o cobrado foi devido &agrave; exist&ecirc;ncia de pequenos defeitos, sua oferta dever&aacute; ser realizada de maneira clara e ostensiva, deixando bem claro ao consumidor acerca das condi&ccedil;&otilde;es daquele produto. Desta forma, o comprador estar&aacute; assumindo o risco daquela mercadoria. Mesm...</p>
+					<div class="acoes">
+						<div class="botao"><a href="http://www.procon.rj.gov.br/index.php/publicacao/detalhar/26">CONTINUAR LENDO</a></div>
+					</div>
+				</div>
+			</div>
+				</div>
+	
+	 		 <div class="paginacao">
+			 <ul><li class="nolink"><<</li><li class="nolink"><</li><li class="nolink selecionado">1</li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/2">2</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/3">3</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/4">4</a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/2">></a></li><li><a href="http://www.procon.rj.gov.br/index.php/publicacao/listar/2/4">>></a></li></ul>		</div>	
+ 		</div>
+
+	</div>
+
+		
+				
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="base">
+			<div class="proderj">Tecnologia PRODERJ - Todos os direitos reservados</div>
+			<div class="direitos">
+            	<div class="logotipo"><a href="#">Saiba Mais sobre Creative Commons</a></div>
+                <div class="texto">Esta obra é licenciada sob uma licença Creative Commons Atribuio 2.0 Brasil</div>
+			</div>
+			<div class="acabamento">
+			</div>
+		</div>
+		
+	</div>
+	
+
+	
+	
+
+ 
+
+
+</body>
+</html>
+
+
+
+
+

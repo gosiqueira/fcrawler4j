@@ -1,0 +1,57 @@
+title=Restaurante Lá em Casa
+url=http://www.laemcasa.com/
+html=<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Restaurante Lá em Casa</title>
+
+<link href="css/laemcasa.css" rel="stylesheet" type="text/css" />
+
+<script>
+	if(navigator.userAgent.match(/iPhone/i)){
+		window.location="http://laemcasa.com/m";
+	}
+</script>
+
+</head>
+
+
+<body>
+<div id="fundoSite">
+	<div id="Tudo">
+	<div id="Menu" style="margin:-5px 0px -20px 155px;">
+        <div id="menuNovidades"><a href="novidades.php">Novidades</a></div>
+    	<div id="menuHistoria"><a href="historia.php">História</a></div>
+        <div id="menuChef"><a href="chef.php">Chef</a></div>
+        <div id="menuCozinhaParaense"><a href="cozinhaparaense.php">Cozinha Paraense</a></div>
+        <div id="menuImprensa"><a href="imprensa.php">Imprensa</a></div>
+        <div id="menuReceitas"><a href="receitas.php">Receitas</a></div>
+        <div id="menuContato"><a href="contato.php">Contato</a></div>
+	</div>
+
+    <div style="float:left;width:752px;margin-left:65px;">
+   	  <div id="FotoDestaqueHome"><img src="images/fotoDestaqueHome01.png" width="281" height="242" /></div>
+   	  <div id="FotoDestaqueHome"><img src="images/fotoDestaqueHome02.png" width="281" height="242" /></div>
+   	  <div id="FotoDestaqueHome"><img src="images/fotoDestaqueHome04.png" width="281" height="242" /></div>
+   	  <div id="FotoDestaqueHome"><img src="images/fotoDestaqueHome03.png" width="281" height="242" /></div>
+    </div>
+
+    <div id="LogoLaemcasaHome"><img src="images/logoLaemcasa3.png" width="214" height="214" /></div>
+
+</div>
+</div>
+<div id="Rodape" style="margin-top:-20px;">
+	<div id="RodapeConteudo">
+		<div id="RodapeBoaLembranca"><img src="images/seloBoaLembranca.jpg" width="222" height="51" /></div>
+        <div id="RodapeTexto">
+        Av. Boulevard Castilho França, Estação das Docas, Galpão 2, Loja 4<br />
+        Campina - Belém - PA<br />
+         +55.91.3212-5588 (Restaurante)<br />
+         +55.91.3242-4222 (Administração)
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

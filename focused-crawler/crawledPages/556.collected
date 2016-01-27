@@ -1,0 +1,366 @@
+title=Pacotes turísticos, pacotes de turismo, ofertas | Programa Viaje CVC
+url=http://www.programaviaje.com.br/ofertas-nacionais.html
+html=<!DOCTYPE html>
+<html>
+	<head>
+		<script src="js/jquery.min.js" type="text/javascript"></script>
+        
+        <script type="text/javascript" src="fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+     <script type="text/javascript">
+jQuery(document).ready(function() {
+
+	$(".video").click(function() {
+		$.fancybox({
+			'padding'		: 0,
+			'autoScale'		: false,
+			'transitionIn'	: 'elastic',
+			'transitionOut'	: 'elastic',
+			'title'			: this.title,
+			'width'			: 300,
+			'height'		: 385,
+			'href'			: this.href.replace(new RegExp("watch\\?v=", "i"), 'v/'),
+			'type'			: 'swf',
+			'swf'			: {
+			'wmode'				: 'transparent',
+			'allowfullscreen'	: 'true'
+			}
+		});
+
+		return false;
+	});
+
+
+
+$("a#inline").fancybox({
+		'hideOnContentClick': true
+	});
+
+
+
+ $(".iframe").fancybox({
+         'width'		: 900,
+		'height'		: '80%',
+         'autoScale' : false,
+         'transitionIn' : 'none',
+         'transitionOut' : 'none',
+         'type' : 'iframe',
+		  'autoSize' : false,
+		 
+     });
+
+
+
+
+});
+</script>
+
+    
+    
+<link rel="stylesheet" href="fancybox/jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
+    
+        
+		<script src="js/jquery.orbit.min.js" type="text/javascript"></script>
+		<script src="js/jquery.bxSlider/jquery.bxSlider.min.js" type="text/javascript"></script>
+		<script src="js/scripts.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="css/estilo.css">
+		<link rel="stylesheet" href="js/orbit.css">
+<title>Pacotes turísticos, pacotes de turismo, ofertas | Programa Viaje CVC</title>
+
+<meta name="description" content="Pacotes de viagens promocionais, pacotes turísticos internacionais, pacote de turismo. Promoção e ofertas de pacotes de viagens CVC. Confira! "/>
+
+<meta name="keywords" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem"/>
+
+<meta name="DC.title" content="Pacotes turísticos, pacotes de turismo, ofertas | Programa Viaje CVC"/>
+
+<meta name="DC.description" content="Pacotes de viagens promocionais, pacotes turísticos internacionais, pacote de turismo. Promoção e ofertas de pacotes de viagens CVC. Confira!"/>
+
+<meta name="DC.subject" content="programas, fidelidade, pontos, hotéis, pacotes, turísticos, viagens, descontos, viagem, CVC"/>
+
+<meta Name="robots" content= "index,follow">
+
+<meta property="og:title" content="Pacotes turísticos, pacotes de turismo, ofertas | Programa Viaje CVC"/>
+
+<meta property="og:description" content="Pacotes de viagens promocionais, pacotes turísticos internacionais, pacote de turismo. Promoção e ofertas de pacotes de viagens CVC. Confira!"/>
+
+<meta property="og:url" content="http://www.programaviaje.com.br/ofertas.html"/>
+
+<meta property="og:site_name" content="CVC Viagens"/>
+
+<meta property="og:image" content="url imagen aqui"/>
+
+<meta property="og:type" content="website"/>
+
+<link rel="canonical" href="http://www.programaviaje.com.br/ofertas.html"/>
+	</head>
+	<body id="ofertas">
+		<div id="page">
+		 		  <div id="header">
+				<h1><a href="index.html">Programa Viaje</a></h1>
+				
+				<div class="area-usuario">
+					<p class="titulo-area-usuario">Participe agora!</p>
+					<p><a  class="botao-registrar" href="http://www.programaviaje.com.br/eloyalty_ptb">Registre-se gr&aacute;tis</a></p>
+					<p> ou </p>
+					<p><a class="botao-login"  href="http://www.programaviaje.com.br/eloyalty_ptb">Faça o login</a></p>
+	<!--<div class="frase-lojas"><strong style="color:#92288C">Atenção:</strong> <a href="programa.html#lojas-participantes">clique aqui</a> para conferir as lojas participantes do Programa Viaje!.</div>-->				
+				</div>
+                <div class="menu-header">
+                    <ul>
+                        <li class="duvidas"><a href="#">Tire suas Dúvidas</a>
+                            <ul class="submenu-fale-conosco">
+                                <li class="fale-conosco"><a href="fale-conosco.html">Fale Conosco</a></li>
+                                <li class="perguntas-frequentes"><a href="perguntas-frequentes.html">Perguntas Frequentes</a></li>
+                            </ul>
+                        </li>
+                        
+                        
+                         <li class="ofertas on"><a href="#">Ofertas</a>
+                            <ul class="submenu-ofertas">
+                                <li class="acumule-pontos"><a href="ofertas-nacionais.html">Ofertas Nacionais</a></li>
+                                <li class="resgate pontos"><a href="ofertas-internacionais.html">Ofertas Internacionais</a></li>
+                                
+                            </ul>
+                        </li>
+                        
+                        
+                        <li class="parceiros"><a href="cartao-cvc.html">Cartão CVC</a></li>
+                        <li class="programa"><a href="programa.html">Sobre o Programa</a>
+                            <ul class="submenu-programa">
+                                <li class="acumule-pontos"><a href="programa.html#acumule">Acumule Pontos</a></li>
+                                <li class="resgate pontos"><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+                                <li class="regulamento"><a href="regulamento.html">Regulamento</a></li>
+                            </ul>
+                        </li>
+                        <li class="home"><a href="index.html">Home</a></li>
+                    </ul>
+                </div>
+			</div>
+			<div id="conteudo">
+            <p style="margin-top: 30px">Acumule pontos com o Cartão CVC e ganhe descontos no seu pacote de viagem ou hotel! Veja alguns exemplos </p>
+				<h2>Ofertas nacionais</h2>
+                
+                
+                
+             <div class="destaque">
+        	
+            <div class="meio">
+            	<img src="img/porto_seguro.jpg">
+            	<div class="inclui">                    
+                  <h3>Esse pacote de 7 di&aacute;rias inclui:</h3>
+                    <img src="img/ico_aereo.gif">
+                    <img src="img/ico_hotel.gif">
+                    <img src="img/ico_traslado.gif">
+              <img src="img/ico_cafe.gif"></div>
+              <div class="preco">
+              <div class="amarelao">	<h2>Porto Seguro</h2></div>
+                    <div class="apartir">de <span>R$ 1.088,00 </span>por</div>
+                    <div class="qt-parcela"><span>R$</span> 544,00 <span>+</span> 15.542 <span>pontos</span></div>
+                <div class="valor-avista"></div>
+              </div>
+            </div>
+        </div>   
+        
+        
+        
+        <div class="destaque">
+        	
+            <div class="meio">
+            	<img src="img/florianopolis.jpg">
+           	  <div class="inclui">                    
+                <h3>Esse pacote de 4 di&aacute;rias inclui:</h3>
+                  <img src="img/ico_aereo.gif">
+                  <img src="img/ico_hotel.gif">
+                  <img src="img/ico_traslado.gif">
+              <img src="img/ico_cafe.gif"></div>
+              <div class="preco">
+              <div class="amarelao">	<h2>Florian&oacute;polis</h2></div>
+                    <div class="apartir">de <span>R$ 908,00 </span>por</div>
+                    <div class="qt-parcela"><span>R$</span> 454,00 <span>+</span> 12.971 <span>pontos</span></div>
+                <div class="valor-avista"></div>
+              </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <div class="destaque">
+        	
+            <div class="meio">
+            	<img src="img/foto-destaque.jpg">
+            	<div class="inclui">                    
+                  <h3>Esse pacote de 3 di&aacute;rias inclui:</h3>
+                    <img src="img/ico_aereo.gif">
+                    <img src="img/ico_hotel.gif">
+                    <img src="img/ico_traslado.gif">
+              <img src="img/ico_cafe.gif"></div>
+              <div class="preco">
+              <div class="amarelao">	<h2>Rio de Janeiro</h2></div>
+                    <div class="apartir">de <span>R$ 1.248,00 </span>por</div>
+                    <div class="qt-parcela"><span>R$</span> 624,00 <span>+</span> 17.828 <span>pontos</span></div>
+                <div class="valor-avista"></div>
+              </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <div class="destaque">
+        	
+            <div class="meio">
+            	<img src="img/natal.jpg">
+            	<div class="inclui">                    
+                  <h3>Essa oferta de 6 di&aacute;rias inclui: </h3>
+              <img src="img/ico_hotel.gif"> <img src="img/ico_cafe.gif"></div>
+              <div class="preco">
+              <div class="amarelao">	<h2>Hotel em Natal</h2></div>
+                    <div class="apartir">de <span>R$ 670,00 </span>por</div>
+                    <div class="qt-parcela"><span>R$</span> 335,00 <span>+</span> 9.571 <span>pontos</span></div>
+                <div class="valor-avista"></div>
+              </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="destaque">
+        
+            <div class="meio">
+            	<img src="img/fortaleza.jpg">
+            	<div class="inclui">                    
+                  <h3>Essa oferta de 6 di&aacute;rias inclui:</h3>
+              <img src="img/ico_hotel.gif"> <img src="img/ico_cafe.gif"></div>
+              <div class="preco">
+              <div class="amarelao">	<h2>Hotel em Fortaleza</h2></div>
+                    <div class="apartir">de <span>R$740,00 </span>por</div>
+                    <div class="qt-parcela"><span>R$</span> 370,00 <span>+</span> 10.571 <span>pontos</span></div>
+                <div class="valor-avista"></div>
+              </div>
+            </div>
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <div class="destaque">
+        	
+            <div class="meio">
+            	<img src="img/destaque_joao_pessoa.jpg">
+            	<div class="inclui">                    
+                  <h3>Esse pacote de 6 di&aacute;rias inclui:</h3>
+              <img src="img/ico_hotel.gif"> <img src="img/ico_cafe.gif"></div>
+              <div class="preco">
+              <div class="amarelao">	<h2>Hotel em Jo&atilde;o Pessoa</h2></div>
+                    <div class="apartir">de <span>R$610,00 </span>por</div>
+                    <div class="qt-parcela"><span>R$</span> 305,00 <span>+</span> 8.714 <span>pontos</span></div>
+                <div class="valor-avista"></div>
+              </div>
+            </div>
+        </div>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                
+				
+			  <ul class="menu-ofertas">
+			    <div style="clear:both"></div>
+
+<br>
+              </ul>
+			  <div style="clear:both"></div>
+                <div class="frase-lojas">Mínimo de 2.000 pontos a ser utilizado por produto. Preços por pessoa em apartamento duplo. Os pre&ccedil;os acima podem sofrer altera&ccedil;&otilde;es sem aviso pr&eacute;vio e representam apenas exemplos dos descontos que podem ser concedidos de acordo com a quantidade de pontos acumulados no Cart&atilde;o CVC. <br>
+                  <br>
+              </div></div></div>
+	<div id="footer-expansivel">
+		<div id="footer">
+		  <div id="texto-legal"><strong style="color:#92288C">Atenção:</strong> Somente acumularão pontos as compras realizadas com o seu Cartão CVC nas lojas CVC ou em qualquer estabelecimento</div>
+			<div class="institucional">
+				<ul>
+					<li class="titulo"><span>Sobre o Programa</span>
+						<ul class="lista-servicos">
+							<li><a href="programa.html#acumule">Acumule Pontos</a></li>
+							<li><a href="programa.html#resgate">Resgate seus Pontos</a></li>
+							<li><a href="regulamento.html">Regulamento</a></li>
+					    </ul>
+				    </li>
+			    </ul>
+				
+				
+				    </li>
+			    </ul>
+				<ul class="ultimo">
+					<li class="titulo"><span>Tire suas dúvidas</span>
+						<ul class="lista-servicos">
+							<li><a href="perguntas-frequentes.html">Perguntas frequentes</a></li>
+							<li><a href="fale-conosco.html">Fale conosco</a></li>
+                            
+                             <li><a class="iframe" href="lojas-participantes.html">Lojas participantes</a></li>
+					    </ul>
+				    </li>
+			    </ul>
+		    </div>
+			<!-- Aqui entra o carrossel 
+			<div class="carrossel">
+				<ul id="slider1">
+					<li class="black-coffee"><a href="parceiros.html">Black Coffee</a></li>
+					<li class="abril"><a href="parceiros.html">Abril Assinaturas</a></li>
+					<li class="frango-assado"><a href="parceiros.html">Frango Assadj</a></li>
+					<li class="hertz"><a href="parceiros.html">Hertz</a></li>
+					<li class="le-postiche"><a href="parceiros.html">Le postiche</a></li>
+					<li class="saraiva"><a href="parceiros.html">Saraiva</a></li>
+					<li class="boticario"><a href="parceiros.html">O Boticario</a></li>
+					<li class="viena"><a href="parceiros.html">Viena</a></li>
+					<li class="viva"><a href="parceiros.html">Viva</a></li>
+			    </ul>
+		    </div>
+            -->
+            <div style="clear:both"></div>
+			<div class="rodape">
+				<ul>
+					<li><a href="http://www.programaviaje.com.br/eloyalty_ptb"> Consultar Pontos</a> | </li>
+					<li><a href="regulamento.html"> Regulamento	</a></li>
+			    </ul>
+		    </div>
+	    </div>
+    </div>
+	<div id="copyright"><div class="container"><span>Powered by:</span><div class="logo-rodape"></div>
+	<span>&copy 2011-2014 Todos os direitos reservados. O Programa Viaje! é uma marca registrada pela CVC Brasil. <a class="cvc" href="http://www.cvc.com.br">www.cvc.com.br</a></span></div></div>
+<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-M8SJ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-M8SJ');</script>
+<!-- End Google Tag Manager -->
+
+	</body>
+</html>

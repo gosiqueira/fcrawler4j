@@ -1,0 +1,623 @@
+title=Marin d'Eau Douce : location de bateaux à moteur à Paris - Heycaptain.fr
+url=https://marindeaudouce.digital-nautic.com/
+html=<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta charset="utf-8" />
+		<meta lang="fr" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="/assets/651abb05/css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/651abb05/css/bootstrap-responsive.min.css" />
+<link rel="stylesheet" type="text/css" href="/assets/651abb05/css/yii.css" />
+<link rel="stylesheet" type="text/css" href="/assets/5ac15ba8/font_heycaptain.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/6ffeb767/main.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/6ffeb767/main-responsive.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/6ffeb767/default.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/6ffeb767/default-responsive.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick-theme.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/assets/6ffeb767/sites/marindeaudouce-responsive.css" media="screen" />
+<style type="text/css" media="screen">
+/*<![CDATA[*/
+/*a:not(.more):not(.back-link), a:not(.more):not(.back-link):hover, a:not(.more):not(.back-link):active {
+	color: #FF0B0B;
+	text-decoration: none !important;
+}*/
+/* Main */
+.MainTextColor {
+	color: #29678A !important;
+}
+.MainBackgroundColor {
+	background-color: #29678A !important;
+}
+.MainBorderColor {
+	border-color: #29678A !important;
+}
+
+/* Second */
+.SecondTextColor {
+	color: #29678A !important;
+}
+.SecondBackgroundColor {
+	background-color: #FFFFFF !important;
+}
+.SecondBorderColor {
+	border-color: #29678A !important;
+}
+
+/* Special */
+.SpecialTextColor {
+	color: #FF0B0B !important;
+}
+.SpecialBackgroundColor {
+	background-color:  !important;
+}
+.SpecialBorderColor {
+	border-color:  !important;
+}
+
+/* Header */
+.HeaderBackgroundColor {
+	background-color:  !important;
+}
+.wrapper-header {
+	padding:  !important;
+	box-sizing: border-box !important;
+}
+
+/* Footer */
+.FooterTextColor,
+.handle-by, .handle-by a, #footer-logos, #footer-logos a {
+	color: #306483 !important;
+}
+.wrapper-footer h3 {
+	border-color: #306483 !important;
+}
+.FooterBackgroundColor {
+	background-color: #CCDBE3 !important;
+}
+
+/* Flag Price */
+.FlagTextColor {
+	color:  !important;
+}
+.FlagBackgroundColor {
+	background-color:  !important;
+}
+.flag-price.MainBackgroundColor:before, .flag-price.MainBackgroundColor:after {
+	border-right-color: #29678A !important;
+}
+.flag-price.FlagBackgroundColor:before, .flag-price.FlagBackgroundColor:after {
+	border-right-color:  !important;
+}
+
+/* Overlay */
+
+.OverlayBackgroundColor {
+	background-color: rgba(111, 151, 177, 0.8) !important;
+}
+
+/* Boat Cartel */
+
+
+.BoatCartelTextColor {
+	color:  !important;
+}
+.BoatCartelBackgroundColor {
+	background-color:  !important;
+}
+.BoatCartelSeparatorColor {
+	border-color:  !important;
+}
+.BoatCartelYearColor {
+	color:  !important;
+}
+
+
+/* Buttons */
+.ButtonTextColor {
+	color:  !important;
+}
+.ButtonBackgroundColor {
+	background: #FF0B0B !important;
+	box-shadow: none !important;
+	text-shadow: none !important;
+}
+.ButtonBorderColor {
+	border-color:  !important;
+}
+
+/* Inputs */
+.InputTextColor, input[type="text"], textarea, select {
+	color: #306483 !important;
+}
+.InputBackgroundColor, input[type="text"], textarea, select {
+	background-color:  !important;
+}
+.InputBorderColor, input[type="text"], textarea, select {
+	border-color: #306483 !important;
+}
+
+
+/* Faceted Search */
+.FacetedSliderBackgroundColor, .slider-input .ui-widget-content .ui-slider-range {
+	background-color:  !important;
+}
+.FacetedTextColor {
+	color:  !important;
+}
+.FacetedBackgroundColor {
+	background-color:  !important;
+}
+.FacetedBorderColor {
+	border-color:  !important;
+}
+
+
+/* Tabs */
+.TabTextColor {
+	color:  !important;
+}
+.nav-tabs > li > a.TabBackgroundColor {
+	background-color: #EEEEEE !important;
+}
+.nav-tabs > li.active > a.SecondBackgroundColor {
+	background-color: #FFFFFF !important;
+}
+.nav-tabs > li.active > a.TabBackgroundColor {
+	background-color: #FFFFFF !important;
+}
+.nav-tabs > li > a.TabBorderColor {
+	border-color:  !important;
+}
+.nav-tabs > li.active > a.SecondBackgroundColor {
+	border-bottom-color: #FFFFFF !important;
+}
+.nav-tabs > li.active > a.TabBorderColor {
+	border-bottom-color: #FFFFFF !important;
+}
+.TabPaneTextColor {
+	color:  !important;
+}
+.TabPaneBackgroundColor {
+	background-color:  !important;
+}
+.TabPaneBorderColor {
+	border-color:  !important;
+}
+
+
+/* Calendars */
+.CalendarHeaderBackgroundColor, .calendar-control, .carousel-control, .slick-next, .slick-prev {
+	background-color:  !important;
+}
+.CalendarHeaderTextColor, .calendar-control, .carousel-control, .slick-next, .slick-prev {
+	color:  !important;
+}
+.calendar-control, .carousel-control, .slick-next, .slick-prev {
+	border-color:  !important;
+}
+.CalendarBackgroundColor {
+	background-color:  !important;
+}
+.CalendarTextColor {
+	color:  !important;
+}
+
+/* Tables */
+.TableHeaderBackgroundColor, .TableHeaderBackgroundColor thead {
+	background-color:  !important;
+}
+.TableHeaderTextColor, .TableHeaderTextColor thead {
+	color:  !important;
+}
+.TableBackgroundColor {
+	background-color:  !important;
+}
+.TableTextColor {
+	color:  !important;
+}
+
+/* Rental Selector */
+.RentalSelectorTextColor, .RentalSelectorTextColor + label {
+	color:  !important;
+}
+.RentalSelectorBackgroundColor {
+	background-color:  !important;
+}
+.RentalSelectorBorderColor {
+	border-color:  !important;
+}
+.RentalSelectorTimeAvailableBackgroundColor, input[type="radio"][name="PilEventService[time_start]"] + label {
+	background: #306483 !important;
+}
+.RentalSelectorTimeAvailableTextColor, input[type="radio"][name="PilEventService[time_start]"] + label {
+	color:  !important;
+}
+.RentalSelectorTimeUnavailableBackgroundColor {
+	background:  !important;
+}
+.RentalSelectorTimeUnavailableTextColor {
+	color:  !important;
+}
+.RentalSelectorTimeSelectedBackgroundColor,
+input[type="radio"][name="PilEventService[time_start]"]:checked + label,
+input[type="radio"][name="BspEventService[time_start]"]:checked + label {
+	background: #FF0B0B !important;
+}
+.RentalSelectorTimeSelectedTextColor, input[type="radio"][name="PilEventService[time_start]"]:checked + label {
+	color:  !important;
+}
+
+
+/* Purchase */
+.PurchasePanelTitleTextColor {
+	color:  !important;
+	background-color:  !important;
+}
+.PurchasePanelBackgroundColor {
+	background-color:  !important;
+}
+.PurchasePanelBorderColor {
+	border-color:  !important;
+}
+.PurchasePanelTextColor {
+	color:  !important;
+}
+.timeline-content .step.done {
+	color:  !important;
+}
+.timeline-content .step.active {
+	color:  !important;
+}
+.timeline-content .step.next {
+	color:  !important;
+}
+.timeline-content .step:before {
+	background:  !important;
+}
+.timeline-content .step.done:before {
+	background:  !important;
+}
+
+
+.HandledByTextColor {
+	color:  !important;
+}
+.back-link, .back-link:hover, .back-link:active,
+.BacklinkTextColor, .BacklinkTextColor:hover, .BacklinkTextColor:active {
+	color:  !important;
+}
+
+
+/* Datepicker */
+.datepicker {
+	background:  !important;
+	color:  !important;
+	border-color:  !important;
+}
+.datepicker:before {
+	border-top-color:  !important;
+	border-bottom-color:  !important;
+}
+.datepicker:after {
+	border-top-color:  !important;
+	border-bottom-color:  !important;
+}
+
+.datepicker table tr td.active:hover, .datepicker table tr td.active:hover:hover, .datepicker table tr td.active.disabled:hover, .datepicker table tr td.active.disabled:hover:hover, .datepicker table tr td.active:active, .datepicker table tr td.active:hover:active, .datepicker table tr td.active.disabled:active, .datepicker table tr td.active.disabled:hover:active, .datepicker table tr td.active.active, .datepicker table tr td.active:hover.active, .datepicker table tr td.active.disabled.active, .datepicker table tr td.active.disabled:hover.active, .datepicker table tr td.active.disabled, .datepicker table tr td.active:hover.disabled, .datepicker table tr td.active.disabled.disabled, .datepicker table tr td.active.disabled:hover.disabled, .datepicker table tr td.active[disabled], .datepicker table tr td.active:hover[disabled], .datepicker table tr td.active.disabled[disabled], .datepicker table tr td.active.disabled:hover[disabled], .datepicker table tr td.active, .datepicker table tr td.active:hover, .datepicker table tr td.active.disabled, .datepicker table tr td.active.disabled:hover, .datepicker table tr td span.active, .datepicker table tr td span.active:hover, .datepicker table tr td span.active.disabled, .datepicker table tr td span.active.disabled:hover {
+	color:  !important;
+	background:  !important;
+}
+.datepicker table tr td.today, .datepicker table tr td.today:hover, .datepicker table tr td.today.disabled, .datepicker table tr td.today.disabled:hover {
+	color:  !important;
+	background:  !important;
+}
+.datepicker table tr td.day:hover, .datepicker table tr td.day.focused, .datepicker thead tr:first-child th:hover, .datepicker tfoot tr th:hover {
+	color:  !important;
+	background:  !important;
+}
+.datepicker table tr td.disabled,
+.datepicker table tr td.disabled:hover,
+.datepicker table tr td.old,
+.datepicker table tr td.new,
+.datepicker table tr td span.disabled,
+.datepicker table tr td span.disabled:hover {
+	color:  !important;
+	opacity: 0.4;
+}
+.datepicker table tr td.disabled,
+.datepicker table tr td.disabled:hover {
+	background: transparent url('/images/design/pil/calendar_busy_bg.png') center !important;
+	cursor: no-drop;
+	opacity: 1;
+	border-radius: 0px;
+}
+.datepicker table tr td.old.disabled {
+	background: transparent !important;
+}
+
+.harbourcolor {
+	color:  !important;
+}
+
+/* Loader - Infinite scrolling */
+#loading > div {
+	background-color: #FF0B0B !important;
+}
+/*]]>*/
+</style>
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="/assets/651abb05/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+;(function($){var ieVer=navigator.userAgent.match(/MSIE (\d+\.\d+);/);ieVer=ieVer&&ieVer[1]?new Number(ieVer):null;var cont=ieVer&&ieVer<7.1?document.createElement("div"):null,excludePattern=null,includePattern=null,mergeIfXhr=0,resMap2Request=function(url){if (!url.match(/\?/))url += "?";return url + "&nlsc_map=" + $.nlsc.smap();};;if(!$.nlsc)$.nlsc={resMap:{}};$.nlsc.normUrl=function(url){if(!url)return null;if(cont){cont.innerHTML='<a href="'+url+'"></a>';url=cont.firstChild.href}if(excludePattern&& url.match(excludePattern))return null;if(includePattern&&!url.match(includePattern))return null;return url.replace(/\?*&*(_=\d+)?&*$/g,"")};$.nlsc.h=function(s){var h=0,i;for(i=0;i<s.length;i++)h=(h<<5)-h+s.charCodeAt(i)&1073741823;return""+h};$.nlsc.fetchMap=function(){for(var url,i=0,res=$(document).find("script[src]");i<res.length;i++)if(url=this.normUrl(res[i].src?res[i].src:res[i].href))this.resMap[url]={h:$.nlsc.h(url),d:1}};$.nlsc.smap=function(){var s="[";for(var url in this.resMap)s+='"'+this.resMap[url].h+ '",';return s.replace(/,$/,"")+"]"};var c={global:true,beforeSend:function(xhr,opt){if(!$.nlsc.fetched){$.nlsc.fetched=1;$.nlsc.fetchMap()}if(opt.dataType!="script"){if(mergeIfXhr)opt.url=resMap2Request(opt.url);return true}var url=$.nlsc.normUrl(opt.url);if(!url)return true;if(opt.converters&&opt.converters["text script"]){var saveConv=opt.converters["text script"];opt.converters["text script"]=function(){if(!$.nlsc.resMap[url].d){$.nlsc.resMap[url].d=1;saveConv.apply(window,arguments)}}}var r=$.nlsc.resMap[url]; if(r){if(r.d)return false}else $.nlsc.resMap[url]={h:$.nlsc.h(url),d:0};return true}};if(ieVer)c.dataFilter=function(data,type){if(type&&(type!="html"&&type!="text"))return data;return data.replace(/(<script[^>]+)defer(=[^\s>]*)?/ig,"$1")};$.ajaxSetup(c)})(jQuery);
+/*]]>*/
+</script>
+<title>Marin d&#039;Eau Douce : location de bateaux &agrave; moteur &agrave; Paris - Heycaptain.fr</title><meta name="keywords" content="" /><meta name="description" content="Louez votre bateau chez Marin d&#039;Eau Douce et d&eacute;couvrez une superbe zone de navigation : les canaux de Paris !" />		<link rel="shortcut icon" href="/images/favicon_digital_nautic.ico"	type="image/x-icon" />
+
+			</head>
+
+	<body>
+		
+<div class="wrapper-page">
+	<div class="container" id="page">
+		<div class="row-fluid">
+			<div class="span4 logo-container">
+				<a target="_blank" href="http://www.marindeaudouce.fr/"><img style=";" src="https://heycaptain-eu-prod.s3.amazonaws.com/renter/logo/29-MARINDEAUDOUCE.jpg" alt="MARIN D&#039;EAU DOUCE" /></a>			</div>
+			<div class="span8">
+				<div class="row-fluid" style="font-family: 'Arial'; min-height: 31px; background: #29678b; color: white; padding-left: 5px; box-sizing: border-box;">
+					<div class="span6" style="line-height: 30px; ">
+						Plus d'informations: <a href="tel:+33 1 42 09 54 10">+33 1 42 09 54 10</a>
+					</div>
+					<div class="span6 social-icons">
+						<a target="_blank" class="rounded-social" href="https://www.facebook.com/marindeaudouce.fr">
+							<i class="picto facebook"></i>
+						</a>
+						<a target="_blank" class="rounded-social" href="https://twitter.com/Marindeaudouce2">
+							<i class="picto twitter"></i>
+						</a>
+						<a target="_blank" class="rounded-social" href="http://instagram.com/marindeaudouceparis">
+							<i class="picto instagram"></i>
+						</a>
+						<a target="_blank" class="rounded-social" href="http://www.marindeaudouce.fr/contact/">
+							<i class="picto email"></i>
+						</a>
+						<a target="_blank" class="rounded-social" href="https://plus.google.com/104905075198027316057/about?showBlocked=true">
+							<i class="picto googleplus"></i>
+						</a>
+					</div>
+				</div>
+				<div class="row-fluid" style="display: none;">
+					<div class="span12">
+						<ul id="top-menu">
+							<li><a href="http://www.marindeaudouce.fr/louer-un-bateau/">Louer un bateau</a></li>
+							<li><a href="http://www.marindeaudouce.fr/les-itineraires/">Les itinéraires</a></li>
+							<li><a href="http://www.marindeaudouce.fr/tarifs/">Tarifs</a></li>
+							<li><a href="http://www.marindeaudouce.fr/concept/">Qui sommes-nous ?</a></li>
+							<li><a href="http://www.marindeaudouce.fr/evenements-entreprise/">Offre Pro</a></li>
+							<li><a href="http://www.marindeaudouce.fr/contact/">Nous contacter</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
+<div class="row-fluid has-gutter SecondBackgroundColor">
+	<div class="span4">
+
+		<div class="row-fluid bsp-menu-left-wrapper">
+			<div class="bsp-menu-left">
+				<div class="opening-informations MainTextColor">
+					Nous sommes ouverts<br>Pensez à réserver				</div>
+			</div>
+		</div>
+
+	</div>
+	<div class="span8 gutter">
+		<div class="boat-suggestions MainTextColor">
+			<p>A l&#39;abordage Capitaine ! R&eacute;servez d&egrave;s maintenant votre&nbsp;bateau &eacute;lectrique et sans permis &agrave; l&rsquo;heure ou &agrave; la journ&eacute;e.&nbsp;:&nbsp;</p>
+
+<ul>
+	<li>Des bateaux&nbsp;<strong>faciles &agrave; piloter et sans permis</strong>.&nbsp;</li>
+	<li>Une flotte de 22 bateaux &eacute;lectriques</li>
+	<li>De 1 &agrave; 11 personnes</li>
+	<li>D&eacute;couvrir les&nbsp;<strong>20 kms</strong>&nbsp;du canal de l&#39;Ourcq au d&eacute;part du Bassin de la Villette</li>
+	<li>Des balades insolites et incroyable au&nbsp;c&oelig;ur&nbsp;de<strong>&nbsp;Paris</strong>&nbsp;!</li>
+</ul>
+
+<p>Pour un pic-nique, une balade, un moment de farniente ... D&eacute;couvrez Paris selon vos envies.&nbsp;</p>
+		</div>
+		<h1 class="SpecialTextColor">Nos bateaux</h1><div id="bsp-service-list" class="list-view">
+<div class="summary">Total de 3 résultats.</div>
+
+<div class="items">
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+;(function($){var ieVer=navigator.userAgent.match(/MSIE (\d+\.\d+);/);ieVer=ieVer&&ieVer[1]?new Number(ieVer):null;var cont=ieVer&&ieVer<7.1?document.createElement("div"):null,excludePattern=null,includePattern=null,mergeIfXhr=0,resMap2Request=function(url){if (!url.match(/\?/))url += "?";return url + "&nlsc_map=" + $.nlsc.smap();};;if(!$.nlsc)$.nlsc={resMap:{}};$.nlsc.normUrl=function(url){if(!url)return null;if(cont){cont.innerHTML='<a href="'+url+'"></a>';url=cont.firstChild.href}if(excludePattern&& url.match(excludePattern))return null;if(includePattern&&!url.match(includePattern))return null;return url.replace(/\?*&*(_=\d+)?&*$/g,"")};$.nlsc.h=function(s){var h=0,i;for(i=0;i<s.length;i++)h=(h<<5)-h+s.charCodeAt(i)&1073741823;return""+h};$.nlsc.fetchMap=function(){for(var url,i=0,res=$(document).find("script[src]");i<res.length;i++)if(url=this.normUrl(res[i].src?res[i].src:res[i].href))this.resMap[url]={h:$.nlsc.h(url),d:1}};$.nlsc.smap=function(){var s="[";for(var url in this.resMap)s+='"'+this.resMap[url].h+ '",';return s.replace(/,$/,"")+"]"};var c={global:true,beforeSend:function(xhr,opt){if(!$.nlsc.fetched){$.nlsc.fetched=1;$.nlsc.fetchMap()}if(opt.dataType!="script"){if(mergeIfXhr)opt.url=resMap2Request(opt.url);return true}var url=$.nlsc.normUrl(opt.url);if(!url)return true;if(opt.converters&&opt.converters["text script"]){var saveConv=opt.converters["text script"];opt.converters["text script"]=function(){if(!$.nlsc.resMap[url].d){$.nlsc.resMap[url].d=1;saveConv.apply(window,arguments)}}}var r=$.nlsc.resMap[url]; if(r){if(r.d)return false}else $.nlsc.resMap[url]={h:$.nlsc.h(url),d:0};return true}};if(ieVer)c.dataFilter=function(data,type){if(type&&(type!="html"&&type!="text"))return data;return data.replace(/(<script[^>]+)defer(=[^\s>]*)?/ig,"$1")};$.ajaxSetup(c)})(jQuery);
+/*]]>*/
+</script>
+
+<div class="boat-container">
+	<div class="position-img-centered"><a target="" href="https://marindeaudouce.digital-nautic.com/location-bateau/ace/310"><img src="https://heycaptain-eu-prod.s3.amazonaws.com/service/pil/310-0-Electricboat-RubanBleu-ACE-ACEN50.png" /></a></div>	<div class="bsp-overlay OverlayBackgroundColor">
+		<h2>L'ACE</h2>
+		<h3 data-max="5"><span class="drop-cap">5</span><span class="next-drop-cap">personnes<br>maximum</span></h3>
+		<div class="price">
+			à partir de
+			<br>40 €			<br><a onclick="" class="ButtonBackgroundColor ButtonTextColor btn btn-link btn-large" href="https://marindeaudouce.digital-nautic.com/location-bateau/ace/310">Voir</a>		</div>
+	</div>
+</div><script type="text/javascript" src="/assets/88e4c5b1/listview/jquery.yiilistview.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery('#bsp-service-list').yiiListView({'ajaxUpdate':['bsp-service-list'],'ajaxVar':'ajax','pagerClass':'pagination','loadingClass':'list-view-loading','sorterClass':'sorter','enableHistory':false});
+/*]]>*/
+</script>
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+;(function($){var ieVer=navigator.userAgent.match(/MSIE (\d+\.\d+);/);ieVer=ieVer&&ieVer[1]?new Number(ieVer):null;var cont=ieVer&&ieVer<7.1?document.createElement("div"):null,excludePattern=null,includePattern=null,mergeIfXhr=0,resMap2Request=function(url){if (!url.match(/\?/))url += "?";return url + "&nlsc_map=" + $.nlsc.smap();};;if(!$.nlsc)$.nlsc={resMap:{}};$.nlsc.normUrl=function(url){if(!url)return null;if(cont){cont.innerHTML='<a href="'+url+'"></a>';url=cont.firstChild.href}if(excludePattern&& url.match(excludePattern))return null;if(includePattern&&!url.match(includePattern))return null;return url.replace(/\?*&*(_=\d+)?&*$/g,"")};$.nlsc.h=function(s){var h=0,i;for(i=0;i<s.length;i++)h=(h<<5)-h+s.charCodeAt(i)&1073741823;return""+h};$.nlsc.fetchMap=function(){for(var url,i=0,res=$(document).find("script[src]");i<res.length;i++)if(url=this.normUrl(res[i].src?res[i].src:res[i].href))this.resMap[url]={h:$.nlsc.h(url),d:1}};$.nlsc.smap=function(){var s="[";for(var url in this.resMap)s+='"'+this.resMap[url].h+ '",';return s.replace(/,$/,"")+"]"};var c={global:true,beforeSend:function(xhr,opt){if(!$.nlsc.fetched){$.nlsc.fetched=1;$.nlsc.fetchMap()}if(opt.dataType!="script"){if(mergeIfXhr)opt.url=resMap2Request(opt.url);return true}var url=$.nlsc.normUrl(opt.url);if(!url)return true;if(opt.converters&&opt.converters["text script"]){var saveConv=opt.converters["text script"];opt.converters["text script"]=function(){if(!$.nlsc.resMap[url].d){$.nlsc.resMap[url].d=1;saveConv.apply(window,arguments)}}}var r=$.nlsc.resMap[url]; if(r){if(r.d)return false}else $.nlsc.resMap[url]={h:$.nlsc.h(url),d:0};return true}};if(ieVer)c.dataFilter=function(data,type){if(type&&(type!="html"&&type!="text"))return data;return data.replace(/(<script[^>]+)defer(=[^\s>]*)?/ig,"$1")};$.ajaxSetup(c)})(jQuery);
+/*]]>*/
+</script>
+
+<div class="boat-container">
+	<div class="position-img-centered"><a target="" href="https://marindeaudouce.digital-nautic.com/location-bateau/scoop/326"><img src="https://heycaptain-eu-prod.s3.amazonaws.com/service/pil/326-0-Electricboat-RubanBleu-SCOOP-SCOOPN20.png" /></a></div>	<div class="bsp-overlay OverlayBackgroundColor">
+		<h2>Le SCOOP</h2>
+		<h3 data-max="7"><span class="drop-cap">7</span><span class="next-drop-cap">personnes<br>maximum</span></h3>
+		<div class="price">
+			à partir de
+			<br>50 €			<br><a onclick="" class="ButtonBackgroundColor ButtonTextColor btn btn-link btn-large" href="https://marindeaudouce.digital-nautic.com/location-bateau/scoop/326">Voir</a>		</div>
+	</div>
+</div><script type="text/javascript" src="/assets/88e4c5b1/listview/jquery.yiilistview.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery('#bsp-service-list').yiiListView({'ajaxUpdate':['bsp-service-list'],'ajaxVar':'ajax','pagerClass':'pagination','loadingClass':'list-view-loading','sorterClass':'sorter','enableHistory':false});
+/*]]>*/
+</script>
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.min.js"></script>
+<script type="text/javascript" src="/assets/fabb8d6a/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+;(function($){var ieVer=navigator.userAgent.match(/MSIE (\d+\.\d+);/);ieVer=ieVer&&ieVer[1]?new Number(ieVer):null;var cont=ieVer&&ieVer<7.1?document.createElement("div"):null,excludePattern=null,includePattern=null,mergeIfXhr=0,resMap2Request=function(url){if (!url.match(/\?/))url += "?";return url + "&nlsc_map=" + $.nlsc.smap();};;if(!$.nlsc)$.nlsc={resMap:{}};$.nlsc.normUrl=function(url){if(!url)return null;if(cont){cont.innerHTML='<a href="'+url+'"></a>';url=cont.firstChild.href}if(excludePattern&& url.match(excludePattern))return null;if(includePattern&&!url.match(includePattern))return null;return url.replace(/\?*&*(_=\d+)?&*$/g,"")};$.nlsc.h=function(s){var h=0,i;for(i=0;i<s.length;i++)h=(h<<5)-h+s.charCodeAt(i)&1073741823;return""+h};$.nlsc.fetchMap=function(){for(var url,i=0,res=$(document).find("script[src]");i<res.length;i++)if(url=this.normUrl(res[i].src?res[i].src:res[i].href))this.resMap[url]={h:$.nlsc.h(url),d:1}};$.nlsc.smap=function(){var s="[";for(var url in this.resMap)s+='"'+this.resMap[url].h+ '",';return s.replace(/,$/,"")+"]"};var c={global:true,beforeSend:function(xhr,opt){if(!$.nlsc.fetched){$.nlsc.fetched=1;$.nlsc.fetchMap()}if(opt.dataType!="script"){if(mergeIfXhr)opt.url=resMap2Request(opt.url);return true}var url=$.nlsc.normUrl(opt.url);if(!url)return true;if(opt.converters&&opt.converters["text script"]){var saveConv=opt.converters["text script"];opt.converters["text script"]=function(){if(!$.nlsc.resMap[url].d){$.nlsc.resMap[url].d=1;saveConv.apply(window,arguments)}}}var r=$.nlsc.resMap[url]; if(r){if(r.d)return false}else $.nlsc.resMap[url]={h:$.nlsc.h(url),d:0};return true}};if(ieVer)c.dataFilter=function(data,type){if(type&&(type!="html"&&type!="text"))return data;return data.replace(/(<script[^>]+)defer(=[^\s>]*)?/ig,"$1")};$.ajaxSetup(c)})(jQuery);
+/*]]>*/
+</script>
+
+<div class="boat-container">
+	<div class="position-img-centered"><a target="" href="https://marindeaudouce.digital-nautic.com/location-bateau/most/333"><img src="https://heycaptain-eu-prod.s3.amazonaws.com/service/pil/333-0-Electricboat-RubanBleu-MOST-MOSTN1.png" /></a></div>	<div class="bsp-overlay OverlayBackgroundColor">
+		<h2>Le MOST</h2>
+		<h3 data-max="11"><span class="drop-cap">11</span><span class="next-drop-cap">personnes<br>maximum</span></h3>
+		<div class="price">
+			à partir de
+			<br>70 €			<br><a onclick="" class="ButtonBackgroundColor ButtonTextColor btn btn-link btn-large" href="https://marindeaudouce.digital-nautic.com/location-bateau/most/333">Voir</a>		</div>
+	</div>
+</div><script type="text/javascript" src="/assets/88e4c5b1/listview/jquery.yiilistview.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery('#bsp-service-list').yiiListView({'ajaxUpdate':['bsp-service-list'],'ajaxVar':'ajax','pagerClass':'pagination','loadingClass':'list-view-loading','sorterClass':'sorter','enableHistory':false});
+/*]]>*/
+</script>
+</div>
+<div class="keys" style="display:none" title="/"><span>310</span><span>326</span><span>333</span></div>
+</div>	</div>
+	<!--<div class="span1">
+
+	</div>-->
+</div>
+<script>
+	function resizeBoat() {
+		if ($('.boat-container').css('clear') == 'both') $('.boat-container').css('height', parseInt($(window).width(), 10) * 0.5625);
+		else $('.boat-container').removeAttr('style');
+	}
+	$(window).on('resize', resizeBoat);
+	setTimeout(resizeBoat, 10);
+</script>	</div>
+</div>
+
+
+<div class="wrapper-footer FooterBackgroundColor FooterTextColor">
+	<div class="container">
+					<div class="footer-bsp row">
+				<div class="handle-by span12">
+					<h3>Système de réservation géré par 						<a href="http://digital-nautic.fr" target="_blank"><img src="/images/design/bsp/logo-digitalnautic2.png" alt="digital-nautic"></a></h3>
+				</div>
+			</div>
+					<div class="footer-bsp hidden-phone row">
+			<div class="footer-left span4">
+				<h3>Contact</h3>
+				<a class="contact contact-email FooterTextColor" href="mailto:contact@marindeaudouce.fr"><i class="picto"></i> e-mail</a>
+				<a class="contact contact-phone FooterTextColor" href="tel:+33 1 42 09 54 10"><i class="picto"></i> +33 1 42 09 54 10</a>
+			</div>
+			<div class="footer-center span4">
+				<h3>En savoir plus</h3>
+				<ul>
+					<li><a class="FooterTextColor" target="_blank" href="http://www.marindeaudouce.fr/faq/">FAQ</a></li>
+					<li><a class="FooterTextColor" target="_blank" href="http://www.marindeaudouce.fr/mentions-legales/">Mentions légales</a></li>
+					<li><span>Notre partenaire :</span> <a class="FooterTextColor" target="_blank" href="http://www.marindeaudouce.fr/saint-james/">SAINT-JAMES</a></li>
+					<li><a class="FooterTextColor" target="_blank" href="http://www.marindeaudouce.fr/regles-securite/">Règles de sécurité</a></li>
+					<li><a class="FooterTextColor" target="_blank" href="http://www.marindeaudouce.fr/security-rules/">Sécurity Rules</a></li>
+					<li><a class="FooterTextColor" target="_blank" href="http://www.marindeaudouce.fr/reglas-seguridad/">Reglas de seguridad</a></li>
+				</ul>
+			</div>
+			<div class="footer-right span4">
+				<h3>La garantie sécurité</h3>
+				<ul>
+					<li class="secure-payment">
+						<span>Paiement sécurisé</span>
+						<br>
+						<i class="picto lock"></i>
+						<i class="picto cards"></i>
+						<!--<br><img src="/images/design/bsp/img_payment.png" alt="Secure Payment">-->
+					</li>
+					<li><small>Une question sur le paiement sécurisé ?<br>De 9h / 20h au	<em>09 72 50 98 25</em></small></li>
+				</ul>
+				<h3>Powered by</h3>
+				<ul>
+					<li><img src="/images/design/bsp/marindeaudouce/logo_mangopay.png" alt="mangopay" /></li>
+					<li><img src="/images/design/bsp/marindeaudouce/logo_creditmutuel.png" alt="credit-mutuel" /></li>
+					<li><img class="payline" src="/images/design/bsp/marindeaudouce/logo_payline.png" alt="payline" /></li>
+											<li><a target="_blank" class="hcLink FooterTextColor" href="https://www.heycaptain.fr"><i class="picto lock"></i></a></li>
+										</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+		<div style="display: none;">
+			<script>
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+					(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+					m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+				ga('create', 'UA-50812760-1', 'digital-nautic.com');
+				ga('send', 'pageview');
+				ga('require', 'displayfeatures');
+
+				/* <![CDATA[ */
+				var google_conversion_id = 979198359;
+				var google_custom_params = window.google_tag_params;
+				var google_remarketing_only = true;
+				/* ]]> */
+			</script>
+			<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js"></script>
+			<noscript><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/979198359/?value=0&amp;guid=ON&amp;script=0"/></noscript>
+
+			<script>
+				(function() {
+					var _fbq = window._fbq || (window._fbq = []);
+					if (!_fbq.loaded) {
+						var fbds = document.createElement('script');
+						fbds.async = true;
+						fbds.src = '//connect.facebook.net/en_US/fbds.js';
+						var s = document.getElementsByTagName('script')[0];
+						s.parentNode.insertBefore(fbds, s);
+						_fbq.loaded = true;
+					}
+					_fbq.push(['addPixelId', '631396736965396']);
+				})();
+				window._fbq = window._fbq || [];
+				window._fbq.push(['track', 'PixelInitialized', {}]);
+			</script>
+
+			<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=631396736965396&amp;ev=PixelInitialized" /></noscript>
+		</div>
+	<script type="text/javascript" src="/assets/88e4c5b1/listview/jquery.yiilistview.js"></script>
+<script type="text/javascript" src="/js/modernizr.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery.slick/1.4.1/slick.min.js"></script>
+<script type="text/javascript">
+/*<![CDATA[*/
+jQuery(function($) {
+jQuery('#bsp-service-list').yiiListView({'ajaxUpdate':['bsp-service-list'],'ajaxVar':'ajax','pagerClass':'pagination','loadingClass':'list-view-loading','sorterClass':'sorter','enableHistory':false});
+jQuery('body').tooltip({'selector':'a[rel=tooltip]'});
+jQuery('body').popover({'selector':'a[rel=popover]'});
+});
+/*]]>*/
+</script>
+</body>
+</html>

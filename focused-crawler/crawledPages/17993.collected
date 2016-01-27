@@ -1,0 +1,773 @@
+title=CONAR-Conselho Nacional de Autorregulamentação Publicitária
+url=http://www.conar.org.br/
+html=﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+<title>CONAR-Conselho Nacional de Autorregulamentação Publicitária</title>
+<style type="text/css">
+html {
+	font: 12px Arial, Helvetica, sans-serifarial;
+	overflow-y: scroll;
+	background: #eeeeee;
+}
+div {
+	border: 0px solid black
+}
+
+form { 
+	padding:0;
+	margin:0;
+}
+
+#bottomheader {
+	height:40px;
+	background:#606060;
+}
+
+#wrap {
+	position: absolute;
+	width: 950px;
+	left: 50%;
+	top: 0;
+	margin-left: -475px;
+	overflow: hidden;
+	word-wrap: break-word;	
+	background: #ffffff;
+}
+
+#header {
+	position: relative;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 130px;
+	background-color: #ffffff;
+	color:#000000;
+}
+
+
+#topheader {
+	margin:0px;
+	height: 90px;
+}
+
+#bottomheader {
+	margin-top: 5px;
+	height: 12px;
+}
+
+#menusup {
+	height: 40px;
+	background:#606060;
+	float:left;
+	width:100%;
+	border-bottom:1px solid #606060;
+}
+
+#menusup .menu {
+	height:34px;
+	float: left;
+	color:#FFFFFF;
+	margin-top: 6px;
+	text-align:center;
+	padding-top:9px;
+}
+
+#logo {
+	display: inline;
+	float: left;
+	width: 124px;
+	height: 85px;
+}
+
+#reclame {
+	float: left;
+	width: 309px;
+	height: 50px;
+	margin: 20px 0px 0px 160px;
+}
+
+#busca {
+	display: inline;
+	float: right;
+	width: 300px;
+	padding:20px 5px 0 0;
+	color: #000000;
+	text-align:right;
+}
+
+#busca .campo {
+	width:190px;
+	background-color: #ffffff;
+	border: 1px solid #cdcccc;
+	color:#000000;
+	width:195px;
+}
+
+.botaoheader {
+	background-color:#eff1f2;
+	color:#000000;
+	border:1px solid #cdcccc;
+	font-size: 90%;
+	width: 80px;
+	height:21px;
+}
+
+
+#menusup .botaoheader {
+	width:90px;
+	height:31px;
+	margin-top:5px;
+	padding-top:0px;
+}
+
+#mainbanner {
+	height: 95px;
+	background-color: #f6d2a0;
+}
+
+#col1,#col2 {
+	width: 320px;
+	float: left;
+	padding: 10px 20px 5px 5px;
+}
+
+#col3 {
+	width: 250px;
+	float: left;
+	padding: 10px 0px 5px 5px;
+}
+
+#footer1 {
+	height: 65px;
+	background-color: #606060;
+	border-top: 1px solid #000000;
+	color: #cacaca;
+	padding: 10px 0 0 20px;
+}
+
+#footer2 {
+	height:45px;
+	padding-top: 30px;
+	background-color:#afb3b4;
+	text-align:center;
+	color:#ffffff;
+	font-size:90%;
+}
+
+.destaque {
+	background-color:#eff1f2;
+	margin-bottom: 10px;
+	padding:10px;
+}
+
+.titulo {
+	font-size:150%;
+	color:#ff6600;
+	margin:0 0 5px 0;
+	padding:0px;
+	text-align:left;
+	height:20px;
+}
+
+.box .titulo {
+	border-bottom:1px solid #666;
+}
+
+.box {
+	height:290px;
+}
+
+.destaque .titulo {
+	border-bottom:1px solid #666;
+}
+
+#footer .titulo {
+	color:#cecdcd;
+}
+
+.cxData {
+	width:50px; 
+	height:40px; 
+	color:#ff6600; 
+	padding-top:3px; 
+	background-color:#ffffff;
+	float:left;
+	text-align:center; 
+	margin-right:10px;
+}
+
+#boxagenda .cxData {
+	background-color:#ffffff;
+}
+
+a {
+	text-decoration:none;
+	color:#656666;
+}
+
+a:hover {
+	color:#000000;
+}
+
+#content {
+	color:#656666;
+}
+
+#content .titulo {
+ 	border-bottom:1px solid #999;
+	padding-bottom: 7px;
+}
+
+#detheader {
+	height: 30px;
+	font-size:190%;
+	font-weight:normal;
+	padding:7px 0 0 20px;
+	color:#fff;
+}
+
+#detpath {
+	font-size:80%;
+	height: 25px;
+	padding: 15px 0 0 20px;
+}
+
+#col1det3, #col1det2 {
+	width: 205px;
+	float: left;
+	margin-left: 20px;
+	padding: 0;
+	background-color:#eff1f2;
+	margin-bottom:20px;
+}
+
+#col2det2i {
+	width: 205px;
+	float: left;
+	margin-left: 20px;
+	padding: 10px 10px;
+	background-color:#eff1f2;
+}
+
+#col2det2i .titulo {
+	font-size:100%;
+	font-weight:bold;
+	color:#bf202e;
+	margin-bottom:5px;
+	text-align:left;
+	border-bottom:1px solid #999;
+}
+
+#col2det3, #col3det3 {
+	width: 338px;
+	float: left;
+	margin-left: 20px;
+	padding: 0 10px;
+	text-align:left;
+}
+
+#col1det2i {
+	width: 660px;
+	float: left;
+	margin-left: 20px;
+	padding: 0 10px;
+	text-align:left;
+}
+
+#col2det2 {
+	width: 685px;
+	float: left;
+	margin-left: 20px;
+	padding: 0 10px;
+	text-align:left;
+}
+
+#estatuto h3 {
+	border-bottom:1px solid #b5aba2;
+	padding:5px 0;
+}
+.menu_list {	
+	width: 100%;
+}
+.menu_head {
+	padding:0 0 0 10px;
+	cursor: pointer;
+	position: relative;
+	margin:0;
+    font-weight:bold;
+	line-height:35px;
+	height:35px;
+	border-bottom:1px solid #cdcccc;
+	border-left:none;
+}
+.menu_subhead {
+	padding:0 0 0 10px;
+	cursor: pointer;
+	position: relative;
+	margin:0;
+    font-weight:bold;
+	line-height:35px;
+	height:35px;
+	border-bottom:1px solid #cdcccc;
+	border-left:none;
+}
+.menu_body {
+    border:none;
+	background:#eff1f2;
+	display:none;
+}
+.menu_body a{
+	display:block;
+	color:#ffffff;
+	font-weight:bold;
+	background-color:#eff1f2;
+	text-decoration:none;
+	padding:0px;
+	line-height:30px;
+	border-bottom:1px solid #EFF1F2;
+	margin:0 15px;
+}
+.menu_body a:visited,
+.menu_body a:link,
+.menu_body a:active{
+	text-decoration:none;
+}
+.menu_body a:hover{
+  color: #f5b454;
+  text-decoration:none;
+}
+#estatuto h3 {
+	border-bottom:1px solid #b5aba2;
+	padding:5px 0;
+}
+
+#estatuto1 h4 {
+	border-bottom:1px solid #b5aba2;
+	padding:5px 0;
+}
+
+#estatutocap h3 {
+	border-bottom:1px solid #b5aba2;
+	padding:5px 0;
+}
+
+.style1 {color: #FF0000}
+
+.submenu, .menu, .detNoticia, .detArtigo, .detDocumento, .btn {
+	cursor: pointer;
+}
+.formlabel {
+	text-align:right;
+	width:150px;
+}
+
+.showPDF {
+	cursor:pointer;
+}
+
+.highlight {
+	font-weight:bold;
+	background-color: #ffff00;
+}
+.curriculo {
+	cursor:pointer;
+}
+#resbuscaDiv p {
+	display:inline;
+}
+
+#listNoticias1, #listNoticias2 {
+	background-color:#eff1f2;
+	padding: 10px;
+	margin-bottom: 15px;
+}
+
+#pollcontainer{
+	width:230px;
+}
+#loader{ display:none;}
+.option{ margin:5px 0; }
+.option p{ line-height:1.1em; font-size:0.85em; }
+.bar{ height:10px; background:#3399cc; }
+.yourvote{ background:#113399; }
+</style>
+<link rel="stylesheet" type="text/css" href="css/custom-theme/jquery-ui-1.7.2.custom.css"/>
+<link rel="stylesheet" type="text/css" href="css/jquery.fancybox.css"/>
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
+<script src="js/jquery-ui-1.7.2.custom.min.js"	type="text/javascript"></script>
+<script src="js/jquery.fancybox.pack.js"	type="text/javascript"></script>
+<script src="js/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script src="js/jquery.highlight-3.js" type="text/javascript"></script>
+<script src="js/jquery.form.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+var nivoParam = { effect:'fold',
+				animSpeed:0,slices:1 ,
+				directionNav:false,
+		        directionNavHide:true,
+		        controlNav:true,
+		        controlNavThumbs:false,
+		        controlNavThumbsFromRel:true
+			   };
+var busca1="";
+var busca2="";
+var busca3="";
+$(document).ready(function() {
+	h=screen.height-400;
+	$("#content").css("min-height",h+"px");
+	$("#content").load("home.php",function(){
+		$('#slider').nivoSlider( nivoParam );
+	});
+	$("div.menu, div.btn").hover(function(){$(this).css("font-weight","bold");},function(){$(this).css("font-weight","normal");});
+	$("input.btn").hover(function(){$(this).css("font-weight","bold");},function(){$(this).css("font-weight","normal");});
+	$(".submenu").live('click',function(){
+		$(".menu").css({"margin-top":"6px"});
+		opc=$(this).attr("id").substr(0,$(this).attr("id").indexOf("/"));
+		$(".menu[id='"+opc+"']").css({"margin-top":"7px"});
+		var p=$(this).attr("id");
+		if ($(this).attr("id")!="home") {
+			if (opc=="sobre") {
+				if ($(this).attr("id").substr($(this).attr("id").indexOf("/")+1)=='videos')
+					$("#content").load(opc+"/index.php?pag="+$(this).attr("id").substr($(this).attr("id").indexOf("/")+1), function(){$("p[id='sobre/videos']").trigger("click");});
+				else
+					$("#content").load(opc+"/index.php?pag="+$(this).attr("id").substr($(this).attr("id").indexOf("/")+1), function(){$("p[id='sobre/apresentacoes']").trigger("click");});
+			} else {
+				$("#content").load(opc+"/index.php?pag="+p);
+			}
+		} else
+			$("#content").load("home.php",function(){
+				$('#slider').nivoSlider( nivoParam );
+			});
+	});
+	$(".detNoticia").live("click",function(){
+		if ($(".menu[id='noticias']").css("margin-top")!="7px") {
+			$(".menu").css({"margin-top":"6px"});
+			$(".menu[id='noticias']").css({"margin-top":"7px"});
+		}
+		$("#content").load("noticias/detnoticias.php?id="+$(this).attr("id"));
+	});
+	$(".detArtigo").live("click",function(){
+		if ($(".menu[id='referencia']").css("margin-top")!="7px") {
+			$(".menu").css({"margin-top":"6px"});
+			$(".menu[id='referencia']").css({"margin-top":"7px"});
+		}
+		$("#content").load("referencia/detartigos.php?id="+$(this).attr("id"));
+	});
+	$(".detDocumento").live("click",function(){
+		if ($(".menu[id='referencia']").css("margin-top")!="7px") {
+			$(".menu").css({"margin-top":"6px"});
+			$(".menu[id='referencia']").css({"margin-top":"7px"});
+		}
+		$("#content").load("referencia/detdocumentos.php?id="+$(this).attr("id"));
+	});
+	$(".menu").click(function(){
+		$(".menu").css({"margin-top":"6px"});
+		$(this).css({"margin-top":"7px"});
+		if ($(this).attr("id")!="home")
+			$("#content").load($(this).attr("id")+"/index.php");
+		else
+			$("#content").load("home.php",function(){
+				$('#slider').nivoSlider( nivoParam );
+			});
+	});
+	$("a.link").live("click",function(){
+		$(".menu").css({"margin-top":"6px"});
+		$("#content").load($(this).attr("href"));
+		return false;
+	});
+	$("#firstpane p.menu_head").live("click",function() {
+		$("#secondpane p.menu_head").css({background:"#eff1f2",color:"#656681"}).removeClass("selected");
+		$(this).css({background:"#606060",color:"#ffffff"}).addClass("selected").next("div.menu_body").slideToggle(300).css({"background-color":"#c01f2e"}).siblings("div.menu_body").slideUp("slow");
+		$(this).next("div.menu_body").find("a").css({"background-color":"#606060","padding-left":"20px"});
+		$(this).siblings().css({background:"#eff1f2",color:"#656681"}).removeClass("selected");
+		$(this).next("div.menu_body").css({"background":"#606060"});
+		$(this).css({"border-bottom":"none","background-position":"225 3"}).siblings().css({"border-bottom":"1px solid #b5aba2"});
+		$('#setamenu').remove();
+		$(this).append("<image id='setamenu' style='position:absolute; top:8px; right:-11px;' src='images/seta-menu.png'>");
+	});
+	$("#secondpane p.menu_head").live("click",function() {
+		$("#firstpane p.menu_head").css({background:"#eff1f2",color:"#656681"}).removeClass("selected");
+		$(this).css({background:"#606060",color:"#ffffff"}).addClass("selected").next("div.menu_body").slideToggle(300).css({"background-color":"#c01f2e"}).siblings("div.menu_body").slideUp("slow");
+		$(this).next("div.menu_body").find("a").css({"background-color":"#606060","padding-left":"20px"});
+		$(this).siblings().css({background:"#eff1f2",color:"#656681"}).removeClass("selected");
+		$(this).next("div.menu_body").css({"background":"#606060"});
+		$(this).css({"border-bottom":"none","background-position":"225 3"}).siblings().css({"border-bottom":"1px solid #b5aba2"});
+		$('#setamenu').remove();
+		$(this).append("<image id='setamenu' style='position:absolute; top:8px; right:-11px;' src='images/seta-menu.png'>");
+	});
+	$(".menu_head").live("click",function(){
+		path="";
+		i=0;
+		$(".path.last").remove();
+		$(".path").each(function(){
+			if (path=="")
+				path='<a href="home.php" class="link path">'+$(this).text()+'</a>';
+			else
+				if (i==1)
+					path+=' > <a href="'+$(this).attr("id")+'.php" class="link path" id="'+$(this).attr("id")+'">'+$(this).text()+'</a>';
+				else
+					path+=" > <span class='path'>"+$(this).text()+"</span>";
+			i+=1;
+		});
+		path+=" > <span class='path last'>"+$(this).text().toUpperCase()+"</span>";
+		$("#detpath").html(path);
+		$("#col2det2").load($(this).attr("id")+".php");
+		return false;
+	});
+	$("#firstpane p.menu_subhead, #secondpane p.menu_subhead").live("click",function() {
+		$(this).css({background:"#606060",color:"#ffffff"}).next("div.menu_body").slideToggle(300).css({"background-color":"#c01f2e"}).siblings("div.menu_body").slideUp("slow");
+		$(this).next("div.menu_body").find("a").css({"background-color":"#606060","padding-left":"20px"});
+		$(this).next("div.menu_body").css({"background":"#606060"});
+		$(this).css({"border-bottom":"none","background-position":"225 3"}).siblings().css({"border-bottom":"1px solid #b5aba2"});
+		$('#setamenu').remove();
+		$(this).append("<image id='setamenu' style='position:absolute; top:8px; right:-11px;' src='images/seta-menu.png'>");
+	});
+	$(".menu_subhead").live("click",function(){
+		path="";
+		i=0;
+		$(".path.last").remove();
+		$(".path").each(function(){
+			if (path=="")
+				path='<a href="home.php" class="link path">'+$(this).text()+'</a>';
+			else
+				if (i==1)
+					path+=' > <a href="'+$(this).attr("id")+'.php" class="link path" id="'+$(this).attr("id")+'">'+$(this).text()+'</a>';
+				else
+					if (i==2)
+						path+=" > "+"<span class='path'>"+$(this).text()+"</span>";
+					else
+						path+=" > "+$(this).text();
+			i+=1;
+		});
+		path+=" > "+$(this).text().toUpperCase();
+		$("#detpath").html(path);
+		$("#col2det2").load($(this).attr("id")+".php");
+		return false;
+	});
+	$("#btnassociese").click(function(){
+		$(".menu").css({"margin-top":"6px"});
+		$("#home").css({"margin-top":"7px"});
+		$("#content").load("associese.php");
+		return false;
+	});
+	$("#reclame").click(function(){
+		$(".menu").css({"margin-top":"6px"});
+		$("#home").css({"margin-top":"7px"});
+		$("#content").load("reclame.php");
+		return false;
+	});
+	$(".item_menu").live("click",function(){
+		path="";
+		i=0;
+		$(".path.last").remove();
+		$(".path").each(function(){
+			if (path=="")
+				path='<a href="home.php" class="link path">'+$(this).text()+'</a>';
+			else
+				if (i==1)
+					path+=' > <a href="'+$(this).attr("id")+'.php" class="link path" id="'+$(this).attr("id")+'">'+$(this).text()+'</a>';
+				else
+					path+=" > "+$(this).text();
+			i+=1;
+		});
+		path+=" > "+$(this).parent().prev().text().toUpperCase();
+		path+=" : "+$(this).text().toUpperCase();
+		$("#detpath").html(path);
+		$("#col2det2").load($(this).attr("href"));
+		$(this).blur();
+		return false;
+	});
+	$(".showPDF").live("click",function(){
+		url='pdf/'+$(this).attr("id")+".pdf";
+		$.fancybox({
+			type		: 'iframe',
+			href		: url,
+			width		: '80%',
+			height		: '90%',
+			padding		: 10,
+			margin		: 0,
+			scrolling	: 'auto',
+			closeBtn	: true,
+			autoSize	: false,
+			openEffect	: 'none',
+			closeEffect	: 'none',
+			closeClick  : false,
+			openSpeed 	: 'fast',
+			closeSpeed 	: 'fast' 
+		});
+	});
+	$(".showHTML").live("click",function(){ 
+	url=$(this).attr("href"); 
+	$.fancybox({ 
+	type : 'iframe', 
+	href : url, 
+	width : '80%', 
+	height : '90%', 
+	padding : 10, 
+	margin : 0, 
+	scrolling : 'auto', 
+	closeBtn : true, 
+	autoSize : false, 
+	openEffect : 'none', 
+	closeEffect : 'none', 
+	closeClick : false, 
+	openSpeed : 'fast', 
+	closeSpeed : 'fast' 
+		});  
+return false;
+	}); 
+	$(".popup").live("click",function(){
+		url=$(this).attr("href");
+		var content="";
+		$.get(url,function(data) {
+			content=highlight(busca1,data);
+			$.fancybox({
+				type		: 'html',
+				content		: content,
+				width		: '80%',
+				height		: '90%',
+				padding		: 10,
+				margin		: 0,
+				scrolling	: 'auto',
+				closeBtn	: true,
+				autoSize	: false,
+				openEffect	: 'none',
+				closeEffect	: 'none',
+				closeClick  : false,
+				afterShow  : function() {
+					$('.ui-accordion').accordion('destroy');
+				},
+				openSpeed 	: 'fast',
+				closeSpeed 	: 'fast' 
+			});
+		});
+		return false;
+	});
+	$(".curriculo").live("click",function(){
+		id=$(this).attr("id");
+		$.fancybox({
+			type		: 'html',
+			content		: $("#cv_"+id).html(),
+			width		: '50%',
+			height		: 'auto',
+			padding		: 10,
+			margin		: 0,
+			scrolling	: 'auto',
+			closeBtn	: true,
+			autoSize	: false,
+			openEffect	: 'none',
+			closeEffect	: 'none',
+			closeClick  : false,
+			wrapCSS		: 'p {text-align:justify;}'
+		});
+	});
+	$("#buscaForm").ajaxForm({
+		target: "#content",
+		beforeSubmit : function() {
+			if ($("#buscaInput").val()=="") {
+				alert("Informe um valor a ser localizado no site.");
+				return false;
+			} else { 
+				return true;
+			}
+		},
+		success : {
+		}
+	});	
+});
+function preg_quote (str, delimiter) {
+	return (str + '').replace(new RegExp('[.\\\\+*?\\[\\^\\]$(){}=!<>|:\\' + (delimiter || '') + '-]', 'g'), '\\$&');
+}
+
+function prepare_search_term(str,delim) {
+    search = preg_quote(str,delim);
+    search = search.replace(/[aàáâãåäæ]/gmi, '[aàáâãåäæ]');
+    search = search.replace(/[eèéêë]/gmi, '[eèéêë]');
+    search = search.replace(/[iìíîï]/gmi, '[iìíîï]');
+    search = search.replace(/[oòóôõöø]/gmi, '[oòóôõöø]');
+    search = search.replace(/[uùúûü]/gmi, '[uùúûü]');
+    search = search.replace(/[yýÿ]/gmi, '[yýÿ]');
+    search = search.replace(/[nñ]/gmi, '[nñ]');
+    search = search.replace(/[cç]/gmi, '[cç]');
+	return search;
+}
+
+function highlight(searchtext, text) {
+    search = prepare_search_term(searchtext,"#");
+    p=new RegExp(search,'img');
+    return text.replace(p, function($0,$1) {x=($0?$0:$1); return "<span class='highlight'> "+x+"</span>"; });
+}
+
+</script>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div id="topheader">
+			<div id="logo" style="padding: 5px 0 0 20px;"><img src="images/logo-conar.gif"/></div>
+			<div  class="btn"  id="reclame" style="background:url(images/reclamacao.gif) no-repeat;text-align:center;font-size:110%;float:left;">
+				<div style="margin:10px 0 0 60px;">FAÇA SUA RECLAMAÇÃO<br/>SOBRE PROPAGANDA</div>
+			</div>
+			<img src="images/fio.gif" style="margin:10px 0 0 20px;float:left;"/>
+			<div id="busca">
+            	<div style="font-size:10.5px;"><a href="boletim/index.php" class="link">BOLETIM</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="links/index.php" class="link">LINKS</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="duvidas/index.php" class="link">DÚVIDAS FREQUENTES</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="contato/index.php" class="link">CONTATO</a></div>
+              	<div style="margin-top:16px;">
+              		<form id="buscaForm" method="post" action="busca.php"  accept-charset="UTF-8">
+              			<input name="buscaInput" id="buscaInput" class="campo" type="text"/> &nbsp;&nbsp;&nbsp;
+              			<input name="buscaButton" id="buscaButton" type="submit" class="botaoheader btn" value="BUSCAR"/>
+              		</form>
+              	</div>
+		</div>
+		<div id="menusup">
+        	<div style="width:10px; height:34px;float:left;"></div>
+            <div class="menu" id="home" style="background:url(images/menu1.gif) no-repeat; width:56px;margin-top:7px;">HOME</div>
+            <div class="menu" id="sobre" style="background:url(images/menu2.gif) no-repeat; width:122px;">SOBRE O CONAR</div>
+            <div class="menu" id="processos" style="background:url(images/menu3.gif) no-repeat; width:84px;">DECISÕES</div>
+            <div class="menu" id="codigo" style="background:url(images/menu4.gif) no-repeat; width:70px;">CÓDIGO</div>   
+            <div class="menu" id="legislacao" style="background:url(images/menu5.gif) no-repeat; width:96px;">LEGISLAÇÃO</div> 
+            <div class="menu" id="referencia" style="background:url(images/menu6.gif) no-repeat; width:107px;">REFERÊNCIAS</div>                                
+            <div class="menu" id="agenda" style="background:url(images/menu7.gif) no-repeat; width:70px;">AGENDA</div> 
+            <div class="menu" id="noticias" style="background:url(images/menu8.gif) no-repeat; width:73px;">NOTÍCIAS</div>  
+            <div id="btnassociese" class="btn" style="margin:6px 10px 0 0; padding-top:7px; float:right; height:28px; width:121px; text-align:center; background:url(images/botao-associese.gif) no-repeat; font-size:110%;">
+            	ASSOCIE-SE
+             </div>                    
+        </div>
+	</div>
+	</div>
+	<div id="content">
+	</div>
+	<div id="footer">
+		<div id="footer1">
+			<div class="titulo" style="float:left;">CÓDIGO</div>
+			<div class="titulo" style="float:left; margin-left:350px;">BOLETIM</div>
+        	<div style="clear:both;margin-right:30px;">
+        		<img src="images/btn_download.png" style="float:left;" />
+            	<div class="submenu" style="padding-top:3px; float:left; padding-left:5px;" id="codigo/codigo">Código Brasileiro de Autorregulamentação Publicitária</div>
+           		<img src="images/btn_download.png" style="float:left; margin-left:100px;" class="showPDF" id="conar207"/> 
+            	<div style="padding-top:3px; float:left; padding-left:5px;" class="showPDF" id="conar207">Boletim do CONAR - edição 207 - Setembro 2015</div>
+            	
+        	</div>
+        </div>
+		<div id="footer2">
+			Avenida Paulista, 2073 - Edifício Horsa II - 18º andar - Conjunto Nacional - CEP: 01311-940 - São Paulo - SP - Fone: (0xx11) 3284-8880
+		</div>
+	</div>
+</div>
+</body>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30607119-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</html>
