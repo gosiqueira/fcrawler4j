@@ -50,13 +50,14 @@ public class CosineSimilarity implements SimilarityMetric {
 		this.urlWeight = 0.5;
 
 		this.threshold = 0.0;
-		
+
 	}
 
-	public CosineSimilarity(List<String> genreTerms, List<String> contentTerms, double genreWeight, double contentWeight) {
+	public CosineSimilarity(List<String> genreTerms, List<String> contentTerms, double genreWeight,
+			double contentWeight) {
 		this.genreTerms = genreTerms;
 		this.contentTerms = contentTerms;
-		
+
 		if (genreWeight + contentWeight > 1) {
 			this.genreWeight = genreWeight / (genreWeight + contentWeight);
 			this.contentWeight = contentWeight / (genreWeight + contentWeight);
@@ -65,7 +66,7 @@ public class CosineSimilarity implements SimilarityMetric {
 			this.contentWeight = contentWeight;
 		}
 	}
-	
+
 	public CosineSimilarity(List<String> genreTerms, List<String> contentTerms, List<String> urlTerms,
 			double genreWeight, double contentWeight, double genreAndContentWeight, double urlWeight,
 			double threshold) {
@@ -73,21 +74,11 @@ public class CosineSimilarity implements SimilarityMetric {
 		this.contentTerms = contentTerms;
 		this.urlTerms = urlTerms;
 
-		if (genreWeight + contentWeight > 1) {
-			this.genreWeight = genreWeight / (genreWeight + contentWeight);
-			this.contentWeight = contentWeight / (genreWeight + contentWeight);
-		} else {
-			this.genreWeight = genreWeight;
-			this.contentWeight = contentWeight;
-		}
+		this.genreWeight = genreWeight;
+		this.contentWeight = contentWeight;
 
-		if (genreAndContentWeight + urlWeight > 1) {
-			this.genreAndContentWeight = genreAndContentWeight / (genreAndContentWeight + urlWeight);
-			this.urlWeight = urlWeight / (genreAndContentWeight + urlWeight);
-		} else {
-			this.genreAndContentWeight = genreAndContentWeight;
-			this.urlWeight = urlWeight;
-		}
+		this.genreAndContentWeight = genreAndContentWeight;
+		this.urlWeight = urlWeight;
 
 		this.threshold = threshold;
 	}
@@ -95,26 +86,26 @@ public class CosineSimilarity implements SimilarityMetric {
 	@Override
 	public double similarity(String text) throws IOException {
 		double finalSimilarity = 0.0;
-		
-		double genreSimilarity = sim(augmentedTermFrequency(this.genreTerms, text));
-		double contentSimilarity = sim(augmentedTermFrequency(this.contentTerms, text));
-		
-		finalSimilarity = this.genreWeight * genreSimilarity + this.contentWeight * contentSimilarity;
-		
+
+		double genreSimilarity = sim(logarithmicTermFrequency(this.genreTerms, text));
+		double contentSimilarity = sim(logarithmicTermFrequency(this.contentTerms, text));
+
+		finalSimilarity = (this.genreWeight * genreSimilarity + this.contentWeight * contentSimilarity) / (this.genreWeight + this.contentWeight);
+
 		return finalSimilarity;
 	}
-	
+
 	@Override
 	public double similarity(String pageText, String urlText) throws IOException {
 		double finalSimilarity = 0.0;
 
-		double genreSimilarity = sim(augmentedTermFrequency(this.genreTerms, pageText));
-		double contentSimilarity = sim(augmentedTermFrequency(this.contentTerms, pageText));
-		double urlSimilarity = sim(augmentedTermFrequency(this.urlTerms, urlText));
+		double genreSimilarity = sim(logarithmicTermFrequency(this.genreTerms, pageText));
+		double contentSimilarity = sim(logarithmicTermFrequency(this.contentTerms, pageText));
+		double urlSimilarity = sim(logarithmicTermFrequency(this.urlTerms, urlText));
 
-		double genreAndContentCombination = this.genreWeight * genreSimilarity + this.contentWeight * contentSimilarity;
+		double genreAndContentCombination = (this.genreWeight * genreSimilarity + this.contentWeight * contentSimilarity) / (this.genreWeight + this.contentWeight);
 
-		finalSimilarity = this.genreAndContentWeight * genreAndContentCombination + this.urlWeight * urlSimilarity;
+		finalSimilarity = (this.genreAndContentWeight * genreAndContentCombination + this.urlWeight * urlSimilarity) / (genreAndContentCombination + this.urlWeight);
 
 		return finalSimilarity;
 	}
@@ -137,7 +128,7 @@ public class CosineSimilarity implements SimilarityMetric {
 				maxShingle = shingleSize;
 			}
 		}
-		
+
 		text = StringUtils.lowerCase(StringUtils.stripAccents(text));
 
 		Analyzer analyzer = new StandardAnalyzer(new StringReader(""));
@@ -166,6 +157,49 @@ public class CosineSimilarity implements SimilarityMetric {
 			tf.set(i, 0.5 + (0.5 * tf.get(i) / maxFreq));
 		}
 
+		return tf;
+	}
+	
+	public List<Double> logarithmicTermFrequency(List<String> terms, String text) throws IOException {
+		Map<String, Integer> index = new HashMap<>();
+		List<Double> tf = new ArrayList<>();
+
+		int maxShingle = 2;
+
+		for (String term : terms) {
+			index.put(StringUtils.lowerCase(StringUtils.stripAccents(term)), 0);
+			int shingleSize = term.split(" ").length;
+			if (shingleSize > maxShingle) {
+				maxShingle = shingleSize;
+			}
+		}
+
+		text = StringUtils.lowerCase(StringUtils.stripAccents(text));
+
+		Analyzer analyzer = new StandardAnalyzer(new StringReader(""));
+		ShingleFilter filter = new ShingleFilter(analyzer.tokenStream(null, text));
+		filter.setMaxShingleSize(maxShingle);
+		filter.reset();
+
+		while (filter.incrementToken()) {
+			String token = filter.getAttribute(CharTermAttribute.class).toString();
+			if (index.containsKey(token)) {
+				index.replace(token, index.get(token) + 1);
+			}
+		}
+
+		filter.end();
+		filter.close();
+		analyzer.close();
+
+		for (String key : index.keySet()) {
+			if (index.get(key) > 0) {
+				tf.add(1.0 + Math.log10(index.get(key)));
+			} else {
+				tf.add(0.0);
+			}
+		}
+		
 		return tf;
 	}
 

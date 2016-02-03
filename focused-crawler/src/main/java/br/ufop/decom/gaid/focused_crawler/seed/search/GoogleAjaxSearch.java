@@ -24,8 +24,8 @@ public class GoogleAjaxSearch implements Search {
 
 	private static final String SEARCH_URL = "http://ajax.googleapis.com/ajax/services/search/web?&v=1.0&rsz=large&q=";
 	private static final String FILE_TYPE = "&fileType="; /*
-															 * Give preference to
-															 * html fileType
+															 * Give preference
+															 * to html fileType
 															 */
 	private static final String START = "&start=";
 
@@ -40,8 +40,8 @@ public class GoogleAjaxSearch implements Search {
 		List<JSONObject> result = new ArrayList<>();
 
 		String query = queryBuilder.getQuery(Seed.UNION_FIRST);
-		int start = 0;		
-		
+		int start = 0;
+
 		do {
 			String url = SEARCH_URL + query.replaceAll(" ", "+") + FILE_TYPE + "html" + START + start;
 
@@ -56,7 +56,7 @@ public class GoogleAjaxSearch implements Search {
 				logger.warn("Could not search for seed pages.");
 				logger.error(e.getMessage());
 			}
-			
+
 			start += 10;
 		} while (result.size() < numSeeds);
 
